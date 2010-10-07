@@ -1,0 +1,26 @@
+html, body { margin: 0; padding: 0; background: #ddd; }
+h1 { padding: 0.7em; margin: 0 auto; text-align: left; font-size: 300%; background: #aaa; color: #000;}
+h1 span { font-weight: normal; }
+.para { background: #fff; padding: 1em 2em; }
+
+h2, h3 { font-family: Times New Romain; font-weight: normal; margin: 0 0 0.4em 0; }
+h2 { font-size: 200%; }
+h3 { font-size: 180%; }
+.date { color: #444; font-style: italic; font-size: 1em; }
+#doc { margin: 1em auto 2em auto; background: #fff;
+    -webkit-box-shadow: 0 0 10px #444; -moz-box-shadow: 0 0 10px #444; box-shadow: 0 0 10px #444; }
+p.loc { font-size: 0.9em; padding: 0.5em; margin: 0.5em; color: #ccc; width: 695px; margin: 0 auto; text-align: left; }
+p.loc a { color: #88a; text-decoration: none; }
+p.loc a.sel { font-weight: bold; color: #000; }
+
+ul#people {
+    height: 300px;
+    overflow: auto;
+    background: rgb(255, 250, 240);
+    margin: 0 0 1em 0;
+    padding: 1em 1em 1em 2em;
+}
+ul#people li { list-style: disc; margin-bottom: 0.2em; }
+#reg { text-align: center; font-size: 1.4em; margin: 1em;}
+.faq p { margin-bottom: 2.5em; }
+.nav { background: #fff; padding: 0.3em; border-bottom: 1px solid #ddd; }
