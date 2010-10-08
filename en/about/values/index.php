@@ -17,7 +17,7 @@
         <div id="hd" role="banner"><h1>Mageia <span>| Values</span></h1></div>
         <div id="bd" role="main">
             <div class="yui-g">
-                <div class="para faq">
+                <div class="para values">
                     <h2>Mageia is Social Software</h2>
 
                     <ul>
@@ -33,7 +33,7 @@
                     </ul>
                     
                     <h2>Mageia is Powerful Technology</h2>
-                    </ul>
+                    <ul>
                         <li>We, as Free Software and as an Operating System, will constantly innovate to remain a premium computing technology choice.</li>
                         <li>We will stay up-to-date with the latest trends in Open Source, while choosing wisely to balance between modernization and reliability in our releases.</li>
                         <li>We will maintain the vibrancy within our Community, always aiming to lead the way in collaborative development.</li>

@@ -24,3 +24,5 @@ ul#people li { list-style: disc; margin-bottom: 0.2em; }
 #reg { text-align: center; font-size: 1.4em; margin: 1em;}
 .faq p { margin-bottom: 2.5em; }
 .nav { background: #fff; padding: 0.3em; border-bottom: 1px solid #ddd; }
+.values ul { margin-bottom: 2em; }
+.values ul li { margin-bottom: 0.7em; }
