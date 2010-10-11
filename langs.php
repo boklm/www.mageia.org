@@ -24,12 +24,13 @@ $langs = array(
 
 $sru = trim($_SERVER['REQUEST_URI']);
 $sel = explode('/', $sru);
-$locale = $sel[1];
-$page   = isset($sel[2]) ? $sel[2] : null;
+array_shift($sel);
+$locale = array_shift($sel);
+$page   = count($sel) > 0 ? implode('/', $sel) : null;
 
 $list_langs = array();
 foreach ($langs as $k => $v)
-    $list_langs[] = sprintf('<a href="/%s/"%s>%s</a>',
+    $list_langs[] = sprintf('<a href="/%s"%s>%s</a>',
         $page != null ? implode('/', array($k, $page)) : $k,
         $k == $locale ? ' class="sel"' : '',
         $v);
