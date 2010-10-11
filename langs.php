@@ -43,7 +43,8 @@ $nav_list = array(
     "/{$locale}/faq/" => 'FAQ',
     "/{$locale}/#contact" => 'IRC, mailing-lists',
     "http://donate.mageia.org/{$locale}/" => 'Donations',
-    "http://mageia.org/wiki/doku.php?id=press"=>'Press'
+    "http://mageia.org/wiki/doku.php?id=press" => 'Press',
+    "/{$locale}/about/values/" => 'Values'
 );
 
 $list_menu = array();
