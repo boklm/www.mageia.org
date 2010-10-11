@@ -3,7 +3,7 @@ h1 { padding: 0.7em; margin: 0 auto; text-align: left; font-size: 300%; backgrou
 h1 span { font-weight: normal; }
 .para { background: #fff; padding: 1em 2em; }
 
-h2, h3 { font-family: Times New Romain; font-weight: normal; margin: 0 0 0.4em 0; }
+h2, h3 { font-family: Georgia, "Times New Romain"; font-weight: normal; margin: 0 0 0.4em 0; }
 h2 { font-size: 200%; }
 h3 { font-size: 180%; }
 .date { color: #444; font-style: italic; font-size: 1em; }
@@ -25,4 +25,4 @@ ul#people li { list-style: disc; margin-bottom: 0.2em; }
 .faq p { margin-bottom: 2.5em; }
 .nav { background: #fff; padding: 0.3em; border-bottom: 1px solid #ddd; }
 .values ul { margin-bottom: 2em; }
-.values ul li { margin-bottom: 0.7em; }
+.values ul li { margin-bottom: 0.4em; }
