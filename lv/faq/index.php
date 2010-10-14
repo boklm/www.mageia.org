@@ -1,15 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html dir="ltr" lang="lv"><head>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <meta charset="utf-8">
-  <title>Mageia Biežāķ Uzdotie Jautājumi</title>
-  <meta name="keywords" content="mageia, linux, mandriva, free software">
-    <link rel="stylesheet" type="text/css" href="/g/style/all.css" />
-<?php include '../../analytics.php';?>
-  </head><body>
-<?php include '../../langs.php';?>    
-<div id="doc" class="yui-t7">
+    <meta charset="utf-8">
+    <title>Mageia - Biežāk Uzdotie Jautājumi</title>
+    <meta name="keywords" content="mageia, linux, mandriva, free software">
+    <link rel="stylesheet" type="text/css" href="/g/style/all.css">
+    <?php include '../../analytics.php'; ?>
+</head><body>
+    <?php include '../../langs.php';?>
+
+    <div id="doc" class="yui-t7">
         <div id="hd" role="banner"><h1>Mageia <span>| BUJ</span></h1></div>
         <div id="bd" role="main">
             <div class="yui-g">

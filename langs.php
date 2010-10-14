@@ -8,6 +8,7 @@ $langs = array(
     'el' => 'Ελληνικά',
     'en' => 'English',
     'es' => 'Español',
+    'et' => 'Eesti',
     'fi' => 'Suomeksi',
     'fr' => 'Français',
     'it' => 'Italiano',
