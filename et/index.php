@@ -1,84 +1,83 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html>
-<html dir="ltr" lang="en">
-<head>
-    <meta charset="utf-8" />
-    <title>Mageia - A New Linux Distribution</title>
-    <meta name="description" content="Mageia is new community-based Linux distribution." />
-    <meta name="keywords" content="mageia, linux, mandriva, free software" />
+<html dir="ltr" lang="et"><head>
+    <meta charset="utf-8">
+    <title>Mageia - uus Linuxi distributsioon</title>
+    <meta name="description" content="Mageia on uus kogukonna loodav Linuxi distributsioon.">
+    <meta name="keywords" content="mageia, linux, mandriva, vaba tarkvara">
     <link rel="stylesheet" type="text/css" href="/g/style/all.css" />
     <?php include '../analytics.php'; ?>
 </head>
 <body>
     <?php include '../langs.php'; ?>
     <div id="doc" class="yui-t7">
-        <div id="hd" role="banner"><h1>Mageia <span>&ndash; A New Linux Distribution</span></h1></div>
+        <div id="hd" role="banner"><h1>Mageia <span>– uus Linuxi distributsioon</span></h1></div>
         <div id="bd" role="main">
             <div class="yui-g">
                 <div class="para">
-                    <p class="date">Paris, September 18<sup>th</sup> 2010</p>
-                    <p>As you may have heard, the future of the Mandriva Linux distribution is unclear.</p>
-                    <p>Most employees working on the distribution were laid off when Edge-IT was liquidated. We do not trust the plans of Mandriva SA anymore and we don't think the company (or any company) is a safe host for such a project.</p>
+                    <p class="date">Pariis, 18. septembril<sup>th</sup> 2010</p>
+                    <p>Nagu olete arvatavasti kuulnud, on Mandriva Linuxi distributsiooni tulevik ebaselge.</p>
+                    <p>Paljud distributsiooni kallal töötanud inimesed lasti lahti, kui likvideeriti ettevõte Edge-IT. Me ei usalda enam Mandriva SA plaane ega usu, et see (või ka mis tahes muu) firma on niisuguse projekti jaoks turvaline peremees.</p>
 
-                    <p>Many things have happened in the past 12 years.
-                        Some were very nice: the Mandriva Linux community is quite large, motivated and experienced, the distribution remains one of the most popular and an award-winning product, easy to use and innovative.
-                        Some other events did have some really bad consequences that made people not so confident in the viability of their favourite distribution.</p>
-                    <p>People working on it just do not want to be dependent on the economic fluctuations and erratic, unexplained strategic moves of the company.</p>
-                </Div>
+                    <p>Viimase 12 aasta jooksul on juhtunud palju asju.
+                        Mõned asjad on olnud väga toredad: Mandriva Linuxi kogukond on üsna suur, motiveeritud ja kogemustega, distributsioon üks populaarsemaid ja mitmeid auhindu võitnud, seda on lihtne kasutada ja see on päris uuendusmeelne.
+                        Mõnel sündmusel on aga olnud aga õige halvad tagajärjed, mis on vähendanud inimeste usku oma lemmikdistributsiooni elujõulisusse.</p>
+                    <p>Distributsiooni kallal töötavad inimesed lihtsalt ei soovinud enam sõltuda majandusliku olukorra kõikumistest ning ettevõtte seletamatutest ja umbropsu langetatud strateegilistest otsustest.</p>
+                </div>
                 <div class="para">
-                    <h2>Forking Mandriva Linux? Yes.</h2>
+                    <h2>Mandriva Linuxi järglane? Jah!</h2>
 
-                    <p>Forking an existing open source project is never an easy decision to make, and forking Mandriva Linux is a huge task.</p>
-                    <p>It was not an impulsive decision. We all spoke a lot before: former employees, Cooker contributors and users' communities. We collected opinions and reactions in the past weeks as we needed to get some kind of global agreement and to gather, before going ahead.</p>
+                    <p>Olemasolevast vaba tarkvara projektist uue haru loomine ei ole kunagi kerge otsus ning Mandriva Linuxi järglase loomine on hiiglaslik ettevõtmine.</p>
+                    <p>See ei olnud siiski hetkeajel tehtud otsus. Me kõik rääkisime sellest päris palju: nii endised töötajad, arendusharu (Cooker) kaastöötajad kui ka kasutajate kogukonnad. Me kogusime viimastel nädalatel arvamusi ja reaktsioone, sest soovisime enne järgmisi samme saavutada teatava üleüldise konsensuse.</p>
 
-                    <p>We believe a fork is the best solution and we have decided to create a new distribution:
+                    <p>Me usume, et lahkulöömine ja järglase loomine on parim lahendus, mistõttu otsustasime luua uue distributsiooni:
                         <strong>Mageia</strong>.</p>
                         
                 </div>
                 <div class="para">
-            <h2>New grounds.</h2>
-            <p>Mageia is a community project: it will not depend on the fate of a particular company.</p>
-            <p>A not-for-profit organization will be set up in the coming days and it will be managed by a board of community members. After the first year this board will be regularly elected by committed community members.</p>
-            <p>This organization will manage and coordinate the distribution: code &amp; software hosting and distribution, build system, marketing, foster communication and events. Data, facts, roadmaps, designs will be shared, discussed through this organization.</p>
-            <p>We will discuss and lay down details in the coming days.</p>
-            <p>Mageia distribution will be what the board makes it to be, with the help and contribution of the whole community. We already have ideas and plans for this distribution; we want to:</p>
+            <h2>Uued põhialused</h2>
+            <p>Mageia on kogukonna projekt: selle saatus ei sõltu ühegi konkreetse ettevõtte käekäigust.</p>
+            <p>Lähipäevil luuakse mittetulundusühing, mida hakkab juhtima kogukonna liikmete nõukogu. Esimese tööaasta järel hakkavad seda nõukogu regulaarselt valima pühendunud kogukonnaliikmed.</p>
+            <p>See organisatsioon hakkab haldama ja koordineerima distributsiooni: koodi &amp; tarkvara majutamine ja levitamine, tarkvara ehitamise süsteem, turundus, suhtlemine ja üritused. Selle organisatsiooni vahendusel jagatakse ja arutatakse andmeid, fakte, edasisi kavu ning plaane.</p>
+            <p>Üksikasjad arutatakse läbi ja pannakse paika lähipäevil.</p>
+            <p>Mageia distributsioon tuleb just selline, nagu nõukogu seda soovib, kusjuures selle juures saavad ulatada oma abikäe kõik kogukonna liikmed. Meil on juba mõningaid mõtteid ja plaane distributsiooni osas, nimelt tahame me:</p>
             <ul>
-                <li>make Linux and free software straightforward to use for everyone;</li>
-                <li>provide integrated system configuration tools;</li>
-                <li>keep a high-level of integration between the base system, the desktop (KDE/GNOME) and applications; especially improve third-parties (be it free or proprietary software) integration;</li>
-                <li>target new architectures and form-factors;</li>
-                <li>improve our understanding of computers and electronics devices users.</li>
+                <li>muuta Linuxi ja vaba tarkvara kasutamise kõigile lihtsaks ja kergeks;</li>
+                <li>pakkuda ühtsel alusel töötavaid süsteemi seadistamise tööriistu;</li>
+                <li>kindlustada väga tugeva ühtsuse baassüsteemi, töölaua (KDE/GNOME) ja rakenduste vahel, eriti aga parandada kolmanda poole tarkvara (olgu see vaba või omanduslik) kokkukuuluvust ülejäänud süsteemiga;</li>
+                <li>olla valmis kasutamiseks uutel arhitektuuridel ja platvormidel;</li>
+                <li>edendada arvutite ja muude elektrooniliste seadmete kasutajate teadmisi.</li>
             </ul>
-            <p>You certainly have your ideas too. We will take the time to share these.</p>
+            <p>Kahtlemata on oma ideid ka teil. Jagage neid meiega ja me jagame neid edasi.</p>
         </div>
         <div class="para">
-            <h2>Community.</h2>
-            <p>We understand the Mageia community as:</p>
+            <h2>Kogukond</h2>
+            <p>Meie arusaamist mööda kuuluvad Mageia kogukonda:</p>
             <ul>
-                <li>users,</li>
-                <li>makers (designers, developers, packagers, translators, testers, etc.),</li>
-                <li>advocates.</li>
+                <li>kasutajad,</li>
+                <li>loojad (disainerid, arendajad, pakendajad, tõlkijad, testijad jne.),</li>
+                <li>toetajad ja propagandistid.</li>
             </ul>
-            <p>Those can be individuals, organizations, companies from all over the world.</p>
-            <p>There are challenges here; so many countries, so many languages, so many cultures, so different needs. And that's great.</p>
-            <p>We've seen with the Mandriva Assembly experiment that it's not an easy task. We believe we can make it better yet.</p>
+            <p>Need võivad olla üksikisikud, organisatsioonid või ettevõtted mis tahes maailma nurgast.</p>
+            <p>Meie ees seisab hulk raskusi: nii palju riike, nii palju keeli, nii palju kultuure, nii palju eri vajadusi. Ja see on tore ja hea!</p>
+            <p>Me nägime Mandriva Assamblee kogemuse varal, et see ei ole lihtne ülesanne. Me usume, et me suudame sellega paremini hakkama saada.</p>
         </div>
         <div class="para" id="people">
-            <h2>People.</h2>
-            <p>Whatever you do in life, people are your greatest and only true asset. And Mageia aims to help people. Trust matters. We are only at the very beginning of this fork. It won't be easy. But we believe it to be necessary.</p>
+            <h2>Inimesed</h2>
+            <p>Mida te ka ei teeks, on inimesed alati suurim ja ainuke tõeline vara. Mageia on mõeldud inimeste abistamiseks. Usaldus maksab. Me oleme oma tegevust alles alustanud. Tulevik tõotab raskusi. Kuid me usume, et see, mida me teeme, on hädavajalik.</p>
 
             <?php include '../people.html'; ?>
-            <p>For other contributors: if you want your name to be added to the list, indicating that you plan to follow the fork, let us know on IRC channel, or by email.</p>
+
+<p id="reg"><a href="http://mageia.org/wiki/" hreflang="en">Registreerige ennast siin!</a></p>            <p>Kõik huvilised: kui soovite, et teie nimi oleks siin kirjas, mis annab märku, et tunnete Mageia vastu siirast huvi ja tahate selle arendamises kaasa lüüa, teatage sellest meile IRC kanalil või e-kirjaga.</p>
             </div>
             <div class="para">
-                <h2>Next.</h2>
-                <p>We are looking for many different things in the next days:</p>
+                <h2>Edasine tegevus</h2>
+                <p>Me püüame lähipäevil edasi liikuda väga mitmel suunal:</p>
                 <ul>
-                    <li>hardware for code hosting, build servers + datacenters to host these servers;</li>
-                    <li>developers, contributors, translators, testers to invest into the development of Mageia;</li>
-                    <li>counsels on building the organization and its processes, etc.</li>
+                    <li>riistavara koodi majutamiseks, ehitamisserverid + andmekeskused nende serverite majutamiseks;</li>
+                    <li>arendajad, kaastöötajad, tõlkijad, testijad, kes tunnevad huvi Mageia arendamise vastu;</li>
+                    <li>arupidamine organisatsiooni ülesehituse ja toimimise üle jne.</li>
                 </ul>
-                <p>Your help and support will be very much appreciated.</p>
+                <p>Teie abi ja toetus on äärmiselt oodatud.</p>
             </div>
             </div>
             <div class="yui-g">
@@ -102,5 +101,4 @@
             </div>
         </div>
     </div>
-</body>
-</html>
+</body></html>
