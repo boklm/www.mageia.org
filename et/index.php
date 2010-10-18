@@ -67,7 +67,7 @@
 
             <?php include '../people.html'; ?>
 
-<p id="reg"><a href="http://mageia.org/wiki/" hreflang="en">Registreerige ennast siin!</a></p>            <p>Kõik huvilised: kui soovite, et teie nimi oleks siin kirjas, mis annab märku, et tunnete Mageia vastu siirast huvi ja tahate selle arendamises kaasa lüüa, teatage sellest meile IRC kanalil või e-kirjaga.</p>
+<p>Kõik huvilised: kui soovite, et teie nimi oleks siin kirjas, mis annab märku, et tunnete Mageia vastu siirast huvi ja tahate selle arendamises kaasa lüüa, teatage sellest meile IRC kanalil või e-kirjaga.</p>
             </div>
             <div class="para">
                 <h2>Edasine tegevus</h2>
