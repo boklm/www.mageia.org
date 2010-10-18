@@ -3,9 +3,9 @@
 <html dir="ltr" lang="el">
 <head>
     <meta charset="utf-8" />
-    <title>Mageia Αξείες</title>
+    <title>Mageia αξίες</title>
     <meta name="description" content="Η Mageia είναι η νέα κοινοτική διανομή Linux." />
-    <meta name="keywords" content="mageia, αξείες" />
+    <meta name="keywords" content="mageia, αξίες" />
     <meta name="author" content="Mageia" />
     <link rel="stylesheet" type="text/css" href="/g/style/all.css">
     <?php include '../../../analytics.php'; ?>
@@ -13,7 +13,7 @@
 <body>
     <?php include '../../../langs.php'; ?>
     <div id="doc" class="yui-t7">
-        <div id="hd" role="banner"><h1>Mageia <span>| Αξείες</span></h1></div>
+        <div id="hd" role="banner"><h1>Mageia <span>| αξίες</span></h1></div>
         <div id="bd" role="main">
             <div class="yui-g">
                 <div class="para values">
