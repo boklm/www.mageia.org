@@ -20,7 +20,8 @@ $langs = array(
     'ru' => 'Русский',
     'tr' => 'Türkçe',
     'sl' => 'Slovenščina',
-    'zh-cn' => '简体中文'
+    'zh-cn' => '简体中文',
+    'zh-tw' => '正體中文'
 );
 
 $sru = trim($_SERVER['REQUEST_URI']);
