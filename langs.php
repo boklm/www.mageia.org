@@ -26,7 +26,8 @@ $nav_list = array(
     "/{$locale}/#contact" => 'IRC, mailing-lists',
     "http://donate.mageia.org/{$locale}/" => 'Donations',
     "http://mageia.org/wiki/doku.php?id=press" => 'Press',
-    "/{$locale}/about/values/" => 'Values'
+    "/{$locale}/about/values/" => 'Values',
+    "/{$locale}/about/code-of-conduct/" => 'Code of Conduct'
 );
 
 $list_menu = array();
