@@ -27,7 +27,7 @@ ul#people li { list-style: disc; margin-bottom: 0.2em; }
 .values ul { margin-bottom: 2em; }
 .values ul li { margin-bottom: 0.4em; }
 .codeofconduct h2.be { margin-top: 1em; }
-#preamble { font-size: 90%; padding: 1em; border: 1px solid #ccc; background: #eee; color: #555;}
+#preamble { font-size: 90%; padding: 1em 1em 0 1em; border: 1px solid #ccc; background: #eee; color: #555;}
 #overview {}
 p.license { font-size: 85%; font-style: italic; }
 .license, .license a { color: #555; }

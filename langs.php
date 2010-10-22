@@ -11,11 +11,15 @@ $locale = array_shift($sel);
 $page   = count($sel) > 0 ? implode('/', $sel) : null;
 
 $list_langs = array();
+$options = array();
+
 foreach ($langs as $k => $v)
+{
     $list_langs[] = sprintf('<a href="/%s"%s>%s</a>',
         $page != null ? implode('/', array($k, $page)) : $k,
         $k == $locale ? ' class="sel"' : '',
         $v);
+}
 
 // global nav
 $nav_list = array(
@@ -32,10 +36,12 @@ $nav_list = array(
 
 $list_menu = array();
 foreach ($nav_list as $k => $v)
+{
     $list_menu[] = sprintf('<a href="%s"%s>%s</a>',
         $k,
         $k == $sru ? ' class="sel"' : '',
         $v);
+}
 
 echo sprintf('<div class="nav"><p class="loc">%s</p></div>', implode(' | ', $list_menu));
 

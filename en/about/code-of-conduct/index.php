@@ -61,7 +61,7 @@
 
                     <p>We expect members of our community to be respectful when dealing with other contributors, users and communities. Remember that Mageia is an international project and that you may be unaware of important aspects of other cultures.</p>
 
-                    <h2 id="be_collaborative" class="be">Be collaborative</h2>
+                    <h2 id="be_collaborative" class="be">Be collaborative.</h2>
 
                     <p>The Free Software Movement depends on collaboration: it helps limit duplication of effort while improving the quality of the produced software. In order to avoid misunderstanding, try to be clear and concise when requesting or giving help. Remember that it is easy to misunderstand emails (especially when they are not written in your mother tongue). Ask for clarifications if something seems unclear; remember the first rule - first, assume that people mean well.</p>
 
@@ -74,7 +74,7 @@
                     <p>As a user, your feedback is important, as is its form. Poorly considered comments can cause pain and demotivate other community members, but considerate discussion of problems can bring positive results. An encouraging word works wonders.</p>
 
 
-                    <h2 id="be_pragmatic" class="be">Be pragmatic</h2>
+                    <h2 id="be_pragmatic" class="be">Be pragmatic.</h2>
 
                     <p>Mageia is a pragmatic community.</p>
                     <p>We value tangible results over having the last word in a discussion. We defend our core values like freedom and respectful collaboration, but we don't let arguments about minor issues get in the way of achieving more important results. We are open to suggestions and welcome solutions regardless of their origin. When in doubt, support a solution which helps getting things done over one which has theoretical merits, but isn't being implemented. Use the tools and methods which help get the job done. Let decisions be made by those who do the work. If some issues arise that seem irreconcilable, consult the relevant team leader. If necessary, the Mageia Council may be consulted.</p>
