@@ -20,10 +20,10 @@
                 <div class="para codeofconduct">
                     <div id="preamble">
 
-                    <p>Le projet Mandriva Linux se déroule au sein d&rsquo;une communauté vivante et ouverte à tous. Nous voulons que cette communauté soit conviviale et que chacun, nouvel arrivant ou membre établi, se sente à l&rsquo;aise et accepté.</p>
-                    <p>Dans la communauté Mandriva Linux, des participants du monde entier se retrouvent pour créer un système d&rsquo;exploitation libre. Ceci est rendu possible par l&rsquo;entraide, le travail acharné et l&rsquo;enthousiasme de milliers de personnes, ceux qui créent et utilisent Mandriva Linux et également les membres des autres projets libres.</p>
-                    <p>Ce document indique comment les participants à Mandriva peuvent coopérer efficacement dans une atmosphère positive et inspiratrice et explique comment nous pouvons nous renforcer et nous aider les uns les autres.
-                    <p>Ce code de conduite est partagé par tous les contributeurs et utilisateurs qui s&rsquo;engagent dans le projet Mandriva Linux et les services de sa communauté, ainsi que par les employés de Mandriva.</p>
+                    <p>Le projet Mageia se déroule au sein d&rsquo;une communauté vivante et ouverte à tous. Nous voulons que cette communauté soit conviviale et que chacun, nouvel arrivant ou membre établi, se sente à l&rsquo;aise et accepté.</p>
+                    <p>Dans la communauté Mageia, des participants du monde entier se retrouvent pour créer un système d&rsquo;exploitation libre. Ceci est rendu possible par l&rsquo;entraide, le travail acharné et l&rsquo;enthousiasme de milliers de personnes, ceux qui créent et utilisent Mageia et également les membres des autres projets libres.</p>
+                    <p>Ce document indique comment les participants à Mageia peuvent coopérer efficacement dans une atmosphère positive et inspiratrice et explique comment nous pouvons nous renforcer et nous aider les uns les autres.
+                    <p>Ce code de conduite est partagé par tous les contributeurs et utilisateurs qui s&rsquo;engagent dans le projet Mageia et les services de sa communauté, ainsi que par les employés de Mageia.</p>
                     </div>
                     
                     <div id="overview">
@@ -39,18 +39,18 @@
                         <li><a href="#get_support">Recevez de l&rsquo;aide des autres dans la communauté</a>.</li>
                     </ul>
                     
-                    <p>Ce code de conduite indique les comportements attendus des membres de la communauté de Mandriva dans les fora, listes de diffusion, wikis, sites internet, canaux IRC, rencontres publiques ou correspondance privée autour du projet Mandriva et de ses services. La communauté agit en accord avec les normes énoncées dans ce code de conduite et défend ces normes pour le bénéfice de la communauté. Les leaders de chaque groupe, comme les modérateurs des listes de diffusions, canaux IRC, fora, etc. possèdent le droit de suspendre l&rsquo;accès à quiconque persisterait à enfreindre notre code de conduite.</p>
+                    <p>Ce code de conduite indique les comportements attendus des membres de la communauté de Mageia dans les fora, listes de diffusion, wikis, sites internet, canaux IRC, rencontres publiques ou correspondance privée autour du projet Mageia et de ses services. La communauté agit en accord avec les normes énoncées dans ce code de conduite et défend ces normes pour le bénéfice de la communauté. Les leaders de chaque groupe, comme les modérateurs des listes de diffusions, canaux IRC, fora, etc. possèdent le droit de suspendre l&rsquo;accès à quiconque persisterait à enfreindre notre code de conduite.</p>
                     </div>
 
                     <h2 id="be_considerate" class="be">Soyez prévenant.</h2>
 
                     <p>Vos actions et votre travail vont affecter d'autres personnes, et en retour vous allez dépendre du travail et des actions des autres. Chaque décision que vous prendrez affectera d'autres membres de la communauté. Nous attendons que vous teniez compte de ces conséquences quand vous prenez des décisions.</p>
                     <p>En tant que contributeur, assurez-vous de porter de l'intérêt au travail des autres, et gardez à l'esprit que vos actes les affectent. Il est aussi attendu que vous respectiez le planning du développement et les directives.</p>
-                    <p>En tant qu'utilisateur, rappelez-vous que les contributeurs travaillent assidûment à leurs contributions pour Mandriva Linux et en sont très fiers. Si vous êtes contrarié, vos problèmes ont plus de chances d'être résolus si vous donnez des renseignements précis et polis aux personnes concernées.</p>
+                    <p>En tant qu'utilisateur, rappelez-vous que les contributeurs travaillent assidûment à leurs contributions pour Mageia et en sont très fiers. Si vous êtes contrarié, vos problèmes ont plus de chances d'être résolus si vous donnez des renseignements précis et polis aux personnes concernées.</p>
 
                     <h2 id="be_respectful" class="be">Soyez respectueux.</h2>
 
-                    <p>Dans le but de conserver une communauté Mandriva saine, ses membres doivent se sentir à l'aise et acceptés. Pour cela, il est absolument indispensable de traiter les autres avec respect. En cas de désaccord, considérez a priori que les gens souhaitent bien faire.</p>
+                    <p>Dans le but de conserver une communauté Mageia saine, ses membres doivent se sentir à l'aise et acceptés. Pour cela, il est absolument indispensable de traiter les autres avec respect. En cas de désaccord, considérez a priori que les gens souhaitent bien faire.</p>
                     <p>Nous ne pouvons pas tolérer les attaques personnelles, le racisme, le sexisme ou toute autre forme de discrimination. Les désaccords sont inévitables de temps en temps, mais le respect des autres points de vue vous permettra à terme de gagner le respect de votre propre point de vue. Respecter les autres, leur travail, leurs contributions et supposer leur motivation à vouloir bien faire fera que les membres de la communauté se sentiront à l'aise et acceptés, et cela ira dans le sens de la motivation et de la productivité.</p>
                     <p>Nous attendons des membres de notre communauté qu'ils soient respectueux dans leur échanges avec les contributeurs, les utilisateurs, et vis à vis des autres communautés. Souvenez-vous que Mageia est un projet international et que vous pouvez ne pas être conscient que certains points sont importants dans d'autres cultures.</p>
 
