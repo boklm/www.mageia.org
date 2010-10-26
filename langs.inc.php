@@ -15,6 +15,7 @@ $langs = array(
     'nl' => 'Nederlands',
     'pl' => 'Polski',
     'pt-br' => 'Português do Brasil',
+    'ro' => 'Română',
     'ru' => 'Русский',
     'tr' => 'Türkçe',
     'sl' => 'Slovenščina',
