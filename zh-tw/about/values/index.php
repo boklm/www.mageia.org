@@ -8,10 +8,10 @@
     <meta name="keywords" content="mageia, values" />
     <meta name="author" content="Mageia" />
     <link rel="stylesheet" type="text/css" href="/g/style/all.css" />
-    <?php include '../../analytics.php'; ?>
+    <?php include '../../../analytics.php'; ?>
 </head>
 <body>
-    <?php include '../../langs.php'; ?>
+    <?php include '../../../langs.php'; ?>
 
     <div id="doc" class="yui-t7">
         <div id="hd" role="banner"><h1>Mageia <span>| 價值觀</span></h1></div>
