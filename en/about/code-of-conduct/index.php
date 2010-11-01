@@ -12,7 +12,7 @@
 </head>
 <body>
     <?php include '../../../langs.php'; ?>
-    
+
     <div id="doc" class="yui-t7">
         <div id="hd" role="banner"><h1>Mageia <span>| Code of Conduct</span></h1></div>
         <div id="bd" role="main">

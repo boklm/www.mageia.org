@@ -27,8 +27,7 @@
                     <p>Le terme "mageia" — μαγεία en grec — signifie "magie".</p>
 
                     <h3>Je suis un utilisateur de Mandriva Linux. Que dois-je faire&nbsp;?</h3>
-                    <p>Pour le moment, continuez à utiliser Mandriva Linux, aucune version de Mageia
-                        n&rsquo;est disponible pour le moment. Vous pouvez vous inscrire à la liste de diffusion mageia-announce pour être informé de la sortie de la première version de Mageia.</p>
+                    <p>Continuez à utiliser votre distribution préférée, aucune version de Mageia n&rsquo;est disponible pour le moment. Vous pouvez vous inscrire à la liste de diffusion mageia-announce pour être informé de la sortie de la première version.</p>
 
                     <h3>Est-il possible de mettre à jour ma Mandriva vers Mageia&nbsp;?</h3>
                     <p>Oui, cela sera possible.</p>
