@@ -1,6 +1,6 @@
 html, body { margin: 0; padding: 0; background: #ddd; }
 h1 { padding: 0.7em; margin: 0 auto; text-align: left; font-size: 300%; background: #aaa; color: #000;}
-h1 span { font-weight: normal; }
+h1 span { font-weight: normal; font-size: 90%; }
 .para { background: #fff; padding: 1em 2em; }
 
 h2, h3 { font-family: Georgia, "Times New Romain"; font-weight: normal; margin: 0 0 0.4em 0; }
@@ -31,3 +31,15 @@ ul#people li { list-style: disc; margin-bottom: 0.2em; }
 #overview {}
 p.license { font-size: 85%; font-style: italic; }
 .license, .license a { color: #555; }
+
+ul.todo {}
+ul.todo li.active { font-weight: bold; }
+ul.todo li.done { text-decoration: line-through; }
+ul.news { padding: 0; margin: 0; }
+ul.news li { margin-bottom: 0.5em; list-style: none; }
+ul.news li span.dt { font-weight: thin; font-size: 85%; color: #666;
+    font-family: courier new; }
+
+.bb1 { border-bottom: 1px solid #aaa; }
+.lb1 { border-left: 1px solid #aaa; }
+.rb1 { border-right: 1px solid #aaa; }
