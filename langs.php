@@ -50,7 +50,7 @@ foreach ($nav_list as $k => $v)
         $v);
 }
 
-echo sprintf('<div class="nav"><div class="nav2"><p class="loc">%s</p>', implode(' | ', $list_menu));
+echo sprintf('<div class="nav"><!--googleoff: all--><div class="nav2"><p class="loc">%s</p>', implode(' | ', $list_menu));
 
 $options = implode($options);
 echo <<<H
@@ -62,7 +62,7 @@ echo <<<H
     </select>
     <noscript><div><input type="submit" id="lang_submit" value="Hop!" /></div></noscript>
 </form>
-</div></div>
+</div><!--googleon: all--></div>
 H;
 /*
 echo sprintf('<p class="loc">%s</p>', implode(' | ', $list_langs));
