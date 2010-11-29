@@ -53,7 +53,7 @@
                                     <li>Antwort innerhalb von 2 Tagen wahrscheinlich;
                                         Bitte schreibt uns - wenn möglich -
                                         auf Englisch oder Französisch.
-                                        Falls das nicht geht, versucht es au
+                                        Falls das nicht geht, versucht es auf
                                          Deutsch oder in eurer jeweiligen Muttersprache:
                                          Wir finden einen Weg, mit euch zu kommunizieren!</li>
                                 </ul></li>
