@@ -11,7 +11,8 @@ http://developer.yahoo.com/yui/license.html
 version: 2.8.1
 */
 body{margin:10px;}h1{font-size:138.5%;}h2{font-size:123.1%;}h3{font-size:108%;}h1,h2,h3{margin:1em 0;}h1,h2,h3,h4,h5,h6,strong,dt{font-weight:bold;}optgroup{font-weight:normal;}abbr,acronym{border-bottom:1px dotted #000;cursor:help;}em{font-style:italic;}del{text-decoration:line-through;}blockquote,ul,ol,dl{margin:1em;}ol,ul,dl{margin-left:2em;}ol li{list-style:decimal outside;}ul li{list-style:disc outside;}dl dd{margin-left:1em;}th,td{border:1px solid #000;padding:.5em;}th{font-weight:bold;text-align:center;}caption{margin-bottom:.5em;text-align:center;}sup{vertical-align:super;}sub{vertical-align:sub;}p,fieldset,table,pre{margin-bottom:1em;}button,input[type="checkbox"],input[type="radio"],input[type="reset"],input[type="submit"]{padding:1px;}html, body { margin: 0; padding: 0; background: #ddd; }
-h1 { padding: 0.7em; margin: 0 auto; text-align: left; font-size: 300%; background: #aaa; color: #000;}
+h1 { padding: 0.5em 0.7em; margin: 0 auto; text-align: left; font-size: 300%; background: #aaa; color: #000;
+    -moz-text-shadow: 0 0 10px #888; text-shadow: 0 0 10px #888; }
 h1 span { font-weight: normal; font-size: 90%; }
 .para { background: #fff; padding: 1em 2em; }
 
@@ -21,9 +22,6 @@ h3 { font-size: 180%; }
 .date { color: #444; font-style: italic; font-size: 1em; }
 #doc { margin: 1em auto 2em auto; background: #fff;
     -webkit-box-shadow: 0 0 10px #444; -moz-box-shadow: 0 0 10px #444; box-shadow: 0 0 10px #444; }
-p.loc { font-size: 0.9em; padding: 0.5em; margin: 0.5em; color: #ccc; width: 695px; margin: 0 auto; text-align: left; }
-p.loc a { color: #88a; text-decoration: none; }
-p.loc a.sel { font-weight: bold; color: #000; }
 
 ul#people {
     height: 300px;
@@ -35,7 +33,12 @@ ul#people {
 ul#people li { list-style: disc; margin-bottom: 0.2em; }
 #reg { text-align: center; font-size: 1.4em; margin: 1em;}
 .faq p { margin-bottom: 2.5em; }
-.nav { background: #fff; padding: 0.3em; border-bottom: 1px solid #ddd; }
+.nav { background: #fff; padding: 0.3em; border-bottom: 1px solid #aaa; }
+.nav2 { width: 695px; margin: 0 auto; position: relative; }
+p.loc { font-size: 0.9em; padding: 0.5em 0; color: #ccc; width: 695px; margin: 0 auto; text-align: left; }
+p.loc a { color: #88a; text-decoration: none; -moz-text-shadow: 1px 1px 4px #bbb; text-shadow: 1px 1px 4px #bbb; }
+p.loc a.sel { font-weight: bold; color: #000; }
+
 .values ul { margin-bottom: 2em; }
 .values ul li { margin-bottom: 0.4em; }
 .codeofconduct h2.be { margin-top: 1em; }
@@ -55,3 +58,5 @@ ul.news li span.dt { font-weight: thin; font-size: 85%; color: #666;
 .bb1 { border-bottom: 1px solid #aaa; }
 .lb1 { border-left: 1px solid #aaa; }
 .rb1 { border-right: 1px solid #aaa; }
+
+#lang_form { position: absolute; top: 0; right: 0; }
