@@ -47,11 +47,12 @@
                         <ul>
                             <li><a href="https://www.mageia.org/mailman/">Mailing-lists</a></li>
                             <li><a href="http://mageia.org/wiki/doku.php?id=irc">IRC (Freenode network)</a></li>
+                            <li><a href="http://mageia.org/wiki/" hreflang="en">Wiki Mageia</a> (en anglais)</li>
                             <li>Contacter l&rsquo;équipe fondatrice&nbsp;:
                                 <ul>
                                     <li><a href="mailto:mageia-contact@mageia.org">mageia-contact@mageia.org</a></li>
                                     <li><a href="mailto:press@mageia.org">press@mageia.org</a></li>
-                                    <li>attendez une réponse dans les 2 jours suivants</li>
+                                    <li>attendez une réponse dans les 2 jours</li>
                                 </ul></li>
                             <li><a href="http://www.twitter.com/mageia_org">twitter.com/mageia_org</a></li>
                             <li><a href="http://identi.ca/mageia">identi.ca/mageia</a></li>
@@ -136,8 +137,8 @@
                     <p>Votre aide et votre support sont très appréciés.</p>
                 </div>
             </div>
-            
         </div>
     </div>
+    <div id="ft"><p><a href="http://mageia.org/">mageia.org</a></p></div>
 </body>
 </html>
