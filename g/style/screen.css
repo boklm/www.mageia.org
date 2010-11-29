@@ -1,6 +1,5 @@
 html, body { margin: 0; padding: 0; background: #ddd; }
-h1 { padding: 0.5em 0.7em; margin: 0 auto; text-align: left; font-size: 300%; background: #aaa; color: #000;
-    -moz-text-shadow: 0 0 10px #888; text-shadow: 0 0 10px #888; }
+h1 { padding: 0.5em 0.7em; margin: 0 auto; text-align: left; font-size: 300%; background: #aaa; color: #000; }
 h1 span { font-weight: normal; font-size: 90%; }
 .para { background: #fff; padding: 1em 2em; }
 
@@ -24,7 +23,7 @@ ul#people li { list-style: disc; margin-bottom: 0.2em; }
 .nav { background: #fff; padding: 0.3em; border-bottom: 1px solid #aaa; }
 .nav2 { width: 695px; margin: 0 auto; position: relative; }
 p.loc { font-size: 0.9em; padding: 0.5em 0; color: #ccc; width: 695px; margin: 0 auto; text-align: left; }
-p.loc a { color: #88a; text-decoration: none; -moz-text-shadow: 1px 1px 4px #bbb; text-shadow: 1px 1px 4px #bbb; }
+p.loc a { color: #88a; text-decoration: none; }
 p.loc a.sel { font-weight: bold; color: #000; }
 
 .values ul { margin-bottom: 2em; }
