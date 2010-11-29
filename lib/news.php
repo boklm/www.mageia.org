@@ -56,7 +56,15 @@ function get_news($locale = 'en', $count = 5, $cache_timeout = 5)
     $news = array(
         'en' => 'http://blog.mageia.org/',
         'fr' => 'http://blog.mageia.org/fr/',
-        'es' => 'http://blog.mageia.org/es/'
+        'es' => 'http://blog.mageia.org/es/',
+        'de' => 'http://blog.mageia.org/de/',
+        'el' => 'http://blog.mageia.org/el/',
+        'it' => 'http://blog.mageia.org/it/',
+        'pl' => 'http://blog.mageia.org/', //'http://blog.mageia.org/pl/',
+        'pt' => 'http://blog.mageia.org/pt-br/',
+        'ro' => 'http://blog.mageia.org/ro/',
+        'ru' => 'http://blog.mageia.org/' , //'http://blog.mageia.org/ru/',
+        'tr' => 'http://blog.mageia.org/tr/'
     );
 
     if (!array_key_exists($locale, $news))
@@ -69,7 +77,7 @@ function get_news($locale = 'en', $count = 5, $cache_timeout = 5)
         realpath(G_APP_ROOT . '/var/tmp/cache'),
         3600 * $cache_timeout);
 
-    //$feed->enable_order_by_date(true);
+    $feed->enable_order_by_date(true);
 
     $feed->handle_content_type();
 
