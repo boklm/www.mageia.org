@@ -20,14 +20,14 @@
                     recognized and elected contributors.</p>
 
                     <p>Further than just delivering a free, secure, stable and sustainable operating system,
-                        the goal is to set a stable and trustable governance to direct collaborative projects
+                        the goal is to set up a stable and trustable governance to direct collaborative projects
                         (<a href="#announce">check original announcement</a>).</p>
                 </div>
             </div>
             <div class="yui-g bb1">
                 <div class="yui-u first rb1">
                     <div class="para" id="news">
-                        <h2><a href="http://blog.mageia.org/fr/">News</a></h2>
+                        <h2><a href="http://blog.mageia.org/">News</a></h2>
                     <?php include '../lib/news.php'; echo html_news('en'); ?>
                     </div>
                 </div>
