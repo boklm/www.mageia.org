@@ -14,8 +14,66 @@
     <div id="doc" class="yui-t7">
         <div id="hd" role="banner"><h1>Mageia <span>&ndash; Eine neue Linux Distribution</span></h1></div>
         <div id="bd" role="main">
+            <div class="yui-g bb1">
+                <div class="para"><p>Mageia ist ein Fork von Mandriva Linux.
+                    Eine Non-Profit-Organisation, bestehend aus anerkannten und gewählten Mitwirkenden, unterstützt Mageia.</p>
+
+                    <p>Neben der Bereitstellung eines freien, sicheren, stabilen und zukunftsträchtigen
+                        Betriebssystems ist es unser Ziel, ein stabiles und vertrauenswürdiges
+                        Führungsteam aufzustellen, um die mit Mageia zusammenhängenden Gemeinschaftsprojekte zu lenken
+                        (<a href="#announce">siehe ursprüngliche Ankündigung</a>).</p>
+                </div>
+            </div>
+            <div class="yui-g bb1">
+                <div class="yui-u first rb1">
+                    <div class="para" id="news">
+                        <h2><a href="http://blog.mageia.org/de/">Neuigkeiten</a></h2>
+                    <?php include '../lib/news.php'; echo html_news('de'); ?>
+                    </div>
+                </div>
+                <div class="yui-u">
+                    <div class="para" lang="en">
+                        <h2>Happening right now</h2>
+                        <?php include '../roadmap.php'; ?>
+                    </div>
+                </div>
+            </div>
+            <div class="yui-g bb1">
+                <div class="yui-u first">
+                    <div class="para" id="contact">
+                        <h2>Macht mit!</h2>
+                        <ul>
+                            <li><a href="https://www.mageia.org/mailman/">Mailinglisten</a></li>
+                            <li><a href="http://mageia.org/wiki/doku.php?id=irc">IRC (Freenode network)</a></li>
+                            <li><a href="http://mageia.org/wiki/">Mageia Wiki</a></li>
+                            <li>Kontaktieren des Gründungsteams:
+                                <ul>
+                                    <li><a href="mailto:mageia-contact@mageia.org">mageia-contact@mageia.org</a></li>
+                                    <li><a href="mailto:press@mageia.org">press@mageia.org</a></li>
+                                    <li>Antwort innerhalb von 2 Tagen wahrscheinlich;
+                                        Bitte schreibt uns - wenn möglich -
+                                        auf Englisch oder Französisch.
+                                        Falls das nicht geht, versucht es au
+                                         Deutsch oder in eurer jeweiligen Muttersprache:
+                                         Wir finden einen Weg, mit euch zu kommunizieren!</li>
+                                </ul></li>
+                            <li><a href="http://www.twitter.com/mageia_org">twitter.com/mageia_org</a></li>
+                            <li><a href="http://identi.ca/mageia">identi.ca/mageia</a></li>
+                        </ul>
+                        <!-->
+                        <p>Please do not use this address for discussions that can happen on above mailing-lists
+                            or IRC channels.</p>
+                            -->
+                    </div>
+                </div>
+                <div class="yui-u">
+                    <div class="para">
+                    <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FMageia%2F157247240967735&amp;width=320&amp;connections=10&amp;stream=false&amp;header=false&amp;height=255" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:320px; height:255px;" allowTransparency="true"></iframe>
+                    </div>
+                </div>
+            </div>
             <div class="yui-g">
-                <div class="para">
+                <div class="para" id="announce">
                     <p class="date">Paris, September 18<sup>th</sup> 2010</p>
                     
                     <p>Wie Ihr vermutlich bereits wisst ist die Zukunft der Distribution Mandriva Linux zur Zeit alles Andere als klar und gesichert.</p>
@@ -74,25 +132,6 @@
                 </ul>
                 <p>Eure Hilfe und Unterstützung ist uns sehr willkommen</p>
             </div>
-            </div>
-            <div class="yui-g">
-                <div class="yui-u first">
-                    <div class="para" id="contact">
-                    <h2>Kontakt</h2>
-
-                     <h3><a href="https://www.mageia.org/mailman/">Mailingliste</a></h3>
-
-                     <h3>IRC (Freenode network)</h3>
-                     <?php include '../channels.html'; ?>
-                    </div>
-                </div>
-                <div class="yui-u">
-                    <div class="para">
-                    <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FMageia%2F157247240967735&amp;width=320&amp;connections=10&amp;stream=false&amp;header=false&amp;height=255" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:320px; height:255px;" allowTransparency="true"></iframe>
-                    <p>You should follow us <a href="http://www.twitter.com/mageia_org">on Twitter</a>
-                        or <a href="http://identi.ca/mageia">on identi.ca</a>.</p>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
