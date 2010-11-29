@@ -38,7 +38,7 @@ ul.todo li.done { text-decoration: line-through; }
 ul.news { padding: 0; margin: 0; }
 ul.news li { margin-bottom: 0.5em; list-style: none; }
 ul.news li span.dt { font-weight: thin; font-size: 85%; color: #666;
-    font-family: courier new; }
+    font-family: courier new, fixed; margin: 0.3em 1em 0.3em 1em; float: left; }
 
 .bb1 { border-bottom: 1px solid #aaa; }
 .lb1 { border-left: 1px solid #aaa; }
