@@ -51,7 +51,7 @@
                                 <ul>
                                     <li><a href="mailto:mageia-contact@mageia.org">mageia-contact@mageia.org</a></li>
                                     <li><a href="mailto:press@mageia.org">press@mageia.org</a></li>
-                                    <li>expect an answer within 2 days</li>
+                                    <li>attendez une réponse dans les 2 jours suivants</li>
                                 </ul></li>
                             <li><a href="http://www.twitter.com/mageia_org">twitter.com/mageia_org</a></li>
                             <li><a href="http://identi.ca/mageia">identi.ca/mageia</a></li>
