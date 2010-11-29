@@ -22,15 +22,19 @@ foreach ($langs as $k => $v)
         $page != null ? implode('/', array($k, $page)) : $k,
         $k == $locale ? ' class="sel"' : '',
         $v);
+
+    $options[] = sprintf('<option value="%s"%s>%s</option>',
+        $k,
+        $k == $locale ? ' selected="selected"' : '',
+        $v);
 }
 
 // global nav
 $nav_list = array(
     "/{$locale}/" => 'Mageia',
     "http://blog.mageia.org/{$locale}" => 'Blog',
-    '/wiki' => 'Wiki &ndash; Join us!',
+    '/wiki' => 'Wiki',
     "/{$locale}/faq/" => 'FAQ',
-    "/{$locale}/#contact" => 'IRC, mailing-lists',
     "http://donate.mageia.org/{$locale}/" => 'Donations',
     "http://mageia.org/wiki/doku.php?id=press" => 'Press',
     "/{$locale}/about/values/" => 'Values',
@@ -46,6 +50,20 @@ foreach ($nav_list as $k => $v)
         $v);
 }
 
-echo sprintf('<div class="nav"><p class="loc">%s</p></div>', implode(' | ', $list_menu));
+echo sprintf('<div class="nav"><div class="nav2"><p class="loc">%s</p>', implode(' | ', $list_menu));
 
+$options = implode($options);
+echo <<<H
+<form id="lang_form" dir="ltr" method="get" action="/">
+    <!--<label for="flang">Autres langues&nbsp;:</label>-->
+    <input type="hidden" name="furl" value="{$_SERVER['REQUEST_URI']}" />
+    <select id="flang" name="flang" dir="ltr" onchange="this.form.submit()">
+        {$options}
+    </select>
+    <noscript><div><input type="submit" id="lang_submit" value="Hop!" /></div></noscript>
+</form>
+</div></div>
+H;
+/*
 echo sprintf('<p class="loc">%s</p>', implode(' | ', $list_langs));
+*/
