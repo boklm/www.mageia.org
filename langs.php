@@ -2,6 +2,9 @@
 /**
 */
 
+$g_app_root = realpath(dirname(__FILE__));
+define('G_APP_ROOT', $g_app_root);
+
 require_once 'langs.inc.php';
 
 $sru = trim($_SERVER['REQUEST_URI']);
