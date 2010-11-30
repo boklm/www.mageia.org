@@ -33,7 +33,7 @@
                 </div>
                 <div class="yui-u">
                     <div class="para" lang="en">
-                        <h2>Happening right now</h2>
+                        <h2>Gerade in Bearbeitung</h2>
                         <?php include '../roadmap.php'; ?>
                     </div>
                 </div>
@@ -60,10 +60,10 @@
                             <li><a href="http://www.twitter.com/mageia_org">twitter.com/mageia_org</a></li>
                             <li><a href="http://identi.ca/mageia">identi.ca/mageia</a></li>
                         </ul>
-                        <!-->
+                        <!--
                         <p>Please do not use this address for discussions that can happen on above mailing-lists
                             or IRC channels.</p>
-                            -->
+                        -->
                     </div>
                 </div>
                 <div class="yui-u">
@@ -74,7 +74,7 @@
             </div>
             <div class="yui-g">
                 <div class="para" id="announce">
-                    <p class="date">Paris, September 18<sup>th</sup> 2010</p>
+                    <p class="date">Paris den 18. September 2010</p>
                     
                     <p>Wie Ihr vermutlich bereits wisst ist die Zukunft der Distribution Mandriva Linux zur Zeit alles Andere als klar und gesichert.</p>
                     <p>Im Zuge der Liquidierung von Edge-IT wurden die meisten der an der Distribution arbeitenden Angestellten entlassen. Wir, die unten Aufgeführten, haben kein Vertrauen mehr in die zukünftigen Pläne des Unternehmens Mandriva und wir halten das Unternehmen (oder jedes beliebige Unternehmen) nicht mehr für einen sicheren Hafen für solch ein Projekt.</p>
