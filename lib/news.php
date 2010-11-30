@@ -36,6 +36,7 @@ function news_date($dt, $locale = 'en')
     $formats = array(
         'en' => 'M d Y',
         'fr' => 'd M Y',
+        'de' => 'd. M Y',
         'default' => 'Y-m-d'
     );
     $ft = array_key_exists($locale, $formats) ? $locale : 'default';
