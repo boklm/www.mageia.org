@@ -55,10 +55,10 @@
                             <li><a href="http://www.twitter.com/mageia_org">twitter.com/mageia_org</a></li>
                             <li><a href="http://identi.ca/mageia">identi.ca/mageia</a></li>
                         </ul>
-                        <!-->
+                        <!--
                         <p>Please do not use this address for discussions that can happen on above mailing-lists
                             or IRC channels.</p>
-                            -->
+                        -->
                     </div>
                 </div>
                 <div class="yui-u">

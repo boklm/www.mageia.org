@@ -45,9 +45,10 @@
                     <div class="para" id="contact">
                         <h2>Rejoignez-nous&nbsp;!</h2>
                         <ul>
-                            <li><a href="https://www.mageia.org/mailman/">Mailing-lists</a></li>
+                            <li><a href="https://www.mageia.org/mailman/">Listes de discussion</a></li>
                             <li><a href="http://mageia.org/wiki/doku.php?id=irc">IRC (Freenode network)</a></li>
                             <li><a href="http://mageia.org/wiki/" hreflang="en">Wiki Mageia</a> (en anglais)</li>
+                            <li><a href="http://mageia.org/wiki/doku.php#teams" hreflang="en">&Eacute;quipes</a> (en anglais)</li>
                             <li>Contacter l&rsquo;équipe fondatrice&nbsp;:
                                 <ul>
                                     <li><a href="mailto:mageia-contact@mageia.org">mageia-contact@mageia.org</a></li>
@@ -57,10 +58,10 @@
                             <li><a href="http://www.twitter.com/mageia_org">twitter.com/mageia_org</a></li>
                             <li><a href="http://identi.ca/mageia">identi.ca/mageia</a></li>
                         </ul>
-                        <!-->
+                        <!--
                         <p>Please do not use this address for discussions that can happen on above mailing-lists
                             or IRC channels.</p>
-                            -->
+                        -->
                     </div>
                 </div>
                 <div class="yui-u">
