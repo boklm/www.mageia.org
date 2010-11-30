@@ -33,6 +33,11 @@ function html_news($locale = 'en')
 */
 function news_date($dt, $locale = 'en')
 {
+    $months = array(
+        'en' => array('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'),
+        'fr' => array('jan', 'fév', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'sept', 'oct', 'nov', 'déc'),
+        'de' => array('Jan', 'Feb', 'Mär', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez')
+    );
     $formats = array(
         'en' => 'M d Y',
         'fr' => 'd M Y',
@@ -42,7 +47,11 @@ function news_date($dt, $locale = 'en')
     $ft = array_key_exists($locale, $formats) ? $locale : 'default';
     
     $dts = strtotime($dt);
-    return date($formats[$ft], $dts);
+    $dt = date($formats[$ft], $dts);
+    if (array_key_exists($locale, $months))
+        $dt = str_replace($months['en'], $months[$locale], $dt);
+
+    return $dt;
 }
 
 /**
