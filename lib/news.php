@@ -61,11 +61,10 @@ function get_news($locale = 'en', $count = 5, $cache_timeout = 5)
         'de' => 'http://blog.mageia.org/de/',
         'el' => 'http://blog.mageia.org/el/',
         'it' => 'http://blog.mageia.org/it/',
-        'pl' => 'http://blog.mageia.org/', //'http://blog.mageia.org/pl/',
-        'pt' => 'http://blog.mageia.org/pt-br/',
+        'pt' => 'http://blog.mageia.org/pt-br/', // @fixme => /pt/ once blog is moved
         'ro' => 'http://blog.mageia.org/ro/',
-        'ru' => 'http://blog.mageia.org/' , //'http://blog.mageia.org/ru/',
-        'tr' => 'http://blog.mageia.org/tr/'
+        'tr' => 'http://blog.mageia.org/tr/',
+        /* missing: ru, pl, et, fi, lv, nb, nl, sl, zh-cn, zh-tw */
     );
 
     if (!array_key_exists($locale, $news))
