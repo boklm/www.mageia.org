@@ -15,8 +15,60 @@
     <div id="doc" class="yui-t7">
         <div id="hd" role="banner"><h1>Mageia <span>&ndash; 嶄新的 Linux 發行版</span></h1></div>
         <div id="bd" role="main">
+            <div class="yui-g bb1">
+                <div class="para"><p>Mageia is a fork of Mandriva Linux,
+                    supported by a not-for-profit organisation of
+                    recognized and elected contributors.</p>
+
+                    <p>Further than just delivering a free, secure, stable and sustainable operating system,
+                        the goal is to set up a stable and trustable governance to direct collaborative projects
+                        (<a href="#announce">check original announcement</a>).</p>
+                </div>
+            </div>
+            <div class="yui-g bb1">
+                <div class="yui-u first rb1">
+                    <div class="para" id="news">
+                        <h2><a href="http://blog.mageia.org/">News</a></h2>
+                    <?php include '../lib/news.php'; echo html_news('en'); ?>
+                    </div>
+                </div>
+                <div class="yui-u">
+                    <div class="para" lang="en">
+                        <h2>Happening right now</h2>
+                        <?php include '../roadmap.php'; ?>
+                    </div>
+                </div>
+            </div>
+            <div class="yui-g bb1">
+                <div class="yui-u first">
+                    <div class="para" id="contact">
+                        <h2>如何聯繫我們。</h2>
+                        <ul>
+                            <li><a href="https://www.mageia.org/mailman/">郵件論壇</a></li>
+                            <li><a href="http://mageia.org/wiki/doku.php?id=irc">IRC (Freenode network)</a></li>
+                            <li><a href="http://mageia.org/wiki/">Mageia Wiki</a></li>
+                            <li>寄電子郵件給我們 <a href="mailto:mageia-contact@mageia.org">mageia-contact@mageia.org</a>.</li>
+                            <li>我們希望可以在 48 小時內回覆。
+                                請使用英語或法語 (答覆也會是這兩種語言之一)。西班牙語也可以;
+                                我們會想辦法找到翻譯者。</li>
+                            <li><a href="mailto:press@mageia.org">press@mageia.org</a></li>
+                            <li><a href="http://www.twitter.com/mageia_org">twitter.com/mageia_org</a></li>
+                            <li><a href="http://identi.ca/mageia">identi.ca/mageia</a></li>
+                        </ul>
+                        <!--
+                        <p>Please do not use this address for discussions that can happen on above mailing-lists
+                            or IRC channels.</p>
+                        -->
+                    </div>
+                </div>
+                <div class="yui-u">
+                    <div class="para">
+                    <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FMageia%2F157247240967735&amp;width=320&amp;connections=10&amp;stream=false&amp;header=false&amp;height=255" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:320px; height:255px;" allowTransparency="true"></iframe>
+                    </div>
+                </div>
+            </div>
             <div class="yui-g">
-                <div class="para">
+                <div class="para" id="announce">
                     <p class="date">2010 年 9 月 18 日，巴黎</p>
 
                     <p>如同大家所知道的，Mandriva Linux 的未來動向持續不明。</p>
@@ -146,67 +198,18 @@
     <li>Wolfgang Bornath (wobo) - 德國使用者社群</li>
 </ul>
 
-<p id="reg"><a href="http://mageia.org/wiki/" hreflang="en">在這裡註冊您的名字!</a></p>            <p>給其他的貢獻者們： 如果您想要你的名字加到清單裡，以表示您計畫要參與這個分支，請透過 IRC 聊天室或電子郵件讓我們知道。</p>
-            </div>
-            <div class="para">
-                <h2>下一步。</h2>
-                <p>我們在未來幾天中有許多事要作:</p>
-                <ul>
-                    <li>存放原始碼、編譯系統的硬體主機與架設這些伺服器的資料處理中心;</li>
-
-                    <li>投入 Mageia 開發的開發者、貢獻者、翻譯者、測試者;</li>
-                    <li>關於創設組織及程序的諮詢顧問等。</li>
-                </ul>
-                <p>非常感激您的協助與支持。</p>
-            </div>
-            </div>
-            <div class="yui-g">
-
-                <div class="yui-u first">
-                    <div class="para" id="contact">
-                    <h2>如何聯繫我們。</h2>
-
-                     <h3><a href="https://www.mageia.org/mailman/">郵件論壇</a></h3>
-
-                     <h3>IRC (Freenode network)</h3>
-                     <ul>
-
-    <li><a href="irc://irc.freenode.net/mageia">#mageia</a> (英語),</li>
-    <li><a href="irc://irc.freenode.net/mageia-dev">#mageia-dev</a> (開發者頻道，英語),</li>
-    <li><a href="irc://irc.freenode.net/mageia-kde">#mageia-kde</a> (KDE 專用頻道),</li>
-    <li><a href="irc://irc.freenode.net/mageia-br">#mageia-br</a> (巴西葡語),</li>
-
-    <li><a href="irc://irc.freenode.net/mageia-de">#mageia-de</a> (德語),</li>
-    <li><a href="irc://irc.freenode.net/mageia-es">#mageia-es</a> (西班牙語),</li>
-    <li><a href="irc://irc.freenode.net/mageia-fi">#mageia-fi</a> (芬蘭語),</li>
-    <li><a href="irc://irc.freenode.net/mageia-fr">#mageia-fr</a> (法語),</li>
-
-    <li><a href="irc://irc.freenode.net/mageia-it">#mageia-it</a> (義大利語),</li>
-    <li><a href="irc://irc.freenode.net/mageia-no">#mageia-no</a> (挪威語),</li>
-    <li><a href="irc://irc.freenode.net/mageia-pl">#mageia-pl</a> (波蘭語),</li>
-    <li><a href="irc://irc.freenode.net/mageia-ru">#mageia-ru</a> (俄語),</li>
-
-    <li><a href="irc://irc.freenode.net/mageia-sv">#mageia-sv</a> (瑞典語),</li>
-    <li><a href="irc://irc.freenode.net/mageia-uk">#mageia-uk</a> (英語)</li>
-</ul>
-
-<h3>聯繫創始團隊</h3>
-
-<p>請不要用這個郵件信箱聯繫上述郵件論壇或 IRC 頻道可以討論的議題。</p>
-
-    
-<p>寄電子郵件給我們 <a href="mailto:mageia-contact@mageia.org">mageia-contact@mageia.org</a>.</p>
-<p>我們希望可以在 48 小時內回覆。
-    請使用英語或法語 (答覆也會是這兩種語言之一)。西班牙語也可以;
-    我們會想辦法找到翻譯者。</p>                    </div>
+                    <p id="reg"><a href="http://mageia.org/wiki/" hreflang="en">在這裡註冊您的名字!</a></p>            <p>給其他的貢獻者們： 如果您想要你的名字加到清單裡，以表示您計畫要參與這個分支，請透過 IRC 聊天室或電子郵件讓我們知道。</p>
                 </div>
-                <div class="yui-u">
-                    <div class="para">
-                    <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FMageia%2F157247240967735&amp;width=320&amp;connections=10&amp;stream=false&amp;header=false&amp;height=255" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:320px; height:255px;" allowTransparency="true"></iframe>
+                <div class="para">
+                    <h2>下一步。</h2>
+                    <p>我們在未來幾天中有許多事要作:</p>
+                    <ul>
+                        <li>存放原始碼、編譯系統的硬體主機與架設這些伺服器的資料處理中心;</li>
 
-                    <p>您可以透過 <a href="http://www.twitter.com/mageia_org">Twitter</a>
-                        或<a href="http://identi.ca/mageia"> identi.ca </a>追蹤我們的消息。</p>
-                    </div>
+                        <li>投入 Mageia 開發的開發者、貢獻者、翻譯者、測試者;</li>
+                        <li>關於創設組織及程序的諮詢顧問等。</li>
+                    </ul>
+                    <p>非常感激您的協助與支持。</p>
                 </div>
             </div>
         </div>

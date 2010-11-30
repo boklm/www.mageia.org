@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE HTML>
-<html dir="ltr" lang="en"><head>
+<html dir="ltr" lang="lv"><head>
   <meta charset="utf-8">
   <title>Mageia - Jauns Linux Distributīvs</title>
   <meta name="description" content="Mageia ir jauns kopienas veidots Linux distributīvs.">
@@ -11,15 +11,66 @@
         
 <div id="doc" class="yui-t7">
     <?php include '../langs.php'; ?>
+    <div id="hd" role="banner"><h1>Mageia <span>– Jauns Linux Distributīvs</span></h1></div>
+    <div id="bd" role="main">
+        <div class="yui-g bb1">
+            <div class="para"><p>Mageia is a fork of Mandriva Linux,
+                supported by a not-for-profit organisation of
+                recognized and elected contributors.</p>
 
-        <div id="hd" role="banner"><h1>Mageia <span>– Jauns Linux Distributīvs</span></h1></div>
-
-        <div id="bd" role="main">
-            <div class="yui-g">
+                <p>Further than just delivering a free, secure, stable and sustainable operating system,
+                    the goal is to set up a stable and trustable governance to direct collaborative projects
+                    (<a href="#announce">check original announcement</a>).</p>
+            </div>
+        </div>
+        <div class="yui-g bb1">
+            <div class="yui-u first rb1">
+                <div class="para" id="news">
+                    <h2><a href="http://blog.mageia.org/">Jaunumi</a></h2>
+                <?php include '../lib/news.php'; echo html_news('en'); ?>
+                </div>
+            </div>
+            <div class="yui-u">
+                <div class="para" lang="en">
+                    <h2>Happening right now</h2>
+                    <?php include '../roadmap.php'; ?>
+                </div>
+            </div>
+        </div>
+        <div class="yui-g bb1">
+            <div class="yui-u first">
+                <div class="para" id="contact">
+                    <h2>Kontakti</h2>
+                    <ul>
+                        <li><a href="https://www.mageia.org/mailman/">Mailing-lists</a></li>
+                        <li><a href="http://mageia.org/wiki/doku.php?id=irc">IRC (Freenode network)</a></li>
+                        <li><a href="http://mageia.org/wiki/">Mageia Wiki</a></li>
+                        <li>Contact the founders team:
+                            <ul>
+                                <li><a href="mailto:mageia-contact@mageia.org">mageia-contact@mageia.org</a></li>
+                                <li><a href="mailto:press@mageia.org">press@mageia.org</a></li>
+                                <li>expect an answer within 2 days</li>
+                            </ul></li>
+                        <li><a href="http://www.twitter.com/mageia_org">twitter.com/mageia_org</a></li>
+                        <li><a href="http://identi.ca/mageia">identi.ca/mageia</a></li>
+                    </ul>
+                    <!--
+                    <p>Please do not use this address for discussions that can happen on above mailing-lists
+                        or IRC channels.</p>
+                    -->
+                </div>
+            </div>
+            <div class="yui-u">
                 <div class="para">
-                    <p class="date">Parīze, 2010.gada 18.septembris</p>
-                    <p>Kā Jūs varbūt jau esat dzirdējuši, Mandriva Linux nākotne ir neskaidra.</p>
-                    <p>Lielākā
+                <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FMageia%2F157247240967735&amp;width=320&amp;connections=10&amp;stream=false&amp;header=false&amp;height=255" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:320px; height:255px;" allowTransparency="true"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="yui-g">
+            <div class="para" id="announce">
+                <p class="date">Parīze, 2010.gada 18.septembris</p>
+                <p>Kā Jūs varbūt jau esat dzirdējuši, Mandriva Linux nākotne ir neskaidra.</p>
+                <p>Lielākā
 daļa pie distributīva strādājošo darbinieku tika atlaisti, kad tika
 likvidēta Edge-IT (Mandriva SA sastāvā esošs uzņēmums). Mēs vairs
 neuzticamies Mandriva SA plāniem, un mēs nedomājam, ka šis uzņēmums
@@ -191,53 +242,6 @@ mums, ka sekosiet šim atzaram.</p>
                 <p>Mēs ļoti augstu vērtēsim Jūsu palīdzību un atbalstu.</p>
             </div>
             </div>
-            <div class="yui-g">
-                <div class="yui-u first">
-                    <div class="para">
-
-                    <h2>Kontakti.</h2>
-
-                     <h3><a href="https://www.mageia.org/mailman/">Mailing-lists</a></h3>
-
-                     <h3>IRC (Freenode network)</h3>
-                     <ul>
-    <li><a href="irc://irc.freenode.net/mageia">#mageia</a> (English),</li>
-
-    <li><a href="irc://irc.freenode.net/mageia-dev">#mageia-dev</a> (developers channel, English),</li>
-    <li><a href="irc://irc.freenode.net/mageia-kde">#mageia-kde</a> (KDE-specific channel),</li>
-    <li><a href="irc://irc.freenode.net/mageia-br">#mageia-br</a> (Português do Brasil),</li>
-    <li><a href="irc://irc.freenode.net/mageia-fi">#mageia-fi</a> (Finnish),</li>
-
-    <li><a href="irc://irc.freenode.net/mageia-fr">#mageia-fr</a> (français),</li>
-    <li><a href="irc://irc.freenode.net/mageia-es">#mageia-es</a> (Español),</li>
-    <li><a href="irc://irc.freenode.net/mageia-it">#mageia-it</a> (Italiano),</li>
-    <li><a href="irc://irc.freenode.net/mageia-no">#mageia-no</a> (Nynorsk),</li>
-
-    <li><a href="irc://irc.freenode.net/mageia-ru">#mageia-ru</a> (Русский),</li>
-    <li><a href="irc://irc.freenode.net/mageia-uk">#mageia-uk</a> (English)</li>
-</ul>
-                    </div>
-                </div>
-                <div class="yui-u">
-
-                    <div class="para">
-                    <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FMageia%2F157247240967735&amp;width=320&amp;connections=10&amp;stream=false&amp;header=false&amp;height=255" style="border: medium none ; overflow: hidden; width: 320px; height: 255px;" allowtransparency="true" frameborder="0" scrolling="no"></iframe>
-                    <p>You should follow us <a href="http://www.twitter.com/mageia_os">on Twitter</a>
-                        or <a href="http://identi.ca/mageia">on identi.ca</a>.</p>
-                    </div>
-                </div>
-
-            </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
 </body></html>
