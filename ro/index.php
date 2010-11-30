@@ -16,25 +16,24 @@
         <div id="hd" role="banner"><h1>Mageia <span>– O nouă distribuție Linux</span></h1></div>
         <div id="bd" role="main">
             <div class="yui-g bb1">
-                <div class="para"><p>Mageia is a fork of Mandriva Linux,
-                    supported by a not-for-profit organisation of
-                    recognized and elected contributors.</p>
+                <div class="para"><p>Mageia este o derivație de Mandriva Linux, ce se bazează pe o organizație
+                nonprofit compusă din contribuitori cunoscuți și votați pentru munca lor.</p>
 
-                    <p>Further than just delivering a free, secure, stable and sustainable operating system,
-                        the goal is to set up a stable and trustable governance to direct collaborative projects
-                        (<a href="#announce">check original announcement</a>).</p>
+                    <p>Dincolo de un sistem de operare liber, securizat, stabil și peren, obiectivul
+                    este stabilirea unei guvernări stabile și legitime în jurul unui model
+                    colaborativ (<a href="#announce">citiți anunțul oficial</a>).</p>
                 </div>
             </div>
             <div class="yui-g bb1">
                 <div class="yui-u first rb1">
                     <div class="para" id="news">
-                        <h2><a href="http://blog.mageia.org/ro/">Ştiri</a></h2>
+                        <h2><a href="http://blog.mageia.org/ro/">Actualități</a></h2>
                     <?php include '../lib/news.php'; echo html_news('ro'); ?>
                     </div>
                 </div>
                 <div class="yui-u">
                     <div class="para" lang="en">
-                        <h2>Happening right now</h2>
+                        <h2>Se întîmplă acum</h2>
                         <?php include '../roadmap.php'; ?>
                     </div>
                 </div>
@@ -42,16 +41,16 @@
             <div class="yui-g bb1">
                 <div class="yui-u first">
                     <div class="para" id="contact">
-                        <h2>Cum să ne contactați</h2>
+                        <h2>Alăturați-vă nouă!</h2>
                         <ul>
                             <li><a href="https://www.mageia.org/mailman/">Listele de difuziune</a></li>
                             <li><a href="http://mageia.org/wiki/doku.php?id=irc">IRC (rețeaua Freenode)</a></li>
                             <li><a href="http://mageia.org/wiki/">Mageia Wiki</a></li>
-                            <li>Contact the founders team:
+                            <li>Contactați echipa fondatoare:
                                 <ul>
                                     <li><a href="mailto:mageia-contact@mageia.org">mageia-contact@mageia.org</a></li>
                                     <li><a href="mailto:press@mageia.org">press@mageia.org</a></li>
-                                    <li>expect an answer within 2 days</li>
+                                    <li>așteptați un răspuns în termen de 2 zile</li>
                                 </ul></li>
                             <li><a href="http://www.twitter.com/mageia_org">twitter.com/mageia_org</a></li>
                             <li><a href="http://identi.ca/mageia">identi.ca/mageia</a></li>
@@ -70,6 +69,7 @@
             </div>
             <div class="yui-g">
                 <div class="para" id="announce">
+                    <h2>ANUNȚ</h2>
                     <p class="date">Paris, 18 septembrie 2010</p>
                     <p>Cum poate ați dedus deja, viitorul distribuției Mandriva Linux est astăzi incert.</p>
                     <p>Marea majoritate a angajaților care lucrau la 
