@@ -15,13 +15,13 @@
         <div id="hd" role="banner"><h1>Mageia <span>&ndash; Μια νέα διανομή Linux</span></h1></div>
         <div id="bd" role="main">
             <div class="yui-g bb1">
-                <div class="para"><p>Mageia is a fork of Mandriva Linux,
-                    supported by a not-for-profit organisation of
-                    recognized and elected contributors.</p>
-
-                    <p>Further than just delivering a free, secure, stable and sustainable operating system,
-                        the goal is to set up a stable and trustable governance to direct collaborative projects
-                        (<a href="#announce">check original announcement</a>).</p>
+                <div class="para"><p>Η Mageia είναι ένα fork της Mandriva Linux, που υποστηρίζεται από μια μη
+                    κερδοσκοπική οργάνωση η οποία αποτελείται από αναγνωρισμένους και
+                    εκλεγμένους συνεισφέροντες.</p>
+                    <p>Πέρα από την παροχή ενός ελεύθερου, ασφαλούς, σταθερού και με αντοχή στο
+                    χρόνο λειτουργικού συστήματος, ο σκοπός είναι η πραγματοποίηση μιας
+                    σταθερής και νόμιμης διακυβέρνησης γύρω από ένα συνεργατικό μοντέλο
+                    (<a href="#announce">δείτε την αρχική ανακοίνωση</a>).</p>
                 </div>
             </div>
             <div class="yui-g bb1">
@@ -50,7 +50,8 @@
                                 <ul>
                                     <li><a href="mailto:mageia-contact@mageia.org">mageia-contact@mageia.org</a></li>
                                     <li><a href="mailto:press@mageia.org">press@mageia.org</a></li>
-                                    <li>expect an answer within 2 days</li>
+                                    <li>Κατά προτίμηση στην αγγλική ή στην γαλλική αλλά δεν είναι υποχρεωτικό.
+                                        Please expect an answer within 2 days</li>
                                 </ul></li>
                             <li><a href="http://www.twitter.com/mageia_org">twitter.com/mageia_org</a></li>
                             <li><a href="http://identi.ca/mageia">identi.ca/mageia</a></li>
