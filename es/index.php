@@ -15,25 +15,24 @@
         <div id="hd" role="banner"><h1>Mageia <span>&ndash; Una Nueva Distribución Linux</span></h1></div>
         <div id="bd" role="main">
             <div class="yui-g bb1">
-                <div class="para"><p>Mageia is a fork of Mandriva Linux,
-                    supported by a not-for-profit organisation of
-                    recognized and elected contributors.</p>
+                <div class="para"><p>Mageia es una bifurcación (fork) de Mandriva Linux,
+                    apoyada por una organización sin fines de lucro de contribuyentes elegidos y reconocidos.</p>
 
-                    <p>Further than just delivering a free, secure, stable and sustainable operating system,
-                        the goal is to set a stable and trustable governance to direct collaborative projects
-                        (<a href="#announce">check original announcement</a>).</p>
+                    <p>Mas que la entrega de un sistema operativo libre, seguro, estable y sostenible,
+                        la meta es establecer una gobernabilidad estable y confiable para la dirección
+                        de proyectos colaborativos (<a href="#announce">revisa el anuncio original</a>).</p>
                 </div>
             </div>
             <div class="yui-g bb1">
                 <div class="yui-u first rb1">
                     <div class="para" id="news">
-                        <h2><a href="http://blog.mageia.org/es/">Novidades</a></h2>
+                        <h2><a href="http://blog.mageia.org/es/">Novedades</a></h2>
                     <?php include '../lib/news.php'; echo html_news('es'); ?>
                     </div>
                 </div>
                 <div class="yui-u">
                     <div class="para" lang="en">
-                        <h2>Happening right now</h2>
+                        <h2>Ocurre en este momento</h2>
                         <?php include '../roadmap.php'; ?>
                     </div>
                 </div>
@@ -46,11 +45,11 @@
                             <li><a href="https://www.mageia.org/mailman/">Listas de correo</a></li>
                             <li><a href="http://mageia.org/wiki/doku.php?id=irc">IRC (por la red Freenode)</a></li>
                             <li><a href="http://mageia.org/wiki/" hreflang="en">Mageia Wiki</a></li>
-                            <li>Contact the founders team:
+                            <li>Contacta al equipo de fundadores (de preferencia en Inglés o Frances, aunque no es obligatorio):
                                 <ul>
                                     <li><a href="mailto:mageia-contact@mageia.org">mageia-contact@mageia.org</a></li>
                                     <li><a href="mailto:press@mageia.org">press@mageia.org</a></li>
-                                    <li>expect an answer within 2 days</li>
+                                    <li>Espera una respuesta dentro de dos días</li>
                                 </ul></li>
                             <li><a href="http://www.twitter.com/mageia_org">twitter.com/mageia_org</a></li>
                             <li><a href="http://identi.ca/mageia">identi.ca/mageia</a></li>
