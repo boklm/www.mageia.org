@@ -69,7 +69,7 @@
             </div>
             <div class="yui-g">
                 <div class="para" id="announce">
-                    <h2>ANUNȚ</h2>
+                    <h2>Anunț</h2>
                     <p class="date">Paris, 18 septembrie 2010</p>
                     <p>Cum poate ați dedus deja, viitorul distribuției Mandriva Linux est astăzi incert.</p>
                     <p>Marea majoritate a angajaților care lucrau la 
