@@ -32,22 +32,49 @@ foreach ($langs as $k => $v)
 // global nav
 $nav_list = array(
     "/{$locale}/" => 'Mageia',
-    "http://blog.mageia.org/{$locale}" => 'Blog',
+    "http://blog.mageia.org/{$locale}" => array(
+        'en' => 'Blog',
+        'tr' => 'Web Günlüğü'
+    ),
     '/wiki' => 'Wiki',
-    "/{$locale}/faq/" => 'FAQ',
-    "http://donate.mageia.org/{$locale}/" => 'Donations',
-    "http://mageia.org/wiki/doku.php?id=press" => 'Press',
-    "/{$locale}/about/values/" => 'Values',
-    "/{$locale}/about/code-of-conduct/" => 'Code of Conduct'
+    "/{$locale}/faq/" => array(
+        'en' => 'FAQ',
+        'tr' => 'S.S.S.'
+    ),
+    "http://donate.mageia.org/{$locale}/" => array(
+        'en' => 'Donations',
+        'fr' => 'Dons',
+        'tr' => 'Bağışlar'
+    ),
+    "http://mageia.org/wiki/doku.php?id=press" => array(
+        'en' => 'Press',
+        'fr' => 'Presse',
+        'tr' => 'Basın'
+    ),
+    "/{$locale}/about/values/" => array(
+        'en' => 'Values',
+        'fr' => 'Valeurs',
+        'tr' => 'Değerler'
+    ),
+    "/{$locale}/about/code-of-conduct/" => array(
+        'en' => 'Code of Conduct',
+        'fr' => 'Code de conduite',
+        'tr' => 'Temel İlkeler'
+    )
 );
 
 $list_menu = array();
 foreach ($nav_list as $k => $v)
 {
+    if (is_array($v))
+        $title = array_key_exists($locale, $v) ? $v[$locale] : $v['en'];
+    else
+        $title = $v;
+
     $list_menu[] = sprintf('<a href="%s"%s>%s</a>',
         $k,
         $k == $sru ? ' class="sel"' : '',
-        $v);
+        $title);
 }
 
 echo sprintf('<div class="nav"><!--googleoff: all--><div class="nav2"><p class="loc">%s</p>', implode(' | ', $list_menu));
