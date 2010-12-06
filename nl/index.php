@@ -15,13 +15,14 @@
         <div id="hd" role="banner"><h1>Mageia <span>&ndash; Een nieuwe Linux Distributie</span></h1></div>
         <div id="bd" role="main">
             <div class="yui-g bb1">
-                <div class="para"><p>Mageia is a fork of Mandriva Linux,
-                    supported by a not-for-profit organisation of
-                    recognized and elected contributors.</p>
+                <div class="para"><p>Mageia is een kloon van Mandriva Linux,
+                    ondersteund door een stichting (not-for-profit organization)
+                    van erkende en verkozen medewerkers.</p>
 
-                    <p>Further than just delivering a free, secure, stable and sustainable operating system,
-                        the goal is to set up a stable and trustable governance to direct collaborative projects
-                        (<a href="#announce">check original announcement</a>).</p>
+                    <p>Meer dan enkel bezorgen van een gratis, veilig, stabiel en onderhoudbaar
+                        operating systeem, het doel is om een stabiele en vertrouwgevende
+                        organisatie-structuur op te zetten om collaboratieve projecten
+                        te dirigeren (<a href="#announce">zie origineel bericht</a>).</p>
                 </div>
             </div>
             <div class="yui-g bb1">
@@ -76,7 +77,7 @@
                     <p>Er zijn veel dingen gebeurd in de laatste 12 jaar.
                         Sommige daarvan waren heel fijn: De gemeenschap rond Mandriva Linux is vrij groot, gemotiveerd en ervaren; De distributie is ondanks alles nog steeds een van de populairste distributies en heeft een aantal onderscheidingen gewonnen, en is nog steeds innovatief en gemakkelijk in het gebruik.
                         Andere gebeurtenissen hadden erg vervelende consequenties en riepen bij velen vragen op over de gezondheid van hun favoriete distributie.</p>
-                    <p>Mensen die aan de distributie werken willen niet langer afhankelijk zijn van de economische situatie en fluctuaties en de soms moeilijk verklaarbare strategische keuzes die door het bedrijg gemaakt werden.</p>
+                    <p>Mensen die aan de distributie werken willen niet langer afhankelijk zijn van de economische situatie en fluctuaties en de soms moeilijk verklaarbare strategische keuzes die door het bedrijf gemaakt werden.</p>
                 </Div>
                 <div class="para">
                     <h2>Een kloon van Mandriva Linux? Jazeker.</h2>
