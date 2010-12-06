@@ -39,28 +39,33 @@ $nav_list = array(
     '/wiki' => 'Wiki',
     "/{$locale}/faq/" => array(
         'en' => 'FAQ',
+        'es' => 'Preguntas Frecuentes',
         'tr' => 'S.S.S.',
         'ro' => 'Întrebări frecvente'
     ),
     "http://donate.mageia.org/{$locale}/" => array(
         'en' => 'Donations',
+        'es' => 'Donaciones',
         'fr' => 'Dons',
         'tr' => 'Bağışlar',
         'ro' => 'Donații'
     ),
     "http://mageia.org/wiki/doku.php?id=press" => array(
         'en' => 'Press',
+        'es' => 'Prensa',
         'fr' => 'Presse',
         'tr' => 'Basın'
     ),
     "/{$locale}/about/values/" => array(
         'en' => 'Values',
+        'es' => 'Valores',
         'fr' => 'Valeurs',
         'tr' => 'Değerler',
         'ro' => 'Valori'
     ),
     "/{$locale}/about/code-of-conduct/" => array(
         'en' => 'Code of Conduct',
+        'es' => 'Código de Conducta',
         'fr' => 'Code de conduite',
         'tr' => 'Temel İlkeler',
         'ro' => 'Codul de conduită'
