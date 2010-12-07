@@ -54,6 +54,7 @@ $nav_list = array(
         'en' => 'Press',
         'es' => 'Prensa',
         'fr' => 'Presse',
+        'ro' => 'Presă',
         'tr' => 'Basın'
     ),
     "/{$locale}/about/values/" => array(

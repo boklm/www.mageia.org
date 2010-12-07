@@ -16,12 +16,12 @@
         <div id="hd" role="banner"><h1>Mageia <span>– O nouă distribuție Linux</span></h1></div>
         <div id="bd" role="main">
             <div class="yui-g bb1">
-                <div class="para"><p>Mageia este o derivație de Mandriva Linux, ce se bazează pe o organizație
-                nonprofit compusă din contribuitori cunoscuți și votați pentru munca lor.</p>
+                <div class="para"><p>Mageia este o derivație de Mandriva Linux, ce se bazează pe o  organizație
+                    nonprofit, compusă din contribuitori cunoscuți și votați pentru  munca lor.</p>
 
                     <p>Dincolo de un sistem de operare liber, securizat, stabil și peren, obiectivul
-                    este stabilirea unei guvernări stabile și legitime în jurul unui model
-                    colaborativ (<a href="#announce">citiți anunțul oficial</a>).</p>
+                        este constituirea unei guvernări stabile și legitime în jurul unui  model
+                        colaborativ (<a href="#announce">citiți anunțul oficial</a>).</p>
                 </div>
             </div>
             <div class="yui-g bb1">
