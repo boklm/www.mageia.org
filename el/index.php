@@ -27,13 +27,13 @@
             <div class="yui-g bb1">
                 <div class="yui-u first rb1">
                     <div class="para" id="news">
-                        <h2><a href="http://blog.mageia.org/el/">News</a></h2>
+                        <h2><a href="http://blog.mageia.org/el/">Νέα</a></h2>
                     <?php include '../lib/news.php'; echo html_news('el'); ?>
                     </div>
                 </div>
                 <div class="yui-u">
                     <div class="para" lang="en">
-                        <h2>Happening right now</h2>
+                        <h2>Συμβαίνει τώρα</h2>
                         <?php include '../roadmap.php'; ?>
                     </div>
                 </div>

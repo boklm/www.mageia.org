@@ -33,6 +33,7 @@ foreach ($langs as $k => $v)
 $nav_list = array(
     "/{$locale}/" => 'Mageia',
     "http://blog.mageia.org/{$locale}" => array(
+        'el' => 'Ιστολόγιο',
         'en' => 'Blog',
         'tr' => 'Web Günlüğü'
     ),
@@ -44,6 +45,7 @@ $nav_list = array(
         'ro' => 'Întrebări frecvente'
     ),
     "http://donate.mageia.org/{$locale}/" => array(
+        'el' => 'Δωρεές',
         'en' => 'Donations',
         'es' => 'Donaciones',
         'fr' => 'Dons',
@@ -51,6 +53,7 @@ $nav_list = array(
         'ro' => 'Donații'
     ),
     "http://mageia.org/wiki/doku.php?id=press" => array(
+        'el' => 'Τύπος',
         'en' => 'Press',
         'es' => 'Prensa',
         'fr' => 'Presse',
@@ -58,6 +61,7 @@ $nav_list = array(
         'tr' => 'Basın'
     ),
     "/{$locale}/about/values/" => array(
+        'el' => 'Αξίες',
         'en' => 'Values',
         'es' => 'Valores',
         'fr' => 'Valeurs',
@@ -65,6 +69,7 @@ $nav_list = array(
         'ro' => 'Valori'
     ),
     "/{$locale}/about/code-of-conduct/" => array(
+        'el' => 'Κώδικας συμπεριφοράς',
         'en' => 'Code of Conduct',
         'es' => 'Código de Conducta',
         'fr' => 'Code de conduite',
