@@ -12,13 +12,13 @@
         <div id="hd" role="banner"><h1>Mageia <span>- Uma nova distribuição Linux</span></h1></div>
         <div id="bd" role="main">
             <div class="yui-g bb1">
-                <div class="para"><p>Mageia is a fork of Mandriva Linux,
-                    supported by a not-for-profit organisation of
-                    recognized and elected contributors.</p>
+                <div class="para"><p>Mageia é um fork do Mandriva Linux, apoiada por uma organização
+                    sem fins lucrativos reconhecida e colaboradores eleitos.</p>
 
-                    <p>Further than just delivering a free, secure, stable and sustainable operating system,
-                        the goal is to set up a stable and trustable governance to direct collaborative projects
-                        (<a href="#announce">check original announcement</a>).</p>
+                    <p>Mais do que apenas oferecer um sistema operacional livre, seguro, estável e sustentável,
+                        o objetivo é a criação de uma administração estável e confiável para orientar projetos
+                        colaborativos
+                        (<a href="#announce">veja o anúncio original</a>).</p>
                 </div>
             </div>
             <div class="yui-g bb1">
