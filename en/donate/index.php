@@ -81,7 +81,16 @@ RIB:  30066 10876 00020064501 23
                     </div>
                 </div>
                 <div class="yui-u">
-                    <div class="para" style="padding-left: 0;">
+		    <div class="para" style="padding-left: 0;">
+<h3>via check</h3>
+                        <p>You can then send your donation by check to (if the currency
+                            is not &euro;/EURO, thank you to prefer bank transfer or Paypal)</p>
+
+                        <p class="donate-coord">
+Association Mageia.Org<br />
+8B rue de la Terrasse<br />
+75017 Paris<br />
+France</p><br /><br /><br />
                         <h3>via PayPal</h3>
 			<p><form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
@@ -91,21 +100,6 @@ RIB:  30066 10876 00020064501 23
 </form>
 
 /!\ PayPal withdraws a commission from each donation (so we get less than you send) /!\</p>
-
-                        <br />
-                        <br />
-                        <br />
-                        
-                        <h3>via check</h3>
-                        <p>You can then send your donation by check to (if the currency
-                            is not &euro;/EURO, thank you to prefer bank transfer or Paypal)</p>
-                            
-                        <p class="donate-coord">
-Association Mageia.Org<br />
-8B rue de la Terrasse<br />
-75017 Paris<br />
-France</p>
-
                     </div>
                 </div>
             </div>
