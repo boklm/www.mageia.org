@@ -47,3 +47,11 @@ ul.news li span.dt { font-weight: thin; font-size: 85%; color: #666;
 .rb1 { border-right: 1px solid #aaa; }
 
 #lang_form { position: absolute; top: 0; right: 0; }
+
+.donate-coord {
+     background: #fea; background: #ddd;
+     color: #222;
+     padding: 0.5em 0.9em;
+     font-family: courier, monospace;
+     font-size: 95%;
+}
