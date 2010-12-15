@@ -37,7 +37,7 @@
                         The First General Constitutive Assembly, the treasurer of Mageia.Org is Damien Lallement.</p>
                         
 		    <h2>Donate</h2>
-			<p>Currently, we have got <strong>{amout}</strong> thanks to all of our <a href="en/thank">donators</a></p>
+			Currently, we have got <strong>{amout}</strong> thanks to all of our <a href="en/thank">donators</a>!
                 </div>
             </div>
             <div class="yui-gc">
