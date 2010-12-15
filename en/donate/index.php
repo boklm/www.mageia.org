@@ -36,14 +36,15 @@
                         We believe public accountability is crucial. As stated in the minutes of
                         The First General Constitutive Assembly, the treasurer of Mageia.Org is Damien Lallement.</p>
                         
-                    <h2>Donate</h2>
+		    <h2>Donate</h2>
+			<p>Currently, we have got <strong>{amout}</strong> thanks to all of our <a href="en/thank">donators</a></p>
                 </div>
             </div>
             <div class="yui-gc">
                 <div class="yui-u first">
                     <div class="para" style="padding-right: 0;">
                         <h3>via bank transfer</h3>
-                        <p>You can donate through bank transfer by using the following <a href="../../iban_Mageia.Org.pdf">Bank Identifier Code</a>:</p>
+                        <p>You can donate through bank transfer by using our <a href="../../iban_Mageia.Org.pdf">Bank Identifier Code</a>:</p>
 
                         <pre class="donate-coord">
 <u>In favor of:</u>
@@ -98,12 +99,6 @@ France</p><br /><br /><br />
 <br />
 <strong>/!\</strong> PayPal withdraws a commission from each donation (so we get less than you send)</p>
                     </div>
-                </div>
-            </div>
-
-            <div class="yui-g">
-                <div class="para">
-			<h2>Donators</h2>
                 </div>
             </div>
         </div>
