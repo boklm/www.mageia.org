@@ -72,7 +72,8 @@ RIB:  30066 10876 00020064501 23
     Put here the amount of your donation
     in EURO (&euro;) or US Dollar (US$)
 
-    /!\ The conversion rate bank, if currency other than EURO, will be charged for Mageia /!\
+    /!\ The conversion rate bank, if currency other than EURO,
+         will be charged for Mageia /!\
 
 </p>
                     </div>
@@ -88,7 +89,7 @@ Association Mageia.Org<br />
 8B rue de la Terrasse<br />
 75017 Paris<br />
 France</p><br /><br /><br />
-                        <h3><a name="paypa">via PayPal</a></h3>
+                        <h3><a name="paypal">via PayPal</a></h3>
 			<p><form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="62X2MFQRAYABL">
