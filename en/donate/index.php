@@ -43,8 +43,7 @@
                 <div class="yui-u first">
                     <div class="para" style="padding-right: 0;">
                         <h3>via bank transfer</h3>
-                        <p>You can donate through bank transfer by using the following
-                            Bank Identifier Code (<a href="../../iban_Mageia.Org.pdf">IBAN-BIC</a>):</p>
+                        <p>You can donate through bank transfer by using the following <a href="../../iban_Mageia.Org.pdf">Bank Identifier Code</a>:</p>
 
                         <pre class="donate-coord">
 <u>In favor of:</u>
@@ -73,9 +72,7 @@ RIB:  30066 10876 00020064501 23
     Put here the amount of your donation
     in EURO (&euro;) or US Dollar (US$)
 
-    /!\ The conversion rate bank
-        (if currency other than EURO)
-        will be charged for Mageia
+    /!\ The conversion rate bank, if currency other than EURO, will be charged for Mageia /!\
 
 </p>
                     </div>
@@ -84,14 +81,14 @@ RIB:  30066 10876 00020064501 23
 		    <div class="para" style="padding-left: 0;">
 <h3>via check</h3>
                         <p>You can then send your donation by check to (if the currency
-                            is not &euro;/EURO, thank you to prefer bank transfer or Paypal)</p>
+                            is not &euro;/EURO, thank you to prefer bank transfer or <a href="#paypal">Paypal</a>)</p>
 
                         <p class="donate-coord">
 Association Mageia.Org<br />
 8B rue de la Terrasse<br />
 75017 Paris<br />
 France</p><br /><br /><br />
-                        <h3>via PayPal</h3>
+                        <h3><a name="paypa">via PayPal</a></h3>
 			<p><form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="62X2MFQRAYABL">
