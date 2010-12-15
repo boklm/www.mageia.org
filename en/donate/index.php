@@ -73,7 +73,7 @@ RIB:  30066 10876 00020064501 23
     in EURO (&euro;) or US Dollar (US$)
 
     <strong>/!\</strong> The conversion rate bank, if currency other than EURO,
-         will be charged for Mageia
+        will be charged for Mageia
 </p>
                     </div>
                 </div>
@@ -95,7 +95,7 @@ France</p><br /><br /><br />
 <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypal.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
 </form>
-
+<br />
 <strong>/!\</strong> PayPal withdraws a commission from each donation (so we get less than you send)</p>
                     </div>
                 </div>
