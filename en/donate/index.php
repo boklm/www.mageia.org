@@ -44,7 +44,7 @@
                     <div class="para" style="padding-right: 0;">
                         <h3>via bank transfer</h3>
                         <p>You can donate through bank transfer by using the following
-                            Bank Identifier Code (<a href="Mageia.Org_iban.pdf">IBAN-BIC</a>):</p>
+                            Bank Identifier Code (<a href="iban_Mageia.Org.pdf">IBAN-BIC</a>):</p>
 
                         <pre class="donate-coord">
 <u>In favor of:</u>
