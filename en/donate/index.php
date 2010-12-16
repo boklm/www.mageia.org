@@ -41,12 +41,12 @@
                     </ul>
 
                     <h2>How to track donation?</h2>
-                    <p>Currently, we have got <strong>{amoutn}</strong>
+                    <p>Currently, we have got <strong>{amount} &euro;<sup>[1]</sup></strong>
                         thanks to all of our <a href="/en/thank-you/">donators</a>!</p>
 
                     <p>There will be a monthly report on the funds received and how they were used.
                         We believe public accountability is crucial. As stated in the minutes of
-                        The First General Constitutive Assembly, the treasurer of Mageia.Org is Damien Lallement.</p>
+                        The First General Constitutive Assembly, the treasurer of Mageia.Org is Damien Lallement.<br /><br /><sup>[1]</sup>: The amount of donation is updated every Thursday at 23:00 UTC+1.</p>
                 </div>
             </div>
             <div class="yui-g"><div class="para">
