@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <title>Mageia Frequently Asked Questions</title>
-    <meta name="description" content="Mageia is new community-based Linux distribution." />
+    <meta name="description" content="Get answers about Mageia." />
     <meta name="keywords" content="mageia, linux, mandriva, free software" />
     <link rel="stylesheet" type="text/css" href="/g/style/all.css" />
     <?php include '../../analytics.php'; ?>
