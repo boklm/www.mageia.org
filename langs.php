@@ -6,22 +6,21 @@ $g_app_root = realpath(dirname(__FILE__));
 define('G_APP_ROOT', $g_app_root);
 
 $G_coord_assos = <<<T
-    Assocation Mageia.Org
-    8B rue de la Terrasse
-    75017 Paris
-    France
+  Assocation Mageia.Org
+  8B rue de la Terrasse
+  75017 Paris
+  France
 
 T;
 $G_coord_assos_bank = <<<T
-    CIC Paris Villiers
-    14 avenue de Villiers
-    75017 Paris
-    France
+  CIC Paris Villiers
+  14 avenue de Villiers
+  75017 Paris
+  France
 
-
-    IBAN: FR7630066108760002006450123
-    BIC:  CMCIFRPP
-    RIB:  30066 10876 00020064501 23
+  RIB:  30066 10876 00020064501 23
+  IBAN: FR76 3006 6108 7600 0200 6450 123
+  BIC:  CMCIFRPP
 
 T;
 

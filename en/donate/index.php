@@ -41,26 +41,23 @@
                     </ul>
 
                     <h2>How to track donation?</h2>
-                    <p>Currently, we have got <strong>{amount} &euro;<sup>[1]</sup></strong>
-                        thanks to all of our <a href="/en/thank-you/">donators</a>!</p>
+                    <p>Currently, we have got <strong>{amount} &euro;</strong>
+                        thanks to all of our <a href="/en/thank-you/">donators</a>! (updated weekly)</p>
 
                     <p>There will be a monthly report on the funds received and how they were used.
                         We believe public accountability is crucial. As stated in the minutes of
-                        The First General Constitutive Assembly, the treasurer of Mageia.Org is Damien Lallement.<br /><br /><sup>[1]</sup>: The amount of donation is updated every Thursday at 23:00 UTC+1.</p>
+                        The First General Constitutive Assembly, the treasurer of Mageia.Org is Damien Lallement.</p>
                 </div>
             </div>
             <div class="yui-g"><div class="para">
                 <h2>Donate via PayPal,</h2>
                 <?php include '../../paypal.inc.php'; echo html_paypal_form('en'); ?>
-                <p><strong>Beware: PayPal withdraws a commission from each donation
-                    (so we get less than you sent).</strong></p>
             </div></div>
             <div class="yui-g">
                 <div class="yui-u first"><div class="para" style="padding-right: 0;">
                     <h3>via bank transfer,</h3>
-                    <p>You can donate through bank transfer by using the following
+                    <p>using the following
                         Bank Identifier Code (IBAN-BIC):</p>
-
                     <pre class="donate-coord">
 <u>In favor of:</u>
 
@@ -71,26 +68,23 @@
 
 <?php echo $G_coord_assos_bank; ?>
 
-
-<u>Amount:</u>
-
-    Put here the amount of your donation
-    in EURO (&euro;) or US Dollar (US$)
-
-    /!\ The conversion rate bank
-        (if currency other than EURO)
-        will be charged for Mageia
 </pre>
                 </div></div>
                 <div class="yui-u"><div class="para">
-                    <h3>or via check.</h3>
-                    <p>You can then send your donation by check to (if the currency
-                        is not &euro;/EURO, thank you to prefer bank transfer or Paypal)</p>
-                        
+                    <h3>or via check (&euro; only).</h3>
+                    <p>You can send your donation by check to this address:</p>
                     <pre class="donate-coord">
 <?php echo $G_coord_assos; ?>
 </pre>
-            </div></div>
+                </div><div class="para">
+                    <p><strong>Please note that:</strong></p>
+                    <ul>
+                        <li>Paypal withdraws a small commission for each donation (about ...%) so we get a little bit less
+                            than you send;</li>
+                        <li>anyway, conversion rates are charged to Mageia.</li>
+                    </ul>
+                </div></div>
+            </div>
         </div>
     </div>
 </body>

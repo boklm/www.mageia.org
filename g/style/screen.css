@@ -64,3 +64,14 @@ ul.news li span.dt { font-weight: thin; font-size: 85%; color: #666;
 #pp_form_btn {
     text-align: center;
 }
+
+ul.ty-ppl-list {
+    -moz-column-count: 3; -webkit-column-count: 3;
+    -moz-column-gap: 1em; -webkit-column-gap: 1em;
+    font-size: 90%;
+    margin: 1em 0 4em 1em;
+    padding: 0;
+}
+ul.ty-ppl-list li:before {
+    content: "\00BB \0020";
+}
