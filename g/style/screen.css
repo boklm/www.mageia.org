@@ -51,7 +51,16 @@ ul.news li span.dt { font-weight: thin; font-size: 85%; color: #666;
 .donate-coord {
      background: #fea; background: #ddd;
      color: #222;
-     padding: 0.5em 0.9em;
+     padding: 0.8em 1em 2em 1em;
      font-family: courier, monospace;
      font-size: 95%;
+}
+
+#pp_form {
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+#pp_form_btn {
+    text-align: center;
 }

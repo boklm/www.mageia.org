@@ -5,6 +5,26 @@
 $g_app_root = realpath(dirname(__FILE__));
 define('G_APP_ROOT', $g_app_root);
 
+$G_coord_assos = <<<T
+    Assocation Mageia.Org
+    8B rue de la Terrasse
+    75017 Paris
+    France
+
+T;
+$G_coord_assos_bank = <<<T
+    CIC Paris Villiers
+    14 avenue de Villiers
+    75017 Paris
+    France
+
+
+    IBAN: FR7630066108760002006450123
+    BIC:  CMCIFRPP
+    RIB:  30066 10876 00020064501 23
+
+T;
+
 require_once 'langs.inc.php';
 
 $sru = trim($_SERVER['REQUEST_URI']);
@@ -44,7 +64,7 @@ $nav_list = array(
         'tr' => 'S.S.S.',
         'ro' => 'Întrebări frecvente'
     ),
-    "http://donate.mageia.org/{$locale}/" => array(
+    "/{$locale}/donate/" => array(
         'el' => 'Δωρεές',
         'en' => 'Donations',
         'es' => 'Donaciones',

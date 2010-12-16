@@ -18,6 +18,14 @@
         <div id="bd" role="main">
             <div class="yui-g">
                 <div class="para donate">
+                    <div style="float: right; border: 1px solid #aaa; padding: 0 0 1em 0; margin: 0 0 2em 1em;">
+                        <ul>
+                            <li><a href="#why">Why donate?</a></li>
+                            <li><a href="#status">Donation Tracks</a></li>
+                            <li><a href="#d-paypal">Donate</a> (Paypal, bank, check)</li>
+                            <li><a href="/en/thank-you/#fund">Thank you!</a></li>
+                        </ul>
+                    </div>
                     <h2>Why donate?</h2>
                     <p>Mageia.Org is a not-for-profit association to manage the Mageia distribution.
                         As a not-for-profit association, it can receive donations from the community
@@ -28,44 +36,40 @@
                         <li>registrations of Mageia trademark;</li>
                         <li>goodies for spreading Mageia;</li>
                         <li>administrative expenses;</li>
+                        <li>eventually, legal counsel and </li>
                         <li>etc.</li>
                     </ul>
 
                     <h2>How to track donation?</h2>
+                    <p>Currently, we have got <strong>{amoutn}</strong>
+                        thanks to all of our <a href="/en/thank-you/">donators</a>!</p>
+
                     <p>There will be a monthly report on the funds received and how they were used.
                         We believe public accountability is crucial. As stated in the minutes of
                         The First General Constitutive Assembly, the treasurer of Mageia.Org is Damien Lallement.</p>
-                        
-		    <h2>Donate</h2>
-			Currently, we have got <strong>{amout}</strong> thanks to all of our <a href="en/thank">donators</a>!
                 </div>
             </div>
-            <div class="yui-gc">
-                <div class="yui-u first">
-                    <div class="para" style="padding-right: 0;">
-                        <h3>via bank transfer</h3>
-                        <p>You can donate through bank transfer by using our <a href="../../iban_Mageia.Org.pdf">Bank Identifier Code</a>:</p>
+            <div class="yui-g"><div class="para">
+                <h2>Donate via PayPal,</h2>
+                <?php include '../../paypal.inc.php'; echo html_paypal_form('en'); ?>
+                <p><strong>Beware: PayPal withdraws a commission from each donation
+                    (so we get less than you sent).</strong></p>
+            </div></div>
+            <div class="yui-g">
+                <div class="yui-u first"><div class="para" style="padding-right: 0;">
+                    <h3>via bank transfer,</h3>
+                    <p>You can donate through bank transfer by using the following
+                        Bank Identifier Code (IBAN-BIC):</p>
 
-                        <pre class="donate-coord">
+                    <pre class="donate-coord">
 <u>In favor of:</u>
 
-    Assocation Mageia.Org
-    8B rue de la Terrasse
-    75017 Paris
-    France
+<?php echo $G_coord_assos; ?>
 
 
 <u>Bank Account:</u>
 
-    CIC Paris Villiers
-    14 avenue de Villiers
-    75017 Paris
-    France
-
-
-IBAN: FR7630066108760002006450123
-BIC:  CMCIFRPP
-RIB:  30066 10876 00020064501 23
+<?php echo $G_coord_assos_bank; ?>
 
 
 <u>Amount:</u>
@@ -73,34 +77,20 @@ RIB:  30066 10876 00020064501 23
     Put here the amount of your donation
     in EURO (&euro;) or US Dollar (US$)
 
-    <strong>/!\</strong> The conversion rate bank, if currency other than EURO,
+    /!\ The conversion rate bank
+        (if currency other than EURO)
         will be charged for Mageia
-</p>
-                    </div>
-                </div>
-                <div class="yui-u">
-		    <div class="para" style="padding-left: 0;">
-<h3>via check</h3>
-                        <p>You can then send your donation by check to (if the currency
-                            is not &euro;/EURO, thank you to prefer bank transfer or <a href="#paypal">Paypal</a>)</p>
-
-                        <p class="donate-coord">
-Association Mageia.Org<br />
-8B rue de la Terrasse<br />
-75017 Paris<br />
-France</p><br /><br /><br />
-                        <h3><a name="paypal">via PayPal</a></h3>
-			<p><form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="62X2MFQRAYABL">
-<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypal.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
-</form>
-<br />
-<strong>/!\</strong> PayPal withdraws a commission from each donation (so we get less than you send)</p>
-                    </div>
-                </div>
-            </div>
+</pre>
+                </div></div>
+                <div class="yui-u"><div class="para">
+                    <h3>or via check.</h3>
+                    <p>You can then send your donation by check to (if the currency
+                        is not &euro;/EURO, thank you to prefer bank transfer or Paypal)</p>
+                        
+                    <pre class="donate-coord">
+<?php echo $G_coord_assos; ?>
+</pre>
+            </div></div>
         </div>
     </div>
 </body>
