@@ -28,15 +28,18 @@
 
                     <?php echo html_donators_list($donators); ?>
 
-                    <p>Places and teams that welcomed us and offerred us some tea, coffee, seats and advice:</p>
+                    <p>Great places and teams that welcomed us and offerred us some tea, coffee, seats and advice
+                        (mostly in Paris for now):</p>
                     <ul class="ty-ppl-list">
-                        <li>the famous <a href="http://lacantine.org/">La Cantine</a> coworking space</li>
-                        <li>Starbucks Coffee (Paris)</li>
+                        <li><a href="http://lacantine.org/">La Cantine</a></li>
+                        <li>Le Père Tranquille</li>
+                        <li>Séverine's place</li>
+                        <li>Starbucks Coffee</li>
                     </ul>
                     <p>Thanks a lot to all the people we met, discussed with about this project
                         and its potential implications: you know who you are!</p>
                     
-                    <p>Those provided Mageia.Org with hosting, hosting advice, server hardware,
+                    <p>Those organizations provided Mageia.Org with hosting, hosting advice, server hardware,
                         network bandwidth or some facilities:</p>
                     <?php echo html_orgs_list($orgs); ?>
                 </div>

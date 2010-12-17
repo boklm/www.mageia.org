@@ -176,10 +176,10 @@ $orgs = array(
 function html_donators_list($donators)
 {
     $count_donators = count($donators);
-    $donators = array_unique($donators);
+    //$donators = array_unique($donators);
     sort($donators);
 
-    $html = sprintf('<p>%d people <a href="/en/donate/">donated money</a> to Mageia.Org:</p>', $count_donators);
+    $html = sprintf('<p>%d amazing people <a href="/en/donate/">donated money</a> to Mageia.Org:</p>', $count_donators);
     $html .= '<ul class="ty-ppl-list">';
     foreach ($donators as $p)
         $html .= sprintf('<li>%s</li>', $p);
