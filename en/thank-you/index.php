@@ -34,7 +34,7 @@
                         <li><a href="http://lacantine.org/">La Cantine</a></li>
                         <li>Le Père Tranquille</li>
 			<li>Séverine's place</li>
-			<li><a href="http://twitter.com/happylisou/">Elise's place</a></li>
+			<li><a href="http://twitter.com/happylisou/">Elise</a>'s place</a></li>
                         <li>Starbucks Coffee</li>
                     </ul>
                     <p>Thanks a lot to all the people we met, discussed with about this project
