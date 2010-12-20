@@ -41,7 +41,7 @@
                     </ul>
 
                     <h2>How to track donation?</h2>
-                    <p>Currently, we have got <strong>{amount} &euro;</strong>
+                    <p>Currently, we have got <strong>8393,70 &euro;</strong>
                         thanks to all of our <a href="/en/thank-you/">donators</a>! (updated weekly)</p>
 
                     <p>There will be a monthly report on the funds received and how they were used.
