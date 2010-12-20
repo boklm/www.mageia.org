@@ -7,7 +7,7 @@
     <meta name="description" content="Mageia is new community-based Linux distribution." />
     <meta name="keywords" content="mageia, donate, donation" />
     <meta name="author" content="Mageia" />
-    <link rel="stylesheet" type="text/css" href="/g/style/all.css" />
+    <link rel="stylesheet" type="text/css" href="/g/style/all.css" >
     <?php include '../../analytics.php'; ?>
 </head>
 <body>
@@ -22,11 +22,11 @@
                         <ul>
                             <li><a href="#why">Why donate?</a></li>
                             <li><a href="#status">Donation Tracks</a></li>
-                            <li><a href="#d-paypal">Donate</a> (Paypal, bank, check)</li>
+                            <li><a href="#d-paypal">Donate</a> (PayPal, bank, check)</li>
                             <li><a href="/en/thank-you/#fund">Thank you!</a></li>
                         </ul>
                     </div>
-                    <h2>Why donate?</h2>
+                    <h2><a name="why">Why donate?</a></h2>
                     <p>Mageia.Org is a not-for-profit association to manage the Mageia distribution.
                         As a not-for-profit association, it can receive donations from the community
                         to help in a lot of differents fields:</p>
@@ -40,7 +40,7 @@
                         <li>etc.</li>
                     </ul>
 
-                    <h2>How to track donation?</h2>
+                    <h2><a name="status">How to track donation?</a></h2>
                     <p>Currently, we have got <strong>8393,70 &euro;</strong>
                         thanks to all of our <a href="/en/thank-you/">donators</a>! (updated weekly)</p>
 
@@ -50,7 +50,7 @@
                 </div>
             </div>
             <div class="yui-g"><div class="para">
-                <h2>Donate via PayPal,</h2>
+                <h2><a name="d-paypal">Donate via PayPal,</a></h2>
                 <?php include '../../paypal.inc.php'; echo html_paypal_form('en'); ?>
             </div></div>
             <div class="yui-g">
@@ -81,7 +81,7 @@
                     <ul>
                         <li>Paypal withdraws a small commission for each donation (about ...%) so we get a little bit less
                             than you send;</li>
-			<li>conversion rates are charged to Mageia;</li>
+			<li>conversion rates are charged to Mageia, so please use &euro; as currency;</li>
 			<li>if you want to do an anonymous donation, please add a comment.</li>
                     </ul>
                 </div></div>
