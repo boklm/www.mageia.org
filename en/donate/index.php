@@ -75,13 +75,14 @@
                     <p>You can send your donation by check to this address:</p>
                     <pre class="donate-coord">
 <?php echo $G_coord_assos; ?> 
-</pre><p>Use "Mageia.Org" in the "To the order of..." line.</p>
+</pre><br />Use "Mageia.Org" in the "Pay to the order of..." line.
                 </div><div class="para">
                     <p><strong>Please note that:</strong></p>
                     <ul>
                         <li>Paypal withdraws a small commission for each donation (about ...%) so we get a little bit less
                             than you send;</li>
-                        <li>anyway, conversion rates are charged to Mageia.</li>
+			<li>conversion rates are charged to Mageia;</li>
+			<li>if you want to do an anonymous donation, please add a comment.</li>
                     </ul>
                 </div></div>
             </div>
