@@ -66,6 +66,7 @@ ul.news li span.dt { font-weight: thin; font-size: 85%; color: #666;
 }
 
 ul.ty-ppl-list {
+    list-style-type: none;
     -moz-column-count: 3; -webkit-column-count: 3;
     -moz-column-gap: 1em; -webkit-column-gap: 1em;
     font-size: 90%;
