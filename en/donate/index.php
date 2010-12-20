@@ -74,7 +74,7 @@
                     <h3>or via check (&euro; only).</h3>
                     <p>You can send your donation by check to this address:</p>
                     <pre class="donate-coord">
-<?php echo $G_coord_assos; ?>
+<?php echo $G_coord_assos; ?>Use "Mageia.Org" in the "Pay to the order of..." line. 
 </pre>
                 </div><div class="para">
                     <p><strong>Please note that:</strong></p>
