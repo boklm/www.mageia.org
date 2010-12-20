@@ -10,7 +10,6 @@ $G_coord_assos = <<<T
   8B rue de la Terrasse
   75017 Paris
   France
-
 T;
 $G_coord_assos_bank = <<<T
   CIC Paris Villiers
@@ -18,10 +17,8 @@ $G_coord_assos_bank = <<<T
   75017 Paris
   France
 
-  RIB:  30066 10876 00020064501 23
   IBAN: FR76 3006 6108 7600 0200 6450 123
   BIC:  CMCIFRPP
-
 T;
 
 require_once 'langs.inc.php';
