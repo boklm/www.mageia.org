@@ -23,7 +23,7 @@
                             <li><a href="#why">Pourquoi donner&nbsp;?</a></li>
                             <li><a href="#status">Suivi des dons</a></li>
                             <li><a href="#d-paypal">Faire un don</a> (PayPal, virement bancaire, chèque)</li>
-                            <li><a href="/fr/thank-you/#fund">Merci&nbsp;!</a></li>
+                            <li><a href="/en/thank-you/#fund">Merci&nbsp;!</a></li>
 
                         </ul>
                     </div>
