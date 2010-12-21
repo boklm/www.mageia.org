@@ -5,6 +5,8 @@
 $g_app_root = realpath(dirname(__FILE__));
 define('G_APP_ROOT', $g_app_root);
 
+$g_donate_amount = '8393,70&nbsp;&euro;';
+
 $G_coord_assos = <<<T
   Assocation Mageia.Org
   8B rue de la Terrasse

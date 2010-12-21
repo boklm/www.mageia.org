@@ -41,7 +41,7 @@
                     </ul>
 
                     <h2><a name="status">How to track donation?</a></h2>
-                    <p>Currently, we have got <strong>8393,70 &euro;</strong>
+                    <p>Currently, we have got <strong><?php echo $g_donate_amount; ?></strong>
                         thanks to all of our <a href="/en/thank-you/">donators</a>! (updated weekly)</p>
 
                     <p>There will be a monthly report on the funds received and how they were used.
@@ -68,21 +68,23 @@
 
 <?php echo $G_coord_assos_bank; ?>
 
-</pre>If needed, you can <a href="/iban_Mageia.Org.pdf" title="IBAN of Mageia.Org">download our IBAN</a>.
+</pre>
+                    <p>If needed, you can <a href="/iban_Mageia.Org.pdf" title="IBAN of Mageia.Org">download our IBAN</a>.</p>
                 </div></div>
                 <div class="yui-u"><div class="para">
                     <h3>or via check (&euro; only).</h3>
                     <p>You can send your donation by check to this address:</p>
                     <pre class="donate-coord">
 <?php echo $G_coord_assos; ?> 
-</pre>Use "Mageia.Org" in the "Pay to the order of..." line.
+</pre>
+                    <p>Use "Mageia.Org" in the "Pay to the order of..." line.</p>
                 </div><div class="para">
                     <p><strong>Please note that:</strong></p>
                     <ul>
                         <li>Paypal withdraws a small commission for each donation (about ...%) so we get a little bit less
                             than you send;</li>
-			<li>conversion rates are charged to Mageia, so please use &euro; as currency;</li>
-			<li>if you want to do an anonymous donation, please add a comment.</li>
+                        <li>conversion rates are charged to Mageia, so please use &euro; as currency;</li>
+                        <li>if you want to do an anonymous donation, please add a comment.</li>
                     </ul>
                 </div></div>
             </div>
