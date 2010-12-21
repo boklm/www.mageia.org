@@ -62,8 +62,9 @@ $nav_list = array(
         'tr' => 'S.S.S.',
         'ro' => 'Întrebări frecvente'
     ),
-    //"/{$locale}/donate/"
+    //"/{$locale}/donate/" => array(
     "http://donate.mageia.org/{$locale}/" => array(
+        'de' => 'Spenden',
         'el' => 'Δωρεές',
         'en' => 'Donations',
         'es' => 'Donaciones',
@@ -72,6 +73,7 @@ $nav_list = array(
         'ro' => 'Donații'
     ),
     "http://mageia.org/wiki/doku.php?id=press" => array(
+        'de' => 'Presse',
         'el' => 'Τύπος',
         'en' => 'Press',
         'es' => 'Prensa',
@@ -80,6 +82,7 @@ $nav_list = array(
         'tr' => 'Basın'
     ),
     "/{$locale}/about/values/" => array(
+        'de' => 'Werte',
         'el' => 'Αξίες',
         'en' => 'Values',
         'es' => 'Valores',
@@ -88,6 +91,7 @@ $nav_list = array(
         'ro' => 'Valori'
     ),
     "/{$locale}/about/code-of-conduct/" => array(
+        'de' => 'Verhaltenskodex',
         'el' => 'Κώδικας συμπεριφοράς',
         'en' => 'Code of Conduct',
         'es' => 'Código de Conducta',
