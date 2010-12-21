@@ -62,8 +62,8 @@ $nav_list = array(
         'tr' => 'S.S.S.',
         'ro' => 'Întrebări frecvente'
     ),
-    //"/{$locale}/donate/" => array(
-    "http://donate.mageia.org/{$locale}/" => array(
+    "/{$locale}/donate/" => array(
+    //"http://donate.mageia.org/{$locale}/" => array(
         'de' => 'Spenden',
         'el' => 'Δωρεές',
         'en' => 'Donations',
