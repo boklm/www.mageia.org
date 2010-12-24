@@ -26,7 +26,7 @@
                             <li><a href="/en/thank-you/#fund">Thank you!</a></li>
                         </ul>
                     </div>
-                    <h2><a name="why">Why donate?</a></h2>
+                    <h2 id="why">Why donate?</h2>
                     <p>Mageia.Org is a not-for-profit association to manage the Mageia distribution.
                         As a not-for-profit association, it can receive donations from the community
                         to help in a lot of differents fields:</p>
@@ -40,7 +40,7 @@
                         <li>etc.</li>
                     </ul>
 
-                    <h2><a name="status">How to track donation?</a></h2>
+                    <h2 id="status">How to track donation?</h2>
                     <p>Currently, we have got <strong><?php echo $g_donate_amount; ?></strong>
                         thanks to all of our <a href="/en/thank-you/">donators</a>! (updated weekly)</p>
 
@@ -50,7 +50,7 @@
                 </div>
             </div>
             <div class="yui-g"><div class="para">
-                <h2><a name="d-paypal">Donate via PayPal,</a></h2>
+                <h2 id="d-paypal">Donate via PayPal,</h2>
                 <?php include '../../paypal.inc.php'; echo html_paypal_form('en'); ?>
             </div></div>
             <div class="yui-g">
@@ -75,7 +75,7 @@
                     <h3>or via check (&euro; only).</h3>
                     <p>You can send your donation by check to this address:</p>
                     <pre class="donate-coord">
-<?php echo $G_coord_assos; ?> 
+<?php echo $G_coord_assos; ?>
 </pre>
                     <p>Use "Mageia.Org" in the "Pay to the order of..." line.</p>
                 </div><div class="para">
