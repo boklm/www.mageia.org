@@ -13,13 +13,14 @@
         <div id="hd" role="banner"><h1>Mageia <span>– uus Linuxi distributsioon</span></h1></div>
         <div id="bd" role="main">
             <div class="yui-g bb1">
-                <div class="para"><p>Mageia is a fork of Mandriva Linux,
-                    supported by a not-for-profit organisation of
-                    recognized and elected contributors.</p>
+                <div class="para">
+                    <p>Mageia on Mandriva Linuxi edasiarendus, mida toetab tunnustatud
+                        ja valitud kaastöötajatest mittetulundusühing.</p>
 
-                    <p>Further than just delivering a free, secure, stable and sustainable operating system,
-                        the goal is to set up a stable and trustable governance to direct collaborative projects
-                        (<a href="#announce">check original announcement</a>).</p>
+                    <p>Vaba, turvalise, stabiilse ja kestliku operatsioonisüsteemi
+                        pakkumise kõrval on meie sihiks kujundada vahetule koostööle
+                        tuginevate projektide stabiilne ja usaldusväärne juhtimine
+                        (<a href="#announce">lugege selle kohta ka esialgset teadaannet allpool</a>).</p>
                 </div>
             </div>
             <div class="yui-g bb1">
@@ -31,7 +32,7 @@
                 </div>
                 <div class="yui-u">
                     <div class="para" lang="en">
-                        <h2>Happening right now</h2>
+                        <h2>Viimased sündmused</h2>
                         <?php include '../roadmap.php'; ?>
                     </div>
                 </div>
@@ -39,16 +40,17 @@
             <div class="yui-g bb1">
                 <div class="yui-u first">
                     <div class="para" id="contact">
-                        <h2>Join us!</h2>
+                        <h2>Lööge kaasa!</h2>
                         <ul>
-                            <li><a href="https://www.mageia.org/mailman/">Mailing-lists</a></li>
-                            <li><a href="http://mageia.org/wiki/doku.php?id=irc">IRC (Freenode network)</a></li>
+                            <li><a href="https://www.mageia.org/mailman/">Postiloendid</a></li>
+                            <li><a href="http://mageia.org/wiki/doku.php?id=irc">IRC (Freenode võrk)</a></li>
                             <li><a href="http://mageia.org/wiki/">Mageia Wiki</a></li>
-                            <li>Contact the founders team:
+                            <li>Kontakt asutajate meeskonnaga:
                                 <ul>
                                     <li><a href="mailto:mageia-contact@mageia.org">mageia-contact@mageia.org</a></li>
                                     <li><a href="mailto:press@mageia.org">press@mageia.org</a></li>
-                                    <li>expect an answer within 2 days</li>
+                                    <li>vastust võib oodata 2 päeva jooksul</li>
+                                    <li>kirjutada tasub inglise või prantsuse keeles, aga see pole tingimata kohustuslik</li>
                                 </ul></li>
                             <li><a href="http://www.twitter.com/mageia_org">twitter.com/mageia_org</a></li>
                             <li><a href="http://identi.ca/mageia">identi.ca/mageia</a></li>
