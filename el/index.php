@@ -46,12 +46,12 @@
                             <li><a href="https://www.mageia.org/mailman/">Λίστες ταχυδρομείου</a></li>
                             <li><a href="http://mageia.org/wiki/doku.php?id=irc">IRC (Freenode network)</a></li>
                             <li><a href="http://mageia.org/wiki/">Mageia Wiki</a></li>
-                            <li>Contact the founders team:
+                            <li>Επικοινωνήστε με την ομάδα των ιδρυτών:
                                 <ul>
                                     <li><a href="mailto:mageia-contact@mageia.org">mageia-contact@mageia.org</a></li>
                                     <li><a href="mailto:press@mageia.org">press@mageia.org</a></li>
                                     <li>Κατά προτίμηση στην αγγλική ή στην γαλλική αλλά δεν είναι υποχρεωτικό.
-                                        Please expect an answer within 2 days</li>
+                                        Παρακαλώ περιμένετε μια απάντηση μέσα σε 2 ημέρες</li>
                                 </ul></li>
                             <li><a href="http://www.twitter.com/mageia_org">twitter.com/mageia_org</a></li>
                             <li><a href="http://identi.ca/mageia">identi.ca/mageia</a></li>
