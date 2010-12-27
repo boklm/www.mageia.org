@@ -78,7 +78,7 @@
                     <pre class="donate-coord">
 <?php echo $G_coord_assos; ?>
 </pre>
-                    <p>Use &quot;Mageia.Org&quot; in the &quot;Pay to the order of...&quot; line.</p>
+                    <p>&quot;... adına ödeme&quot; satırına &quot;Mageia.Org&quot; yazınız.</p>
                 </div><div class="para">
                     <p><strong>Lütfen dikkat edin:</strong></p>
                     <ul>
