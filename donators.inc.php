@@ -152,14 +152,14 @@ $donators = array(
     'Denis Prost',
     'François Lamboley',
     'Martin Alduncin Garrido',
-    'Pietr Petronov'
-    'Jürgen Thurau'
-    'Frederic Hugot'
-    'Julia Jumeau'
-    'Michael Lossin'
-    'Jean-Guy Tesseraud'
-    'Lucas Betschart'
-    'Otto Fischer'
+    'Pietr Petronov',
+    'Jürgen Thurau',
+    'Frederic Hugot',
+    'Julia Jumeau',
+    'Michael Lossin',
+    'Jean-Guy Tesseraud',
+    'Lucas Betschart',
+    'Otto Fischer',
     'Loïc Carré'
 );
 
