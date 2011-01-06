@@ -153,6 +153,14 @@ $donators = array(
     'François Lamboley',
     'Martin Alduncin Garrido',
     'Pietr Petronov'
+    'Jürgen Thurau'
+    'Frederic Hugot'
+    'Julia Jumeau'
+    'Michael Lossin'
+    'Jean-Guy Tesseraud'
+    'Lucas Betschart'
+    'Otto Fischer'
+    'Loïc Carré'
 );
 
 //$html .= '<img src="/g/images/mageia_0.svg" style="position: absolute; top: 180px; width: 300px; opacity: 0.2;" />';
