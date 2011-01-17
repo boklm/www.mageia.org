@@ -160,7 +160,8 @@ $donators = array(
     'Jean-Guy Tesseraud',
     'Lucas Betschart',
     'Otto Fischer',
-    'Loïc Carré'
+    'Loïc Carré',
+    'Etienne Berger & Barbara Boucher'
 );
 
 //$html .= '<img src="/g/images/mageia_0.svg" style="position: absolute; top: 180px; width: 300px; opacity: 0.2;" />';
