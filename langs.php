@@ -54,7 +54,8 @@ $nav_list = array(
         'el' => 'Ιστολόγιο',
         'en' => 'Blog',
         'et' => 'Ajaveeb',
-        'tr' => 'Web Günlüğü'
+        'tr' => 'Web Günlüğü',
+        'ru' => 'Блог'
     ),
     '/wiki' => 'Wiki',
     "/{$locale}/faq/" => array(
@@ -62,7 +63,8 @@ $nav_list = array(
         'es' => 'Preguntas Frecuentes',
         'et' => 'KKK',
         'tr' => 'S.S.S.',
-        'ro' => 'Întrebări frecvente'
+        'ro' => 'Întrebări frecvente',
+        'ru' => 'Вики'
     ),
     "/{$locale}/donate/" => array(
     //"http://www.mageia.org/en/donate//{$locale}/" => array(
@@ -73,7 +75,8 @@ $nav_list = array(
         'et' => 'Annetused',
         'fr' => 'Dons',
         'tr' => 'Bağışlar',
-        'ro' => 'Donații'
+        'ro' => 'Donații',
+        'ru' => 'Пожертвования'
     ),
     "http://mageia.org/wiki/doku.php?id=press" => array(
         'de' => 'Presse',
@@ -83,6 +86,7 @@ $nav_list = array(
         'et' => 'Ajakirjandus',
         'fr' => 'Presse',
         'ro' => 'Presă',
+        'ru' => 'Пресса',
         'tr' => 'Basın'
     ),
     "/{$locale}/about/values/" => array(
@@ -93,7 +97,8 @@ $nav_list = array(
         'et' => 'Väärtused',
         'fr' => 'Valeurs',
         'tr' => 'Değerler',
-        'ro' => 'Valori'
+        'ro' => 'Valori',
+        'ru' => 'Цели'
     ),
     "/{$locale}/about/code-of-conduct/" => array(
         'de' => 'Verhaltenskodex',
@@ -103,7 +108,8 @@ $nav_list = array(
         'et' => 'Käitumisjuhised',
         'fr' => 'Code de conduite',
         'tr' => 'Temel İlkeler',
-        'ro' => 'Codul de conduită'
+        'ro' => 'Codul de conduită',
+        'ru' => 'Кодекс поведения'
     )
 );
 
