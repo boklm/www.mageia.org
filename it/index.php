@@ -11,25 +11,25 @@
         <div id="hd" role="banner"><h1>Mageia <span>- una nuova distribuzione Linux</span></h1></div>
         <div id="bd" role="main">
             <div class="yui-g bb1">
-                <div class="para"><p>Mageia is a fork of Mandriva Linux,
-                    supported by a not-for-profit organisation of
-                    recognized and elected contributors.</p>
+                <div class="para"><p>Mageia è un fork di Mandriva Linux,
+                    supportata da una organizzazione no-profit di collaboratori 
+                    riconosciuti ed eletti.</p>
 
-                    <p>Further than just delivering a free, secure, stable and sustainable operating system,
-                        the goal is to set up a stable and trustable governance to direct collaborative projects
-                        (<a href="#announce">check original announcement</a>).</p>
+                    <p>Molto più che un sistema operativo gratuito, libero, sicuro, stabile e sostenibile,
+                        l'obiettivo è di mettere in piedi una governance stabile e affidabile per dirigere progetti collaborativi
+                        (<a href="#announce">controlla l'annuncio originale</a>).</p>
                 </div>
             </div>
             <div class="yui-g bb1">
                 <div class="yui-u first rb1">
                     <div class="para" id="news">
                         <h2><a href="http://blog.mageia.org/it/">Notizie</a></h2>
-                    <?php include '../lib/news.php'; echo html_news('it'); ?>
+                        <?php include '../lib/news.php'; echo html_news('it'); ?>
                     </div>
                 </div>
                 <div class="yui-u">
                     <div class="para" lang="en">
-                        <h2>Happening right now</h2>
+                        <h2>Succede adesso</h2>
                         <?php include '../roadmap.php'; ?>
                     </div>
                 </div>
@@ -42,11 +42,11 @@
                             <li><a href="https://www.mageia.org/mailman/">Mailing-lists</a></li>
                             <li><a href="http://mageia.org/wiki/doku.php?id=irc">IRC (Freenode network)</a></li>
                             <li><a href="http://mageia.org/wiki/">Mageia Wiki</a></li>
-                            <li>Contact the founders team:
+                            <li>Contatta la squadra dei fondatori:
                                 <ul>
                                     <li><a href="mailto:mageia-contact@mageia.org">mageia-contact@mageia.org</a></li>
                                     <li><a href="mailto:press@mageia.org">press@mageia.org</a></li>
-                                    <li>expect an answer within 2 days</li>
+                                    <li>aspettati una risposta in 2 giorni</li>
                                 </ul></li>
                             <li><a href="http://www.twitter.com/mageia_org">twitter.com/mageia_org</a></li>
                             <li><a href="http://identi.ca/mageia">identi.ca/mageia</a></li>
@@ -85,9 +85,9 @@ dipendere dalle fluttuazioni economiche e dalle mosse strategiche erratiche ed
 inspiegabili della società.</p>
                 </div>
                 <div class="para">
-                    <h2>Biforcare Mandriva Linux? Si.</h2>
+                    <h2>Fare il fork di Mandriva Linux? Si.</h2>
 
-                    <p>Biforcare un progetto open source esistente non è mai
+                    <p>Fare il fork un progetto open source esistente non è mai
 una decisione semplice da prendere, e biforcare Mandriva Linux è un operazione enorme.</p>
 
                     <p>Non è stata una decisione impulsiva.
@@ -96,7 +96,7 @@ e le comunità di utenti. Nelle ultime settimane abbiamo collezionato opinioni
 e reazioni con lo scopo di ottenere un qualche consenso globale e di unirci
 prima di procedere.</p>
 
-                    <p>Crediamo che una biforcazione sia la soluzione migliore e
+                    <p>Crediamo che un fork sia la soluzione migliore e
 abbiamo deciso di creare una nuova distribuzione:
                         <strong>Mageia</strong>.</p>
                 </div>
@@ -145,6 +145,7 @@ la persone sono il migliore ed unico vero bene. E l'obbiettivo di
 Mageia è di aiutare le persone. La fiducia conta. Noi siamo solamente
 agli inizi di questa biforcazione. Non sarà facile. Ma crediamo che sia
 necessario.</p>
+            
             <?php include '../people.html'; ?>
             
             <p>Per altri contributori: se volete il vostro nome su questa lista,
