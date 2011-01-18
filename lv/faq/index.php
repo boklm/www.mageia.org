@@ -55,7 +55,7 @@
                     <p>Nosūto e-pastu mageia-contact (at) mageia (dot) org.</p>
 
                     <h3>Kā es varu atbalstīt Mageia finansiāli?</h3>
-                    <p>Dodieties uz <a href="http://donate.mageia.org/">ziedojumu kampaņas lapu</a>.</p>
+                    <p>Dodieties uz <a href="http://www.mageia.org/en/donate//">ziedojumu kampaņas lapu</a>.</p>
                 </div>
             </div>
         </div>

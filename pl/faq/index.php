@@ -58,7 +58,7 @@
                     <p>Możesz wysłać wiadomość na adres mageia-contact (małpa) mageia (kropka) org.</p>
 
                     <h3>Jak mogę przekazać swoją dotację?</h3>
-                    <p>Wszystkie informacje znajdują się na <a href="http://donate.mageia.org/">stronie dotacji</a>.</p>
+                    <p>Wszystkie informacje znajdują się na <a href="http://www.mageia.org/en/donate//">stronie dotacji</a>.</p>
 
                 </div>
             </div>

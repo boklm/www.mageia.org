@@ -19,7 +19,7 @@
 		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 		      })();
   </script></head><body>
-    <div class="nav"><p class="loc"><a href="http://mageia.org/en/">Mageia</a> | <a href="http://blog.mageia.org/en">博客</a> | <a href="http://mageia.org/wiki">Wiki – 加入我们！</a> | <a href="http://mageia.org/en/faq/" class="sel">常见问题</a> | <a href="http://mageia.org/en/#contact">IRC，邮件列表</a> | <a href="http://donate.mageia.org/en/">捐助本项目</a></p></div><p class="loc"><a href="http://mageia.org/de/faq/">Deutsch</a> | <a href="http://mageia.org/el/faq/">Ελληνικά</a> | <a href="http://mageia.org/en/faq/">English</a> | <a href="http://mageia.org/es/faq/">Español</a> | <a href="http://mageia.org/fi/faq/">Suomeksi</a> | <a href="http://mageia.org/fr/faq/">Français</a> | <a href="http://mageia.org/it/faq/">Italiano</a> | <a href="http://mageia.org/nb/faq/">Bokmål</a> | <a href="http://mageia.org/nl/faq/">Nederlands</a> | <a href="http://mageia.org/pl/faq/">Polski</a> | <a href="http://mageia.org/pt-br/faq/">Português do Brasil</a> | <a href="http://mageia.org/ru/faq/">Русский</a> | <a href="http://mageia.org/tr/faq/">Türkçe</a> | <a href="http://mageia.org/sl/faq/">Slovenščina</a> | <a class="sel" href="http://mageia.org/zh-CN/faq/">简体中文</a></p>    
+    <div class="nav"><p class="loc"><a href="http://mageia.org/en/">Mageia</a> | <a href="http://blog.mageia.org/en">博客</a> | <a href="http://mageia.org/wiki">Wiki – 加入我们！</a> | <a href="http://mageia.org/en/faq/" class="sel">常见问题</a> | <a href="http://mageia.org/en/#contact">IRC，邮件列表</a> | <a href="http://www.mageia.org/en/donate//en/">捐助本项目</a></p></div><p class="loc"><a href="http://mageia.org/de/faq/">Deutsch</a> | <a href="http://mageia.org/el/faq/">Ελληνικά</a> | <a href="http://mageia.org/en/faq/">English</a> | <a href="http://mageia.org/es/faq/">Español</a> | <a href="http://mageia.org/fi/faq/">Suomeksi</a> | <a href="http://mageia.org/fr/faq/">Français</a> | <a href="http://mageia.org/it/faq/">Italiano</a> | <a href="http://mageia.org/nb/faq/">Bokmål</a> | <a href="http://mageia.org/nl/faq/">Nederlands</a> | <a href="http://mageia.org/pl/faq/">Polski</a> | <a href="http://mageia.org/pt-br/faq/">Português do Brasil</a> | <a href="http://mageia.org/ru/faq/">Русский</a> | <a href="http://mageia.org/tr/faq/">Türkçe</a> | <a href="http://mageia.org/sl/faq/">Slovenščina</a> | <a class="sel" href="http://mageia.org/zh-CN/faq/">简体中文</a></p>    
     <div id="doc" class="yui-t7">
 
         <div id="hd" role="banner"><h1>Mageia <span>| 常见问题</span></h1></div>
@@ -69,7 +69,7 @@
                     <p>您可以发送电子邮件至 mageia-contact (at) mageia (dot) org 。</p>
 
                     <h3>我如何捐助此项目？</h3>
-                    <p>您可以访问“<a href="http://donate.mageia.org/">捐助本项目</a>”这一页面。</p>
+                    <p>您可以访问“<a href="http://www.mageia.org/en/donate//">捐助本项目</a>”这一页面。</p>
 
                 </div>
             </div>

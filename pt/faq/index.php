@@ -51,7 +51,7 @@ habilidades.</p>
 <p>Você pode enviar e-mail para&nbsp; mageia-contact (at) mageia (dot) org.</p>
 
 <h3>Como eu posso fazer doações ao projeto?</h3>
-<p>Você pode ir para na <a href="http://donate.mageia.org/pt-br/">página de doações</a>.<br>
+<p>Você pode ir para na <a href="http://www.mageia.org/en/donate//pt-br/">página de doações</a>.<br>
 
 </p></div></div></div></div>
 </body></html>

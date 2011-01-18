@@ -20,7 +20,7 @@
   })();
 </script></head>
 <body>
-    <div class="nav"><p class="loc"><a href="/de/">Mageia</a> | <a href="http://blog.mageia.org/de">Blog</a> | <a href="/wiki">Wiki &ndash; Join us!</a> | <a href="/de/faq/" class="sel">FAQ</a> | <a href="/de/#contact">IRC, mailing-lists</a> | <a href="http://donate.mageia.org/de/">Donations</a></p></div><p class="loc"><a class="sel" href="/de/faq/">Deutsch</a> | <a href="/el/faq/">Ελληνικά</a> | <a href="/en/faq/">English</a> | <a href="/es/faq/">Español</a> | <a href="/fi/faq/">Suomeksi</a> | <a href="/fr/faq/">Français</a> | <a href="/it/faq/">Italiano</a> | <a href="/nb/faq/">Bokmål</a> | <a href="/nl/faq/">Nederlands</a> | <a href="/pl/faq/">Polski</a> | <a href="/pt-br/faq/">Português do Brasil</a> | <a href="/ru/faq/">Русский</a> | <a href="/tr/faq/">Türkçe</a> | <a href="/sl/faq/">Slovenščina</a></p>    
+    <div class="nav"><p class="loc"><a href="/de/">Mageia</a> | <a href="http://blog.mageia.org/de">Blog</a> | <a href="/wiki">Wiki &ndash; Join us!</a> | <a href="/de/faq/" class="sel">FAQ</a> | <a href="/de/#contact">IRC, mailing-lists</a> | <a href="http://www.mageia.org/en/donate//de/">Donations</a></p></div><p class="loc"><a class="sel" href="/de/faq/">Deutsch</a> | <a href="/el/faq/">Ελληνικά</a> | <a href="/en/faq/">English</a> | <a href="/es/faq/">Español</a> | <a href="/fi/faq/">Suomeksi</a> | <a href="/fr/faq/">Français</a> | <a href="/it/faq/">Italiano</a> | <a href="/nb/faq/">Bokmål</a> | <a href="/nl/faq/">Nederlands</a> | <a href="/pl/faq/">Polski</a> | <a href="/pt-br/faq/">Português do Brasil</a> | <a href="/ru/faq/">Русский</a> | <a href="/tr/faq/">Türkçe</a> | <a href="/sl/faq/">Slovenščina</a></p>    
     <div id="doc" class="yui-t7">
         <div id="hd" role="banner"><h1>Mageia <span>| FAQ</span></h1></div>
         <div id="bd" role="main">
@@ -66,7 +66,7 @@
                     <p>Du kannst eine eMail an mageia-contact (at) mageia (dot) org schicken.</p>
 
                     <h3>Wie kann ich das Projekt finanziell unterstützen?</h3>
-                    <p>Informationen dazu kannst Du auf unserer <a href="http://donate.mageia.org/">Spendenseite</a> finden.</p>
+                    <p>Informationen dazu kannst Du auf unserer <a href="http://www.mageia.org/en/donate//">Spendenseite</a> finden.</p>
                 </div>
             </div>
         </div>

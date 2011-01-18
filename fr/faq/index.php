@@ -52,7 +52,7 @@
                     <p>Vous pouvez envoyer un email à cette adresse mageia-contact (at) mageia (dot) org</p>
 
                     <h3>Puis-je donner de l&rsquo;argent à ce projet&nbsp;?</h3>
-                    <p>Retrouvez la page des dons : <a href="http://donate.mageia.org/fr/">http://donate.mageia.org/fr/</a>.</p>
+                    <p>Retrouvez la page des dons : <a href="http://www.mageia.org/fr/donate/">http://www.mageia.org/fr/donate/</a>.</p>
                 </div>
             </div>
         </div>

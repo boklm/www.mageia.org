@@ -56,7 +56,7 @@
                     <p>您可以寄 email 到 mageia-contact (at) mageia (dot) org。</p>
 
                     <h3>我要怎麼捐款給此計劃？</h3>
-                    <p>您可以到 <a href="http://donate.mageia.org/">捐款頁面</a>了解詳情</p>
+                    <p>您可以到 <a href="http://www.mageia.org/en/donate//">捐款頁面</a>了解詳情</p>
                 </div>
             </div>
         </div>

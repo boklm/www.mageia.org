@@ -55,7 +55,7 @@
                     <p>Ne puteți trimite un mesaj electronic la mageia-contact (arond) mageia (punct) org.</p>
 
                     <h3>Cum pot face o donație proiectului?</h3>
-                    <p>Mergeți la pagina de <a href="http://donate.mageia.org/">donații</a>.</p>
+                    <p>Mergeți la pagina de <a href="http://www.mageia.org/en/donate//">donații</a>.</p>
                 </div>
             </div>
         </div>

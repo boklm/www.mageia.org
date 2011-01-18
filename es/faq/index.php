@@ -50,7 +50,7 @@
                     <p>Puedes enviar un correo electrónico a Mageia contacto (arroba) Mageia (punto) org.</p>
 
                     <h3>¿Cómo puedo hacer una donación al proyecto?</h3>
-                    <p>Vista la <a href="http://donate.mageia.org/">página de donaciones</a>.</p>
+                    <p>Vista la <a href="http://www.mageia.org/en/donate//">página de donaciones</a>.</p>
                 </div>
             </div>
         </div>

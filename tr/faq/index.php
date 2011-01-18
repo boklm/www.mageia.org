@@ -46,7 +46,7 @@ grubunda</a> paylaşabilirsiniz.</p>
 
                     <h3>Proje ile nasıl iletişim kurabilirim?</h3>
                     <p>mageia-contact (kuyruklu a) mageia (nokta) org adresine e-mektup g&ouml;nderebilirsiniz.</p> <h3>Projeye nasıl bağışta
-bulunabilirim?</h3> <p><a href="http://donate.mageia.org/">Bağış sayfamıza</a>
+bulunabilirim?</h3> <p><a href="http://www.mageia.org/en/donate//">Bağış sayfamıza</a>
 uğrayabilirsiniz.<br> </p></div></div></div></div>
 
 </body></html>

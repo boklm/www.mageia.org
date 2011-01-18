@@ -57,7 +57,7 @@
                     <p>Puoi inviare e-mail a  mageia-contact (at) mageia (dot) org.</p>
 
                     <h3>Come posso fare donazioni al progetto?</h3>
-                    <p>Puoi andare nella <a href="http://donate.mageia.org/">pagina delle donazioni</a>.</p>
+                    <p>Puoi andare nella <a href="http://www.mageia.org/en/donate//">pagina delle donazioni</a>.</p>
                 </div>
             </div>
         </div>
