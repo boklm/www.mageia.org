@@ -7,20 +7,10 @@
     <meta name="description" content="Mageia is new community-based Linux distribution." />
     <meta name="keywords" content="mageia, linux, mandriva, free software" />
     <link rel="stylesheet" type="text/css" href="/g/style/all.css" />
-    <script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-18603191-1']);
-  _gaq.push(['_setDomainName', '.mageia.org']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script></head>
+    <?php include '../../analytics.php'; ?>
+</head>
 <body>
-    <div class="nav"><p class="loc"><a href="/de/">Mageia</a> | <a href="http://blog.mageia.org/de">Blog</a> | <a href="/wiki">Wiki &ndash; Join us!</a> | <a href="/de/faq/" class="sel">FAQ</a> | <a href="/de/#contact">IRC, mailing-lists</a> | <a href="http://www.mageia.org/en/donate//de/">Donations</a></p></div><p class="loc"><a class="sel" href="/de/faq/">Deutsch</a> | <a href="/el/faq/">Ελληνικά</a> | <a href="/en/faq/">English</a> | <a href="/es/faq/">Español</a> | <a href="/fi/faq/">Suomeksi</a> | <a href="/fr/faq/">Français</a> | <a href="/it/faq/">Italiano</a> | <a href="/nb/faq/">Bokmål</a> | <a href="/nl/faq/">Nederlands</a> | <a href="/pl/faq/">Polski</a> | <a href="/pt-br/faq/">Português do Brasil</a> | <a href="/ru/faq/">Русский</a> | <a href="/tr/faq/">Türkçe</a> | <a href="/sl/faq/">Slovenščina</a></p>    
+    <?php include '../../langs.php'; ?>
     <div id="doc" class="yui-t7">
         <div id="hd" role="banner"><h1>Mageia <span>| FAQ</span></h1></div>
         <div id="bd" role="main">
