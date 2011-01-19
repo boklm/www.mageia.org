@@ -33,7 +33,7 @@
                 </div>
                 <div class="yui-u">
                     <div class="para" lang="en">
-                        <h2>Gerade in Bearbeitung</h2>
+                        <h2>Gerade in Bearbeitung:</h2>
                         <?php include '../roadmap.php'; ?>
                     </div>
                 </div>
@@ -41,7 +41,7 @@
             <div class="yui-g bb1">
                 <div class="yui-u first">
                     <div class="para" id="contact">
-                        <h2>Macht mit!</h2>
+                        <h2>Machen Sie mit!</h2>
                         <ul>
                             <li><a href="https://www.mageia.org/mailman/">Mailinglisten</a></li>
                             <li><a href="http://mageia.org/wiki/doku.php?id=irc">IRC (Freenode network)</a></li>
@@ -112,7 +112,7 @@
                 <li>Machern (Designer, Entwickler, Packager, Übersetzer, Tester, etc.)</li>
                 <li>Fürsprechern (Promotern)</li>
             </ul>
-            <<p>Das können Einzelpersonen sein, aber auch Organisationen und Unternehmen aus aller Welt.</p>
+            <p>Das können Einzelpersonen sein, aber auch Organisationen und Unternehmen aus aller Welt.</p>
             <p>Darin liegt natürlich auch eine Herausforderung: viele verschiedene Länder, Sprachen und Kulturen mit ihren unterschiedlichen Bedürfnissen. Und das ist großartig.</p>
             <p>An dem Experiment der Mandriva Assembly haben wir erfahren, dass dies keine einfache Aufgabe ist. Wir sind überzeugt, diese Aufgabe besser lösen zu können.</p>
         </div>
