@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8" />
     <title>Mageia Spenden-Kampagne</title>
-    <meta name="description" content="Mageia is new community-based Linux distribution." />
-    <meta name="keywords" content="mageia, donate, donation" />
+    <meta name="description" content="Mageia Spenden Kampagne" />
+    <meta name="keywords" content="mageia, spenden, donate, donation" />
     <meta name="author" content="Mageia" />
     <link rel="stylesheet" type="text/css" href="/g/style/all.css" >
     <?php include '../../analytics.php'; ?>
@@ -71,7 +71,7 @@
 
 <?php echo $G_coord_assos_bank; ?>
 
-</pre>Falls benötigt, steht unsere <a href="/iban_Mageia.Org.pdf" title="IBAN of Mageia.Org">IBAN zum Download bereit</a>.
+</pre>
                 </div></div>
                 <div class="yui-u"><div class="para">
                     <h3>oder per Scheck (nur €).</h3>
@@ -84,9 +84,9 @@
                     <p><strong>Bitte beachten:</strong></p>
                     <ul>
                         <li>Paypal behält für jede Spende eine geringe Gebühr ein (etwa ...%),
-                            sodass uns ein bisschen weniger erreicht als ihr abschickt;</li>
-                        <li>bitte nutzt € als Währung, denn Umrechnungskosten gehen zu Lasten von Mageia;</li>
-                        <li>falls ihr anonym spenden wollt: Bitte fügt eurer Spende einen Hinweis bei.</li>
+                            sodass uns ein bisschen weniger erreicht als Sie einzahlen;</li>
+                        <li>bitte benutzen Sie € als Währung, denn Umrechnungskosten gehen zu Lasten von Mageia;</li>
+                        <li>falls Sie anonym spenden wollen, so fügen Sie bitte Ihrer Spende einen Hinweis bei.</li>
                     </ul>
                 </div></div>
             </div>

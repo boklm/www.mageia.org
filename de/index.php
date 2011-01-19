@@ -16,7 +16,7 @@
         <div id="bd" role="main">
             <div class="yui-g bb1">
                 <div class="para"><p>Mageia ist ein Fork von Mandriva Linux.
-                    Eine Non-Profit-Organisation, bestehend aus anerkannten und gewählten Mitwirkenden, unterstützt Mageia.</p>
+                    Mageia wird von einer Non-Profit-Organisation unterstützt, die aus anerkannten und gewählten Mitwirkenden besteht.</p>
 
                     <p>Neben der Bereitstellung eines freien, sicheren, stabilen und zukunftsträchtigen
                         Betriebssystems ist es unser Ziel, ein stabiles und vertrauenswürdiges
@@ -51,11 +51,11 @@
                                     <li><a href="mailto:mageia-contact@mageia.org">mageia-contact@mageia.org</a></li>
                                     <li><a href="mailto:press@mageia.org">press@mageia.org</a></li>
                                     <li>Antwort innerhalb von 2 Tagen wahrscheinlich;
-                                        Bitte schreibt uns - wenn möglich -
-                                        auf Englisch oder Französisch.
-                                        Falls das nicht geht, versucht es auf
-                                         Deutsch oder in eurer jeweiligen Muttersprache:
-                                         Wir finden einen Weg, mit euch zu kommunizieren!</li>
+                                        Bitte schreiben sie uns - wenn möglich -
+                                        in Englisch oder Französisch.
+                                        Falls das nicht geht, versuchen Sie es auf
+                                         Deutsch oder in Ihrer jeweiligen Muttersprache:
+                                         Wir finden einen Weg, mit Ihnen zu kommunizieren!</li>
                                 </ul></li>
                             <li><a href="http://www.twitter.com/mageia_org">twitter.com/mageia_org</a></li>
                             <li><a href="http://identi.ca/mageia">identi.ca/mageia</a></li>
@@ -76,7 +76,7 @@
                 <div class="para" id="announce">
                     <p class="date">Paris, den 18. September 2010</p>
                     
-                    <p>Wie Ihr vermutlich bereits wisst ist die Zukunft der Distribution Mandriva Linux zur Zeit alles Andere als klar und gesichert.</p>
+                    <p>Wie Sie vermutlich bereits wissen ist die Zukunft der Distribution Mandriva Linux zur Zeit alles Andere als klar und gesichert.</p>
                     <p>Im Zuge der Liquidierung von Edge-IT wurden die meisten der an der Distribution arbeitenden Angestellten entlassen. Wir, die unten Aufgeführten, haben kein Vertrauen mehr in die zukünftigen Pläne des Unternehmens Mandriva und wir halten das Unternehmen (oder jedes beliebige Unternehmen) nicht mehr für einen sicheren Hafen für solch ein Projekt.</p>
                     <p>Die vergangenen 12 Jahre brachten viele unterschiedliche Entwicklungen, einige davon sehr erfreulich: eine sehr große motivierte und erfahrene Mandriva Linux Community, sowie eine leicht zu benutzende und innovative Distribution, die mehrfach ausgezeichnet wurde und zu den populärsten Linuxdistributionen gehört. Andere Ereignisse hatten leider wahrlich ungute Konsequenzen und erschütterten das Vertrauen vieler Menschen in die Tragfähigkeit ihrer Lieblingsdistribution. Menschen, die an einem Produkt arbeiten, sind nun einmal nicht gerne abhängig von ökonomischen Fluktuationen und sprunghaften, nicht nachvollziehbaren strategischen Bewegungen ihres Unternehmens.</p>
                 </div>
@@ -101,7 +101,7 @@
                 <li>neue Architekturen und Form-Factors in Angriff nehmen;</li>
                 <li>unser Verständnis der Benutzer von Computern und elektronischen Geräten verbessern.</li>
             </ul>
-            <p>Ihr habt gewiss eigene Ideen, wir werden uns die Zeit dafür nehmen.</p>
+            <p>Sie haben gewiss eigene Ideen, wir werden uns die Zeit dafür nehmen.</p>
             
         </div>
         <div class="para">
@@ -112,7 +112,7 @@
                 <li>Machern (Designer, Entwickler, Packager, Übersetzer, Tester, etc.)</li>
                 <li>Fürsprechern (Promotern)</li>
             </ul>
-            <p>Das können Einzelpersonen sein aber auch Organisationen und Unternehmen aus aller Welt.</li>
+            <<p>Das können Einzelpersonen sein, aber auch Organisationen und Unternehmen aus aller Welt.</p>
             <p>Darin liegt natürlich auch eine Herausforderung: viele verschiedene Länder, Sprachen und Kulturen mit ihren unterschiedlichen Bedürfnissen. Und das ist großartig.</p>
             <p>An dem Experiment der Mandriva Assembly haben wir erfahren, dass dies keine einfache Aufgabe ist. Wir sind überzeugt, diese Aufgabe besser lösen zu können.</p>
         </div>
