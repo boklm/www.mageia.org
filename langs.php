@@ -57,14 +57,16 @@ $nav_list = array(
         'tr' => 'Web Günlüğü',
         'ru' => 'Блог'
     ),
-    '/wiki' => 'Wiki',
+    '/wiki/' => array(
+        'en' => 'Wiki',
+        'ru' => 'Вики'
+    ),
     "/{$locale}/faq/" => array(
         'en' => 'FAQ',
         'es' => 'Preguntas Frecuentes',
         'et' => 'KKK',
         'tr' => 'S.S.S.',
-        'ro' => 'Întrebări frecvente',
-        'ru' => 'Вики'
+        'ro' => 'Întrebări frecvente'
     ),
     "/{$locale}/donate/" => array(
     //"http://www.mageia.org/en/donate//{$locale}/" => array(
