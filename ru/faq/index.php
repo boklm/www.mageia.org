@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html>
-<html dir="ltr" lang="en">
+<html dir="ltr" lang="ru">
 <head>
     <meta charset="utf-8" />
-    <title>Mageia Frequently Asked Questions</title>
+    <title>Mageia Часто-задаваемые Вопросы</title>
     <meta name="description" content="Mageia is new community-based Linux distribution." />
     <meta name="keywords" content="mageia, linux, mandriva, free software" />
     <link rel="stylesheet" type="text/css" href="/g/style/all.css" />
@@ -17,47 +17,41 @@
         <div id="bd" role="main">
             <div class="yui-g">
                 <div class="para faq">
-                    <h3>What is Mageia?</h3>
-                    <p>Mageia is your new Linux distribution.</p>
-                    
-                    <h3>How does one pronounce Mageia?</h3>
-                    <p>There is no official pronunciation, you can use whichever one you like.</p>
-                    
-                    <h3>What does the name "Mageia" mean?</h3>
-                    <p>The term "mageia" — μαγεία in Greek — means "magic" in English.</p>
-                    
-                    <h3>I'm a Mandriva Linux user. What should I do?</h3>
-                    <p>For now you can continue using Mandriva Linux, there is no Mageia release available yet.
-                        You can
-                        <a href="https://www.mageia.org/mailman/listinfo/mageia-announce" hreflang="en">subscribe
-                            to the mageia-announce newsletter</a> to be informed
-                        when the first Mageia release is ready to use.</p>
-                    
-                    <h3>Will I be able to upgrade from Mandriva to Mageia?</h3>
-                    <p>Yes, it will be possible.</p>
-                    
-                    <h3>When the first release of Mageia will be available?</h3>
-                    <p>As soon as possible. We hope to have some alpha or beta release by the end of November.</p>
+                    <h3>Что такое Mageia?</h3>
+                    <p>Mageia это новый дистрибутив Linux.</p>
 
-                    <h3>What will be the codename of the first Mageia release?</h3>
-                    <p>That hasn't been decided yet.</p>
-                    
-                    <h3>Will urpmi, MCC, drakxtools be a part of Mageia?</h3>
-                    <p>Yes, your favourite tools will be included in Mageia.</p>
+                    <h3>Как правильно произносится «Mageia»?</h3>
+                    <p>Официальной версии произношения не существует, вы можете использовать любой вариант.</p>
 
-                    <h3>Where can I submit my logo ideas?</h3>
-                    <p>You can submit your logo ideas on the <a href="http://www.flickr.com/groups/mageia-art/" hreflang="en">Mageia art group</a>.</p>
+                    <h3>Что означает название "Mageia"?</h3>
+                    <p>Термин "mageia" — μαγεία на греческом — в переводе на русский означает "магия".</p>
 
-                    <h3>How can I contribute to the mageia project?</h3>
-                    <p>All sorts of skill sets are welcome.
-                        You can <a href="http://mageia.org/wiki/doku.php">register yourself on the wiki</a>,
-                        in whatever teams that best fit your skills.</p>
+                    <h3>Я пользователь Mandriva Linux. Что мне делать?</h3>
+                    <p>На данный момент вы можете продолжать использовать Mandriva Linux, пока ещё нет доступных релизов Mageia. Вы можете <a href="https://www.mageia.org/mailman/listinfo/mageia-announce" hreflang="en">подписаться на новостную рассылку mageia-announce</a> чтобы быть в курсе, когда выйдет первый готовый к использованию релиз Mageia.</p>
 
-                    <h3>How can I contact the project?</h3>
-                    <p>You can send email to mageia-contact (at) mageia (dot) org.</p>
+                    <h3>Смогу ли я выполнить апгрейд с Mandriva до Mageia?</h3>
+                    <p>Да, это будет возможно.</p>
 
-                    <h3>How can I donate to the project?</h3>
-                    <p>You can go to the <a href="http://www.mageia.org/en/donate//">donation page</a>.</p>
+                    <h3>Когда будет доступен первый релиз Mageia?</h3>
+                    <p>Так скоро, как это возможно. Мы надеемся на выход альфа или бета релиза к концу Ноября.</p>
+
+                    <h3>Каким будет кодовое имя первого релиза Mageia?</h3>
+                    <p>Это ещё не решено.</p>
+
+                    <h3>Будут ли urpmi, MCC, drakxtools являться частями Mageia??</h3>
+                    <p>Да, ваши любимые утилиты будут включены в Mageia.</p>
+
+                    <h3>Где я могу опубликовать свои идеи логотипа?</h3>
+                    <p>Вы можете опубликовать ваши идеи логотипа в <a href="http://www.flickr.com/groups/mageia-art/" hreflang="en">группе художников Mageia</a>.</p>
+
+                    <h3>Как я могу помочь проекту Mageia?</h3>
+                    <p>риветствуются самые разнообразные способности. Вы можете <a href="http://mageia.org/wiki/doku.php">зарегистрировать себя в вики</a>, в любых командах, которые лучше всего соответствуют вашим способностям.</p>
+
+                    <h3>Как я могу связаться с проектом?</h3>
+                    <p>Вы можете отправить электронное письмо на адрес mageia-contact (точка) mageia (точка) org.</p>
+
+                    <h3>Как я могу внести пожертвования проекту?</h3>
+                    <p>Вы можете перейти на <a href="http://www.mageia.org/ru/donate/">страницу пожертвований</a>.</p>
                 </div>
             </div>
         </div>
