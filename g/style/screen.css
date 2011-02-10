@@ -1,4 +1,6 @@
-html, body { margin: 0; padding: 0; background: #ddd; }
+html, body { margin: 0; padding: 0; background: #ddd; 
+    font-family: Andale, "Trebuchet MS", "Lucida Grande", "Lucida Sans", Sans, Verdana, Tahoma, Arial, sans-serif;
+}
 h1 { padding: 0.5em 0.7em; margin: 0 auto; text-align: left; font-size: 300%; background: #aaa; color: #000; }
 h1 span { font-weight: normal; font-size: 90%; }
 .para { background: #fff; padding: 1em 2em; }
@@ -25,6 +27,7 @@ ul#people li { list-style: disc; margin-bottom: 0.2em; }
 p.loc { font-size: 0.9em; padding: 0.5em 0; color: #ccc; width: 695px; margin: 0 auto; text-align: left; }
 p.loc a { color: #88a; text-decoration: none; }
 p.loc a.sel { font-weight: bold; color: #000; }
+p.loc a [accesskey]:after {content:' [' attr(accesskey) ']'}
 
 .values ul { margin-bottom: 2em; }
 .values ul li { margin-bottom: 0.4em; }
