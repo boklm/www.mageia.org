@@ -7,15 +7,9 @@ $roadmap = array(
 
 ?>
 <ul id="rightnow">
-    <li>Teams setup</li>
-    <li>Alpha release preparation (Jan. 2011):
-        <ul>
-            <li>Build system refinements</li>
-            <li>Packages cleanup and uploading</li>
-            <li>Logo/identity refinements</li>
-        </ul></li>
+    <li>Alpha 1 release pending: February&nbsp;15<sup>th</sup></li>
+    <li>Logo/identity refinements</li>
+    <li>Teams setup (Marcom)</li>
     <li>Web tools setup</li>
-    <li>Mar/com teams setup</li>
-    <li>FOSDEM preparation (Feb. 2011)
 </ul>
 <p><a href="http://mageia.org/wiki/doku.php?id=roadmap">Roadmap</a></p>
