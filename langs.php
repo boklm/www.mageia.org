@@ -123,9 +123,14 @@ foreach ($nav_list as $k => $v)
     else
         $title = $v;
 
-    $list_menu[] = sprintf('<a href="%s"%s>%s</a>',
+    $accessKey = null;
+    if ($title == 'Mageia')
+        $accessKey = ' accesskey="1"';
+
+    $list_menu[] = sprintf('<a href="%s"%s%s>%s</a>',
         $k,
         $k == $sru ? ' class="sel"' : '',
+        $accessKey,
         $title);
 }
 
