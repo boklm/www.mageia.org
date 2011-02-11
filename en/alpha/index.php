@@ -109,17 +109,7 @@
                         be it time, skills, money!</p>
                 </div></div>
             </div>
-            <div class="yui-g">
-                <div class="yui-u first"><div class="para" style="padding-right: 0;">
-                    
-                </div></div>
-                <div class="yui-u"><div class="para">
-                    
-
-                </div></div>
-            </div>
-            <div class="para" style="color: #888">
-                
+            <div class="para" style="color: #999;">
                 <p>Yes, this is a rather rough download page, for now. But it is good in that it
                     could make this alpha download less attractive to non-developers.
                     Did we say that we welcome people to contribute in our
