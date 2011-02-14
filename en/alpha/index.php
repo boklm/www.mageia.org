@@ -113,8 +113,8 @@
                 <p>Yes, this is a rather rough download page, for now. But it is good in that it
                     could make this alpha download less attractive to non-developers.
                     Did we say that we welcome people to contribute in our
-                    <a href="">Web</a> and <a href="">Sysadmin teams</a>?
-                    There are <a href="">other very friendly teams</a> in the project as well.</p>
+                    <a href="http://www.mageia.org/wiki/doku.php?id=web">Web</a> and <a href="http://www.mageia.org/wiki/doku.php?id=sysadmin">Sysadmin teams</a>?
+                    There are <a href="http://www.mageia.org/wiki/doku.php?#teams">other very friendly teams</a> in the project as well.</p>
 
             </div>
         </div>
