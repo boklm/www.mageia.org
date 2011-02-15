@@ -99,7 +99,7 @@
                 <div class="para">
                     <h3>Donner !</h3>
                     <p>Oui ! <a href="/fr/donate/">Vous pouvez donner aussi !</a></p>
-                    <p>Mageia ne repose que sur la participation de sa communauté, que ce soit par son temps, ses compétences et son argent !</p>
+                    <p>Mageia ne repose que sur la participation de sa communauté, que ce soit par son temps, ses compétences ou son argent !</p>
                 </div></div>
             </div>
             <div class="para" style="color: #999;">
