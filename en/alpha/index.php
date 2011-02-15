@@ -82,7 +82,8 @@
                         is left to be improved for the next weeks.</p>
                     
                     <ul>
-                        <li><a href="/wiki/doku.php?id=iso1:alpha1_release_notes" hreflang="en">Release Notes</a></li>
+			<li><a href="http://blog.mageia.org/?p=492" hreflang="en">Blog post</a></li>
+			<li><a href="/wiki/doku.php?id=iso1:alpha1_release_notes" hreflang="en">Release Notes</a></li>
                         <li><a href="/wiki/doku.php?id=iso1:alpha1_errata" hreflang="en">Erratas</a></li>
                         <li><a href="/en/">What is Mageia?</a></li>
                     </ul>
