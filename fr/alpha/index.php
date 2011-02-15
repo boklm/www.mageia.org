@@ -14,7 +14,7 @@
     <?php include '../../langs.php'; ?>
     
     <div id="doc" class="yui-t7">
-        <div id="hd" role="banner"><h1>Mageia <span>| Téléchargement de la versioon Alpha</span></h1></div>
+        <div id="hd" role="banner"><h1>Mageia <span>| Télécharger la version Alpha</span></h1></div>
         <div id="bd" role="main">
             <div class="yui-g">
                 <div class="para" style="color: #f22; text-align: center;">
@@ -86,7 +86,7 @@
                         <li><a href="/wiki/doku.php?id=iso1:alpha1_errata" hreflang="en">Erratas</a></li>
                         <li><a href="/en/">Qu'est ce que Mageia ?</a></li>
                     </ul>
-                    <p>L'alpha 2 sera diffusée le 15 mars<sup>th</sup>.</p>
+                    <p>L'alpha 2 sera diffusée le 15 mars.</p>
                     <p>Vous pouvez vérifier notre <a href="http://mageia.org/wiki/doku.php?id=iso_1_specifications#expected_milestones">calendrier pour Mageia 1</a>.</p>
                     
                     
