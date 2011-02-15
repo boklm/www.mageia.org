@@ -89,7 +89,7 @@
                 </div></div>
                 <div class="yui-u"><div class="para">
                     <h2>Vous pouvez aider !</h2>
-                    <p>Oui ! Cette version is toujours grossière, and ainsi sera la suivante,
+                    <p>Oui ! Cette version est toujours grossière, et ainsi sera la suivante,
 			mais en bien mieux !</p>
                     <p>Il y a beaucoup de choses que l'on peut faire pour contribuer à Mageia :
                         développer, packager, tester, traduire, remonter et fixer des bugs, et <a href="http://mageia.org/wiki/">bien plus encore</a> !</p>
