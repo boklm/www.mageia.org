@@ -20,12 +20,12 @@
                 <div class="para" style="color: #f22; text-align: center;">
                     <h2 style="font-weight: bold;">Attention ! Alpha == Logiciel Instable !</h2>
                     <p>Ce n'est PAS prévu POUR : usage quotidien, évaluation publique, mise en production.</p>
-                    <p>C'est prévu POUR : test des développeurs et empacketeurs.</p>
+                    <p>C'est prévu POUR : test des développeurs et empaqueteurs.</p>
                 </div>
             </div>
             <div class="yui-g"><div class="para">
                 <p>Quelque soit l'usage que vous ferez des images ISO mises à votre disposition, cela sera fait en votre pleine conscience des risques encourus, avec vos propres responsabilités.
-                    Si vous êtes à la recherche d'un systême Linux stable, il conviendrait mieux d'attendre les prochaines versions de Mageia</p>
+		    Si vous êtes à la recherche d'un système Linux stable, il conviendrait mieux d'attendre les prochaines versions de Mageia.</p>
 
                 <p style="font-weight: bold; color: #f22">Encore une fois, merci DE NE PAS télécharger et installer cette version si vous n'êtes pas certain que vous comprenez ce qu'est cette ISO et ce qu'elle n'est pas.</p>
                 
@@ -74,7 +74,7 @@
                 <div class="yui-u first"><div class="para" style="padding-right: 0;">
                     <h2>A propos de cette version</h2>
                     <p>C'est notre premiere ISO, réalisée depuis notre propre <em>build-system</em>.
-                        Publier cette image maintenant et le meilleur moyen de le tester et de voir ce qu'il reste à améliorer dans les prochaines semaines.</p>
+                        Publier cette image maintenant est le meilleur moyen de le tester et de voir ce qu'il reste à améliorer dans les prochaines semaines.</p>
                     
                     <ul>
 			<li><a href="http://blog.mageia.org/?p=492" hreflang="en">Annonce sur le blog</a></li>
