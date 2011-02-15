@@ -31,7 +31,7 @@
                 
                 <h2>Vous voulez toujours télécharger l'alpha <em>brute de décoffrage</em> de Mageia ?</h2>
                 <p>Ok. Premièrement, les présentations : nous avons deux images ISO : un DVD 32 bits et un DVD 64 bits.
-                    Chacun faisant environ 2&nbsp;GiB.</p>
+                    Chacun faisant environ 2&nbsp;Gio.</p>
                 <p>Ci-dessous vous trouverez la liste des serveurs actuellement répertoriés comme miroir de Mageia :</p>
                 <ol>
                     <li>choisir le serveur qui vous convient le mieux (de préférence dans votre pays) ;</li>
@@ -79,7 +79,7 @@
                     <ul>
 			<li><a href="http://blog.mageia.org/?p=492" hreflang="en">Annonce sur le blog</a></li>
 			<li><a href="/wiki/doku.php?id=iso1:alpha1_release_notes" hreflang="en">Notes de version</a></li>
-                        <li><a href="/wiki/doku.php?id=iso1:alpha1_errata" hreflang="en">Erratas</a></li>
+                        <li><a href="/wiki/doku.php?id=iso1:alpha1_errata" hreflang="en">Errata</a></li>
                         <li><a href="/fr/">Qu'est ce que Mageia ?</a></li>
                     </ul>
                     <p>L'alpha 2 sera diffusée le 15 mars.</p>
