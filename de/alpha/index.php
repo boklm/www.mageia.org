@@ -89,7 +89,7 @@
                     
                     <ul>
                         <li><a href="/wiki/doku.php?id=iso1:alpha1_release_notes" hreflang="en">Release-Notes</a></li>
-                        <li><a href="/wiki/doku.php?id=iso1:alpha1_errata" hreflang="en">Erratas</a></li>
+                        <li><a href="/wiki/doku.php?id=iso1:alpha1_errata" hreflang="en">Errata</a></li>
                         <li><a href="/en/">Was ist Mageia?</a></li>
                     </ul>
                     <p>Alpha2 wird am 15. M&auml;rz ver&ouml;ffentlicht<sup>th</sup>.</p>
