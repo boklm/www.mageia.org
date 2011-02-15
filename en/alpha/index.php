@@ -84,7 +84,7 @@
                     <ul>
 			<li><a href="http://blog.mageia.org/?p=492" hreflang="en">Blog post</a></li>
 			<li><a href="/wiki/doku.php?id=iso1:alpha1_release_notes" hreflang="en">Release Notes</a></li>
-                        <li><a href="/wiki/doku.php?id=iso1:alpha1_errata" hreflang="en">Erratas</a></li>
+                        <li><a href="/wiki/doku.php?id=iso1:alpha1_errata" hreflang="en">Errata</a></li>
                         <li><a href="/en/">What is Mageia?</a></li>
                     </ul>
                     <p>Alpha 2 will be released on March, 15<sup>th</sup>.</p>
