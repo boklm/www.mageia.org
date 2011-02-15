@@ -47,6 +47,21 @@ foreach ($langs as $k => $v)
         $v);
 }
 
+// prevent 404 error on /{$locale}/ with missing translation
+function locale_path($locale,$path)
+{
+	$filename = "/".$locale."/".$path."/";
+	if (file_exists($filename)
+	{
+		$url = $filename;
+	}
+	else
+	{
+		$url = "/en/".$path;
+	}
+	return $url;
+}
+
 // global nav
 $nav_list = array(
     "/{$locale}/" => 'Mageia',
