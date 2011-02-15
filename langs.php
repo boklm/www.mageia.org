@@ -72,19 +72,22 @@ $nav_list = array(
         'tr' => 'Web Günlüğü',
         'ru' => 'Блог'
     ),
-    locale_path("{$locale}","alpha") => 'Alpha', 
+    "/{$locale}/alpha" => 'Alpha'
+    //locale_path("{$locale}","alpha") => 'Alpha', 
     '/wiki/' => array(
         'en' => 'Wiki',
         'ru' => 'Вики'
     ),
-    locale_path("{$locale}","faq") => array(
+    "/{$locale}/faq" => array(
+    //locale_path("{$locale}","faq") => array(
         'en' => 'FAQ',
         'es' => 'Preguntas Frecuentes',
         'et' => 'KKK',
         'tr' => 'S.S.S.',
         'ro' => 'Întrebări frecvente'
     ),
-    locale_path("{$locale}","donate") => array(
+    "/{$locale}/donate" => array(
+    //locale_path("{$locale}","donate") => array(
     //"http://www.mageia.org/en/donate//{$locale}/" => array(
         'de' => 'Spenden',
         'el' => 'Δωρεές',
@@ -107,7 +110,8 @@ $nav_list = array(
         'ru' => 'Пресса',
         'tr' => 'Basın'
     ),
-    locale_path("{$locale}","about/values") => array(
+    "/{$locale}/about/values" => array(
+    //locale_path("{$locale}","about/values") => array(
         'de' => 'Werte',
         'el' => 'Αξίες',
         'en' => 'Values',
@@ -118,7 +122,8 @@ $nav_list = array(
         'ro' => 'Valori',
         'ru' => 'Цели'
     ),
-    locale_path("{$locale}","about/code-of-conduct") => array(
+    "/{$locale}/about/code-of-conduct" => array(
+    //locale_path("{$locale}","about/code-of-conduct") => array(
         'de' => 'Verhaltenskodex',
         'el' => 'Κώδικας συμπεριφοράς',
         'en' => 'Code of Conduct',
