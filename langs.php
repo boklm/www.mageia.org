@@ -77,14 +77,14 @@ $nav_list = array(
         'en' => 'Wiki',
         'ru' => 'Вики'
     ),
-    "/{$locale}/faq/" => array(
+    locale_path("{$locale}","faq") => array(
         'en' => 'FAQ',
         'es' => 'Preguntas Frecuentes',
         'et' => 'KKK',
         'tr' => 'S.S.S.',
         'ro' => 'Întrebări frecvente'
     ),
-    "/{$locale}/donate/" => array(
+    locale_path("{$locale}","donate") => array(
     //"http://www.mageia.org/en/donate//{$locale}/" => array(
         'de' => 'Spenden',
         'el' => 'Δωρεές',
@@ -107,7 +107,7 @@ $nav_list = array(
         'ru' => 'Пресса',
         'tr' => 'Basın'
     ),
-    "/{$locale}/about/values/" => array(
+    locale_path("{$locale}","about/values") => array(
         'de' => 'Werte',
         'el' => 'Αξίες',
         'en' => 'Values',
@@ -118,7 +118,7 @@ $nav_list = array(
         'ro' => 'Valori',
         'ru' => 'Цели'
     ),
-    "/{$locale}/about/code-of-conduct/" => array(
+    locale_path("{$locale}","about/code-of-conduct") => array(
         'de' => 'Verhaltenskodex',
         'el' => 'Κώδικας συμπεριφοράς',
         'en' => 'Code of Conduct',
