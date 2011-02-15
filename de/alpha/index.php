@@ -3,7 +3,7 @@
 <html dir="ltr" lang="de">
 <head>
     <meta charset="utf-8" />
-    <title>Mageias Alpha-Releases (Testversionen) herunterladen</title>
+    <title>Download der Mageia Alpha-Releases (Testversionen)</title>
     <meta name="description" content="Download-Seite f&uuml;r Mageias erste Alpha-Version" />
     <meta name="keywords" content="mageia, alpha, unstable, iso, download, herunterladen, test, nicht produktiv" />
     <meta name="author" content="Mageia" />
@@ -20,11 +20,11 @@
                 <div class="para" style="color: #f22; text-align: center;">
                     <h2 style="font-weight: bold;">Vorsicht! Alpha == keine stabile Software!</h2>
                     <p>Diese Version ist NICHT F&Uuml;R folgende Zwecke: Benutzung, Testberichte, pers&ouml;nliche oder produktive Auswertung.</p>                                      
-                    <p>Diese Version is F&Uuml;R: folgende Zwecke: Entwickler- und Paketbauer-Tests.</p>
+                    <p>Diese Version is F&Uuml;R: folgende Zwecke: Tests durch Entwickler und Paketbauer.</p>
                 </div>
             </div>
             <div class="yui-g"><div class="para">
-                <p>Egal was Sie mit dem angebotenen ISO-Abbild tun, geschieht auf Ihr
+                <p>Egal was Sie mit dem angebotenen ISO-Abbild tun, es geschieht auf Ihr
                     eigenes Risiko und Ihre eigene Verantwortung.
                     Wenn Sie auf der Suche nach einem stabilen Linuxsystem sind, sollten
                     Sie auf eine sp&auml;tere Ver&ouml;ffentlichung von Mageia warten.</p>
@@ -81,7 +81,7 @@
             </div></div>
             <div class="yui-g">
                 <div class="yui-u first"><div class="para" style="padding-right: 0;">
-                    <h2>&Uuml;ber diese Ver&ouml;ffentlichung</h2>
+                    <h2>&Uuml;ber diese Version</h2>
                     <p>Dies ist unsere allererste ISO, die wir mit unserem Buildsystem erstellt
                         haben. Sie nun zu ver&ouml;ffentlichen ist eine gute Methode, um dies zu testen
                         und zu sehen, was daran in den kommenden Wochen noch verbessert
@@ -99,9 +99,8 @@
                 </div></div>
                 <div class="yui-u"><div class="para">
                     <h2>Sie k&ouml;nnen helfen!</h2>
-                    <p>Ja! Diese Ver&ouml;ffentlichung ist noch ein bisschen holperig, und - auch
-                        wenn die n&auml;chste besser sein wird - wird diese 
-                        Alpha2-Version vermutlich ebenfalls noch unausgereift sein.</p>
+                    <p>Ja! Diese Ver&ouml;ffentlichung ist noch ein wenig holperig, und so wird auch die n&auml;chste Version
+			sein, nur besser!
                     <p>Es gibt viele Dinge, die man zu Mageia beitragen kann: entwickeln,
                         Pakete bauen, testen, &uuml;bersetzen, Bugs melden und beheben und 
                         <a href="http://mageia.org/wiki/">so vieles mehr</a>!</p>
