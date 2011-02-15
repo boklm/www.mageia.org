@@ -24,14 +24,10 @@
                 </div>
             </div>
             <div class="yui-g"><div class="para">
-                <p>Whatever you may do with the provided ISO disc image
-                    will be done at your own risk, with your own responsibility.
-                    If you are looking for a stable Linux system, you may prefer to wait
-                    for later releases of Mageia.</p>
+                <p>Quelque soit l'usage que vous ferez des images ISO mises à votre disposition, cela sera fait en votre pleine conscience des risques encourus, avec vos propres responsabilités.
+                    Si vous êtes à la recherche d'un systême Linux stable, il conviendrait mieux d'attendre les prochaines versions de Mageia</p>
 
-                <p style="font-weight: bold; color: #f22">Again, please DO NOT
-                    download it and/or install it if you are not certain
-                    that you understand what this ISO is and what it is not.</p>
+                <p style="font-weight: bold; color: #f22">Encore une fois, merci DE NE PAS télécharger et installer cette version si vous n'êtes pas certain que vous comprenez ce qu'est cette ISO et ce qu'elle n'est pas.</p>
                 
                 <h2>Vous voulez toujours télécharger l'alpha <em>brute de décoffrage</em> de Mageia ?</h2>
                 <p>Ok. So first, presentations: we have two ISO images: a 32bit DVD and a 64bit DVD.
