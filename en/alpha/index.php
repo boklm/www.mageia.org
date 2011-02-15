@@ -33,7 +33,7 @@
                     download it and/or install it if you are not certain
                     that you understand what this ISO is and what it is not.</p>
                 
-                <h2>So, you still want to download Mageia Factory Alpha 1?</h2>
+                <h2>So, you still want to download Mageia Factory Alpha?</h2>
                 <p>Ok. So first, presentations: we have two ISO images: a 32bit DVD and a 64bit DVD.
                     Each weights about 2&nbsp;GiB.</p>
                 <p>Below you will find the list of servers that currently mirror Mageia software:</p>
