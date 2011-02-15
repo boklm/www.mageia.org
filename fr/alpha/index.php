@@ -30,12 +30,12 @@
                 <p style="font-weight: bold; color: #f22">Encore une fois, merci DE NE PAS télécharger et installer cette version si vous n'êtes pas certain que vous comprenez ce qu'est cette ISO et ce qu'elle n'est pas.</p>
                 
                 <h2>Vous voulez toujours télécharger l'alpha <em>brute de décoffrage</em> de Mageia ?</h2>
-                <p>Ok. So first, presentations: we have two ISO images: a 32bit DVD and a 64bit DVD.
-                    Each weights about 2&nbsp;GiB.</p>
-                <p>Below you will find the list of servers that currently mirror Mageia software:</p>
+                <p>Ok. Premièrement, les présentations : nous avons deux images ISO : un DVD 32 bits et un DVD 64 bits.
+                    Chacun faisant environ 2&nbsp;GiB.</p>
+                <p>Ci-dessous vous trouverez la liste des serveurs actuellement répertoriés comme miroir de Mageia :</p>
                 <ol>
-                    <li>pick the server that suits you best (preferably in your own country);</li>
-                    <li>pick the ISO image that is best for you (their names should be self-evident, we hope).</li>
+                    <li>choisir le serveur qui vous convient le mieux (de préférence dans votre pays) ;</li>
+                    <li>choisir l'image ISO qui vous convient le mieux (les noms devraient êtres assez évidents).</li>
                 </ol>
                 <br />
                 <table id="dl-table"><thead>
