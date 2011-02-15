@@ -57,7 +57,7 @@ $nav_list = array(
         'tr' => 'Web Günlüğü',
         'ru' => 'Блог'
     ),
-    "/alpha/" => 'Alpha', 
+    "/en/alpha/" => 'Alpha', 
     '/wiki/' => array(
         'en' => 'Wiki',
         'ru' => 'Вики'
