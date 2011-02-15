@@ -80,7 +80,7 @@
 			<li><a href="http://blog.mageia.org/?p=492" hreflang="en">Annonce sur le blog</a></li>
 			<li><a href="/wiki/doku.php?id=iso1:alpha1_release_notes" hreflang="en">Notes de version</a></li>
                         <li><a href="/wiki/doku.php?id=iso1:alpha1_errata" hreflang="en">Erratas</a></li>
-                        <li><a href="/en/">Qu'est ce que Mageia ?</a></li>
+                        <li><a href="/fr/">Qu'est ce que Mageia ?</a></li>
                     </ul>
                     <p>L'alpha 2 sera diffusée le 15 mars.</p>
                     <p>Vous pouvez vérifier notre <a href="http://mageia.org/wiki/doku.php?id=iso_1_specifications#expected_milestones">calendrier pour Mageia 1</a>.</p>
