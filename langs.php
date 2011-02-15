@@ -51,7 +51,7 @@ foreach ($langs as $k => $v)
 function locale_path($locale,$path)
 {
 	$filename = "/".$locale."/".$path."/";
-	if (file_exists($filename)
+	if (file_exists($filename))
 	{
 		$url = $filename;
 	}
