@@ -7,7 +7,7 @@ $roadmap = array(
 
 ?>
 <ul id="rightnow">
-<li>Alpha 1 available! <a href="/<?php {$locale} ?>/alpha/">Enjoy it</a>!</li>
+<li>Alpha 1 available! <a href="/en/alpha/">Enjoy it</a>!</li>
     <li>Logo/identity refinements</li>
     <li>Teams setup (Marcom/QA)</li>
     <li>Web tools setup</li>
