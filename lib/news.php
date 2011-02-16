@@ -73,7 +73,9 @@ function get_news($locale = 'en', $count = 5, $cache_timeout = 5)
         'pt' => 'http://blog.mageia.org/pt-br/', // @fixme => /pt/ once blog is moved
         'ro' => 'http://blog.mageia.org/ro/',
         'tr' => 'http://blog.mageia.org/tr/',
-        /* missing: ru, pl, et, fi, lv, nb, nl, sl, zh-cn, zh-tw */
+	'pl' => 'http://blog.mageia.org/pl/',
+	'ru' => 'http://blog.mageia.org/ru/',
+        /* missing: et, fi, lv, nb, nl, sl, zh-cn, zh-tw */
     );
 
     if (!array_key_exists($locale, $news))
