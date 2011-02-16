@@ -52,7 +52,6 @@ function locale_path($loc,$path)
 {
 	$filename = $loc."/".$path;
 	$url = "/en/".$path;
-	echo "filename: $filename-url: $url-loc: $loc-path: $path";
 	if (file_exists($filename))
 	{
 		$url = $filename;
