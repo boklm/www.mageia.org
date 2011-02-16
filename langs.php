@@ -50,7 +50,7 @@ foreach ($langs as $k => $v)
 // prevent 404 error on /{$locale}/ with missing translation
 function locale_path($loc,$path)
 {
-	$filename = $loc."/".$path;
+	$filename = "/".$loc."/".$path;
 	$url = "/en/".$path;
 	if (file_exists($filename))
 	{
