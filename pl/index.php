@@ -14,13 +14,9 @@
     <div id="doc" class="yui-t7">
         <div id="hd" role="banner"><h1>Mageia <span>&ndash; Nowa dystrybucja Linuksa</span></h1></div>
         <div class="yui-g bb1">
-            <div class="para"><p>Mageia is a fork of Mandriva Linux,
-                supported by a not-for-profit organisation of
-                recognized and elected contributors.</p>
+            <div class="para"><p>Mageia jest odłamem systemu Mandriva Linux, wspieranym przez organizacje niedochodową znanych i wybranych twórców.</p>
 
-                <p>Further than just delivering a free, secure, stable and sustainable operating system,
-                    the goal is to set up a stable and trustable governance to direct collaborative projects
-                    (<a href="#announce">check original announcement</a>).</p>
+                <p>Mageia jest czymś więcej niż tylko wolnym, bezpiecznym, stabilnym i zrównoważonym systemem operacyjnym, naszym celem jest stworzenie stabilnej i wiarygodnej organizacji która bezpośrednio wspiera wspólne projekty. (<a href="#announce">sprawdź oryginalne ogłoszenie</a>).</p>
             </div>
         </div>
         <div class="yui-g bb1">
@@ -45,11 +41,11 @@
                         <li><a href="https://www.mageia.org/mailman/">Listy dyskusyjne</a></li>
                         <li><a href="http://mageia.org/wiki/doku.php?id=irc">IRC (sieć Freenode)</a></li>
                         <li><a href="http://mageia.org/wiki/">Mageia Wiki</a></li>
-                        <li>Contact the founders team:
+                        <li>Skontaktuj się z zespołem założycieli:
                             <ul>
                                 <li><a href="mailto:mageia-contact@mageia.org">mageia-contact@mageia.org</a></li>
                                 <li><a href="mailto:press@mageia.org">press@mageia.org</a></li>
-                                <li>expect an answer within 2 days</li>
+                                <li>oczekuj na odpowiedzi w ciągu ok. 2dni</li>
                             </ul></li>
                         <li><a href="http://www.twitter.com/mageia_org">twitter.com/mageia_org</a></li>
                         <li><a href="http://identi.ca/mageia">identi.ca/mageia</a></li>
