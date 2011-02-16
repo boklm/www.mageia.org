@@ -75,8 +75,8 @@ $nav_list = array(
         'en' => 'Wiki',
         'ru' => 'Вики'
     ),
-    "/{$locale}/faq" => array(
-    //locale_path("{$locale}","faq") => array(
+    //"/{$locale}/faq" => array(
+    locale_path("{$locale}","faq") => array(
         'en' => 'FAQ',
         'es' => 'Preguntas Frecuentes',
         'et' => 'KKK',
