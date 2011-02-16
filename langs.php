@@ -48,15 +48,17 @@ foreach ($langs as $k => $v)
 }
 
 // prevent 404 error on /{$locale}/ with missing translation
-function locale_path($loc,$path)
+function locale_path($path)
 {
-	$filename = "/".$loc."/".$path;
-	$url = "/en/".$path;
-	if (file_exists($filename))
-	{
-		$url = $filename;
-	}
-	return $url;
+	$pathtofile = "/home/projects/mageia/public_html";
+        $loc = $_SERVER['REQUEST_URI'];
+        $filename = "$pathtofile$loc$path";
+        $url = "/en/$path";
+        if (file_exists($filename))
+        {
+                $url = "$loc$path";
+        }
+        return $url;
 }
 
 // global nav
@@ -70,21 +72,21 @@ $nav_list = array(
         'ru' => 'Блог'
     ),
     //"/{$locale}/alpha" => 'Alpha',
-    locale_path("{$locale}","alpha") => 'Alpha', 
+    locale_path('alpha') => 'Alpha', 
     '/wiki/' => array(
         'en' => 'Wiki',
         'ru' => 'Вики'
     ),
     //"/{$locale}/faq" => array(
-    locale_path("{$locale}","faq") => array(
+    locale_path('faq') => array(
         'en' => 'FAQ',
         'es' => 'Preguntas Frecuentes',
         'et' => 'KKK',
         'tr' => 'S.S.S.',
         'ro' => 'Întrebări frecvente'
     ),
-    "/{$locale}/donate" => array(
-    //locale_path("{$locale}","donate") => array(
+    //"/{$locale}/donate" => array(
+    locale_path('donate') => array(
     //"http://www.mageia.org/en/donate//{$locale}/" => array(
         'de' => 'Spenden',
         'el' => 'Δωρεές',
@@ -109,8 +111,8 @@ $nav_list = array(
         'ru' => 'Пресса',
         'tr' => 'Basın'
     ),
-    "/{$locale}/about/values" => array(
-    //locale_path("{$locale}","about/values") => array(
+    //"/{$locale}/about/values" => array(
+    locale_path('about/values') => array(
         'de' => 'Werte',
         'el' => 'Αξίες',
         'en' => 'Values',
@@ -122,8 +124,8 @@ $nav_list = array(
         'ro' => 'Valori',
         'ru' => 'Цели'
     ),
-    "/{$locale}/about/code-of-conduct" => array(
-    //locale_path("{$locale}","about/code-of-conduct") => array(
+    //"/{$locale}/about/code-of-conduct" => array(
+    locale_path('about/code-of-conduct') => array(
         'de' => 'Verhaltenskodex',
         'el' => 'Κώδικας συμπεριφοράς',
         'en' => 'Code of Conduct',
