@@ -20,7 +20,7 @@
                 <div class="para" style="color: #f22; text-align: center;">
                     <h2 style="font-weight: bold;">Vorsicht! Alpha == keine stabile Software!</h2>
                     <p>Diese Version ist NICHT F&Uuml;R folgende Zwecke: Benutzung, Testberichte, pers&ouml;nliche oder produktive Auswertung.</p>                                      
-                    <p>Diese Version is F&Uuml;R: folgende Zwecke: Tests durch Entwickler und Paketbauer.</p>
+                    <p>Diese Version ist F&Uuml;R: folgende Zwecke: Tests durch Entwickler und Paketbauer.</p>
                 </div>
             </div>
             <div class="yui-g"><div class="para">
