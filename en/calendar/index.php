@@ -18,11 +18,29 @@
         <div id="bd" role="main">
             <div class="yui-g">
                 <br />
-                <iframe src="https://www.google.com/calendar/b/0/embed?height=600&amp;wkst=2&amp;hl=en_GB&amp;bgcolor=%23FFFFFF&amp;src=ojiv9mbtj8nt248dcjsfn6n664%40group.calendar.google.com&amp;color=%23125A12&amp;src=gpm9kdohufidedmlpnuuq4pvmo%40group.calendar.google.com&amp;color=%238C500B&amp;src=hm0j50l2vmv0dlstaigbm7nt30%40group.calendar.google.com&amp;color=%23691426&amp;ctz=Europe%2FParis"
-                    style=" border-width:0 "
+                <?php
+                $params = array(
+                    'height' => 600,
+                    'wkst' => 2,
+                    'hl' => 'en_GB',
+                    'bgcolor' => '#FFFFFF',
+                    'src' => 'ojiv9mbtj8nt248dcjsfn6n664@group.calendar.google.com',
+                    'color' => '#125A12',
+                    'src' => 'gpm9kdohufidedmlpnuuq4pvmo@group.calendar.google.com',
+                    'color' => '#8C500B',
+                    'src' => 'hm0j50l2vmv0dlstaigbm7nt30@group.calendar.google.com',
+                    'color' => '#691426',
+                    'src' => 'uo3onvtl8q6qk5m3emq83rekag@group.calendar.google.com',
+                    'color' => '#42104A',
+                    'ctz' => 'Europe/Paris'
+                );
+                ?>
+                <iframe src="https://www.google.com/calendar/b/0/embed?height=600&amp;wkst=2&amp;hl=en&amp;bgcolor=%23FFFFFF&amp;src=ojiv9mbtj8nt248dcjsfn6n664%40group.calendar.google.com&amp;color=%23125A12&amp;src=gpm9kdohufidedmlpnuuq4pvmo%40group.calendar.google.com&amp;color=%238C500B&amp;src=uo3onvtl8q6qk5m3emq83rekag%40group.calendar.google.com&amp;color=%2342104A&amp;src=hm0j50l2vmv0dlstaigbm7nt30%40group.calendar.google.com&amp;color=%23691426&amp;ctz=Europe%2FParis"
+                    style="border-width:0"
                     width="749"
                     height="600"
-                    frameborder="0"></iframe>
+                    frameborder="0"
+                    scrolling="no"></iframe>
 
                 <div class="para">
                     <p>This calendar shows all Mageia events,
