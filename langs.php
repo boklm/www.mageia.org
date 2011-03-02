@@ -94,11 +94,13 @@ $nav_list = array(
         'es' => 'Donaciones',
         'et' => 'Annetused',
         'fr' => 'Dons',
-	'pl' => 'Dotacje',        
-	'tr' => 'Bağışlar',
+        'pl' => 'Dotacje',
+        'pt' => 'Doações',
+        'tr' => 'Bağışlar',
         'ro' => 'Donații',
         'ru' => 'Пожертвования'
     ),
+    //
     "http://mageia.org/wiki/doku.php?id=press" => array(
         'de' => 'Presse',
         'el' => 'Τύπος',
@@ -106,7 +108,7 @@ $nav_list = array(
         'es' => 'Prensa',
         'et' => 'Ajakirjandus',
         'fr' => 'Presse',
-	'pl' => 'Prasa o nas ',
+        'pl' => 'Prasa o nas ',
         'ro' => 'Presă',
         'ru' => 'Пресса',
         'tr' => 'Basın'
@@ -119,7 +121,8 @@ $nav_list = array(
         'es' => 'Valores',
         'et' => 'Väärtused',
         'fr' => 'Valeurs',
-	'pl' => 'Wartości',
+        'pl' => 'Wartości',
+        'pt' => 'Valores',
         'tr' => 'Değerler',
         'ro' => 'Valori',
         'ru' => 'Цели'
@@ -132,10 +135,24 @@ $nav_list = array(
         'es' => 'Código de Conducta',
         'et' => 'Käitumisjuhised',
         'fr' => 'Code de conduite',
-	'pl' => 'Kodeks postępowania',
+        'pl' => 'Kodeks postępowania',
+        'pt' => 'Código de Conduta',
         'tr' => 'Temel İlkeler',
         'ro' => 'Codul de conduită',
         'ru' => 'Кодекс поведения'
+    ),
+    '/en/calendar/' => array(
+        'de' => 'Kalender',
+        'el' => 'Ημερολόγιο',
+        'en' => 'Calendar',
+        'es' => 'Calendario',
+        'et' => 'Kalender',
+        'fr' => 'Calendrier',
+        'pl' => 'Kalendarz',
+        'pt' => 'Calendário',
+        'tr' => 'Takvim',
+        'ro' => 'Calendar',
+        'ru' => 'Календарь'
     )
 );
 
