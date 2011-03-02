@@ -35,7 +35,7 @@
                     'ctz' => 'Europe/Paris'
                 );
                 ?>
-                <iframe src="https://www.google.com/calendar/b/0/embed?height=600&amp;wkst=2&amp;hl=en&amp;bgcolor=%23FFFFFF&amp;src=ojiv9mbtj8nt248dcjsfn6n664%40group.calendar.google.com&amp;color=%23125A12&amp;src=gpm9kdohufidedmlpnuuq4pvmo%40group.calendar.google.com&amp;color=%238C500B&amp;src=uo3onvtl8q6qk5m3emq83rekag%40group.calendar.google.com&amp;color=%2342104A&amp;src=hm0j50l2vmv0dlstaigbm7nt30%40group.calendar.google.com&amp;color=%23691426&amp;ctz=Europe%2FParis"
+                <iframe src="https://www.google.com/calendar/b/0/embed?height=600&amp;wkst=2&amp;hl=en&amp;bgcolor=%23FFFFFF&amp;src=ojiv9mbtj8nt248dcjsfn6n664%40group.calendar.google.com&amp;color=%23125A12&amp;src=gpm9kdohufidedmlpnuuq4pvmo%40group.calendar.google.com&amp;color=%238C500B&amp;src=uo3onvtl8q6qk5m3emq83rekag%40group.calendar.google.com&amp;color=%2342104A&amp;src=hm0j50l2vmv0dlstaigbm7nt30%40group.calendar.google.com&amp;color=%23691426&amp;ctz=UTC"
                     style="border-width:0"
                     width="749"
                     height="600"
@@ -52,7 +52,7 @@
                     <p>For any comment, addition, change to this calendar, feel free to contact us through:</p>
                     <ul>
                         <li>your <a href="http://mageia.org/wiki/">team</a> leader or representative,</li>
-                        <li><a href="irc://irc.freenode.net/#mageia">#mageia</a> on Freenode,</li>
+                        <li><a href="irc://irc.freenode.net/#mageia-dev">#mageia-dev</a> on Freenode,</li>
                         <li><a href="mailto:mageia-contact@mageia.org">mageia-contact@mageia.org</a> in last resort.</li>
                     </ul>
                 </div>
