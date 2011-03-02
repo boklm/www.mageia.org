@@ -53,7 +53,7 @@
                     <ul>
                         <li>your <a href="http://mageia.org/wiki/">team</a> leader or representative,</li>
                         <li><a href="irc://irc.freenode.net/#mageia">#mageia</a> on Freenode,</li>
-                        <li><a href="mailto:contact@mageia.org">contact@mageia.org</a> in last resort.</li>
+                        <li><a href="mailto:mageia-contact@mageia.org">mageia-contact@mageia.org</a> in last resort.</li>
                     </ul>
                 </div>
             </div>
