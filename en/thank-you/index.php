@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8" />
     <title>Thank you for making Mageia possible.</title>
-    <meta name="description" content="People and orgs without which Mageia would not exist." />
-    <meta name="keywords" content="mageia, donate, donation, thanks, partners, help" />
+    <meta name="description" content="People, organisations and services without which Mageia would not exist." />
+    <meta name="keywords" content="mageia, donate, donation, thanks, partners, help, mirrors, hosting" />
     <meta name="author" content="Mageia" />
     <link rel="stylesheet" type="text/css" href="/g/style/all.css" />
     <?php include '../../analytics.php'; ?>
@@ -33,14 +33,15 @@
                     <ul class="ty-ppl-list">
                         <li><a href="http://lacantine.org/">La Cantine</a></li>
                         <li>Le Père Tranquille</li>
-			<li>Séverine's place</li>
-			<li><a href="http://twitter.com/happylisou/">Elise</a>'s place</a></li>
+                        <li>Séverine's place</li>
+                        <li><a href="http://twitter.com/happylisou/">Elise</a>'s place</a></li>
                         <li>Starbucks Coffee</li>
                     </ul>
                     <p>Thanks a lot to all the people we met, discussed with about this project
                         and its potential implications: you know who you are!</p>
                     
-                    <p>Those organizations provided Mageia.Org with hosting, hosting advice, server hardware,
+                    <p>Those organizations and people provided Mageia.Org with
+                        mirroring facilities, hosting, hosting advice, server hardware,
                         network bandwidth or some facilities:</p>
                     <?php echo html_orgs_list($orgs); ?>
                 </div>
