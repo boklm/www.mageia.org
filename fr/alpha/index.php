@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html>
-<html dir="ltr" lang="en">
+<html dir="ltr" lang="fr">
 <head>
     <meta charset="utf-8" />
     <title>Télécharger la version alpha (non stable) de Mageia</title>
@@ -37,38 +37,7 @@
                     <li>choisir le serveur qui vous convient le mieux (de préférence dans votre pays) ;</li>
                     <li>choisir l'image ISO qui vous convient le mieux (les noms devraient êtres assez évidents).</li>
                 </ol>
-                <br />
-                <table id="dl-table"><thead>
-                    <tr><th>Emplacement</th><th>Protocole</th><th>Serveur</th></tr>
-                </thead><tbody>
-                <?php
-                /* @fixme note to self: brains! */
-                    $mirrors = array(
-                        array('China', 'Beijing', 'http://fundawang.lcuc.org.cn/mageia/'),
-                        array('Czech Republic', 'Praha', 'http://mageia.supp.name/'),
-                        array('Deutschland', 'Erfurt', 'http://ftp.mandrivauser.de/mirrors/Mageia/'),
-                        array('Deutschland', 'Erfurt', 'ftp://ftp.mandrivauser.de/mirrors/Mageia/'),
-                        array('France', 'Paris', 'http://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia/'),
-                        array('France', 'Paris', 'ftp://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia/'),
-                        array('Nouvelle Calédonie', 'Nouméa', 'http://mageia.nautile.nc/mageia/distrib/'),
-                        array('USA', 'Durham', 'ftp://distro.ibiblio.org/pub/linux/distributions/mageia/'),
-                        array('USA', 'Durham', 'http://distro.ibiblio.org/pub/linux/distributions/mageia/'),
-                    );
-                    $tmpl = '<tr><td>%s, %s</td><td>%s</td><td><a href="%s%s">%s</a></td></tr>';
-                    foreach ($mirrors as $m):
-                        $pu = parse_url($m[2]);
-                        echo sprintf($tmpl,
-                            $m[1], $m[0],
-                            strtoupper($pu['scheme']),
-                            $m[2],
-                            'iso/',
-                            $pu['host']);
-                    endforeach;
-                ?>
-                </body>
-                </table>
-                
-                
+                <?php include '../../mirrors.php'; ?>
             </div></div>
             <div class="yui-g">
                 <div class="yui-u first"><div class="para" style="padding-right: 0;">
@@ -77,8 +46,8 @@
                         Publier cette image maintenant est le meilleur moyen de le tester et de voir ce qu'il reste à améliorer dans les prochaines semaines.</p>
                     
                     <ul>
-			<li><a href="http://blog.mageia.org/?p=492" hreflang="en">Annonce sur le blog</a></li>
-			<li><a href="/wiki/doku.php?id=iso1:alpha1_release_notes" hreflang="en">Notes de version</a></li>
+                        <li><a href="http://blog.mageia.org/?p=492" hreflang="en">Annonce sur le blog</a></li>
+                        <li><a href="/wiki/doku.php?id=iso1:alpha1_release_notes" hreflang="en">Notes de version</a></li>
                         <li><a href="/wiki/doku.php?id=iso1:alpha1_errata" hreflang="en">Errata</a></li>
                         <li><a href="/fr/">Qu'est ce que Mageia ?</a></li>
                     </ul>
@@ -89,8 +58,7 @@
                 </div></div>
                 <div class="yui-u"><div class="para">
                     <h2>Vous pouvez aider !</h2>
-                    <p>Oui ! Cette version est toujours grossière, et ainsi sera la suivante,
-			mais en bien mieux !</p>
+                    <p>Oui ! Cette version est toujours grossière, et ainsi sera la suivante, mais en bien mieux !</p>
                     <p>Il y a beaucoup de choses que l'on peut faire pour contribuer à Mageia :
                         développer, packager, tester, traduire, remonter et fixer des bugs, et <a href="http://mageia.org/wiki/">bien plus encore</a> !</p>
                     <p><a href="http://mageia.org/wiki/doku.php?id=contribute">Voir comment vous pouvez rejoindre l'aventure</a></p>
@@ -103,7 +71,7 @@
                 </div></div>
             </div>
             <div class="para" style="color: #999;">
-		<p>Oui, c'est une page de téléchargement un peu rude, pour le moment. Mais elle est bien dans le sens où elle pourrait rebuter les personnes qui ne sont pas développeurs ou packageurs.
+                <p>Oui, c'est une page de téléchargement un peu rude, pour le moment. Mais elle est bien dans le sens où elle pourrait rebuter les personnes qui ne sont pas développeurs ou packageurs.
                     Avons-nous dit que nous invitions les gens à contribuer dans nos
                     <a href="http://www.mageia.org/wiki/doku.php?id=web">équipes Web</a> et <a href="http://www.mageia.org/wiki/doku.php?id=sysadmin">Sysadmim</a> ?
                     Il y a <a href="http://www.mageia.org/wiki/doku.php?#teams">aussi d'autres équipes très sympathiques</a> dans le projet.</p>

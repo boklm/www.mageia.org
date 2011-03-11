@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html>
-<html dir="ltr" lang="en">
+<html dir="ltr" lang="pl">
 <head>
     <meta charset="utf-8" />
     <title>Pobierz (niestabilne) wydanie Mageia alpha</title>
@@ -39,38 +39,7 @@
 
                     <li>wybrać obraz ISO, który jest najlepszy dla Ciebie (ich nazewnictwopowinno być oczywiste, mamy nadzieję).</li>
                 </ol>
-                <br />
-                <table id="dl-table"><thead>
-                    <tr><th>Położenie</th><th>Protokół</th><th>Serwer</th></tr>
-                </thead><tbody>
-                <?php
-                /* @fixme note to self: brains! */
-                    $mirrors = array(
-                        array('China', 'Beijing', 'http://fundawang.lcuc.org.cn/mageia/'),
-                        array('Czech Republic', 'Praha', 'http://mageia.supp.name/'),
-                        array('Deutschland', 'Erfurt', 'http://ftp.mandrivauser.de/mirrors/Mageia/'),
-                        array('Deutschland', 'Erfurt', 'ftp://ftp.mandrivauser.de/mirrors/Mageia/'),
-                        array('France', 'Paris', 'http://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia/'),
-                        array('France', 'Paris', 'ftp://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia/'),
-                        array('Nouvelle Calédonie', 'Nouméa', 'http://mageia.nautile.nc/mageia/distrib/'),
-                        array('USA', 'Durham', 'ftp://distro.ibiblio.org/pub/linux/distributions/mageia/'),
-                        array('USA', 'Durham', 'http://distro.ibiblio.org/pub/linux/distributions/mageia/'),
-                    );
-                    $tmpl = '<tr><td>%s, %s</td><td>%s</td><td><a href="%s%s">%s</a></td></tr>';
-                    foreach ($mirrors as $m):
-                        $pu = parse_url($m[2]);
-                        echo sprintf($tmpl,
-                            $m[1], $m[0],
-                            strtoupper($pu['scheme']),
-                            $m[2],
-                            'iso/',
-                            $pu['host']);
-                    endforeach;
-                ?>
-                </body>
-                </table>
-                
-                
+                <?php include '../../mirrors.php'; ?>
             </div></div>
             <div class="yui-g">
                 <div class="yui-u first"><div class="para" style="padding-right: 0;">
@@ -78,9 +47,8 @@
                     <p>To jest nasz pierwszy ISO, wydanym z naszego systemu budowania dystrybucji. Wydanie go teraz to jest dobry sposób na przetestowanie go i sprawdzenie co trzeba jeszcze poprawić na najbliższych tygodniach.</p>
                     
                     <ul>
-			<li><a href="http://blog.mageia.org/?p=492" hreflang="en">Wiadomość na blogu</a></li>
-
-			<li><a href="http://mageia.org/wiki/doku.php?id=iso1:alpha1_release_notes" hreflang="en">Notka o wydaniu</a></li>
+                        <li><a href="http://blog.mageia.org/?p=492" hreflang="en">Wiadomość na blogu</a></li>
+                        <li><a href="http://mageia.org/wiki/doku.php?id=iso1:alpha1_release_notes" hreflang="en">Notka o wydaniu</a></li>
                         <li><a href="http://mageia.org/wiki/doku.php?id=iso1:alpha1_errata" hreflang="en">Errata</a></li>
                         <li><a href="http://mageia.org/en/">Co to jest Mageia?</a></li>
                     </ul>
@@ -103,7 +71,7 @@
                 </div></div>
             </div>
             <div class="para" style="color: #999;">
-		<p>Tak, to jest raczej szorstka strona pobierania, na razie. Ale to jest dobre gdyż strona może wyda się mniej atrakcyjna dla osób nie będących deweloperami. Czy możemy powiedzieć, że z zadowoleniem przyjmujemy osoby do współpracy w naszej
+                <p>Tak, to jest raczej szorstka strona pobierania, na razie. Ale to jest dobre gdyż strona może wyda się mniej atrakcyjna dla osób nie będących deweloperami. Czy możemy powiedzieć, że z zadowoleniem przyjmujemy osoby do współpracy w naszej
                     <a href="http://www.mageia.org/wiki/doku.php?id=web">sieci</a> i <a href="http://www.mageia.org/wiki/doku.php?id=sysadmin">zespołach administratorów systemu</a>?
                     Są także <a href="http://www.mageia.org/wiki/doku.php?#teams">inne przyjazne zespoły</a> w naszym projekcie.</p>
 

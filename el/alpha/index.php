@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html>
-<html dir="ltr" lang="en">
+<html dir="ltr" lang="el">
 <head>
     <meta charset="utf-8" />
     <title>Λήψη της έκδοσης alpha της Mageia (unstable)</title> 
@@ -39,38 +39,7 @@
                     <li>επιλέξτε τον εξυπηρετητή που σας βολεύει καλύτερα (κατά προτίμηση στη χώρα σας)</li> 
                     <li>επιλέξτε την εικόνα ISO που επιθυμείτε (τα ονόματα πρέπει να είναι αρκετά κατατοπιστικά).</li> 
                 </ol>
-                <br />
-                <table id="dl-table"><thead>
-                    <tr><th>Τοποθεσία</th><th>Πρωτόκολλο</th><th>Εξυπηρετητής</th></tr>
-                </thead><tbody>
-                <?php
-                /* @fixme note to self: brains! */
-                    $mirrors = array(
-                        array('China', 'Beijing', 'http://fundawang.lcuc.org.cn/mageia/'),
-                        array('Czech Republic', 'Praha', 'http://mageia.supp.name/'),
-                        array('Deutschland', 'Erfurt', 'http://ftp.mandrivauser.de/mirrors/Mageia/'),
-                        array('Deutschland', 'Erfurt', 'ftp://ftp.mandrivauser.de/mirrors/Mageia/'),
-                        array('France', 'Paris', 'http://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia/'),
-                        array('France', 'Paris', 'ftp://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia/'),
-                        array('Nouvelle Calédonie', 'Nouméa', 'http://mageia.nautile.nc/mageia/distrib/'),
-                        array('USA', 'Durham', 'ftp://distro.ibiblio.org/pub/linux/distributions/mageia/'),
-                        array('USA', 'Durham', 'http://distro.ibiblio.org/pub/linux/distributions/mageia/'),
-                    );
-                    $tmpl = '<tr><td>%s, %s</td><td>%s</td><td><a href="%s%s">%s</a></td></tr>';
-                    foreach ($mirrors as $m):
-                        $pu = parse_url($m[2]);
-                        echo sprintf($tmpl,
-                            $m[1], $m[0],
-                            strtoupper($pu['scheme']),
-                            $m[2],
-                            'iso/',
-                            $pu['host']);
-                    endforeach;
-                ?>
-                </body>
-                </table>
-                
-                
+                <?php include '../../mirrors.php'; ?>
             </div></div>
             <div class="yui-g">
                 <div class="yui-u first"><div class="para" style="padding-right: 0;">
@@ -80,8 +49,8 @@
                         θα πρέπει να βελτιωθεί τις επόμενες εβδομάδες.</p> 
                     
                     <ul> 
-			<li><a href="http://blog.mageia.org/?p=492" hreflang="en">Η ανακοίνωση στο ιστολόγιο</a></li> 
-			<li><a href="/wiki/doku.php?id=iso1:alpha1_release_notes" hreflang="en">Σημειώσεις έκδοσης</a></li> 
+                        <li><a href="http://blog.mageia.org/en/?p=492" hreflang="en">Η ανακοίνωση στο ιστολόγιο</a></li> 
+                        <li><a href="/wiki/doku.php?id=iso1:alpha1_release_notes" hreflang="en">Σημειώσεις έκδοσης</a></li> 
                         <li><a href="/wiki/doku.php?id=iso1:alpha1_errata" hreflang="en">Errata</a></li> 
                         <li><a href="/el/">Τι είναι η Mageia?</a></li> 
                     </ul> 

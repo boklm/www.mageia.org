@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html>
-<html dir="ltr" lang="en">
+<html dir="ltr" lang="it">
 <head>
     <meta charset="utf-8" />
     <title>Scarica la release Mageia alpha (instabile)</title>
@@ -41,38 +41,7 @@
                     <li>scegli il server che ti si adatta meglio (preferibilmente nel tuo stesso paese);</li> 
                     <li>scegli l'immagine iso adatta a te (i loro nomi dovrebbero spiegare già tutto, speriamo).</li>
                 </ol>
-                <br />
-                <table id="dl-table"><thead>
-                    <tr><th>Posizione</th><th>Protocollo</th><th>Server</th></tr>
-                </thead><tbody>
-                <?php
-                /* @fixme note to self: brains! */
-                    $mirrors = array(
-                        array('China', 'Beijing', 'http://fundawang.lcuc.org.cn/mageia/'),
-                        array('Czech Republic', 'Praha', 'http://mageia.supp.name/'),
-                        array('Deutschland', 'Erfurt', 'http://ftp.mandrivauser.de/mirrors/Mageia/'),
-                        array('Deutschland', 'Erfurt', 'ftp://ftp.mandrivauser.de/mirrors/Mageia/'),
-                        array('France', 'Paris', 'http://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia/'),
-                        array('France', 'Paris', 'ftp://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia/'),
-                        array('Nouvelle Calédonie', 'Nouméa', 'http://mageia.nautile.nc/mageia/distrib/'),
-                        array('USA', 'Durham', 'ftp://distro.ibiblio.org/pub/linux/distributions/mageia/'),
-                        array('USA', 'Durham', 'http://distro.ibiblio.org/pub/linux/distributions/mageia/'),
-                    );
-                    $tmpl = '<tr><td>%s, %s</td><td>%s</td><td><a href="%s%s">%s</a></td></tr>';
-                    foreach ($mirrors as $m):
-                        $pu = parse_url($m[2]);
-                        echo sprintf($tmpl,
-                            $m[1], $m[0],
-                            strtoupper($pu['scheme']),
-                            $m[2],
-                            'iso/',
-                            $pu['host']);
-                    endforeach;
-                ?>
-                </body>
-                </table>
-                
-                
+                <?php include '../../mirrors.php'; ?>
             </div></div>
             <div class="yui-g">
                 <div class="yui-u first"><div class="para" style="padding-right: 0;">
@@ -82,8 +51,8 @@
                         manca e cosa può essere migliorato nelle prossime settimane.</p>
                     
                     <ul> 
-			<li><a href="http://blog.mageia.org/it/?p=219" hreflang="it">Blog post</a></li> 
-			<li><a href="/wiki/doku.php?id=iso1:alpha1_release_notes" hreflang="en">Note di rilascio</a></li> 
+                        <li><a href="http://blog.mageia.org/it/?p=219" hreflang="it">Blog post</a></li> 
+                        <li><a href="/wiki/doku.php?id=iso1:alpha1_release_notes" hreflang="en">Note di rilascio</a></li> 
                         <li><a href="/wiki/doku.php?id=iso1:alpha1_errata" hreflang="en">Errata</a></li> 
                         <li><a href="/it/">Cosa è Mageia?</a></li> 
                     </ul> 
@@ -111,7 +80,7 @@
                 </div></div>
             </div>
             <div class="para" style="color: #999;">
-		<p>Si, è una pagina di download piuttosto scarna, per ora. Ma è ottima per rendere
+                <p>Si, è una pagina di download piuttosto scarna, per ora. Ma è ottima per rendere
                     questo download dell'alpha meno attraente ai non-sviluppatori.
                     Abbiamo detto che accettiamo volentieri le persone che vogliono collaborare nel nostro
                     <a href="http://www.mageia.org/wiki/doku.php?id=web">Web</a> e <a href="http://www.mageia.org/wiki/doku.php?id=sysadmin">Sysadmin team</a>?

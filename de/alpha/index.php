@@ -46,38 +46,7 @@
                     <li>W&auml;hlen Sie das ISO-Abbild, das f&uuml;r Sie am besten geeignet ist (die
                         Namen sollten selbsterkl&auml;rend sein, das hoffen wir jedenfalls).</li>
                 </ol>
-                <br />
-                <table id="dl-table"><thead>
-                    <tr><th>Ort</th><th>Protokoll</th><th>Server</th></tr>
-                </thead><tbody>
-                <?php
-                /* @fixme note to self: brains! */
-                    $mirrors = array(
-                        array('China', 'Beijing', 'http://fundawang.lcuc.org.cn/mageia/'),
-                        array('Czech Republic', 'Praha', 'http://mageia.supp.name/'),
-                        array('Deutschland', 'Erfurt', 'http://ftp.mandrivauser.de/mirrors/Mageia/'),
-                        array('Deutschland', 'Erfurt', 'ftp://ftp.mandrivauser.de/mirrors/Mageia/'),
-                        array('France', 'Paris', 'http://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia/'),
-                        array('France', 'Paris', 'ftp://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia/'),
-                        array('Nouvelle Calédonie', 'Nouméa', 'http://mageia.nautile.nc/mageia/distrib/'),
-                        array('USA', 'Durham', 'ftp://distro.ibiblio.org/pub/linux/distributions/mageia/'),
-                        array('USA', 'Durham', 'http://distro.ibiblio.org/pub/linux/distributions/mageia/'),
-                    );
-                    $tmpl = '<tr><td>%s, %s</td><td>%s</td><td><a href="%s%s">%s</a></td></tr>';
-                    foreach ($mirrors as $m):
-                        $pu = parse_url($m[2]);
-                        echo sprintf($tmpl,
-                            $m[1], $m[0],
-                            strtoupper($pu['scheme']),
-                            $m[2],
-                            'iso/',
-                            $pu['host']);
-                    endforeach;
-                ?>
-                </body>
-                </table>
-                
-                
+                <?php include '../../mirrorS.php'; ?>
             </div></div>
             <div class="yui-g">
                 <div class="yui-u first"><div class="para" style="padding-right: 0;">
