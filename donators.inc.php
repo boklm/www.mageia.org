@@ -176,6 +176,17 @@ $orgs = array(
     array('http://nfrance.fr/', 'NFrance'),
     array('http://www.spreadshirt.com/', 'Spreadshirt'),
     array('http://zarb.org/', 'zarb.org'),
+    
+    // see mirrors.mageia.org
+    array('http://www.umpc.fr/', 'Université Pierre et Marie Curie'),
+    array('http://www.ibiblio.org/', 'The Public\'s Library and Digital Archive'),
+    array('http://www.mandrivauser.de', 'Mandrivauser.de'),
+    array('http://www.hs-esslingen.de/', 'Hochschule Esslingen'),
+    array('http://uni-erlangen.de/', 'Universit&auml;t Erlangen-N&uuml;rnberg'),
+    // mageia.supp.name?
+    // fundawang.lcuc.org.cn?
+    // ftp.LinuxCabal.org?
+    // mageia.nautile.nc?
 );
 
 
