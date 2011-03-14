@@ -7,15 +7,12 @@ $roadmap = array(
 
 ?>
 <ul id="rightnow">
-<li>Alpha 1 available! 
+<li>Alpha 2 is now available! 
 <?php
 echo <<<H
-<a href="/{$locale}/alpha/">Enjoy it</a>!
+<a href="/{$locale}/alpha/">Get it</a>, test it and send us your feedback!
 H;
 ?>
 </li>
-    <li>Logo/identity refinements</li>
-    <li>Teams setup (Marcom/QA)</li>
-    <li>Web tools setup</li>
 </ul>
 <p><a href="http://mageia.org/wiki/doku.php?id=roadmap">Roadmap</a></p>

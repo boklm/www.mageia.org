@@ -34,7 +34,7 @@
                     wenn Sie sich nicht sicher sind, dass Sie genau verstehen, um was es sich
                     bei dieser ISO handelt und um was nicht!</p>
                 
-                <h2>Sie wollen Mageia-Factory-Alpha1 also immer noch herunterladen?</h2>
+                <h2>Sie wollen Mageia-Alpha2 also immer noch herunterladen?</h2>
                 <p>Na gut. Zuerst die Vorstellung: Wir bieten drei ISO-Abbilder an: eine
                     32bit-DVD, eine 64bit-DVD und eine DVD f&uuml;r beide Architekturen.
                     Jede ist etwa 3&nbsp;GiB gro&szlig;.</p>
@@ -46,20 +46,24 @@
                     <li>W&auml;hlen Sie das ISO-Abbild, das f&uuml;r Sie am besten geeignet ist (die
                         Namen sollten selbsterkl&auml;rend sein, das hoffen wir jedenfalls).</li>
                 </ol>
-                <?php include '../../mirrorS.php'; ?>
+                <?php include '../../mirrors.php'; ?>
             </div></div>
             <div class="yui-g">
                 <div class="yui-u first"><div class="para" style="padding-right: 0;">
                     <h2>&Uuml;ber diese Version</h2>
-                    <p>Dies ist unsere allererste ISO, die wir mit unserem Buildsystem erstellt
-                        haben. Sie nun zu ver&ouml;ffentlichen ist eine gute Methode, um dies zu testen
-                        und zu sehen, was daran in den kommenden Wochen noch verbessert
-                        werden muss.</p>
-                    
+                    <p>Most notable changes since Alpha 1:</p>
                     <ul>
-                        <li><a href="/wiki/doku.php?id=iso1:alpha1_release_notes" hreflang="en">Release-Notes</a></li>
-                        <li><a href="/wiki/doku.php?id=iso1:alpha1_errata" hreflang="en">Errata</a></li>
-                        <li><a href="/en/">Was ist Mageia?</a></li>
+                        <li>About 1800 more packages!</li>
+                        <li>LibreOffice</li>
+                        <li>KDE 4.6.1</li>
+                        <li>Mozilla Firefox 4 RC1</li>
+                        <li>Lots of cleaning</li>
+                        <li>UI cleanups</li>
+                    </ul>
+                    <ul>
+                        <li><a href="/wiki/doku.php?id=iso1:alpha2_release_notes" hreflang="en">Release-Notes</a></li>
+                        <li><a href="/wiki/doku.php?id=iso1:alpha2_errata" hreflang="en">Errata</a></li>
+                        <li><a href="/de/">Was ist Mageia?</a></li>
                     </ul>
                     <p>Alpha2 wird am 15. M&auml;rz ver&ouml;ffentlicht<sup>th</sup>.</p>
                     <p>Sie k&ouml;nnen unsere weitere <a href="http://mageia.org/wiki/doku.php?id=iso_1_specifications#expected_milestones">Roadmap f&uuml;r Mageia 1</a> ansehen.</p>
@@ -69,7 +73,7 @@
                 <div class="yui-u"><div class="para">
                     <h2>Sie k&ouml;nnen helfen!</h2>
                     <p>Ja! Diese Ver&ouml;ffentlichung ist noch ein wenig holperig, und so wird auch die n&auml;chste Version
-			sein, nur besser!
+                        sein, nur besser!
                     <p>Es gibt viele Dinge, die man zu Mageia beitragen kann: entwickeln,
                         Pakete bauen, testen, &uuml;bersetzen, Bugs melden und beheben und 
                         <a href="http://mageia.org/wiki/">so vieles mehr</a>!</p>

@@ -33,9 +33,9 @@
                     download it and/or install it if you are not certain
                     that you understand what this ISO is and what it is not.</p>
                 
-                <h2>You still want to download Mageia Factory Alpha?</h2>
-                <p>Ok. So first, presentations: we have two ISO images: a 32bit DVD and a 64bit DVD.
-                    Each weights about 2&nbsp;GiB.</p>
+                <h2>You still want to download Mageia Alpha 2?</h2>
+                <p>Ok. So first, presentations: we have three (3) ISO images: a 32bit DVD, a 64bit DVD
+                    (about 4&nbsp;GB) and a dual arch CD (about 700&nbsp;MB).</p>
                 <p>Below you will find the list of servers that currently mirror Mageia software:</p>
                 <ol>
                     <li>pick the server that suits you best (preferably in your own country);</li>
@@ -45,18 +45,25 @@
             </div></div>
             <div class="yui-g">
                 <div class="yui-u first"><div class="para" style="padding-right: 0;">
-                    <h2>About this release</h2>
-                    <p>This is our first ISO, released from our build-system.
-                        Releasing it now is a good way to test it and see what
-                        is left to be improved for the next weeks.</p>
-                    
+                    <h2>About this Alpha 2 release</h2>
+                    <p>Most notable changes since Alpha 1:</p>
                     <ul>
+                        <li>About 1800 more packages!</li>
+                        <li>LibreOffice</li>
+                        <li>KDE 4.6.1</li>
+                        <li>Mozilla Firefox 4 RC1</li>
+                        <li>Lots of cleaning</li>
+                        <li>UI cleanups</li>
+                    </ul>
+                    
+                    <p>See also:</p>
+                    <ul>
+                        <li><a href="/wiki/doku.php?id=iso1:alpha2_release_notes" hreflang="en">Release Notes</a></li>
+                        <li><a href="/wiki/doku.php?id=iso1:alpha2_errata" hreflang="en">Errata</a></li>
                         <li><a href="http://blog.mageia.org/en/?p=492" hreflang="en">Blog post</a></li>
-                        <li><a href="/wiki/doku.php?id=iso1:alpha1_release_notes" hreflang="en">Release Notes</a></li>
-                        <li><a href="/wiki/doku.php?id=iso1:alpha1_errata" hreflang="en">Errata</a></li>
                         <li><a href="/en/">What is Mageia?</a></li>
                     </ul>
-                    <p>Alpha 2 will be released on March, 15<sup>th</sup>.</p>
+                    <p>Beta 1 will be released on April, 5<sup>th</sup>.</p>
                     <p>You can check our <a href="http://mageia.org/wiki/doku.php?id=iso_1_specifications#expected_milestones">roadmap for Mageia 1</a>.</p>
                     
                     
@@ -69,7 +76,7 @@
                         to in Mageia: developing, packaging, testing, translating,
                         reporting and fixing bugs, and <a href="http://mageia.org/wiki/">so much more</a>!</p>
                     <p><a href="http://mageia.org/wiki/doku.php?id=contribute">See
-                        how you can join the fun and contribute</a></p>
+                        how you can join the fun and contribute</a>!</p>
 
                 </div>
                 <div class="para">

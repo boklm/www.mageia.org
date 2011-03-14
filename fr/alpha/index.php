@@ -18,50 +18,58 @@
         <div id="bd" role="main">
             <div class="yui-g">
                 <div class="para" style="color: #f22; text-align: center;">
-                    <h2 style="font-weight: bold;">Attention ! Alpha == Logiciel Instable !</h2>
-                    <p>Ce n'est PAS prévu POUR : usage quotidien, évaluation publique, mise en production.</p>
-                    <p>C'est prévu POUR : test des développeurs et empaqueteurs.</p>
+                    <h2 style="font-weight: bold;">Attention&nbsp;! Alpha == Logiciel Instable&nbsp;!</h2>
+                    <p>Ce logiciel n&rsquo;est PAS prévu pour un usage quotidien,
+                        une évaluation publique ou un environnement de production.</p>
+                    <p>Ce logiciel est prévu pour des TESTS, par des développeurs ou empaqueteurs.</p>
                 </div>
             </div>
             <div class="yui-g"><div class="para">
-                <p>Quelque soit l'usage que vous ferez des images ISO mises à votre disposition, cela sera fait en votre pleine conscience des risques encourus, avec vos propres responsabilités.
-		    Si vous êtes à la recherche d'un système Linux stable, il conviendrait mieux d'attendre les prochaines versions de Mageia.</p>
+                <p>Quelque soit l&rsquo;usage que vous ferez des images ISO mises à votre disposition,
+                    cela sera fait en votre pleine conscience des risques encourus, avec vos propres responsabilités.</p>
+                <p>Si vous êtes à la recherche d&rsquo;un système Linux stable, il conviendrait
+                     d&rsquo;attendre les prochaines versions de Mageia.</p>
 
-                <p style="font-weight: bold; color: #f22">Encore une fois, merci DE NE PAS télécharger et installer cette version si vous n'êtes pas certain que vous comprenez ce qu'est cette ISO et ce qu'elle n'est pas.</p>
+                <p style="font-weight: bold; color: #f22">Encore une fois, merci DE NE PAS télécharger et installer cette version si vous n&rsquo;êtes pas certain que vous comprenez ce qu&rsquo;est cette ISO et ce qu&rsquo;elle n&rsquo;est pas.</p>
                 
-                <h2>Vous voulez toujours télécharger l'alpha <em>brute de décoffrage</em> de Mageia ?</h2>
-                <p>Ok. Premièrement, les présentations : nous avons deux images ISO : un DVD 32 bits et un DVD 64 bits.
-                    Chacun faisant environ 2&nbsp;Gio.</p>
-                <p>Ci-dessous vous trouverez la liste des serveurs actuellement répertoriés comme miroir de Mageia :</p>
+                <h2>Vous voulez toujours télécharger l&rsquo;alpha 2 de Mageia ?</h2>
+                <p>Nous avons trois (3) images ISO&nbsp;:
+                    un DVD 32&nbsp;bits et un DVD 64&nbsp;bits (environ 4&nbsp;Go)
+                    et un CD dual arch (environ 700&nbsp;Mo).</p>
+                <p>Ci-dessous vous trouverez la liste des serveurs actuellement répertoriés comme miroir de Mageia&nbsp;:</p>
                 <ol>
-                    <li>choisir le serveur qui vous convient le mieux (de préférence dans votre pays) ;</li>
-                    <li>choisir l'image ISO qui vous convient le mieux (les noms devraient êtres assez évidents).</li>
+                    <li>choisir le serveur qui vous convient le mieux (de préférence dans votre pays)&nbsp;;</li>
+                    <li>choisir l&rsquo;image ISO qui vous convient le mieux (les noms devraient êtres assez évidents).</li>
                 </ol>
                 <?php include '../../mirrors.php'; ?>
             </div></div>
             <div class="yui-g">
                 <div class="yui-u first"><div class="para" style="padding-right: 0;">
-                    <h2>A propos de cette version</h2>
-                    <p>C'est notre premiere ISO, réalisée depuis notre propre <em>build-system</em>.
-                        Publier cette image maintenant est le meilleur moyen de le tester et de voir ce qu'il reste à améliorer dans les prochaines semaines.</p>
+                    <h2>À propos de cette Alpha 2</h2>
+                    <p>Les principales avancées depuis l&rsquo;Alpha 1&nbsp;:</p>
+                    <ul>
+                        <li>environ 1800 paquets logiciels en plus&nbsp;!</li>
+                        <li>LibreOffice, KDE 4.6.1 et Mozilla Firefox 4 RC1&nbsp;;</li>
+                        <li>encore pas mal de nettoyage&nbsp;;</li>
+                        <li>quelques améliorations des thèmes graphiques.</li>
+                    </ul>
                     
                     <ul>
                         <li><a href="http://blog.mageia.org/?p=492" hreflang="en">Annonce sur le blog</a></li>
-                        <li><a href="/wiki/doku.php?id=iso1:alpha1_release_notes" hreflang="en">Notes de version</a></li>
-                        <li><a href="/wiki/doku.php?id=iso1:alpha1_errata" hreflang="en">Errata</a></li>
-                        <li><a href="/fr/">Qu'est ce que Mageia ?</a></li>
+                        <li><a href="/wiki/doku.php?id=iso1:alpha2_release_notes" hreflang="en">Notes de version</a></li>
+                        <li><a href="/wiki/doku.php?id=iso1:alpha2_errata" hreflang="en">Errata</a></li>
+                        <li><a href="/fr/">Qu&rsquo;est ce que Mageia ?</a></li>
                     </ul>
-                    <p>L'alpha 2 sera diffusée le 15 mars.</p>
-                    <p>Vous pouvez vérifier notre <a href="http://mageia.org/wiki/doku.php?id=iso_1_specifications#expected_milestones">calendrier pour Mageia 1</a>.</p>
-                    
-                    
+                    <p>La Beta 1 sera diffusée le 5 avril.</p>
+                    <p>Vous pouvez consulter notre <a href="http://mageia.org/wiki/doku.php?id=iso_1_specifications#expected_milestones">calendrier pour Mageia 1</a>.</p>
+
                 </div></div>
                 <div class="yui-u"><div class="para">
-                    <h2>Vous pouvez aider !</h2>
-                    <p>Oui ! Cette version est toujours grossière, et ainsi sera la suivante, mais en bien mieux !</p>
-                    <p>Il y a beaucoup de choses que l'on peut faire pour contribuer à Mageia :
+                    <h2>Vous pouvez aider&nbsp;!</h2>
+                    <p>Oui&nbsp;! Cette version est toujours grossière et la suivante sera </p>
+                    <p>Il y a beaucoup de choses que l&rsquo;on peut faire pour contribuer à Mageia&nbsp;:
                         développer, packager, tester, traduire, remonter et fixer des bugs, et <a href="http://mageia.org/wiki/">bien plus encore</a> !</p>
-                    <p><a href="http://mageia.org/wiki/doku.php?id=contribute">Voir comment vous pouvez rejoindre l'aventure</a></p>
+                    <p><a href="http://mageia.org/wiki/doku.php?id=contribute">Voir comment vous pouvez rejoindre l&rsquo;aventure</a></p>
 
                 </div>
                 <div class="para">
@@ -71,11 +79,14 @@
                 </div></div>
             </div>
             <div class="para" style="color: #999;">
-                <p>Oui, c'est une page de téléchargement un peu rude, pour le moment. Mais elle est bien dans le sens où elle pourrait rebuter les personnes qui ne sont pas développeurs ou packageurs.
-                    Avons-nous dit que nous invitions les gens à contribuer dans nos
-                    <a href="http://www.mageia.org/wiki/doku.php?id=web">équipes Web</a> et <a href="http://www.mageia.org/wiki/doku.php?id=sysadmin">Sysadmim</a> ?
-                    Il y a <a href="http://www.mageia.org/wiki/doku.php?#teams">aussi d'autres équipes très sympathiques</a> dans le projet.</p>
-
+                <p>Vous trouvez cette page (et ce site) un peu spartiate&nbsp;?
+                    Vous pouvez nous aider à la rendre plus attractive et efficace,
+                    pour la publication de la version stable en juin prochain,
+                    en rejoignant nos
+                    <a href="http://www.mageia.org/wiki/doku.php?id=web">équipes Web</a>
+                    et <a href="http://www.mageia.org/wiki/doku.php?id=sysadmin">Sysadmim</a>.
+                    Il y a <a href="http://www.mageia.org/wiki/doku.php?#teams">aussi d&rsquo;autres
+                    équipes très sympathiques</a> dans le projet.</p>
             </div>
         </div>
     </div>
