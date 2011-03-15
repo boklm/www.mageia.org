@@ -64,8 +64,8 @@
                 </div></div>
                 <div class="yui-u"><div class="para">
                     <h2>Vous pouvez aider&nbsp;!</h2>
-                    <p>Oui&nbsp;! Cette version est toujours grossière et la suivante sera </p>
-                    <p>Il y a beaucoup de choses que l&rsquo;on peut faire pour contribuer à Mageia&nbsp;:
+                    <p>Et oui&nbsp;! Cette version est encore un peu grossière.
+                        Il y a beaucoup de choses que l&rsquo;on peut faire pour contribuer à Mageia&nbsp;:
                         développer, packager, tester, traduire, remonter et fixer des bugs, et <a href="http://mageia.org/wiki/">bien plus encore</a> !</p>
                     <p><a href="http://mageia.org/wiki/doku.php?id=contribute">Voir comment vous pouvez rejoindre l&rsquo;aventure</a></p>
 
