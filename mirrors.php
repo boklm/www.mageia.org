@@ -40,7 +40,7 @@ $mirrors = array(
     ),
     'Nouvelle Calédonie' => array(
         'Nouméa' => array(
-            'http://mageia.nautile.nc/mageia/distrib/'
+            'http://mageia.nautile.nc/mageia/'
         )
     ),
     'USA' => array(
@@ -79,7 +79,7 @@ foreach ($mirrors as $country => $cities):
             $pu = parse_url($url);
             $s_mirrors .= sprintf('<td>%s</td><td><a href="%s%s">%s</a></td></tr>',
                 strtoupper($pu['scheme']),
-                $url, 'iso/', $pu['host']);
+                $url, 'iso/cauldron/', $pu['host']);
         endforeach;
         $s_cities .= sprintf('<td class="city" rowspan="%d">%s</td>',
             count($servers), $city) . $s_mirrors;
