@@ -17,11 +17,11 @@
         <div id="hd" role="banner"><h1>Mageia <span>| Télécharger la version Alpha</span></h1></div>
         <div id="bd" role="main">
             <div class="yui-g">
-                <div class="para" style="color: #f22; text-align: center;">
-                    <h2 style="font-weight: bold;">Attention&nbsp;! Alpha == Logiciel Instable&nbsp;!</h2>
-                    <p>Ce logiciel n&rsquo;est PAS prévu pour un usage quotidien,
-                        une évaluation publique ou un environnement de production.</p>
-                    <p>Ce logiciel est prévu pour des TESTS, par des développeurs ou empaqueteurs.</p>
+                <div class="para" style="color: #f22;">
+                    <p>Attention&nbsp;! Alpha == Logiciel Instable&nbsp;!<br />
+                        Ce logiciel n&rsquo;est PAS prévu pour un usage quotidien,
+                        une évaluation publique ou un environnement de production.<br />
+                        Ce logiciel est prévu pour des TESTS, par des développeurs ou empaqueteurs.</p>
                 </div>
             </div>
             <div class="yui-g"><div class="para">
@@ -30,8 +30,6 @@
                 <p>Si vous êtes à la recherche d&rsquo;un système Linux stable, il conviendrait
                      d&rsquo;attendre les prochaines versions de Mageia.</p>
 
-                <p style="font-weight: bold; color: #f22">Encore une fois, merci DE NE PAS télécharger et installer cette version si vous n&rsquo;êtes pas certain que vous comprenez ce qu&rsquo;est cette ISO et ce qu&rsquo;elle n&rsquo;est pas.</p>
-                
                 <h2>Vous voulez toujours télécharger l&rsquo;alpha 2 de Mageia ?</h2>
                 <p>Nous avons trois (3) images ISO&nbsp;:
                     un DVD 32&nbsp;bits et un DVD 64&nbsp;bits (environ 4&nbsp;Go)

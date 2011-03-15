@@ -17,15 +17,14 @@
         <div id="hd" role="banner"><h1>Mageia <span>| 下載 Alpha 版</span></h1></div>
         <div id="bd" role="main">
             <div class="yui-g">
-                <div class="para" style="color: #f22; text-align: center;">
-                    <h2 style="font-weight: bold;">小心! 所謂的 Alpha 版就是不穩定版本!</h2>
-                    <p>所以這個版本不適用於：日常使用；公開檢視；個人或產品的評鑑。</p>
-                    <p>這個版本的用途為：開發者與套件之測試。</p>
+                <div class="para" style="color: #f22;">
+                    <p>小心! 所謂的 Alpha 版就是不穩定版本!<br />
+                        所以這個版本不適用於：日常使用；公開檢視；個人或產品的評鑑。<br />
+                        這個版本的用途為：開發者與套件之測試。</p>
                 </div>
             </div>
             <div class="yui-g"><div class="para">
                 <p>您將要用這個光碟映像檔來做的事情必須由您自己負責承擔風險。 如果您想要尋找一個穩定的 Linux 系統，您可以等待 Mageia 之後發布的版本。</p>
-                <p style="font-weight: bold; color: #f22">再次重申，如果您不確定您了解這個光碟的用途，請不要下載或安裝它。</p>
 
                 <h2>您仍然想要下載 Mageia Alpha 2 測試版本?</h2>
                 <p>好吧。首先，我們有三個 ISO 映像檔: 一個 32 位元 DVD，一個 64 位元 DVD（兩者都約 4GB），還有一個兩種架構都支援的 CD（約 700MB）。</p>

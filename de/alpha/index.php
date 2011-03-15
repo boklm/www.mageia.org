@@ -17,10 +17,10 @@
         <div id="hd" role="banner"><h1>Mageia <span>| Alpha Download-Seite</span></h1>
         <div id="bd" role="main">
             <div class="yui-g">
-                <div class="para" style="color: #f22; text-align: center;">
-                    <h2 style="font-weight: bold;">Vorsicht! Alpha == keine stabile Software!</h2>
-                    <p>Diese Version ist NICHT F&Uuml;R folgende Zwecke: Benutzung, Testberichte, pers&ouml;nliche oder produktive Auswertung.</p>                                      
-                    <p>Diese Version ist F&Uuml;R: folgende Zwecke: Tests durch Entwickler und Paketbauer.</p>
+                <div class="para" style="color: #f22;">
+                    <p>Vorsicht! Alpha == keine stabile Software!<br />
+                        Diese Version ist NICHT F&Uuml;R folgende Zwecke: Benutzung, Testberichte, pers&ouml;nliche oder produktive Auswertung.<br />
+                        Diese Version ist F&Uuml;R: folgende Zwecke: Tests durch Entwickler und Paketbauer.</p>
                 </div>
             </div>
             <div class="yui-g"><div class="para">
@@ -29,15 +29,10 @@
                     Wenn Sie auf der Suche nach einem stabilen Linuxsystem sind, sollten
                     Sie auf eine sp&auml;tere Ver&ouml;ffentlichung von Mageia warten.</p>
 
-                <p style="font-weight: bold; color: #f22">Nochmals: Bitte LADEN SIE diese
-                    Ver&ouml;ffentlichung NICHT herunter und/oder INSTALLIEREN SIE sie NICHT,
-                    wenn Sie sich nicht sicher sind, dass Sie genau verstehen, um was es sich
-                    bei dieser ISO handelt und um was nicht!</p>
-                
                 <h2>Sie wollen Mageia-Alpha2 also immer noch herunterladen?</h2>
                 <p>Na gut. Zuerst die Vorstellung: Wir bieten drei ISO-Abbilder an: eine
                     32bit-DVD, eine 64bit-DVD (etwa 4&nbsp;GB)und eine DualArch-CD f&uuml;r beide Architekturen 
-		    (ca. 700&nbsp;MB).</p>
+                    (ca. 700&nbsp;MB).</p>
                 <p>Unten finden Sie eine Liste von Servern, die zur Zeit Mageia-Software
                     spiegeln:</p>
                 <ol>

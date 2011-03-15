@@ -17,10 +17,10 @@
         <div id="hd" role="banner"><h1>Mageia <span>| Alpha Downloads</span></h1></div>
         <div id="bd" role="main">
             <div class="yui-g">
-                <div class="para" style="color: #f22; text-align: center;">
-                    <h2 style="font-weight: bold;">Be Careful! Alpha == Unstable Software!</h2>
-                    <p>This is NOT FOR: use, public review, personal or production evaluation.</p>
-                    <p>This is FOR: developers and packagers testing.</p>
+                <div class="para" style="color: #f22;">
+                    <p>Be Careful! Alpha == Unstable Software!<br />
+                        This is NOT FOR: use, public review, personal or production evaluation.<br />
+                        This is FOR: developers and packagers testing.</p>
                 </div>
             </div>
             <div class="yui-g"><div class="para">
@@ -29,10 +29,6 @@
                     If you are looking for a stable Linux system, you may prefer to wait
                     for later releases of Mageia.</p>
 
-                <p style="font-weight: bold; color: #f22">Again, please DO NOT
-                    download it and/or install it if you are not certain
-                    that you understand what this ISO is and what it is not.</p>
-                
                 <h2>You still want to download Mageia Alpha 2?</h2>
                 <p>Ok. So first, presentations: we have three (3) ISO images: a 32bit DVD, a 64bit DVD
                     (about 4&nbsp;GB) and a dual arch CD (about 700&nbsp;MB).</p>
