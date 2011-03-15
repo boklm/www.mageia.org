@@ -3,8 +3,8 @@
 <html dir="ltr" lang="zh-tw">
 <head>
     <meta charset="utf-8" />
-    <title>Télécharger la version alpha (non stable) de Mageia</title>
-    <meta name="description" content="Page de téléchargement de la première version alpha technique de Mageia" />
+    <title>Download Mageia alpha (unstable) releases</title>
+    <meta name="description" content="Download page for Mageia first technical alpha" />
     <meta name="keywords" content="mageia, alpha, unstable, iso, download, test, not for production" />
     <meta name="author" content="Mageia" />
     <link rel="stylesheet" type="text/css" href="/g/style/all.css" >
@@ -27,8 +27,8 @@
                 <p>您將要用這個光碟映像檔來做的事情必須由您自己負責承擔風險。 如果您想要尋找一個穩定的 Linux 系統，您可以等待 Mageia 之後發布的版本。</p>
                 <p style="font-weight: bold; color: #f22">再次重申，如果您不確定您了解這個光碟的用途，請不要下載或安裝它。</p>
 
-                <h2>您仍然想要下載 Mageia Alpha 測試版本?</h2>
-                <p>好吧。首先，我們有兩個 ISO 映像檔: 一個 32 位元 DVD 和一個 64 位元 DVD。 各大約有 2 GiB</p>
+                <h2>您仍然想要下載 Mageia Alpha 2 測試版本?</h2>
+                <p>好吧。首先，我們有三個 ISO 映像檔: 一個 32 位元 DVD，一個 64 位元 DVD（兩者都約 4GB），還有一個兩種架構都支援的 CD（約 700MB）。</p>
                 <p>以下您將看到目前提供 Mageia 軟體鏡像服務的伺服器列表:</p>
                 <ol>
                     <li>選擇最適合您的伺服器 (最好是在您的國家);</li>
@@ -38,18 +38,24 @@
             </div></div>
             <div class="yui-g">
                 <div class="yui-u first"><div class="para" style="padding-right: 0;">
-                    <h2>關於這個釋出版本</h2>
-                    <p>
-                        這是我們第一個 ISO, 由我們自己的編譯系統產生。 現在發布將有助於測試它並了解接下來數週還有些甚麼需要加強改進的。
-                    </p>
+                    <h2>關於這一版 Alpha2 釋出版本</h2>
+                    <p>從 Alpha1 到 Alpha2 的主要變更包括：</p>
                     <ul>
-                        <li><a href="http://blog.mageia.org/?p=492" hreflang="en">網誌文章</a></li>
-                        <li><a href="/wiki/doku.php?id=iso1:alpha1_release_notes" hreflang="en">發布通告</a></li>
-                        <li><a href="/wiki/doku.php?id=iso1:alpha1_errata" hreflang="en">勘誤表</a></li>
-                        <li><a href="/en/">Mageia 是什麼?</a></li>
+                        <li>總共變成一千八百多個套件！</li>
+                        <li>LibreOffice</li>
+                        <li>KDE 4.6.1</li>
+                        <li>Mozilla FireFox 4 RC1</li>
+                        <li>整體整理過，讓系統變乾淨一點<li>
+                        <li>使用者介面整理過</li>
                     </ul>
-                    <p>Alpha 2 預定在三月 15 日發布。</p>
-
+                    <p>另外請參考：</p>
+                    <ul>
+                        <li><a href="/wiki/doku.php?id=iso1:alpha2_release_notes" hreflang="en">發布通告</a></li>
+                        <li><a href="/wiki/doku.php?id=iso1:errata" hreflang="en">勘誤表</a></li>
+                        <li><a href="http://blog.mageia.org/?p=492" hreflang="en">網誌文章</a></li>
+                        <li><a href="/zh-tw/">Mageia 是什麼?</a></li>
+                    </ul>
+                    <p>Beta 1 預定在 4 月 5 日發布。</p>
                     <p>您可以看看我們的 <a href="http://mageia.org/wiki/doku.php?id=iso_1_specifications#expected_milestones">Mageia 1 進度規劃</a>。</p>
                 </div></div>
                 <div class="yui-u"><div class="para">
@@ -60,7 +66,7 @@
                 </div>
                 <div class="para">
                     <h3>捐款！</h3>
-                    <p>是的！<a href="/en/donate/">您也可以捐款！</a></p>
+                    <p>是的！<a href="/zw-tw/donate/">您也可以捐款！</a></p>
                     <p>Mageia 完全仰賴來自社群的參與，無論是時間、技術、或資金!</p>
                 </div></div>
             </div>

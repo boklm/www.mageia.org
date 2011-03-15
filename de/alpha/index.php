@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <title>Download der Mageia Alpha-Releases (Testversionen)</title>
-    <meta name="description" content="Download-Seite f&uuml;r Mageias erste Alpha-Version" />
+    <meta name="description" content="Download-Seite f&uuml;r Mageias Alpha-Version" />
     <meta name="keywords" content="mageia, alpha, unstable, iso, download, herunterladen, test, nicht produktiv" />
     <meta name="author" content="Mageia" />
     <link rel="stylesheet" type="text/css" href="/g/style/all.css" >
@@ -36,8 +36,8 @@
                 
                 <h2>Sie wollen Mageia-Alpha2 also immer noch herunterladen?</h2>
                 <p>Na gut. Zuerst die Vorstellung: Wir bieten drei ISO-Abbilder an: eine
-                    32bit-DVD, eine 64bit-DVD und eine DVD f&uuml;r beide Architekturen.
-                    Jede ist etwa 3&nbsp;GiB gro&szlig;.</p>
+                    32bit-DVD, eine 64bit-DVD (etwa 4&nbsp;GB)und eine DualArch-CD f&uuml;r beide Architekturen 
+		    (ca. 700&nbsp;MB).</p>
                 <p>Unten finden Sie eine Liste von Servern, die zur Zeit Mageia-Software
                     spiegeln:</p>
                 <ol>
@@ -50,22 +50,23 @@
             </div></div>
             <div class="yui-g">
                 <div class="yui-u first"><div class="para" style="padding-right: 0;">
-                    <h2>&Uuml;ber diese Version</h2>
-                    <p>Most notable changes since Alpha 1:</p>
+                    <h2>&Uuml;ber diese Alpha2-Version</h2>
+                    <p>Die wesentlichen Änderungen gegenüber der Alpha 1:</p>
                     <ul>
-                        <li>About 1800 more packages!</li>
+                        <li>Etwa 1800 Pakete mehr!</li>
                         <li>LibreOffice</li>
                         <li>KDE 4.6.1</li>
                         <li>Mozilla Firefox 4 RC1</li>
-                        <li>Lots of cleaning</li>
-                        <li>UI cleanups</li>
+                        <li>Weitere Säuberungen in den Paketen</li>
+                        <li>Säuberungen der Oberfläche</li>
                     </ul>
+		    <p>Weitere Informationen:</p>
                     <ul>
                         <li><a href="/wiki/doku.php?id=iso1:alpha2_release_notes" hreflang="en">Release-Notes</a></li>
-                        <li><a href="/wiki/doku.php?id=iso1:alpha2_errata" hreflang="en">Errata</a></li>
+                        <li><a href="/wiki/doku.php?id=iso1:errata" hreflang="en">Errata</a></li>
                         <li><a href="/de/">Was ist Mageia?</a></li>
                     </ul>
-                    <p>Alpha2 wird am 15. M&auml;rz ver&ouml;ffentlicht<sup>th</sup>.</p>
+                    <p>Die Beta 1 wird am 5. April erscheinen.</p>
                     <p>Sie k&ouml;nnen unsere weitere <a href="http://mageia.org/wiki/doku.php?id=iso_1_specifications#expected_milestones">Roadmap f&uuml;r Mageia 1</a> ansehen.</p>
                     
                     
@@ -83,7 +84,7 @@
                 </div>
                 <div class="para">
                     <h3>Spenden Sie!</h3>
-                    <p>Ja! <a href="/en/donate/">Sie k&ouml;nnen auch spenden!</a></p>
+                    <p>Ja! <a href="/de/donate/">Sie k&ouml;nnen auch spenden!</a></p>
                     <p>Mageia kann sich nur auf die Hilfe seiner eigenen Community verlassen,
                         sei dies in Bezug auf Zeit, F&auml;higkeiten und auch Geld!</p>
                 </div></div>
