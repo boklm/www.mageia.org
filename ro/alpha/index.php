@@ -3,7 +3,7 @@
 <html dir="ltr" lang="ro">
 <head>
     <meta charset="utf-8" />
-    <title>Download Mageia alpha (unstable) releases</title>
+    <title>Descărcați versiunile Mageia alfa (instabile)</title>
     <meta name="description" content="Page de téléchargement de la première version alpha technique de Mageia" />
     <meta name="keywords" content="mageia, alpha, unstable, iso, download, test, not for production" />
     <meta name="author" content="Mageia" />
@@ -17,10 +17,10 @@
         <div id="hd" role="banner"><h1>Mageia <span>| Descărcați versiunea Alfa</span></h1></div>
         <div id="bd" role="main">
             <div class="yui-g">
-                <div class="para" style="color: #f22; text-align: center;">
-                    <h2 style="font-weight: bold;">Atenție! Alfa == Aplicații instabile!</h2>
-                    <p>Această versiune NU ESTE PENTRU: utilizare, recenzii, evaluare personală sau în producție.</p>
-                    <p>Această versiune este PENTRU: dezvoltatori și testarea pachetelor.</p>
+                <div class="para" style="color: #f22;">
+                    <p>Atenție! Alfa == Aplicații instabile!<br>
+                        Această versiune NU ESTE PENTRU: utilizare, recenzii, evaluare personală sau în producție.<br>
+                        Această versiune este PENTRU: dezvoltatori și testarea pachetelor.</p>
                 </div>
             </div>
             <div class="yui-g"><div class="para">
@@ -29,13 +29,9 @@
                     Dacă doriți un sistem Linux stabil, ar fi de preferat să așteptați
                     versiunile ulterioare de Mageia.</p>
 
-                <p style="font-weight: bold; color: rgb(255, 34, 34);">Încă odată, vă rugăm
-                    SĂ NU descărcați și/sau instalați dacă nu sînteți sigur că 
-                    înțelegeți ceea ce este acest ISO și ceea ce nu este.</p>
-                
-                <h2>Sigur doriți să descărcați versiunea Mageia Factory Alfa?</h2>
-                <p>Bine. Pentru început să facem prezentările: avem două imagini ISO, un DVD pe 32 de biți și unul pe 64 de biți.
-                    Fiecare are în jur de 2&nbsp;GiB.</p>
+                <h2>Sigur doriți să descărcați versiunea Mageia Alfa 2?</h2>
+                <p>Bine. Pentru început să facem prezentările: avem trei imagini (3) ISO, un DVD pe 32 de biți, unul pe 64 de biți
+                    (în jur de 4&nbsp;Go) șu un CD cu arhitectură duală (în jur de 700&nbsp;Mo).</p>
                 <p>Mai jos veți găsi lista serverelor alternative care găzduiesc aplicațiile Mageia:</p>
                 <ol>
                     <li>alegeți serverul care vă avantajează (de preferință în țara de rezidență);</li>
@@ -45,19 +41,28 @@
             </div></div>
             <div class="yui-g">
                 <div class="yui-u first"><div class="para" style="padding-right: 0;">
-                    <h2>Despre această ediție</h2>
-                    <p>Acesta este primul nostru ISO, realizat cu propriul sistem de clădit.
-                        Publicarea acestei imagini acum este cea mai bună metodă de
-                        test pentru a vedea ce trebuie ameliorat în săptămînile următoare.</p>
-                    
+
+                    <h2>Despre această ediție Alfa 2</h2>
+                    <p>Cele mai importante schimbări de la Alfa 1:</p>
                     <ul>
-                        <li><a href="http://blog.mageia.org/ro/?p=323" hreflang="en">Anunțul pe blog</a></li>
-                        <li><a href="http://mageia.org/wiki/doku.php?id=iso1:alpha1_release_notes" hreflang="en">Nota ediției</a></li>
-                        <li><a href="http://mageia.org/wiki/doku.php?id=iso1:alpha1_errata" hreflang="en">Erată</a></li>
-                        <li><a href="http://mageia.org/en/">Ce este Mageia?</a></li>
+                        <li>Mai mult de 1800 de pachete!</li>
+                        <li>LibreOffice</li>
+                        <li>KDE 4.6.1</li>
+                        <li>Mozilla Firefox 4 RC1</li>
+                        <li>Multă curățenie</li>
+                        <li>Cîteva ameliorări ale tematicilor grafice</li>
                     </ul>
-                    <p>Alfa 2 va fi publicată pe 15 martie.</p>
-                    <p>Puteți consulta <a href="http://mageia.org/wiki/doku.php?id=iso_1_specifications#expected_milestones">foaia de parcurs pentru Mageia 1</a>.</p>
+                    
+                    <p>Mai puteți vizita:</p>
+                    <ul>
+                        <li><a href="http://www.mageia.org/wiki/doku.php?id=iso1:alpha2_release_notes" hreflang="en">Release Notes</a></li>
+                        <li><a href="http://www.mageia.org/wiki/doku.php?id=iso1:errata" hreflang="en">Errata</a></li>
+                        <li><a href="http://blog.mageia.org/en/2011/03/15/mageia-1-alpha-2-primavera-is-coming" hreflang="en">Blog post</a></li>
+                        <li><a href="http://www.mageia.org/ro/">What is Mageia?</a></li>
+                    </ul>
+                    <p>Beta 1 va fi publicată pe 5 aprilie.</p>
+                    <p>Puteți consulta <a href="http://mageia.org/wiki/doku.php?id=iso_1_specifications#expected_milestones">graficul de lansare pentru Mageia 1</a>.</p>
+
                 </div></div>
                 <div class="yui-u"><div class="para">
                     <h2>Ne puteți ajuta!</h2>
@@ -67,11 +72,11 @@
                         Mageia: dezvoltare, împachetare, testare, traducere,
                         raportare și corectare de erori, și <a href="http://mageia.org/wiki/">chiar mai mult</a>!</p>
                     <p><a href="http://mageia.org/wiki/doku.php?id=contribute">Vedeți
-                        cum vă puteți alătura distracției și contribui.</a></p>
+                        cum vă puteți alătura distracției și contribui</a>!</p>
                 </div>
                 <div class="para">
                     <h3>Donați!</h3>
-                    <p>Da! <a href="http://mageia.org/en/donate/">Chiar puteți dona!</a></p>
+                    <p>Da! <a href="http://www.mageia.org/ro/donate/">Chiar puteți dona!</a></p>
                     <p>Mageia depinde de implicarea propriei comunități,
                         fie că este vorba de timp, competențe, sau bani!</p>
                 </div></div>
