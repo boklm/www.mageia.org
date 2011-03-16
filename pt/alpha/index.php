@@ -3,7 +3,7 @@
 <html dir="ltr" lang="pt">
 <head>
     <meta charset="utf-8" />
-    <title>Télécharger la version alpha (non stable) de Mageia</title>
+    <title>Download da versão Alpha | Mageia</title>
     <meta name="description" content="Download page for Mageia first technical alpha">
     <meta name="keywords" content="mageia, alpha, unstable, iso, download, test, not for production">
     <meta name="author" content="Mageia">
@@ -14,13 +14,13 @@
     <?php include '../../langs.php'; ?>
     
     <div id="doc" class="yui-t7">
-        <div id="hd" role="banner"><h1>Mageia <span>| Download Alpha</span></h1></div>
+        <div id="hd" role="banner"><h1>Mageia <span>| Download da versão Alpha</span></h1></div>
         <div id="bd" role="main">
             <div class="yui-g">
-                <div class="para" style="color: #f22; text-align: center;">
-                    <h2 style="font-weight: bold;">Cuidado! Alpha == Software instável!</h2>
-                    <p>Isto NÃO É PARA: uso, opinião pública, avaliação pessoal ou de produção.</p>
-                    <p>isto É PARA: desenvolvedores e testadores de pacotes.</p>
+                <div class="para" style="color: #f22;">
+                    <p>Cuidado! Alpha == Software instável!<br />
+                        Isto NÃO É PARA: uso, opinião pública, avaliação pessoal ou de produção.
+                        isto É PARA: desenvolvedores e testadores de pacotes.</p>
                 </div>
             </div>
             <div class="yui-g"><div class="para">
@@ -28,14 +28,10 @@
                     Se você estiver procurando por um sistema Linux estável, você pode preferir esperar
                     por versões posteriores da Mageia.</p>
 
-                <p style="font-weight: bold; color: #f22">Novamente, por favor NÃO
-                    baixe e/ou instale esta versão se você não tiver certeza 
-                    que entende o que esta ISO é e o que não é.</p>
-                
-                <h2>Então, você ainda quer fazer o download da versão Alpha 1 da Mageia?</h2>
-                <p>Ok. Então, primeiro, as apresentações: nós temos duas imagens ISO: uma de 32bit DVD e uma de 64bit DVD.
-                    Cada uma com cerca de 2&nbsp;GiB.</p>
-                <p>Abaixo você irá encontrar a lista de servidores que espelham, atualmente, a Mageia:</p>
+                <h2>Então, você ainda quer fazer o download da versão Alpha 2 da Mageia?</h2>
+                <p>Ok. Então, primeiro, as apresentações: nós temos 3 (três) imagens ISO: um DVD de 32bit, um DVD de 64bit
+                    (cerca de 4&nbsp;GB) e um CD de dupla arquitetura (32 e 64 bits) (cerca de 700&nbsp;MB).</p>
+                <p>Abaixo você irá encontrar a lista de servidores que espelham, atualmente, o software da Mageia:</p>
                 <ol>
                     <li>escolha o servidor que é melhor para você (de preferência no seu próprio país);</li>
                     <li>escolha a ISO que é melhor para você (seus nomes devem ser auto-evidente, esperamos).</li>
@@ -44,21 +40,27 @@
             </div></div>
             <div class="yui-g">
                 <div class="yui-u first"><div class="para" style="padding-right: 0;">
-                    <h2>Sobre este lançamento</h2>
-                    <p>Esta é nossa primeira ISO, lançada do nosso build-system (sistema de compilação).
-                        Liberá-la agora é uma boa maneira de testá-la e ver o que precisaremos melhorar nas próximas semanas.</p>
-                    
+                    <h2>Sobre esta versão Alpha 2</h2>
+                    <p>As mudanças mais significativas desde a Alpha 1:</p>
                     <ul>
-                        <li><a href="http://blog.mageia.org/?p=492" hreflang="en">Post (de lançamento) no Blog</a></li>
-                        <li><a href="https://mageia.org/wiki/doku.php?id=iso1:alpha1_release_notes" hreflang="en">Notas de lançamento</a></li>
-                        <li><a href="https://mageia.org/wiki/doku.php?id=iso1:alpha1_errata" hreflang="en">Erratas</a></li>
-                        <li><a href="https://mageia.org/en/">O que é Mageia?</a></li>
+                        <li>Cerca de mais de 1800 pacotes!</li>
+                        <li>LibreOffice</li>
+                        <li>KDE 4.6.1</li>
+                        <li>Mozilla Firefox 4 RC1</li>
+                        <li>Muitas limpezas</li>
+                        <li>Limpeza da UI</li>
                     </ul>
-                    <p>Alpha 2 será lançada em 15 de Março.</p>
-                    <p>Você pode verificar nosso <a href="http://mageia.org/wiki/doku.php?id=iso_1_specifications#expected_milestones">roteiro para a Mageia 1</a>.</p>
+                    
+                    <p>See also:</p>
+                    <ul>
+                        <li><a href="http://www.mageia.org/wiki/doku.php?id=iso1:alpha2_release_notes" hreflang="en">Notas de lançamento</a></li>
+                        <li><a href="http://www.mageia.org/wiki/doku.php?id=iso1:errata" hreflang="en">Errata</a></li>
+                        <li><a href="http://blog.mageia.org/en/2011/03/15/mageia-1-alpha-2-primavera-is-coming" hreflang="en">Post (de lançamento) no Blog</a></li>
+                        <li><a href="http://www.mageia.org/en/">O que é Mageia?</a></li>
+                    </ul>
+                    <p>A Beta 1 será lançada em 5 de Abril.</p>
+                    <p>Veja nosso <a href="http://mageia.org/wiki/doku.php?id=iso_1_specifications#expected_milestones">roteiro para Mageia 1</a>.</p>
 
-                    
-                    
                 </div></div>
                 <div class="yui-u"><div class="para">
                     <h2>Você pode ajudar!</h2>
@@ -70,7 +72,7 @@
                 </div>
                 <div class="para">
                     <h3>Doe!</h3>
-                    <p>Sim! <a href="https://mageia.org/en/donate/">Você pode doar também</a></p>
+                    <p>Sim! <a href="https://mageia.org/pt/donate/">Você pode doar também</a></p>
                     <p>A Mageia só confia em seu próprio envolvimento com a comunidade,
                         seja de tempo, habilidades ou dinheiro!</p>
                 </div></div>
