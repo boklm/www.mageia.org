@@ -29,12 +29,12 @@
 			<h2>Financial Report</h2>
 			<h2>Miscellaneous</h2>
 			<ul>
-				<li>You can download this report as a PDF file</li>
-				<li>You can help Mageia by doing a donation</li>
-				<li>You can see the donators page</li>
+				<li>You can <a href="#" hreflang="en">download this report</a> as a PDF file.</li>
+				<li>You can help Mageia by <a href="/en/donate/" hreflang="en">doing a donation</a>.</li>
+				<li>You can see the <a href="/en/thank-you" hreflang="en">"thank you" page</a>.</li>
 			</ul>
 			<h2>Contact</h2>
-			Financial report published by <em>Damien Lallement</em> (Mageia Treasurer on the 2010 Fiscal Year). You can contact him by sending an email to <em>treasurer[at]mageia[dot]org</em>.<br/>Last updated: Wed Mar 16 14:15:33 CET 2011.
+			Financial report published by Damien Lallement (Mageia Treasurer on the 2010 Fiscal Year).<br/>You can contact him by sending an email to <em>treasurer[at]mageia[dot]org</em>.<br/>Last updated: Wed Mar 16 14:15:33 CET 2011.
                 </div>
             </div>
         </div>
