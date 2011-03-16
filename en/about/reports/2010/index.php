@@ -29,11 +29,12 @@
 			<h2>Financial Report</h2>
 			<h2>Miscellaneous</h2>
 			<ul>
-				<li>bla</li>
-				<li>bla</li>
-				<li>bla</li>
+				<li>You can download this report as a PDF file</li>
+				<li>You can help Mageia by doing a donation</li>
+				<li>You can see the donators page</li>
 			</ul>
 			<h2>Contact</h2>
+			Financial report published by <em>Damien Lallement</em> (Mageia Treasurer on the 2010 Fiscal Year). You can contact him by sending an email to <em>treasurer[at]mageia[dot]org</em>.<br/>Last updated: Wed Mar 16 14:15:33 CET 2011.
                 </div>
             </div>
         </div>
