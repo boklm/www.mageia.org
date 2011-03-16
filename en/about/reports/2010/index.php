@@ -18,8 +18,14 @@
         <div id="bd" role="main">
             <div class="yui-g">
                 <div class="para values">
-			<h2>Dashboard</h2>
-			<table><thead><tr><th>Amount collected</th><th>Donators number</th><th>Average donation</th><th>Amount spent</th><th>Amount remaining</th></tr></thead><tbody><tr><td>8 801.42&nbsp;&euro;</td><td>49</td><td>180&nbsp;&euro;</td><td>1 274.40&nbsp;&euro;</td><td>7 527.02&nbsp;&euro;</td></tr></tbody></table>
+			<h2>Summary</h2>
+			<ul>
+				<li>Amount collected: 8 801.42&nbsp;&euro;</li>
+				<li>Donators number: 49</li>
+				<li>Average donation: 180&nbsp;&euro;</li>
+				<li>Amount spent: 1 274.40&nbsp;&euro;</li>
+				<li>Amount remaining: 7 527.02&nbsp;&euro;</li>
+			</ul>
 			<h2>Financial Report</h2>
 			<h2>Miscellaneous</h2>
 			<ul>
