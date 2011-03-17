@@ -30,18 +30,22 @@
 			<table><thead><tr><th>Wording of the financial transaction</th><th>Income</th><th>Outgoing</th></tr></thead><tbody><tr>
 				<tr><td>Donations by Paypal/transfer/check/cash</td><td>EUR&nbsp;8 801.42</td><td>&nbsp;</td></tr>
 				<tr><td>Paypal test to validate bank account</td><td>EUR&nbsp;0.24</td><td>&nbsp;</td></tr>
-				<tr><td></td><td>&nbsp;</td><td>&euro;</td></tr>
-				<tr><td></td><td>&nbsp;</td><td>&euro;</td></tr></tbody></table>
+				<tr><td>HDD for servers</td><td>&nbsp;</td><td>EUR&nbsp;921.20</td></tr>
+				<tr><td>Gasoline for the car</td><td>&nbsp;</td><td>EUR&nbsp;63.00</td></tr>
+				<tr><td>Cables and other stuff for servers</td><td>&nbsp;</td><td>EUR&nbsp;17.50</td></tr>
+				<tr><td>Croissants for the <em>ielo</em> team</td><td>&nbsp;</td><td>EUR&nbsp;12.12</td></tr>	
+				<tr><td>TGV for going back to Paris (3 people)</td><td>&nbsp;</td><td>EUR&nbsp;128.88</td></tr>
+				</tbody></table>
 			<h2>Bank accounts situation</h2>
 			<ul>
                                 <li>Paypal (non-for-profit organisation account): EUR&nbsp;63.51</li>
                                 <li>Main account (with checkbook and no credit card): EUR&nbsp;1 310.24</li>
-				<li>Savings account (between 2% and 4% of interet): EUR&nbsp;4 000.00</li>
+				<li>Savings account (between 2% and 4% of interest): EUR&nbsp;4 000.00</li>
 				<li>AUFML account (part to be transfered to Mageia.Org): EUR&nbsp;2 153.28</li>
                         </ul>
 			<h2>Miscellaneous</h2>
 			<ul>
-				<li>Donations are mixed for 2010 as at the beginning they were managed by AUFML. So we had a total bank transfert with all donations.</li>
+				<li>Donations are mixed as at the beginning they were managed by AUFML. We had a bank transfert with all donations.</li>
 				<li>You can <a href="#" hreflang="en">download this report</a> as a PDF file.</li>
 				<li>You can help Mageia by <a href="/en/donate/" hreflang="en">doing a donation</a>.</li>
 				<li>You can see the <a href="/en/thank-you" hreflang="en">"thank you" page</a>.</li>
