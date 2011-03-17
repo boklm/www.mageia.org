@@ -17,10 +17,11 @@
         <div id="hd" role="banner"><h1>Mageia <span>| Alfaväljalaske allalaadimine</span></h1></div>
         <div id="bd" role="main">
             <div class="yui-g">
-                <div class="para" style="color: #f22; text-align: center;">
-                    <h2 style="font-weight: bold;">Ettevaatust! Alfa == ebastabiilne tarkvara!</h2> 
-                    <p>See EI OLE mõeldud: igapäevakasutamiseks, avalikuks tarbimiseks või hindamiseks, eraviisiliselt või ettevõtetes põhitarkvarana.</p> 
-                    <p>See ON mõeldud: arendajatele ja pakendajatele testimiseks.</p> 
+                <div class="para" style="color: #f22;">
+                    <p>Ettevaatust! Alfa == ebastabiilne tarkvara!<br />
+                        See EI OLE mõeldud: igapäevakasutamiseks, avalikuks tarbimiseks
+                        või hindamiseks, eraviisiliselt või ettevõtetes põhitarkvarana.<br />
+                        See ON mõeldud: arendajatele ja pakendajatele testimiseks.</p> 
                 </div>
             </div>
             <div class="yui-g"><div class="para">
@@ -29,37 +30,37 @@
                     Kui otsite stabiilset Linuxi süsteemi,
                     tasuks ära oodata Mageia hilisem väljalase.</p> 
 
-                <p style="font-weight: bold; color: #f22">Veel kord: palume MITTE
-                    seda alla laadida ja/või paigaldada, kui te ei ole kindel,
-                    et mõistate, milleks see ISO-tõmmis on mõeldud ja milleks mitte.</p>
-                
-                <h2>Kas soovite kõigest hoolimata Mageia alfaväljalaset alla laadida?</h2> 
-                <p>Olgu siis. Esiteks tuleb arvestada, et me pakume kaht ISO-tõmmist: 32-bitine DVD ja 64-bitine DVD.
-                    Mõlema suuruseks on umbes 2&nbsp;GiB.</p> 
+                <h2>Kas soovite kõigest hoolimata Mageia teist alfaväljalaset alla laadida?</h2>
+                <p>Olgu siis. Esiteks tuleb arvestada, et me pakume kolme ISO-tõmmist: 32-bitine DVD, 64-bitine DVD (umbes 4&nbsp;GB) ja kahearhitektuurne CD (umbes 700&nbsp;MB).</p>
                 <p>Allpool näete servereid, mis praegu pakuvad Mageia tarkvara:</p>
-                <ol> 
-                    <li>valige kõige paremini sobiv server (eelistatavalt muidugi oma kodumaal);</li> 
-                    <li>valige kõige paremini sobiv ISO-tõmmis (nimed peaksid olema enesestmõistetavad, me vähemalt loodame).</li> 
+                <ol>
+                    <li>valige kõige paremini sobiv server (eelistatavalt muidugi oma kodumaal);</li>
+                    <li>valige kõige paremini sobiv ISO-tõmmis (nimed peaksid olema enesestmõistetavad, me vähemalt loodame).</li>
                 </ol>
                 <?php include '../../mirrors.php'; ?>
             </div></div>
             <div class="yui-g">
                 <div class="yui-u first"><div class="para" style="padding-right: 0;">
-                    <h2>Väljalaskest</h2> 
-                    <p>See on meie esimene ISO-tõmmis, mis on valmistatud meie enda ehitamissüsteemis.
-                        Väljalase pakub head võimalust seda testida ning välja selgitada,
-                        mida juba lähinädalatel on selle juures võimalik paremaks muuta.</p> 
-                    
-                    <ul> 
-                        <li><a href="http://blog.mageia.org/en/?p=492" hreflang="en">Ajaveebi sissekanne</a></li> 
-                        <li><a href="http://www.mageia.org/wiki/doku.php?id=iso1:alpha1_release_notes" hreflang="en">Väljalaskemärkmed</a></li> 
-                        <li><a href="http://www.mageia.org/wiki/doku.php?id=iso1:alpha1_errata" hreflang="en">Võimalikud vead</a></li> 
-                        <li><a href="http://www.mageia.org/et/">Mis on Mageia?</a></li> 
-                    </ul> 
-                    <p>Alpha 2 ilmub 15. märtsil.</p> 
+                    <h2>Alpha 2 väljalaskest</h2>
+                    <p>Tähtsamad muudatused võrreldes Alpha 1-ga:</p>
+                    <ul>
+                        <li>Ligikaudu 1800 uut tarkvarapaketti!</li>
+                        <li>LibreOffice</li>
+                        <li>KDE 4.6.1</li>
+                        <li>Mozilla Firefox 4 RC1</li>
+                        <li>Palju sisemist puhastust</li>
+                        <li>Kasutajaliidese silumine</li>
+                    </ul>
+                    <p>Vaadake ka:</p>
+                    <ul>
+                        <li><a href="/wiki/doku.php?id=iso1:alpha2_release_notes" hreflang="en">Väljalaskemärkmed</a></li>
+                        <li><a href="/wiki/doku.php?id=mageia1:errata" hreflang="en">Võimalikud vead</a></li>
+                        <li><a href="http://blog.mageia.org/?p=492" hreflang="en">Ajaveebi sissekanne</a></li>
+                        <li><a href="http://www.mageia.org/et/">Mis on Mageia?</a></li>
+                    </ul>
+                    <p>Beta 1 ilmub 5. aprillil.</p>
                     <p>Siin saab näha meie <a href="http://mageia.org/wiki/doku.php?id=iso_1_specifications#expected_milestones">Mageia 1 ajakava</a>.</p>
-                    
-                    
+
                 </div></div>
                 <div class="yui-u"><div class="para">
                     <h2>Ka teie saate abistada!</h2> 
@@ -80,7 +81,7 @@
                 </div></div>
             </div>
             <div class="para" style="color: #999;">
-		<p>Jah, see on esialgu veel üsna rohmakas allalaadimislehekülg. Ent sellel on ka oma pluss:
+                <p>Jah, see on esialgu veel üsna rohmakas allalaadimislehekülg. Ent sellel on ka oma pluss:
                     see muudab alfaväljalaske allalaadimise mittearendajatele veidi vähem külgetõmbavaks.
                     Ahjaa, kas me ütlesime juba, et ootame pikisilmi inimesi, kes võiksid anda oma panuse meie
                     <a href="http://www.mageia.org/wiki/doku.php?id=web">veebi</a>- ja <a href="http://www.mageia.org/wiki/doku.php?id=sysadmin">süsteemihaldurite meeskonnas</a>?
