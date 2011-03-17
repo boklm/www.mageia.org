@@ -54,7 +54,7 @@
                     <p>Zie ook:</p>
                     <ul>
                         <li><a href="/wiki/doku.php?id=iso1:alpha2_release_notes" hreflang="en">Release opmerkingen</a></li>
-                        <li><a href="/wiki/doku.php?id=iso1:errata" hreflang="en">Errata</a></li>
+                        <li><a href="/wiki/doku.php?id=mageia1:errata" hreflang="en">Errata</a></li>
                         <li><a href="http://blog.mageia.org/en/2011/03/15/mageia-1-alpha-2-primavera-is-coming" hreflang="en">Blog-bericht</a></li>
                         <li><a href="/nl/">Wat is Mageia?</a></li>
                     </ul>

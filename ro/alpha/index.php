@@ -56,7 +56,7 @@
                     <p>Mai puteți vizita:</p>
                     <ul>
                         <li><a href="http://www.mageia.org/wiki/doku.php?id=iso1:alpha2_release_notes" hreflang="en">Release Notes</a></li>
-                        <li><a href="http://www.mageia.org/wiki/doku.php?id=iso1:errata" hreflang="en">Errata</a></li>
+                        <li><a href="http://www.mageia.org/wiki/doku.php?id=mageia1:errata" hreflang="en">Errata</a></li>
                         <li><a href="http://blog.mageia.org/en/2011/03/15/mageia-1-alpha-2-primavera-is-coming" hreflang="en">Blog post</a></li>
                         <li><a href="http://www.mageia.org/ro/">What is Mageia?</a></li>
                     </ul>

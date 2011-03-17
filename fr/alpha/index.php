@@ -55,7 +55,7 @@
                     <ul>
                         <li><a href="http://blog.mageia.org/en/2011/03/15/mageia-1-alpha-2-primavera-is-coming" hreflang="en">Annonce sur le blog</a></li>
                         <li><a href="/wiki/doku.php?id=iso1:alpha2_release_notes" hreflang="en">Notes de version</a></li>
-                        <li><a href="/wiki/doku.php?id=iso1:errata" hreflang="en">Errata</a></li>
+                        <li><a href="/wiki/doku.php?id=mageia1:errata" hreflang="en">Errata</a></li>
                         <li><a href="/fr/">Qu&rsquo;est ce que Mageia ?</a></li>
                     </ul>
                     <p>La Beta 1 sera diffusée le 5 avril.</p>
