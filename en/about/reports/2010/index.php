@@ -23,7 +23,7 @@
 				<li>Amount collected: EUR&nbsp;8 801.66</li>
 				<li>Donators number: 149</li>
 				<li>Average donation: EUR&nbsp;59.07</li>
-				<li>Amount spent: EUR&nbsp;1 274.40</li>
+				<li>Amount spent: EUR&nbsp;1 352.82</li>
 				<li>Amount remaining: EUR&nbsp;7 527.02</li>
 			</ul>
 			<h2>Financial Report</h2>
@@ -35,7 +35,7 @@
 				<tr><td>Gasoline for the car</td><td>&nbsp;</td><td>EUR&nbsp;63.00</td></tr>
 				<tr><td>Cables and other stuff for servers</td><td>&nbsp;</td><td>EUR&nbsp;17.50</td></tr>
 				<tr><td>Croissants for the <em>ielo</em> team</td><td>&nbsp;</td><td>EUR&nbsp;12.12</td></tr>	
-				<tr><td>TGV for going back to Paris (3 people)</td><td>&nbsp;</td><td>EUR&nbsp;128.88</td></tr>
+				<tr><td>TGV for going back to Paris (3 people)</td><td>&nbsp;</td><td>EUR&nbsp;204.00</td></tr>
 				</tbody></table>
 			<h2>Bank accounts situation</h2>
 			<ul>
