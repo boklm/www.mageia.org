@@ -31,6 +31,7 @@
 				<tr><td>Donations by Paypal/transfer/check/cash</td><td>EUR&nbsp;8 801.42</td><td>&nbsp;</td></tr>
 				<tr><td>Paypal test to validate bank account</td><td>EUR&nbsp;0.24</td><td>&nbsp;</td></tr>
 				<tr><td>HDD for servers</td><td>&nbsp;</td><td>EUR&nbsp;921.20</td></tr>
+				<tr><td>Car rent for going to Marseille (datacenter)</td><td>&nbsp;</td><td>EUR&nbsp;135.00</td></tr>
 				<tr><td>Gasoline for the car</td><td>&nbsp;</td><td>EUR&nbsp;63.00</td></tr>
 				<tr><td>Cables and other stuff for servers</td><td>&nbsp;</td><td>EUR&nbsp;17.50</td></tr>
 				<tr><td>Croissants for the <em>ielo</em> team</td><td>&nbsp;</td><td>EUR&nbsp;12.12</td></tr>	
