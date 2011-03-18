@@ -11,7 +11,13 @@ $mirrors = array(
         )
     ),
     'Czech Republic' => array(
-        'Praha' =>  array('http://mageia.supp.name/')
+        'Praha' =>  array(
+            'http://mageia.supp.name/'
+        ),
+        '?' => array(
+            'ftp://ftp.sh.cvut.cz/MIRRORS/mageia/',
+            'http://ftp.sh.cvut.cz/MIRRORS/mageia/'
+        )
     ),
     'Deutschland' => array(
         'Erfurt' => array(
@@ -33,7 +39,16 @@ $mirrors = array(
             'ftp://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia/'
         )
     ),
+    'Ελλάδα' => array(
+        'Ηράκλειον' => array(
+            'http://ftp.cc.uoc.gr/mirrors/linux/mageia',
+            'ftp://ftp.cc.uoc.gr/mirrors/linux/mageia'
+        )
+    ),
     'Schweitz' => array(
+        'Geneva' => array(
+            'http://mageia.unige.ch/mirror/'
+        ),
         'Lucern' => array(
             'ftp://ftp.LinuxCabal.org/pub/mirrors/Mageia/'
         )
