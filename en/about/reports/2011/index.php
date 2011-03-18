@@ -20,12 +20,12 @@
                 <div class="para values">
 			<h2>Summary</h2>
 			<ul>
-				<li>Outstanding amount of 2010: EUR&nbsp;</li>
+				<li>Outstanding amount of 2010: EUR&nbsp;7 523.96</li>
 				<li>Amount collected: EUR&nbsp;</li>
 				<li>Donators number: </li>
 				<li>Average donation: EUR&nbsp;</li>
 				<li>Amount spent: EUR&nbsp;</li>
-				<li>Amount remaining: EUR&nbsp;</li>
+				<li>Amount remaining: EUR&nbsp;6 006.53</li>
 			</ul>
 			<h2>Financial Report</h2>
 			<table id="fr-table"><thead><tr><th>Wording of the financial transaction</th><th>Income</th><th>Outgoing</th></tr></thead><tbody><tr>
@@ -45,9 +45,9 @@
 				</tbody></table>
 			<h2>Bank accounts situation</h2>
 			<ul>
-                                <li>Paypal (non-for-profit organisation account): EUR&nbsp;</li>
-				<li>Main account (with checkbook and no credit card): EUR&nbsp;</li>
-				<li>Savings account (between 2% and 4% of interest): EUR&nbsp;</li>
+                                <li>Paypal (non-for-profit organisation account): EUR&nbsp;841.45</li>
+				<li>Main account (with checkbook and no credit card): EUR&nbsp;1 162.02</li>
+				<li>Savings account (between 2% and 4% of interest): EUR&nbsp;4 003.06</li>
 			</ul>
 			<h2>Miscellaneous</h2>
 			<ul>
