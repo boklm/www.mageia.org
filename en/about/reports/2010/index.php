@@ -27,18 +27,18 @@
 				<li>Amount remaining: EUR&nbsp;7 523.96</li>
 			</ul>
 			<h2>Financial Report</h2>
-			<table><thead><tr><th>Wording of the financial transaction</th><th>Income</th><th>Outgoing</th></tr></thead><tbody><tr>
-				<tr><td>Donations by Paypal/transfer/check/cash</td><td>EUR&nbsp;8 801.42</td><td>&nbsp;</td></tr>
-				<tr><td>Paypal test to validate bank account</td><td>EUR&nbsp;0.24</td><td>&nbsp;</td></tr>
-				<tr><td>HDD for servers</td><td>&nbsp;</td><td>EUR&nbsp;921.20</td></tr>
-				<tr><td>Car rent for going to Marseille (datacenter)</td><td>&nbsp;</td><td>EUR&nbsp;135.00</td></tr>
-				<tr><td>Gasoline for the car</td><td>&nbsp;</td><td>EUR&nbsp;63.00</td></tr>
-				<tr><td>Cables and other stuff for servers</td><td>&nbsp;</td><td>EUR&nbsp;17.50</td></tr>
-				<tr><td>Croissants for the <em>ielo</em> team</td><td>&nbsp;</td><td>EUR&nbsp;12.12</td></tr>	
-				<tr><td>TGV for going back to Paris (3 people)</td><td>&nbsp;</td><td>EUR&nbsp;128.88</td></tr>
+			<table id="fr-table"><thead><tr><th>Wording of the financial transaction</th><th>Income</th><th>Outgoing</th></tr></thead><tbody><tr>
+				<tr><td>Donations by Paypal/transfer/check/cash</td><td class="money">EUR&nbsp;8 801.42</td><td>&nbsp;</td></tr>
+				<tr><td>Paypal test to validate bank account</td><td class="money">EUR&nbsp;0.24</td><td>&nbsp;</td></tr>
+				<tr><td>HDD for servers</td><td>&nbsp;</td><td class="money">EUR&nbsp;921.20</td></tr>
+				<tr><td>Car rent for going to Marseille (datacenter)</td><td>&nbsp;</td><td class="money">EUR&nbsp;135.00</td></tr>
+				<tr><td>Gasoline for the car</td><td>&nbsp;</td><td class="money">EUR&nbsp;63.00</td></tr>
+				<tr><td>Cables and other stuff for servers</td><td>&nbsp;</td><td class="money">EUR&nbsp;17.50</td></tr>
+				<tr><td>Croissants for the <em>ielo</em> team</td><td>&nbsp;</td><td class="money">EUR&nbsp;12.12</td></tr>	
+				<tr><td>TGV for going back to Paris (3 people)</td><td>&nbsp;</td><td class="money">EUR&nbsp;128.88</td></tr>
 				<tr><td colspan=3>&nbsp;</td></tr>
-				<tr><td>Total</td><td>&nbsp;</td><td>EUR&nbsp;128.88</td></tr>
-				<tr><td>Balance</td><td colspan=2>&nbsp;</td></tr>
+				<tr><td>Total</td><td class="money">EUR&nbsp;8 801.66</td><td class="money">EUR&nbsp;1 277.77</td></tr>
+				<tr><td>Balance</td><td colspan=2 class="money">EUR&nbsp;7 523.96</td></tr>
 				</tbody></table>
 			<h2>Bank accounts situation</h2>
 			<ul>
