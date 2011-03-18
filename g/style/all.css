@@ -94,3 +94,4 @@ ul.ty-ppl-list li:before {
 }
 table#dl-table th { text-align: left; }
 #dl-table td.city, #dl-table td.country { vertical-align: top; }
+table#fr-table td.money { text-align: right; }
