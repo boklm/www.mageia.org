@@ -36,13 +36,16 @@
 				<tr><td>Cables and other stuff for servers</td><td>&nbsp;</td><td>EUR&nbsp;17.50</td></tr>
 				<tr><td>Croissants for the <em>ielo</em> team</td><td>&nbsp;</td><td>EUR&nbsp;12.12</td></tr>	
 				<tr><td>TGV for going back to Paris (3 people)</td><td>&nbsp;</td><td>EUR&nbsp;128.88</td></tr>
+				<tr><td colspan=3>&nbsp;</td></tr>
+				<tr><td>Total</td><td>&nbsp;</td><td>EUR&nbsp;128.88</td></tr>
+				<tr><td>Balance</td><td colspan=2>&nbsp;</td></tr>
 				</tbody></table>
 			<h2>Bank accounts situation</h2>
 			<ul>
                                 <li>Paypal (non-for-profit organisation account): EUR&nbsp;63.51</li>
-				<li>Main account (with checkbook and no credit card): EUR&nbsp;1 307.18</li>
+				<li>Main account (with checkbook and no credit card): EUR&nbsp;1 310.24</li>
 				<li>Savings account (between 2% and 4% of interest): EUR&nbsp;4 000.00</li>
-				<li>AUFML account (part to be transfered to Mageia.Org): EUR&nbsp;2 153.27</li>
+				<li>AUFML account (part to be transfered to Mageia.Org): EUR&nbsp;2 150.21</li>
                         </ul>
 			<h2>Miscellaneous</h2>
 			<ul>
