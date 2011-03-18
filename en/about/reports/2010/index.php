@@ -23,8 +23,8 @@
 				<li>Amount collected: EUR&nbsp;8 801.66</li>
 				<li>Donators number: 149</li>
 				<li>Average donation: EUR&nbsp;59.07</li>
-				<li>Amount spent: EUR&nbsp;1 142.70</li>
-				<li>Amount remaining: EUR&nbsp;7 658.96</li>
+				<li>Amount spent: EUR&nbsp;1 277.77</li>
+				<li>Amount remaining: EUR&nbsp;7 523.96</li>
 			</ul>
 			<h2>Financial Report</h2>
 			<table><thead><tr><th>Wording of the financial transaction</th><th>Income</th><th>Outgoing</th></tr></thead><tbody><tr>
@@ -40,9 +40,9 @@
 			<h2>Bank accounts situation</h2>
 			<ul>
                                 <li>Paypal (non-for-profit organisation account): EUR&nbsp;63.51</li>
-                                <li>Main account (with checkbook and no credit card): EUR&nbsp;1 310.24</li>
+				<li>Main account (with checkbook and no credit card): EUR&nbsp;1 307.18</li>
 				<li>Savings account (between 2% and 4% of interest): EUR&nbsp;4 000.00</li>
-				<li>AUFML account (part to be transfered to Mageia.Org): EUR&nbsp;2 153.28</li>
+				<li>AUFML account (part to be transfered to Mageia.Org): EUR&nbsp;2 153.27</li>
                         </ul>
 			<h2>Miscellaneous</h2>
 			<ul>
@@ -52,7 +52,7 @@
 				<li>You can see the <a href="/en/thank-you" hreflang="en">"thank you" page</a>.</li>
 			</ul>
 			<h2>Contact</h2>
-			Financial report published by Damien Lallement (Mageia Treasurer on the 2010 Fiscal Year).<br/>You can contact him by sending an email to <em>treasurer[at]mageia[dot]org</em>.<br/>Last updated: Wed Mar 16 16:43:17 CET 2011.
+			Financial report published by Damien Lallement (Mageia Treasurer on the 2010 Fiscal Year).<br/>You can contact him by sending an email to <em>treasurer[at]mageia[dot]org</em>.<br/>Last updated: Mar 18 12:18:53 CET 2011.
                 </div>
             </div>
         </div>
