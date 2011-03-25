@@ -14,5 +14,6 @@ echo <<<H
 H;
 ?>
 </li>
+<li>Beta 1 in the works</li>
 </ul>
 <p><a href="http://mageia.org/wiki/doku.php?id=roadmap">Roadmap</a></p>
