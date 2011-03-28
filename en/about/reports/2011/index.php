@@ -52,19 +52,19 @@
 			</ul>
 			<h2>Forecast for 2011</h2>
 			<table id="fr-table"><thead><tr><th>Wording of the financial need</th><th>Unit Price</th><th>Quantity</th><th>Recurrence</th><th>Total Price</th><th>Status</th></tr></thead><tbody><tr>
-                                <tr><td>Goodies</td><td class="money">EUR&nbsp;4 500.00</td><td>1</td><td>1</td><td class="money">EUR&nbsp;4 500.00</td><td>pending</td></tr>
-                                <tr><td>April</td><td class="money">EUR&nbsp;100.00</td><td>1</td><td>1</td><td class="money">EUR&nbsp;100.00</td><td>pending</td></tr>
-                                <tr><td>Gandi (hosting)</td><td class="money">EUR&nbsp;8.00</td><td>5</td><td>12</td><td class="money">EUR&nbsp;480.00</td><td>pending</td></tr>
-                                <tr><td>Dedibox (build iso)</td><td class="money">EUR&nbsp;14.99</td><td>1</td><td>12</td><td class="money">EUR&nbsp;179.88</td><td>pending</td></tr>
-                                <tr><td>Internet domains</td><td class="money">EUR&nbsp;15.00</td><td>7</td><td>1</td><td class="money">EUR&nbsp;105.00</td><td>pending</td></tr>
-                                <tr><td>Fiona (backup server)</td><td class="money">EUR&nbsp;1 500.00</td><td>1</td><td>1</td><td class="money">EUR&nbsp;1 500.00</td><td>pending</td></tr>
-                                <tr><td>2 new nodes for BS</td><td class="money">EUR&nbsp;2 500.00</td><td>2</td><td>1</td><td class="money">EUR&nbsp;5 000.00</td><td>pending</td></tr>
-                                <tr><td>Event box</td><td class="money">EUR&nbsp;1500.00</td><td>1</td><td>1</td><td class="money">EUR&nbsp;1 500.00</td><td>pending</td></tr>
-                                <tr><td>Event travel</td><td class="money">EUR&nbsp;1 000.00</td><td>1</td><td>2</td><td class="money">EUR&nbsp;2 000.00</td><td>pending</td></tr>
-                                <tr><td>HW for spare</td><td class="money">EUR&nbsp;3 000.00</td><td>1</td><td>1</td><td class="money">EUR&nbsp;3 000.00</td><td>pending</td></tr>
-                                <tr><td>Brand registration</td><td class="money">EUR&nbsp;250.00</td><td>1</td><td>1</td><td class="money">EUR&nbsp;250.00</td><td>pending</td></tr>
-				<tr><td>Reserve fund</td><td class="money">EUR&nbsp;4 000.00</td><td>1</td><td>1</td><td class="money">EUR&nbsp;4 000.00</td><td>pending</td></tr>
-				<tr><td colspan=6>&nbsp;<td></tr>
+                                <tr><td>Goodies</td><td class="money">EUR&nbsp;4 500.00</td><td class="money">1</td><td class="money">1</td><td class="money">EUR&nbsp;4 500.00</td><td>pending</td></tr>
+                                <tr><td>April</td><td class="money">EUR&nbsp;100.00</td><td class="money">1</td><td class="money">1</td><td class="money">EUR&nbsp;100.00</td><td>pending</td></tr>
+                                <tr><td>Gandi (hosting)</td><td class="money">EUR&nbsp;8.00</td><td class="money">5</td><td class="money">12</td><td class="money">EUR&nbsp;480.00</td><td>pending</td></tr>
+                                <tr><td>Dedibox (build iso)</td><td class="money">EUR&nbsp;14.99</td><td class="money">1</td><td class="money">12</td><td class="money">EUR&nbsp;179.88</td><td>pending</td></tr>
+                                <tr><td>Internet domains</td><td class="money">EUR&nbsp;15.00</td><td class="money">7</td><td class="money">1</td><td class="money">EUR&nbsp;105.00</td><td>pending</td></tr>
+                                <tr><td>Fiona (backup server)</td><td class="money">EUR&nbsp;1 500.00</td><td class="money">1</td><td class="money">1</td><td class="money">EUR&nbsp;1 500.00</td><td>pending</td></tr>
+                                <tr><td>2 new nodes for BS</td><td class="money">EUR&nbsp;2 500.00</td><td class="money">2</td><td class="money">1</td><td class="money">EUR&nbsp;5 000.00</td><td>pending</td></tr>
+                                <tr><td>Event box</td><td class="money">EUR&nbsp;1500.00</td><td class="money">1</td><td class="money">1</td><td class="money">EUR&nbsp;1 500.00</td><td>pending</td></tr>
+                                <tr><td>Event travel</td><td class="money">EUR&nbsp;1 000.00</td><td class="money">1</td><td class="money">2</td><td class="money">EUR&nbsp;2 000.00</td><td>pending</td></tr>
+                                <tr><td>HW for spare</td><td class="money">EUR&nbsp;3 000.00</td><td class="money">1</td><td class="money">1</td><td class="money">EUR&nbsp;3 000.00</td><td>pending</td></tr>
+                                <tr><td>Brand registration</td><td class="money">EUR&nbsp;250.00</td><td class="money">1</td><td class="money">1</td><td class="money">EUR&nbsp;250.00</td><td>pending</td></tr>
+				<tr><td>Reserve fund</td><td class="money">EUR&nbsp;4 000.00</td><td class="money">1</td><td class="money">1</td><td class="money">EUR&nbsp;4 000.00</td><td>pending</td></tr>
+				<tr><td colspan=6>&nbsp;</td></tr>
                                 <tr><td colspan=4>Total</td><td class="money">EUR&nbsp;22 614.88</td><td>pending</td></tr>
 			</table>			
 			<h2>Miscellaneous</h2>
