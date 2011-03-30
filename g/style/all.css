@@ -10,19 +10,117 @@ Code licensed under the BSD License:
 http://developer.yahoo.com/yui/license.html
 version: 2.8.1
 */
-body{margin:10px;}h1{font-size:138.5%;}h2{font-size:123.1%;}h3{font-size:108%;}h1,h2,h3{margin:1em 0;}h1,h2,h3,h4,h5,h6,strong,dt{font-weight:bold;}optgroup{font-weight:normal;}abbr,acronym{border-bottom:1px dotted #000;cursor:help;}em{font-style:italic;}del{text-decoration:line-through;}blockquote,ul,ol,dl{margin:1em;}ol,ul,dl{margin-left:2em;}ol li{list-style:decimal outside;}ul li{list-style:disc outside;}dl dd{margin-left:1em;}th,td{border:1px solid #000;padding:.5em;}th{font-weight:bold;text-align:center;}caption{margin-bottom:.5em;text-align:center;}sup{vertical-align:super;}sub{vertical-align:sub;}p,fieldset,table,pre{margin-bottom:1em;}button,input[type="checkbox"],input[type="radio"],input[type="reset"],input[type="submit"]{padding:1px;}html, body { margin: 0; padding: 0; background: #ddd; 
-    font-family: Andale, "Trebuchet MS", "Lucida Grande", "Lucida Sans", Sans, Verdana, Tahoma, Arial, sans-serif;
+body{margin:10px;}h1{font-size:138.5%;}h2{font-size:123.1%;}h3{font-size:108%;}h1,h2,h3{margin:1em 0;}h1,h2,h3,h4,h5,h6,strong,dt{font-weight:bold;}optgroup{font-weight:normal;}abbr,acronym{border-bottom:1px dotted #000;cursor:help;}em{font-style:italic;}del{text-decoration:line-through;}blockquote,ul,ol,dl{margin:1em;}ol,ul,dl{margin-left:2em;}ol li{list-style:decimal outside;}ul li{list-style:disc outside;}dl dd{margin-left:1em;}th,td{border:1px solid #000;padding:.5em;}th{font-weight:bold;text-align:center;}caption{margin-bottom:.5em;text-align:center;}sup{vertical-align:super;}sub{vertical-align:sub;}p,fieldset,table,pre{margin-bottom:1em;}button,input[type="checkbox"],input[type="radio"],input[type="reset"],input[type="submit"]{padding:1px;}html, body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  background: url(/g/images/bg_ln_1.jpg) repeat-x;
+  font-family: Verdana, "Trebuchet MS", "Lucida Grande", "Lucida Sans", Sans, Verdana, Tahoma, Arial, sans-serif;
 }
-h1 { padding: 0.5em 0.7em; margin: 0 auto; text-align: left; font-size: 300%; background: #aaa; color: #000; }
-h1 span { font-weight: normal; font-size: 90%; }
+body {
+  background: url(/g/images/cauldron_alpha_ln_1.png) no-repeat -20px 200px;
+}
+a, a:link { color: #2383c2; text-decoration: none; }
+
+h1 { padding: 0.5em 0.7em; margin: 0 auto; text-align: left; font-size: 300%; color: #000; }
+h1 span {
+  font-weight: normal;
+  font-size: 75%;
+}
 .para { background: #fff; padding: 1em 2em; }
 
-h2, h3 { font-family: Georgia, "Times New Romain"; font-weight: normal; margin: 0 0 0.4em 0; }
-h2 { font-size: 200%; }
-h3 { font-size: 180%; }
+h2,
+h3 {
+  margin: 0 0 0.4em 0;
+}
+h2 { font-size: 170%; }
+h3 { font-size: 150%; }
+
+h1,
+h2,
+h3 {
+  font-family: "Century Gothic", "Trebuchet MS", Arial, sans-serif;
+  font-weight: bold;
+  color: #3494d3;
+}
+
+h2 a,
+h3 a {
+  color: #3494d3;
+  text-decoration: none;
+}
+
+hr {
+  display: block;
+  width: 40%;
+  margin: 3em auto 3em auto;
+  -webkit-box-shadow: 0 2px 3px #9db1ca;
+  -moz-box-shadow: 0 2px 3px #9db1ca;
+  box-shadow: 0 2px 3px #9db1ca;
+  overflow: hidden;
+  border: 0;
+  border-top: 1px solid #ffffff;
+}
+
 .date { color: #444; font-style: italic; font-size: 1em; }
-#doc { margin: 1em auto 2em auto; background: #fff;
-    -webkit-box-shadow: 0 0 10px #444; -moz-box-shadow: 0 0 10px #444; box-shadow: 0 0 10px #444; }
+#doc {
+  margin: 1em auto 2em auto;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 10px #9db1ca;
+  -moz-box-shadow: 0 0 6px #555;
+  box-shadow: 0 0 6px #555;
+  overflow: hidden;
+}
+#doc { background: #fff; }
+
+#hd {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), color-stop(50%, #ffffff), to(#f0f0f0));
+  background: -moz-linear-gradient(top, #ffffff 50%, #f0f0f0);
+  background: -webkit-linear-gradient(top, #ffffff 50%, #f0f0f0);
+  background: linear-gradient(top, #ffffff 50%, #f0f0f0);
+  -webkit-border-radius: 10px 10px 0 0;
+  -moz-border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 0 0;
+  border-bottom: 1px solid #9db1ca;
+  display: block;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 0 1px 3px #9db1ca;
+  -moz-box-shadow: 0 1px 3px #9db1ca;
+  box-shadow: 0 1px 3px #9db1ca;
+}
+#bd {
+  -webkit-border-radius: 0 0 10px 10px;
+  -moz-border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px;
+}
+
+#logo {
+  display: block;
+  float: left;
+  background: url(/g/images/logo_ln_1.png) no-repeat;
+  width: 186px;
+  height: 61px;
+}
+#logo span {
+  display: block;
+  text-indent: -9999px;
+}
+.lsep {
+  display: block;
+  float: left;
+  color: #ddd;
+  line-height: 70px;
+  font-weight: thin;
+  margin: 0 20px 0 25px;
+}
+.subh {
+  display: block;
+  float: left;
+  height: 84px;
+  line-height: 76px;
+}
 
 ul#people {
     height: 300px;
@@ -34,10 +132,17 @@ ul#people {
 ul#people li { list-style: disc; margin-bottom: 0.2em; }
 #reg { text-align: center; font-size: 1.4em; margin: 1em;}
 .faq p { margin-bottom: 2.5em; }
-.nav { background: #fff; padding: 0.3em; border-bottom: 1px solid #aaa; }
+.nav {
+  background: #ffffff;
+  padding: 0.3em;
+  border-bottom: 1px solid #9db1ca;
+  -webkit-box-shadow: 0 1px 2px #9db1ca;
+  -moz-box-shadow: 0 1px 2px #9db1ca;
+  box-shadow: 0 1px 2px #9db1ca;
+}
 .nav2 { width: 695px; margin: 0 auto; position: relative; }
 p.loc { font-size: 0.9em; padding: 0.5em 0; color: #ccc; width: 695px; margin: 0 auto; text-align: left; }
-p.loc a { color: #88a; text-decoration: none; }
+p.loc a { color: #2383c2; text-decoration: none; }
 p.loc a.sel { font-weight: bold; color: #000; }
 p.loc a [accesskey]:after {content:' [' attr(accesskey) ']'}
 
@@ -55,11 +160,11 @@ ul.todo li.done { text-decoration: line-through; }
 ul.news { padding: 0; margin: 0; }
 ul.news li { margin-bottom: 0.5em; list-style: none; }
 ul.news li span.dt { font-weight: thin; font-size: 85%; color: #666;
-    font-family: courier new, fixed; margin: 0.3em 1em 0.3em 0em; float: left; }
+    font-family: "courier new", fixed; margin: 0.3em 1em 0.3em 0em; float: left; }
 
-.bb1 { border-bottom: 1px solid #aaa; }
-.lb1 { border-left: 1px solid #aaa; }
-.rb1 { border-right: 1px solid #aaa; }
+.bb1 { border-bottom: 1px solid #9db1ca; }
+.lb1 { border-left: 1px solid #9db1ca; }
+.rb1 { border-right: 1px solid #9db1ca; }
 
 #lang_form { position: absolute; top: 0; right: 0; }
 
@@ -82,8 +187,8 @@ ul.news li span.dt { font-weight: thin; font-size: 85%; color: #666;
 
 ul.ty-ppl-list {
     list-style-type: none;
-    -moz-column-count: 3; -webkit-column-count: 3;
-    -moz-column-gap: 1em; -webkit-column-gap: 1em;
+    -moz-column-count: 3; -webkit-column-count: 3; column-count: 3;
+    -moz-column-gap: 1em; -webkit-column-gap: 1em; column-gap: 1em;
     font-size: 90%;
     margin: 1em 0 4em 1em;
     padding: 0;
