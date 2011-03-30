@@ -12,7 +12,7 @@
 <body>
     <?php include '../langs.php'; ?>
     <div id="doc" class="yui-t7">
-        <div id="hd" role="banner"><h1>Mageia <span>&ndash; Nowa dystrybucja Linuksa</span></h1></div>
+        <div id="hd" role="banner"><h1><a id="logo" href="/"><span>Mageia</span></a> <span class="lsep">|</span> <span class="subh">Nowa dystrybucja Linuksa</span></h1></div>
         <div class="yui-g bb1">
             <div class="para"><p>Mageia jest odłamem systemu Mandriva Linux, wspieranym przez organizacje niedochodową znanych i wybranych twórców.</p>
 
