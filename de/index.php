@@ -12,7 +12,7 @@
 <body>
     <?php include '../langs.php'; ?>
     <div id="doc" class="yui-t7">
-        <div id="hd" role="banner"><h1>Mageia <span>&ndash; Eine neue Linux Distribution</span></h1></div>
+        <div id="hd" role="banner"><h1><a id="logo" href="/de/"><span>Mageia</span></a> <span class="lsep">|</span> <span class="subh">Eine neue Linux Distribution</span></h1></div>
         <div id="bd" role="main">
             <div class="yui-g bb1">
                 <div class="para"><p>Mageia ist ein Fork von Mandriva Linux.
