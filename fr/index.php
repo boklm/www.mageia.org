@@ -12,7 +12,11 @@
 <body>
     <?php include '../langs.php'; ?>
     <div id="doc" class="yui-t7">
-        <div id="hd" role="banner"><h1>Mageia <span>&ndash; Une nouvelle distribution Linux</span></h1></div>
+        <div id="hd" role="banner">
+                <h1><a id="logo" href="/fr/"><span>Mageia</span></a>
+                    <span class="lsep">|</span>
+                    <span class="subh">Une Distribution Linux</span></h1>
+        </div>
         <div id="bd" role="main">
             <div class="yui-g bb1">
                 <div class="para"><p>Mageia est un fork de Mandriva Linux,
@@ -82,6 +86,7 @@
                     D'autres événements ont eu de réels impacts négatifs et la communauté doute de plus en plus de la viabilité de sa distribution favorite.</p>
                     <p>Ceux qui travaillent sur ce projet ne souhaitent plus dépendre des fluctuations économiques, plus ou moins erratiques, de changements de stratégie non étayés de l'entreprise.</p>
                 </div>
+                <hr />
                 <div class="para">
                     <h2>Forker Mandriva Linux&nbsp;? Oui.</h2>
 
@@ -90,6 +95,7 @@
 
                     <p>Nous pensons qu'un fork est la meilleure solution et nous avons décidé de lancer une nouvelle distribution&nbsp;: <strong>Mageia</strong>.</p>
                 </div>
+                <hr />
                 <div class="para">
                     <h2>De nouvelles fondations.</h2>
                     <p>Mageia est un projet communautaire&nbsp;: il ne dépendra pas du sort d'une quelconque entreprise.</p>
@@ -106,6 +112,7 @@
                     </ul>
                     <p>Vous avez sans doute vos idées également. Nous allons prendre le temps de les partager.</p>
                 </div>
+                <hr />
                 <div class="para">
                     <h2>La communauté.</h2>
                     <p>La communauté Mageia est pour nous&nbsp;:</p>
@@ -118,6 +125,7 @@
                     <p>Il y a là un vrai beau challenge&nbsp;: de nombreux pays, de nombreuses langues, de nombreuses cultures, des besoins tout aussi nombreux. Et ça nous semble formidable.</p>
                     <p>L'expérience de Mandriva Assembly a mis en évidence la difficulté de la tâche. Mais nous pensons que nous pouvons proposer beaucoup mieux&nbsp;!</p>
                 </div>
+                <hr />
                 <div class="para">
                     <h2>Les gens.</h2>
                     <p>Quelles que soient l'activité ou les connaissances, vous êtes, nous sommes cruciaux. Mageia a pour objectif de vous être utile à vous, à chacun de nous, en tant que personne. La confiance est un requis. Indispensable.</p>
@@ -127,6 +135,7 @@
                     
                     <p>Pour les autres contributeurs&nbsp;: si vous souhaitez être ajouté à la liste pour suivre ce fork, faites-nous en part sur IRC ou par email.</p>
                 </div>
+                <hr />
                 <div class="para">
                     <h2>À suivre.</h2>
                     <p>Nous aurons beaucoup de besoins dans les jours à venir&nbsp;:</p>
