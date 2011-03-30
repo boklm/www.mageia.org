@@ -14,7 +14,7 @@
     <?php include '../../langs.php'; ?>
     
     <div id="doc" class="yui-t7">
-        <div id="hd" role="banner"><h1>Mageia <span>| Donation Campaign</span></h1></div>
+        <div id="hd" role="banner"><h1><a id="logo" href="/"><span>Mageia</span></a> <span class="lsep">|</span> <span class="subh">Donation Campaign</span></h1></div>
         <div id="bd" role="main">
             <div class="yui-g">
                 <div class="para donate">
@@ -39,7 +39,7 @@
                         <li>eventually, legal counsel and </li>
                         <li>etc.</li>
                     </ul>
-
+                    <hr />
                     <h2 id="status">How to track donation?</h2>
                     <p>Currently, we have got <strong><?php echo $g_donate_amount; ?></strong>
                         thanks to all of our <a href="/en/thank-you/">donators</a>! (updated weekly)</p>
@@ -47,6 +47,7 @@
                     <p>There will be a monthly report on the funds received and how they were used.
                         We believe public accountability is crucial. As stated in the minutes of
                         The First General Constitutive Assembly, the treasurer of Mageia.Org is Damien Lallement.</p>
+                    <hr />
                 </div>
             </div>
             <div class="yui-g"><div class="para">
