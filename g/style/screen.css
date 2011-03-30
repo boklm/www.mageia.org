@@ -28,7 +28,7 @@ h1,
 h2,
 h3 {
   font-family: "Century Gothic", "Trebuchet MS", Arial, sans-serif;
-  font-weight: bold;
+  font-weight: normal;
   color: #3494d3;
 }
 
@@ -41,7 +41,7 @@ h3 a {
 hr {
   display: block;
   width: 40%;
-  margin: 3em auto 3em auto;
+  margin: 1em auto 3em auto;
   -webkit-box-shadow: 0 2px 3px #9db1ca;
   -moz-box-shadow: 0 2px 3px #9db1ca;
   box-shadow: 0 2px 3px #9db1ca;
@@ -188,3 +188,39 @@ ul.ty-ppl-list li:before {
 table#dl-table th { text-align: left; }
 #dl-table td.city, #dl-table td.country { vertical-align: top; }
 table#fr-table td.money { text-align: right; }
+
+.dlt2 { border-collapse: collapse; width: 100%; font-size: 90%; }
+.dlt2 th,
+.dlt2 td {
+  border: 1px solid transparent;
+}
+.dlt2 thead th { color: #aaa; font-size: 85%; text-align: left; }
+.dlt2 th {
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  
+}
+.dlt2 tbody td {
+  border-bottom: 1px solid #aaa;
+  border-right: 1px solid #ccc;
+}
+.dlt2 tbody td:last-child {
+  border-right: 0;
+}
+.dlt2 .size {
+  text-align: right;
+}
+.dlt2 tbody tr.focus { outline: 2px solid #f00; }
+.dlt2 tfoot td {
+  color: #aaa; font-size: 85%;
+  vertical-align: top;
+}
+.dlt2 tfoot td a { color: #aaa; }
+.dlt2 .pop span { display: block; height: 10px; background: #ccc; color: transparent; }
+.dlt2 .pop span.pop_0 { width: 0; }
+.dlt2 .pop span.pop_1 { width: 5px; }
+span.pop_2 { width: 10px; }
+span.pop_3 { width: 20px; }
+span.pop_4 { width: 35px; }
+span.pop_5 { width: 50px; }
+.dlinfo { font-size: 85%; color: #888; }
