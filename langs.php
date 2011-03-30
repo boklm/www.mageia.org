@@ -64,6 +64,12 @@ function locale_path($path)
 // global nav
 $nav_list = array(
     "/{$locale}/" => 'Mageia',
+    /*
+    '/news' => 'News',
+    '/downloads' => 'Downloads',
+    '/comm' => 'Community',
+    '/about' => 'About Us'
+    */
     "http://blog.mageia.org/{$locale}" => array(
         'el' => 'Ιστολόγιο',
         'en' => 'Blog',
@@ -71,22 +77,57 @@ $nav_list = array(
         'tr' => 'Web Günlüğü',
         'ru' => 'Блог'
     ),
-    //"/{$locale}/alpha" => 'Alpha',
-    locale_path('alpha') => 'Alpha', 
+    "/{$locale}/alpha/" => 'Alpha',
+    //locale_path('alpha') => 'Alpha', 
     '/wiki/' => array(
         'en' => 'Wiki',
         'ru' => 'Вики'
     ),
-    //"/{$locale}/faq" => array(
-    locale_path('faq') => array(
+    'http://forums.mageia.org/en/' => 'Forums',
+    '/en/calendar/' => array(
+        'de' => 'Kalender',
+        'el' => 'Ημερολόγιο',
+        'en' => 'Calendar',
+        'es' => 'Calendario',
+        'et' => 'Kalender',
+        'fr' => 'Calendrier',
+        'pl' => 'Kalendarz',
+        'pt' => 'Calendário',
+        'tr' => 'Takvim',
+        'ro' => 'Calendar',
+        'ru' => 'Календарь'
+    ),
+    /*
+    "/{$locale}/faq/" => array(
+    //locale_path('faq') => array(
         'en' => 'FAQ',
         'es' => 'Preguntas Frecuentes',
         'et' => 'KKK',
         'tr' => 'S.S.S.',
         'ro' => 'Întrebări frecvente'
     ),
-    //"/{$locale}/donate" => array(
-    locale_path('donate') => array(
+    */
+    //
+    /*
+    "http://mageia.org/wiki/doku.php?id=press" => array(
+        'de' => 'Presse',
+        'el' => 'Τύπος',
+        'en' => 'Press',
+        'es' => 'Prensa',
+        'et' => 'Ajakirjandus',
+        'fr' => 'Presse',
+        'pl' => 'Prasa o nas ',
+        'ro' => 'Presă',
+        'ru' => 'Пресса',
+        'tr' => 'Basın'
+    ),
+    */
+    '/en/about/' => array(
+        'en' => 'About',
+        'fr' => 'À propos'
+    ),
+    "/{$locale}/donate/" => array(
+    //locale_path('donate') => array(
     //"http://www.mageia.org/en/donate//{$locale}/" => array(
         'de' => 'Spenden',
         'el' => 'Δωρεές',
@@ -100,21 +141,9 @@ $nav_list = array(
         'ro' => 'Donații',
         'ru' => 'Пожертвования'
     ),
-    //
-    "http://mageia.org/wiki/doku.php?id=press" => array(
-        'de' => 'Presse',
-        'el' => 'Τύπος',
-        'en' => 'Press',
-        'es' => 'Prensa',
-        'et' => 'Ajakirjandus',
-        'fr' => 'Presse',
-        'pl' => 'Prasa o nas ',
-        'ro' => 'Presă',
-        'ru' => 'Пресса',
-        'tr' => 'Basın'
-    ),
-    //"/{$locale}/about/values" => array(
-    locale_path('about/values') => array(
+        /*
+    "/{$locale}/about/values" => array(
+    //locale_path('about/values') => array(
         'de' => 'Werte',
         'el' => 'Αξίες',
         'en' => 'Values',
@@ -127,8 +156,8 @@ $nav_list = array(
         'ro' => 'Valori',
         'ru' => 'Цели'
     ),
-    //"/{$locale}/about/code-of-conduct" => array(
-    locale_path('about/code-of-conduct') => array(
+    "/{$locale}/about/code-of-conduct" => array(
+    //locale_path('about/code-of-conduct') => array(
         'de' => 'Verhaltenskodex',
         'el' => 'Κώδικας συμπεριφοράς',
         'en' => 'Code of Conduct',
@@ -141,19 +170,8 @@ $nav_list = array(
         'ro' => 'Codul de conduită',
         'ru' => 'Кодекс поведения'
     ),
-    '/en/calendar/' => array(
-        'de' => 'Kalender',
-        'el' => 'Ημερολόγιο',
-        'en' => 'Calendar',
-        'es' => 'Calendario',
-        'et' => 'Kalender',
-        'fr' => 'Calendrier',
-        'pl' => 'Kalendarz',
-        'pt' => 'Calendário',
-        'tr' => 'Takvim',
-        'ro' => 'Calendar',
-        'ru' => 'Календарь'
-    )
+    */
+    //*/
 );
 
 $list_menu = array();
