@@ -54,7 +54,7 @@
 			<table id="fr-table"><thead><tr><th>Wording of the financial need</th><th>Unit Price</th><th>Quantity</th><th>Recurrence</th><th>Total Price</th><th>Status</th></tr></thead><tbody><tr>
                                 <tr><td>Goodies</td><td class="money">EUR&nbsp;4 500.00</td><td class="money">1</td><td class="money">1</td><td class="money">EUR&nbsp;4 500.00</td><td>pending</td></tr>
                                 <tr><td>April</td><td class="money">EUR&nbsp;100.00</td><td class="money">1</td><td class="money">1</td><td class="money">EUR&nbsp;100.00</td><td>pending</td></tr>
-                                <tr><td>Gandi (hosting)</td><td class="money">EUR&nbsp;8.00</td><td class="money">5</td><td class="money">12</td><td class="money">EUR&nbsp;480.00</td><td>pending</td></tr>
+                                <tr><td>Gandi (hosting: add 1536 MB of RAM)</td><td class="money">EUR&nbsp;2.39</td><td class="money">6</td><td class="money">12</td><td class="money">EUR&nbsp;172.08</td><td>done (Wed Mar 30)</td></tr>
                                 <tr><td>Dedibox (build iso)</td><td class="money">EUR&nbsp;14.99</td><td class="money">1</td><td class="money">12</td><td class="money">EUR&nbsp;179.88</td><td>pending</td></tr>
                                 <tr><td>Internet domains</td><td class="money">EUR&nbsp;15.00</td><td class="money">7</td><td class="money">1</td><td class="money">EUR&nbsp;105.00</td><td>pending</td></tr>
                                 <tr><td>Fiona (backup server)</td><td class="money">EUR&nbsp;1 500.00</td><td class="money">1</td><td class="money">1</td><td class="money">EUR&nbsp;1 500.00</td><td>pending</td></tr>
@@ -65,7 +65,7 @@
                                 <tr><td>Brand registration</td><td class="money">EUR&nbsp;250.00</td><td class="money">1</td><td class="money">1</td><td class="money">EUR&nbsp;250.00</td><td>pending</td></tr>
 				<tr><td>Reserve fund</td><td class="money">EUR&nbsp;4 000.00</td><td class="money">1</td><td class="money">1</td><td class="money">EUR&nbsp;4 000.00</td><td>pending</td></tr>
 				<tr><td colspan=6>&nbsp;</td></tr>
-                                <tr><td colspan=4>Total</td><td class="money">EUR&nbsp;22 614.88</td><td>pending</td></tr>
+                                <tr><td colspan=4>Total</td><td class="money">EUR&nbsp;22 306.96</td><td>pending</td></tr>
 			</table>			
 			<h2>Miscellaneous</h2>
 			<ul>
@@ -74,7 +74,7 @@
 				<li>You can see the <a href="/en/thank-you" hreflang="en">"thank you" page</a>.</li>
 			</ul>
 			<h2>Contact</h2>
-			Financial report published by Damien Lallement (Mageia Treasurer on the 2011 Fiscal Year).<br/>You can contact him by sending an email to <em>treasurer[at]mageia[dot]org</em>.<br/>Last updated: Mar 28 18:22:57 CET 2011.
+			Financial report published by Damien Lallement (Mageia Treasurer on the 2011 Fiscal Year).<br/>You can contact him by sending an email to <em>treasurer[at]mageia[dot]org</em>.<br/>Last updated: Wed Mar 30 16:45:55 CEST 2011.
                 </div>
             </div>
         </div>
