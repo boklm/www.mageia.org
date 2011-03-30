@@ -54,7 +54,7 @@
 			<table id="fr-table"><thead><tr><th>Wording of the financial need</th><th>Unit Price</th><th>Quantity</th><th>Recurrence</th><th>Total Price</th><th>Status</th></tr></thead><tbody><tr>
                                 <tr><td>Goodies</td><td class="money">EUR&nbsp;4 500.00</td><td class="money">1</td><td class="money">1</td><td class="money">EUR&nbsp;4 500.00</td><td>pending</td></tr>
                                 <tr><td>April</td><td class="money">EUR&nbsp;100.00</td><td class="money">1</td><td class="money">1</td><td class="money">EUR&nbsp;100.00</td><td>pending</td></tr>
-                                <tr><td>Gandi (hosting: add 1536 MB of RAM)</td><td class="money">EUR&nbsp;2.39</td><td class="money">6</td><td class="money">12</td><td class="money">EUR&nbsp;172.08</td><td>done (Wed Mar 30)</td></tr>
+                                <tr><td>Gandi (hosting: +1536 MB of RAM)</td><td class="money">EUR&nbsp;2.39</td><td class="money">6</td><td class="money">12</td><td class="money">EUR&nbsp;172.08</td><td>done (Wed Mar 30)</td></tr>
                                 <tr><td>Dedibox (build iso)</td><td class="money">EUR&nbsp;14.99</td><td class="money">1</td><td class="money">12</td><td class="money">EUR&nbsp;179.88</td><td>pending</td></tr>
                                 <tr><td>Internet domains</td><td class="money">EUR&nbsp;15.00</td><td class="money">7</td><td class="money">1</td><td class="money">EUR&nbsp;105.00</td><td>pending</td></tr>
                                 <tr><td>Fiona (backup server)</td><td class="money">EUR&nbsp;1 500.00</td><td class="money">1</td><td class="money">1</td><td class="money">EUR&nbsp;1 500.00</td><td>pending</td></tr>
