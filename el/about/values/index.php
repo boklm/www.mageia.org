@@ -13,7 +13,7 @@
 <body>
     <?php include '../../../langs.php'; ?>
     <div id="doc" class="yui-t7">
-        <div id="hd" role="banner"><h1>Mageia <span>| αξίες</span></h1></div>
+        <div id="hd" role="banner"><h1><a id="logo" href="/"><span>Mageia</span></a> <span class="lsep">|</span> <span class="subh">αξίες</span></h1></div>
         <div id="bd" role="main">
             <div class="yui-g">
                 <div class="para values">

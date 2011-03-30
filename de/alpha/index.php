@@ -14,7 +14,7 @@
     <?php include '../../langs.php'; ?>
     
     <div id="doc" class="yui-t7">
-        <div id="hd" role="banner"><h1>Mageia <span>| Alpha Download-Seite</span></h1>
+        <div id="hd" role="banner"><h1><a id="logo" href="/"><span>Mageia</span></a> <span class="lsep">|</span> <span class="subh">Alpha Download-Seite</span></h1>
         <div id="bd" role="main">
             <div class="yui-g">
                 <div class="para" style="color: #f22;">
