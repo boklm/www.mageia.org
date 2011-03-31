@@ -110,6 +110,8 @@ hr {
   line-height: 76px;
 }
 
+.hl > li { margin-bottom: 0.6em; }
+
 ul#people {
     height: 300px;
     overflow: auto;
@@ -216,7 +218,7 @@ table#fr-table td.money { text-align: right; }
   vertical-align: top;
 }
 .dlt2 tfoot td a { color: #aaa; }
-.dlt2 .pop span { display: block; height: 10px; background: #ccc; color: transparent; }
+.dlt2 .pop span { display: block; height: 11px; background: #ccc; color: transparent; }
 .dlt2 .pop span.pop_0 { width: 0; }
 .dlt2 .pop span.pop_1 { width: 5px; }
 span.pop_2 { width: 10px; }
