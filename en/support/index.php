@@ -44,9 +44,18 @@
                     <hr />
 
                     <h2 id="hw">Hardware Certification</h2>
-                    <p>Mageia software runs on most of today's available computer systems.</p>
+                    <p>Mageia software runs on most of today's available x86 computer systems.</p>
 
-                    <p>TODO</p>
+		    <p>You can follow this hardware requirement list:</p>
+		    <ul class="hl">
+		    	<li>Processor: any AMD, Intel or VIA processor</li>
+			<li>Memory (RAM): 512 MB minimum, 2 GB recommended</li>
+			<li>Storage (HDD): 1 GB for a minimal installation, 6 GB for a full setup</li>
+			<li>Optical drive: CD or DVD depending on the ISO you use (network installation available)</li>
+			<li>Graphic card: any ATI, Intel, Matrox, nVidia, SiS or VIA graphic card</li>
+			<li>Sound card: any AC97, HDA or sound blaster sound card</li>
+		    </ul>
+                    <p>For some kind of hardware like wifi chipsets or 3D graphic cards, you may need to add the "nonfree" repository to your system.</p>
 
                     <hr />
 
