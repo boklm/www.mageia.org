@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <title>How to report a bug | Mageia</title>
-    <meta name="description" content="List of support resources for Mageia distribution.">
-    <meta name="keywords" content="mageia, linux, support, help, hardware, qa, test">
+    <meta name="description" content="How to report a bug for Mageia.">
+    <meta name="keywords" content="mageia, linux, bug, report, procedure, support, help">
     <meta name="author" content="Mageia">
     <link rel="stylesheet" type="text/css" href="/g/style/all.css" >
     <?php include '../../../analytics.php'; ?>
