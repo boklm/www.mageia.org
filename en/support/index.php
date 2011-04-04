@@ -41,7 +41,7 @@
 
                     <hr />
 
-                    <h2 id="hw">Hardware Certification</h2>
+                    <h2 id="hw">Hardware Requirements</h2>
                     <p>Mageia software runs on most of x86 computer systems available as of today, April 2011.</p>
 
                     <p>You can follow this hardware requirements list:</p>
@@ -53,11 +53,12 @@
                         <li>Graphic card: any ATI, Intel, Matrox, nVidia, SiS or VIA graphic card;</li>
                         <li>Sound card: any AC97, HDA or Sound Blaster sound card.</li>
                     </ul>
-                    <p>Some additional, proprietary software may be required for some kind of hardware
-                        like Wi-Fi chipsets or 3D graphic cards to work properly.
-                        This software is available in a specific software repository called "nonfree"
-                        (learn more) and will be automatically suggested at install time.</p>
-                    <p class="dlinfo">We may set up a hardware compatibility list/directory, however that's
+                    <p>For some kind of some hardware (Wi-Fi chipsets, 3D graphic cards) to work properly,
+                        specific firmware or software may be needed, that is available in a specific
+                        online repository called "nonfree" (learn more).</p>
+
+                    <p class="dlinfo">We may set up a hardware compatibility list/directory
+                        as well as a hardware certification process; but that's
                         still at the planning stage. Feel free to join/contact our
                         <a href="/wiki/doku.php?id=web">Web</a> and <a href="/wiki/doku.php?id=qateam">QA</a> teams
                         if you would like to help in this regard.</p>
