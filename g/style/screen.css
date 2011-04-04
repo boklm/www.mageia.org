@@ -130,6 +130,14 @@ ul#people li { list-style: disc; margin-bottom: 0.2em; }
   -moz-box-shadow: 0 1px 2px #9db1ca;
   box-shadow: 0 1px 2px #9db1ca;
 }
+
+.qsidesummary {
+  float: right;
+  border: 1px solid #aaa;
+  padding: 0 0 2em 0;
+  margin: 0 0 2em 1em;
+}
+
 .nav2 { width: 695px; margin: 0 auto; position: relative; }
 p.loc { font-size: 0.9em; padding: 0.5em 0; color: #ccc; width: 695px; margin: 0 auto; text-align: left; }
 p.loc a { color: #2383c2; text-decoration: none; }
@@ -226,3 +234,4 @@ span.pop_3 { width: 20px; }
 span.pop_4 { width: 35px; }
 span.pop_5 { width: 50px; }
 .dlinfo { font-size: 85%; color: #888; }
+.dlt2 tr.reco td { font-weight: bold; }
