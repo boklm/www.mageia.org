@@ -20,7 +20,7 @@
                     <div class="qsidesummary">
                         <ul>
                             <li><a href="#comm">Community Support</a></li>
-                            <li><a href="#hw">Hardware Certification</a></li>
+                            <li><a href="#hw">Hardware Requirements</a></li>
                             <li><a href="#pro">Professional Support</a></li>
                         </ul>
                     </div>
