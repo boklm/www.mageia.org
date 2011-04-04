@@ -17,7 +17,7 @@
         <div id="bd" role="main">
             <div class="yui-g">
                 <div class="para donate">
-                    <div style="float: right; border: 1px solid #aaa; padding: 0 0 1em 0; margin: 0 0 2em 1em;">
+                    <div class="qsidesummary">
                         <ul>
                             <li><a href="#comm">Community Support</a></li>
                             <li><a href="#hw">Hardware Certification</a></li>
@@ -32,10 +32,8 @@
                             &ndash; see <a href="https://forums.mageia.org/en/viewforum.php?f=20">other
                                 Mageia community forums</a> for support in your language;</li>
                         <li>IRC channels where you can discuss live with other Mageia users and contributors:
-                            <ul>
-                                <li><a href="irc://irc.freenode.net/#mageia" hreflang="en">#mageia</a>,</li>
-                                <li>or other localized <a href="http://mageia.org/wiki/doku.php?id=irc#channels_in_other_languages">channels</a>;</li>
-                            </ul>
+                            <a href="irc://irc.freenode.net/#mageia" hreflang="en">#mageia</a>
+                            or other localized <a href="http://mageia.org/wiki/doku.php?id=irc#channels_in_other_languages">channels</a>;
                         </li>
                         <li>our <a href="http://mageia.org/wiki/">Wiki</a> (still rough at the time, we're working on it!).</li>
                         <li>(to be done: mailing-lists, documentation, local events info)</li>
@@ -44,18 +42,25 @@
                     <hr />
 
                     <h2 id="hw">Hardware Certification</h2>
-                    <p>Mageia software runs on most of today's available x86 computer systems.</p>
+                    <p>Mageia software runs on most of x86 computer systems available as of today, April 2011.</p>
 
-		    <p>You can follow this hardware requirement list:</p>
-		    <ul class="hl">
-		    	<li>Processor: any AMD, Intel or VIA processor</li>
-			<li>Memory (RAM): 512 MB minimum, 2 GB recommended</li>
-			<li>Storage (HDD): 1 GB for a minimal installation, 6 GB for a full setup</li>
-			<li>Optical drive: CD or DVD depending on the ISO you use (network installation available)</li>
-			<li>Graphic card: any ATI, Intel, Matrox, nVidia, SiS or VIA graphic card</li>
-			<li>Sound card: any AC97, HDA or sound blaster sound card</li>
-		    </ul>
-                    <p>For some kind of hardware like wifi chipsets or 3D graphic cards, you may need to add the "nonfree" repository to your system.</p>
+                    <p>You can follow this hardware requirements list:</p>
+                    <ul class="hl">
+                        <li>Processor: any AMD, Intel or VIA processor;</li>
+                        <li>Memory (RAM): 512MB minimum, 2GB recommended;</li>
+                        <li>Storage (HDD): 1GB for a minimal installation, 6GB for a full setup;</li>
+                        <li>Optical drive: CD or DVD depending on the ISO you use (network installation available);</li>
+                        <li>Graphic card: any ATI, Intel, Matrox, nVidia, SiS or VIA graphic card;</li>
+                        <li>Sound card: any AC97, HDA or Sound Blaster sound card.</li>
+                    </ul>
+                    <p>Some additional, proprietary software may be required for some kind of hardware
+                        like Wi-Fi chipsets or 3D graphic cards to work properly.
+                        This software is available in a specific software repository called "nonfree"
+                        (learn more) and will be automatically suggested at install time.</p>
+                    <p class="dlinfo">We may set up a hardware compatibility list/directory, however that's
+                        still at the planning stage. Feel free to join/contact our
+                        <a href="/wiki/doku.php?id=web">Web</a> and <a href="/wiki/doku.php?id=qateam">QA</a> teams
+                        if you would like to help in this regard.</p>
 
                     <hr />
 
