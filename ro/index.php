@@ -2,8 +2,8 @@
 <html dir="ltr" lang="ro">
 <head>
     <meta charset="utf-8">
-    <title>Mageia - O nouă distribuție comunitară de Linux</title>
-    <meta name="description" content="Mageia este o nouă distribuție comunitară de Linux.">
+    <title>Mageia - O nouă distribuție Linux</title>
+    <meta name="description" content="Mageia este o nouă distribuție Linux.">
     <meta name="keywords" content="mageia, linux, mandriva, free software">
 
     <link rel="stylesheet" type="text/css" href="/g/style/all.css" />
@@ -13,7 +13,7 @@
     <?php include '../langs.php'; ?>
 
     <div id="doc" class="yui-t7">
-        <div id="hd" role="banner"><h1><a id="logo" href="/"><span>Mageia</span></a> <span class="lsep">|</span> <span class="subh">O nouă distribuție comunitară de Linux</span></h1></div>
+        <div id="hd" role="banner"><h1><a id="logo" href="/"><span>Mageia</span></a> <span class="lsep">|</span> <span class="subh">O nouă distribuție Linux</span></h1></div>
         <div id="bd" role="main">
             <div class="yui-g bb1">
                 <div class="para"><p>Mageia este o derivație de Mandriva Linux, ce se bazează pe o  organizație
