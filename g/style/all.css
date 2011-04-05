@@ -49,6 +49,18 @@ h3 a {
   color: #3494d3;
   text-decoration: none;
 }
+.report-a-bug h3 {
+  color: #222;
+}
+
+code.term,
+pre.term {
+  background: #444;
+  display: block;
+  color: #eee;
+  padding: 0.8em 1em;
+  -webkit-box-shadow: 0 0 10px #aaa;
+}
 
 hr {
   display: block;
@@ -121,6 +133,7 @@ hr {
   height: 84px;
   line-height: 76px;
 }
+.subh em.tag { color: orange; }
 
 .hl > li { margin-bottom: 0.6em; }
 
@@ -146,9 +159,10 @@ ul#people li { list-style: disc; margin-bottom: 0.2em; }
 .qsidesummary {
   float: right;
   border: 1px solid #aaa;
-  padding: 0 0 2em 0;
+  padding: 0 0 1em 1em;
   margin: 0 0 2em 1em;
 }
+.qsidesummary.testday { float: none; background: #FFF380; border-color: orange; padding: 0.8em; margin: 0 0 1em 0; font-size: 85%; }
 
 .nav2 { width: 695px; margin: 0 auto; position: relative; }
 p.loc { font-size: 0.9em; padding: 0.5em 0; color: #ccc; width: 695px; margin: 0 auto; text-align: left; }
@@ -247,3 +261,5 @@ span.pop_4 { width: 35px; }
 span.pop_5 { width: 50px; }
 .dlinfo { font-size: 85%; color: #888; }
 .dlt2 tr.reco td { font-weight: bold; }
+
+.hidden { display: none; }
