@@ -151,23 +151,23 @@ class Downloads
     */
     function get_country($ip)
     {
-        error_log(sprintf('in get_country with %s.', $ip));
-
         if ($ip == '127.0.0.1' || $ip == '::1')
             return null;
 
-        if (!function_exists('geoip_open')) {
-            require_once '../../lib/maxmind/geoip/geoip.inc.php';
+        if (function_exists('geoip_country_code_by_name'))
+        {
+            $loc = geoip_country_code_by_name($ip);
         }
-        $gi = geoip_open(realpath('../../lib/maxmind/geoip/GeoIP.dat'),
-            GEOIP_STANDARD);
-        $loc = geoip_country_code_by_addr($gi, $ip);
-        geoip_close($gi);
-
+        else
+        {
+            require_once '../../lib/maxmind/geoip/geoip.inc.php';
+            $gi = geoip_open(realpath('../../lib/maxmind/geoip/GeoIP.dat'),
+                GEOIP_STANDARD);
+            $loc = geoip_country_code_by_addr($gi, $ip);
+            geoip_close($gi);
+        }
         if (trim($loc) == '' || is_null($loc))
             return null;
-
-        error_log(sprintf('in get_country: %s', $loc));
 
         return strtoupper($loc);
     }
@@ -192,7 +192,7 @@ class Downloads
         
         if (!$force && isset($_SESSION['dl-data']))
         {
-            error_log(sprintf('Got session data: %s', print_r($_SESSION['dl-data'], true)));
+            //error_log(sprintf('Got session data: %s', print_r($_SESSION['dl-data'], true)));
             $system  = $_SESSION['dl-data']['system'];
             if (isset($_GET['mirror']))
             {
@@ -209,7 +209,7 @@ class Downloads
         }
         else
         {
-            error_log('getting platform');
+            //error_log('getting platform');
             $system = self::get_platform($_SERVER['HTTP_USER_AGENT']);
             if (isset($_GET['mirror']))
             {
@@ -219,7 +219,7 @@ class Downloads
             }
             else
             {
-                error_log('no mirror set yet');
+                //error_log('no mirror set yet');
                 if (isset($_SERVER['HTTP_X_FORWARDED_FOR'])
                     && $str = $_SERVER['HTTP_X_FORWARDED_FOR'])
                 {
