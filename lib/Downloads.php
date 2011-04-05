@@ -156,7 +156,7 @@ class Downloads
         if ($ip == '127.0.0.1' || $ip == '::1')
             return null;
 
-        if (!defined('geoip_open')) {
+        if (!defined('geoip_country_code_by_name')) {
             require_once '../../lib/maxmind/geoip/geoip.inc.php';
         }
         $gi = geoip_open(realpath('../../lib/maxmind/geoip/GeoIP.dat'),
