@@ -54,7 +54,7 @@ else {
 
 $relocation = null;
 if (!is_null($dl_link))
-    $relocation = sprintf('<meta http-equiv="refresh" content="5;%s">', $dl_link);
+    $relocation = sprintf('<meta http-equiv="refresh" content="3;%s">', $dl_link);
 
 $title = 'Mageia 1 beta1';
 
