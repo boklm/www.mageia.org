@@ -32,7 +32,10 @@
                 <div class="yui-u first"><div class="para" style="padding-right: 0;">
                     <h2><?php echo $_t['changes_since_a2']; ?></h2>
                     <ul>
-                        <li>...</li>
+                        <li>better locales integration - asian languages especially</li>
+                        <li>LibreOffice localization</li>
+                        <li>improved visual identity integration</li>
+                        <li>still more packages</li>
                     </ul>
                 </div></div>
                 <div class="yui-u"><div class="para">
