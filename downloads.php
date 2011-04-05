@@ -72,9 +72,15 @@ $dl_table = <<<T
     {$s}
     </tbody>
 </table>
-<p class="dlinfo">All supported languages are: Deutsch, English, español, français, italiano, português.</p>
+<p class="dlinfo"><strong>Live CDs will be released on coming Thursday at the latest.</strong></p>
+<p class="dlinfo">Up to 137 locales are supported, among which: Deutsch, English, español, français, italiano, português,
+    svenska, nederlands, polski, dansk, 
+    and so much more!
+    See the <a href="http://mageia.org/wiki/doku.php?id=tmp:supported_locales">comprehensive list</a>.</p>
+<!--
 <p class="dlinfo">Europa set of languages is: Deutsch, English, español, français, italiano, português.
     More languages will be made available for the stable release.</p>
+-->
 T;
 
 

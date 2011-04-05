@@ -98,10 +98,10 @@ Note that translations are on their way.',
     ),
     'de' => array(
         'download' => 'herunterladen',
-        'page_title' => 'Mageia 1 Beta 1 herunterladen',
+        'page_title' => 'Mageia 1 Beta1 herunterladen',
         'page_desc' => 'Wo man die Mageia-Installer- und -Live-ISOs herunterladen kann.',
         'page_kw' => 'Mageia, Software, Download, Herunterladen, Betriebssystem, ISO, Computer, torrent, ftp',
-        'page_h1' => 'Mageia 1 <em class="tag">Beta 1</em> herunterladen',
+        'page_h1' => 'Mageia 1 <em class="tag">Beta1</em> herunterladen',
         'warn_1' => 'Seien Sie vorsichtig!
             Diese Version ist NICHT GEDACHT FÜR: tägliche Benutzung, Testberichte, persönliche oder Produkt-Evaluierung.
             Diese Version ist GEDACHT FÜR: Tests von Entwicklern und Paketbauern.',
@@ -131,16 +131,18 @@ Note that translations are on their way.',
                 Bitte verlinken Sie es in jedem Fall zu <a href="http://mageia.org/">mageia.org</a>.',
         'report_bug' => 'Wenn Sie einen Bug (= Fehlverhalten) feststellen, finden Sie <a href="">hier eine Anleitung</a>
                     zur Eintragung des Fehlers in unsere Bug-Datenbank, so dass wir ihn in der bestmöglichen Art bearbeiten können.',
-        'notify_web' => 'Falls Sie Probleme mit dem Download oder der Download-Seite feststellen, informieren Sie bitte das Web team im
+        'notify_web' => 'Falls Sie Probleme mit dem Download oder der Download-Seite feststellen, informieren Sie bitte das Webteam im
 <a href="irc://irc.freenode.net/#mageia-web">#mageia-web</a> Freenode IRC Kanal, so dass wir den Fehler so schnell wie möglich beseitigen können.
 Beachten Sie, dass an der Übersetzung noch gearbeitet wird.',
         'wanttohelp?' => 'Wollen Sie mithelfen? %sMachen Sie bei uns mit!%s',
         'ucanhelp' => 'Ja, Sie können das! Mageia ist das Resultat der Überzeugung und der Zusammenarbeit vieler glücklicher Freiwilliger aus allen Teilen der Welt.',
         'wherehelp' => 'Es gibt eine Menge von Gebieten, auf denen Sie dem Projekt helfen können.
-            Diese reichen vom Eintreten für das Projekt, Produktentwicklung,
-            %sKommunikation%s und %sWeb Design &amp; Entwicklung über 
-            Softwaredesign, Entwicklung , %sLokalisierung%s, %sPaketbau%s und %sQA &amp; Testen%s bis hin zum Vertrieb, der Community-Unterstützung &amp; -Unterhaltung, sowie dem 
-            %sSpenden von Geld%s, Hardware, Hosting, Zeit und die Teilnahme an dem ganzen Spaß.'
+            Diese reichen vom Eintreten für das Projekt, der Produktentwicklung,
+            %sKommunikation%s und %sWeb Design &amp; Entwicklung%s über
+            Softwaredesign, Entwicklung , %sLokalisierung%s,
+            %sPaketbau%s und %sQA &amp; Testen%s bis hin zum Vertrieb, der
+            Community-Unterstützung &amp; -Unterhaltung, sowie dem %sSpenden von
+            Geld%s, Hardware, Hosting, Zeit und die Teilnahme an dem ganzen Spaß.'
     )
 
 );
