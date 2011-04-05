@@ -45,8 +45,8 @@ foreach ($prods as $k => $p) {
 
     $iso = sprintf('%s-%s', $glob['prefix'], $k);
 
-    $dl_link = sprintf('/en/downloads/dl.php?product=%s', $iso);
-    $bt_link = sprintf('/en/downloads/dl.php?product=%s&torrent=1', $iso);
+    $dl_link = sprintf('/%s/downloads/dl.php?product=%s', $locale, $iso);
+    $bt_link = sprintf('/%s/downloads/dl.php?product=%s&torrent=1', $locale, $iso);
     $pop = rand(0,5);
     $s .= sprintf($tmpl,
         '', //($i == 0) ? ' class="reco"' : '',
