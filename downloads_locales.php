@@ -9,11 +9,11 @@ $_t = array(
         'page_h1' => 'Download Mageia 1 <em class="tag">beta1</em>',
         'warn_1' => 'Be Careful!
             This is NOT FOR: use, public review, personal or production evaluation.
-            This is FOR: developers and packagers testing.',
+            This is FOR: developers, packagers, test users ONLY.',
         'warn_2' => 'Whatever you may do with the provided ISO disc image
                 will be done at your own risk, with your own responsibility.',
         'title_ok' => 'You still want to download and test Mageia 1 beta1?',
-        'dl_help' => 'Just pick the ISO image that is best for you; if you are not sure, you should pick among the first ones.',
+        'dl_help' => 'Just pick the ISO image that is best for you; if you are not sure, you should pick from the first two.',
         'changes_since_a2' => 'Changes since Alpha 2',
         'release_docs' => 'Release Documents',
         'whatismageia' => 'What is Mageia?',

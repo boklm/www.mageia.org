@@ -47,7 +47,7 @@
                         <li><a href="/"><?php echo $_t['whatismageia']; ?></a></li>
                     </ul>
                     <p>Beta 2 will be released on April, 25<sup>th</sup>.</p>
-                    <p>You can check our <a href="http://mageia.org/wiki/doku.php?id=iso_1_specifications#expected_milestones">roadmap for Mageia 1</a>.</p>
+                    <p>You can check our <a href="http://mageia.org/wiki/doku.php?id=iso_1_specifications#expected_milestones">roadmap for Mageia 1 here</a>.</p>
                 </div></div>
             </div>
         </div>
