@@ -77,8 +77,11 @@ $nav_list = array(
         'tr' => 'Web Günlüğü',
         'ru' => 'Блог'
     ),
-    "/{$locale}/alpha/" => 'Alpha',
-    //locale_path('alpha') => 'Alpha', 
+    "/{$locale}/downloads/" => array(
+        'de' => 'Beta1 herunterladen',
+        'en' => 'Download Beta1',
+        'fr' => 'Télécharger Beta1',
+    ),
     '/wiki/' => array(
         'en' => 'Wiki',
         'ru' => 'Вики'
