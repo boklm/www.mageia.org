@@ -32,10 +32,21 @@ $product_iso = $product . '.iso';
 $wsd = new Downloads('en', null);
 $a = $wsd->prepare_download(null, true);
 
-if (isset($p['path']))
-    $dl_link = sprintf('%s/%s', $a['mirror_url'], $p['path']);
-else
-    $dl_link =  sprintf('%s/%s/%s', $a['mirror_url'], 'iso/cauldron', $product_iso);
+if ($torrent) {
+    if (isset($p['torrent'])) {
+        $dl_link = sprintf('%s/%s', $a['mirror_url'], $p['torrent']);
+    }
+    else {
+        header('Location: /downloads/');
+        die;
+    }
+}
+else {
+    if (isset($p['path']))
+        $dl_link = sprintf('%s/%s', $a['mirror_url'], $p['path']);
+    else
+        $dl_link =  sprintf('%s/%s/%s', $a['mirror_url'], 'iso/cauldron', $product_iso);
+}
 
 // @fixme (rda) actually, http-equiv="refresh" is deprecated behaviour now.
 // @fixme (rda) see http://www.w3.org/TR/WCAG10-HTML-TECHS/#meta-element
