@@ -37,14 +37,13 @@ if (isset($p['path']))
 else
     $dl_link =  sprintf('%s/%s/%s', $a['mirror_url'], 'iso/cauldron', $product_iso);
 
-$relocation = $dl_link;
-
 // @fixme (rda) actually, http-equiv="refresh" is deprecated behaviour now.
 // @fixme (rda) see http://www.w3.org/TR/WCAG10-HTML-TECHS/#meta-element
 // @fixme (rda) possible alternative: post-load setTimeOut("document.location=url;", 5000); but requires JS
 
-if (!is_null($relocation))
-    $relocation = sprintf('<meta http-equiv="refresh" value="5;%s">', $relocation);
+$relocation = null;
+if (!is_null($dl_link))
+    $relocation = sprintf('<meta http-equiv="refresh" value="5;%s">', $dl_link);
 
 $title = 'Mageia 1 beta1';
 
@@ -73,6 +72,7 @@ $dl2_mirror_alt = sprintf($_t['dl_mirror_loc'],
     <title><?php echo $title; ?> | Mageia Downloads</title>
     <meta name="robots" content="noindex,nofollow,nosnippet">
     <link rel="stylesheet" type="text/css" href="/g/style/all.css" >
+    <?php echo $relocation; ?>
     <?php include '../../analytics.php'; ?>
 </head>
 <body>
