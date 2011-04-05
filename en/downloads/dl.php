@@ -136,7 +136,7 @@ $ sha1 <?php echo $product_iso, "\n", $p['sha1'], "\n"; ?>
                     <p><strong>Test days &rArr; April 8 &amp; 9!</strong></p>
                     <p>To speed up fixes &amp; improvements for beta2, we organize
                         two test days for beta1 in the coming days.</p>
-                    <p><a href="">Learn more!</a></p>
+                    <p>Stay tuned, details coming soon!</p>
                 </div>
 
                 <p><?php echo sprintf($_t['wherehelp'],
