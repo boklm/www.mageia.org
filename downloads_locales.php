@@ -143,6 +143,102 @@ Beachten Sie, dass an der Übersetzung noch gearbeitet wird.',
             %sPaketbau%s und %sQA &amp; Testen%s bis hin zum Vertrieb, der
             Community-Unterstützung &amp; -Unterhaltung, sowie dem %sSpenden von
             Geld%s, Hardware, Hosting, Zeit und die Teilnahme an dem ganzen Spaß.'
-    )
+    ),
+    'nl' => array(
+        'download' => 'download',
+        'page_title' => 'Download Mageia 1 beta1',
+        'page_desc' => 'Waar u Mageia installeerbare en live ISO-images kunt downloaden.',
+        'page_kw' => 'mageia, software, download, operating system, ISO, computer, torrent, ftp',
+        'page_h1' => 'Download Mageia 1 <em class="tag">beta1</em>',
+        'warn_1' => 'Voorzichtig!
+            Dit is NIET BEDOELD VOOR: dagelijks gebruik, publieke recencies, evaluatie voor persoonlijk gebruik of in een produktieomgeving.
+            Dit is WEL BEDOELD VOOR: Mageia ontwikkelaars en het testen door packagers.',
+        'warn_2' => 'Het gebruik van de aangeboden ISO-image is geheel voor uw eigen risico en rekening, en voor eigen verantwoordelijkheid.',
+        'title_ok' => 'U wilt nog steeds Mageia 1 beta1 downloaden?',
+        'dl_help' => 'Kies het ISO-bestand welke voor u het beste is; Mocht u twijfelen dan kunt u het beste een van de eersten kiezen.',
+        'changes_since_a2' => 'Veranderingen sinds Alpha 2',
+        'release_docs' => 'Release Documenten',
+        'whatismageia' => 'Wat is Mageia?',
+        'size' => 'Omvang',
+        'flavour' => 'Smaak',
+        'language' => 'Taal',
+        'link' => 'Directe link',
+        'dl_shld_start' => 'Uw download van %s behoort binnen enkele seconden te starten',
+        'dl_size' => '(download grootte is ongeveer %s).',
+        'alt_download' => 'Wanneer de download niet start, <a href="%s" rel="nofollow" title="%s">klikt u hier</a>.',
+        'signs_check_1' => 'Wanneer de download klaar is dient u te controleren dat de ondertekeningen overeenkomen:',
+        'signs_check_2' => 'Als de ondertekeningen niet overeenkomen dient u deze ISO niet te gebruiken. Controleer nogmaals de ondertekeningen en of u het goede bestand heeft en probeert u de download dan nogmaals.',
+        'dl_mirror_loc' => 'Deze <a href="%s">%s</a> spiegelserver bevindt zich in %s (%s).',
+        'dl_alt_mirrors' => 'Mocht deze server voor u niet goed bereikbaar zijn, <a href="#om" id="other_mirrors_btn">kijkt u dan eens naar deze andere spiegelservers</a>.',
+        'whatdouthink?' => 'Wat vindt u ervan?',
+        'give_feedback' => 'Graag horen wij uw bevindingen met Mageia 1 beta1, waar u dat het beste uitkomt:
+                op <a href="http://forums.mageia.org/">onze fora</a>,
+                <a href="http://blog.mageia.org/">ons blog</a>, op <em>uw</em> blog,
+                op Twitter (<a href="http://twitter.com/mageia_org">@mageia_org</a>).
+                Linkt u alstublieft naar <a href="http://mageia.org/">mageia.org</a>.',
+        'report_bug' => 'Mocht u een fout (bug) tegenkomen, ziet u dan <a href="/en/support/report-a-bug/">hoe deze te rapporteren</a>
+                    naar onze foutendatabase zodat wij dit zo goed en snel als mogelijk kunnen oplossen.',
+        'notify_web' => 'Mocht u een probleem ondervinden met het proces van downloaden of deze download pagina\'s, neemt u dan alstublieft contact op met het Web-team op het
+<a href="irc://irc.freenode.net/#mageia-web">#mageia-web</a> Freenode IRC-kanaal zodat we het zo snel mogelijk kunnen oplossen.
+Wij zijn druk bezig met vertalingen naar andere talen.',
+        'wanttohelp?' => 'Wilt u ons helpen? %sDoe met ons mee!%s',
+        'ucanhelp' => 'U kunt ons helpen! Mageia is het resultaat van de motivatie van en samenwerking tussen vele vrijwilligers van over de hele wereld.',
+        'wherehelp' => 'Er zijn een hoop dingen waarmee u kunt bijdragen aan de ontwikkeling en het succes van Mageia.
+            Zoals: promotie akties, prototypes,
+            %scommunicatie%s, %sWeb design &amp; ontwikkelen%s,
+            software ontwerpen, software ontwikkeling,
+            %slocalisatie%s, %srpm-pakketten maken%s, %sQA &amp; testen%s,
+            gebruikersondersteuning,
+            %sgelddonaties%s,
+            hardware donaties, hosting, tijd, en delen in het plezier!'
+    ),
+    'et' => array(
+        'download' => 'laadi alla',
+        'page_title' => 'Mageia 1 beta1 allalaadimine',
+        'page_desc' => 'Mageia ISO-tõmmiste allalaadimine paigaldamiseks ja kasutamiseks Live-süsteemina.',
+        'page_kw' => 'mageia, tarkvara, allalaadimine, operatsioonisüsteem, ISO, arvuti, torrent, ftp',
+        'page_h1' => 'Mageia 1 <em class="tag">beta1</em> allalaadimine',
+        'warn_1' => 'Ettevaatust!
+            See EI OLE: igapäevaseks kasutamiseks, avalikuks tutvustamiseks, isiklikuks või tööalaseks püsitarbimiseks.
+            See ON: testimiseks arendajatele ja pakendajatele.',
+        'warn_2' => 'Mida te ka ei võtaks pakutava ISO-tõmmisega ette,
+                teete te seda täielikult omal riisikol ja ise vastutades.',
+        'title_ok' => 'Kas soovite ikka veel Mageia 1 beta1 alla laadida ja testida?',
+        'dl_help' => 'Valige lihtsalt kõige paremini sobiv ISO-tõmmis. Kui te pole kindel, valige mõni esimeste seast.',
+        'changes_since_a2' => 'Muudatused pärast Alpha 2',
+        'release_docs' => 'Väljalaskedokumendid',
+        'whatismageia' => 'Mis on Mageia?',
+        'size' => 'Suurus',
+        'flavour' => 'Variant',
+        'language' => 'Keel',
+        'link' => 'Otselink',
+        'dl_shld_start' => '%s allalaadimine peaks algama mõne sekundi pärast',
+        'dl_size' => '(alla tuleb laadida umbes %s).',
+        'alt_download' => 'Kui allalaadimine ei alga, <a href="%s" rel="nofollow" title="%s">klõpsake siia</a>.',
+        'signs_check_1' => 'Niipea kui allalaadimine on lõpetatud, tuleks kontrollida signatuuride vastavust:',
+        'signs_check_2' => 'Kui signatuurid ei klapi, ärge kasutage seda ISO-t. Kontrollige veel kord ja püüdke ISO uuesti alla laadida.',
+        'dl_mirror_loc' => 'Selle <a href="%s">%s</a> allalaadimise peegelsaidi asukohaks on %s (%s).',
+        'dl_alt_mirrors' => 'Kui see teie puhul ei toimi, <a href="#om" id="other_mirrors_btn">proovige kasutada teisi peegelsaite</a>.',
+        'whatdouthink?' => 'Kuidas see teile meeldib?',
+        'give_feedback' => 'Me ootame väga teie muljeid Mageia 1 beta1 kohta, mida te võite jagada näiteks järgmistes kohtades:
+                <a href="http://forums.mageia.org/">meie foorumites</a>,
+                <a href="http://blog.mageia.org/">meie ajaveebis</a>, <em>oma</em> ajaveebis,
+                Twitteris (<a href="http://twitter.com/mageia_org">@mageia_org</a>).
+                Igal juhul viidake palun aadressile <a href="http://mageia.org/">mageia.org</a>.',
+        'report_bug' => 'Kui satute silmitsi veaga, vaadake palun, <a href="/en/support/report-a-bug/">kuidas sellest teada anda</a>
+                    meie vigade andmebaasis, et võiksime probleemi lahendada parimal viisil.',
+        'notify_web' => 'Kui satute silmitsi probleemiga allalaadimise edenemise ajal või allalaadimiste lehekülgedel, teavitage palun sellest
+veebimeeskonda Freenode IRC-kanalil <a href="irc://irc.freenode.net/#mageia-web">#mageia-web</a>, et võiksime probleemi lahendada võimalikult ruttu.',
+        'wanttohelp?' => 'Kas soovite aidata? %sÜhinege meiega!%s',
+        'ucanhelp' => 'Jah, ka teie saate aidata! Mageia kujutab endast kogu maailma paljude õnnelike vabatahtlike soovide ja koostöö tulemust.',
+        'wherehelp' => 'Te saate projektile kaasa aidata mitmel moel.
+            Selleks võib olla reklaamimise vallas eeskuju andmine,
+            %ssuhtlemine%s, %sveebikujundus ja arendamine%s,
+            tarkvara vallas selle väljatöötamine ja arendamine,
+            %stõlkimine%s, %spakendamine%s, %skvaliteedikontroll ja testimine%s,
+            levitamine, kogukonna puhul toetus ja kogukonna elavdamine,
+            %sraha annetamine%s,
+            riistvara, majutuse ja aja pakkumine, kas või lihtsalt lõbu pärast kaasalöömine.'
+    ),
 
 );
