@@ -3,7 +3,7 @@
 require_once '../langs.inc.php';
 
 $langs = array(
-//    'de' => 'Deutsch',
+    'de' => 'Deutsch',
 //    'el' => 'Ελληνικά',
     'en' => 'English',
 //    'es' => 'Español',

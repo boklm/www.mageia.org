@@ -95,6 +95,52 @@ Note that translations are on their way.',
             la livraison, le support et l&rsquo;animation communautaires,
             en %soffrant de l&rsquo;argent%s, du matériel, de l&rsquo;hébergement,
             du temps, for sharing the fun.'
-        
+    ),
+    'de' => array(
+        'download' => 'herunterladen',
+        'page_title' => 'Mageia 1 Beta 1 herunterladen',
+        'page_desc' => 'Wo man die Mageia-Installer- und -Live-ISOs herunterladen kann.',
+        'page_kw' => 'Mageia, Software, Download, Herunterladen, Betriebssystem, ISO, Computer, torrent, ftp',
+        'page_h1' => 'Mageia 1 <em class="tag">Beta 1</em> herunterladen',
+        'warn_1' => 'Seien Sie vorsichtig!
+            Diese Version ist NICHT GEDACHT FÜR: tägliche Benutzung, Testberichte, persönliche oder Produkt-Evaluierung.
+            Diese Version ist GEDACHT FÜR: Tests von Entwicklern und Paketbauern.',
+        'warn_2' => 'Alles, was Sie mit den angebotenen ISO-Abbildern machen geschieht 
+                auf Ihr eigenes Risiko, in Ihrer eigenen Verantwortung.',
+        'title_ok' => 'Sie wollen jetzt Mageia 1 Beta1 herunterladen und testen?',
+        'dl_help' => 'Suchen Sie sich das für Sie passende ISO-Abbild aus. Falls Sie nicht sicher sind, sollten Sie eines der ersten Abbilder auswählen.',
+        'changes_since_a2' => 'Änderungen seit Alpha 2',
+        'release_docs' => 'Dokumente zum Release',
+        'whatismageia' => 'Was ist Mageia?',
+        'size' => 'Größe',
+        'flavour' => 'Variante',
+        'language' => 'Sprache',
+        'link' => 'Direktlink',
+        'dl_shld_start' => 'Der Download von %s sollte innerhalb weniger Sekunden starten',
+        'dl_size' => '(Größe des Downloads beträgt %s).',
+        'alt_download' => 'Falls der Download nicht starten sollte, <a href="%s" rel="nofollow" title="%s">klicken Sie hier</a>.',
+        'signs_check_1' => 'Sobald der Download abgeschlossen ist, sollten Sie die Signaturen vergleichen:',
+        'signs_check_2' => 'Verwenden Sie dieses ISO-Abbild nicht, falls die Signaturen nicht übereinstimmen. Vergleichen Sie sie erneut und starten Sie den Download erneut.',
+        'dl_mirror_loc' => 'Dieser <a href="%s">%s</a> Download-Server befindet sich in %s (%s).',
+        'dl_alt_mirrors' => 'Falls dieser nicht zufriedenstellend funktioniert, <a href="#om" id="other_mirrors_btn">können Sie einen der anderen Server nutzen</a>.',
+        'whatdouthink?' => 'Was halten Sie davon?',
+        'give_feedback' => 'Schildern Sie uns Ihre Eindrücke von Mageia 1 Beta 1 auf einer der folgenden Plattformen:
+                in <a href="http://forums.mageia.org/">unserem Forum</a>,
+                <a href="http://blog.mageia.org/de">unserem Blog</a>, in <em>Ihrem</em> Blog,
+                auf Twitter (<a href="http://twitter.com/mageia_org">@mageia_org</a>).
+                Bitte verlinken Sie es in jedem Fall zu <a href="http://mageia.org/">mageia.org</a>.',
+        'report_bug' => 'Wenn Sie einen Bug (= Fehlverhalten) feststellen, finden Sie <a href="">hier eine Anleitung</a>
+                    zur Eintragung des Fehlers in unsere Bug-Datenbank, so dass wir ihn in der bestmöglichen Art bearbeiten können.',
+        'notify_web' => 'Falls Sie Probleme mit dem Download oder der Download-Seite feststellen, informieren Sie bitte das Web team im
+<a href="irc://irc.freenode.net/#mageia-web">#mageia-web</a> Freenode IRC Kanal, so dass wir den Fehler so schnell wie möglich beseitigen können.
+Beachten Sie, dass an der Übersetzung noch gearbeitet wird.',
+        'wanttohelp?' => 'Wollen Sie mithelfen? %sMachen Sie bei uns mit!%s',
+        'ucanhelp' => 'Ja, Sie können das! Mageia ist das Resultat der Überzeugung und der Zusammenarbeit vieler glücklicher Freiwilliger aus allen Teilen der Welt.',
+        'wherehelp' => 'Es gibt eine Menge von Gebieten, auf denen Sie dem Projekt helfen können.
+            Diese reichen vom Eintreten für das Projekt, Produktentwicklung,
+            %sKommunikation%s und %sWeb Design &amp; Entwicklung über 
+            Softwaredesign, Entwicklung , %sLokalisierung%s, %sPaketbau%s und %sQA &amp; Testen%s bis hin zum Vertrieb, der Community-Unterstützung &amp; -Unterhaltung, sowie dem 
+            %sSpenden von Geld%s, Hardware, Hosting, Zeit und die Teilnahme an dem ganzen Spaß.'
     )
+
 );
