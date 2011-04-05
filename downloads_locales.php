@@ -40,7 +40,15 @@ $_t = array(
 <a href="irc://irc.freenode.net/#mageia-web">#mageia-web</a> Freenode IRC channel so we can sort it out as fast as possible.
 Note that translations are on their way.',
         'wanttohelp?' => 'Want to help? %sJoin Us!%s',
-        'ucanhelp' => 'Yes you can! Mageia is the result of the will and collaboration of many happy fellow volunteers across the world.'
+        'ucanhelp' => 'Yes you can! Mageia is the result of the will and collaboration of many happy fellow volunteers across the world.',
+        'wherehelp' => 'There is a lot of areas where one can contribute to the project.
+            Be it for advocacy, prototyping,
+            %scommunication%s, %sWeb design &amp; development%s,
+            for software design, development,
+            %slocalization%s, %spackaging%s, %sQA &amp; testing%s,
+            delivery, for community support &amp; animation,
+            for %sdonating money%s,
+            hardware, hosting, time, for sharing the fun.'
     ),
     'fr' => array(
         'download' => 'télécharger',
@@ -79,7 +87,14 @@ Note that translations are on their way.',
         merci d&rsquo;en informer l&rsquo;équipe Web sur le canal IRC Freenode
         <a href="irc://irc.freenode.net/#mageia-web">#mageia-web</a>.',
         'wanttohelp?' => 'Vous voulez %sparticiper%s&nbsp;?',
-        'ucanhelp' => 'Vous le pouvez&nbsp;! Mageia est le résultat des volontés et travaux de nombreux joyeux contributeurs à travers le monde.'
+        'ucanhelp' => 'Vous le pouvez&nbsp;! Mageia est le résultat des volontés et travaux de nombreux joyeux contributeurs à travers le monde.',
+        'wherehelp' => 'Il y a de multiples façons de contribuer à Mageia.
+            Par la %scommunication%s, la %sdesign et développement Web%s,
+            la conception et le développement de logiciels,
+            la %straduction%s, le %spackaging%s, les %stests et la qualité%s,
+            la livraison, le support et l&rsquo;animation communautaires,
+            en %soffrant de l&rsquo;argent%s, du matériel, de l&rsquo;hébergement,
+            du temps, for sharing the fun.'
         
     )
 );

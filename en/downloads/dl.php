@@ -128,20 +128,14 @@ $ sha1 <?php echo $product_iso, "\n", $p['sha1'], "\n"; ?>
                     <p><a href="">Learn more!</a></p>
                 </div>
 
-                <p>There is a lot of areas where one can contribute to the project.
-                    Be it for advocacy,
-                    prototyping,
-                    <a href="http://mageia.org/wiki/doku.php?id=marketing">communication</a>,
-                    <a href="http://mageia.org/wiki/doku.php?id=web">Web design &amp; development</a>,
-                    for software design,
-                    development,
-                    <a href="http://mageia.org/wiki/doku.php?id=translators">localization</a>,
-                    <a href="http://mageia.org/wiki/doku.php?id=packaging">packaging</a>,
-                    <a href="http://mageia.org/wiki/doku.php?id=qateam">QA &amp; testing</a>,
-                    delivery,
-                    for community support &amp; animation,
-                    for <a href="http://mageia.org/donate/">donating money</a>,
-                    hardware, hosting, time, for sharing the fun.</p>
+                <p><?php echo sprintf($_t['wherehelp'],
+                    '<a href="http://mageia.org/wiki/doku.php?id=marketing">', '</a>',
+                    '<a href="http://mageia.org/wiki/doku.php?id=web">', '</a>',
+                    '<a href="http://mageia.org/wiki/doku.php?id=translators">', '</a>',
+                    '<a href="http://mageia.org/wiki/doku.php?id=packaging">', '</a>',
+                    '<a href="http://mageia.org/wiki/doku.php?id=qateam">', '</a>',
+                    '<a href="http://mageia.org/donate/">', '</a>'
+                ); ?>
             </div></div>
         </div>
     </div>
