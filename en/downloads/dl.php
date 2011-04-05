@@ -37,7 +37,7 @@ if (isset($p['path']))
 else
     $dl_link =  sprintf('%s/%s/%s', $a['mirror_url'], 'iso/cauldron', $product_iso);
 
-$relocation = '';
+$relocation = $dl_link;
 
 // @fixme (rda) actually, http-equiv="refresh" is deprecated behaviour now.
 // @fixme (rda) see http://www.w3.org/TR/WCAG10-HTML-TECHS/#meta-element
