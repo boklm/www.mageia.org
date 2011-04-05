@@ -20,8 +20,8 @@
                     <div class="qsidesummary">
                         <ul>
                             <li><a href="#comm">Community Support</a></li>
-                            <li><a href="#hw">Hardware Requirements</a></li>
                             <li><a href="#pro">Professional Support</a></li>
+                            <li><a href="#hw">Hardware Requirements</a></li>
                         </ul>
                     </div>
                     <h2 id="comm">Community Support</h2>
@@ -38,6 +38,14 @@
                         <li>our <a href="http://mageia.org/wiki/">Wiki</a> (still rough at the time, we're working on it!).</li>
                         <li>(to be done: mailing-lists, documentation, local events info)</li>
                     </ul>
+
+                    <hr />
+
+                    <h2 id="pro">Professional Support</h2>
+                    <p>Mageia.Org does not provide or endorse commercial/professional
+                        support or other services around the distribution.
+                        But there are organizations providing such services and more.</p>
+                    <p>Please check the <a href="/wiki/doku.php?id=commercial_vendors">commercial vendors</a> list.</p>
 
                     <hr />
 
@@ -64,33 +72,6 @@
                         if you would like to help in this regard.</p>
 
                     <hr />
-
-                    <h2 id="pro">Professional Support</h2>
-                    <p>Mageia.Org does not provide or endorse commercial/professional
-                        support or other services around the distribution.
-                        But there are organizations providing such services and more.</p>
-
-                    <ul class="hl">
-                        <li><p>name/link (based in city/country)
-                            &ndash; manages ?-speaking projects.<br />
-                            Provides ...</p>
-                            </li>
-                    </ul>
-
-                    <p>Please note that Mageia.Org is independant from these companies
-                        and does not endorse any responsability for the service
-                        provided by these.</p>
-
-                    <p>You might be interest in checking out our
-                        <em>Professional Guide to Mageia</em> as well (to be done).</p>
-
-                    <p>If you do provide professional services based on Mageia.Org software and would like
-                        to be listed above, please contact us at ....</p>
-                    <p>If you plan to build/provide such professional services as well, contact us too,
-                        we can help!</p>
-
-                    <hr />
-
                 </div>
             </div>
         </div>
