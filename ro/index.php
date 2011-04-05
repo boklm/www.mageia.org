@@ -5,8 +5,8 @@
     <title>Mageia - O nouă distribuție Linux</title>
     <meta name="description" content="Mageia este o nouă distribuție Linux.">
     <meta name="keywords" content="mageia, linux, mandriva, free software">
-
     <link rel="stylesheet" type="text/css" href="/g/style/all.css" />
+    <link rel="alternate" type="application/rss+xml" title="Mageia Blog (Română)" href="http://blog.mageia.org/ro/?feed=rss" />
     <?php include '../analytics.php'; ?>
 </head>
 <body>

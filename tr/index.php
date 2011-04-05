@@ -7,6 +7,7 @@
     <meta name="description" content="Mageia - Yeni Bir Linux Dağıtımı." />
     <meta name="keywords" content="mageia, linux, mandriva, free software" />
     <link rel="stylesheet" type="text/css" href="/g/style/all.css" />
+    <link rel="alternate" type="application/rss+xml" title="Mageia Blog (Türkçe)" href="http://blog.mageia.org/tr/?feed=rss" />
     <?php include '../analytics.php';?>
 </head>
 <body>

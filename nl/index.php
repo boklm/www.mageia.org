@@ -7,6 +7,7 @@
     <meta name="description" content="Mageia is een nieuwe Linux distributie die door de gebruikersgemeenschap ontwikkeld en ondersteund wordt." />
     <meta name="keywords" content="mageia, linux, mandriva, free software" />
     <link rel="stylesheet" type="text/css" href="/g/style/all.css" />
+    <link rel="alternate" type="application/rss+xml" title="Mageia Blog (Nederlands)" href="http://blog.mageia.org/nl/?feed=rss" />
     <?php include '../analytics.php';?>
 </head>
 <body>

@@ -4,6 +4,7 @@
     <meta name="description" content="Mageia è una distribuzione Linux basata sulla communità.">
     <meta name="keywords" content="mageia, linux, mandriva, software libero">
     <link rel="stylesheet" type="text/css" href="/g/style/all.css">
+    <link rel="alternate" type="application/rss+xml" title="Mageia Blog (italiano)" href="http://blog.mageia.org/it/?feed=rss" />
     <?php include '../analytics.php';?>
 </head><body>
     <?php include '../langs.php'; ?>

@@ -7,6 +7,7 @@
     <meta name="description" content="Mageia is new community-based Linux distribution." />
     <meta name="keywords" content="mageia, linux, mandriva, free software" />
     <link rel="stylesheet" type="text/css" href="/g/style/all.css" />
+    <link rel="alternate" type="application/rss+xml" title="Mageia Blog (English)" href="http://blog.mageia.org/en/?feed=rss" />
     <?php include '../analytics.php'; ?>
 </head>
 <body>
@@ -53,9 +54,14 @@
                                     <li><a href="mailto:press@mageia.org">press@mageia.org</a></li>
                                     <li>expect an answer within 2 days</li>
                                 </ul></li>
-                            <li><a href="http://www.twitter.com/mageia_org">twitter.com/mageia_org</a></li>
-                            <li><a href="http://identi.ca/mageia">identi.ca/mageia</a></li>
                         </ul>
+                        <p>
+                            <a href="http://blog.mageia.org/en/?feed=rss"><img src="/g/images/smi/feed-32x32.png" alt="Mageia Blog (English)"></a>
+                            <a href="http://www.twitter.com/mageia_org"><img src="/g/images/smi/twitter-32x32.png" alt="@mageia_org"></a>
+                            <a href="http://identi.ca/mageia"><img src="/g/images/smi/identica-32x32.png" alt="@mageia"></a>
+                            <a href="http://www.facebook.com/Mageia"><img src="/g/images/smi/facebook-32x32.png" alt="Mageia"></a>
+                            <a href="http://www.flickr.com/photos/mageia_org"><img src="/g/images/smi/flickr-32x32.png"></a>
+                        </p>
                         <!--
                         <p>Please do not use this address for discussions that can happen on above mailing-lists
                             or IRC channels.</p>

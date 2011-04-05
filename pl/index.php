@@ -7,6 +7,7 @@
     <meta name="description" content="Mageia jest nowš dystrybucjš Linuksa opartš na działaniach społecznoci." />
     <meta name="keywords" content="mageia, linux, mandriva, darmowe oprogramowanie" />
     <link rel="stylesheet" type="text/css" href="/g/style/all.css" />
+    <link rel="alternate" type="application/rss+xml" title="Mageia Blog (Polski)" href="http://blog.mageia.org/pl/?feed=rss" />
     <?php include '../analytics.php';?>
 </head>
 <body>
