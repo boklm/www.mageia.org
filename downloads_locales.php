@@ -34,7 +34,7 @@ $_t = array(
                 <a href="http://blog.mageia.org/">our blog</a>, on <em>your</em> blog,
                 on Twitter (<a href="http://twitter.com/mageia_org">@mageia_org</a>).
                 In any case, please link to <a href="http://mageia.org/">mageia.org</a>.',
-        'report_bug' => 'If you encounter a bug, please <a href="">see how to report it</a>
+        'report_bug' => 'If you encounter a bug, please <a href="/en/support/report-a-bug/">see how to report it</a>
                     in our bugs database so we can sort it out the best possible way.',
         'notify_web' => 'If you notice a problem with the download process/pages, please notify the Web team on
 <a href="irc://irc.freenode.net/#mageia-web">#mageia-web</a> Freenode IRC channel so we can sort it out as fast as possible.
@@ -82,7 +82,7 @@ Note that translations are on their way.',
             sur <a href="http://blog.mageia.org/fr/">notre blog</a>, sur <em>votre</em> blog,
             sur Twitter (<a href="http://twitter.com/mageia_org">@mageia_org</a>).
             Dans tous les cas, n&rsquo;oubliez pas de pointer vers <a href="http://mageia.org/">mageia.org</a>.',
-        'report_bug' => 'Si vous remarquez un bug, merci de <a href="">nous en informer</a> afin que nous puissions le corriger.',
+        'report_bug' => 'Si vous remarquez un bug, merci de <a href="/en/support/report-a-bug/">nous en informer</a> afin que nous puissions le corriger.',
         'notify_web' => 'Si vous rencontrez un problème pour télécharger cette beta,
         merci d&rsquo;en informer l&rsquo;équipe Web sur le canal IRC Freenode
         <a href="irc://irc.freenode.net/#mageia-web">#mageia-web</a>.',
