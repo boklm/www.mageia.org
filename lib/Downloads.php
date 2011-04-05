@@ -20,6 +20,13 @@ class Downloads
      * @param string $ua
      *
      * @return array
+     *
+     * @todo unit tests or use something else
+     * Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_4_11; fr) AppleWebKit/533.18.1 (KHTML, like Gecko) Version/4.1.2 Safari/533.18.5
+     * Mozilla/5.0 (X11; Linux i686; rv:2.0) Gecko/20110330 Firefox/4.0
+     * other old ones
+     *
+     * @todo refactor this
     */
     public static function get_platform($ua = null)
     {
@@ -32,15 +39,21 @@ class Downloads
             );
 
         $locale = null;
+
         if (preg_match_all('/([.^\(^\)]*) \((.*)\) (.*)/', $ua, $r))
         {
             $r = $r[2][0];
             $r = explode(';', $r);
-            $r = explode(')', trim($r[3]));
-            if (strlen($r[0]) > 5)
-                $r = substr($r[0], 0, 5);
+            if (isset($r[3])) {
+                $r = explode(')', trim($r[3]));
+                if (strlen($r[0]) > 5)
+                    $r = substr($r[0], 0, 5);
+                else
+                    $r = $r[0];
+            }
             else
-                $r = $r[0];
+                $r = null;
+
             $locale = $r;
         }
 
@@ -70,7 +83,7 @@ class Downloads
         return array(
             'arch'   => $arch,
             'system' => $sys,
-            'locale' => $locale,
+            'locale' => $locale, // FIXME (rda) use Accept-Language instead
             'browser' => $browser
         );
     }
