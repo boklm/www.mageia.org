@@ -19,37 +19,37 @@
                 <div class="para donate">
                     <div class="qsidesummary">
                         <ol>
-                            <li><a href="#comm">Update your system</a></li>
-                            <li><a href="#hw">Reproduce the bug</a></li>
-                            <li><a href="#pro">Go to bugs.mageia.org</a></li>
-                            <li><a href="">Search for similar bugs</a></li>
-                            <li><a href="">File a new bug</a></li>
-                            <li><a href="">Follow up</a></li>
-                            <li><a href="">Thank you!</a></li>
-                            <li><a href="">More</a></li>
+                            <li><a href="#update">Update your system</a></li>
+                            <li><a href="#reproduce">Reproduce the bug</a></li>
+                            <li><a href="#go">Go to bugs.mageia.org</a></li>
+                            <li><a href="#search">Search for similar bugs</a></li>
+                            <li><a href="#file">File a new bug</a></li>
+                            <li><a href="#follow">Follow up</a></li>
+                            <li><a href="#thx">Thank you!</a></li>
+                            <li><a href="#more">More</a></li>
                         </ol>
                     </div>
                     
-                    <h2>1. Update your system.</h2>
+                    <h2 id="update">1. Update your system.</h2>
                     <p>Make sure your system is up-to-date, 
                         and double-check if you still encounter the same bug.</p>
                     <p>If not, that means that an installed update may have fixed the bug
                         &ndash; you may stop here.</p>
                     
                     <hr />
-                    <h2>2. Reproduce the bug.</h2>
+                    <h2 id="reproduce">2. Reproduce the bug.</h2>
                     <p>Make sure you can reproduce the bug, and how you do it.</p>
                     <p>If not, it will be difficult for developers to identify and fix this bug.
                         But if you still think this is important enough to be reported, continue.</p>
 
                     <hr />
-                    <h2>3. Go to <a href="https://bugs.mageia.org/">bugs.mageia.org</a>.</h2>
+                    <h2 id="go">3. Go to <a href="https://bugs.mageia.org/">bugs.mageia.org</a>.</h2>
                     <p>&hellip; and sign in with <a href="https://identity.mageia.org/">your Mageia account</a>.
                         If you do not have an account yet,
                         you can <a href="https://identity.mageia.org/register">register one</a>.</p>
                     
                     <hr />
-                    <h2>4. Search for a similar bug.</h2>
+                    <h2 id="search">4. Search for a similar bug.</h2>
                     <p>This bug may have been reported already. So search for it using the search box.</p>
                     <p>If there is one such similar bug:</p>
                     <ul>
@@ -62,7 +62,7 @@
                     <p>If you found no similar bug, or if the resolution doesn't work for you, you may continue.</p>
 
                     <hr />
-                    <h2>5. File a new bug.</h2>
+                    <h2 id="file">5. File a new bug.</h2>
                     <p>Choose the Product, Component, Version, Hardware Platform that best match
                         the context of this bug. Put the name of the Source RPM of the package
                         (see below for more details).</p>
@@ -90,7 +90,7 @@
                     <p>will give you a lot of informations about a package already: source package name, maintainer, etc.</p>
 
                     <hr />
-                    <h2>6. Follow up.</h2>
+                    <h2 id="follow">6. Follow up.</h2>
                     <p>Your bug will be reviewed by the Triage team and/or the maintainer of the package,
                         or other contributors.
                         It will help a lot that you answer their questions so they can get a better picture
@@ -99,12 +99,12 @@
                         If so, consider closing your bug on your own.</p>
 
                     <hr />
-                    <h2>7. Thank you!</h2>
+                    <h2 id="thx">7. Thank you!</h2>
                     <p>Thanks to take the time to report to us about your experience
                         of Mageia. This will help make it a better operating system for everyone.</p>
 
                     <hr />
-                    <h2>More.</h2>
+                    <h2 id="more">More.</h2>
                     <p>For a more detailed description of <a href="http://mageia.org/wiki/doku.php?id=qa_bugzilla#how-to_report_a_bug">how to report a bug</a>.</p>
                 </div>
             </div>
