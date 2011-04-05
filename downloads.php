@@ -7,7 +7,8 @@ $locale = $locale[1];
 
 include 'downloads_locales.php';
 
-$locale = 'fr';
+if (!array_key_exists($locale, $_t))
+    $locale = 'en';
 
 $_t = $_t[$locale];
 
