@@ -48,7 +48,16 @@ Note that translations are on their way.',
             %slocalization%s, %spackaging%s, %sQA &amp; testing%s,
             delivery, for community support &amp; animation,
             for %sdonating money%s,
-            hardware, hosting, time, for sharing the fun.'
+            hardware, hosting, time, for sharing the fun.',
+        'all_languages' => 'All supported: up to 167 locales are supported: Deutsch, English, español, français, italiano, português, svenska, nederlands, polski, dansk and so much more!
+            See the <a href="http://mageia.org/wiki/doku.php?id=tmp:supported_locales">comprehensive list</a>.',
+        'euro_languages' => 'Europa set of languages: Deutsch, English, español, français, italiano, português.
+            More languages will be made available for the stable release.',
+        'limited_languages' => 'Limited: Belarussian, Catalan, German, English, Spanish, French, Hungarian, Italian, Polish, Portuguese, Ukrainian',
+        'All supported' => 'All supported',
+        'English' => 'English',
+        'Limited' => 'Limited',
+        'European set' => 'Europa set'
     ),
     'fr' => array(
         'download' => 'télécharger',
@@ -94,7 +103,17 @@ Note that translations are on their way.',
             la %straduction%s, le %spackaging%s, les %stests et la qualité%s,
             la livraison, le support et l&rsquo;animation communautaires,
             en %soffrant de l&rsquo;argent%s, du matériel, de l&rsquo;hébergement,
-            du temps, for sharing the fun.'
+            du temps, for sharing the fun.',
+        'all_languages' => 'Toutes inclues: environ 167 langues ou dialectes sont disponibles&nbsp;: français, allemand, anglais, espagnol, italien,
+            portugais, roumain, grec, esperanto, turque, suédois, finlandais, néerlandais, polonais, russe, danois, chinois, breton, bulgare
+            et tant d&rsquo;autres&nbsp;! Consultez la <a href="http://mageia.org/wiki/doku.php?id=tmp:supported_locales">liste complète</a>.',
+        'euro_languages' => 'Europa set of languages: allemand, anglais, espagnol, français, italien, portugais.
+            Davantage de langues seront disponibles dans la version finale.',
+        'All supported' => 'Toutes inclues',
+        'limited_languages' => 'Limité&nbsp;: biélo-russe, catalan, allemand, anglais, espagnol, français, hongrois, italien, polonais, portugais, ukrainien.',
+        'English' => 'Anglais',
+        'Limited' => 'Limité',
+        'European set' => 'Langues européennes'
     ),
     'de' => array(
         'download' => 'herunterladen',
@@ -142,7 +161,17 @@ Beachten Sie, dass an der Übersetzung noch gearbeitet wird.',
             Softwaredesign, Entwicklung , %sLokalisierung%s,
             %sPaketbau%s und %sQA &amp; Testen%s bis hin zum Vertrieb, der
             Community-Unterstützung &amp; -Unterhaltung, sowie dem %sSpenden von
-            Geld%s, Hardware, Hosting, Zeit und die Teilnahme an dem ganzen Spaß.'
+            Geld%s, Hardware, Hosting, Zeit und die Teilnahme an dem ganzen Spaß.',
+        'all_languages' => 'Up to 167 locales are supported: Deutsch, English, español, français, italiano, português, svenska, nederlands, polski, dansk and so much more!
+            See the <a href="http://mageia.org/wiki/doku.php?id=tmp:supported_locales">comprehensive list</a>.',
+        'euro_languages' => '"Europa set of languages" bedeutet: Deutsch, Englisch, Spanisch, Französisch, Italienisch, Portugiesisch.
+            Weitere Sprachen werden im finalen Release zur Verfügung stehen.',
+        'All supported' => "Alle unterstützten Sprachen",
+        'limited_languages' => 'Limited: Belarussian, Catalan, German, English, Spanish, French, Hungarian, Italian, Polish, Portuguese, Ukrainian',
+        'English' => 'English',
+        'Limited' => 'Limited',
+        'European set' => 'European set'
+        
     ),
     'nl' => array(
         'download' => 'download',
@@ -190,7 +219,17 @@ Wij zijn druk bezig met vertalingen naar andere talen.',
             %slocalisatie%s, %srpm-pakketten maken%s, %sQA &amp; testen%s,
             gebruikersondersteuning,
             %sgelddonaties%s,
-            hardware donaties, hosting, tijd, en delen in het plezier!'
+            hardware donaties, hosting, tijd, en delen in het plezier!',
+        'all_languages' => 'Up to 167 locales are supported: Deutsch, English, español, français, italiano, português, svenska, nederlands, polski, dansk and so much more!
+            See the <a href="http://mageia.org/wiki/doku.php?id=tmp:supported_locales">comprehensive list</a>.',
+        'euro_languages' => 'Europa set of languages is: Deutsch, English, español, français, italiano, português.
+            More languages will be made available for the stable release.',
+        'All supported' => 'All supported',
+        'limited_languages' => 'Limited: Belarussian, Catalan, German, English, Spanish, French, Hungarian, Italian, Polish, Portuguese, Ukrainian',
+        'English' => 'English',
+        'Limited' => 'Limited',
+        'European set' => 'European set'
+        
     ),
     'et' => array(
         'download' => 'laadi alla',
@@ -238,7 +277,76 @@ veebimeeskonda Freenode IRC-kanalil <a href="irc://irc.freenode.net/#mageia-web"
             %stõlkimine%s, %spakendamine%s, %skvaliteedikontroll ja testimine%s,
             levitamine, kogukonna puhul toetus ja kogukonna elavdamine,
             %sraha annetamine%s,
-            riistvara, majutuse ja aja pakkumine, kas või lihtsalt lõbu pärast kaasalöömine.'
+            riistvara, majutuse ja aja pakkumine, kas või lihtsalt lõbu pärast kaasalöömine.',
+        'all_languages' => 'Up to 167 locales are supported: Deutsch, English, español, français, italiano, português, svenska, nederlands, polski, dansk and so much more!
+            See the <a href="http://mageia.org/wiki/doku.php?id=tmp:supported_locales">comprehensive list</a>.',
+        'euro_languages' => 'Europa set of languages is: Deutsch, English, español, français, italiano, português.
+            More languages will be made available for the stable release.',
+        'All supported' => 'All supported',
+        'limited_languages' => 'Limited: Belarussian, Catalan, German, English, Spanish, French, Hungarian, Italian, Polish, Portuguese, Ukrainian',
+        'English' => 'English',
+        'Limited' => 'Limited',
+        'European set' => 'European set'
+        
+    ),
+    'ru' => array(
+        'download' => 'загрузить',
+        'page_title' => 'Загрузка Mageia 1 beta1',
+        'page_desc' => 'Здесь Вы можете загрузить установочный и загрузочный ISO образы Mageia.',
+        'page_kw' => 'mageia, программы, скачать, загрузить, операционная система, образ, компьютер, торрент, ftp',
+        'page_h1' => 'Загрузить Mageia 1 <em class="tag">beta1</em>',
+        'warn_1' => 'Внимание!
+            Это НЕ ДЛЯ: публичных обзоров, личного или производственного использования.
+            Это ДЛЯ: тестирования разработчиками и упаковщиками.',
+        'warn_2' => 'Чтобы вы не делали с предоставленным образом диска
+                вы делаете это на свой страх и риск.',
+        'title_ok' => 'Вы всё ещё хотите скачать и протестировать Mageia 1 beta1?',
+        'dl_help' => 'Просто выберите подходящий вам образ; если вы не уверенны, вам стоит выбрать один из первых.',
+        'changes_since_a2' => 'Изменения по сравнению с Alpha 2',
+        'release_docs' => 'Документация по релизу',
+        'whatismageia' => 'Что такое Mageia?',
+        'size' => 'Размер',
+        'flavour' => 'Вариант',
+        'language' => 'Язык',
+        'link' => 'Прямая ссылка',
+        'dl_shld_start' => 'Загрузка %s должна начаться через несколько секунд',
+        'dl_size' => '(размер загружемого файла около %s).',
+        'alt_download' => 'Если загрузка не начинается, <a href="%s" rel="nofollow" title="%s">нажмите здесь</a>.',
+        'signs_check_1' => 'По завершению загрузки пожалуйста убедитесь в совпадении контрольных сумм:',
+        'signs_check_2' => 'Если контрольные суммы не совпадают не используйте образ. Проверьте ещё раз, и попробуйте скачать его снова.',
+        'dl_mirror_loc' => 'Это <a href="%s">%s</a> зеркало загрузки расположенно в %s (%s).',
+        'dl_alt_mirrors' => 'Если это вам не помогло, <a href="#om" id="other_mirrors_btn">просмотрите список остальных зеркал</a>.',
+        'whatdouthink?' => 'Что вы об этом думаете?',
+        'give_feedback' => 'Мы будем рады вашим отзывам и впечатлениям о Mageia 1 beta1, где бы то ни было:
+                на <a href="http://forums.mageia.org/">наших форумах</a>,
+                <a href="http://blog.mageia.org/">нашем блоге</a>, на <em>вашем</em> блоге,
+                в Twitter (<a href="http://twitter.com/mageia_org">@mageia_org</a>).
+                В любом случае, пожалуйста указывайте ссылку на <a href="http://mageia.org/">mageia.org</a>.',
+        'report_bug' => 'Если вы нашли ошибки, пожалуйста <a href="/en/support/report-a-bug/">посмотрите, как сообщить о них</a>
+                    в нашу базу ошибок, чтобы мы могли скорее их устранить.',
+        'notify_web' => 'Если у вас есть проблемы с процессом/страницами загрузки, пожалуйста, сообщите об этом Web команде в канале 
+<a href="irc://irc.freenode.net/#mageia-web">#mageia-web</a> на Freenode IRC, чтобы мы могли решить эти проблемы как можно скорее.
+Отметим, что переводы ещё в процессе.',
+        'wanttohelp?' => 'Хотите помочь? %sПрисоединяйтесь!%s',
+        'ucanhelp' => 'Да, вы можете! Mageia это результат воли и сотрудничества множества весёлых дружелюбных волонтёров со всех уголков мира.',
+        'wherehelp' => 'Есть множество областей в которых вы можете внести свой вклад в проект.
+            Будь то юрисдикция, моделирование,
+            %sсвязь%s, %sВеб дизайн и разработка%s,
+            дизайн программного обеспечения, программирование,
+            %sлокализация%s, %sсборка пакетов%s, %sпроверка качества и тестирование%s,
+            предоставление: поддержки сообществу,
+            %sденежных средств%s,
+            оборудования, хостинга, времени, разделения нашего удовольствия.',
+        'all_languages' => 'Up to 167 locales are supported: Deutsch, English, español, français, italiano, português, svenska, nederlands, polski, dansk and so much more!
+            See the <a href="http://mageia.org/wiki/doku.php?id=tmp:supported_locales">comprehensive list</a>.',
+        'euro_languages' => 'Europa set of languages is: Deutsch, English, español, français, italiano, português.
+            More languages will be made available for the stable release.',
+        'All supported' => 'All supported',
+        'limited_languages' => 'Limited: Belarussian, Catalan, German, English, Spanish, French, Hungarian, Italian, Polish, Portuguese, Ukrainian',
+        'English' => 'English',
+        'Limited' => 'Limited',
+        'European set' => 'European set'
+        
     ),
 
 );

@@ -52,7 +52,7 @@ foreach ($prods as $k => $p) {
     $pop = rand(0,5);
     $s .= sprintf($tmpl,
         '', //($i == 0) ? ' class="reco"' : '',
-        $p['name'], $p['lang'], $p['size'],
+        $p['name'], $_t[$p['lang']], $p['size'],
         //$pop, $pop,
         $dl_link, $_t['download'],
         $bt_link, !is_null($bt_link) ? $_t['download'] : '');
@@ -76,13 +76,10 @@ $dl_table = <<<T
     </tbody>
 </table>
 <p class="dlinfo"><strong>Live CDs will be released this Thursday at the latest.</strong></p>
-<p class="dlinfo">Up to 137 locales are supported: Deutsch, English, español, français, italiano, português,
-    svenska, nederlands, polski, dansk
-    and so much more!
-    See the <a href="http://mageia.org/wiki/doku.php?id=tmp:supported_locales">comprehensive list</a>.</p>
+<p class="dlinfo">{$_t['all_languages']}</p>
+<p class="dlinfo">{$_t['limited_languages']}</p>
 <!--
-<p class="dlinfo">Europa set of languages is: Deutsch, English, español, français, italiano, português.
-    More languages will be made available for the stable release.</p>
+<p class="dlinfo">{$_t['euro_languages']}</p>
 -->
 T;
 
