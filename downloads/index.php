@@ -16,12 +16,12 @@ $langs = array(
     'nl' => 'Nederlands',
 //    'pl' => 'Polski',
 //    'pt' => 'Português',
-//    'ro' => 'Română',
+    'ro' => 'Română',
     'ru' => 'Русский',
 //    'tr' => 'Türkçe',
 //    'sl' => 'Slovenščina',
 //    'zh-cn' => '简体中文',
-//    'zh-tw' => '正體中文'
+    'zh-tw' => '正體中文'
 );
 
 relocate($langs, 'downloads/');

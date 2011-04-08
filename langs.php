@@ -81,7 +81,11 @@ $nav_list = array(
     //"/{$locale}/downloads/" => array(
         'de' => 'Beta1 herunterladen',
         'en' => 'Download Beta1',
+        'et' => 'Beta1 allalaadimine',
         'fr' => 'Télécharger Beta1',
+        'ro' => 'Descărcați Beta1',
+        'ru' => 'Загрузить Beta1',
+        'zh-tw' => '下載 Beta1'
     ),
     '/wiki/' => array(
         'en' => 'Wiki',
