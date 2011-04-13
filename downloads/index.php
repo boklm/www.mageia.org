@@ -4,9 +4,9 @@ require_once '../langs.inc.php';
 
 $langs = array(
     'de' => 'Deutsch',
-//    'el' => 'Ελληνικά',
+    'el' => 'Ελληνικά',
     'en' => 'English',
-//    'es' => 'Español',
+    'es' => 'Español',
     'et' => 'Eesti',
 //    'fi' => 'Suomeksi',
     'fr' => 'Français',
@@ -18,7 +18,7 @@ $langs = array(
 //    'pt' => 'Português',
     'ro' => 'Română',
     'ru' => 'Русский',
-//    'tr' => 'Türkçe',
+    'tr' => 'Türkçe',
 //    'sl' => 'Slovenščina',
 //    'zh-cn' => '简体中文',
     'zh-tw' => '正體中文'
