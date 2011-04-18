@@ -688,5 +688,62 @@ De remarcat că traducerile sînt în curs.',
         'Limited' => '有限的',
         'European set' => '歐洲為主'
     ),
-
+    'it' => array(
+        'download' => 'scarica',
+        'page_title' => 'Scarica Mageia 1 beta1',
+        'page_desc' => 'Dove puoi scaricare le immagini ISO live e installabili di Mageia.',
+        'page_kw' => 'mageia, software, download, sistema operativo, ISO, computer, torrent, ftp',
+        'page_h1' => 'Scarica Mageia 1 <em class="tag">beta1</em>',
+        'warn_1' => 'Attenzione!
+            NON È PER: uso, recensioni pubbliche, valutazioni personali o di produzione.
+            È PER: sviluppatori, packager, SOLO per utenti che vogliono fare del test.',
+        'warn_2' => 'Quasiasi cosa tu faccia con queste immagini ISO che forniamo,
+                sarà fatta a tuo rischio e pericolo e ti assumerai la piena responsabilità.',
+        'title_ok' => 'Vuoi ancora scaricare e testare Mageia 1 beta1?',
+        'dl_help' => 'Prendi semplicemente l immagine ISO più adatta alle tue necessità; se non sei sicuro, dovresti scegliere tra le prime due.',
+        'changes_since_a2' => 'Modifiche dalla Alpha 2',
+        'release_docs' => 'Documenti della Release',
+        'whatismageia' => 'Cosa è Mageia?',
+        'size' => 'Dimensioni',
+        'flavour' => 'Supporto',
+        'language' => 'Lingua',
+        'link' => 'Link diretto',
+        'dl_shld_start' => 'Il tuo download di %s inizierà fra pochi secondi',
+        'dl_size' => '(la dimensione di download è di circa %s).',
+        'alt_download' => 'Se il download non inizia, <a href="%s" rel="nofollow" title="%s">fai clic qua</a>.',
+        'signs_check_1' => 'Appena il download è completo, dovresti controllare che le firme siano uguali:',
+        'signs_check_2' => 'Se le firme non sono uguali, non usare questa ISO. Controlla nuovamente e prova il download nuovamente.',
+        'dl_mirror_loc' => 'Questo <a href="%s">%s</a> mirror per il download si trova in %s (%s).',
+        'dl_alt_mirrors' => 'Se non funziona bene, <a href="#om" id="other_mirrors_btn">prova questi altri mirror</a>.',
+        'whatdouthink?' => 'Che cosa ne pensi?',
+        'give_feedback' => 'Sei il benvenuto per darci le tue impressioni su Mageia 1 beta1, in qualsiasi parte:
+                nei <a href="http://forums.mageia.org/">nostri forum</a>,
+                <a href="http://blog.mageia.org/">nel nostro blog</a>, nel <em>tuo</em> blog,
+                su Twitter (<a href="http://twitter.com/mageia_org">@mageia_org</a>).
+                In qualsiasi caso, fai riferimento a <a href="http://mageia.org/">mageia.org</a>.',
+        'report_bug' => 'Se ti imbatti in un bug, scopri <a href="/en/support/report-a-bug/">come segnalarlo</a>
+                    nel nostro database dei bug in modo da risolverlo il prima possibile.',
+        'notify_web' => 'Se noti un problema con le pagine/processo di download, segnalalo alla squadra Web sul canale Freenode IRC
+<a href="irc://irc.freenode.net/#mageia-web">#mageia-web</a> in modo da risolverlo il prima possibile.
+Ricorda che le traduzioni sono in corso.',
+        'wanttohelp?' => 'Vuoi aiutare? %sUnisciti a Noi!%s',
+        'ucanhelp' => 'Certo che puoi! Mageia è il risultato della volontà e della collaborazione di molte persone volontarie sparsi nel mondo.',
+        'wherehelp' => 'Ci sono molte aree nelle quali si può contribuire al progetto.
+            Ad esempio avvocatura,
+            %scomunicazione%s, %sWeb design &amp; sviluppo%s,
+            per design del software, sviluppo,
+            %slocalization%s, %spackaging%s, %sQA &amp; testing%s,
+            delivery, per il supporto alla comunità &amp; animazione,
+            per %sdonare soldi%s,
+            hardware, hosting, tempo, per condividere il divertimento.',
+        'all_languages' => 'Tutte supportate: sono supportate fino a 167 localizzazioni: Deutsch, English, español, français, italiano, português, svenska, nederlands, polski, dansk e molte altre! 
+            Vedi la <a href="http://mageia.org/wiki/doku.php?id=tmp:supported_locales">lista completa</a>.',
+        'euro_languages' => 'Set di lingue europee: Deutsch, English, español, français, italiano, português.
+            Per la release finale saranno disponibili più lingue.',
+        'limited_languages' => 'Limitate: Belarussian, Catalan, German, English, Spanish, French, Hungarian, Italiano, Polish, Portuguese, Ukrainian',
+        'All supported' => 'Tutte supportate',
+        'English' => 'Inglese',
+        'Limited' => 'Limitate',
+        'European set' => 'Set europeo'
+    ),
 );
