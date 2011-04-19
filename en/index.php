@@ -26,6 +26,7 @@
                         (<a href="#announce">check original announcement</a>).</p>
                 </div>
             </div>
+            <?php include '../release_counter.php'; ?>
             <div class="yui-g bb1">
                 <div class="yui-u first rb1">
                     <div class="para" id="news">
@@ -62,10 +63,6 @@
                             <a href="http://www.facebook.com/Mageia"><img src="/g/images/smi/facebook-32x32.png" alt="Mageia"></a>
                             <a href="http://www.flickr.com/photos/mageia_org"><img src="/g/images/smi/flickr-32x32.png"></a>
                         </p>
-                        <!--
-                        <p>Please do not use this address for discussions that can happen on above mailing-lists
-                            or IRC channels.</p>
-                        -->
                     </div>
                 </div>
                 <div class="yui-u">
