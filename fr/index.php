@@ -31,6 +31,7 @@
                         (<a href="#announce">voir l&rsquo;annonce originale</a>).</p>
                 </div>
             </div>
+            <?php include '../release_counter.php'; ?>
             <div class="yui-g bb1">
                 <div class="yui-u first rb1">
                     <div class="para" id="news">
@@ -60,17 +61,18 @@
                                     <li><a href="mailto:press@mageia.org">press@mageia.org</a></li>
                                     <li>attendez une réponse dans les 2 jours</li>
                                 </ul></li>
-                            <li><a href="http://www.twitter.com/mageia_org">twitter.com/mageia_org</a></li>
-                            <li><a href="http://identi.ca/mageia">identi.ca/mageia</a></li>
                         </ul>
-                        <!--
-                        <p>Please do not use this address for discussions that can happen on above mailing-lists
-                            or IRC channels.</p>
-                        -->
                     </div>
                 </div>
                 <div class="yui-u">
                     <div class="para">
+                        <p>
+                            <a href="http://blog.mageia.org/fr/?feed=rss"><img src="/g/images/smi/feed-32x32.png" alt="Mageia Blog (français)"></a>
+                            <a href="http://www.twitter.com/mageia_org"><img src="/g/images/smi/twitter-32x32.png" alt="@mageia_org"></a>
+                            <a href="http://identi.ca/mageia"><img src="/g/images/smi/identica-32x32.png" alt="@mageia"></a>
+                            <a href="http://www.facebook.com/Mageia"><img src="/g/images/smi/facebook-32x32.png" alt="Mageia"></a>
+                            <a href="http://www.flickr.com/photos/mageia_org"><img src="/g/images/smi/flickr-32x32.png"></a>
+                        </p>
                     <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FMageia%2F157247240967735&amp;width=320&amp;connections=10&amp;stream=false&amp;header=false&amp;height=255" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:320px; height:255px;" allowTransparency="true"></iframe>
                     </div>
                 </div>
