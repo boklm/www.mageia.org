@@ -41,16 +41,17 @@ else {
 echo <<<S
 <!-- from http://mageia.org/release_counter.php?l={your_locale} -->
 <style>
-div#mgacount { font-family: "Century Gothic", "Trebuchet MS", Arial, sans-serif; color: #fff;
+div#mgacount {
+    font-family: "Century Gothic", "Trebuchet MS", Arial, sans-serif;
+    color: #fff;
     background: #3494D3;
     background: -webkit-gradient(linear, left top, left bottom, from(#3494D3), color-stop(60%, #3494D3), to(#2383C2));
-    background: -moz-linear-gradient(top, #ffffff 50%, #f0f0f0);
-    background: -webkit-linear-gradient(top, #ffffff 50%, #f0f0f0);
-    background: linear-gradient(top, #ffffff 50%, #f0f0f0);
-    
-    
+    background: -moz-linear-gradient(top, #3494D3 60%, #2383C2);
+    background: -webkit-linear-gradient(top, #3494D3 60%, #2383C2);
+    background: linear-gradient(top, #3494D3 60%, #2383C2);
     margin: 0; padding: 0;
-    text-align: center; }
+    text-align: center;
+}
 #mgacount h2 { padding: 0.6em; font-size: 220%; color: #fff; font-weight: normal; margin-bottom: 0; }
 #mgacount h2 span { font-size: 35%; vertical-align: 50%; margin: 0 1em; }
 </style>
