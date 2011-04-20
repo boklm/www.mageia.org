@@ -13,7 +13,7 @@ else {
 }
 
 $locales = array(
-    'en' => array('template' => 'Mageia 1 <span>%s</span> %d %s', 'minus' => 'minus', 'day' => 'day', 'days' => 'days'),
+    'en' => array('template' => '%2$d %3$s %1$s Mageia 1', 'minus' => 'before', 'day' => 'day', 'days' => 'days'),
     'fr' => array('template' => 'Mageia 1 <span>%s</span> %d %s', 'minus' => 'moins', 'day' => 'jour', 'days' => 'jours')
 );
 if (!array_key_exists($locale, $locales))
@@ -32,7 +32,7 @@ if ($diff < 0) {
 }
 else {
     $diff = floor($diff / 3600 / 24);
-    $s = sprintf('<h2>Mageia 1 <span>%s</span>%d %s</h2>',
+    $s = sprintf(sprintf('<h2>%s</h2>', $l['template']),
         $l['minus'],
         $diff,
         $diff > 1 ? $l['days'] : $l['day']);
