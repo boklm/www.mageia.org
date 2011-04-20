@@ -24,6 +24,7 @@
                         (<a href="#announce">check original announcement</a>).</p>
                 </div>
             </div>
+            <?php include '../release_counter.php'; ?>
             <div class="yui-g bb1">
                 <div class="yui-u first rb1">
                     <div class="para" id="news">

@@ -20,6 +20,7 @@
                 <p>Mageia jest czymś więcej niż tylko wolnym, bezpiecznym, stabilnym i zrównoważonym systemem operacyjnym, naszym celem jest stworzenie stabilnej i wiarygodnej organizacji która bezpośrednio wspiera wspólne projekty. (<a href="#announce">sprawdź oryginalne ogłoszenie</a>).</p>
             </div>
         </div>
+        <?php include '../release_counter.php'; ?>
         <div class="yui-g bb1">
             <div class="yui-u first rb1">
                 <div class="para" id="news">
