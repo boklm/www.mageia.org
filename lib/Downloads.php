@@ -169,14 +169,15 @@ class Downloads
 
         if (function_exists('geoip_country_code_by_name'))
         {
-            $loc = geoip_country_code_by_name($ip);
+            // may shout a "Host {IP} not found"
+            $loc = @geoip_country_code_by_name($ip);
         }
         else
         {
             require_once '../../lib/maxmind/geoip/geoip.inc.php';
             $gi = geoip_open(realpath('../../lib/maxmind/geoip/GeoIP.dat'),
                 GEOIP_STANDARD);
-            $loc = geoip_country_code_by_addr($gi, $ip);
+            $loc = @geoip_country_code_by_addr($gi, $ip);
             geoip_close($gi);
         }
         if (trim($loc) == '' || is_null($loc))
