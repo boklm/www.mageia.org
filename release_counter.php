@@ -15,7 +15,7 @@ else {
 $locales = array(
     'en' => array('template' => '%2$d %3$s <span>to</span> Mageia 1 <span>release</span>',
         'minus' => 'before', 'day' => 'day', 'days' => 'days'),
-    'de' => array('template' => 'Noch %2$s %3$s bis zum Release von Mageia 1',
+    'de' => array('template' => '<span>Noch</span> %2$s %3$s <span>bis zum Release von</span> Mageia 1',
         'minus' => '', 'day' => 'Tag', 'days' => 'Tage'),
     'fr' => array('template' => 'Mageia 1 <span>%s</span> %d %s',
         'minus' => 'moins', 'day' => 'jour', 'days' => 'jours')
