@@ -129,13 +129,6 @@ $ sha1 <?php echo $product_iso, "\n", $p['sha1'], "\n"; ?>
             <div class="yui-u"><div class="para">
                 <h2><?php echo sprintf($_t['wanttohelp?'], '<a href="http://mageia.org/wiki/doku.php?id=contribute">', '</a>'); ?></h2>
                 <p><?php echo $_t['ucanhelp']; ?></p>
-                <div class="qsidesummary testday">
-                    <p><strong>Test days &rArr; April 11<sup>th</sup> &amp; 12<sup>th</sup>!</strong></p>
-                    <p>To speed up fixes &amp; improvements for beta2, we organize
-                        two test days for beta1 in the coming days.</p>
-                    <p><a href="http://blog.mageia.org/en/2011/04/07/on-the-tests-again/">Learn more</a>.</p>
-                    </div>
-
                 <p><?php echo sprintf($_t['wherehelp'],
                     '<a href="http://mageia.org/wiki/doku.php?id=marketing">', '</a>',
                     '<a href="http://mageia.org/wiki/doku.php?id=web">', '</a>',
