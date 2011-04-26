@@ -13,8 +13,12 @@ else {
 }
 
 $locales = array(
-    'en' => array('template' => '%2$d %3$s <span>to</span> Mageia 1 <span>release</span>', 'minus' => 'before', 'day' => 'day', 'days' => 'days'),
-    'fr' => array('template' => 'Mageia 1 <span>%s</span> %d %s', 'minus' => 'moins', 'day' => 'jour', 'days' => 'jours')
+    'en' => array('template' => '%2$d %3$s <span>to</span> Mageia 1 <span>release</span>',
+        'minus' => 'before', 'day' => 'day', 'days' => 'days'),
+    'de' => array('template' => 'Noch %2$s %3$s bis zum Release von Mageia 1',
+        'minus' => '', 'day' => 'Tag', 'days' => 'Tage'),
+    'fr' => array('template' => 'Mageia 1 <span>%s</span> %d %s',
+        'minus' => 'moins', 'day' => 'jour', 'days' => 'jours')
 );
 if (!array_key_exists($locale, $locales))
     $locale = 'en';
