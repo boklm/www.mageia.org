@@ -13,7 +13,7 @@ else {
 }
 
 $locales = array(
-    'en' => array('template' => '%2$d %3$s %1$s Mageia 1', 'minus' => 'before', 'day' => 'day', 'days' => 'days'),
+    'en' => array('template' => '%2$d %3$s <span>to</span> Mageia 1 <span>release</span>', 'minus' => 'before', 'day' => 'day', 'days' => 'days'),
     'fr' => array('template' => 'Mageia 1 <span>%s</span> %d %s', 'minus' => 'moins', 'day' => 'jour', 'days' => 'jours')
 );
 if (!array_key_exists($locale, $locales))
@@ -53,7 +53,7 @@ div#mgacount {
     text-align: center;
 }
 #mgacount h2 { padding: 0.6em; font-size: 220%; color: #fff; font-weight: normal; margin-bottom: 0; }
-#mgacount h2 span { font-size: 35%; vertical-align: 50%; margin: 0 1em; }
+#mgacount h2 span { font-size: 45%; vertical-align: 30%; margin: 0 1em; }
 </style>
 <div id="mgacount">{$s}</div>
 S;
