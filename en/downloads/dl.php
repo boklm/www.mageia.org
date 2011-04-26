@@ -31,9 +31,11 @@ $product_iso = $product . '.iso';
 
 $wsd = new Downloads('en', null);
 $a = $wsd->prepare_download(null, true);
+$product_dl_link = null;
 
 if ($torrent) {
     if (isset($p['torrent'])) {
+        $product_dl_link = $p['torrent'];
         $dl_link = sprintf('%s/%s', $a['mirror_url'], $p['torrent']);
     }
     else {
@@ -42,10 +44,11 @@ if ($torrent) {
     }
 }
 else {
-    if (isset($p['path']))
-        $dl_link = sprintf('%s/%s', $a['mirror_url'], $p['path']);
-    else
-        $dl_link =  sprintf('%s/%s/%s', $a['mirror_url'], 'iso/cauldron', $product_iso);
+    $product_dl_link = isset($p['path']) ?
+        $p['path'] :
+        sprintf('iso/cauldron/%s', $product_iso);
+
+    $dl_link = sprintf('%s/%s', $a['mirror_url'], $product_dl_link);
 }
 
 // @fixme (rda) actually, http-equiv="refresh" is deprecated behaviour now.
@@ -64,7 +67,7 @@ foreach ($g_mirrors as $country => $cities):
         $mirs = array();
         foreach ($mirrors as $m) {
             $pm = parse_url($m);
-            $alt_dl_link = sprintf('%s/%s/%s', $m, 'iso/cauldron', $product_iso);
+            $alt_dl_link = sprintf('%s%s', $m, $product_dl_link);
             $mirs[] = sprintf('%s://<a href="%s" rel="nofollow">%s</a>',
                 $pm['scheme'], $alt_dl_link, $pm['host']);
         }
@@ -76,6 +79,8 @@ $dl2_mirror_alt = sprintf($_t['dl_mirror_loc'],
         $a['mirror_url'], $a['mirror_host'], $countries[$a['country']], $a['country'])
     . ' ' . $_t['dl_alt_mirrors'];
 
+
+$relocation = '';
 ?><!DOCTYPE html>
 <html lang="<?php echo $locale; ?>">
 <head>
@@ -137,7 +142,7 @@ $ sha1 <?php echo $product_iso, "\n", $p['sha1'], "\n"; ?>
                     <p>To speed up fixes &amp; improvements for beta2, we organize
                         two test days for beta1 in the coming days.</p>
                     <p><a href="http://blog.mageia.org/en/2011/04/07/on-the-tests-again/">Learn more</a>.</p>
-                </div>
+                    </div>
 
                 <p><?php echo sprintf($_t['wherehelp'],
                     '<a href="http://mageia.org/wiki/doku.php?id=marketing">', '</a>',
