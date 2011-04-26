@@ -32,21 +32,20 @@
                 <div class="yui-u first"><div class="para" style="padding-right: 0;">
                     <h2><?php echo $_t['changes_since_a2']; ?></h2>
                     <ul>
-                        <li>better locales integration - asian languages especially</li>
-                        <li>LibreOffice localization</li>
-                        <li>improved visual identity integration</li>
-                        <li>still more packages</li>
+                        <li>bugfixes &ndash; lots of them!</li>
+                        <li>packages version updates</li>
+                        <li>more packages in ISOs</li>
                     </ul>
                 </div></div>
                 <div class="yui-u"><div class="para">
                     <h2><?php echo $_t['release_docs']; ?></h2>
                     <ul>
-                        <li><a href="/wiki/doku.php?id=iso1:beta1_release_notes" hreflang="en">Release Notes</a></li>
+                        <li><a href="/wiki/doku.php?id=iso1:beta2_release_notes" hreflang="en">Release Notes</a></li>
                         <li><a href="/wiki/doku.php?id=mageia1:errata" hreflang="en">Errata</a></li>
                         <li><a href="http://blog.mageia.org/en/" hreflang="en">Blog post</a></li>
                         <li><a href="/"><?php echo $_t['whatismageia']; ?></a></li>
                     </ul>
-                    <p>Beta 2 will be released on April, 25<sup>th</sup>.</p>
+                    <p><abbr title="Release Candidate">RC</abbr> will be released on May, 17<sup>th</sup>.</p>
                     <p>You can check our <a href="http://mageia.org/wiki/doku.php?id=iso_1_specifications#expected_milestones">roadmap for Mageia 1 here</a>.</p>
                 </div></div>
             </div>

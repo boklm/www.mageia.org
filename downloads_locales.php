@@ -3,18 +3,18 @@
 $_t = array(
     'en' => array(
         'download' => 'download',
-        'page_title' => 'Download Mageia 1 beta1',
+        'page_title' => 'Download Mageia 1 beta2',
         'page_desc' => 'Where you can download Mageia installable and live ISO images.',
         'page_kw' => 'mageia, software, download, operating system, ISO, computer, torrent, ftp',
-        'page_h1' => 'Download Mageia 1 <em class="tag">beta1</em>',
+        'page_h1' => 'Download Mageia 1 <em class="tag">beta2</em>',
         'warn_1' => 'Be Careful!
             This is NOT FOR: use, public review, personal or production evaluation.
             This is FOR: developers, packagers, test users ONLY.',
         'warn_2' => 'Whatever you may do with the provided ISO disc image
                 will be done at your own risk, with your own responsibility.',
-        'title_ok' => 'You still want to download and test Mageia 1 beta1?',
+        'title_ok' => 'You still want to download and test Mageia 1 beta2?',
         'dl_help' => 'Just pick the ISO image that is best for you; if you are not sure, you should pick from the first two.',
-        'changes_since_a2' => 'Changes since Alpha 2',
+        'changes_since_a2' => 'Changes since Beta 1',
         'release_docs' => 'Release Documents',
         'whatismageia' => 'What is Mageia?',
         'size' => 'Size',
@@ -29,7 +29,7 @@ $_t = array(
         'dl_mirror_loc' => 'This <a href="%s">%s</a> download mirror is located in %s (%s).',
         'dl_alt_mirrors' => 'If it does not work well for you, <a href="#om" id="other_mirrors_btn">check out these other mirrors</a>.',
         'whatdouthink?' => 'What do you think of it?',
-        'give_feedback' => 'You are very welcome to give your impressions on Mageia 1 beta1, wherever you want:
+        'give_feedback' => 'You are very welcome to give your impressions on Mageia 1 beta2, wherever you want:
                 on <a href="http://forums.mageia.org/">our forums</a>,
                 <a href="http://blog.mageia.org/">our blog</a>, on <em>your</em> blog,
                 on Twitter (<a href="http://twitter.com/mageia_org">@mageia_org</a>).
@@ -61,17 +61,17 @@ Note that translations are on their way.',
     ),
     'fr' => array(
         'download' => 'télécharger',
-        'page_title' => 'Télécharger Mageia 1 Beta1',
+        'page_title' => 'Télécharger Mageia 1 beta2',
         'page_desc' => 'Pour télécharger les images ISO live et d’installation de Mageia.',
         'page_kw' => 'mageia, software, download, télécharger, système, ordinateur, ISO, torrent, ftp',
-        'page_h1' => 'Télécharger Mageia 1 <em class="tag">Beta1</em>',
+        'page_h1' => 'Télécharger Mageia 1 <em class="tag">beta2</em>',
         'warn_1' => 'Attention&nbsp;!
         Ce logiciel n&rsquo;est PAS prévu pour un usage quotidien, une évaluation publique ou un environnement de production.
         Ce logiciel est prévu pour des TESTS, par des développeurs ou empaqueteurs.',
         'warn_2' => 'Quel que soit l&rsquo;usage que vous ferez des images ISO mises à votre disposition, cela sera fait en votre pleine conscience des risques encourus, avec vos propres responsabilités.',
-        'title_ok' => 'Vous voulez toujours télécharger et tester Mageia 1 Beta1&nbsp;?',
+        'title_ok' => 'Vous voulez toujours télécharger et tester Mageia 1 beta2&nbsp;?',
         'dl_help' => 'Choisissez l&rsquo;image qui vous convient&nbsp;; si vous n&rsquo;êtes pas sûr, prenez-en une parmi les premières.',
-        'changes_since_a2' => 'Modifications depuis la version Alpha 2',
+        'changes_since_a2' => 'Modifications depuis la version Beta 1',
         'release_docs' => 'Documents',
         'whatismageia' => 'Qu&rsquo;est-ce que Mageia&nbsp;?',
         'size' => 'Taille',
@@ -86,7 +86,7 @@ Note that translations are on their way.',
         'dl_mirror_loc' => 'Le miroir de téléchargement <a href="%s">%s</a> est en %s (%s).',
         'dl_alt_mirrors' => 'S&rsquo;il ne fonctionne pas bien, vous pouvez aussi <a href="#om" id="other_mirrors_btn">essayer un autre miroir</a>.',
         'whatdouthink?' => 'Qu&rsquo;en pensez-vous&nbsp;?',
-        'give_feedback' => 'Donnez-nous vos impressions sur cette Beta1, par le moyen que vous préférez&nbsp;: sur les <a href="http://forums.mageia.org/" hreflang="en">forums</a>, sur <a href="http://blog.mageia.org/fr/">notre blog</a>, sur <em>votre</em> blog, sur Twitter (<a href="http://twitter.com/mageia_org">@mageia_org</a>).
+        'give_feedback' => 'Donnez-nous vos impressions sur cette Beta2, par le moyen que vous préférez&nbsp;: sur les <a href="http://forums.mageia.org/" hreflang="en">forums</a>, sur <a href="http://blog.mageia.org/fr/">notre blog</a>, sur <em>votre</em> blog, sur Twitter (<a href="http://twitter.com/mageia_org">@mageia_org</a>).
         Dans tous les cas, n&rsquo;oubliez pas de pointer vers <a href="http://mageia.org/">mageia.org</a>.',
         'report_bug' => 'Si vous remarquez un bug, merci de <a href="/en/support/report-a-bug/">nous en informer</a> afin que nous puissions le corriger.',
         'notify_web' => 'Si vous rencontrez un problème pour télécharger cette beta,
@@ -114,18 +114,18 @@ Note that translations are on their way.',
     ),
     'de' => array(
         'download' => 'herunterladen',
-        'page_title' => 'Mageia 1 Beta1 herunterladen',
+        'page_title' => 'Mageia 1 Beta2 herunterladen',
         'page_desc' => 'Wo man die Mageia-Installer- und -Live-ISOs herunterladen kann.',
         'page_kw' => 'Mageia, Software, Download, Herunterladen, Betriebssystem, ISO, Computer, torrent, ftp',
-        'page_h1' => 'Mageia 1 <em class="tag">Beta1</em> herunterladen',
+        'page_h1' => 'Mageia 1 <em class="tag">beta2</em> herunterladen',
         'warn_1' => 'Seien Sie vorsichtig!
             Diese Version ist NICHT GEDACHT FÜR: tägliche Benutzung, Testberichte, persönliche oder Produkt-Evaluierung.
             Diese Version ist GEDACHT FÜR: Tests von Entwicklern und Paketbauern.',
         'warn_2' => 'Alles, was Sie mit den angebotenen ISO-Abbildern machen geschieht 
                 auf Ihr eigenes Risiko, in Ihrer eigenen Verantwortung.',
-        'title_ok' => 'Sie wollen jetzt Mageia 1 Beta1 herunterladen und testen?',
+        'title_ok' => 'Sie wollen jetzt Mageia 1 beta2 herunterladen und testen?',
         'dl_help' => 'Suchen Sie sich das für Sie passende ISO-Abbild aus. Falls Sie nicht sicher sind, sollten Sie eines der ersten Abbilder auswählen.',
-        'changes_since_a2' => 'Änderungen seit Alpha 2',
+        'changes_since_a2' => 'Änderungen seit Beta 1',
         'release_docs' => 'Dokumente zum Release',
         'whatismageia' => 'Was ist Mageia?',
         'size' => 'Größe',
@@ -172,17 +172,17 @@ Beachten Sie, dass an der Übersetzung noch gearbeitet wird.',
     ),
     'nl' => array(
         'download' => 'download',
-        'page_title' => 'Download Mageia 1 beta1',
+        'page_title' => 'Download Mageia 1 beta2',
         'page_desc' => 'Waar u Mageia installeerbare en live ISO-images kunt downloaden.',
         'page_kw' => 'mageia, software, download, operating system, ISO, computer, torrent, ftp',
-        'page_h1' => 'Download Mageia 1 <em class="tag">beta1</em>',
+        'page_h1' => 'Download Mageia 1 <em class="tag">beta2</em>',
         'warn_1' => 'Voorzichtig!
             Dit is NIET BEDOELD VOOR: dagelijks gebruik, publieke recencies, evaluatie voor persoonlijk gebruik of in een produktieomgeving.
             Dit is WEL BEDOELD VOOR: Mageia ontwikkelaars en het testen door packagers.',
         'warn_2' => 'Het gebruik van de aangeboden ISO-image is geheel voor uw eigen risico en rekening, en voor eigen verantwoordelijkheid.',
-        'title_ok' => 'U wilt nog steeds Mageia 1 beta1 downloaden?',
+        'title_ok' => 'U wilt nog steeds Mageia 1 beta2 downloaden?',
         'dl_help' => 'Kies het ISO-bestand welke voor u het beste is; Mocht u twijfelen dan kunt u het beste een van de eersten kiezen.',
-        'changes_since_a2' => 'Veranderingen sinds Alpha 2',
+        'changes_since_a2' => 'Veranderingen sinds Beta 1',
         'release_docs' => 'Release Documenten',
         'whatismageia' => 'Wat is Mageia?',
         'size' => 'Omvang',
@@ -197,7 +197,7 @@ Beachten Sie, dass an der Übersetzung noch gearbeitet wird.',
         'dl_mirror_loc' => 'Deze <a href="%s">%s</a> spiegelserver bevindt zich in %s (%s).',
         'dl_alt_mirrors' => 'Mocht deze server voor u niet goed bereikbaar zijn, <a href="#om" id="other_mirrors_btn">kijkt u dan eens naar deze andere spiegelservers</a>.',
         'whatdouthink?' => 'Wat vindt u ervan?',
-        'give_feedback' => 'Graag horen wij uw bevindingen met Mageia 1 beta1, waar u dat het beste uitkomt:
+        'give_feedback' => 'Graag horen wij uw bevindingen met Mageia 1 beta2, waar u dat het beste uitkomt:
                 op <a href="http://forums.mageia.org/">onze fora</a>,
                 <a href="http://blog.mageia.org/">ons blog</a>, op <em>uw</em> blog,
                 op Twitter (<a href="http://twitter.com/mageia_org">@mageia_org</a>).
@@ -230,17 +230,17 @@ Wij zijn druk bezig met vertalingen naar andere talen.',
     ),
     'el' => array(
         'download' => 'λήψη',
-        'page_title' => 'Λήψη της Mageia 1 beta1',
+        'page_title' => 'Λήψη της Mageia 1 beta2',
         'page_desc' => 'Όπου μπορείτε να κάνετε λήψη εγκαταστάσιμων και live εικόνων ISO της Mageia.',
         'page_kw' => 'mageia, λογισμικό, λήψη, λειτουργικό σύστημα, ISO, υπολογιστής, torrent, ftp',
-        'page_h1' => 'Λήψη της Mageia 1 <em class="tag">beta1</em>',
+        'page_h1' => 'Λήψη της Mageia 1 <em class="tag">beta2</em>',
         'warn_1' => 'Προσοχή!
         Αυτό ΔΕΝ ΕΙΝΑΙ ΓΙΑ: χρήση, δημόσια αξιολόγηση, παραγωγική εργασία.
         Αυτό ειναι ΓΙΑ: προγραμματιστές, δημιουργούς πακέτων, χρήστες δοκιμών ΜΟΝΟ.',
         'warn_2' => 'Οποιαδήποτε και αν είναι η χρήση που θα κάνετε των εικόνων ISO που βρίσκονται στην διάθεσή σας, αυτή θα γίνει με δική σας ευθύνη και με πλήρη επίγνωση των τυχών κινδύνων που μπορεί να υπάρξουν.',
-        'title_ok' => 'Θέλετε ακόμα να κάνετε λήψη και να δοκιμάσετε τη Mageia 1 beta1?',
+        'title_ok' => 'Θέλετε ακόμα να κάνετε λήψη και να δοκιμάσετε τη Mageia 1 beta2?',
         'dl_help' => 'Απλά επιλέξτε μία εικόνα ISO που είναι καταλληλότερη για εσάς. Αν δεν είστε σίγουροι, καλύτερα να διαλέξετε μία εκ των δύο πρώτων.',
-        'changes_since_a2' => 'Αλλαγές από Alpha 2',
+        'changes_since_a2' => 'Αλλαγές από Beta 1',
         'release_docs' => 'Τεκμηρίωση κυκλοφορίας',
         'whatismageia' => 'Τι είναι η Mageia?',
         'size' => 'Μέγεθος',
@@ -255,7 +255,7 @@ Wij zijn druk bezig met vertalingen naar andere talen.',
         'dl_mirror_loc' => 'Αυτός <a href="%s">%s</a> ο καθρεφτισμός λήψης βρίσκεται στο(ν)/στη(ν) %s (%s).',
         'dl_alt_mirrors' => 'Αν δε δουλεύει καλά για σας, <a href="#om" id="other_mirrors_btn">ελέγξτε αυτούς τους καθρεφτισμούς</a>.',
         'whatdouthink?' => 'Ποιά είναι η γνώμη σας γι\'αυτό;',
-        'give_feedback' => 'Είστε ευπρόσδεκτος να αναφέρετε τις εντυπώσεις σας από τη Mageia 1 beta1, όπου θέλετε:
+        'give_feedback' => 'Είστε ευπρόσδεκτος να αναφέρετε τις εντυπώσεις σας από τη Mageia 1 beta2, όπου θέλετε:
         στα <a href="http://forums.mageia.org/">forums μας</a>,
         <a href="http://blog.mageia.org/">στο ιστολόγιο μας</a>, στο  <em>δικό σας</em> ιστολόγιο,
         στο Twitter (<a href="http://twitter.com/mageia_org">@mageia_org</a>).
@@ -287,18 +287,18 @@ Wij zijn druk bezig met vertalingen naar andere talen.',
     ),
     'es' => array(
         'download' => 'descargar',
-        'page_title' => 'Descargue Mageia 1 beta1',
+        'page_title' => 'Descargue Mageia 1 beta2',
         'page_desc' => 'Donde puede descargar imágenes ISO de Mageia instalables y live.',
         'page_kw' => 'mageia, software, aplicaciones, descarga, sistema operativo, ISO, computador, torrent, ftp',
-        'page_h1' => 'Descargue Mageia 1 <em class="tag">beta1</em>',
+        'page_h1' => 'Descargue Mageia 1 <em class="tag">beta2</em>',
         'warn_1' => '¡Tenga cuidado!
             Esto NO ES PARA: uso, revisión pública, evaluación personal o en ambientes de producción.
             Esto es PARA: desarrolladores, empaquetadores, usuarios de prueba SOLAMENTE.',
         'warn_2' => 'Todo lo que realice con la imagen de disco ISO provista
                 será bajo su propio riesgo y bajo su responsabilidad.',
-        'title_ok' => '¿Aún desea descargar y probar Mageia 1 beta1?',
+        'title_ok' => '¿Aún desea descargar y probar Mageia 1 beta2?',
         'dl_help' => 'Seleccione la imagen ISO que mejor se ajusta a usted;; si no está seguro, debería elegir entre las dos primeras.',
-        'changes_since_a2' => 'Cambios desde Alpha 2',
+        'changes_since_a2' => 'Cambios desde Beta 1',
         'release_docs' => 'Documentos de la versión',
         'whatismageia' => '¿Qué es Mageia?',
         'size' => 'Tamaño',
@@ -313,7 +313,7 @@ Wij zijn druk bezig met vertalingen naar andere talen.',
         'dl_mirror_loc' => 'Éste <a href="%s">%s</a> servidor espejo de descarga está ubicado en %s (%s).',
         'dl_alt_mirrors' => 'Si no funciona bien para usted, <a href="#om" id="other_mirrors_btn">pruebe estos otros servidores espejo</a>.',
         'whatdouthink?' => '¿Qué le parece?',
-        'give_feedback' => 'Nos interesa conocer su opinión sobre Mageia 1 beta1, como usted prefiera:
+        'give_feedback' => 'Nos interesa conocer su opinión sobre Mageia 1 beta2, como usted prefiera:
                 en <a href="http://forums.mageia.org/">nuestros foros</a>,
                 <a href="http://blog.mageia.org/es">nuestro blog</a>, en <em>su</em> blog,
                 en Twitter (<a href="http://twitter.com/mageia_org">@mageia_org</a>).
@@ -345,18 +345,18 @@ Note que las traducciones están en progreso.',
     ),
     'et' => array(
         'download' => 'laadi alla',
-        'page_title' => 'Mageia 1 beta1 allalaadimine',
+        'page_title' => 'Mageia 1 beta2 allalaadimine',
         'page_desc' => 'Mageia ISO-tõmmiste allalaadimine paigaldamiseks ja kasutamiseks Live-süsteemina.',
         'page_kw' => 'mageia, tarkvara, allalaadimine, operatsioonisüsteem, ISO, arvuti, torrent, ftp',
-        'page_h1' => 'Mageia 1 <em class="tag">beta1</em> allalaadimine',
+        'page_h1' => 'Mageia 1 <em class="tag">beta2</em> allalaadimine',
         'warn_1' => 'Ettevaatust!
             See EI OLE: igapäevaseks kasutamiseks, avalikuks tutvustamiseks, isiklikuks või tööalaseks püsitarbimiseks.
             See ON: AINULT arendajatele, pakendajatele ja testijatele.',
         'warn_2' => 'Mida te ka ei võtaks pakutava ISO-tõmmisega ette,
                 teete te seda täielikult omal riisikol ja ise vastutades.',
-        'title_ok' => 'Kas soovite ikka veel Mageia 1 beta1 alla laadida ja testida?',
+        'title_ok' => 'Kas soovite ikka veel Mageia 1 beta2 alla laadida ja testida?',
         'dl_help' => 'Valige lihtsalt kõige paremini sobiv ISO-tõmmis. Kui te pole kindel, valige üks kahest esimesest.',
-        'changes_since_a2' => 'Muudatused pärast Alpha 2',
+        'changes_since_a2' => 'Muudatused pärast Beta 1',
         'release_docs' => 'Väljalaskedokumendid',
         'whatismageia' => 'Mis on Mageia?',
         'size' => 'Suurus',
@@ -371,7 +371,7 @@ Note que las traducciones están en progreso.',
         'dl_mirror_loc' => 'Selle <a href="%s">%s</a> allalaadimise peegelsaidi asukohaks on %s (%s).',
         'dl_alt_mirrors' => 'Kui see teie puhul ei toimi, <a href="#om" id="other_mirrors_btn">proovige kasutada teisi peegelsaite</a>.',
         'whatdouthink?' => 'Kuidas see teile meeldib?',
-        'give_feedback' => 'Me ootame väga teie muljeid Mageia 1 beta1 kohta, mida te võite jagada näiteks järgmistes kohtades:
+        'give_feedback' => 'Me ootame väga teie muljeid Mageia 1 beta2 kohta, mida te võite jagada näiteks järgmistes kohtades:
                 <a href="http://forums.mageia.org/">meie foorumites</a>,
                 <a href="http://blog.mageia.org/">meie ajaveebis</a>, <em>oma</em> ajaveebis,
                 Twitteris (<a href="http://twitter.com/mageia_org">@mageia_org</a>).
@@ -402,18 +402,18 @@ veebimeeskonda Freenode IRC-kanalil <a href="irc://irc.freenode.net/#mageia-web"
     ),
     'nb' => array(
         'download' => 'last ned',
-        'page_title' => 'Last ned Mageia 1 beta1',
+        'page_title' => 'Last ned Mageia 1 beta2',
         'page_desc' => 'Hvor du kan laste ned Mageia installerbare og direkte kjørbare ISO avtrykk.',
         'page_kw' => 'mageia, programmvare, nedlasting, operativsystem, ISO, datamaskin, torrent, ftp',
-        'page_h1' => 'Last ned Mageia 1 <em class="tag">beta1</em>',
+        'page_h1' => 'Last ned Mageia 1 <em class="tag">beta2</em>',
         'warn_1' => 'Vær forsiktig!
             Denne er IKKE FOR: normal bruk, offentlig anmeldelse, personlig eller driftsevaluering.
             Denne er KUN FOR: utviklere, pakkere, testbrukere.',
         'warn_2' => 'Hva du enn gjør med ISO avtrykket
                 så skjer det for egen regning på eget ansvar.',
-        'title_ok' => 'Vil du fortsatt laste ned og teste Mageia 1 beta1?',
+        'title_ok' => 'Vil du fortsatt laste ned og teste Mageia 1 beta2?',
         'dl_help' => 'Bare velg ISO-avtrykket som er best for deg; dersom du er usikker så bør du velge blant de to første.',
-        'changes_since_a2' => 'Forandringer siden Alpha 2',
+        'changes_since_a2' => 'Forandringer siden Beta 1',
         'release_docs' => 'Dokumenter til slippet',
         'whatismageia' => 'Hva er Mageia?',
         'size' => 'Størrelse',
@@ -428,7 +428,7 @@ veebimeeskonda Freenode IRC-kanalil <a href="irc://irc.freenode.net/#mageia-web"
         'dl_mirror_loc' => 'Dette <a href="%s">%s</a> Speilet for nedlasting er plassert i %s (%s).',
         'dl_alt_mirrors' => 'Dersom dette ikke virker for deg, <a href="#om" id="other_mirrors_btn">kan du velge disse speilene</a>.',
         'whatdouthink?' => 'Hva synes du om dette?',
-        'give_feedback' => 'Du er velkommen til å formidle dine inntrykk ang. Mageia 1 beta1, hvor du måtte ønske:
+        'give_feedback' => 'Du er velkommen til å formidle dine inntrykk ang. Mageia 1 beta2, hvor du måtte ønske:
                 i <a href="http://forums.mageia.org/">våre fora</a>,
                 <a href="http://blog.mageia.org/">vår blog</a>, i <em>din</em> blog,
                 på Twitter (<a href="http://twitter.com/mageia_org">@mageia_org</a>).
@@ -460,16 +460,16 @@ veebimeeskonda Freenode IRC-kanalil <a href="irc://irc.freenode.net/#mageia-web"
     ),
     'ro' => array(
         'download' => 'descărcare',
-        'page_title' => 'Descărcați Mageia 1 beta1',
+        'page_title' => 'Descărcați Mageia 1 beta2',
         'page_desc' => 'Locul în care puteți descărca imaginile ISO instalabile și ISO.',
         'page_kw' => 'mageia, software, descărcare, sistem de operare, ISO, calculator, torrent, ftp',
-        'page_h1' => 'Descărcați Mageia 1 <em class="tag">beta1</em>',
+        'page_h1' => 'Descărcați Mageia 1 <em class="tag">beta2</em>',
         'warn_1' => 'Atenție!
             Această versiune NU ESTE PENTRU: utilizare, recenzii, evaluare personală sau în producție.
             Această versiune este PENTRU: dezvoltatori, împachetatori și testori.',
         'warn_2' => 'Indiferent ce doriți să faceți cu imaginea ISO furnizată
                o faceți pe propriul risc și pe propria voastră răspundere.',
-        'title_ok' => 'Sigur doriți să descărcați și să testați Mageia 1 beta1?',
+        'title_ok' => 'Sigur doriți să descărcați și să testați Mageia 1 beta2?',
         'dl_help' => 'Alegeți imaginea ISO care vi-se potrivește; dacă nu sînteți sigur, alegeți dintre primele două.',
         'changes_since_a2' => 'Modificări față de Alfa 2',
         'release_docs' => 'Documentele ediției',
@@ -486,7 +486,7 @@ veebimeeskonda Freenode IRC-kanalil <a href="irc://irc.freenode.net/#mageia-web"
         'dl_mirror_loc' => 'Acest server alternativ <a href="%s">%s</a> este localizat în %s (%s).',
         'dl_alt_mirrors' => 'Dacă nu funcționează bine, <a href="#om" id="other_mirrors_btn">încercați și aceste servere alternative</a>.',
         'whatdouthink?' => 'Ce părere aveți?',
-        'give_feedback' => 'Sînteți bine venit să ne spuneți ce părere aveți despre Mageia 1 beta1, oricînd doriți:
+        'give_feedback' => 'Sînteți bine venit să ne spuneți ce părere aveți despre Mageia 1 beta2, oricînd doriți:
                 pe <a href="http://forums.mageia.org/">forumurile noastre</a>,
                 <a href="http://blog.mageia.org/">blogul nostru</a>, pe blogul <em>vostru</em>,
                 pe Twitter (<a href="http://twitter.com/mageia_org">@mageia_org</a>).
@@ -517,18 +517,18 @@ De remarcat că traducerile sînt în curs.',
     ),
     'ru' => array(
         'download' => 'загрузить',
-        'page_title' => 'Загрузка Mageia 1 beta1',
+        'page_title' => 'Загрузка Mageia 1 beta2',
         'page_desc' => 'Здесь Вы можете загрузить установочный и загрузочный ISO образы Mageia.',
         'page_kw' => 'mageia, программы, скачать, загрузить, операционная система, образ, компьютер, торрент, ftp',
-        'page_h1' => 'Загрузить Mageia 1 <em class="tag">beta1</em>',
+        'page_h1' => 'Загрузить Mageia 1 <em class="tag">beta2</em>',
         'warn_1' => 'Внимание!
             Это НЕ ДЛЯ: публичных обзоров, личного или производственного использования.
             Это ДЛЯ: тестирования разработчиками и упаковщиками.',
         'warn_2' => 'Чтобы вы не делали с предоставленным образом диска
                 вы делаете это на свой страх и риск.',
-        'title_ok' => 'Вы всё ещё хотите скачать и протестировать Mageia 1 beta1?',
+        'title_ok' => 'Вы всё ещё хотите скачать и протестировать Mageia 1 beta2?',
         'dl_help' => 'Просто выберите подходящий вам образ; если вы не уверенны, вам стоит выбрать один из первых.',
-        'changes_since_a2' => 'Изменения по сравнению с Alpha 2',
+        'changes_since_a2' => 'Изменения по сравнению с Beta 1',
         'release_docs' => 'Документация по релизу',
         'whatismageia' => 'Что такое Mageia?',
         'size' => 'Размер',
@@ -543,7 +543,7 @@ De remarcat că traducerile sînt în curs.',
         'dl_mirror_loc' => 'Это <a href="%s">%s</a> зеркало загрузки расположенно в %s (%s).',
         'dl_alt_mirrors' => 'Если это вам не помогло, <a href="#om" id="other_mirrors_btn">просмотрите список остальных зеркал</a>.',
         'whatdouthink?' => 'Что вы об этом думаете?',
-        'give_feedback' => 'Мы будем рады вашим отзывам и впечатлениям о Mageia 1 beta1, где бы то ни было:
+        'give_feedback' => 'Мы будем рады вашим отзывам и впечатлениям о Mageia 1 beta2, где бы то ни было:
                 на <a href="http://forums.mageia.org/">наших форумах</a>,
                 <a href="http://blog.mageia.org/">нашем блоге</a>, на <em>вашем</em> блоге,
                 в Twitter (<a href="http://twitter.com/mageia_org">@mageia_org</a>).
@@ -576,16 +576,16 @@ De remarcat că traducerile sînt în curs.',
     ),
     'tr' => array(
         'download' => 'indir',
-        'page_title' => 'Mageia 1 beta1 indirin',
+        'page_title' => 'Mageia 1 beta2 indirin',
         'page_desc' => 'Mageia\' nın kurulabilir ve çalışan ISO kalıplarını indirebileceğiniz yerler.',
         'page_kw' => 'mageia, yazılım, indir, işletim sistemi, ISO, bilgisayar, torrent, ftp',
-        'page_h1' => 'Mageia 1 <em class="tag">beta1</em> sürümünü indirin',
+        'page_h1' => 'Mageia 1 <em class="tag">beta2</em> sürümünü indirin',
         'warn_1' => 'Uyarı!
             Bu sürüm şunlar için UYGUN DEĞİLDİR: genel kullanım, inceleme, kişisel veya üretime yönelik yükseltme.
             Bu sürüm şunlar için UYGUNDUR: SADECE geliştiriciler, paketleyiciler, deneme kullanıcıları.',
         'warn_2' => 'Sunulan ISO disk kalıbı ile ne yaparsanız sadece
                 kendiniz sorumlu olur ve risk almış olursunuz.',
-        'title_ok' => 'Yine de Mageia 1 beta1 sürümünü indirmek ve denemek istiyor musunuz?',
+        'title_ok' => 'Yine de Mageia 1 beta2 sürümünü indirmek ve denemek istiyor musunuz?',
         'dl_help' => 'Size uygun olan ISO kalıbını seçin; emin değilseniz ilk ikisinden seçebelirisiniz.',
         'changes_since_a2' => 'Alfa 2\' den beri yapılan değişiklikler',
         'release_docs' => 'Yayım belgeleri',
@@ -602,7 +602,7 @@ De remarcat că traducerile sînt în curs.',
         'dl_mirror_loc' => 'Bu <a href="%s">%s</a> indirme yansısı %s (%s) üzerinde yer almaktadır.',
         'dl_alt_mirrors' => 'Bu yansı size hizmet veremiyorsa, <a href="#om" id="other_mirrors_btn">diğer yansıları kullanın</a>.',
         'whatdouthink?' => 'Hakkında ne düşünüyorsunuz?',
-        'give_feedback' => 'Mageia 1 beta1 hakkındaki izlenimlerinizi bizimle paylaşın::
+        'give_feedback' => 'Mageia 1 beta2 hakkındaki izlenimlerinizi bizimle paylaşın::
                 <a href="http://forums.mageia.org/">forumlarımızda</a>,
                 <a href="http://blog.mageia.org/">web günlümüzde</a>, <em>kendi</em> web günlüğünüzde,
                 Twitter (<a href="http://twitter.com/mageia_org">@mageia_org</a>).
@@ -634,17 +634,17 @@ De remarcat că traducerile sînt în curs.',
     ),
     'zh-tw' => array(
         'download' => '下載',
-        'page_title' => '下載 Mageia 1 beta1',
+        'page_title' => '下載 Mageia 1 beta2',
         'page_desc' => '這個頁面讓您下載 Mageia 安裝光碟與 Live 光碟的映像檔。',
         'page_kw' => 'mageia, software, download, operating system, ISO, computer, torrent, ftp',
-        'page_h1' => '下載 Mageia 1 <em class="tag">beta1</em>',
+        'page_h1' => '下載 Mageia 1 <em class="tag">beta2</em>',
         'warn_1' => '請注意！
             這個版本不適用於：一般使用，公開展示，個人或產品的檢驗。
             這個版本只適用於：開發者，套件打包者與測試者。',
         'warn_2' => '不管您使用這裡提供的光碟映像檔做什麼，您都必須自負風險。',
-        'title_ok' => '您還是要下載並測試 Mageia 1 beta1 嗎？',
+        'title_ok' => '您還是要下載並測試 Mageia 1 beta2 嗎？',
         'dl_help' => '請挑選您要使用的 ISO 映像檔。若您不確定，通常就是從前兩個映像檔中選一個。',
-        'changes_since_a2' => 'Alpha 2 之後的改變',
+        'changes_since_a2' => 'Beta 1 之後的改變',
         'release_docs' => '相關文件',
         'whatismageia' => '甚麼是 Mageia?',
         'size' => '大小',
@@ -659,7 +659,7 @@ De remarcat că traducerile sînt în curs.',
         'dl_mirror_loc' => '這個 <a href="%s">%s</a> 下載的鏡像站位於 %s (%s)。',
         'dl_alt_mirrors' => '如果它不適合您， <a href="#om" id="other_mirrors_btn">請試試看其他的鏡像站</a>。',
         'whatdouthink?' => '您覺得它如何呢？',
-        'give_feedback' => '歡迎您提供您對於 Mageia 1 beta1 的心得，無論您想要發表在：
+        'give_feedback' => '歡迎您提供您對於 Mageia 1 beta2 的心得，無論您想要發表在：
                 <a href="http://forums.mageia.org/">我們的討論區</a>，
                 <a href="http://blog.mageia.org/">我們的網誌</a>，或<em>您的</em>網誌，
                 或是 Twitter (<a href="http://twitter.com/mageia_org">@mageia_org</a>)。
@@ -690,18 +690,18 @@ De remarcat că traducerile sînt în curs.',
     ),
     'it' => array(
         'download' => 'scarica',
-        'page_title' => 'Scarica Mageia 1 beta1',
+        'page_title' => 'Scarica Mageia 1 beta2',
         'page_desc' => 'Dove puoi scaricare le immagini ISO live e installabili di Mageia.',
         'page_kw' => 'mageia, software, download, sistema operativo, ISO, computer, torrent, ftp',
-        'page_h1' => 'Scarica Mageia 1 <em class="tag">beta1</em>',
+        'page_h1' => 'Scarica Mageia 1 <em class="tag">beta2</em>',
         'warn_1' => 'Attenzione!
             NON È PER: uso, recensioni pubbliche, valutazioni personali o di produzione.
             È PER: sviluppatori, packager, SOLO per utenti che vogliono fare del test.',
         'warn_2' => 'Quasiasi cosa tu faccia con queste immagini ISO che forniamo,
                 sarà fatta a tuo rischio e pericolo e ti assumerai la piena responsabilità.',
-        'title_ok' => 'Vuoi ancora scaricare e testare Mageia 1 beta1?',
+        'title_ok' => 'Vuoi ancora scaricare e testare Mageia 1 beta2?',
         'dl_help' => 'Prendi semplicemente l immagine ISO più adatta alle tue necessità; se non sei sicuro, dovresti scegliere tra le prime due.',
-        'changes_since_a2' => 'Modifiche dalla Alpha 2',
+        'changes_since_a2' => 'Modifiche dalla Beta 1',
         'release_docs' => 'Documenti della Release',
         'whatismageia' => 'Cosa è Mageia?',
         'size' => 'Dimensioni',
@@ -716,7 +716,7 @@ De remarcat că traducerile sînt în curs.',
         'dl_mirror_loc' => 'Questo <a href="%s">%s</a> mirror per il download si trova in %s (%s).',
         'dl_alt_mirrors' => 'Se non funziona bene, <a href="#om" id="other_mirrors_btn">prova questi altri mirror</a>.',
         'whatdouthink?' => 'Che cosa ne pensi?',
-        'give_feedback' => 'Sei il benvenuto per darci le tue impressioni su Mageia 1 beta1, in qualsiasi parte:
+        'give_feedback' => 'Sei il benvenuto per darci le tue impressioni su Mageia 1 beta2, in qualsiasi parte:
                 nei <a href="http://forums.mageia.org/">nostri forum</a>,
                 <a href="http://blog.mageia.org/">nel nostro blog</a>, nel <em>tuo</em> blog,
                 su Twitter (<a href="http://twitter.com/mageia_org">@mageia_org</a>).
