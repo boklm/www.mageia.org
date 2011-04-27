@@ -102,9 +102,9 @@ $dl2_mirror_alt = sprintf($_t['dl_mirror_loc'],
                     <?php if (isset($p['md5'])): ?>
                 <p><?php echo $_t['signs_check_1']; ?></p>
                 <pre class="term">
-$ md5sum <?php echo $product_iso, "\n", $p['md5'], "\n"; ?>
+$ md5sum <?php echo basename($product_dl_link), "\n", $p['md5'], "\n"; ?>
 
-$ sha1 <?php echo $product_iso, "\n", $p['sha1'], "\n"; ?>
+$ sha1sum <?php echo basename($product_dl_link), "\n", $p['sha1'], "\n"; ?>
 </pre>
                 <p><?php echo $_t['signs_check_2']; ?></p>
                     <?php endif; ?>
