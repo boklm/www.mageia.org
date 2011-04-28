@@ -57,7 +57,7 @@
                         <li>Processor: any AMD, Intel or VIA processor;</li>
                         <li>Memory (RAM): 512MB minimum, 2GB recommended;</li>
                         <li>Storage (HDD): 1GB for a minimal installation, 6GB for a full setup;</li>
-                        <li>Optical drive: CD or DVD depending on the ISO you use (network installation available);</li>
+                        <li>Optical drive: CD or DVD depending on the ISO you use (network, USB key installation available);</li>
                         <li>Graphic card: any ATI, Intel, Matrox, nVidia, SiS or VIA graphic card;</li>
                         <li>Sound card: any AC97, HDA or Sound Blaster sound card.</li>
                     </ul>
