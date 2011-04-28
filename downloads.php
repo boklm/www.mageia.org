@@ -75,12 +75,9 @@ $dl_table = <<<T
     {$s}
     </tbody>
 </table>
-<p class="dlinfo"><strong>Live CDs will be released as soon as ready.</strong></p>
 <p class="dlinfo">{$_t['all_languages']}</p>
 <p class="dlinfo">{$_t['limited_languages']}</p>
-<!--
 <p class="dlinfo">{$_t['euro_languages']}</p>
--->
 T;
 
 

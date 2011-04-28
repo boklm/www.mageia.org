@@ -51,7 +51,7 @@ Note that translations are on their way.',
             hardware, hosting, time, for sharing the fun.',
         'all_languages' => 'All supported: up to 167 locales are supported: Deutsch, English, español, français, italiano, português, svenska, nederlands, polski, dansk and so much more!
             See the <a href="http://mageia.org/wiki/doku.php?id=tmp:supported_locales">comprehensive list</a>.',
-        'euro_languages' => 'Europa set of languages: Deutsch, English, español, français, italiano, português.
+        'euro_languages' => 'Europa set of languages: Deutsch, English (several variants), español, français, italiano, polski, português do Brasil, Русский.
             More languages will be made available for the stable release.',
         'limited_languages' => 'Limited: Belarussian, Catalan, German, English, Spanish, French, Hungarian, Italian, Polish, Portuguese, Ukrainian',
         'All supported' => 'All supported',
@@ -104,7 +104,7 @@ Note that translations are on their way.',
         'all_languages' => 'Toutes inclues&nbsp;: environ 167 langues ou dialectes sont disponibles&nbsp;: français, allemand, anglais, espagnol, italien,
         portugais, roumain, grec, esperanto, turque, suédois, finlandais, néerlandais, polonais, russe, danois, chinois, breton, bulgare
         et tant d&rsquo;autres&nbsp;! Consultez la <a href="http://mageia.org/wiki/doku.php?id=tmp:supported_locales">liste complète</a>.',
-        'euro_languages' => 'Langues européennes&nbsp;: allemand, anglais, espagnol, français, italien, portugais.
+        'euro_languages' => 'Langues européennes&nbsp;: allemand, anglais, espagnol, français, italien, polonais, portugais brésilien, russe.
         Davantage de langues seront disponibles dans la version finale.',
         'All supported' => 'Toutes inclues',
         'limited_languages' => 'Limité&nbsp;: biélo-russe, catalan, allemand, anglais, espagnol, français, hongrois, italien, polonais, portugais, ukrainien.',
@@ -161,7 +161,7 @@ Beachten Sie, dass an der Übersetzung noch gearbeitet wird.',
             Geld%s, Hardware, Hosting, Zeit und die Teilnahme an dem ganzen Spaß.',
         'all_languages' => 'Up to 167 locales are supported: Deutsch, English, español, français, italiano, português, svenska, nederlands, polski, dansk and so much more!
             See the <a href="http://mageia.org/wiki/doku.php?id=tmp:supported_locales">comprehensive list</a>.',
-        'euro_languages' => '"Europa set of languages" bedeutet: Deutsch, Englisch, Spanisch, Französisch, Italienisch, Portugiesisch.
+        'euro_languages' => '"Europa set of languages" bedeutet: Deutsch, Englisch, Spanisch, Französisch, Italienisch, Portugiesisch, Русский.
             Weitere Sprachen werden im finalen Release zur Verfügung stehen.',
         'All supported' => "Alle unterstützten Sprachen",
         'limited_languages' => 'Limited: Belarussian, Catalan, German, English, Spanish, French, Hungarian, Italian, Polish, Portuguese, Ukrainian',
@@ -219,7 +219,7 @@ Wij zijn druk bezig met vertalingen naar andere talen.',
             hardware donaties, hosting, tijd, en delen in het plezier!',
         'all_languages' => 'Up to 167 locales are supported: Deutsch, English, español, français, italiano, português, svenska, nederlands, polski, dansk and so much more!
             See the <a href="http://mageia.org/wiki/doku.php?id=tmp:supported_locales">comprehensive list</a>.',
-        'euro_languages' => 'Europa set of languages is: Deutsch, English, español, français, italiano, português.
+        'euro_languages' => 'Europa set of languages is: Deutsch, English, español, français, italiano, português, polski, Русский.
             More languages will be made available for the stable release.',
         'All supported' => 'All supported',
         'limited_languages' => 'Limited: Belarussian, Catalan, German, English, Spanish, French, Hungarian, Italian, Polish, Portuguese, Ukrainian',
@@ -277,7 +277,7 @@ Wij zijn druk bezig met vertalingen naar andere talen.',
         υλικό εξοπλισμό, φιλοξενία εξυπηρετητών, χρόνο, για να μοιραστεί τη διασκέδαση.',
         'all_languages' => 'Υποστηρίζονται όλες: υποστηρίζονται μέχρι και 167 τοπικότητες: Deutsch, English, español, français, italiano, português, svenska, nederlands, polski, dansk και πολλές ακόμα!
         Δείτε την <a href="http://mageia.org/wiki/doku.php?id=tmp:supported_locales">πλήρη λίστα</a>.',
-        'euro_languages' => 'Σύνολο ευρωπαικών γλωσσών: Deutsch, English, español, français, italiano, português.
+        'euro_languages' => 'Σύνολο ευρωπαικών γλωσσών: Deutsch, English, español, français, italiano, polski, português, Русский.
         Περισσότερες γλώσσες θα γίνουν διαθέσιμες για τη σταθερή έκδοση.',
         'limited_languages' => 'Περιορισμένες: Belarussian, Catalan, German, English, Spanish, French, Hungarian, Italian, Polish, Portuguese, Ukrainian',
         'All supported' => 'Υποστηρίζονται όλες',
@@ -335,7 +335,7 @@ Note que las traducciones están en progreso.',
             hardware, hosting, tiempo, para compartir la entretención.',
         'all_languages' => 'Todos soportados: hasta 167 locales están soportados: Alemán, Inglés, Español, Francés, Italiano, Portugués, Suizo, Holandés, Polaco, Danés ¡y muchos más!
             Vea la <a href="http://mageia.org/wiki/doku.php?id=tmp:supported_locales">lista detallada</a>.',
-        'euro_languages' => 'Conjunto de idiomas de Europa: Alemán, Inglés, Español, Francés, Italiano, Portugués.
+        'euro_languages' => 'Conjunto de idiomas de Europa: Alemán, Inglés, Español, Francés, Italiano, Polski, Portugués, Русский.
             Mas idiomas estarán disponibles para la versión estable.',
         'limited_languages' => 'Inglés, Español, Francés, Húngaro, Italiano, Poliaco, Portugués, Ukrainiano',
         'All supported' => 'Todos soportados',
@@ -450,7 +450,7 @@ veebimeeskonda Freenode IRC-kanalil <a href="irc://irc.freenode.net/#mageia-web"
              maskinvare, webhotell, på tide å delta i morroa.',
          'all_languages' => 'Alle som støttes: opp til 167 språkvarianter er støttet: Deutsch, English, español, français, italiano, norsk, português, svenska, nederlands, polski, dansk og mange flere!
              Se også <a href="http://mageia.org/wiki/doku.php?id=tmp:supported_locales">aktuell liste</a>.',
-         'euro_languages' => 'Europeiske språk: Deutsch, English, español, français, italiano, português.
+         'euro_languages' => 'Europeiske språk: Deutsch, English, español, français, italiano, polski, português, Русский.
              Flere språk vil bli tilgjengelige for den stabile versjonen.',
          'limited_languages' => 'Begrenset: Hviterussisk, Katalansk, Tysk, Engelsk, Spansk, Fransk, Ungarsk, Italiensk, Polsk, Portugisisk, Ukrainsk',
          'All supported' => 'Helt støttet',
@@ -565,7 +565,7 @@ De remarcat că traducerile sînt în curs.',
             оборудования, хостинга, времени, разделения нашего удовольствия.',
         'all_languages' => 'Up to 167 locales are supported: Deutsch, English, español, français, italiano, português, svenska, nederlands, polski, dansk and so much more!
             See the <a href="http://mageia.org/wiki/doku.php?id=tmp:supported_locales">comprehensive list</a>.',
-        'euro_languages' => 'Europa set of languages is: Deutsch, English, español, français, italiano, português.
+        'euro_languages' => 'Europa set of languages is: Deutsch, English, español, français, italiano, polski, português, Русский.
             More languages will be made available for the stable release.',
         'All supported' => 'All supported',
         'limited_languages' => 'Limited: Belarussian, Catalan, German, English, Spanish, French, Hungarian, Italian, Polish, Portuguese, Ukrainian',
