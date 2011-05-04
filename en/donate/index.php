@@ -47,6 +47,13 @@
                     <p>There will be a monthly report on the funds received and how they were used.
                         We believe public accountability is crucial. As stated in the minutes of
                         The First General Constitutive Assembly, the treasurer of Mageia.Org is Damien Lallement.</p>
+                        
+                    <p><strong>2011 May 3<sup>rd</sup></strong>: yes, this page needs to be better;
+                        see <a href="https://bugs.mageia.org/show_bug.cgi?id=1135">bug 1135</a>
+                        and tell/show us how we could improve this (report visualization, feedback, donation).
+
+                        In the meantime, check out our reports and forecast for <a href="/en/about/reports/2010/">2010</a>
+                        and <a href="/en/about/reports/2011/">2011</a>.</p>
                     <hr />
                 </div>
             </div>
