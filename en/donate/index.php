@@ -48,7 +48,7 @@
                         We believe public accountability is crucial. As stated in the minutes of
                         The First General Constitutive Assembly, the treasurer of Mageia.Org is Damien Lallement.</p>
                         
-                    <p><strong>2011 May 3<sup>rd</sup></strong>: yes, this page needs to be better;
+                    <p><strong>2011 May 4<sup>th</sup></strong>: yes, this page needs to be better;
                         see <a href="https://bugs.mageia.org/show_bug.cgi?id=1135">bug 1135</a>
                         and tell/show us how we could improve this (report visualization, feedback, donation).
 
