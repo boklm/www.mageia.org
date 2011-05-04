@@ -110,7 +110,7 @@ class Downloads
                 $m[$val[0]] = $val[1];
             }
             $pu = parse_url($m['url']);
-            if (in_array($pu['scheme'], array('http', 'https', 'ftp')))
+            if (in_array($pu['scheme'], array('http', 'ftp')))
                 $mirrors3[$m['country']][] = array(
                     'city' => $m['city'],
                     'zone' => $m['zone'],
