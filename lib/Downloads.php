@@ -105,6 +105,7 @@ class Downloads
         $mirrors3 = array();
         foreach ($data as $line) {
             $line = explode(',', trim($line));
+            $m = array();
             foreach ($line as $val) {
                 $val = explode('=', trim($val));
                 $m[$val[0]] = $val[1];
@@ -112,7 +113,7 @@ class Downloads
             $pu = parse_url($m['url']);
             if (in_array($pu['scheme'], array('http', 'ftp')))
                 $mirrors3[$m['country']][] = array(
-                    'city' => $m['city'],
+                    'city' => isset($m['city']) ? $m['city'] : '?',
                     'zone' => $m['zone'],
                     'url' => str_replace('/distrib/cauldron/i586', '', $m['url'])
                 );
