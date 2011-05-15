@@ -229,12 +229,12 @@ table#fr-table td.money { text-align: right; }
 .dlt2 th,
 .dlt2 td {
   border: 1px solid transparent;
+  vertical-align: top;
 }
 .dlt2 thead th { color: #aaa; font-size: 85%; text-align: left; }
 .dlt2 th {
   border: 0;
   border-bottom: 1px solid #ccc;
-  
 }
 .dlt2 tbody td {
   border-bottom: 1px solid #aaa;
