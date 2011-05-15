@@ -61,7 +61,7 @@ foreach ($g_mirrors as $country => $mirs):
         $g_mirs2[$countries[$country]][$mir['city']][] = $mir['url'];
     endforeach;
 endforeach;
-//print_r($g_mirs2);
+
 $g_mirrors = $g_mirs2;
 ksort($g_mirrors);
 
@@ -70,7 +70,7 @@ foreach ($g_mirrors as $country => $cities):
         $mirs = array();
         foreach ($mirrors as $m) {
             $pm = parse_url($m);
-            $alt_dl_link = sprintf('%s%s', $m, $product_dl_link);
+            $alt_dl_link = sprintf('%s/%s', $m, $product_dl_link);
             $mirs[] = sprintf('%s://<a href="%s" rel="nofollow">%s</a>',
                 $pm['scheme'], $alt_dl_link, $pm['host']);
         }
