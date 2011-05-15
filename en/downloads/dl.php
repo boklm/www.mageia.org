@@ -6,7 +6,6 @@ $product = isset($_GET['product']) ? trim(strtolower($_GET['product'])) : null;
 $torrent = isset($_GET['torrent']) ? true : false;
 $mirror  = isset($_GET['mirror']) ? trim(strtolower($_GET['mirror'])) : null;
 
-include '../../mirrors2.php';
 include '../../downloads.php';
 include '../../lib/Downloads.php';
 
@@ -27,6 +26,7 @@ if (!$found) {
     die;
 }
 
+$g_mirrors   = Downloads::get_all_mirrors();
 $product_iso = $product . '.iso';
 
 $wsd = new Downloads('en', null);
@@ -54,6 +54,17 @@ else {
 $title = 'Mageia 1 beta1';
 
 $dl_alt_mirrors_table = '';
+
+$g_mirs2 = array();
+foreach ($g_mirrors as $country => $mirs):
+    foreach ($mirs as $mir):
+        $g_mirs2[$countries[$country]][$mir['city']][] = $mir['url'];
+    endforeach;
+endforeach;
+//print_r($g_mirs2);
+$g_mirrors = $g_mirs2;
+ksort($g_mirrors);
+
 foreach ($g_mirrors as $country => $cities):
     foreach ($cities as $city => $mirrors) {
         $mirs = array();
@@ -63,7 +74,7 @@ foreach ($g_mirrors as $country => $cities):
             $mirs[] = sprintf('%s://<a href="%s" rel="nofollow">%s</a>',
                 $pm['scheme'], $alt_dl_link, $pm['host']);
         }
-        $dl_alt_mirrors_table .= sprintf('<tr><td>%s</td><td>%s</td><td>%s</td></tr>', $country, $city, implode(', ', $mirs));
+        $dl_alt_mirrors_table .= sprintf('<tr><td nowrap>%s</td><td>%s</td><td>%s</td></tr>', $country, $city, implode(', ', $mirs));
     }
 endforeach;
 
