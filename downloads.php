@@ -14,14 +14,16 @@ $_t = $_t[$locale];
 
 $prods = parse_ini_file('downloads.ini', true);
 $countries = array(
+    'BR' => 'Brasil',
     'CH' => 'Switzerland',
     'CN' => 'China',
     'CZ' => 'Czechia',
-    'DE' => 'Deutschland (Germany)',
+    'DE' => 'Deutschland',
     'FR' => 'France',
     'GR' => 'Greece',
-    'NC' => 'New Caledonia',
+    'NC' => 'Nouvelle-Calédonie',
     'NL' => 'Nederlands',
+    'TW' => 'Taiwan',
     'UK' => 'the UK',
     'US' => 'the USA',
 );
