@@ -67,7 +67,6 @@
 
 
 </pre>
-                    <p>Dacă este necesar, puteți <a href="/iban_Mageia.Org.pdf" title="IBAN of Mageia.Org">descărca IBAN-ul nostru</a>.</p>
                 </div></div>
                 <div class="yui-u"><div class="para">
                     <h3>sau prin cec (numai în €).</h3>

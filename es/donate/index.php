@@ -63,8 +63,7 @@
 
 
 </pre>
-                    <p>Si es necesario puede <a href="/iban_Mageia.Org.pdf" title="IBAN of Mageia.Org">descargar nuestro IBAN</a>.</p>
-                </div></div> 
+                </div></div>
                 <div class="yui-u"><div class="para"> 
                     <h3>o vía cheque (&euro; solamente).</h3> 
                     <p>Puede enviar su donación a la siguiente dirección:</p> 

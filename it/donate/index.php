@@ -63,7 +63,6 @@
 
 
 </pre>
-                    <p>Se necessario, si può <a href="/iban_Mageia.Org.pdf" title="IBAN of Mageia.Org">scaricare il codice IBAN</a>.</p>
                 </div></div>
                 <div class="yui-u"><div class="para">
                     <h3>o con assegno (solo €).</h3>

@@ -70,7 +70,6 @@
 <?php echo $G_coord_assos_bank; ?>
 
 </pre>
-                    <p>İhtiyacınız varsa, bizim <a href="/iban_Mageia.Org.pdf" title="IBAN of Mageia.Org">IBAN'imizi indirebilirsin.</a></p>
                 </div></div>
                 <div class="yui-u"><div class="para">
                     <h3>veya çekle (yalnıca €),</h3>

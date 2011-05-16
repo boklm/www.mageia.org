@@ -68,7 +68,6 @@
 <?php echo $G_coord_assos_bank; ?>
 
 </pre>
-                    <p>Αν είναι απαραίτητο, μπορείτε να κάνετε λήψη <a href="/iban_Mageia.Org.pdf" title="IBAN of Mageia.Org">του κωδικού μας IBAN</a>.</p>
                 </div></div>
                 <div class="yui-u"><div class="para">
                     <h3>ή μέσω επιταγής (μόνο σε &euro;).</h3>

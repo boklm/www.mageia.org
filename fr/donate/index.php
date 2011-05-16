@@ -69,7 +69,6 @@
 <?php echo $G_coord_assos_bank; ?>
 
 </pre>
-                    <p>Si besoin, vous pouvez <a href="/iban_Mageia.Org.pdf" title="IBAN of Mageia.Org">télécharger notre IBAN</a>.</p>
                 </div></div>
                 <div class="yui-u"><div class="para">
 
