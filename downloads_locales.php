@@ -6,7 +6,7 @@ $_t = array(
         'page_title' => 'Download Mageia 1 RC',
         'page_desc' => 'Where you can download Mageia installable and live ISO images.',
         'page_kw' => 'mageia, software, download, operating system, ISO, computer, torrent, ftp',
-        'page_h1' => 'Download Mageia 1 <em class="tagRC',
+        'page_h1' => 'Download Mageia 1 <em class="tag">RC</em>',
         'warn_1' => 'Be Careful!
             This is NOT FOR: use, public review, personal or production evaluation.
             This is FOR: developers, packagers, test users ONLY.',
