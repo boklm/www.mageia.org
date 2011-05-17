@@ -84,7 +84,7 @@ $dl_table = <<<T
 <p class="dlinfo">{$_t['all_languages']}</p>
 <p class="dlinfo">{$_t['limited_languages']}</p>
 <p class="dlinfo">{$_t['euro_languages']}</p>
-<p>Not sure of what ISO to download? This may still be a bit verbose,
+<p class="dlinfo">Not sure of what ISO to download? This may still be a bit verbose,
 but you may want to <a href="http://www.mageia.org/wiki/doku.php?id=mageia_installation_media">read
 this article detailing our different install media</a>.</p>
 T;
