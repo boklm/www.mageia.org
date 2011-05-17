@@ -79,13 +79,13 @@ $nav_list = array(
     ),
     "/downloads/" => array(
     //"/{$locale}/downloads/" => array(
-        'de' => 'Beta2 herunterladen',
-        'en' => 'Download beta2',
-        'et' => 'Beta2 allalaadimine',
-        'fr' => 'Télécharger beta2',
-        'ro' => 'Descărcați beta2',
-        'ru' => 'Загрузить beta2',
-        'zh-tw' => '下載 beta2'
+        'de' => 'RC herunterladen',
+        'en' => 'Download RC',
+        'et' => 'RC allalaadimine',
+        'fr' => 'Télécharger RC',
+        'ro' => 'Descărcați RC',
+        'ru' => 'Загрузить RC',
+        'zh-tw' => '下載 RC'
     ),
     '/wiki/' => array(
         'en' => 'Wiki',

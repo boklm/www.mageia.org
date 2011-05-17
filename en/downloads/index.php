@@ -18,11 +18,6 @@
         <div id="bd" role="main">
             <div class="yui-g">
                 <div class="para">
-                    <p style="color: #f22;"><?php echo $_t['warn_1']; ?></p>
-
-                <p><?php echo $_t['warn_2']; ?></p>
-                <br />
-                <h2><?php echo $_t['title_ok']; ?></h2>
                 <p><?php echo $_t['dl_help']; ?></p>
                 <br />
                 <?php echo $dl_table; ?>
@@ -40,12 +35,12 @@
                 <div class="yui-u"><div class="para">
                     <h2><?php echo $_t['release_docs']; ?></h2>
                     <ul>
-                        <li><a href="/wiki/doku.php?id=iso1:beta2_release_notes" hreflang="en">Release Notes</a></li>
+                        <li><a href="/wiki/doku.php?id=iso1:rc_release_notes" hreflang="en">Release Notes</a></li>
                         <li><a href="/wiki/doku.php?id=mageia1:errata" hreflang="en">Errata</a></li>
                         <li><a href="http://blog.mageia.org/en/" hreflang="en">Blog post</a></li>
                         <li><a href="/"><?php echo $_t['whatismageia']; ?></a></li>
                     </ul>
-                    <p><abbr title="Release Candidate">RC</abbr> will be released on May, 17<sup>th</sup>.</p>
+                    <p>Finale will be released on June, 1<sup>st</sup>.</p>
                     <p>You can check our <a href="http://mageia.org/wiki/doku.php?id=iso_1_specifications#expected_milestones">roadmap for Mageia 1 here</a>.</p>
                 </div></div>
             </div>
