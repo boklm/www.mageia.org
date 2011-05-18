@@ -159,15 +159,15 @@ Beachten Sie, dass an der Übersetzung noch gearbeitet wird.',
             %sPaketbau%s und %sQA &amp; Testen%s bis hin zum Vertrieb, der
             Community-Unterstützung &amp; -Unterhaltung, sowie dem %sSpenden von
             Geld%s, Hardware, Hosting, Zeit und die Teilnahme an dem ganzen Spaß.',
-        'all_languages' => 'Up to 167 locales are supported: Deutsch, English, español, français, italiano, português, svenska, nederlands, polski, dansk and so much more!
-            See the <a href="http://mageia.org/wiki/doku.php?id=tmp:supported_locales">comprehensive list</a>.',
-        'euro_languages' => '"Europa set of languages" bedeutet: Deutsch, Englisch, Spanisch, Französisch, Italienisch, Portugiesisch, Русский.
+        'all_languages' => 'Bis zu 167 Sprachen werden unterst&uuml;tzt: Deutsch, Englisch, Spanisch, Franz&ouml;sisch, Italienisch, Portugiesisch, Schwedisch, Niederl&auml;ndisch, Polnisch, D&auml;nisch und viele weitere!
+            Eine erweiterte Liste k&ouml;nnen Sie <a href="http://mageia.org/wiki/doku.php?id=tmp:supported_locales">hier</a> einsehen.',
+        'euro_languages' => '"Europ&auml;ische Sprachliste" bedeutet: Deutsch, Englisch, Spanisch, Französisch, Italienisch, Portugiesisch, Русский.
             Weitere Sprachen werden im finalen Release zur Verfügung stehen.',
         'All supported' => "Alle unterstützten Sprachen",
-        'limited_languages' => 'Limited: Belarussian, Catalan, German, English, Spanish, French, Hungarian, Italian, Polish, Portuguese, Ukrainian',
-        'English' => 'English',
-        'Limited' => 'Limited',
-        'European set' => 'European set'
+        'limited_languages' => 'Eingeschr&auml;nkte Sprachliste: Wei&szlig;russisch, Katalonisch, Deutsch, Englishc, Spanisch, Franz&ouml;sisch, Ungarisch, Italienisch, Polnisch, Portugiesisch, Ukrainisch',
+        'English' => 'Englisch',
+        'Limited' => 'Eingeschr&auml;nkte Sprachliste',
+        'European set' => 'Europ&auml;ische Sprachliste'
         
     ),
     'nl' => array(
