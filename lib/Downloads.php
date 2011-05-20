@@ -133,12 +133,15 @@ class Downloads
     function get_mirror($country)
     {
         $mirs = self::get_all_mirrors();
-        
         if (array_key_exists($country, $mirs))
         {
-            $mirs = $mirs[$country];
-            shuffle($mirs);
-            return array_shift($mirs);
+            $mirs_tmp = $mirs[$country];
+            if ($country == 'FR')
+            {
+                $mirs_tmp = array_merge($mirs_tmp, $mirs['DE']);
+            }
+            shuffle($mirs_tmp);
+            return array_shift($mirs_tmp);
         }
         else
         {
