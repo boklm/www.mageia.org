@@ -2,4 +2,6 @@
 
 require_once '../langs.inc.php';
 
-relocate($langs);
+relocate($langs, 'contribute/');
+
+?>
