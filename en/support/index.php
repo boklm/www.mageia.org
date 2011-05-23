@@ -50,7 +50,7 @@
                     <hr />
 
                     <h2 id="hw">Hardware Requirements</h2>
-                    <p>Mageia software runs on most of x86 computer systems available as of today, April 2011.</p>
+                    <p>Mageia software runs on most x86 computer systems available as of today, April 2011.</p>
 
                     <p>You can follow this hardware requirements list:</p>
                     <ul class="hl">
@@ -61,8 +61,8 @@
                         <li>Graphic card: any ATI, Intel, Matrox, nVidia, SiS or VIA graphic card;</li>
                         <li>Sound card: any AC97, HDA or Sound Blaster sound card.</li>
                     </ul>
-                    <p>For some kind of some hardware (Wi-Fi chipsets, 3D graphic cards) to work properly,
-                        specific firmware or software may be needed, that is available in a specific
+                    <p>For some kinds of hardware (Wi-Fi chipsets, 3D graphic cards) to work properly,
+                        specific firmware or software may be needed, this is available in a specific
                         online repository called "nonfree" (learn more).</p>
 
                     <p class="dlinfo">We may set up a hardware compatibility list/directory

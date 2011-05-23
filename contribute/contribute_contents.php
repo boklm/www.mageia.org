@@ -4,7 +4,7 @@
         <div id="bd" role="main">
             <div class="yui-g">
                 <div class="para">
-                    <p>Diverse people from around the world gather to build Mageia
+                    <p>Many people from around the world gather to build Mageia
                         &ndash; a Linux-based operating system <em>and</em>
                         a <a href="/en/about/code-of-conduct/">lively, fun community</a>
                         for <a href="/en/about/values/">building Free Software projects</a>.</p>
@@ -35,7 +35,7 @@
                         </li>
                         <li id="docu">
                             <h3><a href="/wiki/doku.php?id=documentation">Writing, copywriting and documenting</a></h3>
-                            <p>You have a taste for practical, clear, concise, proofread, nice writing?
+                            <p>You have a taste for practical, clear, concise, proof read, nice writing?
                                 You like to take the challenge of explaining clearly
                                 complex ideas or systems and teach others?
                                 You know how to mix form &amp; content to push the right message?
@@ -62,11 +62,11 @@
                             <p>We can't ship software if we are not confident enough in it!
                                 <a href="/wiki/doku.php?id=qateam">Testers and QA</a>
                                 people make sure what we do (software, packages, ISO, Web sites)
-                                match our expectations for quality before they reach most users.</p>
+                                match our expectations for quality before they reach users.</p>
                         </li>
                         <li id="marketing">
                             <h3>Marketing, Communication &amp; Evangelism</h3>
-                            <p>Better understanding who use and contribute to the project
+                            <p>Better understanding of who uses and contributes to the project
                                 to help them even more, making sure the Mageia voice is consistent and heard,
                                 that's a job for the <a href="http://mageia.org/wiki/doku.php?id=marketing">marcomm' team</a>
                                 (Marketing and Communication), on global and local scales.</p>
@@ -90,13 +90,13 @@
                             <p>Mageia exists through an infrastructure and tools that enable everyone
                                 to collaborate. These need experts to build, maintain, develop, provide,
                                 manage servers, connections, security, applications, user flow, etc.
-                                It takes from <a href="/wiki/doku.php?id=sysadmin">system administrators</a>
+                                It takes <a href="/wiki/doku.php?id=sysadmin">system administrators</a>
                                 to <a href="/wiki/doku.php?id=web">Web designers/developers/integrators</a>.</p>
                         </li>
                         <li id="mirror">
                             <h3>Mirroring</h3>
                             <p>Making all Mageia software available requires <a href="http://mirrors.mageia.org/">several mirrors
-                                all around the world</a>, to distribute ISO and installation or update packages.
+                                around the world</a>, to distribute ISO and installation or update packages.
                                 If you have some space and bandwidth to share, please <a href="/wiki/doku.php?id=mirrors_policy#how_to_become_a_mirror">see how you can
                                 become an official Mageia mirror</a>.</p>
                         </li>
@@ -114,13 +114,13 @@
                             <h3>Data mining</h3>
                             <p>There are tons of data out there, most of which we don't use,
                                 or even know about. If you like to grab and analyze data
-                                to reveal &amp; visualize them and what that means we can do better,
+                                to reveal &amp; visualize it and what that means we can do better,
                                 get in touch!</p>
                         </li>
                         <li id="design">
                             <h3>Designing, experimenting, revealing the unknown</h3>
                             <p>Ideas are great, actionable prototypes are even better.
-                                The Mageia project is not about only making a different Linux
+                                The Mageia project is not only about making a different Linux
                                 distribution but as well about building new products and experiences
                                 with it and the data around it.</p>
                         </li>
@@ -146,7 +146,7 @@
                             <h3>A few hours</h3>
                             <ul class="contrib-act">
                                 <li>Stop by a Mageia event, like a test day to find, reproduce and resolve bugs.</p>
-                                <li>Subscribe a team discussion list and follow what happens there,
+                                <li>Subscribe to a team discussion list and follow what happens there,
                                     try to see how you can bring something more to it.</li>
                             </ul>
                         </li>
@@ -155,7 +155,7 @@
                             <ul class="contrib-act">
                                 <li>Learn about free software, open source collaboration in general,
                                     and Mageia in particular.</li>
-                                <li>If you are a student, consider talking to your teacher
+                                <li>If you are a student, consider talking to your tutor
                                     about participating into the project as part of your studies;
                                     you don't need to be specifically studying Computer Science.</li>
                             </ul>
