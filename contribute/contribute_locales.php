@@ -142,26 +142,27 @@ $_t = array(
 		'donator_example' => array(
 			'Mageia needs people that work to make it greater and greater, but there are also financial needs that you can
 				help fulfil. <br />See our <a href="http://www.mageia.org/en/donate/">donation page</a>.'
+		# replace "en" by your locale, if the values page exists in it
 		)
 	),
 	'de' => array(
 		'page_title' => 'An Mageia mitarbeiten',
-		'page_desc' => 'Hier können Sie herausfinden, wie sie am Mageia-Projekt mitarbeiten können',
-		'page_kw' => 'mageia, miarbeiten, unterstützen, howto, Betriebssystem',
+		'page_desc' => 'Hier können Sie feststellen, wie sie am Mageia-Projekt mitarbeiten können',
+		'page_kw' => 'Mageia, Mitarbeiten, Mnterstützen, Kurzanleitung, Betriebssystem',
 		'page_h1' => 'An Mageia mitarbeiten',
 		'h2_general' => 'Allgemeine Hinweise',
-		'contribute_general_1' => 'Mageia ist ein freies OpenSource-Betriebssystem. Es kann durch seine Benutzer und Mitglieder der
-			Mageia-Community verändert und verbessert werden. Der Geist des Mageia-Projektes ist in diesem <a href="http://mageia.org/de/about/values/">Werte-Katalog</a> zusammengefasst.',
-		'contribute_general_2' => 'Diese Seite wurde mit dem Ziel erstellt, denjenigen, die gerne mitarbeiten wollen, zu helfen
-			diese Mitarbeit einfacher zu machen. Sie haben die Freiheit, im Rahmen Ihrer Möglichkeiten mitzuarbeiten und dies an denjenigen Projekten, an denen Sie interessiert sind. Sie werden herausfinden, dass es viele Wege gibt, sich am Leben
+		'contribute_general_1' => 'Mageia ist ein freies Open-Source-Betriebssystem. Es kann durch seine Benutzer und Mitglieder der
+			Mageia - Community verändert und verbessert werden. Der Geist des Mageia-Projektes ist in diesem <a href="http://mageia.org/de/about/values/">Werte-Katalog</a> zusammengefasst.',
+		'contribute_general_2' => 'Diese Seite wurde mit dem Ziel erstellt, denjenigen, welche gerne mitarbeiten wollen, dabei zu helfen,
+			diese Mitarbeit einfacher zu gestalten. Sie haben die Entscheidungsfreiheit, im Rahmen Ihrer Möglichkeiten an den Projekten mitzuarbeiten , an denen Sie interessiert sind. Sie werden herausfinden, dass es viele Wege gibt, sich am Leben
 			unseres Projektes zu beteiligen und der Benutzer-Community zu helfen.',
-		'contribute_general_3' => 'Jeder kann mitarbeiten. Man benötigt keine fortgeschrittenen Fähigkeiten. Erinnern Sie sich
-			immer daran, dass die Grenzen Ihrer Mitarbeit nur durch Ihre Vorstellungen bestimmt werden.',
-		'contribute_general_4' => 'Hoffentlich finden Sie die folgenden Erklärungen der Mitarbeitsprofile hilfreich.',
+		'contribute_general_3' => 'Jeder kann mitarbeiten. Man benötigt keine fortgeschrittenen Fähigkeiten. Denken Sie 
+			immer daran, dass die Grenzen Ihrer Mitarbeit nur durch Ihre Ideen bestimmt werden.',
+		'contribute_general_4' => 'Wir hoffen,dass Sie die folgenden Erklärungen der Mitarbeitsprofile hilfreich finden.',
 		'contribute_general_remark' => 'Anmerkung: Wenn Sie schon wissen, in welchem Bereich Sie mitarbeiten können,
 			können Sie direkt zur <a href="http://mageia.org/wiki/doku.php?id=start#teams">Team-Liste</a> springen.',
 		'choose_profile' => 'Wänlen Sie Ihr Mitarbeits-Profil',
-		'profile_documenter' => 'Dokumenteur',
+		'profile_documenter' => 'Dokumentarist',
 		'profile_graphical' => 'Grafiker',
 		'profile_ambassador' => 'Botschafter',
 		'profile_technical' => 'Technischer Mitarbeiter',
@@ -171,123 +172,122 @@ $_t = array(
 		'ancor_top' => 'Zurück nach oben',
 		'contribute_role' => 'Die Aufgabe',
 		'contribute_skills' => 'Nützliche Fähigkeiten',
-		'contribute_examples' => 'Beispiele, wie und wo man mitarbeiten kann',
+		'contribute_examples' => 'Beispiele der Mitarbeit',
 		'document_role' => 'Mit Worten mitarbeiten.',
 		'document_skills' => array(
 			'Schreiben, bearbeiten grammatikalisch und sprachlich guter Texte',
-			'Die Fähigkeit, komplexe technische Gegebenheiten gut zu erklären und andere zu lehren.',
+			'Die Fähigkeit, komplexe technische Voraussetzungen gut zu erklären und anderen zu beizubringen.',
 			'Wissen über die genutzten Werkzeuge. (XML. Wiki, HTML, etc.)'
 		),
 		'document_example' => array(
-			'Treten Sie dem <a href="http://mageia.org/wiki/doku.php?id=documentation">Dokumentations-Team</a> bei, und abonieren
-				Sie die vielfältigen
-				<a href="https://www.mageia.org/mailman/">Mageia-Mailinglisten</a>.',
+			'Treten Sie dem <a href="http://mageia.org/wiki/doku.php?id=documentation">Dokumentations -Team</a> bei, und abonnieren
+				Sie die umfangreichen
+				<a href="https://www.mageia.org/mailman/">Mageia - Mailinglisten</a>.',
 			'Schreiben Sie Artikel, Bedienungsanleitungen, Tutorien, FAQs und andere Dokumentationen im Mageia-Wiki.',
-			'Vervollständigen Sie schon bestehende Documentationen im Mageia-Wiki',
+			'Vervollständigen Sie schon bestehende Dokumentationen im Mageia-Wiki',
 			'Korrigieren Sie grammatikalische und sprachliche Fehler im Mageia-Wiki.',
 			'Helfen Sie mit, das Wiki aktuell zu halten.',
-			'Fügen Sie dem Mageia-Wiki Links hinzu, umd die Dokumentation klarer zu gestalten.',
+			'Fügen Sie dem Mageia-Wiki Links hinzu, um die Dokumentation verständlicher zu gestalten.',
 			'Schreiben Sie technische Dokumentationen über die Einrichtung und Benutzung verschiedener Geräte
 				(wie z.B. Webcams) in Mageia.',
-			'Schreiben Sie Dikumentation über in Linux verfügbare Spiele. Schreiben SieBeschreibungen für Spiel-Pakete.',
+			'Schreiben Sie Dokumentation über in Linux verfügbare Spiele. Schreiben Sie Anleitungen für Spiel-Pakete.',
 			'Schreiben Sie Artikel über Mageia für die vielfältigen Linux-Nachrichten-Plattformen.',
 			'Schreiben Sie Marketing-Material für Mageia. Arbeiten Sie mit dem
 				<a href="http://mageia.org/wiki/doku.php?id=marketing">Marketing-Team</a> zusammen, um neue Ideen zu finden,
 				Mageia zu verbreiten.'
 		),
-		'graphical_role' => 'Mit Bildern mitarbeiten.',
+		'graphical_role' => 'An Bildern mitarbeiten.',
 		'graphical_skills' => array(
 			'Künstlerische Fähigkeiten',
 			'Ein Verständnis von Design und Ergonomie.',
-			'Die Fähigkeit, mit Inkscape, Gimp, LibreOffice or OpenOffice.org, und anderen umzugehen.'
+			'Die Fähigkeit, mit Inkscape, Gimp, LibreOffice bzw. OpenOffice.org, und anderen umzugehen.'
 		),
 		'graphical_example' => array(
-			'Treten Sie Mageias Artwork-Team bei. Abonieren Sie die
+			'Treten Sie Mageias Artwork-Team bei. Abonnieren Sie die
 				<a href="https://www.mageia.org/mailman/listinfo/mageia-artwork">Mageia-Artwork-Mailingliste</a>.',
 			'Erstellen Sie Bilder, Hintergründe und andere künstlerische Dinge für Mageia.',
-			'Beteiligen Sie sich an künstlerischen Projekten wie Werbe-Bannern, Desktop-Themes, Postern, T-Shirt-Design,...',
-			'Verbessern Sie den Komfort für Mageia-Benutzerdurch die Erstellung ergonomischer, intuitiver und ästhetisch ansprechender grafischer Schnittstellen.',
-			'Erstellen Sie Schilder, Bilder, Banner und Poster, um Mageia, Events and Projekte rund um OpenSource bekannt
+			'Beteiligen Sie sich an künstlerischen Projekten, wie Werbe-Banner,Desktop-Themes, Poster, T-Shirt-Design,...',
+			'Verbessern Sie den Komfort für Mageia-Benutzer durch die Erstellung ergonomischer, intuitiver und ästhetisch ansprechender grafischer Schnittstellen.',
+			'Erstellen Sie Schilder, Bilder, Banner und Poster, um Mageia, Events and Projekte rund um Open-Source bekannt
 				zu machen.'
 		),
-		'ambassador_role' => 'Sprechen, informieren, überzeugen Sie.',
+		'ambassador_role' => 'Argumentieren, informieren, überzeugen Sie.',
 		'ambassador_skills' => array(
-			'Die Fähigkeit, mit anderen Menschun umgehen zu können, enthisiastisch zu sein.',
+			'Die Fähigkeit, mit anderen Menschen umgehen zu können, enthusiastisch zu sein.',
 			'Events organisieren, Unterstützung anbieten'
 		),
 		'ambassador_example' => array(
-			'Treten Sie dem <a href="http://mageia.org/wiki/doku.php?id=communication">Kommunicationsteam</a> und/oder dem
-				<a href="http://mageia.org/wiki/doku.php?id=marketing">Marketingteam</a> bei. Abonieren Sie die vielfältigen
+			'Treten Sie dem <a href="http://mageia.org/wiki/doku.php?id=communication">Kommunikationsteam</a> bzw. dem
+				<a href="http://mageia.org/wiki/doku.php?id=marketing">Marketingteam</a> bei. Abonnieren Sie die vielfältigen
 				<a href="https://www.mageia.org/mailman/">Mageia-Mailinglisten</a>.',
 			'Stellen Sie Mageia in der Öffentlichkeit vor.',
-			'Helfen Sie Mageia und frie Software im Allgemeinen bekannt zu machen und zu verbreiten.',
+			'Helfen Sie Mageia und freie Software allgemein bekannt zu machen und zu verbreiten.',
 			'Seien Sie ein Ansprechpartner für Ihre lokale Community.',
-			'Werden Sie Teamleader oder -repräsentant im Mageia-Council. (Siehe
+			'Werden Sie Teamleiter oder -repräsentant im Mageia-Gremium. (siehe
 				<a href="http://mageia.org/wiki/doku.php?id=org">Organisation</a>)',
 			'Helfen Sie dabei, neue Mitarbeiter zu finden.',
 			'Denken Sie sich neue Ideen aus, um Mageia in Ihrer Region bekannt zu machen.',
-			'Machen Sie die Verfügbarkeit von Spielen bekannt, die unter Mageia funktionieren und dokumentieren Sie diese.',
-			'Organisieren Sie Events und Install-Partys für Mageia bzw. helfen Sie bei der Organisation mit.',
+			'Machen Sie die Verfügbarkeit von Spielen bekannt, die unter Mageia funktionieren und dokumentieren Sie diese',
+
+			'Organisieren Sie Events und Install-Partys für Mageia bzw. helfen Sie bei deren Organisation mit.',
 			'Entwickeln Sie eine Marketing-Strategie, um Mageia weltweit bekannt zu machen und zu verbreiten.',
 			'Arbeiten Sie an eine zentralen Wissensdatenbank mit, die benutzt werden kann, um Mageia neuen Benutzern schmackhaft
 				zu machen.',
-			'Werden Sie ein Mentor und helfen Sie, anderen die Fähigkeiten beizubringen, di dem Mageia-Projekt nützlich sind.',
+			'Werden Sie ein Mentor und helfen Sie, anderen die Fähigkeiten beizubringen, die dem Mageia-Projekt nützlich sind.',
 			'Helfen Sie anderen Benutzern in Mailinglisten, im IRC und in den Foren.',
 			'Stellen Sie im <a href="https://bugs.mageia.org/">Mageia-Bugzilla</a> Informationen über Bugs zur Verfügung.'
 		),
-		'technical_role' => 'Contribute to the core of the distribution with your technical skills.',
+		'technical_role' => 'Am Kern der Distribution mitarbeiten.',
 		'technical_skills' => array(
-			'Python, Perl, C/C++, or other programming languages.',
-			'RPM/Packaging, submitting bug reports.'
+			'Python, Perl, C/C++, oder andere Programmiersprachen.',
+			'RPM-Paketbau, Erstellen von Bug-Reports.'
 		),
 		'technical_example' => array(
-			'Join the <a href="http://mageia.org/wiki/doku.php?id=triage">Triage team</a>,
+			'Registriert unter <a href="http://mageia.org/wiki/doku.php?id=triage">Triage team</a>,
 				<a href="http://mageia.org/wiki/doku.php?id=qateam">QA team</a>,
 				<a href="http://mageia.org/wiki/doku.php?id=packaging"Packaging team</a> and/or
 				<a href="http://mageia.org/wiki/doku.php?id=developers"Distro Developers team</a>;
-				subscribe to the developer and other <a href="https://www.mageia.org/mailman/">Mageia mailing lists</a>.',
-			'Become a packager to create and develop RPM packages. (See
-				<a href="http://mageia.org/wiki/doku.php?id=packaging">Packaging</a>)',
-			'Validate, triage, and correctly assign bugs in Mageia bugzilla.',
-			'Test programs in Mageia Caudron.',
-			'Be the link between users who report bugs in the forum or mailing lists and Mageia Bugzilla, used by developers.',
-			'Help provide servers and tools to various projects around Mageia Linux.',
-			'Ensure that software developed is conform with internationalization standards, to facilitate localisation.
-				Modify existing software to be conform.',
-			'Document as you develop.'
+				Beschreibung für Entwickler und andere <a href="https://www.mageia.org/mailman/">Mageia mailing lists</a>.',
+			'Werden Sie Paketbauer für das Erstellen und Entwickeln von RPM-Paketen (siehe
+				<a href="http://mageia.org/wiki/doku.php?id=packaging">Paketbau</a>).',
+			'Überprüfen, sortieren und richtiges Zuordnen von Bugs in Mageia-Bugzilla.',
+			'Testen von Programmen in Mageia Cauldron.',
+			'Seien Sie Vermittler zwischen Nutzern, die Bugs in Foren und den Mailing-Listen melden und dem Mageia-Bugzilla, das von den Entwicklern verwendet wird.',
+			'Helfen und Bereitstellen von Server und Tools für verschiedene Projekte rund um Mageia Linux.',
+			'Stellen Sie sicher, dass Software entwickelt wird, die mit den internationalen Standards konform läuft, damit die Lokalisierung erleichtert wird.
+				Anpassung vorhandener Software.',
+			'Dokumente entwickeln '
 		),
-		'translator_role' => 'Contribute by translation.',
+		'translator_role' => 'Bei Übersetzungen mitarbeiten.',
 		'translator_skills' => array(
-			'Understand English (the usual source language), fluent in the target language.',
-			'Knowledge of technical translation, translation software.'
+			'Englisch verstehen (die übliche Ausgangssprache) zur fließenden Übertragung in die Zielsprache.',
+			'Basiswissen über technische Übersetzungen, Übersetzungssoftware.'
 		),
 		'translator_example' => array(
-			'Join the <a href="http://mageia.org/wiki/doku.php?id=translators">Mageia Translators team</a>, as well as
-				that for your particular language; subscribe to the
-				<a href="https://www.mageia.org/mailman/listinfo/mageia-i18n">Internationalization mailing list</a>,
-				as well as that for your language.',
-			'Translate documents, guides, tutorials, FAQs, marketing material.',
-			'Translate the wiki, clarifying, completing and otherwise improving it at the same time.',
-			'Translate software and packages.'
+			'Benutzen Sie <a href="http://mageia.org/wiki/doku.php?id=translators">Mageia Translators team</a>, für Ihre Muttersprache; abonnieren Sie
+				<a href="https://www.mageia.org/mailman/listinfo/mageia-i18n">Internationale Mailing liste</a>,
+				sowie die für Ihre eigene Sprache.',
+			'Übersetzen von Dokumenten, Handbüchern, Tutorials, FAQs, Marketing-Material.',
+			'Zeitgleiches Übersetzen von Wiki, Diskussionen, Ergänzungen und Verbesserungen',
+			'Übersetzen von Software und Paketen.'
 		),
-		'web_role' => 'Contribute on the web',
+		'web_role' => 'Im Web mitarbeiten.',
 		'web_skills' => array(
 			'Python, XML/XHTML, CSS, XSL/XSLT',
-			'Web development applications',
-			'Linux system administration'
+			'Webentwicklung von Anwendungen',
+			'Linux Systemadministration'
 		),
 		'web_example' => array(
-			'Become a dedicated volunteer who provides servers, tools, and utilities for Mageia Linux.',
-			'Track down and eliminate bugs on Mageia Internet sites.',
-			'Improve the image of Mageia on creating and improving the web interface for users and contributors.'
+			'Werden Sie ein engagierter Helfer, der Server, Tools und Utilities für Mageia Linux anbietet.',
+			'Aufspüren und Beseitigen von Fehlern auf Mageia - Internetseiten',
+			'Erhöhen Sie die Medienwirksamkeit durch Gestaltung und Verbesserung der Web-Oberfläche für Anwender und Mitwirkende.'
 		),
-		'donator_role' => 'Contribute with your money',
+		'donator_role' => 'Mit Ihrem Geld mitarbeiten.',
 		'donator_skills' => array(
-			'None required :)'
+			'Nicht erforderlich :)'
 		),
 		'donator_example' => array(
-			'Mageia needs people that work to make it greater and greater, but there are also financial needs that you can
-				help fulfil. <br />See our <a href="http://www.mageia.org/en/donate/">donation page</a>.'
+			'Mageia braucht Menschen, die daran arbeiten, das es wächst und wächst, allerdings werden dazu auch finanzielle Mittel benötigt (siehe <a href="http://www.mageia.org/de/donate/">Spendenseite</a>).'
 		)
 	)
 );
