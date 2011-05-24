@@ -3,16 +3,14 @@
 $locale = explode('/', $_SERVER['REQUEST_URI']);
 $locale = $locale[1];
 
-include 'contribute_locales.php';
+require 'contribute_locales.php';
 if (!array_key_exists($locale, $_t)) {
-            $locale = 'en';
+    $locale = 'en';
 }
 
 $_t = $_t[$locale];
 
-include '../../langs.php';
 ?>
-
 <!DOCTYPE html>
 <html lang="<?php echo $locale; ?>">
 <head>
@@ -22,10 +20,12 @@ include '../../langs.php';
     <meta name="keywords" content="<?php echo $_t['page_kw']; ?>">
     <meta name="author" content="Mageia">
     <link rel="stylesheet" type="text/css" href="/g/style/all.css">
-    <?php # include '../../analytics.php'; ?>
+    <link rel="canonical" href="/<?php echo $locale; ?>/contribute/">
+    <?php include '../../analytics.php'; ?>
 </head>
 <body id="top">
-	    <div id="doc" class="yui-t7">
+    <?php include '../../langs.php'; ?>
+    <div id="doc" class="yui-t7">
         <div id="hd" role="banner"><h1><a id="logo" href="/"><span>Mageia</span></a> <span class="lsep">|</span> <span class="subh"><?php echo $_t['page_h1']; ?></span></h1></div>
         <div id="bd" role="main">
             <div class="yui-g">
@@ -49,7 +49,8 @@ include '../../langs.php';
                         <li id=""><a href="#by-time">Browse by time</a></li>
                     </ul>
 
-                    <h2 id="by-role">Roles</h2>
+                    <div id="by-role">
+                    <h2>Roles</h2>
                     <ul id="contrib-roles" class="contrib-list">
                         <li id="support">
                             <h3>Helping users &amp; advocating the project</h3>
@@ -154,7 +155,9 @@ include '../../langs.php';
                         </li>
                     </ul>
                     <hr>
-                    <h2 id="by-time">Time</h2>
+                    </div>
+                    <div id="by-time">
+                    <h2>Time</h2>
                     <p>How much free time do you have? and how much of it do you want to commit to Mageia?
                         See what you can do:</p>
                     <ul id="contrib-time" class="contrib-list">
@@ -190,6 +193,7 @@ include '../../langs.php';
                         </li>
                     </ul>
                     <hr>
+                    </div>
                 </div>
             </div>
         </div>
