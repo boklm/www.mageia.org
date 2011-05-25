@@ -2,6 +2,7 @@
 
 // languages for home
 $langs = array(
+    'cs' => 'Čeština',
     'de' => 'Deutsch',
     'el' => 'Ελληνικά',
     'en' => 'English',
