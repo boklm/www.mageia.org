@@ -749,16 +749,16 @@ Ricorda che le traduzioni sono in corso.',
     'cs' => array(
         'download' => 'stahování',
         'page_title' => 'Stáhnout Mageia 1 RC',
-        'page_desc' => 'Kde se dají stáhnout instalovatelné a live ISO obrazy distribuce Mageia.',
+        'page_desc' => 'Kde se dají stáhnout instalovatelné a živé ISO obrazy distribuce Mageia.',
         'page_kw' => 'mageia, software, stahování, operační systém, ISO, počítač, torrent, ftp',
         'page_h1' => 'Stáhnout Mageia 1 <em class="tag">RC</em>',
         'warn_1' => 'Buďte opatrní!
-            Tato verze NENÍ ZAMÝŠLENA PRO: denní používání, veřejné zpravodajství, osobní nebo produkční hodnocení.
+            Tato verze NENÍ ZAMÝŠLENA PRO: denní používání, recenzování, osobní nebo produkční nasazení.
             Tato verze JE ZAMÝŠLENA PRO: vývojáře, tvůrce balíčků, POUZE pro uživatele, kteří ji chtějí vyzkoušet.',
         'warn_2' => 'Cokoli hodláte udělat s poskytnutým ISO obrazem disku,
                 uděláte na své vlastní riziko, na svou vlastní zodpovědnost.',
-        'title_ok' => 'Pořád ještě chcete Mageia 1 RC stáhnout a vyzkoušet?',
-        'dl_help' => 'Prostě vezměte hodící se ISO obraz. Pokud si náhodou nejste jisti, měli byste si vybrat z prvních dvou.',
+        'title_ok' => 'Pořád ještě chcete stáhnout a vyzkoušet Mageia 1 RC?',
+        'dl_help' => 'Vyberte si vhodný ISO obraz. Pokud si náhodou nejste jisti, měli byste si vybrat z prvních dvou.',
         'changes_since_a2' => 'Změny od Beta 2',
         'release_docs' => 'Dokumenty k vydání',
         'whatismageia' => 'Co je Mageia?',
@@ -770,7 +770,7 @@ Ricorda che le traduzioni sono in corso.',
         'dl_size' => '(velikost stahování je %s).',
         'alt_download' => 'Pokud stahování nezačalo, <a href="%s" rel="nofollow" title="%s">klepněte zde</a>.',
         'signs_check_1' => 'Jakmile stahování skončí, měl byste porovnat podpisy:',
-        'signs_check_2' => 'Pokud se podpisy neshodují, tento ISO obraz nepoužívejte. Znovu je porovnejte a zkuste jej stáhnout znovu.',
+        'signs_check_2' => 'Pokud se podpisy neshodují, tento ISO obraz nepoužívejte. Znovu je porovnejte, případně jej zkuste stáhnout znovu.',
         'dl_mirror_loc' => 'Tento <a href="%s">%s</a> stahovací server je umístěn na %s (%s).',
         'dl_alt_mirrors' => 'Pokud tento ve vašem případě nepracuje uspokojivě, <a href="#om" id="other_mirrors_btn">můžete použít jiný server</a>.',
         'whatdouthink?' => 'Co si o tom myslíte?',
@@ -778,19 +778,19 @@ Ricorda che le traduzioni sono in corso.',
                 na <a href="http://forums.mageia.org/">našich fórech</a>,
                 <a href="http://blog.mageia.org/">našem blogu</a>, na <em>svém</em> blogu,
                 na Twitteru (<a href="http://twitter.com/mageia_org">@mageia_org</a>).
-                V každém případě udělejte odkaz na <a href="http://mageia.org/">mageia.org</a>.',
-        'report_bug' => 'Pokud přijdete na nějakou chybu, podívejte se, prosím, <a href="/en/support/report-a-bug/">jak ji nahlásit</a>
-                    do naší databáze chyb, abychom ji mohli ošetřit tím nejlepším možným způsobem.',
+                V každém případě uveďte odkaz na <a href="http://mageia.org/">mageia.org</a>.',
+        'report_bug' => 'Pokud objevíte nějakou chybu, podívejte se, prosím, <a href="/en/support/report-a-bug/">jak ji nahlásit</a>
+                    do naší databáze chyb, abychom ji mohli opravit tím nejlepším možným způsobem.',
         'notify_web' => 'Pokud si povšimnete nějakých potíží se stahováním nebo se stránkami pro stahování, uvědomte o tom, prosím, internetový tým na
-<a href="irc://irc.freenode.net/#mageia-web">#mageia-web</a> kanálu Freenode IRC, abychom tu chybu mohli opravit tak rychle, jak jen to je možné.
+<a href="irc://irc.freenode.net/#mageia-web">#mageia-web</a> kanálu Freenode IRC, abychom ji mohli opravit tak rychle, jak jen to je možné.
 Mějte na paměti, že na překladech se ještě pracuje.',
         'wanttohelp?' => 'Chcete pomoci? %sPřidejte se k nám!%s',
-        'ucanhelp' => 'Ano, můžete! Mageia je výsledkem přesvědčení a spolupráce mnoha šťastných dobrovolníků z celého světa.',
+        'ucanhelp' => 'Ano, můžete! Mageia je výsledkem přesvědčení a spolupráce mnoha dobrovolníků z celého světa.',
         'wherehelp' => 'Je zde mnoho oblastí, ve kterých se dá projektu přispět.
-            Tyto sahají od uvádění do projektu, vývoje produktu,
+            Od představování projektu veřejnosti, vývoje produktu,
             %skomunikace%s, %snávrhu internetových stránek &amp; vývoje%s,
             v oblasti návrhu software, vývoje,
-            %slokalizace%s, %stvorby balíčků%s, %sQA &amp; zkoušení%s,
+            %slokalizace%s, %stvorby balíčků%s, %sQA &amp; testování%s,
             podpory společenství &amp; bavení se,
             po %sdarování peněz%s,
             zařízení, hostování, čas, a podíl na celé té zábavě.',
