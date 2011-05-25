@@ -65,11 +65,11 @@ $_t = $_t[$locale];
                             <p><?php echo $_t['text_qa']; ?></p>
                         </li>
                         <li id="marketing">
-                            <h3><?php echo $_t['h3_marketing']; ?></h3>
+                            <h3><a href="/wiki/doku.php?id=marketing"><?php echo $_t['h3_marketing']; ?></a></h3>
                             <p><?php echo $_t['text_marketing']; ?></p>
                         </li>
                         <li id="graphic">
-                            <h3><?php echo $_t['h3_graphic']; ?></h3>
+                            <h3><a href="/wiki/doku.php?id=designers"><?php echo $_t['h3_graphic']; ?></a></h3>
                             <p><?php echo $_t['text_graphic']; ?></p>
                         </li>
                         <li id="dev">
@@ -77,7 +77,7 @@ $_t = $_t[$locale];
                             <p><?php echo $_t['text_dev']; ?></p>
                         </li>
                         <li id="web">
-                            <h3><?php echo $_t['h3_web']; ?></h3>
+                            <h3><a href="/wiki/doku.php?id=web"><?php echo $_t['h3_web']; ?></a></h3>
                             <p><?php echo $_t['text_web']; ?></p>
                         </li>
                         <li id="mirror">
@@ -107,25 +107,25 @@ $_t = $_t[$locale];
                         <li>
                             <h3><?php echo $_t['h3_minutes']; ?></h3>
                             <ul class="contrib-act">
-								<?php foreach ( $_t['array_minutes'] as $item ) {
-									echo '<li>'.$item.'</li>';
-								} ?>
+                            <?php foreach ($_t['array_minutes'] as $item) {
+                                echo sprintf('<li>%s</li>', $item);
+                            } ?>
                             </ul>
                         </li>
                         <li>
                             <h3><?php echo $_t['h3_hours']; ?></h3>
                             <ul class="contrib-act">
-                                <?php foreach ( $_t['array_hours'] as $item ) {
-									echo '<li>'.$item.'</li>';
-								} ?>
+                            <?php foreach ($_t['array_hours'] as $item) {
+                                echo sprintf('<li>%s</li>', $item);
+                            } ?>
                             </ul>
                         </li>
                         <li>
                             <h3><?php echo $_t['h3_weeks']; ?></h3>
                             <ul class="contrib-act">
-                                <?php foreach ( $_t['array_weeks'] as $item ) {
-									echo '<li>'.$item.'</li>';
-								} ?>
+                            <?php foreach ($_t['array_weeks'] as $item) {
+                                echo sprintf('<li>%s</li>', $item);
+                            } ?>
                             </ul>
                         </li>
                     </ul>
