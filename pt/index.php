@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html>
-<html dir="ltr" lang="pt-br"><head>
+<html dir="ltr" lang="pt"><head>
     <meta charset="utf-8">
     <title>Mageia - Uma nova distribuição Linux</title>
-    <meta name="description" content="Mageia è una distribuzione Linux basata sulla communità.">
-    <meta name="keywords" content="mageia, linux, mandriva, software libero">
+    <meta name="description" content="A Mageia é uma nova distribuição Linux baseada na comunidade.">
+    <meta name="keywords" content="mageia, linux, mandriva, programa livre">
     <link rel="stylesheet" type="text/css" href="/g/style/all.css">
-    <link rel="alternate" type="application/rss+xml" title="Mageia Blog (Portugês)" href="http://blog.mageia.org/pt/?feed=rss" />
+    <link rel="alternate" type="application/rss+xml" title="Blogue Mageia (Portugês)" href="http://blog.mageia.org/pt/?feed=rss" />
     <?php include '../analytics.php';?>
 </head><body>
     <?php include '../langs.php'; ?>
@@ -14,11 +14,11 @@
         <div id="hd" role="banner"><h1><a id="logo" href="/"><span>Mageia</span></a> <span class="lsep">|</span> <span class="subh">Uma nova distribuição Linux</span></h1></div>
         <div id="bd" role="main">
             <div class="yui-g bb1">
-                <div class="para"><p>Mageia é um fork do Mandriva Linux, apoiada por uma organização
+                <div class="para"><p>A Mageia é uma bifurcação da Mandriva Linux, apoiada por uma organização
                     sem fins lucrativos reconhecida e colaboradores eleitos.</p>
 
-                    <p>Mais do que apenas oferecer um sistema operacional livre, seguro, estável e sustentável,
-                        o objetivo é a criação de uma administração estável e confiável para orientar projetos
+                    <p>Mais do que apenas oferecer um sistema operativo livre, seguro, estável e sustentável,
+                        o objectivo é a criação de uma administração estável e confiável para orientar projectos
                         colaborativos
                         (<a href="/pt/about/2010-sept-announcement.html">veja o anúncio original</a>).</p>
                 </div>
@@ -33,7 +33,7 @@
                 </div>
                 <div class="yui-u">
                     <div class="para" lang="en">
-                        <h2>Happening right now</h2>
+                        <h2>Está a acontecer agora</h2>
                         <?php include '../roadmap.php'; ?>
                     </div>
                 </div>
@@ -41,16 +41,16 @@
             <div class="yui-g bb1">
                 <div class="yui-u first">
                     <div class="para" id="contact">
-                        <h2>Como nos contatar</h2>
+                        <h2>Como nos contactar</h2>
                         <ul>
                             <li><a href="https://www.mageia.org/mailman/">Mailing-lists</a></li>
                             <li><a href="http://mageia.org/wiki/doku.php?id=irc">IRC (Rede Freenode)</a></li>
                             <li><a href="http://mageia.org/wiki/">Mageia Wiki</a></li>
-                            <li>Contact the founders team:
+                            <li>Contactar a equipa de fundadores:
                                 <ul>
                                     <li><a href="mailto:mageia-contact@mageia.org">mageia-contact@mageia.org</a></li>
                                     <li><a href="mailto:press@mageia.org">press@mageia.org</a></li>
-                                    <li>expect an answer within 2 days</li>
+                                    <li>espere uma resposta dentro de 2 dias</li>
                                 </ul></li>
                             <li><a href="http://www.twitter.com/mageia_org">twitter.com/mageia_org</a></li>
                             <li><a href="http://identi.ca/mageia">identi.ca/mageia</a></li>

@@ -2,9 +2,9 @@
 <html dir="ltr" lang="pt">
 <head>
     <meta charset="utf-8">
-    <title>Mageia Donation Campaign</title>
-    <meta name="description" content="Mageia is new community-based Linux distribution.">
-    <meta name="keywords" content="mageia, donate, donation">
+    <title>Campanha de Donação Mageia</title>
+    <meta name="description" content="A Mageia é uma nova distribuição Linux baseada na comunidade.">
+    <meta name="keywords" content="mageia, doar, donação">
     <meta name="author" content="Mageia">
     <link rel="stylesheet" type="text/css" href="/g/style/all.css" >
     <?php include '../../analytics.php'; ?>
@@ -19,18 +19,18 @@
                 <div class="para donate">
                     <div style="float: right; border: 1px solid #aaa; padding: 0 0 1em 0; margin: 0 0 2em 1em;">
                         <ul>
-                            <li><a href="#why">Por que doar?</a></li>
+                            <li><a href="#why">Porquê doar?</a></li>
                             <li><a href="#status">Andamento das doações</a></li>
-                            <li><a href="#d-paypal">Doando</a> (PayPal, banco, cheque)</li>
+                            <li><a href="#d-paypal">Doar</a> (PayPal, banco, cheque)</li>
                             <li><a href="/en/thank-you/#fund">Agradecimentos!</a></li>
                         </ul>
                     </div>
-                    <h2 id="why">Por que doar?</h2>
+                    <h2 id="why">Porquê doar?</h2>
                     <p> Mageia.Org é uma associação sem fins lucrativos para gerenciar a distribuição Mageia. Como associação sem fins lucrativos, podemos receber doações da comunidade para ajudar em vários campos diferentes:</p>
                     <ul>
                         <li>hardware e hospedagem para servidores;</li>
                         <li>nomes de domínios;</li>
-                        <li>registros de marca;</li>
+                        <li>registos de marca;</li>
                         <li>presentinhos para espalhar a Mageia;</li>
                         <li>despesas administrativas;</li>
                         <li>eventualmente, assistência jurídica e </li>
@@ -38,11 +38,11 @@
                     </ul>
 
                     <h2 id="status">Como andam as doações?</h2>
-                    <p>Atualmente, temos <strong><?php echo $g_donate_amount; ?></strong>
-                        agradecemos a todos nossos <a href="/en/thank-you/">doadores</a>! (atualizado semanalmente)</p>
+                    <p>Actualmente, temos <strong><?php echo $g_donate_amount; ?></strong>
+                        agradecemos a todos nossos <a href="/en/thank-you/">doadores</a>! (actualizado semanalmente)</p>
 
                     <p>Haverá um relatório mensal sobre os fundos recebidos e como foram utilizados. 
-                       Acreditamos que a responsabilidade pública é crucial. Como indicado na ata da Primeira Assembléia Geral Constituinte,
+                       Acreditamos que a responsabilidade pública é crucial. Como indicado na ata da Primeira Assembleia Geral Constituinte,
                        o tesoureiro da Mageia.Org é Damien Lallement.</p>
                 </div>
             </div>
@@ -67,7 +67,7 @@
                 </div></div>
                 <div class="yui-u"><div class="para">
                     <h3>ou via cheque (só Euro).</h3>
-                    <p>Você pode enviar sua doação por cheque para o endereço:</p>
+                    <p>Pode enviar sua doação por cheque para o endereço:</p>
                     <pre class="donate-coord">
 <?php echo $G_coord_assos; ?>
 
@@ -78,7 +78,7 @@
                     <ul>
                         <li>Paypal retira uma pequena comissão de cada doação (cerca de... %) então ficamos com um pouco menos do que você enviar;</li>
                         <li>taxas de conversão são cobradas a Mageia, então por favor use € (Euro) como moeda;</li>
-                        <li>se você quiser fazer uma doação anônima, por favor adicione um comentário.</li>
+                        <li>se você quiser fazer uma doação anónima, por favor adicione um comentário.</li>
                     </ul>
                 </div></div>
             </div>
