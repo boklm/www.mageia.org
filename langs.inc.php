@@ -47,3 +47,28 @@ function relocate($langs, $page = '', $default_locale = 'en')
     ));
     die;    
 }
+
+/**
+*/
+function show_langs($langs)
+{
+    header('Content-Type: text/html; charset=utf-8');
+    $count = count($langs);
+    $s = <<<S
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <charset="utf-8">
+    <meta name="robots" content="noindex,nosnippet">
+    <title>Mageia</title>
+</head>
+<body>
+<p><a href="/">Mageia.org</a> is available in {$count} languages:</p>
+<ul>
+S;
+    foreach ($langs as $k => $v) {
+        $s .= sprintf('<li><a href="/%s/" hreflang="%s">%s</a></li>',
+            $k, $k, $v);
+    }
+    echo $s, '</ul><hr /></body></html>';
+}

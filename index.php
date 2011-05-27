@@ -5,6 +5,8 @@
 
 require_once 'langs.inc.php';
 
+if (isset($_GET['langs'])) { die(show_langs($langs)); }
+
 if (isset($_GET['flang']))
 {
     $lang = array_key_exists($_GET['flang'], $langs) ? $_GET['flang'] : 'en';
