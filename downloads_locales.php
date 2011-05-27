@@ -402,61 +402,57 @@ veebimeeskonda Freenode IRC-kanalil <a href="irc://irc.freenode.net/#mageia-web"
     ),
     'nb' => array(
         'download' => 'last ned',
-        'page_title' => 'Last ned Mageia 1 RC',
-        'page_desc' => 'Hvor du kan laste ned Mageia installerbare og direkte kjørbare ISO avtrykk.',
-        'page_kw' => 'mageia, programmvare, nedlasting, operativsystem, ISO, datamaskin, torrent, ftp',
-        'page_h1' => 'Last ned Mageia 1 <em class="tag">RC</em>',
-        'warn_1' => 'Vær forsiktig!
-            Denne er IKKE FOR: normal bruk, offentlig anmeldelse, personlig eller driftsevaluering.
-            Denne er KUN FOR: utviklere, pakkere, testbrukere.',
-        'warn_2' => 'Hva du enn gjør med ISO avtrykket
-                så skjer det for egen regning på eget ansvar.',
-        'title_ok' => 'Vil du fortsatt laste ned og teste Mageia 1 RC?',
-        'dl_help' => 'Bare velg ISO-avtrykket som er best for deg; dersom du er usikker så bør du velge blant de to første.',
-        'changes_since_a2' => 'Forandringer siden Beta 2',
-        'release_docs' => 'Dokumenter til slippet',
+        'page_title' => 'Last ned Mageia 1 beta1',
+        'page_desc' => 'Her kan du laste ned Mageias installerbare og direkte kjørbare ISO-avtrykk.',
+        'page_kw' => 'mageia, programvare, nedlasting, operativsystem, ISO, datamaskin, torrent, ftp',
+        'page_h1' => 'Last ned Mageia 1 <em class="tag">beta1</em>',
+        'warn_1' => 'Advarsel.
+            Dette avtrykket er laget med tanke på utviklere, pakkere, testbrukere og andre involvert i miljøet rundt Mageia. Det er ikke laget for normal bruk.',
+        'warn_2' => 'Dette ISO-avtrykket brukes på eget ansvar.',
+        'title_ok' => 'Vil du fortsatt laste ned og teste Mageia 1 beta1?',
+        'dl_help' => 'Velg ISO-avtrykket som best passer dine behov. Hvis du er usikker, anbefaler vi at du velger et av de øverste på lista.',
+        'changes_since_a2' => 'Endringer siden Alpha 2',
+        'release_docs' => 'Utgivelsesdokumenter',
         'whatismageia' => 'Hva er Mageia?',
         'size' => 'Størrelse',
-        'flavour' => 'Smak',
+        'flavour' => 'Variant',
         'language' => 'Språk',
         'link' => 'Direkte lenke',
         'dl_shld_start' => 'Nedlastingen av %s starter om noen få sekunder',
-        'dl_size' => '(nedlastingsstørrelse er omtrent %s).',
-        'alt_download' => 'Dersom nedlastingen ikke starter, <a href="%s" rel="nofollow" title="%s">klikk her</a>.',
-        'signs_check_1' => 'Så fort nedlastingen er ferdig, bør du kontrollere at signaturene passer:',
-        'signs_check_2' => 'Dersom signaturene ikke passer bør du ikke bruke denne ISOen. Kontroller på nytt og forsøk å laste ned igjen.',
-        'dl_mirror_loc' => 'Dette <a href="%s">%s</a> Speilet for nedlasting er plassert i %s (%s).',
-        'dl_alt_mirrors' => 'Dersom dette ikke virker for deg, <a href="#om" id="other_mirrors_btn">kan du velge disse speilene</a>.',
+        'dl_size' => '(nedlastingsstørrelsen er omtrent %s).',
+        'alt_download' => 'Dersom nedlastingen ikke starter, kan du <a href="%s" rel="nofollow" title="%s">klikke her</a>.',
+        'signs_check_1' => 'Kontroller at sjekksummene samsvarer når nedlastingen er ferdig.',
+        'signs_check_2' => 'Dersom sjekksummene ikke samsvarer, må du laste ned dette avtrykket på nytt og gjenta steget over.',
+        'dl_mirror_loc' => 'Dette <a href="%s">%s</a> Speilet for nedlastinga er plassert i %s (%s).',
+        'dl_alt_mirrors' => 'Dersom dette ikke virker for deg, <a href="#om" id="other_mirrors_btn">kan du velge et av disse speilene</a>.',
         'whatdouthink?' => 'Hva synes du om dette?',
-        'give_feedback' => 'Du er velkommen til å formidle dine inntrykk ang. Mageia 1 RC, hvor du måtte ønske:
-                i <a href="http://forums.mageia.org/">våre fora</a>,
-                <a href="http://blog.mageia.org/">vår blog</a>, i <em>din</em> blog,
-                på Twitter (<a href="http://twitter.com/mageia_org">@mageia_org</a>).
-                I alle tilfelle lag lenke til <a href="http://mageia.org/">mageia.org</a>.',
-        'report_bug' => 'Dersom du finner en bug, så <a href="/en/support/report-a-bug/">se hvordan du rapporterer den</a>
-                    i vår bugs-database slik at vi kan ordne det på beste mulige måte.',
-        'notify_web' => 'Dersom du oppdager et problem med nedlastingssidene kan du ta kontakt med webteamet på
-     <a href="irc://irc.freenode.net/#mageia-web">#mageia-web</a> Freenode IRC channel slik at vi kan rette på dette så fort som mulig.
-     Observer at oversettelser pågår.',
-         'wanttohelp?' => 'Ønsker du å hjelpe til? %sDelta!%s',
-         'ucanhelp' => 'Jada du kan! Mageia er resultatet av viljen og sammarbeidet til mange lykkelige felles friviligge over hele verden.',
-         'wherehelp' => 'Det finnes mange områder en kan delta på og bidra til prosjektet.
-             Det kan være som talsmenn eller testing av prototyper,
-             %skommunikasjon%s, %sWeb design &amp; utvikling%s,
-             for programmvaredesign, utvikling,
-             %slokalisering%s, %spakking%s, %sKS &amp; testing%s,
-             levering, for felleskapsstøtte &amp; animasjon,
-             for %sdonere penger%s,
-             maskinvare, webhotell, på tide å delta i morroa.',
-         'all_languages' => 'Alle som støttes: opp til 167 språkvarianter er støttet: Deutsch, English, español, français, italiano, norsk, português, svenska, nederlands, polski, dansk og mange flere!
-             Se også <a href="http://mageia.org/wiki/doku.php?id=tmp:supported_locales">aktuell liste</a>.',
-         'euro_languages' => 'Europeiske språk: Deutsch, English, español, français, italiano, polski, português, Русский.
-             Flere språk vil bli tilgjengelige for den stabile versjonen.',
-         'limited_languages' => 'Begrenset: Hviterussisk, Katalansk, Tysk, Engelsk, Spansk, Fransk, Ungarsk, Italiensk, Polsk, Portugisisk, Ukrainsk',
-         'All supported' => 'Helt støttet',
-         'English' => 'English',
-         'Limited' => 'Limited',
-         'European set' => 'Europa sett'
+        'give_feedback' => 'Vi trenger din tilbakemelding om Mageia 1 beta1. Bruk derfor
+                <a href="http://forums.mageia.org/">forumet</a>,
+                <a href="http://blog.mageia.org/">bloggen</a>, <em>din egen blogg</em>,
+                eller <a href="http://twitter.com/mageia_org">@mageia_org</a> på Twitter, for å fortelle oss hva du mener.
+                Ikke glem å lenke til <a href="http://mageia.org/">mageia.org</a>.',
+        'report_bug' => 'Dersom du finner en feil, kan du rapportere den i vårt feilrapporteringsverktøy. Fremgangsmåten finner du <a href="/en/support/report-a-bug/">her</a>.',
+        'notify_web' => 'Hvis du oppdager et problem med nedlastingssidene, kan du ta kontakt med de ansvarlige i kanalen
+<a href="irc://irc.freenode.net/#mageia-web">#mageia-web</a> på IRC-nettverket Freenode.
+Vær klar over at vi fortsatt lokaliserer infrastrukturen vår.',
+        'wanttohelp?' => 'Ønsker du å hjelpe til? %sDelta!%s',
+        'ucanhelp' => 'Selvfølgelig kan du! Mageia er resultatet av viljen og samarbeidet til mange friviligge bidragsytere over hele verden.',
+        'wherehelp' => 'Det er mange oppgaver som skal utføres og vi trenger dine bidrag.
+            Du kan for eksempel være en talsperson, teste prototyper,
+            håndtere %skommunikasjon%s, bidra til %snettdesignet &amp; utviklingen av denne%s,
+            involvere deg i programvaredesign, utvikling,
+            %slokalisering%s, %spakking%s, %skvalitetssikring &amp; testing%s,
+            levering, felleskapsstøtte &amp; animasjon, donasjoner som 
+            %spenger%s, maskinvare og lagringsplass for å dele moroa',
+        'all_languages' => 'Så mange som 167 språk er støttet; tysk, engelsk, spansk, fransk, italiensk, norsk, portugisisk, svensk, nederlandsk, polsk, dansk og mange flere.
+            Se lista over <a href="http://mageia.org/wiki/doku.php?id=tmp:supported_locales">støttede språk</a> for mer informasjon.',
+        'euro_languages' => 'Europeiske språk som tysk, engelsk, spansk, fransk, italiensk, portugisisk.
+            Flere språk vil være tilgjengelige i den stabile versjonen.',
+        'limited_languages' => 'Begrenset støtte for hviterussisk, katalansk, tysk, engelsk, spansk, fransk, ungarsk, italiensk, polsk, portugisisk, ukrainsk',
+        'All supported' => 'Full støtte',
+        'English' => 'Engelsk',
+        'Limited' => 'Begrenset',
+        'European set' => 'Europeisk sett'
     ),
     'ro' => array(
         'download' => 'descărcare',
