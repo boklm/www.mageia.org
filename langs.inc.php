@@ -64,12 +64,16 @@ function show_langs($langs)
     <title>Mageia</title>
 </head>
 <body>
-<p><a href="/">Mageia.org</a> is available in {$count} languages:</p>
+<p><a href="/">Mageia.org</a> is currently available in {$count} languages:</p>
 <ul>
 S;
     foreach ($langs as $k => $v) {
         $s .= sprintf('<li><a href="/%s/" hreflang="%s">%s</a></li>',
             $k, $k, $v);
     }
-    echo $s, '</ul><hr /></body></html>';
+    echo $s, '</ul><hr />',
+        '<p>If you would like to help improving this Web site or its translations, ',
+        'check out our <a href="/wiki/doku.php?id=web">Web</a> and ',
+        '<a href="/wiki/doku.php?id=i18n">localization</a> teams!</p>',
+        '<hr /></body></html>';
 }
