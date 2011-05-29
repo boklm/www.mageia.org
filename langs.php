@@ -72,7 +72,7 @@ $nav_list = array(
     */
     "http://blog.mageia.org/{$locale}" => array(
         'el' => 'Ιστολόγιο',
-        'en' => 'Blog',
+        'en' => 'News',
         'et' => 'Ajaveeb',
         'tr' => 'Web Günlüğü',
         'ru' => 'Блог'
@@ -80,18 +80,16 @@ $nav_list = array(
     "/downloads/" => array(
     //"/{$locale}/downloads/" => array(
         'de' => 'RC herunterladen',
-        'en' => 'Download RC',
+        'en' => '<strong>Downloads</strong>',
         'et' => 'RC allalaadimine',
-        'fr' => 'Télécharger RC',
+        'fr' => '<strong>Télécharger</strong>',
         'ro' => 'Descărcați RC',
         'ru' => 'Загрузить RC',
         'zh-tw' => '下載 RC'
     ),
-    '/wiki/' => array(
-        'en' => 'Wiki',
-        'ru' => 'Вики'
-    ),
-    'http://forums.mageia.org/en/' => 'Forums',
+    '/support/' => 'Support',
+    '/contribute/' => 'Contribute',
+    /*
     '/en/calendar/' => array(
         'de' => 'Kalender',
         'el' => 'Ημερολόγιο',
@@ -105,17 +103,7 @@ $nav_list = array(
         'ro' => 'Calendar',
         'ru' => 'Календарь'
     ),
-    /*
-    "/{$locale}/faq/" => array(
-    //locale_path('faq') => array(
-        'en' => 'FAQ',
-        'es' => 'Preguntas Frecuentes',
-        'et' => 'KKK',
-        'tr' => 'S.S.S.',
-        'ro' => 'Întrebări frecvente'
-    ),
     */
-    //
     /*
     "http://mageia.org/wiki/doku.php?id=press" => array(
         'de' => 'Presse',
@@ -150,37 +138,6 @@ $nav_list = array(
         'ro' => 'Donații',
         'ru' => 'Пожертвования'
     ),
-        /*
-    "/{$locale}/about/values" => array(
-    //locale_path('about/values') => array(
-        'de' => 'Werte',
-        'el' => 'Αξίες',
-        'en' => 'Values',
-        'es' => 'Valores',
-        'et' => 'Väärtused',
-        'fr' => 'Valeurs',
-        'pl' => 'Wartości',
-        'pt' => 'Valores',
-        'tr' => 'Değerler',
-        'ro' => 'Valori',
-        'ru' => 'Цели'
-    ),
-    "/{$locale}/about/code-of-conduct" => array(
-    //locale_path('about/code-of-conduct') => array(
-        'de' => 'Verhaltenskodex',
-        'el' => 'Κώδικας συμπεριφοράς',
-        'en' => 'Code of Conduct',
-        'es' => 'Código de Conducta',
-        'et' => 'Käitumisjuhised',
-        'fr' => 'Code de conduite',
-        'pl' => 'Kodeks postępowania',
-        'pt' => 'Código de Conduta',
-        'tr' => 'Temel İlkeler',
-        'ro' => 'Codul de conduită',
-        'ru' => 'Кодекс поведения'
-    ),
-    */
-    //*/
 );
 
 $list_menu = array();
