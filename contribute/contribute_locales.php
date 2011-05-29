@@ -830,6 +830,119 @@ $_t = array(
 				    'Wanneer u student bent, overweeg dan eens om uw begeleider of docent te benaderen en te zien of 
 				    uw deelname in het project onderdeel kan uit maken van uw curriculum of studietraject;
                                     U heeft niet specifiek Informatica te studeren om dit te doen.')
+	),
+	'es' => array(
+		'page_title' => 'Contribuye con Mageia',
+		'page_desc' => 'Aquí puede encontrar como contribuir con el proyecto Mageia',
+		'page_kw' => 'mageia, contribuir, como, sistema operativo',
+		'page_h1' => 'Contribuye con Mageia',
+		'mageia_intro' => 'Mucha gente de todo el mundo se reune para construir Mageia
+                        &ndash; un sistema operativo de GNU/Linux <em>y</em>
+                        <a href="/en/about/code-of-conduct/">una comunidad activa</a>
+                        para <a href="/en/about/values/">crear proyectos de software</a>.',
+		'contribute_intro' => 'Contribuir es libre para todos, ¡esto es software libre!
+                        Si tienes curiosidad y deseas participar,
+                        hay cosas que puedes hacer,
+                        dependiendo de tu tiempo y tus habilidades;
+                        siempre encontrarás a alguien que te dé la bienvenida y te ayude 
+                        si es necesario, de manera que tu contribución al proyecto sea tan buena como sea posible.',
+		'check_can_do' => '¡Observa lo que puedes hacer acontinuación!',
+		'browse_role' => 'Buscar por rol',
+		'browse_time' => 'Buscar por tiempo',
+		'h2_role' => 'Roles',
+		'h3_support' => 'Ayudando usuarios &amp; Promoviendo el proyecto',
+		'text_support' => '¿Quieres darle la bienvenida a los usuarios y ayudar a los nuevos usuarios o compartir trucos con usuarios expertos?
+                                ¿En los <a href="/wiki/doku.php?id=irc">canales IRC</a>,
+                                <a href="http://forums.mageia.org/">Foros</a>,
+                                <a href="http://mageia.org/mailman/">listas de correo</a>,
+                                eventos locales? ¡Ponte en contacto con nosotros vía estos medios de comunicación y comparte la diversión!',
+		'h3_docu' => 'Escribiendo, documentando, y redactando',
+		'text_docu' => '¿Tienes gusto para la escritura práctica, concisa y bien redactada?,
+                                ¿Te gusta aceptar el reto de explicar claramente
+                                ideas complejas o sistemas y enseñar a otros?,
+                                ¿Sabes cómo mezclar forma y contenido para explicar el mensaje correcto?
+                                ¡Ponte en contacto con nuestro <a href="/wiki/doku.php?id=documentation">equipo de documentación</a>!',
+		'h3_i18n' => 'Traducción',
+		'text_i18n' => '¡Mageia está disponible en más de 180 idiomas!
+                                Aclarando, complementando, mejorando
+                                traducciones de software, guías, tutoriales, sitios web, material de mercadotecnia,
+                                etc. agradeciendo el esfuerzo de muchos contribuidores.
+                                ¡<a href="/wiki/doku.php?id=translators">Únete a ellos</a>!',
+		'h3_triage' => 'Triage',
+		'text_triage' => 'Los bugs son inevitables. Y algunos incluso se dan a conocer. Lógicamente, se deben verificar
+                                para facilitar a los empaquetadores/desarrolladores el arreglarlos más facilmente: Validación(¿El error es reproducible?), recolectar la información necesaria para la depuración, asignarlos y procesarlos adecuadamente.
+                                <a href="/wiki/doku.php?id=triage">Únete al equipo de triage</a> y sé el enlace entre usuarios que reportan bugs
+                                en los foros o listas de correo, y el <a href="http://bugs.mageia.org/">Bugzilla de Mageia</a>
+                                usado por los desarrolladores.',
+		'h3_qa' => 'Pruebas &amp; <abbr title="Quality Assurance">QA</abbr>',
+		'text_qa' => '¡No podemos enviar software si no estamos seguros de que funcionará bien!
+                                <a href="/wiki/doku.php?id=qateam">Testers y QA</a>
+                                hay que asegurarse de que los productos (software, paquetes, ISO\'s, sitios web)
+                                cumplan con nuestras expectativas de calidad antes de que lleguen a los usuarios.',
+		'h3_marketing' => 'Marketing, Comunicación y Evangelización',
+		'text_marketing' => 'Mejor entendimiento de quien usa y contribuye con el proyecto
+                                para ayudarlos aún más, asegurarse que la voz de Mageia sea consistente y sea escuchada,
+                                ese es el trabajo del <a href="http://mageia.org/wiki/doku.php?id=marketing">equipo marcomm</a>
+                                (Marketing y Comunicación), en escalas locales y globales.',
+		'h3_graphic' => 'Gráficos &amp; diseño de UI',
+		'text_graphic' => 'El software no solo es código, ni tampoco solo tecnología.
+                                ¡Así que hacerlo humano, práctico y bonito!
+                                ¡Si tienes talento y experiencia en diseño gráfico, ergonomía,
+                                <a href="/wiki/doku.php?id=designers">únete al equipo de diseño gráfico</a>!',
+		'h3_dev' => 'Codificación y empaquetado',
+		'text_dev' => '¡Contribuye  con el núcleo de la distribución con tus habilidades técnicas!
+                                Agregando, arreglando, corrigiendo y manteniendo el software  para ser incluido
+                                en la distribución, desde proyectos externos o fuentes especificas de Mageia.
+                                ¡Únete al <a href="/wiki/doku.php?id=packagers">equipo de empaquetadores</a>!',
+		'h3_web' => 'Web, herramientas, diseño y administración de sistemas',
+		'text_web' => 'Mageia depende de infraestructuras y herramientas que permiten a todos
+                                colaborar. Esto requiere expertos para construir, mantener, desarrollar, proveer
+                                y administrar servidores, conexiones, aplicaciones de seguridad, flujos de datos, etc.
+                                Hacen falta desde <a href="/wiki/doku.php?id=sysadmin">administradores de sistema</a>
+                                hasta <a href="/wiki/doku.php?id=web">diseñadores web/desarrolladores/integradores</a>
+                                para llevar a cabo esta enorme tarea.',
+		'h3_mirror' => 'Duplicar fuentes de descarga',
+		'text_mirror' => 'Hacer que el software de Mageia esté disponible requiere de
+                                <a href="http://mirrors.mageia.org/">varias fuentes de descarga (mirrors)
+                                alrededor del mundo</a>, para distribuir ISO\'s y paquetes de software.
+                                Si tienes algo de espacio en disco y banda ancha para compartir, por favor <a href="/wiki/doku.php?id=mirrors_policy#how_to_become_a_mirror">infórmate de cómo puedes proveer un mirror oficial de Mageia</a>.',
+		'h3_donation' => 'Donaciones',
+		'text_donation' => 'Las donaciones nos ayudan a asignar tareas específicas, asegurar nuestra infraestructura,
+                                financiar eventos, mercancía para regalar y promocionar y transporte.
+                                <a href="/en/thank-you/">más de 200 personas ya han expresado su confianza en nosotros</a>
+                                con su dinero, hardware u otros recursos.
+                                Mantenemos un <a href="/en/about/reports/">registro público de que tenemos y como lo usamos</a>.',
+		'h3_data' => 'Minería de datos',
+		'text_data' => 'Hay montones de datos allá afuera, muchos de los cuales no usamos,
+                                o ni siquiera sabemos de ellos. Si deseas tomar y analizar datos
+                                para revelar y visualizar aquello que podamos mejorar,
+                                ¡ponte en contacto!',
+		'h3_design' => 'Diseñar, experimentar, descubrir lo desconocido',
+		'text_design' => 'Las ideas son buenas, pero los prototipos son mejores.
+                                El proyecto Mageia no es solo para crear una distribución de GNU/Linux diferente, 
+                                también significa crear nuevos productos y experiencias
+                                con ella y con la información alrededor de el.',
+		'h2_time' => 'Tiempo',
+		'intro_time' => '¿Cuánto tiempo libre tienes?, y ¿Cuánto de ese tiempo quieres compartir con Mageia?
+                        Lo que puedes hacer:',
+		'h3_minutes' => 'Unos cuantos minutos',
+		'array_minutes' => array('Visita los <a href="http://forums.mageia.org/">foros</a>
+                                    en la sección de soporte y ve si puedes contestar alguna pregunta.',
+					'Habla sobre el proyecto con la gente cercana a ti, en tu blog, en tu cuenta de Twitter,
+                                    en tu lugar de trabajo.',
+					'Si encuentras un bug y puedes reproducirlo varias veces,
+                                    <a href="http://bugs.mageia.org/">envía un informe de fallos</a>.',
+					'¡Haz una <a href="/en/donate/">donación</a>!'),
+		'h3_hours' => 'Unas cuantas horas',
+		'array_hours' => array('Busca un evento de Mageia, como un día de pruebas, reproduce y ayuda a resolver bugs.',
+					'Suscríbete a una lista de grupo de discusión y mantente al tanto de lo que pasa,
+                                    Intenta ver como puedes brindar algo útil al grupo.'),
+		'h3_weeks' => 'Unas cuantas semanas o más',
+		'array_weeks' => array('Aprende sobre software libre, colaboración abierta en general,
+                                    y sobre Mageia en lo particular.',
+					'Si eres un estudiante, considera hablar con tus maestros sobre participar
+                                    en el proyecto como parte de tus estudios;
+                                    no es necesario ser estudiante de ciencas de la computación para participar.')
 	)
 );
 ?>
