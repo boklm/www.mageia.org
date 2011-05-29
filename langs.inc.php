@@ -18,8 +18,9 @@ $langs = array(
     'pt' => 'Português',
     'ro' => 'Română',
     'ru' => 'Русский',
-    'tr' => 'Türkçe',
     'sl' => 'Slovenščina',
+    'tr' => 'Türkçe',
+    'uk' => 'украї́нська мо́ва',
     'zh-cn' => '简体中文',
     'zh-tw' => '正體中文'
 );
