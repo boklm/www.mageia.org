@@ -132,7 +132,8 @@ $nav_list = array(
     */
     '/en/about/' => array(
         'en' => 'About',
-        'fr' => 'À propos'
+        'fr' => 'À propos',
+        'de' => 'Über'
     ),
     "/{$locale}/donate/" => array(
     //locale_path('donate') => array(
