@@ -89,9 +89,12 @@ $_t = array(
                 <hr />
                 <h2>Mageia is focusing on...</h2>
                     <ul class="product-list">
-                        <li><h3><a href="./users/">...users</a></h3></li>
-                        <li><h3><a href="./users/">...developers</a></h3></li>
-                        <li><h3><a href="./users/">...contributors</a></h3></li>
+                        <li><h3><a href="./user/">...users</a></h3>
+                            <p>Get more information <a href="./user/">here</a>.</p></li>
+                        <li><h3><a href="./developer/">...developers</a></h3>
+                            <p>Get more information <a href="./developer/">here</a>.</p></li>
+                        <li><h3><a href="./contributor/">...contributors</a></h3>
+                            <p>Get more information <a href="./contributor/">here</a>.</p></li>
                     </ul>    
                 </div>
             </div>
