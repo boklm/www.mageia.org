@@ -1,24 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Mageia - A New Linux Distribution</title>
-    <meta name="description" content="Mageia is new community-based Linux distribution.">
-    <meta name="keywords" content="mageia, linux, mandriva, free software">
-    <link rel="stylesheet" type="text/css" href="/g/style/all.css">
-    <link type="text/plain" rel="author" href="/humans.txt">
-    <link rel="alternate" type="application/rss+xml" title="Mageia Blog (English)" href="http://blog.mageia.org/en/?feed=rss">
+    <meta name="description" content="Mageia is new community-based Linux distribution." />
+    <meta name="keywords" content="mageia, linux, mandriva, free software" />
+    <link rel="stylesheet" type="text/css" href="/g/style/all.css" />
+    <link rel="alternate" type="application/rss+xml" title="Mageia Blog (English)" href="http://blog.mageia.org/en/?feed=rss" />
     <?php include '../analytics.php'; ?>
 </head>
-<body class="release">
+<body>
     <?php include '../langs.php'; ?>
     <div id="doc" class="yui-t7">
         <div id="hd" role="banner"><h1><a id="logo" href="/"><span>Mageia</span></a> <span class="lsep">|</span> <span class="subh">A New Linux Distribution</span></h1></div>
-        <?php include '../release_counter.php'; ?>
-        <a href="/en/1/" title="Mageia 1"><img src="/g/1/screenshots/opt-mageia.jpg" alt="Mageia 1 Desktop" class="rel-desktop-home"></a>
 
         <div id="bd" role="main">
-            <?php /*
             <div class="yui-g bb1">
                 <div class="para"><p>Mageia is a fork of Mandriva Linux,
                     supported by a not-for-profit organisation of
@@ -29,6 +26,7 @@
                         (<a href="/en/about/2010-sept-announcement.html">check original announcement</a>).</p>
                 </div>
             </div>
+            <?php include '../release_counter.php'; ?>
             <div class="yui-g bb1">
                 <div class="yui-u first rb1">
                     <div class="para" id="news">
@@ -73,7 +71,6 @@
                     </div>
                 </div>
             </div>
-        */ ?>
         </div>
     </div>
 </body>
