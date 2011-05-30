@@ -28,16 +28,19 @@ $_t = array(
                 <?php include '../nav.php'; ?>
                 <div class="para">
                 <p>Upgrading from Mandriva Linux 2010.1 and 2010.2 is supported, and has been fine tuned over the past
-                months, so it should work. But as always, <strong>do back up your data before upgrading</strong>.</p>
+                months, so it should work. But as always and before:</p>
+                <ul>
+                    <li>back up your data before upgrading;</li>
+                    <li>if you are upgrading a laptop, connect to power!
+                        You might be updating over 2000 packages, and this can take some time;</li>
+                    <li>do not start up any net-intensive applications during the upgrade
+                        &ndash; you need to reserve bandwidth for the upgrade.</li>
+                </ul>
                 <p>There are several ways to upgrade from one of those previous Mandriva releases:</p>
                 <ul>
                     <li><a href="#dvd">using the Mageia 1 DVD</a></li>
-                    <li><a href="#inline">using the online media sources directly</a>
-                        <ul>
-                            <li><a href="#mgaonline">using mgaonline</a></li>
-                            <li><a href="#urpmi">using urpmi</a></li>
-                        </ul>
-                    </li>
+                    <li><a href="#inline">using the online media sources directly</a>,
+                        using <a href="#mgaonline">mgaonline</a> or <a href="#urpmi">urpmi</a>.</li>
                 </ul>
                 <hr>
                 <h2 id="dvd">Upgrade using the Mageia 1 DVD</h2>
@@ -61,14 +64,15 @@ $_t = array(
                     Both methods are outlined below. But first, download and install
                     this <code>mgaonline</code> package that will help you through the process:</p>
                 
-                <p style="text-align: center;"><a href="mgaonline-2.77.29-1.mga1.noarch.rpm" rel="nofollow" title="Download mgaonline"><img src="/g/images/oxygen/application-x-rpm.png" alt="mgaonline"><br>
+                <p style="text-align: center;"><a href="/en/downloads/dl.php?product=mgaonline" rel="nofollow" title="Download mgaonline"><img src="/g/images/oxygen/application-x-rpm.png" alt="mgaonline"><br>
                     mgaonline<br>
                     for Mandriva Linux<br> 2010.1 or 2010.2</a></p>
                 
                 <br>
-                <p>Note that you may get a security warning, due to invalid package signature.
-                    Yes, that sucks, we know.
-                    But that's what we got so far.</p>
+                <p>Note that you may get a security warning, due to invalid package signatures.
+                    This is because a Mandriva system does not recognise Mageia signatures;
+                    you can safely ignore these warnings.
+                    Yes, that sucks, we know.</p>
                     
                 <p>So, it installed the package? Good, let's move on and pick a) or b) below:</p>
                 <br>
@@ -105,8 +109,8 @@ $_t = array(
                 </ul>
                 <hr>
                 <h2>That's it!</h2>
-                <hr>
             </div></div>
+            <hr>
             <div class="yui-g">
                 <div class="yui-u first"><div class="para" style="padding-right: 0;">
                     <h3>Have a question?</h3>
