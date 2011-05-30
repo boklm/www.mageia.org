@@ -21,10 +21,7 @@ $_t ['page_h1'] = sprintf($_t['page_h1'], '<em class="tag">Mageia 1 RC</em>');
         <div id="bd" role="main">
             <div class="yui-g">
                 <div class="para">
-                <p><?php echo $_t['dl_help']; ?>
-                    If you are using Mandriva Linux 2010.1 or 2010.2,
-                    you may directly <a href="/en/1/migrate/">upgrade
-                    your system to Mageia 1</a> as well.</p>
+                <p><?php echo $_t['dl_help']; ?></p>
                 <br />
                 <?php echo $dl_table; ?>
 
