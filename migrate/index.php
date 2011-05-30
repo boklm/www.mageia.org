@@ -24,4 +24,4 @@ $langs = array(
 //    'zh-tw' => '正體中文'
 );
 
-relocate($langs, 'migrate/');
+relocate($langs, '/1/migrate/');
