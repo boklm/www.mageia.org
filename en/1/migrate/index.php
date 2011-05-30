@@ -66,14 +66,24 @@ $_t = array(
                     for Mandriva Linux<br> 2010.1 or 2010.2</a></p>
                 
                 <br>
-                <h2 id="mgaonline">Upgrading inline, using mgaonline (GUI)</h2>
-                <p>Just launch <code>mgaapplet</code>.</p>
-                
-                <p>It will notify you of the availability of the new Mageia 1 distribution,
-                    configure Mageia media sources and start the migration.</p>
-                
+                <p>Note that you may get a security warning, due to invalid package signature.
+                    Yes, that sucks, we know.
+                    But that's what we got so far.</p>
+                    
+                <p>So, it installed the package? Good, let's move on and pick a) or b) below:</p>
                 <br>
-                <h2 id="urpmi">Upgrading inline, using urpmi (CLI)</h2>
+                <h2 id="mgaonline">a) Upgrading inline, using mgaonline (GUI)</h2>
+                <p>Just close your graphical session and log in again.
+                    A pop-up window will notify you of the availability of the new Mageia 1 distribution:</p>
+                <img src="/g/1/mgaonline/mgaonline8.png" alt="mgaonline pop-up" class="screen-copy">
+
+                <p>Just follow the wizard instructions; it will configure Mageia media sources and start the migration.</p>
+                <img src="/g/1/mgaonline/mgaonline2.png" alt="mgaonline pop-up" class="screen-copy">
+
+                <p>As soon as the migration is complete, you should restart your system; and here you are.</p>
+
+                <br>
+                <h2 id="urpmi">b) Upgrading inline, using urpmi (CLI)</h2>
                 <p>You can also upgrade using <code>urpmi</code> from your favourite terminal emulator,
                     if you are confortable with it. Here are the steps:</p>
                 <ul>
