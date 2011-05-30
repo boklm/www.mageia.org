@@ -286,3 +286,22 @@ span.pop_5 { width: 50px; }
 .release #hd { margin-bottom: 0; }
 img.rel-desktop-home { width: 749px; background: #fff; border: 0; margin: 0; padding: 0; }
 img.screen-copy { display: block; margin: 2em auto 4em auto; -webkit-box-shadow: 0px -6px 10px #aaa; }
+
+.clear { clear: both; }
+h2.download-btn {
+    font-family: "Century Gothic", "Trebuchet MS", Arial, sans-serif;
+    background: #3494D3;
+    background: -webkit-gradient(linear, left top, left bottom, from(#3494D3), color-stop(60%, #3494D3), to(#2383C2));
+    background: -moz-linear-gradient(top, #3494D3 60%, #2383C2);
+    background: -webkit-linear-gradient(top, #3494D3 60%, #2383C2);
+    background: linear-gradient(top, #3494D3 60%, #2383C2);
+    margin: 0 0 1em 0; padding: 0;
+    color: #ffffff;
+    padding: 0.6em; font-size: 220%; font-weight: normal;
+    border-radius: 4px;
+}
+h2.download-btn a:link,
+h2.download-btn a:visited { color: #fff; }
+
+p#subnav { text-align: right; color: #777; }
+p#subnav a.sel { color: #000; }
