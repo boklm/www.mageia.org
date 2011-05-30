@@ -26,7 +26,7 @@ if (!array_key_exists($locale, $locales))
 $l = $locales[$locale];
 
 // Mageia 1 on June 1st, 2011
-$release_ts = strtotime('2011/06/01 12:00:00');
+$release_ts = strtotime('2011/06/01 23:30:00');
 $now_ts = time();
 $diff = $release_ts - $now_ts;
 $s = '';
