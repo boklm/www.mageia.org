@@ -14,7 +14,8 @@ session_start();
 if (!is_null($product)) {
     $found = false;
     foreach ($prods as $k => $p) {
-        if ($product == sprintf('%s-%s', $glob['prefix'], $k)) {
+        if ($product == sprintf('%s-%s', $glob['prefix'], $k)
+            || $product == $k) {
             $found = true;
             break;
         }
@@ -51,7 +52,12 @@ else {
     $dl_link = sprintf('%s/%s', $a['mirror_url'], $product_dl_link);
 }
 
-$title = 'Mageia 1 beta1';
+$title = 'Mageia 1 RC';
+if (isset($p['page_title']))
+    $title = $p['page_title'];
+    
+$_t['page_h1'] = sprintf($_t['page_h1'], '<em class="tag">' . $title . '</em>');
+$_t['page_title'] = sprintf($_t['page_title'], '<em class="tag">' . $title . '</em>');
 
 $dl_alt_mirrors_table = '';
 
@@ -104,7 +110,7 @@ $dl2_mirror_alt = sprintf($_t['dl_mirror_loc'],
                 <h2><?php echo $_t['page_title']; ?></h2>
                 <p><?php
                     echo
-                        sprintf($_t['dl_shld_start'], 'Mageia 1 beta1 ' . $p['name']),
+                        sprintf($_t['dl_shld_start'], '<em class="tag">' . $p['name'] . '</em>'),
                         ' ', sprintf($_t['dl_size'], $p['size']),
                         ' ', sprintf($_t['alt_download'], $dl_link, $dl_link);
                 ?></p>

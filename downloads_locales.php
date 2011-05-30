@@ -3,10 +3,10 @@
 $_t = array(
     'en' => array(
         'download' => 'download',
-        'page_title' => 'Download Mageia 1 RC',
+        'page_title' => 'Download %s',
         'page_desc' => 'Where you can download Mageia installable and live ISO images.',
         'page_kw' => 'mageia, software, download, operating system, ISO, computer, torrent, ftp',
-        'page_h1' => 'Download Mageia 1 <em class="tag">RC</em>',
+        'page_h1' => 'Download %s',
         'warn_1' => 'Be Careful!
             This is NOT FOR: use, public review, personal or production evaluation.
             This is FOR: developers, packagers, test users ONLY.',
@@ -61,10 +61,10 @@ Note that translations are on their way.',
     ),
     'fr' => array(
         'download' => 'télécharger',
-        'page_title' => 'Télécharger Mageia 1 RC',
+        'page_title' => 'Télécharger %s',
         'page_desc' => 'Pour télécharger les images ISO live et d’installation de Mageia.',
         'page_kw' => 'mageia, software, download, télécharger, système, ordinateur, ISO, torrent, ftp',
-        'page_h1' => 'Télécharger Mageia 1 <em class="tag">RC</em>',
+        'page_h1' => 'Télécharger %s',
         'warn_1' => 'Attention&nbsp;!
         Ce logiciel n&rsquo;est PAS prévu pour un usage quotidien, une évaluation publique ou un environnement de production.
         Ce logiciel est prévu pour des TESTS, par des développeurs ou empaqueteurs.',
@@ -114,10 +114,10 @@ Note that translations are on their way.',
     ),
     'de' => array(
         'download' => 'herunterladen',
-        'page_title' => 'Mageia 1 RC herunterladen',
+        'page_title' => '%s herunterladen',
         'page_desc' => 'Wo man die Mageia-Installer- und -Live-ISOs herunterladen kann.',
         'page_kw' => 'Mageia, Software, Download, Herunterladen, Betriebssystem, ISO, Computer, torrent, ftp',
-        'page_h1' => 'Mageia 1 <em class="tag">RC</em> herunterladen',
+        'page_h1' => '%s herunterladen',
         'warn_1' => 'Seien Sie vorsichtig!
             Diese Version ist NICHT GEDACHT FÜR: tägliche Benutzung, Testberichte, persönliche oder Produkt-Evaluierung.
             Diese Version ist GEDACHT FÜR: Tests von Entwicklern und Paketbauern.',
@@ -172,10 +172,10 @@ Beachten Sie, dass an der Übersetzung noch gearbeitet wird.',
     ),
     'nl' => array(
         'download' => 'download',
-        'page_title' => 'Download Mageia 1 RC',
+        'page_title' => 'Download %s',
         'page_desc' => 'Waar u Mageia installeerbare en live ISO-images kunt downloaden.',
         'page_kw' => 'mageia, software, download, operating system, ISO, computer, torrent, ftp',
-        'page_h1' => 'Download Mageia 1 <em class="tag">RC</em>',
+        'page_h1' => 'Download %s',
         'warn_1' => 'Voorzichtig!
             Dit is NIET BEDOELD VOOR: dagelijks gebruik, publieke recencies, evaluatie voor persoonlijk gebruik of in een produktieomgeving.
             Dit is WEL BEDOELD VOOR: Mageia ontwikkelaars en het testen door packagers.',
@@ -230,10 +230,10 @@ Wij zijn druk bezig met vertalingen naar andere talen.',
     ),
     'el' => array(
         'download' => 'λήψη',
-        'page_title' => 'Λήψη της Mageia 1 RC',
+        'page_title' => 'Λήψη της %s',
         'page_desc' => 'Όπου μπορείτε να κάνετε λήψη εγκαταστάσιμων και live εικόνων ISO της Mageia.',
         'page_kw' => 'mageia, λογισμικό, λήψη, λειτουργικό σύστημα, ISO, υπολογιστής, torrent, ftp',
-        'page_h1' => 'Λήψη της Mageia 1 <em class="tag">RC</em>',
+        'page_h1' => 'Λήψη της %s',
         'warn_1' => 'Προσοχή!
         Αυτό ΔΕΝ ΕΙΝΑΙ ΓΙΑ: χρήση, δημόσια αξιολόγηση, παραγωγική εργασία.
         Αυτό ειναι ΓΙΑ: προγραμματιστές, δημιουργούς πακέτων, χρήστες δοκιμών ΜΟΝΟ.',
@@ -287,10 +287,10 @@ Wij zijn druk bezig met vertalingen naar andere talen.',
     ),
     'es' => array(
         'download' => 'descargar',
-        'page_title' => 'Descargue Mageia 1 RC',
+        'page_title' => 'Descargue %s',
         'page_desc' => 'Donde puede descargar imágenes ISO de Mageia instalables y live.',
         'page_kw' => 'mageia, software, aplicaciones, descarga, sistema operativo, ISO, computador, torrent, ftp',
-        'page_h1' => 'Descargue Mageia 1 <em class="tag">RC</em>',
+        'page_h1' => 'Descargue %s',
         'warn_1' => '¡Tenga cuidado!
             Esto NO ES PARA: uso, revisión pública, evaluación personal o en ambientes de producción.
             Esto es PARA: desarrolladores, empaquetadores, usuarios de prueba SOLAMENTE.',
@@ -345,10 +345,10 @@ Note que las traducciones están en progreso.',
     ),
     'et' => array(
         'download' => 'laadi alla',
-        'page_title' => 'Mageia 1 RC allalaadimine',
+        'page_title' => '%s allalaadimine',
         'page_desc' => 'Mageia ISO-tõmmiste allalaadimine paigaldamiseks ja kasutamiseks Live-süsteemina.',
         'page_kw' => 'mageia, tarkvara, allalaadimine, operatsioonisüsteem, ISO, arvuti, torrent, ftp',
-        'page_h1' => 'Mageia 1 <em class="tag">RC</em> allalaadimine',
+        'page_h1' => '%s allalaadimine',
         'warn_1' => 'Ettevaatust!
             See EI OLE: igapäevaseks kasutamiseks, avalikuks tutvustamiseks, isiklikuks või tööalaseks püsitarbimiseks.
             See ON: AINULT arendajatele, pakendajatele ja testijatele.',
@@ -402,10 +402,10 @@ veebimeeskonda Freenode IRC-kanalil <a href="irc://irc.freenode.net/#mageia-web"
     ),
     'nb' => array(
         'download' => 'last ned',
-        'page_title' => 'Last ned Mageia 1 beta1',
+        'page_title' => 'Last ned %s',
         'page_desc' => 'Her kan du laste ned Mageias installerbare og direkte kjørbare ISO-avtrykk.',
         'page_kw' => 'mageia, programvare, nedlasting, operativsystem, ISO, datamaskin, torrent, ftp',
-        'page_h1' => 'Last ned Mageia 1 <em class="tag">beta1</em>',
+        'page_h1' => 'Last ned %s',
         'warn_1' => 'Advarsel.
             Dette avtrykket er laget med tanke på utviklere, pakkere, testbrukere og andre involvert i miljøet rundt Mageia. Det er ikke laget for normal bruk.',
         'warn_2' => 'Dette ISO-avtrykket brukes på eget ansvar.',
@@ -456,10 +456,10 @@ Vær klar over at vi fortsatt lokaliserer infrastrukturen vår.',
     ),
     'ro' => array(
         'download' => 'descărcare',
-        'page_title' => 'Descărcați Mageia 1 RC',
+        'page_title' => 'Descărcați %s',
         'page_desc' => 'Locul în care puteți descărca imaginile ISO instalabile și ISO.',
         'page_kw' => 'mageia, software, descărcare, sistem de operare, ISO, calculator, torrent, ftp',
-        'page_h1' => 'Descărcați Mageia 1 <em class="tag">RC</em>',
+        'page_h1' => 'Descărcați %s',
         'warn_1' => 'Atenție!
             Această versiune NU ESTE PENTRU: utilizare, recenzii, evaluare personală sau în producție.
             Această versiune este PENTRU: dezvoltatori, împachetatori și testori.',
@@ -513,10 +513,10 @@ De remarcat că traducerile sînt în curs.',
     ),
     'ru' => array(
         'download' => 'загрузить',
-        'page_title' => 'Загрузка Mageia 1 RC',
+        'page_title' => 'Загрузка %s',
         'page_desc' => 'Здесь Вы можете загрузить установочный и загрузочный ISO образы Mageia.',
         'page_kw' => 'mageia, программы, скачать, загрузить, операционная система, образ, компьютер, торрент, ftp',
-        'page_h1' => 'Загрузить Mageia 1 <em class="tag">RC</em>',
+        'page_h1' => 'Загрузить %s',
         'warn_1' => 'Внимание!
             Это НЕ ДЛЯ: публичных обзоров, личного или производственного использования.
             Это ДЛЯ: тестирования разработчиками и упаковщиками.',
@@ -572,10 +572,10 @@ De remarcat că traducerile sînt în curs.',
     ),
     'tr' => array(
         'download' => 'indir',
-        'page_title' => 'Mageia 1 RC indirin',
+        'page_title' => '%s indirin',
         'page_desc' => 'Mageia\' nın kurulabilir ve çalışan ISO kalıplarını indirebileceğiniz yerler.',
         'page_kw' => 'mageia, yazılım, indir, işletim sistemi, ISO, bilgisayar, torrent, ftp',
-        'page_h1' => 'Mageia 1 <em class="tag">RC</em> sürümünü indirin',
+        'page_h1' => '%s sürümünü indirin',
         'warn_1' => 'Uyarı!
             Bu sürüm şunlar için UYGUN DEĞİLDİR: genel kullanım, inceleme, kişisel veya üretime yönelik yükseltme.
             Bu sürüm şunlar için UYGUNDUR: SADECE geliştiriciler, paketleyiciler, deneme kullanıcıları.',
@@ -630,10 +630,10 @@ De remarcat că traducerile sînt în curs.',
     ),
     'zh-tw' => array(
         'download' => '下載',
-        'page_title' => '下載 Mageia 1 RC',
+        'page_title' => '下載 %s',
         'page_desc' => '這個頁面讓您下載 Mageia 安裝光碟與 Live 光碟的映像檔。',
         'page_kw' => 'mageia, software, download, operating system, ISO, computer, torrent, ftp',
-        'page_h1' => '下載 Mageia 1 <em class="tag">RC</em>',
+        'page_h1' => '下載 %s',
         'warn_1' => '請注意！
             這個版本不適用於：一般使用，公開展示，個人或產品的檢驗。
             這個版本只適用於：開發者，套件打包者與測試者。',
@@ -686,10 +686,10 @@ De remarcat că traducerile sînt în curs.',
     ),
     'it' => array(
         'download' => 'scarica',
-        'page_title' => 'Scarica Mageia 1 RC',
+        'page_title' => 'Scarica %s',
         'page_desc' => 'Dove puoi scaricare le immagini ISO live e installabili di Mageia.',
         'page_kw' => 'mageia, software, download, sistema operativo, ISO, computer, torrent, ftp',
-        'page_h1' => 'Scarica Mageia 1 <em class="tag">RC</em>',
+        'page_h1' => 'Scarica %s',
         'warn_1' => 'Attenzione!
             NON È PER: uso, recensioni pubbliche, valutazioni personali o di produzione.
             È PER: sviluppatori, packager, SOLO per utenti che vogliono fare del test.',
@@ -744,10 +744,10 @@ Ricorda che le traduzioni sono in corso.',
     ),
     'cs' => array(
         'download' => 'stahování',
-        'page_title' => 'Stáhnout Mageia 1 RC',
+        'page_title' => 'Stáhnout %s',
         'page_desc' => 'Kde se dají stáhnout instalovatelné a živé ISO obrazy distribuce Mageia.',
         'page_kw' => 'mageia, software, stahování, operační systém, ISO, počítač, torrent, ftp',
-        'page_h1' => 'Stáhnout Mageia 1 <em class="tag">RC</em>',
+        'page_h1' => 'Stáhnout %s',
         'warn_1' => 'Buďte opatrní!
             Tato verze NENÍ ZAMÝŠLENA PRO: denní používání, recenzování, osobní nebo produkční nasazení.
             Tato verze JE ZAMÝŠLENA PRO: vývojáře, tvůrce balíčků, POUZE pro uživatele, kteří ji chtějí vyzkoušet.',
@@ -802,10 +802,10 @@ Mějte na paměti, že na překladech se ještě pracuje.',
     ),
     'pt' => array(
         'download' => 'download',
-        'page_title' => 'Download Mageia 1 RC',
+        'page_title' => 'Download %s',
         'page_desc' => 'Where you can download Mageia installable and live ISO images.',
         'page_kw' => 'mageia, software, download, operating system, ISO, computer, torrent, ftp',
-        'page_h1' => 'Download Mageia 1 <em class="tag">RC</em>',
+        'page_h1' => 'Download %s',
         'warn_1' => 'Be Careful!
             This is NOT FOR: use, public review, personal or production evaluation.
             This is FOR: developers, packagers, test users ONLY.',

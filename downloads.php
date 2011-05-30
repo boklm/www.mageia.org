@@ -44,6 +44,9 @@ $glob = array_shift($prods);
 $popularity = array_shift($prods);
 $i = 0;
 foreach ($prods as $k => $p) {
+    if (isset($p['hidden'])) {
+        continue;
+    }
     $iso = sprintf('%s-%s', $glob['prefix'], $k);
 
     $dl_link = sprintf('/%s/downloads/dl.php?product=%s', $locale, $iso);
