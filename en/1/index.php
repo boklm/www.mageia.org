@@ -18,7 +18,7 @@
         <div id="bd" role="main">
             <div class="yui-g bb1">
                 <div class="para">
-                    <img src="/g/1/screenshots/mageia.png" alt="Mageia 1 KDE Desktop" class="rel-desktop-home" style="float: left;  margin: 0 2em 2em 0; width: 450px;">
+                    <img src="/g/1/screenshots/opt-mageia-450.jpg" alt="Mageia 1 KDE Desktop" class="rel-desktop-home" style="float: left;  margin: 0 2em 2em 0; width: 450px;">
 
                     <h2 class="download-btn"><a href="/downloads/">Download it</a></h2>
 
@@ -29,26 +29,6 @@
 
                     <div class="clear"></div>
                     
-                    <h3>Mageia in context</h3>
-
-                    <p>Mageia started as a fork of Mandriva Linux in September 2010.
-                        It is supported by a <a href="/en/about/">not-for-profit organisation</a>,
-                        <a href="http://mageia.org/wiki/doku.php?id=org">governed by</a>
-                        a body of recognized and elected contributors</a>,
-                        and made by 100+ people around the world.</p>
-
-                    <p>Our work adds to the excellent work of the wider Linux 
-                        and Free Software community. We aim to bring one of the best,
-                        most stable, reliable and enjoyable experience and platform we can make;
-                        for a regular <a href="">user</a>,
-                        a <a href="">developer</a>,
-                        or a <a href="">business</a>.</p>
-
-                    <p>And, on your own time or through your professional activity,
-                        <a href="/en/contribute/">you can be part of it</a>.</p>
-                        
-                    <hr>
-                    <h3>Vanity figures</h3>
                     <p><a href="/en/about/2010-sept-announcement.html">9&nbsp;months</a>.</p>
                     <p><a href="">100+&nbsp;contributors</a> in <a href="/wiki/doku.php?id#teams">10+ teams</a>.
                         <a href="/en/thank-you/">160+&nbsp;generous donators</a> for
@@ -69,7 +49,26 @@
                     <p>How many users? Time will tell.</p>
                     
                     <p>But more important than vanity figures: <a href="/en/1/next/">what will it do for you?</a></p>
+                    
+                    <hr>
+                
+                    <h3>Mageia in context</h3>
 
+                    <p>Mageia started as a fork of Mandriva Linux in September 2010.
+                        It is supported by a <a href="/en/about/">not-for-profit organisation</a>,
+                        <a href="http://mageia.org/wiki/doku.php?id=org">governed by</a>
+                        a body of recognized and elected contributors</a>,
+                        and made by 100+ people around the world.</p>
+
+                    <p>Our work adds to the excellent work of the wider Linux 
+                        and Free Software community. We aim to bring one of the best,
+                        most stable, reliable and enjoyable experience and platform we can make;
+                        for a regular <a href="">user</a>,
+                        a <a href="">developer</a>,
+                        or a <a href="">business</a>.</p>
+
+                    <p>And, on your own time or through your professional activity,
+                        <a href="/en/contribute/">you can be part of it</a>.</p>
                 </div>
             </div>
             <div class="yui-g bb1">
