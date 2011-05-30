@@ -161,6 +161,7 @@ ul#people li { list-style: disc; margin-bottom: 0.2em; }
   border: 1px solid #aaa;
   padding: 0 0 1em 1em;
   margin: 0 0 2em 1em;
+  background: #ffffff;
 }
 .qsidesummary.testday { float: none; background: #FFF380; border-color: orange; padding: 0.8em; margin: 0 0 1em 0; font-size: 85%; }
 
@@ -293,3 +294,6 @@ span.pop_5 { width: 50px; }
 .contrib-list li#triage { background-image: url(/g/images/smi/feed-48x48.png); }
 .contrib-act li { margin-bottom: 0.6em; }
 .contrib-act { margin-bottom: 2.5em; }
+
+.release #hd { margin-bottom: 0; }
+img.rel-desktop-home { width: 749px; background: #fff; border: 0; margin: 0; padding: 0; }
