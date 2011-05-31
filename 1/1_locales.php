@@ -199,7 +199,7 @@ $_t = array(
                         Plus de <a href="/en/thank-you/">160&nbsp;généreux donateurs</a> pour
                         un total de <a href="/fr/donate/">8&nbsp;800&nbsp;&#8364</a>, dont seulement
                         <a href="/en/about/reports/">1&nbsp;277&nbsp;&#8364 ont été dépensés</a> jusqu\'à
-                        maintenant, avec 20&nbsp;000&nbsp;&#8364 prévus pour 2011.'
+                        maintenant, avec 20&nbsp;000&nbsp;&#8364 prévus pour 2011.',
         'prereleases' => '5&nbsp;versions de développement intermédiaires.
                         7&nbsp;389&nbsp;paquets sources,
                         2&nbsp;&times;&nbsp;14&nbsp;226&nbsp;paquets binaires pour 2&nbsp;architectures
