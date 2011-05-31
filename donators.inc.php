@@ -179,9 +179,9 @@ $donators = array(
     'Michael Smith',
     'Robert J Greenwood',
     'Mike Crecelius',
-    'Yevgeniy Palaus',
     'Julio Geraldo',
-    'Aymerich Munoz Jose Ignacio'
+    'Aymerich Munoz Jose Ignacio',
+    'Denis Prost'
 );
 
 //$html .= '<img src="/g/images/mageia_0.svg" style="position: absolute; top: 180px; width: 300px; opacity: 0.2;" />';

@@ -26,6 +26,7 @@
 			</ul>
 			<h2>Financial Report</h2>
 			<table id="fr-table"><thead><tr><th>Wording of the financial transaction</th><th>Income</th><th>Outgoing</th></tr></thead><tbody><tr>
+				<tr><td colspan=3>Donations and sells</td></tr>
 				<tr><td>Donations by Paypal/transfer/check/cash</td><td class="money">EUR&nbsp;8 801.42</td><td>&nbsp;</td></tr>
 				<tr><td>Paypal test to validate bank account</td><td class="money">EUR&nbsp;0.24</td><td>&nbsp;</td></tr>
 				<tr><td colspan=3>Hardware for servers</td></tr>

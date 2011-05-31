@@ -20,15 +20,18 @@
                 <div class="para values">
 			<h2>Summary</h2>
 			<ul>
-				<li>Outstanding amount of 2010: EUR&nbsp;7 523.96</li>
-				<li>Amount collected: EUR&nbsp;</li>
-				<li>Amount spent: EUR&nbsp;</li>
-				<li>Amount remaining: EUR&nbsp;6 257.51</li>
+				<li>Outstanding amount of <a href="/en/about/reports/2010">2010</a>: EUR&nbsp;7 523.96</li>
+				<li>Amount collected: EUR&nbsp;2 974.03</li>
+				<li>Amount spent: EUR&nbsp;3 469.75</li>
+				<li>Amount remaining: <?php echo $g_amount_remain; ?></li>
 			</ul>
 			<h2>Financial Report</h2>
 			<table id="fr-table"><thead><tr><th>Wording of the financial transaction</th><th>Income</th><th>Outgoing</th></tr></thead><tbody><tr>
+				<tr><td colspan=3>Donations and sells</td></tr>
+                                <tr><td>Donations by Paypal/transfer/check</td><td class="money">EUR&nbsp;1 920.97</td><td class="money">&nbsp;</td></tr>
+                                <tr><td>Sale of Tee-Shirts</td><td class="money">EUR&nbsp;1 050.00</td><td class="money">&nbsp;</td></tr>
 				<tr><td colspan=3>Cotisations + administrative tasks</td></tr>
-				<tr><td>Administrative cost for the birth of Magei.Org (JO)</td><td class="money">&nbsp;</td><td class="money">EUR&nbsp;44.00</td></tr>
+				<tr><td>Administrative cost for the birth of Mageia.Org (JO)</td><td class="money">&nbsp;</td><td class="money">EUR&nbsp;44.00</td></tr>
 				<tr><td>April (annual cotisation)</td><td class="money">&nbsp;</td><td class="money">EUR&nbsp;100.00</td></tr>
 				<tr><td>INPI brand registration for 10 years (rda)</td><td class="money">&nbsp;</td><td class="money">EUR&nbsp;250.00</td></tr>
 				<tr><td>Annual interest of our savings account</td><td class="money">EUR&nbsp;3.06</td><td class="money">&nbsp;</td></tr>
@@ -41,19 +44,19 @@
 				<tr><td>3 TS to donors in France (dams)</td><td>&nbsp;</td><td class="money">EUR&nbsp;12.30</td></tr>
 				<tr><td>2 TS to saipo for an event in France (dams)</td><td>&nbsp;</td><td class="money">EUR&nbsp;25.00</td></tr>
 				<tr><td colspan=3>Hardware or hosting</td></tr>
-                                <tr><td>RAM on Gandi hosting (for blog/planet/www)</td><td>&nbsp;</td><td class="money">EUR&nbsp;172.08</td></tr>
+                                <tr><td>RAM on Gandi hosting (for blog/planet/www)</td><td>&nbsp;</td><td class="money">EUR&nbsp;250.00</td></tr>
 				<tr><td>SSL for domains on Gandi.net</td><td>&nbsp;</td><td class="money">EUR&nbsp;215.28</td></tr>
 				<tr><td>HDD for servers (boklm)</td><td>&nbsp;</td><td class="money">EUR&nbsp;242.70</td></tr>
 				<tr><td colspan=3>Travels and events</td></tr>
                                 <tr><td>Hotel + train for wobo (fosdem 2011)</td><td>&nbsp;</td><td class="money">EUR&nbsp;166.50</td></tr>
 				<tr><td colspan=3>&nbsp;</td></tr>
-				<tr><td>Total</td><td class="money">EUR&nbsp;</td><td class="money">EUR&nbsp;3 391.83</td></tr>
+				<tr><td>Total</td><td class="money">EUR&nbsp;</td><td class="money">EUR&nbsp;3 469.75</td></tr>
 				<tr><td>Balance</td><td colspan=2 class="money">EUR&nbsp;</td></tr></tbody>
 			</table>
 			<h2>Bank accounts situation</h2>
 			<ul>
-                                <li>Paypal (non-for-profit organisation account): EUR&nbsp;1 068.93</li>
-				<li>Main account (with checkbook and no credit card): EUR&nbsp;1 185.52</li>
+                                <li>Paypal (non-for-profit organisation account): EUR&nbsp;1 364.48</li>
+				<li>Main account (with checkbook and no credit card): EUR&nbsp;2 021.04</li>
 				<li>Savings account (between 2% and 4% of interest): EUR&nbsp;4 003.06</li>
 			</ul>
 			<h2>Forecast for 2011</h2>
