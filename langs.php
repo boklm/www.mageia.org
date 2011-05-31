@@ -32,10 +32,9 @@ $locale = array_shift($sel);
 $page   = count($sel) > 0 ? implode('/', $sel) : null;
 
 $list_langs = array();
-$options = array();
+$options    = array();
 
-foreach ($langs as $k => $v)
-{
+foreach ($langs as $k => $v) {
     $list_langs[] = sprintf('<a href="/%s"%s>%s</a>',
         $page != null ? implode('/', array($k, $page)) : $k,
         $k == $locale ? ' class="sel"' : '',
@@ -50,29 +49,23 @@ foreach ($langs as $k => $v)
 // prevent 404 error on /{$locale}/ with missing translation
 function locale_path($path)
 {
-	$pathtofile = "/home/projects/mageia/public_html";
-        $loc = $_SERVER['REQUEST_URI'];
-        $filename = "$pathtofile$loc$path";
-        $url = "/en/$path";
-        if (file_exists($filename))
-        {
-                $url = "$loc$path";
-        }
-        return $url;
+    $pathtofile = "/home/projects/mageia/public_html";
+    $loc        = $_SERVER['REQUEST_URI'];
+    $filename   = "$pathtofile$loc$path";
+    $url        = "/en/$path";
+    if (file_exists($filename)) {
+        $url = "$loc$path";
+    }
+    return $url;
 }
 
 // global nav
 $nav_list = array(
     "/{$locale}/" => 'Mageia',
-    /*
-    '/news' => 'News',
-    '/downloads' => 'Downloads',
-    '/comm' => 'Community',
-    '/about' => 'About Us'
-    */
     "http://blog.mageia.org/{$locale}" => array(
         'el' => 'Ιστολόγιο',
-        'en' => 'News',
+        'en' => 'Blog',
+        //'fr' => 'Actus',
         'et' => 'Ajaveeb',
         'tr' => 'Web Günlüğü',
         'ru' => 'Блог'
@@ -80,15 +73,25 @@ $nav_list = array(
     "/downloads/" => array(
     //"/{$locale}/downloads/" => array(
         'de' => 'RC herunterladen',
-        'en' => '<strong>Downloads</strong>',
+        'en' => 'Downloads',
         'et' => 'RC allalaadimine',
-        'fr' => '<strong>Télécharger</strong>',
+        'fr' => 'Téléchargements',
         'ro' => 'Descărcați RC',
         'ru' => 'Загрузить RC',
         'zh-tw' => '下載 RC'
     ),
-    '/support/' => 'Support',
-    '/contribute/' => 'Contribute',
+    '/support/' => array(
+        'en' => 'Support',
+        'fr' => 'Assistance'
+    ),
+    /*
+    '/community/' => array(
+        'en' => 'Community',
+        'fr' => 'Communauté'
+    ),
+    */
+    'http://forums.mageia.org/' => 'Forum',
+    '/en/contribute/' => 'Contribute',
     /*
     '/en/calendar/' => array(
         'de' => 'Kalender',
@@ -118,11 +121,6 @@ $nav_list = array(
         'tr' => 'Basın'
     ),
     */
-    '/en/about/' => array(
-        'en' => 'About',
-        'fr' => 'À propos',
-        'de' => 'Über'
-    ),
     "/{$locale}/donate/" => array(
     //locale_path('donate') => array(
     //"http://www.mageia.org/en/donate//{$locale}/" => array(
@@ -137,6 +135,11 @@ $nav_list = array(
         'tr' => 'Bağışlar',
         'ro' => 'Donații',
         'ru' => 'Пожертвования'
+    ),
+    '/en/about/' => array(
+        'en' => 'About',
+        'fr' => 'À propos',
+        'de' => 'Über'
     ),
 );
 
