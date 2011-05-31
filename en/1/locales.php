@@ -26,7 +26,7 @@ $_t = array(
                         on your own time or through your professional activity.',
         '9_months' => '9&nbsp;months from <a href="/en/about/2010-sept-announcement.html">inception</a> we\'ve reached:',
         'people' => '<a href="">100+&nbsp;contributors</a> in <a href="/wiki/doku.php?id#teams">10+ teams</a>.
-                        <a href="/en/thank-you/">160+&nbsp;generous donors</a> of
+                        <a href="/en/thank-you/">180+&nbsp;generous donors</a> of
                         <a href="/en/donate/">11.700+&nbsp;EUR</a>
                         with only <a href="/en/about/reports/">4.700 spent</a> so far
                         and 20.000 forecast for 2011.',
@@ -68,7 +68,7 @@ $_t = array(
                         у вільний від роботи час або пов’язали вашу роботу з проектом.',
         '9_months' => 'За 9&nbsp;місяців з часу <a href="/uk/about/2010-sept-announcement.html">перших кроків</a> нам вдалося:',
         'people' => 'Об’єднати <a href="">понад 100&nbsp;учасників</a> у <a href="/wiki/doku.php?id#teams">понад 10 команд</a>.
-                        Отримати підтримку <a href="/en/thank-you/">понад 160&nbsp;щедрих спонсорів</a>, якими пожертвувано понад
+                        Отримати підтримку <a href="/en/thank-you/">понад 180&nbsp;щедрих спонсорів</a>, якими пожертвувано понад
                         <a href="/uk/donate/">11.700&nbsp;євро</a>,
                         з яких витрачено лише <a href="/en/about/reports/">4.700 євро</a>. Прогнозовані пожертви протягом 2011 року
                         можуть скласти 20.000 євро.',
@@ -110,7 +110,7 @@ $_t = array(
                         en su propio tiempo o por medio de su actividad profesional.',
         '9_months' => 'Hemos llegado a 9&nbsp;meses desde el <a href="/es/about/2010-sept-announcement.html">origen</a>:',
         'people' => '<a href="">Más de 100&nbsp;contribuidores</a> en <a href="/wiki/doku.php?id#teams">más de 10 equipos</a>.
-                        <a href="/en/thank-you/">más de 160&nbsp; generosos donantes</a> of
+                        <a href="/en/thank-you/">más de 180&nbsp; generosos donantes</a> of
                         <a href="/es/donate/">más de 11.700&nbsp;EUR</a>
                         con sólo <a href="/en/about/reports/">4.700 gastados</a> hasta ahora
                         y 20.000 previstos para 2011.',
@@ -152,7 +152,7 @@ $_t = array(
                         nel tuo tempo libero o attraverso la tua attività professionale.',
         '9_months' => 'A 9&nbsp;mesi dall\'<a href="/it/about/2010-sept-announcement.html">inizio</a> abbiamo raggiunto:',
         'people' => '<a href="">Più di 100&nbsp;collaboratori</a> in <a href="/wiki/doku.php?id#teams">più di 10 squadre</a>.
-                        <a href="/en/thank-you/">Più di 160&nbsp; generosi donatori</a> di
+                        <a href="/en/thank-you/">Più di 180&nbsp; generosi donatori</a> di
                         <a href="/it/donate/">Più di 11.700&nbsp;EURO</a>
                         di cui solo <a href="/en/about/reports/">4.700 spesi</a> sino ad ora
                         e 20.000 previsti per il 2011.',
@@ -196,7 +196,7 @@ $_t = array(
                         professionnelle.',
         '9_months' => '9&nbsp;mois après le <a href="/fr/about/2010-sept-announcement.html">lancement du projet</a>, nous avons atteint&nbsp;:',
         'people' => 'Plus d\'<a href="">une centaine de contributeurs</a> dans <a href="/wiki/doku.php?id#teams">une douzaine d\équipes</a>.
-                        Plus de <a href="/en/thank-you/">160&nbsp;généreux donateurs</a> pour
+                        Plus de <a href="/en/thank-you/">180&nbsp;généreux donateurs</a> pour
                         un total de <a href="/fr/donate/">11&nbsp;700&nbsp;&#8364</a>, dont seulement
                         <a href="/en/about/reports/">4&nbsp;700&nbsp;&#8364 ont été dépensés</a> jusqu\'à
                         maintenant, avec 20&nbsp;000&nbsp;&#8364 prévus pour 2011.',
