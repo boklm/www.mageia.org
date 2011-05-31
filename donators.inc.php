@@ -172,7 +172,7 @@ $donators = array(
     'Paul-Eric Despretz',
     'Luca Tani',
     'Guillemot Yves',
-    'Philgren Jan-Gunnar'
+    'Philgren Jan-Gunnar',
     'Rene Hytting',
     'René Fischer',
     'Philippe Poilbarbe',
