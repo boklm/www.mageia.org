@@ -222,5 +222,63 @@ $_t = array(
                         pour y demander de l\'aide ou des détails.',
         'h3_feedback' => 'Vous voulez partager votre retour d\'expérience&nbsp;?',
         'tweet_it' => 'Alors <a href="http://twitter.com/mageia_org">tweetez à @mageia_org</a>.'
+    ),
+    'it' => array(
+        'page_title' => 'Migra da Mandriva Linux a Mageia',
+        'page_desc' => 'Come migrare da Mandriva Linux 2010.1/2010.2 a Mageia 1 in pochi passi e in sicurezza.',
+        'page_kw' => 'mageia, mandriva, aggiornamento, migrazione',
+        'page_h1' => 'Migra da Mandriva Linux',
+        'upgrading_general' => 'L\'aggiornamento da Mandriva Linux 2010.1 e 2010.2 è supportato ed è stato messo a punto nei mesi
+                passati, quindi dovrebbe funzionare. Ma come sempre e prima di tutto:',
+        'upgrading_general_array' => array('fai un backup dei tuoi dati prima di aggiornare;',
+                'se stai aggiornando un portatile, collegalo alla corrente!
+                        Potresti trovarti ad aggiornare più di 2000 pacchetti e questo può richiedere un po\' di tempo;',
+                'non avviare alcuna applicazione che sfrutti intensivamente la rete durante l\'aggiornamento
+                        &ndash; devi riservare banda per l\'aggiornamento.'),
+        'upgrading_ways' => 'Esistono svariati modi di aggiornare partendo da una delle precedenti release Mandriva:',
+        'upgrading_ways_dvd' => '<a href="#dvd">utilizzare il DVD di Mageia 1</a>',
+        'upgrading_ways_inline' => '<a href="#inline">utilizzare direttamente media online direttamente</a>,
+                        utilizzare <a href="#mgaonline">mgaonline</a> o <a href="#urpmi">urpmi</a>.',
+        'h2_dvd' => 'Aggiornare usando il DVD di Mageia 1',
+        'dvd_clean_install' => 'Puoi utilizzare il <a href="/downloads/">DVD di Mageia 1</a> per un\'installazione pulita
+                    ma anche per aggiornare da precedenti versioni..',
+        'to_upgrade' => 'Per aggiornare:',
+        'to_upgrade_array' => array('<a href="/downloads/">Scarica la ISO</a> e masterizzala su un DVD;',
+                'Avvia il DVD e seleziona "Installa Mageia 1" dal menu del bootloader;',
+                'Seleziona l\'opzione "Aggiornamento" nell\'installatore.'),
+        'recommended' => 'Si raccomanda di impostare i repositories online se possibile
+                    &ndash; l\'installatore ti farà delle domande in proposito durante l\'aggiornamento.
+                    La ragione &egrave; che il solo DVD include un sottoinsieme
+                    dei repositories completi di Mageia online.',
+        'h2_inline' => 'Aggiornare online',
+        'inline_1' => 'Puoi aggiornare utilizzando direttamente i media online da dentro la tua installazione di Mandriva.',
+        'inline_2' => 'Questo pu&ograve; essere fatto sia utilizzando lo strumento grafico <code>mgaonline</code>
+                    sia lo strumento da linea di comando <code>urpmi</code>.
+                    Entrambi i metodi sono descritti qui di seguito. Ma prima, scarica ed installa
+                    questo pacchetto <code>mgaonline</code> che ti aiuterà nel processo:',
+        'mgaonline_image_title' => 'per Mandriva Linux 2010.1 o 2010.2',
+        'inline_3' => 'Nota che potresti ricevere degli allarmi sicurezza a causa di firme dei pacchetti non valide.
+                    Ci&ograve; &egrave; dovuto al fatto che il sistema Mandriva non riconosce le firme di Mageia;
+                    puoi tranquillamente ignorare questi allarmi.
+                    Sì, fa schifo, lo sappiamo.',
+        'a_or_b' => 'Quindi, il pacchetto è installato? Bene, prosegui e scegli a) o b) qui di seguito:',
+        'h2_a' => 'a) Aggiornamento online, utilizzando mgaonline (GUI)',
+        'popup_window_1' => 'a) Aggiornamento online, utilizzando mgaonline (GUI)',
+        'popup_window_2' => 'Segui semplicemente le istruzioni della procedura guidata; questa ti configura; le sorgenti dei Media e avvia la migrazione.',
+        'as_soon_complete' => 'Al termine della migrazione dovrai riavviare il tuo sistema; ecco fatto.',
+        'h2_b' => 'b) Aggiornamento online, utilizzando urpmi (CLI)',
+        'cli_1' => 'Puoi anche aggiornare utilizzando <code>urpmi</code> dal tuo emulatore di terminale preferito,
+                    se ti senti a tuo agio con questo. Questi sono i passi:',
+        'cli_2' => 'Rimuovi tutte le sorgenti dei media del tuo sistema:',
+        'cli_3' => 'Aggiungi le sorgenti online di Mageia:',
+        'cli_4' => 'sia direttamente (questo selezioner&agrave; il mirror migliore, dopo la tua posizione):',
+        'cli_5' => 'sia utilizzando un media mirror specifico (puoi sceglierlo dalla <a href="http://mirrors.mageia.org/distrib">nostra lista dei mirror</a>):',
+        'h2_thats_it' => 'Finito!',
+        'h3_question' => 'Hai domande?',
+        'join_and_ask' => 'Non esitare a collegarti al nostro canale IRC <a href="irc://irc.freenode.net/#mageia">#mageia</a>
+                        su Freenode o ad andare nel <a href="http://forums.mageia.org/">nostro forum</a>
+                        per chiedere assistenza o dettagli.',
+        'h3_feedback' => 'Vuoi inviare qualche commento?',
+        'tweet_it' => '<a href="http://twitter.com/mageia_org">tweettalo semplicemente a @mageia_org</a>.'
     )
 );
