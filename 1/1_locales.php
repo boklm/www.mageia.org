@@ -84,6 +84,48 @@ $_t = array(
                         який ми приготували для вас.',
         'users' => 'Чи багато у дистрибутива користувачів? Час покаже.',
         'in_for_you' => 'Але набагато важливішим за всі ці цифри те, <a href="/en/1/next/">що цікавого у дистрибутиві для вас?</a>'
-    )    
+    ),
+    'es' => array(
+        '1_title' => 'Mageia 1',
+        '1_desc' => 'Mageia 1 es una nueva distribución de Linux basada en la comunidad.',
+        '1_kw' => 'mageia, 1, primer lanzamiento, linux, mandriva, software libre',
+        'img_desktop' => 'Mageia 1 Escritorio KDE ',
+        'download_it' => 'Descargar',
+        'mageia_is' => 'Mageia 1 es una distribución GNU/Linux para su computador,
+                        lanzada por la comunidad Mageia.',
+        'h3_what_is' => '¿Qué hay en ella?',
+        'plenty_see_notes' => '¡Mucho! vea las <a href="notes/">notas de versión</a> para una descripción extensa.',
+        'h3_context' => 'Mageia en contexto',
+        'mageia_began' => 'Mageia comenzó en Septiembre de 2010 como 
+                        <a href="/en/about/2010-sept-announcement.html">un derivado (fork) de Mandriva Linux</a>.
+                        Es apoyado por una <a href="/en/about/">organización sin fines de lucro</a>,
+                        <a href="http://mageia.org/wiki/doku.php?id=org">governada por</a>
+                        un cuerpo de reconocidos y electos contribuidores</a>,
+                        y hecha por mas de 100 personas alrededor del mundo.',
+        'our_work' => 'Nuestro trabajo se suma al excelente trabajo de la comunidad de Linux
+                        y del Software Libre. Queremos llevarle una de las mejores,
+                        más estables, confiable y agradable experiencia y plataforma que podemos hacer;
+                        para un usuario regular, un desarrollador o para un negocio.',
+        'encourage_you' => 'Le instamos a <a href="/en/contribute/">ser parte de ello</a>,
+                        en su propio tiempo o por medio de su actividad profesional.',
+        '9_months' => 'Hemos llegado a 9&nbsp;meses desde el <a href="/en/about/2010-sept-announcement.html">origen</a>:',
+        'people' => '<a href="">Más de 100&nbsp;contribuidores</a> en <a href="/wiki/doku.php?id#teams">más de 10 equipos</a>.
+                        <a href="/en/thank-you/">más de 160&nbsp; generosos donantes</a> of
+                        <a href="/en/donate/">más de 8.800&nbsp;EUR</a>
+                        con sólo <a href="/en/about/reports/">1.277 gastados</a> hasta ahora
+                        y 20.000 previstos para 2011.',
+        'prereleases' => '5&nbsp; versiones técnicas intermedias.
+                        7.389&nbsp; paquetes fuente,
+                        2 &times; 14.226&nbsp; paquetes binarios para 2&nbsp;arquitecturas (i586 y x86_64
+                        &ndash; ARM está en camino).',
+        'servers' => '7&nbsp;servidores, 3&nbsp;centros de datos (París y Marsella, Francia),
+                        <a href="http://mirrors.mageia.org/">19&nbsp;espejos alrededor del mundo</a>.',
+        'languages' => '<a href="http://mageia.org/?langs">21-idiomas</a> sitio Web localizado,
+                        <a href="">161-idiomas</a> distributión localizada.',
+        'distribution' => 'Todo esto por <a href="http://mageia.org/en/1/">una distribución</a>,
+                        lista para tí, ahora.',
+        'users' => '¿Cuántos usuarios? El tiempo lo dirá.',
+        'in_for_you' => 'Pero más importante que cifras vanidosas: <a href="/en/1/next/">¿qué hará para tí?</a>'
+    )
 );
 ?>
