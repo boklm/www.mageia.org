@@ -2,9 +2,7 @@
 
 $nav = array(
     "/{$locale}/1/" => '1',
-    "/{$locale}/1/use/" => 'Users',
-    "/{$locale}/1/build/" => 'Developers',
-    "/{$locale}/1/profit/" => 'Businesses', 
+    "/{$locale}/1/for-you/" => 'For You',
     "/{$locale}/downloads/" => 'Download',
     "/{$locale}/1/notes/" => 'Notes',
     "/{$locale}/1/next/" => 'And next?'
