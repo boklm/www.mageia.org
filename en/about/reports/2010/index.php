@@ -51,7 +51,7 @@
 			<ul>
 				<li>Donations are mixed as at the beginning they were managed by AUFML. We had a bank transfert with all donations.</li>
 				<li>You can <a href="#" hreflang="en">download this report</a> as a PDF file.</li>
-				<li>You can help Mageia by <a href="/en/donate/" hreflang="en">doing a donation</a>.</li>
+				<li>You can help Mageia.Org by <a href="/en/donate/" hreflang="en">doing a donation</a>.</li>
 				<li>You can see the <a href="/en/thank-you" hreflang="en">"thank you" page</a>.</li>
 			</ul>
 			<h2>Contact</h2>

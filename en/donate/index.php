@@ -41,19 +41,13 @@
                     </ul>
                     <hr />
                     <h2 id="status">How to track donation?</h2>
-                    <p>Currently, we have got <strong><?php echo $g_donate_amount; ?></strong>
-                        thanks to all of our <a href="/en/thank-you/">donators</a>! (updated weekly)</p>
+		    <p>Currently, we have got <strong><?php echo $g_donate_amount; ?></strong> (<a href="/en/about/reports/<?php echo date('Y'); ?>">remains</a> <strong><?php echo $g_amount_remain; ?></strong>)
+                        thanks to all of our <a href="/en/thank-you/">donators</a>!</p>
 
-                    <p>There will be a monthly report on the funds received and how they were used.
-                        We believe public accountability is crucial. As stated in the minutes of
-                        The First General Constitutive Assembly, the treasurer of Mageia.Org is Damien Lallement.</p>
+		    <p>We believe public accountability is crucial. You can know more about how are used the funds received by reading our 
+			<a href="/en/about/reports/">financial reports</a>.
+                        As stated in the minutes of The First General Constitutive Assembly, the treasurer of Mageia.Org is Damien Lallement.</p>
                         
-                    <p><strong>2011 May 4<sup>th</sup></strong>: yes, this page needs to be better;
-                        see <a href="https://bugs.mageia.org/show_bug.cgi?id=1135">bug 1135</a>
-                        and tell/show us how we could improve this (report visualization, feedback, donation).
-
-                        In the meantime, check out our reports and forecast for <a href="/en/about/reports/2010/">2010</a>
-                        and <a href="/en/about/reports/2011/">2011</a>.</p>
                     <hr />
                 </div>
             </div>
@@ -88,7 +82,7 @@
                 </div><div class="para">
                     <p><strong>Please note that:</strong></p>
                     <ul>
-                        <li>Paypal withdraws a small commission for each donation (about ...%) so we get a little bit less
+                        <li>Paypal withdraws a small commission for each donation (around 2%) so we get a little bit less
                             than you send;</li>
                         <li>conversion rates are charged to Mageia, so please use &euro; as currency;</li>
                         <li>if you want to do an anonymous donation, please add a comment.</li>
