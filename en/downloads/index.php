@@ -1,6 +1,7 @@
 <?php require '../../downloads.php';
 
-$_t ['page_h1'] = sprintf($_t['page_h1'], '<em class="tag">Mageia 1 RC</em>');
+$_t['page_h1'] = sprintf($_t['page_h1'], '<em class="tag">Mageia 1 RC</em>');
+$_t['page_title'] = sprintf($_t['page_title'], 'Mageia 1 RC');
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $locale; ?>">
