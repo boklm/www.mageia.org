@@ -1,9 +1,8 @@
 <?php
 $_t = array(
-    'page_title' => 'Mageia 1, distribution for everybody\'s needs',
-    'page_desc' => 'foo',
-    'page_kw' => 'mageia, everybody, user, developer, contributor',
-    'page_h1' => 'Mageia 1, distribution for everybody\'s needs'
+    'page_title' => 'Mageia 1 is for you!',
+    'page_kw' => 'mageia, everybody, user, developer, contributor, hacker, student, teacher',
+    'page_h1' => 'For You!'
 );
 
 
