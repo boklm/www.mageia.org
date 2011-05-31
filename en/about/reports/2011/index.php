@@ -23,33 +23,37 @@
 				<li>Outstanding amount of 2010: EUR&nbsp;7 523.96</li>
 				<li>Amount collected: EUR&nbsp;</li>
 				<li>Amount spent: EUR&nbsp;</li>
-				<li>Amount remaining: EUR&nbsp;6 227.51</li>
+				<li>Amount remaining: EUR&nbsp;6 257.51</li>
 			</ul>
 			<h2>Financial Report</h2>
 			<table id="fr-table"><thead><tr><th>Wording of the financial transaction</th><th>Income</th><th>Outgoing</th></tr></thead><tbody><tr>
-				<tr><td colspan=3>Cotisations</td></tr>
+				<tr><td colspan=3>Cotisations + administrative tasks</td></tr>
 				<tr><td>Administrative cost for the birth of Magei.Org (JO)</td><td class="money">&nbsp;</td><td class="money">EUR&nbsp;44.00</td></tr>
 				<tr><td>April (annual cotisation)</td><td class="money">&nbsp;</td><td class="money">EUR&nbsp;100.00</td></tr>
-				<tr><td>INPI (brand registration for 10 years)</td><td class="money">&nbsp;</td><td class="money">EUR&nbsp;250.00</td></tr>
+				<tr><td>INPI brand registration for 10 years (rda)</td><td class="money">&nbsp;</td><td class="money">EUR&nbsp;250.00</td></tr>
+				<tr><td>Annual interest of our savings account</td><td class="money">EUR&nbsp;3.06</td><td class="money">&nbsp;</td></tr>
 				<tr><td colspan=3>Goodies and accesorizes</td></tr>
-				<tr><td>Posters + flyers (Solutions Linux)</td><td>&nbsp;</td><td class="money">EUR&nbsp;159.25</td></tr>
+				<tr><td>Posters + flyers for Solutions Linux (rda)</td><td>&nbsp;</td><td class="money">EUR&nbsp;159.25</td></tr>
 				<tr><td>Stickers + Tee-Shirts (fosdem)</td><td>&nbsp;</td><td class="money">EUR&nbsp;1 932.14</td></tr>
-				<tr><td>Money box</td><td>&nbsp;</td><td class="money">EUR&nbsp;17.93</td></tr>
-				<tr><td colspan=3>Shipment</td></tr>
+				<tr><td>Money box (dams)</td><td>&nbsp;</td><td class="money">EUR&nbsp;17.93</td></tr>
+				<tr><td colspan=3>Shipments</td></tr>
 				<tr><td>40 TS to wobo for the Chemnitzer Linuxtage</td><td>&nbsp;</td><td class="money">EUR&nbsp;54.65</td></tr>
-				<tr><td>3 TS to donors in France</td><td>&nbsp;</td><td class="money">EUR&nbsp;12.30</td></tr>
-				<tr><td>2 TS to saipo for an event in France</td><td>&nbsp;</td><td class="money">EUR&nbsp;25.00</td></tr>
+				<tr><td>3 TS to donors in France (dams)</td><td>&nbsp;</td><td class="money">EUR&nbsp;12.30</td></tr>
+				<tr><td>2 TS to saipo for an event in France (dams)</td><td>&nbsp;</td><td class="money">EUR&nbsp;25.00</td></tr>
 				<tr><td colspan=3>Hardware or hosting</td></tr>
                                 <tr><td>RAM on Gandi hosting (for blog/planet/www)</td><td>&nbsp;</td><td class="money">EUR&nbsp;172.08</td></tr>
-                                <tr><td>SSL for domains on Gandi.net</td><td>&nbsp;</td><td class="money">EUR&nbsp;215.28</td></tr>
+				<tr><td>SSL for domains on Gandi.net</td><td>&nbsp;</td><td class="money">EUR&nbsp;215.28</td></tr>
+				<tr><td>HDD for servers (boklm)</td><td>&nbsp;</td><td class="money">EUR&nbsp;242.70</td></tr>
+				<tr><td colspan=3>Travels and events</td></tr>
+                                <tr><td>Hotel + train for wobo (fosdem 2011)</td><td>&nbsp;</td><td class="money">EUR&nbsp;166.50</td></tr>
 				<tr><td colspan=3>&nbsp;</td></tr>
-				<tr><td>Total</td><td class="money">EUR&nbsp;</td><td class="money">EUR&nbsp;</td></tr>
+				<tr><td>Total</td><td class="money">EUR&nbsp;</td><td class="money">EUR&nbsp;3 391.83</td></tr>
 				<tr><td>Balance</td><td colspan=2 class="money">EUR&nbsp;</td></tr></tbody>
 			</table>
 			<h2>Bank accounts situation</h2>
 			<ul>
                                 <li>Paypal (non-for-profit organisation account): EUR&nbsp;1 068.93</li>
-				<li>Main account (with checkbook and no credit card): EUR&nbsp;1 155.52</li>
+				<li>Main account (with checkbook and no credit card): EUR&nbsp;1 185.52</li>
 				<li>Savings account (between 2% and 4% of interest): EUR&nbsp;4 003.06</li>
 			</ul>
 			<h2>Forecast for 2011</h2>
