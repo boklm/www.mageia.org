@@ -215,5 +215,40 @@ $_t = array(
                         qui est maintenant à votre disposition.',
         'users' => 'Combien d\'utilisateurs&nbsp;? L\'avenir nous le dira.',
         'in_for_you' => 'Mais il y a plus important que tous ces chiffres&nbsp;: <a href="/fr/1/next/">que fera Mageia pour vous&nbsp;?</a>'
+    ),
+    'de' => array(
+        '1_title' => 'Mageia 1',
+        '1_desc' => 'Mageia 1 ist eine neue community-basierte Linux-Distribution.',
+        '1_kw' => 'mageia, 1, first release, linux, mandriva, free software',
+        'img_desktop' => 'Mageia 1 KDE Desktop',
+        'download_it' => 'Download',
+        'mageia_is' => 'Mageia 1 ist eine GNU/Linux-Distribution für Ihren Computer,
+                        herausgegeben von der Mageia-Community.',
+        'h3_what_is' => 'Was ist darin enthalten?',
+        'plenty_see_notes' => 'Eine Menge! Eine detaillierte Beschreibung finden Sie in den <a href="notes/">Release-Hinweisen</a>.',
+        'h3_context' => 'Etwas über Mageia',
+        'mageia_began' => 'Mageia wurde im September 2010 
+                        <a href="/en/about/2010-sept-announcement.html"> als Fork von Mandriva Linux</a> ins Leben gerufen.
+                        Es wird von einer <a href="/en/about/">nicht gewinnorientierten Organisation</a> getragen, von einer Gruppe von
+                        <a href="http://mageia.org/wiki/doku.php?id=org">anerkannten und gewählten Mitgliedern geleitet</a> und von mehr als 100 Menschen aus aller Welt zusammengestellt..',
+        'our_work' => 'Unsere Arbeit beruht auf der exzellenten Arbeit der weltweiten Community rund um Linux und freier Software. Unser Ziel ist die Herausgabe einer der besten, stabilsten, zuverlässigsten und zugleich erfreulichsten Distributionen sowohl für den normalen Benutzer als auch für den Entwickler oder die Geschäftswelt.',
+        'encourage_you' => 'Und wir laden Sie dazu ein, <a href="/en/contribute/">dabei zu sein</a>, ganz nach Ihrer eigenen Zeiteinteilung und Ihrer beruflichen Beanspruchung.',
+        '9_months' => '9&nbsp;Monate nach <a href="/en/about/2010-sept-announcement.html">der Gründung</a> haben wir:',
+        'people' => '<a href="">100+&nbsp;Helfer</a> in <a href="/wiki/doku.php?id#teams">10+ Teams</a>.
+                        <a href="/en/thank-you/">160+&nbsp;großzügige Spender</a> von
+                        <a href="/en/donate/">8.800+&nbsp;EUR</a>, von denen bisher
+                        nur <a href="/en/about/reports/">1.277&nbsp;EUR</a> ausgegeben wurden, bei einer Prognose von 20.000&nbsp;EUR für 2011.',
+        'prereleases' => '5&nbsp;technische Zwischenversionen.
+                        7.389&nbsp;Quellpakete,
+                        2 &times; 14.226&nbsp;binäre Pakete für 2&nbsp;Architekturen (i586 und x86_64
+                        &ndash; ARM ist in Arbeit).',
+        'servers' => '7&nbsp;Server, 3&nbsp;Rechnezentren (Paris und Marseille, Frankreich),
+                        <a href="http://mirrors.mageia.org/">19&nbsp;Spiegelserver weltweit</a>.',
+        'languages' => 'eine in <a href="http://mageia.org/?langs">21 Sprachen</a> übersetzte Website,
+                        eine in <a href="">161 Sprachen</a> lokalisierte Distribution.',
+        'distribution' => 'All dies in <a href="http://mageia.org/en/1/">einer Distribution</a>,
+                        bereit für Sie, jetzt.',
+        'users' => 'Wieviele Benutzer? Das wird die Zeit weisen.',
+        'in_for_you' => 'Weit wichtiger als all diese Zahlen ist: <a href="/en/1/next/">was wird Mageia für Sie bedeuten?</a>'
     )
 );
