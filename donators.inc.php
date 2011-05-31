@@ -180,7 +180,8 @@ $donators = array(
     'Robert J Greenwood',
     'Mike Crecelius',
     'Yevgeniy Palaus',
-    'Julio Geraldo'
+    'Julio Geraldo',
+    'Aymerich Munoz Jose Ignacio'
 );
 
 //$html .= '<img src="/g/images/mageia_0.svg" style="position: absolute; top: 180px; width: 300px; opacity: 0.2;" />';
@@ -191,7 +192,7 @@ $orgs = array(
     array('http://www.gandi.net/', 'Gandi.net'),
     array('http://www.kazar.net/', 'Kazar.net'),
     array('http://www.lost-oasis.net/', 'Lost-Oasis'),
-    array('http://www.mandrivalinux-online.org/', 'MLO'),
+    array('http://www.mageialinux-online.org/', 'MLO'),
     array('http://nfrance.fr/', 'NFrance'),
     array('http://www.spreadshirt.com/', 'Spreadshirt'),
     array('http://zarb.org/', 'zarb.org'),

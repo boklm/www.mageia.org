@@ -21,8 +21,6 @@
 			<h2>Summary</h2>
 			<ul>
 				<li>Amount collected: EUR&nbsp;8 801.66</li>
-				<li>Donators number: 149</li>
-				<li>Average donation: EUR&nbsp;59.07</li>
 				<li>Amount spent: EUR&nbsp;1 277.77</li>
 				<li>Amount remaining: EUR&nbsp;7 523.96</li>
 			</ul>
