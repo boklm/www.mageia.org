@@ -59,4 +59,3 @@ $_t = array(
         'tweet_it' => 'Just <a href="http://twitter.com/mageia_org">tweet it to @mageia_org</a>.'
     )
 );
-?>

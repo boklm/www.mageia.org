@@ -1173,4 +1173,3 @@ $_t = array(
                                     nu trebuie neapărat să studiați informatica pentru a face acest lucru.')
     ),
 );
-?>

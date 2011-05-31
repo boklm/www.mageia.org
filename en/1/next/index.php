@@ -42,7 +42,7 @@ $_t = array(
                     
                     
                 </div><div class="para">
-                    <h2>What will <strong>we</strong> do from there?</h2>
+                    <h2>Where will <strong>we</strong> go from there?</h2>
                     
                     <p>You can <a href="/en/contribute/">join us</a>
                         and help us improve.</p>

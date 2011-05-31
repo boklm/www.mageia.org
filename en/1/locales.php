@@ -217,4 +217,3 @@ $_t = array(
         'in_for_you' => 'Mais il y a plus important que tous ces chiffres&nbsp;: <a href="/en/1/next/">que fera Mageia pour vous&nbsp;?</a>'
     )
 );
-?>
