@@ -27,17 +27,21 @@
 			</ul>
 			<h2>Financial Report</h2>
 			<table id="fr-table"><thead><tr><th>Wording of the financial transaction</th><th>Income</th><th>Outgoing</th></tr></thead><tbody><tr>
-				<tr><td colspan=3></td></tr>
-				<tr><td></td><td class="money">EUR&nbsp;</td><td>&nbsp;</td></tr>
-				<tr><td></td><td class="money">EUR&nbsp;</td><td>&nbsp;</td></tr>
-				<tr><td colspan=3></td></tr>
-				<tr><td></td><td>&nbsp;</td><td class="money">EUR&nbsp;</td></tr>
-				<tr><td></td><td>&nbsp;</td><td class="money">EUR&nbsp;</td></tr>
-				<tr><td colspan=3></td></tr>
-				<tr><td></td><td>&nbsp;</td><td class="money">EUR&nbsp;</td></tr>
-				<tr><td></td><td>&nbsp;</td><td class="money">EUR&nbsp;</td></tr>
-				<tr><td></td><td>&nbsp;</td><td class="money">EUR&nbsp;</td></tr>
-				<tr><td></td><td>&nbsp;</td><td class="money">EUR&nbsp;</td></tr>
+				<tr><td colspan=3>Cotisations</td></tr>
+				<tr><td>Administrative cost for the birth of Magei.Org (JO)</td><td class="money">&nbsp;</td><td class="money">EUR&nbsp;44.00</td></tr>
+				<tr><td>April (annual cotisation)</td><td class="money">&nbsp;</td><td class="money">EUR&nbsp;100.00</td></tr>
+				<tr><td>INPI (brand registration for 10 years)</td><td class="money">&nbsp;</td><td class="money">EUR&nbsp;250.00</td></tr>
+				<tr><td colspan=3>Goodies and accesorizes</td></tr>
+				<tr><td>Posters + flyers (Solutions Linux)</td><td>&nbsp;</td><td class="money">EUR&nbsp;159.25</td></tr>
+				<tr><td>Stickers + Tee-Shirts (fosdem)</td><td>&nbsp;</td><td class="money">EUR&nbsp;1 932.14</td></tr>
+				<tr><td>Money box</td><td>&nbsp;</td><td class="money">EUR&nbsp;17.93</td></tr>
+				<tr><td colspan=3>Shipment</td></tr>
+				<tr><td>40 TS to wobo for the Chemnitzer Linuxtage</td><td>&nbsp;</td><td class="money">EUR&nbsp;54.65</td></tr>
+				<tr><td>3 TS to donors in France</td><td>&nbsp;</td><td class="money">EUR&nbsp;12.30</td></tr>
+				<tr><td>2 TS to saipo for an event in France</td><td>&nbsp;</td><td class="money">EUR&nbsp;25.00</td></tr>
+				<tr><td colspan=3>Hardware or hosting</td></tr>
+                                <tr><td>RAM on Gandi hosting (for blog/planet/www)</td><td>&nbsp;</td><td class="money">EUR&nbsp;172.08</td></tr>
+                                <tr><td>SSL for domains on Gandi.net</td><td>&nbsp;</td><td class="money">EUR&nbsp;215.28</td></tr>
 				<tr><td colspan=3>&nbsp;</td></tr>
 				<tr><td>Total</td><td class="money">EUR&nbsp;</td><td class="money">EUR&nbsp;</td></tr>
 				<tr><td>Balance</td><td colspan=2 class="money">EUR&nbsp;</td></tr></tbody>
