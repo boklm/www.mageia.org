@@ -168,6 +168,53 @@ $_t = array(
                         pronta per te, adesso.',
         'users' => 'Quanti utenti? Il tempo lo dirà.',
         'in_for_you' => 'Ma cosa più importante delle cifre: <a href="/en/1/next/">che cosa farà per te?</a>'
+    ),
+    'fr' => array(
+        '1_title' => 'Mageia 1',
+        '1_desc' => 'Mageia 1 est une nouvelle distribution Linux communautaire.',
+        '1_kw' => 'mageia, 1, premiere release, linux, mandriva, logiciel libre',
+        'img_desktop' => 'Bureau KDE de Mageia 1',
+        'download_it' => 'Téléchargez-la',
+        'mageia_is' => 'Mageia 1 est une distribution GNU/Linux pour votre ordinateur,
+                        réalisée par la communauté Mageia.',
+        'h3_what_is' => 'Que contient-elle&nbsp;?',
+        'plenty_see_notes' => 'Plein de choses&nbsp;! Consultez les <a href="notes/">notes de version</a> pour une liste exhaustive.',
+        'h3_context' => 'Mageia dans son contexte',
+        'mageia_began' => 'La distribution Mageia est arrivée en septembre 2010 comme
+                        <a href="/fr/about/2010-sept-announcement.html">un fork de Mandriva Linux</a>.
+                        Elle est appuyée par une <a href="/en/about/">association à but non lucratif</a>,
+                        <a href="http://mageia.org/wiki/doku.php?id=org">régie par</a>
+                        un corps de contributeurs élus et reconnus</a>,
+                        et développée par plus d\'une centaine de personnes de par le monde.',
+        'our_work' => 'Nos efforts s\'ajoutent à l\'excellent travail réalisé par la vaste
+                        communauté de Linux et du logiciel libre. Notre objectif est de fournir l\'une
+                        des plateformes les plus stables, fiables et agréables qu\'il nous est possible
+                        de faire ; tant pour un utilisateur classique que pour un développeur ou une
+                        entreprise.',
+        'encourage_you' => 'Et nous vous encourageons à <a href="/fr/contribute/">
+                        participer au projet</a>, sur votre temps libre ou à travers votre activité
+                        professionnelle.',
+        '9_months' => '9&nbsp;mois après le <a href="/fr/about/2010-sept-announcement.html">lancement du projet</a>, nous avons atteint&nbsp;:',
+        'people' => 'Plus d\'<a href="">une centaine de contributeurs</a> dans <a href="/wiki/doku.php?id#teams">une douzaine d\équipes</a>.
+                        Plus de <a href="/en/thank-you/">160&nbsp;généreux donateurs</a> pour
+                        un total de <a href="/fr/donate/">8&nbsp;800&nbsp;&#8364</a>, dont seulement
+                        <a href="/en/about/reports/">1&nbsp;277&nbsp;&#8364 ont été dépensés</a> jusqu\'à
+                        maintenant, avec 20&nbsp;000&nbsp;&#8364 prévus pour 2011.'
+        'prereleases' => '5&nbsp;versions de développement intermédiaires.
+                        7&nbsp;389&nbsp;paquets sources,
+                        2&nbsp;&times;&nbsp;14&nbsp;226&nbsp;paquets binaires pour 2&nbsp;architectures
+                        matérielles (i586 et x86_64 &ndash; le support d\'ARM arrivera
+                        prochainement).',
+        'servers' => '7&nbsp;serveurs, 3&nbsp;centres de traitement de données (Paris et
+                        Marseille, en France), <a href="http://mirrors.mageia.org/">19&nbsp;miroirs
+                        de par le monde</a>.',
+        'languages' => 'Un site Web traduit dans <a href="http://mageia.org/?langs">
+                        21&nbsp;langues</a>, une distribution traduite dans <a href="">
+                        161&nbsp;langues</a>.',
+        'distribution' => 'Tout cela pour <a href="http://mageia.org/en/1/">une distribution</a>,
+                        qui est maintenant à votre disposition.',
+        'users' => 'Combien d\'utilisateurs&nbsp;? L\'avenir nous le dira.',
+        'in_for_you' => 'Mais il y a plus important que tous ces chiffres&nbsp;: <a href="/en/1/next/">que fera Mageia pour vous&nbsp;?</a>'
     )
 );
 ?>
