@@ -31,7 +31,7 @@ $_t = $_t[$locale];
         <div id="bd" role="main">
             <div class="yui-g bb1">
                 <div class="para">
-                    <img src="/g/1/screenshots/opt-mageia-450.jpg" alt="<?php echo $_t['img_desktop']; ?>" class="rel-desktop-home" style="float: left;  margin: 0 2em 2em 0; width: 450px;">
+                    <img src="/g/1/screenshots/opt-mageia-450.jpg" alt="<?php echo $_t['img_desktop']; ?>" class="rel-desktop-home rel-home1">
 
                     <h2 class="download-btn"><a href="/downloads/"><?php echo $_t['download_it']; ?></a></h2>
 
