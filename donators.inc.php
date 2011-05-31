@@ -171,7 +171,7 @@ $donators = array(
     'Andrew Hill',
     'Paul-Eric Despretz',
     'Luca Tani',
-    'Guillemot Yves'
+    'Guillemot Yves',
     'Philgren Jan-Gunnar'
     'Rene Hytting',
     'René Fischer',
