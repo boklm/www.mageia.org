@@ -168,5 +168,59 @@ $_t = array(
                         para preguntar por asistencia o más detalles.',
         'h3_feedback' => '¿Quiere enviar comentarios?',
         'tweet_it' => 'Sólo <a href="http://twitter.com/mageia_org">twitéelo a @mageia_org</a>.'
+    ),
+    'fr' => array(
+        'page_title' => 'Migrer de Mandriva Linux à Mageia',
+        'page_desc' => 'Quelques étapes pour migrer de façon sûre de Mandriva Linux 2010.1 ou 2010.2 à Mageia 1.',
+        'page_kw' => 'mageia, mandriva, mise a jour, migrer',
+        'page_h1' => 'Migrer depuis Mandriva Linux',
+        'upgrading_general' => 'La mise à niveau depuis Mandriva Linux 2010.1 et 2010.2 est prévue, elle a été mise au point dans le détail ces derniers mois et devrait fonctionner. Mais, au préalable et comme toujours&nbsp;:',
+        'upgrading_general_array' => array('Sauvegardez vos données avant la mise à niveau.',
+                'Si vous utilisez un portable, connectez-le au secteur&nbsp;!
+                        Vous allez mettre à jour plus de 2000 paquets et cela peut prendre un peu de temps.',
+                'Ne lancez pas d\'application qui utilise le réseau de manière intensive durant la mise à niveau 
+                        &ndash; mieux vaut réserver la bande passante pour la mise à niveau.'),
+        'upgrading_ways' => 'Il existe plusieurs façons de mettre à niveau depuis l\'une de ces versions de Mandriva&nbsp;:',
+        'upgrading_ways_dvd' => '<a href="#dvd">utiliser le DVD de Mageia 1</a>',
+        'upgrading_ways_inline' => '<a href="#inline">utiliser directement les sources de médias en ligne</a>,
+                        utiliser <a href="#mgaonline">mgaonline</a> ou <a href="#urpmi">urpmi</a>.',
+        'h2_dvd' => 'Mise à niveau en utilisant le DVD de Mageia 1',
+        'dvd_clean_install' => 'Vous pouvez utiliser le <a href="/fr/downloads/">DVD de Mageia 1</a> pour une nouvelle installation 
+                    mais également pour mettre votre système à niveau depuis une version précédente.',
+        'to_upgrade' => 'Pour mettre à niveau&nbsp;:',
+        'to_upgrade_array' => array('<a href="/fr/downloads/">Télécharger l\'image ISO</a> et la graver sur un DVD.',
+                'Démarrer depuis le DVD et choisir « Installer Mageia 1 » dans le menu de démarrage;',
+                'Choisir l\'option « Upgrade » dans l\'installeur.'),
+        'recommended' => 'Il est recommandé de configurer les dépôts en ligne, si possible
+                    &ndash; l\'installeur vous posera la question durant la mise à niveau.
+                    En effet le DVD ne peut seulement inclure qu\'une partie des dépôts en ligne complets de Mageia.',
+        'h2_inline' => 'Mise à niveau en ligne',
+        'inline_1' => 'Vous pouvez mettre à niveau en utilisant directement les sources de médias en ligne, depuis votre installation Mandriva.',
+        'inline_2' => 'Cela peut se faire soit en utilisant l\'outil graphique <code>mgaonline</code>, soit en 
+                    ligne de commande avec <code>urpmi</code>.
+                    Les deux méthodes sont décrites ci-dessous. Mais, tout d\'abord, téléchargez et installez
+                    le paquet <code>mgaonline</code> qui vous aidera durant le processus&nbsp;:',
+        'mgaonline_image_title' => 'pour Mandriva Linux 2010.1 ou 2010.2',
+        'inline_3' => 'Notez qu\'il est possible que vous receviez un avertissement de sécurité dû à une signature de paquets incorrecte. 
+                    C\'est parce qu\'un système Mandriva ne reconnaît pas les signatures Mageia&nbsp;;
+                    vous pouvez donc ne pas tenir compte de ces avertissements. Oui, c\'est nul, on sait.',
+        'a_or_b' => 'Bon, le paquet est installé&nbsp;? Alors, avançons, et choisissez a) ou b) ci-dessous&nbsp;:',
+        'h2_a' => 'a) Mise à niveau en ligne en utilisant mgaonline (graphique)',
+        'popup_window_1' => 'a) Mise à niveau en ligne en utilisant mgaonline (graphique)',
+        'popup_window_2' => 'Suivez simplement les instructions&nbsp;; les sources de médias de Mageia seront configurées et la migration va démarrer.',
+        'as_soon_complete' => 'Aussitôt que la migration sera terminée, vous devrez redémarrer votre système. Et voilà.',
+        'h2_b' => 'b) Mise à niveau en ligne en utilisant urpmi (ligne de commande)',
+        'cli_1' => 'Vous pouvez aussi mettre à niveau en utilisant <code>urpmi</code> depuis votre émulateur de terminal favori si vous êtes à l\'aise avec. Voici les étapes&nbsp;:',
+        'cli_2' => 'Retirez toutes les sources de médias existant sur votre système.',
+        'cli_3' => 'Ajoutez les sources en ligne de Mageia.',
+        'cli_4' => 'soit directement (selon le lieu que vous avez défini, le meilleur miroir sera sélectionné).',
+        'cli_5' => 'soit en utilisant un miroir de médias spécifique (vous pouvez faire votre choix dans <a href="http://mirrors.mageia.org/distrib">notre liste de miroirs</a>).',
+        'h2_thats_it' => 'Et voilà&nbsp;!',
+        'h3_question' => 'Des questions&nbsp;?',
+        'join_and_ask' => 'N\'hésitez pas à rejoindre notre canal IRC <a href="irc://irc.freenode.net/#mageia">#mageia</a>
+                        sur Freenode ou aller sur <a href="http://forums.mageia.org/">notre forum</a>
+                        pour y demander de l\'aide ou des détails.',
+        'h3_feedback' => 'Vous voulez partager votre retour d\'expérience&nbsp;?',
+        'tweet_it' => 'Alors <a href="http://twitter.com/mageia_org">tweetez à @mageia_org</a>.'
     )
 );
