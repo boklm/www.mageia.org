@@ -285,7 +285,9 @@ span.pop_5 { width: 50px; }
 
 .release #hd { margin-bottom: 0; }
 img.rel-desktop-home { width: 749px; background: #fff; border: 0; margin: 0; padding: 0; }
-img.screen-copy { display: block; margin: 2em auto 4em auto; -webkit-box-shadow: 0px -6px 10px #aaa; }
+img.rel-desktop-home.rel-home1 { width: 450px; float: left; border: 0; margin: 0 2em 2em 0; padding: 0; -webkit-box-shadow: 0 0 10px #aaa; }
+
+img.screen-copy { display: block; margin: 2em auto 4em auto; -webkit-box-shadow: 0px -6px 10px #444; }
 
 .clear { clear: both; }
 h2.download-btn {
@@ -305,3 +307,4 @@ h2.download-btn a:visited { color: #fff; }
 
 p#subnav { text-align: right; color: #777; }
 p#subnav a.sel { color: #000; }
+
