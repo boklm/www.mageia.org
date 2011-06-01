@@ -396,5 +396,62 @@ $_t = array(
                         voor hulp of verdere informatie.',
         'h3_feedback' => 'Wilt u ons feedback geven?',
         'tweet_it' => 'Stuur gerust een <a href="http://twitter.com/mageia_org">tweet naar @mageia_org</a>.'
+    ),
+    'et' => array(
+        'page_title' => 'Kolimine Mandriva Linuxist Mageiasse',
+        'page_desc' => 'Kuidas kolida Mandriva Linux 2010.1/2010.2 pealt Mageia 1 peale paari turvalise sammuga.',
+        'page_kw' => 'mageia, mandriva, uuendamine, migreerimine, kolimine',
+        'page_h1' => 'Kolimine Mandriva Linuxi pealt',
+        'upgrading_general' => 'Toetatud on uuendamine Mandriva Linux 2010.1 ja 2010.2 pealt, mida on mitme kuu jooksul
+                lihvitud, nii et see peaks kulgema edukalt. Aga nagu ikka, tasub olla ettevaatlik ja juba eelnevalt:',
+        'upgrading_general_array' => array('varundada andmed enne uuendamist;',
+                'sülearvutil uuendades lülituda vooluvõrku!
+                        Uuendamist võib oodata üle 2000 tarkvarapaketi, mis võtab omajagu aega;',
+                'mitte käivitada uuendamise ajal võrku oluliselt koormavaid rakendusi
+                        &ndash; uuendamiseks oleks mõistlik kasutada ära kogu oma sidekanali läbilaskevõime.'),
+        'upgrading_ways' => 'Mõnelt varasemalt Mandriva väljalaskelt saab Mageia peale uuendada mitmel moel:',
+        'upgrading_ways_dvd' => '<a href="#dvd">Mageia 1 DVD abil</a>',
+        'upgrading_ways_inline' => '<a href="#inline">vahetult võrguandmeallikaid kasutades</a>,
+                        <a href="#mgaonline">mgaonline</a>\'i või <a href="#urpmi">urpmi</a> vahendusel.',
+        'h2_dvd' => 'Uuendamine Mageia 1 DVD abil',
+        'dvd_clean_install' => '<a href="/downloads/">Mageia 1 DVD-d</a> võib kasutada puhta paigalduse
+                    sooritamiseks, aga ka varasemalt väljalaskelt uuendamiseks.',
+        'to_upgrade' => 'Uuendamiseks:',
+        'to_upgrade_array' => array('<a href="/downloads/">Laadige alla ISO</a> ja kirjutage see DVD-le;',
+                'Laadige arvuti DVD pealt ja valige alglaaduri menüüs "Mageia 1 paigaldamine";',
+                'Valige paigaldusprogrammis "Uuendamine".'),
+        'recommended' => 'Soovitatav on võimaluse korral kindlaks määrata tarkvara võrguhoidlad
+                    &ndash; paigaldusprogramm pakub uuendamise ajal sellise võimaluse välja.
+                    Nimelt mahub ka DVD peale vaid osa kogu tarkvarast, mida sisaldavad
+                    Mageia tarkvarahoidlad.',
+        'h2_inline' => 'Uuendamine võrgust',
+        'inline_1' => 'Uuendada võib ka otse võrguandmeallikatest, seda lausa Mandriva töötamise ajal.',
+        'inline_2' => 'Seda saab teha graafilise tööriistaga <code>mgaonline</code> või
+                    käsureatööriistaga <code>urpmi</code>.
+                    Mõlemat meetodit on kirjeldatud allpool. Esmalt aga laadige alla ja paigaldage
+                    <code>mgaonline</code>\'i pakett, mis aitab teil uuendamist läbi viia:',
+        'mgaonline_image_title' => 'Mandriva Linux 2010.1 või 2010.2 jaoks',
+        'inline_3' => 'Pange tähele, et võite näha paketi vigasest allkirjast kõnelevat turbehoiatust.
+                    Mandriva süsteem ei tunnista nimelt Mageia signatuure, aga sellist hoiatust
+                    võib julgelt eirata. Pole parata, selline on elu.',
+        'a_or_b' => 'Niisiis, pakett on paigaldatud? Nüüd on aeg valida allpool kirjeldatud võimalus a või b:',
+        'h2_a' => 'a) Uuendamine võrgust mgaonline\'i vahendusel (graafiliselt)',
+        'popup_window_1' => 'a) Uuendamine võrgust mgaonline\'i vahendusel (graafiliselt)',
+        'popup_window_2' => 'Järgige lihtsalt nõustaja juhiseid: see seadistab Mageia andmeallikad ja alustab kolimist.',
+        'as_soon_complete' => 'Kui kolimine on lõpetatud, tuleb süsteem taaskäivitada ning saategi oma vastse Mageia kasutusele võtta.',
+        'h2_b' => 'b) Uuendamine võrgust urpmi vahendusel (käsureal)',
+        'cli_1' => 'Uuendada võib ka <code>urpmi</code> vahendusel oma lemmikterminaliemulaatoris,
+                    kui see peaks teile rohkem meeldima. Sammud on järgmised:',
+        'cli_2' => 'Eemaldage oma süsteemist kõik senised tarkvara andmeallikad:',
+        'cli_3' => 'Lisage Mageia võrguandmeallikad:',
+        'cli_4' => 'kas otse (sel juhul valitakse teie asukoha järgi kõige paremini sobiv peegel):',
+        'cli_5' => 'või kasutades konkreetset peegelsaiti (selle võib leida <a href="http://mirrors.mageia.org/distrib">meie peeglite loendist</a>):',
+        'h2_thats_it' => 'Ja ongi kõik!',
+        'h3_question' => 'Kas tekkis küsimusi?',
+        'join_and_ask' => 'Ärge kõhelge liitumast meie IRC-kanaliga <a href="irc://irc.freenode.net/#mageia">#mageia</a>
+                        Freenode võrgus või läbi astumast <a href="http://forums.mageia.org/">meie foorumilt</a>,
+                        kui vajate abi või tahate midagi täpsustada.',
+        'h3_feedback' => 'Soovite saata meile tagasisidet?',
+        'tweet_it' => 'Saatke lihtsalt <a href="http://twitter.com/mageia_org">säuts @mageia_org</a> peale.'
     )
 );
