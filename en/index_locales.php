@@ -184,5 +184,25 @@ $_t = array(
         'join-us' => 'Приєднуйтеся!',
         'right-now' => 'Поточні події',
         'news' => 'Новини',
+    ),
+    'et' => array(
+        'page_title' => 'Mageia - uus Linuxi distributsioon',
+        'page_desc'  => 'Mageia on uus kogukonnale tuginev Linuxi distributsioon.',
+        'page_kw'    => 'mageia, linux, mandriva, vaba tarkvara, operatsioonisüsteem, arvuti, sülearvuti, lauaarvuti, server, seade, mobiil',
+        'page_h1'    => 'Uus Linuxi distributsioon',
+        'alternate_title' => 'Mageia ajaveeb (ingliskeelne)',
+        'alternate_href'  => 'http://blog.mageia.org/en/?feed=rss',
+        'about' => array(
+            'Mageia on hargnenud Mandriva Linuxist ning
+                seda toetab tunnustatud ja valitud kaastöötajatest
+                koosnev mittetulundusühing.',
+            'Lisaks vaba, turvalise, stabiilse ja kestliku operatsioonisüsteemi pakkumisele on meie
+                siht kujundada stabiilne ja usaldusväärne keskkond koostööprojektide arendamiseks ja juhtimiseks
+                (vaadake meie <a href="/et/about/2010-sept-announcement.html">põhimõtteid selgitavat avateadaannet</a>).'
+        ),
+        'mageia-is-here' => 'Mageia 1 on valmis',
+        'join-us' => 'Liituge meiega!',
+        'right-now' => 'Praegu toimub',
+        'news' => 'Uudised',
     )
 );

@@ -250,5 +250,47 @@ $_t = array(
                         bereit für Sie, jetzt.',
         'users' => 'Wieviele Benutzer? Das wird die Zeit weisen.',
         'in_for_you' => 'Weit wichtiger als all diese Zahlen ist: <a href="/de/1/next/">was wird Mageia für Sie bedeuten?</a>'
+    ),
+    'et' => array(
+        '1_title' => 'Mageia 1',
+        '1_desc' => 'Mageia 1 on uus kogukonna toel valmiv Linuxi distributsioon.',
+        '1_kw' => 'mageia, 1, esimene väljalase, linux, mandriva, vaba tarkvara',
+        'img_desktop' => 'Mageia 1 KDE töölaud',
+        'download_it' => 'Laadige alla',
+        'mageia_is' => 'Mageia 1 on just teie arvutile mõeldud GNU/Linuxi distributsioon,
+                        mille on teie heaks valmistanud Mageia kogukond.',
+        'h3_what_is' => 'Mida see sisaldab?',
+        'plenty_see_notes' => 'Palju ja rohkemgi! Põhjalikumalt kõneldakse sellest <a href="notes/">väljalaskemärkmetes</a>.',
+        'h3_context' => 'Mageia taust',
+        'mageia_began' => 'Mageia sai alguse 2010. aasta septembris
+                        <a href="/et/about/2010-sept-announcement.html">Mandriva Linuxi haruna</a>.
+                        Seda toetab a <a href="/en/about/">mittetulundusühing</a>,
+                        <a href="http://mageia.org/wiki/doku.php?id=org">valitseb</a>
+                        kogukonna tunnustatud ja valitud esinduskogu</a> ning
+                        selle taga seisab enam kui 100 inimest kõikjal maailmas.',
+        'our_work' => 'Meie tegevus aitab veelgi laiendada Linuxi ja vaba tarkvara 
+                        suurepärast kogukonda. Me üritame pakkuda parimat, stabiilseimat,
+                        usaldusväärseimat ja nautimisväärset kogemust ja tööplatvormi
+                        nii tavalistele kasutajatele, tarkvaraarendajatele kui ka ettevõtetele.',
+        'encourage_you' => 'Ühtlasi julgustame teidki <a href="/et/contribute/">kaasa lööma</a>,
+                        olgu teie vabal ajal või ka töökohustuste raames.',
+        '9_months' => '9&nbsp;kuuga <a href="/et/about/2010-sept-announcement.html">pärast sündi</a> oleme saavutanud:',
+        'people' => '<a href="">üle 100&nbsp;kaastöötaja</a> <a href="/wiki/doku.php?id#teams">enam kui 10 meeskonnas</a>.
+                        <a href="/en/thank-you/">üle 160&nbsp;helde annetaja</a>,
+                        kes on meile saatnud <a href="/et/donate/">üle 8800&nbsp;euro</a>,
+                        millest seni <a href="/en/about/reports/">on kulutatud 1277 eurot</a>
+                        (2011. aasta jooksul loodame koguda 20&nbsp;000 eurot).',
+        'prereleases' => '5&nbsp;eelväljalaset testimiseks.
+                        7389&nbsp;lähtekoodipaketti,
+                        2 &times; 14&nbsp;226&nbsp;tarkvarapaketti 2&nbsp;arhitektuuri tarbeks (i586 ja x86_64
+                        &ndash; ARM on valmimisel).',
+        'servers' => '7&nbsp;serverit, 3&nbsp;andmekeskust (Pariisis ja Marseille\'s Prantsusmaal),
+                        <a href="http://mirrors.mageia.org/">19&nbsp;peegelsaiti kogu maailmas</a>.',
+        'languages' => '<a href="http://mageia.org/?langs">21 keelde</a> tõlgitud veebilehekülg,
+                        <a href="">161 keelde</a> tõlgitud distributsioon.',
+        'distribution' => 'Kõik see <a href="http://mageia.org/en/1/">üheainsa distributsiooni</a> tarbeks,
+                        mis on nüüd teie jaoks valmis.',
+        'users' => 'Kui palju kasutajaid? Seda näitab vaid aeg.',
+        'in_for_you' => 'Ent tähtsam kui uhkustavad arvud on see, <a href="/en/1/next/">mida see võimaldab teil teha?</a>'
     )
 );

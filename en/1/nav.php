@@ -4,6 +4,7 @@ $_nt = array(
     'de' => array('for-you' => 'Für Sie', 'dl' => 'Download', 'next' => 'Und nun?', 'notes' => 'Release-Notes'),
     'en' => array('for-you' => 'For you', 'dl' => 'Download', 'next' => 'And next?', 'notes' => 'Notes'),
     'es' => array('for-you' => 'Para usted', 'dl' => 'Descargar', 'next' => '¿Y qué sigue?', 'notes' => 'Notas'),
+    'et' => array('for-you' => 'Teie jaoks', 'dl' => 'Allalaadimine', 'next' => 'Ja mis edasi?', 'notes' => 'Märkmed'),
     'fr' => array('for-you' => 'Pour vous', 'dl' => 'Télécharger', 'next' => 'Et après&nbsp;?'),
     'uk' => array('for-you' => 'Для вас', 'dl' => 'Звантаження', 'next' => 'Що далі?', 'notes' => 'Нотатки')
 );
