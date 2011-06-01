@@ -134,12 +134,12 @@ $_t = array(
                         nos reunimermos y discutiremos planes futuros:',
         'array_relax' => array('¿Que hay sobre el ciclo de las entregas?',
                 '¿Que hay sobre los cambios de fondo que podemos hacer?',
-                'y sobre proyectos alternos que usan o refuerzan la tecnología.',
-                '¿Que hay sobre el rol de la asociación y las actividades de los equipos?',
+                'y sobre proyectos alternos que usan o refuerzan la tecnolog&iacute;a.',
+                '¿Que hay sobre el rol de la asociaci&oacute;n y las actividades de los equipos?',
                 '¿Que tal mejorar este sitio web para atraer a mas colaboradores?',
                 '¿Que hay sobre <strong>tus ideas</strong>?'),
         'text_relax_2' => 'Hablaremos mas sobre esto a finales de junio,
-                        asi que estén pendientes en <a href="http://blog.mageia.org/">nuestro blog</a>
+                        asi que est&eacute;n pendientes en <a href="http://blog.mageia.org/">nuestro blog</a>
                         y nuestra <a href="http://twitter.com/mageia_org">cuenta de twitter</a>!'
     )
 );
