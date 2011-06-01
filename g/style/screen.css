@@ -308,3 +308,45 @@ h2.download-btn a:visited { color: #fff; }
 p#subnav { text-align: right; color: #777; }
 p#subnav a.sel { color: #000; }
 
+.product-list {
+    padding: 0;
+    margin: 0;
+}
+.product-list > li {
+    list-style: none;
+    padding-left: 70px;
+    min-height: 60px;
+    background-image: url(/g/images/smi/vcard-48x48.png);
+    background-repeat: no-repeat;
+    background-position: 0 4px;
+    margin-bottom: 2em;
+}
+.product-list li h3 {
+    font-size: 140%;
+    margin: 0;
+    padding: 5px;
+    color: #000;
+    font-weight: bold;
+}
+.product-list li h3 a {
+    color: #000;
+}
+
+.product-list li#marketing { 
+    background-image: url(/g/images/smi/feed-48x48.png); 
+}
+.product-list li#web, .contrib-list li#mirror { 
+    background-image: url(/g/images/smi/website-48x48.png); 
+}
+.product-list li#triage { 
+    background-image: url(/g/images/smi/feed-48x48.png); 
+}
+.product-list li#triage { 
+    background-image: url(/g/images/smi/feed-48x48.png); 
+}
+.product-act li { 
+    margin-bottom: 0.6em; 
+}
+.product-act { 
+    margin-bottom: 2.5em; 
+}
