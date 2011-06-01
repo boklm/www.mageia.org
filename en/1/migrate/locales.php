@@ -498,5 +498,63 @@ $_t = array(
                         來尋求協助吧。',
         'h3_feedback' => '有意見與回饋嗎？',
         'tweet_it' => '可以到 <a href="http://twitter.com/mageia_org">Tweeter 上發給 @mageia_org</a>。'
+    ),
+    'cs' => array(
+        'page_title' => 'Přechod z  Mandriva Linux k Mageii',
+        'page_desc' => 'Jak přejít z Mandriva Linuxu 2010.1/2010.2 k Mageii 1 v několika málo krocích.',
+        'page_kw' => 'mageia, mandriva, upgrade, migrate',
+        'page_h1' => 'Přechod z Mandriva Linuxu',
+        'upgrading_general' => 'Podporujeme přechod z Mandriva Linuxu 2010.1 a 2010.2 a poslední měsíc jsme jej 
+                ladili, takže by mělo být vše v pořádku. Ale jako vždy:',
+        'upgrading_general_array' => array('zazálohujte si svá data dříve, než budete přecházet;',
+                'pokud máte notebook, připojte jej do sítě!
+                        Budete aktualizovat více než 2000 balíčků, takže to může zabrat nějaký čas;',
+                'nezapínejte zádné aplikace, který si vyžádají hodně silný provoz po síti
+                        &ndash; budete potřebovat dostatečnou šířku internetového pásma.'),
+        'upgrading_ways' => 'Existuje několik způsobů překodu z předešlých vydání Mandriva Linuxu:',
+        'upgrading_ways_dvd' => '<a href="#dvd">použití DVD Mageia 1</a>',
+        'upgrading_ways_inline' => '<a href="#inline">použití online změny zdrojů softwaru</a>,
+                        using <a href="#mgaonline">mgaonline</a> nebo <a href="#urpmi">urpmi</a>.',
+        'h2_dvd' => 'Upgrage s využitím DVD Mageia 1',
+        'dvd_clean_install' => 'Můžete použít <a href="/downloads/">DVD Mageia 1</a> pro čistou instalaci, ale stejně 
+                    tak dobře můžete provést povýšení z předešlé verze Mandriva Linuxu.',
+        'to_upgrade' => 'Povýšení:',
+        'to_upgrade_array' => array('<a href="/downloads/">Stáhněte ISO soubor</a> a vypalte jej na DVD;',
+                'Nabootujte DVD a z nabídky zvolte "Instalovat Mageia 1";',
+                'V instalátoru zvolte volbu "Povýšit".'),
+        'recommended' => 'Doporučujeme nastavit online zdroje softwaru
+                    &ndash; instalátor se vás v průběhu povýšení na toto zeptá.
+                    Důvodem je, že na DVD nejsou úplně všechny balíčky, co jsou v 
+                    repozitářích -- prostě se tam nevejdou :).',
+        'h2_inline' => 'Upgrade přímo z běžícího Mandriva Linuxu',
+        'inline_1' => 'Můžete upgradovat pouze změnou repozitářů přímo z běžícího Mandriva Linuxu.',
+        'inline_2' => 'K tomuto můžete použít grafický nástroj <code>mgaonline</code>
+                    nebo čisté <code>urpmi</code>.
+                    Obě metody budou níže popsány, ovšem prvně stáhněte a nainstalujte
+                    balíček <code>mgaonline</code>, který vám bude pomocníkem v celém procesu:',
+        'mgaonline_image_title' => 'z Mandriva Linuxu 2010.1 nebo 2010.2',
+        'inline_3' => 'Upozorňujeme, že můžete dostat bezpečnostní varování kvůli neplatným podpisům balíčků.
+                    Je to způsobeno tím, že Mandriva Linux nezná podpisy Mageia,
+                    Takže toto varování můžete klidně ignorovat.
+                    Ano, je to hloupé... víme o tom.',
+        'a_or_b' => 'Takže nainstalováno? Fajn, vyberte si z bodů a) nebo b):',
+        'h2_a' => 'a) Upgrade z běžícího Mandriva Linuxu, s grafickým nástrojem (GUI) mgaonline',
+        'popup_window_1' => 'a) Upgrade z běžícího Mandriva Linuxu, s grafickým nástrojem (GUI) mgaonline',
+        'popup_window_2' => 'Jednoduše pracujte dle pokynů průvodce: nastaví zdroje softwaru a spustí migraci.',
+        'as_soon_complete' => 'Jakmile bude přechod kompletní, měli byste restartovat váš systém. A máte nainstalovanou Mageiu.',
+        'h2_b' => 'b) Upgrade z běžícího Mandriva Linuxu, s urpmi v příkazové řádce (CLI)',
+        'cli_1' => 'Stejně tak můžete použít nástroj <code>urpmi</code> ve vašem terminále,
+                    pokud v něm pracujete raději. Držte se těchto kroků:',
+        'cli_2' => 'Odeberte všechny zdroje softwaru:',
+        'cli_3' => 'Přidejte zdroje Mageia:',
+        'cli_4' => 'Nebo přímo (toto vybere nejbližší zrcadlo):',
+        'cli_5' => 'Nebo si přímo vyberte konkrétní zrcadlo (vyberte si z <a href="http://mirrors.mageia.org/distrib">našeho seznamu zrcadel</a>):',
+        'h2_thats_it' => 'A o tom to je!',
+        'h3_question' => 'Máte otázku?',
+        'join_and_ask' => 'Neváhejte a zeptejte se nás na našem <a href="irc://irc.freenode.net/#mageia">IRC kanálu #mageia</a>
+                        na Freenode nebo <a href="http://forums.mageia.org/">našem fóru</a>
+                        a požádejte o pomoc.',
+        'h3_feedback' => 'Chcete se podělit o své pocity?',
+        'tweet_it' => '<a href="http://twitter.com/mageia_org">Tweetněte nám to na @mageia_org</a>.'
     )
 );
