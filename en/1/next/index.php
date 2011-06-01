@@ -1,13 +1,17 @@
 <?php
-$_t = array(
-    'page_title' => 'Mageia 1 &ndash; And next?',
-    'page_desc' => '',
-    'page_kw' => 'mageia, mandriva, upgrade, migrate',
-    'page_h1' => 'And next?'
-);
 
+$locale = explode('/', $_SERVER['REQUEST_URI']);
+$locale = $locale[1];
+
+require 'locales.php';
+if (!array_key_exists($locale, $_t)) {
+    $locale = 'en';
+}
+
+$_t = $_t[$locale];
 
 ?>
+
 <!DOCTYPE html>
 <html lang="<?php echo $locale; ?>">
 <head>
@@ -31,53 +35,38 @@ $_t = array(
         <div id="bd" role="main">
             <div class="yui-g bb1">
                 <div class="yui-u first"><div class="para">
-                    <h2>Spread the word!</h2>
+                    <h2><?php echo $_t['h2_spread_word']; ?></h2>
                     <p><?php include '../../downloads/dl_twitter.php'; echo dl_twitter($locale); ?></p>
 
                 </div><div class="para">
-                    <h2>Party!</h2>
+                    <h2><?php echo $_t['h2_party']; ?></h2>
 
                 </div><div class="para">
-                    <h2>What will <strong>you</strong> do with it?</h2>
-                    <p>You tell us!</p>
-                    <p>In your blog (or <a href="http://blog.mageia.org/">our own</a>),
-                        on <a href="http://twitter.com/">Twitter</a>,
-                        on <a href="http://facebook.com/">Facebook</a>,
-                        in <a href="http://forum.mageia.org/">our forum</a>,
-                        in any other place and format
-                        you can think of!</p>
+                    <h2><?php echo $_t['h2_what_do']; ?></h2>
+                    <p><?php echo $_t['tell_us']; ?></p>
+                    <p><?php echo $_t['place_and_format']; ?></p>
 
                 </div><div class="para">
-                    <h2>Where will <strong>we</strong> go from there?</h2>
+                    <h2><?php echo $_t['h2_where_go']; ?></h2>
                     
-                    <p>You can <a href="/en/contribute/">join us</a>
-                        and help us improve.</p>
+                    <p><?php echo $_t['where_go_1']; ?></p>
                     
-                    <p>Mageia is still young. A lot has been achieved in the past 9 months,
-                        and that's only the beginning.</p>
+                    <p><?php echo $_t['where_go_2']; ?></p>
 
-                    <p>We can design and build a better operating system platform
-                        for computers and other new devices.</p>
+                    <p><?php echo $_t['where_go_3']; ?></p>
 
-                    <p>We can make this better for developers and users.
-                        We can be a better place to nurture open source technologies.</p>
+                    <p><?php echo $_t['where_go_4']; ?></p>
 
                 </div><div class="para">
-                    <h3>Relax, and brainstorm</h3>
-                    <p>After the heat and parties of this release have passed,
-                        we will gather and discuss future plans:</p>
+                    <h3><?php echo $_t['h3_relax']; ?></h3>
+                    <p><?php echo $_t['text_relax_1']; ?></p>
                     <ul>
-                        <li>what about the release cycle?</li>
-                        <li>what about core changes we can do?</li>
-                        <li>and side projets re-using or reinforcing the technology?</li>
-                        <li>what about the association role and teams' activities?</li>
-                        <li>what about improving several degrees of this Web site to empower more contributors?</li>
-                        <li>what about <strong>your ideas</strong>?</li>
+                        <?php foreach ( $_t['array_relax'] as $anItem ) {
+                            echo '<li>'.$anItem.'</li>';
+                        } ?>
                     </ul>
                     
-                    <p>We will talk more about that later in June,
-                        so stay tuned in <a href="http://blog.mageia.org/">our blog</a>
-                        and <a href="http://twitter.com/mageia_org">Twitter account</a>!</p>
+                    <p><?php echo $_t['text_relax_2']; ?></p>
                 </div></div>
                 <div class="yui-u">
                     <div style="width: 350px; height: 420px;">
