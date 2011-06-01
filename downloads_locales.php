@@ -12,7 +12,7 @@ $_t = array(
             This is FOR: developers, packagers, test users ONLY.',
         'warn_2' => 'Whatever you may do with the provided ISO disc image
                 will be done at your own risk, with your own responsibility.',
-        'title_ok' => 'You still want to download and test Mageia 1 RC?',
+        'title_ok' => 'You still want to download and test Mageia 1?',
         'dl_help' => 'Just pick the ISO image that is best for you; if you are not sure, you should pick from the first two.',
         'changes_since_a2' => 'Changes since Beta 2',
         'release_docs' => 'Release Documents',
@@ -29,7 +29,7 @@ $_t = array(
         'dl_mirror_loc' => 'This <a href="%s">%s</a> download mirror is located in %s (%s).',
         'dl_alt_mirrors' => 'If it does not work well for you, <a href="#om" id="other_mirrors_btn">check out these other mirrors</a>.',
         'whatdouthink?' => 'What do you think of it?',
-        'give_feedback' => 'You are very welcome to give your impressions on Mageia 1 RC, wherever you want:
+        'give_feedback' => 'You are very welcome to give your impressions on Mageia 1, wherever you want:
                 on <a href="http://forums.mageia.org/">our forums</a>,
                 <a href="http://blog.mageia.org/">our blog</a>, on <em>your</em> blog,
                 on Twitter (<a href="http://twitter.com/mageia_org">@mageia_org</a>).
@@ -57,7 +57,24 @@ Note that translations are on their way.',
         'All supported' => 'All supported',
         'English' => 'English',
         'Limited' => 'Limited',
-        'European set' => 'Europa set'
+        'European set' => 'Europa set',
+        'Europa set 1' => 'Europa 1',
+        'Europa set 2' => 'Europa 2',
+        'Asia set' => 'Asia',
+        'Africa/India set' => 'Africa/India',
+        'popularity' => 'Popularity',
+        'for_full_install' => 'For a full installation:',
+        'for_test_live' => 'For live test and install: LiveCD 32bit',
+        'for_network' => 'For a network install:',
+        'def-Europa set 1' => 'Europa set 1 of languages: Deutsch, English (several variants), greek, español, français, greek, italiano, Dutch, português, português do Brasil, Turkish.',
+        'def-Europa set 2' => 'Europa set 2 of languages: Bulgarian, Czech, Danish, American English, Estonian,
+            Finnish, Croatian, Hungarian, Lithuanian, Latvian, Norwegian Bokmaal, Norwegian Nynorsk, Polish,
+            Romanian, Russian, Swedish, Ukrainian, Uzbek, Uzbek (cyrillic).',
+        'def-Asia set' => 'Asia set 1 of languages: American English, Indonesian, Japanese, Korean,
+            Thai, Vietnamese, Chinese Simplified, Chinese Traditional.',
+        'def-Africa/India set' => 'Africa/India set of languages: Afrikaans, Amharic, Arabic, Assamese, Berber, Bengali, American English,
+            Hausa, Hebrew, Hindi, Igbo, Kannada, Malayalam, Marathi,
+            Punjabi, Tamil, Tswana, Tsonga, Venda, Xhosa, Yoruba, Zulu.'
     ),
     'fr' => array(
         'download' => 'télécharger',
@@ -69,14 +86,14 @@ Note that translations are on their way.',
         Ce logiciel n&rsquo;est PAS prévu pour un usage quotidien, une évaluation publique ou un environnement de production.
         Ce logiciel est prévu pour des TESTS, par des développeurs ou empaqueteurs.',
         'warn_2' => 'Quel que soit l&rsquo;usage que vous ferez des images ISO mises à votre disposition, cela sera fait en votre pleine conscience des risques encourus, avec vos propres responsabilités.',
-        'title_ok' => 'Vous voulez toujours télécharger et tester Mageia 1 RC&nbsp;?',
+        'title_ok' => 'Vous voulez toujours télécharger et tester Mageia 1&nbsp;?',
         'dl_help' => 'Choisissez l&rsquo;image qui vous convient&nbsp;; si vous n&rsquo;êtes pas sûr, prenez-en une parmi les premières.',
         'changes_since_a2' => 'Modifications depuis la version Beta 2',
         'release_docs' => 'Documents',
         'whatismageia' => 'Qu&rsquo;est-ce que Mageia&nbsp;?',
         'size' => 'Taille',
         'flavour' => 'Variante',
-        'language' => 'Langue',
+        'language' => 'Langues',
         'link' => 'Lien',
         'dl_shld_start' => 'Le téléchargement de %s va démarrer dans quelques secondes',
         'dl_size' => '(taille d&rsquo;environ %s).',
@@ -86,7 +103,7 @@ Note that translations are on their way.',
         'dl_mirror_loc' => 'Le miroir de téléchargement <a href="%s">%s</a> est en %s (%s).',
         'dl_alt_mirrors' => 'S&rsquo;il ne fonctionne pas bien, vous pouvez aussi <a href="#om" id="other_mirrors_btn">essayer un autre miroir</a>.',
         'whatdouthink?' => 'Qu&rsquo;en pensez-vous&nbsp;?',
-        'give_feedback' => 'Donnez-nous vos impressions sur cette RC, par le moyen que vous préférez&nbsp;: sur les <a href="http://forums.mageia.org/" hreflang="en">forums</a>, sur <a href="http://blog.mageia.org/fr/">notre blog</a>, sur <em>votre</em> blog, sur Twitter (<a href="http://twitter.com/mageia_org">@mageia_org</a>).
+        'give_feedback' => 'Donnez-nous vos impressions sur Mageia 1, par le moyen que vous préférez&nbsp;: sur les <a href="http://forums.mageia.org/" hreflang="en">forums</a>, sur <a href="http://blog.mageia.org/fr/">notre blog</a>, sur <em>votre</em> blog, sur Twitter (<a href="http://twitter.com/mageia_org">@mageia_org</a>).
         Dans tous les cas, n&rsquo;oubliez pas de pointer vers <a href="http://mageia.org/">mageia.org</a>.',
         'report_bug' => 'Si vous remarquez un bug, merci de <a href="/en/support/report-a-bug/">nous en informer</a> afin que nous puissions le corriger.',
         'notify_web' => 'Si vous rencontrez un problème pour télécharger cette beta,
@@ -106,7 +123,7 @@ Note that translations are on their way.',
         et tant d&rsquo;autres&nbsp;! Consultez la <a href="http://mageia.org/wiki/doku.php?id=tmp:supported_locales">liste complète</a>.',
         'euro_languages' => 'Langues européennes&nbsp;: allemand, anglais, espagnol, français, italien, polonais, portugais brésilien, russe.
         Davantage de langues seront disponibles dans la version finale.',
-        'All supported' => 'Toutes inclues',
+        'All supported' => 'Toutes',
         'limited_languages' => 'Limité&nbsp;: biélo-russe, catalan, allemand, anglais, espagnol, français, hongrois, italien, polonais, portugais, ukrainien.',
         'English' => 'Anglais',
         'Limited' => 'Limité',
@@ -123,7 +140,7 @@ Note that translations are on their way.',
             Diese Version ist GEDACHT FÜR: Tests von Entwicklern und Paketbauern.',
         'warn_2' => 'Alles, was Sie mit den angebotenen ISO-Abbildern machen geschieht 
                 auf Ihr eigenes Risiko, in Ihrer eigenen Verantwortung.',
-        'title_ok' => 'Sie wollen jetzt Mageia 1 RC herunterladen und testen?',
+        'title_ok' => 'Sie wollen jetzt Mageia 1 herunterladen und testen?',
         'dl_help' => 'Suchen Sie sich das für Sie passende ISO-Abbild aus. Falls Sie nicht sicher sind, sollten Sie eines der ersten Abbilder auswählen.',
         'changes_since_a2' => 'Änderungen seit Beta 2',
         'release_docs' => 'Dokumente zum Release',
@@ -180,7 +197,7 @@ Beachten Sie, dass an der Übersetzung noch gearbeitet wird.',
             Dit is NIET BEDOELD VOOR: dagelijks gebruik, publieke recencies, evaluatie voor persoonlijk gebruik of in een produktieomgeving.
             Dit is WEL BEDOELD VOOR: Mageia ontwikkelaars en het testen door packagers.',
         'warn_2' => 'Het gebruik van de aangeboden ISO-image is geheel voor uw eigen risico en rekening, en voor eigen verantwoordelijkheid.',
-        'title_ok' => 'U wilt nog steeds Mageia 1 RC downloaden?',
+        'title_ok' => 'U wilt nog steeds Mageia 1 downloaden?',
         'dl_help' => 'Kies het ISO-bestand welke voor u het beste is; Mocht u twijfelen dan kunt u het beste een van de eersten kiezen.',
         'changes_since_a2' => 'Veranderingen sinds Beta 2',
         'release_docs' => 'Release Documenten',
@@ -197,7 +214,7 @@ Beachten Sie, dass an der Übersetzung noch gearbeitet wird.',
         'dl_mirror_loc' => 'Deze <a href="%s">%s</a> spiegelserver bevindt zich in %s (%s).',
         'dl_alt_mirrors' => 'Mocht deze server voor u niet goed bereikbaar zijn, <a href="#om" id="other_mirrors_btn">kijkt u dan eens naar deze andere spiegelservers</a>.',
         'whatdouthink?' => 'Wat vindt u ervan?',
-        'give_feedback' => 'Graag horen wij uw bevindingen met Mageia 1 RC, waar u dat het beste uitkomt:
+        'give_feedback' => 'Graag horen wij uw bevindingen met Mageia 1, waar u dat het beste uitkomt:
                 op <a href="http://forums.mageia.org/">onze fora</a>,
                 <a href="http://blog.mageia.org/">ons blog</a>, op <em>uw</em> blog,
                 op Twitter (<a href="http://twitter.com/mageia_org">@mageia_org</a>).
@@ -238,7 +255,7 @@ Wij zijn druk bezig met vertalingen naar andere talen.',
         Αυτό ΔΕΝ ΕΙΝΑΙ ΓΙΑ: χρήση, δημόσια αξιολόγηση, παραγωγική εργασία.
         Αυτό ειναι ΓΙΑ: προγραμματιστές, δημιουργούς πακέτων, χρήστες δοκιμών ΜΟΝΟ.',
         'warn_2' => 'Οποιαδήποτε και αν είναι η χρήση που θα κάνετε των εικόνων ISO που βρίσκονται στην διάθεσή σας, αυτή θα γίνει με δική σας ευθύνη και με πλήρη επίγνωση των τυχών κινδύνων που μπορεί να υπάρξουν.',
-        'title_ok' => 'Θέλετε ακόμα να κάνετε λήψη και να δοκιμάσετε τη Mageia 1 RC?',
+        'title_ok' => 'Θέλετε ακόμα να κάνετε λήψη και να δοκιμάσετε τη Mageia 1?',
         'dl_help' => 'Απλά επιλέξτε μία εικόνα ISO που είναι καταλληλότερη για εσάς. Αν δεν είστε σίγουροι, καλύτερα να διαλέξετε μία εκ των δύο πρώτων.',
         'changes_since_a2' => 'Αλλαγές από Beta 2',
         'release_docs' => 'Τεκμηρίωση κυκλοφορίας',
@@ -255,7 +272,7 @@ Wij zijn druk bezig met vertalingen naar andere talen.',
         'dl_mirror_loc' => 'Αυτός <a href="%s">%s</a> ο καθρεφτισμός λήψης βρίσκεται στο(ν)/στη(ν) %s (%s).',
         'dl_alt_mirrors' => 'Αν δε δουλεύει καλά για σας, <a href="#om" id="other_mirrors_btn">ελέγξτε αυτούς τους καθρεφτισμούς</a>.',
         'whatdouthink?' => 'Ποιά είναι η γνώμη σας γι\'αυτό;',
-        'give_feedback' => 'Είστε ευπρόσδεκτος να αναφέρετε τις εντυπώσεις σας από τη Mageia 1 RC, όπου θέλετε:
+        'give_feedback' => 'Είστε ευπρόσδεκτος να αναφέρετε τις εντυπώσεις σας από τη Mageia 1, όπου θέλετε:
         στα <a href="http://forums.mageia.org/">forums μας</a>,
         <a href="http://blog.mageia.org/">στο ιστολόγιο μας</a>, στο  <em>δικό σας</em> ιστολόγιο,
         στο Twitter (<a href="http://twitter.com/mageia_org">@mageia_org</a>).
@@ -296,7 +313,7 @@ Wij zijn druk bezig met vertalingen naar andere talen.',
             Esto es PARA: desarrolladores, empaquetadores, usuarios de prueba SOLAMENTE.',
         'warn_2' => 'Todo lo que realice con la imagen de disco ISO provista
                 será bajo su propio riesgo y bajo su responsabilidad.',
-        'title_ok' => '¿Aún desea descargar y probar Mageia 1 RC?',
+        'title_ok' => '¿Aún desea descargar y probar Mageia 1?',
         'dl_help' => 'Seleccione la imagen ISO que mejor se ajusta a usted;; si no está seguro, debería elegir entre las dos primeras.',
         'changes_since_a2' => 'Cambios desde Beta 2',
         'release_docs' => 'Documentos de la versión',
@@ -313,7 +330,7 @@ Wij zijn druk bezig met vertalingen naar andere talen.',
         'dl_mirror_loc' => 'Éste <a href="%s">%s</a> servidor espejo de descarga está ubicado en %s (%s).',
         'dl_alt_mirrors' => 'Si no funciona bien para usted, <a href="#om" id="other_mirrors_btn">pruebe estos otros servidores espejo</a>.',
         'whatdouthink?' => '¿Qué le parece?',
-        'give_feedback' => 'Nos interesa conocer su opinión sobre Mageia 1 RC, como usted prefiera:
+        'give_feedback' => 'Nos interesa conocer su opinión sobre Mageia 1, como usted prefiera:
                 en <a href="http://forums.mageia.org/">nuestros foros</a>,
                 <a href="http://blog.mageia.org/es">nuestro blog</a>, en <em>su</em> blog,
                 en Twitter (<a href="http://twitter.com/mageia_org">@mageia_org</a>).
@@ -354,7 +371,7 @@ Note que las traducciones están en progreso.',
             See ON: AINULT arendajatele, pakendajatele ja testijatele.',
         'warn_2' => 'Mida te ka ei võtaks pakutava ISO-tõmmisega ette,
                 teete te seda täielikult omal riisikol ja ise vastutades.',
-        'title_ok' => 'Kas soovite ikka veel Mageia 1 RC alla laadida ja testida?',
+        'title_ok' => 'Kas soovite ikka veel Mageia 1 alla laadida ja testida?',
         'dl_help' => 'Valige lihtsalt kõige paremini sobiv ISO-tõmmis. Kui te pole kindel, valige üks kahest esimesest.',
         'changes_since_a2' => 'Muudatused pärast Beta 2',
         'release_docs' => 'Väljalaskedokumendid',
@@ -371,7 +388,7 @@ Note que las traducciones están en progreso.',
         'dl_mirror_loc' => 'Selle <a href="%s">%s</a> allalaadimise peegelsaidi asukohaks on %s (%s).',
         'dl_alt_mirrors' => 'Kui see teie puhul ei toimi, <a href="#om" id="other_mirrors_btn">proovige kasutada teisi peegelsaite</a>.',
         'whatdouthink?' => 'Kuidas see teile meeldib?',
-        'give_feedback' => 'Me ootame väga teie muljeid Mageia 1 RC kohta, mida te võite jagada näiteks järgmistes kohtades:
+        'give_feedback' => 'Me ootame väga teie muljeid Mageia 1 kohta, mida te võite jagada näiteks järgmistes kohtades:
                 <a href="http://forums.mageia.org/">meie foorumites</a>,
                 <a href="http://blog.mageia.org/">meie ajaveebis</a>, <em>oma</em> ajaveebis,
                 Twitteris (<a href="http://twitter.com/mageia_org">@mageia_org</a>).
@@ -465,7 +482,7 @@ Vær klar over at vi fortsatt lokaliserer infrastrukturen vår.',
             Această versiune este PENTRU: dezvoltatori, împachetatori și testori.',
         'warn_2' => 'Indiferent ce doriți să faceți cu imaginea ISO furnizată
                o faceți pe propriul risc și pe propria voastră răspundere.',
-        'title_ok' => 'Sigur doriți să descărcați și să testați Mageia 1 RC?',
+        'title_ok' => 'Sigur doriți să descărcați și să testați Mageia 1?',
         'dl_help' => 'Alegeți imaginea ISO care vi-se potrivește; dacă nu sînteți sigur, alegeți dintre primele două.',
         'changes_since_a2' => 'Modificări față de Alfa 2',
         'release_docs' => 'Documentele ediției',
@@ -482,7 +499,7 @@ Vær klar over at vi fortsatt lokaliserer infrastrukturen vår.',
         'dl_mirror_loc' => 'Acest server alternativ <a href="%s">%s</a> este localizat în %s (%s).',
         'dl_alt_mirrors' => 'Dacă nu funcționează bine, <a href="#om" id="other_mirrors_btn">încercați și aceste servere alternative</a>.',
         'whatdouthink?' => 'Ce părere aveți?',
-        'give_feedback' => 'Sînteți bine venit să ne spuneți ce părere aveți despre Mageia 1 RC, oricînd doriți:
+        'give_feedback' => 'Sînteți bine venit să ne spuneți ce părere aveți despre Mageia 1, oricînd doriți:
                 pe <a href="http://forums.mageia.org/">forumurile noastre</a>,
                 <a href="http://blog.mageia.org/">blogul nostru</a>, pe blogul <em>vostru</em>,
                 pe Twitter (<a href="http://twitter.com/mageia_org">@mageia_org</a>).
@@ -522,7 +539,7 @@ De remarcat că traducerile sînt în curs.',
             Это ДЛЯ: тестирования разработчиками и упаковщиками.',
         'warn_2' => 'Чтобы вы не делали с предоставленным образом диска
                 вы делаете это на свой страх и риск.',
-        'title_ok' => 'Вы всё ещё хотите скачать и протестировать Mageia 1 RC?',
+        'title_ok' => 'Вы всё ещё хотите скачать и протестировать Mageia 1?',
         'dl_help' => 'Просто выберите подходящий вам образ; если вы не уверенны, вам стоит выбрать один из первых.',
         'changes_since_a2' => 'Изменения по сравнению с Beta 2',
         'release_docs' => 'Документация по релизу',
@@ -539,7 +556,7 @@ De remarcat că traducerile sînt în curs.',
         'dl_mirror_loc' => 'Это <a href="%s">%s</a> зеркало загрузки расположенно в %s (%s).',
         'dl_alt_mirrors' => 'Если это вам не помогло, <a href="#om" id="other_mirrors_btn">просмотрите список остальных зеркал</a>.',
         'whatdouthink?' => 'Что вы об этом думаете?',
-        'give_feedback' => 'Мы будем рады вашим отзывам и впечатлениям о Mageia 1 RC, где бы то ни было:
+        'give_feedback' => 'Мы будем рады вашим отзывам и впечатлениям о Mageia 1, где бы то ни было:
                 на <a href="http://forums.mageia.org/">наших форумах</a>,
                 <a href="http://blog.mageia.org/">нашем блоге</a>, на <em>вашем</em> блоге,
                 в Twitter (<a href="http://twitter.com/mageia_org">@mageia_org</a>).
@@ -581,7 +598,7 @@ De remarcat că traducerile sînt în curs.',
             Bu sürüm şunlar için UYGUNDUR: SADECE geliştiriciler, paketleyiciler, deneme kullanıcıları.',
         'warn_2' => 'Sunulan ISO disk kalıbı ile ne yaparsanız sadece
                 kendiniz sorumlu olur ve risk almış olursunuz.',
-        'title_ok' => 'Yine de Mageia 1 RC sürümünü indirmek ve denemek istiyor musunuz?',
+        'title_ok' => 'Yine de Mageia 1 sürümünü indirmek ve denemek istiyor musunuz?',
         'dl_help' => 'Size uygun olan ISO kalıbını seçin; emin değilseniz ilk ikisinden seçebelirisiniz.',
         'changes_since_a2' => 'Alfa 2\' den beri yapılan değişiklikler',
         'release_docs' => 'Yayım belgeleri',
@@ -598,7 +615,7 @@ De remarcat că traducerile sînt în curs.',
         'dl_mirror_loc' => 'Bu <a href="%s">%s</a> indirme yansısı %s (%s) üzerinde yer almaktadır.',
         'dl_alt_mirrors' => 'Bu yansı size hizmet veremiyorsa, <a href="#om" id="other_mirrors_btn">diğer yansıları kullanın</a>.',
         'whatdouthink?' => 'Hakkında ne düşünüyorsunuz?',
-        'give_feedback' => 'Mageia 1 RC hakkındaki izlenimlerinizi bizimle paylaşın::
+        'give_feedback' => 'Mageia 1 hakkındaki izlenimlerinizi bizimle paylaşın::
                 <a href="http://forums.mageia.org/">forumlarımızda</a>,
                 <a href="http://blog.mageia.org/">web günlümüzde</a>, <em>kendi</em> web günlüğünüzde,
                 Twitter (<a href="http://twitter.com/mageia_org">@mageia_org</a>).
@@ -638,7 +655,7 @@ De remarcat că traducerile sînt în curs.',
             這個版本不適用於：一般使用，公開展示，個人或產品的檢驗。
             這個版本只適用於：開發者，套件打包者與測試者。',
         'warn_2' => '不管您使用這裡提供的光碟映像檔做什麼，您都必須自負風險。',
-        'title_ok' => '您還是要下載並測試 Mageia 1 RC 嗎？',
+        'title_ok' => '您還是要下載並測試 Mageia 1 嗎？',
         'dl_help' => '請挑選您要使用的 ISO 映像檔。若您不確定，通常就是從前兩個映像檔中選一個。',
         'changes_since_a2' => 'Beta 2 之後的改變',
         'release_docs' => '相關文件',
@@ -655,7 +672,7 @@ De remarcat că traducerile sînt în curs.',
         'dl_mirror_loc' => '這個 <a href="%s">%s</a> 下載的鏡像站位於 %s (%s)。',
         'dl_alt_mirrors' => '如果它不適合您， <a href="#om" id="other_mirrors_btn">請試試看其他的鏡像站</a>。',
         'whatdouthink?' => '您覺得它如何呢？',
-        'give_feedback' => '歡迎您提供您對於 Mageia 1 RC 的心得，無論您想要發表在：
+        'give_feedback' => '歡迎您提供您對於 Mageia 1 的心得，無論您想要發表在：
                 <a href="http://forums.mageia.org/">我們的討論區</a>，
                 <a href="http://blog.mageia.org/">我們的網誌</a>，或<em>您的</em>網誌，
                 或是 Twitter (<a href="http://twitter.com/mageia_org">@mageia_org</a>)。
@@ -695,7 +712,7 @@ De remarcat că traducerile sînt în curs.',
             È PER: sviluppatori, packager, SOLO per utenti che vogliono fare del test.',
         'warn_2' => 'Quasiasi cosa tu faccia con queste immagini ISO che forniamo,
                 sarà fatta a tuo rischio e pericolo e ti assumerai la piena responsabilità.',
-        'title_ok' => 'Vuoi ancora scaricare e testare Mageia 1 RC?',
+        'title_ok' => 'Vuoi ancora scaricare e testare Mageia 1?',
         'dl_help' => 'Prendi semplicemente l immagine ISO più adatta alle tue necessità; se non sei sicuro, dovresti scegliere tra le prime due.',
         'changes_since_a2' => 'Modifiche dalla Beta 2',
         'release_docs' => 'Documenti della Release',
@@ -712,7 +729,7 @@ De remarcat că traducerile sînt în curs.',
         'dl_mirror_loc' => 'Questo <a href="%s">%s</a> mirror per il download si trova in %s (%s).',
         'dl_alt_mirrors' => 'Se non funziona bene, <a href="#om" id="other_mirrors_btn">prova questi altri mirror</a>.',
         'whatdouthink?' => 'Che cosa ne pensi?',
-        'give_feedback' => 'Sei il benvenuto per darci le tue impressioni su Mageia 1 RC, in qualsiasi parte:
+        'give_feedback' => 'Sei il benvenuto per darci le tue impressioni su Mageia 1, in qualsiasi parte:
                 nei <a href="http://forums.mageia.org/">nostri forum</a>,
                 <a href="http://blog.mageia.org/">nel nostro blog</a>, nel <em>tuo</em> blog,
                 su Twitter (<a href="http://twitter.com/mageia_org">@mageia_org</a>).
@@ -753,7 +770,7 @@ Ricorda che le traduzioni sono in corso.',
             Tato verze JE ZAMÝŠLENA PRO: vývojáře, tvůrce balíčků, POUZE pro uživatele, kteří ji chtějí vyzkoušet.',
         'warn_2' => 'Cokoli hodláte udělat s poskytnutým ISO obrazem disku,
                 uděláte na své vlastní riziko, na svou vlastní zodpovědnost.',
-        'title_ok' => 'Pořád ještě chcete stáhnout a vyzkoušet Mageia 1 RC?',
+        'title_ok' => 'Pořád ještě chcete stáhnout a vyzkoušet Mageia 1?',
         'dl_help' => 'Vyberte si vhodný ISO obraz. Pokud si náhodou nejste jisti, měli byste si vybrat z prvních dvou.',
         'changes_since_a2' => 'Změny od Beta 2',
         'release_docs' => 'Dokumenty k vydání',
@@ -770,7 +787,7 @@ Ricorda che le traduzioni sono in corso.',
         'dl_mirror_loc' => 'Tento <a href="%s">%s</a> stahovací server je umístěn na %s (%s).',
         'dl_alt_mirrors' => 'Pokud tento ve vašem případě nepracuje uspokojivě, <a href="#om" id="other_mirrors_btn">můžete použít jiný server</a>.',
         'whatdouthink?' => 'Co si o tom myslíte?',
-        'give_feedback' => 'Podělte se s námi o své dojmy z Mageia 1 RC kdekoli budete chtít:
+        'give_feedback' => 'Podělte se s námi o své dojmy z Mageia 1 kdekoli budete chtít:
                 na <a href="http://forums.mageia.org/">našich fórech</a>,
                 <a href="http://blog.mageia.org/">našem blogu</a>, na <em>svém</em> blogu,
                 na Twitteru (<a href="http://twitter.com/mageia_org">@mageia_org</a>).
@@ -811,7 +828,7 @@ Mějte na paměti, že na překladech se ještě pracuje.',
             This is FOR: developers, packagers, test users ONLY.',
         'warn_2' => 'Whatever you may do with the provided ISO disc image
                 will be done at your own risk, with your own responsibility.',
-        'title_ok' => 'You still want to download and test Mageia 1 RC?',
+        'title_ok' => 'You still want to download and test Mageia 1?',
         'dl_help' => 'Basta escolher a imagem ISO que for melhor para você. Se você não tiver certeza, você deve escolher entre as duas primeiras.',
         'changes_since_a2' => 'Alterações desde o Beta 2',
         'release_docs' => 'Documentos de Lançamento',
@@ -829,7 +846,7 @@ Mějte na paměti, že na překladech se ještě pracuje.',
         'dl_mirror_loc' => 'This <a href="%s">%s</a> download mirror is located in %s (%s).',
         'dl_alt_mirrors' => 'If it does not work well for you, <a href="#om" id="other_mirrors_btn">check out these other mirrors</a>.',
         'whatdouthink?' => 'What do you think of it?',
-        'give_feedback' => 'You are very welcome to give your impressions on Mageia 1 RC, wherever you want:
+        'give_feedback' => 'You are very welcome to give your impressions on Mageia 1, wherever you want:
                 on <a href="http://forums.mageia.org/">our forums</a>,
                 <a href="http://blog.mageia.org/">our blog</a>, on <em>your</em> blog,
                 on Twitter (<a href="http://twitter.com/mageia_org">@mageia_org</a>).

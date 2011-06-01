@@ -1,22 +1,21 @@
 <?php require '../../downloads.php';
 
-$_t['page_h1'] = sprintf($_t['page_h1'], '<em class="tag">Mageia 1 RC</em>');
-$_t['page_title'] = sprintf($_t['page_title'], 'Mageia 1 RC');
+$_t['page_h1'] = sprintf($_t['page_h1'], '<em class="tag">Mageia 1</em>');
+$_t['page_title'] = sprintf($_t['page_title'], 'Mageia 1');
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $locale; ?>">
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <title><?php echo $_t['page_title']; ?></title>
-    <meta name="description" content="<?php echo $_t['page_desc']; ?>" />
-    <meta name="keywords" content="<?php echo $_t['page_kw']; ?>" />
-    <meta name="author" content="Mageia" />
-    <link rel="stylesheet" type="text/css" href="/g/style/all.css" >
+    <meta name="description" content="<?php echo $_t['page_desc']; ?>">
+    <meta name="keywords" content="<?php echo $_t['page_kw']; ?>">
+    <meta name="author" content="Mageia">
+    <link rel="stylesheet" type="text/css" href="/g/style/all.css">
     <?php include '../../analytics.php'; ?>
 </head>
 <body>
     <?php include '../../langs.php'; ?>
-    
     <div id="doc" class="yui-t7">
         <div id="hd" role="banner"><h1><a id="logo" href="/"><span>Mageia</span></a> <span class="lsep">|</span> <span class="subh"><?php echo $_t['page_h1']; ?></span></h1></div>
         <div id="bd" role="main">
@@ -25,29 +24,7 @@ $_t['page_title'] = sprintf($_t['page_title'], 'Mageia 1 RC');
                 <p><?php echo $_t['dl_help']; ?></p>
                 <br />
                 <?php echo $dl_table; ?>
-
             </div></div>
-            <div class="yui-g">
-                <div class="yui-u first"><div class="para" style="padding-right: 0;">
-                    <h2><?php echo $_t['changes_since_a2']; ?></h2>
-                    <ul>
-                        <li>bugfixes &ndash; lots of them!</li>
-                        <li>packages version updates</li>
-                        <li>more packages in ISOs</li>
-                    </ul>
-                </div></div>
-                <div class="yui-u"><div class="para">
-                    <h2><?php echo $_t['release_docs']; ?></h2>
-                    <ul>
-                        <li><a href="/wiki/doku.php?id=iso1:rc_release_notes" hreflang="en">Release Notes</a></li>
-                        <li><a href="/wiki/doku.php?id=mageia1:errata" hreflang="en">Errata</a></li>
-                        <li><a href="http://blog.mageia.org/en/" hreflang="en">Blog post</a></li>
-                        <li><a href="/"><?php echo $_t['whatismageia']; ?></a></li>
-                    </ul>
-                    <p>Finale will be released on June, 1<sup>st</sup>.</p>
-                    <p>You can check our <a href="http://mageia.org/wiki/doku.php?id=iso_1_specifications#expected_milestones">roadmap for Mageia 1 here</a>.</p>
-                </div></div>
-            </div>
         </div>
     </div>
 </body>

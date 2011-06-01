@@ -116,16 +116,18 @@ $dl2_mirror_alt = sprintf($_t['dl_mirror_loc'],
                 ?></p>
 
                 <div class="dlinfo">
+                    <p><?php echo $dl2_mirror_alt; ?></p>
                     <?php if (isset($p['md5'])): ?>
                 <p><?php echo $_t['signs_check_1']; ?></p>
+                <div id="check-signs">
                 <pre class="term">
 $ md5sum <?php echo basename($product_dl_link), "\n", $p['md5'], "\n"; ?>
 
 $ sha1sum <?php echo basename($product_dl_link), "\n", $p['sha1'], "\n"; ?>
 </pre>
                 <p><?php echo $_t['signs_check_2']; ?></p>
+                </div>
                     <?php endif; ?>
-                <p><?php echo $dl2_mirror_alt; ?></p>
                 </div>
                 <table class="dlt2 dlinfo" id="other_mirrors" style="display: none;">
                     <thead><tr><th>Country</th><th>City</th><th>Download mirrors</th></tr></thead>
@@ -135,25 +137,22 @@ $ sha1sum <?php echo basename($product_dl_link), "\n", $p['sha1'], "\n"; ?>
                 <hr />
         </div></div>
         <div class="yui-g">
-            <div class="yui-u first"><div class="para"
-                <h2><?php echo $_t['whatdouthink?']; ?></h2>
-                <p><?php echo $_t['give_feedback']; ?></p>
-                <p><?php echo $_t['report_bug'];  ?></p>
-                <p><?php echo $_t['notify_web']; ?></p>
-
-                <hr />
+            <div class="yui-u first"><div class="para">
+                <h2>Thank <em>you</em>!</h2>
+                ...
+                <hr>
+                <h2>Spread the word!</h2>
+                <p><?php include 'dl_twitter.php'; echo dl_twitter($locale); ?></p>
+                
+                <hr>
             </div></div>
             <div class="yui-u"><div class="para">
-                <h2><?php echo sprintf($_t['wanttohelp?'], '<a href="http://mageia.org/wiki/doku.php?id=contribute">', '</a>'); ?></h2>
-                <p><?php echo $_t['ucanhelp']; ?></p>
-                <p><?php echo sprintf($_t['wherehelp'],
-                    '<a href="http://mageia.org/wiki/doku.php?id=marketing">', '</a>',
-                    '<a href="http://mageia.org/wiki/doku.php?id=web">', '</a>',
-                    '<a href="http://mageia.org/wiki/doku.php?id=translators">', '</a>',
-                    '<a href="http://mageia.org/wiki/doku.php?id=packaging">', '</a>',
-                    '<a href="http://mageia.org/wiki/doku.php?id=qateam">', '</a>',
-                    '<a href="http://mageia.org/donate/">', '</a>'
-                ); ?>
+                <h2>Need some help? Talk to us!</h2>
+                <p><?php echo $_t['give_feedback']; ?></p>
+                <p><?php echo $_t['report_bug'];  ?></p>
+                <hr>
+                <h2><?php echo sprintf($_t['wanttohelp?'], '<strong><a href="http://mageia.org/contribute/">', '</a></strong>'); ?></h2>
+                <hr>
             </div></div>
         </div>
     </div>
