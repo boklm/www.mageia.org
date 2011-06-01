@@ -112,7 +112,6 @@ $_t = array(
 );
 if (!array_key_exists($locale, $_t))
     $locale = 'en';
-    $locale = 'fr';
 
 $_t = array_merge($_t['en'], $_t[$locale]);
 
