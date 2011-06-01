@@ -47,12 +47,12 @@ if ($torrent) {
 else {
     $product_dl_link = isset($p['path']) ?
         $p['path'] :
-        sprintf('iso/cauldron/%s', $product_iso);
+        sprintf('iso/1/%s', $product_iso);
 
     $dl_link = sprintf('%s/%s', $a['mirror_url'], $product_dl_link);
 }
 
-$title = 'Mageia 1 RC';
+$title = 'Mageia 1';
 if (isset($p['page_title']))
     $title = $p['page_title'];
     

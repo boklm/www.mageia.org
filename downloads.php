@@ -55,10 +55,10 @@ foreach ($prods as $k => $p) {
 $s1 = null;
 $s2 = null;
 $s3 = null;
-foreach ($prods2 as $flavour => $prods) {
+foreach ($prods2 as $flavour => $prods3) {
 
-    $flavour = sprintf('<td rowspan="%d">%s</td>', count($prods), $flavour);
-    foreach ($prods as $k => $p) {
+    $flavour = sprintf('<td rowspan="%d">%s</td>', count($prods3), $flavour);
+    foreach ($prods3 as $k => $p) {
         $iso = sprintf('%s-%s', $glob['prefix'], $k);
 
         $dl_link = sprintf('/%s/downloads/dl.php?product=%s', $locale, $iso);
