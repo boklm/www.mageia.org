@@ -110,14 +110,14 @@ $dl2_mirror_alt = sprintf($_t['dl_mirror_loc'],
                 <h2><?php echo $_t['page_title']; ?></h2>
                 <p><?php
                     echo
-                        sprintf($_t['dl_shld_start'], '<em class="tag">' . $p['name'] . '</em>'),
+                        sprintf($_t['dl_shld_start'], '<em class="tag">' . $p['name'] . '</em>' . ($torrent ? ' (torrent)' : '')),
                         ' ', sprintf($_t['dl_size'], $p['size']),
                         ' ', sprintf($_t['alt_download'], $dl_link, $dl_link);
                 ?></p>
 
                 <div class="dlinfo">
                     <p><?php echo $dl2_mirror_alt; ?></p>
-                    <?php if (isset($p['md5'])): ?>
+                    <?php if (isset($p['md5']) && !$torrent): ?>
                 <p><?php echo $_t['signs_check_1']; ?></p>
                 <div id="check-signs">
                 <pre class="term">
