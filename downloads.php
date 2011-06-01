@@ -80,7 +80,7 @@ foreach ($prods2 as $flavour => $prods3) {
         $flavour = null;
         $i++;
         
-        if ($p['flavour'] == 'LiveCD 32bit')
+        if ($p['flavour'] == 'LiveCD 32-bit')
             $s2 .= $s;
         elseif ($p['flavour'] == 'DVD'
             || $p['flavour'] == 'CD')

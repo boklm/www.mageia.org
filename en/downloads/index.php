@@ -21,7 +21,8 @@ $_t['page_title'] = sprintf($_t['page_title'], 'Mageia 1');
         <div id="bd" role="main">
             <div class="yui-g">
                 <div class="para">
-                <p><?php echo $_t['dl_help']; ?></p>
+                <p><?php echo $_t['dl_help']; ?>
+                    <?php echo $_t['dl_migrate_instead']; ?></p>
                 <br />
                 <?php echo $dl_table; ?>
             </div></div>
