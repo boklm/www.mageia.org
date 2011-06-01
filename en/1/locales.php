@@ -28,7 +28,7 @@ $_t = array(
         'people' => '<a href="">100+&nbsp;contributors</a> in <a href="/wiki/doku.php?id#teams">10+ teams</a>.
                         <a href="/en/thank-you/">180+&nbsp;generous donors</a> of
                         <a href="/en/donate/">11.700+&nbsp;EUR</a>
-                        with only <a href="/en/about/reports/">4.700 spent</a> so far
+                        with only <a href="/en/about/reports/2011/">4.700 spent</a> so far
                         and 20.000 forecast for 2011.',
         'prereleases' => '5&nbsp;intermediary technical releases.
                         7.389&nbsp;source packages,
@@ -70,7 +70,7 @@ $_t = array(
         'people' => 'Об’єднати <a href="">понад 100&nbsp;учасників</a> у <a href="/wiki/doku.php?id#teams">понад 10 команд</a>.
                         Отримати підтримку <a href="/en/thank-you/">понад 180&nbsp;щедрих спонсорів</a>, якими пожертвувано понад
                         <a href="/uk/donate/">11.700&nbsp;євро</a>,
-                        з яких витрачено лише <a href="/en/about/reports/">4.700 євро</a>. Прогнозовані пожертви протягом 2011 року
+                        з яких витрачено лише <a href="/en/about/reports/2011/">4.700 євро</a>. Прогнозовані пожертви протягом 2011 року
                         можуть скласти 20.000 євро.',
         'prereleases' => 'Випустити 5&nbsp;проміжних тестових випуски.
                         Створити 7.389&nbsp;пакунки з кодами,
@@ -112,7 +112,7 @@ $_t = array(
         'people' => '<a href="">Más de 100&nbsp;contribuidores</a> en <a href="/wiki/doku.php?id#teams">más de 10 equipos</a>.
                         <a href="/en/thank-you/">más de 180&nbsp; generosos donantes</a> of
                         <a href="/es/donate/">más de 11.700&nbsp;EUR</a>
-                        con sólo <a href="/en/about/reports/">4.700 gastados</a> hasta ahora
+                        con sólo <a href="/en/about/reports/2011/">4.700 gastados</a> hasta ahora
                         y 20.000 previstos para 2011.',
         'prereleases' => '5&nbsp; versiones técnicas intermedias.
                         7.389&nbsp; paquetes fuente,
@@ -154,7 +154,7 @@ $_t = array(
         'people' => '<a href="">Più di 100&nbsp;collaboratori</a> in <a href="/wiki/doku.php?id#teams">più di 10 squadre</a>.
                         <a href="/en/thank-you/">Più di 180&nbsp; generosi donatori</a> di
                         <a href="/it/donate/">Più di 11.700&nbsp;EURO</a>
-                        di cui solo <a href="/en/about/reports/">4.700 spesi</a> sino ad ora
+                        di cui solo <a href="/en/about/reports/2011/">4.700 spesi</a> sino ad ora
                         e 20.000 previsti per il 2011.',
         'prereleases' => '5&nbsp;rilasci tecnici intermedi.
                         7.389&nbsp;pacchetti sorgente,
@@ -198,7 +198,7 @@ $_t = array(
         'people' => 'Plus d\'<a href="">une centaine de contributeurs</a> dans <a href="/wiki/doku.php?id#teams">une douzaine d\'équipes</a>.
                         Plus de <a href="/en/thank-you/">180&nbsp;généreux donateurs</a> pour
                         un total de <a href="/fr/donate/">11&nbsp;700&nbsp;&#8364</a>, dont seulement
-                        <a href="/en/about/reports/">4&nbsp;700&nbsp;&#8364 ont été dépensés</a> jusqu\'à
+                        <a href="/en/about/reports/2011/">4&nbsp;700&nbsp;&#8364 ont été dépensés</a> jusqu\'à
                         maintenant, avec 20&nbsp;000&nbsp;&#8364 prévus pour 2011.',
         'prereleases' => '5&nbsp;versions de développement intermédiaires.
                         7&nbsp;389&nbsp;paquets sources,
@@ -237,7 +237,7 @@ $_t = array(
         'people' => '<a href="">100+&nbsp;Helfer</a> in <a href="/wiki/doku.php?id#teams">10+ Teams</a>.
                         <a href="/en/thank-you/">160+&nbsp;großzügige Spender</a> von
                         <a href="/en/donate/">8.800+&nbsp;EUR</a>, von denen bisher
-                        nur <a href="/en/about/reports/">1.277&nbsp;EUR</a> ausgegeben wurden, bei einer Prognose von 20.000&nbsp;EUR für 2011.',
+                        nur <a href="/en/about/reports/2011/">1.277&nbsp;EUR</a> ausgegeben wurden, bei einer Prognose von 20.000&nbsp;EUR für 2011.',
         'prereleases' => '5&nbsp;technische Zwischenversionen.
                         7.389&nbsp;Quellpakete,
                         2 &times; 14.226&nbsp;binäre Pakete für 2&nbsp;Architekturen (i586 und x86_64

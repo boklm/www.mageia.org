@@ -43,11 +43,8 @@ $_t = $_t[$locale];
                     <div class="clear"></div>
 
                     <h3><?php echo $_t['h3_context']; ?></h3>
-
                     <p><?php echo $_t['mageia_began']; ?></p>
-
                     <p><?php echo $_t['our_work']; ?></p>
-
                     <p><?php echo $_t['encourage_you']; ?></p>
 
                     <hr>
@@ -59,9 +56,7 @@ $_t = $_t[$locale];
                     <p><?php echo $_t['languages']; ?></p>
                     <p><?php echo $_t['distribution']; ?></p>
                     <p><?php echo $_t['users']; ?></p>
-                    
                     <p><?php echo $_t['in_for_you']; ?></p>
-                    
                 </div>
             </div>
             <div class="yui-g bb1">
