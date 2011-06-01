@@ -1,9 +1,10 @@
 <?php
 
 $_nt = array(
+    'de' => array('for-you' => 'Für Sie', 'dl' => 'Download', 'next' => 'Und nun?', 'notes' => 'Release-Notes'),
     'en' => array('for-you' => 'For you', 'dl' => 'Download', 'next' => 'And next?', 'notes' => 'Notes'),
     'fr' => array('for-you' => 'Pour vous', 'dl' => 'Télécharger', 'next' => 'Et après&nbsp;?'),
-    'de' => array('for-you' => 'Für Sie', 'dl' => 'Download', 'next' => 'And nun?', 'notes' => 'Release-Notes')
+    'uk' => array('for-you' => 'Для вас', 'dl' => 'Звантаження', 'next' => 'Що далі?', 'notes' => 'Нотатки')
 );
 
 if (array_key_exists($locale, $_nt))
