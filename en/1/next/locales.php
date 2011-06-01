@@ -93,7 +93,7 @@ $_t = array(
         'where_go_4' => 'Me võime muuta selle paremaks nii arendajatele kui ka asutajatele.
                         Me võime olla koht, kus sünnivad uued avatud lähtekoodiga tehnoloogiad.',
         'h3_relax' => 'Puhake ja laske mõttel joosta',
-        'text_relax_1' => 'Pärat väljalaskepalangut ja pidusid on aeg tulla kokku
+        'text_relax_1' => 'Pärast väljalaskepalangut ja pidusid on aeg tulla kokku
                         ja arutada edasisi plaane:',
         'array_relax' => array('milline peaks olema väljalasketsükkel?',
                 'milliseid tuumikmuutusi ette võtta?',
@@ -101,7 +101,7 @@ $_t = array(
                 'milline peaks olema seltsi roll ja meeskondade tegevus?',
                 'kuidas parandada oluliselt meie veebilehete, et see tõmbaks juurde rohkem kaastöölisi?',
                 'ja millised on <strong>teie mõtted</strong>?'),
-        'text_relax_2' => 'Me räägime kõigest sellest pikemalt juuni lõpu poole,
+        'text_relax_2' => 'Me räägime kõigest sellest pikemalt millalgi juunis,
                         nii et jälgige meid <a href="http://blog.mageia.org/">meie ajaveebis</a>
                         ja <a href="http://twitter.com/mageia_org">Twitteris</a>!'
     )
