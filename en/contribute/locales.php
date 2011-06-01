@@ -468,7 +468,7 @@ $_t = array(
         'page_h1' => 'Contribuer à Mageia',
         'mageia_intro' => 'Beaucoup de personnes dans le monde entier se rassemblent pour construire Mageia
                         &ndash; un système d\'exploitation basé sur Linux <em>et</em>
-                        une<a href="/fr/about/code-of-conduct/">communauté vivante et agréable</a>
+                        une <a href="/fr/about/code-of-conduct/">communauté vivante et agréable</a>
                         dans le but <a href="/fr/about/values/">d\'élaborer des projets de Logiciels Libres</a>.',
         'contribute_intro' => 'Contribuer est accessible à tout le monde, c\'est cela le Logiciel Libre !
                         Si vous êtes curieux et désireux de nous rejoindre,
