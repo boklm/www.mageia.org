@@ -33,14 +33,20 @@ $_t = array(
                 <div class="yui-u first"><div class="para">
                     <h2>Spread the word!</h2>
                     <p><?php include '../../downloads/dl_twitter.php'; echo dl_twitter($locale); ?></p>
-                    
+
+                </div><div class="para">
+                    <h2>Party!</h2>
+
                 </div><div class="para">
                     <h2>What will <strong>you</strong> do with it?</h2>
-                    <p>You tell us!</pp>
-                        <p>blog, twitter, facebook, forum, other</p>
-                        <p>link to press release template</p>
-                    
-                    
+                    <p>You tell us!</p>
+                    <p>In your blog (or <a href="http://blog.mageia.org/">our own</a>),
+                        on <a href="http://twitter.com/">Twitter</a>,
+                        on <a href="http://facebook.com/">Facebook</a>,
+                        in <a href="http://forum.mageia.org/">our forum</a>,
+                        in any other place and format
+                        you can think of!</p>
+
                 </div><div class="para">
                     <h2>Where will <strong>we</strong> go from there?</h2>
                     
@@ -54,14 +60,24 @@ $_t = array(
                         for computers and other new devices.</p>
 
                     <p>We can make this better for developers and users.
-                        We can be a better place to nurture open source technologies.
-                        </p>
+                        We can be a better place to nurture open source technologies.</p>
 
-                    <h3>Brainstorm in the Summer for...</h3>
+                </div><div class="para">
+                    <h3>Relax, and brainstorm</h3>
+                    <p>After the heat and parties of this release have passed,
+                        we will gather and discuss future plans:</p>
+                    <ul>
+                        <li>what about the release cycle?</li>
+                        <li>what about core changes we can do?</li>
+                        <li>and side projets re-using or reinforcing the technology?</li>
+                        <li>what about the association role and teams' activities?</li>
+                        <li>what about improving several degrees of this Web site to empower more contributors?</li>
+                        <li>what about <strong>your ideas</strong>?</li>
+                    </ul>
                     
-                    <h3>refined goals for 2012!</h3>
-
-                    
+                    <p>We will talk more about that later in June,
+                        so stay tuned in <a href="http://blog.mageia.org/">our blog</a>
+                        and <a href="http://twitter.com/mageia_org">Twitter account</a>!</p>
                 </div></div>
                 <div class="yui-u">
                     <div style="width: 350px; height: 420px;">
@@ -100,6 +116,7 @@ $_t = array(
                     }).render().start();
                     </script>
                     </div>
+
                     <div>
                         <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FMageia%2F157247240967735&amp;width=320&amp;connections=15&amp;stream=false&amp;header=false&amp;height=350"
                             scrolling="no"
