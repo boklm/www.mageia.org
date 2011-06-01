@@ -8,6 +8,9 @@ function dl_twitter($locale)
         'en' => 'I just downloaded Mageia 1, a new Linux distribution! Try it out!',
         'fr' => 'Je viens de télécharger Mageia 1, nouvelle distribution Linux. À vous d\'essayer !'
     );
+    if (!array_key_exists($locale, $langs))
+        $locale = 'en';
+
     $s = <<<S
 <a
     href="http://twitter.com/share"
