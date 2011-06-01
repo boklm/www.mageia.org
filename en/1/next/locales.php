@@ -67,6 +67,43 @@ $_t = array(
         'text_relax_2' => 'Hierüber werden wir uns im Juni und Juli unterhalten,
                         bleiben Sie also bei uns und beobachten Sie unseren <a href="http://blog.mageia.org/">Blog</a>
                         und unser <a href="http://twitter.com/mageia_org">Twitter-Konto</a>!'
+    ),
+    'et' => array(
+        'page_title' => 'Mageia 1 &ndash; ja edasi?',
+        'page_desc' => '',
+        'page_kw' => 'mageia, mandriva, uuendamine, kolimine, migreerimine',
+        'page_h1' => 'Ja mis edasi?',
+        'h2_spread_word' => 'Levitage sõna!',
+        'h2_party' => 'Korraldage pidu!',
+        'h2_what_do' => 'Mida <strong>teie</strong> sellega peale hakkate?',
+        'tell_us' => 'Öelge teie meile!',
+        'place_and_format' => 'Oma ajaveebis (või ka <a href="http://blog.mageia.org/">meie omas</a>),
+                        <a href="http://twitter.com/">Twitteris</a>,
+                        <a href="http://facebook.com/">Facebookis</a>,
+                        <a href="http://forum.mageia.org/">meie foorumis</a>,
+                        kus tahes mujal ja mis tahes kujul,
+                        mis teile vähegi pähe tuleb!',
+        'h2_where_go' => 'Kuhu <strong>meie</strong> edasi läheme?',
+        'where_go_1' => 'Te võite <a href="/et/contribute/">meiega liituda</a>
+                        ja aidata meil asju paremaks muuta.',
+        'where_go_2' => 'Mageia on veel nooruke. Viimase üheksa kuuga on palju saavutatud,
+                        aga see on alles algus.',
+        'where_go_3' => 'Me võime välja mõelda ja luua parema operatsioonisüsteemi
+                        nii arvutitele kui ka teistele uutele seadmetele.',
+        'where_go_4' => 'Me võime muuta selle paremaks nii arendajatele kui ka asutajatele.
+                        Me võime olla koht, kus sünnivad uued avatud lähtekoodiga tehnoloogiad.',
+        'h3_relax' => 'Puhake ja laske mõttel joosta',
+        'text_relax_1' => 'Pärat väljalaskepalangut ja pidusid on aeg tulla kokku
+                        ja arutada edasisi plaane:',
+        'array_relax' => array('milline peaks olema väljalasketsükkel?',
+                'milliseid tuumikmuutusi ette võtta?',
+                'milliseid kõrvalprojekte arendada?',
+                'milline peaks olema seltsi roll ja meeskondade tegevus?',
+                'kuidas parandada oluliselt meie veebilehete, et see tõmbaks juurde rohkem kaastöölisi?',
+                'ja millised on <strong>teie mõtted</strong>?'),
+        'text_relax_2' => 'Me räägime kõigest sellest pikemalt juuni lõpu poole,
+                        nii et jälgige meid <a href="http://blog.mageia.org/">meie ajaveebis</a>
+                        ja <a href="http://twitter.com/mageia_org">Twitteris</a>!'
     )
 );
 
