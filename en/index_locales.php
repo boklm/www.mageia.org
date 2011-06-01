@@ -46,8 +46,8 @@ $_t = array(
     ),
     'de' => array(
         'page_title' => 'Mageia - Eine neue Linux Distribution',
-        'page_desc'  => 'Mageia is new community-based Linux distribution.',
-        'page_kw'    => 'mageia, linux, mandriva, free software, operating system, computer, laptop, desktop, server, device, mobile',
+        'page_desc'  => 'Mageia ist eine neue community-basierte Linux-Distribution.',
+        'page_kw'    => 'mageia, linux, mandriva, free software, operating system, computer, laptop, desktop, server, device, mobile, betriebsystem, mobil, Freie Software, Download',
         'page_h1'    => 'Eine neue Linux Distribution',
         'alternate_title' => 'Mageia Blog (Deutch)',
         'alternate_href'  => 'http://blog.mageia.org/de/?feed=rss',
@@ -62,7 +62,7 @@ $_t = array(
         ),
         'mageia-is-here' => 'Mageia 1 ist hier',
         'join-us' => 'Machen Sie mit!',
-        'right-now' => 'Gerade in Bearbeitung:',
+        'right-now' => 'Was wird gerade getan?',
         'news' => 'Neuigkeiten',
     ),
     'es' => array(
