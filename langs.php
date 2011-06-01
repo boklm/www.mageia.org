@@ -29,7 +29,9 @@ require_once 'langs.inc.php';
 $sru = trim($_SERVER['REQUEST_URI']);
 $sel = explode('/', $sru);
 array_shift($sel);
-$locale = array_shift($sel);
+if (!isset($locale))
+    $locale = array_shift($sel);
+
 $page   = count($sel) > 0 ? implode('/', $sel) : null;
 
 $list_langs = array();
