@@ -242,7 +242,7 @@ $_t = array(
                         7.389&nbsp;Quellpakete,
                         2 &times; 14.226&nbsp;binäre Pakete für 2&nbsp;Architekturen (i586 und x86_64
                         &ndash; ARM ist in Arbeit).',
-        'servers' => '7&nbsp;Server, 3&nbsp;Rechnezentren (Paris und Marseille, Frankreich),
+        'servers' => '7&nbsp;Server, 3&nbsp;Rechenzentren (Paris und Marseille, Frankreich),
                         <a href="http://mirrors.mageia.org/">19&nbsp;Spiegelserver weltweit</a>.',
         'languages' => 'eine in <a href="http://mageia.org/?langs">21 Sprachen</a> übersetzte Website,
                         eine in <a href="">161 Sprachen</a> lokalisierte Distribution.',
