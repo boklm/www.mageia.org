@@ -195,7 +195,7 @@ $_t = array(
                         participer au projet</a>, sur votre temps libre ou à travers votre activité
                         professionnelle.',
         '9_months' => '9&nbsp;mois après le <a href="/fr/about/2010-sept-announcement.html">lancement du projet</a>, nous avons atteint&nbsp;:',
-        'people' => 'Plus d\'<a href="">une centaine de contributeurs</a> dans <a href="/wiki/doku.php?id#teams">une douzaine d\équipes</a>.
+        'people' => 'Plus d\'<a href="">une centaine de contributeurs</a> dans <a href="/wiki/doku.php?id#teams">une douzaine d\'équipes</a>.
                         Plus de <a href="/en/thank-you/">180&nbsp;généreux donateurs</a> pour
                         un total de <a href="/fr/donate/">11&nbsp;700&nbsp;&#8364</a>, dont seulement
                         <a href="/en/about/reports/">4&nbsp;700&nbsp;&#8364 ont été dépensés</a> jusqu\'à
