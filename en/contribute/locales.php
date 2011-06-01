@@ -63,7 +63,7 @@ $_t = array(
         'text_dev' => 'Contribute to the core of the distribution with your technical skills!
                                 Adding, fixing, patching and maintaining software to be included
                                 in the distribution, from upstream projects or from Mageia-specific
-                                sources. Join the <a href="/wiki/doku.php?id=packagers">Packagers team</a>!',
+                                sources. Join the <a href="/wiki/doku.php?id=packaging">Packagers team</a>!',
         'h3_web' => 'Web, tools, systems design &amp; administration',
         'text_web' => 'Mageia depends on infrastructure and tools that enable everyone
                                 to collaborate. These need experts to build, maintain, develop, provide
@@ -187,7 +187,7 @@ $_t = array(
                 'text_dev' => 'Arbeiten Sie mit Ihren technischen Fähigkeiten am Kern der Distribution mit!
                         Software, die in der Distribution enthalten sein soll hinzufügen, Fehler beheben und sie warten,
                         sowohl aus Upstream-Projekten als auch aus Mageia-spezifischen Quellen. Werden Sie Mitglied des
-                        <a href="/wiki/doku.php?id=packagers">Packager-Teams</a>.',
+                        <a href="/wiki/doku.php?id=packaging">Packager-Teams</a>.',
                 'h3_web' => 'Web, Werkzeuge, System-Design &amp; Administration',
                 'text_web' => 'Mageia benötigt Infrastruktur und Werkzeuge, die es ermöglichen, dass jeder, der das möchte,
                         beitragen kann. Diese Werkzeuge benötigen Experten zur Erstellung, Unterhaltung, Entwicklung,
@@ -303,7 +303,7 @@ $_t = array(
         'text_dev' => 'Andke oma tehnilised oskused distributsiooni tuuma käsutusse!
                                 Distributsiooni pakutava tarkvara lisamine, parandamine, paikamine ja hooldamine,
                                 olgu tegemist mujalt pärit tarkvaraga või Mageia enda loominguga.
-                                Ühinege selleks <a href="/wiki/doku.php?id=packagers">pakendajate meeskonnaga</a>!',
+                                Ühinege selleks <a href="/wiki/doku.php?id=packaging">pakendajate meeskonnaga</a>!',
         'h3_web' => 'Veeb, tööriistad, süsteemikujundus ja -haldus',
         'text_web' => 'Mageia sõltub infrastruktuurist ja tööriistadest, mis võimaldavad kõigil koostööd
                                 teha. Selleks on vaja asjatundjaid, kes suudavad üles panna, hooldada, arendada
@@ -415,7 +415,7 @@ $_t = array(
         'text_dev' => 'Přispívejte za pomoci svých technických schopností do jádra distribuce!
                                 Přidávání, opravy chyb a technická údržba programů, které mají být začleněny do
                                 distribuce, ať již z nezávislých projektů nebo ze zvláštních zdrojů. 
-                                Připojte se k <a href="/wiki/doku.php?id=packagers">týmu balíčkářů</a>!',
+                                Připojte se k <a href="/wiki/doku.php?id=packaging">týmu balíčkářů</a>!',
         'h3_web' => 'Internet, nástroje, návrh systému a administrace',
         'text_web' => 'Mageia závisí na zázemí a nástrojích, jež umožňují, aby mohl spolupracovat každý, kdo má zájem. 
                                 Tyto nástroje si žádají odborníky, kteří postaví, udržují, vyvíjejí, poskytují
@@ -535,7 +535,7 @@ $_t = array(
                             distribution !
                                 Ajouts, réglages, correctifs et maintenance de logiciels inclus dans
                                 la distribution, à partir de projets en amont, par des propositions de logiciels différents, ou depuis des sources spécifiques à Mageia. 
-                                Rejoignez l\'<a href="/wiki/doku.php?id=pacagers">équipe 
+                                Rejoignez l\'<a href="/wiki/doku.php?id=packaging">équipe 
                                 Packagers</a> !',
         'h3_web' => 'Web, outils, conception et administration des systèmes',
         'text_web' => 'Mageia repose sur une infrastructure et doutils qui permettent à tous
@@ -668,7 +668,7 @@ $_t = array(
         'text_dev' => 'Створіть основу дистрибутива за допомогою ваших технічних навичок!
                                 Додавання, виправлення, латання та супровід програмного забезпечення, яке
                                 є частиною дистрибутива, основних проектів та специфічних для Mageia
-                                пакунків. Долучайтеся до <a href="/wiki/doku.php?id=packagers">команди пакувальників</a>!',
+                                пакунків. Долучайтеся до <a href="/wiki/doku.php?id=packaging">команди пакувальників</a>!',
         'h3_web' => 'Інтернет, інструменти, розробка систем та адміністрування',
         'text_web' => 'Робота Mageia залежить від інфраструктури та інструментів, за допомогою
                                 яких всі учасники проекту можуть співпрацювати. Отже, нам потрібні знавці, які можуть
@@ -785,7 +785,7 @@ $_t = array(
         'text_dev' => 'Draag bij aan de kern van de distributie met uw technische vaardigheden!
                                 Deze taak bestaat uit het toevoegen, beheren, fixen en patchen van software
                                 in de distributie van zowel upstream-projecten alsook Mageia-specifieke
-                                bronnen. Doe mee met het <a href="/wiki/doku.php?id=packagers">Packagers team</a>!',
+                                bronnen. Doe mee met het <a href="/wiki/doku.php?id=packaging">Packagers team</a>!',
         'h3_web' => 'Web, gereedschappen, systeemontwerp &amp; -beheer',
         'text_web' => 'Mageia is afhankelijk van haar infrastructuur en gereedschappen die iedereen in staat stelt
                 om samen te werken. Hiervoor hebben wij experts nodig om dit alles te bouwen en te onderhouden.
@@ -893,7 +893,7 @@ $_t = array(
         'text_dev' => '¡Contribuye  con el núcleo de la distribución con tus habilidades técnicas!
                                 Agregando, arreglando, corrigiendo y manteniendo el software  para ser incluido
                                 en la distribución, desde proyectos externos o fuentes especificas de Mageia.
-                                ¡Únete al <a href="/wiki/doku.php?id=packagers">equipo de empaquetadores</a>!',
+                                ¡Únete al <a href="/wiki/doku.php?id=packaging">equipo de empaquetadores</a>!',
         'h3_web' => 'Web, herramientas, diseño y administración de sistemas',
         'text_web' => 'Mageia depende de infraestructuras y herramientas que permiten a todos
                                 colaborar. Esto requiere expertos para construir, mantener, desarrollar, proveer
@@ -1006,7 +1006,7 @@ $_t = array(
         'text_dev' => 'Contribuisci al cuore della distribuzione con le tue competenze tecniche!
                                 Aggiungi, sistema, correggi e mantieni software da includere
                                 nella distribuzione, dal progetto originario o dai sorgenti specifici di Mageia.
-                Unisciti alla <a href="/wiki/doku.php?id=packagers">squadra Packagers</a>!',
+                Unisciti alla <a href="/wiki/doku.php?id=packaging">squadra Packagers</a>!',
         'h3_web' => 'Web, strumenti, progettazione sistemi &amp; amministrazione',
         'text_web' => 'Mageia dipende da una infrastruttura e da strumenti che permettono a chiunque
                                 di collaborare. Questi necessitano di esperti per costruire, mantenere, sviluppare, fornire
@@ -1121,7 +1121,7 @@ $_t = array(
         'h3_dev' => 'Programare și împachetare',
         'text_dev' => 'Contribuiți la realizarea distribuției cu competențele voastre tehnice!
                                 Adăugarea, corectarea, repararea și menținerea aplicațiilor ce sînt incluse
-                                în distribuție, din proiectele în amonte sau din surse specifice Mageia.                         Alăturați-vă <a href="/wiki/doku.php?id=packagers">echipei de împachetatori</a>!',
+                                în distribuție, din proiectele în amonte sau din surse specifice Mageia.                         Alăturați-vă <a href="/wiki/doku.php?id=packaging">echipei de împachetatori</a>!',
         'h3_web' => 'Web, unelte, concepția sistemelor și administrare',
         'text_web' => 'Mageia depinde de infrastructură și de uneltele care permit tuturor să colaboreze
                                 împreună. Toate acestea au nevoie de experți care să construiască, mențină, dezvolte,

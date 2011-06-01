@@ -73,7 +73,7 @@ $_t = $_t[$locale];
                             <p><?php echo $_t['text_graphic']; ?></p>
                         </li>
                         <li id="dev">
-                            <h3><a href="/wiki/doku.php?id=packagers"><?php echo $_t['h3_dev']; ?></a></h3>
+                            <h3><a href="/wiki/doku.php?id=packaging"><?php echo $_t['h3_dev']; ?></a></h3>
                             <p><?php echo $_t['text_dev']; ?></p>
                         </li>
                         <li id="web">
