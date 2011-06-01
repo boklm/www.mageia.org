@@ -453,5 +453,50 @@ $_t = array(
                         kui vajate abi või tahate midagi täpsustada.',
         'h3_feedback' => 'Soovite saata meile tagasisidet?',
         'tweet_it' => 'Saatke lihtsalt <a href="http://twitter.com/mageia_org">säuts @mageia_org</a> peale.'
+    ),
+    'zh_TW' => array(
+        'page_title' => '從 Mandriva Linux 升級到 Mageia',
+        'page_desc' => '如何用簡單幾個步驟將 Mandriva Linux 2010.1/2010.2 升級為 Mageia 1。',
+        'page_kw' => 'mageia, mandriva, upgrade, migrate',
+        'page_h1' => '從 Mandriva Linux 升級',
+        'upgrading_general' => 'Mageia 支援從 Mandriva Linux 2010.1 與 2010.2 直接升級。在過去幾個月中我們盡力調整讓它能順利運作。不過，有些事情總是要提醒一下：',
+        'upgrading_general_array' => array('升級前請務必備份您的資料；',
+                '若是您在筆記型電腦上進行升級，記得插上電源！因為可能有超過 2000 個套件要升級，總得花點時間；',
+                '在升級期間，不要開啟會佔用很多網路頻寬的應用程式。您需要頻寬來做升級。'),
+        'upgrading_ways' => '有幾種方法可以從之前的 Mandriva 系統升級到 Mageia：',
+        'upgrading_ways_dvd' => '<a href="#dvd">使用 Mageia 1 DVD</a>',
+        'upgrading_ways_inline' => '<a href="#mgaonline">mgaonline</a> 或 <a href="#urpmi">urpmi</a> 直接<a href="#inline">從網路上的媒體來源</a>更新',
+        'h2_dvd' => '使用 Mageia 1 DVD 更新',
+        'dvd_clean_install' => '您可以用 <a href="/downloads/">Mageia 1 DVD</a> 做安裝或更新。',
+        'to_upgrade' => '更新的步驟：',
+        'to_upgrade_array' => array('<a href="/downloads/">下載 ISO 檔</a>並燒入 DVD；',
+                '使用 DVD 開機後，在開機選單中選擇「安裝 Mageia 1」；',
+                '選擇「更新」的選項。'),
+        'recommended' => '可以的話，建議設定網路上的套件庫 &ndash; 安裝程式在更新過程中會詢問您。
+                    因為 DVD 只包含了一部份的套件，網路上的套件庫才有完整的 Mageia 軟體套件。',
+        'h2_inline' => '直接使用網路上的媒體來源更新',
+        'inline_1' => '您可以直接使用網路上的媒體來源來做更新。',
+        'inline_2' => '您可以用 <code>mgaonline</code> 工具，或是在命令列中使用 <code>urpmi</code>。
+                    兩種方法下面都會說到。不過首先，下載並安裝 <code>mgaonline</code> 能協助您做更新：',
+        'mgaonline_image_title' => '從 Mandriva Linux 2010.1 或 2010.2 更新',
+        'inline_3' => '注意，您可能會收到一些安全性警告，告訴您套件庫的簽章不正確。這是因為 Mandriva 系統不認得 Mageia 的簽章；您可以忽略這些警告沒有關係。嗯，對，我們知道這很討厭。',
+        'a_or_b' => '安裝好了嗎？再來，從以下 a) 或 b) 選一種方法吧：',
+        'h2_a' => 'a) 使用 mgaonline（圖形介面程式）來做線上更新',
+        'popup_window_1' => 'a) 使用 mgaonline（圖形介面程式）來做線上更新',
+        'popup_window_2' => '只要跟著精靈的指示即可；它會設定 Mageia 媒體來源並開始更新。',
+        'as_soon_complete' => '更新完成以後，您應該重新開機，然後... 就好了。',
+        'h2_b' => 'b) 使用 urpmi（命令列指令）來做線上更新',
+        'cli_1' => '您可以開啟您常用的終端機程式，並使用 <code>urpmi</code> 來做更新。步驟如下：',
+        'cli_2' => '移除系統上所有的媒體來源：',
+        'cli_3' => '新增 Mageia 媒體來源：',
+        'cli_4' => '直接使用（會根據您的地理位置選擇最好的映射站台）：',
+        'cli_5' => '自己指定映射站台（您可以從<a href="http://mirrors.mageia.org/distrib">映射站台列表</a>中挑選）：',
+        'h2_thats_it' => '就這樣！',
+        'h3_question' => '有問題嗎？',
+        'join_and_ask' => '加入我們在 Freenode 上的 <a href="irc://irc.freenode.net/#mageia">#mageia</a>
+                        IRC 頻道，或是到我們的<a href="http://forums.mageia.org/">論壇</a>
+                        來尋求協助吧。',
+        'h3_feedback' => '有意見與回饋嗎？',
+        'tweet_it' => '可以到 <a href="http://twitter.com/mageia_org">Tweeter 上發給 @mageia_org</a>。'
     )
 );
