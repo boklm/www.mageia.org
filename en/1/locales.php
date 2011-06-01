@@ -292,5 +292,47 @@ $_t = array(
                         mis on nüüd teie jaoks valmis.',
         'users' => 'Kui palju kasutajaid? Seda näitab vaid aeg.',
         'in_for_you' => 'Ent tähtsam kui uhkustavad arvud on see, <a href="/en/1/next/">mida see võimaldab teil teha?</a>'
+    ),
+    'nl' => array(
+        '1_title' => 'Mageia 1',
+        '1_desc' => 'Mageia 1 is een nieuwe door de gemeenschap ontwikkelde Linux-distributie.',
+        '1_kw' => 'mageia, 1, eerste release, linux, mandriva, vrije software',
+        'img_desktop' => 'Mageia 1 KDE Bureaublad',
+        'download_it' => 'Download het nu',
+        'mageia_is' => 'Mageia 1 is een GNU/Linux-distributie voor uw computer,
+                        uitgebracht door de Mageia-gemeenschap.',
+        'h3_what_is' => 'Wat zit er in Mageia 1?',
+        'plenty_see_notes' => 'Genoeg! Zie de <a href="notes/">opmerkingen bij de release</a> voor een uitgebreid overzicht.',
+        'h3_context' => 'Mageia in het kort',
+        'mageia_began' => 'Mageia is begonnen in september 2010 als
+                        <a href="/nl/about/2010-sept-announcement.html">een kloon van Mandriva Linux</a>.
+                        Mageia wordt ondersteund door een <a href="/en/about/">stichting (non-profit organisatie)</a>,
+                        <a href="http://mageia.org/wiki/doku.php?id=org">bestuurt door</a>
+                        een bestuur bestaande uit erkende en gekozen leden van de gemeenschap</a>,
+                        en gemaakt door meer dan 100 mensen wereldwijd.',
+        'our_work' => 'Ons werk draagt verder bij aan het uitstekende werk verricht door de grotere Linux-
+                        en Vrije Software-gemeenschap. Het is ons doel om een van de beste,
+                        meest stabiele, betrouwbare en plezierige ervaringen en platform te maken
+                        voor zowel de thuisgebruiker, ontwikkelaars of in het bedrijfsleven.',
+        'encourage_you' => 'Wij moedigen u aan <a href="/en/contribute/">om met ons meet te doen</a>,
+                        in uw vrije tijd of als onderdeel van uw professionele werkzaamheden.',
+        '9_months' => '9&nbsp;maanden na de <a href="/nl/about/2010-sept-announcement.html">aanvangsdatum</a> hebben wij het volgende bereikt:',
+        'people' => '<a href="">Meer dan 100 mensen hebben bijgedragen</a> in <a href="/wiki/doku.php?id#teams">meer dan 10 verschillende teams</a>.
+                        <a href="/en/thank-you/">meer dan 180 gulle gevers</a> van
+                        <a href="/nl/donate/">11.775+&nbsp;EUR</a>
+                        met slechts <a href="/en/about/reports/">4.387 aan uitgaven</a> tot nu toe
+                        en een begroot budget van 20.000 voor 2011.',
+        'prereleases' => '5&nbsp;ontwikkel- en test-releases.
+                        7.389&nbsp;bronpakketten,
+                        2 &times; 14.226&nbsp;binaire pakketten voor 2&nbsp;architecturen (i586 en x86_64
+                        &ndash; ARM zal nog volgen).',
+        'servers' => '7&nbsp;servers, 3&nbsp;datacenters (Parijs en Marseille, Frankrijk),
+                        <a href="http://mirrors.mageia.org/">19&nbsp;spiegelservers (mirrors) wereldwijd</a>.',
+        'languages' => '<a href="http://mageia.org/?langs">In 21 talen</a> gelokaliseerde website,
+                        <a href="">in 161 talen</a> (gedeeltelijk) gelokaliseerde distributie.',
+        'distribution' => 'Dit alles bevindt zich in <a href="http://mageia.org/en/1/">één distributie</a>,
+                        gereed voor u, en *nu* beschikbaar.',
+        'users' => 'Hoeveel gebruikers? De tijd zal het uitwijzen.',
+        'in_for_you' => 'Maar belangrijker dan deze mooie maar ijdele cijfers is het volgende: <a href="/nl/1/next/">wat betekent dit allemaal voor u?</a>'
     )
 );
