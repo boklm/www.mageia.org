@@ -1,8 +1,8 @@
 <?php
 
 $_nt = array(
-    'en' => array('for-you' => 'For You', 'dl' => 'Download', 'next' => 'And Next?', 'notes' => 'Notes'),
-    'fr' => array('for-you' => 'Pour Vous', 'dl' => 'Télécharger', 'next' => 'Et après&nbsp;?')
+    'en' => array('for-you' => 'For you', 'dl' => 'Download', 'next' => 'And next?', 'notes' => 'Notes'),
+    'fr' => array('for-you' => 'Pour vous', 'dl' => 'Télécharger', 'next' => 'Et après&nbsp;?')
 );
 
 if (array_key_exists($locale, $_nt))
