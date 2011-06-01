@@ -58,7 +58,9 @@
                 <div class="yui-u">
                     <div class="para">
                     <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FMageia%2F157247240967735&amp;width=320&amp;connections=10&amp;stream=false&amp;header=false&amp;height=255" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:320px; height:255px;" allowTransparency="true"></iframe>
-                    </div>
+		 <a href="http://twitter.com/mageia_org" class="twitter-follow-button" data-lang="it">Follow @mageia_org</a>
+<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+		    </div>
                 </div>
             </div>
         </div>
