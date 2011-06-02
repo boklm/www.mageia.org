@@ -334,5 +334,36 @@ $_t = array(
                         gereed voor u, en *nu* beschikbaar.',
         'users' => 'Hoeveel gebruikers? De tijd zal het uitwijzen.',
         'in_for_you' => 'Maar belangrijker dan deze mooie maar ijdele cijfers is het volgende: <a href="/nl/1/next/">wat betekent dit allemaal voor u?</a>'
+    ),
+    'zh-tw' => array(
+        '1_title' => 'Mageia 1',
+        '1_desc' => 'Mageia 1 是一套全新的，由社群開發的 Linux 套件。',
+        '1_kw' => 'mageia, 1, first release, linux, mandriva, free software',
+        'img_desktop' => 'Mageia 1 KDE 桌面',
+        'download_it' => '下載 Mageia 1',
+        'mageia_is' => 'Mageia 1 是由 Mageia 社群所開發的 GNU/Linux 套件。',
+        'h3_what_is' => '裡面有什麼？',
+        'plenty_see_notes' => '很多很多！您可以看看<a href="notes/">釋出通告</a>裡所寫的。.',
+        'h3_context' => 'Mageia 綜觀',
+        'mageia_began' => 'Mageia 在 2010 年九月時，
+                        <a href="/en/about/2010-sept-announcement.html">由 Mandriva Linux</a> 分支出來。
+                        它由一個<a href="/en/about/">非營利團體</a>支持，並由全世界一百個以上的貢獻者所組織並選出來的貢獻者
+                        <a href="http://mageia.org/wiki/doku.php?id=org">主導</a>。',
+        'our_work' => '我們將多個 Linux 與自由軟體社群貢獻的成果加入。我們希望能帶給大家最好的，最穩定的，最可信賴的，並且是最愉快的經驗與平台，不管是對一般使用者，開發者或是商業用途。',
+        'encourage_you' => '我們也鼓勵各位在您的空閒時刻<a href="/en/contribute/">加入我們的行列</a>。',
+        '9_months' => '從<a href="/en/about/2010-sept-announcement.html">開始</a>算起，九個月的時間我們達到了：',
+        'people' => '<a href="">超過 100 名以上的貢獻者</a>組成了<a href="/wiki/doku.php?id#teams">10 個以上的團隊</a>。
+                        <a href="/en/thank-you/">超過 180 筆以上的捐款</a>，共計超過了
+                        <a href="/en/donate/">11,700 歐元。</a>
+                        目前只花了<a href="/en/about/reports/">4,700 歐元</a>左右。預計在 2011 年會有超過 20,000 歐元的捐款。',
+        'prereleases' => '釋出了 5 個中間測試版本。
+                        7,389 個軟體源碼套件，
+                        2 種不同的架構（i586 與 x86_64，ARM 正在進行中）裡提供了 2 &times; 14,226 個軟體套件',
+        'servers' => '7 台伺服器，3 個資料中心（位於法國的巴黎與馬賽），
+                        <a href="http://mirrors.mageia.org/">19 個映射站台</a>分布在世界各地。',
+        'languages' => '<a href="http://mageia.org/?langs">21 種語言</a>的網站，以及<a href="">161 種語言</a>的軟體套件。',
+        'distribution' => '以上所有的成果，現在都在<a href="http://mageia.org/en/1/">第 1 版發行套件</a>裡呈現給您。',
+        'users' => '會有多少使用者？時間會告訴我們答案。',
+        'in_for_you' => '但是更重要的是：<a href="/en/1/next/">它能為您做什麼？</a>',
     )
 );

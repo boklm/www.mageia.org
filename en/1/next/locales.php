@@ -215,6 +215,35 @@ $_t = array(
         'text_relax_2' => 'Ne discuteremo maggiormente pi&ugrave; avanti in Giugno,
                         quindi continuate a seguirci tramite <a href="http://blog.mageia.org/">il nostro blog</a>
                         e tramite l\'<a href="http://twitter.com/mageia_org">account Twitter</a>!'
+    ),
+    'zh-tw' => array(
+        'page_title' => 'Mageia 1 &ndash；下一步呢？',
+        'page_desc' => '',
+        'page_kw' => 'mageia, mandriva, upgrade, migrate',
+        'page_h1' => '下一步呢？',
+        'h2_spread_word' => '推廣散佈！',
+        'h2_party' => '派對時間！',
+        'h2_what_do' => '<strong>您</strong>可以怎麼做？',
+        'tell_us' => '由您來告訴我們！',
+        'place_and_format' => '在您的部落格裡（或是<a href="http://blog.mageia.org/">我們的部落格</a>），
+                        在 <a href="http://twitter.com/">Twitter</a> 上，
+                        在 <a href="http://facebook.com/">Facebook</a> 上，
+                        在 <a href="http://forum.mageia.org/">我們的論壇上</a>，
+                        或是在任何其他地方，以任何其他形式您想得到的！',
+        'h2_where_go' => '那<strong>我們</strong>怎麼從那裡去？',
+        'where_go_1' => '您可以<a href="/en/contribute/">加入我們</a>並協助我們改進。',
+        'where_go_2' => 'Mageia 還很年輕。過去九個月裡我們已經達到很多目標，但這還只是個開始而已。',
+        'where_go_3' => '我們可以為電腦與其他新的裝置設計、建構一個更好的作業系統平台。',
+        'where_go_4' => '我們可以為開發者與使用者改進這個平台。我們可以做一個滋養開放源碼科技的一個溫床。',
+        'h3_relax' => '放輕鬆，一起來搞腦力激盪',
+        'text_relax_1' => '在歡慶我們的寶貝出生之後，我們會開始收集並討論未來的計畫：',
+        'array_relax' => array('我們每個版本的發布間隔要設多久？',
+                '我們還可以做哪些核心的變更？',
+                '還有關於週邊的專案再利用，或是技術的改進呢？',
+                '關於社群的角色與團隊的活動呢？',
+                '這個網站能怎麼改進以方便更多的貢獻者呢？',
+                '最重要的，<strong>您有什麼想法</strong>？'),
+        'text_relax_2' => '我們在六月會有這些討論。敬請期待我們的<a href="http://blog.mageia.org/">部落格</a>以及<a href="http://twitter.com/mageia_org">Twitter</a>上的消息！'
     )
 );
 

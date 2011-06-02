@@ -7,7 +7,8 @@ $_nt = array(
     'et' => array('for-you' => 'Teie jaoks', 'dl' => 'Allalaadimine', 'next' => 'Ja mis edasi?', 'notes' => 'Märkmed'),
     'fr' => array('for-you' => 'Pour vous', 'dl' => 'Télécharger', 'next' => 'Et après&nbsp;?'),
     'it' => array('for-you' => 'Per voi', 'dl' => 'Scaricare', 'next' => 'E dopo&nbsp;?', 'notes' => 'Note'),
-    'uk' => array('for-you' => 'Для вас', 'dl' => 'Звантаження', 'next' => 'Що далі?', 'notes' => 'Нотатки')
+    'uk' => array('for-you' => 'Для вас', 'dl' => 'Звантаження', 'next' => 'Що далі?', 'notes' => 'Нотатки'),
+    'zh-tw' => array('for-you' => '為了您', 'dl' => '下載', 'next' => '下一步呢？', 'notes' => '通告')
 );
 
 if (array_key_exists($locale, $_nt))
