@@ -1252,6 +1252,195 @@ $_t = array(
         'h4_tainted' => 'Tainted:',
         'text_tainted' => 'Die Tainted-Quelle enthält Pakete unter verschiedenen Lizenzen, freie und unfreie, aber das wichtigste Kriterium für Pakete in diesem Medium ist, dass die Pakete bestehende Patente in den verschiedenen Ländern verletzen können. Beispiele hierfür sind die verschiedenen Multimedia-Codecs die zum Abspielen von verschiedenen Audio-/Video-Formaten benötigt werden, Pakte die zum Abspielen von Kauf-Video-DVDs gebraucht werden, usw. Daher wird zwar das Set der Tainted-Quellen standardmäßig hinzugefügt, aber 
                             <strong>nicht</strong> automatisch aktiviert. Diese Aktivierung müssen Sie selbst vornehmen. Am besten, Sie überprüfen vorher, wie die Gesetze in Ihrem Land bezüglich Software-Patenten gestaltet sind, bevor Sie die hier angebotenen Pakete verwenden. Dieses Repository wird nur hinzugefügt, um die Verwendung für die Benutzer zu vereinfachen. Dieses Verzeichnis ist für Mageia was PLF für Mandriva-Benutzer oder RPM Fusion für Fedora-Benutzer ist. '
-    )
+    ),
+    'fr' => array(
+        'page_title' => 'Notes de version de Mageia 1',
+        'page_desc' => 'Notes de version de Mageia 1',
+        'page_kw' => 'mageia, notes de version, Mga1',
+        'page_h1' => 'Notes de version',
+        'major_features' => 'Principales fonctionnalités',
+        'major_features_array' => array('Gestion de paquets',
+                'Configuration du système',
+                'Migration depuis Mandriva Linux',
+                'Environnements de bureau',
+                'Application de bureau',
+                'Système de Base',
+                'Serveur X'),
+        'installation_methods' => 'Méthodes d\'installation disponibles',
+        'support' => 'Support',
+        'hw_req' => 'Prérequis matériel',
+        'mageia_milestone' => 'Mageia 1 est le fruit d\'un dur labeur qui a commencé le jour de <a href="https://www.mageia.org/en/about/2010-sept-announcement.html">la naissance de Mageia</a>.',
+        'overview' => 'Voici un tour d\'horizon de ce que Mageia offre à ses utilisateurs.',
+        'h2_major_features' => 'Principales fonctionnalités de Mageia',
+        'h3_package_management' => 'Les outils de gestion de paquets',
+        'text_package_management_1' => 'Mageia utilise l\'outil en ligne de commande urpmi, déjà connu, pour installler les paquets rpm et gérer les problèmes de dépendances du système. Cet outil permet également bien entendu de mettre à jour le système ; consulter la page de man de urpmi pour plus de détails sur l\'ensemble de ses fonctionnalités.',
+        'text_package_management_2' => 'Voici les autres outils de gestion des paquets en ligne de commande :',
+        'array_package_management' => array('<span style="font-weight:bold;">urpme :</span>
+                            utilisé pour désinstalller des paquets RPM du système, accepte de nombreuses options',
+                '<span style="font-weight:bold;">urpmf :</span>
+                            outil de recherche de fichiers, permettant de retrouver le paquet contenant celui-ci ; il permet également de faire des recherches basées sur les tags RPM (require, suggest, conflict, obsolete) dans les paquets des dépôts officiels, entre autres possibilités',
+                '<span style="font-weight:bold;">urpmq :</span>
+                            outil de recherche dans la base de données urpmi. Il est similaire à « rpm -q » mais des possibilités de recherches  les paquets RPM dans les dépôts officiels',
+                '<span style="font-weight:bold;">urpmi.update :</span>
+                            cet outil permet de mettre à jour la base de données urpmi locale de l\'utilisateur, et peut aussi servir à désactiver certains médias sources du système',
+                '<span style="font-weight:bold;">urpmi.addmedia :</span>
+                            cet outil permet d\'ajouter des medias ou ressources de Mageia en ligne (HTTP, FTP, rsync) ou bien locaux',
+                '<span style="font-weight:bold;">urpmi.removemedia :</span>
+                            cette commande permet d\'enlever des ressources media configurées pour le système'),
+        'h3_system_configuration' => 'Outils de configuration de Mageia',
+        'text_system_configuration' => 'Mageia continuera à utiliser les draktools familiers; en voici l\'essentiel :',
+        'array_system_configuration' => array('<span style="font-weight:bold;">drakconf :</span>
+                            Le centre de contrôle de Mageia, qui peut s\'utiliser pour démarrer toutes sortes d\'outils d\'administration du système',
+                '<span style="font-weight:bold;">drak3d :</span>
+                            Un outil de configuration des effets 3D du bureau (ex : Compiz)',
+                '<span style="font-weight:bold;">drakguard :</span>
+                            Un outil de configuration du contrôle parental. Il peut bloquer l\'accès aux sites web et restreindre la connexion à internet à des périodes spécifiques.',
+                '<span style="font-weight:bold;">rpmdrake :</span>
+                            Une interface simple qui facilite l\'installation et la désinstallation de paquets dans Mageia (RPM)',
+                '<span style="font-weight:bold;">drakx-net :</span>
+                            Les outils réseau par défaut de Mageia',
+                '<span style="font-weight:bold;">userdrake :</span>
+                            Un outil convivial et puissant pour l\'administration des utilisateurs et des groupes',
+                '<span style="font-weight:bold;">system-config-printer:</span>
+                            Un outil puissant de configuration de l\'imprimante, développé par  Redhat/Fedora'),
+        'h3_migration' => '<a href="../migrate/">Migration depuis Mandriva Linux</a>',
+        'text_migration' => 'Si vous utilisez Mandriva Linux 2010.1 ou 2010.2,
+                        consultez notre <a href="../migrate">guide de migration</a>.',
+        'h3_available_des' => 'Environnements de bureau disponibles',
+         'text_available_des' => 'En tant que distribution agnostique, Mageia propose tous les environnements de bureau populaires, aux côtés de plusieurs gestionnaires de fenêtres. En voici un aperçu :',
+        'h4_kde' => 'KDE4',
+        'text_kde' => 'Mageia disposera de KDE SC 4.6.3. Cette version apporte beaucoup d\'améliorations et de nouvelles fonctions. Pour plus d\'informations, visitez l\'<a href="http://www.kde.org/announcements/4.6/">annonce de la version</a>.',
+        'h4_gnome' => 'GNOME',
+        'text_gnome' => 'GNOME 2.32, livré avec une pléthore d\'applications populaires (Totem, Rhythmbox, Epiphany, Evolution, The GNOME Archiver - file-roller, Evince, F-Spot… etc. ).',
+        'h4_xfce' => 'XFCE4',
+        'text_xfce' => 'Mageia fournit la dernière version 4.8.1 de XFCE, qui apporte beaucoup d\'améliorations ; pour plus de détails jetez un œil sur <a href="http://xfce.org/about/news/?post=1295136000">l\'annonce de mise à jour</a> de  XFCE 4.8.',
+        'h4_lxde' => 'LXDE',
+        'text_lxde' => 'les derniers paquets stables de LXDE (PCManFM, LXSession, LXTerminal, Gpicview, LXRandR).',
+        'h4_wms' => 'Gestionnaires de fenêtres',
+        'text_wms' => 'Différents gestionnaires de fenêtres, d\'autant que ce sont de vrais poids plumes et qu\'ils ont des bureaux très légers :',
+        'array_wms' => array('Openbox',
+                'WindowMaker',
+                'IceWM',
+                'Fluxbox',
+                'Fvwm2'),
+        'h3_desktop_apps' => 'Applications de bureau',
+        'text_desktop_apps' => 'De nombreuses applications de bureau très connues, en voici l\'essentiel',
+        'h4_web_and_mail' => 'Navigateurs Internet et clients de courriel',
+        'array_web_and_mail' => array('<span style="font-weight:bold;"><a href="http://www.mozilla.com/firefox/">Firefox</a>:</span>
+                             Firefox 4.0.1., cette nouvelle version apporte avec elle de nombreuses améliorations concernant tous les aspects de Firefox, consultez les <a href="http://www.mozilla.com/en-US/firefox/4.0/releasenotes/">notes de version de Firefox 4</a> pour en savoir plus',
+                '<span style="font-weight:bold;"><a href="http://www.chromium.org/Home">Chromium-Browser</a>:</span>
+                             Chromium-browser 11.0.696.65 de Google est, pour le confort des utilisateurs, disponible en trois versions différentes (stable, beta et instable). Chacune d\'elles provient, en amont, d\' une voie différente, inutile de préciser que la beta et l\'instable ne sont pas destinées aux cardiaques !',
+                '<span style="font-weight:bold;"><a href="http://www.gnome.org/projects/epiphany/">Epiphany</a>:</span>
+                             La dernière version stable 2.30.6 du navigateur Web de GNOME,  basée sur le moteur de rendu WebKit, est disponible dans le dépôt de Mageia',
+                '<span style="font-weight:bold;"><a href="http://pim.kde.org/">KMail</a>:</span>
+                            La dernière version stable, la 4.4.11.1, du célèbre client de courriel de KDE4',
+                '<span style="font-weight:bold;"><a href="http://www.mozillamessaging.com/thunderbird">Thunderbird</a>:</span>
+                             La dernière version stable de Thunderbird 3.1.10, le célèbre client de courriel de la fondation Mozilla, est disponible sur le dépôt en ligne avec toutes les améliorations et les correctifs de la série 3.1.x. Pour de plus amples informations vous pouvez consultez les <a href="http://www.mozillamessaging.com/en-US/thunderbird/3.1.10/releasenotes/">notes de version</a>. Les extensions Enigmail et Lightning sont également disponibles',
+                '<span style="font-weight:bold;"><a href="http://www.gnome.org/projects/evolution/">Evolution</a>:</span>
+                             La dernière version stable, la 2.32.2, du célèbre client de messagerie, agenda, carnet d\'adresses et outil de communication de GNOME.'),
+        'h4_office' => 'Bureautique',
+        'array_office' => array('<span style="font-weight:bold;"><a href="http://www.documentfoundation.org/develop">LibreOffice</a>:</span>
+                            <a href="http://blog.mageia.org/en/?p=190">Mageia a promis de supporter entièrement LibreOffice</a> et nous avons tenu notre promesse. La version stable 3.3.2.2 de LibreOffice est disponible dans les dépôts de Mageia, apportant une suite d\'applications bureautiques complète',
+                '<span style="font-weight:bold;"><a href="http://www.calligra-suite.org/">Calligra</a>:</span>
+                             Le projet Calligra Suite est la suite du projet KOffice, il dispose de tous les éléments habituels de KOffice, vous pouvez consulter leur site internet pour connaître la liste des applications disponibles et savoir ce qu\'elles font',
+                '<span style="font-weight:bold;"><a href="http://techbase.kde.org/Projects/KMyMoney">KmyMoney</a>:</span>
+                             La dernière version stable, 4.5.3 du gestionnaire de finances personnelles de KDE4 est déjà sur les dépôts en ligne, il a pour objectif d\'être précis, simple d\'utilisation et de disposer de toutes les fonctionnalités que l\'on attend habituellement d\'un gestionnaire de finances',
+                '<span style="font-weight:bold;"><a href="http://skrooge.org/">Skrooge</a>:</span>
+                             Ayant pour philosophie de donner le choix aux utilisateurs, Skrooge 0.8.1 est également disponible dans les dépôts de Mageia ; gestionnaire de finances de KDE4, il se veut très intuitif, tout en ayant des fonctions très puissantes',
+                '<span style="font-weight:bold;"><a href="http://www.gnucash.org/">GnuCash</a>:</span>
+                GnuCash 2.4.5 est disponible sur les dépôts en ligne, il est installé avec un utilitaire d\'enregistrement pour les chèques (interface graphique) qui vous permet de garder les traces de vos transactions financières'),                      
+        'h4_communication' => 'Les applications de communication',
+          'h5_im' => 'La messagerie instantanée',
+        'array_im' => array('<span style="font-weight:bold;"><a href="http://kopete.kde.org/">Kopete</a>:</span>
+        La dernière version de cette messagerie instantanée, qui fait partie de  KDE SC 4.6.3, est disponible avec le support d\'une quantité considérable de protocoles de messagerie instantanée',
+                '<span style="font-weight:bold;"><a href="http://www.pidgin.im/">Pidgin</a>:</span>
+                             La dernière version stable 2.7.11 du fameux client de messagerie basé sur GTK+2.0 est disponible sur les dépôts en ligne, elle supporte pléthore de protocoles de messagerie instantanée. Pour plus de détails sur les choix et les améliorations que cette version propose, voir <a href="http://developer.pidgin.im/wiki/ChangeLog">le journal de bord</a>',              
+                 '<span style="font-weight:bold;"><a href="http://live.gnome.org/Empathy">Empathy</a>:</span>
+                 Empathy 2.34.0 est un client de messagerie instantanée basé sur l\'architecture de Telepathy.',
+                '<span style="font-weight:bold;"><a href="http://www.kadu.net/">Kadu</a>:</span>
+                            Une messagerie instantanée compatible avec le protocole Gadu-Gadu. La dernière version stable est la 0.9.1'),
+                           'h5_irc' => 'IRC (messagerie instantanée)',
+        'array_irc' => array('<span style="font-weight:bold;"><a href="http://quassel-irc.org/">Quassel</a>:</span>
+        La dernière version stable est la version  0.7.2 de Quassel : une version moderne, basée sur Qt du client IRC distribué est disponible sur les dépôts en ligne',
+                              '<span style="font-weight:bold;"><a href="http://konversation.kde.org/">Konversation</a>:</span>
+                Un client IRC complètement graphique avec le support KDE, la dernière version stable 1.3.1 est disponible sur les dépôts en ligne',
+                              '<span style="font-weight:bold;"><a href="http://xchat-gnome.navi.cx/">XChat-gnome</a>:</span>
+                             Un client IRC graphique pour le bureau GNOME. La dernière version stable, 0.26.1, est disponible dans les dépôts',
+                             '<span style="font-weight:bold;"><a href="http://www.kvirc.net/">KVIrc</a>:</span>
+                             Un client IRC basé sur Qt avec le support pour les thèmes, la transparence, le chiffrement, et beaucoup d\'autres caractéristiques IRC, ainsi que le langage de script. La dernière version, 4.0.4, est disponible dans les dépôts'),                             
+        'h5_voip' => 'la VoIP',
+        'array_voip' => array('<span style="font-weight:bold;"><a href="http://www.qutecom.com/">QuteCom</a>:</span>
+                             Un utilitaire de téléphonie utilisant le protocole SIP (Session Initiation Protocol) qui permet les communications gratuites de PC à PC en appels voix et vidéo, et qui intégre tous vos contacts IM en un seul endroit, c\'est basé en Qt. La dernière version stable est la 2.2.',                            
+                '<span style="font-weight:bold;"><a href="http://www.ekiga.org/">Ekiga</a>:</span>
+                             Un outil pour communiquer en audio et vidéo partout via Internet. Il utilise à la fois les protocoles SIP et H323 et est compatible avec Microsoft Netmeeting.Il s\'appelait auparavant GnomeMeeting. Dernière version stable 3.2.7.'),                            
+        'h4_virt' =>  'La virtualisation',
+        'array_virt' => array('<span style="font-weight:bold;"><a href="http://www.virtualbox.org/">VirtualBox</a>:</span>
+                            La version 4.0.6, pour des utilisations généralistes de virtualisation complète, est disponible dans les dépôts Mageia',     
+                '<span style="font-weight:bold;"><a href="http://virt-manager.et.redhat.com/">Virt-manager</a>:</span>
+                             Mageia est livrée avec la dernière version de Virt-manager (et libvirtd), le célèbre groupe d\'applications pour la  virtualisation en relation avec une variété de langues pour faciliter la gestion des machines virtuelles, qu\'elles soient basées sur  kvm ou xen.',
+                         '<span style="font-weight:bold;"><a href="http://www.winehq.org/">WINE</a>:</span>
+                             Le dernier développement de WINE, version 1.3.20, est disponible sur les dépôts ; vous pouvez être certain de trouver la dernière application sur les dépôts Backports tout de suite après une toute nouvelle mise à jour !'), 
+        'h4_graphics' =>  'Les applications graphiques', 
+        'array_graphics' => array('<span style="font-weight:bold;"><a href="http://www.gimp.org/">Gimp</a>:</span>
+                            la version 2.6.11 du célèbre programme GNU de manipulation d\'image.',                           
+                '<span style="font-weight:bold;"><a href="http://inkscape.sourceforge.net/">Inkscape</a>:</span>
+                            la version 0.48.1 du programme de dessin vectoriel SVG basé sur XML.',
+                            '<span style="font-weight:bold;">Blender<a href="http://www.blender.org/"></a>:</span>
+                            Le studio d\'animation en très haute qualité. Version 2.49b.'),
+                           'h4_ides' => 'les environnements pour les applications de développement intégrés (IDE)',
+        'array_ides' => array('<span style="font-weight:bold;"><a href="http://anjuta.org/">Anjuta</a>:</span>
+                            Un puissant environnement IDE pour  GNOME pour C, C++, Python, Java,…',
+                           '<span style="font-weight:bold;"><a href="http://www.eclipse.org/">Eclipse</a>:</span>
+                            L\'environnement IDE bien connu pour Java et d\'autres langages',
+                            '<span style="font-weight:bold;"><a href="http://netbeans.org/">Netbeans</a>:</span> L\'alternative pour Eclipse, bien connue également',
+                            '<span style="font-weight:bold;"><a href="http://kdevelop.org/">KDevelop</a>:</span>
+                          L\'environnement IDE de développement de KDE'),
+ 'h3_base_system' => 'Le système de base',
+        'kernel' => 'Mageia est livrée avec les séries du noyau 2.6.38, en particulier la version  2.6.38.7 à l\'instant de cette mise à jour, pour plus de détails sur les améliorations de ces séries du noyau, jetez un œil <a href="http://kernelnewbies.org/Linux_2_6_38">ici</a>; les grandes lignes de ce noyau sont :',
+        'kernel_array' => array('Le support pour les processus automatiques groupés (pour de plus amples détails voir le billet de Linus Torvalds sur
+                            <a href="http://lkml.org/lkml/2011/1/18/322">LKML</a> (La liste de diffusion du Noyau Linux) ; et les mentions du correctif (patch) sur 
+                             <a href="https://lwn.net/Articles/418884/">LWN.net</a>)',
+                'Améliorations sensibles de l\'extensibilité dans la couche Linux de VFS (Virtual File System)',
+                'Le support transparent pour le support des pages gigantesques (sans l\'utilisation de hugetblfs)',
+                'L\'augmentation automatique du trafic du réseau sortant à travers de multiples flux CPU',
+             'Le support pour les APU de l\'AMD Fusion', 
+             'Le support d\'Intel Sandy Bridgeet de Panther Point.',
+             'Ipset 6.4 avec le support d\'IPv'),
+             'initscripts' => 'Le système de boot (ou de démarrage) : continue à utiliser initscripts, 9.21',
+        'alsa' => 'ALSA 1.0.24.x :',
+        'alsa_array' => array('libalsa2-1.0.24.1',
+                'alsa-plugins-1.0.24',
+                'alsa-tools-1.0.24.1 : le firmware a été divisé en un nouveau paquet séparé,  alsa-firmware',
+             'alsa-utils-1.0.24.2'),
+        'h3_x' => ' Le serveur X',
+        'array_x' => array('Serveur X 1.10.1, avec le support UDEV entier (Udev remplace HAL à cet égard)',
+        'Le pilote ATI/AMD free radeon : le mode Kernel Mode Setting est maintenant activé par défaut, apportant performance et des améliorations en compatibilité.',
+                  'Le support d\'Intel Sandy Bridge (2nd Generation Intel® Core™ i7/i5/i3) d\'après <a href="http://intellinuxgraphics.org/2011Q1.html">les spécifications d\'Intel</a>.',       
+                 'Nouveau : le pilote Nouveau  est utilisé par défaut pour le support des cartes graphiques nVidia. Cela fournit le support de configuration du Kernel Mode (Mode Noyau), l\'accélération, et le support de RandR 1.2 (afin de faciliter la configuration pour les moniteurs multiples'),                 
+     'h4_proprietary' => 'Les pilotes pour cartes graphiques propriétaires',
+       'text_proprietary' => 'Les dernières versions des deux pilotes propriétaires nVidia et  ATI (fglrx) sont disponibles sur le dépôt en ligne Nonfree.',
+        'h3_input_methods' => 'Les méthodes d\'entrée des caractères au clavier (Input Methods)',
+        'text_input_methods' => 'Pour sélectionner les méthodes de saisie des caractères selon votre choix, vous pouvez utiliser draklocale (“Configurer la localisation dans votre système" depuis le Centre de contrôle Mageia). Mageia 1 propose deux méthodes de saisie  :',  
+    'h4_ibus' => 'IBus',
+        'text_ibus' => 'Le support iBus (le support intelligent de la saisie Input Bus), version  1.3.9 est d\'ores et déjà disponible dans les dépôts officiels.',
+        'h4_scim' => 'SCIM (méthode d\'entrée des caractères au clavier)',
+                'text_scim' => 'SCIM (Smart Common Input Method), version 1.4.9, est également disponible dans les dépôts officiels.',
+        'h2_available_media' =>'Dépôts ou media disponibles pour les installations de Mageia', 
+        'text_available_media_1' => 'Mageia propose deux supports différents d\'installation de media :',
+        'array_available_media' => array(' les images ISO sur DVD et sur Dual-arch CD, qui utilisent l\'installeur habituel drakx et',
+                'L\'image ISO sur live CD qui peut servir à visionner la distribution et qui peut également servir à installer Mageia sur votre disque dur'),
+
+        'text_available_media_2' => ' Vous pourrez toujours trouver de l\'aide pour télécharger sur <a href="http://mageia.org/downloads/">Mageia, page de téléchargement</a>',
+                    'Des liens directs (FTP et http) et par Bittorrent  sont disponibles pour le téléchargement. Pour plus de détails, jetez un œil sur <a href="http://www.mageia.org/wiki/doku.php?id=mageia_installation_media">la page d\'installation de Mageia</a>.',
+                     'h2_software_repos' => 'Les dépôts ou media  en ligne', 
+        'text_software_repos_1' => 'Les paquets de logiciels pour Mageia sont disponibles en trois différents dépôts ou media, selon la licence qui les régit.', 
+        'text_software_repos_2' => 'Voici un aperçu de ces dépôts ou media :',
+        'h4_core' => 'Core :',
+        'text_core' => 'Le dépôt Core (cœur) comprend les paquets de logiciels libres, c\'est-à-dire les paquets relevant d\'une licence libre (open-source). Le dépôt Core est ajouté par défaut et les médias « Core Release » et « Core Updates » sont activés par défaut pour les mises à jour',
+        'h4_nonfree' => 'Nonfree :',
+        'text_nonfree' => 'Le dépôt Nonfree (non libre) comprend les paquets qui sont en libre diffusion, c\'est-à-dire que Mageia peut les distribuer mais ils contiennent du logiciel non libre (d\'où son nom). Par exemple, ce dépôt contient les pilotes propriétaires des cartes graphiques ATI et nVidia, le firmware de diverses cartes Wi-Fi, etc. Le dépôt Nonfree est ajouté par défaut, les médias « Nonfree Release » et « Nonfree Updates » sont activés par défaut.',
+        'h4_tainted' => 'Tainted :',
+        'text_tainted' => 'Le dépôt Tainted (impur) comprend les paquets sous diverses licences, libres ou non libres, mais le principal critère pour les paquets placés dans ce dépôt est qu\'ils peuvent enfreindre, <strong>dans certains pays</strong>, les brevets et les lois sur les droits d\'auteur (par exemple, les codecs multimédia nécessaires à l\'exécution de certains fichiers audio/vidéo, les paquets nécessaires pour lire les DVD vidéo du commerce, etc.). Le dépôt Tainted est ajouté par défaut mais <strong>n\'est pas activé par défaut</strong>, c\'est-à-dire que l\'option est ouverte et vous devez vérifier si la loi de votre pays vous autorise à utiliser les paquets de ce dépôt. Celui-ci n\'est ajouté que par commodité pour les utilisateurs. Il est à Mageia ce que PLF est à Mandriva et ce que RPM Fusion est à Fedora.'
+  )
 );
 
