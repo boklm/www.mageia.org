@@ -223,5 +223,24 @@ $_t = array(
         'join-us' => '加入我們！',
         'right-now' => '近期消息',
         'news' => '新聞',
+    ),
+    'nl' => array(
+        'page_title' => 'Mageia - Een nieuwe Linux-distributie',
+        'page_desc'  => 'Mageia is een nieuwe, door de gemeenschap ontwikkelde Linux-distributie.',
+        'page_kw'    => 'mageia, linux, mandriva, free software, vrije software, besturingssysteem, operating system, computer, laptop, desktop, server, device, mobile',
+        'page_h1'    => 'Een nieuwe Linux-distributie',
+        'alternate_title' => 'Mageia Blog (Nederlands)',
+        'alternate_href'  => 'http://blog.mageia.org/nl/?feed=rss',
+        'about' => array('Mageia is een kloon van Mandriva Linux en wordt ondersteund door een stichting 
+        (non-profit organisatie) bestaande uit erkende en gekozen leden van de gemeenschap.',
+        'Meer dan enkel het bezorgen van een gratis, veilig, stabiel en onderhoudbaar besturingssysteem, 
+        is het doel van Mageia ook om een stabiele en vertrouwwekkende organisatiestructuur op te zetten om 
+        samenwerkingsprojecten zo goed als mogelijk aan te kunnen sturen. 
+        (<a href="/en/about/2010-sept-announcement.html">Zie ook de originele aankondiging</a>).'
+        ),
+        'mageia-is-here' => 'Mageia 1 is gearriveerd',
+        'join-us' => 'Doe mee!',
+        'right-now' => 'Wat gebeurt er op dit moment?',
+        'news' => 'Nieuws',
     )
 );
