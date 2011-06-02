@@ -407,5 +407,45 @@ $_t = array(
                         η οποία βρίσκεται τώρα στη διάθεσή σας.',
         'users' => 'Πόσοι χρήστες; Ο χρόνος θα δείξει.',
         'in_for_you' => 'Αλλά κάτι πιο σημαντικό από τα νούμερα: <a href="/el/1/next/">τι θα κάνει η Mageia για εσάς;</a>'
+    ),
+    'ro' => array(
+        '1_title' => 'Mageia 1',
+        '1_desc' => 'Mageia 1 este o nouă distribuție Linux comunitară.',
+        '1_kw' => 'mageia, 1, prima versiune, linux, mandriva, aplicații libere',
+        'img_desktop' => 'Mageia 1 cu biroul KDE',
+        'download_it' => 'Descărcați-o',
+        'mageia_is' => 'Mageia 1 este o distribuție GNU/Linux pentru calculatorul dumneavoastră,
+                        realizată de comunitatea Mageia.',
+        'h3_what_is' => 'Ce găsiți în ea?',
+        'plenty_see_notes' => 'Foarte multe! Consultați <a href="notes/">notele ediției</a> pentru o expunere detaliată.',
+        'h3_context' => 'Mageia în context',
+        'mageia_began' => 'Mageia și-a început drumul în septembrie 2010 ca
+                        <a href="/en/about/2010-sept-announcement.html">o derivație de Mandriva Linux</a>.
+                        Este susținută de o <a href="/en/about/">asociație not-profit</a>,
+                        <a href="http://mageia.org/wiki/doku.php?id=org">guvernată de</a>
+                        un grup de contribuitori aleși și recunoscuți</a>,
+                        și dezvoltată de peste 100 de persoane din toată lumea.',
+        'our_work' => 'Efortul nostru se adaugă muncii extraordinare realizate de vasta comunitate 
+                        Linux și a aplicațiilor libere. Țelul nostru este să creăm una din platformele
+            cele mai stabile, robuste și agreabile cu putință; atît pentru utilizatoul obișnuit,
+                        dezvoltator sau întreprindere.',
+        'encourage_you' => 'Și vă încurajăm să <a href="/en/contribute/">participați la proiect</a>,
+                        în timpul liber sau în cadrul activității voastre profesionale.',
+        '9_months' => 'În 9&nbsp;luni de la <a href="/en/about/2010-sept-announcement.html">lansarea proiectului</a> am atins mai                   bine de:',
+        'people' => 'Peste <a href="">100 de contribuitori</a> în <a href="/wiki/doku.php?id#teams">peste 10 echipe</a>.
+                        Peste <a href="/en/thank-you/">160 de donatori generoși</a> pentru un total de
+                        peste <a href="/en/donate/">8.800 EUR</a> din care s-au cheltuit pînă acum numai <a href="/en/about/reports/">1.277 EUR</a> cu 20.000 EUR prevăzuți pentru 2011.',
+        'prereleases' => '5&nbsp;versiuni tehnice intermediare.
+                        7.389&nbsp;de pachete sursă,
+                        2&nbsp;&times;&nbsp;14.226&nbsp;de pachete binare pentru 2&nbsp;arhitecturi (i586 și x86_64
+                        &ndash; ARM este pe drum).',
+        'servers' => '7&nbsp;servere, 3&nbsp;centre de calcul (Paris și Marsilia, Franța),
+                        <a href="http://mirrors.mageia.org/">19&nbsp;serevere alternative</a> mondiale.',
+        'languages' => 'Un sit web tradus în <a href="http://mageia.org/?langs">21 de limbi</a>,
+                        o distribuție localizată în <a href="">161 de limbi</a>.',
+        'distribution' => 'Toate acestea pentru <a href="http://mageia.org/en/1/">o singură distribuție</a>,
+                        care este acum la dispoziția dumneavoastră.',
+        'users' => 'Cît de mulți utilizatori? Timpul ne-o va spune.',
+        'in_for_you' => 'Însă ce este mult mai imporant decît aceste cifre: <a href="/en/1/next/">ce va face Mageia pentru voi?</a>'
     )
 );
