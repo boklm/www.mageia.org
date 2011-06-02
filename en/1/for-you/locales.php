@@ -348,7 +348,7 @@ $_t = array(
         'p_developers_5' => 'Nous sommes ouverts à vos remarques et à vos contributions pour améliorer cette liste d\'ici la prochaine version de Mageia - regardez les différents moyens de nous contacter et envoyez-nous vos questions et vos suggestions.',
         'h3_sysadmins' => 'Les administrateurs système&nbsp;!',
         'h3_contributors' => 'Les contributeurs&nbsp;!',
-        'p_contributors' => 'Plus d\'informations <a href="./contributor/">ici</a>.'
+        'p_contributors' => 'Plus d\'informations <a href="../../../contribute/">ici</a>.'
     ),
     'es' => array(
         'page_title' => '¡Mageia 1 es para tí!',
@@ -398,7 +398,7 @@ $_t = array(
         'p_developers_5' => 'Estamos listos para recibir sus comentarios y contribuciones para mejorar para el próximo lanzamiento - revise los enlaces de contacto y comuníquenos sus preguntas y sugerencias.',
         'h3_sysadmins' => '¡Administradores de sistemas!',
         'h3_contributors' => '¡Contribuidores!',
-        'p_contributors' => 'Obtenga más información <a href="./contributor/">aquí</a>.'
+        'p_contributors' => 'Obtenga más información <a href="../../../contribute/">aquí</a>.'
     )
 );
 
