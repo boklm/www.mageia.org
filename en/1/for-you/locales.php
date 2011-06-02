@@ -48,7 +48,7 @@ $_t = array(
         'p_developers_5' => 'We\'re ready to welcome your feedback and contributions to improve this for next release - check the contact links, and contact us with questions and suggestions.',
         'h3_sysadmins' => 'Sysadmins!',
         'h3_contributors' => 'Contributors!',
-        'p_contributors' => 'Get more information <a href="./contributor/">here</a>.'
+        'p_contributors' => 'Get more information <a href="../../../contribute/">here</a>.'
     ),
     'uk' => array(
         'page_title' => 'Mageia 1 is for you!',
@@ -98,7 +98,7 @@ $_t = array(
         'p_developers_5' => 'Ми будемо раді вашим відгукам та участі у покращенні наступного випуску. Скористайтеся даними щодо встановлення зв’язку з нами та надсилайте ваші питання та пропозиції.',
         'h3_sysadmins' => 'Системні адміністратори!',
         'h3_contributors' => 'Учасники розробки!',
-        'p_contributors' => 'Докладнішу інформацію розміщено на <a href="./contributor/">цій сторінці</a>.'
+        'p_contributors' => 'Докладнішу інформацію розміщено на <a href="../../../contribute/">цій сторінці</a>.'
     ),
     'de' => array(
         'page_title' => 'Mageia 1 ist für Sie!',
@@ -148,7 +148,7 @@ $_t = array(
         'p_developers_5' => 'Wir sind bereit, Ihre Anregungen und Beiträge für das nächste Release zu verbessern - überprüfen Sie die Kontakt-Links, und kontaktieren Sie uns bei Fragen und Anregungen.',
         'h3_sysadmins' => 'Systemadministratoren!',
         'h3_contributors' => 'Mitwirkende!',
-        'p_contributors' => 'Mehr Informationen <a href="./contributor/">hier</a>.'
+        'p_contributors' => 'Mehr Informationen <a href="../../../contribute/">hier</a>.'
     )
 );
 
