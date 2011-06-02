@@ -242,5 +242,25 @@ $_t = array(
         'join-us' => 'Doe mee!',
         'right-now' => 'Wat gebeurt er op dit moment?',
         'news' => 'Nieuws',
+    ),
+    'cs' => array(
+        'page_title' => 'Mageia - Nová linuxová distribuce',
+        'page_desc'  => 'Mageia je nová komunitní linuxová distribuce.',
+        'page_kw'    => 'mageia, linux, mandriva, free software, operating system, computer, laptop, desktop, server, device, mobile',
+        'page_h1'    => 'Nová linuxová distribuce',
+        'alternate_title' => 'Mageia Blog (Český)',
+        'alternate_href'  => 'http://blog.mageia.org/cs/?feed=rss',
+        'about' => array(
+            'Mageia je forkem z Mandriva Linuxu
+                podporována nevýdělečnou organizací složenou
+                ze známých a zvolených přispevovatelů.',
+            'Více než jen nabízení otevřeného, stabilního, bezpečného a vhodného operačního systému se snažíme 
+                založit stabilní a důvěryhodný systém vedení a prostředí vhodné pro spolupráci.
+                (<a href="/en/about/2010-sept-announcement.html">vizte původní oznámení</a>).'
+        ),
+        'mageia-is-here' => 'Je zde Mageia 1',
+        'join-us' => 'Přidejte se!',
+        'right-now' => 'Právě teď',
+        'news' => 'Novinky',
     )
 );

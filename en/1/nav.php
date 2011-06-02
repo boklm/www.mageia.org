@@ -1,6 +1,7 @@
 <?php
 
 $_nt = array(
+    'cs' => array('for-you' => 'Pro vás', 'dl' => 'Stáhnout', 'next' => 'A dále?', 'notes' => 'Poznámky'),
     'de' => array('for-you' => 'Für Sie', 'dl' => 'Download', 'next' => 'Und nun?', 'notes' => 'Release-Notes'),
     'en' => array('for-you' => 'For you', 'dl' => 'Download', 'next' => 'And next?', 'notes' => 'Notes'),
     'es' => array('for-you' => 'Para usted', 'dl' => 'Descargar', 'next' => '¿Y qué sigue?', 'notes' => 'Notas'),
