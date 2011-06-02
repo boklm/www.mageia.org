@@ -86,13 +86,13 @@ $_t = array(
     ),
     'el' => array(
         'page_title' => 'Mageia – Μια νέα διανομή Linux',
-        'page_desc'  => 'Mageia is new community-based Linux distribution.',
-        'page_kw'    => 'mageia, linux, mandriva, free software, operating system, computer, laptop, desktop, server, device, mobile',
+        'page_desc'  => 'Η Mageia είναι μια νέα κοινοτική διανομή Linux.',
+        'page_kw'    => 'mageia, linux, mandriva, ελεύθερο λογισμικό, λειτουργικό σύστημα, υπολογιστής, φορητός υπολογιστής, επιτραπέζιος υπολογιστής, εξυπηρετητής, συσκευή, φορητός',
         'page_h1'    => 'Μια νέα διανομή Linux',
-        'alternate_title' => 'Mageia Blog (Ελληνικά)',
+        'alternate_title' => 'Ιστολόγιο Mageia (Ελληνικά)',
         'alternate_href'  => 'http://blog.mageia.org/el/?feed=rss',
         'about' => array(
-            'Η Mageia είναι ένα fork της Mandriva Linux, που υποστηρίζεται από μια μη
+            'Η Mageia είναι ένα fork της Mandriva Linux, που υποστηρίζεται από μία μη
                 κερδοσκοπική οργάνωση η οποία αποτελείται από αναγνωρισμένους και
                 εκλεγμένους συνεισφέροντες.',
             'Πέρα από την παροχή ενός ελεύθερου, ασφαλούς, σταθερού και με αντοχή στο
@@ -100,7 +100,7 @@ $_t = array(
                 σταθερής και νόμιμης διακυβέρνησης γύρω από ένα συνεργατικό μοντέλο
                 (<a href="/el/about/2010-sept-announcement.html">δείτε την αρχική ανακοίνωση</a>).'
         ),
-        'mageia-is-here' => 'Mageia 1 is here',
+        'mageia-is-here' => 'Η Mageia 1 είναι εδώ',
         'join-us' => 'Επικοινωνία',
         'right-now' => 'Συμβαίνει τώρα',
         'news' => 'Νέα',
