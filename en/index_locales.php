@@ -204,5 +204,24 @@ $_t = array(
         'join-us' => 'Liituge meiega!',
         'right-now' => 'Praegu toimub',
         'news' => 'Uudised',
+    ),
+    'zh-tw' => array(
+        'page_title' => 'Mageia - 嶄新的 Linux 發行版',
+        'page_desc'  => 'Mageia 以社群為基礎的新 Linux 發行版。',
+        'page_kw'    => 'mageia, linux, mandriva, free software, operating system, computer, laptop, desktop, server, device, mobile',
+        'page_h1'    => '嶄新的 Linux 發行版',
+        'alternate_title' => 'Mageia 網誌 (英文)',
+        'alternate_href'  => 'http://blog.mageia.org/en/?feed=rss',
+        'about' => array(
+            'Mageia 是 Mandriva Linux 的一個分支，
+                由被選出的開發者們組成非營利組織支援。',
+            '除了提供一個自由、安全、穩定且具發展性的作業系統，
+                其目標企望能建立一個穩固且可信賴的治理結構來引導相關的協作計畫
+                (<a href="/en/about/2010-sept-announcement.html">檢視最初的聲明</a>)。'
+        ),
+        'mageia-is-here' => 'Mageia 1 在這裡',
+        'join-us' => '加入我們！',
+        'right-now' => '近期消息',
+        'news' => '新聞',
     )
 );
