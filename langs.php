@@ -95,6 +95,7 @@ $nav_list = array(
     */
     'http://forums.mageia.org/' => 'Forum',
     '/contribute/' => 'Contribute',
+    '/wiki/' => 'Wiki',
     /*
     '/en/calendar/' => array(
         'de' => 'Kalender',
