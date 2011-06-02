@@ -81,7 +81,7 @@ $_t = $_t[$locale];
                         <li><h3><?php echo $_t['h3_sysadmins']; ?></h3>
                             <hr>
                             </li>
-                        <li><h3><a href="./contributor/"><?php echo $_t['h3_contributors']; ?></a></h3>
+                        <li><h3><a href="/contribute/"><?php echo $_t['h3_contributors']; ?></a></h3>
                             <p><?php echo $_t['p_contributors']; ?></p></li>
                     </ul>    
                 </div>
