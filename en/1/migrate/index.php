@@ -90,7 +90,7 @@ $_t = $_t[$locale];
                         </li>
                         <li><p><?php echo $_t['cli_5']; ?></p>
                             <p><code class="term">$ su<br />
-                            # urpmi.addmedia --distrib &lt;media_url&gt;</code></p>
+                            # urpmi.addmedia --distrib &lt;mirror_url&gt;</code></p>
                         </li>
                     </ul>
                     </li>

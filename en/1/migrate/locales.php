@@ -6,16 +6,16 @@ $_t = array(
         'page_kw' => 'mageia, mandriva, upgrade, migrate',
         'page_h1' => 'Migrate from Mandriva Linux',
         'upgrading_general' => 'Upgrading from Mandriva Linux 2010.1 and 2010.2 is supported, and has been fine tuned over the past
-                months, so it should work. But as always and before:',
-        'upgrading_general_array' => array('back up your data before upgrading;',
-                'if you are upgrading a laptop, connect to power!
+                months, so it should work. But as always, before commencing with the upgrade:',
+        'upgrading_general_array' => array('Back up your data before upgrading;',
+                'if you are upgrading a laptop, do not leave it running on batteries, but connect it to AC power!
                         You might be updating over 2000 packages, and this can take some time;',
-                'do not start up any net-intensive applications during the upgrade
+                'do not start up any any bandwidth-consuming applications during the upgrade
                         &ndash; you need to reserve bandwidth for the upgrade.'),
         'upgrading_ways' => 'There are several ways to upgrade from one of those previous Mandriva releases:',
         'upgrading_ways_dvd' => '<a href="#dvd">using the Mageia 1 DVD</a>',
         'upgrading_ways_inline' => '<a href="#inline">using the online media sources directly</a>,
-                        using <a href="#mgaonline">mgaonline</a> or <a href="#urpmi">urpmi</a>.',
+                        via <a href="#mgaonline">mgaonline</a> or <a href="#urpmi">urpmi</a>.',
         'h2_dvd' => 'Upgrade using the Mageia 1 DVD',
         'dvd_clean_install' => 'You can use the <a href="/downloads/">Mageia 1 DVD</a> to do a clean install
                     but also to upgrade from previous releases.',
@@ -32,28 +32,29 @@ $_t = array(
         'inline_2' => 'This can be done either using the graphical <code>mgaonline</code> tool
                     or the command-line <code>urpmi</code>.
                     Both methods are outlined below. But first, download and install
-                    this <code>mgaonline</code> package that will help you through the process:',
-        'mgaonline_image_title' => 'for Mandriva Linux 2010.1 or 2010.2',
-        'inline_3' => 'Note that you may get a security warning, due to invalid package signatures.
-                    This is because a Mandriva system does not recognise Mageia signatures;
-                    you can safely ignore these warnings.
-                    Yes, that sucks, we know.',
-        'a_or_b' => 'So, it installed the package? Good, let\'s move on and pick a) or b) below:',
+                    this <code>mgaonline</code> package that is necessary for this method to work:',
+        'mgaonline_image_title' => 'for Mandriva Linux 2010.1 and 2010.2',
+        'inline_3' => 'Note that you may get a security warning, due to invalid RPM package key signatures.
+                    This is because a Mandriva system would naturally not recognise the Mageia RPM signatures;
+                    you can safely ignore these warnings.',
+        'a_or_b' => 'So, the package has been installed? Good, let\'s move on, pick either a) or b) below:',
         'h2_a' => 'a) Upgrading inline, using mgaonline (GUI)',
         'popup_window_1' => 'a) Upgrading inline, using mgaonline (GUI)',
-        'popup_window_2' => 'Just follow the wizard instructions; it will configure Mageia media sources and start the migration.',
-        'as_soon_complete' => 'As soon as the migration is complete, you should restart your system; and here you are.',
+        'popup_window_2' => 'Just follow the wizard instructions; it will configure the Mageia media sources and start the migration.',
+        'as_soon_complete' => 'After the migration is complete, you should restart your system; and you should be presented by your upgraded system!',
         'h2_b' => 'b) Upgrading inline, using urpmi (CLI)',
         'cli_1' => 'You can also upgrade using <code>urpmi</code> from your favourite terminal emulator,
-                    if you are confortable with it. Here are the steps:',
+                    if you are more comfortable using the CLI. Here are the steps:',
         'cli_2' => 'Remove all the existing media sources on your system:',
         'cli_3' => 'Add the Mageia online sources:',
-        'cli_4' => 'either directly (this will select a best matching mirror, after your location):',
-        'cli_5' => 'either using a specific media mirror (you can decide from <a href="http://mirrors.mageia.org/distrib">our mirrors list</a>):',
+        'cli_4' => 'Either using the MIRRORLIST (this will select the best matching mirror,
+            according to your geographical location); note that for this method to work,
+            <em>you must have installed the <code>mgaonline</code> package (see above)</em>:',
+        'cli_5' => 'Or using a specific media mirror (you can get the <i>mirror_url</i> from <a href="http://mirrors.mageia.org/distrib">our mirrors list</a>):',
         'h2_thats_it' => 'That\'s it!',
         'h3_question' => 'Have a question?',
         'join_and_ask' => 'Do not hesitate to join our <a href="irc://irc.freenode.net/#mageia">#mageia</a>
-                        IRC channel on Freenode or go in <a href="http://forums.mageia.org/">our forum</a>
+                        IRC channel on Freenode or posting in <a href="http://forums.mageia.org/">our forum</a>
                         to ask for assistance or details.',
         'h3_feedback' => 'Want to send some feedback?',
         'tweet_it' => 'Just <a href="http://twitter.com/mageia_org">tweet it to @mageia_org</a>.'
