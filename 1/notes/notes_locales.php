@@ -877,7 +877,7 @@ $_t = array(
         'h3_system_configuration' => 'Mageia systeemconfiguratiegereedschappen',
         'text_system_configuration' => 'Mageia zal ook de bekende \'drak\'-gereedschappen blijven gebruiken; dit zijn een paar van de belangrijkste:',
         'array_system_configuration' => array('<span style="font-weight:bold;">drakconf:</span>
-                            Het Mageia control center, welke gebruikt kan worden om allerlei systeembeheergereedschappen te starten',
+                            Het Mageia configuratiecentrum, welke gebruikt kan worden om allerlei systeembeheergereedschappen te starten',
                 '<span style="font-weight:bold;">drak3d:</span>
                             Een gereedschap om 3D-effecten op de desktop te configureren (bijv. Compiz)',
                 '<span style="font-weight:bold;">drakguard:</span>
@@ -1011,45 +1011,47 @@ $_t = array(
                 'ATI/AMD free radeon driver: Kernel Mode Setting is nu standaard ingeschakeld wat resulteert in betere prestaties en een grotere compatibiliteit.',
                 'Intel Sandy Bridge (2e Generatie Intel® Core™ i7/i5/i3) ondersteuning in lijn met de <a href="http://intellinuxgraphics.org/2011Q1.html">Intel specificaties</a>.',
                 'Nouveau: De Nouveau driver wordt standaard gebruikt voor ondersteunde nVidia grafische kaarten. Deze driver brengt ook ondersteuning voor Kernel Mode Setting, 2D-acceleratie, en RandR 1.2-ondersteuning (voor gemakkelijke multi-monitor-installatie)'),
-        'h4_proprietary' => 'Proprietary grafische kaart drivers',
-        'text_proprietary' => 'De laatste versies van zowel de  nVidia alsook de ATI (fglrx) proprietary drivers zijn beschikbaar in de \'Nonfree\' online repository.',
+        'h4_proprietary' => 'Bedrijfseigen grafische kaart drivers',
+        'text_proprietary' => 'De laatste versies van zowel de  nVidia alsook de ATI (fglrx) bedrijfseigen drivers zijn beschikbaar in de \'Nonfree\' online repository.',
         'h3_input_methods' => 'Invoermethoden',
         'text_input_methods' => 'Om de invoermethode van uw voorkeur te selecteren kunt u draklocale (“Manage localization of your system” in het Mageia Control Center &rarr; Systeem) gebruiken. Mageia 1 heeft twee invoermethodes:',
         'h4_ibus' => 'IBus',
-        'text_ibus' => 'IBus support (the Intelligent Input Bus), version 1.3.9 is already available in the official repositories.',
+        'text_ibus' => 'IBus-ondersteuning (de Intelligente Input Bus), versie 1.3.9 is reeds beschikbaar in de officiële repositories.',
         'h4_scim' => 'SCIM',
-        'text_scim' => 'SCIM (Smart Common Input Method), version 1.4.9, is also available in the official repositories.',
-        'h2_available_media' => 'Available installation media',
-        'text_available_media_1' => 'Mageia has two distinctive installation media types:',
-        'array_available_media' => array('DVD ISO and Dual-arch CD ISO, which use the drakx traditional installer and',
-                'Live CD ISO, this is a live ISO which can be used to preview the distribution and can also be
-                            used to install Mageia on your HDD'),
-        'text_available_media_2' => 'You will always find the download info on the <a href="http://mageia.org/downloads/">Mageia download page</a>;
-                    direct (ftp and http) and BitTorrent downloads are available.
-                    For more information, have a look at the <a href="http://www.mageia.org/wiki/doku.php?id=mageia_installation_media">Mageia installation media page</a>.',
+        'text_scim' => 'SCIM (Smart Common Input Method), versie 1.4.9, is ook beschikbaar in de officiële repositories.',
+        'h2_available_media' => 'Beschikbare installatiemedia',
+        'text_available_media_1' => 'Mageia heeft twee verschillende typen installatiemedia beschikbaar:',
+        'array_available_media' => array('DVD ISO en Dual-arch CD ISO, welke het traditionele drakx-installatieprogramma gebruiken en',
+                'Live CD ISO, een live ISO welke zowel gebruikt kan worden als preview van de distributie alsook om Mageia op
+                            uw harde schijf te installeren'),
+        'text_available_media_2' => 'Informatie over het downloaden van Mageia kunt u te allen tijde vinden op de <a href="http://mageia.org/downloads/">Mageia downloadpagina</a>;
+                    direkte (ftp en http) en BitTorrent-downloads zijn beschikbaar.
+                    Voor verdere informatie kijkt u op de <a href="http://www.mageia.org/wiki/doku.php?id=mageia_installation_media">Mageia installatiemedia pagina</a>.',
         'h2_software_repos' => 'Software online repositories',
-        'text_software_repos_1' => 'The packages in Mageia exist in three different repositories/media, depending on what license 
-            each package uses.',
-        'text_software_repos_2' => 'Here\'s an overview of those repositories:',
+        'text_software_repos_1' => 'De pakketten die in Mageia beschikbaar zijn bevinden zich in drie verschillende repositories of media, afhankelijk 
+            van de licentievoorwaarden van ieder pakket.',
+        'text_software_repos_2' => 'Een overzicht van deze drie repositories:',
         'h4_core' => 'Core:',
-        'text_core' => 'The Core repository includes packages with free-open-source software, i.e. packages
-                            licensed under a free-open-source license, the set of the Core media are added by default and the
-                            “Core Release” and “Core Updates” are enabled by default',
+        'text_core' => 'De Core-repository bevatten pakketten met gratis verkrijgbare open source software, dat wil zeggen, pakketten
+                            die onder een free-open-source licentie zijn uitgegeven. De Core media worden standaard toegevoegd en
+                            “Core Release” en “Core Updates” staan standaard ingeschakeld',
         'h4_nonfree' => 'Nonfree:',
-        'text_nonfree' => 'The Nonfree repository includes packages that are free-of-charge, i.e. Mageia can
-                            redistribute them, but they contain closed-source software (hence the Nonfree name); For example this
-                            repository includes the nVidia and ATI graphics cards proprietary drivers, firmware for various Wi-Fi
-                            cards… etc. The set of the Nonfree media is added by default and the “Nonfree Release” and
-                            “Nonfree Updates” are enabled by default',
+        'text_nonfree' => 'De Nonfree-repository bevat pakketten die gratis verspreid mogen worden, dat wil zeggen dat Mageia vrij
+                is om ze te distribueren, maar welke niet vrije software bevatten; Voorbeelden van pakketten die in deze
+                repository zitten zijn bijvoorbeeld de bedrijfseigen drivers voor op nVidia en ATI gebaseerde grafische kaarten,
+                firmware for diverse Wi-Fi-kaarten, enz. De Nonfree media worden standaard toegevoegd en
+                “Nonfree Release” en “Nonfree Updates” staan standaard ingeschakeld',   
         'h4_tainted' => 'Tainted:',
-        'text_tainted' => 'The Tainted repository includes packages under various licenses, free and nonfree ones, but the main
-                            criteria for packages in this repository is that they may infringe patents and copyright laws in some
-                            countries in the world (e.g. multimedia codecs needed to play various audio/video files, packages needed
-                            to play commercial video DVD… etc); as such the set of the Tainted media is added by default but
-                            <strong>not</strong> enabled by default, i.e. it\'s completely opt-in; so check
-                            your local laws before using packages from this repository. This repository is only added for the
-                            convenience of the users. This repository is to    Mageia what PLF is to Mandriva users or RPM Fusion is
-                            to Fedora users.'
+        'text_tainted' => 'De Tainted-repository bevat pakketten uitgebracht onder diverse licenties, zowel vrije als niet vrije, maar
+                hebben als belangrijkste kenmerk dat de inhoud van deze pakketten, volgens de patent- of copyright-wetgeving
+                in bepaalde landen, (mogelijk) inbreuk maken op de rechten van de patent- of copyright-houder. Voorbeelden 
+                hiervan zijn bijvoorbeeld multimedia codecs om bepaalde audio- en videobestandsformaten af te kunnen spelen,
+                of pakketten welke nodig zijn om commerciële DVD\'s af te kunnen spelen. Om deze redenen worden deze Tainted
+                media wel toegevoegd, maar staan ze standaard <strong>niet</strong> ingeschakeld. Met andere woorden zijn
+                bronnen \'opt-in\' en dient u zelf te beslissen of u deze repositories wel of niet inschakelt; Deze repository
+                wordt aangeboden voor het gemak van de gebruiker, maar controleert u alstublieft zelf welke lokale wetgeving
+                van toepassing is alvorens pakketten uit deze repository te gebruiken. Deze repository voor Mageia is te 
+                vergelijken met de rol die de PLF-repository voor Mandriva-gebruikers speelt of RPM-Fusion voor Fedora-gebruikers.'
     ),
     'de' => array(
                 'page_title' => 'Mageia 1 Release-Notes',
