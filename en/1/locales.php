@@ -132,7 +132,7 @@ $_t = array(
         '1_desc' => 'Mageia 1 è una nuova distribuzione Linux basata sulla comunità.',
         '1_kw' => 'mageia, 1, prima release, linux, mandriva, software libero',
         'img_desktop' => 'Mageia 1 Desktop KDE',
-        'download_it' => 'Download it',
+        'download_it' => 'Scaricala',
         'mageia_is' => 'Mageia 1 è una distribuzione GNU/Linux per il tuo computer,
                         rilasciata dalla comunità Mageia.',
         'h3_what_is' => 'Cosa c\'è dentro?',
