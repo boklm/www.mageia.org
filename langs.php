@@ -85,7 +85,8 @@ $nav_list = array(
     ),
     '/support/' => array(
         'en' => 'Support',
-        'fr' => 'Assistance'
+        'fr' => 'Assistance',
+        'de' => 'Unterstützung'
     ),
     /*
     '/community/' => array(
@@ -94,7 +95,11 @@ $nav_list = array(
     ),
     */
     'http://forums.mageia.org/' => 'Forum',
-    '/contribute/' => 'Contribute',
+    //'/contribute/' => 'Contribute',
+    '/contribute/' => array(
+            'en' => 'Contribute',
+            'de' => 'Mitwirken'
+    ),
     '/wiki/' => 'Wiki',
     /*
     '/en/calendar/' => array(
