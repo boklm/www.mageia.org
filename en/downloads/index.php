@@ -14,12 +14,13 @@ $_t['page_title'] = sprintf($_t['page_title'], 'Mageia 1');
     <link rel="stylesheet" type="text/css" href="/g/style/all.css">
     <?php include '../../analytics.php'; ?>
 </head>
-<body>
+<body class="release">
     <?php include '../../langs.php'; ?>
     <div id="doc" class="yui-t7">
         <div id="hd" role="banner"><h1><a id="logo" href="/"><span>Mageia</span></a> <span class="lsep">|</span> <span class="subh"><?php echo $_t['page_h1']; ?></span></h1></div>
         <div id="bd" role="main">
             <div class="yui-g">
+                <?php include '../1/nav.php'; ?>
                 <div class="para">
                 <p><?php echo $_t['dl_help']; ?>
                     <?php echo $_t['dl_migrate_instead']; ?></p>
