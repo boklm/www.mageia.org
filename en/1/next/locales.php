@@ -38,10 +38,10 @@ $_t = array(
                         and <a href="http://twitter.com/mageia_org">Twitter account</a>!'
     ),
     'de' => array(
-        'page_title' => 'Mageia 1 &ndash; And nun?',
+        'page_title' => 'Mageia 1 &ndash; Und nun?',
         'page_desc' => '',
         'page_kw' => 'mageia, mandriva, upgrade, migrate',
-        'page_h1' => 'And nun?',
+        'page_h1' => 'Und nun?',
         'h2_spread_word' => 'Erzählen Sie es weiter!',
         'h2_party' => 'Feiern Sie mit uns!',
         'h2_what_do' => 'Was werden <strong>Sie</strong> damit tun?',
