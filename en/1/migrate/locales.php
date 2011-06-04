@@ -455,7 +455,7 @@ $_t = array(
         'h3_feedback' => 'Soovite saata meile tagasisidet?',
         'tweet_it' => 'Saatke lihtsalt <a href="http://twitter.com/mageia_org">säuts @mageia_org</a> peale.'
     ),
-    'zh_TW' => array(
+    'zh-tw' => array(
         'page_title' => '從 Mandriva Linux 升級到 Mageia',
         'page_desc' => '如何用簡單幾個步驟將 Mandriva Linux 2010.1/2010.2 升級為 Mageia 1。',
         'page_kw' => 'mageia, mandriva, upgrade, migrate',

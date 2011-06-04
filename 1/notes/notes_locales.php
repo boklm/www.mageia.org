@@ -220,7 +220,7 @@ $_t = array(
                             convenience of the users. This repository is to    Mageia what PLF is to Mandriva users or RPM Fusion is
                             to Fedora users.'
 	),
-    'zh_TW' => array(
+    'zh-tw' => array(
         'page_title' => 'Mageia 1 釋出通告',
         'page_desc' => 'Mageia 1 釋出通告',
         'page_kw' => 'mageia, release notes, Mga1',
