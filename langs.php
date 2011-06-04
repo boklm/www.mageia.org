@@ -95,10 +95,10 @@ $nav_list = array(
     ),
     */
     'http://forums.mageia.org/' => 'Forum',
-    //'/contribute/' => 'Contribute',
     '/contribute/' => array(
-            'en' => 'Contribute',
-            'de' => 'Mitwirken'
+        'en' => 'Contribute',
+        'de' => 'Mitwirken',
+        'fr' => 'Contribuer'
     ),
     '/wiki/' => 'Wiki',
     /*

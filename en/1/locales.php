@@ -233,7 +233,7 @@ $_t = array(
                         <a href="http://mageia.org/wiki/doku.php?id=org">anerkannten und gewählten Mitgliedern geleitet</a> und von mehr als 100 Menschen aus aller Welt zusammengestellt..',
         'our_work' => 'Unsere Arbeit beruht auf der exzellenten Arbeit der weltweiten Community rund um Linux und freier Software. Unser Ziel ist die Herausgabe einer der besten, stabilsten, zuverlässigsten und zugleich erfreulichsten Distributionen sowohl für den normalen Benutzer als auch für den Entwickler oder die Geschäftswelt.',
         'encourage_you' => 'Und wir laden Sie dazu ein, <a href="/en/contribute/">dabei zu sein</a>, ganz nach Ihrer eigenen Zeiteinteilung und Ihrer beruflichen Beanspruchung.',
-        '9_months' => '9&nbsp;Monate nach <a href="/en/about/2010-sept-announcement.html">der Gründung</a> haben wir:',
+        '9_months' => '9&nbsp;Monate nach <a href="/de/about/2010-sept-announcement.html">der Gründung</a> haben wir:',
         'people' => '<a href="/de/contribute/">100+&nbsp;Helfer</a> in <a href="/wiki/doku.php?id#teams">10+ Teams</a>.
                         <a href="/en/thank-you/">160+&nbsp;großzügige Spender</a> von
                         <a href="/de/donate/">8.800+&nbsp;EUR</a>, von denen bisher
@@ -288,10 +288,10 @@ $_t = array(
                         <a href="http://mirrors.mageia.org/">19&nbsp;peegelsaiti kogu maailmas</a>.',
         'languages' => '<a href="http://mageia.org/?langs">21 keelde</a> tõlgitud veebilehekülg,
                         <a href="">161 keelde</a> tõlgitud distributsioon.',
-        'distribution' => 'Kõik see <a href="http://mageia.org/en/1/">üheainsa distributsiooni</a> tarbeks,
+        'distribution' => 'Kõik see <a href="http://mageia.org/et/1/">üheainsa distributsiooni</a> tarbeks,
                         mis on nüüd teie jaoks valmis.',
         'users' => 'Kui palju kasutajaid? Seda näitab vaid aeg.',
-        'in_for_you' => 'Ent tähtsam kui uhkustavad arvud on see, <a href="/en/1/next/">mida see võimaldab teil teha?</a>'
+        'in_for_you' => 'Ent tähtsam kui uhkustavad arvud on see, <a href="/et/1/next/">mida see võimaldab teil teha?</a>'
     ),
     'nl' => array(
         '1_title' => 'Mageia 1',
@@ -314,7 +314,7 @@ $_t = array(
                         en Vrije Software-gemeenschap. Het is ons doel om een van de beste,
                         meest stabiele, betrouwbare en plezierige ervaringen en platform te maken
                         voor zowel de thuisgebruiker, ontwikkelaars of in het bedrijfsleven.',
-        'encourage_you' => 'Wij moedigen u aan <a href="/en/contribute/">om met ons meet te doen</a>,
+        'encourage_you' => 'Wij moedigen u aan <a href="/nl/contribute/">om met ons meet te doen</a>,
                         in uw vrije tijd of als onderdeel van uw professionele werkzaamheden.',
         '9_months' => '9&nbsp;maanden na de <a href="/nl/about/2010-sept-announcement.html">aanvangsdatum</a> hebben wij het volgende bereikt:',
         'people' => '<a href="">Meer dan 100 mensen hebben bijgedragen</a> in <a href="/wiki/doku.php?id#teams">meer dan 10 verschillende teams</a>.
@@ -330,7 +330,7 @@ $_t = array(
                         <a href="http://mirrors.mageia.org/">19&nbsp;spiegelservers (mirrors) wereldwijd</a>.',
         'languages' => '<a href="http://mageia.org/?langs">In 21 talen</a> gelokaliseerde website,
                         <a href="">in 161 talen</a> (gedeeltelijk) gelokaliseerde distributie.',
-        'distribution' => 'Dit alles bevindt zich in <a href="http://mageia.org/en/1/">één distributie</a>,
+        'distribution' => 'Dit alles bevindt zich in <a href="http://mageia.org/nl/1/">één distributie</a>,
                         gereed voor u, en *nu* beschikbaar.',
         'users' => 'Hoeveel gebruikers? De tijd zal het uitwijzen.',
         'in_for_you' => 'Maar belangrijker dan deze mooie maar ijdele cijfers is het volgende: <a href="/nl/1/next/">wat betekent dit allemaal voor u?</a>'
@@ -346,15 +346,15 @@ $_t = array(
         'plenty_see_notes' => '很多很多！您可以看看<a href="notes/">釋出通告</a>裡所寫的。.',
         'h3_context' => 'Mageia 綜觀',
         'mageia_began' => 'Mageia 在 2010 年九月時，
-                        <a href="/en/about/2010-sept-announcement.html">由 Mandriva Linux</a> 分支出來。
+                        <a href="/zh-tw/about/2010-sept-announcement.html">由 Mandriva Linux</a> 分支出來。
                         它由一個<a href="/en/about/">非營利團體</a>支持，並由全世界一百個以上的貢獻者所組織並選出來的貢獻者
                         <a href="http://mageia.org/wiki/doku.php?id=org">主導</a>。',
         'our_work' => '我們將多個 Linux 與自由軟體社群貢獻的成果加入。我們希望能帶給大家最好的，最穩定的，最可信賴的，並且是最愉快的經驗與平台，不管是對一般使用者，開發者或是商業用途。',
-        'encourage_you' => '我們也鼓勵各位在您的空閒時刻<a href="/en/contribute/">加入我們的行列</a>。',
-        '9_months' => '從<a href="/en/about/2010-sept-announcement.html">開始</a>算起，九個月的時間我們達到了：',
+        'encourage_you' => '我們也鼓勵各位在您的空閒時刻<a href="/zh-tw/contribute/">加入我們的行列</a>。',
+        '9_months' => '從<a href="/zh-tw/about/2010-sept-announcement.html">開始</a>算起，九個月的時間我們達到了：',
         'people' => '<a href="">超過 100 名以上的貢獻者</a>組成了<a href="/wiki/doku.php?id#teams">10 個以上的團隊</a>。
                         <a href="/en/thank-you/">超過 180 筆以上的捐款</a>，共計超過了
-                        <a href="/en/donate/">11,700 歐元。</a>
+                        <a href="/zh-tw/donate/">11,700 歐元。</a>
                         目前只花了<a href="/en/about/reports/">4,700 歐元</a>左右。預計在 2011 年會有超過 20,000 歐元的捐款。',
         'prereleases' => '釋出了 5 個中間測試版本。
                         7,389 個軟體源碼套件，
@@ -362,9 +362,9 @@ $_t = array(
         'servers' => '7 台伺服器，3 個資料中心（位於法國的巴黎與馬賽），
                         <a href="http://mirrors.mageia.org/">19 個映射站台</a>分布在世界各地。',
         'languages' => '<a href="http://mageia.org/?langs">21 種語言</a>的網站，以及<a href="">161 種語言</a>的軟體套件。',
-        'distribution' => '以上所有的成果，現在都在<a href="http://mageia.org/en/1/">第 1 版發行套件</a>裡呈現給您。',
+        'distribution' => '以上所有的成果，現在都在<a href="http://mageia.org/zh-tw/1/">第 1 版發行套件</a>裡呈現給您。',
         'users' => '會有多少使用者？時間會告訴我們答案。',
-        'in_for_you' => '但是更重要的是：<a href="/en/1/next/">它能為您做什麼？</a>',
+        'in_for_you' => '但是更重要的是：<a href="/zh-tw/1/next/">它能為您做什麼？</a>',
     ),
     'el' => array(
         '1_title' => 'Mageia 1',
@@ -420,7 +420,7 @@ $_t = array(
         'plenty_see_notes' => 'Foarte multe! Consultați <a href="notes/">notele ediției</a> pentru o expunere detaliată.',
         'h3_context' => 'Mageia în context',
         'mageia_began' => 'Mageia și-a început drumul în septembrie 2010 ca
-                        <a href="/en/about/2010-sept-announcement.html">o derivație de Mandriva Linux</a>.
+                        <a href="/ro/about/2010-sept-announcement.html">o derivație de Mandriva Linux</a>.
                         Este susținută de o <a href="/en/about/">asociație not-profit</a>,
                         <a href="http://mageia.org/wiki/doku.php?id=org">guvernată de</a>
                         un grup de contribuitori aleși și recunoscuți</a>,
@@ -429,12 +429,12 @@ $_t = array(
                         Linux și a aplicațiilor libere. Țelul nostru este să creăm una din platformele
             cele mai stabile, robuste și agreabile cu putință; atît pentru utilizatoul obișnuit,
                         dezvoltator sau întreprindere.',
-        'encourage_you' => 'Și vă încurajăm să <a href="/en/contribute/">participați la proiect</a>,
+        'encourage_you' => 'Și vă încurajăm să <a href="/ro/contribute/">participați la proiect</a>,
                         în timpul liber sau în cadrul activității voastre profesionale.',
-        '9_months' => 'În 9&nbsp;luni de la <a href="/en/about/2010-sept-announcement.html">lansarea proiectului</a> am atins mai                   bine de:',
+        '9_months' => 'În 9&nbsp;luni de la <a href="/ro/about/2010-sept-announcement.html">lansarea proiectului</a> am atins mai                   bine de:',
         'people' => 'Peste <a href="">100 de contribuitori</a> în <a href="/wiki/doku.php?id#teams">peste 10 echipe</a>.
                         Peste <a href="/en/thank-you/">160 de donatori generoși</a> pentru un total de
-                        peste <a href="/en/donate/">8.800 EUR</a> din care s-au cheltuit pînă acum numai <a href="/en/about/reports/">1.277 EUR</a> cu 20.000 EUR prevăzuți pentru 2011.',
+                        peste <a href="/ro/donate/">8.800 EUR</a> din care s-au cheltuit pînă acum numai <a href="/en/about/reports/">1.277 EUR</a> cu 20.000 EUR prevăzuți pentru 2011.',
         'prereleases' => '5&nbsp;versiuni tehnice intermediare.
                         7.389&nbsp;de pachete sursă,
                         2&nbsp;&times;&nbsp;14.226&nbsp;de pachete binare pentru 2&nbsp;arhitecturi (i586 și x86_64
@@ -443,9 +443,51 @@ $_t = array(
                         <a href="http://mirrors.mageia.org/">19&nbsp;serevere alternative</a> mondiale.',
         'languages' => 'Un sit web tradus în <a href="http://mageia.org/?langs">21 de limbi</a>,
                         o distribuție localizată în <a href="">161 de limbi</a>.',
-        'distribution' => 'Toate acestea pentru <a href="http://mageia.org/en/1/">o singură distribuție</a>,
+        'distribution' => 'Toate acestea pentru <a href="http://mageia.org/ro/1/">o singură distribuție</a>,
                         care este acum la dispoziția dumneavoastră.',
         'users' => 'Cît de mulți utilizatori? Timpul ne-o va spune.',
-        'in_for_you' => 'Însă ce este mult mai imporant decît aceste cifre: <a href="/en/1/next/">ce va face Mageia pentru voi?</a>'
+        'in_for_you' => 'Însă ce este mult mai imporant decît aceste cifre: <a href="/ro/1/next/">ce va face Mageia pentru voi?</a>'
+    ),
+    'nb' => array(
+        '1_title' => 'Mageia 1',
+        '1_desc' => 'Mageia 1 en ny brukerstyrt Linux-distribusjon.',
+        '1_kw' => 'mageia, 1, første utgave, linux, mandriva, fri programvare',
+        'img_desktop' => 'Mageia 1 KDE',
+        'download_it' => 'Last ned',
+        'mageia_is' => 'Mageia 1 er en GNU/Linux distribusjon for datamaskinen,
+                        utgitt av Mageia-miljøet.',
+        'h3_what_is' => 'Hva er det?',
+        'plenty_see_notes' => 'Mye! Les <a href="notes/">utgivelsesnotatene</a> for mer informasjon.',
+        'h3_context' => 'Mageia satt i en sammenheng',
+        'mageia_began' => 'Mageia startet i september 2010 som
+                        <a href="/nb/about/2010-sept-announcement.html">en fogreining av Mandriva Linux</a>.
+                        Den støttes av en <a href="/en/about/">ikke-økonomisk organisasjon</a>,
+                        <a href="http://mageia.org/wiki/doku.php?id=org">styrt av</a>
+                        valgte og profilerte bidragsytere</a>.
+                        Mageia blir på verdensbasis utviklet av mer enn 100 personer.',
+        'our_work' => 'Our work adds to the excellent work of the wider Linux 
+                        and Free Software community. Vi har som mål å lage en av de mest stabile,
+                        pålitelige og fornøyelige plattformene for en vanlig bruker, utviklere,
+                        eller en bedrift.',
+        'encourage_you' => 'Og vi oppfordrer deg til å bli <a href="/nb/contribute/">en del av det</a>,
+                        på fritiden eller gjennom eget arbeid.',
+        '9_months' => '9&nbsp;Siden <a href="/nb/about/2010-sept-announcement.html">unnfangelsen</a> har vi fått:',
+        'people' => '<a href="">100+&nbsp;bidragsytere</a> i <a href="/wiki/doku.php?id#teams">10+ lag</a>.
+                        <a href="/en/thank-you/">160+&nbsp;generøse donorer</a> av
+                        <a href="/nb/donate/">8,800+&nbsp;EUR</a>
+                        med kun <a href="/en/about/reports/">1,277 brukt</a> til nå
+                        og 20,000 satt av til 2011.',
+        'prereleases' => '5&nbsp;intermediary technical releases.
+                        7.389&nbsp;kildepakker,
+                        2 &times; 14.226&nbsp;binærpakker for 2&nbsp;arkitekturer (i586 and x86_64
+                        &ndash; ARM er på vei).',
+        'servers' => '7&nbsp;tjenere, 3&nbsp;datasentere (Paris and Marseille, France),
+                        <a href="http://mirrors.mageia.org/">19&nbsp;verdensomspennende speil</a>.',
+        'languages' => '<a href="http://mageia.org/?langs">nettsted på 21 språk</a>,
+                        <a href="">distribusjonen oversatt til 161 språk</a>.',
+        'distribution' => 'Alt dette i <a href="http://mageia.org/nb/1/">en distribusjon</a>,
+                        klar for deg.',
+        'users' => 'Hvor mange brukere? Bare tiden vil vise.',
+        'in_for_you' => 'Viktigere en tilfeldig statistikk: <a href="/nb/1/next/">hva vil det gjøre for deg?</a>'
     )
 );
