@@ -80,6 +80,7 @@ $nav_list = array(
         'es' => 'Descargas',
         'et' => 'Allalaadimine',
         'fr' => 'Téléchargements',
+        'it' => 'Scarica',
         'ro' => 'Descărcați',
         'ru' => 'Загрузить',
         'zh-tw' => '下載'
@@ -88,7 +89,8 @@ $nav_list = array(
         'en' => 'Support',
         'fr' => 'Assistance',
         'de' => 'Unterstützung',
-        'es' => 'Soporte'
+        'es' => 'Soporte',
+        'it' => 'Supporto'
     ),
     /*
     '/community/' => array(
@@ -104,7 +106,8 @@ $nav_list = array(
         'en' => 'Contribute',
         'de' => 'Mitwirken',
         'es' => 'Contribuir',
-        'fr' => 'Contribuer'
+        'fr' => 'Contribuer',
+        'it' => 'Contribuire'
     ),
     '/wiki/' => 'Wiki',
     /*
@@ -145,6 +148,7 @@ $nav_list = array(
         'es' => 'Donaciones',
         'et' => 'Annetused',
         'fr' => 'Dons',
+        'it' => 'Donazioni',
         'pl' => 'Dotacje',
         'pt' => 'Doações',
         'tr' => 'Bağışlar',
@@ -155,7 +159,8 @@ $nav_list = array(
         'en' => 'About',
         'fr' => 'À propos',
         'de' => 'Über',
-        'es' => 'Acerca de'
+        'es' => 'Acerca de',
+        'it' => 'A proposito di'
     ),
 );
 
