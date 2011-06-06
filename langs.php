@@ -75,18 +75,20 @@ $nav_list = array(
     ),
     "/downloads/" => array(
     //"/{$locale}/downloads/" => array(
-        'de' => 'RC herunterladen',
+        'de' => 'Herunterladen',
         'en' => 'Downloads',
-        'et' => 'RC allalaadimine',
+        'es' => 'Descargas',
+        'et' => 'Allalaadimine',
         'fr' => 'Téléchargements',
-        'ro' => 'Descărcați RC',
-        'ru' => 'Загрузить RC',
-        'zh-tw' => '下載 RC'
+        'ro' => 'Descărcați',
+        'ru' => 'Загрузить',
+        'zh-tw' => '下載'
     ),
     '/support/' => array(
         'en' => 'Support',
         'fr' => 'Assistance',
-        'de' => 'Unterstützung'
+        'de' => 'Unterstützung',
+        'es' => 'Soporte'
     ),
     /*
     '/community/' => array(
@@ -94,10 +96,14 @@ $nav_list = array(
         'fr' => 'Communauté'
     ),
     */
-    'http://forums.mageia.org/' => 'Forum',
+    'http://forums.mageia.org/' => array(
+        'en' => 'Forum',
+        'es' => 'Foro'
+    ),
     '/contribute/' => array(
         'en' => 'Contribute',
         'de' => 'Mitwirken',
+        'es' => 'Contribuir',
         'fr' => 'Contribuer'
     ),
     '/wiki/' => 'Wiki',
@@ -148,7 +154,8 @@ $nav_list = array(
     '/en/about/' => array(
         'en' => 'About',
         'fr' => 'À propos',
-        'de' => 'Über'
+        'de' => 'Über',
+        'es' => 'Acerca de'
     ),
 );
 
