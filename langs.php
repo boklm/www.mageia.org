@@ -68,14 +68,15 @@ $nav_list = array(
     "http://blog.mageia.org/{$locale}" => array(
         'el' => 'Ιστολόγιο',
         'en' => 'Blog',
-        //'fr' => 'Actus',
         'et' => 'Ajaveeb',
+        //'fr' => 'Actus',
         'tr' => 'Web Günlüğü',
         'ru' => 'Блог'
     ),
     "/downloads/" => array(
     //"/{$locale}/downloads/" => array(
         'de' => 'Herunterladen',
+        'el' => 'Λήψεις',
         'en' => 'Downloads',
         'es' => 'Descargas',
         'et' => 'Allalaadimine',
@@ -86,10 +87,11 @@ $nav_list = array(
         'zh-tw' => '下載'
     ),
     '/support/' => array(
-        'en' => 'Support',
-        'fr' => 'Assistance',
         'de' => 'Unterstützung',
+        'el' => 'Υποστήριξη',
+        'en' => 'Support',
         'es' => 'Soporte',
+        'fr' => 'Assistance',
         'it' => 'Supporto'
     ),
     /*
@@ -99,12 +101,14 @@ $nav_list = array(
     ),
     */
     'http://forums.mageia.org/' => array(
+        'el' => 'Φόρουμ',
         'en' => 'Forum',
         'es' => 'Foro'
     ),
     '/contribute/' => array(
-        'en' => 'Contribute',
         'de' => 'Mitwirken',
+        'el' => 'Συνεισφέρετε',
+        'en' => 'Contribute',
         'es' => 'Contribuir',
         'fr' => 'Contribuer',
         'it' => 'Contribuire'
@@ -156,10 +160,11 @@ $nav_list = array(
         'ru' => 'Пожертвования'
     ),
     '/en/about/' => array(
-        'en' => 'About',
-        'fr' => 'À propos',
         'de' => 'Über',
+        'el' => 'Σχετικά',
+        'en' => 'About',
         'es' => 'Acerca de',
+        'fr' => 'À propos',
         'it' => 'A proposito di'
     ),
 );
