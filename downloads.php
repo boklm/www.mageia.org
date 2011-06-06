@@ -14,6 +14,7 @@ $_t = array_merge($_t['en'], $_t[$locale]);
 
 $prods = parse_ini_file('downloads.ini', true);
 $countries = array(
+    'AU' => 'Australia',
     'BR' => 'Brasil',
     'CA' => 'Canada',
     'CH' => 'Switzerland',
