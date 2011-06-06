@@ -99,20 +99,20 @@ $_t = array(
         'mageia_began' => 'Mageia comenzó en Septiembre de 2010 como 
                         <a href="/es/about/2010-sept-announcement.html">un derivado (fork) de Mandriva Linux</a>.
                         Es apoyado por una <a href="/en/about/">organización sin fines de lucro</a>,
-                        <a href="http://mageia.org/wiki/doku.php?id=org">governada por</a>
+                        <a href="http://mageia.org/wiki/doku.php?id=org">gobernada por</a>
                         un cuerpo de reconocidos y electos contribuidores</a>,
                         y hecha por mas de 100 personas alrededor del mundo.',
         'our_work' => 'Nuestro trabajo se suma al excelente trabajo de la comunidad de Linux
-                        y del Software Libre. Queremos llevarle una de las mejores,
-                        más estables, confiable y agradable experiencia y plataforma que podemos hacer;
-                        para un usuario regular, un desarrollador o para un negocio.',
-        'encourage_you' => 'Le instamos a <a href="/es/contribute/">ser parte de ello</a>,
-                        en su propio tiempo o por medio de su actividad profesional.',
-        '9_months' => 'Hemos llegado a 9&nbsp;meses desde el <a href="/es/about/2010-sept-announcement.html">origen</a>:',
-        'people' => '<a href="/es/contribute/">Más de 100&nbsp;contribuidores</a> en <a href="/wiki/doku.php?id#teams">más de 10 equipos</a>.
-                        <a href="/en/thank-you/">más de 180&nbsp; generosos donantes</a> of
-                        <a href="/es/donate/">más de 11.700&nbsp;EUR</a>
-                        con sólo <a href="/en/about/reports/2011/">4.700 gastados</a> hasta ahora
+                        y del Software Libre. Queremos llevarle una de las mejores y 
+                        más estables plataformas que podemos construir, brindándole una experiencia confiable y agradable;
+                        para un usuario normal, un desarrollador o para un negocio.',
+        'encourage_you' => 'Lo invitamos a <a href="/es/contribute/">formar parte de ello</a>,
+                        en su tiempo libre o mediante su actividad profesional.',
+        '9_months' => 'Han pasado a 9&nbsp;meses desde que <a href="/es/about/2010-sept-announcement.html">empezamos</a>:',
+        'people' => '<a href="">Más de 100&nbsp;colaboradores</a> en <a href="/wiki/doku.php?id#teams">más de 10 equipos</a>.
+                        <a href="/en/thank-you/">más de 160&nbsp; generosos donantes</a> de
+                        <a href="/es/donate/">más de 8.800&nbsp;EUR</a>
+                        con sólo <a href="/en/about/reports/">1.277 gastados</a> hasta ahora
                         y 20.000 previstos para 2011.',
         'prereleases' => '5&nbsp; versiones técnicas intermedias.
                         7.389&nbsp; paquetes fuente,
@@ -120,12 +120,12 @@ $_t = array(
                         &ndash; ARM está en camino).',
         'servers' => '7&nbsp;servidores, 3&nbsp;centros de datos (París y Marsella, Francia),
                         <a href="http://mirrors.mageia.org/">19&nbsp;espejos alrededor del mundo</a>.',
-        'languages' => '<a href="http://mageia.org/?langs">21-idiomas</a> sitio Web localizado,
-                        <a href="">161-idiomas</a> distributión localizada.',
+        'languages' => 'Sitio Web traducido a <a href="http://mageia.org/?langs">21-idiomas</a>,
+                        distribución traducida a <a href="">161-idiomas</a>.',
         'distribution' => 'Todo esto por <a href="http://mageia.org/es/1/">una distribución</a>,
                         lista para tí, ahora.',
         'users' => '¿Cuántos usuarios? El tiempo lo dirá.',
-        'in_for_you' => 'Pero más importante que cifras vanidosas: <a href="/es/1/next/">¿qué hará para tí?</a>'
+        'in_for_you' => 'Pero más importante que las cifras vanidosas es <a href="/es/1/next/">¿qué hará Mageia para tí?</a>'
     ),
     'it' => array(
         '1_title' => 'Mageia 1',
