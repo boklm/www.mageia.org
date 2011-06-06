@@ -840,15 +840,14 @@ Mějte na paměti, že na překladech se ještě pracuje.',
     'pt' => array(
         'download' => 'download',
         'page_title' => 'Download %s',
-        'page_desc' => 'Where you can download Mageia installable and live ISO images.',
-        'page_kw' => 'mageia, software, download, operating system, ISO, computer, torrent, ftp',
+        'page_desc' => 'Onde você pode fazer download da imagens ISO da  Mageia instalável e liveCDs.',
+        'page_kw' => 'mageia, software, download, sistema operacional, ISO, computador, torrent, ftp',
         'page_h1' => 'Download %s',
-        'warn_1' => 'Be Careful!
-            This is NOT FOR: use, public review, personal or production evaluation.
-            This is FOR: developers, packagers, test users ONLY.',
-        'warn_2' => 'Whatever you may do with the provided ISO disc image
-                will be done at your own risk, with your own responsibility.',
-        'title_ok' => 'You still want to download and test Mageia 1?',
+        'warn_1' => 'Tenha cuidado!
+            Isto NÃO É PARA: uso, utilização publica, pessoal ou avaliação de produção.
+            Isto é PARA: somente desenvolvedores, empacotadores e usuários testadores.',
+        'warn_2' => 'Basta escolher a imagem ISO que for melhor para você. Se você não tiver certeza de qual é a melhor para você, você deve escolher entre as duas primeiras.',
+        'title_ok' => 'Você ainda deseja fazer o download e teste com o Mageia 1?',
         'dl_help' => 'Basta escolher a imagem ISO que for melhor para você. Se você não tiver certeza, você deve escolher entre as duas primeiras.',
         'changes_since_a2' => 'Alterações desde o Beta 2',
         'release_docs' => 'Documentos de Lançamento',
@@ -858,34 +857,34 @@ Mějte na paměti, že na překladech se ještě pracuje.',
         'popularity' => 'Popularidade',
         'language' => 'Idiomas',
         'link' => 'Link Direto',
-        'dl_shld_start' => 'Your download of %s should start within a few seconds',
-        'dl_size' => '(download size is about %s).',
-        'alt_download' => 'If the download does not start, <a href="%s" rel="nofollow" title="%s">click here</a>.',
-        'signs_check_1' => 'As soon as your download is complete, you should check that the signatures match:',
-        'signs_check_2' => 'If signatures do not match, do not use this ISO. Double-check and try to download again.',
-        'dl_mirror_loc' => 'This <a href="%s">%s</a> download mirror is located in %s (%s).',
-        'dl_alt_mirrors' => 'If it does not work well for you, <a href="#om" id="other_mirrors_btn">check out these other mirrors</a>.',
-        'whatdouthink?' => 'What do you think of it?',
-        'give_feedback' => 'You are very welcome to give your impressions on Mageia 1, wherever you want:
-                on <a href="http://forums.mageia.org/">our forums</a>,
-                <a href="http://blog.mageia.org/">our blog</a>, on <em>your</em> blog,
-                on Twitter (<a href="http://twitter.com/mageia_org">@mageia_org</a>).
-                In any case, please link to <a href="http://mageia.org/">mageia.org</a>.',
-        'report_bug' => 'If you encounter a bug, please <a href="/en/support/report-a-bug/">see how to report it</a>
-                    in our bugs database so we can sort it out the best possible way.',
-        'notify_web' => 'If you notice a problem with the download process/pages, please notify the Web team on
-<a href="irc://irc.freenode.net/#mageia-web">#mageia-web</a> Freenode IRC channel so we can sort it out as fast as possible.
-Note that translations are on their way.',
-        'wanttohelp?' => 'Want to help? %sJoin Us!%s',
-        'ucanhelp' => 'Yes you can! Mageia is the result of the will and collaboration of many happy fellow volunteers across the world.',
-        'wherehelp' => 'There is a lot of areas where one can contribute to the project.
-            Be it for advocacy, prototyping,
-            %scommunication%s, %sWeb design &amp; development%s,
-            for software design, development,
-            %slocalization%s, %spackaging%s, %sQA &amp; testing%s,
-            delivery, for community support &amp; animation,
+        'dl_shld_start' => 'Seu download de %s deve iniciar dentro de alguns segundos',
+        'dl_size' => '(o tamanho do download é de aproximadamente %s).',
+        'alt_download' => 'Se o download não iniciar, <a href="%s" rel="nofollow" title="%s">clique aqui</a>.',
+        'signs_check_1' => 'Assim que o download estiver completo, você deve verificar a assinatura correspondente:',
+        'signs_check_2' => 'Se as assinaturas não correponderem, não use esta imagem ISO. Faça dupla checagem e tente o download novamente.',
+        'dl_mirror_loc' => 'Este <a href="%s">%s</a> espelho de download está localizado em %s (%s).',
+        'dl_alt_mirrors' => 'Se este não funcionou bem para você, <a href="#om" id="other_mirrors_btn">verifique outro desses espelhos</a>.',
+        'whatdouthink?' => 'O que você acha deste?',
+        'give_feedback' => 'Você é muito bem-vindo para dar sua opinião sobre o Mageia 1, onde você quiser:
+                nos <a href="http://forums.mageia.org/">our foruns</a>,
+                <a href="http://blog.mageia.org/">our blog</a>, em <em>seu</em> blog,
+                ou Twitter (<a href="http://twitter.com/mageia_org">@mageia_org</a>).
+                Em qualquer caso, por favor, link para <a href="http://mageia.org/">mageia.org</a>.',
+        'report_bug' => 'Se você encontrar um bug, por favor <a href="/en/support/report-a-bug/">veja como comunicá-lo</a>
+                    em nosso banco de dados de bugs, para que nós possamos reoslvê-lo da melhor maneira possível.',
+        'notify_web' => 'Se você observer um proplema com o processo/página de download, por favor, comunique a Equipe Web no
+<a href="irc://irc.freenode.net/#mageia-web">#mageia-web</a> canal Freenode IRC, para que possamos resolver isso o mais rápido possível.
+Note que as traduções estão no seu caminho',
+        'wanttohelp?' => 'Precisa de ajuda? %sJunte-se a nós!%s',
+        'ucanhelp' => 'Sim você pode! Mageia é o resultado da vontade e da colaboração de muitos voluntários companheiros felizes em todo o mundo.',
+        'wherehelp' => 'Existe uma série de áreas onde se pode contribuir para o projeto.
+           Seja na defesa, criação,
+            %scomunicação%s, %sWeb design &amp; desenvolvimento%s,
+            para design de software, desenvolvimento,
+            %stradução%s, %sempacotamento%s, %sQA &amp; testando%s,
+            fornecimento, para suporte comunitário &amp; animação,
             for %sdonating money%s,
-            hardware, hosting, time, for sharing the fun.',
+            hardware, hospedagem, tempo, para compartilhar divertimento.',
         'all_languages' => 'Todos os suportados&nbsp;: até 167 idiomas são suportados: 
             alemão, inglês, espanhol, francês, italiano, português, sueco, 
             holandês, polonês, dinamarquês e muito mais! Veja <a href="http://mageia.org/wiki/doku.php?id=tmp:supported_locales">a lista completa</a>.',
@@ -895,8 +894,8 @@ Note that translations are on their way.',
         disponibilizados para a versão estável.',
         'limited_languages' => 'Limitado: bielorrusso, catalão, alemão, inglês, espanhol, francês, húngaro, polonês, italiano, português, ucraniano',
         'All supported' => 'Todos suportados',
-        'English' => 'English',
+        'English' => 'Inglês',
         'Limited' => 'Limitado',
-        'European set' => 'Europa set'
+        'European set' => 'Idiomas Europeus'
     ),
 );
