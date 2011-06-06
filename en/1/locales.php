@@ -450,44 +450,42 @@ $_t = array(
     ),
     'nb' => array(
         '1_title' => 'Mageia 1',
-        '1_desc' => 'Mageia 1 en ny brukerstyrt Linux-distribusjon.',
+        '1_desc' => 'Mageia 1, en ny brukerstyrt Linux-distribusjon.',
         '1_kw' => 'mageia, 1, første utgave, linux, mandriva, fri programvare',
         'img_desktop' => 'Mageia 1 KDE',
-        'download_it' => 'Last ned',
-        'mageia_is' => 'Mageia 1 er en GNU/Linux distribusjon for datamaskinen,
-                        utgitt av Mageia-miljøet.',
-        'h3_what_is' => 'Hva er det?',
+        'download_it' => 'Last den ned',
+        'mageia_is' => 'Mageia 1 er en GNU/Linux-distribusjon utgitt av Mageia-miljøet.',
+        'h3_what_is' => 'Hva finnes i distribusjonen?',
         'plenty_see_notes' => 'Mye! Les <a href="notes/">utgivelsesnotatene</a> for mer informasjon.',
-        'h3_context' => 'Mageia satt i en sammenheng',
+        'h3_context' => 'Kort om Mageia',
         'mageia_began' => 'Mageia startet i september 2010 som
-                        <a href="/nb/about/2010-sept-announcement.html">en fogreining av Mandriva Linux</a>.
+                        <a href="/en/about/2010-sept-announcement.html">en forgreining av Mandriva Linux</a>.
                         Den støttes av en <a href="/en/about/">ikke-økonomisk organisasjon</a>,
                         <a href="http://mageia.org/wiki/doku.php?id=org">styrt av</a>
                         valgte og profilerte bidragsytere</a>.
                         Mageia blir på verdensbasis utviklet av mer enn 100 personer.',
-        'our_work' => 'Our work adds to the excellent work of the wider Linux 
-                        and Free Software community. Vi har som mål å lage en av de mest stabile,
-                        pålitelige og fornøyelige plattformene for en vanlig bruker, utviklere,
-                        eller en bedrift.',
-        'encourage_you' => 'Og vi oppfordrer deg til å bli <a href="/nb/contribute/">en del av det</a>,
+        'our_work' => 'Vårt arbeid kommer på toppen av det som blir gjort av det større Linux- og fri
+            programvare-miljøet. Vi har som mål å lage en av de mest stabile, pålitelige og
+            fornøyelige plattformene for vanlige brukere, utviklere, og bedrifter.',
+        'encourage_you' => 'Og vi oppfordrer deg til å bli <a href="/en/contribute/">en del av det</a>,
                         på fritiden eller gjennom eget arbeid.',
-        '9_months' => '9&nbsp;Siden <a href="/nb/about/2010-sept-announcement.html">unnfangelsen</a> har vi fått:',
-        'people' => '<a href="">100+&nbsp;bidragsytere</a> i <a href="/wiki/doku.php?id#teams">10+ lag</a>.
+        '9_months' => '&nbsp;Siden <a href="/en/about/2010-sept-announcement.html">unnfangelsen</a> har vi fått:',
+        'people' => '<a href="">100+&nbsp;bidragsytere</a> fordelt på <a href="/wiki/doku.php?id#teams">10+ lag</a>.
                         <a href="/en/thank-you/">160+&nbsp;generøse donorer</a> av
-                        <a href="/nb/donate/">8,800+&nbsp;EUR</a>
-                        med kun <a href="/en/about/reports/">1,277 brukt</a> til nå
-                        og 20,000 satt av til 2011.',
-        'prereleases' => '5&nbsp;intermediary technical releases.
-                        7.389&nbsp;kildepakker,
-                        2 &times; 14.226&nbsp;binærpakker for 2&nbsp;arkitekturer (i586 and x86_64
+                        <a href="/en/donate/">8,800+&nbsp;EUR</a>.
+                        Av disse har vi til nå <a href="/en/about/reports/">brukt 1,277</a>.
+                        For 2011 planlegger vi et budsjett på 20,000.',
+        'prereleases' => '5&nbsp; tekniske utgivelser.
+                        7,389&nbsp;kildepakker,
+                        2 &times; 14,226&nbsp;binærpakker for 2&nbsp;arkitekturer (i586 and x86_64
                         &ndash; ARM er på vei).',
-        'servers' => '7&nbsp;tjenere, 3&nbsp;datasentere (Paris and Marseille, France),
+        'servers' => '7&nbsp;tjenere, 3&nbsp;datasentere (Paris and Marseille, Frankrike),
                         <a href="http://mirrors.mageia.org/">19&nbsp;verdensomspennende speil</a>.',
-        'languages' => '<a href="http://mageia.org/?langs">nettsted på 21 språk</a>,
-                        <a href="">distribusjonen oversatt til 161 språk</a>.',
-        'distribution' => 'Alt dette i <a href="http://mageia.org/nb/1/">en distribusjon</a>,
-                        klar for deg.',
-        'users' => 'Hvor mange brukere? Bare tiden vil vise.',
-        'in_for_you' => 'Viktigere en tilfeldig statistikk: <a href="/nb/1/next/">hva vil det gjøre for deg?</a>'
-    )
+        'languages' => '<a href="http://mageia.org/?langs">Nettsted på 21 språk</a>,
+                        <a href="">og en distribusjon oversatt til 161 språk</a>.',
+        'distribution' => 'Alt dette i <a href="http://mageia.org/en/1/">en distribusjon</a>,
+                        klar til bruk.',
+        'users' => 'Hvor mange brukere? Bare tiden vil vise …',
+        'in_for_you' => 'Viktigere en tilfeldig statistikk: <a href="/en/1/next/">Hva gjør Mageia Linux for deg?</a>'
+    ),
 );

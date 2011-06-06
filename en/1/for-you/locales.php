@@ -48,7 +48,7 @@ $_t = array(
         'p_developers_5' => 'We\'re ready to welcome your feedback and contributions to improve this for next release - check the contact links, and contact us with questions and suggestions.',
         'h3_sysadmins' => 'Sysadmins!',
         'h3_contributors' => 'Contributors!',
-        'p_contributors' => 'Get more information <a href="../../../contribute/">here</a>.'
+        'p_contributors' => 'Get more information <a href="/en/contribute/">here</a>.'
     ),
     'uk' => array(
         'page_title' => 'Mageia 1 is for you!',
@@ -98,7 +98,7 @@ $_t = array(
         'p_developers_5' => 'Ми будемо раді вашим відгукам та участі у покращенні наступного випуску. Скористайтеся даними щодо встановлення зв’язку з нами та надсилайте ваші питання та пропозиції.',
         'h3_sysadmins' => 'Системні адміністратори!',
         'h3_contributors' => 'Учасники розробки!',
-        'p_contributors' => 'Докладнішу інформацію розміщено на <a href="../../../contribute/">цій сторінці</a>.'
+        'p_contributors' => 'Докладнішу інформацію розміщено на <a href="/ru/contribute/">цій сторінці</a>.'
     ),
     'de' => array(
         'page_title' => 'Mageia 1 ist für Sie!',
@@ -148,7 +148,7 @@ $_t = array(
         'p_developers_5' => 'Wir sind bereit, Ihre Anregungen und Beiträge für das nächste Release zu verbessern - überprüfen Sie die Kontakt-Links, und kontaktieren Sie uns bei Fragen und Anregungen.',
         'h3_sysadmins' => 'Systemadministratoren!',
         'h3_contributors' => 'Mitwirkende!',
-        'p_contributors' => 'Mehr Informationen <a href="../../../contribute/">hier</a>.'
+        'p_contributors' => 'Mehr Informationen <a href="/de/contribute/">hier</a>.'
     ),
     'it' => array(
         'page_title' => 'Mageia 1 è per voi!',
@@ -198,7 +198,7 @@ $_t = array(
         'p_developers_5' => 'Siamo pronti ad accogliere i vostri commenti e contributi per migliorare la prossima versione - controlla i collegamenti di contatto e contattaci con domande e suggerimenti.',
         'h3_sysadmins' => 'Amministratori di sistema!',
         'h3_contributors' => 'Collaboratori!',
-        'p_contributors' => 'Ottenete maggiori informazioni <a href="../../../contribute/">qui</a>.'
+        'p_contributors' => 'Ottenete maggiori informazioni <a href="/it/contribute/">qui</a>.'
     ),
     'et' => array(
         'page_title' => 'Mageia 1 on just teie jaoks!',
@@ -248,7 +248,7 @@ $_t = array(
         'p_developers_5' => 'Me ootame pingsalt teie tagasisidet ja kaastööd, et muuta järgmine väljalase veelgi etemaks - uurige lähemalt kontaktaadresse ning saatke meile oma küsimused ja ettepanekud.',
         'h3_sysadmins' => 'Süsteemiadministraatoritele!',
         'h3_contributors' => 'Kaastöölistele!',
-        'p_contributors' => 'Lugege selle kohta täpsemalt <a href="../../../contribute/">siit</a>.'
+        'p_contributors' => 'Lugege selle kohta täpsemalt <a href="/et/contribute/">siit</a>.'
     ),
     'zh-tw' => array(
         'page_title' => 'Mageia 1 是獻給您的！',
@@ -298,7 +298,7 @@ $_t = array(
         'p_developers_5' => '我們歡迎您的回饋與貢獻，來協助我們改進下一個版本 - 請與我們聯繫，提出您的問題與建議。',
         'h3_sysadmins' => '系統管理員。',
         'h3_contributors' => '貢獻者。',
-        'p_contributors' => '請到<a href="../../../contribute/">這裡</a>取得更多資訊。'
+        'p_contributors' => '請到<a href="/zh-tw/contribute/">這裡</a>取得更多資訊。'
     ),
     'fr' => array(
         'page_title' => 'Mageia 1 est pour vous&nbsp;!',
@@ -348,7 +348,7 @@ $_t = array(
         'p_developers_5' => 'Nous sommes ouverts à vos remarques et à vos contributions pour améliorer cette liste d\'ici la prochaine version de Mageia - regardez les différents moyens de nous contacter et envoyez-nous vos questions et vos suggestions.',
         'h3_sysadmins' => 'Les administrateurs système&nbsp;!',
         'h3_contributors' => 'Les contributeurs&nbsp;!',
-        'p_contributors' => 'Plus d\'informations <a href="../../../contribute/">ici</a>.'
+        'p_contributors' => 'Plus d\'informations <a href="/fr/contribute/">ici</a>.'
     ),
     'es' => array(
         'page_title' => '¡Mageia 1 es para tí!',
@@ -398,8 +398,56 @@ $_t = array(
         'p_developers_5' => 'Estamos listos para recibir sus comentarios y contribuciones para mejorar para el próximo lanzamiento - revise los enlaces de contacto y comuníquenos sus preguntas y sugerencias.',
         'h3_sysadmins' => '¡Administradores de sistemas!',
         'h3_contributors' => '¡Contribuidores!',
-        'p_contributors' => 'Obtenga más información <a href="../../../contribute/">aquí</a>.'
+        'p_contributors' => 'Obtenga más información <a href="/es/contribute/">aquí</a>.'
+    ),
+    'nb' => array(
+        'page_title' => 'Mageia 1 er for deg.',
+        'page_kw' => 'mageia, alle, bruker, utvikler, bidragsyter, hacker, student, lærer',
+        'page_h1' => 'For deg.',
+        'h2_for' => 'Mageia er for …',
+        'h3_daily' => '…det daglige arbeidet.',
+        'p_daily' => 'Med kontorpakker, utviklingsmiljøer, databaseverktøy, …',
+        'h3_fun' => '…underholding og morro.',
+        'p_fun' => 'Med spill, lyd og videoavspilling, PVR-er, …',
+        'h3_actuality' => '…aktualitet og stabilitet.',
+        'p_actuality' => 'Mageia ofrer ikke stabilitet fordi vi vil være først ute med det nyeste. Vi fokuserer heller på å tilby et stabilt system med oppdaterte pakker …',
+        'h3_universal' => '…universell bruk.',
+        'p_universal' => 'Ved å tilby en stor porsjon med programvare, dekker vi de behovene miljøet har',
+        'h3_community' => '…miljøet.',
+	'p_community' => 'Mageia er en distribusjon bygd av miljøet, for miljøet. Dette gjør at det er enkelt og komfortabelt for alle å bidra til arbeidet.',
+        'h3_people' => '…mennesker.',
+        'p_people' => 'Mageia er ikke bare et teknisk prosjekt. Mageia er et levende miljø bestående av mennesker fra hele verden. Distribusjonen er derfor laget for de som bruker den.',
+        'h2_focusing' => 'Mageia fokuserer på …',
+        'h3_users' => '<s>Brukere</s> Mennesker.',
+        'p_users_1' => 'Kjør Mageia inni eller ved siden av det eksisterende operativsystemet. Du kan også bruke en LiveCD for å prøve Mageia, uten å endre på systemet ditt.',
+        'p_users_2' => 'Enkel installasjon – velg fra en standardliste med gjøremål, eller velge individuelle pakker. Ha et fullt fungerende system innen kort tid. Velg mellom en rekke forskjellige skrivebordsmiljøer – utform databruken etter eget ønsket.',
+        'p_users_3' => 'Mageia er sikkert – stabilt og sikkert som standard. Automatiske oppdateringer og med en brannmur påslått som standard.',
+        'p_users_4' => 'En rekke programvarepakker for produktivitet – nettsurfing, e-post, kontorpakker, bildebehandling, lyd- og videospillere, CD/DVD-brenning, spill og mer.',
+        'p_users_5' => 'Lett tilgjengelige verktøy for systemadministrasjon – ta fullstendig kontroll over ditt eget system, eller bruk enkle verktøy. Nye brukere føler seg gjerne mest komfortable med standardinnstillingene.',
+        'p_users_6' => 'Støtte fra miljøet – meld deg på e-postlister og fora, eller prat med folk på IRC.',
+        'h3_developers' => 'Utviklere.',
+        'p_developers_1' => 'Vi følger UNIX-tradisjonen ved å la folk ha det gøy med datamaskinen gjennom programmering. Mageia 1 er fulllastet med forskjellige populære kompilatorer og tolkere',
+        'p_developers_2' => 'Planen vår tillot oss ikke å tilby alt vi ønsket oss, men man har likevel dekket de fleste behovene folk har.',
+        'p_developers_3' => 'Mageia tilbyr de mest brukte kompilatorene, bibliotekene og tolkerne som:',
+        'array_developers_1' => array('gcc 4.5.2',
+                'glibc 2.12.1',
+                'gtk+ 2.24.4',
+                'qt 4.7.3',
+                'perl 5.12.3',
+                'python 2.7.1',
+                'ruby 1.8.7',
+                'php 5.3.6',
+                'java openjdk 1.6.0.0',
+                'java sun 1.6.0.25'),
+        'p_developers_4' => 'Sammmen med disse grunnleggende utviklingsverktøyene, tilbyr Mageia flere IDE-er som gjør livet enklere for utviklere.',
+        'array_developers_2' => array('eclipse 3.6.2',
+                'netbeans 6.9',
+                'anjuta 2.32.1.1',
+                'kdevelop 4.2.2',
+                'padre 0.840.0'),
+        'p_developers_5' => 'Vi venter på dine tilbakemeldinger og bidrag, slik at forbedringer kommer på plass før neste utgivelse. Se å kontaktlenkene, og kontakt oss hvis du har spørsmål eller forslag.',
+        'h3_sysadmins' => 'Systemadministratorer.',
+        'h3_contributors' => 'Bidragsytere.',
+        'p_contributors' => 'Les om mer <a href="/nb/contribute/">her</a>.'
     )
 );
-
-?>
