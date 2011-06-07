@@ -244,23 +244,23 @@ $_t = array(
         'news' => 'Nieuws',
     ),
     'cs' => array(
-        'page_title' => 'Mageia - Nová linuxová distribuce',
+        'page_title' => 'Mageia - nová linuxová distribuce',
         'page_desc'  => 'Mageia je nová komunitní linuxová distribuce.',
         'page_kw'    => 'mageia, linux, mandriva, free software, operating system, computer, laptop, desktop, server, device, mobile',
         'page_h1'    => 'Nová linuxová distribuce',
         'alternate_title' => 'Mageia Blog (Český)',
         'alternate_href'  => 'http://blog.mageia.org/cs/?feed=rss',
         'about' => array(
-            'Mageia je forkem z Mandriva Linuxu
-                podporována nevýdělečnou organizací složenou
-                ze známých a zvolených přispevovatelů.',
-            'Více než jen nabízení otevřeného, stabilního, bezpečného a vhodného operačního systému se snažíme 
-                založit stabilní a důvěryhodný systém vedení a prostředí vhodné pro spolupráci.
-                (<a href="/en/about/2010-sept-announcement.html">vizte původní oznámení</a>).'
+            'Mageia je forkem Mandriva Linuxu.
+                Je podporována neziskovou organizací, která se skládá z uznaných a zvolených členů.',
+            'Vedle přípravy svobodného, bezpečného, stabilního a pro budoucnost důležitého
+                operačního systému je naším cílem vytvoření trvalého a důvěryhodného
+                týmu, aby dělal na projektech souvisejících s Mageiou
+                (<a href="/en/about/2010-sept-announcement.html">podívejte se na původní oznámení</a>).'
         ),
         'mageia-is-here' => 'Je zde Mageia 1',
-        'join-us' => 'Přidejte se!',
-        'right-now' => 'Právě teď',
+        'join-us' => 'Zapojte se!',
+        'right-now' => 'Právě se zpracovává:',
         'news' => 'Novinky',
     )
 );
