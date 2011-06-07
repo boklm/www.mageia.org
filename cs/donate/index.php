@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="cs">
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Dary pro Mageiu</title>
     <meta name="description" content="Mageia Spenden Kampagne">
     <meta name="keywords" content="mageia, spenden, donate, donation">
@@ -26,7 +26,7 @@
                         </ul>
                     </div>
                     <h2><a name="why">Proč dát dar?</a></h2>
-                    <p>Mageia.Org je organizace, která se neorientuje na zisk
+                    <p>Mageia.Org je organizace, která se neorientuje na zisk, 
                         ale spravuje distribuci Mageia. Jako taková může od společenství přijímat dary, které Mageiu podpoří v mnoha
                         různých oblastech:</p>
                     <ul>
@@ -53,7 +53,7 @@
             </div>
             <div class="yui-g"><div class="para">
                 <h2><a name="d-paypal">Darování přes PayPal,</a></h2>
-                <?php include '../../paypal.inc.php'; echo html_paypal_form('de'); ?>
+                <?php include '../../paypal.inc.php'; echo html_paypal_form('cs'); ?>
             </div></div>
             <div class="yui-g">
                 <div class="yui-u first"><div class="para" style="padding-right: 0;">

@@ -6,7 +6,7 @@
     <meta name="description" content="Mageia calendar for organization, events, development schedule and more.">
     <meta name="keywords" content="mageia, linux, calendar, events">
     <meta name="author" content="Mageia">
-    <link rel="stylesheet" type="text/css" href="/g/style/all.css">
+    <link rel="stylesheet" type="text/css" href="/g/style/all.css" >
     <?php include '../../analytics.php'; ?>
 </head>
 <body>

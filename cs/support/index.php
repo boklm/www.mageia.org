@@ -6,7 +6,7 @@
     <meta name="description" content="List of support resources for Mageia distribution.">
     <meta name="keywords" content="mageia, linux, support, help, hardware, qa, test">
     <meta name="author" content="Mageia">
-    <link rel="stylesheet" type="text/css" href="/g/style/all.css">
+    <link rel="stylesheet" type="text/css" href="/g/style/all.css" >
     <?php include '../../analytics.php'; ?>
 </head>
 <body>
@@ -44,7 +44,7 @@
                     <p>Mageia.Org distribuci neposkytuje ani nezaručuje komerční/profesionální
                         podporu nebo jiné služby.
                         Ale jsou organizace, které takové služby poskytují.</p>
-                    <p>Podívejte se, prosím, na <a href="/wiki/doku.php?id=commercial_vendors" hreflang="en">seznam prodejců</a>.</p>
+                    <p>Podívejte se, prosím, na <a href="/wiki/doku.php?id=commercial_vendors">seznam prodejců</a>.</p>
 
                     <hr />
 
@@ -54,7 +54,7 @@
                     <p>Můžete se řídit tímto seznamem, ve kterém jsou uvedeny požadavky na vybavení vašeho počítače:</p>
                     <ul class="hl">
                         <li>Procesor: jakýkoli procesor od AMD, Intelu nebo VIA;</li>
-                        <li>Paměť (RAM): 512MB minimum, 2GB recommended;</li>
+                        <li>Paměť (RAM): nejméně 512MB, doporučeno 2GB;</li>
                         <li>Ukládací prostor (pevný disk; HDD): 1GB pro tu nejmenší instalaci, 6GB pro úplnou instalaci;</li>
                         <li>Optická mechanika: CD nebo DVD v závislosti na obraze ISO, který použijete (je možné instalovat i po síti nebo přes USB disk);</li>
                         <li>Grafická karta: jakákoli grafická karta od ATI, Intelu, Matroxu, nVidie, SiS nebo VIA;</li>

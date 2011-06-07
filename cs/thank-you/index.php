@@ -1,20 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html>
 <html dir="ltr" lang="cs">
 <head>
     <meta charset="utf-8" />
     <title>Děkujeme vám za to, že děláte Mageiu a pomáháte jí žít.</title>
-    <meta name="description" content="People, organisations and services without which Mageia would not exist." />
-    <meta name="keywords" content="mageia, donate, donation, thanks, partners, help, mirrors, hosting" />
-    <meta name="author" content="Mageia" />
-    <link rel="stylesheet" type="text/css" href="/g/style/all.css" />
+    <meta name="description" content="People, organisations and services without which Mageia would not exist.">
+    <meta name="keywords" content="mageia, donate, donation, thanks, partners, help, mirrors, hosting">
+    <meta name="author" content="Mageia">
+    <link rel="stylesheet" type="text/css" href="/g/style/all.css">
     <?php include '../../analytics.php'; ?>
 </head>
 <body>
     <?php include '../../langs.php'; ?>
     
     <div id="doc" class="yui-t7">
-        <div id="hd" role="banner"><h1><a id="logo" href="/"><span>Mageia</span></a> <span class="lsep">|</span> <span class="subh">Thank <em>you</em>!</span></h1></div>
+        <div id="hd" role="banner"><h1><a id="logo" href="/"><span>Mageia</span></a> <span class="lsep">|</span> <span class="subh">Děkujeme <em>vám</em>!</span></h1></div>
         <div id="bd" role="main">
             <div class="yui-g">
                 <div class="para donate">
@@ -28,7 +27,7 @@
 
                     <?php echo html_donators_list($donators); ?>
 
-                    <p>Skvělá místa a týmy, jež nás přivítali a nabídli nám čaj, kávu, židle a radu
+                    <p>Skvělá místa a lidé, kteří nás přivítali a nabídli nám čaj, kávu, židle a radu
                         (zatím většinou v Paříži):</p>
                     <ul class="ty-ppl-list">
                         <li><a href="http://lacantine.org/">La Cantine</a></li>
@@ -41,7 +40,7 @@
                         a jeho možném dosahu: víte, kdo to jste!</p>
                     
                     <p>Tyto organizace a lidé Mageia.Org poskytli
-                        vybavení pro zrcadlení zdrojů, hostování, rady či servery,
+                        vybavení pro zrcadlení, hostování, rady k hostování, servery,
                         připojení k Internetu nebo další zařízení:</p>
                     <?php echo html_orgs_list($orgs); ?>
                 </div>
