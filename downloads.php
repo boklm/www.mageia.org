@@ -122,9 +122,7 @@ $dl_table = sprintf($table_tmpl, $_t['for_full_install'], $s1)
     . sprintf($table_tmpl, $_t['for_network'], $s3);
 
 $dl_table .= <<<T
-<p class="dlinfo">Not sure of what ISO to download? This may still be a bit verbose,
-but you may want to <a href="http://www.mageia.org/wiki/doku.php?id=mageia_installation_media">read
-this article detailing our different install media</a>.</p>
+<p class="dlinfo">{$_t['not_sure_what_iso']}</p>
 T;
 
 

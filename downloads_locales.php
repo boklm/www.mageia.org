@@ -76,7 +76,10 @@ Note that translations are on their way.',
             Hausa, Hebrew, Hindi, Igbo, Kannada, Malayalam, Marathi,
             Punjabi, Tamil, Tswana, Tsonga, Venda, Xhosa, Yoruba, Zulu.',
         'dl_migrate_instead' => 'If you are using Mandriva Linux 2010.1 or 2010.2,
-            you may directly <a href="/en/1/migrate/">upgrade your system to Mageia 1</a> as well.</p>'
+            you may directly <a href="/en/1/migrate/">upgrade your system to Mageia 1</a> as well.</p>',
+        'not_sure_what_iso' => 'Not sure of what ISO to download? This may still be a bit verbose, but you may want to
+            <a href="http://www.mageia.org/wiki/doku.php?id=mageia_installation_media">read this article detailing our 
+            different install media</a>.'
     ),
     'fr' => array(
         'download' => 'télécharger',
@@ -204,7 +207,9 @@ Beachten Sie, dass an der Übersetzung noch gearbeitet wird.',
         'limited_languages' => 'Eingeschr&auml;nkte Sprachliste: Wei&szlig;russisch, Katalonisch, Deutsch, Englishc, Spanisch, Franz&ouml;sisch, Ungarisch, Italienisch, Polnisch, Portugiesisch, Ukrainisch',
         'English' => 'Englisch',
         'Limited' => 'Eingeschr&auml;nkte Sprachliste',
-        'European set' => 'Europ&auml;ische Sprachliste'
+        'European set' => 'Europ&auml;ische Sprachliste',
+        'dl_migrate_instead' => 'Wenn Sie Mandriva Linux 2010.1 or 2010.2 benutzen,
+            können Sie Ihr System auch direkt auf <a href="/de/1/migrate/">Mageia 1 aktualisieren</a>.</p>'
         
     ),
     'nl' => array(
