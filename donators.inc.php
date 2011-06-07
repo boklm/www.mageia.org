@@ -73,7 +73,7 @@ $donators = array(
     'Werner Brinkmann',
     'Serge Moreau',
     'Jean Goujoun',
-    'Anonymous (x 10)',
+    'Anonymous (x 11)',
     'Freddy Janssens',
     'Nico Bergmann',
     'Adrien Guichard',
@@ -181,7 +181,17 @@ $donators = array(
     'Mike Crecelius',
     'Julio Geraldo',
     'Aymerich Munoz Jose Ignacio',
-    'Denis Prost'
+    'Denis Prost',
+    'Giovanni Salvi',
+    'Deri James',
+    'Jesus del Castillo Baena',
+    'Dominique Poirier',
+    'Gilles Casetou',
+    'Carlos Vives Bullejos',
+    'Allan Gendelman',
+    'Kimmo Suutala',
+    'Martin Turner',
+    'Jean-Luc Versini'
 );
 
 //$html .= '<img src="/g/images/mageia_0.svg" style="position: absolute; top: 180px; width: 300px; opacity: 0.2;" />';
@@ -217,7 +227,7 @@ $orgs = array(
 */
 function html_donators_list($donators)
 {
-    $count_donators = count($donators)+10; //count + anonymous
+    $count_donators = count($donators)+11; //count + anonymous
     //$donators = array_unique($donators);
     sort($donators);
 
