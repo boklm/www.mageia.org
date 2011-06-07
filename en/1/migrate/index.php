@@ -87,7 +87,6 @@ $_t = $_t[$locale];
                         <li><p><?php echo $_t['cli_4']; ?></p>
                             <p><code class="term">$ su<br />
                             # urpmi.addmedia --distrib http://mirrors.mageia.org/api/mageia.1.$ARCH.list</code></p>
-                            <p>with <code>$ARCH</code> being either <code>i586</code> or <code>x86_64</code></p>
                         </li>
                         <li><p><?php echo $_t['cli_5']; ?></p>
                             <p><code class="term">$ su<br />
