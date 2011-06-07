@@ -62,6 +62,11 @@ function locale_path($path)
     return $url;
 }
 
+$forums_link = 'http://forums.mageia.org/';
+// TODO pt, zh-tw, el
+if (in_array($locale, array('fr', 'de', 'es', 'pt-br')))
+    $forums_link .= $locale . '/';
+
 // global nav
 $nav_list = array(
     "/{$locale}/" => 'Mageia',
@@ -100,7 +105,7 @@ $nav_list = array(
         'fr' => 'Communauté'
     ),
     */
-    'http://forums.mageia.org/' => array(
+    $forums_link => array(
         'el' => 'Φόρουμ',
         'en' => 'Forum',
         'es' => 'Foro'
