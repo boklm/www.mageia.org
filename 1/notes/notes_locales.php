@@ -1738,7 +1738,7 @@ $_t = array(
                             La versi&oacute;n m&aacute;s reciente del famoso cliente de correo de Mozilla, Thunderbird 3.1.10, est&aacute; disponible en los repositorios online con todas las mejoras y correcciones en la serie 3.1.x, para m&aacute;s informaci&oacute;n vea las <a href="http://www.mozillamessaging.com/en-US/thunderbird/3.1.10/releasenotes/">notas de lanzamiento</a>. Las extenciones Enigmail y Lightning est&aacute;n disponibles tambi&eacute;n.',
                 '<span style="font-weight:bold;"><a href="http://www.gnome.org/projects/evolution/">Evolution</a>:</span>
                             La versi&oacute;n m&aacute;s estable 2.32.2, del famoso cliente de correo de GNOME, calendario, administrador de contactos y herramienta de comunicaci&oacute;n.'),
-        'h4_office' => 'Office',
+        'h4_office' => 'Programas para oficina',
         'array_office' => array('<span style="font-weight:bold;"><a href="http://www.documentfoundation.org/develop">LibreOffice</a>:</span>
                             <a href="http://blog.mageia.org/en/?p=190">Mageia prometi&oacute; soporte completo a LibreOffice</a>  y mantiene su promesa, la versi&oacute;n estable de LibreOffice 3.3.2.2 est&aacute; disponible en los repositorios de Mageia, nos trae una suite completa de aplicaciones de ofim&aacute;tica.',
                 '<span style="font-weight:bold;"><a href="http://www.calligra-suite.org/">Calligra</a>:</span>
@@ -1785,7 +1785,7 @@ $_t = array(
                             La versi&oacute;n 2.6.11 del famoso programa manipulador de im&aacute;genes GNU viene incluida.',
                 '<span style="font-weight:bold;"><a href="http://inkscape.sourceforge.net/">Inkscape</a>:</span>
                             La versi&oacute;n 0.48.1 del programa de dibujo vectorial SVG tambi&eacute;n viene incluida.',
-                '<span style="font-weight:bold;">Blender<a href="http://www.blender.org/"></a>:</span>
+                '<span style="font-weight:bold;"><a href="http://www.blender.org/">Blender</a>:</span>
                             El programa de diseño de alta calidad en animaci&oacute;n en su versi&oacute;n 2.49b viene incluida.'),
         'h4_ides' => 'IDEs',
         'array_ides' => array('<span style="font-weight:bold;"><a href="http://anjuta.org/">Anjuta</a>:</span>
@@ -1797,7 +1797,7 @@ $_t = array(
                 '<span style="font-weight:bold;"><a href="http://kdevelop.org/">KDevelop</a>:</span>
                             La IDE de desarrollo para KDE'),
         'h3_base_system' => 'Sistema Base',
-        'kernel' => 'Mageia viene con la serie del kernel 2.6.38, spec&iacute;ficamente la versi&oacute;n 2.6.38.7 al momento del lanzamiento, para m&aacute;s detalles sobre las mejoras en el kernel vea <a href="http://kernelnewbies.org/Linux_2_6_38">here</a>los detalles de este kernel:',
+        'kernel' => 'Mageia viene con la serie del kernel 2.6.38, spec&iacute;ficamente la versi&oacute;n 2.6.38.7 al momento del lanzamiento, para m&aacute;s detalles sobre las mejoras en el kernel vea los <a href="http://kernelnewbies.org/Linux_2_6_38">detalles de este kernel</a> :',
         'kernel_array' => array('Soporte para agrupamiento autom&aacute;tico de procesos (para m&aacute;s detalles vea el mensaje de Linus Torvalds en
                             <a href="http://lkml.org/lkml/2011/1/18/322">LKML</a> (lista de correlo del kernel de Linux); y las menciones del parche en <a href="https://lwn.net/Articles/418884/">LWN.net</a>)',
                 'Mejoras significativas de escalabilidad en la capa de VFS (Sistema de archivos virtuales).',
@@ -1827,10 +1827,10 @@ $_t = array(
         'text_scim' => 'SCIM (Smart Common Input Method), versi&oacute;n 1.4.9, tambi&eacute;n est&aacute; disponible en los repositorios oficiales.',
         'h2_available_media' => 'Medios de instalaci&oacute;n disponibles',
         'text_available_media_1' => 'Mageia cuenta con dos tipos de medios instalables:',
-        'array_available_media' => array('ISO de DVD y Dual-arch CD ISO, que utilizan el instalador tradicional drakx y ',
+        'array_available_media' => array('ISO de DVD y Dual-arch CD, que utilizan el instalador tradicional drakx y ',
                 'Live CD ISO, este es una imagen de disco viva que puede ser usada para probar la distribuci&oacute;n y tambi&eacute;n para realizar la instalaci&oacute;n de Mageia en su equipo.'),
-        'text_available_media_2' => 'Siempre encontrar&aacute; la informaci&oacute;n de descarga en la <a href="http://mageia.org/downloads/">p&aacute;gina de descarga de Mageia</a>;
-                    descargas directas (ftp and http) y por BitTorrent est&aacute;n disponibles.
+        'text_available_media_2' => 'Siempre encontrar&aacute; la informaci&oacute;n de descarga en la <a href="http://mageia.org/downloads/">p&aacute;gina de descarga de Mageia</a>,
+                    descargas directas (ftp y http) y por BitTorrent est&aacute;n disponibles.
                     Para m&aacute;s informaci&oacute;n, vea la <a href="http://www.mageia.org/wiki/doku.php?id=mageia_installation_media">p&aacute;gina de medios de instalaci&oacute;n de Mageia</a>.',
         'h2_software_repos' => 'Repositorios de software en l&iacute;nea',
         'text_software_repos_1' => 'Los paquetes en Mageia existen en tres diferentes repositorios, dependiendo del tipo de licencia de cada paquete.',
