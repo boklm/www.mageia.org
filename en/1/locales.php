@@ -141,7 +141,7 @@ $_t = array(
         'mageia_began' => 'Mageia nasce a Settembre 2010 come
                         <a href="/it/about/2010-sept-announcement.html">biforcazione di Mandriva Linux</a>.
                         E\' supportata da una <a href="/en/about/">organizzazione senza scopo di lucro (no-profit)</a>,
-                        <a href="http://mageia.org/wiki/doku.php?id=org">governata da</a>
+                        <a href="http://mageia.org/wiki/doku.php?id=org">gobernata da</a>
                         un corpo riconosciuto ed eletto di collaboratori</a>,
                         e realizzata da più di 100 persone in tutto il mondo.',
         'our_work' => 'Il nostro lavoro si aggiunge a quello eccellente della più ampia comunità
