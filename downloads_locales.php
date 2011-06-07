@@ -66,7 +66,7 @@ Note that translations are on their way.',
         'for_full_install' => 'For a full installation:',
         'for_test_live' => 'For live test and install: LiveCD 32bit',
         'for_network' => 'For a network install:',
-        'def-Europa set 1' => 'Europa set 1 of languages: Deutsch, English (several variants), greek, español, français, greek, italiano, Dutch, português, português do Brasil, Turkish.',
+        'def-Europa set 1' => 'Europa set 1 of languages: Deutsch, English (several variants), Greek, Español, Français, Italiano, Dutch, Português, Português do Brasil, Turkish.',
         'def-Europa set 2' => 'Europa set 2 of languages: Bulgarian, Czech, Danish, American English, Estonian,
             Finnish, Croatian, Hungarian, Lithuanian, Latvian, Norwegian Bokmaal, Norwegian Nynorsk, Polish,
             Romanian, Russian, Swedish, Ukrainian, Uzbek, Uzbek (cyrillic).',
@@ -223,8 +223,7 @@ Beachten Sie, dass an der Übersetzung noch gearbeitet wird.',
         'popularity' => 'Popularität',
         'dl_migrate_instead' => 'Wenn Sie Mandriva Linux 2010.1 or 2010.2 benutzen,
             können Sie Ihr System auch direkt auf <a href="/de/1/migrate/">Mageia 1 aktualisieren</a>.</p>',
-        'not_sure_what_iso' => 'Sie sind sich nicht sicher, welches ISO-Abbild Sie herunterladen wollen? Es kann sein, dass er etwas zu ausführlich ist, aber Sie können <a href="http://www.mageia.org/wiki/doku.php?id=mageia_installation_media">diesen Artikel über unsere verschiedenen Installations-Medien</a> lesen.'
-        
+        'not_sure_what_iso' => 'Sie sind sich nicht sicher, welches ISO-Abbild Sie herunterladen wollen? Es kann sein, dass er etwas zu ausführlich ist, aber Sie können <a href="http://www.mageia.org/wiki/doku.php?id=mageia_installation_media">diesen Artikel über unsere verschiedenen Installations-Medien</a> lesen.'        
     ),
     'nl' => array(
         'download' => 'download',
