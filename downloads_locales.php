@@ -201,15 +201,29 @@ Beachten Sie, dass an der Übersetzung noch gearbeitet wird.',
             Geld%s, Hardware, Hosting, Zeit und die Teilnahme an dem ganzen Spaß.',
         'all_languages' => 'Bis zu 167 Sprachen werden unterst&uuml;tzt: Deutsch, Englisch, Spanisch, Franz&ouml;sisch, Italienisch, Portugiesisch, Schwedisch, Niederl&auml;ndisch, Polnisch, D&auml;nisch und viele weitere!
             Eine erweiterte Liste k&ouml;nnen Sie <a href="http://mageia.org/wiki/doku.php?id=tmp:supported_locales">hier</a> einsehen.',
-        'euro_languages' => '"Europ&auml;ische Sprachliste" bedeutet: Deutsch, Englisch, Spanisch, Französisch, Italienisch, Portugiesisch, Русский.
+        'euro_languages' => '"Europ&auml;ische Sprachliste" bedeutet: Deutsch, Englisch, Spanisch, Französisch, Italienisch, Portugiesisch, Russisch.
             Weitere Sprachen werden im finalen Release zur Verfügung stehen.',
         'All supported' => "Alle unterstützten Sprachen",
         'limited_languages' => 'Eingeschr&auml;nkte Sprachliste: Wei&szlig;russisch, Katalonisch, Deutsch, Englishc, Spanisch, Franz&ouml;sisch, Ungarisch, Italienisch, Polnisch, Portugiesisch, Ukrainisch',
         'English' => 'Englisch',
         'Limited' => 'Eingeschr&auml;nkte Sprachliste',
         'European set' => 'Europ&auml;ische Sprachliste',
+        'def-Europa set 1' => 'Europa Sprachliste 1: Deutsch, Englisch (verschiedene VArianten), Griechisch, Spanisch, Französisch, Italienisch, Niederländisch, Portugiesisch, Brasilianisches Portugiesisch, Türkisch.',
+        'def-Europa set 2' => 'Europa Sprachliste 2: Bulgarisch, Tschechisch, Dänisch, Amerikanisches Englisch, Estnisch,
+            Finnisch, Kroatisch, Ungarisch, Litauisch, Lettisch, Norwegisch (Bokmaal), Norwegisch (Nynorsk), Polnisch,
+            Rumänisch, Russisch, Schwedisch, Ukrainisch, Usbekisch, Usbekisch (kyrillisch).',
+        'def-Asia set' => 'Asiatische Sprachliste 1: Amerikanisches Englisch, Indonesisch, Japanisch, Koreanisch,
+            Thailändisch, Vietnamesisch, Chinesisch (vereinfacht), Chinesisch (traditionell).',
+        'def-Africa/India set' => 'Afrikanische/Indische Sprachliste: Afrikaans, Amharic, Arabisch, Assamese, Berber, Bengali, Amerikanisches Englisch,
+            Hausa, Hebräisch, Hindi, Igbo, Kannada, Malayalam, Marathi,
+            Punjabi, Tamil, Tswana, Tsonga, Venda, Xhosa, Yoruba, Zulu.',
+        'for_full_install' => 'Für eine vollständige Installation:',
+        'for_test_live' => 'Für Live-Tests und Install: LiveCD 32bit',
+        'for_network' => 'Für eine Netzwerk-Installation:',
+        'popularity' => 'Popularität',
         'dl_migrate_instead' => 'Wenn Sie Mandriva Linux 2010.1 or 2010.2 benutzen,
-            können Sie Ihr System auch direkt auf <a href="/de/1/migrate/">Mageia 1 aktualisieren</a>.</p>'
+            können Sie Ihr System auch direkt auf <a href="/de/1/migrate/">Mageia 1 aktualisieren</a>.</p>',
+        'not_sure_what_iso' => 'Sie sind sich nicht sicher, welches ISO-Abbild Sie herunterladen wollen? Es kann sein, dass er etwas zu ausführlich ist, aber Sie können <a href="http://www.mageia.org/wiki/doku.php?id=mageia_installation_media">diesen Artikel über unsere verschiedenen Installations-Medien</a> lesen.'
         
     ),
     'nl' => array(
