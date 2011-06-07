@@ -11,7 +11,6 @@ if (!array_key_exists($locale, $_t)) {
 $_t = $_t[$locale];
 
 ?>
-
 <!DOCTYPE html>
 <html lang="<?php echo $locale; ?>">
 <head>
@@ -86,7 +85,7 @@ $_t = $_t[$locale];
                     <ul>
                         <li><p><?php echo $_t['cli_4']; ?></p>
                             <p><code class="term">$ su<br />
-                            # urpmi.addmedia --distrib http://mirrors.mageia.org/api/mageia.1.$ARCH.list</code></p>
+                            # urpmi.addmedia --distrib --mirrorlist http://mirrors.mageia.org/api/mageia.1.$ARCH.list</code></p>
                         </li>
                         <li><p><?php echo $_t['cli_5']; ?></p>
                             <p><code class="term">$ su<br />
