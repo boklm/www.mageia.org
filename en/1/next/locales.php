@@ -105,43 +105,6 @@ $_t = array(
                         nii et jälgige meid <a href="http://blog.mageia.org/">meie ajaveebis</a>
                         ja <a href="http://twitter.com/mageia_org">Twitteris</a>!'
     ),
-    'es' => array(
-        'page_title' => 'Mageia 1 &ndash; y ahora?',
-        'page_desc' => '',
-        'page_kw' => 'mageia, mandriva, actualizar, migrar',
-        'page_h1' => '¿Que sigue?',
-        'h2_spread_word' => '¡Corra la voz!',
-        'h2_party' => '¡Festeje!',
-        'h2_what_do' => '¿Que har&iacute;a <strong>usted</strong> con ellal?',
-        'tell_us' => 'H&aacute;ganoslo saber',
-        'place_and_format' => 'En su blog (o <a href="http://blog.mageia.org/es">nuestro blog</a>),
-                        en <a href="http://twitter.com/">Twitter</a>,
-                        en <a href="http://facebook.com/">Facebook</a>,
-                        en <a href="http://forum.mageia.org/">nuestro foro</a>,
-                        en cualquier lugar y forma
-                        que tenga en mente!',
-        'h2_where_go' => '¿a d&oacute;nde <strong>iremos</strong> desde all&iacute;?',
-        'where_go_1' => 'Puede <a href="/es/contribute/">unirse a nosotros</a>
-                        y ayudarnos a mejorar.',
-        'where_go_2' => 'Mageia sigue siendo joven. Mucho se ha logrado en 9 meses,
-                        y eso es s&oacute;lo el comienzo.',
-        'where_go_3' => 'Podemos diseñar y construir un mejor sistema operativo
-                        para computadoras y nuevos dispositivos.',
-        'where_go_4' => 'Podemos hacer esto mejor para desarrolladores y usuarios.
-                        Podemos ser un mejor lugar para fomentar tecnolog&iacute;as de c&oacute;digo abierto.',
-        'h3_relax' => 'Rel&aacute;jese, y denos todas sus ideas',
-        'text_relax_1' => 'Despues de que las fiestas de esta entrega pasen,
-                        nos reunimermos y discutiremos planes futuros:',
-        'array_relax' => array('¿Qu&eacute; hay sobre el ciclo de las entregas?',
-                '¿Qu&eacute; hay sobre los cambios de fondo que podemos hacer?',
-                '¿y sobre proyectos alternos que usan o refuerzan la tecnolog&iacute;a?',
-                '¿Qu&eacute; hay sobre el rol de la asociaci&oacute;n y las actividades de los equipos?',
-                '¿Qu&eacute; tal mejorar este sitio web para atraer a m&aacute;s colaboradores?',
-                '¿Qu&eacute; pasa con <strong>sus ideas</strong>?'),
-        'text_relax_2' => 'Hablaremos mas sobre esto a finales de junio,
-                        as&iacute; que est&eacute;n pendientes en <a href="http://blog.mageia.org/es">nuestro blog</a>
-                        y nuestra <a href="http://twitter.com/mageia_org">cuenta de twitter</a>!'
-    ),
     'uk' => array(
         'page_title' => 'Mageia 1 &ndash; що далі?',
         'page_desc' => '',
@@ -351,6 +314,43 @@ $_t = array(
         'text_relax_2' => 'Θα μιλήσουμε περισσότερο γι\'αυτά αργότερα μέσα στον Ιούνιο,
                         γι\'αυτό μείνετε συντονισμένοι στο <a href="http://blog.mageia.org/">ιστολόγιο μας</a>
                         και στο <a href="http://twitter.com/mageia_org">λογαριασμό του Twitter</a>!'
+    ),
+    'nb' => array(
+        'page_title' => 'Mageia 1 &ndash; Neste steg?',
+        'page_desc' => '',
+        'page_kw' => 'mageia, mandriva, oppgradere, migrere',
+        'page_h1' => 'Neste steg?',
+        'h2_spread_word' => 'Spre budskapet!',
+        'h2_party' => 'Feire!',
+        'h2_what_do' => 'Hva skal du <strong>bruke</strong> det til?',
+        'tell_us' => 'Fortell oss.',
+        'place_and_format' => 'I bloggen din (eller <a href="http://blog.mageia.org/">vår</a>),
+                        på <a href="http://twitter.com/">Twitter</a>,
+                        på <a href="http://facebook.com/">Facebook</a>,
+                        i <a href="http://forum.mageia.org/">forumet</a>,
+                        alle andre steder og formater du kan komme på.',
+        'h2_where_go' => '<strong>we</strong>Hvilken vei kommer vi til å ta?',
+        'where_go_1' => 'Du kan <a href="/en/contribute/">bli med</a>
+                        og hjelpe oss med forbedringer.',
+        'where_go_2' => 'Mageia er ennå ungt. Mye har blitt oppnådd gjennom de siste 9 månedene,
+                        og dette er bare begynnelsen.',
+        'where_go_3' => 'Vi kan utforme og bygge bedre operativsystemplattformer
+                        for datamaskiner og andre enheter.',
+        'where_go_4' => 'Vi kan gjøre dette bedre for utviklere og brukere.
+                        Vi kan bli et bedre sted å fostre åpen kildekode-teknologier.',
+        'h3_relax' => 'Avslapping og «brainstorming»',
+        'text_relax_1' => 'Nå som mesteparten av feiringa og presset for å få ut denne
+            utgivelsen er unnagjort,
+                        vil vi samles for å diskutere framtidige planer:',
+        'array_relax' => array('hva med utgivelsesyklusen?',
+                'hva med å gjøre sentrale endringer?',
+                'og sideprosjekter som bruker eller forsterker teknologien?',
+                'hva med aktivitetene til foreninga og lagene?',
+                'hva med å forbedre deler av nettstedet for å lokke flere bidragsytere?',
+                'Hva med <strong>dine ideer</strong>?'),
+        'text_relax_2' => 'Vil snakke mer om dette i juni,
+                        så følg med på <a href="http://blog.mageia.org/">bloggen</a>
+                        og <a href="http://twitter.com/mageia_org">Twitter</a>!'
     )
 );
 

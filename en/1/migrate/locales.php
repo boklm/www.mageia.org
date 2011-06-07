@@ -615,5 +615,64 @@ $_t = array(
                         για να ζητήσετε βοήθεια ή λεπτομέρειες.',
         'h3_feedback' => 'Θέλετε να μας πείτε τις εντυπώσεις σας;',
         'tweet_it' => 'Απλά <a href="http://twitter.com/mageia_org">γράψτε μας στο twitter @mageia_org</a>.'
-    )
+    ),
+    'nb' => array(
+        'page_title' => 'Migrasjon fra Mandriva Linux til Mageia',
+        'page_desc' => 'Hvordan man migrerer fra Mandriva Linux 2010.1/2010.2 til Mageia 1 i noen korte, og sikre steg.',
+        'page_kw' => 'mageia, mandriva, oppgradere, migrere',
+        'page_h1' => 'Migrasjon fra Mandriva Linux',
+        'upgrading_general' => 'Oppgradering fra Mandriva Linux 2010.1 og 2010.2 er støtta, og har blitt finjustert de
+                siste månedene så det skal virke. Men som alltid, før du begynner med oppgraderinga:',
+        'upgrading_general_array' => array('Sikkerhetskopier viktige data før oppgraderinga;',
+                'hvis du oppgraderer på en bærbar datamaskin, bør du først koble den til nettspenning.
+                        Det kan hende at du skal oppdatere mer enn 2000 pakker, og dette kan ta en stund;',
+                'ikke start opp programmer som bruker mye båndbredde under oppgraderinga
+                        &ndash; båndbredden må reserveres for oppgraderinga.'),
+        'upgrading_ways' => 'Det finnes flere måter å oppgradere fra en av de tidligere Mandriva-utgavene:',
+        'upgrading_ways_dvd' => '<a href="#dvd">ved å bruke Mageia 1 DVD-en</a>',
+        'upgrading_ways_inline' => '<a href="#inline">ved å bruke de nettbaserte pakkebrønnene</a>,
+                        gjennom <a href="#mgaonline">mgaonline</a> eller <a href="#urpmi">urpmi</a>.',
+        'h2_dvd' => 'Oppgradering med Mageia 1 DVD-en',
+        'dvd_clean_install' => 'Du kan bruke <a href="/downloads/">Mageia 1 DVD-en</a> for å gjennomføre en
+            installasjon, men også oppgradere fra tidligere versjoner.',
+        'to_upgrade' => 'For å oppgradere:',
+        'to_upgrade_array' => array('<a href="/downloads/">Last ned ISO-bildet</a> og brenn det på en DVD;',
+                'Start opp DVD-en og velg «Installer Mageia 1« fra oppstartmenyen;',
+                'Velg «Oppgrader» i installasjonsprogrammet.'),
+        'recommended' => 'Det anbefales at de nettbaserte pakkebrønnene settes opp, hvis mulig
+                    &ndash; installasjonsprogrammet vil spørre deg om dette under oppgraderinga.
+                    Grunnen til dette er at DVD-en bare inneholder et deler av
+                    av disse pakkebrønnene.',
+        'h2_inline' => 'Direkte oppgradering',
+        'inline_1' => 'Du kan oppgradere ved å bruke pakkekildene direkte fra en kjørende Mandriva-installasjon.',
+        'inline_2' => 'Dette kan enten gjøres fra det grafiske verkøyet <code>mgaonline</code> eller
+                    kommandolinjeverktøyet <code>urpmi</code>.
+                    Metodene utdypes under. Du må laste ned og installere
+                    pakka <code>mgaonline</code>, som er nødvendig for at denne metoden skal virke:',
+        'mgaonline_image_title' => 'for Mandriva Linux 2010.1 og 2010.2',
+        'inline_3' => 'Merk at du kan få et sikkerhetsvarsel grunnen ugyldige pakkesignaturer.
+                    Dette skjer fordi Mandriva-systemer ikke gjenkjenner Mageias RPM-signaturer;
+                    det er trygt å overse disse advarslene.',
+        'a_or_b' => 'Pakka ble installert? Ok, lå oss gå videre og velge enten a) eller b) under:',
+        'h2_a' => 'a) Direkte oppgradering ved bruk av mgaonline (GUI)',
+        'popup_window_1' => 'a) Direkte oppgradering ved bruk av mgaonline (GUI)',
+        'popup_window_2' => 'Bare følg instruksjonene i veiviseren; den vil sette opp pakkebrønnene og starte migrasjonen.',
+        'as_soon_complete' => 'Når migrasjonen er fullført, bør du starte datamaskinen på nytt. Du vil deretter få tilgang til det oppgraderte systemet.',
+        'h2_b' => 'b) Direkte oppgradering ved bruk av urpmi (CLI)',
+        'cli_1' => 'Du kan også oppgradere <code>urpmi</code> fra terminalemulatoren,
+                    hvis du er mer komfortabel med å bruke CLI. Her er stegene:',
+        'cli_2' => 'Fjern alle eksisterende pakkekilder:',
+        'cli_3' => 'Legg til Mageias nettbaserte kilder:',
+        'cli_4' => 'Enten ved å bruke MIRRORLIST (dette vil velge det best passende speilet basert
+            din geografiske plassering); merk at dette kun virker hvis du har
+            <em>installert pakka <code>mgaonline</code> (se over)</em>:',
+        'cli_5' => 'Eller bruk et spesifikt speil (du kan hente <i>URL-er</i> fra <a href="http://mirrors.mageia.org/distrib">fra speillista</a>):',
+        'h2_thats_it' => 'Det var alt.',
+        'h3_question' => 'Har du et spørsmål?',
+        'join_and_ask' => 'Ikke nøl med å komme til vår pratekanal <a href="irc://irc.freenode.net/#mageia">#mageia</a>
+                        på IRC-nettverket Freenode, eller å skrive i <a href="http://forums.mageia.org/">forumet</a>
+                        for å spørre etter hjelp eller detaljer.',
+        'h3_feedback' => 'Vil du gi tilbakemeldinger?',
+        'tweet_it' => 'Bare <a href="http://twitter.com/mageia_org">kvitre det til @mageia_org</a>.'
+     )
 );
