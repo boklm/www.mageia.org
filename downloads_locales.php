@@ -516,7 +516,25 @@ Vær klar over at vi fortsatt lokaliserer infrastrukturen vår.',
         'All supported' => 'Full støtte',
         'English' => 'Engelsk',
         'Limited' => 'Begrenset',
-        'European set' => 'Europeisk sett'
+        'European set' => 'Europeisk sett',
+        'def-Europa set 1' => 'Europa-sett 1 med språkene: Tysk, engelsk (flere varianter), gresk, spansk, fransk, italiensk, nederlandsk, portugisisk, portugisisk (Brasil), tyrkisk.',
+        'def-Europa set 2' => 'Europa-sett 2 med språkene: Bulgarsk, tsjekkisk, dansk, amerikansk-engelsk, estisk,
+            finsk, kroatisk, ungarsk, litauisk, latvisk, norsk bokmål, norsk nynorsk, polsk,
+            rumensk, russisk, svensk, ukrainsk, usbekisk, usbekisk (kyrillisk).',
+        'def-Asia set' => 'Asia-set med språkene: Amerikansk-engelsk, indonesisk, japansk, koreansk,
+            thailandsk, vietnamesisk, forenklet kinesisk, tradisjonell kinesisk.',
+        'def-Africa/India set' => 'Africa/India-sett med språkene: Afrikaans, amharisk, arabisk, assami, berbisk, bengali, amerikansk-engelsk,
+            hausa, hebraisk, hindi, ibo, kannada, malayalam, marathi,
+            punjabi, tamilsk, setswana, tsonga, venda, xhosa, joruba, zulu.',
+        'for_full_install' => 'For en komplett installasjon:',
+        'for_test_live' => 'For testing og installasjon: LiveCD (32-bits)',
+        'for_network' => 'For en nettverkinstallasjon:',
+        'popularity' => 'Popularitet',
+        'dl_migrate_instead' => 'Hvis du bruker Mandriva Linux 2010.1 eller 2010.2,
+            kan du også <a href="/en/1/migrate/">oppgradere systemet direkte til Mageia 1</a>.</p>',
+        'not_sure_what_iso' => 'Ikke sikker på hvilket ISO-bilde du skal laste ned? Denne artikkelen er noe omfattende, men du vil kanskje
+            <a href="http://www.mageia.org/wiki/doku.php?id=mageia_installation_media">lese om de forskjellige 
+            installasjonmediene</a>.'
     ),
     'ro' => array(
         'download' => 'descărcare',
