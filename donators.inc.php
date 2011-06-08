@@ -191,7 +191,8 @@ $donators = array(
     'Allan Gendelman',
     'Kimmo Suutala',
     'Martin Turner',
-    'Jean-Luc Versini'
+    'Jean-Luc Versini',
+    'Jean-François Ramez'
 );
 
 //$html .= '<img src="/g/images/mageia_0.svg" style="position: absolute; top: 180px; width: 300px; opacity: 0.2;" />';
