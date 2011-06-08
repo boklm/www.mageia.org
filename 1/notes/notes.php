@@ -43,6 +43,7 @@ $_t = $_t[$locale];
                                     } ?>
                                 </ul></li>
                             <li><a href="#install"><?php echo $_t['installation_methods']; ?></a></li>
+                            <li><a href="/wiki/doku.php?id=mageia1:errata">Errata</a></li>
                             <li><a href="/en/support/"><?php echo $_t['support']; ?></a></li>
                             <li><a href="/en/support/#hw"><?php echo $_t['hw_req']; ?></a></li>
                         </ul>
