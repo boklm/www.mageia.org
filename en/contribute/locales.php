@@ -1275,6 +1275,6 @@ $_t = array(
         'h3_weeks' => 'Et par uker eller mer',
         'array_weeks' => array('Lær om fri programvare, generelt åpen kildekode-samarbeid og Mageia.',
                     'Snakk med læreren din om prosjektdeltakelse som en del av studiene, hvis du er student;
-                                        Studier i informasjonsteknologi er ikke et krav.')
+                                        studier i informasjonsteknologi er ikke et krav.')
     ),
 );

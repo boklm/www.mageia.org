@@ -282,5 +282,10 @@ $_t = array(
         'join-us' => 'Alăturați-vă nouă!',
         'right-now' => 'Se întîmplă acum',
         'news' => 'Știri',
+    ),
+    'nb' => array(
+        'page_title' => 'En ny Linux-distribusjon',
+        'page_h1' => 'En ny Linux-distribusjon',
+        'mageia-is-here' => 'Mageia 1 er her'
     )
 );
