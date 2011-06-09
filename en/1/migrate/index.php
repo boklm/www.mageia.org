@@ -4,22 +4,23 @@ $locale = explode('/', $_SERVER['REQUEST_URI']);
 $locale = $locale[1];
 
 require 'locales.php';
-if (!array_key_exists($locale, $_t)) {
-    $locale = 'en';
-}
 
-$_t = $_t[$locale];
+$locale = array_key_exists($locale, $_t) ? $locale : 'en';
+
+$_t = ($locale == 'en')
+    ? $_t['en']
+    : array_merge($_t['en'], $_t[$locale]);
 
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $locale; ?>">
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <title><?php echo $_t['page_title']; ?></title>
-    <meta name="description" content="<?php echo $_t['page_desc']; ?>" />
-    <meta name="keywords" content="<?php echo $_t['page_kw']; ?>" />
-    <meta name="author" content="Mageia" />
-    <link rel="stylesheet" type="text/css" href="/g/style/all.css" >
+    <meta name="description" content="<?php echo $_t['page_desc']; ?>">
+    <meta name="keywords" content="<?php echo $_t['page_kw']; ?>">
+    <meta name="author" content="Mageia">
+    <link rel="stylesheet" type="text/css" href="/g/style/all.css">
     <?php include '../../../analytics.php'; ?>
 </head>
 <body class="release">
@@ -79,20 +80,23 @@ $_t = $_t[$locale];
                 <p><?php echo $_t['cli_1']; ?></p>
                 <ul>
                     <li><p><?php echo $_t['cli_2']; ?></p>
-                        <p><code class="term">$ su<br />
-                        # urpmi.removemedia -a</code></p></li>
+                        <p><code class="term">$ su<br>
+                            # urpmi.removemedia -a</code></p></li>
                     <li><p><?php echo $_t['cli_3']; ?></p>
                     <ul>
                         <li><p><?php echo $_t['cli_4']; ?></p>
-                            <p><code class="term">$ su<br />
+                            <p><code class="term">
                             # urpmi.addmedia --distrib --mirrorlist http://mirrors.mageia.org/api/mageia.1.$ARCH.list</code></p>
                             <p>replacing <code>$ARCH</code> by <code>i586</code> or <code>x86_64</code>.</p>
                         </li>
                         <li><p><?php echo $_t['cli_5']; ?></p>
-                            <p><code class="term">$ su<br />
-                            # urpmi.addmedia --distrib &lt;mirror_url&gt;</code></p>
+                            <p><code class="term"># urpmi.addmedia --distrib &lt;mirror_url&gt;</code></p>
                         </li>
                     </ul>
+                    </li>
+                    <li><p><?php echo $_t['cli_6']; ?></p>
+                        <p><code class="term"># urpmi --replacefiles --auto-update --auto
+                        </code></p>
                     </li>
                 </ul>
                 <hr>

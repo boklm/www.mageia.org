@@ -51,7 +51,8 @@ $_t = array(
             according to your geographical location); note that for this method to work,
             <em>you must have installed the <code>mgaonline</code> package (see above)</em>:',
         'cli_5' => 'Or using a specific media mirror (you can get the <i>mirror_url</i> from <a href="http://mirrors.mageia.org/distrib">our mirrors list</a>):',
-        'h2_thats_it' => 'That\'s it!',
+        'cli_6' => 'Finally, start upgrading:',
+        'h2_thats_it' => 'Et voilà!', //'That\'s it!',
         'h3_question' => 'Have a question?',
         'join_and_ask' => 'Do not hesitate to join our <a href="irc://irc.freenode.net/#mageia">#mageia</a>
                         IRC channel on Freenode or posting in <a href="http://forums.mageia.org/">our forum</a>
