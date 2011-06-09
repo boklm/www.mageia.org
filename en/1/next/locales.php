@@ -351,6 +351,62 @@ $_t = array(
         'text_relax_2' => 'Vil snakke mer om dette i juni,
                         så følg med på <a href="http://blog.mageia.org/">bloggen</a>
                         og <a href="http://twitter.com/mageia_org">Twitter</a>!'
+    ),
+    'ro' => array(
+        'page_title' => 'Migrați de la Mandriva Linux la Mageia',
+        'page_desc' => 'Cîțiva pași siguri pentru a migra de la Mandriva Linux 2010.1/2010.2 la Mageia 1.',
+        'page_kw' => 'mageia, mandriva, actualizare majoră, migrare',
+        'page_h1' => 'Migrați de la Mandriva Linux',
+        'upgrading_general' => 'Actualizarea majoră de la Mandriva Linux 2010.1 și 2010.2 este prevăzută. Acest lucru a fost pus la punct în aceste ultime luni de lucru și ar trebui să funcționeze. Dar, ca întotdeauna:',
+        'upgrading_general_array' => array('Salvgardați-vă datele înaintea actualizării majore;',
+                'Dacă folosiți un calculator portabil, conectați-l la priză!
+                        Veți actualiza peste 2.000 de pachete și acest lucru poate dura ceva timp;',
+                'Nu porniți nici o aplicație care utilizează rețeaua intensiv în timpul migrării
+                        &ndash; este bine să rezervați lățimea de bandă pentru actualizare.'),
+        'upgrading_ways' => 'Există mai multe modalități pentru a migrare de la una din aceste versiuni Mandriva:',
+        'upgrading_ways_dvd' => '<a href="#dvd">utilizînd DVD-ul Mageia 1</a>',
+        'upgrading_ways_inline' => '<a href="#inline">utilizînd ca sursă mediile online în mod direct</a>,
+                        folosind <a href="#mgaonline">mgaonline</a> sau <a href="#urpmi">urpmi</a>.',
+        'h2_dvd' => 'Actualizare majoră utilizînd DVD-ul Mageia 1',
+        'dvd_clean_install' => 'Puteți utiliza <a href="/downloads/">DVD-ul Mageia 1</a> pentru a începe o instalare curată
+                    dar și să vă actualizați sistemul de la una din distribuțiile precedente.',
+        'to_upgrade' => 'Pentru actualizare:',
+        'to_upgrade_array' => array('<a href="/downloads/">Descărcați fișierul ISO</a> și ardeți-l pe un DVD;',
+                'Demarați de pe DVD și selectați „Instalare Mageia 1” din meniul încărcătorului de sistem;',
+                'Selectați opțiunea „Actualizare majoră” din instalator.'),
+        'recommended' => 'Este recomandat să configurați depozitele online, dacă este posibil
+                    &ndash; instalatorul vă va întreba despre aceasta în timpul actualizării.
+                    Motivul este că DVD-ul include doar o parte din depozitele complete Mageia care se află online.',
+        'h2_inline' => 'Actualizare majoră online',
+        'inline_1' => 'Puteți actualiza utilizînd ca sursă depozitele online în mod direct, direct din sistemul Mandriva deja instalat.',
+        'inline_2' => 'Acest lucru se poate realiza fie utilizînd unealta grafică <code>mgaonline</code>, 
+                    fie în linie de comandă cu <code>urpmi</code>.
+                    Ambele metode sînt descrise mai jos. Dar, înainte de toate descărcați și instalați
+                    pachetul <code>mgaonline</code> care vă va ajuta în cursul procesului:',
+        'mgaonline_image_title' => 'pentru Mandriva Linux 2010.1 sau 2010.2',
+        'inline_3' => 'Vă atenționăm că este posibil să primiți un avertisment de securitate datorită semnăturilor invalide ale pachetului.
+                    Acest lucu se întîmplă deoarece sistemul Mandriva nu recunoaște semnăturile Mageia;
+                    puteți deci ignora în siguranță aceste avertismente.
+                    Da, știm, este ridicol.',
+        'a_or_b' => 'Bun, s-a instalat pachetul? Atunci mergeți mai departe și alegeți a) sau b) de mai jos:',
+        'h2_a' => 'a) Actualizare majoră online, utilizînd mgaonline (grafic)',
+        'popup_window_1' => 'a) Actualizare majoră online, utilizînd mgaonline (grafic)',
+        'popup_window_2' => 'Urmăriți pur și simplu instrucțiunile asistentului; sursele mediilor Mageia vor fi configurate și  migrarea va începe.',
+        'as_soon_complete' => 'Imediat ce s-a terminat migrarea, trebuie să reporniți sistemul. Și gata.',
+        'h2_b' => 'b) Actualizare majoră online, utilizînd urpmi (linie de comandă)',
+        'cli_1' => 'Puteți de asemenea să actualizați utilizînd <code>urpmi</code> din terminalul dumneavoastră preferat,
+                    dacă vă convine. Iată etapele:',
+        'cli_2' => 'Ștergeți toate mediile existente din sistemul dumneavoastră:',
+        'cli_3' => 'Adăugați sursele depositelor Mageia online:',
+        'cli_4' => 'fie direct (în funcție de locul unde vă aflați, se va selecta serverul alternativ potrivit):',
+        'cli_5' => 'fie utilizînd un server alternativ specific (vă puteți alege unul din <a href="http://mirrors.mageia.org/distrib">lista noastră de servere alternative</a>):',
+        'h2_thats_it' => 'Și gata!',
+        'h3_question' => 'Aveți întrebări?',
+        'join_and_ask' => 'Nu ezitați să ne contactați pe canalul IRC <a href="irc://irc.freenode.net/#mageia">#mageia</a>
+                        de pe Freenode sau mergeți pe <a href="http://forums.mageia.org/">forumul nostru</a>
+                        pentru a cere asistență sau detalii.',
+        'h3_feedback' => 'Doriți să ne împărtășiți experiența trăită?',
+        'tweet_it' => 'Atunci <a href="http://twitter.com/mageia_org">ciripiți-o pe Twitter la @mageia_org</a>.'
     )
 );
 

@@ -262,5 +262,25 @@ $_t = array(
         'join-us' => 'Zapojte se!',
         'right-now' => 'Právě se zpracovává:',
         'news' => 'Novinky',
+    ),
+    'ro' => array(
+        'page_title' => 'Mageia - O nouă distribuție Linux',
+        'page_desc'  => 'Mageia este o nouă distribuție Linux comunitară.',
+        'page_kw'    => 'mageia, linux, mandriva, aplicații libere, sistem de operare, calculator, portabil, birou, server, dispozitiv, mobil',
+        'page_h1'    => 'O nouă distribuție Linux',
+        'alternate_title' => 'Blogul Mageia (română)',
+        'alternate_href'  => 'http://blog.mageia.org/ro/?feed=rss',
+        'about' => array(
+            'Mageia este o derivație de Mandriva Linux,
+                susținută de o asociație non-profit alcătuită din
+                contribuitori recunoscuți și aleși pentru munca lor.',
+            'Dincolo de un sistem de operare liber, securizat, stabil și peren,
+                obiectivul este instaurarea unei guvernări stabile și legitime în jurul unui model colaborativ
+                (<a href="/en/about/2010-sept-announcement.html">conform anunțului original</a>).'
+        ),
+        'mageia-is-here' => 'Mageia 1 este aici',
+        'join-us' => 'Alăturați-vă nouă!',
+        'right-now' => 'Se întîmplă acum',
+        'news' => 'Știri',
     )
 );
