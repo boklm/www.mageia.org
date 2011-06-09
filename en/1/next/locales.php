@@ -329,7 +329,7 @@ $_t = array(
                         på <a href="http://facebook.com/">Facebook</a>,
                         i <a href="http://forum.mageia.org/">forumet</a>,
                         alle andre steder og formater du kan komme på.',
-        'h2_where_go' => '<strong>we</strong>Hvilken vei kommer vi til å ta?',
+        'h2_where_go' => '<strong>Hvilken vei kommer vi til å ta?</strong>',
         'where_go_1' => 'Du kan <a href="/en/contribute/">bli med</a>
                         og hjelpe oss med forbedringer.',
         'where_go_2' => 'Mageia er ennå ungt. Mye har blitt oppnådd gjennom de siste 9 månedene,

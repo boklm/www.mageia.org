@@ -445,10 +445,10 @@ $_t = array(
                 'anjuta 2.32.1.1',
                 'kdevelop 4.2.2',
                 'padre 0.840.0'),
-        'p_developers_5' => 'Vi venter på dine tilbakemeldinger og bidrag, slik at forbedringer kommer på plass før neste utgivelse. Se å kontaktlenkene, og kontakt oss hvis du har spørsmål eller forslag.',
+        'p_developers_5' => 'Vi venter på dine tilbakemeldinger og bidrag, slik at forbedringer kommer på plass før neste utgivelse. Se på kontaktlenkene, og kontakt oss hvis du har spørsmål eller forslag.',
         'h3_sysadmins' => 'Systemadministratorer.',
         'h3_contributors' => 'Bidragsytere.',
-        'p_contributors' => 'Les om mer <a href="/nb/contribute/">her</a>.'
+        'p_contributors' => '<a href="/nb/contribute/">Les mer om dette</a>.'
     ),
     'el' => array(
         'page_title' => 'Η Mageia 1 είναι για εσάς!',

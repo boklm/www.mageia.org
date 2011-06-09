@@ -486,6 +486,6 @@ $_t = array(
         'distribution' => 'Alt dette i <a href="http://mageia.org/en/1/">en distribusjon</a>,
                         klar til bruk.',
         'users' => 'Hvor mange brukere? Bare tiden vil vise …',
-        'in_for_you' => 'Viktigere en tilfeldig statistikk: <a href="/en/1/next/">Hva gjør Mageia Linux for deg?</a>'
+        'in_for_you' => 'Viktigere enn tilfeldig statistikk: <a href="/en/1/next/">Hva gjør Mageia Linux for deg?</a>'
     ),
 );

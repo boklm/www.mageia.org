@@ -1252,7 +1252,7 @@ $_t = array(
         'h3_data' => 'Datautvinning',
         'text_data' => 'Det finnes tonnevis med data vi ikke bruker,
                                 eller vet om. Hvis du liker å samle og analysere data for å avdekke
-                                &amp; visualisere for å se hva vi kan gjøre bedre,
+                                &amp; visualisere det vi kan gjøre bedre,
                                 kontakt oss.',
         'h3_design' => 'Utforming, eksperimentering, avdekk det ukjente',
         'text_design' => 'Ideer er bra, brukbare prototyper bedre.
@@ -1273,7 +1273,7 @@ $_t = array(
                     løse feil.', 'Abonner på en av de spesialiserte listene for å følge med på hva som skjer.
                     Se om du kan komme med nyttige innspill.'),
         'h3_weeks' => 'Et par uker eller mer',
-        'array_weeks' => array('Lær om fri programvare, generelt åpen kildekode-sammarbeid og Mageia.',
+        'array_weeks' => array('Lær om fri programvare, generelt åpen kildekode-samarbeid og Mageia.',
                     'Snakk med læreren din om prosjektdeltakelse som en del av studiene, hvis du er student;
                                         Studier i informasjonsteknologi er ikke et krav.')
     ),
