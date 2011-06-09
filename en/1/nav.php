@@ -10,6 +10,7 @@ $_nt = array(
     'fr' => array('for-you' => 'Pour vous', 'dl' => 'Télécharger', 'next' => 'Et après&nbsp;?'),
     'it' => array('for-you' => 'Per voi', 'dl' => 'Scaricare', 'next' => 'E dopo&nbsp;?', 'notes' => 'Note'),
     'nl' => array('for-you' => 'Voor u', 'dl' => 'Download', 'next' => 'En nu?', 'notes' => 'Opmerkingen'),
+    'ro' => array('for-you' => 'Pentru voi', 'dl' => 'Descărcați', 'next' => 'Și după?', 'notes' => 'Notele ediției'),
     'uk' => array('for-you' => 'Для вас', 'dl' => 'Звантаження', 'next' => 'Що далі?', 'notes' => 'Нотатки'),
     'zh-tw' => array('for-you' => '為了您', 'dl' => '下載', 'next' => '下一步呢？', 'notes' => '通告')
 );
