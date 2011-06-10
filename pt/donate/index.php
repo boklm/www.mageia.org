@@ -76,7 +76,7 @@
                 </div><div class="para">
                     <p><strong>Por favor note que:</strong></p>
                     <ul>
-                        <li>Paypal retira uma pequena comissão de cada doação (cerca de... %) então ficamos com um pouco menos do que você enviar;</li>
+                        <li>Paypal retira uma pequena comissão de cada doação (cerca de 2%) então ficamos com um pouco menos do que você enviar;</li>
                         <li>taxas de conversão são cobradas a Mageia, então por favor use € (Euro) como moeda;</li>
                         <li>se você quiser fazer uma doação anônima, por favor adicione um comentário.</li>
                     </ul>

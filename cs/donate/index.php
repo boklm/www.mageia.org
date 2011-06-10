@@ -81,7 +81,7 @@
                 </div><div class="para">
                     <p><strong>Dejte, prosím pozor na toto:</strong></p>
                     <ul>
-                        <li>Paypal si bere za každý dar malý poplatek (asi ...%),
+                        <li>Paypal si bere za každý dar malý poplatek (asi 2%),
                             takže se k nám dostane o něco méně z toho, co zaplatíte;</li>
                         <li>jako měnu prosíme používejte eura (€), neboť náklady za převod jdou k tíži Mageii;</li>
                         <li>v případě, že byste chtěli darovat anonymně, potom, prosím, ke svému daru připojte nějaký odkaz.</li>

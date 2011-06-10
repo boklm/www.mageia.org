@@ -81,7 +81,7 @@
                 </div><div class="para">
                     <p><strong>Prosimy zwrócić uwagę, że:</strong></p>
                     <ul>
-                        <li>Paypal pobiera prowizję od każdej dotacji (około ...%), dlatego otrzymana kwota będzie nieco niższa od przekazanej;</li>
+                        <li>Paypal pobiera prowizję od każdej dotacji (około 2%), dlatego otrzymana kwota będzie nieco niższa od przekazanej;</li>
                         <li>Mageia jest obciążana kosztami przewalutowania, dlatego prosimy o dotację w &euro;;</li>
                         <li>jeśli chcesz, aby Twoja dotacja pozostała anonimowa, prosimy o zaznaczenie tego w komentarzu.</li>
                     </ul>

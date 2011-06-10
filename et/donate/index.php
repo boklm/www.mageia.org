@@ -74,7 +74,7 @@
                 </div><div class="para">
                     <p><strong>Palun arvestage järgmiste asjaoludega:</strong></p>
                     <ul>
-                        <li>Paypal võtab iga annetuse eest väikest vahendustasu (umbes ...%), mistõttu me saame veidi vähem, kui te annetate</li>
+                        <li>Paypal võtab iga annetuse eest väikest vahendustasu (umbes 2%), mistõttu me saame veidi vähem, kui te annetate</li>
                         <li>valuutavahetuse tasu peab maksma Mageia, mistõttu oleks kasulikum arveldada eurodes</li>
                         <li>kui soovite annetada anonüümselt, märkige see kindlasti ära</li>
                     </ul>

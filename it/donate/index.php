@@ -76,7 +76,7 @@
                 <div class="para">
                     <p><strong>Per favore ricordate che:</strong></p>
                     <ul>
-                        <li>Paypal preleva una piccola commissione per ogni donazione (circa il ...%)
+                        <li>Paypal preleva una piccola commissione per ogni donazione (circa il 2%)
                             cosicchè avremo un po' meno di quello che spedirete;</li>
                         <li>il tasso di cambio è a carico di Mageia, per favore usate € come valuta;</li>
                         <li>se volete fare una donazione anonima, per favore indicatelo nei commenti.</li>

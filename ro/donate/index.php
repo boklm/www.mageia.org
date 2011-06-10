@@ -78,7 +78,7 @@
                 </div><div class="para">
                     <p><strong>Notați că:</strong></p>
                     <ul>
-                        <li>Paypal reține un mic comision pentru fiecare donație (în jur de ...%) așa încît primim o sumă un pic mai mică
+                        <li>Paypal reține un mic comision pentru fiecare donație (în jur de 2%) așa încît primim o sumă un pic mai mică
                             decît cea trimisă;</li>
                         <li>taxele de conversie sînt imputate asociației Mageia, așa că vă rugăm să utilizați € ca monedă;</li>
                         <li>dacă doriți să faceți o donație anonimă, vă rugăm să menționați în comentariu.</li>

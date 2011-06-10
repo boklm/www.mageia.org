@@ -81,7 +81,7 @@
                 </div><div class="para">
                     <p><strong>Lütfen dikkat edin:</strong></p>
                     <ul>
-                        <li>Palpay yaptığınız her bağış için küçükte olsa (yaklaşık ...%) bir komisyon almaktadır;</li>
+                        <li>Palpay yaptığınız her bağış için küçükte olsa (yaklaşık 2%) bir komisyon almaktadır;</li>
                         <li>Para birimi olarak lütfen € kullanın, dönüşüm oranları Mageia'e yansıtılmaktadır;</li>
                         <li>Eğer isimsiz bir bağış yapmak isterseniz,lütfen bir yorum ekleyin.</li>
                     </ul>

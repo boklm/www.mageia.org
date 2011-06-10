@@ -87,7 +87,7 @@
                 </div><div class="para">
                     <p><strong>Let erop dat:</strong></p>
                     <ul>
-                        <li>Paypal een kleine commissie inhoudt op elke donatie (ongeveer ...%) waardoor wij iets minder ontvangen
+                        <li>Paypal een kleine commissie inhoudt op elke donatie (ongeveer 2%) waardoor wij iets minder ontvangen
                             dan u stuurt;</li>
                         <li>Kosten voor wisselkoersen worden Mageia in rekening gebracht, dus gebruikt u alstublieft &euro; als valuta;</li>
                         <li>Wilt u uw donatie anoniem doen, vermeldt dit dan als opmerking.</li>

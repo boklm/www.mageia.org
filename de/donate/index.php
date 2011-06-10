@@ -83,7 +83,7 @@
                 </div><div class="para">
                     <p><strong>Bitte beachten:</strong></p>
                     <ul>
-                        <li>Paypal behält für jede Spende eine geringe Gebühr ein (etwa ...%),
+                        <li>Paypal behält für jede Spende eine geringe Gebühr ein (etwa 2%),
                             sodass uns ein bisschen weniger erreicht als Sie einzahlen;</li>
                         <li>bitte benutzen Sie € als Währung, denn Umrechnungskosten gehen zu Lasten von Mageia;</li>
                         <li>falls Sie anonym spenden wollen, so fügen Sie bitte Ihrer Spende einen Hinweis bei.</li>

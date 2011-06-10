@@ -83,7 +83,7 @@
                     <p><strong>Merci de noter que&nbsp;: </strong></p>
 
                     <ul>
-                        <li>Paypal prélève une petite commission (environ ...%) sur chaque don donc nous recevons un peu moins que ce que vous nous avez envoyé&nbsp;; </li>
+                        <li>Paypal prélève une petite commission (environ 2%) sur chaque don donc nous recevons un peu moins que ce que vous nous avez envoyé&nbsp;; </li>
                         <li>Les frais de change sont à la charge de Mageia donc, s'il vous plaît, utilisez l'euro (&euro;) comme devise&nbsp;; </li>
                         <li>Si vous souhaitez faire un don anonyme, ajoutez-le en commentaire.</li>
                     </ul>
