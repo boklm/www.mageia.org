@@ -26,6 +26,11 @@ $langs = array(
     'zh-tw' => '正體中文'
 );
 
+$i18n_fallback_rules = array(
+    'pt-br' => 'pt',
+    'pt'    => 'pt-br'
+);
+
 // TODO (rda) define fallback languages for each language
 // for instance, pt-br could fallback on pt and pt on pt-br (but without
 // a cycle) then on es, etc.
@@ -81,4 +86,73 @@ S;
         'check out our <a href="/wiki/doku.php?id=web">Web</a> and ',
         '<a href="/wiki/doku.php?id=i18n">localization</a> teams!</p>',
         '<hr /></body></html>';
+}
+
+/**
+ * Class regrouping basic methods for i18n strings in their current forms.
+ *
+*/
+class i18n
+{
+    /**
+     * @param string $request_uri
+     *
+     * @return string
+    */
+    public static function get_language_from_url($request_uri)
+    {
+        $l = explode('/', $request_uri);
+        return $l[1];
+    }
+
+    /**
+     * Return language strings in $strings that match $lang,
+     * and merge with pre-loaded strings matching $fallback_lang.
+     *
+     * @param array  $strings array('fr' => array(strings...), 'en' => array(...))
+     * @param string $lang
+     * @param string $fallback_lang
+     *
+     * @return array
+    */
+    public static function get_strings($strings, $lang, $fallback_rules = null)
+    {
+        $use_lang = self::get_fallback_language($lang, array_keys($strings), $fallback_rules);
+
+        return array_merge($strings['en'], $strings[$use_lang]);
+    }
+
+    /**
+     * Return a language we know we have support for, or a fallback language.
+     *
+     * Important note: this is supposed to be used only once in a row; do not
+     * chain this method over itself as you may end up with an infinite loop
+     * (depends on $fallback_rules contents).
+     *
+     * TODO (rda) implement this into an object, so we can check several langs
+     * in a row for a same document, with several fallback hops, without a cycle.
+     *
+     * @param string $lang language we wish to use
+     * @param array  $known_langs list of languages we support
+     * @param mixed  $fallback_rules
+     *
+     * @return string
+    */
+    public static function get_fallback_language($lang, $known_langs, $fallback_rules = null)
+    {
+        $ret = 'en';
+
+        if (in_array($lang, $known_langs)) {
+            $ret = $lang;
+        }
+        elseif (is_string($fallback_rules)) {
+            $ret = $fallback_rules;
+        }
+        elseif (is_array($fallback_rules)
+            && array_key_exists($lang, $fallback_rules)) {
+            $ret = $fallback_rules[$lang];
+        }
+
+        return $ret;
+    }
 }
