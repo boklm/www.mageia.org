@@ -145,12 +145,18 @@ class i18n
         if (in_array($lang, $known_langs)) {
             $ret = $lang;
         }
-        elseif (is_string($fallback_rules)) {
-            $ret = $fallback_rules;
-        }
-        elseif (is_array($fallback_rules)
-            && array_key_exists($lang, $fallback_rules)) {
-            $ret = $fallback_rules[$lang];
+        else {
+            if (is_string($fallback_rules)) {
+                $ret = $fallback_rules;
+            }
+            elseif (is_array($fallback_rules)
+                && array_key_exists($lang, $fallback_rules)) {
+
+                $ret = $fallback_rules[$lang];
+            }
+
+            if (!in_array($ret, $known_langs))
+                $ret = 'en';
         }
 
         return $ret;
