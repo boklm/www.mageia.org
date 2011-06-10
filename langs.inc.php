@@ -16,6 +16,7 @@ $langs = array(
     'nl' => 'Nederlands',
     'pl' => 'Polski',
     'pt' => 'Português',
+    'pt-br' => 'Português do Brasil',
     'ro' => 'Română',
     'ru' => 'Русский',
     'sl' => 'Slovenščina',
@@ -24,6 +25,10 @@ $langs = array(
     'zh-cn' => '简体中文',
     'zh-tw' => '正體中文'
 );
+
+// TODO (rda) define fallback languages for each language
+// for instance, pt-br could fallback on pt and pt on pt-br (but without
+// a cycle) then on es, etc.
 
 /**
  * Redirect to a localized path.

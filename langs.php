@@ -160,6 +160,7 @@ $nav_list = array(
         'it' => 'Donazioni',
         'pl' => 'Dotacje',
         'pt' => 'Doações',
+        'pt-br' => 'Doações',
         'tr' => 'Bağışlar',
         'ro' => 'Donații',
         'ru' => 'Пожертвования'
