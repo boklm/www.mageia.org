@@ -51,7 +51,7 @@ function relocate($langs, $page = '', $default_locale = 'en')
         $locale->getCompatibleLocale(),
         $page
     ));
-    die;    
+    die;
 }
 
 /**
