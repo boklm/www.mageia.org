@@ -26,7 +26,7 @@ $_t = array_merge($_t['en'], $_t[$locale]);
 <body class="release">
     <?php include '../langs.php'; ?>
     <div id="doc" class="yui-t7">
-        <div id="hd" role="banner"><h1><a id="logo" href="/"><span>Mageia</span></a>
+	    <div id="hd" role="banner"><h1><a id="logo" href="/<?php echo $locale ?>/"><span>Mageia</span></a>
             <span class="lsep">|</span> <span class="subh"><?php echo $_t['page_h1']; ?></span></h1></div>
         <style>
         div#mgacount {
