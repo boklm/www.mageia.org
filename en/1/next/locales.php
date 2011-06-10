@@ -444,6 +444,43 @@ $_t = array(
         'text_relax_2' => 'We will talk more about that later in June,
                         so stay tuned in <a href="http://blog.mageia.org/">our blog</a>
                         and <a href="http://twitter.com/mageia_org">Twitter account</a>!'
+    ),
+    'pt' => array(
+        'page_title' => 'Mageia 1 &ndash; E depois?',
+        'page_desc' => '',
+        'page_kw' => 'mageia, mandriva, actualizar, migrar',
+        'page_h1' => 'E depois?',
+        'h2_spread_word' => 'Espalhar a palavra!',
+        'h2_party' => 'Festa!',
+        'h2_what_do' => 'O que irá <strong>você</strong> fazer?',
+        'tell_us' => 'Diga-nos!',
+        'place_and_format' => 'No seu blogue (ou no <a href="http://blog.mageia.org/">nosso blogue</a>),
+                        no <a href="http://twitter.com/">Twitter</a>,
+                        no <a href="http://facebook.com/">Facebook</a>,
+                        no <a href="http://forum.mageia.org/">nosso fórum</a>,
+                        em qualquer outro lugar e formato
+                        que se lembrar!',
+        'h2_where_go' => 'Onde é que <strong>nós</strong> vamos depois?',
+        'where_go_1' => 'Pode <a href="/en/contribute/">juntar-se a nós</a>
+                        e ajudar-nos a melhorar.',
+        'where_go_2' => 'A Mageia ainda é nova. Muito foi feito e conseguido nestes 9 meses,
+                        e é apenas o inicio.',
+        'where_go_3' => 'Podemos desenhar e comnstruir uma melhor plataforma de sistema operativo
+                        para computadores e outros novos dispositivos.',
+        'where_go_4' => 'Podemos fazer isto melhor para desenvolvedores e utilizadores.
+                        Podemos ser um lugar melhor para cultivar as tecnologias de código livre.',
+        'h3_relax' => 'Relaxe, e tenha uma ideia genial',
+        'text_relax_1' => 'Depois do calor e das festas deste lançamento passrem,
+                        iremos reunir-nos e discutir futuros planos:',
+        'array_relax' => array('e acerca do ciclo de lançamento?',
+                'e acerca das alerações do núcleo que podemos fazer?',
+                'e projectos paralelos para re-usar ou reforçar a tecnologia?',
+                'e acerca do papel das associações e actividades das equipas?',
+                'e acerca de melhorar vários aspectos deste sítio \'Web\' para trazer mais contribuidores?',
+                'e acerca das <strong>suas ideias</strong>?'),
+        'text_relax_2' => 'Iremos falar mais acerca disto em Junho,
+                        mantenha-se actualizado no <a href="http://blog.mageia.org/">nosso blogue</a>
+                        e <a href="http://twitter.com/mageia_org">conta Twitter</a>!'
     )
 );
 
