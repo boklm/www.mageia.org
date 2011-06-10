@@ -64,7 +64,7 @@ function locale_path($path)
 
 $blog_link = 'http://blog.mageia.org/';
 if (in_array($locale, array('de', 'el', 'en', 'es', 'fr', 'it', 'nl', 'pl', 'pt', 'ro', 'ru', 'tr')))
-	    $blog_link .= $locale . '/';
+    $blog_link .= $locale . '/';
 
 $forums_link = 'http://forums.mageia.org/';
 // TODO pt, zh-tw, el
@@ -213,10 +213,10 @@ foreach ($nav_list as $k => $v)
         $title);
 }
 
-echo sprintf('<div class="nav"><!--googleoff: all--><div class="nav2"><p class="loc">%s</p>', implode(' | ', $list_menu));
+$hsnav = sprintf('<div class="nav"><!--googleoff: all--><div class="nav2"><p class="loc">%s</p>', implode(' | ', $list_menu));
 
 $options = implode($options);
-echo <<<H
+$hsnav .= <<<H
 <form id="lang_form" dir="ltr" method="get" action="/">
     <!--<label for="flang">Autres langues&nbsp;:</label>-->
     <input type="hidden" name="furl" value="{$_SERVER['REQUEST_URI']}" />
@@ -227,6 +227,10 @@ echo <<<H
 </form>
 </div><!--googleon: all--></div>
 H;
+
+if (!defined('HLANG'))
+    echo $hsnav;
+
 /*
 echo sprintf('<p class="loc">%s</p>', implode(' | ', $list_langs));
 */
