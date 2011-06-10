@@ -62,6 +62,10 @@ function locale_path($path)
     return $url;
 }
 
+$blog_link = 'http://blog.mageia.org/';
+if (in_array($locale, array('de', 'el', 'en', 'es', 'fr', 'it', 'nl', 'pl', 'pt', 'ro', 'ru', 'tr')))
+	    $blog_link .= $locale . '/';
+
 $forums_link = 'http://forums.mageia.org/';
 // TODO pt, zh-tw, el
 if (in_array($locale, array('fr', 'de', 'es', 'pt-br')))
@@ -70,7 +74,7 @@ if (in_array($locale, array('fr', 'de', 'es', 'pt-br')))
 // global nav
 $nav_list = array(
     "/{$locale}/" => 'Mageia',
-    "http://blog.mageia.org/{$locale}" => array(
+    $blog_link => array(
         'el' => 'Ιστολόγιο',
         'en' => 'Blog',
         'et' => 'Ajaveeb',
