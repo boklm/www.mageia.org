@@ -405,7 +405,26 @@ Note que las traducciones están en progreso.',
         'All supported' => 'Todos soportados',
         'English' => 'Inglés',
         'Limited' => 'Limitado',
-        'European set' => 'Conjunto Europeo'
+        'European set' => 'Conjunto Europeo',
+        'def-Europa set 1' => 'Conjunto de idiomas Europa 1: Alemán, Inglés (muchas variantes), Griego,
+         Español, Francés, Italiano, Holandés, Portugués, Portugués de Brasil, Turco.',
+        'def-Europa set 2' => 'Conjunto de idiomas Europa 2: Búlgaro, Checo, Danés, Inglés Americano, Estonio
+            Finlandés, Croata, Húngaro, Lituano, Letón, Bokmaal Noruego, Nynorsk Noruego, Polaco,
+            Rumano, Ruso, Sueco, Ukraniano, Uzbeko, Uzbeko (cirílico).',
+        'def-Asia set' => 'Conjunto de idiomas Asia 1: Inglés Americano, Indonesio, Japonés, Koreano,
+         Tailandés, Vietnamita, Chino simplificado, Chino tradicional.',
+        'def-Africa/India set' => 'Conjunto de idiomas Africa/India: Afrikáans, Amárico, Arábico, Asamés,
+         Berebere, Bengalí, Inglés Americano, Hausa, Hebreo, Hindi, Igbo, Canarés, Malabar, Maratí,
+            Panyabí, Tamil, Setswana, Tsonga, Venda, Xhosa, Yoruba, Zulú.',
+        'for_full_install' => 'Para una instalación completa:',
+        'for_test_live' => 'Para prueba en vivo y para instalar: LiveCD 32bit',
+        'for_network' => 'Para una instalación en red:',
+        'popularity' => 'Popularidad',
+        'dl_migrate_instead' => 'Si usted usa Mandriva Linux 2010.1 o 2010.2,
+            puede <a href="/en/1/migrate/">actualizar su sistema a Mageia 1</a> directamente también.</p>',
+        'not_sure_what_iso' => '¿No está seguro de qué ISO descargar? Esto puede ser mucha lectura, pero tal vez quiera
+            <a href="http://www.mageia.org/wiki/doku.php?id=mageia_installation_media">leer este artículo
+            detallando los diferentes medios de instalación que tenemos</a>.'
     ),
     'et' => array(
         'download' => 'laadi alla',
@@ -462,7 +481,25 @@ veebimeeskonda Freenode IRC-kanalil <a href="irc://irc.freenode.net/#mageia-web"
         'limited_languages' => 'Piiratud: hispaania, inglise, itaalia, katalaani, poola, portugali, prantsuse, saksa, ukraina, ungari, valgevene',
         'English' => 'Inglise',
         'Limited' => 'Piiratud',
-        'European set' => 'Euroopa keeled'
+        'European set' => 'Euroopa keeled',
+        'def-Europa set 1' => 'Europa 1 keeltevalik: hispaania, hollandi, inglise (mitu varianti), itaalia, kreeka, portugali, Brasiilia portugali, prantsuse, saksa, türgi.',
+        'def-Europa set 2' => 'Europa 2 keeltevalik: bulgaaria, eesti, horvaadi, Ameerika inglise,
+            leedu, läti, norra Bokmaal, norra Nynorsk, poola, rootsi, rumeenia, soome,
+            taani, tšehhi, ukraina, ungari, usbeki, usbeki (kirillitsa), vene.',
+        'def-Asia set' => 'Asia keeltevalik: Ameerika inglise, hiina lihtsustatud, hiina traditsiooniline,
+            indoneesia, jaapani, korea, tai, vietnami.',
+        'def-Africa/India set' => 'Africa/India keeltevalik: afrikaani, amhara, araabia, assami, bengali, berberi,
+            hausa, heebrea, hindi, igbo, Ameerika inglise, joruba, kannada, koosa, malajalami,
+            marathi, pandžabi, suulu, tamili, tsvana, tsonga, venda.',
+        'for_full_install' => 'Täispaigaldus:',
+        'for_test_live' => 'Live CD testimiseks ja paigaldamiseks: 32-bitine',
+        'for_network' => 'Võrgupaigaldus:',
+        'popularity' => 'Populaarsus',
+        'dl_migrate_instead' => 'Kui kasutate Mandriva Linux 2010.1 või 2010.2,
+            võite ka otse oma <a href="/et/1/migrate/">süsteemi Mageia 1 peale uuendada</a>.</p>',
+        'not_sure_what_iso' => 'Te ei oska valida, milline ISO alla laadida? See on võib-olla veidi pikk ja pealegi inglise keeles,
+            aga mõistlik võiks olla lugeda <a href="http://www.mageia.org/wiki/doku.php?id=mageia_installation_media">artiklit, mis kirjeldab 
+            meie erinevaid paigaldusandmekandjaid</a>.'
     ),
     'nb' => array(
         'download' => 'last ned',
@@ -591,7 +628,25 @@ De remarcat că traducerile sînt în curs.',
         'All supported' => 'Toate incluse',
         'English' => 'Engleză',
         'Limited' => 'Limitată',
-        'European set' => 'Limbi europene'
+        'European set' => 'Limbi europene',
+        'def-Europa set 1' => 'Setul 1 de limbi europene: germană, engleză (diferite variante), greacă, spaniolă, franceză, italiană, olandeză, portugheză, portugheza braziliană, turcă.',
+        'def-Europa set 2' => 'Setul 2 de de limbi europene: bulgară, cehă, daneză, engleza americană, estoniană,
+            finlandeză, croată, maghiară, lituaniană, letonă, norvegiana Bokmaal, norvegiana Nynorsk, poloneză,
+            română, rusă, suedeză, ucrainiană, uzbecă, uzbecă (chirilică).',
+        'def-Asia set' => 'Setul 1 de limbi asiatice: engleza americană, indoneziană, japoneză, coreeană,
+            thailandeză, vietnamiană, chineza simplificată, chineza tradițională.',
+        'def-Africa/India set' => 'Setul de limbi Africa/India: africană, amharică, arabă, assamese, berberă, bengală, engleza americană,
+            hausa, ebraică, hindi, igbo, kannada, malayalam, marathi,
+            punjabi, tamilă, tswana, tsonga, venda, xhosa, yoruba, zulu.',
+        'for_full_install' => 'Pentru o instalare completă:',
+        'for_test_live' => 'Pentru teste în direct și instalare: LiveCD pe 32 de biți',
+        'for_network' => 'Pentru o instalare prin rețea:',
+        'popularity' => 'Popularitate',
+        'dl_migrate_instead' => 'Dacă utilizați deja Mandriva Linux 2010.1 sau 2010.2,
+            vă puteți <a href="/en/1/migrate/">avansa sistemul direct la Mageia 1</a> de asemenea.</p>',
+        'not_sure_what_iso' => 'Nu știți ce imagine ISO să descărcați? Chiar dacă teste ceva text, însă este bine să
+            <a href="http://www.mageia.org/wiki/doku.php?id=mageia_installation_media">citiți acest articol despre diferitele 
+            noastre medii de instalare</a>.'
     ),
     'ru' => array(
         'download' => 'загрузить',
