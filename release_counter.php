@@ -5,7 +5,7 @@
 if (isset($_GET['l'])) {
     $locale = $_GET['l'];
 }
-else {
+elseif (!isset($locale)) {
     $path = explode('/', $_SERVER['REQUEST_URI']);
     $locale = $path[1];
     if (strlen($locale) > 5)
@@ -30,9 +30,11 @@ $release_ts = strtotime('2011/06/01 23:30:00');
 $now_ts = time();
 $diff = $release_ts - $now_ts;
 $s = '';
+$diff = 0;
 
-if ($diff < 0) {
+if ($diff <= 0) {
     // todo (rda)
+    $s = '<h2><a href="/en/1/">Mageia 1 is here</a></h2>';
 }
 else {
     $diff = floor($diff / 3600 / 24);
@@ -58,6 +60,8 @@ div#mgacount {
 }
 #mgacount h2 { padding: 0.6em; font-size: 220%; color: #fff; font-weight: normal; margin-bottom: 0; }
 #mgacount h2 span { font-size: 45%; vertical-align: 30%; margin: 0 1em; }
+#mgacount h2 a,
+#mgacount h2 a:visited { color: #fff; }
 </style>
 <div id="mgacount">{$s}</div>
 S;
