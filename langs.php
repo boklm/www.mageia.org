@@ -97,7 +97,8 @@ $nav_list = array(
         'en' => 'Support',
         'es' => 'Soporte',
         'fr' => 'Assistance',
-        'it' => 'Supporto'
+        'it' => 'Supporto',
+        'ro' => 'Suport'
     ),
     /*
     '/community/' => array(
@@ -116,7 +117,8 @@ $nav_list = array(
         'en' => 'Contribute',
         'es' => 'Contribuir',
         'fr' => 'Contribuer',
-        'it' => 'Contribuire'
+        'it' => 'Contribuire',
+        'ro' => 'Contribuiți'
     ),
     '/wiki/' => 'Wiki',
     /*
@@ -171,7 +173,8 @@ $nav_list = array(
         'en' => 'About',
         'es' => 'Acerca de',
         'fr' => 'À propos',
-        'it' => 'A proposito di'
+        'it' => 'A proposito di',
+        'ro' => 'Despre noi'
     ),
 );
 
