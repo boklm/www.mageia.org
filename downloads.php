@@ -109,15 +109,16 @@ $table_tmpl = <<<T
 </table>
 T;
 
-$dl_table = sprintf($table_tmpl, $_t['for_full_install'], $s1)
-    . "<p class='dlinfo'>{$_t['all_languages']}</p>
-    <p class='dlinfo'>{$_t['limited_languages']}</p><br>"
-
-    . sprintf($table_tmpl, $_t['for_test_live'], $s2)
+$dl_table
+    = sprintf($table_tmpl, $_t['for_test_live'], $s2)
     . "<p class='dlinfo'>{$_t['def-Europa set 1']}</p>
     <p class='dlinfo'>{$_t['def-Europa set 2']}</p>
     <p class='dlinfo'>{$_t['def-Asia set']}</p>
     <p class='dlinfo'>{$_t['def-Africa/India set']}</p><br>"
+
+    . sprintf($table_tmpl, $_t['for_full_install'], $s1)
+    . "<p class='dlinfo'>{$_t['all_languages']}</p>
+    <p class='dlinfo'>{$_t['limited_languages']}</p><br>"
 
     . sprintf($table_tmpl, $_t['for_network'], $s3);
 
