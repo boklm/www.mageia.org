@@ -79,7 +79,7 @@ $nav_list = array(
         'en' => 'Blog',
         'et' => 'Ajaveeb',
         //'fr' => 'Actus',
-        'pt' => 'Blog',
+        'pt' => 'Blogue',
         'pt-br' => 'Blog',
         'tr' => 'Web Günlüğü',
         'ru' => 'Блог'
@@ -93,7 +93,7 @@ $nav_list = array(
         'et' => 'Allalaadimine',
         'fr' => 'Téléchargements',
         'it' => 'Scarica',
-        'pt' => 'Downloads',
+        'pt' => 'Transferências',
         'pt-br' => 'Downloads',
         'ro' => 'Descărcați',
         'ru' => 'Загрузить',
@@ -106,8 +106,8 @@ $nav_list = array(
         'es' => 'Soporte',
         'fr' => 'Assistance',
         'it' => 'Supporto',
-        'pt' => 'Support',
-        'pt-br' => 'Support',
+        'pt' => 'Suporte',
+        'pt-br' => 'Suporte',
         'ro' => 'Suport'
     ),
     /*
@@ -120,7 +120,7 @@ $nav_list = array(
         'el' => 'Φόρουμ',
         'en' => 'Forum',
         'es' => 'Foro',
-        'pt' => 'Forum',
+        'pt' => 'Fórum',
         'pt-br' => 'Forum'
     ),
     '/contribute/' => array(
@@ -130,8 +130,8 @@ $nav_list = array(
         'es' => 'Contribuir',
         'fr' => 'Contribuer',
         'it' => 'Contribuire',
-        'pt' => 'Contribute',
-        'pt-br' => 'Contribute',
+        'pt' => 'Contribuir',
+        'pt-br' => 'Contribuir',
         'ro' => 'Contribuiți'
     ),
     '/wiki/' => 'Wiki',
@@ -188,8 +188,8 @@ $nav_list = array(
         'es' => 'Acerca de',
         'fr' => 'À propos',
         'it' => 'A proposito di',
-        'pt' => 'About',
-        'pt-br' => 'About',
+        'pt' => 'Acerca',
+        'pt-br' => 'Acerca',
         'ro' => 'Despre noi'
     ),
 );
