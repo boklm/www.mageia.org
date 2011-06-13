@@ -35,8 +35,10 @@
                             <a href="irc://irc.freenode.net/#mageia" hreflang="en">#mageia</a>
                             or other localized <a href="http://mageia.org/wiki/doku.php?id=irc#channels_in_other_languages">channels</a>;
                         </li>
-                        <li>our <a href="http://mageia.org/wiki/">Wiki</a> (still rough at the time, we're working on it!).</li>
-                        <li>(to be done: mailing-lists, documentation, local events info)</li>
+                        <li>our <a href="http://mageia.org/wiki/">Wiki</a> (still rough at the time, we're working on it!);</li>
+                        <li>our <a href="http://mageia.org/mailman/" hreflang="en">mailing-lists</a>;</li>
+                        <li>local events: follow our <a href="http://blog.mageia.org/en/">blog</a>
+                            and <a href="http://mageia.org/en/calendar/">calendar</a>.</li>
                     </ul>
 
                     <hr />
