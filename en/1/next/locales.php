@@ -220,7 +220,7 @@ $_t = array(
         'place_and_format' => 'En su blog (o <a href="http://blog.mageia.org/es">nuestro blog</a>),
                         en <a href="http://twitter.com/">Twitter</a>,
                         en <a href="http://facebook.com/">Facebook</a>,
-                        en <a href="http://forum.mageia.org/">nuestro foro</a>,
+                        en <a href="http://forums.mageia.org/es">nuestro foro</a>,
                         ¡en cualquier lugar y forma
                         que tenga en mente!',
         'h2_where_go' => '¿A d&oacute;nde <strong>iremos</strong> desde all&iacute;?',
