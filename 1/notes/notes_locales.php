@@ -2061,7 +2061,7 @@ $_t = array(
         'page_h1' => 'Notas de Lançamento',
         'major_features' => 'Características Principais',
         'major_features_array' => array('Gestão de pacotes',
-                'Configuração do sistema',
+                'Configuração do Sistema',
                 'Migração da Mandriva Linux',
                 'Ambientes de Ecrã',
                 'Aplicações de Ecrã',
@@ -2071,28 +2071,27 @@ $_t = array(
         'support' => 'Suporte',
         'hw_req' => 'Requerimentos de Material',
         'mageia_milestone' => 'A Mageia 1 define um marco de muito trabalho árduo, que começou desde o dia em que a
-                    <a href="https://www.mageia.org/en/about/2010-sept-announcement.html">distribuição Mageia nasceu</a>.',
+                    <a href="https://www.mageia.org/pt/about/2010-sept-announcement.html">distribuição Mageia nasceu</a>.',
         'overview' => 'Esta página oferece uma visão geral do que a Mageia lhe oferece.',
         'h2_major_features' => 'Características principais na Mageia',
         'h3_package_management' => 'Ferramentas de gestão de pacotes',
         'text_package_management_1' => 'A Mageia usa o familiar urpmi, esta é a ferramenta predefinida de resolução de dependências
-                    na  Mageia que pode usar para instalar pacotes RPM no sistema. Pode também ser usada para actualizar o sistema,
-                    para um uso detalhado e completo veja a página do manual urpmi.',
-        'text_package_management_2' => 'O resto da família está:',
+                    na  Mageia, pode-a usar para instalar pacotes RPM no sistema. Pode também ser usada para actualizar o sistema,
+                    para os detalhes completos acerca do urpmi veja a página do manual.',
+        'text_package_management_2' => 'O resto da família é:',
         'array_package_management' => array('<span style="font-weight:bold;">urpme:</span>
-                            habituado a desinstalar pacotes RPM no sistema, com muitas opções da linha de comandos',
+                            usado para desinstalar pacotes RPM no sistema, com muitas opções na linha de comandos',
                 '<span style="font-weight:bold;">urpmf:</span>
-                            uma ferramenta que pode ser usada para mostrar que pacote contém um certo ficheiro; pode também ser usado
-                            para procurar todo o tipo de marcas RPM (requerimentos, sugestões, conflitos, obsoletos) nos pacotes nos
-                            nos repositórios oficiais, entre outras características',
+                            uma ferramenta que pode ser usada para mostrar que pacote contém um certo ficheiro; pode também ser 
+                            usado para procurar todo o tipo de marcas RPM (requerimentos, sugestões, conflitos, obsoletos) nos pacotes nos repositórios oficiais, entre outras características',
                 '<span style="font-weight:bold;">urpmq:</span>
-                            a ferramenta de consulta da base de dados urpmi, pense nela como \'rpm -q\' mas com muito mais opções
+                            a ferramenta de consulta da base de dados urpmi, pense nela como o \'rpm -q\' mas com muito mais opções
                             extendidas, que podem ser usadas para verificar os pacotes RPM nos repositórios oficiais',
                 '<span style="font-weight:bold;">urpmi.update:</span>
                             uma ferramenta para actualizar a base de dados urpmi na instalação do utilizador, pode também ser usada
                             para desactivar (ignorar) médias fonte configuradas no sistema',
                 '<span style="font-weight:bold;">urpmi.addmedia:</span>
-                            uma ferramenta para adicionar as médias fonte Mageia (em-linha (http, ftp, rsync) e como local)',
+                            uma ferramenta para adicionar as médias fonte Mageia (em-linha (http, ftp, rsync) e local)',
                 '<span style="font-weight:bold;">urpmi.removemedia:</span>
                             uma ferramenta para para remover as médias fonte configuradas no sistema'),
         'h3_system_configuration' => 'Ferramentas de configuração do sistema Mageia',
@@ -2266,7 +2265,7 @@ $_t = array(
         'text_tainted' => 'O repositório \'Tainted\' inclui pacotes sob várias licenças, livres e não-livres, mas o principal
                             critério para os pacotes neste repositório é de que podem infringir patentes e leis de direitos
                             de autor em certos países (e.g. os codificadores multimédia para reproduzir vários ficheiros
-                            audio/video, os pacotes necessários para reproduzir vídeo nos DVDs comerciais… etc); como tal
+                            áudio/vídeo, os pacotes necessários para reproduzir vídeo nos DVDs comerciais… etc); como tal
                             o conjunto das médias\'Tainted\' é adicionado por predefinição mas <strong>não</strong> activadas
                             por predefinição, i.e. é totalmente opcional; verifique as suas leis locais antes de usar os
                             pacotes deste repositório. Este repositório é apenas adicionado pela conveniência dos utilizadores.

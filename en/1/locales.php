@@ -500,8 +500,8 @@ $_t = array(
         'plenty_see_notes' => 'Muito! Veja as <a href="notes/">notas de lançamento</a> para uma exposição extensiva.',
         'h3_context' => 'A Mageia em contexto',
         'mageia_began' => 'A Mageia começou em Setembro de 2010 como
-                        <a href="/en/about/2010-sept-announcement.html">uma bifurcação da Mandriva Linux</a>.
-                        É suportada por uma <a href="/en/about/">organização sem fins lucrativos</a>,
+                        <a href="/pt/about/2010-sept-announcement.html">uma bifurcação da Mandriva Linux</a>.
+                        É suportada por uma <a href="/pt/about/">organização sem fins lucrativos</a>,
                         <a href="http://mageia.org/wiki/doku.php?id=org">governada por</a>
                         um corpo de contribuidores elegidos e reconhecidos</a>,
                         e feita por mais de 100 pessoas à volta do mundo.',
@@ -509,26 +509,26 @@ $_t = array(
                         e de programas livres. O nosso objectivo é trazer uma das melhores,
                         mais estável, segura e agradável experiência e plataforma que possamos fazer;
                         para o utilizador normal, o desenvolvedor, ou um empresário.',
-        'encourage_you' => 'e encorajamo-lo a <a href="/en/contribute/">fazer parte</a>,
+        'encourage_you' => 'e encorajamo-lo a <a href="/pt/contribute/">fazer parte</a>,
                         no seu tempo livre ou através da sua actividade profissional.',
-        '9_months' => '9&nbsp;meses desde a <a href="/en/about/2010-sept-announcement.html">concepção</a> chegamos:',
-        'people' => '<a href="/en/contribute/">mais de 100&nbsp;contribuidores</a> em <a href="/wiki/doku.php?id#teams">mais de 10 equipas</a>.
-                        <a href="/en/thank-you/">mais de 180&nbsp;doadores generosos</a> com
-                        <a href="/en/donate/">mais de 11.700&nbsp;EUR</a>
-                        e com apenas <a href="/en/about/reports/2011/">4.700 gastos</a> até agora
+        '9_months' => '9&nbsp;meses desde a <a href="/pt/about/2010-sept-announcement.html">concepção</a> chegamos:',
+        'people' => '<a href="/pt/contribute/">mais de 100&nbsp;contribuidores</a> em <a href="/wiki/doku.php?id#teams">mais de 10 equipas</a>.
+                        <a href="/pt/thank-you/">mais de 180&nbsp;doadores generosos</a> com
+                        <a href="/pt/donate/">mais de 11.700&nbsp;EUR</a>
+                        e com apenas <a href="/pt/about/reports/2011/">4.700 gastos</a> até agora
                         e uma previsão de 20.000 para 2011.',
-        'prereleases' => '5&nbsp;lançamentos tecnicos intermediários.
+        'prereleases' => '5&nbsp;lançamentos técnicos intermediários.
                         7.389&nbsp;pacotes fonte,
                         2 &vezes; 14.226&nbsp;pacotes binários para 2&nbsp;arquitecturas (i586 e x86_64
                         &ndash; a ARM está a caminho).',
         'servers' => '7&nbsp;servidores, 3&nbsp;centros de dados (Paris e Marseille, France),
                         <a href="http://mirrors.mageia.org/">19&nbsp;espelhos à volta do mundo</a>.',
-        'languages' => 'Sitio Web localizado em <a href="http://mageia.org/?langs">21 línguas</a>,
-                        distribuição localizada em <a href="">161 línguas</a>.',
-        'distribution' => 'Tudo isto para a <a href="http://mageia.org/en/1/">distribuição 1</a>,
+        'languages' => 'Sitio Web traduzido em <a href="http://mageia.org/?langs">21 línguas</a>,
+                        distribuição traduzida em <a href="">161 línguas</a>.',
+        'distribution' => 'Tudo isto para a <a href="http://mageia.org/pt/1/">distribuição 1</a>,
                         pronta para si, agora.',
         'users' => 'Quantos utilizadores? O tempo o dirá.',
-        'in_for_you' => 'Mas o mais importante do que a vaidade é: <a href="/en/1/next/">o que fará por si?</a>'
+        'in_for_you' => 'Mas mais importante do que a vaidade é: <a href="/pt/1/next/">o que fará por si?</a>'
     ),
     'cs' => array(
         '1_title' => 'Mageia 1',
