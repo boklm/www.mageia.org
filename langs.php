@@ -84,8 +84,8 @@ $nav_list = array(
         'tr' => 'Web Günlüğü',
         'ru' => 'Блог'
     ),
-    "/downloads/" => array(
-    //"/{$locale}/downloads/" => array(
+    //"/downloads/" => array(
+    "/{$locale}/downloads/" => array(
         'de' => 'Herunterladen',
         'el' => 'Λήψεις',
         'en' => 'Downloads',
@@ -227,6 +227,9 @@ $hsnav .= <<<H
 </form>
 </div><!--googleon: all--></div>
 H;
+
+$hsnav .= sprintf('<div class="nav"><!--googleoff: all--><div class="nav2"><p class="loc">%s</p></div></div>', implode(' | ', $list_menu));
+
 
 if (!defined('HLANG'))
     echo $hsnav;
