@@ -228,8 +228,7 @@ $hsnav .= <<<H
 </div><!--googleon: all--></div>
 H;
 
-$hsnav .= sprintf('<div class="nav"><!--googleoff: all--><div class="nav2"><p class="loc">%s</p></div></div>', implode(' | ', $list_menu));
-
+//$hsnav .= sprintf('<div class="nav"><!--googleoff: all--><div class="nav2"><p class="loc">%s</p></div></div>', implode(' | ', $list_menu));
 
 if (!defined('HLANG'))
     echo $hsnav;
