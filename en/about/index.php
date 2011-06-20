@@ -1,13 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <title>About Mageia</title>
-    <meta name="description" content="Mageia" />
-    <meta name="keywords" content="mageia" />
-    <meta name="author" content="Mageia" />
-    <link rel="stylesheet" type="text/css" href="/g/style/all.css" >
+    <meta name="description" content="Mageia">
+    <meta name="keywords" content="mageia">
+    <meta name="author" content="Mageia">
+    <link rel="stylesheet" type="text/css" href="/g/style/all.css">
     <?php include '../../analytics.php'; ?>
 </head>
 <body>
@@ -39,6 +38,11 @@
                         <a href="./reports/2011/">2011</a></li>
                     <li><a href="../thank-you/">Thanks!</a></li>
                     <li><a href="./policies/privacy/">Privacy policy</a></li>
+                    <li>Current logo: <a href="/g/media/logo/mageia-2011.png" alt="Mageia Logo in PNG">PNG</a>,
+                        <a href="/g/media/logo/mageia-2011.svg" alt="Mageia Logo in SVG">SVG</a>.
+                        Please consult <a href="/wiki/doku.php?id=designers">artwork team</a>
+                        or <a href="/wiki/doku.php?id=marketing">marcom' team</a>
+                        if you have questions/concerns about using it.</li>
                 </ul>
             </div></div>
         </div>
