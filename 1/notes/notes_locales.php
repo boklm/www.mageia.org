@@ -236,7 +236,7 @@ $_t = array(
         'installation_methods' => '可使用的安裝方式',
         'support' => '支援',
         'hw_req' => '硬體需求',
-        'mageia_milestone' => '自從 <a href="https://www.mageia.org/en/about/2010-sept-announcement.html">Mageia 套件誕生</a>以來，Mageia 1 是第一個里程碑。',
+        'mageia_milestone' => '自從 <a href="https://www.mageia.org/zh-tw/about/2010-sept-announcement.html">Mageia 套件誕生</a>以來，Mageia 1 是第一個里程碑。',
         'overview' => '這個頁面告訴您 Mageia 能帶給您什麼。',
         'h2_major_features' => 'Mageia 主要功能',
         'h3_package_management' => '套件管理工具',
@@ -396,7 +396,7 @@ $_t = array(
         'text_available_media_1' => 'Mageia 有兩種安裝媒體類型：',
         'array_available_media' => array('DVD ISO 與 Dual-arch CD ISO，使用傳統的 drakx 安裝程式，還有',
                 'Live CD ISO，這是可以用於預覽這個套件的開機光碟，它也可以將 Mageia 安裝到您的硬碟中。'),
-        'text_available_media_2' => '您可以在 <a href="http://mageia.org/downloads/">Mageia 下載頁面</a>直接透過 http 與 ftp 下載這些映像檔；
+        'text_available_media_2' => '您可以在 <a href="http://mageia.org/zh-tw/downloads/">Mageia 下載頁面</a>直接透過 http 與 ftp 下載這些映像檔；
                     另外也提供 BitTorrent 的下載。
                     您可以在 <a href="http://www.mageia.org/wiki/doku.php?id=mageia_installation_media">Mageia 安裝媒體</a>頁面中看到更多資訊。',
         'h2_software_repos' => '線上軟體套件庫',
