@@ -157,7 +157,7 @@ ul#people li { list-style: disc; margin-bottom: 0.2em; }
 p.loc { font-size: 0.9em; padding: 0.5em 0; color: #ccc; width: 695px; width: 100%; margin: 0 auto; text-align: left; }
 p.loc a { color: #2383c2; text-decoration: none; }
 p.loc a.sel { font-weight: bold; color: #000; }
-p.loc a[accesskey]:after { content:' [' attr(accesskey) ']'; font-weight: normal; color: #666; font-size: 90%; }
+/*p.loc a[accesskey]:after { content:' [' attr(accesskey) ']'; font-weight: normal; color: #666; font-size: 90%; }*/
 
 .values ul { margin-bottom: 2em; }
 .values ul li { margin-bottom: 0.4em; }
