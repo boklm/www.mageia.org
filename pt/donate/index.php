@@ -1,13 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html>
 <html dir="ltr" lang="pt">
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <title>Campanha de Doação Mageia</title>
-    <meta name="description" content="A Mageia é uma nova distribuição Linux baseada na comunidade." />
-    <meta name="keywords" content="mageia, doar, doação" />
-    <meta name="author" content="Mageia" />
-    <link rel="stylesheet" type="text/css" href="/g/style/all.css" >
+    <meta name="description" content="A Mageia é uma nova distribuição Linux baseada na comunidade.">
+    <meta name="keywords" content="mageia, doar, doação">
+    <meta name="author" content="Mageia">
+    <link rel="stylesheet" type="text/css" href="/g/style/all.css">
     <?php include '../../analytics.php'; ?>
 </head>
 <body>
@@ -23,7 +22,7 @@
                             <li><a href="#why">Porquê doar?</a></li>
                             <li><a href="#status">Estado das doações</a></li>
                             <li><a href="#d-paypal">Doar</a> (PayPal, banco, cheque)</li>
-                            <li><a href="/en/thank-you/#fund">Obrigado!</a></li>
+                            <li><a href="/pt/thank-you/#fund">Obrigado!</a></li>
                         </ul>
                     </div>
                     <h2 id="why">Porquê doar?</h2>
@@ -41,11 +40,11 @@
                     </ul>
                     <hr />
                     <h2 id="status">Como estão as doações?</h2>
-            <p>Actualmente, temos <strong><?php echo $g_donate_amount; ?></strong> (<a href="/en/about/reports/<?php echo date('Y'); ?>">restante</a> <strong><?php echo $g_amount_remain; ?></strong>)
-                        obrigado a todos os nossos <a href="/en/thank-you/">doadores</a>!</p>
+		    <p>Actualmente, temos <strong><?php echo $g_donate_amount; ?></strong> (<a href="/pt/about/reports/<?php echo date('Y'); ?>">restante</a> <strong><?php echo $g_amount_remain; ?></strong>)
+                        obrigado a todos os nossos <a href="/pt/thank-you/">doadores</a>!</p>
 
-            <p>Acreditamos que uma contabilidade pública é crucial. Pode saber mais acerca de como os fundos recebidos são usados ao ler os nossos 
-            <a href="/en/about/reports/">relatórios financeiros</a>.
+		    <p>Acreditamos que uma contabilidade pública é crucial. Pode saber mais acerca de como os fundos recebidos são usados ao ler os nossos 
+			<a href="/pt/about/reports/">relatórios financeiros</a>.
                         Como definido na ata da Primeira Assembleia Constituinte Geral, o tesoureiro da Mageia.Org é o Damien Lallement..</p>
                         
                     <hr />

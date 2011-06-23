@@ -505,21 +505,21 @@ $_t = array(
                         <a href="http://mageia.org/wiki/doku.php?id=org">governada por</a>
                         um corpo de contribuidores elegidos e reconhecidos</a>,
                         e feita por mais de 100 pessoas à volta do mundo.',
-        'our_work' => 'O nosso trabalho contribui para o excelente trabalho de uma comunidade Linux mais ampla
-                        e de programas livres. O nosso objectivo é trazer uma das melhores,
-                        mais estável, segura e agradável experiência e plataforma que possamos fazer;
-                        para o utilizador normal, o desenvolvedor, ou um empresário.',
+        'our_work' => 'O nosso esforço contribui para o excelente trabalho de uma comunidade Linux mais ampla
+                        e de programas livres. Temos por objectivo trazer uma das melhores,
+                        mais estável, segura, agradável experiência e plataforma que possamos fazer;
+                        para o utilizador normal, o desenvolvedor, ou empresário.',
         'encourage_you' => 'e encorajamo-lo a <a href="/pt/contribute/">fazer parte</a>,
                         no seu tempo livre ou através da sua actividade profissional.',
         '9_months' => '9&nbsp;meses desde a <a href="/pt/about/2010-sept-announcement.html">concepção</a> chegamos:',
         'people' => '<a href="/pt/contribute/">mais de 100&nbsp;contribuidores</a> em <a href="/wiki/doku.php?id#teams">mais de 10 equipas</a>.
-                        <a href="/pt/thank-you/">mais de 180&nbsp;doadores generosos</a> com
+                        <a href="/en/thank-you/">mais de 180&nbsp;doadores generosos</a> com
                         <a href="/pt/donate/">mais de 11.700&nbsp;EUR</a>
-                        e com apenas <a href="/pt/about/reports/2011/">4.700 gastos</a> até agora
+                        e com apenas <a href="/en/about/reports/2011/">4.700 gastos</a> até agora
                         e uma previsão de 20.000 para 2011.',
         'prereleases' => '5&nbsp;lançamentos técnicos intermediários.
                         7.389&nbsp;pacotes fonte,
-                        2 &vezes; 14.226&nbsp;pacotes binários para 2&nbsp;arquitecturas (i586 e x86_64
+                        2 &times; 14.226&nbsp;pacotes binários para 2&nbsp;arquitecturas (i586 e x86_64
                         &ndash; a ARM está a caminho).',
         'servers' => '7&nbsp;servidores, 3&nbsp;centros de dados (Paris e Marseille, France),
                         <a href="http://mirrors.mageia.org/">19&nbsp;espelhos à volta do mundo</a>.',

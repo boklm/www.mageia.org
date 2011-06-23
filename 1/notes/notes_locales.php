@@ -2055,10 +2055,10 @@ $_t = array(
                             <strong>nu</strong> este și activat în mod implicit, adică le puteți selecta și trebuie să verificați dacă legile din țara de rezidență vă permit utilizarea lor. Acest depozit este adăugat numai din comoditate pentru utilizatori. Acest depozit este pentru Mageia ceea ce PLF este pentru Mandriva sau RPM Fusion pentru Fedora.'
     ),
     'pt' => array(
-        'page_title' => 'Notas de Lançamento da Mageia 1',
-        'page_desc' => 'Notas do lançamento da Mageia 1',
-        'page_kw' => 'mageia, notas de lançamento, Mga1',
-        'page_h1' => 'Notas de Lançamento',
+		'page_title' => 'Notas de Lançamento da Mageia 1',
+		'page_desc' => 'Notas do lançamento da Mageia 1',
+		'page_kw' => 'mageia, notas de lançamento, Mga1',
+		'page_h1' => 'Notas de Lançamento',
         'major_features' => 'Características Principais',
         'major_features_array' => array('Gestão de pacotes',
                 'Configuração do Sistema',
@@ -2071,19 +2071,19 @@ $_t = array(
         'support' => 'Suporte',
         'hw_req' => 'Requerimentos de Material',
         'mageia_milestone' => 'A Mageia 1 define um marco de muito trabalho árduo, que começou desde o dia em que a
-                    <a href="https://www.mageia.org/pt/about/2010-sept-announcement.html">distribuição Mageia nasceu</a>.',
+                    <a href="/pt/about/2010-sept-announcement.html">distribuição Mageia nasceu</a>.',
         'overview' => 'Esta página oferece uma visão geral do que a Mageia lhe oferece.',
         'h2_major_features' => 'Características principais na Mageia',
         'h3_package_management' => 'Ferramentas de gestão de pacotes',
         'text_package_management_1' => 'A Mageia usa o familiar urpmi, esta é a ferramenta predefinida de resolução de dependências
                     na  Mageia, pode-a usar para instalar pacotes RPM no sistema. Pode também ser usada para actualizar o sistema,
-                    para os detalhes completos acerca do urpmi veja a página do manual.',
-        'text_package_management_2' => 'O resto da família é:',
+                    para todos os completos acerca do urpmi veja a página do manual.',
+        'text_package_management_2' => 'O resto da família:',
         'array_package_management' => array('<span style="font-weight:bold;">urpme:</span>
                             usado para desinstalar pacotes RPM no sistema, com muitas opções na linha de comandos',
                 '<span style="font-weight:bold;">urpmf:</span>
                             uma ferramenta que pode ser usada para mostrar que pacote contém um certo ficheiro; pode também ser 
-                            usado para procurar todo o tipo de marcas RPM (requerimentos, sugestões, conflitos, obsoletos) nos pacotes nos repositórios oficiais, entre outras características',
+                            usado para procurar todo o tipo de marcas RPM (requerimentos, sugestões, conflitos, obsoletos) nos pacotes dos repositórios oficiais, entre outras características',
                 '<span style="font-weight:bold;">urpmq:</span>
                             a ferramenta de consulta da base de dados urpmi, pense nela como o \'rpm -q\' mas com muito mais opções
                             extendidas, que podem ser usadas para verificar os pacotes RPM nos repositórios oficiais',
@@ -2093,25 +2093,25 @@ $_t = array(
                 '<span style="font-weight:bold;">urpmi.addmedia:</span>
                             uma ferramenta para adicionar as médias fonte Mageia (em-linha (http, ftp, rsync) e local)',
                 '<span style="font-weight:bold;">urpmi.removemedia:</span>
-                            uma ferramenta para para remover as médias fonte configuradas no sistema'),
+                            uma ferramenta para remover as médias fonte configuradas no sistema'),
         'h3_system_configuration' => 'Ferramentas de configuração do sistema Mageia',
         'text_system_configuration' => 'A Mageia continuará a usar todas as ferramentas drak familiares; aqui estão os destaques:',
         'array_system_configuration' => array('<span style="font-weight:bold;">drakconf:</span>
                             O centro de controlo Mageia, que pode ser usado para lançar todo o tipo de ferramentas administrativas',
                 '<span style="font-weight:bold;">drak3d:</span>
-                            Uma ferramenta para configurar os efeitos 3D de ecrã (e.g. Compiz)',
+                            Uma ferramenta para configurar os efeitos 3D do ecrã (e.g. Compiz)',
                 '<span style="font-weight:bold;">drakguard:</span>
                             Uma ferramenta que permite configurar o controlo parental. Pode bloquear o acesso a sítios \'web\' e
-                            restringir o acesso da conexão Internet para uma determinado intervalo horário',
+                            restringir o acesso da conexão Internet para um determinado intervalo horário',
                 '<span style="font-weight:bold;">rpmdrake:</span>
-                            Um interface simples que torna simples a instalação e remoção de pacotes de programas (RPM) na Mageia',
+                            Um interface prático que torna simples a instalação e a remoção de pacotes de programas (RPM) na Mageia',
                 '<span style="font-weight:bold;">drakx-net:</span>
-                            As ferramentas de rede predefinidas Mageia',
+                            As ferramentas de rede predefinidas na Mageia',
                 '<span style="font-weight:bold;">userdrake:</span>
                             Uma ferramenta amigável e poderosa para administrar utilizadores e grupos',
                 '<span style="font-weight:bold;">system-config-printer:</span>
-                            Uma ferramenta poderosa de configuração da impressão, desenvolvida pela Redhat/Fedora'),
-        'h3_migration' => '<a href="../migrate/">Migration from Mandriva Linux</a>',
+                            Uma ferramenta poderosa para configurar a impressão, desenvolvida pela Redhat/Fedora'),
+        'h3_migration' => '<a href="../migrate/">Migração da Mandriva Linux</a>',
         'text_migration' => 'Se está a usar a Mandriva Linux 2010.1 ou 2010.2,
                         veja o nosso <a href="../migrate">guia de migração</a>.',
         'h3_available_des' => 'Ambientes de Ecrã Disponíveis',
@@ -2152,7 +2152,7 @@ $_t = array(
                             A última versão estável, 2.32.2, do famoso cliente de correio GNOME, calendário, gestor de contactos e ferramenta de comunicação.'),
         'h4_office' => 'Escritório',
         'array_office' => array('<span style="font-weight:bold;"><a href="http://www.documentfoundation.org/develop">LibreOffice</a>:</span>
-                            <a href="http://blog.mageia.org/en/?p=190">A Mageia prometeu suportar totalmente o LibreOffice</a> e cumpriu a promessa, o LibreOffice 3.3.2.2 está disponível nos repositórios Mageia, trazendo um conjunto completo de aplicações de escritório',
+                            <a href="http://blog.mageia.org/pt/?p=190">A Mageia prometeu suportar totalmente o LibreOffice</a> e cumpriu a promessa, o LibreOffice 3.3.2.2 está disponível nos repositórios Mageia, trazendo um conjunto completo de aplicações de escritório',
                 '<span style="font-weight:bold;"><a href="http://www.calligra-suite.org/">Calligra</a>:</span>
                             O projecto Calligra Suite é uma continuação do projecto KOffice, tem todas as componentes familiares do KOffice, para uma lista detalhada das aplicações disponíveis e do que podem fazer, consulte o seu sítio web',
                 '<span style="font-weight:bold;"><a href="http://techbase.kde.org/Projects/KMyMoney">KmyMoney</a>:</span>
@@ -2182,7 +2182,7 @@ $_t = array(
                             Um cliente IRC baseado no Qt com suporte para temas, transparência, encriptação, muitas opções IRC extendidas, e com scripts. A última versão estável, 4.0.4, já se encontra disponível nos repositórios'),
         'h5_voip' => 'VOIP',
         'array_voip' => array('<span style="font-weight:bold;"><a href="http://www.qutecom.com/">QuteCom</a>:</span>
-                            Uma aplicação de telefone SIP que lhe permite fazer chamadas de vox e vídeo de PC para PC, e integrar todos os seus contactos num único sítio, é baseado no Qt. A última versão estável 2.2.',
+                            Uma aplicação de telefone SIP que lhe permite fazer chamadas de voz e vídeo de PC para PC, e integrar todos os seus contactos num único sítio, é baseado no Qt. A última versão estável 2.2.',
                 '<span style="font-weight:bold;"><a href="http://www.ekiga.org/">Ekiga</a>:</span>
                             Uma ferramenta para comunicar com vídeo e áudio na Internet. Usa ambos os protocolos SIP e H323 e é compatível com o Microsoft Netmeeting. Chamava-se GnomeMeeting. A última versão estável, 3.2.7,.'),
         'h4_virt' => 'Virtualização',
@@ -2191,10 +2191,10 @@ $_t = array(
                 '<span style="font-weight:bold;"><a href="http://virt-manager.et.redhat.com/">virt-manager</a>:</span>
                             A Mageia distribui com a última versão do virt-manager (e libvirtd), o popular conjunto de ferramentas de gestão para virtualização, juntamente com a ligação para várias linguagens, para facilitar a gestão de máquinas virtuais, tanto baseadas no kvm ou no xen.',
                 '<span style="font-weight:bold;"><a href="http://www.winehq.org/">WINE</a>:</span>
-                            A última versão de desenvolvimento do WINE, 1.3.20, está disponível nos repositórios; pode estar seguro que normalmente encontrará a última versão desta famosa aplicação nos repositórios \'Backports\' logo a seguir a um novo lançamento!'),
+                            A última versão de desenvolvimento do WINE, 1.3.20, está disponível nos repositórios; pode ficar dsecansado que normalmente encontrará a última versão desta famosa aplicação nos repositórios \'Backports\' logo após a um novo lançamento!'),
         'h4_graphics' => 'Gráficos',
         'array_graphics' => array('<span style="font-weight:bold;"><a href="http://www.gimp.org/">Gimp</a>:</span>
-                            versão 2.6.11 fo famoso Programa de Manipulação de Imagem GNU, o GIMP.',
+                            versão 2.6.11 do famoso Programa de Manipulação de Imagem GNU, o GIMP.',
                 '<span style="font-weight:bold;"><a href="http://inkscape.sourceforge.net/">Inkscape</a>:</span>
                             versão 0.48.1 do famoso programa de desenho baseado em vectores SVG.',
                 '<span style="font-weight:bold;">Blender<a href="http://www.blender.org/"></a>:</span>
@@ -2209,11 +2209,14 @@ $_t = array(
                 '<span style="font-weight:bold;"><a href="http://kdevelop.org/">KDevelop</a>:</span>
                             O IDE KDE'),
         'h3_base_system' => 'Sistema Base',
-        'kernel' => 'A Mageia distribui com as séries do kernel 2.6.38, especificamente a 2.6.38.7 na versão de lançamento, para mais detalhes acerca
-                            dos melhoramentos nas séries deste kernel veja <a href="http://kernelnewbies.org/Linux_2_6_38">aqui</a>; os destaques deste kernel:',
-        'kernel_array' => array('Suporte para o processo de agrupamento automático (para mais detalhes consulte a informação colocado pelo Linus Torvalds na
-                            <a href="http://lkml.org/lkml/2011/1/18/322">LKML</a> (Lista de Correio Kernel Linux); as menções da
-                            correcção em <a href="https://lwn.net/Articles/418884/">LWN.net</a>)',
+        'kernel' => 'A Mageia distribui com as séries do kernel 2.6.38, especificamente a 2.6.38.7 na versão de lançamento,
+                            para mais detalhes acerca
+                            dos melhoramentos nas séries deste kernel veja <a href="http://kernelnewbies.org/Linux_2_6_38">aqui</a>;
+                            os destaques:',
+        'kernel_array' => array('Suporte para o processo de agrupamento automático (para mais detalhes consulte a informação
+                            colocado pelo Linus Torvalds na
+                            <a href="http://lkml.org/lkml/2011/1/18/322">LKML</a> (Lista de Correio Kernel Linux); e referências às
+                            correcções em <a href="https://lwn.net/Articles/418884/">LWN.net</a>)',
                 'Melhoramentos significativos na escalabilidade no VFS do Linux (Virtual File System)',
                 'Suporte de transparência de página grande (sem usar o hugetblfs)',
                 'Propagação automática da saída do tráfego da rede através de múltiplos CPUs',
@@ -2241,15 +2244,15 @@ $_t = array(
         'text_scim' => 'SCIM (Smart Common Input Method), versão 1.4.9, está também disponível nos repositórios oficiais.',
         'h2_available_media' => 'Média de instalação disponível',
         'text_available_media_1' => 'A Mageia tem dois distintos tipos de média de instalação:',
-        'array_available_media' => array('ISO DVD e ISO Dual-arch CD, que usa o instalador tradicional drakx e o',
-                'ISO Live CD, este é um ISO \'live\' que pode ser usado para prever a distribuição e pode também ser
+        'array_available_media' => array('ISO DVD e ISO Dual-arch CD, que usa o instalador tradicional drakx',
+                            'ISO Live CD, este é um ISO \'live\' que pode ser usado para prever a distribuição e pode também ser
                             usado para instalar a Mageia no seu disco rígido'),
-        'text_available_media_2' => 'Irá encontrar sempre a informação de transferência na <a href="http://mageia.org/downloads/">página de transferência Mageia</a>;
-                    as transferências directas (ftp e http) e BitTorrent estão disponíveis.
-                    Para mais informação, consulte a <a href="http://www.mageia.org/wiki/doku.php?id=mageia_installation_media">página de média de instalação Mageia</a>.',
+        'text_available_media_2' => 'Encontrará sempre a informação de transferência na <a href="http://mageia.org/downloads/">página de transferência Mageia</a>;
+                            as transferências directas (ftp e http) e BitTorrent estão disponíveis.
+                            Para mais informação, consulte a <a href="http://www.mageia.org/wiki/doku.php?id=mageia_installation_media">página de média de instalação Mageia</a>.',
         'h2_software_repos' => 'Repositórios dos Programas',
-        'text_software_repos_1' => 'Os pacotes na Mageia existem em três diferentes repositórios/médias, dependendo da licença que
-            cada programa usa.',
+        'text_software_repos_1' => 'Os pacotes na Mageia têm três diferentes repositórios/médias, dependendo da licença
+                            que cada programa usa.',
         'text_software_repos_2' => 'Aqui está uma visão geral dos repositórios:',
         'h4_core' => 'Core:',
         'text_core' => 'O repositório \'Core\' inclui pacotes com programas de código livre (open-source), i.e. pacotes
@@ -2257,18 +2260,18 @@ $_t = array(
                             predefinição e o “Core Release” e o “Core Updates” são activados por predefinição',
         'h4_nonfree' => 'Nonfree:',
         'text_nonfree' => 'O repositório \'Nonfree\' inclui pacotes que estão livres de encargos, i.e. A Mageia pode
-                            redistribuí-los, mas contêm programas de código-fonte fechado (como tal o nome \'Nonfree\'); Por
+                            redistribuí-los, mas contêm programas de código-fonte fechado (por isso se chama \'Nonfree\'); Por
                             exemplo este repositório inclui os controladores proprietários das placas gráficas nVidia e ATI,
-                            o \'firmware\' para várias placas Sem-Fios… etc. O conjunto da média \'Nonfree\' é adicionado
+                            \'firmware\' para várias placas Sem-Fios… etc. O conjunto da média \'Nonfree\' é adicionado
                             por predefinição e as “Nonfree Release” e “Nonfree Updates” são activadas por predefinição',
         'h4_tainted' => 'Tainted:',
         'text_tainted' => 'O repositório \'Tainted\' inclui pacotes sob várias licenças, livres e não-livres, mas o principal
-                            critério para os pacotes neste repositório é de que podem infringir patentes e leis de direitos
+                            critério para os pacotes neste repositório é de que podem infringir as patentes e leis dos direitos
                             de autor em certos países (e.g. os codificadores multimédia para reproduzir vários ficheiros
                             áudio/vídeo, os pacotes necessários para reproduzir vídeo nos DVDs comerciais… etc); como tal
                             o conjunto das médias\'Tainted\' é adicionado por predefinição mas <strong>não</strong> activadas
-                            por predefinição, i.e. é totalmente opcional; verifique as suas leis locais antes de usar os
-                            pacotes deste repositório. Este repositório é apenas adicionado pela conveniência dos utilizadores.
+                            por predefinição, i.e. é totalmente opcional; veja as suas leis locais antes de usar os
+                            pacotes deste repositório. Este repositório é apenas adicionado por conveniência dos utilizadores.
                             Este repositório representa para a Mageia o mesmo que o PLF representa para os utilizadores
                             Mandriva ou o \'RPM Fusion\' é para os utilizadores Fedora.'
     )

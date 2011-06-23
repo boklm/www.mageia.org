@@ -1279,10 +1279,10 @@ $_t = array(
     ),
     'pt' => array(
         'page_title' => 'Contribuir para a Mageia',
-        'page_desc' => 'Aqui pode encontrar como, contribuir para o projecto Mageia',
-        'page_kw' => 'mageia, contribuir, como, sistema operativo',
+        'page_desc' => 'Aqui pode encontrar como contribuir para o projecto Mageia',
+        'page_kw' => 'mageia, contribuir, como, sistema operativo, projecto',
         'page_h1' => 'Contribuir para a Mageia',
-        'mageia_intro' => 'Muitas pessoas à volta do mundo reúnem-se para compilar a Mageia
+        'mageia_intro' => 'Muitas pessoas a nível mundial reúnem-se para compilar a Mageia
                         &ndash; um sistema operativo baseado no Linux <em>e</em>
                         uma <a href="/pt/about/code-of-conduct/">comunidade viva e divertida</a>
                         para <a href="/pt/about/values/">compilar projectos de código livre</a>.',
@@ -1292,8 +1292,6 @@ $_t = array(
                                dependendo do seu tempo e  conhecimentos;
                                encontrará sempre alguém para lhe dar as boas-vindas e ajudar,
                                caso seja necessário, para que tenha um bom contributo para o projecto.',
-        // 'you if needed so that your contribution to the project can be as good as it can be!',
-        // not translated + breaking php syntax
         'check_can_do' => 'Veja o que pode fazer em baixo!',
         'browse_role' => 'Procurar por actividade',
         'browse_time' => 'Procurar por tempo',
@@ -1359,9 +1357,9 @@ $_t = array(
         'h3_donation' => 'Doar',
         'text_donation' => 'As doações financeiras ajudam-nos a alocar tarefas específicas como, segurar a nossa infra-estrutura,
                                 custear eventos, material diverso e transporte.
-                                Mais de <a href="/pt/thank-you/">200 pessoas depositaram a sua confiança em nós</a>
+                                Mais de <a href="/en/thank-you/">200 pessoas depositaram a sua confiança em nós</a>
                                 com o seu dinheiro, material (hardware) e outros recursos.
-                                Mantemos um <a href="/pt/about/reports/">registo público daquilo que recebemos
+                                Mantemos um <a href="/en/about/reports/">registo público daquilo que recebemos
                                 e como é usado</a>.',
         'h3_data' => 'Análise de Dados',
         'text_data' => 'Existem milhares de dados por aí, muitos dos quais não usados por nós, ou que sequer conheçamos.
@@ -1388,13 +1386,13 @@ $_t = array(
         'array_hours' => array('Pare no evento Mageia, assim como um dia de testes para procurar, encontrar, reproduzir e
                                 ajudar a resolver erros.',
                                 'Subscreva-se numa lista de discussão de uma equipa e esteja atento ao que aí acontece,
-                                 tente ver como poderá trazer algo de útil para a lista.'),
+                                tente ver como poderá trazer algo de útil para a lista.'),
         'h3_weeks' => 'Algumas semanas ou mais',
         'array_weeks' => array('Aprenda acerca dos programas livres, colaboração de código livre em geral,
-                                 e da Mageia em particular.',
-                                 'Se é um estudante, considere falar com um tutor acerca de como participar
-                                 no projecto como parte dos seus estudos;
-                                 Não precisa especificamente de ser um estudante de Ciências Computacionais para o poder fazer.')
+                                e da Mageia em particular.',
+                                'Se é um estudante, considere falar com um tutor acerca de como participar
+                                no projecto como parte dos seus estudos;
+                                Não precisa especificamente de ser um estudante de Ciências Computacionais para o poder fazer.')
     ),
     'pt-br' => array(
         'page_title' => 'Contribuir para a Mageia',
