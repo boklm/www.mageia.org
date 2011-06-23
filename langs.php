@@ -181,7 +181,7 @@ $nav_list = array(
         'ro' => 'Donații',
         'ru' => 'Пожертвования'
     ),
-    '/en/about/' => array(
+    "/{$locale}/about/" => array(
         'de' => 'Über',
         'el' => 'Σχετικά',
         'en' => 'About',
