@@ -1510,5 +1510,96 @@ $_t = array(
                                  'Se é um estudante, considere falar com um tutor acerca de como participar
                                  no projecte como parte dos seus estudos;
                                  Não precisa especificamente de ser um estudante de Ciências Computacionais para o fazer.')
-    )
+    ),
+    'zh-tw' => array(
+        'page_title' => '協助 Mageia',
+        'page_desc' => '在這裡您可以找到如何協助 Mageia 計畫的資訊',
+        'page_kw' => 'mageia, contribute, howto, operating system',
+        'page_h1' => '協助 Mageia ',
+        'mageia_intro' => '來自世界各地的人們一起建立了 Mageia
+            &ndash; 一個以 Linux 為核心的作業系統<em>以及</em>
+            一個<a href="/zh-tw/about/code-of-conduct/">活躍而且饒富趣味的社群</a>
+            來<a href="/zh-tw/about/values/">進行自由軟體計劃</a>。',
+        'contribute_intro' => '這就是自由軟體，任何人都可以貢獻！
+            如果有興趣並且希望加入，
+            這兒總是有您可以參與的事務，
+            依照您的時間與技能而定；
+            您總是可以找到人歡迎並願意協助／指導
+            您，讓您對這個計畫的貢獻可以發揮到極致！',
+        'check_can_do' => '看看您可以做什麼！',
+        'browse_role' => '依照腳色瀏覽',
+        'browse_time' => '依照時間瀏覽',
+        'h2_role' => '角色',
+        'h3_support' => '協助使用者與宣傳這個計畫',
+        'text_support' => '想要歡迎並協助新的使用者或者是與其他人分享您的小技巧？
+            在 <a href="/wiki/doku.php?id=irc">IRC 頻道</a>,
+            <a href="http://forums.mageia.org/">論壇</a>,
+            <a href="http://mageia.org/mailman/">郵件清單</a>,
+            當地活動？趕快透過上述的幾個管道與我們連絡，一起分享快樂！',
+        'h3_docu' => '寫文章、文案與文件',
+        'text_docu' => '您喜歡簡潔、實用、好讀的文章嗎？您喜歡挑戰怎麼將複雜的想法或系統清楚地向其他人解釋並教學嗎？您知道怎麼結合表單格式與內容，將正確的資訊推行出去嗎？請與我們的<a href="/wiki/doku.php?id=documentation">文件小組</a>聯繫！',
+
+        'h3_i18n' => '翻譯',
+        'text_i18n' => 'Mageia 已經被翻譯超過 180 種語言了！
+                                整理、完成、改進軟體、指引、教學、網站、行銷文案的翻譯都已經有成果。感謝許多人的付出。
+                                現在就加入<a href="/wiki/doku.php?id=translators">他們的行列</a>吧！',
+        'h3_triage' => '分類',
+        'text_triage' => '出現錯誤！其中有些被回報。因此，必然地它們需要被分類以便讓開發者與套件包裝者能較容易修正。是否能確認此問題（此問題能否被重現？），從回報者那裡收集必要的除錯資訊，指定給負責人等等。
+                                <a href="/wiki/doku.php?id=triage">請加入分類團隊</a>來做為在論壇上或郵件論壇中回報錯誤的使用者，與使用 <a href="http://bugs.mageia.org/">Mageia Bugzilla</a> 的開發者間的橋樑。',
+        'h3_qa' => '測試與品管',
+        'text_qa' => '除非我們能確信軟體運作正確，不然不能隨便給使用者使用。
+                                <a href="/wiki/doku.php?id=qateam">測試與品管</a>
+                                在做的就是這件事，確認我們的軟體、套件與 ISO 映像檔，網站等的品質沒有問題。',
+        'h3_marketing' => '宣傳、交流與推廣',
+        'text_marketing' => '對於計畫的使用者與貢獻者有更深的了解並且協助他們，確保 Mageia 的聲音能傳出去且維持一致
+                                這就是<a href="http://mageia.org/wiki/doku.php?id=marketing">宣傳與溝通團隊</a>
+                                的工作， 不管是局部性還是全球性的任務',
+        'h3_graphic' => '圖形與介面設計',
+        'text_graphic' => '軟體並不只是程式碼，Mageia也不只是科技
+                                所以讓他人性化，實用而且美觀吧！
+                                如果您對圖形設計與人機介面設計有天賦和經驗，
+                                <a href="/wiki/doku.php?id=designers">加入美工團隊！</a>!',
+        'h3_dev' => '寫程式與包套件',
+        'text_dev' => '透過您的技術支援，直接貢獻到計畫的核心吧！
+                                加入、修正、補充與維護將要加入到套件組的軟體，不論是來自其他上游的計畫或者 Mageia 專屬的來源。
+                                加入<a href="/wiki/doku.php?id=packagers">套件包裝團隊</a>！',
+        'h3_web' => '網路、工具、系統設計與管理',
+        'text_web' => 'Mageia 仰賴各種架構與工具讓每個人都能協同合作。這些都需要專家們來建構、
+                                維護、開發、提供並管理伺服器、連線、安全性、應用程式、資料傳輸等。
+                                無論是 <a href="/wiki/doku.php?id=sysadmin">系統管理者</a>或
+                                <a href="/wiki/doku.php?id=web">網頁設計師/開發者/整合工程師</a>
+                                都能出一份力。',
+        'h3_mirror' => '映射站台',
+        'text_mirror' => '讓 Mageia所提供的所有軟體可以讓大家取得需要
+                                <a href="http://mirrors.mageia.org/">全世界的鏡像站</a>,
+                                協助發布ISO與軟體套件。
+                                如果您有多餘的磁碟空間與頻寬分享給大眾， 請到<a href="/wiki/doku.php?id=mirrors_policy#how_to_become_a_mirror">
+                                如何建立一個Mageiia官方鏡像站</a>.',
+		'h3_donation' => '捐款',
+		'text_donation' => '財務捐款可以幫助我們分配特殊任務，確保我們的基礎架構，
+                                贊助活動，商品與交通。
+                                <a href="/en/thank-you/">超過兩百人基於信任</a>
+                                贊助了他們的金錢，硬體或者其他資源。
+                                我們保留了<a href="/en/about/reports/">公開的收入紀錄與流向</a>。',
+		'h3_data' => '資料收集與整理',
+		'text_data' => '有一大堆的資料，大部份我們不會用，或甚至不知道在幹嘛。若您喜歡挖掘與分析資料，並整理給大家參考，就聯繫我們吧！',
+		'h3_design' => '設計、實驗與發現未知的領域',
+		'text_design' => '提出您的想法，若有可行的方案更好。Mageia 專案並不只是做一個不一樣的 Linux 套件而已，也是在建立一個新的產品與體驗。',
+		'h2_time' => '時間',
+		'intro_time' => '您有多少空閒時間？ 您希望貢獻多少比例給 Mageia？
+                        看看您可以做什麼：',
+		'h3_minutes' => '只要幾分鐘',
+		'array_minutes' => array('去<a href="http://forums.mageia.org/">論壇</a>的支援討論區，看看有沒有什麼是您可以回答的問題。',
+
+					'在您的部落格或 Twitter 上，在您的辦公室內，與您身邊的朋友聊聊這個專案。',
+					'若是您遇到一個可以重現的問題，<a href="http://bugs.mageia.org/">就提交個錯誤報告吧！</a>',
+					'<a href="/en/donate/">捐款給我們！</a>'),
+
+		'h3_hours' => '大約數小時',
+		'array_hours' => array('來參加 Mageia 的活動，如測試日，幫大家一起找出、重現與協助解決問題。',
+					'訂閱討論的郵件論壇，看看有些什麼問題，並提供您的寶貴意見。'),
+		'h3_weeks' => '需要數週或更久',
+		'array_weeks' => array('學習關於一般自由軟體或開放源碼軟體協作的方式，特別是怎麼跟大家一起開發 Mageia。',
+					'若您是個學生，請考慮與您的老師談論是否能將參與此專案做為您的學業修習的一部份；您不需要主修電腦資訊科學才能向老師提這個想法。')
+    ),
 );
