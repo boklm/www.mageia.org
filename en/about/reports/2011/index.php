@@ -21,21 +21,21 @@
 			<h2>Summary</h2>
 			<ul>
 				<li>Outstanding amount of <a href="/en/about/reports/2010">2010</a>: EUR&nbsp;7 523.96</li>
-				<li>Amount collected: EUR&nbsp;2 974.03</li>
+				<li>Amount collected: EUR&nbsp;3 379.86</li>
 				<li>Amount spent: EUR&nbsp;3 469.75</li>
 				<li>Amount remaining: <?php echo $g_amount_remain; ?></li>
 			</ul>
 			<h2>Financial Report</h2>
-			<table id="fr-table"><thead><tr><th>Wording of the financial transaction</th><th>Income</th><th>Outgoing</th></tr></thead><tbody><tr>
-				<tr><td colspan=3>Donations and sells</td></tr>
+			<table id="fr-table"><thead><tr><th>Transaction description</th><th>Income</th><th>Outgoing</th></tr></thead><tbody><tr>
+				<tr><td colspan=3>Donations and Sales</td></tr>
                                 <tr><td>Donations by Paypal/transfer/check</td><td class="money">EUR&nbsp;1 920.97</td><td class="money">&nbsp;</td></tr>
                                 <tr><td>Sale of Tee-Shirts</td><td class="money">EUR&nbsp;1 050.00</td><td class="money">&nbsp;</td></tr>
-				<tr><td colspan=3>Cotisations + administrative tasks</td></tr>
+				<tr><td colspan=3>Fees and Administration Costs</td></tr>
 				<tr><td>Administrative cost for the birth of Mageia.Org (JO)</td><td class="money">&nbsp;</td><td class="money">EUR&nbsp;44.00</td></tr>
-				<tr><td>April (annual cotisation)</td><td class="money">&nbsp;</td><td class="money">EUR&nbsp;100.00</td></tr>
+				<tr><td>April (annual fee)</td><td class="money">&nbsp;</td><td class="money">EUR&nbsp;100.00</td></tr>
 				<tr><td>INPI brand registration for 10 years (rda)</td><td class="money">&nbsp;</td><td class="money">EUR&nbsp;250.00</td></tr>
 				<tr><td>Annual interest of our savings account</td><td class="money">EUR&nbsp;3.06</td><td class="money">&nbsp;</td></tr>
-				<tr><td colspan=3>Goodies and accesorizes</td></tr>
+				<tr><td colspan=3>Goodies and accessories</td></tr>
 				<tr><td>Posters + flyers for Solutions Linux (rda)</td><td>&nbsp;</td><td class="money">EUR&nbsp;159.25</td></tr>
 				<tr><td>Stickers + Tee-Shirts (fosdem)</td><td>&nbsp;</td><td class="money">EUR&nbsp;1 932.14</td></tr>
 				<tr><td>Money box (dams)</td><td>&nbsp;</td><td class="money">EUR&nbsp;17.93</td></tr>
@@ -55,12 +55,12 @@
 			</table>
 			<h2>Bank accounts situation</h2>
 			<ul>
-                                <li>Paypal (non-for-profit organisation account): EUR&nbsp;158.51</li>
-				<li>Main account (with checkbook and no credit card): EUR&nbsp;1 280.29</li>
+                                <li>Paypal (non-for-profit organisation account): EUR&nbsp;443.34</li>
+				<li>Main account (with checkbook and no credit card): EUR&nbsp;1 401.29</li>
 				<li>Savings account (between 2% and 4% of interest): EUR&nbsp;5 503.06</li>
 			</ul>
 			<h2>Forecast for 2011</h2>
-			<table id="fr-table"><thead><tr><th>Wording of the financial need</th><th>Unit Price</th><th>Quantity</th><th>Recurrence</th><th>Total Price</th><th>Status</th></tr></thead><tbody><tr>
+			<table id="fr-table"><thead><tr><th>Description of planned expenditure</th><th>Unit Price</th><th>Quantity</th><th>Recurrence</th><th>Total Price</th><th>Status</th></tr></thead><tbody><tr>
                                 <tr><td>Goodies</td><td class="money">EUR&nbsp;4 500.00</td><td class="money">1</td><td class="money">1</td><td class="money">EUR&nbsp;4 500.00</td><td>pending</td></tr>
                                 <tr><td>April</td><td class="money">EUR&nbsp;100.00</td><td class="money">1</td><td class="money">1</td><td class="money">EUR&nbsp;100.00</td><td>pending</td></tr>
                                 <tr><td>Gandi (hosting: +1536 MB of RAM)</td><td class="money">EUR&nbsp;2.39</td><td class="money">6</td><td class="money">12</td><td class="money">EUR&nbsp;172.08</td><td>done (Wed Mar 30)</td></tr>
@@ -83,7 +83,7 @@
 				<li>You can see the <a href="/en/thank-you" hreflang="en">"thank you" page</a>.</li>
 			</ul>
 			<h2>Contact</h2>
-			Financial report published by Damien Lallement (Mageia Treasurer on the 2011 Fiscal Year).<br/>You can contact him by sending an email to <em>treasurer[at]mageia[dot]org</em>.<br/>Last updated: Mon May 30 21:53:12 CEST 2011.
+			Financial report published by Damien Lallement (Mageia Treasurer on the 2011 Fiscal Year).<br/>You can contact him by sending an email to <em>treasurer[at]mageia[dot]org</em>.<br/>Last updated: Mon Jun 24 11:35:19 CEST 2011.
                 </div>
             </div>
         </div>
