@@ -38,11 +38,7 @@
                         <a href="./reports/2011/">2011</a></li>
                     <li><a href="../thank-you/">Thanks!</a></li>
                     <li><a href="./policies/privacy/">Privacy policy</a></li>
-                    <li>Current logo: <a href="/g/media/logo/mageia-2011.png" alt="Mageia Logo in PNG">PNG</a>,
-                        <a href="/g/media/logo/mageia-2011.svg" alt="Mageia Logo in SVG">SVG</a>.
-                        Please consult <a href="/wiki/doku.php?id=designers">artwork team</a>
-                        or <a href="/wiki/doku.php?id=marketing">marcom' team</a>
-                        if you have questions/concerns about using it.</li>
+                    <li><a href="./media/">Logo, CD covers files, media files</a>.</li>
                 </ul>
             </div></div>
         </div>
