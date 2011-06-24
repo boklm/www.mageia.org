@@ -38,7 +38,7 @@
                         <a href="./reports/2011/">2011</a></li>
                     <li><a href="../thank-you/">Thanks!</a></li>
                     <li><a href="./policies/privacy/">Privacy policy</a></li>
-                    <li><a href="./media/">Logo, CD covers files, media files</a>.</li>
+                    <li><a href="/en/about/media/">Logo, CD covers files, media files</a>.</li>
                 </ul>
             </div></div>
         </div>
