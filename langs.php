@@ -135,6 +135,7 @@ $nav_list = array(
         'ro' => 'Contribuiți'
     ),
     '/wiki/' => 'Wiki',
+    'https://bugs.mageia.org/' => 'Bugzilla',
     /*
     '/en/calendar/' => array(
         'de' => 'Kalender',
