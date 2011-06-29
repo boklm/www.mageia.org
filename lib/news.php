@@ -63,25 +63,7 @@ function news_date($dt, $locale = 'en')
 */
 function get_news($locale = 'en', $count = 5, $cache_timeout = 5)
 {
-    $news = array(
-        'en' => 'http://blog.mageia.org/',
-        'fr' => 'http://blog.mageia.org/fr/',
-        'es' => 'http://blog.mageia.org/es/',
-        'de' => 'http://blog.mageia.org/de/',
-        'el' => 'http://blog.mageia.org/el/',
-        'it' => 'http://blog.mageia.org/it/',
-        'pt' => 'http://blog.mageia.org/pt-br/', // @fixme => /pt/ once blog is moved
-        'ro' => 'http://blog.mageia.org/ro/',
-        'tr' => 'http://blog.mageia.org/tr/',
-	'pl' => 'http://blog.mageia.org/pl/',
-	'ru' => 'http://blog.mageia.org/ru/',
-        /* missing: et, fi, lv, nb, nl, sl, zh-cn, zh-tw */
-    );
-
-    if (!array_key_exists($locale, $news))
-        $locale = 'en';
-    
-    $source_url = $news[$locale];
+    $source_url = blog_link($locale);
 
     include_once G_APP_ROOT . '/lib/simplepie/simplepie.inc';
     $feed = new SimplePie($source_url,
@@ -105,4 +87,31 @@ function get_news($locale = 'en', $count = 5, $cache_timeout = 5)
     unset($feed);
 
     return $items;
+}
+
+/**
+*/
+function blog_link($locale)
+{
+    $news = array(
+        'el' => 'http://blog.mageia.org/el/',
+        'en' => 'http://blog.mageia.org/en/',
+        'es' => 'http://blog.mageia.org/es/',
+        'fr' => 'http://blog.mageia.org/fr/',
+        'de' => 'http://blog.mageia.org/de/',
+        'it' => 'http://blog.mageia.org/it/',
+        'pl' => 'http://blog.mageia.org/en/', // pl when up to date
+        'pt' => 'http://blog.mageia.org/pt/',
+        'ro' => 'http://blog.mageia.org/ro/',
+        'ru' => 'http://blog.mageia.org/en/', // ru, when up to date
+        'tr' => 'http://blog.mageia.org/tr/',
+        /* missing: et, fi, lv, nb, nl, sl, zh-cn, zh-tw */
+    );
+
+    if (!array_key_exists($locale, $news))
+        $locale = 'en';
+
+    $source_url = $news[$locale];
+    
+    return $source_url;
 }

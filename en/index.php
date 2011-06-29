@@ -48,18 +48,22 @@ $_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
                 <p><a href="http://twitter.com/mageia_org" class="twitter-follow-button" data-lang="<?php echo $locale; ?>">Follow @mageia_org</a>
                 <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script></p>
             </div></div>
-            <?php /*
-            <div class="yui-g bb1">
-                <div class="para"><p><?php echo $_t['about'][0]; ?></p>
+
+            <div class="yui-g">
+                <div class="para bb1" id="news">
+                <?php
+                    include '../lib/news.php';
+                    echo sprintf('<h2><a href="%s">%s</a></h2>', blog_link($locale), $_t['news']);
+                    echo html_news($locale);
+                ?>
+                </div>
+                <div class="para bb1"><p><?php echo $_t['about'][0]; ?></p>
                     <p><?php echo $_t['about'][1]; ?></p>
                 </div>
             </div>
+            <?php /*
             <div class="yui-g bb1">
                 <div class="yui-u first rb1">
-                    <div class="para" id="news">
-                        <h2><a href="http://blog.mageia.org/"><?php echo $_t['news']; ?></a></h2>
-                    <?php include '../lib/news.php'; echo html_news($locale); ?>
-                    </div>
                 </div>
                 <div class="yui-u">
                     <div class="para">
@@ -68,6 +72,7 @@ $_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
                     </div>
                 </div>
             </div>
+            
             <div class="yui-g bb1">
                 <div class="yui-u first">
                     <div class="para" id="contact">
@@ -90,11 +95,6 @@ $_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
                             <a href="http://www.facebook.com/Mageia"><img src="/g/images/smi/facebook-32x32.png" alt="Mageia"></a>
                             <a href="http://www.flickr.com/photos/mageia_org"><img src="/g/images/smi/flickr-32x32.png"></a>
                         </p>
-                    </div>
-                </div>
-                <div class="yui-u">
-                    <div class="para">
-                    <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FMageia%2F157247240967735&amp;width=320&amp;connections=10&amp;stream=false&amp;header=false&amp;height=255" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:320px; height:255px;" allowTransparency="true"></iframe>
                     </div>
                 </div>
             </div>
