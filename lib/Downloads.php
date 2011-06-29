@@ -93,7 +93,7 @@ class Downloads
     public static function get_all_mirrors()
     {
         $prod = true;
-        $cache_file = '../../lib/cached.list.php';
+        $cache_file = realpath('../../lib/cached.list.php');
 
         if ($prod) {
             require $cache_file;
@@ -101,7 +101,7 @@ class Downloads
         }
 
         // @todo cache this!
-        $data = file('http://mirrors.mageia.org/api/foo.Cauldron.i586.list');
+        $data = file('http://mirrors.mageia.org/api/mageia.1.i586.list');
         $mirrors3 = array();
         foreach ($data as $line) {
             $line = explode(',', trim($line));
@@ -115,10 +115,11 @@ class Downloads
                 $mirrors3[$m['country']][] = array(
                     'city' => isset($m['city']) ? $m['city'] : '?',
                     'zone' => $m['zone'],
-                    'url' => str_replace('/distrib/cauldron/i586', '', $m['url'])
+                    // BEWARE of the path substitution here. Must match.
+                    'url' => str_replace('/distrib/1/i586', '', $m['url'])
                 );
         }
-        
+
         /*
         file_put_contents($cache_file,
             sprintf('<?php $mirrors = %s; ?>',
