@@ -16,7 +16,7 @@ function dl_twitter($locale)
 <a
     href="http://twitter.com/share"
     class="twitter-share-button"
-    data-url="http://mageia.org/downloads/"
+    data-url="http://mageia.org"
     data-text="{$langs[$locale]}"
     data-count="horizontal"
     data-via="mageia_org"
