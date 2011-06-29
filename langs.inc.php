@@ -1,4 +1,8 @@
 <?php
+/**
+*/
+
+define('G_VHOST', $_SERVER['SERVER_NAME']);
 
 // languages for home
 $langs = array(
@@ -26,17 +30,47 @@ $langs = array(
     'zh-tw' => '正體中文'
 );
 
+// TODO (rda) define fallback languages for each language
+// for instance, pt-br could fallback on pt and pt on pt-br (but without
+// a cycle) then on es, etc.
 $i18n_fallback_rules = array(
     'pt-br' => 'pt',
     'pt'    => 'pt-br'
 );
 
-// TODO (rda) define fallback languages for each language
-// for instance, pt-br could fallback on pt and pt on pt-br (but without
-// a cycle) then on es, etc.
+$domains_lang = array(
+    'mageia.fr' => 'fr',
+    'mageia.it' => 'it',
+    'mageia.ro' => 'ro',
+);
 
 /**
- * Redirect to a localized path.
+ * Redirect to a localized path, depending on incoming TLD.
+ * Only manages redirections to main home path.
+ *
+ * @param string  $host
+ * @param array   $domains_lang 
+ * @param string  $vhost
+ *
+ * @return void
+*/
+function domain_redirect($host, $domains_lang, $vhost)
+{
+    $host = str_replace('www.', '', $host);
+
+    if (array_key_exists($host, $domains_lang)) {
+        $path = $domains_lang[$host] . '/';
+        header ('HTTP/1.1 301 Moved Permanently');
+    } else {
+        $path = '?langs';
+    }
+    header(sprintf('Location: %s://%s/%s', 'http', $vhost, $path));
+    die;
+}
+
+
+/**
+ * Redirect to a localized path, after browser Accept-Language prefs.
  *
  * @param array $langs list of languages
  * @param string $page optional path to which we want to redirect
