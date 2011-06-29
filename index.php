@@ -5,6 +5,18 @@
 
 require_once 'langs.inc.php';
 
+// NOTE, this should go to the main controller in the next platform
+// (catching all requests)
+$domain = 'mageia.org';
+$www_domain = 'www.' . $domain;
+if (G_VHOST == $domain) {
+    header ('HTTP/1.1 301 Moved Permanently');
+    header(sprintf('Location: http://%s%s', $www_domain, $_SERVER['REQUEST_URI']));
+    die;
+} elseif (G_VHOST != $www_domain) {
+    domain_redirect($_SERVER['SERVER_NAME'], $domains_lang, $www_domain);
+}
+
 if (isset($_GET['langs'])) { die(show_langs($langs)); }
 
 if (isset($_GET['flang']))
