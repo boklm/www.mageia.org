@@ -20,9 +20,9 @@
                 <h2>Actividade actual</h2>
                 <ul>
                     <li><a href="../donate/">Doações</a></li>
-                    <li><a href="/pt/">Calendárior</a></li>
+                    <li><a href="/pt/">Calendário</a></li>
                     <li><a href="http://forums.mageia.org/">Fóruns</a>,
-                        <a href="/mailman/">listas de correio</a>,
+                        <a href="/mailman/">Listas de correio</a>,
                         <a href="/wiki/">Wiki</a></li>
                     <li><a href="http://svnweb.mageia.org/">Repositório de código</a></li>
                 </ul>
