@@ -104,4 +104,53 @@ $_t = array(
             si cela vous intéresse et que vous pensez pouvoir y contribuer,
             n&rsquo;hésitez pas à contacter les équipes <a href="%s">Web</a> et <a href="%s">QA</a>.'
     ),
+    'pt' => array(
+        'page_title' => 'Suporte para a distribuição Mageia',
+        'page_desc' => 'Lista de recursos de suporte para a distribuição Mageia.',
+        'page_kw' => 'mageia, linux, suporte, ajuda, material, qa, teste',
+        'h1_title' => 'Suporte',
+        'h2_comm_support' => 'Suporte da Comunidade',
+        'h2_pro_support' => 'Suporte Profissional',
+        'h2_hw_reqs' => 'Requerimentos de Material',
+        
+        'comm_1' => 'Se precisa de ajuda, informação ou direcções acerca da distribuição Mageia
+            que instalou ou acerca do projecto, pode tentar contactar-nos através de:',
+        'comm_list' => array(
+            '<a href="http://forums.mageia.org/en/">Fóruns de suporte da Comunidade</a> em Inglês
+                &ndash; veja os <a href="https://forums.mageia.org/en/viewforum.php?f=20">outros
+                fóruns de suporte da comunidade Mageia</a> na sua língua;',
+            'Canais IRC onde pode discutir directamente com outros utilizadores e contribuidores Mageia:
+                <a href="irc://irc.freenode.net/#mageia" hreflang="en">#mageia</a>
+                ou <a href="http://mageia.org/wiki/doku.php?id=irc#channels_in_other_languages">channels</a> noutras línguas;',
+            'a nossa <a href="http://mageia.org/wiki/">Wiki</a> (ainda áspera de momento, mas estamos a trabalhar para a melhorar!);',
+            'as nossas <a href="http://mageia.org/mailman/" hreflang="en">listas de correio</a>;',
+            'eventos locais: siga o nosso <a href="http://blog.mageia.org/en/">blogue</a>
+                e <a href="http://mageia.org/en/calendar/">calendário</a>.',
+        ),
+
+        'pro_1' => 'A Mageia.Org não fornece ou aprova o suporte comercial/profissional
+            ou outros serviços acerca da distribuição.
+            Mas existem organizações a fornecer tais serviços e muito mais.',
+        'pro_2' => 'Por favor veja a lista de <a href="%s">fabricantes comerciais</a> list.',
+
+        'hw_1' => 'Os programas Mageia correm na maioria dos computadores x86 disponíveis a partir de hoje, Abril de 2011.',
+        'hw_2' => 'Pode seguir esta lista de requerimentos de material:',
+        'hw_list' => array(
+            'Processador: qualquer AMD, Intel ou VIA;',
+            'Memória (RAM): 512MB mínimo, 2GB recomendado;',
+            'Armazenamento (HDD): 1GB para uma instalação mínima, 6GB para uma instalação completa;',
+            'Unidade Óptica: CD ou DVD dependendo do ISO que usa (instalação disponível por rede, dispositivo USB);',
+            'Placa Gráfica: qualquer ATI, Intel, Matrox, nVidia, SiS ou VIA;',
+            'Placa de Som: qualquer AC97, HDA ou Sound Blaster.'
+        ),
+        'hw_some_hardware' => 'Para alguns tipos de material (placas Sem-fio, placas gráficas 3D) funcionarem bem,
+            pode ser preciso algum programa ou \'firmware\' específico, isto está disponível num repositório
+            em-linha específico chamado "nonfree" (saber mais).',
+
+        'hw_hcl_note' => 'Podemos definir uma lista/directório de compatibilidade de material
+            assim como um processo de certificação de material; mas isso
+            ainda está a ser planeado. Sinta-se à vontade para se juntar/contactar as
+            nossas equipas <a href="%s">Web</a> e <a href="%s">QA</a>
+            se deseja ajudar neste aspecto.'
+    ),
 );
