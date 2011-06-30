@@ -45,7 +45,8 @@ $_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
         <a href="./1/" title="Mageia 1"><img src="/g/1/screenshots/opt-mageia.jpg" alt="Mageia 1 Desktop" class="rel-desktop-home"></a>
         <div id="bd" role="main">
             <div class="yui-g"><div class="para">
-                <p><a href="http://twitter.com/mageia_org" class="twitter-follow-button" data-lang="<?php echo $locale; ?>">Follow @mageia_org</a>
+		<p><div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:facepile href="facebook.com/Mageia" width="200" max_rows="1"></fb:facepile>
+		<a href="http://twitter.com/mageia_org" class="twitter-follow-button" data-lang="<?php echo $locale; ?>">Follow @mageia_org</a>
                 <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script></p>
             </div></div>
 
