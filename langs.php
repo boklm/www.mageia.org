@@ -74,6 +74,7 @@ if (in_array($locale, array('fr', 'de', 'es', 'pt-br')))
 // global nav
 $nav_list = array(
     "/{$locale}/" => 'Mageia',
+    "/{$locale}/1/" => '1',
     $blog_link => array(
         'el' => 'Ιστολόγιο',
         'en' => 'Blog',
