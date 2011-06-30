@@ -1,14 +1,10 @@
 <?php
 
-$locale = explode('/', $_SERVER['REQUEST_URI']);
-$locale = $locale[1];
+define('HLANG', true);
+require '../../langs.php';
+include 'locales.php';
 
-require 'locales.php';
-if (!array_key_exists($locale, $_t)) {
-    $locale = 'en';
-}
-
-$_t = $_t[$locale];
+$_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
 
 ?>
 <!DOCTYPE html>
@@ -24,9 +20,9 @@ $_t = $_t[$locale];
     <?php include '../../analytics.php'; ?>
 </head>
 <body class="release">
-    <?php include '../../langs.php'; ?>
+    <?php echo $hsnav; ?>
     <div id="doc" class="yui-t7">
-        <div id="hd" role="banner"><h1><a id="logo" href="/<?php echo $locale; ?>"><span>Mageia</span></a> <span class="lsep">|</span> <span class="subh">1</span></h1></div>
+        <div id="hd" role="banner"><h1><a id="logo" href="/<?php echo $locale; ?>/"><span>Mageia</span></a> <span class="lsep">|</span> <span class="subh">1</span></h1></div>
         <?php include 'nav.php'; ?>
         <div id="bd" role="main">
             <div class="yui-g bb1">
