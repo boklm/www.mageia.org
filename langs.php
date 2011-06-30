@@ -66,7 +66,7 @@ $blog_link = 'http://blog.mageia.org/';
 if (in_array($locale, array('de', 'el', 'en', 'es', 'fr', 'it', 'nl', 'pl', 'pt', 'ro', 'ru', 'tr')))
     $blog_link .= $locale . '/';
 
-$forums_link = 'http://forums.mageia.org/';
+$forums_link = 'https://forums.mageia.org/';
 // TODO pt, zh-tw, el
 if (in_array($locale, array('fr', 'de', 'es', 'pt-br')))
     $forums_link .= $locale . '/';
@@ -85,7 +85,6 @@ $nav_list = array(
         'tr' => 'Web Günlüğü',
         'ru' => 'Блог'
     ),
-    //"/downloads/" => array(
     "/{$locale}/downloads/" => array(
         'de' => 'Herunterladen',
         'el' => 'Λήψεις',
@@ -100,7 +99,7 @@ $nav_list = array(
         'ru' => 'Загрузить',
         'zh-tw' => '下載'
     ),
-    '/support/' => array(
+    "/{$locale}/support/" => array(
         'de' => 'Unterstützung',
         'el' => 'Υποστήριξη',
         'en' => 'Support',
@@ -124,7 +123,7 @@ $nav_list = array(
         'pt' => 'Fórum',
         'pt-br' => 'Forum'
     ),
-    '/contribute/' => array(
+    "/{$locale}/contribute/" => array(
         'de' => 'Mitwirken',
         'el' => 'Συνεισφέρετε',
         'en' => 'Contribute',
@@ -167,8 +166,6 @@ $nav_list = array(
     ),
     */
     "/{$locale}/donate/" => array(
-    //locale_path('donate') => array(
-    //"http://www.mageia.org/en/donate//{$locale}/" => array(
         'de' => 'Spenden',
         'el' => 'Δωρεές',
         'en' => 'Donations',
