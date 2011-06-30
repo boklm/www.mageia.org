@@ -1399,10 +1399,10 @@ $_t = array(
         'page_desc' => 'Aqui pode encontrar como, contribuir para o projecto Mageia',
         'page_kw' => 'mageia, contribuir, como, sistema operativo',
         'page_h1' => 'Contribuir para a Mageia',
-        'mageia_intro' => 'Muitas pessoas à volta do mundo reunem-se para compilar a Mageia
+        'mageia_intro' => 'Muitas pessoas à volta do mundo reúnem-se para compilar a Mageia
                         &ndash; um sistema operativo baseado no Linux <em>e</em>
-                        uma <a href="/pt/about/code-of-conduct/">comunidade viva e divertida</a>
-                        para <a href="/pt/about/values/">compilar projectos de código livre</a>.',
+                        uma <a href="/pt-br/about/code-of-conduct/">comunidade viva e divertida</a>
+                        para <a href="/pt-br/about/values/">compilar projectos de código livre</a>.',
         'contribute_intro' => 'Toda a gente pode contribuir, isto é \'Software\' Livre!
                         Se está curioso e deseja juntar-se,
                         existem algumas coisa que pode fazer,
@@ -1416,20 +1416,20 @@ $_t = array(
         'browse_time' => 'Procurar por tempo',
         'h2_role' => 'Actividades',
         'h3_support' => 'Ajudar os utilizadores a defender o projecto',
-        'text_support' => 'Quer suadar e ajudar novos utilizadores ou partilhar dicas com utilizadores avançados?
+        'text_support' => 'Quer saudar e ajudar novos utilizadores ou partilhar dicas com utilizadores avançados?
                                 Em <a href="/wiki/doku.php?id=irc">canais IRC</a>,
                                 <a href="http://forums.mageia.org/">fóruns</a>,
                                 <a href="http://mageia.org/mailman/">listas de correio</a>,
-                                eventos locais? Entre em contacto connosco através de uma destes canais e partilhe!',
-        'h3_docu' => 'Escrever, documentas e leis de direitos de autor',
+                                eventos locais? Entre em contacto connosco através de um destes canais e partilhe!',
+        'h3_docu' => 'Escrever, documentos e leis de direitos de autor',
         'text_docu' => 'Tem um gosto por uma boa escrita, prática, clara, concisa e revisionada?
                                 gosta de assumir o desafio de explicar de forma clara
-                                idéias complexas ou sistemas e ensinar outros?
+                                ideias complexas ou sistemas e ensinar outros?
                                 Sabe como misturar o a forma do conteúdo para escrever a mensagem certa?
                                 Entre em contacto com a nossa <a href="/wiki/doku.php?id=documentation">equipa de Documentação</a>!',
         'h3_i18n' => 'Traduzir',
         'text_i18n' => 'A Mageia está traduzida mais de 180 línguas!
-                                A clarificação, completação, melhoraramento
+                                A clarificação, completação, melhoramento
                                 as traduções de programas, guias, tutoriais, sítios Web, material de mercadologia (marketing),
                                 etc. acontece graças aos esforços de muitos contribuidores.
                                 Junte-se à <a href="/wiki/doku.php?id=translators">equipa de tradução</a>!',
@@ -1448,17 +1448,17 @@ $_t = array(
         'h3_marketing' => 'Mercado, Comunicação e Evangelismo',
         'text_marketing' => 'É melhor compreender quem de nós usa e contribui para o projecto
                                 para os poder ajudar mais, certificando-nos de que a voz da Mageia é consistente e é ouvida,
-                                é um trabalho para a <a href="http://mageia.org/wiki/doku.php?id=marketing">equipa de Mercado-Comunicação</a>
+                                é um trabalho para a <a href="http://mageia.org/wiki/doku.php?id=marketing">equipa MerCom</a>
                                 (Mercado e Comunicação), seja a nível global ou local.',
         'h3_graphic' => 'Desenho UI Gráfico',
         'text_graphic' => 'Os programas não são apenas acerca de código, nem a Mageia é apenas acerca de tecnologia.
                                 Como tal torná-la humana, prática e bonita!
                                 Se tem talento e experiência em desenho gráfico, ergonomia,
-                                junte-se à <a href="/wiki/doku.php?id=designers">equipa de arte</a>!',
+                                junte-se à <a href="/wiki/doku.php?id=designers">equipa Artística</a>!',
         'h3_dev' => 'Código e Empacotamento',
-        'text_dev' => 'Contribuir para o núcleo da distribuição com os seus conhecimentos tecnicos!
-                                Adicionar, corrigir, e mater os programas para serem incluidos
-                                na distribuição, desde os prohectos na fonte ou das fontes especificas
+        'text_dev' => 'Contribuir para o núcleo da distribuição com os seus conhecimentos técnicos!
+                                Adicionar, corrigir, e manter os programas para serem incluídos
+                                na distribuição, desde os projectos na fonte ou das fontes específicas
                                 da Mageia. Junte-se à <a href="/wiki/doku.php?id=packaging">equipa de Empacotamento</a>!',
         'h3_web' => 'Web, ferramentas, desenho do sistema e administração',
         'text_web' => 'A Mageia depende da infra-estructura e das ferramentas que permitam a toda gente
@@ -1474,11 +1474,11 @@ $_t = array(
                                 Se tem espaço em disco e largura de banda para partilhar, por favor <a href="/wiki/doku.php?id=mirrors_policy#how_to_become_a_mirror">veja como
                                 pode fornecer um espelho oficial Mageia</a>.',
         'h3_donation' => 'Doar',
-        'text_donation' => 'As doações financeiras ajudam-nos a alocar parefas especificas, segurar a nossa infra-estructura,
+        'text_donation' => 'As doações financeiras ajudam-nos a alocar tarefas específicas, segurar a nossa infra-estructura,
                                 angariação de fundos, presentes e transporte.
-                                Mais de <a href="/pt/thank-you/">200 pessoas depositaram a sua confiança em nós</a>
-                                como seu dinheiro, material e outros recursos.
-                                Mantemos um <a href="/pt/about/reports/">registo público daquilo que recebemos
+                                Mais de <a href="/pt-br/thank-you/">200 pessoas depositaram a sua confiança em nós</a>
+                                com o seu dinheiro, material e outros recursos.
+                                Mantemos um <a href="/pt-br/about/reports/">registo público daquilo que recebemos
                                 e como é usado</a>.',
         'h3_data' => 'Analise de Dados',
         'text_data' => 'Existem milhares de dados por aí, muitos dos quais não usados por nós,
@@ -1494,14 +1494,14 @@ $_t = array(
         'intro_time' => 'Quanto tempo livre tem? e quanto deste tempo livre deseja empregar na Mageia?
                         Veja o que pode fazer:',
         'h3_minutes' => 'Alguns minutos',
-        'array_minutes' => array('Páre na secção de suport dos <a href="http://forums.mageia.org/">fórums</a> e verifique se consegue responer a alguma questão.',
-                                'Falar acerca do projecto para as pessoas à sua volta, no seu blogue, na seu Twitter,
+        'array_minutes' => array('Pare na secção de suporte dos <a href="http://forums.mageia.org/">fóruns</a> e verifique se consegue responder a alguma questão.',
+                                'Falar acerca do projecto para as pessoas à sua volta, no seu blogue, no seu Twitter,
                                 no seu local de trabalho.',
                                 'Se encontrar um erro que possa reproduzir consistentemente,
                                 <a href="http://bugs.mageia.org/">reporte esse erro</a>.',
-                                'Fazer uma <a href="/pt/donate/">doação</a>!'),
-        'h3_hours' => 'Algumas goras',
-        'array_hours' => array('Páre no evento Mageia, Como um dia de testes para encontrar, reproduzir e ajudar a resolver erros.',
+                                'Fazer uma <a href="/pt-br/donate/">doação</a>!'),
+        'h3_hours' => 'Algumas horas',
+        'array_hours' => array('Pare no evento Mageia, Como um dia de testes para encontrar, reproduzir e ajudar a resolver erros.',
                                 'Subscreva-se numa lista de discussão de uma equipa e esteja atento ao que aí acontece,
                                  tente ver como poderá trazer algo útil para a lista.'),
         'h3_weeks' => 'Algumas semanas ou mais',
