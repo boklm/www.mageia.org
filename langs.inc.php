@@ -48,6 +48,21 @@ $domains_lang = array(
  * Redirect to a localized path, depending on incoming TLD.
  * Only manages redirections to main home path.
  *
+ * @param string  $tld
+ * @param array   $domains_lang 
+ * @param string  $vhost
+ *
+ * @return void
+*/
+function tld_redirect($tld, $domains_lang, $vhost)
+{
+    domain_redirect('mageia.' . $tld, $domains_lang, $vhost);
+}
+
+/**
+ * Redirect to a localized path, depending on incoming full domain.
+ * Only manages redirections to main home path.
+ *
  * @param string  $host
  * @param array   $domains_lang 
  * @param string  $vhost
