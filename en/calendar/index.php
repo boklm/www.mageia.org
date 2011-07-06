@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="pt">
+<html dir="ltr" lang="en">
 <head>
-    <meta charset="utf-8" />
-    <title>Calendário Mageia</title>
-    <meta name="description" content="Calendário Mageia para organizações, eventos, agenda de desenvolvimento e mais." />
-    <meta name="keywords" content="mageia, linux, calendário, eventos" />
-    <meta name="author" content="Mageia" />
-    <link rel="stylesheet" type="text/css" href="/g/style/all.css" >
+    <meta charset="utf-8">
+    <title>Mageia calendar</title>
+    <meta name="description" content="Mageia calendar for organization, events, development schedule and more.">
+    <meta name="keywords" content="mageia, linux, calendar, events">
+    <meta name="author" content="Mageia">
+    <link rel="stylesheet" type="text/css" href="/g/style/all.css">
     <?php include '../../analytics.php'; ?>
 </head>
 <body>
     <?php include '../../langs.php'; ?>
     
     <div id="doc" class="yui-t7">
-        <div id="hd" role="banner"><h1><a id="logo" href="/"><span>Mageia</span></a> <span class="lsep">|</span> <span class="subh">Calendário</span></h1></div>
+        <div id="hd" role="banner"><h1><a id="logo" href="/"><span>Mageia</span></a> <span class="lsep">|</span> <span class="subh">Calendar</span></h1></div>
         <div id="bd" role="main">
             <div class="yui-g">
                 <br />
@@ -66,22 +66,22 @@
                     scrolling="no"></iframe>
 
                 <div class="para">
-                    <p>Este calndário mostra todos os eventos Mageia,
-                        <a href="http://mageia.org/wiki/doku.php?id=meetings">reuniões de equipas</a>,
-                        datas de planos de desenvolvimento
-                        e possívelmente mais.</p>
-                    <p>É público e está disponível para todos. Apenas a direcção, membros do conselho e líderes de equipas
-                        tem permissão de escrita no calendário.</p>
-                    <p>Para qualquer comentário, adição, alteração neste calendário, entre em contacto connosco através de:</p>
+                    <p>This calendar shows all Mageia events,
+                        <a href="http://mageia.org/wiki/doku.php?id=meetings">team meetings</a>,
+                        development planning milestones
+                        and possibly more.</p>
+                    <p>It is public and available to all. Only Mageia Board and Council members and team leaders
+                        have a write access to it.</p>
+                    <p>For any comment, addition, change to this calendar, feel free to contact us through:</p>
                     <ul>
-                        <li>o seu líder de <a href="http://mageia.org/wiki/">equipa</a> ou representante,</li>
-                        <li><a href="irc://irc.freenode.net/#mageia-dev">#mageia-dev</a> na rede Freenode,</li>
-                        <li><a href="mailto:mageia-contact@mageia.org">mageia-contact@mageia.org</a> como último recurso.</li>
+                        <li>your <a href="http://mageia.org/wiki/">team</a> leader or representative,</li>
+                        <li><a href="irc://irc.freenode.net/#mageia-dev">#mageia-dev</a> on Freenode,</li>
+                        <li><a href="mailto:mageia-contact@mageia.org">mageia-contact@mageia.org</a> in last resort.</li>
                     </ul>
                 </div>
                 <div class="para">
-                    <h3>Ficheiros ICS</h3>
-                    <p>Pode obter um acesso de leitura-apenas directamente destes ficheiros .ics:</p>
+                    <h3>ICS files</h3>
+                    <p>You may get read-only access directly to these .ics files:</p>
                     <ul>
                     <?php
                     $ical_tmpl = 'http://www.google.com/calendar/ical/%s/public/basic.ics';
@@ -99,6 +99,3 @@
     </div>
 </body>
 </html>
-
-
-
