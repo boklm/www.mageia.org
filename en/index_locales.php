@@ -138,7 +138,7 @@ $_t = array(
             'Mais do que apenas oferecer um sistema operacional livre, seguro, estável e sustentável,
                 o objetivo é a criação de uma administração estável e confiável para orientar projetos
                 colaborativos
-                (<a href="/pt/about/2010-sept-announcement.html">veja o anúncio original</a>).'
+                (<a href="/pt-br/about/2010-sept-announcement.html">veja o anúncio original</a>).'
         ),
         'mageia-is-here' => 'Mageia 1 is here',
         'join-us' => 'Como nos contatar',
