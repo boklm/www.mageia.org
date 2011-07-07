@@ -44,23 +44,31 @@ $_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
         <div id="mgacount"><h2><a href="./1/"><?php echo $_t['mageia-is-here']; ?></a></h2></div>
         <a href="./1/" title="Mageia 1"><img src="/g/1/screenshots/opt-mageia.jpg" alt="Mageia 1 Desktop" class="rel-desktop-home"></a>
         <div id="bd" role="main">
-            <div class="yui-g"><div class="para">
-		<p><div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:facepile href="facebook.com/Mageia" width="200" max_rows="1"></fb:facepile>
-		<a href="http://twitter.com/mageia_org" class="twitter-follow-button" data-lang="<?php echo $locale; ?>">Follow @mageia_org</a>
-                <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script></p>
-            </div></div>
-
-            <div class="yui-g">
-                <div class="para bb1" id="news">
+            <div class="yui-g bb1">
+                <div class="para" id="news">
                 <?php
                     include '../lib/news.php';
                     echo sprintf('<h2><a href="%s">%s</a></h2>', blog_link($locale), $_t['news']);
                     echo html_news($locale);
                 ?>
                 </div>
+            </div>
+            <div class="yui-g">
                 <div class="para bb1"><p><?php echo $_t['about'][0]; ?></p>
                     <p><?php echo $_t['about'][1]; ?></p>
                 </div>
+            </div>
+            <div class="yui-gb">
+                <div class="yui-u first"><div class="para">
+                    <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script></p>
+                    <a href="http://twitter.com/mageia_org" class="twitter-follow-button" data-lang="<?php echo $locale; ?>">Follow @mageia_org</a>
+                </div></div>
+                <div class="yui-u"><div class="para">
+                    <div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:facepile href="facebook.com/Mageia" width="200" max_rows="1"></fb:facepile>
+                </div></div>
+                <div class="yui-u"><div class="para">
+                    <g:plusone href="http://mageia.org/"></g:plusone>
+                </div></div>
             </div>
             <?php /*
             <div class="yui-g bb1">
@@ -102,5 +110,9 @@ $_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
             */ ?>
         </div>
     </div>
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+      {lang: '<?php echo $locale; ?>'}
+    </script>
+
 </body>
 </html>
