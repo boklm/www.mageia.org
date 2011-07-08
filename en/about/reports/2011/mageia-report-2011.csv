@@ -1,0 +1,26 @@
+head;Financial report
+head;Lists transactions that happened on Mageia.Org accounts
+head;http://www.mageia.org/
+head;Date;Transaction description;Outgoing;Income
+cat;Donations and sales
+;;Donations via Paypal/transfer/check;;1920.97;
+;;Sale of T-shirts;;1050;
+cat;Fees and Administrative costs
+;;Administrative costs for the birth of Mageia.Org (JO);44;
+;;April (annual fee);100;
+;;INPI brand registration for 10 years (rda);250;
+;;Annual interest of our savings account;;3.06
+cat;Goodies and accessories
+;;Posters and flyers for Solutions Linux (rda);159.25;
+;;Stickers and T-shirts for FOSDEM;1932.14;
+;;Money box (dams);17.93;
+cat;Shipments
+;;40 TS to wobo for Chemnitzer Linuxtage;54.65;
+;;3 TS to donors in France (dams);12.30;
+;;2 TS to saipo for Dijon event in France (dams);25;
+cat;Hardware and hosting
+;;RAM on Gandi.net hosting (for blog/planet/www);250;
+;;SSL for domains on Gandi.net;215.28;
+;;HDD for servers (boklm);242.70;
+cat;Travel and events
+;;Hotel + train for wobo (FOSDEM 2011);166.50;
