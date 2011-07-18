@@ -1,7 +1,16 @@
-<?php require '../../downloads.php';
+<?php
+
+define('HLANG', true);
+require '../../langs.php';
+require 'locales.php';
+
+$_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
 
 $_t['page_h1'] = sprintf($_t['page_h1'], '<em class="tag">Mageia 1</em>');
 $_t['page_title'] = sprintf($_t['page_title'], 'Mageia 1');
+
+require 'lib.php';
+
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $locale; ?>">
@@ -15,7 +24,7 @@ $_t['page_title'] = sprintf($_t['page_title'], 'Mageia 1');
     <?php include '../../analytics.php'; ?>
 </head>
 <body class="release">
-    <?php include '../../langs.php'; ?>
+    <?php echo $hsnav; ?>
     <div id="doc" class="yui-t7">
         <div id="hd" role="banner"><h1><a id="logo" href="/"><span>Mageia</span></a> <span class="lsep">|</span> <span class="subh"><?php echo $_t['page_h1']; ?></span></h1></div>
         <div id="bd" role="main">

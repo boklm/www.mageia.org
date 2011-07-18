@@ -6,8 +6,13 @@ $product = isset($_GET['product']) ? trim(strtolower($_GET['product'])) : null;
 $torrent = isset($_GET['torrent']) ? true : false;
 $mirror  = isset($_GET['mirror']) ? trim(strtolower($_GET['mirror'])) : null;
 
-include '../../downloads.php';
-include '../../lib/Downloads.php';
+define('HLANG', true);
+require '../../langs.php';
+require 'locales.php';
+
+$_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
+
+require 'lib.php';
 
 session_start();
 
@@ -26,11 +31,12 @@ if (!$found) {
     header('Location: /downloads/');
     die;
 }
+include '../../lib/Downloads.php';
 
 $g_mirrors   = Downloads::get_all_mirrors();
 $product_iso = $product . '.iso';
 
-$wsd = new Downloads('en', null);
+$wsd = new Downloads($locale, null);
 $a = $wsd->prepare_download(null, true);
 $product_dl_link = null;
 
@@ -101,8 +107,7 @@ $dl2_mirror_alt = sprintf($_t['dl_mirror_loc'],
     <?php endif; ?>
 </head>
 <body>
-    <?php include '../../langs.php'; ?>
-    
+    <?php echo $hsnav; ?>
     <div id="doc" class="yui-t7">
         <div id="hd" role="banner"><h1><a id="logo" href="/"><span>Mageia</span></a> <span class="lsep">&nbsp;</span> <span class="subh"><?php echo $_t['page_h1']; ?></span></h1></div>
         <div id="bd" role="main">

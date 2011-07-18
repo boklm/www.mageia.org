@@ -2,16 +2,6 @@
 /**
 */
 
-$locale = explode('/', $_SERVER['REQUEST_URI']);
-$locale = $locale[1];
-
-include 'downloads_locales.php';
-
-if (!array_key_exists($locale, $_t))
-    $locale = 'en';
-
-$_t = array_merge($_t['en'], $_t[$locale]);
-
 $prods = parse_ini_file('downloads.ini', true);
 $countries = array(
     'AU' => 'Australia',
@@ -128,6 +118,5 @@ $dl_table
 $dl_table .= <<<T
 <p class="dlinfo">{$_t['not_sure_what_iso']}</p>
 T;
-
 
 
