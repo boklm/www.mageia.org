@@ -952,7 +952,7 @@ Mějte na paměti, že na překladech se ještě pracuje.',
         'All supported' => 'Všechny podporované',
         'English' => 'Angličtina',
         'Limited' => 'Omezené',
-        'European set' => 'Seznam evropských jazyků'
+        'European set' => 'Seznam evropských jazyků',
         'Europa set 1' => 'Evropa 1',
         'Europa set 2' => 'Evropa 2',
         'Asia set' => 'Asie',
