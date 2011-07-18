@@ -542,7 +542,7 @@ $_t = array(
         'plenty_see_notes' => 'Spoustu věcí! Na rozsáhlé prohlášení se podívejte v <a href="notes/">poznámkách k vydání</a>.',
         'h3_context' => 'Mageia v souvislostech',
         'mageia_began' => 'Mageia začala v září 2010 jako
-                        <a href="/en/about/2010-sept-announcement.html">fork Mandriva Linuxu</a>.
+                        <a href="/cs/about/2010-sept-announcement.html">fork Mandriva Linuxu</a>.
                         Podporuje ji <a href="/en/about/">nezisková organizace</a>,
                         <a href="http://mageia.org/wiki/doku.php?id=org">řízená</a>
                         skupinou uznaných a zvolených spolupracovníků</a>,
@@ -551,26 +551,26 @@ $_t = array(
                         a svobodného software. Usilujeme o to přinést jeden z nejlepších,
                         nejstabilnějších, nejspolehlivějších a nejpříjemnějších zážitků a platformu, kterou můžeme vytvořit;
                         pro běžného uživatele, vývojáře, nebo obchod.',
-        'encourage_you' => 'A povzbuzujeme vás v tom <a href="/en/contribute/">být toho součástí</a>,
+        'encourage_you' => 'A povzbuzujeme vás v tom <a href="/cs/contribute/">být toho součástí</a>,
                         ve svém vlastním čase nebo skrze svou pracovní činnost.',
-        '9_months' => 'Devět měsíců od <a href="/en/about/2010-sept-announcement.html">vzniku</a> jsme dosáhli:',
+        '9_months' => 'Za devět měsíců od <a href="/cs/about/2010-sept-announcement.html">vzniku</a> jsme dosáhli:',
         'people' => '<a href="">sta a více přispěvatelů</a> ve <a href="/wiki/doku.php?id#teams">více jak deseti týmech</a>.
-                        <a href="/en/thank-you/">více než stošedesáti štědrých dárců</a> of
-                        <a href="/en/donate/">více než 8.800 EUR</a>,
-                        když dosud bylo <a href="/en/about/reports/">utraceno 1.277</a>
+                        <a href="/en/thank-you/">více než stoosmdesáti štědrých dárců</a>
+                        <a href="/cs/donate/">více než 11 700 EUR</a>,
+                        a bylo zatím <a href="/en/about/reports/">utraceno jen 4 700</a>
                         a pro rok 2011 předpovídáme 20 000.',
-        'prereleases' => '5 předběžných technických vydání.
-                        7.389 zdrojových balíčků,
-                        14.226 binárních balíčků pro dvě architektury (i586 a x86_64
+        'prereleases' => '5 předběžných technických vydání,
+                        7 389 zdrojových balíčků,
+                        14 226 binárních balíčků pro dvě architektury (i586 a x86_64
                         &ndash; ARM se připravuje).',
         'servers' => '7 serverů, 3 datacentra (Paříž a Marseille, Francie),
                         <a href="http://mirrors.mageia.org/">19 zrcadel po celém světě</a>.',
-        'languages' => '<a href="http://mageia.org/?langs">do 21 jazyků</a> přeložené internetové stránky,
+        'languages' => '<a href="http://mageia.org/?langs">Do 21 jazyků</a> přeložené internetové stránky,
                         <a href="">do 161 jazyků</a> přeložená distribuce.',
-        'distribution' => 'Toto vše pro <a href="http://mageia.org/en/1/">jednu distribuci</a>,
+        'distribution' => 'Toto vše pro <a href="/cs/1/">jednu distribuci</a>,
                         která je nyní připravená pro vás.',
-        'users' => 'Kolik uživatelů? To ukáže čas.',
-        'in_for_you' => 'Ale mnohem důležitější než zbytečná čísla je: <a href="/en/1/next/">co to přinese vám?</a>'
+        'users' => 'Kolik je uživatelů? To ukáže čas.',
+        'in_for_you' => 'Ale mnohem důležitější než zbytečná čísla je: <a href="/cs/1/next/">co to přinese vám?</a>'
     ),
     'tr' => array(
         '1_title' => 'Mageia 1',

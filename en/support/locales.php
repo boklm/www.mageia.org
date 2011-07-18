@@ -202,4 +202,49 @@ $_t = array(
             <a href="%s">Web</a> e <a href="%s">QA</a> 
             se vuoi dare un\'aiuto in questo aspetto.'
     ),
+    'cs' => array(
+        'page_title' => 'Podpora pro distribuci Mageia',
+        'page_desc' => 'Seznam podpůrných zdrojů pro distribuci Mageia.',
+        'page_kw' => 'mageia, linux, support, help, hardware, qa, test',
+        'h1_title' => 'Podpora',
+        'h2_comm_support' => 'Komunitní podpora',
+        'h2_pro_support' => 'Profesionální podpora',
+        'h2_hw_reqs' => 'Požadavky na vybavení',
+        
+        'comm_1' => 'Pokud potřebujete pomoc, nasměrování nebo informace o distribuci Mageia,
+            kterou jste si nainstalovali, nebo o projektu, můžete se s námi spojit pomocí:',
+        'comm_list' => array(
+            '<a href="http://forums.mageia.org/en/">fór pro komunitní podporu</a>, v angličtině,
+                &ndash; podívejte se na <a href="https://forums.mageia.org/en/viewforum.php?f=20">podporu ve svém jazyce hledejte na jiných fórech Mageii</a>;',
+            'Kanály IRC, kde můžete mluvit živě s dalšími uživateli Mageii a s jejími přispěvateli:
+                <a href="irc://irc.freenode.net/#mageia" hreflang="en">#mageia</a>
+                nebo jiné lokalizované <a href="http://mageia.org/wiki/doku.php?id=irc#channels_in_other_languages">kanály</a>;',
+            'naše <a href="http://mageia.org/wiki/">Wiki</a> (stále ještě se na ní pracuje!).',
+            '(je potřeba dokončit: <a href="http://mageia.org/mailman/" hreflang="en">emailové konference</a>, dokumentaci, informace o místních událostech)',
+        ),
+
+        'pro_1' => 'Mageia.Org distribuci neposkytuje ani nezaručuje komerční/profesionální
+            podporu nebo jiné služby. Ale jsou organizace, které takové služby poskytují.',
+        'pro_2' => 'Podívejte se, prosím, na <a href="/wiki/doku.php?id=commercial_vendors">seznam prodejců</a>.',
+
+        'hw_1' => 'Programy tvořící distribuci Mageia běží na většině počítačů architektury x86, které jsou dnes dostupné (duben 2011).',
+        'hw_2' => 'Můžete se řídit tímto seznamem, ve kterém jsou uvedeny požadavky na vybavení vašeho počítače:',
+        'hw_list' => array(
+            'Procesor: jakýkoli procesor od AMD, Intelu nebo VIA;',
+            'Paměť (RAM): nejméně 512MB, doporučeno 2GB;',
+            'Ukládací prostor (pevný disk; HDD): 1GB pro tu nejmenší instalaci, 6GB pro úplnou instalaci;',
+            'Optická mechanika: CD nebo DVD v závislosti na obraze ISO, který použijete (je možné instalovat i po síti nebo přes USB disk);',
+            'Grafická karta: jakákoli grafická karta od ATI, Intelu, Matroxu, nVidie, SiS nebo VIA;',
+            'Zvuková karta: jakákoli zvuková karta AC97, HDA nebo Sound Blaster.'
+        ),
+        'hw_some_hardware' => 'U některých kousků vybavení (Wi-Fi karty, grafické karty) je pro správný chod potřeba 
+            zvláštní firmware nebo software, který je na internetu dostupný
+            v určitých repozitářích nazvaných "nonfree" (vizte další informace například na wiki).',
+
+        'hw_hcl_note' => 'Můžeme přichystat zvláštní seznam vybavení pro počítač/adresář,
+            stejně tak jako připravit postup, kterým by se dokládala vhodnost vybavení;
+            ale toto se teprve připravuje. Můžete se připojit/spojit s našimi týmy
+            <a href="%s">Web</a> a <a href="%s">Zajištění kvality (QA)</a>,
+            pokud byste v této věci chtěli pomoct.'
+    ),
 );

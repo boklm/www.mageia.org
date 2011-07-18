@@ -598,7 +598,7 @@ $_t = array(
         'p_developers_5' => 'Jsme připraveni na vaši zpětnou vazbu a příspěvky, abychom se do příštího vydání zlepšili - vyzkoušejte odkazy a spojte se s námi. Čekáme na vaše otázky a návrhy',
         'h3_sysadmins' => 'Správci systému!',
         'h3_contributors' => 'Spolupracovníci!',
-        'p_contributors' => 'Další informace <a href="../../../contribute/">here</a>.'
+        'p_contributors' => 'Další informace <a href="/cs/contribute/">zde</a>.'
     ),
     'pt' => array(
         'page_title' => 'A Mageia 1 é para si!',

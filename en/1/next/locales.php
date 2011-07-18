@@ -412,16 +412,16 @@ $_t = array(
         'page_title' => 'Mageia 1 &ndash; A teď?',
         'page_desc' => '',
         'page_kw' => 'mageia, mandriva, upgrade, migrate',
-        'page_h1' => 'A teď?',
+        'page_h1' => 'A dále?',
         'h2_spread_word' => 'Vypravujte to dále!',
         'h2_party' => 'Slavte s námi!',
         'h2_what_do' => '<strong>Co</strong> s tím uděláte?',
         'tell_us' => 'Vy nám to řekněte!',
         'place_and_format' => 'Na svém blogu (nebo <a href="http://blog.mageia.org/">na našem</a>),
-                        on <a href="http://twitter.com/">Twitter</a>,
-                        on <a href="http://facebook.com/">Facebook</a>,
-                        in <a href="http://forum.mageia.org/">our forum</a>,
-                        na jakémkoli dalším místě nebo v kterémkoli formátu
+                        na <a href="http://twitter.com/">Twitteru</a>,
+                        na <a href="http://facebook.com/">Facebooku</a>,
+                        na <a href="http://forum.mageia.org/">našem fóru</a>,
+                        na jakémkoli dalším místě nebo v kterémkoli formátu,
                         na který pomyslíte!',
         'h2_where_go' => '<strong>Kam</strong> se vydáme?',
         'where_go_1' => 'Můžete se <a href="/en/contribute/">k nám přidat</a>
@@ -430,10 +430,10 @@ $_t = array(
                         a to je jen začátek.',
         'where_go_3' => 'Můžeme navrhnout a postavit stále se zlepšující operační systém
                         pro počítače a jiná nová zařízení.',
-        'where_go_4' => 'Můžeme to zlepšit pro vývojáře a uživatele.
+        'where_go_4' => 'Můžeme to udělat lepším pro vývojáře a uživatele.
                         Můžeme být lepším místem pro rozvoj technologií s otevřeným zdrojovým kódem.',
         'h3_relax' => 'Oddechněte si a přemýšlejte',
-        'text_relax_1' => 'Po odeznění hicu a oslav tohoto vydání,
+        'text_relax_1' => 'Po odeznění shonu a oslav tohoto vydání,
                         se shromáždíme a budeme hovořit o plánech pro budoucnost:',
         'array_relax' => array('Co s vydávacím cyklem?',
                 'Jaké změny jádra systému se dají provést?',
@@ -441,9 +441,9 @@ $_t = array(
                 'Jaká je úloha asociace a týmových činností?',
                 'Jaká vylepšení se dají provést s těmito stránkami, aby se získalo více spolupracovníků?',
                 'Jaké jsou <strong>vaše nápady</strong>?'),
-        'text_relax_2' => 'We will talk more about that later in June,
-                        so stay tuned in <a href="http://blog.mageia.org/">our blog</a>
-                        and <a href="http://twitter.com/mageia_org">Twitter account</a>!'
+        'text_relax_2' => 'Více si o tom popovídáme v červnu,
+                        takže zůstaňte naladění na naše <a href="http://blog.mageia.org/">zprávy</a>
+                        a <a href="http://twitter.com/mageia_org">účet u služby Twitter</a>!'
     ),
     'pt' => array(
         'page_title' => 'Mageia 1 &ndash; E depois?',
