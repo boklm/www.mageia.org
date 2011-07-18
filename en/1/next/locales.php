@@ -481,8 +481,43 @@ $_t = array(
         'text_relax_2' => 'Iremos falar mais acerca disto em Junho,
                         mantenha-se actualizado no <a href="http://blog.mageia.org/">nosso blogue</a>
                         e <a href="http://twitter.com/mageia_org">conta Twitter</a>!'
+    ),
+    'tr' => array(
+        'page_title' => 'Mageia 1 &ndash; Peki sonra?',
+        'page_desc' => '',
+        'page_kw' => 'mageia, mandriva, yükseltme, göç etme',
+        'page_h1' => 'Peki sonra?',
+        'h2_spread_word' => 'Sözü yayýn!',
+        'h2_party' => 'Parti!',
+        'h2_what_do' => '<strong>Siz</strong> onunla ne yapacaksýnýz?',
+        'tell_us' => 'Bize SÝZ söyleyin!',
+        'place_and_format' => 'Kendi web günlüðünüzde (veya <a href="http://blog.mageia.org/">bizimkinde</a>),
+                        on <a href="http://twitter.com/">Twitter</a>,
+                        on <a href="http://facebook.com/">Facebook</a>,
+                        in <a href="http://forum.mageia.org/">forumumuzda</a>,
+                        aklýnýza gelen diðer tüm yerlerde
+                        ve biçimde!',
+        'h2_where_go' => '<strong>Bizler</strong> buradan nereye gideceðiz?',
+        'where_go_1' => 'Bizlere <a href="/en/contribute/">katýlabilir</a>
+                        ve daha da geliþtirebilmemiz için yardým edebilirsiniz.',
+        'where_go_2' => 'Mageia halen çok genç. Geçen 9 ayda çok þey gerçekleþtirdik,
+                        ve bu sadece bir baþlangýçtý.',
+        'where_go_3' => 'Bilgisayarlar ve diðer yeni aygýtlar için
+                        daha iyi bir iþletim sistemi tasarlayabilir ve inþa edebiliriz.',
+        'where_go_4' => 'Bunu geliþtiriciler ve kullanýcýlar için daha iyi bir hale getirebiliriz.
+                        Açýk kaynak teknolojilerini geliþtirmek için daha iyi bir yer olabiliriz.',
+        'h3_relax' => 'Rahatlayý ve beyin fýrtýnasý yapýn',
+        'text_relax_1' => 'Bu yayýnýn ateþi ve heyecaný yatýþtýktan sonra,
+                        geleceðe dair planlarý belirleyecek ve tartýþacaðýz:',
+        'array_relax' => array('yayýn döngüsü ne olacak?',
+                'temelde ne deðiþiklikler yapabiliriz?',
+                've teknolojiyi yeniden kullanan veya zorlayan yan projeler?',
+                'derneðin rolü ve ekiplerin etkinlikleri ne olacak?',
+                'daha fazla katkýcýyý teþvik etmek için bu Web sitede hangi geliþtirmeler yapýlmalý?',
+                'peki ya <strong>sizin fikirleriniz</strong>?'),
+        'text_relax_2' => 'Daha fazlasýný Haziran ayýnda tartýþacaðýz,
+                        o yüzden <a href="http://blog.mageia.org/">web günlüðümüzü</a>
+                        ve <a href="http://twitter.com/mageia_org">Twitter hesabýmýzý</a> takip edin!'
     )
 );
 
-
-?>

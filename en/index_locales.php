@@ -307,5 +307,11 @@ $_t = array(
         'join-us' => 'Junte-se a Nós!',
         'right-now' => 'Está a acontecer agora',
         'news' => 'Noticias',
+    ),
+    'tr' => array(
+        'page_title' => 'Mageia - Yeni Bir Linux Dağıtımı',
+        'page_desc' => 'Mageia, topluluk temelli yeni bir Linux dağıtımıdır.',
+        'page_h1' => 'Yeni Bir Linux Dağıtımı',
+        'mageia-is-here' => 'Mageia 1 burada!'
     )
 );

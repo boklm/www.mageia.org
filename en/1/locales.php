@@ -571,5 +571,44 @@ $_t = array(
                         která je nyní připravená pro vás.',
         'users' => 'Kolik uživatelů? To ukáže čas.',
         'in_for_you' => 'Ale mnohem důležitější než zbytečná čísla je: <a href="/en/1/next/">co to přinese vám?</a>'
-    )
+    ),
+    'tr' => array(
+        '1_title' => 'Mageia 1',
+        '1_desc' => 'Mageia 1 topluluk temelli yeni bir Linux dağıtımıdır.',
+        '1_kw' => 'mageia, 1, first release, linux, mandriva, free software',
+        'img_desktop' => 'Mageia 1 KDE Desktop',
+        'download_it' => 'İndir',
+        'mageia_is' => 'Mageia 1 bilgisayarınızı için Mageia topluluğu tarafından hazırlanan bir GNU/Linux dağıtımıdır.',
+        'h3_what_is' => 'Neler sunuyor?',
+        'plenty_see_notes' => 'Çok şey! Daha fazla bilgi için <a href="notes/">sürüm notlarına</a> göz atın.',
+        'h3_context' => 'Mageia in context',
+        'mageia_began' => 'Mageia, Eylül 2010\' da 
+            <a href="/tr/about/2010-sept-announcement.html">Mandriva Linux çatallaması</a> olarak başladı.
+            Mageia, <a href="/tr/about/">kar amacı gütmeyen bir dernek</a> tarafından desteklenmekte,
+            tanınmış ve seçilmiş katkıcılar tarafından 
+            <a href="/wiki/doku.php?id=org">yönetilmekte</a>
+            ve dünyanın dört bir tarafından yüzlerce kişi tarafından hazırlanmaktadır.',
+        'our_work' => 'Yaptığımız iş, genix Linux ve Özgür Yazılım topluluğunun
+            mükemmel işlerine bir katkıdır. Hedefimiz, bir kullanıcı, bir geliştirici veya
+            bir iş sahibi için yapabileceğimiz en iyi, daha kararlı,güvenilir ve 
+            keyif verici deneyimi ve ortamı sunmaktır.',
+        'encourage_you' => 'Ayrıca sizleri kişisel zamanınızda veya profesyonel etkinliklerinizde
+            <a href="/tr/contribute/">bunun bir parçası olmaya</a>, çağırıyoruz.',
+        '9_months' => '<a href="/tr/about/2010-sept-announcement.html">Başladığımız günden</a> 9&nbsp;ay sonra ulaştığımız nokta:',
+        'people' => '<a href="/wiki/doku.php?id#teams">10+ ekipte</a> bulunan <a href="/tr/contribute/">100+&nbsp;katkıcı</a>.
+                        <a href="/tr/donate/">11.700+&nbsp;EUR</a> bağışlayan
+                        <a href="/en/thank-you/">180+&nbsp;cömert bağışçı</a>;
+                        ki bunun sadece <a href="/en/about/reports/2011/">4.700 EUR kadarı harcandı</a> 
+                        ve 2011 yılında 20.000 EUR bağış bekliyoruz.',
+        'prereleases' => '5&nbsp;teknik ara yayın.
+            7.389&nbsp;kaynak paketi, 2&nbsp;mimari (i586 ve x86_64 - ARM hazırlanıyor) için 2 × 14.226&nbsp;
+            derlenmiş ikili paket.',
+        'servers' => '7&nbsp;sunucu, 3&nbsp;veri merkezi (Paris ve Marseille, Fransa),
+                    <a href="http://mirrors.mageia.org/">19&nbsp;dünya çapında yansı</a>.',
+        'languages' => '<a href="http://mageia.org/?langs">21-dilde</a> yerelleştirilmiş Website,
+                    <a href="">161-dilde</a> yerelleştirilmiş dağıtım.',
+        'distribution' => 'Bunların hepsi, sizin için hazırlanan <a href="/tr/1/">tek bir dağıtımda</a>.',
+        'users' => 'Kaç kullanıcı? Bunu zaman belirleyecek.',
+        'in_for_you' => 'Hepsinden daha önemlisi: <a href="/tr/1/next/">bu dağıtım sizin için neler başaracak?</a>'
+    ),
 );

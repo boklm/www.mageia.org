@@ -13,6 +13,7 @@ $_nt = array(
     'nl' => array('for-you' => 'Voor u', 'dl' => 'Download', 'next' => 'En nu?', 'notes' => 'Opmerkingen'),
     'pt' => array('for-you' => 'Para si', 'dl' => 'Transferir', 'next' => 'E depois?', 'notes' => 'Notas'),
     'ro' => array('for-you' => 'Pentru voi', 'dl' => 'Descărcați', 'next' => 'Și după?', 'notes' => 'Notele ediției'),
+    'tr' => array('for-you' => 'Sizin için', 'dl' => 'İndirin', 'next' => 'Peki sonra?', 'notes' => 'Notlar'),
     'uk' => array('for-you' => 'Для вас', 'dl' => 'Звантаження', 'next' => 'Що далі?', 'notes' => 'Нотатки'),
     'zh-tw' => array('for-you' => '為了您', 'dl' => '下載', 'next' => '下一步呢？', 'notes' => '通告')
 );
