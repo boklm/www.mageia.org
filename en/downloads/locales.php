@@ -780,7 +780,29 @@ De remarcat că traducerile sînt în curs.',
         'All supported' => 'Tümü desteklenmektedir',
         'English' => 'English',
         'Limited' => 'Sınırlı',
-        'European set' => 'Europa set'
+        'European set' => 'Europa set',
+        'Europa set 1' => 'Avrupa 1',
+        'Europa set 2' => 'Avrupa 2',
+        'Asia set' => 'Asya',
+        'Africa/India set' => 'Afrika/Hindistan',
+        'popularity' => 'Tercih edilme',
+        'for_full_install' => 'DVD İle Tam Kurulum için:',
+        'for_test_live' => 'Denemek ve kurmak için: ÇalışanCD 32bit',
+        'for_network' => 'Ağ üzerinden kurulum için:',
+        'def-Europa set 1' => 'Avrupa 1 setindeki diller: Deutsch, English (several variants), Greek, Español, Français, Italiano, Dutch, Português, Português do Brasil, Turkish.',
+        'def-Europa set 2' => 'Avrupa 2 setindeki diller: Bulgarian, Czech, Danish, American English, Estonian,
+            Finnish, Croatian, Hungarian, Lithuanian, Latvian, Norwegian Bokmaal, Norwegian Nynorsk, Polish,
+            Romanian, Russian, Swedish, Ukrainian, Uzbek, Uzbek (cyrillic), Русский.',
+        'def-Asia set' => 'Asya setindeki diller: American English, Indonesian, Japanese, Korean,
+            Thai, Vietnamese, Chinese Simplified, Chinese Traditional.',
+        'def-Africa/India set' => 'Afrika/Hindistan setindeki diller: Afrikaans, Amharic, Arabic, Assamese, Berber, Bengali, American English,
+            Hausa, Hebrew, Hindi, Igbo, Kannada, Malayalam, Marathi,
+            Punjabi, Tamil, Tswana, Tsonga, Venda, Xhosa, Yoruba, Zulu.',
+        'dl_migrate_instead' => 'If you are using Mandriva Linux 2010.1 or 2010.2,
+            you may directly <a href="/tr/1/migrate/">upgrade your system to Mageia 1</a> as well.</p>',
+        'not_sure_what_iso' => 'Hangi ISO kalıbını indireceğinizden emin değil misiniz? Bu hala biraz karışık gelebilir; fakat
+            <a href="/wiki/doku.php?id=mageia_installation_media">farklı kurulum ortamlarımız hakkında 
+            açıklayıcı bilgiye bu yazıdan ulaşabilirsiniz</a>.'
     ),
     'zh-tw' => array(
         'download' => '下載',
@@ -1191,85 +1213,5 @@ Note que as traduções estão a ser feitas.',
             pode também directamente <a href="/pt/1/migrate/">actualizar o seu sistema para a Mageia 1</a>.</p>',
         'not_sure_what_iso' => 'Não sabe que ISO transferir? Pode ser mais detalhado, mas precisa ler este artigo 
             <a href="http://www.mageia.org/wiki/doku.php?id=mageia_installation_media">a descrever a nossa média de instalação diferente</a>.'
-    ),
-    'tr' => array(
-        'download' => 'indir',
-        'page_title' => '%s indirin',
-        'page_desc' => 'Mageia\' nın kurulabilir ve çalışan ISO kalıplarını indirebileceğiniz yerler.',
-        'page_kw' => 'mageia, yazılım, indir, işletim sistemi, ISO, bilgisayar, torrent, ftp',
-        'page_h1' => '%s sürümünü indirin',
-        'warn_1' => 'Be Careful!
-            This is NOT FOR: use, public review, personal or production evaluation.
-            This is FOR: developers, packagers, test users ONLY.',
-        'warn_2' => 'Whatever you may do with the provided ISO disc image
-                will be done at your own risk, with your own responsibility.',
-        'title_ok' => 'You still want to download and test Mageia 1?',
-        'dl_help' => 'Just pick the ISO image that is best for you; if you are not sure, you should pick from the first two.',
-        'changes_since_a2' => 'Changes since Beta 2',
-        'release_docs' => 'Release Documents',
-        'whatismageia' => 'What is Mageia?',
-        'size' => 'Boyut',
-        'flavour' => 'Tür',
-        'language' => 'Dil',
-        'link' => 'Doğrudan bağlantı',
-        'dl_shld_start' => 'Your download of %s should start within a few seconds',
-        'dl_size' => '(download size is about %s).',
-        'alt_download' => 'If the download does not start, <a href="%s" rel="nofollow" title="%s">click here</a>.',
-        'signs_check_1' => 'As soon as your download is complete, you should check that the signatures match:',
-        'signs_check_2' => 'If signatures do not match, do not use this ISO. Double-check and try to download again.',
-        'dl_mirror_loc' => 'This <a href="%s">%s</a> download mirror is located in %s (%s).',
-        'dl_alt_mirrors' => 'If it does not work well for you, <a href="#om" id="other_mirrors_btn">check out these other mirrors</a>.',
-        'whatdouthink?' => 'What do you think of it?',
-        'give_feedback' => 'You are very welcome to give your impressions on Mageia 1, wherever you want:
-                on <a href="http://forums.mageia.org/">our forums</a>,
-                <a href="http://blog.mageia.org/">our blog</a>, on <em>your</em> blog,
-                on Twitter (<a href="http://twitter.com/mageia_org">@mageia_org</a>).
-                In any case, please link to <a href="http://mageia.org/">mageia.org</a>.',
-        'report_bug' => 'If you encounter a bug, please <a href="/en/support/report-a-bug/">see how to report it</a>
-                    in our bugs database so we can sort it out the best possible way.',
-        'notify_web' => 'If you notice a problem with the download process/pages, please notify the Web team on
-<a href="irc://irc.freenode.net/#mageia-web">#mageia-web</a> Freenode IRC channel so we can sort it out as fast as possible.
-Note that translations are on their way.',
-        'wanttohelp?' => 'Want to help? %sJoin Us!%s',
-        'ucanhelp' => 'Yes you can! Mageia is the result of the will and collaboration of many happy fellow volunteers across the world.',
-        'wherehelp' => 'There is a lot of areas where one can contribute to the project.
-            Be it for advocacy, prototyping,
-            %scommunication%s, %sWeb design &amp; development%s,
-            for software design, development,
-            %slocalization%s, %spackaging%s, %sQA &amp; testing%s,
-            delivery, for community support &amp; animation,
-            for %sdonating money%s,
-            hardware, hosting, time, for sharing the fun.',
-        'all_languages' => 'All supported: up to 167 locales are supported: Deutsch, English, español, français, italiano, português, svenska, nederlands, polski, dansk, Русский and so much more!
-            See the <a href="http://mageia.org/wiki/doku.php?id=tmp:supported_locales">comprehensive list</a>.',
-        'euro_languages' => 'Europa set of languages: Deutsch, English (several variants), español, français, italiano, polski, português do Brasil, Русский.
-            More languages will be made available for the stable release.',
-        'limited_languages' => 'Limited: Belarussian, Catalan, German, English, Spanish, French, Hungarian, Italian, Polish, Portuguese, Ukrainian',
-        'All supported' => 'All supported',
-        'English' => 'English',
-        'Limited' => 'Limited',
-        'European set' => 'Europa set',
-        'Europa set 1' => 'Avrupa 1',
-        'Europa set 2' => 'Avrupa 2',
-        'Asia set' => 'Asya',
-        'Africa/India set' => 'Afrika/Hindistan',
-        'popularity' => 'Tercih edilme',
-        'for_full_install' => 'DVD İle Tam Kurulum için:',
-        'for_test_live' => 'Denemek ve kurmak için: ÇalışanCD 32bit',
-        'for_network' => 'Ağ üzerinden kurulum için:',
-        'def-Europa set 1' => 'Avrupa 1 setindeki diller: Deutsch, English (several variants), Greek, Español, Français, Italiano, Dutch, Português, Português do Brasil, Turkish.',
-        'def-Europa set 2' => 'Avrupa 2 setindeki diller: Bulgarian, Czech, Danish, American English, Estonian,
-            Finnish, Croatian, Hungarian, Lithuanian, Latvian, Norwegian Bokmaal, Norwegian Nynorsk, Polish,
-            Romanian, Russian, Swedish, Ukrainian, Uzbek, Uzbek (cyrillic), Русский.',
-        'def-Asia set' => 'Asya setindeki diller: American English, Indonesian, Japanese, Korean,
-            Thai, Vietnamese, Chinese Simplified, Chinese Traditional.',
-        'def-Africa/India set' => 'Afrika/Hindistan setindeki diller: Afrikaans, Amharic, Arabic, Assamese, Berber, Bengali, American English,
-            Hausa, Hebrew, Hindi, Igbo, Kannada, Malayalam, Marathi,
-            Punjabi, Tamil, Tswana, Tsonga, Venda, Xhosa, Yoruba, Zulu.',
-        'dl_migrate_instead' => 'If you are using Mandriva Linux 2010.1 or 2010.2,
-            you may directly <a href="/tr/1/migrate/">upgrade your system to Mageia 1</a> as well.</p>',
-        'not_sure_what_iso' => 'Hangi ISO kalıbını indireceğinizden emin değil misiniz? Bu hala biraz karışık gelebilir; fakat
-            <a href="/wiki/doku.php?id=mageia_installation_media">farklı kurulum ortamlarımız hakkında 
-            açıklayıcı bilgiye bu yazıdan ulaşabilirsiniz</a>.'
-    ),
+    )
 );
