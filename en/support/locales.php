@@ -247,4 +247,45 @@ $_t = array(
             <a href="%s">Web</a> a <a href="%s">Zajištění kvality (QA)</a>,
             pokud byste v této věci chtěli pomoct.'
     ),
+    'de' => array(
+        'page_title' => 'Support für die Distribution Mageia',
+        'page_desc' => 'Liste der Supportquellen für Mageia.',
+        'page_kw' => 'mageia, linux, support, help, hardware, qa, test',
+        'h1_title' => 'Support',
+        'h2_comm_support' => 'Community-Support',
+        'h2_pro_support' => 'Professioneller Support',
+        'h2_hw_reqs' => 'Hardwareanforderungen',
+
+        'comm_1' => 'Hilfe, Informationen und Anleitungen zu Ihrer installierten Distribution Mageia oder über das Projekt erhalten Sie unter den folgenden Adressen:',
+        'comm_list' => array(
+            '<a href="http://forums.mageia.org/en/">Community Supportforum</a> in Englisch
+            &ndash; weitere Foren in Ihrer Sprache finden Sie <a href="https://forums.mageia.org/en/viewforum.php?f=20">in dieser
+            Sektion</a>. Das deutschsprachige Forum erreichen Sie <a href="http://forums.mageia.org/de/">hier</a>;',
+            'IRC-Kanäle zur Echtzeit-Diskussion mit anderen Benutzern und Mitwirkenden von Mageia (Englisch):
+            <a href="irc://irc.freenode.net/#mageia" hreflang="en">#mageia</a>
+            sowie weitere lokale <a href="/wiki/doku.php?id=irc#channels_in_other_languages">Kanäle</a>;',
+            'unser <a href="/wiki/">Wiki</a> (noch im Aufbau!);',
+            'unsere <a href="http://mageia.org/mailman/" hreflang="en">Mailinglisten</a>;',
+            'lokale Veranstaltungen: folgen Sie unserem <a href="http://blog.mageia.org/de/">Blog</a>
+            und dem öffentlichen <a href="/en/calendar/">Kalender</a>.',
+        ),
+
+        'pro_1' => 'Mageia.Org kann weder kommerzielle/professionelle Unterstützung oder andere Dienste zur Distribution anbieten noch empfehlen.
+        Es gibt jedoch Anbieter solcher und weiterer Leistungen.',
+        'pro_2' => 'Bitte sehen Sie sich die Liste der <a href="%s">kommerziellen Anbieter</a> an.',
+
+        'hw_1' => 'Mageia Software läuft auf den meisten aktuellen x86-Computern, Stand April 2011.',
+        'hw_2' => 'Liste der Hardwareanforderungen:',
+        'hw_list' => array(
+            'Prozessor: alle Prozessoren von AMD, Intel oder VIA;',
+            'Arbeitsspeicher (RAM): 512MB Minimum, 2GB empfohlen;',
+            'Massenspeicher (HDD): 1GB für eine Minimalinstallation, 6GB für ein umfassendes System;',
+            'Optisches Laufwerk: CD oder DVD, abhängig von der verwendeten ISO_Datei (Installation über Netzwerk oder USB-Stick ist möglich);',
+            'Grafikkarte: alle Karten von ATI, Intel, Matrox, nVidia, SiS oder VIA;',
+            'Soundkarte: alle Soundkarten von AC97, HDA oder Sound Blaster.'
+        ),
+        'hw_some_hardware' => 'Zum Betrieb bestimmter Hardware (WLAN-Chips, 3D-Grafik) kann spezielle Firmware benötigt werden, die Sie in einem besonderen Online-Repositorium namens "nonfree" finden (weitere Hinweise).',
+
+        'hw_hcl_note' => 'Wir werden voraussichtlich eine Hardware-Kompatibilitätsliste/Datenbank sowie einen Hardware-Zertifizierungsprozess aufbauen; diese befinden sich aber noch in der Planungsphase. Falls Sie daran mitarbeiten wollen so kontaktieren Sie bitte unser <a href="%s">Webteam</a> und <a href="%s">QA-Team</a>.'
+    ),
 );
