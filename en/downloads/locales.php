@@ -798,8 +798,8 @@ De remarcat că traducerile sînt în curs.',
         'def-Africa/India set' => 'Afrika/Hindistan setindeki diller: Afrikaans, Amharic, Arabic, Assamese, Berber, Bengali, American English,
             Hausa, Hebrew, Hindi, Igbo, Kannada, Malayalam, Marathi,
             Punjabi, Tamil, Tswana, Tsonga, Venda, Xhosa, Yoruba, Zulu.',
-        'dl_migrate_instead' => 'If you are using Mandriva Linux 2010.1 or 2010.2,
-            you may directly <a href="/tr/1/migrate/">upgrade your system to Mageia 1</a> as well.</p>',
+        'dl_migrate_instead' => 'Mandriva Linux 2010.1 veya 2010.2
+            kullanıyorsanız sisteminizi doğrudan <a href="/tr/1/migrate/">Mageia 1\' e yükseltebilirsiniz.</a></p>',
         'not_sure_what_iso' => 'Hangi ISO kalıbını indireceğinizden emin değil misiniz? Bu hala biraz karışık gelebilir; fakat
             <a href="/wiki/doku.php?id=mageia_installation_media">farklı kurulum ortamlarımız hakkında 
             açıklayıcı bilgiye bu yazıdan ulaşabilirsiniz</a>.'

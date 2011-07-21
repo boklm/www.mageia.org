@@ -83,7 +83,8 @@ $nav_list = array(
         'pt' => 'Blogue',
         'pt-br' => 'Blog',
         'tr' => 'Web Günlüğü',
-        'ru' => 'Блог'
+        'ru' => 'Блог',
+        'tr' => 'Web Günlüğü'
     ),
     "/{$locale}/downloads/" => array(
         'de' => 'Herunterladen',
@@ -97,7 +98,8 @@ $nav_list = array(
         'pt-br' => 'Downloads',
         'ro' => 'Descărcați',
         'ru' => 'Загрузить',
-        'zh-tw' => '下載'
+        'zh-tw' => '下載',
+        'tr' => 'İndirmeler'
     ),
     "/{$locale}/support/" => array(
         'de' => 'Unterstützung',
@@ -108,7 +110,8 @@ $nav_list = array(
         'it' => 'Supporto',
         'pt' => 'Suporte',
         'pt-br' => 'Suporte',
-        'ro' => 'Suport'
+        'ro' => 'Suport',
+        'tr' => 'Destek'
     ),
     /*
     '/community/' => array(
@@ -121,7 +124,8 @@ $nav_list = array(
         'en' => 'Forum',
         'es' => 'Foro',
         'pt' => 'Fórum',
-        'pt-br' => 'Forum'
+        'pt-br' => 'Forum',
+        'tr' => 'Forum'
     ),
     "/{$locale}/contribute/" => array(
         'de' => 'Mitwirken',
@@ -132,7 +136,8 @@ $nav_list = array(
         'it' => 'Contribuire',
         'pt' => 'Contribuir',
         'pt-br' => 'Contribuir',
-        'ro' => 'Contribuiți'
+        'ro' => 'Contribuiți',
+        'tr' => 'Katkıda Bulunun'
     ),
     '/wiki/' => 'Wiki',
     'https://bugs.mageia.org/' => 'Bugzilla',
@@ -178,7 +183,8 @@ $nav_list = array(
         'pt-br' => 'Doações',
         'tr' => 'Bağışlar',
         'ro' => 'Donații',
-        'ru' => 'Пожертвования'
+        'ru' => 'Пожертвования',
+        'tr' => 'Bağışlar'
     ),
     "/{$locale}/about/" => array(
         'de' => 'Über',
@@ -189,7 +195,8 @@ $nav_list = array(
         'it' => 'A proposito di',
         'pt' => 'Acerca',
         'pt-br' => 'Acerca',
-        'ro' => 'Despre noi'
+        'ro' => 'Despre noi',
+        'tr' => 'Hakkında'
     ),
 );
 
