@@ -288,4 +288,52 @@ $_t = array(
 
         'hw_hcl_note' => 'Wir werden voraussichtlich eine Hardware-Kompatibilitätsliste/Datenbank sowie einen Hardware-Zertifizierungsprozess aufbauen; diese befinden sich aber noch in der Planungsphase. Falls Sie daran mitarbeiten wollen so kontaktieren Sie bitte unser <a href="%s">Webteam</a> und <a href="%s">QA-Team</a>.'
     ),
+	'tr' => array(
+        'page_title' => 'Mageia dağıtımı için destek',
+        'page_desc' => 'Mageia dağıtımı için sunulan destek kaynaklarının listesi.',
+        'page_kw' => 'mageia, linux, destek, yardım, donanım, kalite denetimi, deneme',
+        'h1_title' => 'Destek',
+        'h2_comm_support' => 'Topluluk Desteği',
+        'h2_pro_support' => 'Uzman Desteği',
+        'h2_hw_reqs' => 'Donanım gereksinimleri',
+        
+        'comm_1' => 'Kurmuş olduğunuz Mageia dağıtımı ile veya projenin kendisi ile ilgili
+            bilgi, yardım veya yönergelere ihtiyacınız varsa bize şu yollardan ulaşmayı deneyebilirsiniz:',
+        'comm_list' => array(
+            '<a href="http://forums.mageia.org/en/">Topluluk destek forumları</a> (İngilizce)
+                &ndash; see <a href="https://forums.mageia.org/en/viewforum.php?f=20">diğer
+                Mageia topluluk forumları</a> (kendi dilinizde);',
+            'Diğer Mageia kullanıcıları ve katkıcıları ile sohbet edebileceğiniz IRC kanalları:
+                <a href="irc://irc.freenode.net/#mageia" hreflang="en">#mageia</a>
+                veya yerel dildeki <a href="http://mageia.org/wiki/doku.php?id=irc#channels_in_other_languages">kanallar</a>;',
+            '<a href="http://mageia.org/wiki/">Wiki sayfalarımız</a> (henüz içerik az ama üzerinde çalışıyoruz!);',
+            '<a href="http://mageia.org/mailman/" hreflang="en">E-posta listelerimiz</a>;',
+            'Yerel etkinliklikler: <a href="http://blog.mageia.org/en/">web günlüğümüzü</a> ve 
+                <a href="http://mageia.org/en/calendar/">ajandamızı</a> takip edin.',
+        ),
+
+        'pro_1' => 'Mageia.Org ticari/profesyonel destek sunmaz veya zorlamaz.
+            Ancak bu tip hizmetleri ve fazlasını sunan organizasyonlar mevcuttur.',
+        'pro_2' => 'Lütfen <a href="%s">ticari sağlayıcılar</a> listesine göz atın.',
+
+        'hw_1' => 'Nisan 2011 itibariyle, Mageia yazılımları x86 bilgisayar sistemlerinin hemen tamamında çalışmaktadır.',
+        'hw_2' => 'Şu donanım gereksinimleri listesini inceleyebilirsiniz:',
+        'hw_list' => array(
+            'İşlemci: herhangi bir AMD, Intel veya VIA işlemci;',
+            'Hafıza (RAM): 512MB en az, 2GB önerilen;',
+            'Depolama (HDD): En ufak kurulum için 1GB, tam kurulum için 6GB;',
+            'Optik Sürücü: Kullandığınız ISO kalıbına göre (ağ, USB bellek kurulumu mümkündür) CD veya DVD;',
+            'Ekran Kartı: herhangi bir ATI, Intel, Matrox, nVidia, SiS veya VIA ekran kartı;',
+            'Ses Kartı: herhangi bir AC97, HDA veya Sound Blaster ses kartı.'
+        ),
+        'hw_some_hardware' => 'Bazı donanım türlerinin (Wi-Fi yonga setleri, 3B ekran kartları) doğru çalışabilmesi için,
+            belirli donanım yazılımı veya uygulama yazılımı gerekebilir. Bunlar da "nonfree" adındaki çevrimiçi
+            depodan edinilebilir(daha fazlasını öğrenin).',
+
+        'hw_hcl_note' => 'Belki bir donanım uyumluluk listesi/dizini
+            ve ayrıca donanım sertifika süreci başlatabiliriz. Ancak bu
+            henüz planlama aşamasındadır. Bu açıdan bize yardım etmek isterseniz
+            <a href="%s">Web</a> ve <a href="%s">Kalite Denetimi</a> takımlarımızla
+            iletişime geçmekten çekinmeyin.'
+    ),
 );
