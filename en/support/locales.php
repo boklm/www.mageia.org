@@ -51,7 +51,7 @@ $_t = array(
             if you would like to help in this regard.'
     ),
     'fr' => array(
-        'page_title' => 'Support et Assisance pour Mageia',
+        'page_title' => 'Support et Assistance pour Mageia',
         'page_desc' => 'Obtenir du support pour Mageia via la communauté ou des professionnels',
         'page_kw' => 'mageia, linux, support, aide, assistance, matériel, services, entreprise, administration, hardware, qa, test',
         'h1_title' => 'Assistance',
