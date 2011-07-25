@@ -1,13 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <title>Mageia Donation Campaign</title>
-    <meta name="description" content="Mageia is new community-based Linux distribution." />
-    <meta name="keywords" content="mageia, donate, donation" />
-    <meta name="author" content="Mageia" />
-    <link rel="stylesheet" type="text/css" href="/g/style/all.css" >
+    <meta name="description" content="Mageia is new community-based Linux distribution.">
+    <meta name="keywords" content="mageia, donate, donation">
+    <meta name="author" content="Mageia">
+    <link rel="stylesheet" type="text/css" href="/g/style/all.css">
     <?php include '../../analytics.php'; ?>
 </head>
 <body>
@@ -42,7 +41,7 @@
                     <hr />
                     <h2 id="status">How to track donation?</h2>
 		    <p>Currently, we have got <strong><?php echo $g_donate_amount; ?></strong> (<a href="/en/about/reports/<?php echo date('Y'); ?>">remains</a> <strong><?php echo $g_amount_remain; ?></strong>)
-                        thanks to all of our <a href="/en/thank-you/">donators</a>!</p>
+                        thanks to all of our <a href="/en/thank-you/">donors</a>!</p>
 
 		    <p>We believe public accountability is crucial. You can know more about how are used the funds received by reading our 
 			<a href="/en/about/reports/">financial reports</a>.
