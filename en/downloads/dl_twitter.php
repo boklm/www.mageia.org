@@ -7,7 +7,8 @@ function dl_twitter($locale)
     $langs = array(
         'en' => 'I just downloaded Mageia 1, a new Linux distribution! Try it out!',
         'fr' => 'Je viens de télécharger Mageia 1, nouvelle distribution Linux. À vous d\'essayer !',
-        'de' => 'Habe gerade Mageia 1, eine neue Linuxdistribution heruntergeladen, Versuche es selbst!'
+        'de' => 'Habe gerade Mageia 1, eine neue Linuxdistribution heruntergeladen, Versuche es selbst!',
+        'pt' => 'Acabei de transferir a Mageia 1, uma nova distribuição Linux! Experimente-a!'
     );
     if (!array_key_exists($locale, $langs))
         $locale = 'en';
