@@ -154,7 +154,6 @@ $donators = array(
     'Christian Henri Fischer',
     'Eugeniy Rozhkov',
     'Tobias Müller',
-    'Jin-tong Hu',
     'Michel Antoine (ptit-pol88)',
     'David Postles',
     'Tomas Kindl',
@@ -206,6 +205,17 @@ $donators = array(
     'Placais',
     'Thomas Fackler (tomm.fa)',
     'Schouwen R M Van',
+    'Marita Klen-Launonen (tumbeliina)',
+    'Wulf Wilhelm',
+    'pepy',
+    'Mriganka Talukdar',
+    'Jan Pihlgren',
+    'Vincent Ducastin',
+    'Xavier Allain',
+    'Marc Gibert',
+    'Luis Chee Espinoza',
+    'Mike Arnautov',
+    'Jérôme Durand'
 );
 
 //$html .= '<img src="/g/images/mageia_0.svg" style="position: absolute; top: 180px; width: 300px; opacity: 0.2;" />';
