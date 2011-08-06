@@ -1211,7 +1211,7 @@ Note que as traduções estão a ser feitas.',
             Punjabi, Tamil, Tswana, Tsonga, Venda, Xhosa, Yoruba, Zulu.',
         'dl_migrate_instead' => 'Se está a usar a Mandriva Linux 2010.1 ou 2010.2,
             pode também directamente <a href="/pt/1/migrate/">actualizar o seu sistema para a Mageia 1</a>.</p>',
-        'not_sure_what_iso' => 'Não sabe que ISO transferir? Pode ser mais detalhado, mas precisa ler este artigo 
-            <a href="http://www.mageia.org/wiki/doku.php?id=mageia_installation_media">a descrever a nossa média de instalação diferente</a>.'
+        'not_sure_what_iso' => 'Não tem certeza acerca da ISO que deseja transferir? Este artigo pode-lhe parecer um pouco detalhado, mas é uma 
+            <a href="http://www.mageia.org/wiki/doku.php?id=mageia_installation_media">boa descrição acerca da nossa média de instalação</a>.'
     )
 );
