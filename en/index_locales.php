@@ -313,5 +313,25 @@ $_t = array(
         'page_desc' => 'Mageia, topluluk temelli yeni bir Linux dağıtımıdır.',
         'page_h1' => 'Yeni Bir Linux Dağıtımı',
         'mageia-is-here' => 'Mageia 1 burada!'
+    ),
+    'pl' => array(
+        'page_title' => 'Mageia - Nowa Dystrybucja Linux',
+        'page_desc'  => 'Mageia jest nową społecznością lokalną dystrybucji Linux.',
+        'page_kw'    => 'mageia, linux, mandriva, free software, operating system, computer, laptop, desktop, server, device, mobile',
+        'page_h1'    => 'Nowa Dystrybucja Linux',
+        'alternate_title' => 'Blog Magei (po angielsku)',
+        'alternate_href'  => 'http://blog.mageia.org/en/?feed=rss',
+        'about' => array(
+            'Mageia jest rozwidleniem systemu Mandriva,
+                wspieranych przez organizację not-for-profit ze
+                znanymi i wybranymi współpracownikami.',
+            'To więcej niż dostawa wolnego, bezpiecznego, stabilnego i zrównoważonego systemu operacyjnego,
+                którego celem jest stworzenie stabilnego i zaufanego środowiska do zarządzania wspólnymi projektami
+                (<a href="/en/about/2010-sept-announcement.html">sprawdź oryginalne ogłoszenie</a>).'
+        ),
+        'mageia-is-here' => 'Mageia 1 już jest!',
+        'join-us' => 'Dołącz do Nas!',
+        'right-now' => 'Co się dzieje teraz',
+        'news' => 'Nowości',
     )
 );
