@@ -177,7 +177,6 @@ $donators = array(
     'Michael Smith',
     'Robert J Greenwood',
     'Mike Crecelius',
-    'Julio Geraldo',
     'Aymerich Munoz Jose Ignacio',
     'Denis Prost',
     'Giovanni Salvi',
@@ -189,7 +188,6 @@ $donators = array(
     'Allan Gendelman',
     'Kimmo Suutala',
     'Martin Turner',
-    'Jean-Luc Versini',
     'Jean-François Ramez',
     'Manuel Fernandes Alonso',
     'Richard Chonak',
@@ -206,7 +204,7 @@ $donators = array(
     'Schouwen R M Van',
     'Marita Klen-Launonen (tumbeliina)',
     'Wulf Wilhelm',
-    'pepy',
+    'Philippe Pieyre (pepy)',
     'Mriganka Talukdar',
     'Jan Pihlgren',
     'Vincent Ducastin',
@@ -230,7 +228,12 @@ $donators = array(
     'L. C. Lawrence',
     'Bruno Vanhove',
     'Brian McNeil',
-    'J. David Eisenberg'
+    'J. David Eisenberg',
+    'Sascha Herholz',
+    'Patrick Vossen',
+    'ACL Consultans Corporation',
+    'Joep van Ham',
+    'Christian Fischer'
 );
 
 //$html .= '<img src="/g/images/mageia_0.svg" style="position: absolute; top: 180px; width: 300px; opacity: 0.2;" />';
