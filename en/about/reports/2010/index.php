@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
 <head>
@@ -56,7 +55,7 @@
 				<li>You can see the <a href="/en/thank-you" hreflang="en">"thank you" page</a>.</li>
 			</ul>
 			<h2>Contact</h2>
-			Financial report published by Damien Lallement (Mageia Treasurer on the 2010 Fiscal Year).<br/>You can contact him by sending an email to <em>treasurer[at]mageia[dot]org</em>.<br/>Last updated: Mar 18 12:18:53 CET 2011.
+			Financial report published by Damien Lallement (Mageia.Org Treasurer on the 2010 Fiscal Year).<br/>You can contact him by sending an email to <em>treasurer[at]mageia[dot]org</em>.<br/>Last update: Mar 18 12:18:53 CET 2011.
                 </div>
             </div>
         </div>
