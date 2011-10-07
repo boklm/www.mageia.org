@@ -40,7 +40,7 @@
                     </ul>
                     <hr />
                     <h2 id="status">How to track donation?</h2>
-		    <p>Currently, we have got <strong><?php echo $g_donate_amount; ?></strong> (<a href="/en/about/reports/<?php echo date('Y'); ?>">remains</a> <strong><?php echo $g_amount_remain; ?></strong>)
+		    <p>Currently, we received a lot of generous donations (<a href="/en/about/reports/<?php echo date('Y'); ?>">remains</a> <strong><?php echo $g_amount_remain; ?></strong>)
                         thanks to all of our <a href="/en/thank-you/">donors</a>!</p>
 
 		    <p>We believe public accountability is crucial. You can know more about how are used the funds received by reading our 
