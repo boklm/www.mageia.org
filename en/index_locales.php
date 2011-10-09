@@ -315,23 +315,23 @@ $_t = array(
         'mageia-is-here' => 'Mageia 1 burada!'
     ),
     'pl' => array(
-        'page_title' => 'Mageia - Nowa Dystrybucja Linux',
+        'page_title' => 'Mageia - Nowa dystrybucja Linuksa',
         'page_desc'  => 'Mageia jest nową społecznością lokalną dystrybucji Linux.',
         'page_kw'    => 'mageia, linux, mandriva, free software, operating system, computer, laptop, desktop, server, device, mobile',
-        'page_h1'    => 'Nowa Dystrybucja Linux',
+        'page_h1'    => 'Nowa dystrybucja Linuksa',
         'alternate_title' => 'Blog Magei (po angielsku)',
         'alternate_href'  => 'http://blog.mageia.org/en/?feed=rss',
         'about' => array(
-            'Mageia jest rozwidleniem systemu Mandriva,
-                wspieranych przez organizację not-for-profit ze
-                znanymi i wybranymi współpracownikami.',
-            'To więcej niż dostawa wolnego, bezpiecznego, stabilnego i zrównoważonego systemu operacyjnego,
-                którego celem jest stworzenie stabilnego i zaufanego środowiska do zarządzania wspólnymi projektami
-                (<a href="/en/about/2010-sept-announcement.html">sprawdź oryginalne ogłoszenie</a>).'
+            'Mageia jest forkiem systemu Mandriva,
+                wspieranym przez organizację non-profit założoną przez
+                byłych wybranych i uznanych pracowników Mandrivy.',
+            'Ponadto celem jest nie tylko dostawa wolnego, bezpiecznego, stabilnego i trwałego systemu operacyjnego,
+                ale także stworzenie platormy do bezpośredniego zarządzania w sposób stabilny i wiarygody projektami wspólnotowymi.
+                (<a href="/en/about/2010-sept-announcement.html">zobacz pierwotne ogłoszenie</a>).'
         ),
-        'mageia-is-here' => 'Mageia 1 już jest!',
+        'mageia-is-here' => 'Mageia 1 jest już dostępna!',
         'join-us' => 'Dołącz do Nas!',
-        'right-now' => 'Co się dzieje teraz',
+        'right-now' => 'Co się teraz dzieje?',
         'news' => 'Nowości',
     )
 );
