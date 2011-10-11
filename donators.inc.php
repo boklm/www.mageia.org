@@ -178,7 +178,6 @@ $donators = array(
     'Robert J Greenwood',
     'Mike Crecelius',
     'Aymerich Munoz Jose Ignacio',
-    'Denis Prost',
     'Giovanni Salvi',
     'Deri James',
     'Jesus del Castillo Baena',
