@@ -70,7 +70,7 @@
                                 <tr><td>Event box</td><td class="money">EUR&nbsp;1500.00</td><td class="money">1</td><td class="money">1</td><td class="money">EUR&nbsp;1 500.00</td><td>pending</td></tr>
                                 <tr><td>Event travel</td><td class="money">EUR&nbsp;1 000.00</td><td class="money">1</td><td class="money">2</td><td class="money">EUR&nbsp;2 000.00</td><td>pending</td></tr>
                                 <tr><td>HW for spare</td><td class="money">EUR&nbsp;3 000.00</td><td class="money">1</td><td class="money">1</td><td class="money">EUR&nbsp;3 000.00</td><td>pending</td></tr>
-                                <tr><td>Brand registration</td><td class="money">EUR&nbsp;250.00</td><td class="money">1</td><td class="money">1</td><td class="money">EUR&nbsp;250.00</td><td>pending</td></tr>
+                                <tr><td>Brand registration</td><td class="money">EUR&nbsp;280.00</td><td class="money">1</td><td class="money">1</td><td class="money">EUR&nbsp;280.00</td><td>pending</td></tr>
 				<tr><td>Reserve fund</td><td class="money">EUR&nbsp;4 000.00</td><td class="money">1</td><td class="money">1</td><td class="money">EUR&nbsp;4 000.00</td><td>pending</td></tr>
 				<tr><td colspan=6>&nbsp;</td></tr>
                                 <tr><td colspan=4>Total</td><td class="money">EUR&nbsp;22 306.96</td><td>pending</td></tr>
