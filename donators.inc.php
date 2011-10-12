@@ -226,6 +226,7 @@ $donators = array(
     'Josy Pullockara',
     'Robert Riches',
     'L. C. Lawrence',
+    'Gerald Sprik',
     'Bruno Vanhove',
     'Brian McNeil',
     'J. David Eisenberg',
