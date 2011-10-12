@@ -220,6 +220,7 @@ $donators = array(
     'Olaf Schnepel',
     'Dariusz Wielebinski',
     'Dieter Rogiest',
+    'Marja van Waes',
     'Marzio Messora',
     'Curtis Herle',
     'Josy Pullockara',
