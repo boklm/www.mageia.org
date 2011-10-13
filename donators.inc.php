@@ -236,7 +236,10 @@ $donators = array(
     'Joep van Ham',
     'Christian Fischer',
     'Pierre Opter',
-    'Olivier Mejean (Goom)'
+    'Olivier Mejean (Goom)',
+    'Jacques Anzeray',
+    'Ondrej Hrstka',
+    'Marcoi Pirotta'
 );
 
 //$html .= '<img src="/g/images/mageia_0.svg" style="position: absolute; top: 180px; width: 300px; opacity: 0.2;" />';
