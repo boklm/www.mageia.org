@@ -234,7 +234,9 @@ $donators = array(
     'Patrick Vossen',
     'ACL Consultans Corporation',
     'Joep van Ham',
-    'Christian Fischer'
+    'Christian Fischer',
+    'Pierre Opter',
+    'Olivier Mejean (Goom)'
 );
 
 //$html .= '<img src="/g/images/mageia_0.svg" style="position: absolute; top: 180px; width: 300px; opacity: 0.2;" />';
