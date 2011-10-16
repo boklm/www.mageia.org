@@ -218,7 +218,6 @@ table#dl-table th { text-align: left; }
 .fr-table td, .fr-table tr { vertical-align: top; }
 .fr-table td.money { text-align: right; }
 
-
 .dlt2 { border-collapse: collapse; width: 100%; font-size: 90%; }
 .dlt2 th,
 .dlt2 td {
@@ -255,6 +254,13 @@ span.pop_4 { width: 35px; }
 span.pop_5 { width: 50px; }
 .dlinfo { font-size: 85%; color: #888; }
 .dlt2 tr.reco td { font-weight: bold; }
+
+.noborder { border-collapse: collapse; border: 0; }
+.noborder td,
+.noborder th { border: 0; }
+.plusSign {}
+.minusSign { color: red; }
+.labelR { text-align: right; white-space: nowrap; }
 
 .hidden { display: none; }
 

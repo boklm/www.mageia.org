@@ -30,28 +30,41 @@ class Mageia_Financial_Report
         $account2010 = 7523.96;
         $this->hAccount2010 = number_format($account2010, 2);
         $this->hAccountLeft = number_format($account2010 + $this->balance, 2);
-        
+
+        $balanceSign = $this->balance >= 0 ? 'plus' : 'minus';
+
         return <<<S
-        <table class="fr-table">
+        <table class="fr-table noborder">
         <tr>
-            <td>Outstanding amount of <a href="../2010/">2010</a></td>
-            <td class="money">{$this->CUR}&nbsp;{$this->hAccount2010}</td>
+            <td class="labelR">At the end of <a href="../2010/">2010</a> we had</td>
+            <td class="money">{$this->CUR}&nbsp;{$this->hAccount2010}.</td>
         </tr>
         <tr>
-            <td colspan="3">Collected</td>
-            <td class="money">{$this->CUR}&nbsp;{$this->hInTotal}</td>
+            <td class="labelR">Since then, we received</td>
+            <td class="money">{$this->CUR}&nbsp;{$this->hInTotal},</td>
+            <td class="labelR">and spent</td>
+            <td class="money" style="text-align: left;">{$this->CUR}&nbsp;{$this->hOutTotal}
+                <span style="font-size: 80%; color: #888;">(<a href="#report">see detailed report</a>)</span>.</td>
         </tr>
         <tr>
-            <td colspan="2">Spent</td>
-            <td class="money">{$this->CUR}&nbsp;{$this->hOutTotal}</td>
+            <td class="labelR">Our balance so far is of</td>
+            <td class="money">{$this->CUR}&nbsp;<span class="{$balanceSign}Sign">{$this->hBalance}</span>,</td>
         </tr>
         <tr>
-            <td>Balance</td>
-            <td class="money">{$this->CUR}&nbsp;{$this->hBalance}</td>
+            <td class="labelR">and we still have</td>
+            <td class="money">{$this->CUR}&nbsp;{$this->hAccountLeft}:</td>
+            <td class="money">{$this->CUR}&nbsp;{$this->accounts[0][1]}</td>
+            <td>in our {$this->accounts[0][0]}</td>
         </tr>
         <tr>
-            <td>Remaining amount today</td>
-            <td class="money">{$this->CUR}&nbsp;{$this->hAccountLeft}</td>
+            <td colspan="2"></td>
+            <td class="money">{$this->CUR}&nbsp;{$this->accounts[1][1]}</td>
+            <td>in our {$this->accounts[1][0]}</td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+            <td class="money">{$this->CUR}&nbsp;{$this->accounts[2][1]}</td>
+            <td>in our {$this->accounts[2][0]}</td>
         </tr>
         </table>
 S;
@@ -202,7 +215,6 @@ S;
         $doneTotal = 0;
         $hLines    = '';
         $CUR       = '<span style="color: #777; font-size: 80%%;">EUR</span>';
-
         $line_tmpl = <<<S
         <tr>
             <td>%s</td>
@@ -210,10 +222,15 @@ S;
         </tr>
 S;
 
+        $this->accounts = array();
         foreach ($f as $l)
         {
             $l = str_getcsv($l, ';');
             if ('' === trim($l[0])) {
+                $this->accounts[] = array(
+                    str_replace(array('(', ')'), array('<span style="font-size: 80%; color: #888; display: block;">(', ')</span>'), $l[1]),
+                    number_format($l[2], 2)
+                );
                 $hLines .= sprintf($line_tmpl,
                     $l[1], number_format($l[2], 2));
 
@@ -221,7 +238,7 @@ S;
             }
         }
 
-        $hTotal     = number_format($total, 2);
+        $hTotal = number_format($total, 2);
 
         $s = <<<S
             <table class="fr-table"><thead>
@@ -234,6 +251,8 @@ S;
                 <td class="money">{$CUR}&nbsp;{$hTotal}</td>
             </tr>
         </tbody></table>
+S;
+        $s =<<<S
         {$hFileMTime}
 S;
         return $s;
