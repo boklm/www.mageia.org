@@ -71,6 +71,9 @@ $forums_link = 'https://forums.mageia.org/';
 if (in_array($locale, array('fr', 'de', 'es', 'pt-br')))
     $forums_link .= $locale . '/';
 
+if ($locale == 'el')
+    $forums_link = 'http://mageia-gr.org/forum/';
+
 // global nav
 $nav_list = array(
     "/{$locale}/" => 'Mageia',
@@ -224,7 +227,6 @@ $hsnav = sprintf('<div class="nav"><!--googleoff: all--><div class="nav2"><p cla
 $options = implode($options);
 $hsnav .= <<<H
 <form id="lang_form" dir="ltr" method="get" action="/">
-    <!--<label for="flang">Autres langues&nbsp;:</label>-->
     <input type="hidden" name="furl" value="{$_SERVER['REQUEST_URI']}" />
     <select id="flang" name="flang" dir="ltr" onchange="this.form.submit()">
         {$options}
