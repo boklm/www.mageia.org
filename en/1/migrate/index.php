@@ -81,7 +81,7 @@ $_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
                     <ul>
                         <li><p><?php echo $_t['cli_4']; ?></p>
                             <p><code class="term">
-                            # urpmi.addmedia --distrib --mirrorlist http://mirrors.mageia.org/api/mageia.1.$ARCH.list</code></p>
+                            # urpmi.addmedia --distrib --mirrorlist 'http://mirrors.mageia.org/api/mageia.1.$ARCH.list'</code></p>
                             <p>replacing <code>$ARCH</code> by <code>i586</code> or <code>x86_64</code>.</p>
                         </li>
                         <li><p><?php echo $_t['cli_5']; ?></p>
