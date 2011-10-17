@@ -239,7 +239,10 @@ $donators = array(
     'Olivier Mejean (Goom)',
     'Jacques Anzeray',
     'Ondrej Hrstka',
-    'Marcoi Pirotta'
+    'Marcoi Pirotta',
+    'Antonio Pessoa',
+    'Frédéric Bonnaud',
+    'Jose Luis Monzonis Cabrera'
 );
 
 //$html .= '<img src="/g/images/mageia_0.svg" style="position: absolute; top: 180px; width: 300px; opacity: 0.2;" />';
