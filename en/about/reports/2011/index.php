@@ -54,7 +54,7 @@
 			</table>
 			<h2>Bank accounts situation</h2>
 			<ul>
-                                <li>Paypal (non-for-profit organisation account): EUR&nbsp;120.28</li>
+                                <li>Paypal (non-for-profit organisation account): EUR&nbsp;277.29</li>
 				<li>Main account (with checkbook and no credit card): EUR&nbsp;698.60</li>
 				<li>Savings account (between 2% and 4% of interest): EUR&nbsp;9 000</li>
 			</ul>
