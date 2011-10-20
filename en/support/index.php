@@ -27,11 +27,17 @@ $_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
                 <div class="para donate">
                     <div class="qsidesummary">
                         <ul>
+                            <li><a href="#updates"><?php echo $_t['h2_updates']; ?></a></li>
                             <li><a href="#comm"><?php echo $_t['h2_comm_support']; ?></a></li>
                             <li><a href="#pro"><?php echo $_t['h2_pro_support']; ?></a></li>
                             <li><a href="#hw"><?php echo $_t['h2_hw_reqs']; ?></a></li>
                         </ul>
                     </div>
+                    <h2 id="updates"><?php echo $_t['h2_updates']; ?></h2>
+                    <p><?php echo sprintf($_t['updates_1'], '<a href="../1/">Mageia 1</a>'); ?></p>
+                    <p><?php echo $_t['updates_3']; ?></p>
+                    <p><?php echo sprintf($_t['updates_2'], '<a href="https://ml.mageia.org/wwsympa-wrapper.fcgi/info/updates-announce">updates-announce</a>'); ?></p>
+                    <hr>
                     <h2 id="comm"><?php echo $_t['h2_comm_support']; ?></h2>
                     <p><?php echo $_t['comm_1']; ?></p>
                     <ul class="hl"><?php foreach ($_t['comm_list'] as $commi):

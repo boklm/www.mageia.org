@@ -9,6 +9,11 @@ $_t = array(
         'h2_comm_support' => 'Community Support',
         'h2_pro_support' => 'Professional Support',
         'h2_hw_reqs' => 'Hardware Requirements',
+
+        'h2_updates' => 'Updates',
+        'updates_1' => 'Updates are available for %s (security and bug fixes) and published on an ongoing basis.',
+        'updates_2' => 'You may subscribe to our %s announce list to be notified of these.',
+        'updates_3' => 'You can install these from the Mageia Control Center.',
         
         'comm_1' => 'If you need help, information or directions about the Mageia distribution
             you installed or about the project, you can try to reach us through:',
@@ -58,7 +63,12 @@ $_t = array(
         'h2_comm_support' => 'Par la communauté',
         'h2_pro_support' => 'Par des professionnels',
         'h2_hw_reqs' => 'Configuration requise',
-        
+
+        'h2_updates' => 'Mises à jour',
+        'updates_1' => 'Des mises à jour sont régulièrement publiées pour %s (corrections de bugs ou de sécurité).',
+        'updates_2' => 'Vous pouvez vous inscrire à la liste %s pour en être informé.',
+        'updates_3' => 'Vous pouvez les installer à partir du centre de contrôle Mageia.',
+
         'comm_1' => 'Si vous avez besoin d&rsquo;aide ou d&rsquo;information sur Mageia,
             après ou avant l&rsquo;installation, ou sur le projet, vous pouvez nous
             rejoindre (utilisateurs et contributeurs au projet) via&nbsp;:',
