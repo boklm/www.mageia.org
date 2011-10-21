@@ -598,7 +598,7 @@ $_t = array(
         'text_support' => 'Vous souhaitez accueillir et aider les nouveaux utilisateurs ou bien
                                 partager des astuces avec les plus expérimentés ?
                                 Sur <a href="/wiki/doku.php?id=irc">les canaux IRC</a>,
-                                <a href="http://forums.mageia.org/">les forums</a>, les
+                                <a href="https://forums.mageia.org/fr/">les forums</a>, les
                                 <a href="http://mageia.org/mailman/">listes de discussion</a>, ou les
                                 manifestations locales ? Gardez simplement le contact avec nous via
                                  l\'un de ces canaux et partagez votre enthousiasme !',
