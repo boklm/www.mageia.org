@@ -696,14 +696,14 @@ $_t = array(
                             Voyez ce qu\'il est possible de faire :',
         'h3_minutes' => 'Quelques minutes',
         'array_minutes' => array('Arrêtez-vous dans la section d\'aide des
-                    <a href="http://forums.mageia.org/">forums</a> et regardez si vous pouvez
+                    <a href="http://forums.mageia.org/fr/">forums</a> et regardez si vous pouvez
                     répondre à une question.',
                     'Parlez du projet avec les personnes autour de vous, sur votre blog, sur
                     votre compte Twitter, sur votre lieu de travail.',
                     'Si vous rencontrez un bogue que vous pouvez reproduire de
                     façon systématique,
                      <a href="http://bugs.mageia.org/">soumettez un rapport de bogue</a>.',
-                    'Faites un <a href="/en/donate/">don</a> !'),
+                    'Faites un <a href="/fr/donate/">don</a> !'),
         'h3_hours' => 'Quelques heures',
         'array_hours' => array('Participez à un événement de Mageia, comme une journée 
                     de tests pour trouver, reproduire et aider à résoudre les bogues.',
