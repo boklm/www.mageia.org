@@ -81,7 +81,7 @@
 				<li>You can see the <a href="/en/thank-you" hreflang="en">"thank you" page</a>.</li>
 			</ul>
 			<h2>Contact</h2>
-			Financial report published by Damien Lallement (Mageia.Org Treasurer on the 2011 Fiscal Year).<br/>You can contact him by sending an email to <em>treasurer[at]mageia[dot]org</em>.<br/>Last update: Thu Oct 13 12:50:13 CEST 2011.
+			Financial report published by Damien Lallement (Mageia.Org Treasurer on the 2011 Fiscal Year).<br/>You can contact him by sending an email to <em>treasurer[at]mageia[dot]org</em>.<br/>Last update: Mon Oct 24 14:55:54 CEST 2011.
                 </div>
             </div>
         </div>
