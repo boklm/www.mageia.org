@@ -242,7 +242,15 @@ $donators = array(
     'Marcoi Pirotta',
     'Antonio Pessoa',
     'Frédéric Bonnaud',
-    'Jose Luis Monzonis Cabrera'
+    'Jose Luis Monzonis Cabrera',
+    'Sylvain Goumas',
+    'Jean Sié',
+    'Bjarne Thomsen',
+    'Daniel Pfenniger',
+    'Alain Déchamps',
+    'Jens Jablonski',
+    'Rafal Artur Prasal',
+    'Jean-Jacques Barret'
 );
 
 //$html .= '<img src="/g/images/mageia_0.svg" style="position: absolute; top: 180px; width: 300px; opacity: 0.2;" />';

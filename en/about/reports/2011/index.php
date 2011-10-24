@@ -54,26 +54,25 @@
 			</table>
 			<h2>Bank accounts situation</h2>
 			<ul>
-                                <li>Paypal (non-for-profit organisation account): EUR&nbsp;277.29</li>
-				<li>Main account (with checkbook and no credit card): EUR&nbsp;698.60</li>
-				<li>Savings account (between 2% and 4% of interest): EUR&nbsp;9 000</li>
+                                <li>Paypal (non-for-profit organisation account): EUR&nbsp;775.35</li>
+				<li>Main account (with checkbook and no credit card): EUR&nbsp;808.60</li>
+				<li>Savings account (between 2% and 4% of interest): EUR&nbsp;6 330,40</li>
 			</ul>
 			<h2>Forecast for 2011</h2>
 			<table id="fr-table"><thead><tr><th>Description of planned expenditure</th><th>Unit Price</th><th>Quantity</th><th>Recurrence</th><th>Total Price</th><th>Status</th></tr></thead><tbody><tr>
                                 <tr><td>Goodies</td><td class="money">EUR&nbsp;4 500.00</td><td class="money">1</td><td class="money">1</td><td class="money">EUR&nbsp;4 500.00</td><td>pending</td></tr>
                                 <tr><td>April</td><td class="money">EUR&nbsp;100.00</td><td class="money">1</td><td class="money">1</td><td class="money">EUR&nbsp;100.00</td><td>pending</td></tr>
                                 <tr><td>Gandi (hosting: +1536 MB of RAM)</td><td class="money">EUR&nbsp;2.39</td><td class="money">6</td><td class="money">12</td><td class="money">EUR&nbsp;172.08</td><td>done (Wed Mar 30)</td></tr>
-                                <tr><td>Dedibox (build iso)</td><td class="money">EUR&nbsp;14.99</td><td class="money">1</td><td class="money">12</td><td class="money">EUR&nbsp;179.88</td><td>pending</td></tr>
                                 <tr><td>Internet domains</td><td class="money">EUR&nbsp;15.00</td><td class="money">7</td><td class="money">1</td><td class="money">EUR&nbsp;105.00</td><td>pending</td></tr>
-                                <tr><td>Fiona (backup server)</td><td class="money">EUR&nbsp;1 500.00</td><td class="money">1</td><td class="money">1</td><td class="money">EUR&nbsp;1 500.00</td><td>pending</td></tr>
-                                <tr><td>2 new nodes for BS</td><td class="money">EUR&nbsp;2 500.00</td><td class="money">2</td><td class="money">1</td><td class="money">EUR&nbsp;5 000.00</td><td>pending</td></tr>
+                                <tr><td>HDD for Fiona (backup server)</td><td class="money">EUR&nbsp;205.00</td><td class="money">4</td><td class="money">1</td><td class="money">EUR&nbsp;820.00</td><td>pending</td></tr>
+                                <tr><td>1 new server for BS (QA & packagers)</td><td class="money">EUR&nbsp;2 669.60</td><td class="money">1</td><td class="money">1</td><td class="money">EUR&nbsp;2 669.60</td><td>done (Fri Oct 21)</td></tr>
                                 <tr><td>Event box</td><td class="money">EUR&nbsp;1500.00</td><td class="money">1</td><td class="money">1</td><td class="money">EUR&nbsp;1 500.00</td><td>pending</td></tr>
                                 <tr><td>Event travel</td><td class="money">EUR&nbsp;1 000.00</td><td class="money">1</td><td class="money">2</td><td class="money">EUR&nbsp;2 000.00</td><td>pending</td></tr>
                                 <tr><td>HW for spare</td><td class="money">EUR&nbsp;3 000.00</td><td class="money">1</td><td class="money">1</td><td class="money">EUR&nbsp;3 000.00</td><td>pending</td></tr>
                                 <tr><td>Brand registration</td><td class="money">EUR&nbsp;280.00</td><td class="money">1</td><td class="money">1</td><td class="money">EUR&nbsp;280.00</td><td>pending</td></tr>
 				<tr><td>Reserve fund</td><td class="money">EUR&nbsp;4 000.00</td><td class="money">1</td><td class="money">1</td><td class="money">EUR&nbsp;4 000.00</td><td>pending</td></tr>
 				<tr><td colspan=6>&nbsp;</td></tr>
-                                <tr><td colspan=4>Total</td><td class="money">EUR&nbsp;22 306.96</td><td>pending</td></tr>
+                                <tr><td colspan=4>Total</td><td class="money">EUR&nbsp;19 146.68</td><td>pending</td></tr>
 			</table>			
 			<h2>Miscellaneous</h2>
 			<ul>
