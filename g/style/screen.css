@@ -278,6 +278,7 @@ span.pop_5 { width: 50px; }
     background-position: 0 4px;
     margin-bottom: 2em;
 }
+.contrib-list.charter > li { background-image: url(/g/images/smi/website-48x48.png); }
 .contrib-list li h3 {
     font-size: 140%;
     margin: 0;

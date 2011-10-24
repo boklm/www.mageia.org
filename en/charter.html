@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Mageia Web style charter</title>
+    <meta name="description" content="Charter for current and future Mageia Web sites">
+    <meta name="keywords" content="mageia, charter, graphic, style, design, layout, font, colours, logo, favicon, identity">
+    <meta name="robots" content="noindex,nosnippet,nofollow,noarchive">
+    <link rel="stylesheet" type="text/css" href="/g/style/all.css">
+    <link href="http://fonts.googleapis.com/css?family=Rock Salt&amp;subset=latin" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" href="/g/favicon.png">
+</head>
+<body class="release">
+    <div class="nav"><!--googleoff: all--><div class="nav2"><p class="loc"><a href="/en/" class="sel" accesskey="1">Mageia</a> | <a href="/en/1/">1</a> | <a href="http://blog.mageia.org/en/">Blog</a> | <a href="/en/downloads/">Downloads</a> | <a href="/en/support/">Support</a> | <a href="https://forums.mageia.org/">Forum</a> | <a href="/en/contribute/">Contribute</a> | <a href="/wiki/">Wiki</a> | <a href="https://bugs.mageia.org/">Bugzilla</a> | <a href="/en/donate/">Donations</a> | <a href="/en/about/">About</a></p>
+</div><!--googleon: all--></div>
+
+    <div id="doc" class="yui-t7">
+        <div id="hd" role="banner"><h1><a id="logo" href="/en/"><span>Mageia</span></a> <span class="lsep">|</span> <span class="subh" style="font-family: Rock Salt;">Web style charter</span></h1></div>
+    <div id="bd" role="main">
+    <div class="yui-g">
+        <div class="para">
+            <p>This draft guide is to help build consistent style for Mageia.org on the Web and in the printed world.
+                It starts from the current charter of <a href="http://www.mageia.org/">www.mageia.org</a> and takes into account
+                several other options that are available to this day.</p>
+
+            <ul>
+                <li><a href="#mlogo">Logo</a></li>
+                <li><a href="#mcolours">Colours</a></li>
+                <li><a href="#mwww">Web sites</a></li>
+                <li><a href="#next">What's next?</a></li>
+            </ul>
+
+            <hr>
+            <div id="by-role">
+            
+            <h2 id="mlogo">Logo</h2>
+                <p>Mageia official logo is <img src="http://www.mageia.org/g/images/logo_ln_1.png" alt="Mageia logo">.</p>
+                <p>Our logo still does not have a specific font - it would need to be forged.</p>
+                <p>No other logo must be used for official Mageia.org communication.</p>
+                <p>This logo must not be altered. We need a more comprehensive guide for it (use of cauldron alone, of "mageia" alone, availability of derivative logos and buttons for other uses).</p>
+            </ul>
+            <hr>
+            <h2 id="mcolours">Colours</h2>
+            <p>Current colours scheme is a cold one, consisting of basically three major: white, black, blue.</p>
+            <table class="dlt2">
+                <thead><tr><th>Colour</th><th>Hex code</th><th>Usage</th></tr></thead>
+                <tbody>
+                <tr><td style="background: #ffffff"></td><td>#ffffff</td><td>background</td>
+                <tr><td style="background: #000000;"></td><td>#000000</td><td>body text, h3</td></tr>
+                <tr><td style="background: #3494d3"></td><td>#3494d3</td><td>titles: h1, h2, h3</td><td rowspan="2">Those two should be reconciled</td></tr>
+                <tr><td style="background: #2383c2"></td><td>#2383c2</td><td>links: a</td><tr>
+                <tr><td style="background: orange;"></td><td>orange</td><td>sub-title of h1</td></tr>
+                <tr><td style="background: #555555;"></td><td>#555555</td><td>preamble text, footer text</td></tr>
+                <tr><td style="background: #aaaaaa;"></td><td>#aaaaaa</td><td>table header/footer</td></tr>
+                </tbody>
+            </table>
+            <hr>
+            <h2 id="mwww">Web sites</h2>
+            <ul class="contrib-list charter">
+                <li id="favicon">
+                    <h3>Favicon</h3>
+                    <p>Our favicon is <img src="http://www.mageia.org/g/favicon.png" alt="Mageia favicon">. You may reference it through:
+                        <code>http://www.mageia.org/g/favicon.png</code>.</p>
+                </li>
+
+                <li id="fonts">
+                    <h3>Fonts</h3>
+                    <p>Page body fonts rule is:</p>
+                    <code class="term">font-family: Verdana, "Trebuchet MS", "Lucida Grande", "Lucida Sans", Verdana, Tahoma, Arial, sans-serif;</code>
+                    <br>
+                    <p>Titles (h1, h2, etc.) fonts rule is:</p>
+                    <code class="term">font-family: "Century Gothic", "Trebuchet MS", Arial, sans-serif;</code>
+                </li>
+
+                <li id="width">
+                    <h3>Page width and layout</h3>
+                    <p>Current:</p>
+                    <ul>
+                        <li><a href="http://www.mageia.org/">www</a>: fixed 749px, centered</li>
+                        <li><a href="http://blog.mageia.org/">blog</a>: fixed 980px, centered</li>
+                        <li><a href="http://forums.mageia.org/">forum</a>: fluid 100%</li>
+                        <li><a href="http://bugs.mageia.org/">bugs</a>: fluid 100%</li>
+                        <li><a href="http://hugs.mageia.org/">hugs</a>: fixed ~700px, left-aligned</li>
+                    </ul>
+                    
+                    <p>Preferred:</p>
+                    <ul>
+                        <li>Preferred: fixed 980px, centered</li>
+                        <li>Even better, using media queries:
+                            <ul>
+                                <li>desktop, large screen > 1240,1400</li>
+                                <li>tablet</li>
+                                <li>phone</li>
+                            </ul>
+                            (tools to test: http://quirktools.com/screenfly/)
+                            </li>
+                    </ul>
+                </li>
+                
+                <li id="bg">
+                    <h3>Page background</h3>
+                    <p>Current background is built in three layers:</p>
+                    <ul>
+                        <li>plain white background: <code class="term">html { background: #fff; }</code></li>
+                        <li>blue to white gradient with stripes: <code class="term">html { background: url(<a href="http://www.mageia.org/g/images/bg_ln_4.png">http://www.mageia.org/g/images/bg_ln_4.png</a>) repeat-x; }</code>
+                            </li>
+                        <li>white cauldron mask placed: <code class="term">body { background: url(<a href="http://www.mageia.org/g/images/cauldron_alpha_ln_1.png">http://www.mageia.org/g/images/cauldron_alpha_ln_1.png</a>) no-repeat -20px 200px; }</code>
+                            </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h3>www header</h3>
+                    <div id="hd" role="banner"><h1><a id="logo" href="/en/"><span>Mageia</span></a> <span class="lsep">|</span> <span class="subh">Title <em class="tag">Tag</em></span></h1></div>
+                    <br>
+                    <pre class="term">background: linear-gradient(top, #ffffff 50%, #f0f0f0);
+border-radius: 10px 10px 0 0;
+border-bottom: 1px solid #9db1ca;
+box-shadow: 0 1px 3px #9db1ca;</pre>
+                    <br>
+                    <p>The whole header may be redesigned along with the global nav bar: below:</p>
+                </li>
+                
+                <li>
+                    <h3>Global navigation bar</h3>
+                    <p>The global navigation bar is to segment the Web site in a few major areas where visitors can go; it's not a shortcuts bar, so its contents may be redesigned and dispatched differently in the future.</p>
+                    <p>It will be published by a distinct web service, to be reused by each sub website; HTML, CSS and Javascript will be pushed.</p>
+                </li>
+                
+                <li id="css">
+                    <h3>Reference CSS</h3>
+                    <p>Our current reference CSS is based on:</p>
+                    <ul>
+                        <li>YUI reset-fonts-grids CSS</li>
+                        <li>YUI base CSS</li>
+                        <li>our own: <a href="http://www.mageia.org/g/style/screen.css">screen.css</a></li>
+                    </ul>
+                    <p>This can be dramatically improved.</p>
+                </li>
+            </ul>
+            <hr>
+            <h2 id="next">What to do next?</h2>
+            <ul>
+                <li>
+            </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
