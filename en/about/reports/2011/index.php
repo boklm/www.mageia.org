@@ -54,9 +54,9 @@
 			</table>
 			<h2>Bank accounts situation</h2>
 			<ul>
-                                <li>Paypal (non-for-profit organisation account): EUR&nbsp;775.35</li>
-				<li>Main account (with checkbook and no credit card): EUR&nbsp;514.55</li>
-				<li>Savings account (between 2% and 4% of interest): EUR&nbsp;6 330,40</li>
+                                <li>Paypal (non-for-profit organisation account): EUR&nbsp;167.24</li>
+				<li>Main account (with checkbook and no credit card): EUR&nbsp;354.55</li>
+				<li>Savings account (between 2% and 4% of interest): EUR&nbsp;6 180,57</li>
 			</ul>
 			<h2>Forecast for 2011</h2>
 			<table id="fr-table"><thead><tr><th>Description of planned expenditure</th><th>Unit Price</th><th>Quantity</th><th>Recurrence</th><th>Total Price</th><th>Status</th></tr></thead><tbody><tr>
