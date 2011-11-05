@@ -134,6 +134,7 @@ S;
         '<p>If you would like to help improving this Web site or its translations, ',
         'check out our <a href="/wiki/doku.php?id=web">Web</a> and ',
         '<a href="/wiki/doku.php?id=i18n">localization</a> teams!</p>',
+        '<p>Your browser Accept-Language is: ', $_SERVER['HTTP_ACCEPT_LANGUAGE'], '.</p>',
         '<hr /></body></html>';
 }
 
