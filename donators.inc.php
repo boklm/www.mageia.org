@@ -256,8 +256,10 @@ $donators = array(
     'William Fischer',
     'Michael Waggoner',
     'François Millasson',
-    'Alejandro Diaz Infante'
-
+    'Alejandro Diaz Infante',
+    'Marcel Sahaghian',
+    'Edward Janusz',
+    'Jean-Claude Colette'
 );
 
 //$html .= '<img src="/g/images/mageia_0.svg" style="position: absolute; top: 180px; width: 300px; opacity: 0.2;" />';
