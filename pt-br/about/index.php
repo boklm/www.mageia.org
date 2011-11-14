@@ -23,14 +23,14 @@
                     <li><a href="/en/calendar/">Calendário</a></li>
                     <li><a href="http://forums.mageia.org/">Fórums</a>,
                         <a href="/mailman/">lista de discussão</a>,
-                        <a href="/wiki/">Wiki</a></li>
+                        <a href="https://wiki.mageia.org/en/">Wiki</a></li>
                     <li><a href="http://svnweb.mageia.org/">Repositório de Códigos</a>,
                         dashboard</li>
                 </ul>
                 <h2>Aprenda mais sobre a Mageia</h2>
                 <ul>
                     <li><a href="2010-sept-announcement.html">Anúncio original em Setembro de 2010</a></li>
-                    <li><a href="/wiki/doku.php?id=org">Administração</a></li>
+                    <li><a href="https://wiki.mageia.org/en/Org">Administração</a></li>
                     <li><a href="./values/">Valores</a></li>
                     <li><a href="./code-of-conduct/">Código de conduta</a></li>
                     <li><a href="./policies/">Políticas</a></li>

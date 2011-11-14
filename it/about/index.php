@@ -30,7 +30,7 @@
                 <h2>Scopri di più riguardo a Mageia</h2>
                 <ul>
                     <li><a href="/it/about/2010-sept-announcement.html">Annuncio Originale fatto a Settembre 2010</a></li>
-                    <li><a href="/wiki/doku.php?id=org">Modello di governo</a></li>
+                    <li><a href="https://wiki.mageia.org/en/Org">Modello di governo</a></li>
                     <li><a href="/it/about/values/">Valori</a></li>
                     <li><a href="/en/about/code-of-conduct/">Codice di condotta</a></li>
                     <li><a href="/en/about/policies/">Politiche</a></li>
