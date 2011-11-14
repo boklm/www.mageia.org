@@ -32,7 +32,7 @@
                             &ndash; podívejte se na <a href="https://forums.mageia.org/en/viewforum.php?f=20">podporu ve svém jazyce hledejte na jiných fórech Mageii</a>;</li>
                         <li>Kanály IRC, kde můžete mluvit živě s dalšími uživateli Mageii a s jejími přispěvateli:
                             <a href="irc://irc.freenode.net/#mageia" hreflang="en">#mageia</a>
-                            nebo jiné lokalizavoné <a href="http://mageia.org/wiki/doku.php?id=irc#channels_in_other_languages">kanály</a>;
+                            nebo jiné lokalizavoné <a href="http://mageia.orghttps://wiki.mageia.org/en/IRC#channels_in_other_languages">kanály</a>;
                         </li>
                         <li>naše <a href="http://mageia.org/wiki/">Wiki</a> (stále ještě se na ní pracuje!).</li>
                         <li>(je potřeba dokončit: emailové konference (seznam adres), dokumentaci, informace o místních událostech)</li>

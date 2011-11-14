@@ -15,7 +15,7 @@ $_t = array(
         'mageia_began' => 'Mageia began in September 2010 as
                         <a href="/en/about/2010-sept-announcement.html">a fork of Mandriva Linux</a>.
                         It is supported by a <a href="/en/about/">not-for-profit organisation</a>,
-                        <a href="http://mageia.org/wiki/doku.php?id=org">governed by</a>
+                        <a href="https:/https://wiki.mageia.org/en/Orgg/en/Org">governed by</a>
                         a body of recognized and elected contributors</a>,
                         and made by 100+ people around the world.',
         'our_work' => 'Our work adds to the excellent work of the wider Linux 
@@ -57,7 +57,7 @@ $_t = array(
         'mageia_began' => 'Mageia začala v září 2010 jako
                         <a href="/cs/about/2010-sept-announcement.html">fork Mandriva Linuxu</a>.
                         Podporuje ji <a href="/en/about/">nezisková organizace</a>,
-                        <a href="http://mageia.org/wiki/doku.php?id=org">řízená</a>
+                        <a href="https://wiki.mageia.org/en/Org">řízená</a>
                         skupinou uznaných a zvolených spolupracovníků</a>,
                         a vytvářená více než stem lidí z celého světa.',
         'our_work' => 'Naše práce se přidává k širšímu společenství kolem Linuxu 
@@ -99,7 +99,7 @@ $_t = array(
         'mageia_began' => 'Mageia wurde im September 2010 
                         <a href="/de/about/2010-sept-announcement.html"> als Fork von Mandriva Linux</a> ins Leben gerufen.
                         Es wird von einer <a href="/en/about/">nicht gewinnorientierten Organisation</a> getragen, von einer Gruppe von
-                        <a href="http://mageia.org/wiki/doku.php?id=org">anerkannten und gewählten Mitgliedern geleitet</a> und von mehr als 100 Menschen aus aller Welt zusammengestellt..',
+                        <a href="https://wiki.mageia.org/en/Org">anerkannten und gewählten Mitgliedern geleitet</a> und von mehr als 100 Menschen aus aller Welt zusammengestellt..',
         'our_work' => 'Unsere Arbeit beruht auf der exzellenten Arbeit der weltweiten Community rund um Linux und freier Software. Unser Ziel ist die Herausgabe einer der besten, stabilsten, zuverlässigsten und zugleich erfreulichsten Distributionen sowohl für den normalen Benutzer als auch für den Entwickler oder die Geschäftswelt.',
         'encourage_you' => 'Und wir laden Sie dazu ein, <a href="/en/contribute/">dabei zu sein</a>, ganz nach Ihrer eigenen Zeiteinteilung und Ihrer beruflichen Beanspruchung.',
         '9_months' => '9&nbsp;Monate nach <a href="/de/about/2010-sept-announcement.html">der Gründung</a> haben wir:',
@@ -134,7 +134,7 @@ $_t = array(
         'mageia_began' => 'Η Mageia ξεκίνησε το Σεπτέμβριο του 2010 ως
                         <a href="/el/about/2010-sept-announcement.html">ένα φορκ της Mandriva Linux</a>.
                         Υποστηρίζεται από μια <a href="/el/about/">μη κερδοσκοπική οργάνωση</a>,
-                        <a href="http://mageia.org/wiki/doku.php?id=org">διοικούμενη από</a>
+                        <a href="https://wiki.mageia.org/en/Org">διοικούμενη από</a>
                         ένα σώμα από αναγνωρισμένους και εκλεγμένους συνεισφέροντες</a>,
                         και αναπτύσσεται από εκατοντάδες άτομα στον κόσμο.',
         'our_work' => 'Η δουλειά μας προστίθεται στην εξαίσια δουλειά της ευρύτερης κοινότητας του 
@@ -176,7 +176,7 @@ $_t = array(
         'mageia_began' => 'Mageia comenzó en Septiembre de 2010 como 
                         <a href="/es/about/2010-sept-announcement.html">un derivado (fork) de Mandriva Linux</a>.
                         Es apoyado por una <a href="/en/about/">organización sin fines de lucro</a>,
-                        <a href="http://mageia.org/wiki/doku.php?id=org">gobernada por</a>
+                        <a href="https://wiki.mageia.org/en/Org">gobernada por</a>
                         un cuerpo de reconocidos y electos contribuidores</a>,
                         y hecha por mas de 100 personas alrededor del mundo.',
         'our_work' => 'Nuestro trabajo se suma al excelente trabajo de la comunidad de Linux
@@ -218,7 +218,7 @@ $_t = array(
         'mageia_began' => 'Mageia sai alguse 2010. aasta septembris
                         <a href="/et/about/2010-sept-announcement.html">Mandriva Linuxi haruna</a>.
                         Seda toetab a <a href="/en/about/">mittetulundusühing</a>,
-                        <a href="http://mageia.org/wiki/doku.php?id=org">valitseb</a>
+                        <a href="https://wiki.mageia.org/en/Org">valitseb</a>
                         kogukonna tunnustatud ja valitud esinduskogu</a> ning
                         selle taga seisab enam kui 100 inimest kõikjal maailmas.',
         'our_work' => 'Meie tegevus aitab veelgi laiendada Linuxi ja vaba tarkvara 
@@ -260,7 +260,7 @@ $_t = array(
         'mageia_began' => 'La distribution Mageia est arrivée en septembre 2010 comme
                         <a href="/fr/about/2010-sept-announcement.html">un fork de Mandriva Linux</a>.
                         Elle est appuyée par une <a href="/en/about/">association à but non lucratif</a>,
-                        <a href="http://mageia.org/wiki/doku.php?id=org">régie par</a>
+                        <a href="https://wiki.mageia.org/en/Org">régie par</a>
                         un corps de contributeurs élus et reconnus</a>,
                         et développée par plus d\'une centaine de personnes de par le monde.',
         'our_work' => 'Nos efforts s\'ajoutent à l\'excellent travail réalisé par la vaste
@@ -307,7 +307,7 @@ $_t = array(
         'mageia_began' => 'Mageia nasce a Settembre 2010 come
                         <a href="/it/about/2010-sept-announcement.html">biforcazione di Mandriva Linux</a>.
                         E\' supportata da una <a href="/en/about/">organizzazione senza scopo di lucro (no-profit)</a>,
-                        <a href="http://mageia.org/wiki/doku.php?id=org">gobernata da</a>
+                        <a href="https://wiki.mageia.org/en/Org">gobernata da</a>
                         un corpo riconosciuto ed eletto di collaboratori</a>,
                         e realizzata da più di 100 persone in tutto il mondo.',
         'our_work' => 'Il nostro lavoro si aggiunge a quello eccellente della più ampia comunità
@@ -348,7 +348,7 @@ $_t = array(
         'mageia_began' => 'Mageia startet i september 2010 som
                         <a href="/en/about/2010-sept-announcement.html">en forgreining av Mandriva Linux</a>.
                         Den støttes av en <a href="/en/about/">ikke-økonomisk organisasjon</a>,
-                        <a href="http://mageia.org/wiki/doku.php?id=org">styrt av</a>
+                        <a href="https://wiki.mageia.org/en/Org">styrt av</a>
                         valgte og profilerte bidragsytere</a>.
                         Mageia blir på verdensbasis utviklet av mer enn 100 personer.',
         'our_work' => 'Vårt arbeid kommer på toppen av det som blir gjort av det større Linux- og fri
@@ -389,7 +389,7 @@ $_t = array(
         'mageia_began' => 'Mageia is begonnen in september 2010 als
                         <a href="/nl/about/2010-sept-announcement.html">een kloon van Mandriva Linux</a>.
                         Mageia wordt ondersteund door een <a href="/en/about/">stichting (non-profit organisatie)</a>,
-                        <a href="http://mageia.org/wiki/doku.php?id=org">bestuurt door</a>
+                        <a href="https://wiki.mageia.org/en/Org">bestuurt door</a>
                         een bestuur bestaande uit erkende en gekozen leden van de gemeenschap</a>,
                         en gemaakt door meer dan 100 mensen wereldwijd.',
         'our_work' => 'Ons werk draagt verder bij aan het uitstekende werk verricht door de grotere Linux-
@@ -431,7 +431,7 @@ $_t = array(
         'mageia_began' => 'A Mageia começou em Setembro de 2010 como
                         <a href="/pt/about/2010-sept-announcement.html">uma bifurcação da Mandriva Linux</a>.
                         É suportada por uma <a href="/pt/about/">organização sem fins lucrativos</a>,
-                        <a href="http://mageia.org/wiki/doku.php?id=org">governada por</a>
+                        <a href="https://wiki.mageia.org/en/Org">governada por</a>
                         um corpo de contribuidores elegidos e reconhecidos</a>,
                         e feita por mais de 100 pessoas à volta do mundo.',
         'our_work' => 'O nosso esforço contribui para o excelente trabalho de uma comunidade Linux mais ampla
@@ -473,7 +473,7 @@ $_t = array(
         'mageia_began' => 'A Mageia começou em Setembro 2010 como
                         <a href="/en/about/2010-sept-announcement.html">uma bifurcação do Mandriva Linux</a>.
                         É suportada por uma <a href="/en/about/">organização sem fins lucrativos</a>,
-                        <a href="http://mageia.org/wiki/doku.php?id=org">governada</a>
+                        <a href="https://wiki.mageia.org/en/Org">governada</a>
                         por um corpo de colaboradores eleitos e reconhecidos</a>,
                         e feita por mais de 100 pessoas ao redor do mundo.',
         'our_work' => 'Nosso esforço contribui com o excelente trabalho de uma ampla comunidade Linux 
@@ -515,7 +515,7 @@ $_t = array(
         'mageia_began' => 'Mageia și-a început drumul în septembrie 2010 ca
                         <a href="/ro/about/2010-sept-announcement.html">o derivație de Mandriva Linux</a>.
                         Este susținută de o <a href="/en/about/">asociație not-profit</a>,
-                        <a href="http://mageia.org/wiki/doku.php?id=org">guvernată de</a>
+                        <a href="https://wiki.mageia.org/en/Org">guvernată de</a>
                         un grup de contribuitori aleși și recunoscuți</a>,
                         și dezvoltată de peste 100 de persoane din toată lumea.',
         'our_work' => 'Efortul nostru se adaugă muncii extraordinare realizate de vasta comunitate 
@@ -594,7 +594,7 @@ $_t = array(
         'mageia_began' => 'Роботу над проектом Mageia було розпочато у вересні 2010 року у форматі
                         <a href="/uk/about/2010-sept-announcement.html">відгалуження від Mandriva Linux</a>.
                         Підтримку проекту забезпечує <a href="/en/about/">неприбуткова організація</a>,
-                        <a href="http://mageia.org/wiki/doku.php?id=org">якою керує</a>
+                        <a href="https://wiki.mageia.org/en/Org">якою керує</a>
                         група з відомих та вибраних учасників проекту</a>,
                         група складається з понад 100 людей зі всього світу.',
         'our_work' => 'Наша праця поєднується з чудовою роботою ширшої спільноти Linux 
@@ -635,7 +635,7 @@ $_t = array(
         'mageia_began' => 'Mageia 在 2010 年九月時，
                         <a href="/zh-tw/about/2010-sept-announcement.html">由 Mandriva Linux</a> 分支出來。
                         它由一個<a href="/en/about/">非營利團體</a>支持，並由全世界一百個以上的貢獻者所組織並選出來的貢獻者
-                        <a href="http://mageia.org/wiki/doku.php?id=org">主導</a>。',
+                        <a href="https://wiki.mageia.org/en/Org">主導</a>。',
         'our_work' => '我們將多個 Linux 與自由軟體社群貢獻的成果加入。我們希望能帶給大家最好的，最穩定的，最可信賴的，並且是最愉快的經驗與平台，不管是對一般使用者，開發者或是商業用途。',
         'encourage_you' => '我們也鼓勵各位在您的空閒時刻<a href="/zh-tw/contribute/">加入我們的行列</a>。',
         '9_months' => '從<a href="/zh-tw/about/2010-sept-announcement.html">開始</a>算起，九個月的時間我們達到了：',

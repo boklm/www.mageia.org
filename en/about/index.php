@@ -23,7 +23,7 @@
                     <li><a href="/en/calendar/">Calendar</a></li>
                     <li><a href="http://forums.mageia.org/">Forums</a>,
                         <a href="/mailman/">mailing-lists</a>,
-                        <a href="/wiki/">Wiki</a></li>
+                        <a href="https://wiki.mageia.org/">Wiki</a></li>
                     <li><a href="http://svnweb.mageia.org/">Code repository</a>,
                         dashboard</li>
                 </ul>

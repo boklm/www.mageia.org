@@ -23,7 +23,7 @@ $_t = array(
                 Mageia community forums</a> for support in your language;',
             'IRC channels where you can discuss live with other Mageia users and contributors:
                 <a href="irc://irc.freenode.net/#mageia" hreflang="en">#mageia</a>
-                or other localized <a href="http://mageia.org/wiki/doku.php?id=irc#channels_in_other_languages">channels</a>;',
+                or other localized <a href="http://mageia.orghttps://wiki.mageia.org/en/IRC#channels_in_other_languages">channels</a>;',
             'our <a href="http://mageia.org/wiki/">Wiki</a> (still rough at the time, we are working on it!);',
             'our <a href="http://mageia.org/mailman/" hreflang="en">mailing-lists</a>;',
             'local events: follow our <a href="http://blog.mageia.org/en/">blog</a>
@@ -78,7 +78,7 @@ $_t = array(
                 dans d&rsquo;autres langues&nbsp;;',
             'le canal IRC <a href="irc://irc.freenode.net/#mageia-fr" hreflang="fr">#mageia-fr</a>
                 sur Freenode&nbsp;; là encore, il existe
-                d&rsquo;<a href="http://mageia.org/wiki/doku.php?id=irc#channels_in_other_languages">autres
+                d&rsquo;<a href="http://mageia.orghttps://wiki.mageia.org/en/IRC#channels_in_other_languages">autres
                 canaux dans d&rsquo;autres langues</a>&nbsp;;',
             'le <a href="http://mageia.org/wiki/">Wiki</a> (encore en anglais et un peu en bazar pour le moment,
                 mais on y travaille)&nbsp;;',
@@ -131,7 +131,7 @@ $_t = array(
                 fóruns de suporte da comunidade Mageia</a> na sua língua;',
             'Canais IRC onde pode discutir directamente com outros utilizadores e contribuidores Mageia:
                 <a href="irc://irc.freenode.net/#mageia" hreflang="en">#mageia</a>
-                ou <a href="http://mageia.org/wiki/doku.php?id=irc#channels_in_other_languages">channels</a> noutras línguas;',
+                ou <a href="http://mageia.orghttps://wiki.mageia.org/en/IRC#channels_in_other_languages">channels</a> noutras línguas;',
             'a nossa <a href="http://mageia.org/wiki/">Wiki</a> (ainda áspera de momento, mas estamos a trabalhar para a melhorar!);',
             'as nossas <a href="http://mageia.org/mailman/" hreflang="en">listas de correio</a>;',
             'eventos locais: siga o nosso <a href="http://blog.mageia.org/en/">blogue</a>
@@ -180,7 +180,7 @@ $_t = array(
                 comunità Mageia</a> per il supporto nella tua lingua;',
             'I canali IRC dove puoi discutere dal vivo con altri utenti e collaboratori Mageia:
                 <a href="irc://irc.freenode.net/#mageia" hreflang="en">#mageia</a>
-                o gli altri <a href="http://mageia.org/wiki/doku.php?id=irc#channels_in_other_languages">canali</a>; localizzati',
+                o gli altri <a href="http://mageia.orghttps://wiki.mageia.org/en/IRC#channels_in_other_languages">canali</a>; localizzati',
             'Il nostro <a href="http://mageia.org/wiki/">Wiki</a> (ancora a uno stadio iniziale per ora, ci stiamo lavorando!);',
             'Le nostre <a href="http://mageia.org/mailman/" hreflang="en">mailing-list</a>;',
             'Eventi locali: segui il nostro <a href="http://blog.mageia.org/it/">blog</a>
@@ -228,7 +228,7 @@ $_t = array(
                 &ndash; podívejte se na <a href="https://forums.mageia.org/en/viewforum.php?f=20">podporu ve svém jazyce hledejte na jiných fórech Mageii</a>;',
             'Kanály IRC, kde můžete mluvit živě s dalšími uživateli Mageii a s jejími přispěvateli:
                 <a href="irc://irc.freenode.net/#mageia" hreflang="en">#mageia</a>
-                nebo jiné lokalizované <a href="http://mageia.org/wiki/doku.php?id=irc#channels_in_other_languages">kanály</a>;',
+                nebo jiné lokalizované <a href="http://mageia.orghttps://wiki.mageia.org/en/IRC#channels_in_other_languages">kanály</a>;',
             'naše <a href="http://mageia.org/wiki/">Wiki</a> (stále ještě se na ní pracuje!).',
             '(je potřeba dokončit: <a href="http://mageia.org/mailman/" hreflang="en">emailové konference</a>, dokumentaci, informace o místních událostech)',
         ),
@@ -273,8 +273,8 @@ $_t = array(
             Sektion</a>. Das deutschsprachige Forum erreichen Sie <a href="http://forums.mageia.org/de/">hier</a>;',
             'IRC-Kanäle zur Echtzeit-Diskussion mit anderen Benutzern und Mitwirkenden von Mageia (Englisch):
             <a href="irc://irc.freenode.net/#mageia" hreflang="en">#mageia</a>
-            sowie weitere lokale <a href="/wiki/doku.php?id=irc#channels_in_other_languages">Kanäle</a>;',
-            'unser <a href="/wiki/">Wiki</a> (noch im Aufbau!);',
+            sowie weitere lokale <a href="https://wiki.mageia.org/en/IRC#channels_in_other_languages">Kanäle</a>;',
+            'unser <a href="https://wiki.mageia.org/">Wiki</a> (noch im Aufbau!);',
             'unsere <a href="http://mageia.org/mailman/" hreflang="en">Mailinglisten</a>;',
             'lokale Veranstaltungen: folgen Sie unserem <a href="http://blog.mageia.org/de/">Blog</a>
             und dem öffentlichen <a href="/en/calendar/">Kalender</a>.',
@@ -315,7 +315,7 @@ $_t = array(
                 Mageia topluluk forumları</a> (kendi dilinizde);',
             'Diğer Mageia kullanıcıları ve katkıcıları ile sohbet edebileceğiniz IRC kanalları:
                 <a href="irc://irc.freenode.net/#mageia" hreflang="en">#mageia</a>
-                veya yerel dildeki <a href="http://mageia.org/wiki/doku.php?id=irc#channels_in_other_languages">kanallar</a>;',
+                veya yerel dildeki <a href="http://mageia.orghttps://wiki.mageia.org/en/IRC#channels_in_other_languages">kanallar</a>;',
             '<a href="http://mageia.org/wiki/">Wiki sayfalarımız</a> (henüz içerik az ama üzerinde çalışıyoruz!);',
             '<a href="http://mageia.org/mailman/" hreflang="en">E-posta listelerimiz</a>;',
             'Yerel etkinliklikler: <a href="http://blog.mageia.org/en/">web günlüğümüzü</a> ve 
@@ -363,7 +363,7 @@ $_t = array(
                 fórums da comunidade Mageia</a> para suporte em seu idioma;',
             'Canais no IRC onde você pode discutir com outros usuários e colaboradores da Mageia:
                 <a href="irc://irc.freenode.net/#mageia" hreflang="en">#mageia</a>
-                ou <a href="http://mageia.org/wiki/doku.php?id=irc#channels_in_other_languages">canais</a> em outros idiomas;',
+                ou <a href="http://mageia.orghttps://wiki.mageia.org/en/IRC#channels_in_other_languages">canais</a> em outros idiomas;',
             'nossa <a href="http://mageia.org/wiki/">Wiki</a> (meio tosca ainda, estamos trabalhando para melhorá-la!);',
             'nossas <a href="http://mageia.org/mailman/" hreflang="en">listas de discussões</a>;',
             'eventos locais: siga nosso <a href="http://blog.mageia.org/en/">blog</a>

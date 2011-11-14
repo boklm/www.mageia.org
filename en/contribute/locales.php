@@ -52,7 +52,7 @@ $_t = array(
         'h3_marketing' => 'Marketing, Communication &amp; Evangelism',
         'text_marketing' => 'Better understanding of who uses and contributes to the project
                                 to help them even more, making sure the Mageia voice is consistent and heard,
-                                that\'s a job for the <a href="http://mageia.org/wiki/doku.php?id=marketing">marcomm team</a>
+                                that\'s a job for the <a href="https://wiki.mageia.org/en/Marcom_Team">marcomm team</a>
                                 (Marketing and Communication), on both global and local scales.',
         'h3_graphic' => 'Graphic &amp; UI design',
         'text_graphic' => 'Software isn\'t only about code neither is Mageia only about technology.
@@ -166,7 +166,7 @@ $_t = array(
         'h3_marketing' => 'Obchod, komunikace a přesvědčovací práce',
         'text_marketing' => 'Lepší porozumnění tomu, kdo projekt používá a přispívá do něj,
                                 zajišťuje, že hlas Mageii je jednotný a slyšitelný.
-                                To je úkol pro <a href="http://mageia.org/wiki/doku.php?id=marketing">obchodní tým</a>
+                                To je úkol pro <a href="https://wiki.mageia.org/en/Marcom_Team">obchodní tým</a>
                                 (obchod a komunikace), jak na celosvětové, tak na místní úrovni.',
         'h3_graphic' => 'Grafika a návrh rozhraní',
         'text_graphic' => 'Software nespočívá jen v kódu a ani Mageia není jen o technologii.
@@ -282,7 +282,7 @@ $_t = array(
                 'h3_marketing' => 'Marketing, Kommunikation &amp; Überzeugungsarbeit',
                 'text_marketing' => 'Besseres Verständnis dafür, wer unsere Software benutzt und zu dem Projekt beiträgt.
                         Das soll sicherstellen, dass die Mageia Stimme konsistent ist und auch gehört wird. Das ist eine
-                        Aufgabe für das <a href="http://mageia.org/wiki/doku.php?id=marketing">Marcomm-Team</a>
+                        Aufgabe für das <a href="https://wiki.mageia.org/en/Marcom_Team">Marcomm-Team</a>
                         (Marketing und Kommunikation), sowohl weltweit als auch auf lokaler Ebene. ',
                 'h3_graphic' => 'Grafik und Design der Oberfläche',
                 'text_graphic' => 'Software besteht nicht nur aus Programmcode und genauso besteht Mageia nicht nur aus
@@ -400,7 +400,7 @@ $_t = array(
         'h3_marketing' => 'Marketing, Comunicación y Evangelización',
         'text_marketing' => 'Mejor entendimiento de quien usa y contribuye con el proyecto
                                 para ayudarlos aún más, asegurarse que la voz de Mageia sea consistente y sea escuchada,
-                                ese es el trabajo del <a href="http://mageia.org/wiki/doku.php?id=marketing">equipo marcomm</a>
+                                ese es el trabajo del <a href="https://wiki.mageia.org/en/Marcom_Team">equipo marcomm</a>
                                 (Marketing y Comunicación), en escalas locales y globales.',
         'h3_graphic' => 'Gráficos &amp; diseño de UI',
         'text_graphic' => 'El software no solo es código, ni tampoco solo tecnología.
@@ -512,7 +512,7 @@ $_t = array(
         'h3_marketing' => 'Turundus ja kommunikatsioon',
         'text_marketing' => 'Parem mõistmine, kes kasutab Mageiat ja kes selle käekäigule kaasa
                                 kaasa aitab, ning kindlustamine, et Mageia hääl on kuulda selgelt ja pidevalt,
-                                on <a href="http://mageia.org/wiki/doku.php?id=marketing">turundus- ja kommunikatsioonimeeskonna</a>
+                                on <a href="https://wiki.mageia.org/en/Marcom_Team">turundus- ja kommunikatsioonimeeskonna</a>
                                 ülesanne &ndash; seda nii ülemaailmsel kui ka kohalikul tasandil.',
         'h3_graphic' => 'Graafiline kujundus ja kasutajaliides',
         'text_graphic' => 'Tarkvara ei tähenda kunagi ainult koodi ja Mageia ei tähenda pelgalt tehnoloogiat.
@@ -633,7 +633,7 @@ $_t = array(
         'h3_marketing' => 'Marketing, communication et prosélytisme',
         'text_marketing' => 'Mieux comprendre qui utilise et qui contribue au projet
                                 pour les aider encore mieux et donner à Mageia une voix cohérente et entendue
-                                est le travail de l\'<a href="http://mageia.org/wiki/doku.php?id=marketing">équipe marcomm</a>
+                                est le travail de l\'<a href="https://wiki.mageia.org/en/Marcom_Team">équipe marcomm</a>
                                 (Marketing et Communication), à la fois au niveau local et mondial.',
         'h3_graphic' => 'Conception graphique et d\'interfaces utilisateur',
         'text_graphic' => 'De même que le logiciel n\'est pas seulement du code, Mageia 
@@ -768,7 +768,7 @@ $_t = array(
         'h3_marketing' => 'Commercializzazione, Comunicazione &amp; Evangelismo',
         'text_marketing' => 'La migliore comprensione di chi usa e contribuisce al progetto
                                 consente di aiutare ulteriormente, assicurando che la voce di Mageia sia coerente e sentita,
-                                questo è il lavoro della <a href="http://mageia.org/wiki/doku.php?id=marketing">squadra marcomm</a>
+                                questo è il lavoro della <a href="https://wiki.mageia.org/en/Marcom_Team">squadra marcomm</a>
                                 (Marketing e Comunicazione), sia su scala globale che locale.',
         'h3_graphic' => 'Progettazione grafica &amp; interfaccia utente',
         'text_graphic' => 'Il software non è solo codice e allo stesso modo Mageia non è solo tecnologia.
@@ -880,7 +880,7 @@ $_t = array(
         'h3_marketing' => 'Markedsføring, kommunikasjon &amp; evangelisering',
         'text_marketing' => 'Bedre forståelse av brukerne og hvem som bidrar til prosjektet.
                                 For å hjelpe dem mer, samt sikre at stemmem til Mageia blir hørt og er konsis.
-                                Dette er jobben til <a href="http://mageia.org/wiki/doku.php?id=marketing">markedsføringsavdelingen</a>
+                                Dette er jobben til <a href="https://wiki.mageia.org/en/Marcom_Team">markedsføringsavdelingen</a>
                                 (markedsføring og kommunikasjon), både på en global og lokal basis.',
         'h3_graphic' => 'Grafikk &amp; UI-utforming',
         'text_graphic' => 'Programvare handler ikke kun om kildekode og teknologi. Hvis du har erfaring med grafisk
@@ -989,7 +989,7 @@ $_t = array(
         'h3_marketing' => 'Marketing &amp; Communicatie',
         'text_marketing' => 'Een beter begrip van wie Mageia gebruikt om hen nog beter te kunnen ondersteunen, 
                                 en ervoor zorgen dat de boodschap van Mageia consistent is en gehoord wordt,
-                                dat is de taak van het <a href="http://mageia.org/wiki/doku.php?id=marketing">marcomm team</a>
+                                dat is de taak van het <a href="https://wiki.mageia.org/en/Marcom_Team">marcomm team</a>
                                 (Marketing en Communicatie), zowel wereldwijd alsook op meer lokale schaal.',
         'h3_graphic' => 'Grafisch &amp; UI-ontwerp',
         'text_graphic' => 'Software gaat niet alleen maar over computercode, en ook Mageia gaat over meer dan alleen technologie.
@@ -1098,7 +1098,7 @@ $_t = array(
         'h3_marketing' => 'Mercado, Comunicação e Evangelismo',
         'text_marketing' => 'Compreender melhor quem de nós usa e contribui para o projecto
                                 para poder ajudar melhor, certificando-nos que a voz da Mageia é consistente e que é ouvida.
-                                É um trabalho para a <a href="http://mageia.org/wiki/doku.php?id=marketing">Equipa MerCom</a>
+                                É um trabalho para a <a href="https://wiki.mageia.org/en/Marcom_Team">Equipa MerCom</a>
                                 (Mercado e Comunicação), seja a nível global ou local.',
         'h3_graphic' => 'Concepção Gráfica',
         'text_graphic' => 'Um programa não é apenas acerca de código, nem a Mageia é apenas acerca de tecnologia.
@@ -1217,7 +1217,7 @@ $_t = array(
         'h3_marketing' => 'Mercado, Comunicação e Evangelismo',
         'text_marketing' => 'É melhor compreender quem de nós usa e contribui para o projecto
                                 para os poder ajudar mais, certificando-nos de que a voz da Mageia é consistente e é ouvida,
-                                é um trabalho para a <a href="http://mageia.org/wiki/doku.php?id=marketing">equipa MerCom</a>
+                                é um trabalho para a <a href="https://wiki.mageia.org/en/Marcom_Team">equipa MerCom</a>
                                 (Mercado e Comunicação), seja a nível global ou local.',
         'h3_graphic' => 'Desenho UI Gráfico',
         'text_graphic' => 'Os programas não são apenas acerca de código, nem a Mageia é apenas acerca de tecnologia.
@@ -1332,7 +1332,7 @@ $_t = array(
         'h3_marketing' => 'Promovare, comunicare și evanghelizare',
         'text_marketing' => 'Înțelegerea persoanelor care utilizează și contribuie la proiect,
                                 pentru a le putea ajuta mai bine, asigurîndu-se că vocea Mageiei este ... și auzită,
-                                este sarcina <a href="http://mageia.org/wiki/doku.php?id=marketing">echipei marcomm</a>
+                                este sarcina <a href="https://wiki.mageia.org/en/Marcom_Team">echipei marcomm</a>
                                 (marketing și comunicare), atît la scară locală cît și globală.',
         'h3_graphic' => 'Grafică și interfața cu utilizatorul',
         'text_graphic' => 'Aplicațiile nu țin numai de cod și nici Mageia numai de tehnologie.
@@ -1446,7 +1446,7 @@ $_t = array(
         'h3_marketing' => 'Маркетинг, робота з засобами масової інформації та розповсюдження інформації',
         'text_marketing' => 'Покращення розуміння того, хто використовує та розробляє проект, з метою
                                 удосконалення прийомів роботи, забезпечення інформаційного супроводу та однозначності повідомлень Mageia, —
-                                все це є завданнями <a href="http://mageia.org/wiki/doku.php?id=marketing">команди marcomm</a>
+                                все це є завданнями <a href="https://wiki.mageia.org/en/Marcom_Team">команди marcomm</a>
                                 (маркетингу та зв’язку з громадськістю) на загальносвітовому та місцевому рівнях.',
         'h3_graphic' => 'Графіка та дизайн',
         'text_graphic' => 'Добре програмне забезпечення — це не лише код, а Mageia — це не лише сплав технологій.
@@ -1552,7 +1552,7 @@ $_t = array(
                                 在做的就是這件事，確認我們的軟體、套件與 ISO 映像檔，網站等的品質沒有問題。',
         'h3_marketing' => '宣傳、交流與推廣',
         'text_marketing' => '對於計畫的使用者與貢獻者有更深的了解並且協助他們，確保 Mageia 的聲音能傳出去且維持一致
-                                這就是<a href="http://mageia.org/wiki/doku.php?id=marketing">宣傳與溝通團隊</a>
+                                這就是<a href="https://wiki.mageia.org/en/Marcom_Team">宣傳與溝通團隊</a>
                                 的工作， 不管是局部性還是全球性的任務',
         'h3_graphic' => '圖形與介面設計',
         'text_graphic' => '軟體並不只是程式碼，Mageia也不只是科技

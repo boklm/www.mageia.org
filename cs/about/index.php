@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html>
 <html dir="ltr" lang="cs">
 <head>
@@ -24,14 +23,14 @@
                     <li><a href="/en/calendar/">Kalendář</a></li>
                     <li><a href="http://forums.mageia.org/">Fóra</a>,
                         <a href="/mailman/">Konference</a>,
-                        <a href="/wiki/">Wiki</a></li>
+                        <a href="https://wiki.mageia.org/">Wiki</a></li>
                     <li><a href="http://svnweb.mageia.org/">Repozitář s kódem</a>,
                         řídící panel</li>
                 </ul>
                 <h2>Poznejte více o Mageii</h2>
                 <ul>
                     <li><a href="2010-sept-announcement.html">Původní oznámení zveřejněné v září 2010</a></li>
-                    <li><a href="/wiki/doku.php?id=org">Vedení</a></li>
+                    <li><a href="http://wiki.mageia.org/en/Org">Vedení</a></li>
                     <li><a href="./values/">Hodnoty</a></li>
                     <li><a href="./code-of-conduct/">Pravidla chování</a></li>
                     <li><a href="./policies/">Postoje</a></li>
