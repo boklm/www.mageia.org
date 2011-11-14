@@ -88,8 +88,8 @@ $_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
                         <h2><a href="./contribute/"><?php echo $_t['join-us']; ?></a></h2>
                         <ul>
                             <li><a href="https://www.mageia.org/mailman/">Mailing-lists</a></li>
-                            <li><a href="http://mageia.orghttps://wiki.mageia.org/en/IRC">IRC (Freenode network)</a></li>
-                            <li><a href="http://mageia.org/wiki/">Mageia Wiki</a></li>
+                            <li><a href="https://wiki.mageia.org/en/IRC">IRC (Freenode network)</a></li>
+                            <li><a href="https://wiki.mageia.org/en/">Mageia Wiki</a></li>
                             <li>Contact the founders team:
                                 <ul>
                                     <li><a href="mailto:mageia-contact@mageia.org">mageia-contact@mageia.org</a></li>

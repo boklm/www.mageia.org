@@ -25,7 +25,7 @@ $_t = array(
         'encourage_you' => 'And we encourage you to <a href="/en/contribute/">be part of it</a>,
                         on your own time or through your professional activity.',
         '9_months' => '9&nbsp;months from <a href="/en/about/2010-sept-announcement.html">inception</a> we\'ve reached:',
-        'people' => '<a href="/en/contribute/">100+&nbsp;contributors</a> in <a href="/wiki/doku.php?id#teams">10+ teams</a>.
+        'people' => '<a href="/en/contribute/">100+&nbsp;contributors</a> in <a href="https://wiki.mageia.org/en/Contributing">10+ teams</a>.
                         <a href="/en/thank-you/">180+&nbsp;generous donors</a> of
                         <a href="/en/donate/">11.700+&nbsp;EUR</a>
                         with only <a href="/en/about/reports/2011/">4.700 spent</a> so far
@@ -67,7 +67,7 @@ $_t = array(
         'encourage_you' => 'A povzbuzujeme vás v tom <a href="/cs/contribute/">být toho součástí</a>,
                         ve svém vlastním čase nebo skrze svou pracovní činnost.',
         '9_months' => 'Za devět měsíců od <a href="/cs/about/2010-sept-announcement.html">vzniku</a> jsme dosáhli:',
-        'people' => '<a href="">sta a více přispěvatelů</a> ve <a href="/wiki/doku.php?id#teams">více jak deseti týmech</a>.
+        'people' => '<a href="">sta a více přispěvatelů</a> ve <a href="https://wiki.mageia.org/en/Contributing">více jak deseti týmech</a>.
                         <a href="/en/thank-you/">více než stoosmdesáti štědrých dárců</a>
                         <a href="/cs/donate/">více než 11 700 EUR</a>,
                         a bylo zatím <a href="/en/about/reports/">utraceno jen 4 700</a>
@@ -103,7 +103,7 @@ $_t = array(
         'our_work' => 'Unsere Arbeit beruht auf der exzellenten Arbeit der weltweiten Community rund um Linux und freier Software. Unser Ziel ist die Herausgabe einer der besten, stabilsten, zuverlässigsten und zugleich erfreulichsten Distributionen sowohl für den normalen Benutzer als auch für den Entwickler oder die Geschäftswelt.',
         'encourage_you' => 'Und wir laden Sie dazu ein, <a href="/en/contribute/">dabei zu sein</a>, ganz nach Ihrer eigenen Zeiteinteilung und Ihrer beruflichen Beanspruchung.',
         '9_months' => '9&nbsp;Monate nach <a href="/de/about/2010-sept-announcement.html">der Gründung</a> haben wir:',
-        'people' => '<a href="/de/contribute/">100+&nbsp;Helfer</a> in <a href="/wiki/doku.php?id#teams">10+ Teams</a>.
+        'people' => '<a href="/de/contribute/">100+&nbsp;Helfer</a> in <a href="https://wiki.mageia.org/en/Contributing">10+ Teams</a>.
                         <a href="/en/thank-you/">160+&nbsp;großzügige Spender</a> von
                         <a href="/de/donate/">8.800+&nbsp;EUR</a>, von denen bisher
                         nur <a href="/en/about/reports/2011/">1.277&nbsp;EUR</a> ausgegeben wurden, bei einer Prognose von 20.000&nbsp;EUR für 2011.',
@@ -144,7 +144,7 @@ $_t = array(
         'encourage_you' => 'Και σας ενθαρρύνουμε να <a href="/el/contribute/">συμμετέχετε στο έργο</a>,
                         στον ελεύθερο χρόνο σας ή παράλληλα με την επαγγελματική σας δραστηριότητα.',
         '9_months' => 'Σε 9&nbsp;μήνες από την <a href="/el/about/2010-sept-announcement.html">έναρξη</a> έχουμε :',
-        'people' => '<a href="">πάνω από 100 συνεισφέροντες</a> σε <a href="/wiki/doku.php?id#teams">περισσότερες από δέκα ομάδες</a>.
+        'people' => '<a href="">πάνω από 100 συνεισφέροντες</a> σε <a href="https://wiki.mageia.org/en/Contributing">περισσότερες από δέκα ομάδες</a>.
                         <a href="/el/thank-you/">160+&nbsp;γενναιόδωρους δωρητές</a> για
                         το ποσό των <a href="/el/donate/">8.800+&nbsp;EUR</a>
                         από τα οποία έχουν ξοδευτεί <a href="/el/about/reports/">μόνο 1.277</a> μέχρι σήμερα
@@ -186,7 +186,7 @@ $_t = array(
         'encourage_you' => 'Lo invitamos a <a href="/es/contribute/">formar parte de ello</a>,
                         en su tiempo libre o mediante su actividad profesional.',
         '9_months' => 'Han pasado a 9&nbsp;meses desde que <a href="/es/about/2010-sept-announcement.html">empezamos</a>:',
-        'people' => '<a href="">Más de 100&nbsp;colaboradores</a> en <a href="/wiki/doku.php?id#teams">más de 10 equipos</a>.
+        'people' => '<a href="">Más de 100&nbsp;colaboradores</a> en <a href="https://wiki.mageia.org/en/Contributing">más de 10 equipos</a>.
                         <a href="/en/thank-you/">más de 160&nbsp; generosos donantes</a> de
                         <a href="/es/donate/">más de 8.800&nbsp;EUR</a>
                         con sólo <a href="/en/about/reports/">1.277 gastados</a> hasta ahora
@@ -228,7 +228,7 @@ $_t = array(
         'encourage_you' => 'Ühtlasi julgustame teidki <a href="/et/contribute/">kaasa lööma</a>,
                         olgu teie vabal ajal või ka töökohustuste raames.',
         '9_months' => '9&nbsp;kuuga <a href="/et/about/2010-sept-announcement.html">pärast sündi</a> oleme saavutanud:',
-        'people' => '<a href="">üle 100&nbsp;kaastöötaja</a> <a href="/wiki/doku.php?id#teams">enam kui 10 meeskonnas</a>.
+        'people' => '<a href="">üle 100&nbsp;kaastöötaja</a> <a href="https://wiki.mageia.org/en/Contributing">enam kui 10 meeskonnas</a>.
                         <a href="/en/thank-you/">üle 160&nbsp;helde annetaja</a>,
                         kes on meile saatnud <a href="/et/donate/">üle 8800&nbsp;euro</a>,
                         millest seni <a href="/en/about/reports/">on kulutatud 1277 eurot</a>
@@ -272,7 +272,7 @@ $_t = array(
                         participer au projet</a>, sur votre temps libre ou à travers votre activité
                         professionnelle.',
         '9_months' => '9&nbsp;mois après le <a href="/fr/about/2010-sept-announcement.html">lancement du projet</a>, nous avons atteint&nbsp;:',
-        'people' => 'Plus d\'<a href="/fr/contribute/">une centaine de contributeurs</a> dans <a href="/wiki/doku.php?id#teams">une douzaine d\'équipes</a>.
+        'people' => 'Plus d\'<a href="/fr/contribute/">une centaine de contributeurs</a> dans <a href="https://wiki.mageia.org/en/Contributing">une douzaine d\'équipes</a>.
                         Plus de <a href="/en/thank-you/">180&nbsp;généreux donateurs</a> pour
                         un total de <a href="/fr/donate/">11&nbsp;700&nbsp;&#8364</a>, dont seulement
                         <a href="/en/about/reports/2011/">4&nbsp;700&nbsp;&#8364 ont été dépensés</a> jusqu\'à
@@ -317,7 +317,7 @@ $_t = array(
         'encourage_you' => 'E ti incoraggiamo ad <a href="/it/contribute/">essere parte di questo</a>,
                         nel tuo tempo libero o attraverso la tua attività professionale.',
         '9_months' => 'A 9&nbsp;mesi dall\'<a href="/it/about/2010-sept-announcement.html">inizio</a> abbiamo raggiunto:',
-        'people' => '<a href="/it/contribute/">Più di 100&nbsp;collaboratori</a> in <a href="/wiki/doku.php?id#teams">più di 10 squadre</a>.
+        'people' => '<a href="/it/contribute/">Più di 100&nbsp;collaboratori</a> in <a href="https://wiki.mageia.org/en/Contributing">più di 10 squadre</a>.
                         <a href="/en/thank-you/">Più di 180&nbsp; generosi donatori</a> di
                         <a href="/it/donate/">Più di 11.700&nbsp;EURO</a>
                         di cui solo <a href="/en/about/reports/2011/">4.700 spesi</a> sino ad ora
@@ -357,7 +357,7 @@ $_t = array(
         'encourage_you' => 'Og vi oppfordrer deg til å bli <a href="/en/contribute/">en del av det</a>,
                         på fritiden eller gjennom eget arbeid.',
         '9_months' => '&nbsp;Siden <a href="/en/about/2010-sept-announcement.html">unnfangelsen</a> har vi fått:',
-        'people' => '<a href="">100+&nbsp;bidragsytere</a> fordelt på <a href="/wiki/doku.php?id#teams">10+ lag</a>.
+        'people' => '<a href="">100+&nbsp;bidragsytere</a> fordelt på <a href="https://wiki.mageia.org/en/Contributing">10+ lag</a>.
                         <a href="/en/thank-you/">160+&nbsp;generøse donorer</a> av
                         <a href="/en/donate/">8,800+&nbsp;EUR</a>.
                         Av disse har vi til nå <a href="/en/about/reports/">brukt 1,277</a>.
@@ -399,7 +399,7 @@ $_t = array(
         'encourage_you' => 'Wij moedigen u aan <a href="/nl/contribute/">om met ons meet te doen</a>,
                         in uw vrije tijd of als onderdeel van uw professionele werkzaamheden.',
         '9_months' => '9&nbsp;maanden na de <a href="/nl/about/2010-sept-announcement.html">aanvangsdatum</a> hebben wij het volgende bereikt:',
-        'people' => '<a href="">Meer dan 100 mensen hebben bijgedragen</a> in <a href="/wiki/doku.php?id#teams">meer dan 10 verschillende teams</a>.
+        'people' => '<a href="">Meer dan 100 mensen hebben bijgedragen</a> in <a href="https://wiki.mageia.org/en/Contributing">meer dan 10 verschillende teams</a>.
                         <a href="/en/thank-you/">meer dan 180 gulle gevers</a> van
                         <a href="/nl/donate/">11.775+&nbsp;EUR</a>
                         met slechts <a href="/en/about/reports/">4.387 aan uitgaven</a> tot nu toe
@@ -441,7 +441,7 @@ $_t = array(
         'encourage_you' => 'e encorajamo-lo a <a href="/pt/contribute/">fazer parte</a>,
                         no seu tempo livre ou através da sua actividade profissional.',
         '9_months' => '9&nbsp;meses desde a <a href="/pt/about/2010-sept-announcement.html">concepção</a> chegamos:',
-        'people' => '<a href="/pt/contribute/">mais de 100&nbsp;contribuidores</a> em <a href="/wiki/doku.php?id#teams">mais de 10 equipas</a>.
+        'people' => '<a href="/pt/contribute/">mais de 100&nbsp;contribuidores</a> em <a href="https://wiki.mageia.org/en/Contributing">mais de 10 equipas</a>.
                         <a href="/en/thank-you/">mais de 180&nbsp;doadores generosos</a> com
                         <a href="/pt/donate/">mais de 11.700&nbsp;EUR</a>
                         e com apenas <a href="/en/about/reports/2011/">4.700 gastos</a> até agora
@@ -483,7 +483,7 @@ $_t = array(
         'encourage_you' => 'E nós o encorajamos <a href="/en/contribute/">a fazer parte disto</a>,
                         no seu tempo livre ou através da sua atividade profissional.',
         '9_months' => 'Depois de 9&nbsp;meses, desde <a href="/en/about/2010-sept-announcement.html">a concepção</a>, nós\'chegamos a:',
-        'people' => '<a href="/en/contribute/">mais de 100&nbsp;colaboradores</a> in <a href="/wiki/doku.php?id#teams">em mais de 10 equipes</a>.
+        'people' => '<a href="/en/contribute/">mais de 100&nbsp;colaboradores</a> in <a href="https://wiki.mageia.org/en/Contributing">em mais de 10 equipes</a>.
                         <a href="/en/thank-you/">mais de 180&nbsp;doadores generosos</a> de
                         <a href="/en/donate/">11.700+&nbsp;EUROS</a>
                         com apenas <a href="/en/about/reports/2011/">4.700 gastos</a> até agora
@@ -525,7 +525,7 @@ $_t = array(
         'encourage_you' => 'Și vă încurajăm să <a href="/ro/contribute/">participați la proiect</a>,
                         în timpul liber sau în cadrul activității voastre profesionale.',
         '9_months' => 'În 9&nbsp;luni de la <a href="/ro/about/2010-sept-announcement.html">lansarea proiectului</a> am atins mai                   bine de:',
-        'people' => 'Peste <a href="">100 de contribuitori</a> în <a href="/wiki/doku.php?id#teams">peste 10 echipe</a>.
+        'people' => 'Peste <a href="">100 de contribuitori</a> în <a href="https://wiki.mageia.org/en/Contributing">peste 10 echipe</a>.
                         Peste <a href="/en/thank-you/">160 de donatori generoși</a> pentru un total de
                         peste <a href="/ro/donate/">8.800 EUR</a> din care s-au cheltuit pînă acum numai <a href="/en/about/reports/">1.277 EUR</a> cu 20.000 EUR prevăzuți pentru 2011.',
         'prereleases' => '5&nbsp;versiuni tehnice intermediare.
@@ -555,7 +555,7 @@ $_t = array(
             <a href="/tr/about/2010-sept-announcement.html">Mandriva Linux çatallaması</a> olarak başladı.
             Mageia, <a href="/tr/about/">kar amacı gütmeyen bir dernek</a> tarafından desteklenmekte,
             tanınmış ve seçilmiş katkıcılar tarafından 
-            <a href="/wiki/doku.php?id=org">yönetilmekte</a>
+            <a href="https://wiki.mageia.org/en/Org">yönetilmekte</a>
             ve dünyanın dört bir tarafından yüzlerce kişi tarafından hazırlanmaktadır.',
         'our_work' => 'Yaptığımız iş, genix Linux ve Özgür Yazılım topluluğunun
             mükemmel işlerine bir katkıdır. Hedefimiz, bir kullanıcı, bir geliştirici veya
@@ -564,7 +564,7 @@ $_t = array(
         'encourage_you' => 'Ayrıca sizleri kişisel zamanınızda veya profesyonel etkinliklerinizde
             <a href="/tr/contribute/">bunun bir parçası olmaya</a>, çağırıyoruz.',
         '9_months' => '<a href="/tr/about/2010-sept-announcement.html">Başladığımız günden</a> 9&nbsp;ay sonra ulaştığımız nokta:',
-        'people' => '<a href="/wiki/doku.php?id#teams">10+ ekipte</a> bulunan <a href="/tr/contribute/">100+&nbsp;katkıcı</a>.
+        'people' => '<a href="https://wiki.mageia.org/en/Contributing">10+ ekipte</a> bulunan <a href="/tr/contribute/">100+&nbsp;katkıcı</a>.
                         <a href="/tr/donate/">11.700+&nbsp;EUR</a> bağışlayan
                         <a href="/en/thank-you/">180+&nbsp;cömert bağışçı</a>;
                         ki bunun sadece <a href="/en/about/reports/2011/">4.700 EUR kadarı harcandı</a> 
@@ -604,7 +604,7 @@ $_t = array(
         'encourage_you' => 'Нам хочеться, що ви <a href="/uk/contribute/">стали частиною проекту</a>,
                         у вільний від роботи час або пов’язали вашу роботу з проектом.',
         '9_months' => 'За 9&nbsp;місяців з часу <a href="/uk/about/2010-sept-announcement.html">перших кроків</a> нам вдалося:',
-        'people' => 'Об’єднати <a href="/ru/contribute/">понад 100&nbsp;учасників</a> у <a href="/wiki/doku.php?id#teams">понад 10 команд</a>.
+        'people' => 'Об’єднати <a href="/ru/contribute/">понад 100&nbsp;учасників</a> у <a href="https://wiki.mageia.org/en/Contributing">понад 10 команд</a>.
                         Отримати підтримку <a href="/en/thank-you/">понад 180&nbsp;щедрих спонсорів</a>, якими пожертвувано понад
                         <a href="/uk/donate/">11.700&nbsp;євро</a>,
                         з яких витрачено лише <a href="/en/about/reports/2011/">4.700 євро</a>. Прогнозовані пожертви протягом 2011 року
@@ -639,7 +639,7 @@ $_t = array(
         'our_work' => '我們將多個 Linux 與自由軟體社群貢獻的成果加入。我們希望能帶給大家最好的，最穩定的，最可信賴的，並且是最愉快的經驗與平台，不管是對一般使用者，開發者或是商業用途。',
         'encourage_you' => '我們也鼓勵各位在您的空閒時刻<a href="/zh-tw/contribute/">加入我們的行列</a>。',
         '9_months' => '從<a href="/zh-tw/about/2010-sept-announcement.html">開始</a>算起，九個月的時間我們達到了：',
-        'people' => '<a href="">超過 100 名以上的貢獻者</a>組成了<a href="/wiki/doku.php?id#teams">10 個以上的團隊</a>。
+        'people' => '<a href="">超過 100 名以上的貢獻者</a>組成了<a href="https://wiki.mageia.org/en/Contributing">10 個以上的團隊</a>。
                         <a href="/en/thank-you/">超過 180 筆以上的捐款</a>，共計超過了
                         <a href="/zh-tw/donate/">11,700 歐元。</a>
                         目前只花了<a href="/en/about/reports/">4,700 歐元</a>左右。預計在 2011 年會有超過 20,000 歐元的捐款。',
