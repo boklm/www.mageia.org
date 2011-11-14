@@ -47,7 +47,7 @@ $_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
 
                     <h2 id="pro"><?php echo $_t['h2_pro_support']; ?></h2>
                     <p><?php echo $_t['pro_1']; ?></p>
-                    <p><?php echo sprintf($_t['pro_2'], '/wiki/doku.php?id=commercial_vendors'); ?></p>
+                    <p><?php echo sprintf($_t['pro_2'], 'https://wiki.mageia.org/en/Commercial_vendors'); ?></p>
                     <hr>
 
                     <h2 id="hw"><?php echo $_t['h2_hw_reqs']; ?></h2>
@@ -59,7 +59,7 @@ $_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
                     endforeach; ?></ul>
                     <p><?php echo $_t['hw_some_hardware']; ?></p>
 
-                    <p class="dlinfo"><?php echo sprintf($_t['hw_hcl_note'], '/wiki/doku.php?id=web', '/wiki/doku.php?id=qateam'); ?></p>
+                    <p class="dlinfo"><?php echo sprintf($_t['hw_hcl_note'], 'https://wiki.mageia.org/en/Web_team', 'https://wiki.mageia.org/en/QA_Team'); ?></p>
                     <hr>
                 </div>
             </div>
