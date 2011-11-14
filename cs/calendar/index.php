@@ -67,14 +67,14 @@
 
                 <div class="para">
                     <p>Tento kalendář ukazuje všechny události Mageii,
-                        <a href="http://mageia.org/wiki/doku.php?id=meetings">setkání týmů</a>,
+                        <a href="https://wiki.mageia.org/en/meetings">setkání týmů</a>,
                         milníky ve vývojovém plánu
                         a možná i další zajímavosti.</p>
                     <p>Je veřejný a pro čtení přístupný všem, ovšem pouze členové vedení projektu Mageia a vedoucí týmů
                         do něj mohou zapisovat.</p>
                     <p>Budete-li nám chtít předat jakoukoli poznámku, dodatek, změnu v kalendáři, spojte se s námi přes:</p>
                     <ul>
-                        <li>svého <a href="http://mageia.org/wiki/">týmového</a> vedoucího nebo představitele,</li>
+                        <li>svého <a href="https://wiki.mageia.org/">týmového</a> vedoucího nebo představitele,</li>
                         <li><a href="irc://irc.freenode.net/#mageia-dev">IRC kanál #mageia-dev</a> na serveru Freenode,</li>
                         <li>jako poslední možnost uvádíme i email <a href="mailto:mageia-contact@mageia.org">mageia-contact@mageia.org</a>.</li>
                     </ul>
