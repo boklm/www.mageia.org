@@ -29,7 +29,7 @@
                 </ul>
                 <h2>Learn more about Mageia</h2>
                 <ul>
-                    <li><a href="2010-sept-announcement.html">Original announcement in Sept. 2010</a></li>
+                    <li><a href="2010-sept-announcement.html">Original announcement in Sept. 2010</a>, <a href="founders.html">founders</a></li>
                     <li><a href="https://wiki.mageia.org/en/Org">Governance</a></li>
                     <li><a href="./values/">Values</a></li>
                     <li><a href="./code-of-conduct/">Code of conduct</a></li>
