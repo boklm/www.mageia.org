@@ -22,7 +22,7 @@ $_t = array(
         'h2_role' => 'Roles',
         'h3_support' => 'Helping users &amp; advocating the project',
         'text_support' => 'Want to welcome and help new users or share tips with experienced ones?
-                                In <a href="/wiki/doku.php?id=irc">IRC channels</a>,
+                                In <a href="https://wiki.mageia.org/en/IRC">IRC channels</a>,
                                 <a href="http://forums.mageia.org/">forums</a>,
                                 <a href="http://mageia.org/mailman/">mailing-lists</a>,
                                 local events? Just get in touch with us via one of these channels and share the fun!',
@@ -31,17 +31,17 @@ $_t = array(
                                 You like to take the challenge of explaining clearly
                                 complex ideas or systems and teaching others?
                                 You know how to mix form &amp; content to push the right message?
-                                Get in touch with our <a href="/wiki/doku.php?id=documentation">Documentation team</a>!',
+                                Get in touch with our <a href="https://wiki.mageia.org/en/Documentation_team">Documentation team</a>!',
         'h3_i18n' => 'Translating',
         'text_i18n' => 'Mageia is localized in more than 180 languages!
                                 Clarifying, completing, improving
                                 translations of software, guides, tutorials, Web sites, marketing material,
                                 etc. happens thanks to the effort of so many contributors.
-                                Join <a href="/wiki/doku.php?id=translators">them</a>!',
+                                Join <a href="https://wiki.mageia.org/en/Internationalisation_Team_(i18n)">them</a>!',
         'h3_triage' => 'Triaging',
         'text_triage' => 'Bugs happen! And some get reported. So, logically they need to be triaged
                                 to make the task of the packagers/developers fixing them easier: validation (is the bug reproducible?), collecting the needed debugging info from the reporter, assigning the report properly.
-                                <a href="/wiki/doku.php?id=triage">Grow the Triage team</a> and be the link between users who report bugs
+                                <a href="https://wiki.mageia.org/en/Bug_Squad">Grow the Triage team</a> and be the link between users who report bugs
                                 in the forums or mailing-lists, and the <a href="http://bugs.mageia.org/">Mageia Bugzilla</a>
                                 used by developers.',
         'h3_qa' => 'Testing &amp; <abbr title="Quality Assurance">QA</abbr>',
@@ -137,7 +137,7 @@ $_t = array(
         'h2_role' => 'Úlohy',
         'h3_support' => 'Pomoc uživatelům a vysvětlování projektu',
         'text_support' => 'Chcete přátelsky vítat nové uživatele a pomáhat jim nebo vyměňovat rady se zkušenými?
-                                V <a href="/wiki/doku.php?id=irc">IRC kanálech</a>,
+                                V <a href="https://wiki.mageia.org/en/IRC">IRC kanálech</a>,
                                 <a href="http://forums.mageia.org/">na fórech</a>,
                                 <a href="http://mageia.org/mailman/">mailing listech</a>,
                                 a při místních událostech? Jednoduše se s námi spojte pomocí některého z těchto kanálů a začněte se účastnit na naší práci!',
@@ -145,17 +145,17 @@ $_t = array(
         'text_docu' => 'Nacházíte zalíbení v praktickém, jasně srozumitelném, přesném a dobře napsaném textu?
                                 Rádi se zúčastňujete na dobrodružství spojeném se srozumitelným vysvětlováním složitých myšlenek a technických systémů a učení druhých?
                                 Víte, jak smysluplně představit podobu a obsah, aby se jasně předala správná výpověď?
-                                Potom se spojte s naším <a href="/wiki/doku.php?id=documentation">dokumentačním týmem</a>!',
+                                Potom se spojte s naším <a href="https://wiki.mageia.org/en/Documentation_team">dokumentačním týmem</a>!',
         'h3_i18n' => 'Překládání',
         'text_i18n' => 'Mageia je přeložena do více než 180 jazyků!
                                 Zlepšování a zdokonalování překladů programů,
                                 příruček, návodů, internetových stránek, reklamních materiálů atd.,
                                 se děje díky úsilí mnoha dobrovolných přispěvatelů.
-                                Připojte se <a href="/wiki/doku.php?id=translators">k nim</a>!',
+                                Připojte se <a href="https://wiki.mageia.org/en/Internationalisation_Team_(i18n)">k nim</a>!',
         'h3_triage' => 'Třídění chyb',
         'text_triage' => 'Chyby se stávají! A některé z nich bývají nahlášeny. Takže logicky je potřeba je rozdělovat do skupin,
                                 aby se tvůrcům balíčků/vývojářům usnadnilo jejich opravování: ověřování (je chyba zopakovatelná?), sběr nezbytných informací o chybě od ohlašovatele, správné přiřazení hlášení o chybě.
-                                <a href="/wiki/doku.php?id=triage">Zvětšete Triage tým</a> a buďte pojítkem mezi uživateli, kteří chyby hlásí ve fórech
+                                <a href="https://wiki.mageia.org/en/Bug_Squad">Zvětšete Triage tým</a> a buďte pojítkem mezi uživateli, kteří chyby hlásí ve fórech
                                 nebo v poštovních seznamech, a <a href="http://bugs.mageia.org/">Bugzillou pro Mageiu</a>
                                 používanou vývojáři.',
         'h3_qa' => 'Zkoušení a <abbr title="Quality Assurance">zajišťování kvality (QA)</abbr>',
@@ -246,7 +246,7 @@ $_t = array(
                 'h3_support' => 'Den Benutzern helfen und das Projekt fördern',
                 'text_support' => 'Sie wollen neue Benutzer freundlich begrüßen und Ihnen helfen oder Tipps mit erfahrenen
                         Benutzers austauschen?
-                        In den <a href="/wiki/doku.php?id=irc">IRC-Kanälen</a>,
+                        In den <a href="https://wiki.mageia.org/en/IRC">IRC-Kanälen</a>,
                         <a href="http://forums.mageia.org/">Foren</a>,
                         <a href="http://mageia.org/mailman/">Mailinglisten</a>,
                         und bei regionalen Veranstaltungen? Nehmen Sie einfach über eine dieser Plattformen Kontakt
@@ -258,19 +258,19 @@ $_t = array(
                         erklären und anderen etwas nahe zu bringen?
                         Sie wissen, wie man Form und Inhalt sinnvoll darstellt, um die richtige Aussage klar
                         darzustellen?
-                        Dann nehmen Sie Kontakt mit unserem  <a href="/wiki/doku.php?id=documentation">Dokumentationsteam
+                        Dann nehmen Sie Kontakt mit unserem  <a href="https://wiki.mageia.org/en/Documentation_team">Dokumentationsteam
                         </a> auf.',
                 'h3_i18n' => 'Übersetzen',
                 'text_i18n' => 'Mageia ist in mehr als 180 Sprachen übersetzt. Verbesserungen und Vervollständigungen
                         der Übersetzungen der Software, Handbücher, Erklärungen, Webseiten, des Werbematerials usw. geschehen
                         dank der Anstrengungen vieler freiwilliger Mitarbeiter.
-                        Werden Sie <a href="/wiki/doku.php?id=translators">Teil dieser Gruppe</a>!',
+                        Werden Sie <a href="https://wiki.mageia.org/en/Internationalisation_Team_(i18n)">Teil dieser Gruppe</a>!',
                 'h3_triage' => 'Fehler-Sichtung (Triaging)',
                 'text_triage' => 'Fehler passieren! Und einige davon werden gemeldet. Logischerweise müssen sie kategorisiert
                         werden, um die Fehlerbehebung für die Packager / Entwickler zu vereinfachen: 
                         Verifizierung (ist der Fehler reproduzierbar?), Sammeln der benötigten Debug-Informationen vom
                         "Fehlermelder" (Reporter), korrekte Zuweisung der Fehlermeldung.
-                        <a href="/wiki/doku.php?id=triage">Vergrößern Sie das Triage-Team</a> und bilden Sie die Verbingung
+                        <a href="https://wiki.mageia.org/en/Bug_Squad">Vergrößern Sie das Triage-Team</a> und bilden Sie die Verbingung
                         zwischen den Anwendern, die Fehler in den Foren oder Mailinglisten melden und dem
                         <a href="http://bugs.mageia.org/">Mageia Bugzilla</a>
                         der von den Entwicklern benutzt wird. ',
@@ -370,7 +370,7 @@ $_t = array(
         'h2_role' => 'Roles',
         'h3_support' => 'Ayudando usuarios &amp; Promoviendo el proyecto',
         'text_support' => '¿Quieres darle la bienvenida a los usuarios y ayudar a los nuevos usuarios o compartir trucos con usuarios expertos?
-                                ¿En los <a href="/wiki/doku.php?id=irc">canales IRC</a>,
+                                ¿En los <a href="https://wiki.mageia.org/en/IRC">canales IRC</a>,
                                 <a href="http://forums.mageia.org/">Foros</a>,
                                 <a href="http://mageia.org/mailman/">listas de correo</a>,
                                 eventos locales? ¡Ponte en contacto con nosotros vía estos medios de comunicación y comparte la diversión!',
@@ -379,17 +379,17 @@ $_t = array(
                                 ¿Te gusta aceptar el reto de explicar claramente
                                 ideas complejas o sistemas y enseñar a otros?,
                                 ¿Sabes cómo mezclar forma y contenido para explicar el mensaje correcto?
-                                ¡Ponte en contacto con nuestro <a href="/wiki/doku.php?id=documentation">equipo de documentación</a>!',
+                                ¡Ponte en contacto con nuestro <a href="https://wiki.mageia.org/en/Documentation_team">equipo de documentación</a>!',
         'h3_i18n' => 'Traducción',
         'text_i18n' => '¡Mageia está disponible en más de 180 idiomas!
                                 Aclarando, complementando, mejorando
                                 traducciones de software, guías, tutoriales, sitios web, material de mercadotecnia,
                                 etc. agradeciendo el esfuerzo de muchos contribuidores.
-                                ¡<a href="/wiki/doku.php?id=translators">Únete a ellos</a>!',
+                                ¡<a href="https://wiki.mageia.org/en/Internationalisation_Team_(i18n)">Únete a ellos</a>!',
         'h3_triage' => 'Triage',
         'text_triage' => 'Los bugs son inevitables. Y algunos incluso se dan a conocer. Lógicamente, se deben verificar
                                 para facilitar a los empaquetadores/desarrolladores el arreglarlos más facilmente: Validación(¿El error es reproducible?), recolectar la información necesaria para la depuración, asignarlos y procesarlos adecuadamente.
-                                <a href="/wiki/doku.php?id=triage">Únete al equipo de triage</a> y sé el enlace entre usuarios que reportan bugs
+                                <a href="https://wiki.mageia.org/en/Bug_Squad">Únete al equipo de triage</a> y sé el enlace entre usuarios que reportan bugs
                                 en los foros o listas de correo, y el <a href="http://bugs.mageia.org/">Bugzilla de Mageia</a>
                                 usado por los desarrolladores.',
         'h3_qa' => 'Pruebas &amp; <abbr title="Quality Assurance">QA</abbr>',
@@ -483,7 +483,7 @@ $_t = array(
         'h2_role' => 'Tegevused',
         'h3_support' => 'Kasutajate aitamine ja Mageia propageerimine',
         'text_support' => 'Soovite aidata uustulnukaid või jagada nõuandeid ka kogenud kasutajatele?
-                                Ja seda <a href="/wiki/doku.php?id=irc">IRC kanalite</a>,
+                                Ja seda <a href="https://wiki.mageia.org/en/IRC">IRC kanalite</a>,
                                 <a href="http://forums.mageia.org/">foorumite</a>,
                                 <a href="http://mageia.org/mailman/">postiloendite</a> või
                                 kohalike sündmuste kaudu? Võtke lihtsalt meiega mõnel mainitud kanalil ühendust ja asume üheskoos lõbusalt tegutsema!',
@@ -492,16 +492,16 @@ $_t = array(
                                 Soovite proovida, kuidas õieti käib päris raskete ja keeruliste
                                 ideede või süsteemide seletamine teistele ning nende harimine?
                                 Teate, kuidas panna kokku vorm ja sisu nii, et tekiks just õigesti mõjuv sõnum?
-                                Siis võtke ühendust meie <a href="/wiki/doku.php?id=documentation">dokumentatsioonimeeskonnaga</a>!',
+                                Siis võtke ühendust meie <a href="https://wiki.mageia.org/en/Documentation_team">dokumentatsioonimeeskonnaga</a>!',
         'h3_i18n' => 'Tõlkimine',
         'text_i18n' => 'Mageia on tõlgitud enam kui 180 keelde!
                                 Tarkvara, juhendite, õppematerjalide, veebilehekülgede, turundusmaterjalide jms
                                 täpsustamine, täiendamine ja parandamine saab teoks ainult paljude kaastööliste abiga.
-                                Ühinege <a href="/wiki/doku.php?id=translators">nendega</a>!',
+                                Ühinege <a href="https://wiki.mageia.org/en/Internationalisation_Team_(i18n)">nendega</a>!',
         'h3_triage' => 'Vigade sõelumine',
         'text_triage' => 'Vigu tuleb ikka ette. Ja mõnest antakse isegi teada! Niisiis on vaja neid ka sõeluda,
                                 et pakendajate või arendajate elu lihtsamaks teha: kontrollida veateate paikapidavust (kas seda saab korrata?), koguda teadaandjalt vajalik silumisteave, omistada veateate lahendamine õigele isikule.
-                                <a href="/wiki/doku.php?id=triage">Täiendage sõelumismeeskonda</a> ning saage lüliks kasutajate vahel, kes annavad vigadest teada foorumites
+                                <a href="https://wiki.mageia.org/en/Bug_Squad">Täiendage sõelumismeeskonda</a> ning saage lüliks kasutajate vahel, kes annavad vigadest teada foorumites
                                 või postiloendites, ning <a href="http://bugs.mageia.org/">Mageia Bugzilla</a>
                                 vahel, mida kasutavad arendajad.',
         'h3_qa' => 'Testimine ja kvaliteedikontroll',
@@ -597,7 +597,7 @@ $_t = array(
         'h3_support' => 'Aide aux utilisateurs et support du projet',
         'text_support' => 'Vous souhaitez accueillir et aider les nouveaux utilisateurs ou bien
                                 partager des astuces avec les plus expérimentés ?
-                                Sur <a href="/wiki/doku.php?id=irc">les canaux IRC</a>,
+                                Sur <a href="https://wiki.mageia.org/en/IRC">les canaux IRC</a>,
                                 <a href="https://forums.mageia.org/fr/">les forums</a>, les
                                 <a href="http://mageia.org/mailman/">listes de discussion</a>, ou les
                                 manifestations locales ? Gardez simplement le contact avec nous via
@@ -608,19 +608,19 @@ $_t = array(
                                 des idées ou des systèmes complexes et à enseigner aux autres ?
                                 Vous savez comment allier la forme et le contenu pour faire
                                 passer le bon message?
-                                Prenez contact avec notre <a  href="/wiki/doku.php?id=documentation">équipe de Documentation</a> !',
+                                Prenez contact avec notre <a  href="https://wiki.mageia.org/en/Documentation_team">équipe de Documentation</a> !',
         'h3_i18n' => 'Traduction',
         'text_i18n' => 'Mageia est traduite en plus de 180 langues !
                                 La clarification, l\'apport de compléments et l\'amélioration 
                                 des traductions de logiciels, de guides, de tutoriels, de sites Web, 
                                 documents de promotion, etc. sont possibles grâce à l\'effort de nombreux contributeurs.
-                                Rejoignez <a href="/wiki/doku.php?id=translators">les</a> !',
+                                Rejoignez <a href="https://wiki.mageia.org/en/Internationalisation_Team_(i18n)">les</a> !',
         'h3_triage' => 'Triage des bogues',
         'text_triage' => 'Des bogues se produisent ! Et certains sont rapportés. Ils doivent donc,
                                en toute logique, être triés pour faciliter la tâche des packagers/développeurs chargés de les
                                résoudre : validation (le bogue est-il reproductible ?), collecte des infos
                                de débogage auprès du rapporteur, remise du rapport à la bonne personne.
-                               <a href="/wiki/doku.php?id=triage">Rejoignez l\'équipe de triage</a> 
+                               <a href="https://wiki.mageia.org/en/Bug_Squad">Rejoignez l\'équipe de triage</a> 
                                et soyez le lien entre les utilisateurs qui rapportent des bogues
                                dans les forums ou les listes de discussion, et le <a href="http://bugs.mageia.org/">Bugzilla de Mageia</a>
                                utilisé par les développeurs.',
@@ -738,7 +738,7 @@ $_t = array(
         'h2_role' => 'Ruoli',
         'h3_support' => 'Aiutare gli utenti &amp; sostenere il progetto',
         'text_support' => 'Vuoi accogliere ed aiutare i nuovi utenti o condividere suggerimenti con utenti più esperti?
-                                Nei <a href="/wiki/doku.php?id=irc">canali IRC</a>,
+                                Nei <a href="https://wiki.mageia.org/en/IRC">canali IRC</a>,
                                 <a href="http://forums.mageia.org/">forums</a>,
                                 <a href="http://mageia.org/mailman/">liste di distribuzione</a>,
                                 eventi locali? Basta entrare in contatto con noi attraveso uno di questi canali e condividere il divertimento!',
@@ -747,17 +747,17 @@ $_t = array(
                                 Ti piace raccogliere le sfide di spiegare con chiarezza
                                 idee complesse o sistemi e insegnare ad altri?
                                 Sai come combinare forma &amp; contenuto per inviare il giusto messaggio?
-                                Mettiti in contatto con la nostra <a href="/wiki/doku.php?id=documentation">squadra Documentazione</a>!',
+                                Mettiti in contatto con la nostra <a href="https://wiki.mageia.org/en/Documentation_team">squadra Documentazione</a>!',
         'h3_i18n' => 'Tradurre',
         'text_i18n' => 'Mageia è tradotta in più di 180 lingue!
                                 Chiarimenti, aggiustamenti, migliorie
                                 traduzioni del software, guide, tutorial, siti web, materiale commerciale,
                                 ecc. sono resi possibili grazie allo sforzo di tanti collaboratori.
-                                Unisciti a <a href="/wiki/doku.php?id=translators">loro</a>!',
+                                Unisciti a <a href="https://wiki.mageia.org/en/Internationalisation_Team_(i18n)">loro</a>!',
         'h3_triage' => 'Triage',
         'text_triage' => 'Gli errori capitano! E alcuni vengono segnalati. Quindi, logicamente, questi hanno bisogno di essere analizzati
                                 per rendere il compito di risolverli più semplice ai creatori di pacchetti/sviluppatori: validazione (l\'errore è riproducibile?), raccogliere le informazioni di debug da chi li ha notificati, assegnando la segnalazione in modo appropriato.
-                                <a href="/wiki/doku.php?id=triage">Fai crescere la squadra Triage</a> e diventa il collegamento tra gli utenti che segnalano i problemi
+                                <a href="https://wiki.mageia.org/en/Bug_Squad">Fai crescere la squadra Triage</a> e diventa il collegamento tra gli utenti che segnalano i problemi
                                 nei forum o nelle liste di distribuzione e il <a href="http://bugs.mageia.org/">Mageia Bugzilla</a>
                                 utilizzato dagli sviluppatori.',
         'h3_qa' => 'Collaudare &amp; <abbr title="Quality Assurance">QA</abbr>',
@@ -851,7 +851,7 @@ $_t = array(
         'h2_role' => 'Roller',
         'h3_support' => 'Hjelpe brukere &amp; fremme prosjektet',
         'text_support' => 'Vil du velkomme og hjelpe nye brukere, eller dele tips med erfarne?
-                I <a href="/wiki/doku.php?id=irc">IRC-kanaler</a>,
+                I <a href="https://wiki.mageia.org/en/IRC">IRC-kanaler</a>,
                                 <a href="http://forums.mageia.org/">fora</a>,
                                 <a href="http://mageia.org/mailman/">e-postlister</a>, eller på
                                 regionale begivenheter? Ta kontakt med oss via en av disse kanalene og del moroa!',
@@ -859,17 +859,17 @@ $_t = array(
         'text_docu' => 'Har du evnen til å skrive praktisk, klart, konsist og å finlese?
                 Liker du å forklare komplekse ideer eller systemer og undervise andre?
                                 Har du evnen til å formulere &amp; innhold slik at budskapet kommer fram?
-                                Kom i kontakt med vårt <a href="/wiki/doku.php?id=documentation">dokumentasjonslag</a>!',
+                                Kom i kontakt med vårt <a href="https://wiki.mageia.org/en/Documentation_team">dokumentasjonslag</a>!',
         'h3_i18n' => 'Oversetting',
         'text_i18n' => 'Mageia er oversatt til mer enn 180 språk!
                 Takket være de mange oversetterne som klargjør, fullfører og forbedrer
                 oversettelsene av programvare, programvareveiledninger, nettsteder og markedsføringsmateriell,
                 finnes Mageia i en rekke språkdrakter. 
-                Bli <a href="/wiki/doku.php?id=translators">medlem</a> i dag.',
+                Bli <a href="https://wiki.mageia.org/en/Internationalisation_Team_(i18n)">medlem</a> i dag.',
         'h3_triage' => 'Klassifisering av feilrapporter',
         'text_triage' => 'Feil oppstår og noen blir rapportert. Disse feilene må klassiferes og sorteres for å gjøre
                                  det lettere for pakkere/utviklere å rette dem. Du kan bli 
-                                <a href="/wiki/doku.php?id=triage">bindeleddet</a> mellom brukerne som rapporter feil
+                                <a href="https://wiki.mageia.org/en/Bug_Squad">bindeleddet</a> mellom brukerne som rapporter feil
                                 i foraene eller på e-postlistene, og <a href="http://bugs.mageia.org/">Mageia Bugzilla</a>
                                 brukt av utviklerne.',
         'h3_qa' => 'Testing &amp; <abbr title="Quality Assurance">kvalitetssikring</abbr>',
@@ -958,7 +958,7 @@ $_t = array(
         'h2_role' => 'Taken',
         'h3_support' => 'Het helpen van gebruikers &amp; promotiewerk voor het project doen',
         'text_support' => 'Wilt u nieuwe gebruikers welkom heten en hun helpen, of tips delen met al gevorderde gebruikers?
-                                Op <a href="/wiki/doku.php?id=irc">IRC-kanalen</a>,
+                                Op <a href="https://wiki.mageia.org/en/IRC">IRC-kanalen</a>,
                                 <a href="http://forums.mageia.org/">fora</a>,
                                 <a href="http://mageia.org/mailman/">mailing-lijsten</a>,
                                 lokale evenementen? Neem gewoon contact met ons op via een van deze kanalen en doe mee!',
@@ -966,19 +966,19 @@ $_t = array(
         'text_docu' => 'Bent u in staat om praktische, duidelijke, beknopte en makkelijk te lezen teksten te schrijven of te controleren?
                                 Spreekt de uitdaging om op een duidelijke manier complexe ideeën of systemen aan anderen uit te leggen u aan?
                                 En weet u vorm en inhoud zo aan te wenden om de juiste boodschap over te brengen?
-                                Neemt u dan contact op met ons <a href="/wiki/doku.php?id=documentation">Documentatie team</a>!',
+                                Neemt u dan contact op met ons <a href="https://wiki.mageia.org/en/Documentation_team">Documentatie team</a>!',
         'h3_i18n' => 'Vertalen',
         'text_i18n' => 'Mageia is (ten dele) beschikbaar in meer dan 180 talen!
                                 Het verduidelijken, completeren, en verbeteren van vertalingen voor
                                 software, gidsen, handleidingen, web-sites, promotiematerialen,
                                 enz. gebeurt door de inspanningen van vele vrijwilligers.
-                                Doe met <a href="/wiki/doku.php?id=translators">hen</a> mee!',
+                                Doe met <a href="https://wiki.mageia.org/en/Internationalisation_Team_(i18n)">hen</a> mee!',
         'h3_triage' => 'Fout-schifting',
         'text_triage' => 'Progammafouten komen helaas voor! En soms worden ze door onze gebruikers nog gerapporteerd ook! Gezien het aantal foutrapportages welke wij ontvangen
                 moet er een eerste schifting plaatsvinden zodat het voor de packagers en ontwikkelaars makkelijker wordt om deze fouten op te lossen.
                 Bij deze eerste schifting worden een aantal stappen gedaan: validatie (kan het probleem gereproduceerd worden?), het verzamelen van benodige debug-informatie
                 van degene die de fout heeft gerapporteerd, en uiteindelijk er zorg voor dragen dat het foutrapport aan de juiste partij wordt toegewezen.
-                <a href="/wiki/doku.php?id=triage">Doe mee met het schiftingsteam (triage)</a> en wordt de link tussen de gebruikers die fouten rapporteren 
+                <a href="https://wiki.mageia.org/en/Bug_Squad">Doe mee met het schiftingsteam (triage)</a> en wordt de link tussen de gebruikers die fouten rapporteren 
                 in de fora of mailing-lijsten en het <a href="http://bugs.mageia.org/">Mageia Bugzilla-systeem</a>
                                 gebruikt door de ontwikkelaars.',
         'h3_qa' => 'Testen &amp; <abbr title="Quality Assurance">kwaliteitscontrole</abbr>',
@@ -1067,7 +1067,7 @@ $_t = array(
         'h2_role' => 'Actividades',
         'h3_support' => 'Ajudar os utilizadores a defender o projecto',
         'text_support' => 'Quer saudar e ajudar novos utilizadores ou partilhar dicas com utilizadores avançados?
-                                Em <a href="/wiki/doku.php?id=irc">canais IRC</a>,
+                                Em <a href="https://wiki.mageia.org/en/IRC">canais IRC</a>,
                                 <a href="http://forums.mageia.org/">fóruns</a>,
                                 <a href="http://mageia.org/mailman/">listas de correio</a>,
                                 eventos locais? Entre em contacto connosco através de um destes canais e partilhe!',
@@ -1076,18 +1076,18 @@ $_t = array(
                                 Gosta de assumir o desafio de explicar de forma clara
                                 ideias complexas ou sistemas e de ensinar outros?
                                 Sabe como misturar a forma do conteúdo para escrever uma mensagem correcta?
-                                Entre em contacto com a nossa <a href="/wiki/doku.php?id=documentation">Equipa de Documentação</a>!',
+                                Entre em contacto com a nossa <a href="https://wiki.mageia.org/en/Documentation_team">Equipa de Documentação</a>!',
         'h3_i18n' => 'Traduzir',
         'text_i18n' => 'A Mageia está traduzida em mais de 180 línguas!
                                 A clarificação, completação, melhoramento
                                 das traduções de programas, guias, tutoriais, sítios Web, material de mercado (marketing), etc.
                                 Acontece tudo graças aos esforços de muitos contribuidores.
-                                Junte-se à <a href="/wiki/doku.php?id=translators">Equipa de Tradução</a>!',
+                                Junte-se à <a href="https://wiki.mageia.org/en/Internationalisation_Team_(i18n)">Equipa de Tradução</a>!',
         'h3_triage' => 'Triagem',
         'text_triage' => 'Os erros acontecem! E alguns são reportados. Como tal, os erros precisam de ser triados
                                 para tornar a tarefa dos empacotadores/desenvolvedores mais fácil: validação (o erro reprodutível?),
                                 reunir os dados de depuração necessários do reportador, e atribuir o relatório apropriadamente.
-                                <a href="/wiki/doku.php?id=triage">A equipa de Triagem</a> é o elo de ligação entre os utilizadores
+                                <a href="https://wiki.mageia.org/en/Bug_Squad">A equipa de Triagem</a> é o elo de ligação entre os utilizadores
                                 que reportam erros nos fóruns ou nas listas de correio, e a
                                 <a href="http://bugs.mageia.org/">Bugzilla da Mageia</a> usada pelos desenvolvedores.',
         'h3_qa' => 'Testar e <abbr title="Garantia de Qualidade">QA</abbr>',
@@ -1186,7 +1186,7 @@ $_t = array(
         'h2_role' => 'Actividades',
         'h3_support' => 'Ajudar os utilizadores a defender o projecto',
         'text_support' => 'Quer saudar e ajudar novos utilizadores ou partilhar dicas com utilizadores avançados?
-                                Em <a href="/wiki/doku.php?id=irc">canais IRC</a>,
+                                Em <a href="https://wiki.mageia.org/en/IRC">canais IRC</a>,
                                 <a href="http://forums.mageia.org/">fóruns</a>,
                                 <a href="http://mageia.org/mailman/">listas de correio</a>,
                                 eventos locais? Entre em contacto connosco através de um destes canais e partilhe!',
@@ -1195,18 +1195,18 @@ $_t = array(
                                 gosta de assumir o desafio de explicar de forma clara
                                 ideias complexas ou sistemas e ensinar outros?
                                 Sabe como misturar o a forma do conteúdo para escrever a mensagem certa?
-                                Entre em contacto com a nossa <a href="/wiki/doku.php?id=documentation">equipa de Documentação</a>!',
+                                Entre em contacto com a nossa <a href="https://wiki.mageia.org/en/Documentation_team">equipa de Documentação</a>!',
         'h3_i18n' => 'Traduzir',
         'text_i18n' => 'A Mageia está traduzida mais de 180 línguas!
                                 A clarificação, completação, melhoramento
                                 as traduções de programas, guias, tutoriais, sítios Web, material de mercadologia (marketing),
                                 etc. acontece graças aos esforços de muitos contribuidores.
-                                Junte-se à <a href="/wiki/doku.php?id=translators">equipa de tradução</a>!',
+                                Junte-se à <a href="https://wiki.mageia.org/en/Internationalisation_Team_(i18n)">equipa de tradução</a>!',
         'h3_triage' => 'Triagem',
         'text_triage' => 'Os erros acontecem! E alguns são reportados. Como tal, os erros precisam de ser triados
                                 para tornar a tarefa dos empacotadores/desenvolvedores mais fácil: validação (é o erro reprodutível?),
                                 reunião de dados de depuração necessários do reportador, e atribuir o relatório apropriadamente.
-                                <a href="/wiki/doku.php?id=triage">A equipa de Triagem cresce</a> e a ligação entre os utilizadores que reportam erros
+                                <a href="https://wiki.mageia.org/en/Bug_Squad">A equipa de Triagem cresce</a> e a ligação entre os utilizadores que reportam erros
                                 nos fóruns e listas de correio, e a the <a href="http://bugs.mageia.org/">Bugzilla da Mageia</a>
                                 usada pelos desenvolvedores.',
         'h3_qa' => 'Testar e <abbr title="Garantia de Qualidade">QA</abbr>',
@@ -1301,7 +1301,7 @@ $_t = array(
         'h2_role' => 'Roluri',
         'h3_support' => 'Ajutarea utilizatorilor și promovarea proiectului',
         'text_support' => 'Doriți să întîmpinați și să ajutați utilizatorii noi sau să partajați sfaturi cu cei experimentați?
-                                Pe <a href="/wiki/doku.php?id=irc">canalele IRC</a>,
+                                Pe <a href="https://wiki.mageia.org/en/IRC">canalele IRC</a>,
                                 <a href="http://forums.mageia.org/">forumuri</a>,
                                 <a href="http://mageia.org/mailman/">listele de difuziune</a>,
                                 evenimente locale? Trebuie doar să ne contactați pe unul din aceste canale și să partajați distracția!',
@@ -1310,18 +1310,18 @@ $_t = array(
                                 Vă atrage provocarea de a-i învăța pe ceilalți sau de a
                                 explica în mod clar sisteme sau idei complexe?
                                 Știți cum să sintetizați și să extrageți mesajul corespunzător?
-                                Atunci luați contact cu <a href="/wiki/doku.php?id=documentation">echipa noastră de documentație</a>!',
+                                Atunci luați contact cu <a href="https://wiki.mageia.org/en/Documentation_team">echipa noastră de documentație</a>!',
         'h3_i18n' => 'Traducere',
         'text_i18n' => 'Mageia este localizată în mai bine de 180 de limbi!
                                 Clarificarea, completarea, ameliorarea
                                 traducerilor aplicațiilor, ghidurilor, tutorialelor, siturilor Internet, materialului promoțional,
                                 etc. se întîmplă mulțumită efortului atîtor contribuitori.
-                                Alăturați-vă <a href="/wiki/doku.php?id=translators">lor</a>!',
+                                Alăturați-vă <a href="https://wiki.mageia.org/en/Internationalisation_Team_(i18n)">lor</a>!',
         'h3_triage' => 'Triere',
         'text_triage' => 'Erori există! Și unele sînt chiar raportate. Iar, în mod logic, acestea trebuiesc triate
                                 pentru a ușura munca de corectare a împachetatorilor/dezvoltatorilor: validare (eroarea este reproductibilă?),
                                 colectarea de la declarant a informației necesare pentru depanare, atribuirea corectă a raportului.
-                                <a href="/wiki/doku.php?id=triage">Contribuiți la echipa de triere</a> și faceți legătura între utilizatorii care au raportat erorile
+                                <a href="https://wiki.mageia.org/en/Bug_Squad">Contribuiți la echipa de triere</a> și faceți legătura între utilizatorii care au raportat erorile
                                 pe forumuri sau pe listele de discuții și <a href="http://bugs.mageia.org/">Mageia Bugzilla</a>
                                 utilizată de dezvoltatori.',
         'h3_qa' => 'Teste  și <abbr title="Quality Assurance">controlul calității</abbr>',
@@ -1414,7 +1414,7 @@ $_t = array(
         'h2_role' => 'Навички',
         'h3_support' => 'Допомога користувачам та інформаційна підтримка проекту',
         'text_support' => 'Бажаєте привітати і допомогти новим користувачам або поділитися корисними знаннями з досвідченими?
-                                Хочете спілкувати на <a href="/wiki/doku.php?id=irc">каналах IRC</a>,
+                                Хочете спілкувати на <a href="https://wiki.mageia.org/en/IRC">каналах IRC</a>,
                                 <a href="http://forums.mageia.org/">форумах</a>, у 
                                 <a href="http://mageia.org/mailman/">списках листування</a> або
                                 на місцевих зустрічах? Зв’яжіться з нами одним з вказаних вище способів і починайте роботу!',
@@ -1423,18 +1423,18 @@ $_t = array(
                                 Подобається це непросте мистецтво пояснювати складні ідеї
                                 і системи та навчальний процес?
                                 Знаєте, як поєднати форму і вміст так, щоб досягти бажаного результату?
-                                Зв’яжіться з нашою <a href="/wiki/doku.php?id=documentation">командою з документування</a>!',
+                                Зв’яжіться з нашою <a href="https://wiki.mageia.org/en/Documentation_team">командою з документування</a>!',
         'h3_i18n' => 'Переклад',
         'text_i18n' => 'Існують переклади частин Mageia понад 180 мовами!
                                 Покращення, доповнення та удосконалення перекладів
                                 програмного забезпечення, довідників, настанов, вебсайтів, маркетинговго матеріалу
                                 тощо відбувається завдяки зусиллям багатьох людей.
-                                Долучайтеся до <a href="/wiki/doku.php?id=translators">команд перекладачів</a>!',
+                                Долучайтеся до <a href="https://wiki.mageia.org/en/Internationalisation_Team_(i18n)">команд перекладачів</a>!',
         'h3_triage' => 'Боротьба з вадами',
         'text_triage' => 'У програмах трапляються вади! Про деякі з них нам повідомляють. Отже, слід визначити
                                 причину вади, щоб пакувальникам або розробникам було простіше цю ваду виправити: підтвердження (визначення
                                 того, чи можна відтворити ваду), збирання потрібних діагностичних даних, належне адресування звіту щодо вади.
-                                <a href="/wiki/doku.php?id=triage">Долучіться до команди з боротьби з вадами</a>, станьте проміжною ланкою
+                                <a href="https://wiki.mageia.org/en/Bug_Squad">Долучіться до команди з боротьби з вадами</a>, станьте проміжною ланкою
                                 між користувачами, які повідомляють про вади на форумах чи у списках листування ьа
                                 <a href="http://bugs.mageia.org/">системою сповіщення про вади Mageia</a>, якою
                                 користуються розробники.',
@@ -1532,20 +1532,20 @@ $_t = array(
         'h2_role' => '角色',
         'h3_support' => '協助使用者與宣傳這個計畫',
         'text_support' => '想要歡迎並協助新的使用者或者是與其他人分享您的小技巧？
-            在 <a href="/wiki/doku.php?id=irc">IRC 頻道</a>,
+            在 <a href="https://wiki.mageia.org/en/IRC">IRC 頻道</a>,
             <a href="http://forums.mageia.org/">論壇</a>,
             <a href="http://mageia.org/mailman/">郵件清單</a>,
             當地活動？趕快透過上述的幾個管道與我們連絡，一起分享快樂！',
         'h3_docu' => '寫文章、文案與文件',
-        'text_docu' => '您喜歡簡潔、實用、好讀的文章嗎？您喜歡挑戰怎麼將複雜的想法或系統清楚地向其他人解釋並教學嗎？您知道怎麼結合表單格式與內容，將正確的資訊推行出去嗎？請與我們的<a href="/wiki/doku.php?id=documentation">文件小組</a>聯繫！',
+        'text_docu' => '您喜歡簡潔、實用、好讀的文章嗎？您喜歡挑戰怎麼將複雜的想法或系統清楚地向其他人解釋並教學嗎？您知道怎麼結合表單格式與內容，將正確的資訊推行出去嗎？請與我們的<a href="https://wiki.mageia.org/en/Documentation_team">文件小組</a>聯繫！',
 
         'h3_i18n' => '翻譯',
         'text_i18n' => 'Mageia 已經被翻譯超過 180 種語言了！
                                 整理、完成、改進軟體、指引、教學、網站、行銷文案的翻譯都已經有成果。感謝許多人的付出。
-                                現在就加入<a href="/wiki/doku.php?id=translators">他們的行列</a>吧！',
+                                現在就加入<a href="https://wiki.mageia.org/en/Internationalisation_Team_(i18n)">他們的行列</a>吧！',
         'h3_triage' => '分類',
         'text_triage' => '出現錯誤！其中有些被回報。因此，必然地它們需要被分類以便讓開發者與套件包裝者能較容易修正。是否能確認此問題（此問題能否被重現？），從回報者那裡收集必要的除錯資訊，指定給負責人等等。
-                                <a href="/wiki/doku.php?id=triage">請加入分類團隊</a>來做為在論壇上或郵件論壇中回報錯誤的使用者，與使用 <a href="http://bugs.mageia.org/">Mageia Bugzilla</a> 的開發者間的橋樑。',
+                                <a href="https://wiki.mageia.org/en/Bug_Squad">請加入分類團隊</a>來做為在論壇上或郵件論壇中回報錯誤的使用者，與使用 <a href="http://bugs.mageia.org/">Mageia Bugzilla</a> 的開發者間的橋樑。',
         'h3_qa' => '測試與品管',
         'text_qa' => '除非我們能確信軟體運作正確，不然不能隨便給使用者使用。
                                 <a href="/wiki/doku.php?id=qateam">測試與品管</a>
