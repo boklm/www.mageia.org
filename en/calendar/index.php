@@ -67,14 +67,14 @@
 
                 <div class="para">
                     <p>This calendar shows all Mageia events,
-                        <a href="http://mageia.org/wiki/doku.php?id=meetings">team meetings</a>,
+                        <a href="https://wiki.mageia.org/en/Meetings">team meetings</a>,
                         development planning milestones
                         and possibly more.</p>
                     <p>It is public and available to all. Only Mageia Board and Council members and team leaders
                         have a write access to it.</p>
                     <p>For any comment, addition, change to this calendar, feel free to contact us through:</p>
                     <ul>
-                        <li>your <a href="http://mageia.org/wiki/">team</a> leader or representative,</li>
+                        <li>your <a href="https://wiki.mageia.org/en/">team</a> leader or representative,</li>
                         <li><a href="irc://irc.freenode.net/#mageia-dev">#mageia-dev</a> on Freenode,</li>
                         <li><a href="mailto:mageia-contact@mageia.org">mageia-contact@mageia.org</a> in last resort.</li>
                     </ul>

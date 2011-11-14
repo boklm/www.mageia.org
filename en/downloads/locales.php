@@ -1078,7 +1078,7 @@ De remarcat că traducerile sînt în curs.',
         'dl_migrate_instead' => 'Mandriva Linux 2010.1 veya 2010.2
             kullanıyorsanız sisteminizi doğrudan <a href="/tr/1/migrate/">Mageia 1\' e yükseltebilirsiniz.</a></p>',
         'not_sure_what_iso' => 'Hangi ISO kalıbını indireceğinizden emin değil misiniz? Bu hala biraz karışık gelebilir; fakat
-            <a href="/wiki/doku.php?id=mageia_installation_media">farklı kurulum ortamlarımız hakkında 
+            <a href="https://wiki.mageia.org/en/Installation_Media">farklı kurulum ortamlarımız hakkında 
             açıklayıcı bilgiye bu yazıdan ulaşabilirsiniz</a>.'
     ),
     'uk' => array(
