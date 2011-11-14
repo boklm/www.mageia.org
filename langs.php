@@ -142,7 +142,7 @@ $nav_list = array(
         'ro' => 'Contribuiți',
         'tr' => 'Katkıda Bulunun'
     ),
-    '/wiki/' => 'Wiki',
+    'https://wiki.mageia.org/en/' => 'Wiki',
     'https://bugs.mageia.org/' => 'Bugzilla',
     /*
     '/en/calendar/' => array(
