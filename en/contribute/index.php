@@ -46,35 +46,35 @@ $_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
                             <p><?php echo $_t['text_support']; ?></p>
                         </li>
                         <li id="docu">
-                            <h3><a href="/wiki/doku.php?id=documentation"><?php echo $_t['h3_docu']; ?></a></h3>
+                            <h3><a href="https://wiki.mageia.org/en/Documentation_team"><?php echo $_t['h3_docu']; ?></a></h3>
                             <p><?php echo $_t['text_docu']; ?></p>
                         </li>
                         <li id="i18n">
-                            <h3><a href="/wiki/doku.php?id=translators"><?php echo $_t['h3_i18n']; ?></a></h3>
+                            <h3><a href="https://wiki.mageia.org/en/Internationalisation_Team_(i18n)"><?php echo $_t['h3_i18n']; ?></a></h3>
                             <p><?php echo $_t['text_i18n']; ?></p>
                         </li>
                         <li id="triage">
-                            <h3><a href="/wiki/doku.php?id=triage"><?php echo $_t['h3_triage']; ?></a></h3>
+                            <h3><a href="https://wiki.mageia.org/en/Bug_Squad"><?php echo $_t['h3_triage']; ?></a></h3>
                             <p><?php echo $_t['text_triage']; ?></p>
                         </li>
                         <li id="qa">
-                            <h3><a href="/wiki/doku.php?id=qateam"><?php echo $_t['h3_qa']; ?></a></h3>
+                            <h3><a href="https://wiki.mageia.org/en/QA_Team"><?php echo $_t['h3_qa']; ?></a></h3>
                             <p><?php echo $_t['text_qa']; ?></p>
                         </li>
                         <li id="marketing">
-                            <h3><a href="/wiki/doku.php?id=marketing"><?php echo $_t['h3_marketing']; ?></a></h3>
+                            <h3><a href="https://wiki.mageia.org/en/Marcom_Team"><?php echo $_t['h3_marketing']; ?></a></h3>
                             <p><?php echo $_t['text_marketing']; ?></p>
                         </li>
                         <li id="graphic">
-                            <h3><a href="/wiki/doku.php?id=designers"><?php echo $_t['h3_graphic']; ?></a></h3>
+                            <h3><a href="https://wiki.mageia.org/en/Artwork_team"><?php echo $_t['h3_graphic']; ?></a></h3>
                             <p><?php echo $_t['text_graphic']; ?></p>
                         </li>
                         <li id="dev">
-                            <h3><a href="/wiki/doku.php?id=packaging"><?php echo $_t['h3_dev']; ?></a></h3>
+                            <h3><a href="https://wiki.mageia.org/en/Packagers_Team"><?php echo $_t['h3_dev']; ?></a></h3>
                             <p><?php echo $_t['text_dev']; ?></p>
                         </li>
                         <li id="web">
-                            <h3><a href="/wiki/doku.php?id=web"><?php echo $_t['h3_web']; ?></a></h3>
+                            <h3><a href="https://wiki.mageia.org/en/Web_team"><?php echo $_t['h3_web']; ?></a></h3>
                             <p><?php echo $_t['text_web']; ?></p>
                         </li>
                         <li id="mirror">
