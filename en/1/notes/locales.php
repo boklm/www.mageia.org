@@ -195,7 +195,7 @@ $_t = array(
                             used to install Mageia on your HDD'),
         'text_available_media_2' => 'You will always find the download info on the <a href="http://mageia.org/downloads/">Mageia download page</a>;
                     direct (ftp and http) and BitTorrent downloads are available.
-                    For more information, have a look at the <a href="http://www.mageia.org/wiki/doku.php?id=mageia_installation_media">Mageia installation media page</a>.',
+                    For more information, have a look at the <a href="https://wiki.mageia.org/en/Installation_Media">Mageia installation media page</a>.',
         'h2_software_repos' => 'Software online repositories',
         'text_software_repos_1' => 'The packages in Mageia exist in three different repositories/media, depending on what license 
             each package uses.',
@@ -398,7 +398,7 @@ $_t = array(
                 'Live CD ISO，這是可以用於預覽這個套件的開機光碟，它也可以將 Mageia 安裝到您的硬碟中。'),
         'text_available_media_2' => '您可以在 <a href="http://mageia.org/zh-tw/downloads/">Mageia 下載頁面</a>直接透過 http 與 ftp 下載這些映像檔；
                     另外也提供 BitTorrent 的下載。
-                    您可以在 <a href="http://www.mageia.org/wiki/doku.php?id=mageia_installation_media">Mageia 安裝媒體</a>頁面中看到更多資訊。',
+                    您可以在 <a href="https://wiki.mageia.org/en/Installation_Media">Mageia 安裝媒體</a>頁面中看到更多資訊。',
         'h2_software_repos' => '線上軟體套件庫',
         'text_software_repos_1' => 'Mageia 依據每個套件使用的授權不同，將其存放於三種不同的套件庫。', 
         'text_software_repos_2' => '以下是這些套件庫的介紹：',
@@ -607,7 +607,7 @@ $_t = array(
                 'Live CD ISO, mida saab kasutada nii distributsioonist ülevaate saamiseks kui ka Mageia paigaldamiseks kõvakettale'),
         'text_available_media_2' => 'Allalaadimise kohta leiab alati rohkem teavet <a href="http://mageia.org/downloads/">Mageia allalaadimise leheküljelt</a>;
                     saadaval on otseallalaadimise võimalused (ftp ja http) ning BitTorrent.
-                    Rohkem teavet leiab <a href="http://www.mageia.org/wiki/doku.php?id=mageia_installation_media">Mageia paigaldusandmekandjate leheküljelt</a>.',
+                    Rohkem teavet leiab <a href="https://wiki.mageia.org/en/Installation_Media">Mageia paigaldusandmekandjate leheküljelt</a>.',
         'h2_software_repos' => 'Tarkvara võrguhoidlad',
         'text_software_repos_1' => 'Mageia tarkvarapaketid on jagatud kolme hoidla vahel vastavalt sellele, millist litsentsi konkreetsed paketid kasutavad.',
         'text_software_repos_2' => 'Hoidlad on järgmised:',
@@ -814,7 +814,7 @@ $_t = array(
                 'Live CD ISO, toto je živý ISO obraz, který se dá použít na náhled na  distribuci a lze jej taktéž použít pro instalaci Mageii na váš HDD'),
         'text_available_media_2' => 'Informace ke stahování naleznete vždy na <a href="http://mageia.org/downloads/">stránkách pro stažení Mageii</a>;
                     přímé stahování (ftp a http) a BitTorrent je dostupné.
-                    Více informací naleznete na <a href="http://www.mageia.org/wiki/doku.php?id=mageia_installation_media">stránkách k instalačním médiím pro Mageiu</a>.',
+                    Více informací naleznete na <a href="https://wiki.mageia.org/en/Installation_Media">stránkách k instalačním médiím pro Mageiu</a>.',
         'h2_software_repos' => 'Internetové repozitáře s programy',
         'text_software_repos_1' => 'Balíčky pro Mageiu jsou ve třech různých repozitářích/médiích, v závislosti na tom, jakou licenci 
             daný balíček používá.',
@@ -1026,7 +1026,7 @@ $_t = array(
                             uw harde schijf te installeren'),
         'text_available_media_2' => 'Informatie over het downloaden van Mageia kunt u te allen tijde vinden op de <a href="http://mageia.org/downloads/">Mageia downloadpagina</a>;
                     direkte (ftp en http) en BitTorrent-downloads zijn beschikbaar.
-                    Voor verdere informatie kijkt u op de <a href="http://www.mageia.org/wiki/doku.php?id=mageia_installation_media">Mageia installatiemedia pagina</a>.',
+                    Voor verdere informatie kijkt u op de <a href="https://wiki.mageia.org/en/Installation_Media">Mageia installatiemedia pagina</a>.',
         'h2_software_repos' => 'Software online repositories',
         'text_software_repos_1' => 'De pakketten die in Mageia beschikbaar zijn bevinden zich in drie verschillende repositories of media, afhankelijk 
             van de licentievoorwaarden van ieder pakket.',
@@ -1240,7 +1240,7 @@ $_t = array(
                 'Die Live-CD-ISO zum vorherigen Testen des Systems, kann aber auch auf die Festplatte installiert werden.'),
         'text_available_media_2' => 'Sie finden weitere Informationen über die Möglichkeiten, diese Medien herunterzuladen auf der <a href="http://mageia.org/downloads/">Mageia Download-Seite</a>;
                     es bestehen sowohl direkte Download-Möglichkeiten (via ftp und http) als auch Bittorrents.
-                    Für weitere Informationen beachten Sie bitte auch die <a href="http://www.mageia.org/wiki/doku.php?id=mageia_installation_media">Mageia-Installationsmedien-Seite</a>.',
+                    Für weitere Informationen beachten Sie bitte auch die <a href="https://wiki.mageia.org/en/Installation_Media">Mageia-Installationsmedien-Seite</a>.',
         'h2_software_repos' => 'Online Software-Quellen',
         'text_software_repos_1' => 'Die Pakete in Mageia befinden in 3 verschiedenen Paketquellen (Repositories, Medien), abhängig von der jeweiligen Lizenz, enthalten. ',
         'text_software_repos_2' => 'Hier ist ein kurzer Überblick:',
@@ -1431,7 +1431,7 @@ $_t = array(
                 'L\'image ISO sur live CD qui peut servir à visionner la distribution et qui peut également servir à installer Mageia sur votre disque dur'),
 
         'text_available_media_2' => ' Vous pourrez toujours trouver de l\'aide pour télécharger sur <a href="http://mageia.org/downloads/">Mageia, page de téléchargement</a>',
-                    'Des liens directs (FTP et http) et par Bittorrent  sont disponibles pour le téléchargement. Pour plus de détails, jetez un œil sur <a href="http://www.mageia.org/wiki/doku.php?id=mageia_installation_media">la page d\'installation de Mageia</a>.',
+                    'Des liens directs (FTP et http) et par Bittorrent  sont disponibles pour le téléchargement. Pour plus de détails, jetez un œil sur <a href="https://wiki.mageia.org/en/Installation_Media">la page d\'installation de Mageia</a>.',
                      'h2_software_repos' => 'Les dépôts ou media  en ligne', 
         'text_software_repos_1' => 'Les paquets de logiciels pour Mageia sont disponibles en trois différents dépôts ou media, selon la licence qui les régit.', 
         'text_software_repos_2' => 'Voici un aperçu de ces dépôts ou media :',
@@ -1632,7 +1632,7 @@ $_t = array(
                 'e il CD ISO Live, che è una ISO live che può essere usata per avere un\'anteprima della distribuzione e che può anche essere usata per installare Mageia nel tuo disco rigido'),
         'text_available_media_2' => 'Troverai sempre le informazioni relative al download nella <a href="http://mageia.org/downloads/">pagina per il download di Mageia</a>;
                     sono disponibili i download diretti (ftp e http) e i download BitTorrent.
-                    Per maggiori informazioni, dai un\'occhiata alla <a href="http://www.mageia.org/wiki/doku.php?id=mageia_installation_media">pagina dei supporti per l\'installazione di Mageia</a>.',
+                    Per maggiori informazioni, dai un\'occhiata alla <a href="https://wiki.mageia.org/en/Installation_Media">pagina dei supporti per l\'installazione di Mageia</a>.',
         'h2_software_repos' => 'Fonti online del software',
         'text_software_repos_1' => 'I pacchetti in Mageia sono presenti in tre diverse fonti/repositories, in base alla licenza di ciascun pacchetto.',
         'text_software_repos_2' => 'Ecco una panoramica di queste fonti:',
@@ -1831,7 +1831,7 @@ $_t = array(
                 'Live CD ISO, este es una imagen de disco viva que puede ser usada para probar la distribuci&oacute;n y tambi&eacute;n para realizar la instalaci&oacute;n de Mageia en su equipo.'),
         'text_available_media_2' => 'Siempre encontrar&aacute; la informaci&oacute;n de descarga en la <a href="http://mageia.org/downloads/">p&aacute;gina de descarga de Mageia</a>,
                     descargas directas (ftp y http) y por BitTorrent est&aacute;n disponibles.
-                    Para m&aacute;s informaci&oacute;n, vea la <a href="http://www.mageia.org/wiki/doku.php?id=mageia_installation_media">p&aacute;gina de medios de instalaci&oacute;n de Mageia</a>.',
+                    Para m&aacute;s informaci&oacute;n, vea la <a href="https://wiki.mageia.org/en/Installation_Media">p&aacute;gina de medios de instalaci&oacute;n de Mageia</a>.',
         'h2_software_repos' => 'Repositorios de software en l&iacute;nea',
         'text_software_repos_1' => 'Los paquetes en Mageia existen en tres diferentes repositorios, dependiendo del tipo de licencia de cada paquete.',
         'text_software_repos_2' => 'Aqu&iacute; hay una descripci&oacute;n de los repositorios:',
@@ -2035,7 +2035,7 @@ $_t = array(
                 'Live CD ISO, aceasta este o versiune Live ISO care poate fi utilizată pentru previzualizarea distribuției, însă poate fi utilizată și pentru instalarea ei pe discul dur.'),
         'text_available_media_2' => 'Veți găsi întotdeauna informații despre descărcare pe <a href="http://mageia.org/downloads/">pagina de descărcări Mageia</a>;
                     sînt disponibile descărcări directe (ftp și http) sau BitTorrent.
-                    Pentru informații suplimentare, consultați <a href="http://www.mageia.org/wiki/doku.php?id=mageia_installation_media">pagina mediilor de instalare Mageia</a>.',
+                    Pentru informații suplimentare, consultați <a href="https://wiki.mageia.org/en/Installation_Media">pagina mediilor de instalare Mageia</a>.',
         'h2_software_repos' => 'Depozitele online cu aplicații',
         'text_software_repos_1' => 'Pachetele Mageia există în trei depozite/medii, în funcție de licența utilizată.',
         'text_software_repos_2' => 'Iată o prezentare a acestor depozite:',
@@ -2249,7 +2249,7 @@ $_t = array(
                             usado para instalar a Mageia no seu disco rígido'),
         'text_available_media_2' => 'Encontrará sempre a informação de transferência na <a href="http://mageia.org/downloads/">página de transferência Mageia</a>;
                             as transferências directas (ftp e http) e BitTorrent estão disponíveis.
-                            Para mais informação, consulte a <a href="http://www.mageia.org/wiki/doku.php?id=mageia_installation_media">página de média de instalação Mageia</a>.',
+                            Para mais informação, consulte a <a href="https://wiki.mageia.org/en/Installation_Media">página de média de instalação Mageia</a>.',
         'h2_software_repos' => 'Repositórios dos Programas',
         'text_software_repos_1' => 'Os pacotes na Mageia têm três diferentes repositórios/médias, dependendo da licença
                             que cada programa usa.',

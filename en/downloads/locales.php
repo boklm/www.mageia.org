@@ -50,7 +50,7 @@ Note that translations are on their way.',
             for %sdonating money%s,
             hardware, hosting, time, for sharing the fun.',
         'all_languages' => 'All supported: up to 167 locales are supported: Deutsch, English, español, français, italiano, português, svenska, nederlands, polski, dansk, Русский and so much more!
-            See the <a href="http://mageia.org/wiki/doku.php?id=tmp:supported_locales">comprehensive list</a>.',
+            See the <a href="https://wiki.mageia.org/en/Archive:Mageia_1_supported_locales">comprehensive list</a>.',
         'euro_languages' => 'Europa set of languages: Deutsch, English (several variants), español, français, italiano, polski, português do Brasil, Русский.
             More languages will be made available for the stable release.',
         'limited_languages' => 'Limited: Belarussian, Catalan, German, English, Spanish, French, Hungarian, Italian, Polish, Portuguese, Ukrainian',
@@ -78,7 +78,7 @@ Note that translations are on their way.',
         'dl_migrate_instead' => 'If you are using Mandriva Linux 2010.1 or 2010.2,
             you may directly <a href="/en/1/migrate/">upgrade your system to Mageia 1</a> as well.</p>',
         'not_sure_what_iso' => 'Not sure of what ISO to download? This may still be a bit verbose, but you may want to
-            <a href="http://www.mageia.org/wiki/doku.php?id=mageia_installation_media">read this article detailing our 
+            <a href="https://wiki.mageia.org/en/Installation_Media">read this article detailing our 
             different install media</a>.'
     ),
     'cs' => array(
@@ -130,7 +130,7 @@ Mějte na paměti, že na překladech se ještě pracuje.',
             po %sdarování peněz%s,
             zařízení, hostování, čas, a podíl na celé té zábavě.',
         'all_languages' => 'Všechny podporované: je podporováno až 167: čeština, němčina, angličtina, španělština, francouzština, italština, portugalština, švédština, nizozemština, polština, dánština a mnoho dalších!
-            Na jejich seznam se můžete podívat<a href="http://mageia.org/wiki/doku.php?id=tmp:supported_locales">zde</a>.',
+            Na jejich seznam se můžete podívat<a href="https://wiki.mageia.org/en/Archive:Mageia_1_supported_locales">zde</a>.',
         'euro_languages' => 'Seznam evropských jazyků: čeština, němčina, angličtina, španělština, francouzština, italština, portugalština, švédština, nizozemština, polština, ruština.
             Další jazyky budou ve stabilním vydání.',
         'limited_languages' => 'Omezené: běloruština, katalánština, němčina, angličtina, španělština, francouzština, maďarština, italština, portugalština, ukrajinština',
@@ -158,7 +158,7 @@ Mějte na paměti, že na překladech se ještě pracuje.',
         'dl_migrate_instead' => 'Pokud používáte Mandriva Linux 2010.1 nebo 2010.2,
             můžete svůj <a href="/cs/1/migrate/">systém povýšit na Mageiu 1</a> přímo.</p>',
         'not_sure_what_iso' => 'Nejste si jistý, který obraz ISO máte stáhnout? Tady je to možná vysvětleno moc podrobně, ale mohl byste si přečíst
-            <a href="http://www.mageia.org/wiki/doku.php?id=mageia_installation_media">tento článek, který podrobně rozebírá instalační média</a>.'
+            <a href="https://wiki.mageia.org/en/Installation_Media">tento článek, který podrobně rozebírá instalační média</a>.'
     ),
     'de' => array(
         'download' => 'herunterladen',
@@ -208,7 +208,7 @@ Beachten Sie, dass an der Übersetzung noch gearbeitet wird.',
             Community-Unterstützung &amp; -Unterhaltung, sowie dem %sSpenden von
             Geld%s, Hardware, Hosting, Zeit und die Teilnahme an dem ganzen Spaß.',
         'all_languages' => 'Bis zu 167 Sprachen werden unterst&uuml;tzt: Deutsch, Englisch, Spanisch, Franz&ouml;sisch, Italienisch, Portugiesisch, Schwedisch, Niederl&auml;ndisch, Polnisch, D&auml;nisch und viele weitere!
-            Eine erweiterte Liste k&ouml;nnen Sie <a href="http://mageia.org/wiki/doku.php?id=tmp:supported_locales">hier</a> einsehen.',
+            Eine erweiterte Liste k&ouml;nnen Sie <a href="https://wiki.mageia.org/en/Archive:Mageia_1_supported_locales">hier</a> einsehen.',
         'euro_languages' => '"Europ&auml;ische Sprachliste" bedeutet: Deutsch, Englisch, Spanisch, Französisch, Italienisch, Portugiesisch, Russisch.
             Weitere Sprachen werden im finalen Release zur Verfügung stehen.',
         'All supported' => "Alle unterstützten Sprachen",
@@ -231,7 +231,7 @@ Beachten Sie, dass an der Übersetzung noch gearbeitet wird.',
         'popularity' => 'Popularität',
         'dl_migrate_instead' => 'Wenn Sie Mandriva Linux 2010.1 or 2010.2 benutzen,
             können Sie Ihr System auch direkt auf <a href="/de/1/migrate/">Mageia 1 aktualisieren</a>.</p>',
-        'not_sure_what_iso' => 'Sie sind sich nicht sicher, welches ISO-Abbild Sie herunterladen wollen? Es kann sein, dass er etwas zu ausführlich ist, aber Sie können <a href="http://www.mageia.org/wiki/doku.php?id=mageia_installation_media">diesen Artikel über unsere verschiedenen Installations-Medien</a> lesen.'        
+        'not_sure_what_iso' => 'Sie sind sich nicht sicher, welches ISO-Abbild Sie herunterladen wollen? Es kann sein, dass er etwas zu ausführlich ist, aber Sie können <a href="https://wiki.mageia.org/en/Installation_Media">diesen Artikel über unsere verschiedenen Installations-Medien</a> lesen.'        
     ),
     'el' => array(
         'download' => 'λήψη',
@@ -281,7 +281,7 @@ Beachten Sie, dass an der Übersetzung noch gearbeitet wird.',
         για %sδωρεά χρημάτων%s,
         υλικό εξοπλισμό, φιλοξενία εξυπηρετητών, χρόνο, για να μοιραστεί τη διασκέδαση.',
         'all_languages' => 'Υποστηρίζονται όλες: υποστηρίζονται μέχρι και 167 τοπικότητες: Deutsch, English, español, français, italiano, português, svenska, nederlands, polski, dansk και πολλές ακόμα!
-        Δείτε την <a href="http://mageia.org/wiki/doku.php?id=tmp:supported_locales">πλήρη λίστα</a>.',
+        Δείτε την <a href="https://wiki.mageia.org/en/Archive:Mageia_1_supported_locales">πλήρη λίστα</a>.',
         'euro_languages' => 'Σύνολο ευρωπαικών γλωσσών: Deutsch, English, español, français, italiano, polski, português, Русский.
         Περισσότερες γλώσσες θα γίνουν διαθέσιμες για τη σταθερή έκδοση.',
         'limited_languages' => 'Περιορισμένες: Belarussian, Catalan, German, English, Spanish, French, Hungarian, Italian, Polish, Portuguese, Ukrainian',
@@ -305,7 +305,7 @@ Beachten Sie, dass an der Übersetzung noch gearbeitet wird.',
         'dl_migrate_instead' => 'Αν χρησιμοποιείτε Mandriva Linux 2010.1 ή 2010.2,
             μπορείτε επίσης να <a href="/en/1/migrate/">αναβαθμίσετε άμεσα το σύστημά σας σε Mageia 1.</a></p>',
         'not_sure_what_iso' => 'Δεν είστε σίγουροι ποιο ISO να κάνετε λήψη; Μπορεί να είναι λίγο φλύαρο αλλά μπορείτε να 
-            <a href="http://www.mageia.org/wiki/doku.php?id=mageia_installation_media">διαβάσετε αύτο το άρθρο που εξηγεί λεπτομερώς τα διαφορετικά μέσα εγκατάστασης</a>.'
+            <a href="https://wiki.mageia.org/en/Installation_Media">διαβάσετε αύτο το άρθρο που εξηγεί λεπτομερώς τα διαφορετικά μέσα εγκατάστασης</a>.'
     ),
     'es' => array(
         'download' => 'descargar',
@@ -356,7 +356,7 @@ Note que las traducciones están en progreso.',
             para %sdonación de dinero%s,
             hardware, hosting, tiempo, para compartir la entretención.',
         'all_languages' => 'Todos soportados: hasta 167 locales están soportados: Alemán, Inglés, Español, Francés, Italiano, Portugués, Suizo, Holandés, Polaco, Danés ¡y muchos más!
-            Vea la <a href="http://mageia.org/wiki/doku.php?id=tmp:supported_locales">lista detallada</a>.',
+            Vea la <a href="https://wiki.mageia.org/en/Archive:Mageia_1_supported_locales">lista detallada</a>.',
         'euro_languages' => 'Conjunto de idiomas de Europa: Alemán, Inglés, Español, Francés, Italiano, Polski, Portugués, Русский.
             Mas idiomas estarán disponibles para la versión estable.',
         'limited_languages' => 'Inglés, Español, Francés, Húngaro, Italiano, Poliaco, Portugués, Ukrainiano',
@@ -381,7 +381,7 @@ Note que las traducciones están en progreso.',
         'dl_migrate_instead' => 'Si usted usa Mandriva Linux 2010.1 o 2010.2,
             puede <a href="/en/1/migrate/">actualizar su sistema a Mageia 1</a> directamente también.</p>',
         'not_sure_what_iso' => '¿No está seguro de qué ISO descargar? Esto puede ser mucha lectura, pero tal vez quiera
-            <a href="http://www.mageia.org/wiki/doku.php?id=mageia_installation_media">leer este artículo
+            <a href="https://wiki.mageia.org/en/Installation_Media">leer este artículo
             detallando los diferentes medios de instalación que tenemos</a>.'
     ),
     'et' => array(
@@ -432,7 +432,7 @@ veebimeeskonda Freenode IRC-kanalil <a href="irc://irc.freenode.net/#mageia-web"
             %sraha annetamine%s,
             riistvara, majutuse ja aja pakkumine, kas või lihtsalt lõbu pärast kaasalöömine.',
         'all_languages' => 'Toetatud on kuni 167 keelt: eesti, hispaania, hollandi, inglise, itaalia, poola, portugali, prantsuse, rootsi, saksa, taani ja veel palju teisi!
-            Vaadake <a href="http://mageia.org/wiki/doku.php?id=tmp:supported_locales">täielikku nimekirja</a>.',
+            Vaadake <a href="https://wiki.mageia.org/en/Archive:Mageia_1_supported_locales">täielikku nimekirja</a>.',
         'euro_languages' => 'Euroopa keelevalik on järgmine: saksa, inglise, hispaania, prantsuse, itaalia, portugali.
             Stabiilses väljalaskes tuleb keelevalik suurem.',
         'All supported' => 'Kõik toetatud',
@@ -456,7 +456,7 @@ veebimeeskonda Freenode IRC-kanalil <a href="irc://irc.freenode.net/#mageia-web"
         'dl_migrate_instead' => 'Kui kasutate Mandriva Linux 2010.1 või 2010.2,
             võite ka otse oma <a href="/et/1/migrate/">süsteemi Mageia 1 peale uuendada</a>.</p>',
         'not_sure_what_iso' => 'Te ei oska valida, milline ISO alla laadida? See on võib-olla veidi pikk ja pealegi inglise keeles,
-            aga mõistlik võiks olla lugeda <a href="http://www.mageia.org/wiki/doku.php?id=mageia_installation_media">artiklit, mis kirjeldab 
+            aga mõistlik võiks olla lugeda <a href="https://wiki.mageia.org/en/Installation_Media">artiklit, mis kirjeldab 
             meie erinevaid paigaldusandmekandjaid</a>.'
     ),
     'fr' => array(
@@ -503,7 +503,7 @@ veebimeeskonda Freenode IRC-kanalil <a href="irc://irc.freenode.net/#mageia-web"
         du temps, ou simplement en partageant cette expérience passionante avec nous.',
         'all_languages' => 'Toutes inclues&nbsp;: environ 167 langues ou dialectes sont disponibles&nbsp;: français, allemand, anglais, espagnol, italien,
         portugais, roumain, grec, esperanto, turque, suédois, finlandais, néerlandais, polonais, russe, danois, chinois, breton, bulgare
-        et tant d&rsquo;autres&nbsp;! Consultez la <a href="http://mageia.org/wiki/doku.php?id=tmp:supported_locales">liste complète</a>.',
+        et tant d&rsquo;autres&nbsp;! Consultez la <a href="https://wiki.mageia.org/en/Archive:Mageia_1_supported_locales">liste complète</a>.',
         'euro_languages' => 'Langues européennes&nbsp;: allemand, anglais, espagnol, français, italien, polonais, portugais brésilien, russe.
         Davantage de langues seront disponibles dans la version finale.',
         'All supported' => 'Toutes',
@@ -537,7 +537,7 @@ veebimeeskonda Freenode IRC-kanalil <a href="irc://irc.freenode.net/#mageia-web"
         'for_network' => 'Pour installer via le réseau&nbsp;:',
         'popularity' => 'Popularité',
         'dl_migrate_instead' => 'Si vous utilisez Mandriva Linux 2010.1 ou 2010.2, vous pouvez aussi <a href="/fr/1/migrate/">migrer votre système vers Mageia 1</a>.</p>',
-        'not_sure_what_iso' => 'Vous ne savez pas quelle image ISO télécharger&nbsp;? Cela peut vous sembler un peu détaillé, mais vous pouvez <a href="http://www.mageia.org/wiki/doku.php?id=mageia_installation_media">lire cet article qui présente nos différents supports d’installation</a>.'
+        'not_sure_what_iso' => 'Vous ne savez pas quelle image ISO télécharger&nbsp;? Cela peut vous sembler un peu détaillé, mais vous pouvez <a href="https://wiki.mageia.org/en/Installation_Media">lire cet article qui présente nos différents supports d’installation</a>.'
     ),
     'it' => array(
         'download' => 'scarica',
@@ -588,7 +588,7 @@ Ricorda che le traduzioni sono in corso.',
             per %sdonare soldi%s,
             hardware, hosting, tempo, per condividere il divertimento.',
         'all_languages' => 'Tutte supportate: sono supportate fino a 167 localizzazioni: Deutsch, English, español, français, italiano, português, svenska, nederlands, polski, dansk e molte altre! 
-            Vedi la <a href="http://mageia.org/wiki/doku.php?id=tmp:supported_locales">lista completa</a>.',
+            Vedi la <a href="https://wiki.mageia.org/en/Archive:Mageia_1_supported_locales">lista completa</a>.',
         'euro_languages' => 'Set di lingue europee: Deutsch, English, español, français, italiano, português.
             Per la release finale saranno disponibili più lingue.',
         'limited_languages' => 'Limitate: Belarussian, Catalan, German, English, Spanish, French, Hungarian, Italiano, Polish, Portuguese, Ukrainian',
@@ -642,7 +642,7 @@ Vær klar over at vi fortsatt lokaliserer infrastrukturen vår.',
             levering, felleskapsstøtte &amp; animasjon, donasjoner som 
             %spenger%s, maskinvare og lagringsplass for å dele moroa',
         'all_languages' => 'Så mange som 167 språk er støttet; tysk, engelsk, spansk, fransk, italiensk, norsk, portugisisk, svensk, nederlandsk, polsk, dansk og mange flere.
-            Se lista over <a href="http://mageia.org/wiki/doku.php?id=tmp:supported_locales">støttede språk</a> for mer informasjon.',
+            Se lista over <a href="https://wiki.mageia.org/en/Archive:Mageia_1_supported_locales">støttede språk</a> for mer informasjon.',
         'euro_languages' => 'Europeiske språk som tysk, engelsk, spansk, fransk, italiensk, portugisisk.
             Flere språk vil være tilgjengelige i den stabile versjonen.',
         'limited_languages' => 'Begrenset støtte for hviterussisk, katalansk, tysk, engelsk, spansk, fransk, ungarsk, italiensk, polsk, portugisisk, ukrainsk',
@@ -666,7 +666,7 @@ Vær klar over at vi fortsatt lokaliserer infrastrukturen vår.',
         'dl_migrate_instead' => 'Hvis du bruker Mandriva Linux 2010.1 eller 2010.2,
             kan du også <a href="/en/1/migrate/">oppgradere systemet direkte til Mageia 1</a>.</p>',
         'not_sure_what_iso' => 'Ikke sikker på hvilket ISO-bilde du skal laste ned? Denne artikkelen er noe omfattende, men du vil kanskje
-            <a href="http://www.mageia.org/wiki/doku.php?id=mageia_installation_media">lese om de forskjellige 
+            <a href="https://wiki.mageia.org/en/Installation_Media">lese om de forskjellige 
             installasjonmediene</a>.'
     ),
     'nl' => array(
@@ -717,7 +717,7 @@ Wij zijn druk bezig met vertalingen naar andere talen.',
             %sgelddonaties%s,
             hardware donaties, hosting, tijd, en delen in het plezier!',
         'all_languages' => 'Up to 167 locales are supported: Deutsch, English, español, français, italiano, português, svenska, nederlands, polski, dansk and so much more!
-            See the <a href="http://mageia.org/wiki/doku.php?id=tmp:supported_locales">comprehensive list</a>.',
+            See the <a href="https://wiki.mageia.org/en/Archive:Mageia_1_supported_locales">comprehensive list</a>.',
         'euro_languages' => 'Europa set of languages is: Deutsch, English, español, français, italiano, português, polski, Русский.
             More languages will be made available for the stable release.',
         'All supported' => 'All supported',
@@ -776,7 +776,7 @@ Note que as traduções estão a ser feitas.',
             para %sdoar dinheiro%s,
             material, hospedagem, tempo e para partilhar a diversão.',
         'all_languages' => 'Todas suportadas: são suportadas até 167 línguas: Alemão, Inglês, Espanhol, Francês, Italiano, Português, Sueco, Holandês, Polaco, Dinamarquês e muitas mais!
-            Veja em <a href="http://mageia.org/wiki/doku.php?id=tmp:supported_locales">lista compreensiva</a>.',
+            Veja em <a href="https://wiki.mageia.org/en/Archive:Mageia_1_supported_locales">lista compreensiva</a>.',
         'euro_languages' => 'Conjunto de línguas Europeias: Alemão, Inglês (algumas variantes), Espanhol, Francês, Italiano, Polaco, Português, Português do Brasil, Russo.
             Mais línguas serão disponibilizadas para a versão estável.',
         'limited_languages' => 'Limitadas: Bielorusso, Catalão, Alemão, Inglês, Espanhol, Francês, Húngaro, Italiano, Polaco, Português, Ucraniano',
@@ -804,7 +804,7 @@ Note que as traduções estão a ser feitas.',
         'dl_migrate_instead' => 'Se está a usar a Mandriva Linux 2010.1 ou 2010.2,
             pode também directamente <a href="/pt/1/migrate/">actualizar o seu sistema para a Mageia 1</a>.</p>',
         'not_sure_what_iso' => 'Não tem certeza acerca da ISO que deseja transferir? Este artigo pode-lhe parecer um pouco detalhado, mas é uma 
-            <a href="http://www.mageia.org/wiki/doku.php?id=mageia_installation_media">boa descrição acerca da nossa média de instalação</a>.'
+            <a href="https://wiki.mageia.org/en/Installation_Media">boa descrição acerca da nossa média de instalação</a>.'
     ),
     'pt-br' => array(
         'download' => 'download',
@@ -856,7 +856,7 @@ Note que as traduções estão no seu caminho',
             hardware, hospedagem, tempo, para compartilhar divertimento.',
         'all_languages' => 'Todos os suportados&nbsp;: até 167 idiomas são suportados: 
             alemão, inglês, espanhol, francês, italiano, português, sueco, 
-            holandês, polonês, dinamarquês e muito mais! Veja <a href="http://mageia.org/wiki/doku.php?id=tmp:supported_locales">a lista completa</a>.',
+            holandês, polonês, dinamarquês e muito mais! Veja <a href="https://wiki.mageia.org/en/Archive:Mageia_1_supported_locales">a lista completa</a>.',
         'euro_languages' => 'Conjunto de idiomas europeu:
         alemão, espanhol (diversas variantes), espanhol, francês, italiano,
         polonês, russo, português do Brasil. Mais idiomas serão
@@ -915,7 +915,7 @@ De remarcat că traducerile sînt în curs.',
             oferind %sdonații%s în bani, componente, găzduire, sau
             din timpul vostru, pentru partajarea distracției.',
         'all_languages' => 'Toate incluse: în jur de 167 de limbi și dialecte sînt disponibile: germană, engleză, spaniolă, franceză, italiană, portugheză, suedeză, olandeză, poloneză, daneză și multe altele!
-            Consultați <a href="http://mageia.org/wiki/doku.php?id=tmp:supported_locales">lista completă</a>.',
+            Consultați <a href="https://wiki.mageia.org/en/Archive:Mageia_1_supported_locales">lista completă</a>.',
         'euro_languages' => 'Setul de limbi europene: germană, engleză, spaniolă, franceză, italiană, portugheză.
             Și mai multe limbi vor fi disponibile pentru versiunea finală.',
         'limited_languages' => 'Limitate: bielorusă, catalană, germană, engleză, spaniolă, franceză, maghiară, italiană, poloneză, portugheză, ucrainiană',
@@ -939,7 +939,7 @@ De remarcat că traducerile sînt în curs.',
         'dl_migrate_instead' => 'Dacă utilizați deja Mandriva Linux 2010.1 sau 2010.2,
             vă puteți <a href="/en/1/migrate/">avansa sistemul direct la Mageia 1</a> de asemenea.</p>',
         'not_sure_what_iso' => 'Nu știți ce imagine ISO să descărcați? Chiar dacă teste ceva text, însă este bine să
-            <a href="http://www.mageia.org/wiki/doku.php?id=mageia_installation_media">citiți acest articol despre diferitele 
+            <a href="https://wiki.mageia.org/en/Installation_Media">citiți acest articol despre diferitele 
             noastre medii de instalare</a>.'
     ),
     'ru' => array(
@@ -991,7 +991,7 @@ De remarcat că traducerile sînt în curs.',
             %sденежных средств%s,
             оборудования, хостинга, времени, разделения нашего удовольствия.',
         'all_languages' => 'Up to 167 locales are supported: Deutsch, English, español, français, italiano, português, svenska, nederlands, polski, dansk, Русский and so much more!
-            See the <a href="http://mageia.org/wiki/doku.php?id=tmp:supported_locales">comprehensive list</a>.',
+            See the <a href="https://wiki.mageia.org/en/Archive:Mageia_1_supported_locales">comprehensive list</a>.',
         'euro_languages' => 'Europa set of languages is: Deutsch, English, español, français, italiano, polski, português, Русский.
             More languages will be made available for the stable release.',
         'All supported' => 'All supported',
@@ -1050,7 +1050,7 @@ De remarcat că traducerile sînt în curs.',
             donanım, sunucu hizmetleri, zaman harcama giderlerini karşılamak için
             %spara bağışlamak%s, eğlenceyi paylaşmak.',
         'all_languages' => 'Tümü desteklenmektedir: 167 kadar dil desteklenmektedir: Deutsch, English, español, français, italiano, português, svenska, nederlands, polski, dansk and so much more!
-            Karışlaştırmalı bir liste için <a href="http://mageia.org/wiki/doku.php?id=tmp:supported_locales">wiki sayfamızı ziyaret edin</a>.',
+            Karışlaştırmalı bir liste için <a href="https://wiki.mageia.org/en/Archive:Mageia_1_supported_locales">wiki sayfamızı ziyaret edin</a>.',
         'euro_languages' => 'Avrup dilleri: Deutsch, English, español, français, italiano, português.
             Kararlı sürümde daha çok dil desteklenecektir.',
         'limited_languages' => 'Sınırlı: Belarussian, Catalan, German, English, Spanish, French, Hungarian, Italian, Polish, Portuguese, Ukrainian',
@@ -1128,7 +1128,7 @@ De remarcat că traducerile sînt în curs.',
             підтримайте дистрибутив %sфінансово%s,
             обладнанням, наданням послуг зі зберігання даних.',
         'all_languages' => 'Всі підтримувані: до 167 локалей: німецька, англійська, іспанська, французька, італійська, португальська, шведська, голландська, польська, данська та багато інших мов!
-            Ознайомтеся з <a href="http://mageia.org/wiki/doku.php?id=tmp:supported_locales">повним списком</a>.',
+            Ознайомтеся з <a href="https://wiki.mageia.org/en/Archive:Mageia_1_supported_locales">повним списком</a>.',
         'euro_languages' => 'Європейський набір мов: німецька, англійська (декілька варіантів), іспанська, французька, італійська, польська, бразильська португальська, російська.
             У стабільному випуску набір мов буде ще ширшим.',
         'limited_languages' => 'Обмежений набір: білоруська, каталонська, німецька, англійська, іспанська, французька, угорська, польська, португальська, українська',
@@ -1156,7 +1156,7 @@ De remarcat că traducerile sînt în curs.',
         'dl_migrate_instead' => 'Якщо ви користуєтеся Mandriva Linux 2010.1 або 2010.2,
             ви можете безпосердньо <a href="/uk/1/migrate/">оновити вашу систему до Mageia 1</a>.</p>',
         'not_sure_what_iso' => 'Не можете вирішити, який з образів ISO вам потрібен? Можливо, текст за вказаним посиланням здасться вам занадто довгим, але ви можете спробувати
-            <a href="http://www.mageia.org/wiki/doku.php?id=mageia_installation_media">прочитати цю статтю з докладним описом різних носіїв для встановлення</a>.'
+            <a href="https://wiki.mageia.org/en/Installation_Media">прочитати цю статтю з докладним описом різних носіїв для встановлення</a>.'
     ),
     'zh-tw' => array(
         'download' => '下載',
@@ -1205,7 +1205,7 @@ De remarcat că traducerile sînt în curs.',
             或是%s捐贈金錢%s、
             硬體、主機託管、時間，亦或是分享其中的樂趣。',
         'all_languages' => 'All supported: 總共支援 167 種語言：德語、英語、西班牙語、法語、義大利語、葡萄牙語、瑞典語、荷語、波蘭語、丹麥語還有更多！
-            請看<a href="http://mageia.org/wiki/doku.php?id=tmp:supported_locales">完整的清單</a>。',
+            請看<a href="https://wiki.mageia.org/en/Archive:Mageia_1_supported_locales">完整的清單</a>。',
         'euro_languages' => '歐洲為主的語言：德語、英語、西班牙語、法語、義大利語、葡萄牙語。
             正式版釋出時會有更多語言。',
         'limited_languages' => '有限的：白俄羅斯語、加泰隆語、德語、英語、西班牙語、法語、義大利語、葡萄牙語、匈牙利語、烏克蘭語、波蘭語',
