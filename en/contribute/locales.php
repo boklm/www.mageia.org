@@ -46,7 +46,7 @@ $_t = array(
                                 used by developers.',
         'h3_qa' => 'Testing &amp; <abbr title="Quality Assurance">QA</abbr>',
         'text_qa' => 'We can\'t ship software if we are not confident it works well!
-                                <a href="/wiki/doku.php?id=qateam">Testers and QA</a>
+                                <a href="https://wiki.mageia.org/en/QA_Team">Testers and QA</a>
                                 people make sure what we do (software, packages, ISO\'s, Web sites)
                                 match our expectations for quality before they reach users.',
         'h3_marketing' => 'Marketing, Communication &amp; Evangelism',
@@ -58,24 +58,24 @@ $_t = array(
         'text_graphic' => 'Software isn\'t only about code neither is Mageia only about technology.
                                 So make it human, practical and beautiful!
                                 If you have a talent and experience in graphic design, ergonomics
-                                <a href="/wiki/doku.php?id=designers">join the artwork team</a>!',
+                                <a href="https://wiki.mageia.org/en/Artwork_team">join the artwork team</a>!',
         'h3_dev' => 'Coding &amp; packaging',
         'text_dev' => 'Contribute to the core of the distribution with your technical skills!
                                 Adding, fixing, patching and maintaining software to be included
                                 in the distribution, from upstream projects or from Mageia-specific
-                                sources. Join the <a href="/wiki/doku.php?id=packaging">Packagers team</a>!',
+                                sources. Join the <a href="https://wiki.mageia.org/en/Packagers_Team">Packagers team</a>!',
         'h3_web' => 'Web, tools, systems design &amp; administration',
         'text_web' => 'Mageia depends on infrastructure and tools that enable everyone
                                 to collaborate. These need experts to build, maintain, develop, provide
                                 and manage servers, connections, security, applications, data flow, etc.
-                                It takes from <a href="/wiki/doku.php?id=sysadmin">system administrators</a>
-                                to <a href="/wiki/doku.php?id=web">Web designers/developers/integrators</a>
+                                It takes from <a href="https://wiki.mageia.org/en/Sysadmin_Team">system administrators</a>
+                                to <a href="https://wiki.mageia.org/en/Web_team">Web designers/developers/integrators</a>
                                 to manage this huge task.',
         'h3_mirror' => 'Mirroring',
         'text_mirror' => 'Making all the software provided by Mageia available requires
                                 <a href="http://mirrors.mageia.org/">several mirrors
                                 around the world</a>, to distribute ISO\'s and software packages.
-                                If you have some disk space and bandwidth to share, please <a href="/wiki/doku.php?id=mirrors_policy#how_to_become_a_mirror">see how you can
+                                If you have some disk space and bandwidth to share, please <a href="https://wiki.mageia.org/en/Mirrors_policy#How_to_.28become_a.29_mirror.3F">see how you can
                                 provide an official Mageia mirror</a>.',
         'h3_donation' => 'Donating',
         'text_donation' => 'Financial donations help us allocate specific tasks, secure our infrastructure,
@@ -160,7 +160,7 @@ $_t = array(
                                 používanou vývojáři.',
         'h3_qa' => 'Zkoušení a <abbr title="Quality Assurance">zajišťování kvality (QA)</abbr>',
         'text_qa' => 'Nemůžeme vydat software, u kterého si nejsme jisti, že pracuje dobře!
-                                <a href="/wiki/doku.php?id=qateam">Testeři a lidé z QA týmu</a>
+                                <a href="https://wiki.mageia.org/en/QA_Team">Testeři a lidé z QA týmu</a>
                                 zajišťují, že naše práce (software, balíčky, ISO obrazy, internetové stránky)
                                 odpovídá našim požadavkům na kvalitu předtím, než se dostane k uživatelům.',
         'h3_marketing' => 'Obchod, komunikace a přesvědčovací práce',
@@ -172,22 +172,22 @@ $_t = array(
         'text_graphic' => 'Software nespočívá jen v kódu a ani Mageia není jen o technologii.
                                 Mageia musí vypadat lidsky, prakticky a krásně!
                                 Pokud máte talent a zkušenosti ohledně navrhování grafiky a ergonomie
-                                <a href="/wiki/doku.php?id=designers">připojte se k designerskému týmu</a>!',
+                                <a href="https://wiki.mageia.org/en/Artwork_team">připojte se k designerskému týmu</a>!',
         'h3_dev' => 'Vývoj a tvorba balíčků',
         'text_dev' => 'Přispívejte za pomoci svých technických schopností do jádra distribuce!
                                 Přidávání, opravy chyb a technická údržba programů, které mají být začleněny do
                                 distribuce, ať již z nezávislých projektů nebo ze zvláštních zdrojů. 
-                                Připojte se k <a href="/wiki/doku.php?id=packaging">týmu balíčkářů</a>!',
+                                Připojte se k <a href="https://wiki.mageia.org/en/Packagers_Team">týmu balíčkářů</a>!',
         'h3_web' => 'Internet, nástroje, návrh systému a administrace',
         'text_web' => 'Mageia závisí na zázemí a nástrojích, jež umožňují, aby mohl spolupracovat každý, kdo má zájem. 
                                 Tyto nástroje si žádají odborníky, kteří postaví, udržují, vyvíjejí, poskytují
                                 a spravují servery, síťové spojení, bezpečnost, programy, tok dat atd.
-                                Tito lidé se soustředí v týmech <a href="/wiki/doku.php?id=sysadmin">systémových administrátorů</a>
-                                a <a href="/wiki/doku.php?id=web">v týmu web návrhářů a vývojářů</a>.',
+                                Tito lidé se soustředí v týmech <a href="https://wiki.mageia.org/en/Sysadmin_Team">systémových administrátorů</a>
+                                a <a href="https://wiki.mageia.org/en/Web_team">v týmu web návrhářů a vývojářů</a>.',
         'h3_mirror' => 'Zrcadlení zdrojů',
         'text_mirror' => 'Aby byl veškerý software poskytovaný Mageiou dostupný, vyžaduje to
                                 <a href="http://mirrors.mageia.org/">několik zrcadel (serverů) po celém světě</a> pro distribuci ISO obrazů a balíčků.
-                                Pokud máte nějaké místo na disku a volnou šířku pásma, kterou můžete sdílet, podívejte se, prosím, na <a href="/wiki/doku.php?id=mirrors_policy#how_to_become_a_mirror">, jak můžete zprovoznit oficiální zrcadlo Mageii</a>.',
+                                Pokud máte nějaké místo na disku a volnou šířku pásma, kterou můžete sdílet, podívejte se, prosím, na <a href="https://wiki.mageia.org/en/Mirrors_policy#How_to_.28become_a.29_mirror.3F">, jak můžete zprovoznit oficiální zrcadlo Mageii</a>.',
         'h3_donation' => 'Dary',
         'text_donation' => 'Peněžní dary nám pomáhají vyřídit zvláštní úkoly, zabezpečit naši infrastrukturu,
                                 financovat události, pokrýt další výdaje a náklady na cesty.
@@ -276,7 +276,7 @@ $_t = array(
                         der von den Entwicklern benutzt wird. ',
                 'h3_qa' => 'Testen und <abbr title="Quality Assurance">Qualitätssicherung</abbr>',
                 'text_qa' => 'Wir können keine Software herausgeben, von der wir nicht sicher sind, dass sie funktioniert.
-                        <a href="/wiki/doku.php?id=qateam">Tester und Qualitätssicherer</a>
+                        <a href="https://wiki.mageia.org/en/QA_Team">Tester und Qualitätssicherer</a>
                         stellen sicher, dass unsere Arbeit (Software, Pakete, ISO-Abbilder und Webseiten)
                         unseren Anforderungen entsprechen, bevor der Benutzer Zugriff auf sie erhält.',
                 'h3_marketing' => 'Marketing, Kommunikation &amp; Überzeugungsarbeit',
@@ -289,25 +289,25 @@ $_t = array(
                         Technologie.
                         Mageia muss menschlich, praktisch und schön aussehen.
                         Wenn Sie Talent und Erfahrung im grafischen Design und der Ergonomie haben, werden Sie Mitglied im
-                        <a href="/wiki/doku.php?id=designers">Artwork-Team</a>!',
+                        <a href="https://wiki.mageia.org/en/Artwork_team">Artwork-Team</a>!',
                 'h3_dev' => 'Entwicklung und Paketierung',
                 'text_dev' => 'Arbeiten Sie mit Ihren technischen Fähigkeiten am Kern der Distribution mit!
                         Software, die in der Distribution enthalten sein soll hinzufügen, Fehler beheben und sie warten,
                         sowohl aus Upstream-Projekten als auch aus Mageia-spezifischen Quellen. Werden Sie Mitglied des
-                        <a href="/wiki/doku.php?id=packaging">Packager-Teams</a>.',
+                        <a href="https://wiki.mageia.org/en/Packagers_Team">Packager-Teams</a>.',
                 'h3_web' => 'Web, Werkzeuge, System-Design &amp; Administration',
                 'text_web' => 'Mageia benötigt Infrastruktur und Werkzeuge, die es ermöglichen, dass jeder, der das möchte,
                         beitragen kann. Diese Werkzeuge benötigen Experten zur Erstellung, Unterhaltung, Entwicklung,
                         Bereitstellung und Verwaltung der Server, Netzwerk-Verbindungen, Sicherheit, Anwendungen, Datenfluss
-                        etc. Dafür benötigen wir von <a href="/wiki/doku.php?id=sysadmin">System- Administratoren</a>
-                        bis <a href="/wiki/doku.php?id=web">Web-Designer /  Entwickler / Integratoren</a>
+                        etc. Dafür benötigen wir von <a href="https://wiki.mageia.org/en/Sysadmin_Team">System- Administratoren</a>
+                        bis <a href="https://wiki.mageia.org/en/Web_team">Web-Designer /  Entwickler / Integratoren</a>
                         um diese große Aufgabe zu bewältigen.',
                 'h3_mirror' => 'Software spiegeln',
                 'text_mirror' => 'Die Verbreitung der Software von Mageia erfordert
                         <a href="http://mirrors.mageia.org/">mehrere Spiegelserver
                         auf der ganzen Welt</a>, zum Verteilen von ISO-Abbildern und Software-Paketen.
                         Wenn Sie etwas Speicherplatz und Bandbreite zur Verfügung stellen können, schauen Sie bitte
-                        <a href="/wiki/doku.php?id=mirrors_policy#how_to_become_a_mirror">wie Sie
+                        <a href="https://wiki.mageia.org/en/Mirrors_policy#How_to_.28become_a.29_mirror.3F">wie Sie
                         einen ofiziellen Mageia-Mirror betreiben können</a>.',
                 'h3_donation' => 'Spenden',
                 'text_donation' => 'Geldspenden helfen uns, spezifische Aufgaben zu erledigen, sichern unsere Infrastruktur
@@ -394,7 +394,7 @@ $_t = array(
                                 usado por los desarrolladores.',
         'h3_qa' => 'Pruebas &amp; <abbr title="Quality Assurance">QA</abbr>',
         'text_qa' => '¡No podemos enviar software si no estamos seguros de que funcionará bien!
-                                <a href="/wiki/doku.php?id=qateam">Testers y QA</a>
+                                <a href="https://wiki.mageia.org/en/QA_Team">Testers y QA</a>
                                 hay que asegurarse de que los productos (software, paquetes, ISO\'s, sitios web)
                                 cumplan con nuestras expectativas de calidad antes de que lleguen a los usuarios.',
         'h3_marketing' => 'Marketing, Comunicación y Evangelización',
@@ -406,24 +406,24 @@ $_t = array(
         'text_graphic' => 'El software no solo es código, ni tampoco solo tecnología.
                                 ¡Así que hacerlo humano, práctico y bonito!
                                 ¡Si tienes talento y experiencia en diseño gráfico, ergonomía,
-                                <a href="/wiki/doku.php?id=designers">únete al equipo de diseño gráfico</a>!',
+                                <a href="https://wiki.mageia.org/en/Artwork_team">únete al equipo de diseño gráfico</a>!',
         'h3_dev' => 'Codificación y empaquetado',
         'text_dev' => '¡Contribuye  con el núcleo de la distribución con tus habilidades técnicas!
                                 Agregando, arreglando, corrigiendo y manteniendo el software  para ser incluido
                                 en la distribución, desde proyectos externos o fuentes especificas de Mageia.
-                                ¡Únete al <a href="/wiki/doku.php?id=packaging">equipo de empaquetadores</a>!',
+                                ¡Únete al <a href="https://wiki.mageia.org/en/Packagers_Team">equipo de empaquetadores</a>!',
         'h3_web' => 'Web, herramientas, diseño y administración de sistemas',
         'text_web' => 'Mageia depende de infraestructuras y herramientas que permiten a todos
                                 colaborar. Esto requiere expertos para construir, mantener, desarrollar, proveer
                                 y administrar servidores, conexiones, aplicaciones de seguridad, flujos de datos, etc.
-                                Hacen falta desde <a href="/wiki/doku.php?id=sysadmin">administradores de sistema</a>
-                                hasta <a href="/wiki/doku.php?id=web">diseñadores web/desarrolladores/integradores</a>
+                                Hacen falta desde <a href="https://wiki.mageia.org/en/Sysadmin_Team">administradores de sistema</a>
+                                hasta <a href="https://wiki.mageia.org/en/Web_team">diseñadores web/desarrolladores/integradores</a>
                                 para llevar a cabo esta enorme tarea.',
         'h3_mirror' => 'Duplicar fuentes de descarga',
         'text_mirror' => 'Hacer que el software de Mageia esté disponible requiere de
                                 <a href="http://mirrors.mageia.org/">varias fuentes de descarga (mirrors)
                                 alrededor del mundo</a>, para distribuir ISO\'s y paquetes de software.
-                                Si tienes algo de espacio en disco y banda ancha para compartir, por favor <a href="/wiki/doku.php?id=mirrors_policy#how_to_become_a_mirror">infórmate de cómo puedes proveer un mirror oficial de Mageia</a>.',
+                                Si tienes algo de espacio en disco y banda ancha para compartir, por favor <a href="https://wiki.mageia.org/en/Mirrors_policy#How_to_.28become_a.29_mirror.3F">infórmate de cómo puedes proveer un mirror oficial de Mageia</a>.',
         'h3_donation' => 'Donaciones',
         'text_donation' => 'Las donaciones nos ayudan a asignar tareas específicas, asegurar nuestra infraestructura,
                                 financiar eventos, mercancía para regalar y promocionar y transporte.
@@ -506,7 +506,7 @@ $_t = array(
                                 vahel, mida kasutavad arendajad.',
         'h3_qa' => 'Testimine ja kvaliteedikontroll',
         'text_qa' => 'Me ei saa pakkuda tarkvara, kui me pole kindlad, et see töötab korralikult!
-                                <a href="/wiki/doku.php?id=qateam">Testijad ja kvaliteedikontrolli eest hoolitsejad</a>
+                                <a href="https://wiki.mageia.org/en/QA_Team">Testijad ja kvaliteedikontrolli eest hoolitsejad</a>
                                 tagavad, et kõik, mida me teeme (tarkvara, tarkvarapaketid, ISO-tõmmised, veebileheküljed),
                                 vastavad kvaliteedi mõttes meie ootustele, enne kui need jõuavad kasutajate kätte ja ette.',
         'h3_marketing' => 'Turundus ja kommunikatsioon',
@@ -518,23 +518,23 @@ $_t = array(
         'text_graphic' => 'Tarkvara ei tähenda kunagi ainult koodi ja Mageia ei tähenda pelgalt tehnoloogiat.
                                 Sestap tuleb see muuta inimlikuks, praktiliseks ja ilusaks!
                                 Kui teil on annet ja kogemusi graafilise disaini või ergonoomika vallas,
-                                ühinege <a href="/wiki/doku.php?id=designers">kunstimeeskonnaga</a>!',
+                                ühinege <a href="https://wiki.mageia.org/en/Artwork_team">kunstimeeskonnaga</a>!',
         'h3_dev' => 'Koodi kirjutamine ja pakendamine',
         'text_dev' => 'Andke oma tehnilised oskused distributsiooni tuuma käsutusse!
                                 Distributsiooni pakutava tarkvara lisamine, parandamine, paikamine ja hooldamine,
                                 olgu tegemist mujalt pärit tarkvaraga või Mageia enda loominguga.
-                                Ühinege selleks <a href="/wiki/doku.php?id=packaging">pakendajate meeskonnaga</a>!',
+                                Ühinege selleks <a href="https://wiki.mageia.org/en/Packagers_Team">pakendajate meeskonnaga</a>!',
         'h3_web' => 'Veeb, tööriistad, süsteemikujundus ja -haldus',
         'text_web' => 'Mageia sõltub infrastruktuurist ja tööriistadest, mis võimaldavad kõigil koostööd
                                 teha. Selleks on vaja asjatundjaid, kes suudavad üles panna, hooldada, arendada
                                 ja hallata servereid, ühendusi, turvalisust, rakendusi, andmevooge jms.
-                                Kogu selleks hiigelülesandeks on vaja palju inimesi alates <a href="/wiki/doku.php?id=sysadmin">süsteemiadministraatoritest</a>
-                                kuni <a href="/wiki/doku.php?id=web">veebidisainerite- ja -arendajateni</a>.',
+                                Kogu selleks hiigelülesandeks on vaja palju inimesi alates <a href="https://wiki.mageia.org/en/Sysadmin_Team">süsteemiadministraatoritest</a>
+                                kuni <a href="https://wiki.mageia.org/en/Web_team">veebidisainerite- ja -arendajateni</a>.',
         'h3_mirror' => 'Peeglid',
         'text_mirror' => 'Kogu Mageia pakutava tarkvara kättesaadavaks tegemine nõuab
                                 <a href="http://mirrors.mageia.org/">mitmeid peegelsaite
                                 kogu maailmas</a>, mis levitaksid ISO-tõmmiseid ja tarkvarapakette.
-                                Kui teil juhtub olema jagada kettaruumi ja internetiühendust, siis uurige palun, <a href="/wiki/doku.php?id=mirrors_policy#how_to_become_a_mirror">kuidas on võimalik püsti panna ametlik Mageia peegel</a>.',
+                                Kui teil juhtub olema jagada kettaruumi ja internetiühendust, siis uurige palun, <a href="https://wiki.mageia.org/en/Mirrors_policy#How_to_.28become_a.29_mirror.3F">kuidas on võimalik püsti panna ametlik Mageia peegel</a>.',
         'h3_donation' => 'Annetamine',
         'text_donation' => 'Rahalised annetused aitavad meil eraldada vahendeid konkreetseteks ülesanneteks, turvata oma infrastruktuuri,
                                 rahastada sündmuste korraldamist, meenete valmistamist ja transporti.
@@ -626,7 +626,7 @@ $_t = array(
                                utilisé par les développeurs.',
         'h3_qa' => 'Tests &amp; <abbr title="Assurance Qualité">AQ</abbr>',
         'text_qa' => 'Nous ne pouvons pas distribuer un logiciel si nous ne sommes pas sûrs
-                          de son bon fonctionnement ! L\'équipe de <a href="/wiki/doku.php?id=qateam">Tests et AQ</a>
+                          de son bon fonctionnement ! L\'équipe de <a href="https://wiki.mageia.org/en/QA_Team">Tests et AQ</a>
                                 s\'assure que nos produits (logiciels, paquetages, ISO, sites Web)
                                 sont conformes à nos exigences de qualité avant de les remettre aux
                                 utilisateurs.',
@@ -641,14 +641,14 @@ $_t = array(
                                 Faites-la donc humaine, pratique et belle !
                                 Si vous avez du talent et de l\'expérience dans la conception 
                                 graphique et l\'ergonomisme,
-                                <a href="/wiki/doku.php?id=designers">rejoignez l\'équipe 
+                                <a href="https://wiki.mageia.org/en/Artwork_team">rejoignez l\'équipe 
                                 artistique</a> !',
         'h3_dev' => 'Code et packaging',
         'text_dev' => 'Mettez vos compétences techniques à profit pour le coeur de la 
                             distribution !
                                 Ajouts, réglages, correctifs et maintenance de logiciels inclus dans
                                 la distribution, à partir de projets en amont, par des propositions de logiciels différents, ou depuis des sources spécifiques à Mageia. 
-                                Rejoignez l\'<a href="/wiki/doku.php?id=packaging">équipe 
+                                Rejoignez l\'<a href="https://wiki.mageia.org/en/Packagers_Team">équipe 
                                 Packagers</a> !',
         'h3_web' => 'Web, outils, conception et administration des systèmes',
         'text_web' => 'Mageia repose sur une infrastructure et doutils qui permettent à tous
@@ -656,8 +656,8 @@ $_t = array(
                                 construire, maintenir, développer, fournir et gérer des serveurs,
                                 des connexions, des applications, la sécurité, les flux de données, etc.
                                 Beaucoup de personnes sont requises pour assurer cette lourde tâche,
-                                depuis les <a href="/wiki/doku.php?id=sysadmin">administrateurs
-                                système</a> jusqu\'aux <a href="/wiki/doku.php?id=web">concepteurs
+                                depuis les <a href="https://wiki.mageia.org/en/Sysadmin_Team">administrateurs
+                                système</a> jusqu\'aux <a href="https://wiki.mageia.org/en/Web_team">concepteurs
                                 développeurs et intégrateurs Web</a>.',
         'h3_mirror' => 'Mise à disposition de miroirs',
         'text_mirror' => 'Rendre disponibles tous les logiciels fournis par Mageia exige
@@ -666,7 +666,7 @@ $_t = array(
                                 paquetages.
                                 Si vous disposez d\'espace disque et de bande passante à partager,
                                 veuillez
-                                <a href="/wiki/doku.php?id=mirrors_policy#how_to_become_a_mirror">
+                                <a href="https://wiki.mageia.org/en/Mirrors_policy#How_to_.28become_a.29_mirror.3F">
                                 regarder comment fournir un miroir officiel de Mageia</a>.',
         'h3_donation' => 'Dons',
         'text_donation' => 'Les donations financières nous aident pour des tâches
@@ -762,7 +762,7 @@ $_t = array(
                                 utilizzato dagli sviluppatori.',
         'h3_qa' => 'Collaudare &amp; <abbr title="Quality Assurance">QA</abbr>',
         'text_qa' => 'Non possiamo consegnare software se non siamo sicuri che funzioni bene!
-                                <a href="/wiki/doku.php?id=qateam">Collaudatori e QA</a>
+                                <a href="https://wiki.mageia.org/en/QA_Team">Collaudatori e QA</a>
                                 assicurano che ciò che facciamo (software, pacchetti, ISO\'s, Siti web)
                                 sia all\'altezza delle nostre aspettative per la qualità prima di raggiungere l\'utente.',
         'h3_marketing' => 'Commercializzazione, Comunicazione &amp; Evangelismo',
@@ -774,24 +774,24 @@ $_t = array(
         'text_graphic' => 'Il software non è solo codice e allo stesso modo Mageia non è solo tecnologia.
                                 Allora rendila umana, pratica e bella!
                                 Se hai talento e esperienza in progettazione grafica, ergonomica
-                                <a href="/wiki/doku.php?id=designers">unisciti alla squadra artwork</a>!',
+                                <a href="https://wiki.mageia.org/en/Artwork_team">unisciti alla squadra artwork</a>!',
         'h3_dev' => 'Programmare &amp; creare pacchetti',
         'text_dev' => 'Contribuisci al cuore della distribuzione con le tue competenze tecniche!
                                 Aggiungi, sistema, correggi e mantieni software da includere
                                 nella distribuzione, dal progetto originario o dai sorgenti specifici di Mageia.
-                Unisciti alla <a href="/wiki/doku.php?id=packaging">squadra Packagers</a>!',
+                Unisciti alla <a href="https://wiki.mageia.org/en/Packagers_Team">squadra Packagers</a>!',
         'h3_web' => 'Web, strumenti, progettazione sistemi &amp; amministrazione',
         'text_web' => 'Mageia dipende da una infrastruttura e da strumenti che permettono a chiunque
                                 di collaborare. Questi necessitano di esperti per costruire, mantenere, sviluppare, fornire
                                 e gestire server, connessioni, sicurezza, applicazioni, flusso dati, ecc.
-                                Sono necessari <a href="/wiki/doku.php?id=sysadmin">amministratori di sistema</a>
-                                e <a href="/wiki/doku.php?id=web">Web designers/sviluppatori/integratori</a>
+                                Sono necessari <a href="https://wiki.mageia.org/en/Sysadmin_Team">amministratori di sistema</a>
+                                e <a href="https://wiki.mageia.org/en/Web_team">Web designers/sviluppatori/integratori</a>
                                 per gestire questo compito immane.',
         'h3_mirror' => 'Mirroring',
         'text_mirror' => 'Rendere tutto il software fornito da Mageia disponibile richiede
                                 <a href="http://mirrors.mageia.org/">molti mirrors
                                 sparsi per il mondo</a>, per distribuire ISO\'s e pacchetti software.
-                                Se hai un po\' di spazio disco e larghezza di banda da condividere per favore <a href="/wiki/doku.php?id=mirrors_policy#how_to_become_a_mirror">guarda come puoi
+                                Se hai un po\' di spazio disco e larghezza di banda da condividere per favore <a href="https://wiki.mageia.org/en/Mirrors_policy#How_to_.28become_a.29_mirror.3F">guarda come puoi
                                 fornire un mirror Mageia ufficiale</a>.',
         'h3_donation' => 'Donare',
         'text_donation' => 'Donazioni finanziarie ci aiutano ad allocare compiti specifici, a mettere in sicurezza la nostra infrastruttura,
@@ -874,7 +874,7 @@ $_t = array(
                                 brukt av utviklerne.',
         'h3_qa' => 'Testing &amp; <abbr title="Quality Assurance">kvalitetssikring</abbr>',
         'text_qa' => 'Mageia kan ikke utgi programvare med lav kvalitet!
-                             Vi trenger <a href="/wiki/doku.php?id=qateam">personer som kan kvalitetssikre</a>
+                             Vi trenger <a href="https://wiki.mageia.org/en/QA_Team">personer som kan kvalitetssikre</a>
                              (programvare, pakker, ISO-bilder, nettsteder), slik at at våre forventinger om kvalitet blir
                  oppfylt før det slippes på brukerne.',
         'h3_marketing' => 'Markedsføring, kommunikasjon &amp; evangelisering',
@@ -884,24 +884,24 @@ $_t = array(
                                 (markedsføring og kommunikasjon), både på en global og lokal basis.',
         'h3_graphic' => 'Grafikk &amp; UI-utforming',
         'text_graphic' => 'Programvare handler ikke kun om kildekode og teknologi. Hvis du har erfaring med grafisk
-                  design og ergonomi, kan du bli medlem av det <a href="/wiki/doku.php?id=designers">grafiske miljøet</a>.',
+                  design og ergonomi, kan du bli medlem av det <a href="https://wiki.mageia.org/en/Artwork_team">grafiske miljøet</a>.',
         'h3_dev' => 'Programmering &amp; pakking',
         'text_dev' => 'Bidra til kjernen i distribusjonen med tekniske egenskaper.
                                 Legg til, rett opp, lappe og vedlikeholde programvare i
                                 i distribusjonen fra hovedprosjektene eller fra kilder spesifikke for
-                Mageia. Bli medlem av <a href="/wiki/doku.php?id=packagers">pakkelaget</a>!',
+                Mageia. Bli medlem av <a href="https://wiki.mageia.org/en/Packagers_Team">pakkelaget</a>!',
         'h3_web' => 'Veven, verktøy, systemdesign &amp; administrasjon',
         'text_web' => 'Mageia er avhengig av infrastruktur og verktøy som muliggjør sammarbeid.
                   For å bygge, vedlikeholde, utvikle, tilby og håndtere tjenere, tilkoblinger,
                   sikkerhet, programvare, dataflyt osv, trenger vi spesiell ekspertise.
-                              Alt i fra <a href="/wiki/doku.php?id=sysadmin">systemadministratorer</a>
-                              til <a href="/wiki/doku.php?id=web">webdesignere/utviklere/systemutviklere</a>
+                              Alt i fra <a href="https://wiki.mageia.org/en/Sysadmin_Team">systemadministratorer</a>
+                              til <a href="https://wiki.mageia.org/en/Web_team">webdesignere/utviklere/systemutviklere</a>
                               kreves for å gjennomføre denne massive oppgaven.',
         'h3_mirror' => 'Speiling',
         'text_mirror' => 'For å gjøre programvaren fra Mageia tilgjengelig kreves
                                 <a href="http://mirrors.mageia.org/">flere speil rundt om i verden</a> for
                 distribusjon av programvarepakker og ISO-bilder. Har du lyst til å
-                <a href="/wiki/doku.php?id=mirrors_policy#how_to_become_a_mirror">speile</a>?',
+                <a href="https://wiki.mageia.org/en/Mirrors_policy#How_to_.28become_a.29_mirror.3F">speile</a>?',
         'h3_donation' => 'Donasjoner',
         'text_donation' => 'Finansielle donasjoner gjør det mulig å opprette spesielle oppgaver, sikre
                    infrastruktur, finanisere begivenheter, godsaker &amp; transport.
@@ -983,7 +983,7 @@ $_t = array(
                                 gebruikt door de ontwikkelaars.',
         'h3_qa' => 'Testen &amp; <abbr title="Quality Assurance">kwaliteitscontrole</abbr>',
         'text_qa' => 'Wij kunnen geen software distribueren wanneer wij niet zeker zijn dat deze naar behoren werkt!
-                                <a href="/wiki/doku.php?id=qateam">Testers en kwaliteitscontrole</a>
+                                <a href="https://wiki.mageia.org/en/QA_Team">Testers en kwaliteitscontrole</a>
                                 -mensen zorgen ervoor dat onze producten (software, RPM-pakketten, ISO\'s, Web-sites)
                                 voldoen aan onze kwaliteitseisen en -verwachtingen voordat deze onze gebruikers bereiken.',
         'h3_marketing' => 'Marketing &amp; Communicatie',
@@ -995,23 +995,23 @@ $_t = array(
         'text_graphic' => 'Software gaat niet alleen maar over computercode, en ook Mageia gaat over meer dan alleen technologie.
                                 Draag bij om Mageia intuïtief, praktisch en mooi te maken!
                                 Heeft u aanleg en ervaring voor grafische ontwerpen of ergonomie?
-                                <a href="/wiki/doku.php?id=designers">Doe dan mee met het artwork-team</a>!',
+                                <a href="https://wiki.mageia.org/en/Artwork_team">Doe dan mee met het artwork-team</a>!',
         'h3_dev' => 'Programmeren &amp; packaging',
         'text_dev' => 'Draag bij aan de kern van de distributie met uw technische vaardigheden!
                                 Deze taak bestaat uit het toevoegen, beheren, fixen en patchen van software
                                 in de distributie van zowel upstream-projecten alsook Mageia-specifieke
-                                bronnen. Doe mee met het <a href="/wiki/doku.php?id=packaging">Packagers team</a>!',
+                                bronnen. Doe mee met het <a href="https://wiki.mageia.org/en/Packagers_Team">Packagers team</a>!',
         'h3_web' => 'Web, gereedschappen, systeemontwerp &amp; -beheer',
         'text_web' => 'Mageia is afhankelijk van haar infrastructuur en gereedschappen die iedereen in staat stelt
                 om samen te werken. Hiervoor hebben wij experts nodig om dit alles te bouwen en te onderhouden.
                                 Ook het beheren van de servers, verbindingen, applicaties, beveiliging, enz. behoort tot deze taken.
-                                Om deze omvangrijke en belangrijke taak naar behoren te kunnen doen zijn wij afhankelijk van <a href="/wiki/doku.php?id=sysadmin">systeembeheerders</a>
-                                tot <a href="/wiki/doku.php?id=web">Web-designers en -ontwikkelaars</a>.',
+                                Om deze omvangrijke en belangrijke taak naar behoren te kunnen doen zijn wij afhankelijk van <a href="https://wiki.mageia.org/en/Sysadmin_Team">systeembeheerders</a>
+                                tot <a href="https://wiki.mageia.org/en/Web_team">Web-designers en -ontwikkelaars</a>.',
         'h3_mirror' => 'Spiegelservers',
         'text_mirror' => 'Om alle software die door Mageia wordt aangeboden wereldwijd beschikbaar te maken hebben wij
                                 <a href="http://mirrors.mageia.org/">diverse spiegelservers (mirrors)
                                 over de hele wereld</a> nodig, om ISO-bestanden en software pakketten te kunnen distribueren.
-                                Wanneer u voldoende diskruimte en bandbreedte heeft om te delen, overweegt u dan alstublieft <a href="/wiki/doku.php?id=mirrors_policy#how_to_become_a_mirror">om een officiële Mageia spiegelserver aan te bieden.</a>.',
+                                Wanneer u voldoende diskruimte en bandbreedte heeft om te delen, overweegt u dan alstublieft <a href="https://wiki.mageia.org/en/Mirrors_policy#How_to_.28become_a.29_mirror.3F">om een officiële Mageia spiegelserver aan te bieden.</a>.',
         'h3_donation' => 'Donaties',
         'text_donation' => 'Gelddonaties helpen ons bij het uitvoeren van onze werkzaamheden. Dit kunnen specifieke taken zijn, maar ook onze infrastructuur, het bekostigen van evenementen, promotiematerialen, transport- en reiskosten, enz.
                                 <a href="/en/thank-you/">Al meer dan 200 personen hebben hun vertrouwen in ons uitgesproken</a>
@@ -1092,7 +1092,7 @@ $_t = array(
                                 <a href="http://bugs.mageia.org/">Bugzilla da Mageia</a> usada pelos desenvolvedores.',
         'h3_qa' => 'Testar e <abbr title="Garantia de Qualidade">QA</abbr>',
         'text_qa' => 'Não podemos distribuir programas dos quais não temos a certeza que funcionam bem!
-                                A equipa de <a href="/wiki/doku.php?id=qateam">Testadores e QA</a>
+                                A equipa de <a href="https://wiki.mageia.org/en/QA_Team">Testadores e QA</a>
                                 certifica-se que o que fazemos (programas, pacotes, imagens ISO, sítios Web)
                                 correspondem às nossas expectativas de qualidade antes de chegarem aos utilizadores.',
         'h3_marketing' => 'Mercado, Comunicação e Evangelismo',
@@ -1104,24 +1104,24 @@ $_t = array(
         'text_graphic' => 'Um programa não é apenas acerca de código, nem a Mageia é apenas acerca de tecnologia.
                                 Como tal torne-a humana, prática e bonita!
                                 Se tem talento, experiência em desenho gráfico e ergonomia,
-                                junte-se à <a href="/wiki/doku.php?id=designers">Equipa Artística</a>!',
+                                junte-se à <a href="https://wiki.mageia.org/en/Artwork_team">Equipa Artística</a>!',
         'h3_dev' => 'Código e Empacotamento',
         'text_dev' => 'Contribuir para o núcleo da distribuição com os seus conhecimentos técnicos!
                                 Adicionar, corrigir, e manter os programas para serem incluídos
                                 na distribuição, desde os projectos na fonte ou das fontes especificas
-                                da Mageia. Junte-se à <a href="/wiki/doku.php?id=packaging">Equipa de Empacotamento</a>!',
+                                da Mageia. Junte-se à <a href="https://wiki.mageia.org/en/Packagers_Team">Equipa de Empacotamento</a>!',
         'h3_web' => 'Web, ferramentas, desenho do sistema e administração',
         'text_web' => 'A Mageia depende da infra-estrutura e das ferramentas que permitam a toda gente
                                 colaborar. Estas precisam de especialistas para compilar, manter, desenvolver, providenciar
                                 e gerir os servidores, conexões, segurança, aplicações, fluxo de dados, etc.
-                                Parte dos <a href="/wiki/doku.php?id=sysadmin">administradores do sistema</a>
-                                para os <a href="/wiki/doku.php?id=web">desenhadores Web/desenvolvedores/integradores</a>
+                                Parte dos <a href="https://wiki.mageia.org/en/Sysadmin_Team">administradores do sistema</a>
+                                para os <a href="https://wiki.mageia.org/en/Web_team">desenhadores Web/desenvolvedores/integradores</a>
                                 a gestão desta enorme tarefa.',
         'h3_mirror' => 'Espelhos',
         'text_mirror' => 'Tornar todos os programas fornecidos pela Mageia disponíveis requer
                                 <a href="http://mirrors.mageia.org/">vários espelhos
                                 à volta do mundo</a>, para distribuir imagens ISO e pacotes de programas.
-                                Se tem espaço em disco e uma boa largura de banda para partilhar, por favor <a href="/wiki/doku.php?id=mirrors_policy#how_to_become_a_mirror">veja como
+                                Se tem espaço em disco e uma boa largura de banda para partilhar, por favor <a href="https://wiki.mageia.org/en/Mirrors_policy#How_to_.28become_a.29_mirror.3F">veja como
                                 pode fornecer um espelho oficial Mageia</a>.',
         'h3_donation' => 'Doar',
         'text_donation' => 'As doações financeiras ajudam-nos a alocar tarefas específicas como, segurar a nossa infra-estrutura,
@@ -1211,7 +1211,7 @@ $_t = array(
                                 usada pelos desenvolvedores.',
         'h3_qa' => 'Testar e <abbr title="Garantia de Qualidade">QA</abbr>',
         'text_qa' => 'Não podemos distribuir programas dos quais não temos a certeza que funcionam bem!
-                                Os <a href="/wiki/doku.php?id=qateam">Testadores e QA</a>
+                                Os <a href="https://wiki.mageia.org/en/QA_Team">Testadores e QA</a>
                                 certificam-se que o que fazemos (programas, pacotes, imagens ISO, sítios Web)
                                 correspondem às nossas expectativas de qualidade antes de chegarem aos utilizadores.',
         'h3_marketing' => 'Mercado, Comunicação e Evangelismo',
@@ -1223,24 +1223,24 @@ $_t = array(
         'text_graphic' => 'Os programas não são apenas acerca de código, nem a Mageia é apenas acerca de tecnologia.
                                 Como tal torná-la humana, prática e bonita!
                                 Se tem talento e experiência em desenho gráfico, ergonomia,
-                                junte-se à <a href="/wiki/doku.php?id=designers">equipa Artística</a>!',
+                                junte-se à <a href="https://wiki.mageia.org/en/Artwork_team">equipa Artística</a>!',
         'h3_dev' => 'Código e Empacotamento',
         'text_dev' => 'Contribuir para o núcleo da distribuição com os seus conhecimentos técnicos!
                                 Adicionar, corrigir, e manter os programas para serem incluídos
                                 na distribuição, desde os projectos na fonte ou das fontes específicas
-                                da Mageia. Junte-se à <a href="/wiki/doku.php?id=packaging">equipa de Empacotamento</a>!',
+                                da Mageia. Junte-se à <a href="https://wiki.mageia.org/en/Packagers_Team">equipa de Empacotamento</a>!',
         'h3_web' => 'Web, ferramentas, desenho do sistema e administração',
         'text_web' => 'A Mageia depende da infra-estructura e das ferramentas que permitam a toda gente
                                 colaborar. Estas precisam de especialistas para compilar, manter, desenvolver, providenciar
                                 e gerir os servidores, conexões, segurança, aplicações, fluxo de dados, etc.
-                                Depende dos <a href="/wiki/doku.php?id=sysadmin">administradores do sistema</a>
-                                para dos <a href="/wiki/doku.php?id=web">desenhadores Web/desenvolvedores/integradores</a>
+                                Depende dos <a href="https://wiki.mageia.org/en/Sysadmin_Team">administradores do sistema</a>
+                                para dos <a href="https://wiki.mageia.org/en/Web_team">desenhadores Web/desenvolvedores/integradores</a>
                                 para gerir esta enorme tarefa.',
         'h3_mirror' => 'Espelhos',
         'text_mirror' => 'Tornar todos os programas fornecidos pela Mageia disponível requer
                                 <a href="http://mirrors.mageia.org/">vários espelhos
                                 à volta do mundo</a>, para distribuir imagens ISO e pacotes de programas.
-                                Se tem espaço em disco e largura de banda para partilhar, por favor <a href="/wiki/doku.php?id=mirrors_policy#how_to_become_a_mirror">veja como
+                                Se tem espaço em disco e largura de banda para partilhar, por favor <a href="https://wiki.mageia.org/en/Mirrors_policy#How_to_.28become_a.29_mirror.3F">veja como
                                 pode fornecer um espelho oficial Mageia</a>.',
         'h3_donation' => 'Doar',
         'text_donation' => 'As doações financeiras ajudam-nos a alocar tarefas específicas, segurar a nossa infra-estructura,
@@ -1326,7 +1326,7 @@ $_t = array(
                                 utilizată de dezvoltatori.',
         'h3_qa' => 'Teste  și <abbr title="Quality Assurance">controlul calității</abbr>',
         'text_qa' => 'Nu putem livra aplicații dacă nu avem încrederea că funcționează bine!
-                                <a href="/wiki/doku.php?id=qateam">Testorii și controlorii de calitate</a>
+                                <a href="https://wiki.mageia.org/en/QA_Team">Testorii și controlorii de calitate</a>
                                 se asigură că aplicațiile, pachetele, imaginile ISO, siturile Internet corespund
                                 criteriilor noastre de calitate înainte să ajungă la utilizatorii finali.',
         'h3_marketing' => 'Promovare, comunicare și evanghelizare',
@@ -1338,23 +1338,23 @@ $_t = array(
         'text_graphic' => 'Aplicațiile nu țin numai de cod și nici Mageia numai de tehnologie.
                                 Deci, acestea trebuiesc făcuteo umane, practice și frumoase!
                                 Dacă aveți talent și experiență în concepție grafică și ergonomie, atunci
-                                <a href="/wiki/doku.php?id=designers">alăturați-vă echipei grafice</a>!',
+                                <a href="https://wiki.mageia.org/en/Artwork_team">alăturați-vă echipei grafice</a>!',
         'h3_dev' => 'Programare și împachetare',
         'text_dev' => 'Contribuiți la realizarea distribuției cu competențele voastre tehnice!
                                 Adăugarea, corectarea, repararea și menținerea aplicațiilor ce sînt incluse
-                                în distribuție, din proiectele în amonte sau din surse specifice Mageia.                         Alăturați-vă <a href="/wiki/doku.php?id=packaging">echipei de împachetatori</a>!',
+                                în distribuție, din proiectele în amonte sau din surse specifice Mageia.                         Alăturați-vă <a href="https://wiki.mageia.org/en/Packagers_Team">echipei de împachetatori</a>!',
         'h3_web' => 'Web, unelte, concepția sistemelor și administrare',
         'text_web' => 'Mageia depinde de infrastructură și de uneltele care permit tuturor să colaboreze
                                 împreună. Toate acestea au nevoie de experți care să construiască, mențină, dezvolte,
                                 furnizeze și să gestioneze serverele, conexiunile, securitatea, aplicațiile, fluxurile de date etc.
-                                Pentru a gestiona această sarcină enormă este nevoie de la <a href="/wiki/doku.php?id=sysadmin">administratori de sistem</a>
-                                pînă la <a href="/wiki/doku.php?id=web">creatori/dezvoltatori/integratori web</a>
+                                Pentru a gestiona această sarcină enormă este nevoie de la <a href="https://wiki.mageia.org/en/Sysadmin_Team">administratori de sistem</a>
+                                pînă la <a href="https://wiki.mageia.org/en/Web_team">creatori/dezvoltatori/integratori web</a>
                                 .',
         'h3_mirror' => 'Servere alternative',
         'text_mirror' => 'Pentru punerea la dispoziție al tuturor aplicațiilor overite de Mageia este nevoie
                                 <a href="http://mirrors.mageia.org/">multe servere alternative răspîndite în
                                 întreaga lume</a>, pentru distribuirea imaginilor ISO și a pachetelor aplicative.
-                                Dacă dispuneți de ceva spațiu pe disc și lățime de bandă de partajat, vă rugăm să <a href="/wiki/doku.php?id=mirrors_policy#how_to_become_a_mirror">consultați cum puteți furniza un server alternativ Mageia oficial</a>.',
+                                Dacă dispuneți de ceva spațiu pe disc și lățime de bandă de partajat, vă rugăm să <a href="https://wiki.mageia.org/en/Mirrors_policy#How_to_.28become_a.29_mirror.3F">consultați cum puteți furniza un server alternativ Mageia oficial</a>.',
         'h3_donation' => 'Donații',
         'text_donation' => 'Donațiile financiare ne ajută la realizarea anumitor sarcini, asigurarea  infrastructurii,
                                 finanțarea evenimentelor, goodies și transportul.
@@ -1440,7 +1440,7 @@ $_t = array(
                                 користуються розробники.',
         'h3_qa' => 'Тестування та забезпечення якості',
         'text_qa' => 'Не можна постачати програмне забезпечення, якщо немає певності у його працездатності!
-                                Учасники <a href="/wiki/doku.php?id=qateam">команди тестування та забезпечення якості</a>
+                                Учасники <a href="https://wiki.mageia.org/en/QA_Team">команди тестування та забезпечення якості</a>
                                 працюють над тим, щоб програмне забезпечення, пакунки, образи ISO та вебсайти
                                 відповідали стандартам якості до того, як вони потраплять на очі користувачів.',
         'h3_marketing' => 'Маркетинг, робота з засобами масової інформації та розповсюдження інформації',
@@ -1452,25 +1452,25 @@ $_t = array(
         'text_graphic' => 'Добре програмне забезпечення — це не лише код, а Mageia — це не лише сплав технологій.
                                 Слід робити все зручним, практичним і красивим!
                                 Якщо ви маєте талант та досвід у дизайні та ергономіці
-                                <a href="/wiki/doku.php?id=designers">долучайтеся до нашої художньої команди</a>!',
+                                <a href="https://wiki.mageia.org/en/Artwork_team">долучайтеся до нашої художньої команди</a>!',
         'h3_dev' => 'Програмування та пакування',
         'text_dev' => 'Створіть основу дистрибутива за допомогою ваших технічних навичок!
                                 Додавання, виправлення, латання та супровід програмного забезпечення, яке
                                 є частиною дистрибутива, основних проектів та специфічних для Mageia
-                                пакунків. Долучайтеся до <a href="/wiki/doku.php?id=packaging">команди пакувальників</a>!',
+                                пакунків. Долучайтеся до <a href="https://wiki.mageia.org/en/Packagers_Team">команди пакувальників</a>!',
         'h3_web' => 'Інтернет, інструменти, розробка систем та адміністрування',
         'text_web' => 'Робота Mageia залежить від інфраструктури та інструментів, за допомогою
                                 яких всі учасники проекту можуть співпрацювати. Отже, нам потрібні знавці, які можуть
                                 збирати, підтримувати, розробляти, надавати у користування та керувати серверами,
                                 з’єднаннями, захистом, програмами, потоками даних тощо.
                                 Ці величезні за обсягом завдання виконуються учасниками команд
-                                <a href="/wiki/doku.php?id=sysadmin">системного адміністрування</a>
-                                та <a href="/wiki/doku.php?id=web">вебдизайнерів, розробників та інтеграторів</a>.',
+                                <a href="https://wiki.mageia.org/en/Sysadmin_Team">системного адміністрування</a>
+                                та <a href="https://wiki.mageia.org/en/Web_team">вебдизайнерів, розробників та інтеграторів</a>.',
         'h3_mirror' => 'Зберігання копій даних',
         'text_mirror' => 'Щоб кожен між отримати доступ до програмного забезпечення Mageia (образів системи та сховищ пакунків), нам потрібні
                                 <a href="http://mirrors.mageia.org/">декілька дзеркал сховищ даних по всьому світі</a>.
                                 Якщо ви можете надати нам місце для зберігання даних та канал для їхнього розповсюдження,
-                                будь ласка, <a href="/wiki/doku.php?id=mirrors_policy#how_to_become_a_mirror">ознайомтеся з тим,
+                                будь ласка, <a href="https://wiki.mageia.org/en/Mirrors_policy#How_to_.28become_a.29_mirror.3F">ознайомтеся з тим,
                                 як можна створити офіційне дзеркало даних Mageia</a>.',
         'h3_donation' => 'Фінансова підтримка',
         'text_donation' => 'Фінансова підтримка допоможе нам у виконанні певних завдань, захисті нашої інфраструктури,
@@ -1548,7 +1548,7 @@ $_t = array(
                                 <a href="https://wiki.mageia.org/en/Bug_Squad">請加入分類團隊</a>來做為在論壇上或郵件論壇中回報錯誤的使用者，與使用 <a href="http://bugs.mageia.org/">Mageia Bugzilla</a> 的開發者間的橋樑。',
         'h3_qa' => '測試與品管',
         'text_qa' => '除非我們能確信軟體運作正確，不然不能隨便給使用者使用。
-                                <a href="/wiki/doku.php?id=qateam">測試與品管</a>
+                                <a href="https://wiki.mageia.org/en/QA_Team">測試與品管</a>
                                 在做的就是這件事，確認我們的軟體、套件與 ISO 映像檔，網站等的品質沒有問題。',
         'h3_marketing' => '宣傳、交流與推廣',
         'text_marketing' => '對於計畫的使用者與貢獻者有更深的了解並且協助他們，確保 Mageia 的聲音能傳出去且維持一致
@@ -1558,22 +1558,22 @@ $_t = array(
         'text_graphic' => '軟體並不只是程式碼，Mageia也不只是科技
                                 所以讓他人性化，實用而且美觀吧！
                                 如果您對圖形設計與人機介面設計有天賦和經驗，
-                                <a href="/wiki/doku.php?id=designers">加入美工團隊！</a>!',
+                                <a href="https://wiki.mageia.org/en/Artwork_team">加入美工團隊！</a>!',
         'h3_dev' => '寫程式與包套件',
         'text_dev' => '透過您的技術支援，直接貢獻到計畫的核心吧！
                                 加入、修正、補充與維護將要加入到套件組的軟體，不論是來自其他上游的計畫或者 Mageia 專屬的來源。
-                                加入<a href="/wiki/doku.php?id=packagers">套件包裝團隊</a>！',
+                                加入<a href="https://wiki.mageia.org/en/Packagers_Team">套件包裝團隊</a>！',
         'h3_web' => '網路、工具、系統設計與管理',
         'text_web' => 'Mageia 仰賴各種架構與工具讓每個人都能協同合作。這些都需要專家們來建構、
                                 維護、開發、提供並管理伺服器、連線、安全性、應用程式、資料傳輸等。
-                                無論是 <a href="/wiki/doku.php?id=sysadmin">系統管理者</a>或
-                                <a href="/wiki/doku.php?id=web">網頁設計師/開發者/整合工程師</a>
+                                無論是 <a href="https://wiki.mageia.org/en/Sysadmin_Team">系統管理者</a>或
+                                <a href="https://wiki.mageia.org/en/Web_team">網頁設計師/開發者/整合工程師</a>
                                 都能出一份力。',
         'h3_mirror' => '映射站台',
         'text_mirror' => '讓 Mageia所提供的所有軟體可以讓大家取得需要
                                 <a href="http://mirrors.mageia.org/">全世界的鏡像站</a>,
                                 協助發布ISO與軟體套件。
-                                如果您有多餘的磁碟空間與頻寬分享給大眾， 請到<a href="/wiki/doku.php?id=mirrors_policy#how_to_become_a_mirror">
+                                如果您有多餘的磁碟空間與頻寬分享給大眾， 請到<a href="https://wiki.mageia.org/en/Mirrors_policy#How_to_.28become_a.29_mirror.3F">
                                 如何建立一個Mageiia官方鏡像站</a>.',
 		'h3_donation' => '捐款',
 		'text_donation' => '財務捐款可以幫助我們分配特殊任務，確保我們的基礎架構，
