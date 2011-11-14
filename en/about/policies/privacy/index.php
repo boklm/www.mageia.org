@@ -1,3 +1,3 @@
 <?php
-header('Location: http://mageia.org/wiki/doku.php?id=privacy_policy');
+header('Location: https://wiki.mageia.org/en/Privacy_policy');
 die;

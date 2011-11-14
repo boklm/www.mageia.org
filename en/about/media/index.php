@@ -31,8 +31,8 @@
                     
                 <hr>
                 
-                <p>Please consult <a href="/wiki/doku.php?id=designers">artwork team</a>
-                or <a href="/wiki/doku.php?id=marketing">marcom' team</a>
+                <p>Please consult <a href="https://wiki.mageia.org/en/Artwork_team">artwork team</a>
+                or <a href="https://wiki.mageia.org/en/Marcom_Team">marcom' team</a>
                 if you have questions/concerns about using these files.</p>
                 
             </div></div>
