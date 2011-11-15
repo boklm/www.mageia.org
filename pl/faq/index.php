@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
 <head>
@@ -51,7 +50,7 @@
                     <h3>Jak mogę pomóc w rozwoju projektu?</h3>
 
                     <p>Wszystkie typy umiejętności są mile widziane.
-                        Możesz <a href="http://mageia.org/wiki/doku.php">zarejestrować się na wiki</a>,
+                        Możesz <a href="https://wiki.mageia.org/en/">zarejestrować się na wiki</a>,
                         a następnie dodać swoje nazwisko w grupie, która będzie ci najbardziej odpowiadała.</p>
 
                     <h3>Jak mogę skontaktować się z osobami odpowiedzialnymi za projekt?</h3>

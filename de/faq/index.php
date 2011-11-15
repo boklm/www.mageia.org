@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html>
 <html dir="ltr" lang="de">
 <head>
@@ -49,7 +48,7 @@
 
                     <h3>Wie kann ich etwas zu Mageia beitragen?</h3>
                     <p>Es werden Leute mit allen möglichen Fähigkeiten benötigt.
-                        Du kannst Dich <a href="http://mageia.org/wiki/doku.php">auf unserem Wiki</a>
+                        Du kannst Dich <a href="https://wiki.mageia.org/en/">auf unserem Wiki</a>
                         für ein Team registrieren, das am ehesten Deinen Fähigkeiten entspricht.</p>
 
                     <h3>Wie kann ich mit dem Projekt in Kontakt treten?</h3>

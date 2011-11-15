@@ -48,7 +48,7 @@
 
                     <h3>Cum pot contribui și eu la proiectul Mageia?</h3>
                     <p>Toate felurile de aptitudini sînt bine venite.
-                        Vă puteți <a href="http://mageia.org/wiki/doku.php">înregistra pe wiki</a>,
+                        Vă puteți <a href="https://wiki.mageia.org/en/">înregistra pe wiki</a>,
                         la orice temă care se potrivește cel mai bine aptitudinilor voastre.</p>
 
                     <h3>Cum pot contacta proiectul?</h3>

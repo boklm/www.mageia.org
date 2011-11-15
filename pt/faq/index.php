@@ -42,7 +42,7 @@
                     <p>Pode enviar as suas ideias sobre o logotipo para o&nbsp; <a href="http://www.flickr.com/groups/mageia-art/" hreflang="pt">grupo de arte Mageia</a>.</p>
 
                     <h3>Como posso contribuir para o projecto Mageia?</h3>
-                    <p>Todos os tipos de conhecimentos são bem-vindos. Pode-se&nbsp; <a href="http://mageia.org/wiki/doku.php">registar na wiki</a>, em qualquer equipa.</p>
+                    <p>Todos os tipos de conhecimentos são bem-vindos. Pode-se&nbsp; <a href="https://wiki.mageia.org/en/">registar na wiki</a>, em qualquer equipa.</p>
 
                     <h3>Como posso entrar em contacto com o projecto?</h3>
                     <p>Pode enviar uma mensagem electrónica para&nbsp; mageia-contact (em) mageia (ponto) org.</p>

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE HTML>
 <html dir="ltr" lang="zh-CN">
 <head>
@@ -62,7 +61,7 @@
                     <h3>我如何为Mageia项目贡献力量？</h3>
 
                     <p>您可以通过各种方式贡献力量。
-                        比如，<a href="http://mageia.org/wiki/doku.php">在wiki注册</a>，
+                        比如，<a href="https://wiki.mageia.org/en/">在wiki注册</a>，
                         加入最适合您的团队。</p>
 
                     <h3>我如何联系此项目？</h3>

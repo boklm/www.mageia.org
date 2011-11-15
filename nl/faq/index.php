@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
 <head>
@@ -50,7 +49,7 @@
 
                     <h3>How can I contribute to the mageia project?</h3>
                     <p>All sorts of skill sets are welcome.
-                        You can <a href="http://mageia.org/wiki/doku.php">register yourself on the wiki</a>,
+                        You can <a href="https://wiki.mageia.org/en/">register yourself on the wiki</a>,
                         in whatever teams that best fit your skills.</p>
 
                     <h3>How can I contact the project?</h3>

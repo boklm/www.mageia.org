@@ -47,7 +47,7 @@
 
                     <h3>Kā es varu palīdzēt Mageia projektam?</h3>
                     <p>Jebkurš atbalsts tiek ļoti gaidīts.
-                        Jūs varat <a href="http://mageia.org/wiki/doku.php">pieteikties wiki</a>,
+                        Jūs varat <a href="https://wiki.mageia.org/en/">pieteikties wiki</a>,
                         grupā, kura vislabāk atbilst Jūsu prasmēm.</p>
 
                     <h3>Kā es varu sazināties ar Mageia projektu?</h3>

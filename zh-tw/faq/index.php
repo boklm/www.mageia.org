@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html>
 <html dir="ltr" lang="zh-tw">
 <head>
@@ -49,7 +48,7 @@
 
                     <h3>我能怎麼幫助 Mageia 計劃？</h3>
                     <p>各種技術都行。
-                        您可以在 <a href="http://mageia.org/wiki/doku.php">wiki</a>,
+                        您可以在 <a href="https://wiki.mageia.org/en/">wiki</a>,
                         上面依照您的專長選擇最適合的團隊登記</p>
 
                     <h3>我要怎麼和此計劃聯絡？</h3>

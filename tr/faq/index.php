@@ -42,7 +42,7 @@ e-mektubuna &uuml;ye olun</a>.</p>
 grubunda</a> paylaşabilirsiniz.</p>
 
                     <h3>Mageia projesine nasıl katkıda bulunabilirim?</h3>
-                    <p>Her t&uuml;rl&uuml; yeteneğe kapımız a&ccedil;ıktır. Yeteğenize uygun bir alan i&ccedil;in <a href="http://mageia.org/wiki/doku.php">wiki sayfasında ilgilendiğiniz alana isminizi</a> kaydedin.</p>
+                    <p>Her t&uuml;rl&uuml; yeteneğe kapımız a&ccedil;ıktır. Yeteğenize uygun bir alan i&ccedil;in <a href="https://wiki.mageia.org/en/">wiki sayfasında ilgilendiğiniz alana isminizi</a> kaydedin.</p>
 
                     <h3>Proje ile nasıl iletişim kurabilirim?</h3>
                     <p>mageia-contact (kuyruklu a) mageia (nokta) org adresine e-mektup g&ouml;nderebilirsiniz.</p> <h3>Projeye nasıl bağışta

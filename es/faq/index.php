@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html>
 <html dir="ltr" lang="es">
 <head>
@@ -44,7 +43,7 @@
                     <p>Puedes enviar tus propuestas de logo al grupo de flickr <a href="http://www.flickr.com/groups/mageia-art/" hreflang="en">Mageia art group</a>.</p>
 
                     <h3>¿Cómo puedo contribuir con el proyecto Mageia?</h3>
-                    <p>Se necesitan todo tipo de habilidades. Te puedes <a href="http://mageia.org/wiki/doku.php">registrar en el wiki</a>, en la sección que mejor se ajuste a tu perfil.</p>
+                    <p>Se necesitan todo tipo de habilidades. Te puedes <a href="https://wiki.mageia.org/en/">registrar en el wiki</a>, en la sección que mejor se ajuste a tu perfil.</p>
 
                     <h3>¿Cómo puedo contactar con el proyecto?</h3>
                     <p>Puedes enviar un correo electrónico a Mageia contacto (arroba) Mageia (punto) org.</p>

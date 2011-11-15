@@ -105,7 +105,7 @@
 
                     <hr />
                     <h2 id="more">More.</h2>
-                    <p>For a more detailed description of <a href="http://mageia.org/wiki/doku.php?id=qa_bugzilla#how-to_report_a_bug">how to report a bug</a>.</p>
+                    <p>For a more detailed description of <a href="https://wiki.mageia.org/en/Bugzilla#How-to_report_a_bug">how to report a bug</a>.</p>
                 </div>
             </div>
         </div>

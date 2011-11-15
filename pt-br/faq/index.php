@@ -44,7 +44,7 @@ versão do Mageia disponível ainda. Você poderá se <a href="https://www.magei
 <p>Você pode enviar suas idéias sobre o logo no&nbsp; <a href="http://www.flickr.com/groups/mageia-art/" hreflang="en">Mageia art group</a>.</p>
 
 <h3>Como eu posso contribuir com o projeto Mageia?</h3>
-<p>Todos os tipos de habilidades são bem-vindas. Você pode se&nbsp; <a href="http://mageia.org/wiki/doku.php">cadastrar no wiki</a>, em qualquer equipe que melhor atender às suas
+<p>Todos os tipos de habilidades são bem-vindas. Você pode se&nbsp; <a href="https://wiki.mageia.org/en/">cadastrar no wiki</a>, em qualquer equipe que melhor atender às suas
 habilidades.</p>
 
 <h3>Como posso entrar em contactar com o projeto?</h3>
