@@ -47,7 +47,7 @@
 
                     <h3>Kuidas ma saan kaasa aidata Mageia projektile?</h3>
                     <p>Me ootame igasuguste oskustega inimesi.
-                        Te võite <a href="http://mageia.org/wiki/">registreerida ennast wikis</a>
+                        Te võite <a href="https://wiki.mageia.org/en/">registreerida ennast wikis</a>
                         just sellises meeskonnas, mis kõige paremini vastab teie oskustele ja võimetele.</p>
 
                     <h3>Kuidas projektiga ühendust võtta?</h3>

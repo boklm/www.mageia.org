@@ -45,7 +45,7 @@
                         <a href="http://www.flickr.com/groups/mageia-art/">http://www.flickr.com/groups/mageia-art/</a>.</p>
 
                     <h3>Que puis-je faire&nbsp;?</h3>
-                    <p>Tout le monde est bienvenu. Vous pouvez <a href="http://mageia.org/wiki/">vous inscrire sur le wiki</a> selon vos compétences et vos souhaits.</p>
+                    <p>Tout le monde est bienvenu. Vous pouvez <a href="https://wiki.mageia.org/en/">vous inscrire sur le wiki</a> selon vos compétences et vos souhaits.</p>
 
                     <h3>Comment contacter le projet&nbsp;?</h3>
                     <p>Vous pouvez envoyer un email à cette adresse mageia-contact (at) mageia (dot) org</p>
