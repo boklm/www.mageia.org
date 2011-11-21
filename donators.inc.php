@@ -4,9 +4,9 @@
 
 /**
  */
-$anonymous = 15;
+$anonymous = '15';
 $donators = array(
-    'Anonymous (x $anonymous)',
+    'Anonymous (x '.$anonymous.')',
     'Pascal Vilarem (Maât)',
     'Vicente Salvador Cubedo',
     'Samuel Verschelde (Stormi)',
@@ -300,9 +300,9 @@ $orgs = array(
  *
  * @return string
 */
-function html_donators_list($donators)
+function html_donators_list($donators,$anonymous)
 {
-    $count_donators = count($donators)+$anonymous;
+    $count_donators = count($donators)+$anonymous-1; // -1 because 'anonymous' is count 1 more time in 'donators()'
     //$donators = array_unique($donators);
     sort($donators);
 

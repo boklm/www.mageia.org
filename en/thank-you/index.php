@@ -26,7 +26,7 @@
                     <p>It would not have either, without help and donation from many people and organizations.
                         This page is here to remind of their contribution to this project.</p>
 
-                    <?php echo html_donators_list($donators); ?>
+                    <?php echo html_donators_list($donators,$anonymous); ?>
 
                     <p>Great places and teams that welcomed us and offerred us some tea, coffee, seats and advice
                         (mostly in Paris for now):</p>
