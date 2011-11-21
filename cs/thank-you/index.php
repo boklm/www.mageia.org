@@ -19,7 +19,7 @@
                 <div class="para donate">
                     <?php include '../../donators.inc.php'; ?>
 
-                    <p>Mageia bys se nestala skutečností bez
+                    <p>Mageia by se nestala skutečností bez
                         nadšení, rad a zapojení stovek lidí.</p>
 
                     <p>Také by se neobešla bez pomoci a darů od mnoha lidí a organizací.
