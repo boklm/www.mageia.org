@@ -2,11 +2,11 @@
 <html dir="ltr" lang="cs">
 <head>
     <meta charset="utf-8">
-    <title>Mageia calendar</title>
-    <meta name="description" content="Mageia calendar for organization, events, development schedule and more.">
+    <title>Mageia kalendář</title>
+    <meta name="description" content="Mageia kalendář pro organizaci, události, rozvrh vývoje a další.">
     <meta name="keywords" content="mageia, linux, calendar, events">
     <meta name="author" content="Mageia">
-    <link rel="stylesheet" type="text/css" href="/g/style/all.css" >
+    <link rel="stylesheet" type="text/css" href="/g/style/all.css">
     <?php include '../../analytics.php'; ?>
 </head>
 <body>
@@ -67,16 +67,16 @@
 
                 <div class="para">
                     <p>Tento kalendář ukazuje všechny události Mageii,
-                        <a href="https://wiki.mageia.org/en/meetings">setkání týmů</a>,
+                        <a href="https://wiki.mageia.org/en/Meetings">setkání týmů</a>,
                         milníky ve vývojovém plánu
                         a možná i další zajímavosti.</p>
                     <p>Je veřejný a pro čtení přístupný všem, ovšem pouze členové vedení projektu Mageia a vedoucí týmů
                         do něj mohou zapisovat.</p>
                     <p>Budete-li nám chtít předat jakoukoli poznámku, dodatek, změnu v kalendáři, spojte se s námi přes:</p>
                     <ul>
-                        <li>svého <a href="https://wiki.mageia.org/">týmového</a> vedoucího nebo představitele,</li>
+                        <li>your <a href="https://wiki.mageia.org/">týmového</a> vedoucího nebo představitele,</li>
                         <li><a href="irc://irc.freenode.net/#mageia-dev">IRC kanál #mageia-dev</a> na serveru Freenode,</li>
-                        <li>jako poslední možnost uvádíme i email <a href="mailto:mageia-contact@mageia.org">mageia-contact@mageia.org</a>.</li>
+                        <li>jako poslední možnost uvádíme adresu elektronické pošty <a href="mailto:mageia-contact@mageia.org">mageia-contact@mageia.org</a>.</li>
                     </ul>
                 </div>
                 <div class="para">
