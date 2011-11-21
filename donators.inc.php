@@ -302,7 +302,7 @@ $orgs = array(
 */
 function html_donators_list($donators)
 {
-    $count_donators = count($donators+$anonymous);
+    $count_donators = count($donators)+$anonymous;
     //$donators = array_unique($donators);
     sort($donators);
 
