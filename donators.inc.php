@@ -266,7 +266,8 @@ $donators = array(
     'Angelika Furrer',
     'Valentin Moon',
     'Jean Derouet',
-    'Patrick Le Tiec'
+    'Patrick Le Tiec',
+    'Design D4PB'
 );
 
 //$html .= '<img src="/g/images/mageia_0.svg" style="position: absolute; top: 180px; width: 300px; opacity: 0.2;" />';
