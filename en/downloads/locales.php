@@ -64,7 +64,7 @@ Note that translations are on their way.',
         'Africa/India set' => 'Africa/India',
         'popularity' => 'Popularity',
         'for_full_install' => 'For a full, Free Software-only, installation:',
-        'warn-free' => 'Note that these DVD ISOs are made of Free Software <em>exclusively</em>. As a consequence, <em>some proprietary Wi-Fi and video drivers '
+        'warn-free' => 'Note that these DVD ISOs are made of Free Software <em>exclusively</em>. As a consequence, <em>proprietary Wi-Fi and video drivers '
             . 'are not included</em>. If you need WiFi or specific video drivers at install time, you should go with above LiveCDs instead.',
         'for_test_live' => 'For live test and install: LiveCD 32bit',
         'for_network' => 'For a wired network install:',
