@@ -253,6 +253,7 @@ span.pop_3 { width: 20px; }
 span.pop_4 { width: 35px; }
 span.pop_5 { width: 50px; }
 .dlinfo { font-size: 85%; color: #888; }
+.dlinfo.warn { color: #a00; }
 .dlt2 tr.reco td { font-weight: bold; }
 
 .noborder { border-collapse: collapse; border: 0; }

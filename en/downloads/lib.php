@@ -87,6 +87,7 @@ foreach ($prods2 as $flavour => $prods3) {
 
 $table_tmpl = <<<T
 <h3>%s</h3>
+%s
 <table class="dlt2">
     <thead>
         <tr>
@@ -103,19 +104,24 @@ $table_tmpl = <<<T
 T;
 
 $dl_table
-    = sprintf($table_tmpl, $_t['for_test_live'], $s2)
+    = sprintf($table_tmpl, $_t['for_test_live'], null, $s2)
     . "<p class='dlinfo'>{$_t['def-Europa set 1']}</p>
     <p class='dlinfo'>{$_t['def-Europa set 2']}</p>
     <p class='dlinfo'>{$_t['def-Asia set']}</p>
     <p class='dlinfo'>{$_t['def-Africa/India set']}</p><br>"
 
-    . sprintf($table_tmpl, $_t['for_full_install'], $s1)
+    . '<hr>'
+    . sprintf($table_tmpl,
+        $_t['for_full_install'],
+        '<p class="dlinfo warn">' . $_t['warn-free'] . '</p>', $s1)
     . "<p class='dlinfo'>{$_t['all_languages']}</p>
     <p class='dlinfo'>{$_t['limited_languages']}</p><br>"
-
-    . sprintf($table_tmpl, $_t['for_network'], $s3);
+    . '<hr>'
+    . sprintf($table_tmpl, $_t['for_network'], '', $s3);
 
 $dl_table .= <<<T
+<br>
+<hr>
 <p class="dlinfo">{$_t['not_sure_what_iso']}</p>
 T;
 
