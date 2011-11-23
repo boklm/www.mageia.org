@@ -25,7 +25,7 @@ $_t = array(
         'dl_size' => '(download size is about %s).',
         'alt_download' => 'If the download does not start, <a href="%s" rel="nofollow" title="%s">click here</a>.',
         'signs_check_1' => 'As soon as your download is complete, you should check that the signatures match:',
-        'signs_check_2' => 'If signatures do not match, do not use this ISO. Double-check and try to download again.',
+        'signs_check_2' => 'If signatures do not match, <strong>DO NOT use this ISO</strong>. Double-check and try to download again.',
         'dl_mirror_loc' => 'This <a href="%s">%s</a> download mirror is located in %s (%s).',
         'dl_alt_mirrors' => 'If it does not work well for you, <a href="#om" id="other_mirrors_btn">check out these other mirrors</a>.',
         'whatdouthink?' => 'What do you think of it?',

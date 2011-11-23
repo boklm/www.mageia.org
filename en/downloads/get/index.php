@@ -168,7 +168,10 @@ $_t['page_title'] = sprintf($_t['page_title'], '<em class="tag">' . $title . '</
                 </table>
 
                 <hr />
-                <h2><?php echo sprintf($_t['wanttohelp?'], '<strong><a href="http://mageia.org/contribute/">', '</a></strong>'); ?></h2>
+                <p>The making and the distribution of Mageia worldwide is made possible by all
+                    the <a href="http://mirrors.mageia.org/">people and organizations that mirror our software</a>
+                    and that <a href="/en/thank-you/">donate money, hardware, hosting and more</a>.
+                    <?php echo sprintf($_t['wanttohelp?'], '<a href="http://mageia.org/contribute/">', '</a>'); ?></p>
                 </div></div>
             <?php else: ?>
                 <div class="yui-g"><div class="para">
