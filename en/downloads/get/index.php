@@ -172,20 +172,22 @@ $_t['page_title'] = sprintf($_t['page_title'], '<em class="tag">' . $title . '</
                 </div></div>
             <?php else: ?>
                 <div class="yui-g"><div class="para">
-                    <p>Sorry, your download could not complete, as we could not find this file.
+                    <h2>Sorry! :-(</h2>
+                    <p>Your download could not complete, as we could not find this file.
                         Please try again from the <a href="/downloads/">main downloads page</a>.</p>
 
-                    <p>If you still encounter this error, please warn us through:</p>
+                    <p>If you still encounter this error and think IT SHOULD NOT HAPPEN &ndash; please tell us:</p>
                     <ul>
-                        <li><a href="irc://irc.freenode.net/#mageia-web">#mageia-web on Freenode IRC</a>,</li>
-                        <li>a <a href="http://twitter.com/mageia_org">notice on our Tweeter account</a>,</li>
-                        <li>a <a href="https://www.mageia.org/mailman/listinfo/mageia-webteam">notice on the Web team mailing-list</a>,</li>
+                        <li>directly on <a href="irc://irc.freenode.net/#mageia-web">#mageia-web on Freenode IRC</a>,</li>
+                        <li>or <a href="http://twitter.com/mageia_org">via our Tweeter account</a>,</li>
+                        <li>or with a <a href="https://www.mageia.org/mailman/listinfo/mageia-webteam">notice on the Web team mailing-list</a>,</li>
                         <li>or a <a href="https://bugs.mageia.org/">bug report</a>.</li>
                     </ul>
                     
                     <p>You may embed this debug info if you like:</p>
                     <pre class="term small"><?php echo $reason, "\n", (json_encode($_GET)); ?></pre>
                     <p>Thanks!</p>
+                    <p><a href="/">&laquo; back to that awesome Mageia home page</a></p>
                 </div></div>
             <?php endif; ?>
     </div>
