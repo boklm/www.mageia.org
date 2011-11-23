@@ -332,7 +332,7 @@ function html_people_list($people)
 */
 function html_orgs_list($orgs)
 {
-    $html = '<ul class="ty-ppl-list">';
+    $html = '<ul class="ty-ppl-list twocol">';
     foreach ($orgs as $o)
         $html .= sprintf('<li><a href="%s">%s</a> %s</li>', $o[0], $o[1], @$o[2]);
     $html .= '</ul>';
