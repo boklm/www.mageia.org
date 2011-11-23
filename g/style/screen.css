@@ -49,6 +49,9 @@ pre.term {
   padding: 0.8em 1em;
   -webkit-box-shadow: 0 0 10px #aaa;
 }
+.term.small {
+    font-size: 80%;
+}
 
 hr {
   display: block;
@@ -63,7 +66,7 @@ hr {
 }
 
 .date { color: #444; font-style: italic; font-size: 1em; }
-#doc {
+#doc, #doc4 {
   margin: 1em auto 2em auto;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -72,8 +75,8 @@ hr {
   -moz-box-shadow: 0 0 6px #555;
   box-shadow: 0 0 6px #555;
   overflow: hidden;
+  background: #fff;
 }
-#doc { background: #fff; }
 
 #hd {
   background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), color-stop(50%, #ffffff), to(#f0f0f0));
@@ -224,7 +227,7 @@ table#dl-table th { text-align: left; }
   border: 1px solid transparent;
   vertical-align: top;
 }
-.dlt2 thead th { color: #aaa; font-size: 85%; text-align: left; }
+.dlt2 thead th, .dlt2 th.h { color: #aaa; font-size: 85%; text-align: left; }
 .dlt2 th {
   border: 0;
   border-bottom: 1px solid #ccc;
@@ -253,7 +256,7 @@ span.pop_3 { width: 20px; }
 span.pop_4 { width: 35px; }
 span.pop_5 { width: 50px; }
 .dlinfo { font-size: 85%; color: #888; }
-.dlinfo.warn { color: #a00; }
+.warn { color: #a00; }
 .dlt2 tr.reco td { font-weight: bold; }
 
 .noborder { border-collapse: collapse; border: 0; }
@@ -362,4 +365,15 @@ p#subnav a.sel { color: #000; }
 }
 .product-act { 
     margin-bottom: 2.5em; 
+}
+
+.red-sign {
+    color: white;
+    font-weight: bold;
+    line-height: 1.6em;
+    background: #a00;
+    font-size: 90%;
+    padding: 0.7em 2em 0.8em 2em;
+    margin: 0.5em -27px 1.5em -27px;
+    text-shadow: 1px 1px 3px #000;
 }
