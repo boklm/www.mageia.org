@@ -81,7 +81,10 @@ Note that translations are on their way.',
             you may directly <a href="/en/1/migrate/">upgrade your system to Mageia 1</a> as well.</p>',
         'not_sure_what_iso' => 'Not sure of what ISO to download? This may still be a bit verbose, but you may want to
             <a href="https://wiki.mageia.org/en/Installation_Media">read this article detailing our 
-            different install media</a>.'
+            different install media</a>.',
+        'Country' => 'Country',
+        'City' => 'City',
+        'Download mirrors', 'Download mirrors'
     ),
     'cs' => array(
         'download' => 'stahování',
@@ -539,7 +542,10 @@ veebimeeskonda Freenode IRC-kanalil <a href="irc://irc.freenode.net/#mageia-web"
             malayâlam, marâthî, panjâbî, tamoul, tsonga, tswana, venda, xhosa, yoruba, zoulou.',
         'popularity' => 'Popularité',
         'dl_migrate_instead' => 'Si vous utilisez Mandriva Linux 2010.1 ou 2010.2, vous pouvez aussi <a href="/fr/1/migrate/">migrer votre système vers Mageia 1</a>.</p>',
-        'not_sure_what_iso' => 'Vous ne savez pas quelle image ISO télécharger&nbsp;? Cela peut vous sembler un peu détaillé, mais vous pouvez <a href="https://wiki.mageia.org/en/Installation_Media">lire cet article qui présente nos différents supports d’installation</a>.'
+        'not_sure_what_iso' => 'Vous ne savez pas quelle image ISO télécharger&nbsp;? Cela peut vous sembler un peu détaillé, mais vous pouvez <a href="https://wiki.mageia.org/en/Installation_Media">lire cet article qui présente nos différents supports d’installation</a>.',
+        'Country' => 'Pays',
+        'City' => 'Ville',
+        'Download mirrors' => 'Miroirs de téléchargement'
     ),
     'it' => array(
         'download' => 'scarica',

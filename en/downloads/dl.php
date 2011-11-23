@@ -135,7 +135,9 @@ $dl2_mirror_alt = sprintf($_t['dl_mirror_loc'],
                     <?php endif; ?>
                 </div>
                 <table class="dlt2 dlinfo" id="other_mirrors" style="display: none;">
-                    <thead><tr><th>Country</th><th>City</th><th>Download mirrors</th></tr></thead>
+                    <thead><tr><th><?php echo $_t['Country']; ?></th>
+                        <th><?php echo $_t['City']; ?></th>
+                        <th><?php echo $_t['Download mirrors']; ?></th></tr></thead>
                     <tbody><?php echo $dl_alt_mirrors_table; ?></tbody>
                 </table>
 
