@@ -6,6 +6,10 @@ $product = isset($_GET['product']) ? trim(strtolower($_GET['product'])) : null;
 $torrent = isset($_GET['torrent']) ? true : false;
 $mirror  = isset($_GET['mirror']) ? trim(strtolower($_GET['mirror'])) : null;
 
+function get($s) {
+    return isset($_GET[$s]) ? trim($_GET[$s]) : null;
+}
+
 define('HLANG', true);
 require '../../langs.php';
 require 'locales.php';
@@ -27,6 +31,7 @@ if (!is_null($product)) {
     }
 }
 
+// TODO: if (!is_valid_product($product, $productsList))
 if (!$found) {
     header('Location: /downloads/');
     die;
@@ -36,8 +41,8 @@ include '../../lib/Downloads.php';
 $g_mirrors   = Downloads::get_all_mirrors();
 $product_iso = $product . '.iso';
 
-$wsd = new Downloads($locale, null);
-$a = $wsd->prepare_download(null, true);
+$wsd = new Downloads();
+$a = $wsd->prepare_download(true, get('country'));
 $product_dl_link = null;
 
 if ($torrent) {

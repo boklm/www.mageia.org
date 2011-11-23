@@ -84,7 +84,7 @@ Note that translations are on their way.',
             different install media</a>.',
         'Country' => 'Country',
         'City' => 'City',
-        'Download mirrors', 'Download mirrors'
+        'Download mirrors' => 'Download mirrors'
     ),
     'cs' => array(
         'download' => 'stahování',

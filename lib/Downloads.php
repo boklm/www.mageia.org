@@ -9,12 +9,9 @@
 class Downloads
 {
     /**
-     * @param string $country matches the URI base dir
-     * @param string $locale
     */
-    function __construct($locale = 'en', $cache = null)
+    function __construct()
     {
-        $this->_locale  = $locale;
     }
     /**
      * @param string $ua
@@ -32,9 +29,9 @@ class Downloads
     {
         if ($ua == '')
             return array(
-                'arch'   => 'i586',
-                'system' => 'unknow',
-                'locale' => 'en',
+                'arch'    => 'i586',
+                'system'  => 'unknown',
+                'locale'  => 'en',
                 'browser' => null
             );
 
@@ -81,9 +78,9 @@ class Downloads
             $browser = 'opera';
 
         return array(
-            'arch'   => $arch,
-            'system' => $sys,
-            'locale' => $locale, // FIXME (rda) use Accept-Language instead
+            'arch'    => $arch,
+            'system'  => $sys,
+            'locale'  => $locale, // FIXME (rda) use Accept-Language instead
             'browser' => $browser
         );
     }
@@ -93,7 +90,7 @@ class Downloads
     public static function get_all_mirrors()
     {
         $prod = true;
-        $cache_file = realpath('../../lib/cached.list.php');
+        $cache_file = realpath(__DIR__ . '/cached.list.php');
 
         if ($prod) {
             require $cache_file;
@@ -101,13 +98,13 @@ class Downloads
         }
 
         // @todo cache this!
-        $data = file('http://mirrors.mageia.org/api/mageia.1.i586.list');
+        $data     = file('http://mirrors.mageia.org/api/mageia.1.i586.list');
         $mirrors3 = array();
         foreach ($data as $line) {
             $line = explode(',', trim($line));
-            $m = array();
+            $m    = array();
             foreach ($line as $val) {
-                $val = explode('=', trim($val));
+                $val        = explode('=', trim($val));
                 $m[$val[0]] = $val[1];
             }
             $pu = parse_url($m['url']);
@@ -142,6 +139,7 @@ class Downloads
                 $mirs_tmp = array_merge($mirs_tmp, $mirs['DE']);
             }
             shuffle($mirs_tmp);
+
             return array_shift($mirs_tmp);
         }
         else
@@ -149,6 +147,7 @@ class Downloads
             shuffle($mirs);
             $mirs = array_shift($mirs);
             shuffle($mirs);
+
             return array_shift($mirs);
         }
     }
@@ -180,8 +179,7 @@ class Downloads
         else
         {
             require_once '../../lib/maxmind/geoip/geoip.inc.php';
-            $gi = geoip_open(realpath('../../lib/maxmind/geoip/GeoIP.dat'),
-                GEOIP_STANDARD);
+            $gi  = geoip_open(realpath('../../lib/maxmind/geoip/GeoIP.dat'), GEOIP_STANDARD);
             $loc = @geoip_country_code_by_addr($gi, $ip);
             geoip_close($gi);
         }
@@ -190,35 +188,38 @@ class Downloads
 
         return strtoupper($loc);
     }
+    
+    function prepare_download($force = false, $country = null)
+    {
+        return $this->get_one_mirror($force, $country);
+    }
 
     /**
      * Setup session data about current visitor for downloads.
      *
-     * @param string $version
      * @param boolean $force
      *
      * @return array
+     *
+     * TODO extract as much as possible $_SESSION(read) and $_SERVER and $_GET
     */
-    function prepare_download($version, $force = false)
+    function get_one_mirror($force = false, $country = null)
     {
         $fuzzy_mirror = false;
 
-        if (isset($_GET['country']))
-        {
-            $country = $_GET['country'];
+        if (!is_null($country))
             $force = true;
-        }
-        
+
         if (!$force && isset($_SESSION['dl-data']))
         {
             //error_log(sprintf('Got session data: %s', print_r($_SESSION['dl-data'], true)));
             $system  = $_SESSION['dl-data']['system'];
             if (isset($_GET['mirror']))
             {
-                $mirror = array('url' => $_GET['mirror']);
-                $mirror['purl'] = parse_url($mirror['url']);
+                $mirror                        = array('url' => $_GET['mirror']);
+                $mirror['purl']                = parse_url($mirror['url']);
                 $_SESSION['dl-data']['mirror'] = $mirror;
-                $country = '';
+                $country                       = '';
             }
             else
             {
@@ -232,9 +233,9 @@ class Downloads
             $system = self::get_platform($_SERVER['HTTP_USER_AGENT']);
             if (isset($_GET['mirror']))
             {
-                $mirror = array('url' => $_GET['mirror']);
+                $mirror         = array('url' => $_GET['mirror']);
                 $mirror['purl'] = parse_url($mirror['url']);
-                $country = '';
+                $country        = null;
             }
             else
             {
@@ -249,14 +250,13 @@ class Downloads
                     $ip = $_SERVER['REMOTE_ADDR'];
 
                 $_SESSION['ip'] = $ip;
-                if (isset($_GET['country']))
-                    $country = $_GET['country'];
-                else
-                    $country = self::get_country($ip);
+                if (is_null($country))
+                {
+                    $country      = self::get_country($ip);
+                    $fuzzy_mirror = true;
+                }
 
-                $mirror = $this->get_mirror($country);
-                $fuzzy_mirror = is_null($country) ? true : false;
-
+                $mirror         = $this->get_mirror($country);
                 $mirror['purl'] = parse_url($mirror['url']);
                 
                 // reassign country, as get_one_mirror() may have decided
@@ -268,12 +268,13 @@ class Downloads
                     // @todo?
                 }
             }
+
+            // write to session
             $_SESSION['dl-data'] = array(
                 'system'  => $system,
                 'country' => $country,
                 'mirror'  => $mirror
             );
-            //echo "<pre>Got NEW session data:", print_r($_SESSION['dl-data'], true), '</pre>';
         }
         //
         return array(
@@ -282,7 +283,8 @@ class Downloads
             'mirror_scheme' => $mirror['purl']['scheme'],
             'mirror_url'    => $mirror['url'],
             'country'       => $country,
-            'fuzzy_mirror'         => $fuzzy_mirror
+            'city'          => $mirror['city'],
+            'fuzzy_mirror'  => $fuzzy_mirror
         );
     }
 }
