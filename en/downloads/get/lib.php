@@ -1,0 +1,72 @@
+<?php
+/**
+*/
+
+$countries = array(
+    'AU' => 'Australia',
+    'BE' => 'Belgium',
+    'BR' => 'Brasil',
+    'CA' => 'Canada',
+    'CH' => 'Switzerland',
+    'CN' => 'China',
+    'CZ' => 'Czechia',
+    'DE' => 'Deutschland',
+    'FR' => 'France',
+    'GR' => 'Greece',
+    'GT' => 'Guatemala',
+    'JP' => 'Japan',
+    'NC' => 'Nouvelle-Calédonie',
+    'NL' => 'Nederlands',
+    'TW' => 'Taiwan',
+    'UK' => 'the UK',
+    'US' => 'the USA',
+);
+
+function get($s) {
+    return isset($_GET[$s]) ? trim($_GET[$s]) : null;
+}
+
+class NoProductFoundError extends Exception {}
+class NoMirrorFoundError extends Exception {}
+
+/**
+*/
+function get_info_for_product($product)
+{
+    $defs = parse_ini_file('definitions.ini', true);
+
+    if (array_key_exists($product, $defs)) {
+        return $defs[$product];
+    }
+
+    throw new NoProductFoundError;
+}
+
+/**
+ * Return mirrors for $file.
+ * First mirror returned is the preferred one for auto redirection.
+ *
+ * @param string $file id of the file to download/find a mirror for
+ * @param string $locale hint for selecting a mirror
+ * @param string $country hint for selecting a mirror
+ *
+ * @return array
+ * mirror(product):
+ *   name
+ *   host
+ *   country
+ *   city
+ *   speed
+ *   link
+*/
+function get_mirrors_for($file,
+    $locale = null, $country = null)
+{
+    include '../../../lib/Downloads.php';
+
+    $mirrors = Downloads::get_all_mirrors();
+    $wsd     = new Downloads();
+    $one     = $wsd->prepare_download(true, $country);
+
+    return array($one, $mirrors);
+}
