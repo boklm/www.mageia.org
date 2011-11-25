@@ -170,18 +170,16 @@ $_t['page_title'] = sprintf($_t['page_title'], '<em class="tag">' . $title . '</
                 </table>
 
                 <hr />
-                <p>The making and the distribution of Mageia worldwide is made possible by all
-                    the <a href="http://mirrors.mageia.org/">people and organizations that mirror our software</a>
-                    and that <a href="/en/thank-you/">donate money, hardware, hosting and more</a>.
-                    <?php echo sprintf($_t['wanttohelp?'], '<a href="http://mageia.org/contribute/">', '</a>'); ?></p>
+
+                <p><?php echo sprintf($_t['thank-you-note'], 'http://mirrors.mageia.org/', '/en/thank-you/'); ?>
+                  <?php echo sprintf($_t['wanttohelp?'], '<a href="http://mageia.org/contribute/">', '</a>'); ?></p>
                 </div></div>
             <?php else: ?>
                 <div class="yui-g"><div class="para">
                     <h2>Sorry! :-(</h2>
-                    <p>Your download could not complete, as we could not find this file.
-                        Please try again from the <a href="/downloads/">main downloads page</a>.</p>
+                    <p><?php echo sprintf($_t['dl-failed-try-again'], '/downloads/'); ?></p>
 
-                    <p>If you still encounter this error and think IT SHOULD NOT HAPPEN &ndash; please tell us:</p>
+                    <p><?php echo sprintf($_t['dl-failed-tell-us']); ?></p>
                     <ul>
                         <li>directly on <a href="irc://irc.freenode.net/#mageia-web">#mageia-web on Freenode IRC</a>,</li>
                         <li>or <a href="http://twitter.com/mageia_org">via our Tweeter account</a>,</li>
@@ -190,7 +188,7 @@ $_t['page_title'] = sprintf($_t['page_title'], '<em class="tag">' . $title . '</
                     </ul>
                     
                     <p>You may embed this debug info if you like:</p>
-                    <pre class="term small"><?php echo $reason, "\n", (json_encode($_GET)); ?></pre>
+                    <pre class="term small"><?php echo $reason, "\n", (json_encode(strip_tags($_GET))); ?></pre>
                     <p>Thanks!</p>
                     <p><a href="/">&laquo; back to that awesome Mageia home page</a></p>
                 </div></div>

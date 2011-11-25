@@ -84,7 +84,13 @@ Note that translations are on their way.',
             different install media</a>.',
         'Country' => 'Country',
         'City' => 'City',
-        'Download mirrors' => 'Download mirrors'
+        'Download mirrors' => 'Download mirrors',
+        'thank-you-note' => 'The making and the distribution of Mageia worldwide
+        is made possible by all the <a href="%s">people and organizations that mirror our software</a>
+        and that <a href="%s">donate money, hardware, hosting and more</a>.',
+        'dl-failed-try-again' => 'Your download could not complete, as we could not find this file.
+            Please try again from the <a href="%s">main downloads page</a>.'
+        'dl-failed-tell-us' => 'If you still encounter this error and think IT SHOULD NOT HAPPEN &ndash; please tell us:',
     ),
     'cs' => array(
         'download' => 'stahování',
