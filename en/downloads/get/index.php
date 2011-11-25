@@ -146,13 +146,15 @@ $_t['page_title'] = sprintf($_t['page_title'], '<em class="tag">' . $title . '</
 
                 <div class="dlinfo">
                     <p><?php echo $dl2_mirror_alt; ?></p>
-                    <?php if ((isset($product['md5']) || isset($product['sha1'])) && !$torrent): ?>
+                    <?php if (((isset($product['md5']) && strlen($product['md5']) > 0)
+                      || (isset($product['sha1'])) && strlen($product['sha1']) > 0)
+                      && !$torrent): ?>
                 <p><?php echo $_t['signs_check_1']; ?></p>
                 <div id="check-signs">
                 <pre class="term">
-<?php if (isset($product['md5'])): ?>$ md5sum <?php echo basename($download), "\n<strong>", $product['md5'], "</strong>\n"; endif; ?>
+<?php if (strlen($product['md5'])): ?>$ md5sum <?php echo basename($download), "\n<strong>", $product['md5'], "</strong>\n"; endif; ?>
 
-<?php if (isset($product['sha1'])): ?>$ sha1sum <?php echo basename($download), "\n<strong>", $product['sha1'], "</strong>\n"; endif; ?>
+<?php if (strlen($product['sha1'])): ?>$ sha1sum <?php echo basename($download), "\n<strong>", $product['sha1'], "</strong>\n"; endif; ?>
 </pre>
                 <p><?php echo $_t['signs_check_2']; ?></p>
                 </div>
