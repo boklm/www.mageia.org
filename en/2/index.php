@@ -92,27 +92,27 @@ require '../downloads/lib.php';
                 </div></div>
                 <div class="yui-u"><div class="para">
                     <h2>Full, Free Software exclusive DVDs</h2>
+                    <ul>
+                        <li><a href="../downloads/get/?q=Mageia-2-alpha1-i586-DVD.iso">Mageia 2 alpha1 32bit DVD</a></li>
+                        <li><a href="../downloads/get/?q=Mageia-2-alpha1-x86_64-DVD.iso">Mageia 2 alpha1 64bit DVD</a></li>
+                    </ul>
                     <p class="dlinfo warn">Note that these DVD ISOs are made of Free Software exclusively.
                         As a consequence, proprietary Wi-Fi and video drivers are not included.
-                        If you need WiFi or specific video drivers <strong>at install time</strong>,
+                        If you need WiFi or specific video drivers <em>at install time</em>,
                         you should go with above LiveCDs instead.
                         You may, if you will, add nonfree software repository <em>after</em> the installation.</p>
                     <p class="dlinfo">Up to 167 locales are supported:
                         Deutsch, English, español, français, italiano, português, svenska, nederlands,
                         polski, dansk, Русский and so much more! See the comprehensive list.</p>
 
-                    <ul>
-                        <li><a href="../downloads/get/?q=Mageia-2-alpha1-i586-DVD.iso">Mageia 2 alpha1 32bit DVD</a></li>
-                        <li><a href="../downloads/get/?q=Mageia-2-alpha1-x86_64-DVD.iso">Mageia 2 alpha1 64bit DVD</a></li>
-                    </ul>
 
                     <h2>Wired network-based install CD</h2>
-                    <p class="dlinfo">Good to download (about 40 MB) and boot quickly into install mode
-                      from <em>wired</em> network or local disk.</p>
                     <ul>
                         <li><a href="../downloads/get/?q=Mageia-2-alpha1-Boot-i586-CD.iso">32bit</a></li>
                         <li><a href="../downloads/get/?q=Mageia-2-alpha1-Boot-x86_64-CD.iso">64bit</a></li>
                     </ul>
+                    <p class="dlinfo">Good to download (about 40 MB) and boot quickly into install mode
+                      from <em>wired</em> network or local disk.</p>
                 </div>
             </div>
         </div>
