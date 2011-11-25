@@ -101,10 +101,10 @@ function relocate($langs, $page = '', $default_locale = 'en')
 
     $locale->setDefaultLocale($default_locale);
 
-    header(sprintf('Location: /%s/%s',
+    header(str_replace('//', '/', sprintf('Location: /%s/%s',
         $locale->getCompatibleLocale(),
         $page
-    ));
+    )));
     die;
 }
 
