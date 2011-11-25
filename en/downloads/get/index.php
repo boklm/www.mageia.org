@@ -53,7 +53,15 @@ try {
     $one_mirror  = $all_mirrors[0];
     $alt_mirrors = $all_mirrors[1];
 
-    $path     = $product['path'] . '/' . $product['file'];
+    if ($torrent === true
+        && isset($product['torrent'])
+        && strlen($product['torrent']) > 0) {
+
+        $path = $product['torrent'];
+    } else {
+        $path = $product['path'] . '/' . $product['file'];
+    }
+
     $download = $one_mirror['mirror_url'] . '/' . $path;
     
     $js_redirect = sprintf('<script>(function(){setTimeout("document.location=\'%s\';", 3000);})();</script>',

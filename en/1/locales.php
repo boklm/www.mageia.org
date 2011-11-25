@@ -24,7 +24,7 @@ $_t = array(
                         for a regular user, a developer, or a business.',
         'encourage_you' => 'And we encourage you to <a href="/en/contribute/">be part of it</a>,
                         on your own time or through your professional activity.',
-        '9_months' => '9&nbsp;months from <a href="/en/about/2010-sept-announcement.html">inception</a> we\'ve reached:',
+        '9_months' => '9&nbsp;months from <a href="/en/about/2010-sept-announcement.html">inception</a> we have reached:',
         'people' => '<a href="/en/contribute/">100+&nbsp;contributors</a> in <a href="https://wiki.mageia.org/en/Contributing">10+ teams</a>.
                         <a href="/en/thank-you/">180+&nbsp;generous donors</a> of
                         <a href="/en/donate/">11.700+&nbsp;EUR</a>
