@@ -104,15 +104,12 @@ require '../downloads/lib.php';
                         <li><a href="../downloads/get/?q=Mageia-2-alpha1-x86_64-DVD.iso">Mageia 2 alpha1 64bit DVD</a></li>
                     </ul>
 
-                    <h2>Dualarch CD</h2>
-                    <ul>
-                        <li>not here yet</li>
-                    </ul>
-
                     <h2>Wired network-based install CD</h2>
+                    <p class="dlinfo">Good to download (about 40 MB) and boot quickly into install mode
+                      from <em>wired</em> network or local disk.</p>
                     <ul>
-                        <li><a href="../downloads/get/?q=Mageia-2-alpha1-NetBoot-i586-CD.iso">32bit</a></li>
-                        <li><a href="../downloads/get/?q=Mageia-2-alpha1-NetBoot-x86_64-CD.iso">64bit</a></li>
+                        <li><a href="../downloads/get/?q=Mageia-2-alpha1-Boot-i586-CD.iso">32bit</a></li>
+                        <li><a href="../downloads/get/?q=Mageia-2-alpha1-Boot-x86_64-CD.iso">64bit</a></li>
                     </ul>
                 </div>
             </div>
