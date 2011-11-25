@@ -91,10 +91,12 @@ require '../downloads/lib.php';
                     <p class="dlinfo">Download is approximately 700MB.</p>
                 </div></div>
                 <div class="yui-u"><div class="para">
-                    <h2>Full, Free Software exclusive</h2>
+                    <h2>Full, Free Software exclusive DVDs</h2>
                     <p class="dlinfo warn">Note that these DVD ISOs are made of Free Software exclusively.
                         As a consequence, proprietary Wi-Fi and video drivers are not included.
-                        If you need WiFi or specific video drivers at install time, you should go with above LiveCDs instead.</p>
+                        If you need WiFi or specific video drivers <strong>at install time</strong>,
+                        you should go with above LiveCDs instead.
+                        You may, if you will, add nonfree software repository <em>after</em> the installation.</p>
                     <p class="dlinfo">Up to 167 locales are supported:
                         Deutsch, English, español, français, italiano, português, svenska, nederlands,
                         polski, dansk, Русский and so much more! See the comprehensive list.</p>

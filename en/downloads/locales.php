@@ -65,7 +65,7 @@ Note that translations are on their way.',
         'popularity' => 'Popularity',
         'for_full_install' => 'For a full, Free Software-only, installation:',
         'warn-free' => 'Note that these DVD ISOs are made of Free Software <em>exclusively</em>. As a consequence, <em>proprietary Wi-Fi and video drivers '
-            . 'are not included</em>. If you need WiFi or specific video drivers at install time, you should go with above LiveCDs instead.',
+            . 'are not included</em>. If you need WiFi or specific video drivers at install time, you should go with above LiveCDs instead. <em>After</em> the installation, you may add and use the nonfree software repository.',
         'for_test_live' => 'For live test and install: LiveCD 32bit',
         'for_network' => 'For a wired network install:',
         'def-Europa set 1' => 'European set 1 of languages: Deutsch, English (several variants), Greek, Español, Français, Italiano, Dutch, Português, Português do Brasil, Turkish.',
