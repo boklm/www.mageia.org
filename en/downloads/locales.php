@@ -89,8 +89,8 @@ Note that translations are on their way.',
         is made possible by all the <a href="%s">people and organizations that mirror our software</a>
         and that <a href="%s">donate money, hardware, hosting and more</a>.',
         'dl-failed-try-again' => 'Your download could not complete, as we could not find this file.
-            Please try again from the <a href="%s">main downloads page</a>.'
-        'dl-failed-tell-us' => 'If you still encounter this error and think IT SHOULD NOT HAPPEN &ndash; please tell us:',
+            Please try again from the <a href="%s">main downloads page</a>.',
+        'dl-failed-tell-us' => 'If you still encounter this error and think IT SHOULD NOT HAPPEN &ndash; please tell us:'
     ),
     'cs' => array(
         'download' => 'stahování',
