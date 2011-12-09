@@ -271,7 +271,8 @@ $donators = array(
     'Joseph Hubert',
     'Jurgen and Monika Harms',
     'Andreas Hiekel',
-    'Louis Soriano'
+    'Louis Soriano',
+    'Ota Akira'
 );
 
 //$html .= '<img src="/g/images/mageia_0.svg" style="position: absolute; top: 180px; width: 300px; opacity: 0.2;" />';
