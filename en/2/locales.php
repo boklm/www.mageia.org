@@ -22,11 +22,6 @@ $_t = array(
         'def-Africa/India set' => 'African/Indian set of languages: Afrikaans, Amharic, Arabic, Assamese, Berber, Bengali, American English,
             Hausa, Hebrew, Hindi, Igbo, Kannada, Malayalam, Marathi,
             Punjabi, Tamil, Tswana, Tsonga, Venda, Xhosa, Yoruba, Zulu.',
-        'dl_migrate_instead' => 'If you are using Mandriva Linux 2010.1 or 2010.2,
-            you may directly <a href="/en/1/migrate/">upgrade your system to Mageia 1</a> as well.</p>',
-        'not_sure_what_iso' => 'Not sure of what ISO to download? This may still be a bit verbose, but you may want to
-            <a href="https://wiki.mageia.org/en/Installation_Media">read this article detailing our 
-            different install media</a>.',
         'Country' => 'Country',
         'City' => 'City',
         'Download mirrors', 'Download mirrors'
