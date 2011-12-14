@@ -103,7 +103,7 @@ require '../downloads/lib.php';
                     <p class="dlinfo">Download is approximately 700MB.</p>
                 </div></div>
                 <div class="yui-u"><div class="para">
-                    <h2>Full, Free Software exclusive DVDs</h2>
+                    <h2>Full, exclusively Free Software DVDs</h2>
                     <ul>
                         <li><a href="../downloads/get/?q=Mageia-2-alpha1-i586-DVD.iso">Mageia 2 alpha1 32bit DVD</a>,
                           <a href="../downloads/get/?q=Mageia-2-alpha1-i586-DVD.iso&amp;torrent=1">torrent</a></li>
