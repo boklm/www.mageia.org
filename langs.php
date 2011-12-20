@@ -6,10 +6,15 @@ if (isset($_ENV['APP_MODE']) && $_ENV['APP_MODE'] !== 'prod') {
     ini_set('error_reporting', E_ALL);
     ini_set('show_errors', true);
     ini_set('display_errors', true);
+} else {
+    ini_set('error_reporting', FALSE);
+    ini_set('show_errors', FALSE);
+    ini_set('display_errors', FALSE);
+    ini_set('log_errors', FALSE);
 }
 
 if ($_SERVER['HTTP_HOST'] == 'www-test.mageia.org') {
-    ini_set('error_reporting', E_ALL);
+    ini_set('error_reporting', E_ALL&~E_DEPRECATED);
     ini_set('show_errors', true);
     ini_set('display_errors', true);
     ini_set('log_errors', true);
