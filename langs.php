@@ -2,6 +2,16 @@
 /**
 */
 
+if ((isset($_ENV['APP_MODE']) && $_ENV['APP_MODE'] !== 'prod')
+    || $_SERVER['HTTP_HOST'] == 'www-test.mageia.org') {
+    ini_set('error_reporting', E_ALL);
+    ini_set('show_errors', true);
+    ini_set('display_errors', true);
+    ini_set('log_errors', true);
+    //ini_set('error_log', apache_getenv('ErrorLog'));
+    echo apache_getenv('ErrorLog');
+}
+
 $g_app_root = realpath(dirname(__FILE__));
 define('G_APP_ROOT', $g_app_root);
 
