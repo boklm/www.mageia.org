@@ -178,8 +178,8 @@ class Downloads
         }
         else
         {
-            require_once '../../lib/maxmind/geoip/geoip.inc.php';
-            $gi  = geoip_open(realpath('../../lib/maxmind/geoip/GeoIP.dat'), GEOIP_STANDARD);
+            require_once realpath(__DIR__ . '/maxmind/geoip/geoip.inc.php');
+            $gi  = geoip_open(realpath(__DIR__ . '/maxmind/geoip/GeoIP.dat'), GEOIP_STANDARD);
             $loc = @geoip_country_code_by_addr($gi, $ip);
             geoip_close($gi);
         }
@@ -188,7 +188,7 @@ class Downloads
 
         return strtoupper($loc);
     }
-    
+
     function prepare_download($force = false, $country = null)
     {
         return $this->get_one_mirror($force, $country);
