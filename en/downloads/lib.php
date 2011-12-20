@@ -3,21 +3,29 @@
 */
 
 $prods = parse_ini_file('downloads.ini', true);
+
 $countries = array(
     'AU' => 'Australia',
-    'BE' => 'Belgium',
+    'BE' => 'Belgique',
     'BR' => 'Brasil',
+    'BY' => 'Беларусь', // Belarus
     'CA' => 'Canada',
     'CH' => 'Switzerland',
     'CN' => 'China',
     'CZ' => 'Czechia',
     'DE' => 'Deutschland',
+    'ES' => 'España',
     'FR' => 'France',
     'GR' => 'Greece',
     'GT' => 'Guatemala',
+    'ID' => 'Indonesia',
+    'IT' => 'Italia',
     'JP' => 'Japan',
     'NC' => 'Nouvelle-Calédonie',
     'NL' => 'Nederlands',
+    'PL' => 'Polska',
+    'RU' => 'Россия',
+    'SE' => 'Sverige',
     'TW' => 'Taiwan',
     'UK' => 'the UK',
     'US' => 'the USA',
