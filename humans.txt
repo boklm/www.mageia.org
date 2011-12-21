@@ -1,0 +1,8 @@
+Mageia is a community project building Free Software tools for people
+for the next century; and starts with a solid Linux-based distribution.
+
+It's fun and it's tough,
+we're worldwide and we're local,
+it's about code and it's about people.
+
+If you would like to join and help us, see mageia.org/contribute.

@@ -1,0 +1,29 @@
+#
+#
+#
+
+#Sitemap: /sitemap.xml
+
+User-Agent: *
+Disallow:
+
+
+User-Agent: bingbot
+Disallow: /*/downloads/dl.php*
+Disallow: /*/downloads/get/*
+
+User-Agent: Googlebot
+Disallow: /*/downloads/dl.php*
+Disallow: /*/downloads/get/*
+
+User-Agent: msnbot
+Disallow: /*/downloads/dl.php*
+Disallow: /*/downloads/get/*
+
+User-Agent: Ezooms
+Disallow: /*/downloads/dl.php*
+Disallow: /*/downloads/get/*
+
+User-Agent: MJ12bot
+Disallow: /*/downloads/dl.php*
+Disallow: /*/downloads/get/*
