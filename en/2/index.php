@@ -19,7 +19,7 @@ require '../downloads/lib.php';
     <meta name="description" content="<?php echo $_t['page_desc']; ?>">
     <meta name="keywords" content="<?php echo $_t['page_kw']; ?>">
     <meta name="robots" content="noindex,nofollow,nosnippet">
-    <link rel="canonical" href="/<?php echo $locale; ?>/1/">
+    <link rel="canonical" href="/<?php echo $locale; ?>/2/">
     <link rel="stylesheet" href="/g/style/all.css">
     <?php include '../../analytics.php'; ?>
 </head>
@@ -49,14 +49,14 @@ require '../downloads/lib.php';
                         <tbody>
                             <tr>
                                 <th>Europe 1</th>
-                                <td><a href="../downloads/get/?q=Mageia-2-alpha2-LiveCD-GNOME-Europe1-Americas-i586-CD.iso">32bit</a>,
-                                  <a href="../downloads/get/?q=Mageia-2-alpha2-LiveCD-GNOME-Europe1-Americas-i586-CD.iso&amp;torrent=1">torrent</a><br>
-                                  <a href="../downloads/get/?q=Mageia-2-alpha2-LiveCD-GNOME-Europe1-Americas-x86_64-CD.iso">64bit</a>,
-                                  <a href="../downloads/get/?q=Mageia-2-alpha2-LiveCD-GNOME-Europe1-Americas-x86_64-CD.iso&amp;torrent=1">torrent</a></td>
-                                <td><a href="../downloads/get/?q=Mageia-2-alpha2-LiveCD-KDE4-Europe1-Americas-i586-CD.iso">32bit</a>,
-                                  <a href="../downloads/get/?q=Mageia-2-alpha2-LiveCD-KDE4-Europe1-Americas-i586-CD.iso&amp;torrent=1">torrent</a><br>
-                                  <a href="../downloads/get/?q=Mageia-2-alpha2-LiveCD-KDE4-Europe1-Americas-x86_64-CD.iso">64bit</a>,
-                                  <a href="../downloads/get/?q=Mageia-2-alpha2-LiveCD-KDE4-Europe1-Americas-x86_64-CD.iso&amp;torrent=1">torrent</a></td>
+                                <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha2-LiveCD-GNOME-Europe1-Americas-i586-CD.iso">32bit</a>,
+                                  <a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha2-LiveCD-GNOME-Europe1-Americas-i586-CD.iso&amp;torrent=1">torrent</a><br>
+                                  <a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha2-LiveCD-GNOME-Europe1-Americas-x86_64-CD.iso">64bit</a>,
+                                  <a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha2-LiveCD-GNOME-Europe1-Americas-x86_64-CD.iso&amp;torrent=1">torrent</a></td>
+                                <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha2-LiveCD-KDE4-Europe1-Americas-i586-CD.iso">32bit</a>,
+                                  <a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha2-LiveCD-KDE4-Europe1-Americas-i586-CD.iso&amp;torrent=1">torrent</a><br>
+                                  <a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha2-LiveCD-KDE4-Europe1-Americas-x86_64-CD.iso">64bit</a>,
+                                  <a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha2-LiveCD-KDE4-Europe1-Americas-x86_64-CD.iso&amp;torrent=1">torrent</a></td>
                             </tr>
                             <tr>
                                 <td colspan="3"><p class="dlinfo">Included locales:
@@ -65,10 +65,10 @@ require '../downloads/lib.php';
                             </tr>
                             <tr>
                                 <th>Europe 2</th>
-                                <td><a href="../downloads/get/?q=Mageia-2-alpha2-LiveCD-GNOME-Europe2-i586-CD.iso">32bit</a>,
-                                  <a href="../downloads/get/?q=Mageia-2-alpha2-LiveCD-GNOME-Europe2-i586-CD.iso&amp;torrent=1">torrent</a></td>
-                                <td><a href="../downloads/get/?q=Mageia-2-alpha2-LiveCD-KDE4-Europe2-i586-CD.iso">32bit</a>,
-                                  <a href="../downloads/get/?q=Mageia-2-alpha2-LiveCD-KDE4-Europe2-i586-CD.iso&amp;torrent=1">torrent</a></td>
+                                <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha2-LiveCD-GNOME-Europe2-i586-CD.iso">32bit</a>,
+                                  <a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha2-LiveCD-GNOME-Europe2-i586-CD.iso&amp;torrent=1">torrent</a></td>
+                                <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha2-LiveCD-KDE4-Europe2-i586-CD.iso">32bit</a>,
+                                  <a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha2-LiveCD-KDE4-Europe2-i586-CD.iso&amp;torrent=1">torrent</a></td>
                             </tr>
                             <tr>
                                 <td colspan="3"><p class="dlinfo">Included locales:
@@ -77,10 +77,10 @@ require '../downloads/lib.php';
                             </tr>
                             <tr>
                                 <th>Africa, India</th>
-                                <td><a href="../downloads/get/?q=Mageia-2-alpha2-LiveCD-GNOME-Africa-India-i586-CD.iso">32bit</a>,
-                                  <a href="../downloads/get/?q=Mageia-2-alpha2-LiveCD-GNOME-Africa-India-i586-CD.iso&amp;torrent=1">torrent</a></td>
-                                <td><a href="../downloads/get/?q=Mageia-2-alpha2-LiveCD-KDE4-Africa-India-i586-CD.iso">32bit</a>,
-                                  <a href="../downloads/get/?q=Mageia-2-alpha2-LiveCD-KDE4-Africa-India-i586-CD.iso&amp;torrent=1">torrent</a></td>
+                                <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha2-LiveCD-GNOME-Africa-India-i586-CD.iso">32bit</a>,
+                                  <a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha2-LiveCD-GNOME-Africa-India-i586-CD.iso&amp;torrent=1">torrent</a></td>
+                                <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha2-LiveCD-KDE4-Africa-India-i586-CD.iso">32bit</a>,
+                                  <a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha2-LiveCD-KDE4-Africa-India-i586-CD.iso&amp;torrent=1">torrent</a></td>
                             </tr>
                             <tr>
                                 <td colspan="3"><p class="dlinfo">Included locales:
@@ -88,10 +88,10 @@ require '../downloads/lib.php';
                             </tr>
                             <tr>
                                 <th>Asia</th>
-                                <td><a href="../downloads/get/?q=Mageia-2-alpha2-LiveCD-GNOME-Asia-Noindia-i586-CD.iso">32bit</a>,
-                                  <a href="../downloads/get/?q=Mageia-2-alpha2-LiveCD-GNOME-Asia-Noindia-i586-CD.iso&amp;torrent=1">torrent</a></td>
-                                <td><a href="../downloads/get/?q=Mageia-2-alpha2-LiveCD-KDE4-Asia-Noindia-i586-CD.iso">32bit</a>,
-                                  <a href="../downloads/get/?q=Mageia-2-alpha2-LiveCD-KDE4-Asia-Noindia-i586-CD.iso&amp;torrent=1">torrent</a></td>
+                                <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha2-LiveCD-GNOME-Asia-Noindia-i586-CD.iso">32bit</a>,
+                                  <a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha2-LiveCD-GNOME-Asia-Noindia-i586-CD.iso&amp;torrent=1">torrent</a></td>
+                                <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha2-LiveCD-KDE4-Asia-Noindia-i586-CD.iso">32bit</a>,
+                                  <a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha2-LiveCD-KDE4-Asia-Noindia-i586-CD.iso&amp;torrent=1">torrent</a></td>
                             </tr>
                             <tr>
                                 <td colspan="3"><p class="dlinfo">Included locales:
@@ -105,10 +105,10 @@ require '../downloads/lib.php';
                 <div class="yui-u"><div class="para">
                     <h2>Full, exclusively Free Software DVDs</h2>
                     <ul>
-                        <li><a href="../downloads/get/?q=Mageia-2-alpha2-i586-DVD.iso">Mageia 2 alpha2 32bit DVD</a>,
-                          <a href="../downloads/get/?q=Mageia-2-alpha2-i586-DVD.iso&amp;torrent=1">torrent</a></li>
-                        <li><a href="../downloads/get/?q=Mageia-2-alpha2-x86_64-DVD.iso">Mageia 2 alpha2 64bit DVD</a>,
-                          <a href="../downloads/get/?q=Mageia-2-alpha2-x86_64-DVD.iso&amp;torrent=1">torrent</a></li>
+                        <li><a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha2-i586-DVD.iso">Mageia 2 alpha2 32bit DVD</a>,
+                          <a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha2-i586-DVD.iso&amp;torrent=1">torrent</a></li>
+                        <li><a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha2-x86_64-DVD.iso">Mageia 2 alpha2 64bit DVD</a>,
+                          <a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha2-x86_64-DVD.iso&amp;torrent=1">torrent</a></li>
                     </ul>
                     <p class="dlinfo warn">Note that these DVD ISOs are made of Free Software exclusively.
                         As a consequence, proprietary Wi-Fi and video drivers are not included.
@@ -122,8 +122,8 @@ require '../downloads/lib.php';
 
                     <h2>Wired network-based install CD</h2>
                     <ul>
-                        <li><a href="../downloads/get/?q=Mageia-2-alpha2-Boot-i586-CD.iso">32bit</a></li>
-                        <li><a href="../downloads/get/?q=Mageia-2-alpha2-Boot-x86_64-CD.iso">64bit</a></li>
+                        <li><a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha2-Boot-i586-CD.iso">32bit</a></li>
+                        <li><a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha2-Boot-x86_64-CD.iso">64bit</a></li>
                     </ul>
                     <p class="dlinfo">Good to download (about 40 MB) and boot quickly into install mode
                       from <em>wired</em> network or local disk.</p>

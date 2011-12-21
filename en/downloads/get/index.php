@@ -63,7 +63,8 @@ try {
     }
 
     $download = $one_mirror['mirror_url'] . '/' . $path;
-    
+
+    // TODO do not redirect if it's a bot!
     $js_redirect = sprintf('<script>(function(){setTimeout("document.location=\'%s\';", 3000);})();</script>',
         $download);
 
