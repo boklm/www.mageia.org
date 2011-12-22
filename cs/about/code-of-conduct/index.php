@@ -19,7 +19,7 @@
                 <div class="para codeofconduct">
                     <div id="preamble">
 
-                    <p>Projekt Mageia project je živé společenství, otevřené pro každého. Chceme, aby toto společenství bylo hezkým místem jak pro nově příchozí, tak pro stávající členy, ve kterém se všichni cítí pohodlně a přijímaní, nezávisle na druhu nebo velikosti jejich příspěvku.</p>
+                    <p>Projekt Mageia je živé společenství, otevřené pro každého. Chceme, aby toto společenství bylo hezkým místem jak pro nově příchozí tak pro stávající členy, ve kterém se všichni cítí pohodlně a přijímáni, nezávisle na druhu nebo velikosti jejich příspěvku.</p>
 
                     <p>V komunitě Mageia pracují lidé z celého světa společně na vývoji operačního systému ze svobodného software. Možné to je díky podpoře, tvrdé práci a nadšení tisíců lidí, včetně těch, kteří Mageiu vyvíjejí a používají, a stejně tak díky členům ostatních svobodných softwarových projektů.</p>
 
@@ -33,15 +33,15 @@
 
                     <p>Tato pravidla chování ukazují souhrn sdílených hodnot a myšlení zakládající se na zdravém rozumu v naší komunitě. Základní společenské myšlenky, které drží náš projekt pohromadě, zahrnují:</p>
                     <ul>
-                        <li><a href="#be_considerate">Buď ohleduplný</a>,</li>
-                        <li><a href="#be_respectful">Buď uctivý</a>,</li>
-                        <li><a href="#be_collaborative">Buď spolupracující</a>,</li>
-                        <li><a href="#be_pragmatic">Buď věcný</a>,</li>
-                        <li><a href="#support">Podporuj ostatní ve společenství</a>,</li>
-                        <li><a href="#get_support">Získej podporu od ostatních členů společenství</a>.</li>
+                        <li><a href="#be_considerate">Buď ohleduplný</a></li>
+                        <li><a href="#be_respectful">Buď uctivý</a></li>
+                        <li><a href="#be_collaborative">Buď spolupracující</a></li>
+                        <li><a href="#be_pragmatic">Buď věcný</a></li>
+                        <li><a href="#support">Podporuj ostatní ve společenství</a></li>
+                        <li><a href="#get_support">Získej podporu od ostatních členů společenství</a></li>
                     </ul>
                     
-                    <p>Tato pravidla chování odrážejí všemi přijaté chování člena komunity Mageia, na jakémkoli fóru, poštovním seznamu, stránkách wikipedie, internetových stránkách, kanálu IRC, veřejném setkání nebo v písemném styku, které souvisí s projektem Mageia a jeho službami. Komunita jedná na základě standardů zapsaných v těchto pravidlech chování a tyto standardy bude pro prospěch komunity bránit. Vedoucí jakékoli pracovní skupiny projektu Mageia mají oprávnění odepřít přístup jakékoli osobě, která námi sdílená pravidla chování opakovaně porušuje nebo, je-li to nezbytné, může být záležitost předložena radě Mageii a předána ke konečnému rozhodnutí.</p>
+                    <p>Tato pravidla chování odrážejí všemi přijaté chování člena komunity Mageia, na jakémkoli fóru, poštovním seznamu, stránkách Wikipedie, internetových stránkách, kanálu IRC, veřejném setkání nebo v písemném styku, které souvisí s projektem Mageia a jeho službami. Komunita jedná na základě standardů zapsaných v těchto pravidlech chování a tyto standardy bude pro prospěch komunity bránit. Vedoucí jakékoli pracovní skupiny projektu Mageia mají oprávnění odepřít přístup jakékoli osobě, která námi sdílená pravidla chování opakovaně porušuje nebo, je-li to nezbytné, může být záležitost předložena radě Mageii a předána ke konečnému rozhodnutí.</p>
                     </div>
 
                     <h2 id="be_considerate" class="be">Buď ohleduplný.</h2>
@@ -50,13 +50,13 @@
 
                     <p>Jako přispěvatel zajistěte, že máte pro práci ostatních plné uznání a mějte stále na paměti, jak vaše změny ovlivní ostatní. Také se očekává, že se budete stále pokoušet držet se rozvrhu projektu a předpisů.</p>
 
-                    <p>Jako uživateli by vám mělo báýt jasno, že přispěvatelé do svých úkolů dávají hodně práce a času a jsou na ně náležitě hrdí. Pokud vás někdy nějaká určitá věc znechutí, budou vaše potíže nejpravděpodobnějí vyřešeny a vám pomoženo, když budete moci všem zúčastněným dodat přesnou a slovy zdvořile vyjádřenou informaci.</p>
+                    <p>Jako uživateli by vám mělo být jasno, že přispěvatelé do svých úkolů dávají hodně práce a času a jsou na ně náležitě hrdí. Pokud vás někdy nějaká určitá věc znechutí, budou vaše potíže nejpravděpodobnějí vyřešeny a vám pomoženo, když budete moci všem zúčastněným dodat přesnou a slovy zdvořile vyjádřenou informaci.</p>
 
                     <h2 id="be_respectful" class="be">Buď uctivý.</h2>
 
                     <p>Pro zdravou komunitu Mageii je důležité, aby se její členové cítili dobře a přijímáni. Pro to je zcela nezbytný vzájemný ohled. V případě, že se vyskytnou nějaké rozdílné názory, byste měli vycházet v prvé řadě z toho, že vaši diskusní partneři mají dobré úmysly.</p>
 
-                    <p>Netrpíme osobní útoky, rasismus, sexismus či jakoukoli jinou podobu rozdílného zacházení. Odlišným názorům se nedá vyhnout a jsou čas od času nevyhnutelné, ale pro toho, kdo chce, aby na něj byl brán ohled, musí mít úctu k názoru ostatních. Ohled na jiné lidi, ocenění jejich práce, jejich příspěvku a předpoklad dobrého úmyslu vede k tomu, že se členové komunity cítí dobře a přijímáni a že výsledkem je zase větší motivace a výkonnost.</p>
+                    <p>Nestrpíme osobní útoky, rasismus, sexismus či jakoukoli jinou podobu rozdílného zacházení. Odlišným názorům se nedá vyhnout a jsou čas od času nevyhnutelné, ale pro toho, kdo chce, aby na něj byl brán ohled, musí mít úctu k názoru ostatních. Ohled na jiné lidi, ocenění jejich práce, jejich příspěvku a předpoklad dobrého úmyslu vede k tomu, že se členové komunity cítí dobře a přijímáni a že výsledkem je zase větší motivace a výkonnost.</p>
 
                     <p>Očekáváme, že členové našeho společenství budou při jednání s dalšími přispěvateli, uživateli a komunitami ohleduplní. Vždy myslete na to, že Mageia je mezinárodní projekt a že vy nemusíte znát důležité stránky jiných kultur.</p>
 
@@ -90,9 +90,9 @@
 
                     <h2 id="get_support" class="be">Získej podporu od ostatních členů společenství.</h2>
 
-                    <p>Politické a technické neshody se čas od času vyskytují. Naše komunita v tomto není žádnou výjimkou. Cílem není vyhnout se neshodám nebo odlišným pohledům, ale řešit je konstruktivně. Měli byste kvůli řešení neshod obrátit na komunitu a hledat tu radu a tam, kde je to možné, poradit se se skupinami, které jsou přímo zapojeny.</p>
+                    <p>Politické a technické neshody se čas od času vyskytují. Naše komunita v tomto není žádnou výjimkou. Cílem není vyhnout se neshodám nebo odlišným pohledům, ale řešit je konstruktivně. Měli byste se kvůli řešení neshod obrátit na komunitu a hledat tu radu a tam, kde je to možné, poradit se se skupinami, které jsou přímo zapojeny.</p>
 
-                    <p>Dobře si rozmyslete, zda chcete, aby nějaký spor vymkl až do veřejné hádky. Je-li to nezbytné, můžete kvůli vyhnutí se vystupňování citů poprosit o prostředkování a urovnání. Pokuste se rozdíly vyřešit. Pokud cítíte, že vy nebo vaše práce je napadena, vezměte si čas na nadechnutí se předtím, než napíšete rozpálenou odpověď. Při velice citově vypjatém způsobu dorozumívání uděláte dobře, když se přes noc vyspíte - čas na rozmyšlenou je někdy vše, co je potřeba. Pokud opravdu chcete jít jinou cestou, potom vám doporučujeme vaše myšlenky a práci zveřejnit, takže budou moci být ostatními vyzkoušeny a zhodnoceny.</p>
+                    <p>Dobře si rozmyslete, zda chcete, aby se nějaký spor vymkl až do veřejné hádky. Je-li to nezbytné, můžete kvůli vyhnutí se vystupňování citů poprosit o prostředkování a urovnání. Pokuste se rozdíly vyřešit. Pokud cítíte, že vy nebo vaše práce je napadena, vezměte si čas na nadechnutí se předtím, než napíšete rozpálenou odpověď. Při velice citově vypjatém způsobu dorozumívání uděláte dobře, když se přes noc vyspíte - čas na rozmyšlenou je někdy vše, co je potřeba. Pokud opravdu chcete jít jinou cestou, potom vám doporučujeme vaše myšlenky a práci zveřejnit, takže budou moci být ostatními vyzkoušeny a zhodnoceny.</p>
 
                     <p class="license">Tento dokument je veden pod <a href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons Attribution - Share Alike 3.0 License</a> (<a href="http://wiki.mandriva.com/en/Code_of_Conduct" rel="nofollow">parent version</a>).</p>
                 </div>

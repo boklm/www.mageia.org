@@ -74,7 +74,7 @@
                         do něj mohou zapisovat.</p>
                     <p>Budete-li nám chtít předat jakoukoli poznámku, dodatek, změnu v kalendáři, spojte se s námi přes:</p>
                     <ul>
-                        <li>your <a href="https://wiki.mageia.org/">týmového</a> vedoucího nebo představitele,</li>
+                        <li>vašeho <a href="https://wiki.mageia.org/">týmového</a> vedoucího nebo představitele,</li>
                         <li><a href="irc://irc.freenode.net/#mageia-dev">IRC kanál #mageia-dev</a> na serveru Freenode,</li>
                         <li>jako poslední možnost uvádíme adresu elektronické pošty <a href="mailto:mageia-contact@mageia.org">mageia-contact@mageia.org</a>.</li>
                     </ul>
