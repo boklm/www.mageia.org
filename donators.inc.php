@@ -4,7 +4,7 @@
 
 /**
  */
-$anonymous = '15';
+$anonymous = '16';
 $donators = array(
     'Anonymous (x '.$anonymous.')',
     'Pascal Vilarem (Maât)',
@@ -137,7 +137,6 @@ $donators = array(
     'Alain Lamarche',
     'Marita Launonen',
     'Distrowatch.com',
-    'Denis Prost',
     'François Lamboley',
     'Martin Alduncin Garrido',
     'Pietr Petronov',
