@@ -54,9 +54,9 @@
 			</table>
 			<h2>Bank accounts situation</h2>
 			<ul>
-                                <li>Paypal (non-for-profit organisation account): EUR&nbsp;436.82</li>
-				<li>Main account (with checkbook and no credit card): EUR&nbsp;206.13</li>
-				<li>Savings account (between 2% and 4% of interest): EUR&nbsp;7 100.00</li>
+                                <li>Paypal (non-for-profit organisation account): EUR&nbsp;898.42</li>
+				<li>Main account (with checkbook and no credit card): EUR&nbsp;511.13</li>
+				<li>Savings account (between 2% and 4% of interest): EUR&nbsp;7 218.72</li>
 			</ul>
 			<h2>Forecast for 2011</h2>
 			<table id="fr-table"><thead><tr><th>Description of planned expenditure</th><th>Unit Price</th><th>Quantity</th><th>Recurrence</th><th>Total Price</th><th>Status</th></tr></thead><tbody><tr>
@@ -81,7 +81,7 @@
 				<li>You can see the <a href="/en/thank-you" hreflang="en">"thank you" page</a>.</li>
 			</ul>
 			<h2>Contact</h2>
-			Financial report published by Damien Lallement (Mageia.Org Treasurer on the 2011 Fiscal Year).<br/>You can contact him by sending an email to <em>treasurer[at]mageia[dot]org</em>.<br/>Last update: Thu Dec  8 11:25:49 CET 2011.
+			Financial report published by Damien Lallement (Mageia.Org Treasurer on the 2011 Fiscal Year).<br/>You can contact him by sending an email to <em>treasurer[at]mageia[dot]org</em>.<br/>Last update: Tue Jan 10 16:12:13 CET 2012.
                 </div>
             </div>
         </div>

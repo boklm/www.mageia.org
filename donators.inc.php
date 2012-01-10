@@ -273,7 +273,10 @@ $donators = array(
     'Louis Soriano',
     'Ota Akira',
     'Roger Mattson',
-    'Gabor Alba'
+    'Gabor Alba',
+    'Florian Siegenthaler',
+    'Jacob Daniels',
+    'Antoine de Chambost'
 );
 
 //$html .= '<img src="/g/images/mageia_0.svg" style="position: absolute; top: 180px; width: 300px; opacity: 0.2;" />';

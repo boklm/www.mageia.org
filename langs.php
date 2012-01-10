@@ -24,7 +24,7 @@ $g_app_root = realpath(dirname(__FILE__));
 define('G_APP_ROOT', $g_app_root);
 
 $g_donate_amount = 'EUR&nbsp;12 181.52';
-$g_amount_remain = 'EUR&nbsp;7 742.95';
+$g_amount_remain = 'EUR&nbsp;8 628.27';
 
 $G_coord_assos = <<<T
   Assocation Mageia.Org
