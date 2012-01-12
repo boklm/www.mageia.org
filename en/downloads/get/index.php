@@ -144,7 +144,7 @@ $_t['page_title'] = sprintf($_t['page_title'], '<em class="tag">' . $title . '</
         <div id="bd" role="main">
             <?php if (!is_null($download)): ?>
                 <div class="yui-g"><div class="para">
-                    
+
                 <h2><?php echo $_t['page_title']; ?></h2>
                 <p><?php
                     echo
@@ -152,7 +152,7 @@ $_t['page_title'] = sprintf($_t['page_title'], '<em class="tag">' . $title . '</
                         ' ', sprintf($_t['dl_size'], $product['size']),
                         ' ', sprintf($_t['alt_download'], $download, $download);
                 ?></p>
-
+    
                 <div class="dlinfo">
                     <p><?php echo $dl2_mirror_alt; ?></p>
                     <?php if (((isset($product['md5']) && strlen($product['md5']) > 0)
