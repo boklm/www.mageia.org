@@ -11,7 +11,7 @@
 
 header('HTTP/1.1 503 Service Temporarily Unavailable');
 header('Status: 503 Service Temporarily Unavailable');
-header('Retry-After: 7200');
+header('Retry-After: Thu, 19 Jan 2012 04:00:00 GMT');
 
 $_t = array(
     'en' => array(
@@ -50,6 +50,9 @@ $_t = array(
     )
 );
 
+if (!isset($locale))
+    $locale = 'en';
+
 $_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
 
 ?>
@@ -57,6 +60,7 @@ $_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
 <head>
     <meta charset="utf-8">
     <title><?php echo $_t['title']; ?></title>
+    <meta name="robots" contents="noindex,nofollow,nosnippet">
     <style type="text/css" media="all">
 html,
 body {
