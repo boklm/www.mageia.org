@@ -52,10 +52,6 @@ if (!isset($locale))
 
 $page   = count($sel) > 0 ? implode('/', $sel) : null;
 
-// temp SOPA protest redirection
-include G_APP_ROOT . '/sopa/index.php';
-die;
-
 $list_langs = array();
 $options    = array();
 
