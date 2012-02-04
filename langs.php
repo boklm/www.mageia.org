@@ -254,15 +254,6 @@ $hsnav .= <<<H
 </div><!--googleon: all--></div>
 H;
 
-// temp Marseille/2012/01
-$hsnav .= <<<S
-<div style="font-size: 90%; text-align: left; background: rgba(255,255,255,0.4); color: #b00; font-weight: bold; border-bottom: 1px solid #aaa; padding: 0.5em 0.6em 0 0.8em;">
-<p>Some Mageia servers will be offline on February 1<sup>st</sup> and 2<sup>nd</sup> (Wednesday and Thursday)<br>
-for maintenance. Many of our services will be unavailable during this period.<br>
-<a href="http://blog.mageia.org/en/2012/01/30/scheduled-servers-downtime/">More info on our blog</a>.</p>
-</div>
-S;
-
 //$hsnav .= sprintf('<div class="nav"><!--googleoff: all--><div class="nav2"><p class="loc">%s</p></div></div>', implode(' | ', $list_menu));
 
 if (!defined('HLANG'))
