@@ -28,6 +28,7 @@ require 'lib.php';
 
 // request
 $product = get('q');
+$debug   = get('d');
 $torrent = isset($_GET['torrent']) ? true : false;
 
 if (is_null($product)) {
@@ -152,22 +153,24 @@ $_t['page_title'] = sprintf($_t['page_title'], '<em class="tag">' . $title . '</
                         ' ', sprintf($_t['dl_size'], $product['size']),
                         ' ', sprintf($_t['alt_download'], $download, $download);
                 ?></p>
-    
+
                 <div class="dlinfo">
                     <p><?php echo $dl2_mirror_alt; ?></p>
-                    <?php if (((isset($product['md5']) && strlen($product['md5']) > 0)
-                      || (isset($product['sha1'])) && strlen($product['sha1']) > 0)
-                      && !$torrent): ?>
-                <p><?php echo $_t['signs_check_1']; ?></p>
-                <div id="check-signs">
-                <pre class="term">
+                    <?php
+                    if (((isset($product['md5']) && strlen($product['md5']) > 0)
+                        || (isset($product['sha1'])) && strlen($product['sha1']) > 0)
+                        && !$torrent): ?>
+                        <p><?php echo $_t['signs_check_1']; ?></p>
+                        <div id="check-signs">
+                            <pre class="term">
 <?php if (strlen($product['md5'])): ?>$ md5sum <?php echo basename($download), "\n<strong>", $product['md5'], "</strong>\n"; endif; ?>
 
 <?php if (strlen($product['sha1'])): ?>$ sha1sum <?php echo basename($download), "\n<strong>", $product['sha1'], "</strong>\n"; endif; ?>
 </pre>
-                <p><?php echo $_t['signs_check_2']; ?></p>
-                </div>
+                            <p><?php echo $_t['signs_check_2']; ?></p>
+                        </div>
                     <?php endif; ?>
+                    <p><?php echo sprintf('Your IP address is: %s.', $_SESSION['ip']); ?>
                 </div>
 
                 <!-- alternative mirrors table -->

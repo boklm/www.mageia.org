@@ -37,6 +37,7 @@ class NoProductFoundError extends Exception {}
 class NoMirrorFoundError extends Exception {}
 
 /**
+ * TODO use aliases, so that downloads asking for alpha3 get redirected to beta1 for instance? (on migration)
 */
 function get_info_for_product($product)
 {
