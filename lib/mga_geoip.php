@@ -22,11 +22,9 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-require 'maxmind/geoip/geoip.inc.php';
-
 // "iso 3166 country","continent code"
 // taken from http://www.maxmind.com/app/country_continent
-$GEOIP_COUNTRY_TO_CONTINENT = array(
+$MGA_GEOIP_COUNTRY_TO_CONTINENT = array(
     'A1' => '--', 'A2' => '--', 'AD' => 'EU', 'AE' => 'AS', 'AF' => 'AS',
     'AG' => 'NA', 'AI' => 'NA', 'AL' => 'EU', 'AM' => 'AS', 'AN' => 'NA',
     'AO' => 'AF', 'AP' => 'AS', 'AQ' => 'AN', 'AR' => 'SA', 'AS' => 'OC',
@@ -116,25 +114,6 @@ $GEOIP_COUNTRY_TO_CONTINENT = array(
 );
 
 /**
- * Naive function to return the version number of the IP address format.
- * Very naive, so to improve or discard with a better solution.
- *
- * @param string $addr
- *
- * @return int
-*/
-function _ip_version($addr) {
-    $addr = trim($addr);
-    if ($addr == '')
-        return null;
-
-    if (strpos(':', $addr) !== false)
-        return 6;
-
-    return 4;
-}
-
-/**
  * Wrapper to PHP module function or available MaxMind API library.
  * Works with IPv4 and IPv6 addresses.
  *
@@ -152,7 +131,7 @@ function mga_geoip_country_by_ip($ip, $try_php_module = true)
     if ($ip == '127.0.0.1' || $ip == '::1')
         return null;
 
-    if (function_exists('geoip_country_code_by_name'))
+    if ($try_php_module && function_exists('geoip_country_code_by_name'))
     {
         // may shout a "Host {IP} not found"
         $loc = @geoip_country_code_by_name($ip);
