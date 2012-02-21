@@ -6,8 +6,8 @@ include 'locales.php';
 
 $_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
 
-$_t['page_h1'] = sprintf($_t['page_h1'], '<em class="tag">Mageia 2 alpha3</em>');
-$_t['page_title'] = sprintf($_t['page_title'], 'Mageia 2 alpha3');
+$_t['page_h1'] = sprintf($_t['page_h1'], '<em class="tag">Mageia 2 beta1</em>');
+$_t['page_title'] = sprintf($_t['page_title'], 'Mageia 2 beta1');
 
 require '../downloads/lib.php';
 ?>
@@ -26,110 +26,146 @@ require '../downloads/lib.php';
 <body class="release">
     <?php echo $hsnav; ?>
     <div id="doc4" class="yui-t7">
-        <div id="hd" role="banner"><h1><a id="logo" href="/<?php echo $locale; ?>/"><span>Mageia</span></a> <span class="lsep">|</span> <span class="subh">2 <em class="tag">alpha3</em></span></h1></div>
         <?php include 'nav.php'; ?>
+        <div id="hd" role="banner"><h1><a id="logo" href="/<?php echo $locale; ?>/"><span>Mageia</span></a> <span class="lsep">|</span>
+            <span class="subh">2 <em class="tag">beta1</em></span></h1></div>
         <div id="bd" role="main">
-            <div class="yui-g bb1">
+            <div class="yui-g">
                 <div class="para">
-                    <p class="red-sign">
-                    This release is an <em>alpha</em>, that is, unstable, and primarily aimed at technical people
-                        for identifying and fixing bugs &ndash;
-                        PLEASE DO NOT use it in production context or for review.</p>
-
-                    <p>You can check the <a href="https://wiki.mageia.org/en/Mageia_2_alpha3">release notes on the wiki</a>:
-                        what's new, what to expect, what to test, how to report and contribute.</p>
+                    <p class="red-sign" style="margin-top: -13px;">
+                    This is a <em>beta</em> release &ndash;
+                        PLEASE DO NOT use it for production.</p>
                 </div>
             </div>
-            <div class="yui-g">
-                <div class="yui-u first rb1"><div class="para">
-
-                    <h2>LiveCDs, for a live test or full install</h2>
-                    <p>Alpha3 LiveCDs still have blocking issues; will be available later.</p>
-                    <?php /*
-                    <table class="dlt2">
-                        <thead><tr><th></th><th>GNOME</th><th>KDE</th></tr></thead>
-                        <tbody>
-                            <tr>
-                                <th>Europe 1</th>
-                                <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha3-LiveCD-GNOME-Europe1-Americas-i586-CD.iso">32bit</a>,
-                                  <a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha3-LiveCD-GNOME-Europe1-Americas-i586-CD.iso&amp;torrent=1">torrent</a><br>
-                                  <a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha3-LiveCD-GNOME-Europe1-Americas-x86_64-CD.iso">64bit</a>,
-                                  <a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha3-LiveCD-GNOME-Europe1-Americas-x86_64-CD.iso&amp;torrent=1">torrent</a></td>
-                                <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha3-LiveCD-KDE4-Europe1-Americas-i586-CD.iso">32bit</a>,
-                                  <a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha3-LiveCD-KDE4-Europe1-Americas-i586-CD.iso&amp;torrent=1">torrent</a><br>
-                                  <a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha3-LiveCD-KDE4-Europe1-Americas-x86_64-CD.iso">64bit</a>,
-                                  <a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha3-LiveCD-KDE4-Europe1-Americas-x86_64-CD.iso&amp;torrent=1">torrent</a></td>
-                            </tr>
-                            <tr>
-                                <td colspan="3"><p class="dlinfo">Included locales:
-                                    German (de), Greek (el), English (Australia) (en_AU), English (Canada) (en_CA), English (en_GB), English (Ireland) (en_IE), English (New-Zealand) (en_NZ), English (American) (en_US), English (South Africa) (en_ZA), Spanish (es), French (fr), Italian (it), Dutch (nl), Portuguese (pt), Portuguese Brazil (pt_BR), Turkish (tr)
-                                </p></td>
-                            </tr>
-                            <tr>
-                                <th>Europe 2</th>
-                                <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha3-LiveCD-GNOME-Europe2-i586-CD.iso">32bit</a>,
-                                  <a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha3-LiveCD-GNOME-Europe2-i586-CD.iso&amp;torrent=1">torrent</a></td>
-                                <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha3-LiveCD-KDE4-Europe2-i586-CD.iso">32bit</a>,
-                                  <a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha3-LiveCD-KDE4-Europe2-i586-CD.iso&amp;torrent=1">torrent</a></td>
-                            </tr>
-                            <tr>
-                                <td colspan="3"><p class="dlinfo">Included locales:
-                                    Bulgarian (bg), Czech (cs), Danish (da), English (American) (en_US), Estonian (et), Finnish (Suomi) (fi), Croatian (hr), Hungarian (hu), Lithuanian (lt), Latvian (lv), Norwegian Bokmaal (nb), Norwegian Nynorsk (nn), Polish (pl), Romanian (ro), Russian (ru), Swedish (sv), Ukrainian (uk), Uzbek (uz), Uzbek (cyrillic) (uz@cyrillic)
-                                </p></td>
-                            </tr>
-                            <tr>
-                                <th>Africa, India</th>
-                                <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha3-LiveCD-GNOME-Africa-India-i586-CD.iso">32bit</a>,
-                                  <a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha3-LiveCD-GNOME-Africa-India-i586-CD.iso&amp;torrent=1">torrent</a></td>
-                                <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha3-LiveCD-KDE4-Africa-India-i586-CD.iso">32bit</a>,
-                                  <a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha3-LiveCD-KDE4-Africa-India-i586-CD.iso&amp;torrent=1">torrent</a></td>
-                            </tr>
-                            <tr>
-                                <td colspan="3"><p class="dlinfo">Included locales:
-                                    Afrikaans (af), Amharic (am), Arabic (ar), Assamese (as), Berber (ber), Bengali (bn), English (American) (en_US), Hausa (ha), Hebrew (he), Hindi (hi), Igbo (ig), Kannada (kn), Malayalam (ml), Marathi (mr), Punjabi (gurmukhi) (pa_IN), Tamil (ta), Tswana (tn), Tsonga (ts), Venda (ve), Xhosa (xh), Yoruba (yo), Zulu (zu)                                </p></td>
-                            </tr>
-                            <tr>
-                                <th>Asia</th>
-                                <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha3-LiveCD-GNOME-Asia-Noindia-i586-CD.iso">32bit</a>,
-                                  <a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha3-LiveCD-GNOME-Asia-Noindia-i586-CD.iso&amp;torrent=1">torrent</a></td>
-                                <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha3-LiveCD-KDE4-Asia-Noindia-i586-CD.iso">32bit</a>,
-                                  <a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha3-LiveCD-KDE4-Asia-Noindia-i586-CD.iso&amp;torrent=1">torrent</a></td>
-                            </tr>
-                            <tr>
-                                <td colspan="3"><p class="dlinfo">Included locales:
-                                    English (American) (en_US), Indonesian (id), Japanese (ja), Korean (ko), Thai (th), Vietnamese (vi), Chinese Simplified (zh_CN), Chinese Traditional (zh_TW)
-                                </p></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <p class="dlinfo">Download is approximately 700MB.</p>
-                    */ ?>
-                </div></div>
-                <div class="yui-u"><div class="para">
-                    <h2>Full, exclusively Free Software DVDs</h2>
-                    <ul>
-                        <li><a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha3-i586-DVD.iso">Mageia 2 alpha3 32bit DVD</a>,
-                          <a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha3-i586-DVD.iso&amp;torrent=1">torrent</a></li>
-                        <li><a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha3-x86_64-DVD.iso">Mageia 2 alpha3 64bit DVD</a>,
-                          <a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha3-x86_64-DVD.iso&amp;torrent=1">torrent</a></li>
-                    </ul>
-                    <p class="dlinfo warn">Note that these DVD ISOs are made of Free Software exclusively.
-                        As a consequence, proprietary Wi-Fi and video drivers are not included.
-                        If you need WiFi or specific video drivers <em>at install time</em>,
-                        you should go with above LiveCDs instead.
-                        You may, if you will, add nonfree software repository <em>after</em> the installation.</p>
-                    <p class="dlinfo">Up to 167 locales are supported:
-                        Deutsch, English, español, français, italiano, português, svenska, nederlands,
-                        polski, dansk, Русский and so much more! See the comprehensive list.</p>
-
-
-                    <h2>Wired network-based install CD</h2>
-                    <ul>
-                        <li><a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha3-Boot-i586-CD.iso">32bit</a></li>
-                        <li><a rel="nofollow" href="../downloads/get/?q=Mageia-2-alpha3-Boot-x86_64-CD.iso">64bit</a></li>
-                    </ul>
-                    <p class="dlinfo">Good to download (about 40 MB) and boot quickly into install mode
-                      from <em>wired</em> network or local disk.</p>
+            <div class="yui-ge bb1">
+                <div class="yui-u first rb1">
+                    <div class="para">
+                        <h2>Download and test Mageia 2 beta1</h2>
+                        <p>You can check the <a href="https://wiki.mageia.org/en/Mageia_2_beta1">release notes on the wiki</a>:
+                            what's new, what to expect, what to test, how to report and contribute.</p>
+                        <?php /*
+                        <p>Major features planned for the final release notably include:</p>
+                        <ul>
+                            <li>KDE 4.8.x, GNOME 3.4.x, Sugar 0.95,</li>
+                            <li>glibc 2.14.1, kernel 3.3, systemd,</li>
+                            <li>MariaDB 5.5, PostgreSQL 8.4.10, 9.0.6 and 9.1.2,</li>
+                            <br>
+                            <li>upgradable from Mageia 1 (which was from Mandriva 2010.0 and 2010.1)</li>
+                            <li>stable, secure, maintained,</li>
+                            <li>and many others.</li>
+                        </ul>
+                        <p>Major benefits from Mageia 2:</p>
+                        <ul>
+                            <li>.</li>
+                        </ul>
+                        */ ?>
+                    </div>
+                    <div class="para">
+                        <h3>Full, exclusively Free Software DVDs</h3>
+                        <ul>
+                            <li><a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta1-i586-DVD.iso">Mageia 2 beta1 32bit DVD</a>,
+                              <a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta1-i586-DVD.iso&amp;torrent=1">torrent</a></li>
+                            <li><a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta1-x86_64-DVD.iso">Mageia 2 beta1 64bit DVD</a>,
+                              <a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta1-x86_64-DVD.iso&amp;torrent=1">torrent</a></li>
+                        </ul>
+                        <p class="dlinfo warn">Note that these DVD ISOs are made of Free Software exclusively.
+                            As a consequence, proprietary Wi-Fi and video drivers are not included.
+                            If you need WiFi or specific video drivers <em>at install time</em>,
+                            you should go with above LiveCDs instead.
+                            You may, if you will, add nonfree software repository <em>after</em> the installation.</p>
+                        <p class="dlinfo">Up to 167 locales are supported:
+                            Deutsch, English, español, français, italiano, português, svenska, nederlands,
+                            polski, dansk, Русский and so much more! See the comprehensive list.</p>
+                    </div>
+                    <div class="para">
+                        <h3>Wired network-based install CD</h3>
+                        <ul>
+                            <li><a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta1-Boot-i586-CD.iso">32bit</a></li>
+                            <li><a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta1-Boot-x86_64-CD.iso">64bit</a></li>
+                        </ul>
+                        <p class="dlinfo">Good to download (about 40 MB) and boot quickly into install mode
+                          from <em>wired</em> network or local disk.</p>
+                    </div>
+                    <div class="para">
+                        <h3>LiveCDs, for a live test or full install</h3>
+                        <p>beta1 LiveCDs still have blocking issues; will be available later.</p>
+                        <?php /*
+                        <table class="dlt2">
+                            <thead><tr><th></th><th>GNOME</th><th>KDE</th></tr></thead>
+                            <tbody>
+                                <tr>
+                                    <th>Europe 1</th>
+                                    <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta1-LiveCD-GNOME-Europe1-Americas-i586-CD.iso">32bit</a>,
+                                      <a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta1-LiveCD-GNOME-Europe1-Americas-i586-CD.iso&amp;torrent=1">torrent</a><br>
+                                      <a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta1-LiveCD-GNOME-Europe1-Americas-x86_64-CD.iso">64bit</a>,
+                                      <a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta1-LiveCD-GNOME-Europe1-Americas-x86_64-CD.iso&amp;torrent=1">torrent</a></td>
+                                    <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta1-LiveCD-KDE4-Europe1-Americas-i586-CD.iso">32bit</a>,
+                                      <a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta1-LiveCD-KDE4-Europe1-Americas-i586-CD.iso&amp;torrent=1">torrent</a><br>
+                                      <a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta1-LiveCD-KDE4-Europe1-Americas-x86_64-CD.iso">64bit</a>,
+                                      <a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta1-LiveCD-KDE4-Europe1-Americas-x86_64-CD.iso&amp;torrent=1">torrent</a></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3"><p class="dlinfo">Included locales:
+                                        German (de), Greek (el), English (Australia) (en_AU), English (Canada) (en_CA), English (en_GB), English (Ireland) (en_IE), English (New-Zealand) (en_NZ), English (American) (en_US), English (South Africa) (en_ZA), Spanish (es), French (fr), Italian (it), Dutch (nl), Portuguese (pt), Portuguese Brazil (pt_BR), Turkish (tr)
+                                    </p></td>
+                                </tr>
+                                <tr>
+                                    <th>Europe 2</th>
+                                    <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta1-LiveCD-GNOME-Europe2-i586-CD.iso">32bit</a>,
+                                      <a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta1-LiveCD-GNOME-Europe2-i586-CD.iso&amp;torrent=1">torrent</a></td>
+                                    <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta1-LiveCD-KDE4-Europe2-i586-CD.iso">32bit</a>,
+                                      <a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta1-LiveCD-KDE4-Europe2-i586-CD.iso&amp;torrent=1">torrent</a></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3"><p class="dlinfo">Included locales:
+                                        Bulgarian (bg), Czech (cs), Danish (da), English (American) (en_US), Estonian (et), Finnish (Suomi) (fi), Croatian (hr), Hungarian (hu), Lithuanian (lt), Latvian (lv), Norwegian Bokmaal (nb), Norwegian Nynorsk (nn), Polish (pl), Romanian (ro), Russian (ru), Swedish (sv), Ukrainian (uk), Uzbek (uz), Uzbek (cyrillic) (uz@cyrillic)
+                                    </p></td>
+                                </tr>
+                                <tr>
+                                    <th>Africa, India</th>
+                                    <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta1-LiveCD-GNOME-Africa-India-i586-CD.iso">32bit</a>,
+                                      <a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta1-LiveCD-GNOME-Africa-India-i586-CD.iso&amp;torrent=1">torrent</a></td>
+                                    <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta1-LiveCD-KDE4-Africa-India-i586-CD.iso">32bit</a>,
+                                      <a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta1-LiveCD-KDE4-Africa-India-i586-CD.iso&amp;torrent=1">torrent</a></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3"><p class="dlinfo">Included locales:
+                                        Afrikaans (af), Amharic (am), Arabic (ar), Assamese (as), Berber (ber), Bengali (bn), English (American) (en_US), Hausa (ha), Hebrew (he), Hindi (hi), Igbo (ig), Kannada (kn), Malayalam (ml), Marathi (mr), Punjabi (gurmukhi) (pa_IN), Tamil (ta), Tswana (tn), Tsonga (ts), Venda (ve), Xhosa (xh), Yoruba (yo), Zulu (zu)                                </p></td>
+                                </tr>
+                                <tr>
+                                    <th>Asia</th>
+                                    <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta1-LiveCD-GNOME-Asia-Noindia-i586-CD.iso">32bit</a>,
+                                      <a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta1-LiveCD-GNOME-Asia-Noindia-i586-CD.iso&amp;torrent=1">torrent</a></td>
+                                    <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta1-LiveCD-KDE4-Asia-Noindia-i586-CD.iso">32bit</a>,
+                                      <a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta1-LiveCD-KDE4-Asia-Noindia-i586-CD.iso&amp;torrent=1">torrent</a></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3"><p class="dlinfo">Included locales:
+                                        English (American) (en_US), Indonesian (id), Japanese (ja), Korean (ko), Thai (th), Vietnamese (vi), Chinese Simplified (zh_CN), Chinese Traditional (zh_TW)
+                                    </p></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="dlinfo">Download is approximately 700MB.</p>
+                        */ ?>
+                    </div>
+                </div>
+                <div class="yui-u">
+                    <div class="para">
+                        <h3>Release calendar</h3>
+                        <p>Here are the next steps before the final release of Mageia 2:</p>
+                        <style>
+                        .relcal { margin: 0; padding: 0; }
+                        .relcal li { list-style-position: inside; margin-left: -2em; padding: 0.2em 0 0.5em 1em; }
+                        .relcal li.now { background: #eee; color: #333; }
+                        </style>
+                        <ul class="relcal">
+                            <li class="now">beta1: February&nbsp;21<sup>st</sup></li>
+                            <li>beta2: March&nbsp;15<sup>th</sup></li>
+                            <li><abbr title="release candidate">rc</abbr>: April&nbsp;10<sup>th</sup></li>
+                            <li>final: May&nbsp;3<sup>rd</sup></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
