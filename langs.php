@@ -95,7 +95,8 @@ if ($locale == 'el')
 // global nav
 $nav_list = array(
     "/{$locale}/" => 'Mageia',
-    "/{$locale}/1/" => '1',
+    "/{$locale}/1/" => '1 (stable)',
+    "/{$locale}/2/" => '2 (beta1)',
     $blog_link => array(
         'el' => 'Ιστολόγιο',
         'en' => 'Blog',
@@ -253,6 +254,7 @@ $hsnav .= <<<H
 </form>
 </div><!--googleon: all--></div>
 H;
+
 
 //$hsnav .= sprintf('<div class="nav"><!--googleoff: all--><div class="nav2"><p class="loc">%s</p></div></div>', implode(' | ', $list_menu));
 
