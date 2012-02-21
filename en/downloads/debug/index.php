@@ -15,8 +15,8 @@ else
 $s = '';
 foreach ($ips as $label => $ip) {
     $s .= sprintf('<li>%s is in %s, %s</li>',
-        @geoip_country_code_by_name($ip),
-        @geoip_continent_code_by_name($ip));
+        geoip_country_code_by_name($ip),
+        geoip_continent_code_by_name($ip));
 }
 
 echo <<<S
