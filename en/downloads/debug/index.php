@@ -53,13 +53,15 @@ echo 'Country: ', apache_note("GEOIP_COUNTRY_CODE"), '<br>';
 echo 'Country name: ', apache_note("GEOIP_COUNTRY_NAME"), '<br>';
 
 echo '<h3>using mga wrapper around MaxMind library</h3>';
-include realpath(__DIR__ . '/../../../lib/mga_geoip.php');
+require realpath(__DIR__ . '/../../../lib/mga_geoip.php');
 
 echo '<ul>';
 foreach ($ips as $label => $ip) {
+    echo '<li>', $label, ': ', $ip, ' => ';
     $country = mga_geoip_country_by_ip($ip);
+    echo $country, ', ';
     $C = mga_geoip_continent_by_country($country);
-    echo '<li>', $label, ': ', $ip, ' => ', $country, ', ', $C, '</li>';
+    echo $C, '</li>';
 }
 echo '</ul>';
 
