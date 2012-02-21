@@ -12,18 +12,13 @@ if (isset($_SERVER['HTTP_X_FORWARDED_FOR'])
 else
     $ips['ip'] = $_SERVER['REMOTE_ADDR'];
 
-$s = '';
+echo '<html><body><pre>Testing IP, country, continent',
+    "\n------------------------------\n\n";
+
 foreach ($ips as $label => $ip) {
-    $s .= sprintf('<li>%s is in %s, %s</li>',
-        geoip_country_code_by_name($ip),
-        geoip_continent_code_by_name($ip));
+    echo ' * ', $label, ': ', $ip, ' => ';
+    echo geoip_country_code_by_name($ip), ', ';
+    echo geoip_continent_code_by_name($ip), "\n";
 }
 
-echo <<<S
-<html><body>
-<h1>Testing your IP, country, continent.</h1>
-<ul>$s</ul>
-<hr>
-</body></html>
-S;
-
+echo '----</pre></body></html>';
