@@ -18,7 +18,7 @@ else
 
 echo '<html><body>';
 
-echo '<h3>Testing functions:</h3>';
+echo '<h3>testing geoip PHP functions:</h3>';
 echo '<ul>';
 foreach ($functions as $f) {
     echo sprintf('<li>%s: %s available</li>',
@@ -28,7 +28,7 @@ echo '<li>DB version: ', geoip_database_info(), '</li>';
 
 echo '</ul>';
 
-echo '<h3>Testing IP, country, continent</h3>';
+echo '<h3>using geoip PHP module</h3>';
 foreach ($ips as $label => $ip) {
     echo ' * ', $label, ': ', $ip, ' => ';
     echo geoip_country_code_by_name($ip), ', ';
@@ -40,5 +40,8 @@ foreach ($ips as $label => $ip) {
     echo implode(', ', geoip_record_by_name($ip));
     echo "\n";
 }
+echo '<h3>using mod_geoip</h3>';
+echo 'Country: ', apache_note("GEOIP_COUNTRY_CODE"), '<br>';
+echo 'Country name: ', apache_note("GEOIP_COUNTRY_NAME"), '<br>';
 
 echo '----</pre></body></html>';
