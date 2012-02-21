@@ -17,10 +17,6 @@ if (isset($_SERVER['HTTP_X_FORWARDED_FOR'])
 else
     $ips['ip'] = $_SERVER['REMOTE_ADDR'];
 
-$ips = array(
-    'ip' => '2a01:e35:8a03:9990:223:dfff:fe7e:e7f0'
-);
-
 echo '<html><body>';
 
 echo '<h3>IP addresses</h3>';
