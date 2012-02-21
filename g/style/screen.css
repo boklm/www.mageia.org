@@ -68,6 +68,7 @@ hr {
 .date { color: #444; font-style: italic; font-size: 1em; }
 #doc, #doc4 {
   margin: 1em auto 2em auto;
+  margin: 1em auto 2em 250px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
