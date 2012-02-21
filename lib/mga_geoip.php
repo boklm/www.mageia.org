@@ -139,14 +139,14 @@ function mga_geoip_country_by_ip($ip, $try_php_module = true)
     else
     {
         require_once realpath(__DIR__ . '/maxmind/geoip/geoipv6.inc.php');
-        $gi  = geoip_open(realpath(__DIR__ . '/maxmind/geoip/GeoIPv6.dat'), GEOIP_STANDARD);
+        $gi = _lib_geoip_open(realpath(__DIR__ . '/maxmind/geoip/GeoIPv6.dat'), GEOIP_STANDARD);
 
         // naive rewrite of IPv4 into IPv6
         if (strpos($ip, ':') === false)
             $ip = '::' . $ip;
 
-        $loc = @geoip_country_code_by_addr_v6($gi, $ip);
-        geoip_close($gi);
+        $loc = _lib_geoip_country_code_by_addr_v6($gi, $ip);
+        _lib_geoip_close($gi);
     }
     if (trim($loc) == '' || is_null($loc))
         return null;
