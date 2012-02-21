@@ -90,7 +90,8 @@ Note that translations are on their way.',
         and that <a href="%s">donate money, hardware, hosting and more</a>.',
         'dl-failed-try-again' => 'Your download could not complete, as we could not find this file.
             Please try again from the <a href="%s">main downloads page</a>.',
-        'dl-failed-tell-us' => 'If you still encounter this error and think IT SHOULD NOT HAPPEN &ndash; please tell us:'
+        'dl-failed-tell-us' => 'If you still encounter this error and think IT SHOULD NOT HAPPEN &ndash; please tell us:',
+        'your ip address is' => 'Your IP address is: %s.'
     ),
     'cs' => array(
         'download' => 'stahování',
@@ -551,7 +552,8 @@ veebimeeskonda Freenode IRC-kanalil <a href="irc://irc.freenode.net/#mageia-web"
         'not_sure_what_iso' => 'Vous ne savez pas quelle image ISO télécharger&nbsp;? Cela peut vous sembler un peu détaillé, mais vous pouvez <a href="https://wiki.mageia.org/en/Installation_Media">lire cet article qui présente nos différents supports d’installation</a>.',
         'Country' => 'Pays',
         'City' => 'Ville',
-        'Download mirrors' => 'Miroirs de téléchargement'
+        'Download mirrors' => 'Miroirs de téléchargement',
+        'your ip address is' => 'Votre adresse IP est&nbsp;: %s.'
     ),
     'it' => array(
         'download' => 'scarica',
