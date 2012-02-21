@@ -152,6 +152,10 @@ require '../downloads/lib.php';
                 </div>
                 <div class="yui-u">
                     <div class="para">
+                        <h3><a href="https://wiki.mageia.org/en/Mageia_2_beta1">Release notes</a></h3>
+                        <p>are <a href="https://wiki.mageia.org/en/Mageia_2_beta1">on the wiki</a>!</p>
+                    </div>
+                    <div class="para">
                         <h3>Release calendar</h3>
                         <p>Here are the next steps before the final release of Mageia 2:</p>
                         <style>
