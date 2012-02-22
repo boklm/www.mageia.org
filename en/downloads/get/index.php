@@ -71,6 +71,9 @@ try {
 
     $g_mirs2 = array();
     foreach ($alt_mirrors as $country => $mirs):
+        if (substr($country, 0, 3) == '_C:')
+            continue;
+
         foreach ($mirs as $mir):
             $g_mirs2[$countries[$country]][$mir['city']][] = $mir['url'];
         endforeach;
@@ -80,6 +83,7 @@ try {
 
     $alternative_mirrors = '';
     foreach ($g_mirs2 as $country => $cities):
+        $s = array();
         foreach ($cities as $city => $mirrors2) {
             $mirs = array();
             foreach ($mirrors2 as $m) {
@@ -88,8 +92,9 @@ try {
                 $mirs[] = sprintf('%s://<a href="%s" rel="nofollow">%s</a>',
                     $pm['scheme'], $alt_dl_link, $pm['host']);
             }
-            $alternative_mirrors .= sprintf('<tr><td nowrap>%s</td><td>%s</td><td>%s</td></tr>', $country, $city, implode(', ', $mirs));
+            $s[] = sprintf('<td>%s</td><td>%s</td>', $city, implode(', ', $mirs));
         }
+        $alternative_mirrors .= sprintf('<tr><td rowspan="%d">%s</td>%s</tr>', count($cities), $country, implode('</tr><tr>', $s));
     endforeach;
 
     $dl2_mirror_alt = sprintf($_t['dl_mirror_loc'],
