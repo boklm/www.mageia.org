@@ -175,7 +175,8 @@ $_t['page_title'] = sprintf($_t['page_title'], '<em class="tag">' . $title . '</
                             <p><?php echo $_t['signs_check_2']; ?></p>
                         </div>
                     <?php endif; ?>
-                    <p><?php echo sprintf($_t['your ip address is'], $_SESSION['ip']); ?>
+                    <p><?php echo sprintf($_t['your ip address is'],
+                        $_SESSION['ip'], $_SESSION['country'], $_SESSION['continent']); ?>
                 </div>
 
                 <!-- alternative mirrors table -->

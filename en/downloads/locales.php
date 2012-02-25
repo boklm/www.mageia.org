@@ -91,7 +91,7 @@ Note that translations are on their way.',
         'dl-failed-try-again' => 'Your download could not complete, as we could not find this file.
             Please try again from the <a href="%s">main downloads page</a>.',
         'dl-failed-tell-us' => 'If you still encounter this error and think IT SHOULD NOT HAPPEN &ndash; please tell us:',
-        'your ip address is' => 'Your IP address is: %s.'
+        'your ip address is' => 'Your IP address is %s and you seem to be in %s, %s.'
     ),
     'cs' => array(
         'download' => 'stahování',
