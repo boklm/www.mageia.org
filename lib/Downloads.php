@@ -86,6 +86,12 @@ class Downloads
     }
 
     /**
+     * Get mirrors list from mirrors.mageia.org,
+     * store/cache it in a different key/value format
+     * (keys are: "$country" and "_C:$continent"),
+     * and return it.
+     *
+     * @return array
     */
     public static function get_all_mirrors()
     {
@@ -108,13 +114,19 @@ class Downloads
                 $m[$val[0]] = $val[1];
             }
             $pu = parse_url($m['url']);
-            if (in_array($pu['scheme'], array('http', 'ftp')))
-                $mirrors3[$m['country']][] = array(
-                    'city' => isset($m['city']) ? $m['city'] : '?',
-                    'zone' => $m['zone'],
+            if (in_array($pu['scheme'], array('http', 'ftp'))) {
+
+                $item = array(
+                    'city'      => isset($m['city']) ? $m['city'] : '?',
+                    'continent' => isset($m['continent']) ? $m['continent'] : '?',
+                    'zone'      => $m['zone'],
                     // BEWARE of the path substitution here. Must match.
-                    'url' => str_replace('/distrib/1/i586', '', $m['url'])
+                    'url'       => str_replace('/distrib/1/i586', '', $m['url'])
                 );
+
+                $mirrors3[$m['country']][]     = $item;
+                $mirrors3['_C:' . $m['continent']][] = $item;
+            }
         }
 
         /*
@@ -127,10 +139,21 @@ class Downloads
     }
 
     /**
+     * Get mirrors from stored dictionnary and find:
+     * - best matching country
+     * - or best matching continent
+     * - or random
+     *
+     * @param string $country
+     * @param string $continent
+     *
+     * @return array
     */
-    function get_mirror($country)
+    function get_mirror($country, $continent = null)
     {
-        $mirs = self::get_all_mirrors();
+        $mirs      = self::get_all_mirrors();
+        $continent = '_C:' . $continent;
+
         if (array_key_exists($country, $mirs))
         {
             $mirs_tmp = $mirs[$country];
@@ -138,55 +161,20 @@ class Downloads
             {
                 $mirs_tmp = array_merge($mirs_tmp, $mirs['DE']);
             }
-            shuffle($mirs_tmp);
-
-            return array_shift($mirs_tmp);
+            $mirs = $mirs_tmp;
+        }
+        elseif (array_key_exists($continent, $mirs)) {
+            $mirs = $mirs[$continent];
         }
         else
         {
             shuffle($mirs);
             $mirs = array_shift($mirs);
-            shuffle($mirs);
-
-            return array_shift($mirs);
         }
-    }
 
-    /**
-     * Queries a GeoIP db for $ip to get the country.
-     *
-     * @param string $ip
-     *
-     * @return string
-     *
-     * If fail, use $country as a fallback to return.
-     * @see http://www.maxmind.com/app/php & http://www.maxmind.com/app/geoip_country
-     * It has limitations too & needs to be updated from time to time.
-     *
-     * @todo make a separate class for this.
-     * @todo unit tests for this!
-    */
-    function get_country($ip)
-    {
-        if ($ip == '127.0.0.1' || $ip == '::1')
-            return null;
+        shuffle($mirs);
 
-        if (function_exists('geoip_country_code_by_name'))
-        {
-            // may shout a "Host {IP} not found"
-            $loc = @geoip_country_code_by_name($ip);
-        }
-        else
-        {
-            require_once realpath(__DIR__ . '/maxmind/geoip/geoip.inc.php');
-            $gi  = geoip_open(realpath(__DIR__ . '/maxmind/geoip/GeoIP.dat'), GEOIP_STANDARD);
-            $loc = @geoip_country_code_by_addr($gi, $ip);
-            geoip_close($gi);
-        }
-        if (trim($loc) == '' || is_null($loc))
-            return null;
-
-        return strtoupper($loc);
+        return array_shift($mirs);
     }
 
     function prepare_download($force = false, $country = null)
@@ -210,6 +198,7 @@ class Downloads
         if (!is_null($country))
             $force = true;
 
+        // FIXME break this into smaller parts and extract globals so we can test st
         if (!$force && isset($_SESSION['dl-data']))
         {
             //error_log(sprintf('Got session data: %s', print_r($_SESSION['dl-data'], true)));
@@ -252,17 +241,22 @@ class Downloads
                 $_SESSION['ip'] = $ip;
                 if (is_null($country))
                 {
-                    $country      = self::get_country($ip);
+                    require_once realpath(__DIR__ . '/mga_geoip.php');
+                    $country      = mga_geoip_country_by_ip($ip, false);
+                    $continent    = mga_geoip_continent_by_country($country);
                     $fuzzy_mirror = true;
+                    $_SESSION['country']   = $country;
+                    $_SESSION['continent'] = $continent;
                 }
 
-                $mirror         = $this->get_mirror($country);
+                $mirror         = $this->get_mirror($country, $continent);
                 $mirror['purl'] = parse_url($mirror['url']);
                 
                 // reassign country, as get_one_mirror() may have decided
                 // to return a mirror from another country than the one
                 // requested initially - @see get_one_mirror()
-                $country = $mirror['zone'];
+                $country   = $mirror['zone'];
+                $continent = $mirror['continent'];
 
                 if (is_null($mirror)) {
                     // @todo?
@@ -271,9 +265,10 @@ class Downloads
 
             // write to session
             $_SESSION['dl-data'] = array(
-                'system'  => $system,
-                'country' => $country,
-                'mirror'  => $mirror
+                'system'    => $system,
+                'country'   => $country,
+                'continent' => $continent,
+                'mirror'    => $mirror
             );
         }
         //
@@ -283,6 +278,7 @@ class Downloads
             'mirror_scheme' => $mirror['purl']['scheme'],
             'mirror_url'    => $mirror['url'],
             'country'       => $country,
+            'continent'     => $continent,
             'city'          => $mirror['city'],
             'fuzzy_mirror'  => $fuzzy_mirror
         );
