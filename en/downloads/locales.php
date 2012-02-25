@@ -553,7 +553,7 @@ veebimeeskonda Freenode IRC-kanalil <a href="irc://irc.freenode.net/#mageia-web"
         'Country' => 'Pays',
         'City' => 'Ville',
         'Download mirrors' => 'Miroirs de téléchargement',
-        'your ip address is' => 'Votre adresse IP est&nbsp;: %s.'
+        'your ip address is' => 'Votre adresse IP est&nbsp;: %s et vous semblez être en %s, %s.'
     ),
     'it' => array(
         'download' => 'scarica',
