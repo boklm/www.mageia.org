@@ -242,8 +242,8 @@ class Downloads
                 if (is_null($country))
                 {
                     require_once realpath(__DIR__ . '/mga_geoip.php');
-                    $country      = mga_geoip_country_by_ip($ip, false);
-                    $continent    = mga_geoip_continent_by_country($country);
+                    $country      = MGA_Geoip::mga_geoip_country_by_ip($ip, false);
+                    $continent    = MGA_Geoip::mga_geoip_continent_by_country($country);
                     $fuzzy_mirror = true;
                     $_SESSION['country']   = $country;
                     $_SESSION['continent'] = $continent;

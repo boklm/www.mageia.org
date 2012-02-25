@@ -22,150 +22,153 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-// "iso 3166 country","continent code"
-// taken from http://www.maxmind.com/app/country_continent
-$MGA_GEOIP_COUNTRY_TO_CONTINENT = array(
-    'A1' => '--', 'A2' => '--', 'AD' => 'EU', 'AE' => 'AS', 'AF' => 'AS',
-    'AG' => 'NA', 'AI' => 'NA', 'AL' => 'EU', 'AM' => 'AS', 'AN' => 'NA',
-    'AO' => 'AF', 'AP' => 'AS', 'AQ' => 'AN', 'AR' => 'SA', 'AS' => 'OC',
-    'AT' => 'EU', 'AU' => 'OC', 'AW' => 'NA', 'AX' => 'EU', 'AZ' => 'AS',
 
-    'BA' => 'EU', 'BB' => 'NA', 'BD' => 'AS', 'BE' => 'EU', 'BF' => 'AF',
-    'BG' => 'EU', 'BH' => 'AS', 'BI' => 'AF', 'BJ' => 'AF', 'BL' => 'NA',
-    'BM' => 'NA', 'BN' => 'AS', 'BO' => 'SA', 'BR' => 'SA', 'BS' => 'NA',
-    'BT' => 'AS', 'BV' => 'AN', 'BW' => 'AF', 'BY' => 'EU', 'BZ' => 'NA',
+class MGA_Geoip {
 
-    'CA' => 'NA', 'CC' => 'AS', 'CD' => 'AF', 'CF' => 'AF', 'CG' => 'AF',
-    'CH' => 'EU', 'CI' => 'AF', 'CK' => 'OC', 'CL' => 'SA', 'CM' => 'AF',
-    'CN' => 'AS', 'CO' => 'SA', 'CR' => 'NA', 'CU' => 'NA', 'CV' => 'AF',
-    'CX' => 'AS', 'CY' => 'AS', 'CZ' => 'EU',
+    // "iso 3166 country","continent code"
+    // taken from http://www.maxmind.com/app/country_continent
+    public static $MGA_GEOIP_COUNTRY_TO_CONTINENT = array(
+        'A1' => '--', 'A2' => '--', 'AD' => 'EU', 'AE' => 'AS', 'AF' => 'AS',
+        'AG' => 'NA', 'AI' => 'NA', 'AL' => 'EU', 'AM' => 'AS', 'AN' => 'NA',
+        'AO' => 'AF', 'AP' => 'AS', 'AQ' => 'AN', 'AR' => 'SA', 'AS' => 'OC',
+        'AT' => 'EU', 'AU' => 'OC', 'AW' => 'NA', 'AX' => 'EU', 'AZ' => 'AS',
 
-    'DE' => 'EU', 'DJ' => 'AF', 'DK' => 'EU', 'DM' => 'NA', 'DO' => 'NA',
-    'DZ' => 'AF',
+        'BA' => 'EU', 'BB' => 'NA', 'BD' => 'AS', 'BE' => 'EU', 'BF' => 'AF',
+        'BG' => 'EU', 'BH' => 'AS', 'BI' => 'AF', 'BJ' => 'AF', 'BL' => 'NA',
+        'BM' => 'NA', 'BN' => 'AS', 'BO' => 'SA', 'BR' => 'SA', 'BS' => 'NA',
+        'BT' => 'AS', 'BV' => 'AN', 'BW' => 'AF', 'BY' => 'EU', 'BZ' => 'NA',
 
-    'EC' => 'SA', 'EE' => 'EU', 'EG' => 'AF', 'EH' => 'AF', 'ER' => 'AF',
-    'ES' => 'EU', 'ET' => 'AF', 'EU' => 'EU',
+        'CA' => 'NA', 'CC' => 'AS', 'CD' => 'AF', 'CF' => 'AF', 'CG' => 'AF',
+        'CH' => 'EU', 'CI' => 'AF', 'CK' => 'OC', 'CL' => 'SA', 'CM' => 'AF',
+        'CN' => 'AS', 'CO' => 'SA', 'CR' => 'NA', 'CU' => 'NA', 'CV' => 'AF',
+        'CX' => 'AS', 'CY' => 'AS', 'CZ' => 'EU',
 
-    'FI' => 'EU', 'FJ' => 'OC', 'FK' => 'SA', 'FM' => 'OC', 'FO' => 'EU',
-    'FR' => 'EU', 'FX' => 'EU',
+        'DE' => 'EU', 'DJ' => 'AF', 'DK' => 'EU', 'DM' => 'NA', 'DO' => 'NA',
+        'DZ' => 'AF',
 
-    'GA' => 'AF', 'GB' => 'EU', 'GD' => 'NA', 'GE' => 'AS', 'GF' => 'SA',
-    'GG' => 'EU', 'GH' => 'AF', 'GI' => 'EU', 'GL' => 'NA', 'GM' => 'AF',
-    'GN' => 'AF', 'GP' => 'NA', 'GQ' => 'AF', 'GR' => 'EU', 'GS' => 'AN',
-    'GT' => 'NA', 'GU' => 'OC', 'GW' => 'AF', 'GY' => 'SA',
+        'EC' => 'SA', 'EE' => 'EU', 'EG' => 'AF', 'EH' => 'AF', 'ER' => 'AF',
+        'ES' => 'EU', 'ET' => 'AF', 'EU' => 'EU',
 
-    'HK' => 'AS', 'HM' => 'AN', 'HN' => 'NA', 'HR' => 'EU', 'HT' => 'NA',
-    'HU' => 'EU',
+        'FI' => 'EU', 'FJ' => 'OC', 'FK' => 'SA', 'FM' => 'OC', 'FO' => 'EU',
+        'FR' => 'EU', 'FX' => 'EU',
 
-    'ID' => 'AS', 'IE' => 'EU', 'IL' => 'AS', 'IM' => 'EU', 'IN' => 'AS',
-    'IO' => 'AS', 'IQ' => 'AS', 'IR' => 'AS', 'IS' => 'EU', 'IT' => 'EU',
+        'GA' => 'AF', 'GB' => 'EU', 'GD' => 'NA', 'GE' => 'AS', 'GF' => 'SA',
+        'GG' => 'EU', 'GH' => 'AF', 'GI' => 'EU', 'GL' => 'NA', 'GM' => 'AF',
+        'GN' => 'AF', 'GP' => 'NA', 'GQ' => 'AF', 'GR' => 'EU', 'GS' => 'AN',
+        'GT' => 'NA', 'GU' => 'OC', 'GW' => 'AF', 'GY' => 'SA',
 
-    'JE' => 'EU', 'JM' => 'NA', 'JO' => 'AS', 'JP' => 'AS',
+        'HK' => 'AS', 'HM' => 'AN', 'HN' => 'NA', 'HR' => 'EU', 'HT' => 'NA',
+        'HU' => 'EU',
 
-    'KE' => 'AF', 'KG' => 'AS', 'KH' => 'AS', 'KI' => 'OC', 'KM' => 'AF',
-    'KN' => 'NA', 'KP' => 'AS', 'KR' => 'AS', 'KW' => 'AS', 'KY' => 'NA',
-    'KZ' => 'AS',
+        'ID' => 'AS', 'IE' => 'EU', 'IL' => 'AS', 'IM' => 'EU', 'IN' => 'AS',
+        'IO' => 'AS', 'IQ' => 'AS', 'IR' => 'AS', 'IS' => 'EU', 'IT' => 'EU',
 
-    'LA' => 'AS', 'LB' => 'AS', 'LC' => 'NA', 'LI' => 'EU', 'LK' => 'AS',
-    'LR' => 'AF', 'LS' => 'AF', 'LT' => 'EU', 'LU' => 'EU', 'LV' => 'EU',
-    'LY' => 'AF',
+        'JE' => 'EU', 'JM' => 'NA', 'JO' => 'AS', 'JP' => 'AS',
 
-    'MA' => 'AF', 'MC' => 'EU', 'MD' => 'EU', 'ME' => 'EU', 'MF' => 'NA',
-    'MG' => 'AF', 'MH' => 'OC', 'MK' => 'EU', 'ML' => 'AF', 'MM' => 'AS',
-    'MN' => 'AS', 'MO' => 'AS', 'MP' => 'OC', 'MQ' => 'NA', 'MR' => 'AF',
-    'MS' => 'NA', 'MT' => 'EU', 'MU' => 'AF', 'MV' => 'AS', 'MW' => 'AF',
-    'MX' => 'NA', 'MY' => 'AS', 'MZ' => 'AF',
+        'KE' => 'AF', 'KG' => 'AS', 'KH' => 'AS', 'KI' => 'OC', 'KM' => 'AF',
+        'KN' => 'NA', 'KP' => 'AS', 'KR' => 'AS', 'KW' => 'AS', 'KY' => 'NA',
+        'KZ' => 'AS',
 
-    'NA' => 'AF', 'NC' => 'OC', 'NE' => 'AF', 'NF' => 'OC', 'NG' => 'AF',
-    'NI' => 'NA', 'NL' => 'EU', 'NO' => 'EU', 'NP' => 'AS', 'NR' => 'OC',
-    'NU' => 'OC', 'NZ' => 'OC',
+        'LA' => 'AS', 'LB' => 'AS', 'LC' => 'NA', 'LI' => 'EU', 'LK' => 'AS',
+        'LR' => 'AF', 'LS' => 'AF', 'LT' => 'EU', 'LU' => 'EU', 'LV' => 'EU',
+        'LY' => 'AF',
 
-    'O1' => '--', 'OM' => 'AS',
+        'MA' => 'AF', 'MC' => 'EU', 'MD' => 'EU', 'ME' => 'EU', 'MF' => 'NA',
+        'MG' => 'AF', 'MH' => 'OC', 'MK' => 'EU', 'ML' => 'AF', 'MM' => 'AS',
+        'MN' => 'AS', 'MO' => 'AS', 'MP' => 'OC', 'MQ' => 'NA', 'MR' => 'AF',
+        'MS' => 'NA', 'MT' => 'EU', 'MU' => 'AF', 'MV' => 'AS', 'MW' => 'AF',
+        'MX' => 'NA', 'MY' => 'AS', 'MZ' => 'AF',
 
-    'PA' => 'NA', 'PE' => 'SA', 'PF' => 'OC', 'PG' => 'OC', 'PH' => 'AS',
-    'PK' => 'AS', 'PL' => 'EU', 'PM' => 'NA', 'PN' => 'OC', 'PR' => 'NA',
-    'PS' => 'AS', 'PT' => 'EU', 'PW' => 'OC', 'PY' => 'SA',
+        'NA' => 'AF', 'NC' => 'OC', 'NE' => 'AF', 'NF' => 'OC', 'NG' => 'AF',
+        'NI' => 'NA', 'NL' => 'EU', 'NO' => 'EU', 'NP' => 'AS', 'NR' => 'OC',
+        'NU' => 'OC', 'NZ' => 'OC',
 
-    'QA' => 'AS',
+        'O1' => '--', 'OM' => 'AS',
 
-    'RE' => 'AF', 'RO' => 'EU', 'RS' => 'EU', 'RU' => 'EU', 'RW' => 'AF',
+        'PA' => 'NA', 'PE' => 'SA', 'PF' => 'OC', 'PG' => 'OC', 'PH' => 'AS',
+        'PK' => 'AS', 'PL' => 'EU', 'PM' => 'NA', 'PN' => 'OC', 'PR' => 'NA',
+        'PS' => 'AS', 'PT' => 'EU', 'PW' => 'OC', 'PY' => 'SA',
 
-    'SA' => 'AS', 'SB' => 'OC', 'SC' => 'AF', 'SD' => 'AF', 'SE' => 'EU',
-    'SG' => 'AS', 'SH' => 'AF', 'SI' => 'EU', 'SJ' => 'EU', 'SK' => 'EU',
-    'SL' => 'AF', 'SM' => 'EU', 'SN' => 'AF', 'SO' => 'AF', 'SR' => 'SA',
-    'ST' => 'AF', 'SV' => 'NA', 'SY' => 'AS', 'SZ' => 'AF',
+        'QA' => 'AS',
 
-    'TC' => 'NA', 'TD' => 'AF', 'TF' => 'AN', 'TG' => 'AF', 'TH' => 'AS',
-    'TJ' => 'AS', 'TK' => 'OC', 'TL' => 'AS', 'TM' => 'AS', 'TN' => 'AF',
-    'TO' => 'OC', 'TR' => 'EU', 'TT' => 'NA', 'TV' => 'OC', 'TW' => 'AS',
-    'TZ' => 'AF',
+        'RE' => 'AF', 'RO' => 'EU', 'RS' => 'EU', 'RU' => 'EU', 'RW' => 'AF',
 
-    'UA' => 'EU', 'UG' => 'AF', 'UM' => 'OC', 'US' => 'NA', 'UY' => 'SA',
-    'UZ' => 'AS',
+        'SA' => 'AS', 'SB' => 'OC', 'SC' => 'AF', 'SD' => 'AF', 'SE' => 'EU',
+        'SG' => 'AS', 'SH' => 'AF', 'SI' => 'EU', 'SJ' => 'EU', 'SK' => 'EU',
+        'SL' => 'AF', 'SM' => 'EU', 'SN' => 'AF', 'SO' => 'AF', 'SR' => 'SA',
+        'ST' => 'AF', 'SV' => 'NA', 'SY' => 'AS', 'SZ' => 'AF',
 
-    'VA' => 'EU', 'VC' => 'NA', 'VE' => 'SA', 'VG' => 'NA', 'VI' => 'NA',
-    'VN' => 'AS', 'VU' => 'OC',
+        'TC' => 'NA', 'TD' => 'AF', 'TF' => 'AN', 'TG' => 'AF', 'TH' => 'AS',
+        'TJ' => 'AS', 'TK' => 'OC', 'TL' => 'AS', 'TM' => 'AS', 'TN' => 'AF',
+        'TO' => 'OC', 'TR' => 'EU', 'TT' => 'NA', 'TV' => 'OC', 'TW' => 'AS',
+        'TZ' => 'AF',
 
-    'WF' => 'OC', 'WS' => 'OC',
+        'UA' => 'EU', 'UG' => 'AF', 'UM' => 'OC', 'US' => 'NA', 'UY' => 'SA',
+        'UZ' => 'AS',
 
-    'YE' => 'AS', 'YT' => 'AF',
+        'VA' => 'EU', 'VC' => 'NA', 'VE' => 'SA', 'VG' => 'NA', 'VI' => 'NA',
+        'VN' => 'AS', 'VU' => 'OC',
 
-    'ZA' => 'AF', 'ZM' => 'AF', 'ZW' => 'AF'
-);
+        'WF' => 'OC', 'WS' => 'OC',
 
-/**
- * Wrapper to PHP module function or available MaxMind API library.
- * Works with IPv4 and IPv6 addresses.
- *
- * @param string $ip
- * @param boolean $try_php_module
- *
- * @return string
- *
- * If fail, use $country as a fallback to return.
- * @see http://www.maxmind.com/app/php & http://www.maxmind.com/app/geoip_country
- * It has limitations too & needs to be updated from time to time.
-*/
-function mga_geoip_country_by_ip($ip, $try_php_module = true)
-{
-    if ($ip == '127.0.0.1' || $ip == '::1')
-        return null;
+        'YE' => 'AS', 'YT' => 'AF',
 
-    if ($try_php_module && function_exists('geoip_country_code_by_name'))
+        'ZA' => 'AF', 'ZM' => 'AF', 'ZW' => 'AF'
+    );
+
+    /**
+     * Wrapper to PHP module function or available MaxMind API library.
+     * Works with IPv4 and IPv6 addresses.
+     *
+     * @param string $ip
+     * @param boolean $try_php_module
+     *
+     * @return string
+     *
+     * If fail, use $country as a fallback to return.
+     * @see http://www.maxmind.com/app/php & http://www.maxmind.com/app/geoip_country
+     * It has limitations too & needs to be updated from time to time.
+    */
+    public static function mga_geoip_country_by_ip($ip, $try_php_module = true)
     {
-        // may shout a "Host {IP} not found"
-        $loc = @geoip_country_code_by_name($ip);
+        if ($ip == '127.0.0.1' || $ip == '::1')
+            return null;
+
+        if ($try_php_module && function_exists('geoip_country_code_by_name'))
+        {
+            // may shout a "Host {IP} not found"
+            $loc = @geoip_country_code_by_name($ip);
+        }
+        else
+        {
+            require_once realpath(__DIR__ . '/maxmind/geoip/geoipv6.inc.php');
+            $gi = _lib_geoip_open(realpath(__DIR__ . '/maxmind/geoip/GeoIPv6.dat'), GEOIP_STANDARD);
+
+            // naive rewrite of IPv4 into IPv6
+            if (strpos($ip, ':') === false)
+                $ip = '::' . $ip;
+
+            $loc = _lib_geoip_country_code_by_addr_v6($gi, $ip);
+            _lib_geoip_close($gi);
+        }
+        if (trim($loc) == '' || is_null($loc))
+            return null;
+
+        return strtoupper($loc);
     }
-    else
-    {
-        require_once realpath(__DIR__ . '/maxmind/geoip/geoipv6.inc.php');
-        $gi = _lib_geoip_open(realpath(__DIR__ . '/maxmind/geoip/GeoIPv6.dat'), GEOIP_STANDARD);
 
-        // naive rewrite of IPv4 into IPv6
-        if (strpos($ip, ':') === false)
-            $ip = '::' . $ip;
+    /**
+     * Get continent after country.
+     *
+     * @param string $country
+     *
+     * @return string
+    */
+    public static function mga_geoip_continent_by_country($country) {
 
-        $loc = _lib_geoip_country_code_by_addr_v6($gi, $ip);
-        _lib_geoip_close($gi);
+        if (array_key_exists($country, self::$MGA_GEOIP_COUNTRY_TO_CONTINENT))
+            return self::$MGA_GEOIP_COUNTRY_TO_CONTINENT[$country];
+
+        return '--';
     }
-    if (trim($loc) == '' || is_null($loc))
-        return null;
-
-    return strtoupper($loc);
-}
-
-/**
- * Get continent after country.
- *
- * @param string $country
- *
- * @return string
-*/
-function mga_geoip_continent_by_country($country) {
-    global $MGA_GEOIP_COUNTRY_TO_CONTINENT;
-
-    if (array_key_exists($country, $MGA_GEOIP_COUNTRY_TO_CONTINENT))
-        return $MGA_GEOIP_COUNTRY_TO_CONTINENT[$country];
-
-    return '--';
 }
