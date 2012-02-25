@@ -34,8 +34,8 @@
                     <li><a href="./values/">Values</a></li>
                     <li><a href="./code-of-conduct/">Code of conduct</a></li>
                     <li><a href="/en/policies/">Policies</a></li>
-                    <li>Financial reports: <a href="./reports/2010/">2010</a>,
-                        <a href="/en/reports/2011/">2011</a></li>
+                    <li>Financial reports: <a href="/en/about/reports/2010/">2010</a>,
+                        <a href="/en/about/reports/2011/">2011</a></li>
                     <li><a href="/en/thank-you/">Thanks!</a></li>
                     <li><a href="/en/policies/privacy/">Privacy policy</a></li>
                     <li><a href="/en/about/media/">Logo, CD covers files, media files</a>.</li>
