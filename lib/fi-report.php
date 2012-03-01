@@ -18,7 +18,7 @@ class Mageia_Financial_Report
         $i->forecast_file = $files['forecast'];
         $i->accounts_file = $files['accounts'];
         
-        $i->CUR = '<span style="color: #777; font-size: 80%%;">EUR</span>';
+        $i->CUR = '<span class="currency">EUR</span>';
 
         return $i;
     }

@@ -225,6 +225,7 @@ table#dl-table th { text-align: left; }
 
 .fr-table td, .fr-table tr { vertical-align: top; }
 .fr-table td.money { text-align: right; }
+.fr-table .currency { color: #777; font-size: 80%%; }
 
 .dlt2 { border-collapse: collapse; width: 100%; font-size: 90%; }
 .dlt2 th,
