@@ -96,7 +96,7 @@ if ($locale == 'el')
 $nav_list = array(
     "/{$locale}/" => 'Mageia',
     "/{$locale}/1/" => '1 (stable)',
-    "/{$locale}/2/" => '2 (beta1)',
+    "/{$locale}/2/" => '2 (beta2)',
     $blog_link => array(
         'el' => 'Ιστολόγιο',
         'en' => 'Blog',
