@@ -170,7 +170,7 @@ require '../downloads/lib.php';
                         </style>
                         <ul class="relcal">
                             <!--<li class="now">beta2: March&nbsp;15<sup>th</sup></li>-->
-                            <li class="now">beta3: April&nbsp;14<sup>th</sup></li>
+                            <li class="now">beta3: April&nbsp;18<sup>th</sup></li>
                             <li><abbr title="release candidate">rc</abbr>: May&nbsp;2<sup>nd</sup></li>
                             <li>final: May&nbsp;15<sup>th</sup></li>
                         </ul>
