@@ -220,6 +220,11 @@ $_t = array(
         'h2_comm_support' => 'Komunitní podpora',
         'h2_pro_support' => 'Profesionální podpora',
         'h2_hw_reqs' => 'Požadavky na vybavení',
+
+        'h2_updates' => 'Aktualizace',
+        'updates_1' => 'Aktualizace jsou dostupné pro %s (bezpečnostní opravy a opravy chyb) a zveřejňovány neustále.',
+        'updates_2' => 'Můžete se přihlásit k našemu %s oznamovacímu seznamu, abyste na ně byly upozorňováni.',
+        'updates_3' => 'Instalovat je můžete z ovládacího centra Mageia.',
         
         'comm_1' => 'Pokud potřebujete pomoc, nasměrování nebo informace o distribuci Mageia,
             kterou jste si nainstalovali, nebo o projektu, můžete se s námi spojit pomocí:',
