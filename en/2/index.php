@@ -80,8 +80,6 @@ require '../downloads/get/lib.php';
                         <p class="dlinfo warn"><strong>Please note</strong>, there is a problem with notebooks using INTEL and AMD/ATI graphics. See
                             <a href=https://wiki.mageia.org/en/Mageia_2_Errata#Laptop_with_both_Intel_and_ATI_graphics_hardware>the errata</a>
                             about this.</p>
-                        <p class="dlinfo warn">Please note there is a bug about LiveCDs and NVIDIA graphic cards. A workaround can be found in
-                            <a href="https://wiki.mageia.org/en/Mageia_2_Errata#LiveCD_and_Nvidia_card">the Errata</a></p>
                         <p class="dlinfo">Up to 167 locales are supported:
                             Deutsch, English, español, français, italiano, português, svenska, nederlands,
                             polski, dansk, Русский and so much more! See the comprehensive list.</p>
