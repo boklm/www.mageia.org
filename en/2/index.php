@@ -6,8 +6,8 @@ include 'locales.php';
 
 $_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
 
-$_t['page_h1'] = sprintf($_t['page_h1'], '<em class="tag">Mageia 2 beta3</em>');
-$_t['page_title'] = sprintf($_t['page_title'], 'Mageia 2 beta3');
+$_t['page_h1'] = sprintf($_t['page_h1'], '<em class="tag">Mageia 2 rc</em>');
+$_t['page_title'] = sprintf($_t['page_title'], 'Mageia 2 rc');
 
 require '../downloads/lib.php';
 ?>
@@ -28,20 +28,21 @@ require '../downloads/lib.php';
     <div id="doc4" class="yui-t7">
         <?php include 'nav.php'; ?>
         <div id="hd" role="banner"><h1><a id="logo" href="/<?php echo $locale; ?>/"><span>Mageia</span></a> <span class="lsep">|</span>
-            <span class="subh">2 <em class="tag">beta3</em></span></h1></div>
+            <span class="subh">2 <em class="tag">release candidate</em></span></h1></div>
         <div id="bd" role="main">
             <div class="yui-g">
                 <div class="para">
-                    <p class="red-sign" style="margin-top: -13px;">
-                    This is a <em>beta</em> release &ndash;
-                        PLEASE DO NOT use it for production.</p>
+                    <p class="green-sign" style="margin-top: -13px;">
+                    This is a <em>candidate release</em> &ndash;
+                        please check it out and report any outstanding issue<br>
+                        DO NOT use it for production, the final stable release is coming on May 22<sup>nd</sup>.</p>
                 </div>
             </div>
             <div class="yui-ge bb1">
                 <div class="yui-u first rb1">
                     <div class="para">
-                        <h2>Download and test Mageia 2 beta3</h2>
-                        <p>You can check the <a href="https://wiki.mageia.org/en/Mageia_2_beta3">release notes on the wiki</a>:
+                        <h2>Download and test Mageia 2 rc</h2>
+                        <p>You can check the <a href="https://wiki.mageia.org/en/Mageia_2_rc">release notes on the wiki</a>:
                             what's new, what to expect, what to test, how to report and contribute.</p>
                         <?php /*
                         <p>Major features planned for the final release notably include:</p>
@@ -63,12 +64,12 @@ require '../downloads/lib.php';
                     <div class="para">
                         <h3>Full, exclusively Free Software DVDs and dual arch CD</h3>
                         <ul>
-                            <li><a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta3-i586-DVD.iso">Mageia 2 beta3 32bit DVD</a>,
-                              <a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta3-i586-DVD.iso&amp;torrent=1">torrent</a></li>
-                            <li><a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta3-x86_64-DVD.iso">Mageia 2 beta3 64bit DVD</a>,
-                              <a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta3-x86_64-DVD.iso&amp;torrent=1">torrent</a></li>
-                            <li><a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta3-dual-CD.iso">Mageia 2 beta3 dual CD</a>,
-                              <a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta3-dual-CD.iso&amp;torrent=1">torrent</a></li>
+                            <li><a rel="nofollow" href="../downloads/get/?q=Mageia-2-rc-i586-DVD.iso">Mageia 2 rc 32bit DVD</a>,
+                              <a rel="nofollow" href="../downloads/get/?q=Mageia-2-rc-i586-DVD.iso&amp;torrent=1">torrent</a></li>
+                            <li><a rel="nofollow" href="../downloads/get/?q=Mageia-2-rc-x86_64-DVD.iso">Mageia 2 rc 64bit DVD</a>,
+                              <a rel="nofollow" href="../downloads/get/?q=Mageia-2-rc-x86_64-DVD.iso&amp;torrent=1">torrent</a></li>
+                            <li><a rel="nofollow" href="../downloads/get/?q=Mageia-2-rc-dual-CD.iso">Mageia 2 rc dual CD</a>,
+                              <a rel="nofollow" href="../downloads/get/?q=Mageia-2-rc-dual-CD.iso&amp;torrent=1">torrent</a></li>
                         </ul>
                         <p class="dlinfo warn">Note that these DVD and CD ISOs are made of Free Software exclusively.
                             As a consequence, proprietary Wi-Fi and video drivers are not included.
@@ -87,8 +88,8 @@ require '../downloads/lib.php';
                     <div class="para">
                         <h3>Wired network-based install CD</h3>
                         <ul>
-                            <li><a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta3-Boot-i586-CD.iso">32bit</a></li>
-                            <li><a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta3-Boot-x86_64-CD.iso">64bit</a></li>
+                            <li><a rel="nofollow" href="../downloads/get/?q=Mageia-2-rc-Boot-i586-CD.iso">32bit</a></li>
+                            <li><a rel="nofollow" href="../downloads/get/?q=Mageia-2-rc-Boot-x86_64-CD.iso">64bit</a></li>
                         </ul>
                         <p class="dlinfo">Good to download (about 40 MB) and boot quickly into install mode
                           from <em>wired</em> network or local disk.</p>
@@ -101,14 +102,14 @@ require '../downloads/lib.php';
                             <tbody>
                                 <tr>
                                     <th>Europe 1</th>
-                                    <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta3-LiveCD-GNOME-Europe1-Americas-i586-CD.iso">32bit</a>,
-                                      <a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta3-LiveCD-GNOME-Europe1-Americas-i586-CD.iso&amp;torrent=1">torrent</a><br>
-                                      <a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta3-LiveCD-GNOME-Europe1-Americas-x86_64-CD.iso">64bit</a>,
-                                      <a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta3-LiveCD-GNOME-Europe1-Americas-x86_64-CD.iso&amp;torrent=1">torrent</a></td>
-                                    <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta3-LiveCD-KDE4-Europe1-Americas-i586-CD.iso">32bit</a>,
-                                      <a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta3-LiveCD-KDE4-Europe1-Americas-i586-CD.iso&amp;torrent=1">torrent</a><br>
-                                      <a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta3-LiveCD-KDE4-Europe1-Americas-x86_64-CD.iso">64bit</a>,
-                                      <a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta3-LiveCD-KDE4-Europe1-Americas-x86_64-CD.iso&amp;torrent=1">torrent</a></td>
+                                    <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-rc-LiveCD-GNOME-Europe1-Americas-i586-CD.iso">32bit</a>,
+                                      <a rel="nofollow" href="../downloads/get/?q=Mageia-2-rc-LiveCD-GNOME-Europe1-Americas-i586-CD.iso&amp;torrent=1">torrent</a><br>
+                                      <a rel="nofollow" href="../downloads/get/?q=Mageia-2-rc-LiveCD-GNOME-Europe1-Americas-x86_64-CD.iso">64bit</a>,
+                                      <a rel="nofollow" href="../downloads/get/?q=Mageia-2-rc-LiveCD-GNOME-Europe1-Americas-x86_64-CD.iso&amp;torrent=1">torrent</a></td>
+                                    <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-rc-LiveCD-KDE4-Europe1-Americas-i586-CD.iso">32bit</a>,
+                                      <a rel="nofollow" href="../downloads/get/?q=Mageia-2-rc-LiveCD-KDE4-Europe1-Americas-i586-CD.iso&amp;torrent=1">torrent</a><br>
+                                      <a rel="nofollow" href="../downloads/get/?q=Mageia-2-rc-LiveCD-KDE4-Europe1-Americas-x86_64-CD.iso">64bit</a>,
+                                      <a rel="nofollow" href="../downloads/get/?q=Mageia-2-rc-LiveCD-KDE4-Europe1-Americas-x86_64-CD.iso&amp;torrent=1">torrent</a></td>
                                 </tr>
                                 <tr>
                                     <td colspan="3"><p class="dlinfo">Included locales:
@@ -117,10 +118,10 @@ require '../downloads/lib.php';
                                 </tr>
                                 <tr>
                                     <th>Europe 2</th>
-                                    <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta3-LiveCD-GNOME-Europe2-i586-CD.iso">32bit</a>,
-                                      <a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta3-LiveCD-GNOME-Europe2-i586-CD.iso&amp;torrent=1">torrent</a></td>
-                                    <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta3-LiveCD-KDE4-Europe2-i586-CD.iso">32bit</a>,
-                                      <a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta3-LiveCD-KDE4-Europe2-i586-CD.iso&amp;torrent=1">torrent</a></td>
+                                    <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-rc-LiveCD-GNOME-Europe2-i586-CD.iso">32bit</a>,
+                                      <a rel="nofollow" href="../downloads/get/?q=Mageia-2-rc-LiveCD-GNOME-Europe2-i586-CD.iso&amp;torrent=1">torrent</a></td>
+                                    <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-rc-LiveCD-KDE4-Europe2-i586-CD.iso">32bit</a>,
+                                      <a rel="nofollow" href="../downloads/get/?q=Mageia-2-rc-LiveCD-KDE4-Europe2-i586-CD.iso&amp;torrent=1">torrent</a></td>
                                 </tr>
                                 <tr>
                                     <td colspan="3"><p class="dlinfo">Included locales:
@@ -129,10 +130,10 @@ require '../downloads/lib.php';
                                 </tr>
                                 <tr>
                                     <th>Africa, India</th>
-                                    <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta3-LiveCD-GNOME-Africa-India-i586-CD.iso">32bit</a>,
-                                      <a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta3-LiveCD-GNOME-Africa-India-i586-CD.iso&amp;torrent=1">torrent</a></td>
-                                    <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta3-LiveCD-KDE4-Africa-India-i586-CD.iso">32bit</a>,
-                                      <a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta3-LiveCD-KDE4-Africa-India-i586-CD.iso&amp;torrent=1">torrent</a></td>
+                                    <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-rc-LiveCD-GNOME-Africa-India-i586-CD.iso">32bit</a>,
+                                      <a rel="nofollow" href="../downloads/get/?q=Mageia-2-rc-LiveCD-GNOME-Africa-India-i586-CD.iso&amp;torrent=1">torrent</a></td>
+                                    <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-rc-LiveCD-KDE4-Africa-India-i586-CD.iso">32bit</a>,
+                                      <a rel="nofollow" href="../downloads/get/?q=Mageia-2-rc-LiveCD-KDE4-Africa-India-i586-CD.iso&amp;torrent=1">torrent</a></td>
                                 </tr>
                                 <tr>
                                     <td colspan="3"><p class="dlinfo">Included locales:
@@ -140,10 +141,10 @@ require '../downloads/lib.php';
                                 </tr>
                                 <tr>
                                     <th>Asia</th>
-                                    <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta3-LiveCD-GNOME-Asia-Noindia-i586-CD.iso">32bit</a>,
-                                      <a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta3-LiveCD-GNOME-Asia-Noindia-i586-CD.iso&amp;torrent=1">torrent</a></td>
-                                    <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta3-LiveCD-KDE4-Asia-Noindia-i586-CD.iso">32bit</a>,
-                                      <a rel="nofollow" href="../downloads/get/?q=Mageia-2-beta3-LiveCD-KDE4-Asia-Noindia-i586-CD.iso&amp;torrent=1">torrent</a></td>
+                                    <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-rc-LiveCD-GNOME-Asia-Noindia-i586-CD.iso">32bit</a>,
+                                      <a rel="nofollow" href="../downloads/get/?q=Mageia-2-rc-LiveCD-GNOME-Asia-Noindia-i586-CD.iso&amp;torrent=1">torrent</a></td>
+                                    <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-rc-LiveCD-KDE4-Asia-Noindia-i586-CD.iso">32bit</a>,
+                                      <a rel="nofollow" href="../downloads/get/?q=Mageia-2-rc-LiveCD-KDE4-Asia-Noindia-i586-CD.iso&amp;torrent=1">torrent</a></td>
                                 </tr>
                                 <tr>
                                     <td colspan="3"><p class="dlinfo">Included locales:
@@ -157,22 +158,19 @@ require '../downloads/lib.php';
                 </div>
                 <div class="yui-u">
                     <div class="para">
-                        <h3><a href="https://wiki.mageia.org/en/Mageia_2_beta3">Release notes</a></h3>
-                        <p>are <a href="https://wiki.mageia.org/en/Mageia_2_beta3">on the wiki</a>!</p>
+                        <h3><a href="https://wiki.mageia.org/en/Mageia_2_rc">Release notes</a></h3>
+                        <p>are <a href="https://wiki.mageia.org/en/Mageia_2_rc">on the wiki</a>!</p>
                     </div>
                     <div class="para">
-                        <h3>Release calendar</h3>
-                        <p>Here are the next steps before the final release of Mageia 2:</p>
+                        <h3>Release plan</h3>
                         <style>
                         .relcal { margin: 0; padding: 0; }
                         .relcal li { list-style-position: inside; margin-left: -2em; padding: 0.2em 0 0.5em 1em; }
                         .relcal li.now { background: #eee; color: #333; }
                         </style>
                         <ul class="relcal">
-                            <!--<li class="now">beta2: March&nbsp;15<sup>th</sup></li>-->
-                            <li class="now">beta3: April&nbsp;18<sup>th</sup></li>
-                            <li><abbr title="release candidate">rc</abbr>: May&nbsp;2<sup>nd</sup></li>
-                            <li>final: May&nbsp;15<sup>th</sup></li>
+                            <li class="now"><abbr title="release candidate">rc</abbr>: May&nbsp;9<sup>th</sup></li>
+                            <li>final: May&nbsp;22<sup>nd</sup></li>
                         </ul>
                     </div>
                 </div>

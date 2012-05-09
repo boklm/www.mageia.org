@@ -373,13 +373,15 @@ p#subnav a.sel { color: #000; }
     margin-bottom: 2.5em; 
 }
 
-.red-sign {
+.red-sign,
+.green-sign {
     color: white;
     font-weight: bold;
     line-height: 1.6em;
-    background: #a00;
     font-size: 90%;
     padding: 0.7em 2em 0.8em 2em;
     margin: 0.5em -27px 1.5em -27px;
     text-shadow: 1px 1px 3px #000;
 }
+.red-sign { background: #a00; }
+.green-sign { background: #060; }
