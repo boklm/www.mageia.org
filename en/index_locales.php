@@ -18,6 +18,8 @@ $_t = array(
                 (<a href="/en/about/2010-sept-announcement.html">check original announcement</a>).'
         ),
         'mageia-is-here' => 'Mageia 1 is here',
+        'mageia-is-coming' => 'Mageia 2 is coming',
+        'dl-next-mageia' => 'Try Mageia 2 Release Candidate',
         'join-us' => 'Join Us!',
         'right-now' => 'Happening right now',
         'news' => 'News',
@@ -39,6 +41,8 @@ $_t = array(
                 collaboratif (<a href="/fr/about/2010-sept-announcement.html">voir l&rsquo;annonce originale</a>).'
         ),
         'mageia-is-here' => 'Mageia 1 est arrivée',
+        'mageia-is-coming' => 'Mageia 2 arrive',
+        'dl-next-mageia' => 'Essayez Mageia 2 Release Candidate',
         'join-us' => 'Rejoignez-nous&nbsp;!',
         'right-now' => 'En ce moment',
         'news' => 'Actualités'

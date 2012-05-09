@@ -40,9 +40,12 @@ $_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
         #mgacount h2 span { font-size: 45%; vertical-align: 30%; margin: 0 1em; }
         #mgacount h2 a,
         #mgacount h2 a:visited { color: #fff; }
+        #mgacount.inv { background: #fff; border-bottom: 1px solid #2383C2; }
+        #mgacount.inv h2 a { color: #2383C2; }
         </style>
         <div id="mgacount"><h2><a href="./1/"><?php echo $_t['mageia-is-here']; ?></a></h2></div>
-        <a href="./1/" title="Mageia 1"><img src="/g/1/screenshots/opt-mageia.jpg" alt="Mageia 1 Desktop" class="rel-desktop-home"></a>
+        <div id="mgacount" class="inv"><h2><a href="./2/"><?php echo $_t['dl-next-mageia']; ?></a></h2></div>
+        <a href="./2/" title="Mageia 2"></a>
         <div id="bd" role="main">
             <div class="yui-g bb1">
                 <div class="para" id="news">
