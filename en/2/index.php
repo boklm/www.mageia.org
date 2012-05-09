@@ -10,6 +10,7 @@ $_t['page_h1'] = sprintf($_t['page_h1'], '<em class="tag">Mageia 2 rc</em>');
 $_t['page_title'] = sprintf($_t['page_title'], 'Mageia 2 rc');
 
 require '../downloads/lib.php';
+require '../downloads/get/lib.php';
 ?>
 <!DOCTYPE html>
 <html dir="ltr" lang="<?php echo $locale; ?>">
@@ -80,7 +81,7 @@ require '../downloads/lib.php';
                             <a href=https://wiki.mageia.org/en/Mageia_2_Errata#Laptop_with_both_Intel_and_ATI_graphics_hardware>the errata</a>
                             about this.</p>
                         <p class="dlinfo warn">Please note there is a bug about LiveCDs and NVIDIA graphic cards. A workaround can be found in
-			    <a href="https://wiki.mageia.org/en/Mageia_2_Errata#LiveCD_and_Nvidia_card">the Errata</a></p>
+                            <a href="https://wiki.mageia.org/en/Mageia_2_Errata#LiveCD_and_Nvidia_card">the Errata</a></p>
                         <p class="dlinfo">Up to 167 locales are supported:
                             Deutsch, English, español, français, italiano, português, svenska, nederlands,
                             polski, dansk, Русский and so much more! See the comprehensive list.</p>
@@ -112,9 +113,10 @@ require '../downloads/lib.php';
                                       <a rel="nofollow" href="../downloads/get/?q=Mageia-2-rc-LiveCD-KDE4-Europe1-Americas-x86_64-CD.iso&amp;torrent=1">torrent</a></td>
                                 </tr>
                                 <tr>
-                                    <td colspan="3"><p class="dlinfo">Included locales:
-                                        German (de), Greek (el), English (Australia) (en_AU), English (Canada) (en_CA), English (en_GB), English (Ireland) (en_IE), English (New-Zealand) (en_NZ), English (American) (en_US), English (South Africa) (en_ZA), Spanish (es), French (fr), Italian (it), Dutch (nl), Portuguese (pt), Portuguese Brazil (pt_BR), Turkish (tr)
-                                    </p></td>
+                                    <td colspan="3"><p class="dlinfo">Included locales: <?php
+                                        $product = get_info_for_product('Mageia-2-rc-LiveCD-GNOME-Europe1-Americas-i586-CD.iso');
+                                        echo $product['langs'];
+                                    ?></p></td>
                                 </tr>
                                 <tr>
                                     <th>Europe 2</th>
@@ -128,9 +130,10 @@ require '../downloads/lib.php';
                                           <a rel="nofollow" href="../downloads/get/?q=Mageia-2-rc-LiveCD-KDE4-Europe2-x86_64-CD.iso&amp;torrent=1">torrent</a></td>
                                 </tr>
                                 <tr>
-                                    <td colspan="3"><p class="dlinfo">Included locales:
-                                        Bulgarian (bg), Czech (cs), Danish (da), English (American) (en_US), Estonian (et), Finnish (Suomi) (fi), Croatian (hr), Hungarian (hu), Lithuanian (lt), Latvian (lv), Norwegian Bokmaal (nb), Norwegian Nynorsk (nn), Polish (pl), Romanian (ro), Russian (ru), Swedish (sv), Ukrainian (uk), Uzbek (uz), Uzbek (cyrillic) (uz@cyrillic)
-                                    </p></td>
+                                    <td colspan="3"><p class="dlinfo">Included locales: <?php
+                                        $p = get_info_for_product('Mageia-2-rc-LiveCD-GNOME-Europe2-i586-CD.iso');
+                                        echo $p['langs'];
+                                    ?></p></td>
                                 </tr>
                                 <tr>
                                     <th>Africa, India</th>
@@ -144,8 +147,10 @@ require '../downloads/lib.php';
                                           <a rel="nofollow" href="../downloads/get/?q=Mageia-2-rc-LiveCD-KDE4-Africa-India-x86_64-CD.iso&amp;torrent=1">torrent</a></td>
                                 </tr>
                                 <tr>
-                                    <td colspan="3"><p class="dlinfo">Included locales:
-                                        Afrikaans (af), Amharic (am), Arabic (ar), Assamese (as), Berber (ber), Bengali (bn), English (American) (en_US), Hausa (ha), Hebrew (he), Hindi (hi), Igbo (ig), Kannada (kn), Malayalam (ml), Marathi (mr), Punjabi (gurmukhi) (pa_IN), Tamil (ta), Tswana (tn), Tsonga (ts), Venda (ve), Xhosa (xh), Yoruba (yo), Zulu (zu)                                </p></td>
+                                    <td colspan="3"><p class="dlinfo">Included locales: <?php
+                                        $p = get_info_for_product('Mageia-2-rc-LiveCD-GNOME-Africa-India-i586-CD.iso');
+                                        echo $p['langs'];
+                                    ?></p></td>
                                 </tr>
                                 <tr>
                                     <th>Asia</th>
@@ -159,9 +164,10 @@ require '../downloads/lib.php';
                                           <a rel="nofollow" href="../downloads/get/?q=Mageia-2-rc-LiveCD-KDE4-Asia-Noindia-x86_64-CD.iso&amp;torrent=1">torrent</a></td>
                                 </tr>
                                 <tr>
-                                    <td colspan="3"><p class="dlinfo">Included locales:
-                                        English (American) (en_US), Indonesian (id), Japanese (ja), Korean (ko), Thai (th), Vietnamese (vi), Chinese Simplified (zh_CN), Chinese Traditional (zh_TW)
-                                    </p></td>
+                                    <td colspan="3"><p class="dlinfo">Included locales: <?php
+                                        $p = get_info_for_product('Mageia-2-rc-LiveCD-GNOME-Asia-Noindia-i586-CD.iso');
+                                        echo $p['langs'];
+                                    ?></p></td>
                                 </tr>
                             </tbody>
                         </table>
