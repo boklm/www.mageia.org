@@ -49,21 +49,16 @@ $js_redirect = null;
 $reason      = null;
 
 try {
+    // TODO simplify and wrap all this in a single interface:
+    // list(dl_template, mirrors) = get_download_options_for(product)
+    include '../../../lib/Downloads.php';
     $product     = get_info_for_product($product);
     $all_mirrors = get_mirrors_for($product['file'], 'en', get('country'));
     $one_mirror  = $all_mirrors[0];
     $alt_mirrors = $all_mirrors[1];
 
-    if ($torrent === true
-        && isset($product['torrent'])
-        && strlen($product['torrent']) > 0) {
-
-        $path = $product['torrent'];
-    } else {
-        $path = $product['path'] . '/' . $product['file'];
-    }
-
-    $download = $one_mirror['mirror_url'] . '/' . $path;
+    $download_tmpl = get_download_link($product, $torrent);
+    $download      = str_replace('$MIRROR', $one_mirror['mirror_url'], $download_tmpl);
 
     // TODO do not redirect if it's a bot!
     $js_redirect = sprintf('<script>(function(){setTimeout("document.location=\'%s\';", 3000);})();</script>',
@@ -88,11 +83,11 @@ try {
             $mirs = array();
             foreach ($mirrors2 as $m) {
                 $pm = parse_url($m);
-                $alt_dl_link = $m . '/' . $path;
+                $alt_dl_link = str_replace('$MIRROR', $m, $download_tmpl);
                 $mirs[] = sprintf('%s://<a href="%s" rel="nofollow">%s</a>',
                     $pm['scheme'], $alt_dl_link, $pm['host']);
             }
-            $s[] = sprintf('<td>%s</td><td>%s</td>', $city, implode(', ', $mirs));
+            $s[] = sprintf('<td>%s</td><td>%s</td>', rewrite_city($city), implode(', ', $mirs));
         }
         $alternative_mirrors .= sprintf('<tr><td rowspan="%d">%s</td>%s</tr>', count($cities), $country, implode('</tr><tr>', $s));
     endforeach;
@@ -100,7 +95,7 @@ try {
     $dl2_mirror_alt = sprintf($_t['dl_mirror_loc'],
             $one_mirror['mirror_url'],
             $one_mirror['mirror_host'],
-            $one_mirror['city'] . ', ' . $countries[$one_mirror['country']],
+            rewrite_city($one_mirror['city']) . ', ' . $countries[$one_mirror['country']],
             $one_mirror['country'])
         . ' ' . $_t['dl_alt_mirrors'];
 }
@@ -111,7 +106,6 @@ catch (NoProductFoundError $e) {
 catch (NoMirrorFoundError $e) {
     // sorry, not mirror found. next time?
     $reason = 'No mirror found for this file to download.';
-
 }
 catch (Exception $e) {
     $reason = 'I do not know either!';
@@ -126,6 +120,9 @@ if (!$download) {
 else {
     $title = $product['name'];
 }
+
+if ($debug)
+    $js_redirect = null;
 
 $_t['page_h1']    = sprintf($_t['page_h1'], '<em class="tag">' . $title . '</em>');
 $_t['page_title'] = sprintf($_t['page_title'], '<em class="tag">' . $title . '</em>');
@@ -142,16 +139,13 @@ $_t['page_title'] = sprintf($_t['page_title'], '<em class="tag">' . $title . '</
         echo $js_redirect;
     } ?>
 </head>
-<body>
+<body class="downloads">
     <?php echo $hsnav; ?>
+    <h1 id="mgnavt"><?php _e('page_title')?></h1>
     <div id="doc4" class="yui-t7">
-        <div id="hd" role="banner"><h1><a id="logo" href="/"><span>Mageia</span></a> <span class="lsep">&nbsp;</span>
-            <span class="subh"><?php echo $_t['page_h1']; ?></span></h1></div>
         <div id="bd" role="main">
             <?php if (!is_null($download)): ?>
-                <div class="yui-g"><div class="para">
-
-                <h2><?php echo $_t['page_title']; ?></h2>
+                <div class="yui-g"><div class="para" style="padding-top: 2em;">
                 <p><?php
                     echo
                         sprintf($_t['dl_shld_start'], '<em class="tag">' . $product['name'] . '</em>' . ($torrent ? ' (torrent)' : '')),
@@ -189,11 +183,19 @@ $_t['page_title'] = sprintf($_t['page_title'], '<em class="tag">' . $title . '</
 
                 <hr />
 
-                <p><?php echo sprintf($_t['thank-you-note'], 'http://mirrors.mageia.org/', '/en/thank-you/'); ?>
-                  <?php echo sprintf($_t['wanttohelp?'], '<a href="http://mageia.org/contribute/">', '</a>'); ?></p>
+                
                 </div></div>
+                <div class="yui-g" style="border-top: 1px solid #ddd;">
+                    <div class="yui-g first"><div class="para">
+                    </div></div>
+                    <div class="yui-g" style="border-left: 1px solid #ddd"><div class="para">
+                        <p><?php echo sprintf($_t['thank-you-note'], 'http://mirrors.mageia.org/', '/en/thank-you/'); ?></p>
+                        <p><?php echo sprintf($_t['wanttohelp?'], '<a href="../../contribute/">', '</a>'); ?></p>
+                    </div></div>
+                </div>
+                
             <?php else: ?>
-                <div class="yui-g"><div class="para">
+                <div class="yui-g"><div class="para" style="padding-top: 2em;">
                     <h2>Sorry! :-(</h2>
                     <p><?php echo sprintf($_t['dl-failed-try-again'], '/downloads/'); ?></p>
 
@@ -217,6 +219,21 @@ document.getElementById("other_mirrors_btn").onclick = function () {
     var el = document.getElementById("other_mirrors");
     el.style.display = (el.style.display != 'none' ? 'none' : '' );
 };
+</script>
+<div class="yui-gb" style="border-top: 1px solid #ccc; background:#f8fcff; text-align: center;">
+    <div class="yui-u first"><div class="para" style="background: transparent;">
+        <a href="https://twitter.com/mageia_org" class="twitter-follow-button" data-show-count="true" data-lang="<?php echo $locale; ?>">Follow @mageia_org</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </div></div>
+    <div class="yui-u"><div class="para" style="background: transparent;">
+        <g:plusone href="http://mageia.org/"></g:plusone>
+    </div></div>
+    <div class="yui-u"><div class="para" style="background: transparent;">
+        <div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:facepile href="facebook.com/Mageia" width="270" max_rows="1"></fb:facepile>
+    </div></div>
+</div>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+  {lang: '<?php echo $locale; ?>'}
 </script>
 </body>
 </html>
