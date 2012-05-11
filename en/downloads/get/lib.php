@@ -2,6 +2,7 @@
 /**
 */
 
+// note, we use geographical country names
 $countries = array(
     'AU' => 'Australia',
     'BE' => 'Belgique',
@@ -9,25 +10,47 @@ $countries = array(
     'BY' => 'Беларусь', // Belarus
     'CA' => 'Canada',
     'CH' => 'Switzerland',
-    'CN' => 'China',
-    'CZ' => 'Czechia',
+    'CN' => '中国', // China
+    'CZ' => 'Česko', // Czechia
     'DE' => 'Deutschland',
     'ES' => 'España',
     'FR' => 'France',
-    'GR' => 'Greece',
+    'GR' => 'Ελλάδα', // Greece
     'GT' => 'Guatemala',
     'ID' => 'Indonesia',
     'IT' => 'Italia',
-    'JP' => 'Japan',
+    'JP' => '日本国', // Japan
     'NC' => 'Nouvelle-Calédonie',
     'NL' => 'Nederlands',
     'PL' => 'Polska',
     'RU' => 'Россия',
     'SE' => 'Sverige',
-    'TW' => 'Taiwan',
+    'TW' => '臺灣', // Taiwan
     'UK' => 'the UK',
     'US' => 'the USA',
 );
+
+/**
+ * Rewrite city name in the local official language.
+ * @param string
+ * @return string
+*/
+function rewrite_city($name)
+{
+    $cities = array(
+        'HsinChu'   => '新竹市', // .tw
+        'Yonezawa'  => '米沢市', // .jp
+        'Beijing'   => '北京', // .cn
+        'Moscow'    => 'Москва', // .ru
+        'Minsk'     => 'Мінск', // .by
+        'Heraklion' => 'Ηράκλειο', // .gr
+        'Prague'    => 'Praha', // .cz
+    );
+    if (array_key_exists($name, $cities))
+        return $cities[$name];
+
+    return $name;
+}
 
 function get($s) {
     return isset($_GET[$s]) ? trim($_GET[$s]) : null;
