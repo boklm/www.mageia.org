@@ -8,6 +8,9 @@ plan('no_plan');
 diag('Testing mga_geoip_* functions against defined IP/locations.');
 
 $ips = array(
+    '46.33.75.17'
+        => array('DE', 'EU'),
+
     '2a01:e35:8a03:9990:223:dfff:fe7e:e7f0'
         => array('FR', 'EU'),
 
@@ -15,14 +18,12 @@ $ips = array(
         => array('IE', 'EU'),
 
     '173.194.67.99'
-        => array('US', 'NA'),
-
-    '46.33.75.17'
-        => array('DE', 'EU')
+        => array('US', 'NA')
 );
 
 foreach ($ips as $ip => $cc) {
-    is($country = mga_geoip_country_by_ip($ip, false), $cc[0], 'country match for ' . $ip);
-    is(mga_geoip_continent_by_country($country), $cc[1], 'continent match for ' . $ip);
-}
 
+    $country = MGA_Geoip::mga_geoip_country_by_ip($ip, false);
+    is($country, $cc[0], 'country match for ' . $ip);
+    is(MGA_Geoip::mga_geoip_continent_by_country($country), $cc[1], 'continent match for ' . $ip);
+}
