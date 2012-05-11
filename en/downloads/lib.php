@@ -64,9 +64,16 @@ foreach ($prods2 as $flavour => $prods3) {
     foreach ($prods3 as $k => $p) {
         $iso = sprintf('%s-%s', $glob['prefix'], $k);
 
+        /*
         $dl_link = sprintf('/%s/downloads/dl.php?product=%s', $locale, $iso);
         $bt_link = isset($p['torrent']) ?
             sprintf('/%s/downloads/dl.php?product=%s&torrent=1', $locale, $iso) :
+            null;
+        */
+
+        $dl_link = sprintf('/%s/downloads/get/?q=%s', $locale, $iso);
+        $bt_link = isset($p['torrent']) ?
+            sprintf('/%s/downloads/get/?q=%s&torrent=1', $locale, $iso) :
             null;
 
         $pop = array_key_exists($k, $popularity) ? $popularity[$k] : 0;
