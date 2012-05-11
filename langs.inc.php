@@ -139,6 +139,30 @@ S;
 }
 
 /**
+ * Shorthand functions to echo localized strings.
+ *
+ * @param string $s string to localize
+ * @param boolean $ret return value?
+ *
+ * @return null|string
+ *
+ * FIXME Yes, it's terribly wrong/evil to rely on an unknown global $_t.
+ * Solution? rethink the whole i18n thing in an integrated one.
+*/
+function _t($s = null, $opt = null) {
+    if (!is_null($opt))
+        $_t = $opt;
+    else {
+        global $_t;
+    }
+    return ($s == '' ? '-EMPTY-STRING-' : (array_key_exists($s, $_t) ? $_t[$s] : $s));
+}
+
+function _e($s = null) {
+    echo _t($s);
+}
+
+/**
  * Class regrouping basic methods for i18n strings in their current forms.
  *
 */
