@@ -62,9 +62,11 @@ class NoMirrorFoundError extends Exception {}
 /**
  * TODO use aliases, so that downloads asking for alpha3 get redirected to beta1 for instance? (on migration)
 */
-function get_info_for_product($product)
+function get_info_for_product($product, $def_file = null)
 {
-    $defs = parse_ini_file('definitions.ini', true);
+    $def_file = is_null($def_file) ? 'definitions.ini' : $def_file;
+
+    $defs = parse_ini_file($def_file, true);
 
     if (array_key_exists($product, $defs)) {
         return $defs[$product];
@@ -93,11 +95,33 @@ function get_info_for_product($product)
 function get_mirrors_for($file,
     $locale = null, $country = null)
 {
-    include '../../../lib/Downloads.php';
+    //include '../../../lib/Downloads.php';
 
     $mirrors = Downloads::get_all_mirrors();
     $wsd     = new Downloads();
     $one     = $wsd->prepare_download(true, $country);
 
     return array($one, $mirrors);
+}
+
+/**
+ * Simplifies things.
+ *
+ * @param array $product, _one_ product definition array, as returned from the definitions.ini
+ * @param boolean $torrent_preferred do we prefer to get a torrent, if available?
+ *
+ * @return string
+*/
+function get_download_link($product, $torrent_preferred = false)
+{
+    if ($torrent_preferred === true
+        && isset($product['torrent'])
+        && strlen($product['torrent']) > 0) {
+
+        $path = $product['torrent'];
+    } else {
+        $path = $product['path'] . '/' . $product['file'];
+    }
+
+    return '$MIRROR/' . $path;
 }
