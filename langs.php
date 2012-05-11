@@ -135,12 +135,6 @@ $nav_list = array(
         'ro' => 'Suport',
         'tr' => 'Destek'
     ),
-    /*
-    '/community/' => array(
-        'en' => 'Community',
-        'fr' => 'Communauté'
-    ),
-    */
     $forums_link => array(
         'el' => 'Φόρουμ',
         'en' => 'Forum',
@@ -244,7 +238,7 @@ foreach ($nav_list as $k => $v)
 $hsnav = sprintf('<div class="nav"><!--googleoff: all--><div class="nav2"><p class="loc">%s</p>', implode(' | ', $list_menu));
 
 $options = implode($options);
-$hsnav .= <<<H
+$langsForm = <<<H
 <form id="lang_form" dir="ltr" method="get" action="/">
     <input type="hidden" name="furl" value="{$_SERVER['REQUEST_URI']}" />
     <select id="flang" name="flang" dir="ltr" onchange="this.form.submit()">
@@ -254,13 +248,18 @@ $hsnav .= <<<H
 </form>
 </div><!--googleon: all--></div>
 H;
+$hsnav .= $langsForm;
 
+if (isset($_GET['testnav'])) {
+    $_SESSION['testnav'] = $_GET['testnav'];
+}
+//$_SESSION['testnav'] = 1;
 
-//$hsnav .= sprintf('<div class="nav"><!--googleoff: all--><div class="nav2"><p class="loc">%s</p></div></div>', implode(' | ', $list_menu));
+if ($_SESSION['testnav'] > 0) {
+    include ('_nav/lib.php');
+    $hsnav = _mgnav_style() . _mgnav_html(true, $locale, $langsForm);
+    $hsfoot = '';
+}
 
 if (!defined('HLANG'))
     echo $hsnav;
-
-/*
-echo sprintf('<p class="loc">%s</p>', implode(' | ', $list_langs));
-*/
