@@ -388,3 +388,6 @@ ul.news li span.dt { font-weight: thin; font-size: 85%; color: #999;
 }
 .red-sign { background: #a00; }
 .green-sign { background: #060; }
+
+.dlt th { text-align: left; }
+th .dlinfo { font-weight: normal; }
