@@ -293,7 +293,7 @@ $orgs = array(
     array('http://zarb.org/', 'zarb.org'),
     
     // see mirrors.mageia.org
-    array('http://www.umpc.fr/', 'Université Pierre et Marie Curie'),
+    array('http://www.upmc.fr/', 'Université Pierre et Marie Curie'),
     array('http://www.ibiblio.org/', 'The Public\'s Library and Digital Archive'),
     array('http://www.mandrivauser.de', 'Mandrivauser.de'),
     array('http://www.hs-esslingen.de/', 'Hochschule Esslingen'),
@@ -316,13 +316,15 @@ function html_donators_list($donators,$anonymous)
     //$donators = array_unique($donators);
     sort($donators);
 
-    $html = sprintf('<p>%d amazing people <a href="/en/donate/">donated money</a> to Mageia.Org:</p>', $count_donators);
-    $html .= '<ul class="ty-ppl-list">';
+    $html = '<ul class="ty-ppl-list">';
     foreach ($donators as $p)
         $html .= sprintf('<li>%s</li>', $p);
     $html .= '</ul>';
     
-    return $html;
+    return array(
+        'count' => $count_donators,
+        'list' => $html
+    );
 }
 
 /**
