@@ -1,6 +1,47 @@
 <?php
 // definition
 
+class l10n
+{
+    public static $t;
+
+    /**
+     * Load langs/$lang.lang into global $_t array.
+     *
+     * @param string $lang
+     *
+     * @return void
+    */
+    function load($lang) {
+        $lang_file = __DIR__ . '/langs/' . $lang . '.lang';
+        if (file_exists($lang_file)) {
+            global $_t;
+            $f = file($lang_file);
+            foreach ($f as $k => $v) {
+                if (substr($v, 0, 1) == ';' && !empty($f[$k+1])) {
+                    $_t[trim(substr($v, 1))] = trim($f[$k+1]);
+                }
+            }
+        }
+    }
+
+    /**
+     * Get value for key $s in global array $_t.
+     *
+     * @param string $s
+     *
+     * @return string
+    */
+    function _t($s) {
+        if (trim($s) == '')
+            return '';
+
+        global $_t;
+
+        return array_key_exists($s, $_t) ? $_t[$s] : $s;
+    }
+}
+
 /**
  * Produce navigation HTML code.
  *
@@ -13,117 +54,29 @@
 */
 function _mgnav_html($wrap = false, $lang = 'en', $inject = null, $vhost = '//www.mageia.org')
 {
-    if (!function_exists('_t')) {
-        function _t($s = null, $opt = null) {
-            if (!is_null($opt))
-                $_t = $opt;
-            else {
-                global $_t;
-            }
-            return ($s == '' ? '-EMPTY-STRING-' : (array_key_exists($s, $_t) ? $_t[$s] : $s));
-        }
-    }
-    $_t = array(
-        'en' => array(),
-        'fr' => array(
-            'About&nbsp;us' => 'À&nbsp;propos',
-            'Downloads'     => 'Téléchargements',
-            'Support'       => 'Aide',
-            'Community'     => 'Communauté',
-            'Contribute'    => 'Contribuer',
-            'You'           => 'Vous'
-        ),
-        'de' => array(
-            'About&nbsp;us' => 'Über',
-            'Downloads'     => 'Herunterladen',
-            'Support'       => 'Unterstützung',
-            'Community'     => 'Gemeinshaft',
-            'Contribute'    => 'Mitwirken',
-            'You'           => 'You'
-        ),
-        'el' => array(
-            'About&nbsp;us' => 'Σχετικά',
-            'Downloads'     => 'Λήψεις',
-            'Support'       => 'Υποστήριξη',
-            'Community'     => 'Communauté',
-            'Contribute'    => 'Συνεισφέρετε',
-            'You'           => 'You'
-        ),
-        'es' => array(
-            'About&nbsp;us' => 'Acerca de',
-            'Downloads'     => 'Descargas',
-            'Support'       => 'Soporte',
-            'Community'     => 'Comunidad',
-            'Contribute'    => 'Contribuir',
-            'You'           => 'Yo'
-        ),
-        'et' => array(
-            'About&nbsp;us' => 'About',
-            'Downloads'     => 'Allalaadimine',
-            'Support'       => 'Support',
-            'Community'     => 'Community',
-            'Contribute'    => 'Contribuer',
-            'You'           => 'You'
-        ),
-        'it' => array(
-            'About&nbsp;us' => 'A proposito di',
-            'Downloads'     => 'Scarica',
-            'Support'       => 'Supporto',
-            'Community'     => 'Comunità',
-            'Contribute'    => 'Contribuire',
-            'You'           => 'You'
-        ),
-        'pt' => array(
-            'About&nbsp;us' => 'Acerca',
-            'Downloads'     => 'Transferências',
-            'Support'       => 'Suporte',
-            'Community'     => 'Comunidade',
-            'Contribute'    => 'Contribuir',
-            'You'           => 'You'
-        ),
-        'ro' => array(
-            'About&nbsp;us' => 'Despre noi',
-            'Downloads'     => 'Descărcați',
-            'Support'       => 'Suport',
-            'Community'     => 'Community',
-            'Contribute'    => 'Contribuiți',
-            'You'           => 'You'
-        ),
-        'tr' => array(
-            'About&nbsp;us' => 'Hakkında',
-            'Downloads'     => 'İndirmeler',
-            'Support'       => 'Destek',
-            'Community'     => 'Community',
-            'Contribute'    => 'Katkıda Bulunun',
-            'You'           => 'You'
-        ),
-        'ru' => array(
-            'Downloads' => 'Загрузить'
-        )
-    );
+    l10n::load($lang);
 
-    $lang = array_key_exists($lang, $_t) ? $lang : 'en';
-    $_t   = $_t[$lang];
-    $tn   = array(
-        array('mageia',     '$S/$L/map/',             'Mageia'),
-        array('about',      '$S/$L/about/',           _t('About&nbsp;us', $_t)),
-        array('downloads',  '$S/$L/downloads/',       _t('Downloads', $_t)),
-        array('support',    '$S/$L/support/',         _t('Support', $_t)),
-        array('community',  '$S/$L/community/',       _t('Community', $_t)),
-        array('contribute', '$S/$L/contribute/',      _t('Contribute', $_t)),
-        array('you',        '//identity.mageia.org/', _t('You', $_t))
+    $tn = array(
+        array('mageia',     '$S/$L/map/',             'Mageia',                       l10n::_t('Go to mageia.org site map.')),
+        array('about',      '$S/$L/about/',           l10n::_t('About&nbsp;us', $_t), l10n::_t('Learn more about Mageia.')),
+        array('downloads',  '$S/$L/downloads/',       l10n::_t('Downloads', $_t),     l10n::_t('Download Mageia ISO and updates.')),
+        array('support',    '$S/$L/support/',         l10n::_t('Support', $_t),       l10n::_t('Get support from Mageia community.')),
+        array('community',  '$S/$L/community/',       l10n::_t('Community', $_t),     l10n::_t('')),
+        array('contribute', '$S/$L/contribute/',      l10n::_t('Contribute', $_t),    l10n::_t('You too can build Mageia with us!')),
+        array('you',        '//identity.mageia.org/', l10n::_t('You', $_t),           l10n::_t('Your Mageia online account.'))
     //    <search>
     );
 
     $s = array();
     foreach ($tn as $i) {
-        $s[] = sprintf('<li><a href="%s" class="%s">%s</a></li>',
+        $s[] = sprintf('<li><a href="%s" class="%s" title="%s">%s</a></li>',
             str_replace(
                 array('$L', '$S'),
                 array($lang, $vhost),
                 $i[1]
             ),
             $i[0],
+            $i[3],
             $i[2]
         );
     }
