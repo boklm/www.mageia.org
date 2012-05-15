@@ -26,16 +26,16 @@ $_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
                     supported by a nonprofit organisation (<a href="#mageia.org">Mageia.Org</a>)
                     of recognized and elected contributors.</p>
 
-                <p>It <a href="2010-sept-announcement.html">started in September 2010 as a fork</a>
-                    of Mandriva Linux.</p>
+                <p>Our mission: build great tools for people.
 
-                <p>Further than just delivering a free, secure, stable
-                    and sustainable operating system,
+                <p>Further than just delivering a secure, stable and sustainable operating system,
                     the goal is to set up a stable and trustable governance
                     to direct collaborative projects.</p>
 
                 <p>To date, Mageia:</p>
                 <ul class="hl">
+                    <li><a href="2010-sept-announcement.html">started in September 2010 as a fork</a>
+                        of Mandriva Linux,</li>
                     <li>gathered <a href="../community/">hundreds of careful individuals and several companies worldwide</a>,
                         coproducing the infrastructure (hardware and software),
                         the distribution itself (developing, packaging, translating, chasing bugs, etc.),
