@@ -5,20 +5,19 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
 
 /*! mageia.org global nav | GNU GPL-3+ */
 (function () {
-    // add #nav placeholder, load CSS
+
     $("body").prepend('<header id="hmgn" style="display: none;"></header>');
-//        .append('<footer id="mwfooter"><p><a href="http://www.mageia.org/" style="font-size: 12px;">mageia.org</a></p></footer>');
+    // TODO append footer?
 
     $("head").append('<link rel="stylesheet" href="//www.mageia.org/_nav/css/">');
 
-    // load HTML
     var params = {
         b: $("body").attr("class"),
         u: document.location.href,
         l: $("html").attr("lang"),
         c: $("meta[name=context]").attr("content")
     }
-    // TODO move all menu generation/injection in JS?
+
     $("#hmgn")
         .load("//www.mageia.org/_nav/html/?" + $.param(params))
         .delay(100)
