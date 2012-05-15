@@ -40,9 +40,8 @@
 }
 
 #nav a.mageia {
-    width: 160px;
-    background: #fff url(/g/images/logo_ln_1.png) no-repeat 30px 10px;
-    background-size: 120px; /* TODO resize background image ! */
+    width: 143px;
+    background: #fff url(/_nav/css/mageia-logo-nav.png) no-repeat 30px 10px;
     color: transparent;
     text-shadow: none;
 }
