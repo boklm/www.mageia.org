@@ -7,9 +7,11 @@
     </style>
 </head>
 <body id="navdoc">
-<?php
-include '../lib/php-markdown/markdown.php';
-echo Markdown(file_get_contents('README.md'));
-?>
+    <?php
+    include '../lib/php-markdown/markdown.php';
+    echo Markdown(file_get_contents('README.md'));
+    ?>
+    <script src="/_nav/js/"></script>
+    <p>(this document uses the Javascript snippet)
 </body>
 </html>
