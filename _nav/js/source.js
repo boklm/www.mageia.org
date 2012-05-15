@@ -9,7 +9,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
     $("body").prepend('<header id="hmgn" style="display: none;"></header>');
 //        .append('<footer id="mwfooter"><p><a href="http://www.mageia.org/" style="font-size: 12px;">mageia.org</a></p></footer>');
 
-    $("head").append('<link rel="stylesheet" href="//mageia:8888/_nav/css/">');
+    $("head").append('<link rel="stylesheet" href="//www.mageia.org/_nav/css/">');
 
     // load HTML
     var params = {
@@ -20,7 +20,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
     }
     // TODO move all menu generation/injection in JS?
     $("#hmgn")
-        .load("//mageia:8888/_nav/html/?" + $.param(params))
+        .load("//www.mageia.org/_nav/html/?" + $.param(params))
         .delay(100)
         .slideDown();
 })();
