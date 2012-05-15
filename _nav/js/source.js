@@ -11,6 +11,10 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
 
     $("head").append('<link rel="stylesheet" href="//www.mageia.org/_nav/css/">');
 
+    // TODO test is h1#mgnavt exists;
+    // TODO if not, inject existing first h1 value into a new h1#mgnavt element;
+    // TODO and remove old h1.
+
     var params = {
         b: $("body").attr("class"),
         u: document.location.href,
