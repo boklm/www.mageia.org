@@ -23,8 +23,9 @@ $_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
         <div id="bd" role="main">
             <div class="yui-g"><div class="para" style="padding-top: 2em;">
                 <p>Mageia is a GNU/Linux-based, Free Software operating system,
-                    supported by a nonprofit organisation (<a href="#mageia.org">Mageia.Org</a>)
-                    of recognized and elected contributors.</p>
+                    supported by a nonprofit organisation
+                    of elected contributors
+                    (<a href="#mageia.org">Mageia.Org</a>).</p>
 
                 <p>Our mission: build great tools for people.
 
