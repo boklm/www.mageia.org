@@ -46,11 +46,11 @@
 "# Income details",,,,,,
 "## Donations monthly summary",,,,,,
 "month","count","total amount","check","transfer","paypal","cash"
-1,0,0,0,0,0,0
-2,0,0,0,0,0,0
-3,0,0,0,0,0,0
-4,0,0,0,0,0,0
-5,0,0,0,0,0,0
+1,16,534.48,0,0,534.48,0
+2,16,680.00,0,250,430.00,0
+3,9,684.13,0,423.13,261.00,0
+4,10,610.00,0,100.00,510.00,0
+5,3,0,0,0,0,0
 6,0,0,0,0,0,0
 7,0,0,0,0,0,0
 8,0,0,0,0,0,0
@@ -63,10 +63,10 @@
 "# Expenses details",,,,,,
 "## Monthly summary",,,,,,
 "month","count","total amount",,,,
-1,0,0,0,,
-2,0,0,0,,
-3,0,0,0,,
-4,0,0,0,,
+1,4,744.67,0,,
+2,2,779.18,0,,
+3,2,150.43,0,,
+4,1,9.94,0,,
 5,0,0,0,,
 6,0,0,0,,
 7,0,0,0,,
@@ -79,7 +79,15 @@
 ,,,,,,
 "## More details",,,,,,
 "date","invoice date","reference","category","description","amount",
-
+31/01/12,31/01/12,,bank,Paypal fees,13.38
+13/01/12,13/01/12,,transport,TGV Marseille (Datacenter),284.00
+13/01/12,13/01/12,,asso,Cotisation April.org,100.00
+28/01/12,28/01/12,,transport,TMB Avion AR (FOSDEM),347.29
+13/02/12,01/02/12,,goodies,RMBT Trish (FOSDEM),768.66
+29/02/12,29/02/12,,bank,Paypal fees,10.52
+12/03/12,01/03/12,,bank,Transfer change fees,143.92
+31/03/12,31/03/12,,bank,Paypal fees,6.51
+30/04/12,30/04/12,,bank,Paypal fees,9.94
 ,,,,,,
 ,,,,,,
 "# That's all folks!",,,,,,
