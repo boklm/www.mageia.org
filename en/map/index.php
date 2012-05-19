@@ -133,6 +133,7 @@ $sMap .= '</ul>';
     <div class="doc">
         <p><?php _e('welcome!')?></p>
         <?php echo $sMap; ?>
+        <div style="clear: both;"></div>
         <hr>
         <!--
         TODO

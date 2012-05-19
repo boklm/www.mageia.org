@@ -6,8 +6,6 @@ body {
 }
 a, a:link { color: #2383c2; text-decoration: none; }
 
-
-
 ul#map { margin: 0; padding: 0; list-style: none; }
 li.map-b { max-width: 200px; min-width: 140px; padding-right: 2em; }
 
@@ -21,10 +19,9 @@ ul.map-bl {
     margin: 0;
     padding: 0;
     list-style: disc;
-    alist-style-position: inside;
     padding-left: 2em;
 }
-ul.map-bl > li { margin: 0; padding: 0; }
+ul.map-bl > li { margin: 0; padding: 0 0 0.3em 0; }
 ul.map-bl ul { margin: 0; padding: 0; list-style: none; font-size: 85%; }
 ul.map-bl ul li { display: inline; }
 ul.map-bl ul li a { background: #f0f0f0; }
@@ -44,7 +41,7 @@ ul.map-bl ul li a { background: #f0f0f0; }
         
     }
     li.map-b {
-        width: 200px;
+        width: 220px;
         float: left;
     }
 }
