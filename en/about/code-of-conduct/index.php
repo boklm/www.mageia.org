@@ -3,17 +3,16 @@
 <head>
     <meta charset="utf-8">
     <title>Code of Conduct - Mageia</title>
-    <meta name="description" content="Mageia is new community-based Linux distribution.">
+    <meta name="description" content="Mageia project Code of Conduct for contributors and users.">
     <meta name="keywords" content="mageia, values, conduct, rules">
     <meta name="author" content="Mageia">
     <link rel="stylesheet" type="text/css" href="/g/style/all.css">
     <?php include '../../../analytics.php'; ?>
 </head>
-<body>
+<body class="about">
     <?php include '../../../langs.php'; ?>
-
+    <h1 id="mgnavt">Code of Conduct</h1>
     <div id="doc" class="yui-t7">
-        <div id="hd" role="banner"><h1><a id="logo" href="/"><span>Mageia</span></a> <span class="lsep">|</span> <span class="subh">Code of Conduct</span></h1></div>
         <div id="bd" role="main">
             <div class="yui-g">
                 <div class="para codeofconduct">

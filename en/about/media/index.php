@@ -9,11 +9,10 @@
     <link rel="stylesheet" type="text/css" href="/g/style/all.css">
     <?php include '../../../analytics.php'; ?>
 </head>
-<body>
+<body class="about">
     <?php include '../../../langs.php'; ?>
-    
+    <h1 id="mgnavtitle">Media files</h1>
     <div id="doc" class="yui-t7">
-        <div id="hd" role="banner"><h1><a id="logo" href="/"><span>Mageia</span></a> <span class="lsep">|</span> <span class="subh">Media files</span></h1></div>
         <div id="bd" role="main">
             <div class="yui-g"><div class="para">
                 <h2>Logo</h2>

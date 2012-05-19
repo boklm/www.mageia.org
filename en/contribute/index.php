@@ -20,13 +20,13 @@ $_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
     <link rel="canonical" href="/<?php echo $locale; ?>/contribute/">
     <?php include '../../analytics.php'; ?>
 </head>
-<body id="top">
+<body id="top" class="contribute">
     <?php echo $hsnav; ?>
+    <h1 id="mgnavtitle"><?php _e('page_h1')?></h1>
     <div id="doc" class="yui-t7">
-        <div id="hd" role="banner"><h1><a id="logo" href="/<?php echo $locale; ?>/"><span>Mageia</span></a> <span class="lsep">|</span> <span class="subh"><?php echo $_t['page_h1']; ?></span></h1></div>
         <div id="bd" role="main">
             <div class="yui-g">
-                <div class="para">
+                <div class="para" style="padding-top: 2em;">
                     <p><?php echo $_t['mageia_intro']; ?></p>
 
                     <p><?php echo $_t['contribute_intro']; ?></p>
