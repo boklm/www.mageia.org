@@ -11,7 +11,7 @@ $_t = array(
         'h2_hw_reqs' => 'Hardware Requirements',
 
         'h2_updates' => 'Updates',
-        'updates_1' => 'Updates are available for %s (security and bug fixes) and published on an ongoing basis.',
+        'updates_1' => 'Updates are available for %s and %s (security and bug fixes) and published on an ongoing basis.',
         'updates_2' => 'You may subscribe to our %s announce list to be notified of these.',
         'updates_3' => 'You can install these from the Mageia Control Center.',
         
@@ -65,7 +65,7 @@ $_t = array(
         'h2_hw_reqs' => 'Configuration requise',
 
         'h2_updates' => 'Mises à jour',
-        'updates_1' => 'Des mises à jour sont régulièrement publiées pour %s (corrections de bugs ou de sécurité).',
+        'updates_1' => 'Des mises à jour sont régulièrement publiées pour %s et %s (corrections de bugs ou de sécurité).',
         'updates_2' => 'Vous pouvez vous inscrire à la liste %s pour en être informé.',
         'updates_3' => 'Vous pouvez les installer à partir du centre de contrôle Mageia.',
 
@@ -85,6 +85,7 @@ $_t = array(
             'les <a href="http://www.mageia.org/mailman/" hreflang="en">listes de discussion</a> (en anglais pour le moment)&nbsp;;',
             'des événements locaux&nbsp;; surveillez le <a href="http://blog.mageia.org/fr/">blog</a>
                 et le <a href="http://www.mageia.org/en/calendar/">calendrier</a>.',
+        
         ),
 
         'pro_1' => 'L&rsquo;association Mageia.Org ne propose pas de service commercial (assistance, formation, autre)
@@ -112,7 +113,11 @@ $_t = array(
             et certification matérielles, ainsi qu&rsquo;un process de certification.
             Mais ça n&rsquo;est encore qu&rsquo;un projet &ndash;
             si cela vous intéresse et que vous pensez pouvoir y contribuer,
-            n&rsquo;hésitez pas à contacter les équipes <a href="%s">Web</a> et <a href="%s">QA</a>.'
+            n&rsquo;hésitez pas à contacter les équipes <a href="%s">Web</a> et <a href="%s">QA</a>.',
+            
+        'Lifecycle' => 'Cycle de vie',
+        'Mageia releases are supported at least for 18 months.' => 'Les versions de Mageia sont maintenues pendant au moins 18 mois.',
+        'Mageia 1 will be supported until December 2012.' => 'Mageia 1 sera maintenue jusqu&rsquo;à fin décembre 2012.',
     ),
     'pt' => array(
         'page_title' => 'Suporte para a distribuição Mageia',

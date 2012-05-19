@@ -9,14 +9,13 @@
     <link rel="stylesheet" type="text/css" href="/g/style/all.css" >
     <?php include '../../../analytics.php'; ?>
 </head>
-<body class="report-a-bug">
+<body class="support report-a-bug">
     <?php include '../../../langs.php'; ?>
-    
+    <h1 id="mgnavt"><a href="../">Support</a> &raquo; How to Report a Bug</h1>
     <div id="doc" class="yui-t7">
-        <div id="hd" role="banner"><h1><a id="logo" href="/"><span>Mageia</span></a> <span class="lsep">|</span> <span class="subh">How to Report a Bug</span></h1></div>
         <div id="bd" role="main">
             <div class="yui-g">
-                <div class="para donate">
+                <div class="para donate" style="padding-top: 2em;">
                     <div class="qsidesummary">
                         <ol>
                             <li><a href="#update">Update your system</a></li>
