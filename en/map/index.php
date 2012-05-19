@@ -39,7 +39,7 @@ $map = array(
         't' => _t('Downloads'),
         'l' => '/{L}/downloads/',
         'i' => array(
-            array('t' => _t('2 (beta 3)'),       'l' => '/{L}/2/'),
+            array('t' => _t('2 (May 2012)'),       'l' => '/{L}/2/'),
             array('t' => _t('1 (June 2011)'),    'l' => '/{L}/1/'),
             array('t' => _t('Download mirrors'), 'l' => 'https://mirrors.mageia.org/')
         )
@@ -86,7 +86,7 @@ $map = array(
         'l' => 'http://i.mageia.org/',
         'i' => array(
             array('t' => _t('Your Mageia id'), 'l' => 'http://identity.mageia.org/'),
-            array('t' => _t('Privacy policy'), 'l' => '/{L}/about/policies/privacy/')
+            array('t' => _t('Privacy policy'), 'l' => '/en/about/policies/privacy/')
         )
     )
 );
