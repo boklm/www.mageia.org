@@ -49,12 +49,13 @@
 			<h2>Miscellaneous</h2>
 			<ul>
 				<li>Donations are mixed as at the beginning they were managed by AUFML. We had a bank transfert with all donations.</li>
-				<li>You can <a href="#" hreflang="en">download this report</a> as a PDF file.</li>
 				<li>You can help Mageia.Org by <a href="/en/donate/" hreflang="en">doing a donation</a>.</li>
 				<li>You can see the <a href="/en/thank-you" hreflang="en">"thank you" page</a>.</li>
 			</ul>
 			<h2>Contact</h2>
-			Financial report published by Damien Lallement (Mageia.Org Treasurer on the 2010 Fiscal Year).<br/>You can contact him by sending an email to <em>treasurer[at]mageia[dot]org</em>.<br/>Last update: Mar 18 12:18:53 CET 2011.
+            Financial report published by Mageia.Org Treasurer on the 2010 Fiscal Year - Damien Lallement).<br>
+            You can contact us by sending an email to <em>treasurer[at]mageia[dot]org</em>.<br/>
+            Last update: Mar 18 12:18:53 CET 2011.
                 </div>
             </div>
         </div>
