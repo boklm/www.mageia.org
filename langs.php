@@ -253,7 +253,7 @@ $hsnav .= $langsForm;
 // use new nav now.
 // TODO(rda) cleanup above code about old nav structure.
 include ('_nav/lib.php');
-$hsnav = _mgnav_style() . _mgnav_html(true, $locale, $langsForm, '//mageia:8888');
+$hsnav = _mgnav_style() . _mgnav_html(true, $locale, $langsForm);
 $hsfoot = '';
 
 if (!defined('HLANG'))
