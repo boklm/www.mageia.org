@@ -7,7 +7,8 @@ include 'locales.php';
 $_t = array(
     'de' => array(
         'blog_url' => 'http://blog.mageia.org/de/',
-        'planet_url' => 'http://planet.mageia.org/de/'
+        'planet_url' => 'http://planet.mageia.org/de/',
+        'forum_url' => 'http://forums.mageia.org/de/',
     ),
     'el' => array(
         'blog_url' => 'http://blog.mageia.org/el/',
@@ -16,7 +17,8 @@ $_t = array(
         'page_title' => 'Mageia Community',
         'page_h1' => 'Mageia Community Central',
         'blog_url' => 'http://blog.mageia.org/en/',
-        'planet_url' => 'http://planet.mageia.org/en/'
+        'planet_url' => 'http://planet.mageia.org/en/',
+        'forum_url' => 'https://forum.mageia.org/en/',
     ),
     'es' => array(
         'blog_url' => 'http://blog.mageia.org/en/',
@@ -29,7 +31,8 @@ $_t = array(
         'How to contribute?' => 'Comment contribuer&nbsp;?',
         'Toolbox' => 'Boîte à outils',
         'blog_url' => 'http://blog.mageia.org/fr/',
-        'planet_url' => 'http://planet.mageia.org/fr/'
+        'planet_url' => 'http://planet.mageia.org/fr/',
+        'forum_url' => 'http://forum.mageia.org/fr/'
     ),
     'it' => array(
         'blog_url' => 'http://blog.mageia.org/it/',
@@ -69,19 +72,20 @@ include '../../lib/news.php';
     <title><?php _e('page_title')?></title>
     <link rel="stylesheet" href="/g/style/all.css">
     <style>
-    #newslist { font-size: 90%; }
-        #newslist > li { margin-bottom: 0.6em; }
-            #newslist > li .dt { display: block; font-size: 90%; color: #888; }
-    .para { text-align: left; float: left; width: 250px; display: block; }
+    #newslist { list-style: none; margin: 0; padding: 0; }
+        #newslist > li { list-style: none; padding: 0.6em 0.9em; }
+        #newslist li:first-child { font-weight: bold; outline: 1px solid #fa8; margin-bottom: 0.4em; background: #fffaf0; }
+            #newslist > li .dt { display: block; font-size: 80%; color: #888; }
+    .para { text-align: left; float: left; width: 250px; display: block; border-right: 1px solid #eef; border-bottom: 1px solid #eef; }
+    hr { margin-top: 2em; }
     </style>
 </head>
 <body class="community">
     <?php echo $hsnav; ?>
     <h1 id="mgnavtitle"><?php _e('page_h1')?></h1>
-    
-    <div class="para">
+    <div class="para" style="width: 400px;">
         <section>
-            <h2><a href="<?php _e('blog_url')?>"><?php _e('News')?></a></h2>
+            <h2><a href="<?php _e('blog_url')?>"><?php _e('News');?></a></h2>
             <?php
             if (_t('planet_url') != 'planet_url')
                 show_feed(null, _t('planet_url'), _t('planet_url') . '?type=rss10', 9);
@@ -91,12 +95,50 @@ include '../../lib/news.php';
             //show_feed('Mageia MLs', '', 'https://ml.mageia.org/l/rss/active_lists?count=20&for=10');
             //show_feed('Mageia Forum', 'http://forum.mageia.org/en/', 'https://forums.mageia.org/en/feed.php?mode=topics_active');
             ?>
+            <hr>
+            <p><?php
+                $s = array();
+                $feeds = array(
+                    'Planet' => 'planet_url',
+                    'Blog' => 'blog_url',
+                    'Forum' => 'forum_url'
+                );
+                foreach ($feeds as $k => $v)
+                    if (_t($v) != $v)
+                        $s[] = sprintf('<a href="%s">%s</a>', _t($v), _t($k));
+
+                echo implode(' | ', $s);
+            ?></p>
         </section>
+    </div>
+    <div class="para" style="width: 300px">
+        <h2><a href="../contribute/"><?php _e('How to contribute?')?></a></h2>
+        <ul class="hl">
+            <li><a href="../contribute/">Start here</a>,</li>
+            <li>and meet us on <a href="http://wiki.mageia.org/en/IRC">IRC</a>.</li>
+        </ul>
+        <hr>
+        <h2><?php _e('Toolbox')?></h2>
+        <ul class="hl">
+            <li><a href="http://wiki.mageia.org/">Wiki</a> &larr; collaborative documentation</li>
+            <li><a href="http://bugs.mageia.org/">Bugzilla</a> &larr; to report bugs</li>
+            <li><a href="http://forum.mageia.org/">Forum</a></li>
+            <li><a href="/en/calendar/">Calendar</a></li>
+        </ul>
+        
+        <p>For developers and packagers:</p>
+        <ul class="hl">
+            <li><a href="http://svn.mageia.org/">Subversion</a>,
+                <a href="http://gitweb.mageia.org/">Git</a> code repositories</li>
+            <li><a href="http://pkgsubmit.mageia.org/">Packages submission queue</a>,
+                <a href="http://pkgsubmit.mageia.org/data/unmaintained.txt">unmaintained packages</a></li>
+            <li><a href="http://check.mageia.org/">Global QA report</a></li>
+        </ul>
     </div>
     <div class="para">
         <h2><?php _e('Conversations')?></h2>
         <p>... or, how to get in touch with us? Easy:</p>
-        <ul>
+        <ul class="hl">
             <li><a href="https://wiki.mageia.org/en/IRC" title="Internet Relay Chat">IRC</a> on Freenode</a>,</li>
             <li><a href="/mailman/">mailing-lists 1</a> 
                 &amp; <a href="http://ml.mageia.org/">2</a>,</li>
@@ -105,6 +147,8 @@ include '../../lib/news.php';
             <li>in real life!</li>
             <li>during events!</li>
         </ul>
+        <hr>
+
         <!-- TODO
 
         <section>
@@ -113,37 +157,16 @@ include '../../lib/news.php';
         -->
     </div>
     <div class="para">
-        <h2><?php _e('Toolbox')?></h2>
-        <ul>
-            <li><a href="http://wiki.mageia.org/">Wiki</a></li>
-            <li><a href="http://bugs.mageia.org/">Bugzilla</a></li>
-            <li><a href="http://forum.mageia.org/">Forum</a></li>
-            <li><a href="/en/calendar/">Calendar</a></li>
-        </ul>
-        <ul>
-            <li><a href="http://svn.mageia.org/">Subversion</a>,
-                <a href="http://gitweb.mageia.org/">Git</a></li>
-            <li><a href="http://pkgsubmit.mageia.org/">Packages submission queue</a>,
-                <a href="http://pkgsubmit.mageia.org/data/unmaintained.txt">unmaintained packages</a></li>
-            <li><a href="http://check.mageia.org/">Global QA report</a></li>
-        </ul>
-    </div>
-    <div class="para">
-        <h2><a href="../contribute/"><?php _e('How to contribute?')?></a></h2>
-        <ul>
-            <li><a href="../contribute/">Start here</a>,</li>
-            <li>and meet us on <a href="http://wiki.mageia.org/en/IRC">IRC</a>.</li>
-        </ul>
-    </div>
-    <div class="para">
-        <h2><?php _e('Useful reminders')?></h2>
-        <ul>
+        <h2>Mageia</h2>
+        <ul class="hl">
             <li><a href="../about/">More about Mageia</a></li>
-            <li><a href="../about/code-of-conduct/">Our code of conduct</a></li>
-            <li><a href="http://wiki.mageia.org/en/Org">Our governance</a>:
-                <a href="https://wiki.mageia.org/en/Special:Search?search=teams">Teams</a>,
-                <a href="http://wiki.mageia.org/en/Org_Council">the Council</a>,
-                and <a href="http://wiki.mageia.org/en/Org_Board">the Board</a>.</li>
+            <li>Our <a href="../about/code-of-conduct/">code of conduct</a> and <a href="../about/values/">values</a></li>
+            <li><a href="http://wiki.mageia.org/en/Org">Our governance model</a> and structure:
+                <ul>
+                    <li><a href="https://wiki.mageia.org/en/Special:Search?search=teams">Teams</a></li>
+                    <li><a href="http://wiki.mageia.org/en/Org_Council">the Council</a></li>
+                    <li><a href="http://wiki.mageia.org/en/Org_Board">the Board</a></li>
+                </ul></li>
             <li><a href="../donate/">Donations</a> &amp; <a href="/en/about/reports/">reports</a>.</li>
         </ul>
     </div>
