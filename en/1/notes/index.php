@@ -21,12 +21,9 @@ $_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
 </head>
 <body class="release">
     <?php echo $hsnav; ?>
+    <h1 id="mgnavt"><?php _e('page_h1')?></h1>
     <div id="doc" class="yui-t7">
-        <div id="hd" role="banner">
-            <h1><a id="logo" href="/<?php echo $locale; ?>/"><span>Mageia</span></a> <span class="lsep">|</span> <span class="subh"><?php echo $_t['page_h1']; ?></span></h1>
-        </div>
         <?php include '../nav.php'; ?>
-
         <div id="bd" role="main">
             <div class="yui-g">
                 <div class="para">

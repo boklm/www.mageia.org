@@ -3,7 +3,7 @@ $_t = array(
     'en' => array(
         'page_title' => 'Mageia 1 is for you!',
         'page_kw' => 'mageia, everybody, user, developer, contributor, hacker, student, teacher',
-        'page_h1' => 'For You!',
+        'page_h1' => '<a href="../">Mageia 1</a> &raquo; For You!',
         'h2_for' => 'Mageia is for...',
         'h3_daily' => '...the daily work!',
         'p_daily' => 'Providing office suites, development environments, database tools,...',
@@ -53,7 +53,7 @@ $_t = array(
     'cs' => array(
         'page_title' => 'Mageia 1 je pro vás!',
         'page_kw' => 'mageia, kdokoli, uživatel, vývojář, spolupracovník, hacker, student, učitel',
-        'page_h1' => 'Pro vás!',
+        'page_h1' => '<a href="../">Mageia 1</a> &raquo; Pro vás!',
         'h2_for' => 'Mageia je pro...',
         'h3_daily' => '...denní práce!',
         'p_daily' => 'Obsahuje kancelářské balíky, vývojářská prostředí, databázové nástroje,...',
@@ -103,7 +103,7 @@ $_t = array(
     'de' => array(
         'page_title' => 'Mageia 1 ist für Sie!',
         'page_kw' => 'Mageia, Nutzer, Entwickler, Mitwirkende, Kontributoren, Hacker, Studenten, Lehrer, Professoren',
-        'page_h1' => 'Für Sie!',
+        'page_h1' => '<a href="../">Mageia 1</a> &raquo; Für Sie!',
         'h2_for' => 'Mageia ist für...',
         'h3_daily' => '...die tägliche Arbeit!',
         'p_daily' => 'Es enthält Office-Umgebungen, Entwicklungsumgebungen, Datenbank-Anwendungen,...',
@@ -153,7 +153,7 @@ $_t = array(
     'el' => array(
         'page_title' => 'Η Mageia 1 είναι για εσάς!',
         'page_kw' => 'mageia, όλοι, χρήστης, προγραμματιστής, συνεισφέρων, hacker, μαθητής, δάσκαλος',
-        'page_h1' => 'Για εσάς!',
+        'page_h1' => '<a href="../">Mageia 1</a> &raquo; Για εσάς!',
         'h2_for' => 'Η Mageia είναι για...',
         'h3_daily' => '...την καθημερινή εργασία!',
         'p_daily' => 'Προσφέροντας προγράμματα γραφείου, περιβάλλοντα ανάπτυξης εφαρμογών, εργαλεία βάσεων δεδομένων,...',
@@ -203,7 +203,7 @@ $_t = array(
     'es' => array(
         'page_title' => '¡Mageia 1 es para tí!',
         'page_kw' => 'mageia, todos, usuario, desarrollador, contribuidor, hacker, estudiante, profesor',
-        'page_h1' => '¡Para tí!',
+        'page_h1' => '<a href="../">Mageia 1</a> &raquo; ¡Para tí!',
         'h2_for' => 'Mageia es para...',
         'h3_daily' => '...¡el trabajo diario!',
         'p_daily' => 'Entregando suites de oficina, ambientes de desarrollo, herramientas de bases de datos,...',
@@ -253,7 +253,7 @@ $_t = array(
     'et' => array(
         'page_title' => 'Mageia 1 on just teie jaoks!',
         'page_kw' => 'mageia, kõik, kasutaja, arendaja, kaastöötaja, häkker, tudeng, õpetaja',
-        'page_h1' => 'Teie jaoks!',
+        'page_h1' => '<a href="../">Mageia 1</a> &raquo; Teie jaoks!',
         'h2_for' => 'Mageia on mõeldud...',
         'h3_daily' => '...igapäevatööks!',
         'p_daily' => 'Pakkudes selleks kontoritöökomplekte, arenduskeskkondi, andmebaasitööriistu...',
@@ -303,7 +303,7 @@ $_t = array(
     'fr' => array(
         'page_title' => 'Mageia 1 est pour vous&nbsp;!',
         'page_kw' => 'mageia, everybody, user, developer, contributor, hacker, student, teacher, tous, utilisateur, developpeur, contributeur, etudiant, professeur, enseignant',
-        'page_h1' => 'Pour vous&nbsp;!',
+        'page_h1' => '<a href="../">Mageia 1</a> &raquo; Pour vous&nbsp;!',
         'h2_for' => 'Mageia est pour&hellip;.',
         'h3_daily' => '&hellip;le travail quotidien&nbsp;!',
         'p_daily' => 'En fournissant des suites bureautiques, des environnements de développement, des outils de base de données, &hellip;',
@@ -353,7 +353,7 @@ $_t = array(
     'it' => array(
         'page_title' => 'Mageia 1 è per voi!',
         'page_kw' => 'mageia, chiunque, utente, sviluppatore, collaboratore, hacker, studente, insegnante',
-        'page_h1' => 'Per voi!',
+        'page_h1' => '<a href="../">Mageia 1</a> &raquo; Per voi!',
         'h2_for' => 'Mageia è per...',
         'h3_daily' => '...il lavoro quotidiano!',
         'p_daily' => 'Fornendo suite per l\'ufficio, ambienti di sviluppo, strumenti per i database,...',
@@ -403,7 +403,7 @@ $_t = array(
     'nb' => array(
         'page_title' => 'Mageia 1 er for deg.',
         'page_kw' => 'mageia, alle, bruker, utvikler, bidragsyter, hacker, student, lærer',
-        'page_h1' => 'For deg.',
+        'page_h1' => '<a href="../">Mageia 1</a> &raquo; For deg.',
         'h2_for' => 'Mageia er for …',
         'h3_daily' => '…det daglige arbeidet.',
         'p_daily' => 'Med kontorpakker, utviklingsmiljøer, databaseverktøy, …',
@@ -453,7 +453,7 @@ $_t = array(
     'pt' => array(
         'page_title' => 'A Mageia 1 é para si!',
         'page_kw' => 'mageia, toda a gente, utilizador, desenvolvedor, contribuidor, hacker, estudante, professor',
-        'page_h1' => 'Para si!',
+        'page_h1' => '<a href="../">Mageia 1</a> &raquo; Para si!',
         'h2_for' => 'A Mageia é para...',
         'h3_daily' => '...o trabalho diário!',
         'p_daily' => 'Fornecendo conjuntos de escritório (Office), desenvolvendo ambientes, ferramentas de bases de dados,...',
@@ -503,7 +503,7 @@ $_t = array(
     'ro' => array(
         'page_title' => 'Mageia 1 este pentru voi!',
         'page_kw' => 'mageia, oricine, utilizator, dezvoltator, contribuitor, hacker, student, profesor',
-        'page_h1' => 'Pentru voi!',
+        'page_h1' => '<a href="../">Mageia 1</a> &raquo; Pentru voi!',
         'h2_for' => 'Mageia este pentru...',
         'h3_daily' => '...munca de zi cu zi!',
         'p_daily' => 'Oferind suite de birotică, medii de dezvoltare, unelte pentru bazele de date,...',
@@ -553,7 +553,7 @@ $_t = array(
     'tr' => array(
         'page_title' => 'Mageia 1 sizin için!',
         'page_kw' => 'mageia, herkes, kullanıcı, geliytirici, katkıcı, hacker, öğrenci, öğretmen',
-        'page_h1' => 'Sizin için!',
+        'page_h1' => '<a href="../">Mageia 1</a> &raquo; Sizin için!',
         'h2_for' => 'Mageia bunlar için var:',
         'h3_daily' => '...günlük çalışmalarınız için!',
         'p_daily' => 'Ofis uygulamaları, geliştirme ortamları, veritabanı araçları sunar...',
@@ -603,7 +603,7 @@ $_t = array(
     'uk' => array(
         'page_title' => 'Mageia 1 is for you!',
         'page_kw' => 'mageia, всі, користувач, розробник, учасник розробки, гакер, учень, вчитель',
-        'page_h1' => 'Для вас!',
+        'page_h1' => '<a href="../">Mageia 1</a> &raquo; Для вас!',
         'h2_for' => 'Mageia призначено...',
         'h3_daily' => '...для щоденної роботи!',
         'p_daily' => 'Містить офісні комплекти програм, середовища для розробки, інструменти для роботи з базами даних...',
@@ -653,7 +653,7 @@ $_t = array(
     'zh-tw' => array(
         'page_title' => 'Mageia 1 是獻給您的！',
         'page_kw' => 'mageia, everybody, user, developer, contributor, hacker, student, teacher',
-        'page_h1' => '獻給您！',
+        'page_h1' => '<a href="../">Mageia 1</a> &raquo; 獻給您！',
         'h2_for' => 'Mageia 是為了什麼目的而誕生？',
         'h3_daily' => '日常工作：',
         'p_daily' => '裡面提供了辦公套件、開發環境、資料庫工具... 等等。',

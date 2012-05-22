@@ -4,8 +4,8 @@ $_t = array(
         'page_title' => 'Migrate from Mandriva Linux to Mageia',
         'page_desc' => 'How to migrate from Mandriva Linux 2010.1/2010.2 to Mageia 1 in a few, safe steps.',
         'page_kw' => 'mageia, mandriva, upgrade, migrate',
-        'page_h1' => 'Migrate from Mandriva Linux',
-        'upgrading_general' => 'Upgrading from Mandriva Linux 2010.1 and 2010.2 is supported, and has been fine tuned over the past
+        'page_h1' => 'Migrate from Mandriva Linux to Mageia',
+        'upgrading_general' => 'Upgrading <strong>from Mandriva Linux 2010.1 and 2010.2 to Mageia 1</strong> is supported, and has been fine tuned over the past
                 months, so it should work. But as always, before commencing with the upgrade:',
         'upgrading_general_array' => array('Back up your data before upgrading;',
                 'if you are upgrading a laptop, do not leave it running on batteries, but connect it to AC power!
@@ -348,8 +348,8 @@ $_t = array(
         'page_title' => 'Migrer de Mandriva Linux à Mageia',
         'page_desc' => 'Quelques étapes pour migrer de façon sûre de Mandriva Linux 2010.1 ou 2010.2 à Mageia 1.',
         'page_kw' => 'mageia, mandriva, mise a jour, migrer',
-        'page_h1' => 'Migrer depuis Mandriva Linux',
-        'upgrading_general' => 'La mise à niveau depuis Mandriva Linux 2010.1 et 2010.2 est prévue, elle a été mise au point dans le détail ces derniers mois et devrait fonctionner. Mais, au préalable et comme toujours&nbsp;:',
+        'page_h1' => 'Migrer depuis Mandriva Linux vers Mageia 1',
+        'upgrading_general' => 'La mise à niveau <strong>depuis Mandriva Linux 2010.1 et 2010.2 vers Mageia 1</strong> est prévue, elle a été mise au point dans le détail ces derniers mois et devrait fonctionner. Mais, au préalable et comme toujours&nbsp;:',
         'upgrading_general_array' => array('Sauvegardez vos données avant la mise à niveau.',
                 'Si vous utilisez un portable, connectez-le au secteur&nbsp;!
                         Vous allez mettre à jour plus de 2000 paquets et cela peut prendre un peu de temps.',
