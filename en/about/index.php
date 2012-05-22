@@ -15,6 +15,13 @@ $_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
     <meta name="author" content="Mageia">
     <link rel="stylesheet" type="text/css" href="/g/style/all.css">
     <?php include '../../analytics.php'; ?>
+    <style>
+    #abtlg {
+        display: block;
+        margin: 0 auto;
+        width: 500px;
+    }
+    </style>
 </head>
 <body class="about">
     <?php echo $hsnav; ?>
@@ -22,12 +29,14 @@ $_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
     <div id="doc" class="yui-t7">
         <div id="bd" role="main">
             <div class="yui-g"><div class="para" style="padding-top: 2em;">
-                <p>Mageia is a GNU/Linux-based, Free Software operating system,
-                    supported by a nonprofit organisation
-                    of elected contributors
-                    (<a href="#mageia.org">Mageia.Org</a>).</p>
+                <img src="/g/media/logo/mageia-2011.svg" id="abtlg" alt="Mageia">
+                <p>Mageia is a GNU/Linux-based, Free Software operating system.
+                    It's a <a href="../community/">community project</a>,
+                    supported by <a href="#mageia.org">a nonprofit organisation</a>
+                    of elected contributors.</p>
 
-                <p>Our mission: build great tools for people.
+                <p>Our mission: to build great tools for people.</p>
+
 
                 <p>Further than just delivering a secure, stable and sustainable operating system,
                     the goal is to set up a stable and trustable governance
@@ -43,8 +52,7 @@ $_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
                         <a href="http://wiki.mageia.org/">documentation</a>,
                         <a href="../downloads/">delivery</a> and <a href="../support/">support</a>,
                         using Free Software tools;</li>
-                    <li>released <a href="../1/">its first stable release in June 2011</a>;</li>
-                    <li>is <a href="../2/">on the path of delivering its second release in May 2012</a>.</li>
+                    <li>released two major stable releases <a href="../1/">in June 2011</a> and <a href="../2/">in May 2012</a>.</li>
                 </ul>
                 <!--
                 <ul>
@@ -61,15 +69,6 @@ $_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
                     <li>History/Timeline</li>
                 </ul>
                 -->
-                
-                <hr>
-                <h2>Learn more about Mageia</h2>
-                <ul>
-                    <li><a href="./values/">Values</a></li>
-                    <li><a href="./code-of-conduct/">Code of conduct</a></li>
-                    <li><a href="/en/about/policies/">Policies</a></li>
-                    <li><a href="/en/thank-you/">Thanks!</a></li>
-                </ul>
 
                 <hr>
                 <h3 id="mageia.org">Mageia.Org</h3>
@@ -79,7 +78,7 @@ $_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
                     <li><a href="./constitution/">Mageia.Org's legal constitution</a>
                         and <a href="https://wiki.mageia.org/en/Org">governance</a> rules;</li>
                     <li>association members;</li>
-                    <li><a href="/en/about/reports/">financial reports</a>.</li>
+                    <li><a href="/en/about/reports/">financial reports</a>, <a href="/en/thank-you/">donators</a>.</li>
                 </ul>
 
                 <hr>
