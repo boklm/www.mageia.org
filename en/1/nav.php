@@ -26,7 +26,7 @@ else
 $nav = array(
     "/{$locale}/1/"         => '1',
     "/{$locale}/1/for-you/" => $_nt['for-you'],
-    "/{$locale}/downloads/" => $_nt['dl'],
+    "/{$locale}/downloads/1/" => $_nt['dl'],
     "/{$locale}/1/next/"    => $_nt['next'],
     "/{$locale}/1/notes/"   => $_nt['notes']
 );
