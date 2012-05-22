@@ -32,7 +32,7 @@ $map = array(
                     array('t' => _t('Reports'),      'l' => '/en/about/reports/')
                 )
             ),
-            array('t' => _t('Timeline'), 'l' => '/en/about/timeline/')
+            array('t' => _t('Timeline'), 'l' => '/en/timeline/')
         )
     ),
     'downloads' => array(
