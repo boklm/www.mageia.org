@@ -74,7 +74,7 @@ require '../downloads/get/lib.php';
                                     If you need WiFi or specific video drivers <em>at install time</em>,
                                     you should go with below LiveCDs instead.</span>
                                     You may, if you will, add nonfree software repository <em>after</em> the installation.</li>
-                            <li>Please note that there is a <span class="warn">problem with notebooks using INTEL and AMD/ATI graphics</span>.
+                            <li>Please note that there is a <span class="warn">problem with notebooks using Intel, AMD/ATI and nVidia graphic cards.</span>.
                                 <a href="https://wiki.mageia.org/en/Mageia_2_Errata#Hardware_Issues">See the errata
                                 about this</a>.</p>
                         </ul>
