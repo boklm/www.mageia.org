@@ -7,7 +7,7 @@ include 'locales.php';
 $_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
 
 $_t['page_title'] = sprintf($_t['page_title'], 'Mageia 2', '');
-$_t['page_h1']    = sprintf($_t['page_h1'], 'Mageia 2', '');
+$_t['page_h1']    = '<a href="../2/">Mageia 2</a> &raquo; Download';
 
 require '../downloads/get/lib.php';
 ?>
@@ -26,6 +26,7 @@ require '../downloads/get/lib.php';
 <body class="release downloads">
     <?php echo $hsnav; ?>
     <h1 id="mgnavt"><?php _e('page_h1')?></h1>
+    <?php include '../2/nav.php'; ?>
     <div id="doc4" class="yui-t7">
         <div id="bd" role="main">
             <div class="yui-ge bb1">
