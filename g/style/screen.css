@@ -259,11 +259,12 @@ ul.news li span.dt { font-weight: thin; font-size: 85%; color: #999;
 .dlt2 .pop span { display: block; height: 11px; background: #ccc; color: transparent; }
 .dlt2 .pop span.pop_0 { width: 0; }
 .dlt2 .pop span.pop_1 { width: 5px; }
+.dlt2 tbody th { text-align: left; border-right: 1px solid #ccc; }
 .pop_2 { width: 10px; }
 .pop_3 { width: 20px; }
 .pop_4 { width: 35px; }
 .pop_5 { width: 50px; }
-.dlinfo { font-size: 85%; color: #888; }
+.dlinfo { font-size: 85%; color: #777; }
 .warn { color: #a00; }
 .dlt2 tr.reco td { font-weight: bold; }
 
