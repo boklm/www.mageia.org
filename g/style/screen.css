@@ -392,3 +392,30 @@ ul.news li span.dt { font-weight: thin; font-size: 85%; color: #999;
 
 .dlt th { text-align: left; }
 th .dlinfo { font-weight: normal; }
+
+h1#mgnavtitle a { color: #fff; }
+
+#mgnavsub {
+    width: 100%;
+    background: #fff;
+}
+#mgnavsub ul {
+    margin: 0; padding: 0;
+    list-style: none;
+    display: table;
+    padding-left: 20px;
+}
+#mgnavsub li {
+    display: table-cell;
+}
+
+#mgnavsub li a {
+    display: block;
+    padding: 0.5em 0.8em;
+}
+#mgnavsub li a.sel {
+    background: #1272B1;
+    color: white;
+    text-shadow: 0 1px 5px #444;
+    border-radius: 0 0 3px 3px;
+}
