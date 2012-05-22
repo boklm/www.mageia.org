@@ -155,7 +155,8 @@ function _t($s = null, $opt = null) {
     else {
         global $_t;
     }
-    return ($s == '' ? '-EMPTY-STRING-' : (array_key_exists($s, $_t) ? $_t[$s] : $s));
+
+    return ($s == '' ? '---' : (array_key_exists($s, $_t) ? $_t[$s] : $s));
 }
 
 function _e($s = null) {

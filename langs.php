@@ -250,16 +250,11 @@ $langsForm = <<<H
 H;
 $hsnav .= $langsForm;
 
-if (isset($_GET['testnav'])) {
-    $_SESSION['testnav'] = $_GET['testnav'];
-}
-//$_SESSION['testnav'] = 1;
-
-if ($_SESSION['testnav'] > 0) {
-    include ('_nav/lib.php');
-    $hsnav = _mgnav_style() . _mgnav_html(true, $locale, $langsForm);
-    $hsfoot = '';
-}
+// use new nav now.
+// TODO(rda) cleanup above code about old nav structure.
+include ('_nav/lib.php');
+$hsnav = _mgnav_style() . _mgnav_html(true, $locale, $langsForm, '//mageia:8888');
+$hsfoot = '';
 
 if (!defined('HLANG'))
     echo $hsnav;

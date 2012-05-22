@@ -8,11 +8,11 @@
  *
  * @return array
 */
-function html_news($locale = 'en')
+function html_news($locale = 'en', $count = 5)
 {
-    $news = get_news($locale);
+    $news = get_news($locale, $count);
     $html =  '<ul class="news">';
-    $item_tmpl = '<li><span class="dt">%s</span> <a href="%s">%s</a> </li>';
+    $item_tmpl = '<li><a href="%2$s">%3$s</a> <span class="dt">%1$s</span></li>';
     foreach ($news as $item)
     {
         $html .= sprintf($item_tmpl,
@@ -63,30 +63,65 @@ function news_date($dt, $locale = 'en')
 */
 function get_news($locale = 'en', $count = 5, $cache_timeout = 5)
 {
-    $source_url = blog_link($locale);
+    return get_feed(blog_link($locale), $count, cache_timeout);
 
+}
+
+/**
+*/
+function get_feed($url, $count = 5, $cache_timeout = 5)
+{
     include_once G_APP_ROOT . '/lib/simplepie/simplepie.inc';
-    $feed = new SimplePie($source_url,
+
+    $feed = new SimplePie($url,
         realpath(G_APP_ROOT . '/var/tmp/cache'),
         3600 * $cache_timeout);
 
+    $feed->set_timeout(2);
     $feed->enable_order_by_date(true);
-
     $feed->handle_content_type();
-
     $items = array();
+
     foreach ($feed->get_items(0, $count) as $item)
+    {
         $items[] = array(
-            'link'  => $item->get_permalink(),
-            'title' => $item->get_title(),
-            'date'  => $item->get_date('c'),
-            'desc'  => $item->get_description(),
+            'source' => $item->get_feed()->get_link(),
+            'link'   => $item->get_permalink(),
+            'title'  => $item->get_title(),
+            'date'   => $item->get_date('c'),
+            'desc'   => $item->get_description(),
             'author' => $item->get_author()
         );
+    }
 
     unset($feed);
 
     return $items;
+}
+
+/**
+*/
+function show_feed($title, $link, $feed, $count = 5, $skip = null) {
+
+    if (!is_null($skip))
+        $count += 5;
+
+    $data = get_feed($feed, $count);
+
+    $s = '';
+    if (!is_null($title))
+        $s .= sprintf('<h3><a href="%s">%s</a></h3>', $link, $title);
+
+    $s .= '<ul id="newslist">';
+    foreach ($data as $d) {
+        if (!is_null($skip) && strpos($d['link'], $skip) !== false)
+            continue;
+
+        $s .= sprintf('<li><a href="%s">%s</a> <span class="dt">%s</span></li>',
+            $d['link'], $d['title'], news_date($d['date'], 'fr'));
+    }
+    $s .= '</ul>';
+    echo $s;
 }
 
 /**
@@ -112,6 +147,14 @@ function blog_link($locale)
         $locale = 'en';
 
     $source_url = $news[$locale];
-    
+
     return $source_url;
+}
+
+function planet_link($locale)
+{
+    $planets = array('en', 'fr', 'de', 'es', 'it', 'pt');
+    $locale = in_array($locale, $planets) ? $locale : 'en';
+
+    return sprintf('http://planet.mageia.org/%s/', $locale);
 }

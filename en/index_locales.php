@@ -1,52 +1,77 @@
 <?php
 
-
 $_t = array(
     'en' => array(
-        'page_title' => 'A New Linux Distribution: Mageia',
-        'page_desc'  => 'Mageia is new community-based Linux distribution.',
-        'page_kw'    => 'linux, mageia, mandriva, mandrake, free software, operating system, computer, laptop, desktop, server, device, mobile',
-        'page_h1'    => 'A New Linux Distribution',
+        'page_title' => 'Home of the Mageia project',
+        'page_desc'  => 'Mageia is a community-based Linux distribution, for desktop & server.',
+        'page_kw'    => 'linux, mageia, free software, operating system, computer, laptop, desktop, server, headless, device, mobile, mandriva, mandrake',
+        'page_h1'    => 'Mageia, a free, community-based Linux distribution for desktop & server.',
         'alternate_title' => 'Mageia Blog (English)',
         'alternate_href'  => 'http://blog.mageia.org/en/?feed=rss',
         'about' => array(
-            'Mageia is a fork of Mandriva Linux,
-                supported by a not-for-profit organisation of
-                recognized and elected contributors.',
-            'Further than just delivering a free, secure, stable and sustainable operating system,
-                the goal is to set up a stable and trustable governance to direct collaborative projects
-                (<a href="/en/about/2010-sept-announcement.html">check original announcement</a>).'
+            '<img src="/g/images/logo_ln_1.png" alt="Mageia"> is a Free Software, Linux-based operating system.',
+            'is a volunteer-based project, gathering individuals and organizations.',
+            'has governance bodies elected by contributors.',
+            'is supported by a nonprofit organisation owned and elected by contributors.',
+            '<a href="/en/about/2010-sept-announcement.html">forked from Mandriva Linux in 2010</a>.'
         ),
         'mageia-is-here' => 'Mageia 1 is here',
-        'mageia-is-coming' => 'Mageia 2 is coming',
-        'dl-next-mageia' => 'Try Mageia 2 Release Candidate',
+        'mageia-2-coming' => 'Mageia 2 is coming soon',
         'join-us' => 'Join Us!',
         'right-now' => 'Happening right now',
         'news' => 'News',
+        
+        'change' => 'Change your perspective',
+        'change-items' => array(
+            'Stable, secure operating system for desktop &amp; server',
+            'Free Software, coproduced by hundreds of people',
+            'Elected governance, nonprofit organization',
+            'You can be part of it',
+        ),
+        'dl-free-act'   => 'Free Download',
+        'dl-version'    => 'version 2 (May \'12)',
+        'dl-rel-notes'  => 'Release notes',
+        'dl-mga-1'      => 'Download older Mageia 1 (June \'11)',
+        'dl-contribute' => '<strong>Get involved</strong> in the next version',
     ),
     'fr' => array(
         'page_title' => 'Une nouvelle distribution Linux communautaire : Mageia',
         'page_desc'  => 'Mageia est une nouvelle distribution Linux communautaire.',
         'page_kw'    => 'linux, mageia, mandriva, logiciel libre, système d\'exploitation, ordinateur, portable, serveur',
-        'page_h1'    => 'Une Distribution Linux',
+        'page_h1'    => 'Mageia, une distribution Linux communautaire, pour poste personnel et serveur.',
         'alternate_title' => 'Le blog de Mageia (français)',
         'alternate_href'  => 'http://blog.mageia.org/fr/?feed=rss',
         'about' => array(
-            'Mageia est un fork de Mandriva Linux,
-                reposant sur une association de type 1901 composée de
-                contributeurs reconnus et élus pour leur travail.',
-            'Au delà d&rsquo;un système d&rsquo;exploitation libre,
-                sécurisé, stable et pérenne, l&rsquo;objectif est d&rsquo;établir
-                une gouvernance stable et légitime autour d&rsquo;un modèle
-                collaboratif (<a href="/fr/about/2010-sept-announcement.html">voir l&rsquo;annonce originale</a>).'
+            '<img src="/g/images/logo_ln_1.png" alt="Mageia"> est un système d&rsquo;exploitation libre, basé sur Linux.',
+            'est un projet encadré par une association dirigée par des contributeurs élus.',
+            '<a href="/fr/about/2010-sept-announcement.html">a pris son essor et dérivé de Mandriva Linux en 2010</a>.',
         ),
         'mageia-is-here' => 'Mageia 1 est arrivée',
-        'mageia-is-coming' => 'Mageia 2 arrive',
-        'dl-next-mageia' => 'Essayez Mageia 2 Release Candidate',
         'join-us' => 'Rejoignez-nous&nbsp;!',
         'right-now' => 'En ce moment',
-        'news' => 'Actualités'
-
+        'news' => 'Actualités',
+        
+        'change' => '<span class="br-small">Changez</span> de point de vue',
+        'change-items' => array(
+            'Système d&rsquo;exploitation libre pour PC et serveur',
+            'Stable, sécurisé et flexible',
+            'Gouvernance élue, association à but non lucratif',
+            'Vous pouvez le coproduire'
+        ),
+        'dl-free-act'   => 'Téléchargement gratuit',
+        'dl-version'    => 'version 2 <span class="low">(mai 2012)</span>',
+        'dl-rel-notes'  => 'Notes de publication',
+        'dl-mga-1'      => 'Télécharger Mageia 1 <span class="low">(juin \'11)</span>',
+        'dl-contribute' => '<strong>Participer</strong> à la prochaine version',
+        'For you' => 'Pour vous',
+        'For PC' => 'Pour ordinateur personnel',
+        'For server' => 'Pour serveur',
+        'News' => 'Actualités',
+        'Community' => 'Communauté',
+        'About Mageia.Org' => 'À propos',
+        'Privacy policy' => 'Respect de la vie privée',
+        'Legal' => 'Mentions légales',
+        'Support' => 'Assistance'
     ),
     'de' => array(
         'page_title' => 'Mageia - Eine neue Linux Distribution',
