@@ -41,7 +41,7 @@ $map = array(
         'i' => array(
             array('t' => _t('2 (May 2012)'),       'l' => '/{L}/2/'),
             array('t' => _t('1 (June 2011)'),    'l' => '/{L}/1/'),
-            array('t' => _t('Download mirrors'), 'l' => 'https://mirrors.mageia.org/')
+            array('t' => _t('Download mirrors'), 'l' => 'http://mirrors.mageia.org/')
         )
     ),
     'support' => array(
