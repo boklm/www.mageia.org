@@ -238,12 +238,14 @@ $nav = array(
                         <a href="https://wiki.mageia.org/en/Mageia_2_Errata">errata</a>.
                     </p>
                 </li>
+                <li><a href="contribute/" id="dl-btn-other"><?php _e('dl-contribute'); ?></a>
+                </li>
+                <!--
                 <li><a href="1/" id="dl-btn-other">
                     <span><?php _e('dl-mga-1'); ?></span>
                     </a>
                 </li>
-                <li><a href="contribute/" id="dl-btn-other"><?php _e('dl-contribute'); ?></a>
-                </li>
+                -->
             </ul>
         </div>
     </div>
