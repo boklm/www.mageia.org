@@ -88,9 +88,9 @@ include '../../lib/news.php';
             <h2><a href="<?php _e('blog_url')?>"><?php _e('News');?></a></h2>
             <?php
             if (_t('planet_url') != 'planet_url')
-                show_feed(null, _t('planet_url'), _t('planet_url') . '?type=rss10', 9);
+                show_feed($locale, null, _t('planet_url'), _t('planet_url') . '?type=rss10', 9);
             elseif (_t('blog_url') != 'blog_url')
-                show_feed(null, _t('blog_url'), _t('blog_url') . '?feed=rss', 9);
+                show_feed($locale, null, _t('blog_url'), _t('blog_url') . '?feed=rss', 9);
             // don't work:
             //show_feed('Mageia MLs', '', 'https://ml.mageia.org/l/rss/active_lists?count=20&for=10');
             //show_feed('Mageia Forum', 'http://forum.mageia.org/en/', 'https://forums.mageia.org/en/feed.php?mode=topics_active');

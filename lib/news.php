@@ -101,7 +101,7 @@ function get_feed($url, $count = 5, $cache_timeout = 5)
 
 /**
 */
-function show_feed($title, $link, $feed, $count = 5, $skip = null) {
+function show_feed($locale, $title, $link, $feed, $count = 5, $skip = null) {
 
     if (!is_null($skip))
         $count += 5;
@@ -118,7 +118,7 @@ function show_feed($title, $link, $feed, $count = 5, $skip = null) {
             continue;
 
         $s .= sprintf('<li><a href="%s">%s</a> <span class="dt">%s</span></li>',
-            $d['link'], $d['title'], news_date($d['date'], 'fr'));
+            $d['link'], $d['title'], news_date($d['date'], $locale));
     }
     $s .= '</ul>';
     echo $s;
