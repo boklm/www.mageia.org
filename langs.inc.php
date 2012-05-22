@@ -159,8 +159,22 @@ function _t($s = null, $opt = null) {
     return ($s == '' ? '---' : (array_key_exists($s, $_t) ? $_t[$s] : $s));
 }
 
-function _e($s = null) {
-    echo _t($s);
+/**
+ * Shorthand to echo localized strings.
+ *
+*/
+function _e($s = null, $args = null) {
+    if (is_array($args))
+        echo vsprintf(_t($s), $args);
+    else
+        echo _t($s);
+}
+
+function _h($s, $args = null, $tag = 'p') {
+    if (is_array($args))
+        $s = vsprintf(_t($s), $args);
+
+    echo sprintf('<%s>%s</%s>', $tag, $s, $tag);
 }
 
 /**
