@@ -22,9 +22,6 @@ $_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
     #options { list-style: none; padding: 0; margin: 0; }
     #options > li { list-style: none; padding: 0; margin: 0 0 4em 0; }
     .dlinfo li { margin-bottom: 0.6em; }
-    .whydonate, .track {
-        float
-    }
     </style>
 </head>
 <body class="contribute donate">
