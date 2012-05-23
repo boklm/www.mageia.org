@@ -187,6 +187,9 @@ function _h($s, $args = null, $tag = 'p') {
 */
 function _lang_load($locale, $domain)
 {
+    if ($locale == 'en')
+        return true;
+
     $lang_file = sprintf('%s/langs/%s/%s.%s.lang', G_APP_ROOT, $locale, $domain, $locale);
 
     if (file_exists($lang_file)) {
