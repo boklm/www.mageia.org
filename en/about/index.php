@@ -1,9 +1,9 @@
 <?php
+
 define('HLANG', true);
 require '../../langs.php';
-require 'locales.php';
 
-$_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
+_lang_load($locale, "about");
 
 ?><!DOCTYPE html>
 <html dir="ltr" lang="<?php echo $locale ?>">
@@ -30,30 +30,23 @@ $_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
         <div id="bd" role="main">
             <div class="yui-g"><div class="para" style="padding-top: 2em;">
                 <img src="/g/media/logo/mageia-2011.svg" id="abtlg" alt="Mageia">
-                <p>Mageia is a GNU/Linux-based, Free Software operating system.
-                    It's a <a href="../community/">community project</a>,
-                    supported by <a href="#mageia.org">a nonprofit organisation</a>
-                    of elected contributors.</p>
-
-                <p>Our mission: to build great tools for people.</p>
-
-
-                <p>Further than just delivering a secure, stable and sustainable operating system,
-                    the goal is to set up a stable and trustable governance
-                    to direct collaborative projects.</p>
-
-                <p>To date, Mageia:</p>
-                <ul class="hl">
-                    <li><a href="2010-sept-announcement.html">started in September 2010 as a fork</a>
-                        of Mandriva Linux,</li>
-                    <li>gathered <a href="../community/">hundreds of careful individuals and several companies worldwide</a>,
-                        coproducing the infrastructure (hardware and software),
-                        the distribution itself (developing, packaging, translating, chasing bugs, etc.),
-                        <a href="http://wiki.mageia.org/">documentation</a>,
-                        <a href="../downloads/">delivery</a> and <a href="../support/">support</a>,
-                        using Free Software tools;</li>
-                    <li>released two major stable releases <a href="../1/">in June 2011</a> and <a href="../2/">in May 2012</a>.</li>
-                </ul>
+                <p><?php
+                    _e('Mageia is a GNU/Linux-based, Free Software operating system.');
+                    _e('It is a <a href="../community/">community project</a>, supported by <a href="#mageia.org">a nonprofit organisation</a> of elected contributors.');
+                ?></p>
+                <?php
+                    _h('Our mission: to build great tools for people.');
+                    _h('Further than just delivering a secure, stable and sustainable operating system, the goal is to set up a stable and trustable governance to direct collaborative projects.');
+                    _h('To date, Mageia:');
+                ?>
+                <ul class="hl"><?php
+                    _h('<a href="2010-sept-announcement.html">started in September 2010 as a fork</a> of Mandriva Linux,', null, 'li');
+                    echo '<li>',
+                        _t('gathered <a href="../community/">hundreds of careful individuals and several companies worldwide</a>,'),
+                        _t('who coproduce the infrastructure, the distribution itself, <a href="http://wiki.mageia.org/">documentation</a>, <a href="../downloads/">delivery</a> and <a href="../support/">support</a>, using Free Software tools;'),
+                        '</li>';
+                    _h('released two major stable releases <a href="../1/">in June 2011</a> and <a href="../2/">in May 2012</a>.', null, 'li');
+                ?></ul>
                 <!--
                 <ul>
                     <li>Overview</li>
@@ -72,21 +65,21 @@ $_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
 
                 <hr>
                 <h3 id="mageia.org">Mageia.Org</h3>
-                <p>is the French, Paris-based legal structure supporting the Mageia project.
-                    Learn more about it:</p>
-                <ul>
-                    <li><a href="./constitution/">Mageia.Org's legal constitution</a>
-                        and <a href="https://wiki.mageia.org/en/Org">governance</a> rules;</li>
-                    <li>association members;</li>
-                    <li><a href="/en/about/reports/">financial reports</a>, <a href="/en/thank-you/">donators</a>.</li>
-                </ul>
+                <?php
+                    _h('is the French, Paris-based legal structure supporting the Mageia project.');
+                ?>
+                <ul><?php
+                    _h("<a href=%s>Mageia.Org's legal constitution</a> and <a href=%s>governance</a> rules;",
+                        array('"./constitution/"', '"https://wiki.mageia.org/en/Org"'), 'li');
+                    _h('<a href="/en/about/reports/">financial reports</a>, <a href="/en/thank-you/">donators</a>.', null, 'li');
+                ?></ul>
 
                 <hr>
-                <h3>Media &amp; artwork</h3>
-                <ul>
-                    <li><a href="/en/about/media/">Logo, CD covers files, media files</a>.</li>
-                    <li><a href="/en/charter.html">Current graphics charter</a>.</li>
-                </ul>
+                <?php _h('Media &amp; artwork', null, 'h3')?>
+                <ul><?php
+                    _h('<a href="%s">Logo, CD covers files, media files</a>.', array('/en/about/media/'), 'li');
+                    _h('<a href="%s">Current graphics charter</a>.', array('/en/charter.html'), 'li');
+                ?></ul>
 
             </div></div>
         </div>
