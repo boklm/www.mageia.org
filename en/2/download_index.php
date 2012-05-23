@@ -2,12 +2,8 @@
 
 define('HLANG', true);
 require '../../langs.php';
-include 'locales.php';
 
-$_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
-
-$_t['page_title'] = sprintf($_t['page_title'], 'Mageia 2', '');
-$_t['page_h1']    = '<a href="../2/">Mageia 2</a> &raquo; Download';
+_lang_load($locale, '2');
 
 require '../downloads/get/lib.php';
 ?>
@@ -15,17 +11,17 @@ require '../downloads/get/lib.php';
 <html dir="ltr" lang="<?php echo $locale; ?>">
 <head>
     <meta charset="utf-8">
-    <title><?php echo $_t['page_title']; ?></title>
-    <meta name="description" content="<?php echo $_t['page_desc']; ?>">
-    <meta name="keywords" content="<?php echo $_t['page_kw']; ?>">
-    <meta name="robots" content="noindex,nofollow,nosnippet">
+    <title><?php _e('Download Mageia 2')?></title>
+    <meta name="description" content="<?php _e('Download Mageia 2 DVD, CD, LiveCD, network install ISO images.') ?>">
+    <meta name="keywords" content="<?php _e('mageia, mageia 2, linux, free, download, iso, torrent, vm, http, ftp, rsync, bittorrent')?>">
+    <meta name="robots" content="index,nofollow,nosnippet">
     <link rel="canonical" href="/<?php echo $locale; ?>/2/">
     <link rel="stylesheet" href="/g/style/all.css">
     <?php include '../../analytics.php'; ?>
 </head>
 <body class="release downloads">
     <?php echo $hsnav; ?>
-    <h1 id="mgnavt"><?php _e('page_h1')?></h1>
+    <h1 id="mgnavt"><?php _e('Download <strong>Mageia 2</strong>')?></h1>
     <?php include '../2/nav.php'; ?>
     <div id="doc4" class="yui-t7">
         <div id="bd" role="main">
@@ -78,7 +74,7 @@ require '../downloads/get/lib.php';
                                 _e('You may, if you will, add nonfree software repository <em>after</em> the installation.');
                             ?></li>
                             <li><?php
-                                _e('Please note that there is a <span class="warn">problem with notebooks using Intel, AMD/ATI and nVidia graphic cards.</span>.');
+                                _e('Please note that there is a <span class="warn">problem with notebooks using Intel, AMD/ATI and nVidia graphic cards.</span>');
                                 echo sprintf('<a href="https://wiki.mageia.org/en/Mageia_2_Errata#Hardware_Issues">%s</a>',
                                     _t('See the errata about this'));
                                 ?></li>
@@ -185,7 +181,7 @@ require '../downloads/get/lib.php';
                               <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-Boot-x86_64-CD.iso">64bit</a></td>
                           </tr>
                           <tr>
-                              <th><?php _e('Same + nonfree firmwaree')?><br>
+                              <th><?php _e('Same + nonfree firmware')?><br>
                                   <span class="dlinfo"><?php _e('needed for some disc controllers, some network cards, etc.')?></span></th>
                               <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-Boot-nonfree-i586-CD.iso">32bit</a></td>
                               <td><a rel="nofollow" href="../downloads/get/?q=Mageia-2-Boot-nonfree-x86_64-CD.iso">64bit</a></td>
@@ -201,15 +197,15 @@ require '../downloads/get/lib.php';
                         <h2>Mageia 2</h2>
                         <?php _h('May 22<sup>nd</sup> 2012')?>
                         <ul class="hl">
-                            <li><a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">Release notes</a></li>
+                            <li><a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes"><?php _e('Release notes')?></a></li>
                             <li><a href="https://wiki.mageia.org/en/Mageia_2_Errata">Errata</a>.</li>
                         </ul>
                         <br>
                         <br>
                         <?php _h('Upgrading<br>from Mageia 1?', null, 'h3')?>
                         <ul class="hl"><?php
-                            _e('<strong>do not</strong> use LiveCDs;', null, 'li');
-                            _e('see the <a href="%s" hreflang="en">upgrade guide</a>',
+                            _h('<strong>do not</strong> use LiveCDs;', null, 'li');
+                            _h('see the <a href="%s" hreflang="en">upgrade guide</a>',
                                 array('https://wiki.mageia.org/en/Mageia_2_Release_Notes#Upgrading_from_Mageia_1'), 'li');
                         ?></ul>
                         <br>
