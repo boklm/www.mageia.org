@@ -70,7 +70,7 @@ require '../downloads/get/lib.php';
                                 Deutsch, English, español, français, italiano, português, svenska, nederlands,
                                 polski, dansk, Русский
                                 <?php _e('and so much more!'); ?>
-                                <a href="https://wiki.mageia.org/en/Mageia_2_supported_locales" hreflang="en"><?php _e('See the comprehensive liste')?></a>.</li>
+                                <a href="https://wiki.mageia.org/en/Mageia_2_supported_locales" hreflang="en"><?php _e('See the comprehensive list')?></a>.</li>
                             <li><?php
                                 _e('These DVD and CD ISOs are made of Free Software exclusively.');
                                 _e('As a consequence, <span class="warn">proprietary Wi-Fi and video drivers are not included.');
