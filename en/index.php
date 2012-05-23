@@ -2,9 +2,8 @@
 
 define('HLANG', true);
 require '../langs.php';
-include 'index_locales.php';
 
-$_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
+_lang_load($locale, 'index');
 
 $nav = array(
     'nav-for-pc'     => array('for-pc/',     _t('For PC')),
@@ -19,16 +18,16 @@ $nav = array(
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php _e('page_title'); ?></title>
-    <meta name="description" content="<?php _e('page_desc'); ?>">
-    <meta name="keywords" content="<?php _e('page_kw'); ?>">
+    <title><?php _e('Home of the Mageia project'); ?></title>
+    <meta name="description" content="<?php _e('Mageia is a community-based Linux distribution, for desktop & server.'); ?>">
+    <meta name="keywords" content="<?php _e('linux, mageia, free software, operating system, computer, laptop, desktop, server, headless, device, mobile, mandriva, mandrake'); ?>">
     <link type="text/plain" rel="author" href="/humans.txt">
     <?php
     foreach ($langs as $l => $name)
         if ($l != $locale)
             echo sprintf('<link rel="alternate" hreflang="%s" href="http://www.mageia.org/%s/">', $l, $l);
     ?>
-    <link rel="alternate" type="application/rss+xml" title="<?php _e('alternate_title'); ?>" href="<?php _e('alternate_href'); ?>">
+    <link rel="alternate" type="application/rss+xml" title="<?php _e('Mageia Blog (English)'); ?>" href="<?php _e('http://blog.mageia.org/en/?feed=rss'); ?>">
     <?php include '../analytics.php'; ?>
     <style>
     html, body {
@@ -214,36 +213,38 @@ $nav = array(
 <body>
     
 <div id="master">
-    <h1><a href="about/"><?php _e('page_h1'); ?></a></h1>
+    <h1><a href="about/"><?php _e('Mageia, a free, community-based Linux distribution for desktop & server.'); ?></a></h1>
 </div>
 
 <div id="up">
     <div class="container">
         <div id="b1">
-            <h2><?php _e('change'); ?></h2>
-            <ul id="p"><?php foreach ($_t['change-items'] as $ci)
-                echo sprintf('<li>%s</li>', $ci);
-                ?></ul>
-            </ul>
+            <h2><?php _e('Change your perspective'); ?></h2>
+            <ul id="p"><?php
+                _h('Stable, secure operating system for desktop &amp; server', null, 'li');
+                _h('Free Software, coproduced by hundreds of people', null, 'li');
+                _h('Elected governance, nonprofit organization', null, 'li');
+                _h('You can be part of it', null, 'li');
+            ?></ul>
         </div>
         <div id="b2">
             <ul id="dl">
                 <li><a href="downloads/" id="dl-btn">
                         <span id="dl-btn-mageia">Mageia 2</span>
                         <span style="font-size: 32px; color: green; float: right;" class="icon-download-alt"></span>
-                        <span class="dl-btn free-dl"><?php _e('dl-free-act'); ?></span>
-                        <span class="dl-btn"><?php _e('dl-version'); ?></span>
+                        <span class="dl-btn free-dl"><?php _e('Free Download'); ?></span>
+                        <span class="dl-btn"><?php _e('version 2 (May 2012)'); ?></span>
                     </a>
                     <p class="dl-info">
-                        <a hreflang="en" href="https://wiki.mageia.org/en/Mageia_2_Release_Notes"><?php _e('dl-rel-notes'); ?></a>,
+                        <a hreflang="en" href="https://wiki.mageia.org/en/Mageia_2_Release_Notes"><?php _e('Release notes'); ?></a>,
                         <a hreflang="en" href="https://wiki.mageia.org/en/Mageia_2_Errata">errata</a>.
                     </p>
                 </li>
-                <li><a href="contribute/" id="dl-btn-other"><?php _e('dl-contribute'); ?></a>
+                <li><a href="contribute/" id="dl-btn-other"><?php _e('<strong>Get involved</strong> in the next version'); ?></a>
                 </li>
                 <!--
                 <li><a href="1/" id="dl-btn-other">
-                    <span><?php _e('dl-mga-1'); ?></span>
+                    <span><?php _e('Download older Mageia 1 (June 2011)'); ?></span>
                     </a>
                 </li>
                 -->
