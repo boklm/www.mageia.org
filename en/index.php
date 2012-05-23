@@ -40,6 +40,7 @@ $nav = array(
     hr { display: none; }
     ol, ul { margin: 0; padding: 0; list-style: none; }
     h1, h2 { font-size: 40px; font-weight: normal; margin-top: 0; }
+    a[hreflang]:after { color:#d0d0ff; font-style:italic; content: "\A0["attr(hreflang)"]"; }
 
     #master {
         padding: 2em;
@@ -234,8 +235,8 @@ $nav = array(
                         <span class="dl-btn"><?php _e('dl-version'); ?></span>
                     </a>
                     <p class="dl-info">
-                        <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes"><?php _e('dl-rel-notes'); ?></a>,
-                        <a href="https://wiki.mageia.org/en/Mageia_2_Errata">errata</a>.
+                        <a hreflang="en" href="https://wiki.mageia.org/en/Mageia_2_Release_Notes"><?php _e('dl-rel-notes'); ?></a>,
+                        <a hreflang="en" href="https://wiki.mageia.org/en/Mageia_2_Errata">errata</a>.
                     </p>
                 </li>
                 <li><a href="contribute/" id="dl-btn-other"><?php _e('dl-contribute'); ?></a>

@@ -68,10 +68,11 @@ $_t = array(
         'For server' => 'Pour serveur',
         'News' => 'Actualités',
         'Community' => 'Communauté',
-        'About Mageia.Org' => 'À propos',
+        'About&nbsp;Mageia.Org' => 'À&nbsp;propos de Mageia.Org',
         'Privacy policy' => 'Respect de la vie privée',
         'Legal' => 'Mentions légales',
-        'Support' => 'Assistance'
+        'Support' => 'Assistance',
+        'Sitemap' => 'Carte du site'
     ),
     'de' => array(
         'page_title' => 'Mageia - Eine neue Linux Distribution',
