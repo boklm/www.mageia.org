@@ -149,14 +149,14 @@ S;
  * FIXME Yes, it's terribly wrong/evil to rely on an unknown global $_t.
  * Solution? rethink the whole i18n thing in an integrated one.
 */
-function _t($s = null, $opt = null) {
+function _t($s = null, $opt = null, $post = ' ') {
     if (!is_null($opt))
         $_t = $opt;
     else {
         global $_t;
     }
 
-    return ($s == '' ? '---' : (array_key_exists($s, $_t) ? $_t[$s] : $s));
+    return ($s == '' ? '---' : (array_key_exists($s, $_t) ? $_t[$s] : $s)) . $post;
 }
 
 /**
@@ -174,7 +174,40 @@ function _h($s, $args = null, $tag = 'p') {
     if (is_array($args))
         $s = vsprintf(_t($s), $args);
 
-    echo sprintf('<%s>%s</%s>', $tag, $s, $tag);
+    echo sprintf('<%s>%s</%s>', $tag, _t($s), $tag);
+}
+
+/**
+ * @param string $locale
+ * @param string $domain
+ *
+ * @return boolean
+ *
+ * @todo use i18n::get_fallback_language() or eq.
+*/
+function _lang_load($locale, $domain)
+{
+    $lang_file = sprintf('%s/langs/%s/%s.%s.lang', G_APP_ROOT, $locale, $domain, $locale);
+
+    if (file_exists($lang_file)) {
+
+        global $_t;
+
+        $f = file($lang_file);
+
+        foreach ($f as $k => $v) {
+
+            $C = substr($v, 0, 1);
+            if ($C === '#') continue;
+
+            if ($C === ';' && !empty($f[$k+1])) {
+                $_t[trim(substr($v, 1))] = trim($f[$k+1]);
+            }
+        }
+        return true;
+    }
+    error_log(sprintf('Could not find %s', $lang_file));
+    return false;
 }
 
 /**
