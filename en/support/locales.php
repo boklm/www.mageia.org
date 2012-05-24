@@ -230,7 +230,7 @@ $_t = array(
         'updates_1' => 'Aktualizace jsou dostupné pro %s (bezpečnostní opravy a opravy chyb) a zveřejňovány neustále.',
         'updates_2' => 'Můžete se přihlásit k našemu %s oznamovacímu seznamu, abyste na ně byly upozorňováni.',
         'updates_3' => 'Instalovat je můžete z ovládacího centra Mageia.',
-        
+    
         'comm_1' => 'Pokud potřebujete pomoc, nasměrování nebo informace o distribuci Mageia,
             kterou jste si nainstalovali, nebo o projektu, můžete se s námi spojit pomocí:',
         'comm_list' => array(
@@ -265,7 +265,11 @@ $_t = array(
             stejně tak jako připravit postup, kterým by se dokládala vhodnost vybavení;
             ale toto se teprve připravuje. Můžete se připojit/spojit s našimi týmy
             <a href="%s">Web</a> a <a href="%s">Zajištění kvality (QA)</a>,
-            pokud byste v této věci chtěli pomoct.'
+            pokud byste v této věci chtěli pomoct.',
+        
+        'Lifecycle' => 'Životní cyklus',
+        'Mageia releases are supported at least for 18 months.' => 'Vydání Mageii jsou podporována alespoň po dobu 18 měsíců.',
+        'Mageia 1 will be supported until December 2012.' => 'Mageia 1 bude udržována až do konce prosince 2012.',
     ),
     'de' => array(
         'page_title' => 'Support für die Distribution Mageia',
