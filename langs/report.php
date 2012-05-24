@@ -17,7 +17,7 @@
     .strings, .missing { font-size: 80%; }
     .number, .strings, .missing { text-align: right; }
     .small { font-size: 80%; }
-    
+    td { vertical-align: top; }
     </style>
 </head>
 <body>
@@ -86,7 +86,7 @@
                             $f, $l);
 
                         if (count($test['missing']) > 0) {
-                            $s .= count($test['missing']) . ' missing';
+                            $s .= count($test['missing']) . ' missing<br>';
                         }
                         if (count($test['notrans']) > 0) {
                             $s .= count($test['notrans']) . ' untranslated';
