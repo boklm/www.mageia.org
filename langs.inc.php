@@ -150,13 +150,17 @@ S;
  * Solution? rethink the whole i18n thing in an integrated one.
 */
 function _t($s = null, $opt = null, $post = ' ') {
+    return _d($s, $opt) . $post;
+}
+
+function _d($s = null, $opt = null) {
     if (!is_null($opt))
         $_t = $opt;
     else {
         global $_t;
     }
 
-    return ($s == '' ? '---' : (array_key_exists($s, $_t) ? $_t[$s] : $s)) . $post;
+    return ($s == '' ? '---' : (array_key_exists($s, $_t) ? $_t[$s] : $s));
 }
 
 /**
