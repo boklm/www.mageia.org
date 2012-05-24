@@ -15,13 +15,13 @@ $_t = array(
     ),
     'en' => array(
         'page_title' => 'Mageia Community',
-        'page_h1' => 'Mageia Community Central',
-        'blog_url' => 'http://blog.mageia.org/en/',
+        'page_h1'    => 'Mageia Community Central',
+        'blog_url'   => 'http://blog.mageia.org/en/',
         'planet_url' => 'http://planet.mageia.org/en/',
-        'forum_url' => 'https://forum.mageia.org/en/',
+        'forum_url'  => 'https://forum.mageia.org/en/',
     ),
     'es' => array(
-        'blog_url' => 'http://blog.mageia.org/en/',
+        'blog_url'   => 'http://blog.mageia.org/en/',
         'planet_url' => 'http://planet.mageia.org/es/'
     ),
     'fr' => array(
@@ -101,8 +101,8 @@ include '../../lib/news.php';
                 $s = array();
                 $feeds = array(
                     'Planet' => 'planet_url',
-                    'Blog' => 'blog_url',
-                    'Forum' => 'forum_url'
+                    'Blog'   => 'blog_url',
+                    'Forum'  => 'forum_url'
                 );
                 foreach ($feeds as $k => $v)
                     if (_t($v) != $v)
@@ -143,8 +143,8 @@ include '../../lib/news.php';
             <li><a href="https://wiki.mageia.org/en/IRC" title="Internet Relay Chat">IRC</a> on Freenode</a>,</li>
             <li><a href="/mailman/">mailing-lists 1</a> 
                 &amp; <a href="http://ml.mageia.org/">2</a>,</li>
-            <li><a href="<?php _d('forum_url')?>">forum</a>,</li>
-            <li><a href="<?php _d('blog_url')?>">blog</a>,</li>
+            <li><a href="<?php _e('forum_url')?>">forum</a>,</li>
+            <li><a href="<?php _e('blog_url')?>">blog</a>,</li>
             <li>in real life!</li>
             <li>during events!</li>
         </ul>
