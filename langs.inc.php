@@ -134,7 +134,8 @@ S;
     }
     echo $s, '</ul><hr />',
         '<p>If you would like to help improving this Web site or its translations, ',
-        'check out our <a href="https://wiki.mageia.org/en/Web_team">Web</a> and ',
+        'check out our <a href="/langs/report.php">translation report page</a> ',
+        '<a href="https://wiki.mageia.org/en/Web_team">Web</a> and ',
         '<a href="https://wiki.mageia.org/en/Internationalisation_Team_(i18n)">localization</a> teams!</p>',
         '<p>Your browser Accept-Language is: ', $_SERVER['HTTP_ACCEPT_LANGUAGE'], '.</p>',
         '<hr /></body></html>';
