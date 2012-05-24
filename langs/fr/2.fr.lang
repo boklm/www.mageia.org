@@ -106,3 +106,51 @@ Pour PC
 
 ;For server
 Pour serveur
+
+;for your server
+Pour vos serveurs
+
+;Mageia 2 has all the main services and server packages you will need to run your server.
+
+;Administration
+Administration
+
+;The entire High Availability stack has been updated, and now includes drbd 8.3.11, Corosync 2.0.0 and Pacemaker 1.1.7.
+
+
+;Databases
+Bases de données
+
+;Databases included are PostgreSQL 8.4.11; MariaDB, which replaces MySQL 5.5.23; BDB .
+
+;And there are NoSQL servers too: CouchDB 1.1.1, Redis 2.4.8, Cassandra 1.4.0, MongoDB 2.0.3.
+
+;Servers
+Serveurs
+
+;Web servers include Apache 2.2.22, Cherokee 1.2.101 and lighttpd 1.4.30.
+Parmi les serveurs Web se comptent Apache 2.2.22, Cherokee 1.2.101, lighttpd 1.4.30.
+
+;Mageia in context
+Mageia en contexte
+
+;Mageia is both a Community and a Linux Distribution, with Mageia 2 being our second release.
+Mageia est à la fois une communauté et une distribution Linux. Mageia 2 est notre seconde version majeure.
+
+;Mageia 2 is supported by the <a href="../about/">Mageia.org nonprofit organisation</a>, which is governed by a body of recognized and elected contributors.
+Mageia est soutenue par <a href="../about/">l&rsquo;association Mageia.org</a>, gouvernée par des contributeurs élus.
+
+;Mageia 2 has been made by more than 100 people from all around the world.
+Mageia 2 a été réalisée par plus de 100&nbsp;personnes du monde entier.
+
+;Our work adds to the excellent work of the wider Linux and Free Software community. We aim to bring one of the best, most stable, reliable and enjoyable experience and platform we can make; for regular users, developers and businesses.
+Our work adds to the excellent work of the wider Linux and Free Software community. We aim to bring one of the best, most stable, reliable and enjoyable experience and platform we can make; for regular users, developers and businesses.
+
+;We welcome new contributors to any of the many different teams that go to make up Mageia the Community, and we encourage you to join us.
+;We welcome new contributors to any of the many different teams that go to make up Mageia the Community, and we encourage you to join us.
+
+;Too much to include here! See the <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">release notes</a> for an extensive exposé.
+;Too much to include here! See the <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">release notes</a> for an extensive exposé.
+
+;What's new?
+Quoi de neuf&nbsp;?
