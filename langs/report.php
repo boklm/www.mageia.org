@@ -25,8 +25,6 @@
     <ul>
         <li>TODO article/link on the Wiki: How to translate this Web site?</li>
     </ul>
-    <hr>
-    <h2>Report</h2>
     <?php
     /**
     */
@@ -34,6 +32,8 @@
 
     $enFiles    = get_lang_references();
     $otherLangs = get_other_langs();
+    
+    echo '<p>', count($otherLangs), ' languages.</p>';
     
     $enStringsCount = array();
     $report         = array();
@@ -67,7 +67,7 @@
 
                     $extra = null;
                     if (count($test['extra']) > 0) {
-                        $extra = '<span class="small">' . sprintf($diff_link, $f, $l) . '(+' . count($test['extra']) . ')</a></span>';
+                        $extra = ' <span class="small">' . sprintf($diff_link, $f, $l) . '(+' . count($test['extra']) . ')</a></span>';
                     }
 
                     $s .= sprintf('<td class="ok"><a href="%s" title="get a copy of the file">OK</a>%s</td>',
@@ -99,7 +99,7 @@
             } else {
                 $stats[$l]['files'] += 0;
                 $stats[$l]['strings'] += 0;
-                $s .= sprintf('<td class="missing"><a href="missing.php?s=%s&l=%s">missing</a></td>',
+                $s .= sprintf('<td class="missing"><a href="missing.php?s=%s&l=%s">add</a></td>',
                     $f, $l
                 );
             }
@@ -117,7 +117,7 @@
     $ths = '';
     foreach ($stats as $l => $data) {
         if ($l == 'en') continue;
-        $ths .= '<th>' . $data['files'] . ' / ' . $data['strings'] . '<br>' . round($data['strings'] / $stats['en']['strings'] * 100). '%</th>';
+        $ths .= '<th nowrap style="text-align: center;">' . $data['files'] . ' / ' . $data['strings'] . '<br>' . round($data['strings'] / $stats['en']['strings'] * 100). '%</th>';
     }
 
     echo <<<S
@@ -126,7 +126,6 @@
     <tr>
         <th colspan="2" rowspan="2"><span class="lv">English</span></th>
         {$th}
-        <th><a href="">How to add a new language</a></th>
     </tr>
     <tr>
         {$th2}
