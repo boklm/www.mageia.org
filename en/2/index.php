@@ -25,7 +25,7 @@ _lang_load($locale, '2');
     <?php include '../2/nav.php'; ?>
     <div class="para" style="width: 600px;">
         <section>
-            <img src="/g/2/images/mageia-2-desktop-550.jpg" alt="Mageia 2" style="width: 550px; display: block; margin: 2em auto 3em auto; box-shadow: 0 0 5px #aaa;">
+            <a href="../downloads/" title="Mageia 2"><img src="/g/2/images/mageia-2-desktop-550.jpg" alt="Mageia 2" style="width: 550px; display: block; margin: 2em auto 3em auto; box-shadow: 0 0 5px #aaa;"></a>
             <?php
             _h('Mageia 2 is a GNU/Linux distribution for your computer, released by the <a href="%s">Mageia community</a>.',
                 array('../community'));
