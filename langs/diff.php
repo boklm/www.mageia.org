@@ -18,13 +18,21 @@ if (!file_exists($source_file)) {
 }
 
 include 'lib.php';
-include '../langs.inc.php';
 
 $target_file = _lang_file_switch($source_file, $target_lang);
 
 if (!file_exists($target_file)) {
     die('no target');
 }
+
+$source_file = realpath($source_file);
+$target_file = realpath($target_file);
+
+if (false === strstr($source_file, '/langs/') ||
+    false == strstr($target_file, '/langs/')) {
+    die('no sorry');
+}
+
 
 $diff = _lang_diff($source_file, $target_file);
 
