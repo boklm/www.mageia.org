@@ -77,7 +77,6 @@
                     // special case, en
                     if ($l == 'en') {
                         $s .= '<td class="number">' . count($test['notrans']) . ' strings</td>';
-                        $stats['en']['strings'] += $test['a'];
                         $enStringsCount[$f] += $test['a'];
 
                     // regular case
