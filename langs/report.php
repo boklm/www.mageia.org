@@ -5,8 +5,7 @@
     <meta name="robots" content="noindex,nofollow,nosnippet">
     <title>www.mageia.org translation report</title>
     <style>
-    .ok a,
-    .strings a {
+    .ok a {
         text-decoration: none;
         color: inherit;
     }
