@@ -60,13 +60,13 @@ $map = array(
         't' => _t('Community'),
         'l' => '/{L}/community/',
         'i' => array(
-            array('t' => _t('Planet'),        'l' => 'http://planet.mageia.org/'),
-            array('t' => _t('Blog'),          'l' => 'http://blog.mageia.org/'),
+            array('t' => _t('Planet'),        'l' => _d('http://planet.mageia.org/en/')),
+            array('t' => _t('Blog'),          'l' => _d('http://blog.mageia.org/en/')),
             array('t' => _t('Calendar'),      'l' => '/{L}/calendar/'),
             array('t' => _t('Mailing-lists'), 'l' => 'http://www.mageia.org/mailman/'),
             array('t' => _t('Mailing-lists'), 'l' => 'http://ml.mageia.org/'),
             array('t' => 'IRC',               'l' => 'http://wiki.mageia.org/en/IRC'),
-            array('t' => 'Forums',            'l' => 'http://forums.mageia.org/'),
+            array('t' => 'Forums',            'l' => _d('http://forums.mageia.org/')),
             array('t' => 'Wiki',              'l' => 'http://wiki.mageia.org/'),
             array('t' => 'Bugzilla',          'l' => 'http://bugs.mageia.org/'),
             

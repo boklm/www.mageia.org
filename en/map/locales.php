@@ -41,6 +41,9 @@ $_t = array(
         'Constitution' => 'Statuts',
         'Members' => 'Membres',
         'Reports' => 'Rapports',
-        'Timeline' => 'Chronologie'
+        'Timeline' => 'Chronologie',
+        'http://forums.mageia.org/' => 'http://www.mageialinux-online.org/forum/',
+        'http://blog.mageia.org/en/' => 'http://blog.mageia.org/fr/',
+        'http://planet.mageia.org/en/' => 'http://planet.mageia.org/fr/',
     )
 );
