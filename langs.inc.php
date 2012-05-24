@@ -218,15 +218,18 @@ function _lang_load($locale, $domain)
         return true;
 
     $lang_file = sprintf('%s/langs/%s/%s.%s.lang', G_APP_ROOT, $locale, $domain, $locale);
+
     if (file_exists($lang_file)) {
 
         global $_t;
+        if (!isset($_t) || !is_array($_t))
+            $_t = array();
 
         $_t = array_merge($_t, _lang_return($lang_file));
 
         return true;
     }
-    
+
     return false;
 }
 
