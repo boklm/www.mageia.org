@@ -6,10 +6,12 @@ define('G_VHOST', $_SERVER['SERVER_NAME']);
 
 // languages for home
 $langs = array(
+    'ca' => 'Català',
     'cs' => 'Čeština',
     'de' => 'Deutsch',
     'el' => 'Ελληνικά',
     'en' => 'English',
+    'eo' => 'Esperanto',
     'es' => 'Español',
     'et' => 'Eesti',
     'fi' => 'Suomeksi',
