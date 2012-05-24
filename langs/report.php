@@ -6,8 +6,7 @@
     <title>www.mageia.org translation report</title>
     <style>
     .ok a,
-    .strings a,
-    .missing a {
+    .strings a {
         text-decoration: none;
         color: inherit;
     }
@@ -17,7 +16,8 @@
     .strings, .missing { font-size: 80%; }
     .number, .strings, .missing { text-align: right; }
     .small { font-size: 80%; }
-    td { vertical-align: top; }
+    td, th { vertical-align: top; font-family: Arial; font-size: 80%; }
+    .lv { display: inline-block; -webkit-transform: rotate(-40deg); }
     </style>
 </head>
 <body>
@@ -86,10 +86,10 @@
                             $f, $l);
 
                         if (count($test['missing']) > 0) {
-                            $s .= count($test['missing']) . ' missing<br>';
+                            $s .= count($test['missing']) . '&nbsp;missing<br>';
                         }
                         if (count($test['notrans']) > 0) {
-                            $s .= count($test['notrans']) . ' untranslated';
+                            $s .= count($test['notrans']) . '&nbsp;untranslated';
                         }
                         $s .= '</a></td>';
                     }
@@ -99,16 +99,19 @@
             } else {
                 $stats[$l]['files'] += 0;
                 $stats[$l]['strings'] += 0;
-                $s .= '<td class="missing">missing</td>';
+                $s .= sprintf('<td class="missing"><a href="missing.php?s=%s&l=%s">missing</a></td>',
+                    $f, $l
+                );
             }
         }
         $s .= '</tr>';
     }
 
-    $th = '';
+    $th = ''; $th2 = '';
     array_shift($otherLangs);
     foreach ($otherLangs as $l) {
-        $th .= '<th>' . $langs[$l] . '<br>' . $l . '</th>';
+        $th .= '<th><span class="lv">' . $langs[$l] . '</span></th>';
+        $th2 .= '<th>' . $l . '</th>';
     }
     
     $ths = '';
@@ -121,16 +124,19 @@
 <table border="1">
 <thead>
     <tr>
-        <th colspan="2">English</th>
+        <th colspan="2" rowspan="2"><span class="lv">English</span></th>
         {$th}
         <th><a href="">How to add a new language</a></th>
+    </tr>
+    <tr>
+        {$th2}
     </tr>
     <tr>
         <th colspan="2">Reference</th>
     </tr>
     <tr>
         <th>{$stats['en']['files']} files</th>
-        <th col="scol">{$stats['en']['strings']} strings</th>
+        <th col="scol">{$stats['en']['strings']}&nbsp;strings</th>
         {$ths}
     </tr>
 </thead>
