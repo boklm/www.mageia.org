@@ -182,6 +182,26 @@ function _h($s, $args = null, $tag = 'p') {
 }
 
 /**
+*/
+function _lang_return($file)
+{
+    $strings = array();
+    $f       = file($file);
+
+    foreach ($f as $k => $v) {
+
+        $C = substr($v, 0, 1);
+        if ($C === '#') continue;
+
+        if ($C === ';' && !empty($f[$k+1])) {
+            $strings[trim(substr($v, 1))] = trim($f[$k+1]);
+        }
+    }
+
+    return $strings;
+}
+
+/**
  * @param string $locale
  * @param string $domain
  *
@@ -195,25 +215,15 @@ function _lang_load($locale, $domain)
         return true;
 
     $lang_file = sprintf('%s/langs/%s/%s.%s.lang', G_APP_ROOT, $locale, $domain, $locale);
-
     if (file_exists($lang_file)) {
 
         global $_t;
 
-        $f = file($lang_file);
+        $_t = array_merge($_t, _lang_return($lang_file));
 
-        foreach ($f as $k => $v) {
-
-            $C = substr($v, 0, 1);
-            if ($C === '#') continue;
-
-            if ($C === ';' && !empty($f[$k+1])) {
-                $_t[trim(substr($v, 1))] = trim($f[$k+1]);
-            }
-        }
         return true;
     }
-    error_log(sprintf('Could not find %s', $lang_file));
+    
     return false;
 }
 
