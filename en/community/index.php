@@ -87,10 +87,11 @@ include '../../lib/news.php';
         <section>
             <h2><a href="<?php _e('blog_url')?>"><?php _e('News');?></a></h2>
             <?php
-            if (_t('planet_url') != 'planet_url')
-                show_feed($locale, null, _t('planet_url'), _t('planet_url') . '?type=rss10', 9);
-            elseif (_t('blog_url') != 'blog_url')
-                show_feed($locale, null, _t('blog_url'), _t('blog_url') . '?feed=rss', 9);
+            if (_d('planet_url') != 'planet_url') {
+                show_feed($locale, null, _d('planet_url'), _d('planet_url') . '?type=rss10', 9);
+            } elseif (_d('blog_url') != 'blog_url') {
+                show_feed($locale, null, _d('blog_url'), _d('blog_url') . '?feed=rss', 9);
+            }
             // don't work:
             //show_feed('Mageia MLs', '', 'https://ml.mageia.org/l/rss/active_lists?count=20&for=10');
             //show_feed('Mageia Forum', 'http://forum.mageia.org/en/', 'https://forums.mageia.org/en/feed.php?mode=topics_active');
@@ -142,8 +143,8 @@ include '../../lib/news.php';
             <li><a href="https://wiki.mageia.org/en/IRC" title="Internet Relay Chat">IRC</a> on Freenode</a>,</li>
             <li><a href="/mailman/">mailing-lists 1</a> 
                 &amp; <a href="http://ml.mageia.org/">2</a>,</li>
-            <li><a href="<?php _e('forum_url')?>">forum</a>,</li>
-            <li><a href="<?php _e('blog_url')?>">blog</a>,</li>
+            <li><a href="<?php _d('forum_url')?>">forum</a>,</li>
+            <li><a href="<?php _d('blog_url')?>">blog</a>,</li>
             <li>in real life!</li>
             <li>during events!</li>
         </ul>
