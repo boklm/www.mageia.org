@@ -13,7 +13,7 @@
 
 # en/2/download_index.php +16
 ;mageia, mageia 2, linux, free, download, iso, torrent, vm, http, ftp, rsync, bittorrent
-mageia, mageia 2, linux, free, download, iso, torrent, vm, http, ftp, rsync, bittorrent
+mageia, mageia 2, линукс, свободный, скачать, iso, торрент, vm, http, ftp, rsync, битторрент
 
 
 # en/2/download_index.php +24
@@ -158,7 +158,7 @@ CD со свободным ПО
 
 # en/for-pc/index.php +12
 ;page_title
-page_title
+заголовок_страницы
 
 
 # en/for-server/index.php +21
@@ -178,7 +178,7 @@ Mageia 2 включает в себя все основные сервисы и 
 
 # en/for-server/index.php +34
 ;The entire High Availability stack has been updated, and now includes drbd 8.3.11, Corosync 2.0.0 and Pacemaker 1.1.7.
-The entire High Availability stack has been updated, and now includes drbd 8.3.11, Corosync 2.0.0 and Pacemaker 1.1.7.
+High Availability stack обновлен, и сейчас включает в себя drbd 8.3.11, Corosync 2.0.0 и Pacemaker 1.1.7.
 
 
 # en/for-server/index.php +36
@@ -218,12 +218,12 @@ The entire High Availability stack has been updated, and now includes drbd 8.3.1
 
 # en/for-server/index.php +49
 ;For more information about these and other packages, check the <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">Mageia 2 Release notes</a>.
-Для дополнительной информации об этиъ и других пакетах прочтите  the <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">Примечание к выпуску Mageia 2</a>.
+Для дополнительной информации об этих и других пакетах прочтите  the <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">Примечание к выпуску Mageia 2</a>.
 
 
 # en/2/index.php +14
 ;Mageia 2
-Mageia 2
+Mageiа 2
 
 
 # en/2/index.php +16
@@ -263,7 +263,7 @@ Mageia 2 была создана более чем 100 людьми со все�
 
 # en/2/index.php +49
 ;Our work adds to the excellent work of the wider Linux and Free Software community. We aim to bring one of the best, most stable, reliable and enjoyable experience and platform we can make; for regular users, developers and businesses.
-Наша работает прибавляется к отличной работе Linux и сообщества Свободного ПО. Мы стремимся привносить лучшие, наиболее стабильных, надежных и приятных результаты и платформу насколько можем; для обычный пользователей, разработчиков и предприятий.
+Наша работа прибавляется к отличной работе Linux и сообщества Свободного ПО. Мы стремимся привносить лучшие, наиболее стабильные, надежные и приятные результаты и платформу насколько можем; для обычный пользователей, разработчиков и предприятий.
 
 
 # en/2/index.php +51

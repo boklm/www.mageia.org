@@ -13,7 +13,7 @@ Mageia - это свободное ПО, проект сообщества. Уз
 
 # /en/about/index.php +14
 ;mageia, mageia.org, about, mission, contacts, governance, values, timeline
-mageia, mageia.org, about, mission, contacts, governance, values, timeline
+mageia, mageia.org, описание, миссия, контакты, управление, цели, сроки
 
 
 # /en/about/index.php +34
@@ -53,12 +53,12 @@ Mageia - основанная на GNU/Linux, свободная операци�
 
 # /en/about/index.php +46
 ;who coproduce the infrastructure, the distribution itself, <a href="http://wiki.mageia.org/">documentation</a>, <a href="../downloads/">delivery</a> and <a href="../support/">support</a>, using Free Software tools;
-кто поддерживает инфраструктуру, сам дистрибутив, <a href="http://wiki.mageia.org/">документация</a>, <a href="../downloads/">распространение</a> и <a href="../support/">поддержку</a>, использование инструментов свободного ПО;
+кто поддерживает инфраструктуру, сам дистрибутив, <a href="http://wiki.mageia.org/">документацию</a>, <a href="../downloads/">распространение</a> и <a href="../support/">поддержку</a>, использование инструментов свободного ПО;
 
 
 # /en/about/index.php +48
 ;released two major stable releases <a href="../1/">in June 2011</a> and <a href="../2/">in May 2012</a>.
-выпустила два крупныз стабильных релиза <a href="../1/">в июне 2011</a> и <a href="../2/">в мае 2012</a>.
+выпустила два крупных стабильных релиза <a href="../1/">в июне 2011</a> и <a href="../2/">в мае 2012</a>.
 
 
 # /en/about/index.php +69

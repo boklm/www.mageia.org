@@ -28,7 +28,7 @@
 
 # /en/index.php +22
 ;Home of the Mageia project
-Home of the Mageia project
+Главная страница проекта Mageia
 
 
 # /en/index.php +23
@@ -38,7 +38,7 @@ Mageia - создаваемый сообществом дистрибутив Li
 
 # /en/index.php +24
 ;linux, mageia, free software, operating system, computer, laptop, desktop, server, headless, device, mobile, mandriva, mandrake
-linux, mageia, free software, operating system, computer, laptop, desktop, server, headless, device, mobile, mandriva, mandrake
+линукс, mageia, свободное по, операционная система, комьютер, лэптоп, пк, сервер, headless, устройство, мобильный, mandriva, mandrake
 
 
 # /en/index.php +31
@@ -48,12 +48,12 @@ Mageia Блог (Английский)
 
 # /en/index.php +31
 ;http://blog.mageia.org/en/?feed=rss
-http://blog.mageia.org/en/?feed=rss
+http://blog.mageia.org/ru/?feed=rss
 
 
 # /en/index.php +217
 ;Mageia, a free, community-based Linux distribution for desktop & server.
-Mageia, a free, community-based Linux distribution for desktop & server.
+Mageia - свободный дистрибутив Linux для персональных компьютеров и серверов, разрабатываемый сообществом.
 
 
 # /en/index.php +223
