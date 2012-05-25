@@ -18,12 +18,12 @@ mageia, mageia.org, o, poslání, kontakty, řízení, hodnoty, harmonogram
 
 # /en/about/index.php +34
 ;Mageia is a GNU/Linux-based, Free Software operating system.
-Mageia je založena na GNU/Linuxu, svobodný operační systém.
+Mageia je založena na GNU/Linuxu. Mageia je svobodný operační systém.
 
 
 # /en/about/index.php +35
 ;It is a <a href="../community/">community project</a>, supported by <a href="#mageia.org">a nonprofit organisation</a> of elected contributors.
-Je to a <a href="../community/">komunitní project</a>, podporovaný <a href="#mageia.org"> neziskovou organizací</a> volených přispěvatelů.
+Je to a <a href="../community/">komunitní projekt</a>, podporovaný <a href="#mageia.org"> neziskovou organizací</a> volených přispěvatelů.
 
 
 # /en/about/index.php +38
@@ -53,7 +53,7 @@ shromáždila celosvětově <a href="../community/">stovky pečlivých jednotliv
 
 # /en/about/index.php +46
 ;who coproduce the infrastructure, the distribution itself, <a href="http://wiki.mageia.org/">documentation</a>, <a href="../downloads/">delivery</a> and <a href="../support/">support</a>, using Free Software tools;
-kteří spoluvytvářejí infrastrukturu, distribuci samu, <a href="http://wiki.mageia.org/">dokumentaci</a>, <a href="../downloads/">doručení</a> a <a href="../support/">podporu</a>, za použití nástrojů svobodného programového vybavení;
+kteří spoluvytvářejí infrastrukturu, distribuci samu, <a href="http://wiki.mageia.org/">dokumentaci</a>, <a href="../downloads/">dodávku</a> a <a href="../support/">podporu</a>, za použití nástrojů svobodného programového vybavení;
 
 
 # /en/about/index.php +48
@@ -63,7 +63,7 @@ vydala dvě hlavní stabilní vydání <a href="../1/">v červnu 2011</a> a <a h
 
 # /en/about/index.php +69
 ;is the French, Paris-based legal structure supporting the Mageia project.
-je francouzská, v Paříži založená zákonná struktura podporující projekt Mageia.
+je francouzská, v Paříži založená, zákonná struktura podporující projekt Mageia.
 
 
 # /en/about/index.php +74
@@ -78,9 +78,9 @@ Multimedia &amp; výtvarná stránka
 
 # /en/about/index.php +80
 ;<a href="%s">Logo, CD covers files, media files</a>.
-<a href="%s">Logo, soubory obalů CD, multimediální soubory</a>.
+<a href="%s">Logo, soubory obalů pro CD, multimediální soubory</a>.
 
 
 # /en/about/index.php +81
 ;<a href="%s">Current graphics charter</a>.
-<a href="%s">Současná grafika</a>.
+<a href="%s">Současné výtvarné zpracování</a>.
