@@ -197,7 +197,7 @@ function _lang_return($file)
         if ($C === '#') continue;
 
         if ($C === ';' && !empty($f[$k+1])) {
-            $strings[trim(substr($v, 1))] = trim($f[$k+1]);
+            $strings[trim(substr($v, 1))] = trim(str_replace('{ok}', '', $f[$k+1]));
         }
     }
 
