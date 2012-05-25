@@ -48,7 +48,7 @@ linux, mageia, svobodný software, operační systém, počítač, notebook, sto
 
 # /en/index.php +31
 ;http://blog.mageia.org/en/?feed=rss
-http://blog.mageia.org/en/?feed=rss
+http://blog.mageia.org/en/?feed=rss {ok}
 
 
 # /en/index.php +217
