@@ -9,6 +9,11 @@ $url  = isset($_GET['u']) ? trim($_GET['u']) : null;
 
 /** html[lang] of the doc. */
 $lang = isset($_GET['l']) ? trim($_GET['l']) : null;
+if ($lang == 'undefined' ||
+    $lang == '') {
+
+    $lang = 'en';
+}
 
 /** body[class] of the doc. */
 $body = isset($_GET['b']) ? trim($_GET['b']) : null;

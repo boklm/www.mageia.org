@@ -1,5 +1,10 @@
 /*! mageia.org nav CSS */
 
+/**
+ * TODO top nav must stay on top when scrolling (reduced or full)
+ *
+*/
+
 #hmgn { margin: 0; padding: 0; }
 #mgnav {
     margin: 0; padding: 0;
@@ -41,7 +46,7 @@
 
 #nav a.mageia {
     width: 143px;
-    background: #fff url(/_nav/css/mageia-logo-nav.png) no-repeat 30px 10px;
+    background: #fff url(//nav.mageia.org/css/mageia-logo-nav.png) no-repeat 30px 10px;
     color: transparent;
     text-shadow: none;
 }
@@ -49,8 +54,11 @@
 .about #mgnav .about,
 .downloads #mgnav .downloads,
 .community #mgnav .community,
+.blog #mgnav .community,
+.mediawiki #mgnav .community,
 .support #mgnav .support,
 .contribute #mgnav .contribute,
+.bugs-mageia-org #mgnav .contribute,
 .contrib #mgnav .contrib,
 .you #mgnav .you
 {

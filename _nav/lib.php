@@ -54,6 +54,8 @@ class l10n
 */
 function _mgnav_html($wrap = false, $lang = 'en', $inject = null, $vhost = '//www.mageia.org')
 {
+    $lang = _lang_simple($lang);
+
     l10n::load($lang);
 
     $tn = array(
@@ -101,4 +103,16 @@ function _mgnav_html($wrap = false, $lang = 'en', $inject = null, $vhost = '//ww
 function _mgnav_style()
 {
     return '<style>' . file_get_contents(__DIR__ . '/css/source.css') . '</style>';
+}
+
+/**
+ * Get the primary language subtag only.<p></p>
+*/
+function _lang_simple($s = null)
+{
+    if (!is_null($s)) {
+        $s = explode('-', $s);
+        $s = strtolower($s[0]);
+    }
+    return $s;
 }
