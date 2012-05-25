@@ -163,7 +163,7 @@ function _d($s = null, $opt = null) {
         global $_t;
     }
 
-    return ($s == '' ? '---' : (array_key_exists($s, $_t) ? $_t[$s] : $s));
+    return trim(str_replace('{ok}', '', ($s == '' ? '---' : (array_key_exists($s, $_t) ? $_t[$s] : $s))));
 }
 
 /**
@@ -197,7 +197,7 @@ function _lang_return($file)
         if ($C === '#') continue;
 
         if ($C === ';' && !empty($f[$k+1])) {
-            $strings[trim(substr($v, 1))] = trim(str_replace('{ok}', '', $f[$k+1]));
+            $strings[trim(substr($v, 1))] = trim($f[$k+1]);
         }
     }
 
