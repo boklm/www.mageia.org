@@ -41,7 +41,7 @@ function _lang_diff($a, $b)
     foreach ($fa as $k => $v) {
         if (array_key_exists($k, $fb)) {
             if ($v == $fb[$k] || '' == $fb[$k]) {
-                $notrans[] = $k . ': ' . $v;
+                $notrans[] = $k;
             }
         }
     }
