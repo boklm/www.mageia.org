@@ -54,7 +54,7 @@ class l10n
 */
 function _mgnav_html($wrap = false, $lang = 'en', $inject = null, $vhost = '//www.mageia.org')
 {
-    $lang = _lang_simple($lang);
+    $lang = _lang_check($lang);
 
     l10n::load($lang);
 
@@ -108,11 +108,34 @@ function _mgnav_style()
 /**
  * Get the primary language subtag only.<p></p>
 */
-function _lang_simple($s = null)
+function _lang_check($s = null)
 {
     if (!is_null($s)) {
-        $s = explode('-', $s);
-        $s = strtolower($s[0]);
+        $sub = explode('-', $s);
+        $sub = strtolower($sub[0]);
     }
-    return $s;
+
+    $supported = array(
+        'cs',
+        'de',
+        'el', 'en', 'eo', 'es', 'et',
+        'fi', 'fr',
+        'it',
+        'lv',
+        'nb', 'nl',
+        'pl', 'pt', 'pt-br',
+        'ro', 'ru',
+        'sl',
+        'tr',
+        'uk',
+        'zh-cn', 'zh-tw'
+    );
+
+    if (in_array($s, $supported))
+        return $s;
+
+    if (in_array($sub, $supported))
+        return $s;
+
+    return 'en';
 }
