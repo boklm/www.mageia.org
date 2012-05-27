@@ -1,0 +1,76 @@
+# /en/about/index.php +15
+;About Mageia
+Σχετικά με τη Mageia
+
+
+# /en/about/index.php +16
+;Mageia is a Free Software, community-led project. Learn more about it.
+Η Mageia είναι ένα κοινοτικό έργο ελεύθερου λογισμικού.
+
+
+# /en/about/index.php +17
+;mageia, mageia.org, about, mission, contacts, governance, values, timeline
+μαγεία, mageia, mageia.org, σχετικά, αποστολή, επαφές, διακυβέρνηση, αξίες, χρονοδιάγραμμα
+
+
+# /en/about/index.php +37
+;Mageia is a GNU/Linux-based, Free Software operating system.
+Η Mageia είναι ένα ελεύθερο λειτουργικό σύστημα, βασισμένο στο GNU/Linux.
+
+
+# /en/about/index.php +38
+;It is a <a href="../community/">community project</a>, supported by <a href="#mageia.org">a nonprofit organisation</a> of elected contributors.
+Είναι ένα <a href="../community/">κοινοτικό έργο</a>, υποστηριζόμενο από μια <a href="#mageia.org">μη κερδοσκοπική οργάνωση</a> εκλεγμένων συνεισφερόντων.
+
+
+# /en/about/index.php +41
+;Our mission: to build great tools for people.
+Η αποστολή μας: η δημιουργία υπέροχων εργαλείων για ανθρώπους.
+
+
+# /en/about/index.php +42
+;Further than just delivering a secure, stable and sustainable operating system, the goal is to set up a stable and trustable governance to direct collaborative projects.
+Πέρα από ένα ασφαλές, σταθερό και διαρκές λειτουργικό σύστημα, σκοπός είναι η εγκαθίδρυση μιας σταθερής και αξιόπιστης διακυβέρνησης για τον καθορισμό και την καθοδήγηση συνεργατικών έργων.
+
+# /en/about/index.php +43
+;To date, Mageia:
+Ως σήμερα, η Mageia:
+
+# /en/about/index.php +46
+;<a href="2010-sept-announcement.html">started in September 2010 as a fork</a> of Mandriva Linux,
+<a href="2010-sept-announcement.html">ξεκίνησε το Σεπτέμβριο του 2010</a> ως fork της Mandriva Linux,
+
+
+# /en/about/index.php +48
+;gathered <a href="../community/">hundreds of careful individuals and several companies worldwide</a>,
+έχει συγκεντρώσει <a href="../community/">εκατοντάδες φίλους και μερικές εταιρείες σε όλο τον κόσμο</a>,
+
+
+# /en/about/index.php +49
+;who coproduce the infrastructure, the distribution itself, <a href="http://wiki.mageia.org/">documentation</a>, <a href="../downloads/">delivery</a> and <a href="../support/">support</a>, using Free Software tools;
+που συντελούν στην υποδομή, την ίδια τη διανομή, στην <a href="http://wiki.mageia.org/">τεκμηρίωση</a>, στην <a href="../downloads/">διανομή</a> και στην <a href="../support/">υποστήριξή</a>της, χρησιμοποιώντας εργαλεία Ελεύθερου Λογισμικού,
+
+
+# /en/about/index.php +51
+;released two major stable releases <a href="../1/">in June 2011</a> and <a href="../2/">in May 2012</a>.
+έχει κυκλοφορήσει δυο μείζουσες σταθερές εκδόσεις <a href="../1/">τον Ιούνιο του 2011</a> και <a href="../2/">το Μάιο του 2012</a>.
+
+;<a href=%s>Mageia.Org's legal constitution</a> and <a href=%s>governance</a> rules;
+<a href=%s>κατάσταση της οργάνωσης Mageia.Org</a>, <a href=%s>κανόνες διακυβέρνησης</a>&nbsp;;
+
+;is the French, Paris-based legal structure supporting the Mageia project.
+είναι η νομική οντότητα που υποστηρίζει το έργο Mageia.
+
+;<a href="/en/about/reports/">financial reports</a>, <a href="/en/thank-you/">donators</a>.
+<a href="/en/about/reports/" hreflang="en">οικονομικές αναφορές</a>, <a href="/en/thank-you/">δωρητές</a>.
+
+# /en/about/index.php +78
+;Media &amp; artwork
+Πολυμέσα και καλλιτεχνικά
+
+;<a href="%s">Logo, CD covers files, media files</a>.
+<a href="%s">Λογότυπα, γραφικά, εξώφυλλα CD/DVD</a>.
+ 
+;<a href="%s">Current graphics charter</a>.
+<a href="%s">Χάρτης των τρεχόντων γραφικών</a>.
+

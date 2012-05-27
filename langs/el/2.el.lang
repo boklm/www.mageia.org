@@ -1,0 +1,156 @@
+;Download Mageia 2
+Λήψη της Mageia 2
+
+;Download Mageia 2 DVD, CD, LiveCD, network install ISO images.
+Λήψη της 2, σε DVD, CD, LiveCD, εικόνα εγκατάστασης δικτύου.
+
+;mageia, mageia 2, linux, free, download, iso, torrent, vm, http, ftp, rsync, bittorrent
+λήψη, ελεύθερη, δωρεάν, μαγεία, mageia, mageia 2, linux, free, iso, torrent, vm, http, ftp, rsync, bittorrent
+
+;Download <strong>Mageia 2</strong>
+Λήψη της <strong>Mageia 2</strong>
+
+;Free Software Installation Flavours
+DVD και CD 100% Ελεύθερο Λογισμικό
+
+;size
+Μέγεθος
+
+;link
+Σύνδεσμος
+
+;Up to 167 locales are supported:
+Μέχρι και 167 υποστηριζόμενες γλώσσες:
+
+;and so much more!
+και ακόμα περισσότερα!
+
+;See the comprehensive list
+Δείτε όλη τη λίστα
+
+;These DVD and CD ISOs are made of Free Software exclusively.
+Τα DVD και CD περιέχουν <em>μόνο</em> ελεύθερο λογισμικό.
+
+;As a consequence, <span class="warn">proprietary Wi-Fi and video drivers are not included.
+Ως εκ τούτου, <span class="warn">μερικοί ιδιόκτητοι οδηγοί (Wi-Fi, βίντεο) δεν συμπεριλαμβάνονται.
+
+;If you need WiFi or specific video drivers <em>at install time</em>, you should go with below LiveCDs instead.</span>
+Αν χρειάζεστε να χρησιμοποιήσετε το Wi-Fi ή οδηγούς γραφικών <em>κατά την εγκατάσταση</em>, θα πρέπει καλύτερα να χρησιμοποιήσετε ένα LiveCD (παρακάτω).</span>
+
+;You may, if you will, add nonfree software repository <em>after</em> the installation.
+Μπορείτε, αν το επιθυμείτε, να προσθέσετε τα αποθετήρια nonfree/μη-ελεύθερα <em>μετά</em> την εγκατάσταση.
+
+;Please note that there is a <span class="warn">problem with notebooks using Intel, AMD/ATI and nVidia graphic cards.</span>
+Σημειώστε ότι υπάρχει ένα <span class="warn">πρόβλημα με τα notebook που χρησιμοποιούν τις κάρτες γραφικών Intel, AMD/ATI ή nVidia.</span>
+
+;See the errata about this
+Δείτε σχετικά στο Errata
+
+;Use LiveCDs for fresh new installs ONLY.
+Χρησιμοποιήστε ένα LiveCD ΜΟΝΟ για μια ΚΑΘΑΡΗ εγκατάσταση.
+
+;DO NOT use those LiveCDs to upgrade from Mageia 1!
+ΜΗ χρησιμοποιήσετε ένα LiveCD για να κάνετε αναβάθμιση από τη Mageia 1 στη Mageia 2.
+
+;Included locales:
+Συμπεριλαμβανόμενες γλώσσες:
+
+;Each download is approximately 700MB.
+Κάθε LiveCD είναι περίπου 700MB.
+
+;Wired Network-based Installation CD
+CD εγκατάστασης δικτύου
+
+;Download quickly (about 40 MB) and immediately boot into install mode from <em>wired</em> network or a local disk.
+Για γρήγορη εγκατάσταση (περίπου 40MB) και απευθείας εκκίνηση σε λειτουργία εγκατάστασης από ένα <em>ενσύρματο</em> δίκτυο ή έναν τοπικό δίσκο.
+
+;Pure Free Software CD
+CD με αποκλειστικά Ελεύθερο Λογισμικό
+
+# /en/2/download_index.php +188
+;Same + nonfree firmware
+Το ίδιο + μη ελεύθερο firmware
+
+;needed for some disc controllers, some network cards, etc.
+απαραίτητο για ορισμένες κάρτες δικτύου ή ελεγκτές δίσκων, κλπ.
+
+;May 22<sup>nd</sup> 2012
+22 Μαΐου 2012
+
+;Release notes
+Σημειώσεις έκδοσης
+
+;Upgrading<br>from Mageia 1?
+Αναβάθμιση <br>από τη Mageia 1;
+
+;<strong>do not</strong> use LiveCDs;
+<strong>μη χρησιμοποιήσετε</strong> το LiveCD;
+
+;see the <a href="%s" hreflang="en">upgrade guide</a>
+δείτε τον <a href="%s" hreflang="en">οδηγό αναβάθμισης</a>
+
+;Looking for Mageia 1?
+Ψάχνετε για τη<br>Mageia 1;
+
+;It is <a href="%s">here now</a>.
+Θα τη βρείτε <a href="%s">εδώ</a>.
+
+;Download
+Λήψη
+
+;For PC
+Για PC
+
+;For server
+Για εξυπηρετητές
+
+;for your server
+Για τον εξυπηρετητή σας
+
+;Mageia 2 has all the main services and server packages you will need to run your server.
+Η Mageia 2 έχει όλες τις κύριες υπηρεσίες και τα πακέτα εξυπηρετητών που θα χρειαστείτε να τρέξετε στον εξυπηρετητή σας.
+
+;Administration
+Διαχείριση
+
+;The entire High Availability stack has been updated, and now includes drbd 8.3.11, Corosync 2.0.0 and Pacemaker 1.1.7.
+Έχουν ενημερωθεί όλα τα στοιχεία Υψηλής Διαθεσιμότητας, και τώρα συμπεριλαμβάνονται τα drbd 8.3.11, Corosync 2.0.0 and Pacemaker 1.1.7.
+
+;Databases
+Βάσεις δεδομένων
+
+;Databases included are PostgreSQL 8.4.11; MariaDB, which replaces MySQL 5.5.23; BDB .
+Οι συμπεριλαμβανόμενες βάσεις δεδομένων είναι οι PostgreSQL 8.4.11, MariaDB,η οποία αντικαθιστά τη MySQL 5.5.23, BDB.
+
+;And there are NoSQL servers too: CouchDB 1.1.1, Redis 2.4.8, Cassandra 1.4.0, MongoDB 2.0.3.
+Υπάρχουν επίσης και εξυπηρετητές NoSQL: CouchDB 1.1.1, Redis 2.4.8, Cassandra 1.4.0, MongoDB 2.0.3.
+
+;Servers
+Εξυπηρετητές
+
+;Web servers include Apache 2.2.22, Cherokee 1.2.101 and lighttpd 1.4.30.
+Μεταξύ των εξυπηρετητών ιστού συμπεριλαμβάνονται και οι Apache 2.2.22, Cherokee 1.2.101, lighttpd 1.4.30.
+
+;Mageia in context
+Σχετικά με τη Mageia
+
+;Mageia is both a Community and a Linux Distribution, with Mageia 2 being our second release.
+Η Mageia είναι ταυτόχρονα μια κοινότητα και μια διανομή Linux. Η Mageia 2 είναι η δεύτερη μείζουσα έκδοσή μας.
+
+;Mageia 2 is supported by the <a href="../about/">Mageia.org nonprofit organisation</a>, which is governed by a body of recognized and elected contributors.
+Η Mageia υποστηρίζεται από <a href="../about/">την οργάνωση Mageia.org</a>, διακυβερνώμενη από αναγνωρισμένους και εκλεγμένους συνεισφέροντες.
+
+;Mageia 2 has been made by more than 100 people from all around the world.
+Η Mageia 2 δημιουργήθηκε από περισσότερα από 100 άτομα σε ολόκληρο τον κόσμο.
+
+;Our work adds to the excellent work of the wider Linux and Free Software community. We aim to bring one of the best, most stable, reliable and enjoyable experience and platform we can make; for regular users, developers and businesses.
+Το έργο μας συμπληρώνεται από την έξοχη δουλειά της ευρύτερης κοινότητας του Linux και του Ελεύθερου Λογισμικού. Στόχος μας είναι να προσφέρουμε μια από τις καλύτερες, σταθερότερες, αξιόπιστες και απολαυστικές εμπειρίες χρήσης και πλατφόρμας που μπορούμε να κάνουμε, για τυπικούς χρήστες, προγραμματιστές και επιχειρήσεις.
+
+;We welcome new contributors to any of the many different teams that go to make up Mageia the Community, and we encourage you to join us.
+Καλωσορίζουμε τους νέους συνεισφέροντες σε οποιαδήποτε από τις ομάδες που συντελούν την κοινότητα της Mageia, και σας ενθαρρύνουμε να συμμετάσχετε.
+
+;Too much to include here! See the <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">release notes</a> for an extensive exposé.
+Είναι τόσα πολλά που δεν χωράνε εδώ! Δείτε τις <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">σημειώσεις έκδοσης</a> για μια εκτεταμένη αναφορά.
+
+;What's new?
+Τι νέο υπάρχει;
