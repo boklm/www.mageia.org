@@ -43,12 +43,12 @@
 
 # /en/about/index.php +48
 ;gathered <a href="../community/">hundreds of careful individuals and several companies worldwide</a>,
-έχει συγκεντρώσει <a href="../community/">ε				οντάδες φίλους και μερικές εταιρείες σε όλο τον κόσμο</a>,
+έχει συγκεντρώσει <a href="../community/">εκατοντάδες φίλους και μερικές εταιρείες από όλο τον κόσμο</a>,
 
 
 # /en/about/index.php +49
 ;who coproduce the infrastructure, the distribution itself, <a href="http://wiki.mageia.org/">documentation</a>, <a href="../downloads/">delivery</a> and <a href="../support/">support</a>, using Free Software tools;
-που συντελούν στην υποδομή, την ίδια τη διανομή, στην <a href="http://wiki.mageia.org/">τεκμηρίωση</a>, στην <a href="../downloads/">διανομή</a> και στην <a href="../support/">υποστήριξή</a>της, χρησιμοποιώντας εργαλεία Ελεύθερου Λογισμικού,
+που συντελούν στην υποδομή, στην ίδια τη διανομή, στην <a href="http://wiki.mageia.org/">τεκμηρίωση</a>, στην <a href="../downloads/">διαθεση</a> και στην <a href="../support/">υποστήριξή</a> της, χρησιμοποιώντας εργαλεία Ελεύθερου Λογισμικού,
 
 
 # /en/about/index.php +51
@@ -56,7 +56,7 @@
 έχει κυκλοφορήσει δυο μείζουσες σταθερές εκδόσεις <a href="../1/">τον Ιούνιο του 2011</a> και <a href="../2/">το Μάιο του 2012</a>.
 
 ;<a href=%s>Mageia.Org's legal constitution</a> and <a href=%s>governance</a> rules;
-<a href=%s>σύσταση της οργάνωσης Mageia.Org</a>, <a href=%s>κανόνες διακυβέρνησης</a>&nbsp;;
+<a href=%s>σύσταση της οργάνωσης Mageia.Org</a>, <a href=%s>κανόνες διακυβέρνησης</a>
 
 ;is the French, Paris-based legal structure supporting the Mageia project.
 είναι η νομική οντότητα που υποστηρίζει το έργο Mageia.
@@ -72,5 +72,5 @@
 <a href="%s">Λογότυπα, γραφικά, εξώφυλλα CD/DVD</a>.
  
 ;<a href="%s">Current graphics charter</a>.
-<a href="%s">Χάρτης των τρεχόντων γραφικών</a>.
+<a href="%s">Χάρτης των γραφικών της διανομής</a>.
 
