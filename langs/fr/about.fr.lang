@@ -8,7 +8,7 @@
 
 # /en/about/index.php +16
 ;Mageia is a Free Software, community-led project. Learn more about it.
-Mageia est un projet communautaire, de logiciel libre.
+Mageia est un projet communautaire de logiciel libre.
 
 
 # /en/about/index.php +17
@@ -33,7 +33,7 @@ Notre but&nbsp;: fabriquer de superbes outils pour les personnes.
 
 # /en/about/index.php +42
 ;Further than just delivering a secure, stable and sustainable operating system, the goal is to set up a stable and trustable governance to direct collaborative projects.
-Au delà d&rsquo;un système d&rsquo;exploitation sûr, stable et durable pour vos ordinateurs, le but est d&rsquo;établir une gouvernance stable et crédible pour définir et coordonner des projets collaboratifs.
+Au delà d&rsquo;un système d&rsquo;exploitation sûr, stable et durable pour vos ordinateurs, le but est d&rsquo;établir une gouvernance stable et crédible pour coordonner des projets collaboratifs.
 
 # /en/about/index.php +43
 ;To date, Mageia:
@@ -51,7 +51,7 @@ a réuni <a href="../community/">des centaines de passionnés et plusieurs soci�
 
 # /en/about/index.php +49
 ;who coproduce the infrastructure, the distribution itself, <a href="http://wiki.mageia.org/">documentation</a>, <a href="../downloads/">delivery</a> and <a href="../support/">support</a>, using Free Software tools;
-qui co-produise l&rsquo;infrastructure, la distribution Mageia elle-même, sa <a href="http://wiki.mageia.org/">documentation</a>, sa <a href="../downloads/">diffusion</a> et son <a href="../support/">support</a>, avec des outils logiciels libres&nbsp;;
+qui coproduisent l&rsquo;infrastructure, la distribution Mageia elle-même, sa <a href="http://wiki.mageia.org/">documentation</a>, sa <a href="../downloads/">diffusion</a> et son <a href="../support/">assistance</a>, à l'aide de logiciels libres&nbsp;;
 
 
 # /en/about/index.php +51
@@ -62,7 +62,7 @@ a publié deux versions stables majeures <a href="../1/">en juin 2011</a> et <a 
 <a href=%s>statuts de l&rsquo;association Mageia.Org</a>, <a href=%s>règles de gouvernance</a>&nbsp;;
 
 ;is the French, Paris-based legal structure supporting the Mageia project.
-est l&rsquo;entité légale soutenant le projet Mageia.
+est l&rsquo;entité légale soutenant le projet Mageia, basée à Paris.
 
 ;<a href="/en/about/reports/">financial reports</a>, <a href="/en/thank-you/">donators</a>.
 <a href="/en/about/reports/" hreflang="en">rapports financiers</a>, <a href="/en/thank-you/">donateurs</a>.
@@ -72,7 +72,7 @@ est l&rsquo;entité légale soutenant le projet Mageia.
 Media
 
 ;<a href="%s">Logo, CD covers files, media files</a>.
-<a href="%s">Logo, graphiques, couvertures de CD/DVD</a>.
+<a href="%s">Logo, graphismes, couvertures de CD/DVD</a>.
  
 ;<a href="%s">Current graphics charter</a>.
 <a href="%s">Charte graphique actuelle</a>.
