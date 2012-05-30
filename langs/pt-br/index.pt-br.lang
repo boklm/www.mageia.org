@@ -48,7 +48,7 @@ Blog Mageia
 
 # /en/index.php +31
 ;http://blog.mageia.org/en/?feed=rss
-http://blog.mageia.org/pt/?feed=rss
+http://blog.mageia.org/en/?feed=rss
 
 
 # /en/index.php +217
@@ -63,17 +63,17 @@ Mude sua perspectiva
 
 # /en/index.php +225
 ;Stable, secure operating system for desktop &amp; server
-Sistema Operacional estável, seguro para desktop &amp; servidor
+Sistema Operacional estável e seguro para desktop &amp; servidor
 
 
 # /en/index.php +226
 ;Free Software, coproduced by hundreds of people
-Software Livre, co-produzido por centenas de pessoas
+Software Livre desenvolvido por centenas de pessoas
 
 
 # /en/index.php +227
 ;Elected governance, nonprofit organization
-Governo eleito, organização sem fins lucrativos
+Organização sem fins lucrativos, líderes eleitos pela comunidade
 
 
 # /en/index.php +228
@@ -88,7 +88,7 @@ Download Grátis
 
 # /en/index.php +237
 ;version 2 (May 2012)
-versão 2 (Maio 2012)
+versão 2 (Maio de 2012)
 
 
 # /en/index.php +240
@@ -103,7 +103,7 @@ Notas de lançamento
 
 # /en/index.php +248
 ;Download older Mageia 1 (June 2011)
-Baixe o Mageia 1 (Junho 2011)
+Baixe o antigo Mageia 1 (Junho de 2011)
 
 
 # /en/index.php +265
