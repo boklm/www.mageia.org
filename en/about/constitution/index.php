@@ -41,8 +41,8 @@ $_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
                 <div class="para preambule">
                     <div id="preamble">
                     <p><?php echo sprintf($_t['svn-source'],
-                        '<a href="http://svnweb.mageia.org/soft/constitution/">svnweb.mageia.org/soft/constitution</a>',
-                        '<a href="http://svnweb.mageia.org/soft/constitution/README.md?revision=HEAD&view=markup">README</a>')?></p>
+                        '<a href="http://svnweb.mageia.org/org/constitution/">svnweb.mageia.org/org/constitution</a>',
+                        '<a href="http://svnweb.mageia.org/org/constitution/README.md?revision=HEAD&view=markup">README</a>')?></p>
                     </div>
                 </div>
                 <div class="para">
