@@ -463,5 +463,6 @@ $_t = array(
 	'Lifecycle' => 'Κύκλος ζωής',
         'Mageia releases are supported at least for 18 months.' => 'Οι εκδόσεις τις Mageia υποστηρίζονται για τουλάχιστον 18 μήνες.',
         'Mageia 1 will be supported until December 2012.' => 'Η Mageia 1 θα υποστηρίζεται μέχρι το τέλος του Δεκεμβρίου 2012.',
+	'Mageia 2 may have a longer lifecycle, this will be decided once released in May.' => 'Η Mageia 2 μπορεί να έχει μεγαλύτερο κύκλο ζωής, αυτό θα αποφασιστεί μετά την κυκλοφορία της το Μάιο.',
     )
 );
