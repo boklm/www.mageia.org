@@ -18,7 +18,7 @@ mageia, mageia.org, o, misija, kontakti, upravitelji, vrednote, časovni razpore
 
 # /en/about/index.php +34
 ;Mageia is a GNU/Linux-based, Free Software operating system.
-Osnova za Mageio je GNU/Linux, Mageia je odprtokodni operacijski sistem.
+Osnova za Mageio je GNU/Linux; je odprtokodni operacijski sistem.
 
 
 # /en/about/index.php +35
@@ -50,6 +50,7 @@ Do sedaj se je Mageia:
 ;gathered <a href="../community/">hundreds of careful individuals and several companies worldwide</a>,
 zbrala na <a href="../community/">stotine skrbnih posameznikov in več družb po vsem svetu</a>,
 
+
 # /en/about/index.php +46
 ;who coproduce the infrastructure, the distribution itself, <a href="http://wiki.mageia.org/">documentation</a>, <a href="../downloads/">delivery</a> and <a href="../support/">support</a>, using Free Software tools;
 ki soustvarajo infrastrukturo, samo distribucijo, <a href="http://wiki.mageia.org/">dokumentacijo</a>, <a href="../downloads/">prenos</a> in <a href="../support/"> podporo</a>, z uporabo odprtokodne programske opreme;
@@ -60,6 +61,10 @@ ki soustvarajo infrastrukturo, samo distribucijo, <a href="http://wiki.mageia.or
 izdala dve verziji stabilne izdaje <a href="../1/">v juniju 2011</a> in <a href="../2/">v maju 2012</a>.
 
 
+;<a href=%s>Mageia.Org's legal constitution</a> and <a href=%s>governance</a> rules;
+<a href=%s>ustanovitveni akt Mageia.Org</a> in pravila <a href=%s>upravljanja</a>;
+
+
 # /en/about/index.php +69
 ;is the French, Paris-based legal structure supporting the Mageia project.
 je francoska pravna entiteta v Parizu, ki podpira projekt Mageia.
@@ -68,6 +73,7 @@ je francoska pravna entiteta v Parizu, ki podpira projekt Mageia.
 # /en/about/index.php +74
 ;<a href="/en/about/reports/">financial reports</a>, <a href="/en/thank-you/">donators</a>.
 <a href="/en/about/reports/">finančna poročila</a>, <a href="/en/thank-you/">donatorji</a>.
+
 
 # /en/about/index.php +78
 ;Media &amp; artwork
