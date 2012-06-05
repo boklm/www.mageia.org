@@ -114,18 +114,21 @@ $flow['revenue_op'] = $count;
               $qarr = array();
               foreach ($flow['revenue'] as $month => $val) {
 
+                  // save monthly data
                   $arr[] = sprintf("['%s', %s, %s]", $_months[$month], str_replace(',', '.', $val), str_replace(',', '.', $flow['expenses'][$month]));
 
-                  if ($i == 4) {
-                      $qarr[] = sprintf("['%s', %s, %s]", 'Q' . $j, $qRevenues, $qExpenses);
-                      $qRevenues = 0;
-                      $qExpenses = 0;
-                      $i = 1;
-                      $j += 1;
-                  }
-
+                  // sum quarterly data
                   $qRevenues += str_replace(',', '.', $val);
                   $qExpenses += str_replace(',', '.', $flow['expenses'][$month]);
+
+                  // save quarterly data
+                  if ($i % 3 == 0) {
+                      $qarr[] = sprintf("['%s', %s, %s]", 'Q' . $j, $qRevenues, $qExpenses);
+
+                      $qRevenues = 0;
+                      $qExpenses = 0;
+                      $j += 1;
+                  }
 
                   $i += 1;
               }
