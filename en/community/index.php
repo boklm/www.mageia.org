@@ -117,6 +117,7 @@ include '../../lib/news.php';
         <ul class="hl">
             <li><a href="../contribute/">Start here</a>,</li>
             <li>and meet us on <a href="http://wiki.mageia.org/en/IRC">IRC</a>.</li>
+            <li>You can also <a href="../donate/">support financially</a> the project!</li>
         </ul>
         <hr>
         <h2><?php _e('Toolbox')?></h2>
