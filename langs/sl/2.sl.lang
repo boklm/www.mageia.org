@@ -126,7 +126,7 @@ Isti + lastniška strojna programska oprema
 
 # en/2/download_index.php +185
 ;needed for some disc controllers, some network cards, etc.
-potrebujejo jo nekateri krmilniki diskov, omrežne kartice ....
+potrebujejo jo nekateri krmilniki diskov, omrežne kartice ...
 
 
 # en/2/download_index.php +198
@@ -147,6 +147,11 @@ Nadgradnjujete<br>Magejo 1?
 # en/2/download_index.php +207
 ;<strong>do not</strong> use LiveCDs;
 <strong>ne uporabljajte</strong> LiveCD;
+
+
+# en/2/download_index.php +208
+;see the <a href="%s" hreflang="en">upgrade guide</a>
+oglejte si <a href="%s" hreflang="en">vodič za nadgradnjo (v angleščini)</a>
 
 
 # en/2/download_index.php +214
@@ -279,10 +284,12 @@ What's new?
 
 
 
-#Download
+;Download
+Prenos
 
-#For PC
+;For PC
+Za osebni računalnik
 
-#For server
+;For server
+Za strežnik
 
-# see the <a href="%s" hreflang="en">upgrade guide</a>
