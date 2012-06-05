@@ -9,15 +9,15 @@
 "currency","EUR",,,,,
 "url","http://www.mageia.org/en/about/reports/",,,,,
 "licence","ODbL-1.0","This financial report data is made available under the Open Database License: http://opendatacommons.org/licenses/odbl/1.0/. Any rights in individual contents of the database are licensed under the Database Contents License: http://opendatacommons.org/licenses/dbcl/1.0/",,,,
-"last updated",2012/04/02,,,,,
+"last updated",2012/06/05,,,,,
 "comment","This is a first attempt to provide open and direct access to Mageia financial data. We will try to improve on it, feel free to suggest improvements in format, detail, presentation.",,,,,
 ,,,,,,
 "",,,,,,
 "# Account balance",,,,,,
-"total","9415,80",,,,,
-"main account","10,11",,,,,
-"paypal","405,69",,,,,
-"saving account",9000,,,,,
+"total",10244.46,,,,,
+"main account",984.24,,,,,
+"paypal",260.22,,,,,
+"saving account",9000.00,,,,,
 ,,,,,,
 "# Income Statement",,,,,,
 ,,,,,,
@@ -50,8 +50,8 @@
 2,16,680.00,0,250,430.00,0
 3,9,684.13,0,423.13,261.00,0
 4,10,610.00,0,100.00,510.00,0
-5,3,0,0,0,0,0
-6,0,0,0,0,0,0
+5,25,1374.00,100.00,555.00,719.00,0
+6,1,95.00,0,95.00,0,0
 7,0,0,0,0,0,0
 8,0,0,0,0,0,0
 9,0,0,0,0,0,0
@@ -67,8 +67,8 @@
 2,2,779.18,0,,
 3,2,150.43,0,,
 4,1,9.94,0,,
-5,0,0,0,,
-6,0,0,0,,
+5,1,17.4,0,,
+6,1,375.87,0,,
 7,0,0,0,,
 8,0,0,0,,
 9,0,0,0,,
@@ -88,6 +88,8 @@
 12/03/12,01/03/12,,bank,Transfer change fees,143.92
 31/03/12,31/03/12,,bank,Paypal fees,6.51
 30/04/12,30/04/12,,bank,Paypal fees,9.94
+31/05/12,31/05/12,,bank,Paypal fees,17.4
+05/06/12,05/06/12,,hardware,2 routers,375.87
 ,,,,,,
 ,,,,,,
 "# That's all folks!",,,,,,
