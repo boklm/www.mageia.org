@@ -424,7 +424,7 @@ $_t = array(
         'comm_1' => 'Αν χρειάζεστε βοήθεια, πληροφορίες ή οδηγίες σχετικά με τη διανομή Mageia
             που εγκαταστήσατε ή σχετικά με το έργο Mageia, μπορείτε να επικοινωνήσετε μαζί μας μέσα από:',
         'comm_list' => array(
-            '<a href="http://www.mageia-gr/forum/">Το φόρουμ υποστήριξης της κοινότητας</a> δείτε στο <a href="https://forums.mageia.org/en/viewforum.php?f=20">για άλλα
+            '<a href="http://www.mageia-gr.org/forum/">Το φόρουμ υποστήριξης της κοινότητας</a> δείτε στο <a href="https://forums.mageia.org/en/viewforum.php?f=20">για άλλα
                 φόρουμ των κοινοτήτων Mageia</a> για υποστήριξη σε άλλες γλώσσες.',
             'Τα κανάλια IRC όπου μπορείτε να συζητήσετε ζωντανά με άλλους χρήστες Mageia και συνεισφέροντες:
                 <a href="irc://irc.freenode.net/#mageia" hreflang="en">#mageia</a>
