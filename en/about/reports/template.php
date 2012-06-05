@@ -295,16 +295,34 @@ $flow['revenue_op'] = $count;
                     
                     $v = $parsed['# Expenses details > ## Monthly summary'];
                     echo '<table class="fr-table">';
-                    array_shift($v);
+                    $s = array_shift($v);
+                    echo vsprintf('<thead><tr><th>%s</th><th>%s</th><th>%s</th><th>average/expense</th></tr></thead><tbody>',
+                        $s);
+                    $sums = array();
                     foreach ($v as $line) {
                         if ($line[0] == 'total')
                             continue;
 
-                        echo sprintf('<tr><td>%s</td><td>%s</td><td class="money">%s</td></tr>',
-                            $_months[$line[0]], $line[1],
-                            number_format(str_replace(',', '.', $line[2]), 2, '.', ','));
+                        echo sprintf('<tr><td>%s</td><td class="money">%s</td><td class="money">%s</td><td class="money">%s</td></tr>',
+                            $_months[$line[0]],
+                            $line[1],
+                            number_format(str_replace(',', '.', $line[2]), 2, '.', ','),
+                            $line[1] > 0 ? number_format(str_replace(',', '.', $line[2] / $line[1]), 2, '.', ',') : ''
+                        );
+                    
+                        $sums['count'] += $line[1];
+                        $sums['total'] += $line[2];
                     }
-                    echo '</table>';
+                    echo '</tbody><tfoot>';
+                    echo sprintf('<tr><th>Total</th>
+                        <td class="money">%s</td>
+                        <td class="money">%s</td>
+                        <td class="money">%s</td></tr>',
+                        $sums['count'],
+                        number_format(str_replace(',', '.', $sums['total']), 2, '.', ','),
+                        $sums['count'] > 0 ? number_format(str_replace(',', '.', $sums['total'] / $sums['count']), 2, '.', ',') : ''
+                    );
+                    echo '</tfoot></table>';
                     ?>
                     
                     <h3>Details</h3>
@@ -340,11 +358,15 @@ $flow['revenue_op'] = $count;
                     $line = array_shift($v);
                     echo sprintf('<thead><tr><th>%s</th><th>%s</th>
                         <th>%s</th><th>%s</th><th>%s</th><th>%s</th>
-                        <th>%s</th></tr></thead>',
+                        <th>%s</th><th>Average per donation</tr></thead>',
                         $line[0], $line[1], $line[2],
                         $line[3],
                         $line[4],
                         $line[5], $line[6]);
+
+                    echo '<tbody>';
+                    
+                    $sums = array();
 
                     foreach ($v as $line) {
                         echo sprintf('<tr><td>%s</td><td>%s</td>
@@ -352,15 +374,44 @@ $flow['revenue_op'] = $count;
                             <td class="money">%s</td>
                             <td class="money">%s</td>
                             <td class="money">%s</td>
+                            <td class="money">%s</td>
                             <td class="money">%s</td></tr>',
-                            $_months[$line[0]], $line[1],
+                            $_months[$line[0]],
+                            $line[1],
                             number_format(str_replace(',', '.', $line[2]), 2, '.', ','),
                             number_format(str_replace(',', '.', $line[3]), 2, '.', ','),
                             number_format(str_replace(',', '.', $line[4]), 2, '.', ','),
                             number_format(str_replace(',', '.', $line[5]), 2, '.', ','),
-                            number_format(str_replace(',', '.', $line[6]), 2, '.', ','));
+                            number_format(str_replace(',', '.', $line[6]), 2, '.', ','),
+                            $line[1] > 0 ? number_format(str_replace(',', '.', $line[2] / $line[1]), 2, '.', ',') : ''
+                        );
+
+                        $sums['count'] += $line[1];
+                        $sums['total'] += $line[2];
+                        $sums['check'] += $line[3];
+                        $sums['xfer']  += $line[4];
+                        $sums['paypal'] += $line[5];
+                        $sums['cash']  += $line[6];
                     }
-                    echo '</table>';
+                    echo '</tbody><tfoot>';
+                    echo sprintf('<tr><th>Total</th>
+                        <td class="money">%s</td>
+                        <td class="money">%s</td>
+                        <td class="money">%s</td>
+                        <td class="money">%s</td>
+                        <td class="money">%s</td>
+                        <td class="money">%s</td>
+                        <td class="money">%s</td></tr>',
+                        $sums['count'],
+                        number_format(str_replace(',', '.', $sums['total']), 2, '.', ','),
+                        number_format(str_replace(',', '.', $sums['check']), 2, '.', ','),
+                        number_format(str_replace(',', '.', $sums['xfer']), 2, '.', ','),
+                        number_format(str_replace(',', '.', $sums['paypal']), 2, '.', ','),
+                        number_format(str_replace(',', '.', $sums['cash']), 2, '.', ','),
+                        $sums['count'] > 0 ? number_format(str_replace(',', '.', $sums['total'] / $sums['count']), 2, '.', ',') : ''
+                    );
+                    echo '</tfoot></table>';
+
                     ?>
 
                     <hr>
