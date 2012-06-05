@@ -18,22 +18,22 @@ mageia, mageia.org, o, misija, kontakti, upravitelji, vrednote, časovni razpore
 
 # /en/about/index.php +34
 ;Mageia is a GNU/Linux-based, Free Software operating system.
-Osnova za Mageio je GNU/Linux; je odprtokodni operacijski sistem.
+Mageia je odprtokodni operacijski sistem osnovan na GNU/Linuxu.
 
 
 # /en/about/index.php +35
 ;It is a <a href="../community/">community project</a>, supported by <a href="#mageia.org">a nonprofit organisation</a> of elected contributors.
-Je <a href="../community/">projekt skupnosti</a>, ki ga podpira <a href="#mageia.org">neprofitna organizacija</a> z voljenim upravljanjem.
+Je <a href="../community/">projekt skupnosti</a>, ki ga podpira <a href="#mageia.org">neprofitna organizacija</a> z voljenimi upravitelji.
 
 
 # /en/about/index.php +38
 ;Our mission: to build great tools for people.
-Naš cilj: izdelovati zmogljiva orodja za ljudi.
+Naš cilj: izdelovati velika, zmogljiva orodja za ljudi.
 
 
 # /en/about/index.php +39
 ;Further than just delivering a secure, stable and sustainable operating system, the goal is to set up a stable and trustable governance to direct collaborative projects.
-Več kot le graditi varen, stabilen in trajnostni operacijski sistem, cilj je vzpostaviti stabilno in zaupanja vredno upravljanje za usmerjanje skupnih projektov.
+Več kot le graditi varen, stabilen in trajnostni operacijski sistem; cilj je vzpostaviti stabilno in zaupanja vredno upravljanje skupnih projektov.
 
 
 # /en/about/index.php +40
@@ -43,7 +43,7 @@ Do sedaj se je Mageia:
 
 # /en/about/index.php +43
 ;<a href="2010-sept-announcement.html">started in September 2010 as a fork</a> of Mandriva Linux,
-<a href="2010-sept-announcement.html">odcepila v septembru 2010</a> od distribucije Mandriva Linux,
+<a href="2010-sept-announcement.html">odcepila v septembru 2010</a> iz distribucije Mandriva Linux,
 
 
 # /en/about/index.php +45
@@ -53,12 +53,12 @@ zbrala na <a href="../community/">stotine skrbnih posameznikov in več družb po
 
 # /en/about/index.php +46
 ;who coproduce the infrastructure, the distribution itself, <a href="http://wiki.mageia.org/">documentation</a>, <a href="../downloads/">delivery</a> and <a href="../support/">support</a>, using Free Software tools;
-ki soustvarajo infrastrukturo, samo distribucijo, <a href="http://wiki.mageia.org/">dokumentacijo</a>, <a href="../downloads/">prenos</a> in <a href="../support/"> podporo</a>, z uporabo odprtokodne programske opreme;
+ki soustvarajo infrastrukturo, samo distribucijo, <a href="http://wiki.mageia.org/">dokumentacijo</a>, <a href="../downloads/">prenos</a> in <a href="../support/"> podporo</a> z uporabo odprtokodne programske opreme;
 
 
 # /en/about/index.php +48
 ;released two major stable releases <a href="../1/">in June 2011</a> and <a href="../2/">in May 2012</a>.
-izdala dve verziji stabilne izdaje <a href="../1/">v juniju 2011</a> in <a href="../2/">v maju 2012</a>.
+izdala dve stabilni izdaji <a href="../1/">v juniju 2011</a> in <a href="../2/">v maju 2012</a>.
 
 
 ;<a href=%s>Mageia.Org's legal constitution</a> and <a href=%s>governance</a> rules;
@@ -77,7 +77,7 @@ je francoska pravna entiteta v Parizu, ki podpira projekt Mageia.
 
 # /en/about/index.php +78
 ;Media &amp; artwork
-Za medije in grafična podoba
+Gradivo za medije in grafična podoba
 
 
 # /en/about/index.php +80
