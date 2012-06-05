@@ -109,22 +109,25 @@ $flow['revenue_op'] = $count;
               $arr = array();
               $qRevenues = 0;
               $qExpenses = 0;
-              $i = 0;
-              $j = 0;
+              $i = 1;
+              $j = 1;
               $qarr = array();
               foreach ($flow['revenue'] as $month => $val) {
+
                   $arr[] = sprintf("['%s', %s, %s]", $_months[$month], str_replace(',', '.', $val), str_replace(',', '.', $flow['expenses'][$month]));
-                  $i += 1;
-                  if ($i == 3) {
-                      $j += 1;
+
+                  if ($i == 4) {
                       $qarr[] = sprintf("['%s', %s, %s]", 'Q' . $j, $qRevenues, $qExpenses);
                       $qRevenues = 0;
                       $qExpenses = 0;
-                      $i = 0;
-                  } else {
-                      $qRevenues += str_replace(',', '.', $val);
-                      $qExpenses += str_replace(',', '.', $flow['expenses'][$month]);
+                      $i = 1;
+                      $j += 1;
                   }
+
+                  $qRevenues += str_replace(',', '.', $val);
+                  $qExpenses += str_replace(',', '.', $flow['expenses'][$month]);
+
+                  $i += 1;
               }
               echo implode(', ', $arr);
               ?>
