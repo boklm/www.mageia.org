@@ -6,10 +6,12 @@ $source_csv = 'mageia-financial-report-2012.csv';
 $page_kw    = 'mageia, financial report, 2012, revenues, expenses';
 
 $js_options_hAxis = '{title: "2012"}';
+
+// year, total revenues, total expenses
 $js_data2_values  = <<<S
     ['2010', 8801.66, 1277.77],
     ['2011', 11154.02, 8327.25],
-    ['2012', 1824.45, 1523.85]
+    ['2012', 3977.61, 2077.49]
 S;
 
 $intro = <<<S
