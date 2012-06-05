@@ -23,8 +23,8 @@ if ($_SERVER['HTTP_HOST'] == 'www-test.mageia.org') {
 $g_app_root = realpath(dirname(__FILE__));
 define('G_APP_ROOT', $g_app_root);
 
-$g_donate_amount = 'EUR&nbsp;12 181.52';
-$g_amount_remain = 'EUR&nbsp;9 415,80';
+$g_donate_amount = '--';
+$g_amount_remain = 'EUR&nbsp;10,244.46';
 
 $G_coord_assos = <<<T
   Assocation Mageia.Org
