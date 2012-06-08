@@ -270,7 +270,7 @@ $_t = array(
                         werden, um die Fehlerbehebung für die Packager / Entwickler zu vereinfachen: 
                         Verifizierung (ist der Fehler reproduzierbar?), Sammeln der benötigten Debug-Informationen vom
                         "Fehlermelder" (Reporter), korrekte Zuweisung der Fehlermeldung.
-                        <a href="https://wiki.mageia.org/en/Bug_Squad">Vergrößern Sie das Triage-Team</a> und bilden Sie die Verbingung
+                        <a href="https://wiki.mageia.org/en/Bug_Squad">Vergrößern Sie das Triage-Team</a> und bilden Sie die Verbindung
                         zwischen den Anwendern, die Fehler in den Foren oder Mailinglisten melden und dem
                         <a href="http://bugs.mageia.org/">Mageia Bugzilla</a>
                         der von den Entwicklern benutzt wird. ',
