@@ -3,7 +3,7 @@
 
 # /en/about/index.php +12
 ;About Mageia
-O Mageii
+O Mageji
 
 
 # /en/about/index.php +13
@@ -14,6 +14,11 @@ Mageia je odprtokodna programska oprema, projekt skupnosti. Spoznajte več.
 # /en/about/index.php +14
 ;mageia, mageia.org, about, mission, contacts, governance, values, timeline
 mageia, mageia.org, o, misija, kontakti, upravitelji, vrednote, časovni razpored
+
+
+# /en/about/index.php +28
+;About Mageia
+O Mageji
 
 
 # /en/about/index.php +34
@@ -61,11 +66,12 @@ ki soustvarajo infrastrukturo, samo distribucijo, <a href="http://wiki.mageia.or
 izdala dve stabilni izdaji <a href="../1/">v juniju 2011</a> in <a href="../2/">v maju 2012</a>.
 
 
+# /en/about/index.php +69
 ;<a href=%s>Mageia.Org's legal constitution</a> and <a href=%s>governance</a> rules;
 <a href=%s>ustanovitveni akt Mageia.Org</a> in pravila <a href=%s>upravljanja</a>;
 
 
-# /en/about/index.php +69
+# /en/about/index.php +72
 ;is the French, Paris-based legal structure supporting the Mageia project.
 je francoska pravna entiteta v Parizu, ki podpira projekt Mageia.
 

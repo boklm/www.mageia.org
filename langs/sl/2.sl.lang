@@ -90,7 +90,7 @@ Več o tem si oglejte v najpogostejših napakah (v angleščini).
 ;DO NOT use those LiveCDs to upgrade from Mageia 1!
 NE UPORABLJAJTE LiveCD za nadgradnjo Mageje 1!
 
-
+# en/2/download_index.php +88
 ;Use above DVD or CD and see the <a href="%s" hreflang="en">upgrade guide</a>.
 Uporabite zgornji DVD ali CD in si oglejte <a href="%s" hreflang="en">vodič za nadgradnjo (v angleščini)</a>.
 
@@ -121,7 +121,7 @@ CD z izključno odprtokodno programsko opremo
 
 # en/2/download_index.php +184
 ;Same + nonfree firmware
-Isti + lastniška strojna programska oprema
+Enak gornjemu + lastniška strojna programska oprema
 
 
 # en/2/download_index.php +185
@@ -164,69 +164,84 @@ Iščete Magejo 1?
 Sedaj je <a href="%s">tukaj</a>.
 
 
-# en/for-pc/index.php +12
+# en/for-server/index.php +12
 ;page_title
 Mageia 2
 
 
 # en/for-server/index.php +21
 ;for your server
-for your server
+za vaš strežnik
 
 
 # en/for-server/index.php +26
 ;Mageia 2 has all the main services and server packages you will need to run your server.
-Mageia 2 has all the main services and server packages you will need to run your server.
+Mageia 2 vsebuje vse pomembne storitve in strežniške pakete, ki jih boste potrebovali za strežnik.
+
+
+# en/for-server/index.php +27
+;Aside from the cross-section included here, you will find many others in the repositories: you can use rpmdrake to search for packages, or check the <a href="%s">Mageia App DB</a>.
+Poleg tukaj naštetega boste v skladiščih programov našli še številne druge: uporabite rpmdrake za iskanje paketov ali preverite <a href="%s">podatkovno zbirko programov Mageia</a>.
 
 
 # en/for-server/index.php +30
 ;Administration
-Administration
+Skrbništvo
+
+
+# en/for-server/index.php +31
+;For centralised administration, we include puppet 2.7.11; we use it widely in <a href="%s">our own infrastructure</a>.
+Za centralizirano skrbništvo je vključen paket puppet 2,7,11; sami ga veliko uporabljamo v <a href="%s">naši infrastrukturi</a>.
 
 
 # en/for-server/index.php +34
 ;The entire High Availability stack has been updated, and now includes drbd 8.3.11, Corosync 2.0.0 and Pacemaker 1.1.7.
-The entire High Availability stack has been updated, and now includes drbd 8.3.11, Corosync 2.0.0 and Pacemaker 1.1.7.
+Celoten sklad za visoko razpoložljivost je bil posodobljen in sedaj vključuje drbd 8,3,11, Corosync 2,0,0 in Pacemaker 1,1,7.
 
 
 # en/for-server/index.php +36
 ;Databases
-Databases
+Podatkovne zbirke
 
 
 # en/for-server/index.php +37
 ;Databases included are PostgreSQL 8.4.11; MariaDB, which replaces MySQL 5.5.23; BDB .
-Databases included are PostgreSQL 8.4.11; MariaDB, which replaces MySQL 5.5.23; BDB .
+Med različnimi podatkovnimi zbirkami lahko izbirate med PostgreSQL 8,4,11; MariaDB, ki je zamenjala MySQL 5,5,23; BDB.
 
 
 # en/for-server/index.php +38
 ;And there are NoSQL servers too: CouchDB 1.1.1, Redis 2.4.8, Cassandra 1.4.0, MongoDB 2.0.3.
-And there are NoSQL servers too: CouchDB 1.1.1, Redis 2.4.8, Cassandra 1.4.0, MongoDB 2.0.3.
+Obstajajo tudi strežniki tipa NoSQL: CouchDB 1,1,1, Redis 2,4,8, Cassandra 1,4,0, MongoDB 2,0,3.
 
 
 # en/for-server/index.php +40
 ;Servers
-Servers
+Strežniki
 
 
 # en/for-server/index.php +41
 ;Web servers include Apache 2.2.22, Cherokee 1.2.101 and lighttpd 1.4.30.
-Web servers include Apache 2.2.22, Cherokee 1.2.101 and lighttpd 1.4.30.
+Spletni strežniki vključujejo Apache 2,2,22, Cherokee 1,2,101 and lighttpd 1,4,30.
 
 
 # en/for-server/index.php +42
 ;For file and directory sharing and network printing on heterogeneous networks, we have Samba 3.6.5, OpenLDAP 2.4.29 and Cups 1.5.2.
-For file and directory sharing and network printing on heterogeneous networks, we have Samba 3.6.5, OpenLDAP 2.4.29 and Cups 1.5.2.
+Za skupno rabo datotek in map ter omrežno tiskanje na heterogenih omrežij so na voljo Samba 3,6,5, OpenLDAP 2,4,29 in Cups 1,5,2.
 
 
 # en/for-server/index.php +43
 ;Mail servers included with Mageia 2 are Postfix 2.8.8, Cyrus-imapd 2.4.13 and Dovecot 1.2.17.
-Mail servers included with Mageia 2 are Postfix 2.8.8, Cyrus-imapd 2.4.13 and Dovecot 1.2.17.
+Poštni strežniki v Mageji 2 so Postfix 2,8,8, Cyrus-imapd 2,4,13 in Dovecot 1,2,17.
 
 
 # en/for-server/index.php +49
 ;For more information about these and other packages, check the <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">Mageia 2 Release notes</a>.
-For more information about these and other packages, check the <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">Mageia 2 Release notes</a>.
+Več informacij o teh in drugih paketih je v <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">Opombah ob izdaji (v angleščini)</a>.
+
+
+# en/for-server/index.php +50
+;You can take a look at the <a href="%s">Mageia Application Database</a> to get a more complete list of Mageia packages.
+V <a href="%s">podatkovni zbirki programov Mageia</a> si lahko ogledate bolj popoln seznam paketov Mageia.
 
 
 # en/2/index.php +14
@@ -255,7 +270,7 @@ Za slovenščino je najpomembnejša novost, da je od te izdaje naprej v celoti v
 
 # en/2/index.php +37
 ;<a href="../downloads/" style="background: #1272B1; color: white; padding: 0.9em; margin: 1em; display: inline-block; text-shadow: 0 1px 6px #000; border-radius: 3px;">Download it right away!</a>
-<a href="../downloads/" style="background: #1272B1; color: white; padding: 0.9em; margin: 1em; display: inline-block; text-shadow: 0 1px 6px #000; border-radius: 3px;">Prenesite si jo takoj!</a>
+<a href="../downloads/" style="background: #1272B1; color: white; padding: 0.9em; margin: 1em; display: inline-block; text-shadow: 0 1px 6px #000; border-radius: 3px;">Prenesite si jo kar takoj!</a>
 
 
 # en/2/index.php +39
@@ -270,7 +285,7 @@ Mageia je tako skupnost kot tudi Linux distribucija, Mageia 2 je naša druga izd
 
 # en/2/index.php +43
 ;Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch\'s most popular distributions</a>.
-Od izdaje <a href="../1/">Mageje 1</a>, se naša distribucija nahaja v vrhu <a href="%s">10 najpriljubnejših distribucij spletne strani Distrowatch</a>.
+Od izdaje naprej <a href="../1/">Mageje 1</a>, se naša distribucija nahaja v vrhu <a href="%s">10 najbolj priljubljenih distribucij spletne strani Distrowatch</a>.
 
 
 # en/2/index.php +46
