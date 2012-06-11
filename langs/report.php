@@ -40,17 +40,16 @@
     
     $diff_link      = '<a href="diff.php?s=%s&l=%s" title="see detailed diff">';
 
-    $s = '';
-    foreach ($enFiles as $f) {
+    foreach ($otherLangs as $l) {
 
         if (is_dir($f)) continue;
-        
+
         $stats['en']['files'] += 1;
 
-        $s .= sprintf('<tr><td><a href="%s">%s</a></td>',
-            $f, $f);
+        $s .= sprintf('<tr><th>%s (%s)</th>',
+            $langs[$l], $l);
 
-        foreach ($otherLangs as $l) {
+        foreach ($enFiles as $f) {
 
             $langF = str_replace('.en.lang', '.' . $l . '.lang', $f);
             $langF = $l . substr($langF, 2);
@@ -103,41 +102,28 @@
                 );
             }
         }
+        
+        $s .= sprintf(
+            '<td class="number">%d / %d</td>
+            <td class="number">%d%%</td>',
+            $stats[$l]['strings'],
+            $stats['en']['strings'],
+            round($stats[$l]['strings'] / $stats['en']['strings'] * 100)
+        );
+        
         $s .= '</tr>';
     }
 
-    $th = ''; $th2 = '';
-    array_shift($otherLangs);
-    foreach ($otherLangs as $l) {
-        $th .= '<th><span class="lv">' . $langs[$l] . '</span></th>';
-        $th2 .= '<th>' . $l . '</th>';
-    }
-    
-    $ths = '';
-    foreach ($stats as $l => $data) {
-        if ($l == 'en') continue;
-        $ths .= '<th nowrap style="text-align: center;">' . $data['files'] . ' / ' . $data['strings'] . '<br>' . round($data['strings'] / $stats['en']['strings'] * 100). '%</th>';
-    }
+    $thfiles = '<th>' . implode('</th><th>', $enFiles) . '</th>';
 
     echo <<<S
 <table border="1">
-<thead>
-    <tr>
-        <th colspan="2" rowspan="2"><span class="lv">English</span></th>
-        {$th}
-    </tr>
-    <tr>
-        {$th2}
-    </tr>
-    <tr>
-        <th colspan="2">Reference</th>
-    </tr>
-    <tr>
-        <th>{$stats['en']['files']} files</th>
-        <th col="scol">{$stats['en']['strings']}&nbsp;strings</th>
-        {$ths}
-    </tr>
-</thead>
+<thead><tr>
+    <th>Language</th>
+    {$thfiles}
+    <th>Translated strings</th>
+    <th>Completeness</th>
+</tr></thead>
 <tbody>
 {$s}
 </tbody>
