@@ -197,10 +197,11 @@ function _lang_return($file)
         if ($C === '#') continue;
 
         if ($C === ';' && !empty($f[$k+1])) {
-            $strings[trim(substr($v, 1))] = trim($f[$k+1]);
+            $j = trim(substr($v, 1));
+            $j = str_replace(array("\'", "\""), array("'", '"'), $j);
+            $strings[$j] = trim($f[$k+1]);
         }
     }
-
     return $strings;
 }
 
