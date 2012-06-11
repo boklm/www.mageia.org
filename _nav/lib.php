@@ -13,9 +13,12 @@ class l10n
      * @return void
     */
     function load($lang) {
+        global $_t;
+        if (!is_array($_t))
+            $_t = array();
+
         $lang_file = __DIR__ . '/langs/' . $lang . '.lang';
         if (file_exists($lang_file)) {
-            global $_t;
             $f = file($lang_file);
             foreach ($f as $k => $v) {
                 if (substr($v, 0, 1) == ';' && !empty($f[$k+1])) {
