@@ -124,7 +124,7 @@ include '../../lib/news.php';
         <ul class="hl">
             <li><a href="http://wiki.mageia.org/">Wiki</a> &larr; collaborative documentation</li>
             <li><a href="http://bugs.mageia.org/">Bugzilla</a> &larr; to report bugs</li>
-            <li><a href="http://forum.mageia.org/">Forum</a></li>
+            <li><a href="<?php _e('forum_url')?>">Forum</a></li>
             <li><a href="/en/calendar/">Calendar</a></li>
         </ul>
         
