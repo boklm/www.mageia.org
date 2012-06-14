@@ -16,6 +16,11 @@ Magejo estas liber-programara kaj komunum-gvidita projekto. Sciu pli pri ĝi.
 magejo, mageia.org, pri, celo, kontaktoj, regado, valoroj, kronologio
 
 
+# /en/about/index.php +28
+;About Mageia
+Pri Magejo
+
+
 # /en/about/index.php +34
 ;Mageia is a GNU/Linux-based, Free Software operating system.
 Magejo estas liber-programara operacia sistemo bazita sur GNU/Linukso.
@@ -33,7 +38,7 @@ Nia celo: krei bonegajn ilojn por homoj.
 
 # /en/about/index.php +39
 ;Further than just delivering a secure, stable and sustainable operating system, the goal is to set up a stable and trustable governance to direct collaborative projects.
-Preter la havigo de sekura, stabila kaj daŭropova operacia sistemo, la celo estas starigi stabilan kaj fidindan regad-regulojn por gvidi kunloaborajn projektojn.
+Preter la havigo de sekura, stabila kaj daŭropova operacia sistemo, la celo estas starigi stabilan kaj fidindan regad-sistemon por gvidi kunlaborajn projektojn.
 
 
 # /en/about/index.php +40
@@ -62,6 +67,11 @@ publikigis du ĉefajn stabilajn versiojn <a href="../1/">junie 2011</a> kaj <a h
 
 
 # /en/about/index.php +69
+;<a href=%s>Mageia.Org's legal constitution</a> and <a href=%s>governance</a> rules;
+<a href=%s>Statuto </a> kaj <a href=%s>governance</a> regad-reguloj de Mageia.Org;
+
+
+# /en/about/index.php +72
 ;is the French, Paris-based legal structure supporting the Mageia project.
 estas franca (pariza) leĝa persono subtenanta la Magejan projekton.
 

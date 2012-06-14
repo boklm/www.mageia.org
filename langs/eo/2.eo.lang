@@ -8,7 +8,7 @@ Elŝuti Magejon 2
 
 # en/2/download_index.php +15
 ;Download Mageia 2 DVD, CD, LiveCD, network install ISO images.
-Elŝuti ISO-dosierojn por Mageja 2 DVD, KD, viva KD kaj perreta instalilo.
+Elŝuti ISO-dosierojn por Magejaj 2 DVD, KD, viva KD kaj perreta instalilo.
 
 
 # en/2/download_index.php +16
@@ -38,17 +38,17 @@ ligilo
 
 # en/2/download_index.php +65
 ;Up to 167 locales are supported:
-167 lokaĵaroj estas subtenitaj:
+167 lokaĵaroj estas eltenitaj:
 
 
 # en/2/download_index.php +68
 ;and so much more!
-kaj multe pli!
+kaj multaj pli!
 
 
 # en/2/download_index.php +69
 ;See the comprehensive list
-Vidi kompletan liston
+Vidu detalan liston
 
 
 # en/2/download_index.php +71
@@ -63,7 +63,7 @@ Konsekvence, <span class="warn">proprietaj vifiaj kaj videaj peliloj ne estas in
 
 # en/2/download_index.php +73
 ;If you need WiFi or specific video drivers <em>at install time</em>, you should go with below LiveCDs instead.</span>
-Se vi bezonas konkretajn vifiajn aŭ videajn pelilojn <em>dum la instalado</em>, vi devus uzi la jenajn vivajn KD anstataŭe.</span>
+Se vi bezonas konkretajn vifiajn aŭ videajn pelilojn <em>dum la instalado</em>, vi devus uzi la subajn vivajn KD anstataŭe.</span>
 
 
 # en/2/download_index.php +74
@@ -91,6 +91,11 @@ Uzu vivajn KD NUR por freŝaj instaloj.
 NE uzu tiujn vivajn KD por ĝisdatigi el Magejo 1!
 
 
+# en/2/download_index.php +88
+;Use above DVD or CD and see the <a href="%s" hreflang="en">upgrade guide</a>.
+Uzu la subajn DVD aŭ KD kaj vidu la <a href="%s" hreflang="en">ĝisdatigan gvidilon</a>.
+
+
 # en/2/download_index.php +105
 ;Included locales:
 Inkluditaj lokaĵaroj:
@@ -98,7 +103,7 @@ Inkluditaj lokaĵaroj:
 
 # en/2/download_index.php +163
 ;Each download is approximately 700MB.
-Ĉiu elŝuto okupas proksimume 700MB-ojn.
+Ĉiu elŝuto okupas proksimume 700 Megabajtojn.
 
 
 # en/2/download_index.php +167
@@ -146,6 +151,11 @@ Publikig-notoj
 <strong>ne</strong> uzu vivajn KD;
 
 
+# en/2/download_index.php +208
+;see the <a href="%s" hreflang="en">upgrade guide</a>
+vidu la <a href="%s" hreflang="en">ĝisdatigan gvidilon</a>
+
+
 # en/2/download_index.php +214
 ;Looking for Mageia 1?
 Ĉu vi serĉas Maejon 1?
@@ -158,7 +168,7 @@ Publikig-notoj
 
 # en/for-pc/index.php +12
 ;page_title
-paĝa_titolo
+page_title
 
 
 # en/for-server/index.php +21
@@ -231,6 +241,16 @@ Magejo 2
 Magejo 2 estas la nova, solida, stabila linuksa distribuaĵo de la projekto Magejo.
 
 
+# en/2/index.php +30
+;Mageia 2 is a GNU/Linux distribution for your computer, released by the <a href="%s">Mageia community</a>.
+Magejo 2 estas GNU/Linuksa distribuaĵo por via komputilo publikigita de la <a href="%s">Mageja Komunumo</a>.
+
+
+# en/2/index.php +33
+;What's new?
+Kio estas nova?
+
+
 # en/2/index.php +35
 ;Too much to include here! See the <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">release notes</a> for an extensive exposé.
 Tro multe por inkludi ĉi tie! Vidu la <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">publikig-notojn</a> por plidetala klarigo.
@@ -249,6 +269,11 @@ Magejo kuntekste
 # en/2/index.php +41
 ;Mageia is both a Community and a Linux Distribution, with Mageia 2 being our second release.
 Magejo estas samtempe komunumo kaj linuksa Distribuaĵo. Magejo 2 estas nia dua distribuaĵ-publikigo.
+
+
+# en/2/index.php +43
+;Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch\'s most popular distributions</a>.
+Ekde la publikigo de <a href="../1/">Magejo 1</a>, nia propono estis ĉiam en la listo de la <a href="%s">10 plej popularaj distribuaĵoj de Distrowatch</a>.
 
 
 # en/2/index.php +46
