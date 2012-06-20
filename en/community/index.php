@@ -130,7 +130,7 @@ include '../../lib/news.php';
         <hr>
         <h2><?php _e('Toolbox')?></h2>
         <ul class="hl">
-            <li><a href="<?= _d('http://wiki.mageia.org/')?>">Wiki</a> &larr; collaborative documentation</li>
+            <li><a href="<?php _e('http://wiki.mageia.org/')?>">Wiki</a> &larr; collaborative documentation</li>
             <li><a href="http://bugs.mageia.org/">Bugzilla</a> &larr; to report bugs</li>
             <li><a href="<?php _e('forum_url')?>">Forum</a></li>
             <li><a href="/en/calendar/">Calendar</a></li>
