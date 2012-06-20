@@ -148,22 +148,33 @@ S;
  * @param boolean $ret return value?
  *
  * @return null|string
- *
- * FIXME Yes, it's terribly wrong/evil to rely on an unknown global $_t.
- * Solution? rethink the whole i18n thing in an integrated one.
 */
 function _t($s = null, $opt = null, $post = ' ') {
     return _d($s, $opt) . $post;
 }
 
+/**
+ * @param string $s
+ * @param array $opt
+ *
+ * @return string
+ *
+ * FIXME Yes, it's terribly wrong/evil to rely on an unknown global $_t.
+ * Solution? rethink the whole i18n thing in an integrated one.
+*/
 function _d($s = null, $opt = null) {
+    if ($s == '')
+        return null;
+
     if (!is_null($opt))
         $_t = $opt;
     else {
         global $_t;
     }
 
-    return trim(str_replace('{ok}', '', ($s == '' ? '---' : (array_key_exists($s, $_t) ? $_t[$s] : $s))));
+    $ret = array_key_exists($s, $_t) ? $_t[$s] : $s;
+
+    return trim(str_replace('{ok}', '', $ret));
 }
 
 /**
