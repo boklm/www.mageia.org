@@ -26,13 +26,13 @@ $_t = array(
     ),
     'fr' => array(
         'page_title' => 'Communauté Mageia',
-        'page_h1' => 'Portail de la communauté Mageia',
-        'News' => 'Actualités',
+        'page_h1'    => 'Portail de la communauté Mageia',
+        'News'       => 'Actualités',
         'How to contribute?' => 'Comment contribuer&nbsp;?',
-        'Toolbox' => 'Boîte à outils',
-        'blog_url' => 'http://blog.mageia.org/fr/',
+        'Toolbox'    => 'Boîte à outils',
+        'blog_url'   => 'http://blog.mageia.org/fr/',
         'planet_url' => 'http://planet.mageia.org/fr/',
-        'forum_url' => 'http://forum.mageia.org/fr/'
+        'forum_url'  => 'http://forum.mageia.org/fr/'
     ),
     'it' => array(
         'blog_url' => 'http://blog.mageia.org/it/',
@@ -46,6 +46,11 @@ $_t = array(
     ),
     'pt' => array(
         'blog_url' => 'http://blog.mageia.org/pt/',
+    ),
+    'pt-br' => array(
+        'blog_url'  => 'http://blog.mageia.org/pt/',
+        'forum_url' => 'http://forum.mageiabr.org/',
+        'http://wiki.mageia.org/'  => 'http://wiki.mageiabr.org/'
     ),
     'ro' => array(
         'blog_url' => 'http://blog.mageia.org/ro/',
@@ -125,7 +130,7 @@ include '../../lib/news.php';
         <hr>
         <h2><?php _e('Toolbox')?></h2>
         <ul class="hl">
-            <li><a href="http://wiki.mageia.org/">Wiki</a> &larr; collaborative documentation</li>
+            <li><a href="<?= _d('http://wiki.mageia.org/')?>">Wiki</a> &larr; collaborative documentation</li>
             <li><a href="http://bugs.mageia.org/">Bugzilla</a> &larr; to report bugs</li>
             <li><a href="<?php _e('forum_url')?>">Forum</a></li>
             <li><a href="/en/calendar/">Calendar</a></li>
