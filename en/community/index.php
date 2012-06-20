@@ -70,8 +70,11 @@ include '../../lib/news.php';
 <head>
     <meta charset="utf-8">
     <title><?php _e('page_title')?></title>
-    <link rel="stylesheet" href="/g/style/all.css">
-    <style>
+    <meta name="description" content="Mageia Community Central is the place where all contributors and users can find the latest news about Mageia and learn more about what to do in the project.">
+    <meta name="keywords" content="mageia, community, news, tools, tasks">
+    <meta name="author" content="Mageia">
+    <link rel="stylesheet" type="text/css" href="/g/style/all.css">
+    <link rel="icon" type="image/png" href="/g/favicon.png" />    <style>
     #newslist { list-style: none; margin: 0; padding: 0; }
         #newslist > li { list-style: none; padding: 0.6em 0.9em; }
         #newslist li:first-child { font-weight: bold; outline: 1px solid #fa8; margin-bottom: 0.4em; background: #fffaf0; }
