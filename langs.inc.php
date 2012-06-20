@@ -188,6 +188,13 @@ function _e($s = null, $args = null) {
         echo _t($s);
 }
 
+/**
+ * @param string $s string to echo
+ * @param array $args optional params to $s
+ * @param string $tag optional tag to wrap $s into
+ *
+ * @return string
+*/
 function _h($s, $args = null, $tag = 'p') {
     if (is_array($args))
         $s = vsprintf(_t($s), $args);
