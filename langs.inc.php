@@ -199,7 +199,10 @@ function _h($s, $args = null, $tag = 'p') {
     if (is_array($args))
         $s = vsprintf(_t($s), $args);
 
-    echo sprintf('<%s>%s</%s>', $tag, _t($s), $tag);
+    $close_tag = explode(' ', $tag);
+    $close_tag = array_shift($close_tag);
+
+    echo sprintf('<%s>%s</%s>', $tag, _t($s), $close_tag);
 }
 
 /**
