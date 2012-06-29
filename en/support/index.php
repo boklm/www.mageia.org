@@ -79,7 +79,7 @@ $_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
                         echo '<hr>';
                         
                         _h('Bugs Reports', null, 'h2 id="bugs"');
-                        _h('You may check and report bugs on <a href="%s">our Bugzilla (bugs.mageia.org)</a>',
+                        _h('You may check and report bugs on <a href="%s">our Bugzilla (bugs.mageia.org)</a>.',
                             array('https://bugs.mageia.org/'));
                         echo '<hr>';
                     ?>
