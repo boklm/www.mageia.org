@@ -2,8 +2,6 @@
 
 define('HLANG', true);
 require '../../langs.php';
-include 'locales.php';
-$_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
 
 _lang_load($locale, '2');
 ?>
@@ -31,15 +29,11 @@ _lang_load($locale, '2');
                 array('../community'));
 
             _h("What's new?", null, 'h2');
-
             _h('Too much to include here! See the <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">release notes</a> for an extensive exposé.');
-            
             _h('<a href="../downloads/" style="background: #1272B1; color: white; padding: 0.9em; margin: 1em; display: inline-block; text-shadow: 0 1px 6px #000; border-radius: 3px;">Download it right away!</a>');
 
             _h('Mageia in context', null, 'h2');
-
             _h('Mageia is both a Community and a Linux Distribution, with Mageia 2 being our second release.');
-
             _h('Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch\'s most popular distributions</a>.',
                 array('http://distrowatch.com/popularity'));
 
@@ -47,7 +41,6 @@ _lang_load($locale, '2');
             _h('Mageia 2 has been made by more than 100 people from all around the world.');
 
             _h('Our work adds to the excellent work of the wider Linux and Free Software community. We aim to bring one of the best, most stable, reliable and enjoyable experience and platform we can make; for regular users, developers and businesses.');
-
             _h('We welcome new contributors to any of the many different teams that go to make up Mageia the Community, and we encourage you to join us.');
             ?>
         </section>
