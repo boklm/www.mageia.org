@@ -100,8 +100,18 @@ function get_feed($url, $count = 5, $cache_timeout = 5)
 }
 
 /**
+ * 
+ * @param string $locale locale this feed is expected to be in
+ * @param string $title feed title
+ * @param string $link feed main site title
+ * @param string $feed feed url
+ * @param integer $count how many items to return
+ * @param string $skip url whose element we want to skip (why?)
+ * @param boolean split title that has been built by aggregator
+ *
+ * @return string
 */
-function show_feed($locale, $title, $link, $feed, $count = 5, $skip = null) {
+function show_feed($locale, $title, $link, $feed, $count = 5, $skip = null, $split = false) {
 
     if (!is_null($skip))
         $count += 5;
@@ -117,8 +127,17 @@ function show_feed($locale, $title, $link, $feed, $count = 5, $skip = null) {
         if (!is_null($skip) && strpos($d['link'], $skip) !== false)
             continue;
 
-        $s .= sprintf('<li><a href="%s">%s</a> <span class="dt">%s</span></li>',
-            $d['link'], $d['title'], news_date($d['date'], $locale));
+        if ($split && strpos($d['title'], ' : ') !== false) {
+            $title  = explode(' : ', $d['title']);
+            $source = ' / ' . array_shift($title);
+            $title  = implode(' : ', $title);
+        } else {
+            $title  = $d['title'];
+            $source = null;
+        }
+
+        $s .= sprintf('<li><a href="%s">%s</a> <span class="dt">%s%s</span></li>',
+            $d['link'], $title, news_date($d['date'], $locale), $source);
     }
     $s .= '</ul>';
     echo $s;

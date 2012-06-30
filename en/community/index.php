@@ -2,7 +2,6 @@
 
 define('HLANG', true);
 require '../../langs.php';
-include 'locales.php';
 
 $_t = array(
     'de' => array(
@@ -67,6 +66,7 @@ $_t = array(
 );
 
 $_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
+_lang_load($locale, 'community');
 include '../../lib/news.php';
 
 ?>
@@ -108,9 +108,9 @@ include '../../lib/news.php';
             <h2><a href="<?php _e('blog_url')?>"><?php _e('News');?></a></h2>
             <?php
             if (_d('planet_url') != 'planet_url') {
-                show_feed($locale, null, _d('planet_url'), _d('planet_url') . '?type=rss10', 9);
+                show_feed($locale, null, _d('planet_url'), _d('planet_url') . '?type=rss10', 9, null, true);
             } elseif (_d('blog_url') != 'blog_url') {
-                show_feed($locale, null, _d('blog_url'), _d('blog_url') . '?feed=rss', 9);
+                show_feed($locale, null, _d('blog_url'), _d('blog_url') . '?feed=rss', 9, null, true);
             }
             // don't work:
             //show_feed('Mageia MLs', '', 'https://ml.mageia.org/l/rss/active_lists?count=20&for=10');
