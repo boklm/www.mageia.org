@@ -90,7 +90,19 @@ include '../../lib/news.php';
 </head>
 <body class="community">
     <?php echo $hsnav; ?>
-    <h1 id="mgnavtitle"><?php _e('page_h1')?></h1>
+    <header id="mgnavt">
+        <h1><?php _e('page_h1')?></h1>
+        <ul>
+            <li><a href="<?php _e('blog_url')?>"><?php _e('Blog');?></a></li>
+            <li><a href="<?php _e('planet_url')?>">Planet</a></li>
+            <li><a href="/en/calendar/">Calendar</a></li>
+            <li><a href="https://wiki.mageia.org/en/IRC">IRC</a></li>
+            <li><a href="<?php _e('forum_url')?>">Forums</a></li>
+            <li><a href="http://ml.mageia.org/">Mailing-lists</a></li>
+            <li><a href="<?php _e('http://wiki.mageia.org/')?>">Wiki</a></li>
+            <li><a href="https://bugs.mageia.org/">Bugzilla</a></li>
+        </ul>
+    </header>
     <div class="para" style="width: 400px;">
         <section>
             <h2><a href="<?php _e('blog_url')?>"><?php _e('News');?></a></h2>
@@ -136,8 +148,8 @@ include '../../lib/news.php';
             <li><a href="/en/calendar/">Calendar</a></li>
             <li><a href="http://mageia.madb.org">Mageia Applications Database</a></li>
         </ul>
-        
-        <p>For developers and packagers:</p>
+        <hr>
+        <h2>For developers &amp; packagers</h2>
         <ul class="hl">
             <li><a href="http://svn.mageia.org/">Subversion</a>,
                 <a href="http://gitweb.mageia.org/">Git</a> code repositories</li>
