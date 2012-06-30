@@ -2,9 +2,7 @@
 
 define('HLANG', true);
 require '../../langs.php';
-include 'locales.php';
-
-$_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
+_lang_load($locale, 'map');
 
 $map = array(
     'about' => array(
@@ -131,7 +129,6 @@ $sMap .= '</ul>';
     <?php echo $hsnav; ?>
     <h1 id="mgnavtitle"><?php _e('Site Map'); ?></h1>
     <div class="doc">
-        <p><?php _e('welcome!')?></p>
         <?php echo $sMap; ?>
         <div style="clear: both;"></div>
         <hr>
