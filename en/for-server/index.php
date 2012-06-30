@@ -9,7 +9,7 @@ _lang_load($locale, '2');
 <html lang="<?php echo $locale; ?>">
 <head>
     <meta charset="utf-8">
-    <title><?php _e('page_title')?></title>
+    <title><?php _e('Mageia 2, for your server')?></title>
     <link rel="stylesheet" href="/g/style/all.css">
     <style>
     .para { text-align: left; float: left; width: 250px; display: block; border-right: 1px solid #eef; border-bottom: 1px solid #eef; }
@@ -34,7 +34,7 @@ _lang_load($locale, '2');
             _h('The entire High Availability stack has been updated, and now includes drbd 8.3.11, Corosync 2.0.0 and Pacemaker 1.1.7.');
 
             _h('Databases', null, 'h3');
-            _h('Databases included are PostgreSQL 8.4.11; MariaDB, which replaces MySQL 5.5.23; BDB .');
+            _h('Databases included are PostgreSQL 8.4.11; MariaDB, which replaces MySQL 5.5.23; BDB.');
             _h('And there are NoSQL servers too: CouchDB 1.1.1, Redis 2.4.8, Cassandra 1.4.0, MongoDB 2.0.3.');
 
             _h('Servers', null, 'h3');
