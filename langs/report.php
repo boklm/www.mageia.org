@@ -15,7 +15,7 @@
     }
     .ok { color: darkgreen; background: lightgreen; text-align: center; }
     .strings { background: orange; }
-    .missing { baackground: darkorange; }
+    .missing {}
     .strings, .missing { font-size: 80%; }
     .number, .strings, .missing { text-align: right; }
     .small { font-size: 80%; }
