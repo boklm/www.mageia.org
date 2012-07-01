@@ -144,3 +144,8 @@ For some kinds of hardware (Wi-Fi chipsets, 3D graphic cards) to work properly, 
 ;We may set up a hardware compatibility list/directory as well as a hardware certification process; but that's still at the planning stage. Feel free to join/contact our <a href="%s">Web</a> and <a href="%s">QA</a> teams if you would like to help in this regard.
 We may set up a hardware compatibility list/directory as well as a hardware certification process; but that's still at the planning stage. Feel free to join/contact our <a href="%s">Web</a> and <a href="%s">QA</a> teams if you would like to help in this regard.
 
+;You may check and report bugs on <a href="%s">our Bugzilla (bugs.mageia.org)</a>.
+You may check and report bugs on <a href="%s">our Bugzilla (bugs.mageia.org)</a>.
+
+;Bugs Reports
+Bugs Reports
