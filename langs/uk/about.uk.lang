@@ -62,6 +62,11 @@ Mageia є операційною системою з відкритим кодо
 
 
 # /en/about/index.php +69
+;<a href=%s>Mageia.Org's legal constitution</a> and <a href=%s>governance</a> rules;
+<a href=%s>Письмові засади Mageia.Org</a> та <a href=%s>правила керування</a>;
+
+
+# /en/about/index.php +69
 ;is the French, Paris-based legal structure supporting the Mageia project.
 є французькою юридичною структурою, що базується у Парижі, її призначенням є підтримка проекту Mageia.
 
