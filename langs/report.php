@@ -5,13 +5,17 @@
     <meta name="robots" content="noindex,nofollow,nosnippet">
     <title>www.mageia.org translation report</title>
     <style>
+    html, body { margin: 0; padding: 0; font-family: Verdana, "Trebuchet MS", "Lucida Grande", "Lucida Sans", Verdana, Tahoma, Arial, sans-serif; }
+    #page { padding: 1em; position: absolute; top: 128px; }
+    th, td { padding: 0.3em; }
+    th { text-align: left; }
     .ok a {
         text-decoration: none;
         color: inherit;
     }
     .ok { color: darkgreen; background: lightgreen; text-align: center; }
     .strings { background: orange; }
-    .missing { background: darkorange; }
+    .missing { baackground: darkorange; }
     .strings, .missing { font-size: 80%; }
     .number, .strings, .missing { text-align: right; }
     .small { font-size: 80%; }
@@ -19,11 +23,14 @@
     .lv { display: inline-block; -webkit-transform: rotate(-40deg); }
     </style>
 </head>
-<body>
-    <h1><a href="//www.mageia.org/">www.mageia.org</a> translation report</h1>
-    <ul>
-        <li>TODO article/link on the Wiki: How to translate this Web site?</li>
-    </ul>
+<body class="contribute">
+    <header id="mgnavt">
+        <h1><a href="//www.mageia.org/">www.mageia.org</a> translation report</h1>
+        <ul>
+            <li><a href="https://wiki.mageia.org/en/Internationalisation_Team_(i18n)#Website_translation">i18n Web Wiki</a></li>
+        </ul>
+    </header>
+    <div id="page">
     <?php
     /**
     */
@@ -31,14 +38,14 @@
 
     $enFiles    = get_lang_references();
     $otherLangs = get_other_langs();
-    
-    echo '<p>', count($otherLangs), ' languages.</p>';
-    
+
     $enStringsCount = array();
     $report         = array();
     $stats          = array();
-    
+
     $diff_link      = '<a href="diff.php?s=%s&l=%s" title="see detailed diff">';
+
+    $languages      = array();
 
     foreach ($otherLangs as $l) {
 
@@ -46,8 +53,10 @@
 
         $stats['en']['files'] += 1;
 
-        $s .= sprintf('<tr><th>%s (%s)</th>',
+        $s = sprintf('<tr><th>%s<br><span style="font-weight: normal; font-size: smaller;">(%s)</span></th>',
             $langs[$l], $l);
+
+        $cols = '';
 
         foreach ($enFiles as $f) {
 
@@ -57,6 +66,9 @@
             if (file_exists($langF)) {
 
                 $stats[$l]['files'] += 1;
+
+                $link = str_replace(array('en/', '.en.lang', 'index'), '', $f);
+                $link = sprintf('<a href="//www.mageia.org/%s/%s" style="font-size: smaller; display: block;">check page</a>', $l, $link);
 
                 $test = _lang_diff($f, $langF);
 
@@ -68,28 +80,29 @@
                         $extra = ' <span class="small">' . sprintf($diff_link, $f, $l) . '(+' . count($test['extra']) . ')</a></span>';
                     }
 
-                    $s .= sprintf('<td class="ok"><a href="%s" title="get a copy of the file">OK</a>%s</td>',
-                        $langF, $extra);
+                    $cols .= sprintf('<td class="ok"><a href="%s" title="get a copy of the file">OK</a>%s%s</td>',
+                        $langF, $extra, $link);
                 }
                 else {
                     // special case, en
                     if ($l == 'en') {
-                        $s .= '<td class="number">' . count($test['notrans']) . ' strings</td>';
+                        $cols .= '<td class="number">' . count($test['notrans']) . ' strings</td>';
                         $enStringsCount[$f] += $test['a'];
 
                     // regular case
                     } else {
 
-                        $s .= sprintf('<td class="strings">' . $diff_link,
+                        $cols .= sprintf('<td class="strings">' . $diff_link,
                             $f, $l);
 
                         if (count($test['missing']) > 0) {
-                            $s .= count($test['missing']) . '&nbsp;missing<br>';
+                            $cols .= count($test['missing']) . '&nbsp;missing<br>';
                         }
                         if (count($test['notrans']) > 0) {
-                            $s .= count($test['notrans']) . '&nbsp;untranslated';
+                            $cols .= count($test['notrans']) . '&nbsp;untranslated';
                         }
-                        $s .= '</a></td>';
+                        $cols .= '</a>';
+                        $cols .= $link . '</td>';
                     }
                 }
                 $stats[$l]['strings'] += $test['b'];
@@ -97,32 +110,36 @@
             } else {
                 $stats[$l]['files'] += 0;
                 $stats[$l]['strings'] += 0;
-                $s .= sprintf('<td class="missing"><a href="missing.php?s=%s&l=%s">add</a></td>',
+                $cols .= sprintf('<td class="missing"><a href="missing.php?s=%s&l=%s">add</a></td>',
                     $f, $l
                 );
             }
         }
-        
+
+        $progress = round($stats[$l]['strings'] / $stats['en']['strings'] * 100);
         $s .= sprintf(
-            '<td class="number">%d / %d</td>
-            <td class="number">%d%%</td>',
+            '<td class="number">%d%%<br><span style="font-size: smaller;">%d / %d</span></td>',
+            $progress,
             $stats[$l]['strings'],
-            $stats['en']['strings'],
-            round($stats[$l]['strings'] / $stats['en']['strings'] * 100)
+            $stats['en']['strings']
         );
+        $s .= $cols;
         
         $s .= '</tr>';
+        $languages[$progress . '-' . $l] = $s;
     }
+    krsort($languages, SORT_NUMERIC);
+    $s = implode($languages);
 
     $thfiles = '<th>' . implode('</th><th>', $enFiles) . '</th>';
+    $count   = count($otherLangs);
 
     echo <<<S
 <table border="1">
 <thead><tr>
-    <th>Language</th>
-    {$thfiles}
-    <th>Translated strings</th>
+    <th>{$count} languages</th>
     <th>Completeness</th>
+    {$thfiles}
 </tr></thead>
 <tbody>
 {$s}
@@ -132,5 +149,7 @@
 <hr>
 S;
 ?>
+    </div>
+    <script src="//nav.mageia.org/js/"></script>
 </body>
 </html>
