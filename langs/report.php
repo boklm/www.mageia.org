@@ -82,12 +82,15 @@
 
                     $cols .= sprintf('<td class="ok"><a href="%s" title="get a copy of the file">OK</a>%s%s</td>',
                         $langF, $extra, $link);
+
+                    $done = $test['a'];
                 }
                 else {
                     // special case, en
                     if ($l == 'en') {
                         $cols .= '<td class="number">' . count($test['notrans']) . ' strings</td>';
                         $enStringsCount[$f] += $test['a'];
+                        $done = $test['a'];
 
                     // regular case
                     } else {
@@ -99,13 +102,17 @@
                             $cols .= count($test['missing']) . '&nbsp;missing<br>';
                         }
                         if (count($test['notrans']) > 0) {
-                            $cols .= count($test['notrans']) . '&nbsp;untranslated';
+                            $cols .= count($test['notrans']) . '&nbsp;untranslated<br>';
+                        }
+                        if (count($test['extra']) > 0) {
+                            $cols .= count($test['extra']) . '&nbsp;extra';
                         }
                         $cols .= '</a>';
                         $cols .= $link . '</td>';
+                        $done = $test['a'] - count($test['notrans']) - count($test['missing']);
                     }
                 }
-                $stats[$l]['strings'] += $test['b'];
+                $stats[$l]['strings'] += $done;
 
             } else {
                 $stats[$l]['files'] += 0;
@@ -116,7 +123,7 @@
             }
         }
 
-        $progress = round($stats[$l]['strings'] / $stats['en']['strings'] * 100);
+        $progress = floor($stats[$l]['strings'] / $stats['en']['strings'] * 100);
         $s .= sprintf(
             '<td class="number">%d%%<br><span style="font-size: smaller;">%d / %d</span></td>',
             $progress,
