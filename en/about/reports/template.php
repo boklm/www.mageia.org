@@ -261,11 +261,20 @@ $flow['revenue_op'] = $count;
                     <td class="money"><?php echo number_format(str_replace(',', '.', $parsed['# Income Statement > ## Revenues']['Total of revenues']), 2, '.', ','); ?></td>
                     <td>Total of expenses</td>
                     <td class="money"><?php echo number_format(str_replace(',', '.', $parsed['# Income Statement > ## Expenses']['Total of expenses']), 2, '.', ','); ?></td>
-                    </tr>
-                <tr><td colspan="2"></td>
+                </tr>
+                <tr>
+                <?php
+                $result = $parsed['# Income Statement > ## Revenues']['Total of revenues'] - $parsed['# Income Statement > ## Expenses']['Total of expenses'];
+                if ($result > 0):
+                ?>
+                    <td colspan="2"></td>
                     <td>Net Income</td>
-                    <td class="money"><?php echo number_format(str_replace(',', '.', $parsed['# Income Statement > ## Expenses']['Net Income']), 2, '.', ','); ?></td>
-                    </tr>
+                    <td class="money"><?php echo number_format(str_replace(',', '.', $result), 2, '.', ','); ?></td>
+                <?php else: ?>
+                    <td>Net Loss</td>
+                    <td class="money"><?php echo number_format(str_replace(',', '.', $result), 2, '.', ','); ?></td>
+                <?php endif; ?>
+                </tr>
                 </tfoot>
             </table>
         </section>
@@ -340,6 +349,7 @@ $flow['revenue_op'] = $count;
                 $sums['count'] > 0 ? number_format(str_replace(',', '.', $sums['total'] / $sums['count']), 2, '.', ',') : ''
             );
             echo '</tfoot></table>';
+            $total_expenses = $sums['total'];
             ?>
             
             <h3>Details</h3>
@@ -458,6 +468,7 @@ $flow['revenue_op'] = $count;
                 number_format(str_replace(',', '.', $sums['cash']), 2, '.', ','),
                 $sums['count'] > 0 ? number_format(str_replace(',', '.', $sums['total'] / $sums['count']), 2, '.', ',') : ''
             );
+            $total_revenues = $sums['total'];
             echo '</tfoot></table>';
             echo <<<S
             <script type="text/javascript">
