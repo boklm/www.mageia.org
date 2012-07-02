@@ -87,7 +87,7 @@
 
 
 ;Mageia.Org does not provide or endorse commercial/professional support or other services around the distribution. But there are organizations providing such services and more.
-Mageia.Org does not provide or endorse commercial/professional support or other services around the distribution. But there are organizations providing such services and more.
+Mageia.Org не надає і не сертифікує жодних послуг з комерційної або професійної підтримки або інших послуг, пов’язаних з дистрибутивом. Але існують організації, які надають ці та інші послуги.
 
 
 
@@ -137,15 +137,15 @@ Mageia.Org does not provide or endorse commercial/professional support or other 
 
 
 ;For some kinds of hardware (Wi-Fi chipsets, 3D graphic cards) to work properly, specific firmware or software may be needed, this is available in a specific online repository called "nonfree" (learn more).
-For some kinds of hardware (Wi-Fi chipsets, 3D graphic cards) to work properly, specific firmware or software may be needed, this is available in a specific online repository called "nonfree" (learn more).
+Щоб забезпечити належну роботу деяких типів обладнання (мікросхеми Wi-Fi, дискретні графічні картки), можуть знадобитися певні мікрокоди або драйвери, які можна встановити з особливого сховища з назвою «nonfree» (дізнайтеся більше).
 
 
 
 ;We may set up a hardware compatibility list/directory as well as a hardware certification process; but that's still at the planning stage. Feel free to join/contact our <a href="%s">Web</a> and <a href="%s">QA</a> teams if you would like to help in this regard.
-We may set up a hardware compatibility list/directory as well as a hardware certification process; but that's still at the planning stage. Feel free to join/contact our <a href="%s">Web</a> and <a href="%s">QA</a> teams if you would like to help in this regard.
+Можливо, нами буде створено спеціальний список або каталог для сертифікації обладнання, але ця ідея все ще перебуває на стадії планування. Якщо ви хочете допомогти нам з її реалізацією, будь ласка, зв’яжіться або долучіться до нашої <a href="%s">інтернет-команди</a> та <a href="%s">команди з забезпечення якості</a>.
 
 ;You may check and report bugs on <a href="%s">our Bugzilla (bugs.mageia.org)</a>.
-You may check and report bugs on <a href="%s">our Bugzilla (bugs.mageia.org)</a>.
+Ознайомитися зі списком вад та повідомити про вади можна за допомогою <a href="%s">нашої системи сповіщення про вади (bugs.mageia.org)</a>.
 
 ;Bugs Reports
 Звіти щодо вад
