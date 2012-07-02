@@ -12,8 +12,9 @@ $_months = array(
     10 => 'October', 11 => 'November', 12 => 'December'
 );
 
-$data = file($source_csv);
+$data   = file($source_csv);
 $parsed = array();
+
 foreach ($data as $l) {
     if (trim($l) == ',,,,,,')
         continue;
@@ -52,16 +53,16 @@ foreach ($parsed as $tag => $values) {
 }
 $flow = array();
 
-$list = array();
-$count = array();
-foreach ($parsed['# Expenses details > ## Monthly summary'] as $line) {
-    $list[] = $line[2];
-    $count[] = $line[1];
+$list  = array_fill(1, 12, 0);
+$count = array_fill(1, 12, 0);
+$tmp = $parsed['# Expenses details > ## More details'];
+array_shift($tmp);
+foreach ($tmp as $line) {
+    $month          = date('n', strtotime($line[0]));
+    $list[$month]  += $line[3]; // amount
+    $count[$month] += 1;
 }
-unset($list[0]);
-unset($list[13]);
-unset($count[0]);
-unset($count[13]);
+$expenses_monthly_summary = array($list, $count);
 
 $flow = array(
     'expenses'    => $list,
@@ -83,6 +84,11 @@ unset($count[13]);
 
 $flow['revenue'] = $list;
 $flow['revenue_op'] = $count;
+
+include 'template_lib.php';
+
+$R = get_revenues($parsed['# Income details > ## Donations monthly summary']);
+$expenses_total = array_sum($expenses_monthly_summary[0]);
 
 
 ?><!DOCTYPE html>
@@ -187,6 +193,7 @@ $flow['revenue_op'] = $count;
     <style>
     #summary { width: 300px; float: left; text-align: left; background: #fff; border-bottom: 1px solid #ddd; }
     #report { text-align: left; width: 800px; float: left; border: 1px solid #ddd; border-top: 0; }
+    #links { width: 150px; float: left; background: #fff; text-align: left; border-right: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 1em;}
     </style>
     <aside id="summary">
         <div class="para">
@@ -213,73 +220,49 @@ $flow['revenue_op'] = $count;
     </aside>
 
     <article id="report">
-        <section class="para values">
+        <section class="para values" id="flow">
             <h2>Cash flow</h2>
             <div id="chart_div" style="width: 650px; height: 280px;"></div>
             <div id="chart3" style="width: 650px; height: 200px;"></div>
             <div id="chart2" style="width: 650px; height: 200px;"></div>
             <hr>
         </section>
-        <section class="para values">
+        <section class="para values" id="inc-state">
             <h2>Income statement</h2>
+            <mark>TODO: full income statement. For now, check details below.</mark>
             <table summary="Income statement" class="fr-table">
-                <thead><tr><th colspan="2">Revenues</th>
-                    <th colspan="2">Expenses</th></tr></thead>
                 <tbody>
-                <tr><td colspan="2">
-                    <table class="fr-table">
-                    <?php
-                    $s = '';
-                    foreach ($parsed['# Income Statement > ## Revenues'] as $k => $v) {
-                        if (in_array($k, array('Total of revenues', 'Net Loss')))
-                            continue;
-
-                        $s .= sprintf('<tr><td>%s</td><td class="money">%s</td></tr>',
-                            $k, number_format(str_replace(',', '.', $v), 2, '.', ','));
-                    }
-                    echo $s;
-                    ?>
-                    </table>
-                </td><td colspan="2">
-                    <table class="fr-table">
-                    <?php
-                    $s = '';
-                    foreach ($parsed['# Income Statement > ## Expenses'] as $k => $v) {
-                        if (in_array($k, array('Total of expenses', 'Net Income')))
-                            continue;
-
-                        $s .= sprintf('<tr><td>%s</td><td class="money">%s</td></tr>',
-                            $k, number_format(str_replace(',', '.', $v), 2, '.', ','));
-                    }
-                    echo $s;
-                    ?>
-                    </table>
-                </td></tr>
-                </tbody>
-                <tfoot style="font-weight: bold;">
-                <tr><td>Total of revenues</td>
-                    <td class="money"><?php echo number_format(str_replace(',', '.', $parsed['# Income Statement > ## Revenues']['Total of revenues']), 2, '.', ','); ?></td>
-                    <td>Total of expenses</td>
-                    <td class="money"><?php echo number_format(str_replace(',', '.', $parsed['# Income Statement > ## Expenses']['Total of expenses']), 2, '.', ','); ?></td>
+                <tr>
+                    <th>Revenues</th>
+                    <td></td>
+                    <td class="money"><?php echo number_format(str_replace(',', '.', $R['data']['total']), 2, '.', ',');?></td>
                 </tr>
                 <tr>
+                    <th>Expenses</th>
+                    <td class="money"><?php echo number_format(str_replace(',', '.', $expenses_total), 2, '.', ',');?></td>
+                    <td></td>
+                </tr>
+                </tbody>
+                <tfoot>
+                <tr>
                 <?php
-                $result = $parsed['# Income Statement > ## Revenues']['Total of revenues'] - $parsed['# Income Statement > ## Expenses']['Total of expenses'];
+                $result = $R['data']['total'] - $expenses_total;
                 if ($result > 0):
                 ?>
-                    <td colspan="2"></td>
                     <td>Net Income</td>
+                    <td></td>
                     <td class="money"><?php echo number_format(str_replace(',', '.', $result), 2, '.', ','); ?></td>
                 <?php else: ?>
                     <td>Net Loss</td>
-                    <td class="money"><?php echo number_format(str_replace(',', '.', $result), 2, '.', ','); ?></td>
+                    <td class="money"><?php echo number_format(str_replace(',', '.', -$result), 2, '.', ','); ?></td>
+                    <td></td>
                 <?php endif; ?>
                 </tr>
                 </tfoot>
             </table>
         </section>
         <hr>
-        <section class="para values">
+        <section class="para values" id="balance">
             <h2>Balance sheet</h2>
             <table class="fr-table">
                 <thead><tr><th colspan="2">Assets</th>
@@ -314,188 +297,25 @@ $flow['revenue_op'] = $count;
             </table>
         </section>
         <hr>
-        <section class="para values">
+        <section class="para values" id="expenses">
             <h2>Expenses</h2>
-            
-            <?php
-            
-            $v = $parsed['# Expenses details > ## Monthly summary'];
-            echo '<table class="fr-table">';
-            $s = array_shift($v);
-            echo vsprintf('<thead><tr><th>%s</th><th>%s</th><th>%s</th><th>average/expense</th></tr></thead><tbody>',
-                $s);
-            $sums = array();
-            foreach ($v as $line) {
-                if ($line[0] == 'total')
-                    continue;
-
-                echo sprintf('<tr><td>%s</td><td class="money">%s</td><td class="money">%s</td><td class="money">%s</td></tr>',
-                    $_months[$line[0]],
-                    $line[1],
-                    number_format(str_replace(',', '.', $line[2]), 2, '.', ','),
-                    $line[1] > 0 ? number_format(str_replace(',', '.', $line[2] / $line[1]), 2, '.', ',') : ''
-                );
-            
-                $sums['count'] += $line[1];
-                $sums['total'] += $line[2];
-            }
-            echo '</tbody><tfoot>';
-            echo sprintf('<tr><th>Total</th>
-                <td class="money">%s</td>
-                <td class="money">%s</td>
-                <td class="money">%s</td></tr>',
-                $sums['count'],
-                number_format(str_replace(',', '.', $sums['total']), 2, '.', ','),
-                $sums['count'] > 0 ? number_format(str_replace(',', '.', $sums['total'] / $sums['count']), 2, '.', ',') : ''
-            );
-            echo '</tfoot></table>';
-            $total_expenses = $sums['total'];
-            ?>
-            
-            <h3>Details</h3>
-            
-            <div id="expenses-cats-pie"></div>
-            <table class="fr-table">
-            <?php
-            $v    = $parsed['# Expenses details > ## More details'];
-            $line = array_shift($v);
-            $sums = array();
-
-            echo sprintf('<thead><tr><th>%s</th><th>%s</th><th>%s</th><th>%s</th><th>%s</th><th class="money">%s</th></tr></thead><tbody>',
-                $line[0], $line[1],
-                $line[2], $line[3],
-                $line[4],
-                $line[5]);
-
-            foreach ($v as $line) {
-                if (count($line) < 2)
-                    continue;
-
-                echo sprintf('<tr><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td class="money">%s</td></tr>',
-                    $line[0], $line[1],
-                    $line[2], $line[3],
-                    $line[4],
-                    number_format(str_replace(',', '.', $line[5]), 2, '.', ','));
-
-                $cat = explode(':', $line[3]);
-                $sums[$cat[0]] += $line[5];
-            }
-            ?>
-            </tbody>
-            </table>
-            <script type="text/javascript">
-              google.setOnLoadCallback(drawChartExpenses);
-              function drawChartExpenses() {
-                var data = new google.visualization.DataTable();
-                data.addColumn('string', 'Source');
-                data.addColumn('number', 'Amount');
-                data.addRows([
-                    <?php
-                        foreach ($sums as $k => $v)
-                            $sums[$k] = "['{$k}', $v]";
-                        echo implode(', ', $sums);
-                    ?>
-                ]);
-                var options = {'title':'Expenses by category',
-                               'width':400,
-                               'height':300};
-
-                var chart = new google.visualization.PieChart(document.getElementById('expenses-cats-pie'));
-                chart.draw(data, options);
-              }
-            </script>
+            <?php $E = get_expenses($parsed['# Expenses details > ## More details']); echo $E['html']; ?>
         </section>
         <hr>
-        <section class="para values">
+        <section class="para values" id="revenues">
             <h2>Income, donations</h2>
-            <?php
-            
-            $v = $parsed['# Income details > ## Donations monthly summary'];
-            echo '<div id="income-pie"></div>';
-            echo '<table class="fr-table">';
-            $line = array_shift($v);
-            echo sprintf('<thead><tr><th>%s</th><th>%s</th>
-                <th>%s</th><th>%s</th><th>%s</th><th>%s</th>
-                <th>%s</th><th>average</th></tr></thead>',
-                $line[0], $line[1], $line[2],
-                $line[3],
-                $line[4],
-                $line[5], $line[6]);
-
-            echo '<tbody>';
-            
-            $sums = array();
-
-            foreach ($v as $line) {
-                echo sprintf('<tr><td>%s</td><td>%s</td>
-                    <td class="money">%s</td>
-                    <td class="money">%s</td>
-                    <td class="money">%s</td>
-                    <td class="money">%s</td>
-                    <td class="money">%s</td>
-                    <td class="money">%s</td></tr>',
-                    $_months[$line[0]],
-                    $line[1],
-                    number_format(str_replace(',', '.', $line[2]), 2, '.', ','),
-                    number_format(str_replace(',', '.', $line[3]), 2, '.', ','),
-                    number_format(str_replace(',', '.', $line[4]), 2, '.', ','),
-                    number_format(str_replace(',', '.', $line[5]), 2, '.', ','),
-                    number_format(str_replace(',', '.', $line[6]), 2, '.', ','),
-                    $line[1] > 0 ? number_format(str_replace(',', '.', $line[2] / $line[1]), 2, '.', ',') : ''
-                );
-
-                $sums['count'] += $line[1];
-                $sums['total'] += $line[2];
-                $sums['check'] += $line[3];
-                $sums['xfer']  += $line[4];
-                $sums['paypal'] += $line[5];
-                $sums['cash']  += $line[6];
-            }
-            echo '</tbody><tfoot>';
-            echo sprintf('<tr><th>Total</th>
-                <td class="money">%s</td>
-                <td class="money">%s</td>
-                <td class="money">%s</td>
-                <td class="money">%s</td>
-                <td class="money">%s</td>
-                <td class="money">%s</td>
-                <td class="money">%s</td></tr>',
-                $sums['count'],
-                number_format(str_replace(',', '.', $sums['total']), 2, '.', ','),
-                number_format(str_replace(',', '.', $sums['check']), 2, '.', ','),
-                number_format(str_replace(',', '.', $sums['xfer']), 2, '.', ','),
-                number_format(str_replace(',', '.', $sums['paypal']), 2, '.', ','),
-                number_format(str_replace(',', '.', $sums['cash']), 2, '.', ','),
-                $sums['count'] > 0 ? number_format(str_replace(',', '.', $sums['total'] / $sums['count']), 2, '.', ',') : ''
-            );
-            $total_revenues = $sums['total'];
-            echo '</tfoot></table>';
-            echo <<<S
-            <script type="text/javascript">
-                  google.setOnLoadCallback(drawChart);
-                  function drawChart() {
-                    var data = new google.visualization.DataTable();
-                    data.addColumn('string', 'Source');
-                    data.addColumn('number', 'Amount');
-                    data.addRows([
-                      ['Paypal', {$sums['paypal']}],
-                      ['Bank transfer', {$sums['xfer']}],
-                      ['Check', {$sums['check']}],
-                      ['Cash', {$sums['cash']}],
-                    ]);
-
-                    var options = {'title':'Donations by source',
-                                   'width':400,
-                                   'height':300};
-
-                    var chart = new google.visualization.PieChart(document.getElementById('income-pie'));
-                    chart.draw(data, options);
-                  }
-                </script>
-S;
-            ?>
+            <?php echo $R['html']; ?>
         </section>
         <p class="para"><a href="#top">Return to top</a></p>
     </article>
+    
+    <nav id="links">
+        <ul class="hl">
+            <li><a href="#flow">Cash flow</a></li>
+            <li><a href="#inc-state">Income statement</a></li>
+            <li><a href="#balance">Balance sheet</a></li>
+            <li><a href="#expenses">Expenses</a></li>
+            <li><a href="#revenues">Revenues</a></li>
+    </nav>
 </body>
 </html>
