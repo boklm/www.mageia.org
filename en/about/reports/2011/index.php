@@ -14,7 +14,7 @@ S;
 $intro = <<<S
     <p>Here is our financial report for 2011.</p>
 
-    <ul>
+    <ul class="hl">
         <li>Read the <a href="mageia_rapport_financier_2011_fr.pdf" hreflang="fr">French, original report</a>
             or the <a href="mageia_financial_report_2011_en.pdf" hreflang="en">English translation</a>
             (both are PDF documents).</li>

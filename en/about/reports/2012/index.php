@@ -15,8 +15,6 @@ $js_data2_values  = <<<S
 S;
 
 $intro = <<<S
-    <p>Here is our current financial report for 2012.</p>
-
     <ul>
         <li>Get the <a href="mageia-financial-report-2012.csv">raw report data</a>
             (CSV document, licensed under <a href="http://opendatacommons.org/licenses/odbl/1.0/">ODbL 1.0</a>).
@@ -25,7 +23,7 @@ $intro = <<<S
 S;
 
 $last_known_account_title = sprintf('Account status on December 31<sup>st</sup>, %s', $year);
-$last_known_account_title = sprintf('Last known account status');
+$last_known_account_title = sprintf('Account status');
 
 include '../template.php';
 
