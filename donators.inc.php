@@ -330,6 +330,17 @@ $donators = array(
     'Julio Geraldo',
     'Jean-Luc Versini',
     'Paul Patrick Honkakari',
+    'Alejandro Lopez',
+    'Pierre Opter',
+    'L C Lawrence',
+    'Raphael Vinet',
+    'William Shields',
+    'Jarle Bremnes',
+    'Dieter Rogiest',
+    'Jose Luis Nunez Crespi',
+    'Urs Menet',
+    'Liu Pow San',
+    'Jurij Galickij'
 );
 #uptodate: paypal, check, cash - Mon May 14 12:07:50 CEST 2012
 
