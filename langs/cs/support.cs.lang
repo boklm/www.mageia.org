@@ -12,7 +12,7 @@ Seznam podpůrných zdrojů pro distribuci Mageia.
 
 
 ;mageia, linux, support, help, hardware, qa, test
-mageia, linux, support, help, hardware, qa, test
+mageia, linux, podpora, nápověda, vybavení, qa, test
 
 
 
@@ -82,7 +82,7 @@ naše <a href="https://wiki.mageia.org/en/">Wiki</a> (stále ještě se na ní p
 
 
 ;local events: follow our <a href="http://blog.mageia.org/en/">blog</a> and <a href="http://www.mageia.org/en/calendar/">calendar</a>.
-
+místní události: sledujte <a href="http://blog.mageia.org/en/">blog</a> a <a href="http://www.mageia.org/en/calendar/">kalendář</a>.
 
 
 
@@ -146,16 +146,19 @@ Můžeme přichystat zvláštní seznam vybavení pro počítač/adresář, stej
 
 
 
-;Lifecycle
-Životní cyklus
+#;Lifecycle
+#Životní cyklus
 
+#;Mageia releases are supported at least for 18 months.
+#Vydání Mageii jsou podporována alespoň po dobu 18 měsíců.
 
+#;Mageia 1 will be supported until December 2012.
+#Mageia 1 bude udržována až do konce prosince 2012.
 
-;Mageia releases are supported at least for 18 months.
-Vydání Mageii jsou podporována alespoň po dobu 18 měsíců.
+;You may check and report bugs on <a href="%s">our Bugzilla (bugs.mageia.org)</a>.
+Chyby můžete zkoumat a hlásit na <a href="%s">naší Bugzille (bugs.mageia.org)</a>.
 
+;Bugs Reports
+Hlášení chyb
 
-
-;Mageia 1 will be supported until December 2012.
-Mageia 1 bude udržována až do konce prosince 2012.
 
