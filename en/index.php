@@ -38,7 +38,10 @@ $nav = array(
     }
     hr { display: none; }
     ol, ul { margin: 0; padding: 0; list-style: none; }
-    h1, h2 { font-size: 40px; font-weight: normal; margin-top: 0; }
+    h1, h2 { font-size: 40px; font-weight: normal; margin-top: 0; color: #fff !important; }
+    #b1 { color: #fff !important; }
+    #mgnav { background: #fff !important; }
+    #lang_form { position: absolute; top: 0; right: 0; }
     a[hreflang]:after { color:#d0d0ff; font-style:italic; content: "\A0["attr(hreflang)"]"; }
 
     #master {
@@ -67,7 +70,7 @@ $nav = array(
         margin: 0 auto;
         max-width: 980px;
     }
-    
+
     ul#dl li { margin-bottom: 20px; }
     #dl-btn {
         display: block;
@@ -154,8 +157,8 @@ $nav = array(
         #up > .container { padding: 1em; }
         #b1 { margin: 0; padding: 0 0 1em 0; }
 
-        #nav li { margin: 1em 0 0 1em; float: left; }
-        #nav li a {
+        #navb li { margin: 1em 0 0 1em; float: left; }
+        #navb li a {
             display: block;
             width: 222px;
             padding: 10px 20px 10px 20px;
@@ -180,7 +183,7 @@ $nav = array(
         #up > .container { background: url(/g/images/cauldron_alpha_ln_1.png) no-repeat 100% 50px; }
         #b1 { padding: 70px 0 70px; }
 
-        #nav {
+        #navb {
             padding: 0;
             margin: 0 auto;
             display: table;
@@ -188,13 +191,13 @@ $nav = array(
             font-size: 80%;
             margin-bottom: 20px;
         }
-        #nav li {
+        #navb li {
             display: table-cell;
             padding: 0;
             border-right: 1px solid #f0f0f0;
         }
-        #nav li:last-child { border: none; }
-        #nav a {
+        #navb li:last-child { border: none; }
+        #navb a {
             text-decoration: none;
             padding: 20px 1em 20px 1em;
             display: block;
@@ -202,7 +205,7 @@ $nav = array(
             text-align: center;
             color: #444;
         }
-        #nav a:hover {
+        #navb a:hover {
             color: #2383C2;
         }
     }
@@ -211,7 +214,7 @@ $nav = array(
     <link rel="stylesheet" href="/g/fa/css/font-awesome.css">
 </head>
 <body>
-    
+    <?php echo $hsnav?>
 <div id="master">
     <h1><a href="about/"><?php _e('Mageia, a free, community-based Linux distribution for desktop & server.'); ?></a></h1>
 </div>
@@ -255,7 +258,7 @@ $nav = array(
 <hr>
 <div id="down">
     <div class="container">
-        <ul id="nav"><?php foreach ($nav as $k => $v)
+        <ul id="navb"><?php foreach ($nav as $k => $v)
             echo sprintf('<li><a class="%s" href="%s">%s</a></li>',
                 $k, $v[0], $v[1]);
         ?></ul>
