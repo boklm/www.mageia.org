@@ -13,7 +13,7 @@ Descargue Mageia 2 DVD, CD, LiveCD, imágenes ISO para instalación por red.
 
 # en/2/download_index.php +16
 ;mageia, mageia 2, linux, free, download, iso, torrent, vm, http, ftp, rsync, bittorrent
-mageia, mageia 2, linux, free, descarga, iso, torrent, vm, http, ftp, rsync, bittorrent
+mageia, mageia 2, linux, libre, descarga, iso, torrent, vm, http, ftp, rsync, bittorrent
 
 
 # en/2/download_index.php +24
@@ -118,7 +118,7 @@ Descarga rápida (aprox. 40 MB), inicio inmediato para instalar <em>por red de c
 
 # en/2/download_index.php +179
 ;Pure Free Software CD
-CD con únicamente Software Libre
+CD únicamente con Software Libre
 
 
 # en/2/download_index.php +184
@@ -153,7 +153,7 @@ Notas de versión
 
 # en/2/download_index.php +208
 ;see the <a href="%s" hreflang="en">upgrade guide</a>
-vea la  <a href="%s" hreflang="es">guía de actualización</a>
+vea la <a href="%s" hreflang="es">guía de actualización</a>
 
 
 # en/2/download_index.php +214
@@ -213,7 +213,7 @@ Y luego están los administradores de ventanas, incluyendo Openbox, WindowMaker,
 
 # en/for-pc/index.php +45
 ;Applications &rarr;
-Applications &rarr;
+Aplicaciones &rarr;
 
 
 # en/for-pc/index.php +46
@@ -223,7 +223,7 @@ Hay muchos, muchos para elegir de &ndash; incluyendo los mas populares.
 
 # en/for-pc/index.php +53
 ;Web
-Web
+La red
 
 
 # en/for-pc/index.php +54
@@ -233,7 +233,7 @@ Elija su navegador web entre Firefox ESR 10.0.4, Chromium-browser 180.1025.160, 
 
 # en/for-pc/index.php +59
 ;Messaging
-Mensakería
+Mensajería
 
 
 # en/for-pc/index.php +60
