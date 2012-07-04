@@ -16,6 +16,11 @@ Mageia es un proyecto comunitario de software libre. Conozca más acerca de ello
 mageia, mageia.org, acerca de, misión, contactos, gobierno, valores, línea de tiempo
 
 
+# /en/about/index.php +28
+;About Mageia
+Acerca de Mageia
+
+
 # /es/about/index.php +34
 ;Mageia is a GNU/Linux-based, Free Software operating system.
 Mageia es un sistema operativo libre basado en GNU/Linux.
@@ -64,6 +69,11 @@ lanzó dos versiones principales estables <a href="../1/">en Junio de 2011</a> y
 # /es/about/index.php +69
 ;is the French, Paris-based legal structure supporting the Mageia project.
 es la estructura legal francesa ubicada en Paris, la que soporta el proyecto Mageia.
+
+
+# /en/about/index.php +72
+;is the French, Paris-based legal structure supporting the Mageia project.
+es la estructura legal francesa del proyecto Mageia, basada en París.
 
 
 # /es/about/index.php +74
