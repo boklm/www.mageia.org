@@ -30,6 +30,7 @@ Variedades de instalación
 ;size
 Tamaño
 
+
 # en/2/download_index.php +37
 ;link
 enlace
@@ -90,6 +91,11 @@ Use los LiveCD SOLO para instalaciones nuevas.
 ¡NO USE los LiveCD para actualizar Mageia 1!
 
 
+# en/2/download_index.php +88
+;Use above DVD or CD and see the <a href="%s" hreflang="en">upgrade guide</a>.
+Use el DVD or CD de arriba y vea la <a href="%s" hreflang="es">guía de actualización</a>.
+
+
 # en/2/download_index.php +105
 ;Included locales:
 Idiomas incluidos:
@@ -145,6 +151,11 @@ Notas de versión
 <strong>no use</strong> LiveCD;
 
 
+# en/2/download_index.php +208
+;see the <a href="%s" hreflang="en">upgrade guide</a>
+vea la  <a href="%s" hreflang="es">guía de actualización</a>
+
+
 # en/2/download_index.php +214
 ;Looking for Mageia 1?
 ¿Busca Mageia 1?
@@ -164,9 +175,145 @@ titulo_pagina
 ;for your server
 para servidores 
 
+
+# en/for-pc/index.php +26
+;Plenty
+Mucha
+
+
+# en/for-pc/index.php +27
+;There are 19&nbsp;881&nbsp;packages in our repositories. And that's just for the 64-bit branch.
+Hay 19&nbsp;881&nbsp;paqueteds en nuestros repositorios. Y eso es sólo para la rama de 64-bits.
+
+
+# en/for-pc/index.php +28
+;The total number is double that &ndash; and then if you consider the backports, and the packages in the Cauldron still testing... you'll see that Mageia users are spoiled for choice.
+El número total es el doble que &ndash; y si considera los backports, los paquetes que aún se prueban en Cauldron... verá que los usuarios de Mageia son mal criados por decisión propia.
+
+
+# en/for-pc/index.php +29
+;Here's a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:
+Ésta es una multi-sección, primero de los ambientrs gráficos de trabajo, y luego de las aplicaciones base que puede utilizar en su escritorio:
+
+
+# en/for-pc/index.php +30
+;Environments
+Ambientes
+
+
+# en/for-pc/index.php +31
+;Mageia 2 has all the major desktop environments:
+Mageia 2 tiene todos los escritorios principales:
+
+
+# en/for-pc/index.php +44
+;And then there are the window managers, including Openbox, WindowMaker, IceWM, Fluxbox, Fvwm2 and Awesome.
+Y luego están los administradores de ventanas, incluyendo Openbox, WindowMaker, IceWM, Fluxbox, Fvwm2 y Awesome.
+
+
+# en/for-pc/index.php +45
+;Applications &rarr;
+Applications &rarr;
+
+
+# en/for-pc/index.php +46
+;There are many, many to choose from &ndash; including all the most popular.
+Hay muchos, muchos para elegir de &ndash; incluyendo los mas populares.
+
+
+# en/for-pc/index.php +53
+;Web
+Web
+
+
+# en/for-pc/index.php +54
+;Choose your web browser from Firefox ESR 10.0.4, Chromium-browser 180.1025.160, Epiphany 3.4.1 or Opera 11.64 &ndash; or one of the many others such as Lynx or Konqueror; then pick an email client from KMail 4.8.2, Thunderbird ESR 10.0.4, Evolution 3.4.1 or maybe Claws-Mail or Mutt.
+Elija su navegador web entre Firefox ESR 10.0.4, Chromium-browser 180.1025.160, Epiphany 3.4.1 or Opera 11.64 &ndash;o uno de los muchos otros tales como Lynx o Konqueror; luego elija un cliente de correo electrónico entre KMail 4.8.2, Thunderbird ESR 10.0.4, Evolution 3.4.1 o tal vez Claws-Mail o Mutt.
+
+
+# en/for-pc/index.php +59
+;Messaging
+Mensakería
+
+
+# en/for-pc/index.php +60
+;Choose from Kopete, Pidgin, Empathy or Kadu for instant messaging; use Quassel, Konversation, XChat-Gnome or KVIrc for IRC chat; try QuteCom or Ekiga (or even Skype) for VOIP.
+Elija entre Kopete, Pidgin, Empathy o Kadu para mensajería instantánea; use Quassel, Konversation, XChat-Gnome o KVIrc para chat IRC; pruebe QuteCom o Ekiga (o incluso Skype) para VOIP.
+
+
+# en/for-pc/index.php +65
+;Office
+Oficina
+
+
+# en/for-pc/index.php +66
+;The two full-featured office suites LibreOffice and Calligra are there, as well as AbiWord, and a host of text editors including Kate; for finance there's KMyMoney, Skrooge or the professional-level GnuCash.
+Aquí están las dos suites de oficina completamente equipadas LibreOffice y Calligra, como también AbiWord, y un conjunto de editores de texto incluyendo Kate; para finanzas están KMyMoney, Skrooge o GnuCash para nivel profesional.
+
+
+# en/for-pc/index.php +71
+;Image
+Imagen
+
+
+# en/for-pc/index.php +72
+;Use GIMP for powerful image manipulation, or Inkscape for vector drawing; Blender is there for serious animation. DigiKam or Showfoto will take care of your photos, talk to your camera and give you more basic image editing.
+Utilice GIMP para una poderosa manipulación de imágenes, o Inkscape para dibujo vectorial; Blender para animaciones serias. DigiKam o Showfoto se encargarán de sus fotos, hablar con su cámara y darle mas edición básica de imagen.
+
+
+# en/for-pc/index.php +77
+;Sound
+Sonido
+
+
+# en/for-pc/index.php +78
+;For playing audio files, choose from Amarok 2.5.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don't infringe local laws.
+Para reproducir archivos de audio, elija Amarok 2.5.0 o Rhythmbox, entre otros; use VLC, Totem o MPlayer para video y audio, o use el Centro Multimedia XBMC como su sistema de entrenimiento horageño. Algunos paquetes se pueden encontrar en los repositorios Core y Tainted: los paquetes del repositorio Core sólo soportan codecs no sujetos a patentes y los paquetes en el repositorio Tainted soportan todos los codecs, para usuarios que viven en países donde estos codecs no infringen las leyes locales.
+
+
+# en/for-pc/index.php +83
+;Video
+Video
+
+
+# en/for-pc/index.php +84
+;For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there's Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.
+Para edición de archivos de video pruebe Avidemux, Kino u OpenShot; para subtítulos está el Compositor de Subtítulos Gaupol; use MythTV, Miro, tvtime, FreetuxTV o Me TV para ver o grabar programas de TV.
+
+
+# en/for-pc/index.php +89
+;Plus
+Además
+
+
+# en/for-pc/index.php +90
+;Then there's ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.
+Luego está ZoneMinder, para Seguridad CCTV; VirtualBox o WINE para virtualización; y un rango de ambientes de desarrollo tales como Anjuta, Eclipse, Netbeans or KDevelop.
+
+
+# en/for-pc/index.php +95
+;For more information about these and other packages, check the <a href="%s">Mageia 2 Release notes</a>.
+Para más infomración acerca de estos y otros paquetes, vea las <a href="%s">notas de versión de Mageia 2</a>.
+
+
+# en/for-pc/index.php +96
+;You can take a look at the <a href="%s">Mageia Application Database</a> to get a more complete list of Mageia packages.
+Puede dar una mirada a la <a href="%s">Base de datos de aplicaciones de Mageia</a> para obtener una lista mas completa de paquetes de Mageia.
+
+
+# en/for-server/index.php +12
+;Mageia 2, for your server
+Mageia 2, para su servidor
+
+
+# en/for-server/index.php +21
+;for your server
+para su servidor
+
+
 # en/for-server/index.php +26
 ;Mageia 2 has all the main services and server packages you will need to run your server.
-Mageia 2 tiene todos los principales servicios y paquetes de servidor que necesita.
+Mageia 2 tiene todos los principales servicios y paquetes de servidor que necesitará para correr su servidor.
 
 
 # en/for-server/index.php +30
@@ -226,7 +373,17 @@ Mageia 2
 
 # en/2/index.php +16
 ;Mageia 2 is the new, solid, stable Linux distribution from the Mageia project.
-Mageia 2 es la reciente, sólida y estable distribución Linux del proyecto Mageia.
+Mageia 2 es la nueva, sólida y estable distribución Linux del proyecto Mageia.
+
+
+# en/2/index.php +30
+;Mageia 2 is a GNU/Linux distribution for your computer, released by the <a href="%s">Mageia community</a>.
+Mageia 2 es una distribución GNU/Linux para su computador, lanzada por la <a href="%s">Comunidad Mageia</a>.
+
+
+# en/2/index.php +33
+;What's new?
+¿Qué novedades hay?
 
 
 # en/2/index.php +35
@@ -249,6 +406,11 @@ Mageia en contexto
 Mageia es tanto una Comunidad como una distribución Linux, siendo Mageia 2 nuestra segunda versión.
 
 
+# en/2/index.php +43
+;Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch's most popular distributions</a>.
+Desde el lanzamiento de <a href="../1/">Mageia 1</a>, nuestro producto ha estado consistentemente en los <a href="%s">top 10 de las distribuciones mas populares de Distrowatch</a>.
+
+
 # en/2/index.php +46
 ;Mageia 2 is supported by the <a href="../about/">Mageia.org nonprofit organisation</a>, which is governed by a body of recognized and elected contributors.
 Mageia 2 está apoyada por <a href="../about/">la organización sin ánimo de lucro Mageia.org</a>, gobernada por un grupo de contribuidores reconocidos y elegidos.
@@ -267,6 +429,3 @@ Nuestro trabajo se suma al excelente trabajo de la amplia comunidad de Linux y e
 # en/2/index.php +51
 ;We welcome new contributors to any of the many different teams that go to make up Mageia the Community, and we encourage you to join us.
 Los nuevos contribuidores son bienvenidos en cualquiera de los diferentes equipos de la comunidad Mageia, por lo que animamos a unirse.
-
-;What's new?
-¿Qué hay de nuevo?
