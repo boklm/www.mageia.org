@@ -167,13 +167,13 @@ vea la  <a href="%s" hreflang="es">guía de actualización</a>
 
 
 # en/for-pc/index.php +12
-;page_title
-titulo_pagina
+;Mageia 2, for your PC
+Mageia 2, para su PC
 
 
-# en/for-server/index.php +21
-;for your server
-para servidores 
+# en/for-pc/index.php +21
+;for your PC
+para su PC
 
 
 # en/for-pc/index.php +26
@@ -332,8 +332,8 @@ Bases de datos
 
 
 # en/for-server/index.php +37
-;Databases included are PostgreSQL 8.4.11; MariaDB, which replaces MySQL 5.5.23; BDB .
-Las bases de datos incluidas son PostgreSQL 8.4.11; MariaDB, que sustituye a MySQL 5.5.23; BDB .
+;Databases included are PostgreSQL 8.4.11; MariaDB, which replaces MySQL 5.5.23; BDB.
+Las bases de datos incluidas son PostgreSQL 8.4.11; MariaDB, que sustituye a MySQL 5.5.23; BDB.
 
 
 # en/for-server/index.php +38
