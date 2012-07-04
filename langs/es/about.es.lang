@@ -66,14 +66,14 @@ quienes coproducen la infraestructura, la distribución misma, <a href="http://w
 lanzó dos versiones principales estables <a href="../1/">en Junio de 2011</a> y en <a href="../2/"> mayo de 2012</a>.
 
 
-# /es/about/index.php +69
-;is the French, Paris-based legal structure supporting the Mageia project.
-es la estructura legal francesa ubicada en Paris, la que soporta el proyecto Mageia.
+# /en/about/index.php +69
+;<a href=%s>Mageia.Org's legal constitution</a> and <a href=%s>governance</a> rules;
+<a href=%s>Constitución legal de Mageia.Org's</a> y reglas de <a href=%s>gobierno</a>;
 
 
 # /en/about/index.php +72
 ;is the French, Paris-based legal structure supporting the Mageia project.
-es la estructura legal francesa del proyecto Mageia, basada en París.
+es la estructura legal francesa ubicada en Paris, la que soporta el proyecto Mageia.
 
 
 # /es/about/index.php +74
