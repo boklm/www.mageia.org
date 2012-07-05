@@ -171,7 +171,17 @@ include '../../lib/news.php';
             <li>during events!</li>
         </ul>
         <hr>
-
+        <h2><?php _e('Teams you can join!')?></h2>
+        <ul class="hl">
+            <li><a href="https://wiki.mageia.org/en/Atelier_Team" hreflang="en">Atelier</a></li>
+            <li><a href="https://wiki.mageia.org/en/Documentation_team" hreflang="en">Documentation</a></li>
+            <li><a href="https://wiki.mageia.org/en/Packagers_Team" hreflang="en">Packaging</a></li>
+            <li><a href="https://wiki.mageia.org/en/QA_Team" hreflang="en">Testing &amp; <abbr title="Quality Assurance">QA</abbr></a></li>
+            <li><a href="https://wiki.mageia.org/en/Internationalisation_Team_(i18n)" hreflang="en">Translation</a></li>
+            <li><a href="https://wiki.mageia.org/en/Sysadmin_Team" hreflang="en">Systems &amp; infrastructure administration</a></li>
+        </ul>
+        
+        <hr>
         <!-- TODO
 
         <section>
