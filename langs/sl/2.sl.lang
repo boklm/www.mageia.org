@@ -164,9 +164,144 @@ Iščete Magejo 1?
 Sedaj je <a href="%s">tukaj</a>.
 
 
+# en/for-pc/index.php +12
+;Mageia 2, for your PC
+Mageia 2, za vaš računalnik
+
+
+# en/for-pc/index.php +21
+;for your PC
+za vaš računalnik
+
+
+# en/for-pc/index.php +26
+;Plenty
+Obilje
+
+
+# en/for-pc/index.php +27
+;There are 19&nbsp;881&nbsp;packages in our repositories. And that's just for the 64-bit branch.
+Obstaja 19&nbsp;881&nbsp;paketov v naših skladiščih s programsko opremo. In to je samo za 64-bitno arhitekturo.
+
+
+# en/for-pc/index.php +28
+;The total number is double that &ndash; and then if you consider the backports, and the packages in the Cauldron still testing... you'll see that Mageia users are spoiled for choice.
+Skupno število je seveda zaradi 32-bitne arhitekture dvakrat večje, če pa upoštevamo še skladišče navzdol prikrojene programske opreme »backports«, in pakete, ki se testirajo v razvojni različici »Cauldron« ... boste videli, da so uporabniki Mageia razvajeni z izbiro.
+
+
+# en/for-pc/index.php +29
+;Here's a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:
+Tu je pregled, najprej delovnih grafičnih namiznih okolij, nato pa nekaj ključnih programov, ki jih lahko uporabljate na namizju:
+
+
+# en/for-pc/index.php +30
+;Environments
+Namizna okolja
+
+
+# en/for-pc/index.php +31
+;Mageia 2 has all the major desktop environments:
+Mageia 2 ima vsa pomembnejša namizna okolja:
+
+
+# en/for-pc/index.php +44
+;And then there are the window managers, including Openbox, WindowMaker, IceWM, Fluxbox, Fvwm2 and Awesome.
+In potem so tu še upravljalniki oken, vključno z Openbox, WindowMaker, IceWM, Fluxbox, Fvwm2 in Awesome.
+
+
+# en/for-pc/index.php +45
+;Applications &rarr;
+Programi &rarr;
+
+
+# en/for-pc/index.php +46
+;There are many, many to choose from &ndash; including all the most popular.
+Izbor je zelo velik &ndash; vključno z vsemi najbolj priljubljenimi.
+
+
+# en/for-pc/index.php +53
+;Web
+Splet
+
+
+# en/for-pc/index.php +54
+;Choose your web browser from Firefox ESR 10.0.4, Chromium-browser 180.1025.160, Epiphany 3.4.1 or Opera 11.64 &ndash; or one of the many others such as Lynx or Konqueror; then pick an email client from KMail 4.8.2, Thunderbird ESR 10.0.4, Evolution 3.4.1 or maybe Claws-Mail or Mutt.
+Izberite svoj spletni brskalnik Firefox ESR 10.0.4, Chromium-browser 180.1025.160, Epiphany 3.4.1 ali Opera 11.64 &ndash; ali enega od mnogih drugih, kot so Lynx ali Konqueror. Nato izberite e-poštni odjemalec KMail 4.8.2, Thunderbird ESR 10.0.4, Evolution 3.4.1 ali morda Claws-Mail ali Mutt.
+
+
+# en/for-pc/index.php +59
+;Messaging
+Hipni sporočilniki
+
+
+# en/for-pc/index.php +60
+;Choose from Kopete, Pidgin, Empathy or Kadu for instant messaging; use Quassel, Konversation, XChat-Gnome or KVIrc for IRC chat; try QuteCom or Ekiga (or even Skype) for VOIP.
+Izbirajte med programi Kopete, Pidgin, Empathy ali Kadu za hipno sporočanje. Uporabite Quassel, Konversation, XChat-Gnome ali KVIrc za klepet IRC. Poskusite QuteCom ali Ekiga (ali celo Skype) za spletno telefonijo (VoIP).
+
+
+# en/for-pc/index.php +65
+;Office
+Pisarniški programi
+
+
+# en/for-pc/index.php +66
+;The two full-featured office suites LibreOffice and Calligra are there, as well as AbiWord, and a host of text editors including Kate; for finance there's KMyMoney, Skrooge or the professional-level GnuCash.
+Na izbiro sta dva zmogljiva pisarniška paketa LibreOffice in Calligra, kot tudi AbiWord, in več urejevalnikov besedil, vključno s Kate, za urejanje financ je na voljo KMyMoney, Skrooge ali GnuCash na profesionalnem nivoju.
+
+
+# en/for-pc/index.php +71
+;Image
+Slike
+
+
+# en/for-pc/index.php +72
+;Use GIMP for powerful image manipulation, or Inkscape for vector drawing; Blender is there for serious animation. DigiKam or Showfoto will take care of your photos, talk to your camera and give you more basic image editing.
+Uporabite program GIMP za zmogljivo obdelavo slik ali Inkscape za vektorsko grafiko; Blender je tam za resnejše animacije. Za vaše fotografije lahko poskrbite z DigiKam ali Showfoto, ki lahko komunicirata z vašim fotoaparatom in nudita osnovno urejanje slik.
+
+
+# en/for-pc/index.php +77
+;Sound
+Zvok
+
+
+# en/for-pc/index.php +78
+;For playing audio files, choose from Amarok 2.5.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don't infringe local laws.
+Za predvajanje zvočnih datotek lahko med drugimi izbirete Amarokom 2.5.0 ali Rhythmbox. Za multimedijo uporabite program VLC, Totem ali Mplayer. Za hišni kino je na voljo XBMC Media Center. Nekateri paketi so na voljo v skladiščih s programsko opremo »Core« in »Tainted«. Skladišče »Core« vsebuje odprtokodne pakete (in seveda tudi kodeke), ki niso patentirani. Paketi v skladišču »Tainted« podpirajo vse kodeke, saj vsebujejo patentirano in neprosto programsko opremo. Namenjeni so uporabnikom v državah, kjer ti kodeki ne kršijo lokalnih zakonov.
+
+
+# en/for-pc/index.php +83
+;Video
+Video in filmi
+
+
+# en/for-pc/index.php +84
+;For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there's Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.
+Za urejanje video datotek poskusite Avidemux, Kino ali OpenShot. Urejanje podnapisov je namenjen program Gaupol ali Subtitles Composer. Za ogled in snemanje TV programov lahko uporabite MythTV, Miro, tvtime, FreetuxTV ali Me TV.
+
+
+# en/for-pc/index.php +89
+;Plus
+Dodatno
+
+
+# en/for-pc/index.php +90
+;Then there's ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.
+Poleg naštetega je tu še ZoneMinder za varnost CCTV. Za navidezno rabo je tu VirtualBox ter WINE za uporabo exe programov. Na voljo je vrsta razvojnih okolij kot so Anjuta, Eclipse, NetBeans ali KDevelop.
+
+
+# en/for-pc/index.php +95
+;For more information about these and other packages, check the <a href="%s">Mageia 2 Release notes</a>.
+Več informacij o teh in drugih paketih je v <a href="%s">Opombah ob izdaji Mageje 2 (v angleščini)</a>.
+
+
+# en/for-pc/index.php +96
+;You can take a look at the <a href="%s">Mageia Application Database</a> to get a more complete list of Mageia packages.
+V <a href="%s">podatkovni zbirki programov Mageia</a> si lahko ogledate bolj popoln seznam paketov Mageia.
+
+
 # en/for-server/index.php +12
-;page_title
-Mageia 2
+;Mageia 2, for your server
+Mageia 2, za vaš strežnik
 
 
 # en/for-server/index.php +21
@@ -191,12 +326,12 @@ Skrbništvo
 
 # en/for-server/index.php +31
 ;For centralised administration, we include puppet 2.7.11; we use it widely in <a href="%s">our own infrastructure</a>.
-Za centralizirano skrbništvo je vključen paket puppet 2,7,11; sami ga veliko uporabljamo v <a href="%s">naši infrastrukturi</a>.
+Za centralizirano skrbništvo je vključen paket puppet 2.7.11; sami ga veliko uporabljamo v <a href="%s">naši infrastrukturi</a>.
 
 
 # en/for-server/index.php +34
 ;The entire High Availability stack has been updated, and now includes drbd 8.3.11, Corosync 2.0.0 and Pacemaker 1.1.7.
-Celoten sklad za visoko razpoložljivost je bil posodobljen in sedaj vključuje drbd 8,3,11, Corosync 2,0,0 in Pacemaker 1,1,7.
+Celoten sklad za visoko razpoložljivost je bil posodobljen in sedaj vključuje drbd 8.3.11, Corosync 2.0.0 in Pacemaker 1,1,7.
 
 
 # en/for-server/index.php +36
@@ -205,13 +340,13 @@ Podatkovne zbirke
 
 
 # en/for-server/index.php +37
-;Databases included are PostgreSQL 8.4.11; MariaDB, which replaces MySQL 5.5.23; BDB .
-Med različnimi podatkovnimi zbirkami lahko izbirate med PostgreSQL 8,4,11; MariaDB, ki je zamenjala MySQL 5,5,23; BDB.
+;Databases included are PostgreSQL 8.4.11; MariaDB, which replaces MySQL 5.5.23; BDB.
+Med različnimi podatkovnimi zbirkami lahko izbirate med PostgreSQL 8,4.11; MariaDB, ki je zamenjala MySQL 5,5,23; BDB.
 
 
 # en/for-server/index.php +38
 ;And there are NoSQL servers too: CouchDB 1.1.1, Redis 2.4.8, Cassandra 1.4.0, MongoDB 2.0.3.
-Obstajajo tudi strežniki tipa NoSQL: CouchDB 1,1,1, Redis 2,4,8, Cassandra 1,4,0, MongoDB 2,0,3.
+Obstajajo tudi strežniki tipa NoSQL: CouchDB 1,1,1, Redis 2.4.8, Cassandra 1,4.0, MongoDB 2.0.3.
 
 
 # en/for-server/index.php +40
@@ -221,22 +356,22 @@ Strežniki
 
 # en/for-server/index.php +41
 ;Web servers include Apache 2.2.22, Cherokee 1.2.101 and lighttpd 1.4.30.
-Spletni strežniki vključujejo Apache 2,2,22, Cherokee 1,2,101 and lighttpd 1,4,30.
+Spletni strežniki vključujejo Apache 2.2.22, Cherokee 1.2.101 and lighttpd 1.4.30.
 
 
 # en/for-server/index.php +42
 ;For file and directory sharing and network printing on heterogeneous networks, we have Samba 3.6.5, OpenLDAP 2.4.29 and Cups 1.5.2.
-Za skupno rabo datotek in map ter omrežno tiskanje na heterogenih omrežij so na voljo Samba 3,6,5, OpenLDAP 2,4,29 in Cups 1,5,2.
+Za skupno rabo datotek in map ter omrežno tiskanje na heterogenih omrežij so na voljo Samba 3.6.5, OpenLDAP 2.4.29 in Cups 1.5.2.
 
 
 # en/for-server/index.php +43
 ;Mail servers included with Mageia 2 are Postfix 2.8.8, Cyrus-imapd 2.4.13 and Dovecot 1.2.17.
-Poštni strežniki v Mageji 2 so Postfix 2,8,8, Cyrus-imapd 2,4,13 in Dovecot 1,2,17.
+Poštni strežniki v Mageji 2 so Postfix 2.8.8, Cyrus-imapd 2.4.13 in Dovecot 1.2.17.
 
 
 # en/for-server/index.php +49
 ;For more information about these and other packages, check the <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">Mageia 2 Release notes</a>.
-Več informacij o teh in drugih paketih je v <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">Opombah ob izdaji (v angleščini)</a>.
+Več informacij o teh in drugih paketih je v <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">Opombah ob izdaji Mageje 2 (v angleščini)</a>.
 
 
 # en/for-server/index.php +50
@@ -284,7 +419,7 @@ Mageia je tako skupnost kot tudi Linux distribucija, Mageia 2 je naša druga izd
 
 
 # en/2/index.php +43
-;Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch\'s most popular distributions</a>.
+;Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch's most popular distributions</a>.
 Od izdaje naprej <a href="../1/">Mageje 1</a>, se naša distribucija nahaja v vrhu <a href="%s">10 najbolj priljubljenih distribucij spletne strani Distrowatch</a>.
 
 
