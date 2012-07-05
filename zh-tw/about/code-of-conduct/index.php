@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Code of Conduct - Mageia</title>
-    <meta name="description" content="Mageia is new community-based Linux distribution.">
+    <meta name="description" content="Mageia code of conduct.">
     <meta name="keywords" content="mageia, values, conduct, rules">
     <meta name="author" content="Mageia">
     <link rel="stylesheet" type="text/css" href="/g/style/all.css" />

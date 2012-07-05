@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <title>Mageia Financial Report (2010)</title>
-    <meta name="description" content="Mageia is new community-based Linux distribution." />
+    <meta name="description" content="Mageia financial activity report for 2010." />
     <meta name="keywords" content="mageia, financial report, 2010" />
     <meta name="author" content="Mageia" />
     <link rel="stylesheet" type="text/css" href="/g/style/all.css" />

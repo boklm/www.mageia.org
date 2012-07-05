@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Pravidla chování - Mageia</title>
-    <meta name="description" content="Mageia is new community-based Linux distribution.">
+    <meta name="description" content="Pravidla chování - Mageia">
     <meta name="keywords" content="mageia, values, conduct, rules">
     <meta name="author" content="Mageia" />
     <link rel="stylesheet" type="text/css" href="/g/style/all.css">

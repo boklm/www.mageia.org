@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Dary pro Mageiu</title>
-    <meta name="description" content="Mageia is new community-based Linux distribution.">
+    <meta name="description" content="Dary pro Mageiu">
     <meta name="keywords" content="mageia, donate, donation, donors, help">
     <meta name="author" content="Mageia">
     <link rel="stylesheet" type="text/css" href="/g/style/all.css">

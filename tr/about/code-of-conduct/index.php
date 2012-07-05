@@ -2,7 +2,7 @@
 <html dir="ltr" lang="tr"><head>
     <meta charset="utf-8">
     <title>Temel İlkeler - Mageia</title>
-    <meta name="description" content="Mageia is new community-based Linux distribution.">
+    <meta name="description" content="Temel İlkeler - Mageia">
     <meta name="keywords" content="mageia, values, Temel İlkeler, rules">
     <meta name="author" content="Mageia">
     <link rel="stylesheet" type="text/css" href="/g/style/all.css" />
