@@ -48,7 +48,11 @@ $_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
                 <div class="para">
                     <?php
                     include G_APP_ROOT . '/lib/php-markdown/markdown.php';
-                    echo Markdown(file_get_contents('mageia.org_statutes_fr.md'));
+                    $l = isset($_GET['l']) ? $_GET['l'] : $locale;
+                    if ($l == 'fr')
+                        echo Markdown(file_get_contents('mageia.org_statutes_fr.md'));
+                    else
+                        echo Markdown(file_get_contents('mageia.org_statutes_en.md'));
                     ?>
                 </div>
             </div>
