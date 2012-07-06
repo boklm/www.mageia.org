@@ -17,23 +17,43 @@ _lang_load($locale, 'support');
 </head>
 <body class="support">
     <?php echo $hsnav; ?>
-    <h1 id="mgnavt"><?php _e('Support')?></h1>
+    <header id="mgnavt">
+        <h1><?php _e('Support')?></h1>
+        <ul>
+            <li><a href="#comm"><?php _e('Community Support')?></a></li>
+            <li><a href="#pro"><?php _e('Professional Support')?></a></li>
+            <li><a href="//doc.mageia.org/"><?php _e('Documentation')?></a></li>
+            <li><a href="#updates"><?php _e('Updates')?></a></li>
+            <li><a href="#lifecycle"><?php _e('Lifecycle')?></a></li>
+            <li><a href="#hw"><?php _e('Hardware Requirements')?></a></li>
+            <li><a href="//bugs.mageia.org/"><?php _e('Bugs Reports')?></a></li>
+        </ul>
+    </header>
     <div id="doc" class="yui-t7">
         <div id="bd" role="main">
             <div class="yui-g">
                 <div class="para donate" style="padding-top: 2em;">
-                    <div class="qsidesummary">
-                        <ul>
-                            <li><a href="#comm"><?php _e('Community Support')?></a></li>
-                            <li><a href="#pro"><?php _e('Professional Support')?></a></li>
-                            <li><a href="#updates"><?php _e('Updates')?></a></li>
-                            <li><a href="#lifecycle"><?php _e('Lifecycle')?></a></li>
-                            <li><a href="#hw"><?php _e('Hardware Requirements')?></a></li>
-                            <li><a href="#bugs"><?php _e('Bugs Reports')?></a></li>
-                        </ul>
-                    </div>
-
                     <?php
+                        _h('Documentation', null, 'h2 id="docu"');
+                        _h('You can look up existing %sdocumentation here%s. You may too look into our %sWiki%s.',
+                            array('<a href="//doc.mageia.org/">', '</a>',
+                            '<a href="http://wiki.mageia.org/">', '</a>'));
+                        echo '<hr>';
+
+                        _h('Updates', null, 'h2 id="updates"');
+                        _h('Updates are available for %s and %s (security and bug fixes) and published on an ongoing basis.', array('<a href="../1/">Mageia 1</a>', '<a href="../2/">Mageia 2</a>'));
+                        _h('You can install these from the Mageia Control Center.');
+                        _h('You may subscribe to our %s announce list to be notified of these.', array('<a href="https://ml.mageia.org/wwsympa-wrapper.fcgi/info/updates-announce">updates-announce</a>'));
+                        echo '<hr>';
+
+                        _h('Lifecycle', null, 'h3');
+                        _h('Mageia releases are supported at least for 18 months.');
+                        echo '<ul class="hl">';
+                        _h('Mageia 1 will be supported until December 2012.', null, 'li');
+                        _h('Mageia 2 may have a longer lifecycle, this will be decided once released in May.', null, 'li');
+                        echo '</ul>';
+                        echo '<hr>';
+
                         _h('Community Support', null, 'h2 id="comm"');
                         _h('If you need help, information or directions about the Mageia distribution you installed or about the project, you can try to reach us through:');
 
@@ -51,19 +71,6 @@ _lang_load($locale, 'support');
                         _h('Please check the <a href="%s">commercial vendors</a> list', array('https://wiki.mageia.org/en/Commercial_vendors'));
                         echo '<hr>';
 
-                        _h('Updates', null, 'h2 id="updates"');
-                        _h('Updates are available for %s and %s (security and bug fixes) and published on an ongoing basis.', array('<a href="../1/">Mageia 1</a>', '<a href="../2/">Mageia 2</a>'));
-                        _h('You can install these from the Mageia Control Center.');
-                        _h('You may subscribe to our %s announce list to be notified of these.', array('<a href="https://ml.mageia.org/wwsympa-wrapper.fcgi/info/updates-announce">updates-announce</a>'));
-                        echo '<hr>';
-
-                        _h('Lifecycle', null, 'h3');
-                        _h('Mageia releases are supported at least for 18 months.');
-                        echo '<ul class="hl">';
-                        _h('Mageia 1 will be supported until December 2012.', null, 'li');
-                        _h('Mageia 2 may have a longer lifecycle, this will be decided once released in May.', null, 'li');
-                        echo '</ul>';
-                        echo '<hr>';
 
                         _h('Hardware Requirements', null, 'h2 id="hw"');
                         _h('Mageia software runs on most x86 computer systems available as of today, April 2011.');
