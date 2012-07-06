@@ -311,8 +311,19 @@ Mageia 2, для вашого сервера
 ;Mageia 2 has all the main services and server packages you will need to run your server.
 У Mageia 2 ви знайдете всі основні пакунки служб і серверів, потрібні для роботи вашого сервера server.
 
+# en/for-server/index.php +27
+;Aside from the cross-section included here, you will find many others in the repositories: you can use rpmdrake to search for packages, or check the <a href="%s">Mageia App DB</a>.
+Окрім описаних тут пакунків, у сховищах ви зможете знайти багато інших. Для пошуку можна скористатися rpmdrake або <a href="%s">базою даних програмного забезпечення Mageia</a>.
+
+
 ;Administration
 Адміністрування
+
+
+# en/for-server/index.php +31
+;For centralised administration, we include puppet 2.7.11; we use it widely in <a href="%s">our own infrastructure</a>.
+Для централізованого адміністрування ми включили до дистрибутива puppet 2.7.11; ми широко використовуємо цю систему у <a href="%s">нашій власній інфраструктурі</a>.
+
 
 ;The entire High Availability stack has been updated, and now includes drbd 8.3.11, Corosync 2.0.0 and Pacemaker 1.1.7.
 Оновлено комплекс програм, призначених для забезпечення високого рівня доступності. Включено drbd 8.3.11, Corosync 2.0.0 і Pacemaker 1.1.7.
@@ -382,3 +393,17 @@ Mageia — дистрибутив Linux, створений спільнотою
 
 ;What's new?
 Що нового?
+
+# en/2/nav.php +28
+;Download
+Отримання
+
+
+# en/2/nav.php +29
+;For PC
+Для ПК
+
+
+# en/2/nav.php +30
+;For server
+Для сервера
