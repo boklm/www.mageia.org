@@ -316,9 +316,19 @@ for your server
 Mageia 2 has all the main services and server packages you will need to run your server.
 
 
+# en/for-server/index.php +27
+;Aside from the cross-section included here, you will find many others in the repositories: you can use rpmdrake to search for packages, or check the <a href="%s">Mageia App DB</a>.
+Aside from the cross-section included here, you will find many others in the repositories: you can use rpmdrake to search for packages, or check the <a href="%s">Mageia App DB</a>.
+
+
 # en/for-server/index.php +30
 ;Administration
 Administration
+
+
+# en/for-server/index.php +31
+;For centralised administration, we include puppet 2.7.11; we use it widely in <a href="%s">our own infrastructure</a>.
+For centralised administration, we include puppet 2.7.11; we use it widely in <a href="%s">our own infrastructure</a>.
 
 
 # en/for-server/index.php +34
@@ -364,6 +374,11 @@ Mail servers included with Mageia 2 are Postfix 2.8.8, Cyrus-imapd 2.4.13 and Do
 # en/for-server/index.php +49
 ;For more information about these and other packages, check the <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">Mageia 2 Release notes</a>.
 For more information about these and other packages, check the <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">Mageia 2 Release notes</a>.
+
+
+# en/for-server/index.php +50
+;You can take a look at the <a href="%s">Mageia Application Database</a> to get a more complete list of Mageia packages.
+You can take a look at the <a href="%s">Mageia Application Database</a> to get a more complete list of Mageia packages.
 
 
 # en/2/index.php +14
@@ -429,3 +444,23 @@ Our work adds to the excellent work of the wider Linux and Free Software communi
 # en/2/index.php +51
 ;We welcome new contributors to any of the many different teams that go to make up Mageia the Community, and we encourage you to join us.
 We welcome new contributors to any of the many different teams that go to make up Mageia the Community, and we encourage you to join us.
+
+
+# en/2/nav.php +27
+;Mageia 2
+Mageia 2
+
+
+# en/2/nav.php +28
+;Download
+Download
+
+
+# en/2/nav.php +29
+;For PC
+For PC
+
+
+# en/2/nav.php +30
+;For server
+For server
