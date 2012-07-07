@@ -81,7 +81,7 @@ $map = array(
     ),
     'you' => array(
         't' => _t('About you'),
-        'l' => 'http://i.mageia.org/',
+        'l' => 'http://identity.mageia.org/',
         'i' => array(
             array('t' => _t('Your Mageia id'), 'l' => 'http://identity.mageia.org/'),
             array('t' => _t('Privacy policy'), 'l' => '/en/about/policies/privacy/')
