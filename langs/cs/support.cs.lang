@@ -47,7 +47,7 @@ Aktualizace jsou dostupné pro %s (bezpečnostní opravy a opravy chyb) a zveře
 
 
 ;You may subscribe to our %s announce list to be notified of these.
-Můžete se přihlásit k našemu %s oznamovacímu seznamu, abyste na ně byly upozorňováni.
+Můžete se přihlásit k našemu %s oznamovacímu seznamu, abyste na ně byli upozorňováni.
 
 
 
@@ -146,14 +146,14 @@ Můžeme přichystat zvláštní seznam vybavení pro počítač/adresář, stej
 
 
 
-#;Lifecycle
-#Životní cyklus
+;Lifecycle
+Životní cyklus
 
-#;Mageia releases are supported at least for 18 months.
-#Vydání Mageii jsou podporována alespoň po dobu 18 měsíců.
+;Mageia releases are supported at least for 18 months.
+Vydání Mageii jsou podporována alespoň po dobu 18 měsíců.
 
-#;Mageia 1 will be supported until December 2012.
-#Mageia 1 bude udržována až do konce prosince 2012.
+;Mageia 1 will be supported until December 2012.
+Mageia 1 bude udržována až do konce prosince 2012.
 
 ;You may check and report bugs on <a href="%s">our Bugzilla (bugs.mageia.org)</a>.
 Chyby můžete zkoumat a hlásit na <a href="%s">naší Bugzille (bugs.mageia.org)</a>.

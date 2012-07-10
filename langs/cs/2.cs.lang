@@ -289,7 +289,7 @@ V našich úložištích je 19&nbsp;881&nbsp;balíčků. A to je jen pro 64 bito
 Celkový počet je dvojnásobný. A když k tomu přidáte "backports" a balíčky, které se ještě zkoušejí v kotli (Cauldron), shledáte, že uživatelé Mageii touží po tom, moci si vybrat.
 
 ;Here's a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:
-Zde je typický vzorek. Nejprve pracovní prostředí, a potom hlavní aplikace, jež můžete používat ve svém počítači.
+Zde je průřez. Nejprve pracovní prostředí, a potom hlavní aplikace, jež můžete používat ve svém počítači.
 
 ;Environments
 Prostředí
@@ -298,7 +298,7 @@ Prostředí
 Mageia 2 obsahuje všechna hlavní pracovní prostředí:
 
 ;And then there are the window managers, including Openbox, WindowMaker, IceWM, Fluxbox, Fvwm2 and Awesome.
-Potom tu jsou správci oken, počítaje v to správců Openbox, WindowMaker, IceWM, Fluxbox, Fvwm2 a Awesome.
+A potom tu jsou také správci oken, například Openbox, WindowMaker, IceWM, Fluxbox, Fvwm2 a Awesome.
 
 ;Applications &rarr;
 Aplikace &rarr;
@@ -328,13 +328,13 @@ Jsou tu dva plně vybavené kancelářské balíky LibreOffice a Calligra, stejn
 Obrázky
 
 ;Use GIMP for powerful image manipulation, or Inkscape for vector drawing; Blender is there for serious animation. DigiKam or Showfoto will take care of your photos, talk to your camera and give you more basic image editing.
-Na práci s obrázky použijte GIMP, nebo Inkscape na vektorové kreslení; Blender je tu na animace. DigiKam nebo Showfoto se postarají o vaše fotky, používání kamery a další základní úpravy obrázky.
+Na práci s obrázky použijte GIMP, nebo Inkscape na vektorové kreslení; Blender je tu na animace. DigiKam nebo Showfoto se postarají o vaše fotky, používání kamery a další základní úpravy obrázků.
 
 ;Sound
 Zvuk
 
 ;For playing audio files, choose from Amarok 2.5.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don't infringe local laws.
-Na přehrávání zvukových souborů si vyberte mezi ostatními například z přehrávačů Amarok 2.5.0 a Rhythmbox; VLC, Totem nebo MPlayer použijte na video a audio, nebo využijte XBMC Media Center jako systém pro svou domácí zábavu. Některé balíčky lze najít jak v repozitáři Core tak Tainted: balíčky v Core podporují jen nepatentované kodeky a balíčky v Tainted podporují všechny kodeky. tyto jsou určeny uživatelům žijícím v zemích, v nichž tyto kodeky neporušují místní zákony.
+Na přehrávání zvukových souborů si vyberte mezi ostatními například z přehrávačů Amarok 2.5.0 a Rhythmbox; VLC, Totem nebo MPlayer použijte na video a audio, nebo využijte XBMC Media Center jako systém pro svou domácí zábavu. Některé balíčky lze najít jak v repozitáři Core tak v repozitáři Tainted: balíčky v Core podporují jen nepatentované kodeky a balíčky v Tainted podporují všechny kodeky; jsou určeny uživatelům žijícím v zemích, v nichž tyto kodeky neporušují místní zákony.
 
 ;Video
 Obraz
@@ -365,3 +365,17 @@ Mageia 2 je distribuce GNU/Linux určená pro váš počítač, vydána <a href=
 
 ;Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch's most popular distributions</a>.
 Od vydání <a href="../1/">Mageia 1</a> je naše nabídka trvale v <a href="%s">desítce nejoblíbenějších distribucí na Distrowatch</a>.
+
+;Aside from the cross-section included here, you will find many others in the repositories: you can use rpmdrake to search for packages, or check the <a href="%s">Mageia App DB</a>.
+Kromě zde zahrnutého průřezu naleznete mnoho dalšího v repozitářích: na hledání balíčků použijte rpmdrake, nebo se podívejte na <a href="%s">databázi programů Mageii</a>.
+
+;For centralised administration, we include puppet 2.7.11; we use it widely in <a href="%s">our own infrastructure</a>.
+Pro soustředěné řízení zahrnujeme puppet 2.7.11; hodně jej používáme v <a href="%s">naší vlastní infrastruktuře</a>.
+
+;Download
+
+;For PC
+Pro počítač
+
+;For server
+Pro server
