@@ -8,7 +8,7 @@ Pobierz Mageia 2
 
 # en/2/download_index.php +15
 ;Download Mageia 2 DVD, CD, LiveCD, network install ISO images.
-Pobierz obraz ISO Mageia 2 DVD, CD, LiveCD, instalatora sieciowego.
+Pobierz obraz ISO Mageia 2 DVD, CD, LiveCD, instalator sieciowy.
 
 
 # en/2/download_index.php +16
@@ -23,8 +23,10 @@ Pobierz <strong>Mageia 2</strong>
 
 # en/2/download_index.php +31
 ;Free Software Installation Flavours
-Wersje Instalatora Wolnego Oprogramowania
+Wersje Instalatora - tylko Wolne Oprogramowanie
 
+;Notes:
+Informacje
 
 # en/2/download_index.php +36
 ;size
@@ -34,11 +36,12 @@ rozmiar
 # en/2/download_index.php +37
 ;link
 odnośnik
+odnośnik
 
 
 # en/2/download_index.php +65
 ;Up to 167 locales are supported:
-Wspierane aż 167 lokalizacji:
+Wspiera aż 167 lokalizacji:
 
 
 # en/2/download_index.php +68
@@ -68,12 +71,12 @@ Jeśli potrzebujesz określonego sterownika karty graficznej lub Wi-Fi <em>podcz
 
 # en/2/download_index.php +74
 ;You may, if you will, add nonfree software repository <em>after</em> the installation.
-Możesz jeśli będziesz chciał dodać repozytorium oprogramowania nonfree <em>po</em> instalacji.
+Jeśli będziesz potrzebował repozytorium oprogramowania nonfree możesz go dodać <em>po</em> instalacji.
 
 
 # en/2/download_index.php +77
 ;Please note that there is a <span class="warn">problem with notebooks using Intel, AMD/ATI and nVidia graphic cards.</span>
-Proszę zauważyć, że należy spodziewać się <span class="warn">problemów z notebookami wykorzystującymi karty graficzne Intel, AMD/ATI i nVidia.</span>
+Uwaga! Należy spodziewać się <span class="warn">problemów z notebookami wykorzystującymi karty graficzne Intel, AMD/ATI i nVidia.</span>
 
 
 # en/2/download_index.php +79
@@ -83,7 +86,7 @@ Zobacz erratę na ten temat
 
 # en/2/download_index.php +86
 ;Use LiveCDs for fresh new installs ONLY.
-Wersje LiveCD użyj TYLKO do nowej instalacji systemu.
+Wersji LiveCD użyj TYLKO do nowej instalacji systemu.
 
 
 # en/2/download_index.php +87
@@ -93,7 +96,7 @@ NIE UŻYWAJ wersji LiveCD do aktualizacji Mageia w wersji 1!
 
 # en/2/download_index.php +88
 ;Use above DVD or CD and see the <a href="%s" hreflang="en">upgrade guide</a>.
-Użyj powyższych DVD lub CD i przeglądnij  <a href="%s" hreflang="pl">przewodnik aktualizacji</a>.
+Użyj poniższych DVD lub CD i przeglądnij  <a href="%s" hreflang="pl">przewodnik aktualizacji</a>.
 
 
 # en/2/download_index.php +105
@@ -113,7 +116,7 @@ Płyty instalacyjne CD dla przewodowych łącz internetowych
 
 # en/2/download_index.php +168
 ;Download quickly (about 40 MB) and immediately boot into install mode from <em>wired</em> network or a local disk.
-Pobierz szybko (około 40 MB) i natychmiast uruchom instalator z pobranej płyty i przejdź do instalacji w trybie <em>przewodowego</em> łącza internetowego lub z dysku lokalnego.
+Pobierz szybko (około 40 MB) i natychmiast uruchom instalator z pobranej płyty oraz przejdź do instalacji w trybie <em>przewodowego</em> łącza internetowego lub dysku lokalnego.
 
 
 # en/2/download_index.php +179
@@ -183,12 +186,12 @@ Mnogość
 
 # en/for-pc/index.php +27
 ;There are 19&nbsp;881&nbsp;packages in our repositories. And that's just for the 64-bit branch.
-W naszym repozytorium jest 19&nbsp;881&nbsp; pakietów i to tylko dla wersji 64-bitowej.
+W naszym repozytorium jest 19&nbsp;881&nbsp;pakietów i to tylko dla wersji 64-bitowej.
 
 
 # en/for-pc/index.php +28
 ;The total number is double that &ndash; and then if you consider the backports, and the packages in the Cauldron still testing... you'll see that Mageia users are spoiled for choice.
-Całkowita liczba jest dwukrotnie większa &ndash; i jeśli rozważysz repozytorium backports i pakiety w Kotle będące w trakcie testów... zobaczysz jak użytkownicy Mageia są rozpieszczani mnogością wyboru.
+Całkowita liczba jest dwukrotnie większa &ndash; i jeśli dodasz repozytorium backports i pakiety w Kotle będące w trakcie testów... zobaczysz jak użytkownicy Mageia są rozpieszczani mnogością wyboru.
 
 
 # en/for-pc/index.php +29
@@ -268,7 +271,7 @@ Dźwięk
 
 # en/for-pc/index.php +78
 ;For playing audio files, choose from Amarok 2.5.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don't infringe local laws.
-Do odtwarzania plików audio wybierz z pośród Amaroka 2.5.0 i Rhythmboxa oraz innych; do plików video i audio użyj VLC, Totema lub MPlayera lub użyj XBMC Media Center jako domowy system rozrywki. Niektóre z pakietów możesz znaleźć zarówno w Głównym repozytorium (Core) i repozytorium Skażonym (Tainted): pakiety w głównym repozytorium nie zawierają kodeków opatentowanych, a repozytorium Skażone zawiera wszystkie kodeki bez wyjątku, i są przeznaczone dla użytkowników mieszkających w krajach, gdzie nie naruszają one prawa.
+Do odtwarzania plików audio wybierz z pośród Amaroka 2.5.0 i Rhythmboxa oraz innych; do plików video i audio użyj VLC, Totema lub MPlayera lub użyj XBMC Media Center jako domowego systemu rozrywki. Niektóre z pakietów możesz znaleźć zarówno w Głównym repozytorium (Core) i repozytorium Skażonym (Tainted): pakiety w głównym repozytorium nie zawierają kodeków opatentowanych, a repozytorium Tainted zawiera wszystkie kodeki bez wyjątku, i są one przeznaczone dla użytkowników mieszkających w krajach, gdzie nie naruszają one prawa.
 
 
 # en/for-pc/index.php +83
@@ -283,7 +286,7 @@ Do edycji plików wideo spróbuj Avidemuxa, Kino lub OpenShota; dla subtekstu je
 
 # en/for-pc/index.php +89
 ;Plus
-Plus
+Dodatki
 
 
 # en/for-pc/index.php +90
@@ -293,12 +296,12 @@ Dostępny jest ZoneMinder, dla CCTV Security; VirtualBox lub WINE dla wirtualiza
 
 # en/for-pc/index.php +95
 ;For more information about these and other packages, check the <a href="%s">Mageia 2 Release notes</a>.
-Więcej informacji o tych i innych pakietach znajdziesz <a href="%s">Informacji o wydaniu Mageia 2</a>.
+Więcej informacji o tych i innych pakietach znajdziesz w <a href="%s">Informacji o wydaniu Mageia 2</a>.
 
 
 # en/for-pc/index.php +96
 ;You can take a look at the <a href="%s">Mageia Application Database</a> to get a more complete list of Mageia packages.
-Można przyjrzeć się <a href="%s">Aplikacjom Bazodanowym Mageia</a> aby uzyskać pełną listę pakietów Mageia.
+Przeglądnij <a href="%s">Bazę Danych Aplikacji Mageia</a> aby uzyskać pełną listę pakietów Mageia.
 
 
 # en/for-server/index.php +12
@@ -388,7 +391,7 @@ Co nowego?
 
 # en/2/index.php +35
 ;Too much to include here! See the <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">release notes</a> for an extensive exposé.
-Zbyt dużo, by zawrzeć tutaj! Zobacz <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">informacje o wydaniu</a> dla uszczegółowienia.
+Jest tego zbyt dużo, by opisać wszystko tutaj! Zobacz <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">informacje o wydaniu</a> dla uszczegółowienia.
 
 
 # en/2/index.php +37
@@ -429,3 +432,23 @@ Nasza praca przyczynia się do doskonałej pracy ogólnie Linuxa i społecznośc
 # en/2/index.php +51
 ;We welcome new contributors to any of the many different teams that go to make up Mageia the Community, and we encourage you to join us.
 Zapraszamy nowych użytkowników do jednego z wielu zespołów, które stanowią Społeczność Mageia i zachęcamy do przyłączenia się do nas.
+
+
+;Aside from the cross-section included here, you will find many others in the repositories: you can use rpmdrake to search for packages, or check the <a href="%s">Mageia App DB</a>.
+Oprócz zaprezentowanych tutaj programów możesz znaleźć więcej w repozytorium - wykorzystaj do tego rpmdrake lub sprawdź <a href="%s">Bazę Aplikacji Mageia</a>.
+
+
+;For centralised administration, we include puppet 2.7.11; we use it widely in <a href="%s">our own infrastructure</a>.
+W dystrybucji zawarto puppet 2.7.11 do centralnego zarządzania. Używamy go w naszej infrastrukturze.
+
+
+;Download
+Pobierz
+
+
+;For PC
+Dla komputera biurkowego
+
+
+;For server
+Dla serwera

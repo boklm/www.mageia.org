@@ -8,7 +8,7 @@ O Mageia
 
 # /en/about/index.php +13
 ;Mageia is a Free Software, community-led project. Learn more about it.
-Mageia jest Wolnym Oprogramowaniem, projektem prowadzonym przez społeczność. Dowiedz się więcej na ten temat.
+Mageia jest projektem Wolnego Oprogramowania prowadzonym przez społeczność. Dowiedz się więcej na ten temat.
 
 
 # /en/about/index.php +14
@@ -28,17 +28,17 @@ Mageia jest systemem operacyjnym (Wolne Oprogramowanie) opartym o GNU/Linux.
 
 # /en/about/index.php +35
 ;It is a <a href="../community/">community project</a>, supported by <a href="#mageia.org">a nonprofit organisation</a> of elected contributors.
-To jest <a href="../community/">projekt społecznościowy</a>, wspierany przez <a href="#mageia.org">organizację non-profit</a> wybraną przez użytkowników.
+Jest <a href="../community/">projektem społecznościowym</a>, wspieranym przez <a href="#mageia.org">organizację non-profit</a> wybraną przez użytkowników.
 
 
 # /en/about/index.php +38
 ;Our mission: to build great tools for people.
-Nasza misja: budować wspaniałe narzędzia dla ludzi.
+Naszą misją jest: budować wspaniałe narzędzia dla ludzi.
 
 
 # /en/about/index.php +39
 ;Further than just delivering a secure, stable and sustainable operating system, the goal is to set up a stable and trustable governance to direct collaborative projects.
-Oprócz dostarczania bezpiecznego, stabilnego i trwałego systemu operacyjnego, naszym celem jest stworzenie stabilnego wiarygodnego zarządzania do kierowania projektów współpracy.
+Oprócz dostarczania bezpiecznego, stabilnego i trwałego systemu operacyjnego, naszym celem jest stworzenie stabilnego i wiarygodnego systemu zarządzania do kierowania współpracą projektów.
 
 
 # /en/about/index.php +40
@@ -48,22 +48,22 @@ Mageia do tej pory:
 
 # /en/about/index.php +43
 ;<a href="2010-sept-announcement.html">started in September 2010 as a fork</a> of Mandriva Linux,
-<a href="2010-sept-announcement.html">Start w wrzesień 2010 jako fork</a> Mandriva Linux,
+<a href="2010-sept-announcement.html">Wystartowała we wrześniu 2010 jako fork</a> Mandriva Linux,
 
 
 # /en/about/index.php +45
 ;gathered <a href="../community/">hundreds of careful individuals and several companies worldwide</a>,
-zebranie <a href="../community/">setek starannych osób i kilka firm na całym świecie</a>,
+zebrała <a href="../community/">setki starannych osób i kilka firm na całym świecie</a>,
 
 
 # /en/about/index.php +46
 ;who coproduce the infrastructure, the distribution itself, <a href="http://wiki.mageia.org/">documentation</a>, <a href="../downloads/">delivery</a> and <a href="../support/">support</a>, using Free Software tools;
-które zbudują infrastrukturę, dystrybucje we własnym zakresie, <a href="http://wiki.mageia.org/">dokumentację</a>, <a href="../downloads/">dostawę</a> and <a href="../support/">wsparcie</a>, z wykorzystaniem darmowych narzędzi;
+które zbudują infrastrukturę, dystrybucje we własnym zakresie, <a href="http://wiki.mageia.org/">dokumentację</a>, <a href="../downloads/">wydanie</a> i <a href="../support/">wsparcie</a>, z wykorzystaniem darmowych narzędzi;
 
 
 # /en/about/index.php +48
 ;released two major stable releases <a href="../1/">in June 2011</a> and <a href="../2/">in May 2012</a>.
-wydanie dwóch ważnych stabilnych wersji <a href="../1/">w czerwcu 2011</a> i <a href="../2/">w maju 2012</a>.
+wydanie dwóch ważnych stabilnych wersji <a href="../1/">w czerwcu 2011</a> i <a href="../2/">w maju 2012 roku</a>.
 
 
 # /en/about/index.php +69
@@ -73,7 +73,7 @@ wydanie dwóch ważnych stabilnych wersji <a href="../1/">w czerwcu 2011</a> i <
 
 # /en/about/index.php +72
 ;is the French, Paris-based legal structure supporting the Mageia project.
-ze swoimi strukturami prawnymi wspierająca projekt Mageia jest we Francji, z siedzibą w Paryżu.
+ze swoimi strukturami prawnymi wspierającymi projekt Mageia znajdują się we Francji, z siedzibą w Paryżu.
 
 
 # /en/about/index.php +74
@@ -88,7 +88,7 @@ Media &amp; grafika
 
 # /en/about/index.php +80
 ;<a href="%s">Logo, CD covers files, media files</a>.
-<a href="%s">Loga, pliki z okładkami na CD, pliki multimedialne</a>.
+<a href="%s">Loga, pliki z okładkami na CD i pliki multimedialne</a>.
 
 
 # /en/about/index.php +81
