@@ -60,8 +60,11 @@ kes teeavd koostööd infrastruktuuri, distributsiooni enda, <a href="http://wik
 ;released two major stable releases <a href="../1/">in June 2011</a> and <a href="../2/">in May 2012</a>.
 toonud välja kaks stabiilset väljalaset <a href="../1/">2011. aasta juunis</a> ja <a href="../2/">2012. aasta mais</a>.
 
-
 # /en/about/index.php +69
+;<a href=%s>Mageia.Org's legal constitution</a> and <a href=%s>governance</a> rules;
+<a href=%s>Mageia.Org-i ametlik põhikiri</a> ja <a href=%s>juhtimise</a> alused;
+
+# /en/about/index.php +72
 ;is the French, Paris-based legal structure supporting the Mageia project.
 on Prantsusmaal Pariisis tegutsev juriidiline isik, mis toetab Mageia projekti.
 
