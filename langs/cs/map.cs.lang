@@ -148,17 +148,17 @@ Planeta
 
 # en/map/index.php +63
 ;http://planet.mageia.org/en/
-http://planet.mageia.org/en/ {ok}
+http://planet.mageia.org/en/
 
 
 # en/map/index.php +64
 ;Blog
-Blog {ok}
+Blog
 
 
 # en/map/index.php +64
 ;http://blog.mageia.org/en/
-http://blog.mageia.org/en/ {ok}
+http://blog.mageia.org/en/
 
 
 # en/map/index.php +65
@@ -173,7 +173,7 @@ Poštovní seznamy
 
 # en/map/index.php +69
 ;http://forums.mageia.org/
-http://forums.mageia.org/ {ok}
+Fóra
 
 
 # en/map/index.php +76
@@ -203,7 +203,7 @@ Vy
 
 # en/map/index.php +88
 ;Your Mageia id
-Váš identifikátor (ID) u Mageii
+Vaše totožnost u Mageii
 
 
 # en/map/index.php +89
@@ -234,3 +234,6 @@ Vítejte!
 # en/map/index.php +140
 ;You still can not find what you were looking for? Try searching mageia.org:
 Stále ještě jste nenašli to, co jste hledali? Vyzkoušejte hledání na mageia.org:
+
+;Official Documentation
+Oficiální dokumentace
