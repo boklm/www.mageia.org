@@ -48,6 +48,7 @@ $map = array(
         'i' => array(
             array('t' => _t('Software updates'),     'l' => '/{L}/support/'), // /updates
             array('t' => _t('Product lifecycle'),    'l' => '/{L}/support/'), // /lifecycle
+            array('t' => _t('Official Documentation'),'l' => 'http://doc.mageia.org'), // documentation
             array('t' => _t('Community support'),    'l' => '/{L}/support'),
             array('t' => _t('Professional support'), 'l' => 'https://wiki.mageia.org/en/Commercial_vendors'),
             array('t' => _t('Compatible hardware'),  'l' => '/{L}/support/'), // /hardware

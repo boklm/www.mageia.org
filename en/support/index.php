@@ -60,6 +60,7 @@ _lang_load($locale, 'support');
                         echo '<ul class="hl">';
                         _h('<a href="http://forums.mageia.org/en/">Community support forums</a> in English &ndash; see <a href="https://forums.mageia.org/en/viewforum.php?f=20">other Mageia community forums</a> for support in your language;', null, 'li');
                         _h('IRC channels where you can discuss live with other Mageia users and contributors: <a href="irc://irc.freenode.net/#mageia" hreflang="en">#mageia</a> or other localized <a href="https://wiki.mageia.org/en/IRC#channels_in_other_languages">channels</a>;', null, 'li');
+                        _h('the official <a href="https://doc.mageia.org">documentation</a> (translated in different languages);', null, 'li');
                         _h('our <a href="https://wiki.mageia.org/en/">Wiki</a> (still rough at the time, we are working on it!);', null, 'li');
                         _h('our <a href="http://www.mageia.org/mailman/" hreflang="en">mailing-lists</a>;', null, 'li');
                         _h('local events: follow our <a href="http://blog.mageia.org/en/">blog</a> and <a href="http://www.mageia.org/en/calendar/">calendar</a>.', null, 'li');
