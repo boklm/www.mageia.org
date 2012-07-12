@@ -87,6 +87,7 @@ include '../../lib/news.php';
     .para { text-align: left; float: left; width: 250px; display: block; border-right: 1px solid #eef; border-bottom: 1px solid #eef; }
     hr { margin-top: 2em; }
     </style>
+    <?php include '../../analytics.php'; ?>
 </head>
 <body class="community">
     <?php echo $hsnav; ?>

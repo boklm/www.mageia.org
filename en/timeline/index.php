@@ -52,6 +52,7 @@ $events = array(
     .tlim h3 { color: #777; font-size: 130%; }
     .tlie { margin-left: 4em; }
     </style>
+    <?php include '../../analytics.php'; ?>
 </head>
 <body class="about">
     <?php echo $hsnav; ?>
