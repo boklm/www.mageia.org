@@ -91,6 +91,11 @@ LiveCD-d tuleks kasutada AINULT uue paigalduse jaoks.
 ÄRGE KASUTAGE LiveCD-d uuendamiseks Mageia 1 pealt!
 
 
+# en/2/download_index.php +88
+;Use above DVD or CD and see the <a href="%s" hreflang="en">upgrade guide</a>.
+Kasutage ülal mainitud DVD-d või CD-d ja uurige <a href="%s" hreflang="en">uuendamisjuhiseid</a>.
+
+
 # en/2/download_index.php +105
 ;Included locales:
 Keeled:
@@ -146,6 +151,11 @@ Uuendamine<br>Mageia 1 pealt?
 <strong>ärge kasutage</strong> LiveCD-d;
 
 
+# en/2/download_index.php +208
+;see the <a href="%s" hreflang="en">upgrade guide</a>
+vaadake <a href="%s" hreflang="en">uuendamisjuhiseid</a>
+
+
 # en/2/download_index.php +214
 ;Looking for Mageia 1?
 Huvitab hoopis Mageia 1?
@@ -157,23 +167,165 @@ Selle leiab <a href="%s">nüüd siit</a>.
 
 
 # en/for-pc/index.php +12
-;page_title
-Lehekülje nimi
+;Mageia 2, for your PC
+Mageia 2 Teie PC-le
+
+
+# en/for-pc/index.php +21
+;for your PC
+Teie PC-le
+
+
+# en/for-pc/index.php +26
+;Plenty
+Külluslik
+
+
+# en/for-pc/index.php +27
+;There are 19&nbsp;881&nbsp;packages in our repositories. And that's just for the 64-bit branch.
+Meie hoidlates on 19&nbsp;881&nbsp;tarkvarapaketti. Ja seda ainult 64-bitistele masinatele.
+
+
+# en/for-pc/index.php +28
+;The total number is double that &ndash; and then if you consider the backports, and the packages in the Cauldron still testing... you'll see that Mageia users are spoiled for choice.
+Koguarv on niisiis kahekordne &ndash; ja kui veel arvestada tagasi porditud tarkvara ja pakette, mida Cauldronis ikka veel testitakse. Nagu isegi aru saate, lööb Mageia valik silme eest kirjuks.
+
+
+# en/for-pc/index.php +29
+;Here's a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:
+Me anname siin põgusa ülevaate kõigepealt graafilistest töökeskkondadest ja siis põhirakendustest, mida saate oma arvutis kasutada:
+
+
+# en/for-pc/index.php +30
+;Environments
+Töökeskkonnad
+
+
+# en/for-pc/index.php +31
+;Mageia 2 has all the major desktop environments:
+Mageia 2 pakub kõiki tähtsamaid töökeskkondi:
+
+
+# en/for-pc/index.php +44
+;And then there are the window managers, including Openbox, WindowMaker, IceWM, Fluxbox, Fvwm2 and Awesome.
+Neile lisanduvad veel aknahaldurid, sealhulgas WindowMaker, IceWM, Fluxbox, Fvwm2 ja Awesome.
+
+
+# en/for-pc/index.php +45
+;Applications &rarr;
+Rakendused &rarr;
+
+
+# en/for-pc/index.php +46
+;There are many, many to choose from &ndash; including all the most popular.
+Neid on palju, tõesti palju &ndash; sealhulgas kõik kõige populaarsemad.
+
+
+# en/for-pc/index.php +53
+;Web
+Veeb
+
+
+# en/for-pc/index.php +54
+;Choose your web browser from Firefox ESR 10.0.4, Chromium-browser 180.1025.160, Epiphany 3.4.1 or Opera 11.64 &ndash; or one of the many others such as Lynx or Konqueror; then pick an email client from KMail 4.8.2, Thunderbird ESR 10.0.4, Evolution 3.4.1 or maybe Claws-Mail or Mutt.
+Valige meelepärane veebibrauser &ndash; Firefox ESR 10.0.4, Chromium-browser 180.1025.160, Epiphany 3.4.1 või Opera 11.64 &ndash; või mõni veel paljude teiste seast, näiteks Lynx või Konqueror; seejärel aga valige e-posti klient: KMail 4.8.2, Thunderbird ESR 10.0.4, Evolution 3.4.1 või ka Claws-Mail või Mutt.
+
+
+# en/for-pc/index.php +59
+;Messaging
+Kiirsuhtlus
+
+
+# en/for-pc/index.php +60
+;Choose from Kopete, Pidgin, Empathy or Kadu for instant messaging; use Quassel, Konversation, XChat-Gnome or KVIrc for IRC chat; try QuteCom or Ekiga (or even Skype) for VOIP.
+Teiste seas saab valida kiirsuhtluseks Kopete, Pidgini, Empathy või Kadu; IRC-vestlusteks Quasseli, Konversationi, XChat-Gnome või KVIrci; häälsuhtluseks (VoIP) QuteComi või Ekiga (või isegi Skype'i).
+
+
+# en/for-pc/index.php +65
+;Office
+Kontoritöö
+
+
+# en/for-pc/index.php +66
+;The two full-featured office suites LibreOffice and Calligra are there, as well as AbiWord, and a host of text editors including Kate; for finance there's KMyMoney, Skrooge or the professional-level GnuCash.
+Saadaval on nii kaks täismahulist kontoritöökomplekti LibreOffice ja Calligra kui ka AbiWord ja terve hulk tekstiredaktoreid, sealhulgas Kate; rahaasju aitavad hallata KMyMoney, Skrooge või professionaalidele mõeldud GnuCash.
+
+
+# en/for-pc/index.php +71
+;Image
+Pildid
+
+
+# en/for-pc/index.php +72
+;Use GIMP for powerful image manipulation, or Inkscape for vector drawing; Blender is there for serious animation. DigiKam or Showfoto will take care of your photos, talk to your camera and give you more basic image editing.
+GIMP võimaldab pilte igatmoodi töödelda, Inkscape aga hakkama saada vektorgraafikaga; Blender sobib tõsiseks animatsiooniloomeks. DigiKam või Showfoto aitavad hoolt kanda fotode eest, suhelda kaameraga ja fotosid vajaduse korral ka veidi töödelda.
+
+
+# en/for-pc/index.php +77
+;Sound
+Heli
+
+
+# en/for-pc/index.php +78
+;For playing audio files, choose from Amarok 2.5.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don't infringe local laws.
+Helifailide mängimiseks sobivad teiste seas Amarok 2.5.0 ja Rhythmbox; nii heli kui video esitamiseks VLC, Totem või MPlayer; koduse meelelahutussüsteemi aitab aga üles seada XBMC Media Center. Mõningaid tarkvarapakette võib leida nii hoidlast Core kui ka Tainted: Core paketid toetavad ainult patentidega koormamata koodekeid, Taintedi paketid aga kõiki koodekeid, olles mõeldud kasutajatele, kes elavad riikides, kus nende koodekite kasutamine ei ole seadusega vastuolus.
+
+
+# en/for-pc/index.php +83
+;Video
+Video {ok}
+
+
+# en/for-pc/index.php +84
+;For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there's Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.
+Videofailide töötlemiseks sobib Avidemux, Kino või OpenShot; subtiitritega aitab majandada Gaupol või Subtitles Composer; telesaateid võimaldab vaadata või salvestada MythTV, Miro, tvtime, FreetuxTV või Me TV.
+
+
+# en/for-pc/index.php +89
+;Plus
+Ja veel
+
+
+# en/for-pc/index.php +90
+;Then there's ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.
+Siis on veel olemas valvekaamerate tarkvara ZoneMinder; virtualiseerimiseks mõeldud VirtualBox või WINE for virtualisation; terve hulk arenduskeskkondi, nagu Anjuta, Eclipse, Netbeans või KDevelop.
+
+
+# en/for-pc/index.php +95
+;For more information about these and other packages, check the <a href="%s">Mageia 2 Release notes</a>.
+Täpsemat teavet nii nende kui ka teiste tarkvarapakettide kohta annavad <a href="%s">Mageia 2 väljalaskemärkmed</a>.
+
+
+# en/for-pc/index.php +96
+;You can take a look at the <a href="%s">Mageia Application Database</a> to get a more complete list of Mageia packages.
+Samuti võib uurida <a href="%s">Mageia rakenduste andmebaasi</a>, kus leiab Mageia tarkvarapakettide põhjaliku nimekirja.
+
+# en/for-server/index.php +12
+;Mageia 2, for your server
+Mageia 2 Teie serverile
 
 
 # en/for-server/index.php +21
 ;for your server
-serverile
+Serverile
 
 
 # en/for-server/index.php +26
 ;Mageia 2 has all the main services and server packages you will need to run your server.
 Mageia 2 pakub kõiki tähtsamaid teenuseid ja tarkvara, mida vajate oma serveri jaoks.
 
+# en/for-server/index.php +27
+;Aside from the cross-section included here, you will find many others in the repositories: you can use rpmdrake to search for packages, or check the <a href="%s">Mageia App DB</a>.
+Lisaks siin mainitud valikule leiab veel palju tarkvara hoidlatest: pakette võib otsida tarkvarahalduriga Rmdrake või kontrollida nende olemasolu <a href="%s">Mageia rakenduste andmebaasi</a> abil.
+
 
 # en/for-server/index.php +30
 ;Administration
 Haldamine
+
+# en/for-server/index.php +31
+;For centralised administration, we include puppet 2.7.11; we use it widely in <a href="%s">our own infrastructure</a>.
+Tsentraliseeritud haldamiseks on mõeldud näiteks puppet 2.7.11, mida me kasutame laialdaselt <a href="%s">meie enda infrastruktuuris</a>.
 
 
 # en/for-server/index.php +34
@@ -220,6 +372,10 @@ Mageia 2 sisaldab muu hulgas e-posti servereid Postfix 2.8.8, Cyrus-imapd 2.4.13
 ;For more information about these and other packages, check the <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">Mageia 2 Release notes</a>.
 Täpsemat teavet nende ja muu tarkvara kohta annavad <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">Mageia 2 väljalaskemärkmed</a>.
 
+# en/for-server/index.php +50
+;You can take a look at the <a href="%s">Mageia Application Database</a> to get a more complete list of Mageia packages.
+Põhjaliku ülevaate Mageia tarkvarapakettidest annab <a href="%s">Mageia rakenduste andmebaas</a>.
+
 
 # en/2/index.php +14
 ;Mageia 2
@@ -229,6 +385,10 @@ Mageia 2 {ok}
 # en/2/index.php +16
 ;Mageia 2 is the new, solid, stable Linux distribution from the Mageia project.
 Mageia 2 on Mageia projekti uus töökindel stabiilne Linuxi distributsioon.
+
+# en/2/index.php +30
+;Mageia 2 is a GNU/Linux distribution for your computer, released by the <a href="%s">Mageia community</a>.
+Mageia 2 on just Teie arvutile mõeldud GNU/Linuxi distributsioon, mille on valmistanud <a href="%s">Mageia kogukond</a>.
 
 
 # en/2/index.php +35
@@ -250,6 +410,10 @@ Mageia kontekstis
 ;Mageia is both a Community and a Linux Distribution, with Mageia 2 being our second release.
 Mageia on ühtaegu kogukonna ja Linuxi distributsioon, mis praegu on jõudnud oma teise väljalaskeni: Mageia 2.
 
+# en/2/index.php +43
+;Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch's most popular distributions</a>.
+Alates <a href="../1/">Mageia 1</a> ilmumisest on meie väljalase olnud pidevalt <a href="%s">Distrowatchi 10 populaarsema distributsiooni seas</a>.
+
 
 # en/2/index.php +46
 ;Mageia 2 is supported by the <a href="../about/">Mageia.org nonprofit organisation</a>, which is governed by a body of recognized and elected contributors.
@@ -270,5 +434,22 @@ Meie töö täiendab laiema Linuxi ja vaba tarkvara kogukonna suurepärast tegev
 ;We welcome new contributors to any of the many different teams that go to make up Mageia the Community, and we encourage you to join us.
 Me võtame rõõmuga vastu uusi kaastöötajaid oma arvukatesse meeskondadesse, millest Mageia kogukond lõppeks koosnebki, ja julgustame teid meiega ühinema.
 
-;What's new?
-Mis on uut?
+
+# en/2/nav.php +27
+;Mageia 2
+Mageia 2 {ok}
+
+
+# en/2/nav.php +28
+;Download
+Allalaadimine
+
+
+# en/2/nav.php +29
+;For PC
+PC-le
+
+
+# en/2/nav.php +30
+;For server
+Serverile
