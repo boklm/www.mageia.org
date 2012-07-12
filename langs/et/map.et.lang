@@ -143,12 +143,12 @@ Kogukond
 
 # en/map/index.php +63
 ;Planet
-Planet
+Planet {ok}
 
 
 # en/map/index.php +63
 ;http://planet.mageia.org/en/
-http://planet.mageia.org/en/
+http://planet.mageia.org/en/ {ok}
 
 
 # en/map/index.php +64
@@ -158,7 +158,7 @@ Ajaveeb
 
 # en/map/index.php +64
 ;http://blog.mageia.org/en/
-http://blog.mageia.org/en/
+http://blog.mageia.org/en/ {ok}
 
 
 # en/map/index.php +65
@@ -173,7 +173,7 @@ Postiloendid
 
 # en/map/index.php +69
 ;http://forums.mageia.org/
-http://forums.mageia.org/
+http://forums.mageia.org/ {ok}
 
 
 # en/map/index.php +76

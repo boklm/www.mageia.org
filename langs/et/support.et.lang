@@ -62,7 +62,7 @@ Kui vajate abi, teavet või juhiseid paigaldatud Mageia distributsiooni või pro
 
 
 ;<a href="http://forums.mageia.org/en/">Community support forums</a> in English &ndash; see <a href="https://forums.mageia.org/en/viewforum.php?f=20">other Mageia community forums</a> for support in your language;
-<a href="http://forums.mageia.org/en/">Kogukonna toetusfoorum</a> inglise keeles &ndash; vaadake <a href="https://forums.mageia.org/en/viewforum.php?f=20">teisi Mageia kogukonna foorumeid</a>, et leida võimaluse korral toetust enda keeles;
+<a href="http://forums.mageia.org/en/">kogukonna toetusfoorum</a> inglise keeles &ndash; vaadake <a href="https://forums.mageia.org/en/viewforum.php?f=20">teisi Mageia kogukonna foorumeid</a>, et leida võimaluse korral toetust enda keeles;
 
 
 
@@ -87,12 +87,12 @@ kohalikud üritused: jälgige meie <a href="http://blog.mageia.org/en/">ajaveebi
 
 
 ;Mageia.Org does not provide or endorse commercial/professional support or other services around the distribution. But there are organizations providing such services and more.
-Mageia.Org ei paku ega ole volitanud kedagi pakkuma kommerts/professionaalset toetust või muid teenuseid seose distributsiooniga. Siiski leidub organisatsioone, kes niisuguseid teenuseid ja muudki pakuvad.
+Mageia.Org ei paku ega ole volitanud kedagi pakkuma kommerts- või professionaalset toetust või muid teenuseid seoses distributsiooniga. Siiski leidub organisatsioone, kes niisuguseid teenuseid ja muudki pakuvad.
 
 
 
 ;Please check the <a href="%s">commercial vendors</a> list
-Palun uurige end Mageiaga sidunud <a href="%s">organisatsioonide ja ettevõtete</a> nimekirja.
+Uurige end Mageiale pühendanud <a href="%s">organisatsioonide ja ettevõtete</a> nimekirja.
 
 
 
@@ -122,7 +122,7 @@ Salvestusseade (HDD): 1 GB minimaalseks paigalduseks, 6 GB täispaigalduseks;
 
 
 ;Optical drive: CD or DVD depending on the ISO you use (network, USB key installation available);
-Optiline seade: CD või DVD sõltuvalt kasutatavast ISO-tõmmisest (kasutada saab ka võrgu- või USB-pulga paigaldust);
+Optiline seade: CD või DVD sõltuvalt kasutatavast ISO-tõmmisest (paigaldada saab aga ka üle võrgu- või USB-pulgalt);
 
 
 

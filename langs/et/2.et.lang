@@ -168,7 +168,7 @@ Selle leiab <a href="%s">nüüd siit</a>.
 
 # en/for-pc/index.php +12
 ;Mageia 2, for your PC
-Mageia 2 Teie PC-le
+Mageia 2 PC-le
 
 
 # en/for-pc/index.php +21
@@ -188,7 +188,7 @@ Meie hoidlates on 19&nbsp;881&nbsp;tarkvarapaketti. Ja seda ainult 64-bitistele 
 
 # en/for-pc/index.php +28
 ;The total number is double that &ndash; and then if you consider the backports, and the packages in the Cauldron still testing... you'll see that Mageia users are spoiled for choice.
-Koguarv on niisiis kahekordne &ndash; ja kui veel arvestada tagasi porditud tarkvara ja pakette, mida Cauldronis ikka veel testitakse. Nagu isegi aru saate, lööb Mageia valik silme eest kirjuks.
+Koguarv on niisiis kahekordne &ndash; ja kui veel arvestada tagasi porditud tarkvara ja pakette, mida Cauldronis ikka veel testitakse ... Nagu isegi aru saate, lööb Mageia valik silme eest kirjuks.
 
 
 # en/for-pc/index.php +29
@@ -288,12 +288,12 @@ Ja veel
 
 # en/for-pc/index.php +90
 ;Then there's ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.
-Siis on veel olemas valvekaamerate tarkvara ZoneMinder; virtualiseerimiseks mõeldud VirtualBox või WINE for virtualisation; terve hulk arenduskeskkondi, nagu Anjuta, Eclipse, Netbeans või KDevelop.
+Siis on veel olemas valvekaamerate tarkvara ZoneMinder; virtualiseerimiseks mõeldud VirtualBox või WINE; terve hulk arenduskeskkondi, näiteks Anjuta, Eclipse, Netbeans või KDevelop.
 
 
 # en/for-pc/index.php +95
 ;For more information about these and other packages, check the <a href="%s">Mageia 2 Release notes</a>.
-Täpsemat teavet nii nende kui ka teiste tarkvarapakettide kohta annavad <a href="%s">Mageia 2 väljalaskemärkmed</a>.
+Täpsemat teavet nii nende kui ka muu tarkvara kohta annavad <a href="%s">Mageia 2 väljalaskemärkmed</a>.
 
 
 # en/for-pc/index.php +96
@@ -302,12 +302,12 @@ Samuti võib uurida <a href="%s">Mageia rakenduste andmebaasi</a>, kus leiab Mag
 
 # en/for-server/index.php +12
 ;Mageia 2, for your server
-Mageia 2 Teie serverile
+Mageia 2 serverile
 
 
 # en/for-server/index.php +21
 ;for your server
-Serverile
+Teie serverile
 
 
 # en/for-server/index.php +26
@@ -316,7 +316,7 @@ Mageia 2 pakub kõiki tähtsamaid teenuseid ja tarkvara, mida vajate oma serveri
 
 # en/for-server/index.php +27
 ;Aside from the cross-section included here, you will find many others in the repositories: you can use rpmdrake to search for packages, or check the <a href="%s">Mageia App DB</a>.
-Lisaks siin mainitud valikule leiab veel palju tarkvara hoidlatest: pakette võib otsida tarkvarahalduriga Rmdrake või kontrollida nende olemasolu <a href="%s">Mageia rakenduste andmebaasi</a> abil.
+Lisaks siin mainitud valikule leiab veel palju tarkvara hoidlatest: pakette võib otsida tarkvarahalduriga Rpmdrake või kontrollida nende olemasolu <a href="%s">Mageia rakenduste andmebaasi</a> abil.
 
 
 # en/for-server/index.php +30
@@ -325,7 +325,7 @@ Haldamine
 
 # en/for-server/index.php +31
 ;For centralised administration, we include puppet 2.7.11; we use it widely in <a href="%s">our own infrastructure</a>.
-Tsentraliseeritud haldamiseks on mõeldud näiteks puppet 2.7.11, mida me kasutame laialdaselt <a href="%s">meie enda infrastruktuuris</a>.
+Tsentraliseeritud haldamiseks on mõeldud näiteks puppet 2.7.11, mida me kasutame laialdaselt <a href="%s">oma infrastruktuuris</a>.
 
 
 # en/for-server/index.php +34
@@ -339,7 +339,7 @@ Andmebaasid
 
 
 # en/for-server/index.php +37
-;Databases included are PostgreSQL 8.4.11; MariaDB, which replaces MySQL 5.5.23; BDB .
+;Databases included are PostgreSQL 8.4.11; MariaDB, which replaces MySQL 5.5.23; BDB.
 Andmebaasidest võib leida PostgreSQL 8.4.11; MariaDB, mis asendab MySQL 5.5.23; BDB.
 
 
@@ -389,6 +389,10 @@ Mageia 2 on Mageia projekti uus töökindel stabiilne Linuxi distributsioon.
 # en/2/index.php +30
 ;Mageia 2 is a GNU/Linux distribution for your computer, released by the <a href="%s">Mageia community</a>.
 Mageia 2 on just Teie arvutile mõeldud GNU/Linuxi distributsioon, mille on valmistanud <a href="%s">Mageia kogukond</a>.
+
+# en/2/index.php +33
+;What's new?
+Mida on uut?
 
 
 # en/2/index.php +35
