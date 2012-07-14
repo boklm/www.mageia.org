@@ -36,6 +36,16 @@ Hardware Requirements
 
 
 
+;Documentation
+Documentation
+
+
+
+;You can look up existing %sdocumentation here%s. You may too look into our %sWiki%s.
+You can look up existing %sdocumentation here%s. You may too look into our %sWiki%s.
+
+
+
 ;Updates
 Updates
 
@@ -46,13 +56,33 @@ Updates are available for %s and %s (security and bug fixes) and published on an
 
 
 
+;You can install these from the Mageia Control Center.
+You can install these from the Mageia Control Center.
+
+
+
 ;You may subscribe to our %s announce list to be notified of these.
 You may subscribe to our %s announce list to be notified of these.
 
 
 
-;You can install these from the Mageia Control Center.
-You can install these from the Mageia Control Center.
+;Lifecycle
+Lifecycle
+
+
+
+;Mageia releases are supported at least for 18 months.
+Mageia releases are supported at least for 18 months.
+
+
+
+;Mageia 1 will be supported until December 2012.
+Mageia 1 will be supported until December 2012.
+
+
+
+;Mageia 2 may have a longer lifecycle, this will be decided once released in May.
+Mageia 2 may have a longer lifecycle, this will be decided once released in May.
 
 
 
