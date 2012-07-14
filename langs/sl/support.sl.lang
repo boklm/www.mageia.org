@@ -52,7 +52,7 @@ Posodobitve
 
 
 ;Updates are available for %s and %s (security and bug fixes) and published on an ongoing basis.
-Posodobitve so na voljo za izdajo %s in %s (varnostne izboljšave in popravki hroščev) in objavljene sproti.
+Posodobitve so na voljo za izdajo %s in %s (varnostne izboljšave in popravki hroščev).
 
 
 
@@ -92,12 +92,12 @@ Pomoč, informacije ali navodila o distribuciji Mageia ali o projektu, lahko naj
 
 
 ;<a href="http://forums.mageia.org/en/">Community support forums</a> in English &ndash; see <a href="https://forums.mageia.org/en/viewforum.php?f=20">other Mageia community forums</a> for support in your language;
-<a href="http://forums.mageia.org/en/">forumu s podporo skupnosti</a> v angleškem jeziku &ndash; ali <a href="https://forums.mageia.org/en/viewforum.php?f=20">drugih Mageia forumih</a> s podporo v drugih jezikih;
+<a href="http://forums.mageia.org/en/">forumu s podporo skupnosti</a> v angleškem jeziku &ndash; ali <a href="https://forums.mageia.org/en/viewforum.php?f=20">drugih forumih Mageia</a> s podporo v drugih jezikih;
 
 
 
 ;IRC channels where you can discuss live with other Mageia users and contributors: <a href="irc://irc.freenode.net/#mageia" hreflang="en">#mageia</a> or other localized <a href="https://wiki.mageia.org/en/IRC#channels_in_other_languages">channels</a>;
-IRC kanalih, kjer lahko v angleščini v živo razpravljate z drugimi uporabniki Mageje in njenimi soustvarjalci: <a href="irc://irc.freenode.net/#mageia" hreflang="en">#mageia</a> ali <a href="https://wiki.mageia.org/en/IRC#channels_in_other_languages">kanali</a>; v drugih jezikih;
+IRC kanalih, kjer lahko v angleščini v živo razpravljate z drugimi uporabniki Mageje in njenimi soustvarjalci: <a href="irc://irc.freenode.net/#mageia" hreflang="en">#mageia</a> ali <a href="https://wiki.mageia.org/en/IRC#channels_in_other_languages">kanali</a> v drugih jezikih;
 
 
 
@@ -112,12 +112,12 @@ na naših <a href="http://www.mageia.org/mailman/" hreflang="en">poštnih seznam
 
 
 ;local events: follow our <a href="http://blog.mageia.org/en/">blog</a> and <a href="http://www.mageia.org/en/calendar/">calendar</a>.
-na lokalnih dogodkih: sledite našemu <a href="http://blog.mageia.org/en/">blogu/a> in <a href="http://www.mageia.org/en/calendar/">koledarju</a>.
+na lokalnih dogodkih: sledite našemu <a href="http://blog.mageia.org/en/">blogu</a> in <a href="http://www.mageia.org/en/calendar/">koledarju</a>.
 
 
 
 ;Mageia.Org does not provide or endorse commercial/professional support or other services around the distribution. But there are organizations providing such services and more.
-Mageia.Org ne nudi ali potrjuje poslovne/profesionalne podpore ali druge storitve v distribuciji. Vendar pa obstajajo organizacije, ki opravljajo takšne storitve, in še več.
+Mageia.Org ne nudi ali potrjuje poslovne/profesionalne podpore ali drugih storitev v distribuciji. Vendar pa obstajajo organizacije, ki opravljajo takšne storitve in še več.
 
 
 
