@@ -42,12 +42,12 @@ Aktualizace
 
 
 ;Updates are available for %s and %s (security and bug fixes) and published on an ongoing basis.
-Aktualizace jsou dostupné pro %s (bezpečnostní opravy a opravy chyb) a zveřejňovány neustále.
+Aktualizace jsou dostupné pro %s a %s (bezpečnostní opravy a opravy chyb) a zveřejňovány neustále.
 
 
 
 ;You may subscribe to our %s announce list to be notified of these.
-Můžete se přihlásit k našemu %s oznamovacímu seznamu, abyste na ně byli upozorňováni.
+Můžete se přihlásit do našeho oznamovacího systému (%s), abyste na ně byli upozorňováni.
 
 
 
@@ -62,27 +62,27 @@ Pokud potřebujete pomoc, nasměrování nebo informace o distribuci Mageia, kte
 
 
 ;<a href="http://forums.mageia.org/en/">Community support forums</a> in English &ndash; see <a href="https://forums.mageia.org/en/viewforum.php?f=20">other Mageia community forums</a> for support in your language;
-<a href="http://forums.mageia.org/en/">fór pro komunitní podporu</a>, v angličtině, &ndash; podívejte se na <a href="https://forums.mageia.org/en/viewforum.php?f=20">podporu ve svém jazyce hledejte na jiných fórech Mageii</a>;
+<a href="http://forums.mageia.org/en/">fór pro komunitní podporu</a>, která jsou v angličtině &ndash; podívejte se na <a href="https://forums.mageia.org/en/viewforum.php?f=20">podporu ve svém jazyce hledejte na jiných fórech Mageii</a>
 
 
 
 ;IRC channels where you can discuss live with other Mageia users and contributors: <a href="irc://irc.freenode.net/#mageia" hreflang="en">#mageia</a> or other localized <a href="https://wiki.mageia.org/en/IRC#channels_in_other_languages">channels</a>;
-Kanály IRC, kde můžete mluvit živě s dalšími uživateli Mageii a s jejími přispěvateli: <a href="irc://irc.freenode.net/#mageia" hreflang="en">#mageia</a> nebo jiné lokalizované <a href="https://wiki.mageia.org/en/IRC#channels_in_other_languages">kanály</a>;
+kanálů IRC, kde můžete mluvit živě s dalšími uživateli Mageii a s jejími přispěvateli: <a href="irc://irc.freenode.net/#mageia" hreflang="en">#mageia</a> nebo dalších <a href="https://wiki.mageia.org/en/IRC#channels_in_other_languages">kanálů v jiných jazycích</a>
 
 
 
 ;our <a href="https://wiki.mageia.org/en/">Wiki</a> (still rough at the time, we are working on it!);
-naše <a href="https://wiki.mageia.org/en/">Wiki</a> (stále ještě se na ní pracuje!).
+naší <a href="https://wiki.mageia.org/en/">Wiki</a> (stále ještě se na ní pracuje!)
 
 
 
 ;our <a href="http://www.mageia.org/mailman/" hreflang="en">mailing-lists</a>;
-(je potřeba dokončit: <a href="http://www.mageia.org/mailman/" hreflang="en">emailové konference</a>, dokumentaci, informace o místních událostech)
+našich <a href="http://www.mageia.org/mailman/" hreflang="en">poštovních seznamů</a> v konferencích
 
 
 
 ;local events: follow our <a href="http://blog.mageia.org/en/">blog</a> and <a href="http://www.mageia.org/en/calendar/">calendar</a>.
-místní události: sledujte <a href="http://blog.mageia.org/en/">blog</a> a <a href="http://www.mageia.org/en/calendar/">kalendář</a>.
+místních událostí: sledujte <a href="http://blog.mageia.org/en/">blog</a> a <a href="http://www.mageia.org/en/calendar/">kalendář</a>.
 
 
 
@@ -112,17 +112,17 @@ Procesor: jakýkoli procesor od AMD, Intelu nebo VIA;
 
 
 ;Memory (RAM): 512MB minimum, 2GB recommended;
-Paměť (RAM): nejméně 512MB, doporučeno 2GB;
+Paměť (RAM): nejméně 512 MB, doporučeno 2 GB;
 
 
 
 ;Storage (HDD): 1GB for a minimal installation, 6GB for a full setup;
-Ukládací prostor (pevný disk; HDD): 1GB pro tu nejmenší instalaci, 6GB pro úplnou instalaci;
+Ukládací prostor (pevný disk; HDD): 1 GB pro tu nejmenší instalaci, 6 GB pro úplnou instalaci;
 
 
 
 ;Optical drive: CD or DVD depending on the ISO you use (network, USB key installation available);
-Optická mechanika: CD nebo DVD v závislosti na obraze ISO, který použijete (je možné instalovat i po síti nebo přes USB disk);
+Optická mechanika: CD nebo DVD v závislosti na vámi použitém obraze ISO (je možné instalovat i po síti nebo přes USB disk);
 
 
 
@@ -137,12 +137,12 @@ Zvuková karta: jakákoli zvuková karta AC97, HDA nebo Sound Blaster.
 
 
 ;For some kinds of hardware (Wi-Fi chipsets, 3D graphic cards) to work properly, specific firmware or software may be needed, this is available in a specific online repository called "nonfree" (learn more).
-U některých kousků vybavení (Wi-Fi karty, grafické karty) je pro správný chod potřeba  zvláštní firmware nebo software, který je na internetu dostupný v určitých repozitářích nazvaných "nonfree" (vizte další informace například na wiki).
+U některých kousků vybavení (Wi-Fi karty, grafické karty) je pro správný chod potřeba  zvláštní firmware nebo software, který je na internetu dostupný v určitých repozitářích nazvaných "nonfree" (viz další informace například na wiki).
 
 
 
 ;We may set up a hardware compatibility list/directory as well as a hardware certification process; but that's still at the planning stage. Feel free to join/contact our <a href="%s">Web</a> and <a href="%s">QA</a> teams if you would like to help in this regard.
-Můžeme přichystat zvláštní seznam vybavení pro počítač/adresář, stejně tak jako připravit postup, kterým by se dokládala vhodnost vybavení; ale toto se teprve připravuje. Můžete se připojit/spojit s našimi týmy <a href="%s">Web</a> a <a href="%s">Zajištění kvality (QA)</a>, pokud byste v této věci chtěli pomoct.
+Můžeme přichystat zvláštní seznam vhodného vybavení pro počítač, stejně tak jako připravit postup, kterým by se dokládala vhodnost vybavení; ale toto se teprve připravuje. Můžete se připojit k našim týmům <a href="%s">Web</a> a <a href="%s">Zajištění kvality (QA)</a>, pokud byste v této věci chtěli pomoct.
 
 
 
@@ -161,4 +161,11 @@ Chyby můžete zkoumat a hlásit na <a href="%s">naší Bugzille (bugs.mageia.or
 ;Bugs Reports
 Hlášení chyb
 
+;Documentation
+Dokumentace
 
+;You can look up existing %sdocumentation here%s. You may too look into our %sWiki%s.
+Na stávající dokumentaci se můžete podívat %szde%s. Taktéž můžete prozkoumat naši %sWiki%s.
+
+;Mageia 2 may have a longer lifecycle, this will be decided once released in May.
+Mageia 2 by mohla mít delší životní cyklus. To se rozhodne po jejím vydání v květnu.
