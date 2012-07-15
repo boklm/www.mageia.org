@@ -433,3 +433,23 @@ Zapraszamy nowych użytkowników do jednego z wielu zespołów, które stanowią
 
 ;Notes:
 Uwagi
+
+
+;Aside from the cross-section included here, you will find many others in the repositories: you can use rpmdrake to search for packages, or check the <a href="%s">Mageia App DB</a>.
+Więcej aplikacji możesz znaleźć w repozytoriach, które można przeglądnąć za pomocą rpmdrake. Listę możesz również zobaczyć przeglądając <a href="%s">Bazę Aplikacji Mageia</a>.
+
+
+;For centralised administration, we include puppet 2.7.11; we use it widely in <a href="%s">our own infrastructure</a>.
+Do centralnego zarządzania <a href="%s">naszą strukturą</a> używamy puppet 2.7.11, który również znalazł się w dystrybucji.
+
+
+;Download
+Pobierz
+
+
+;For PC
+Dla PC
+
+
+;For server
+Dla serwera
