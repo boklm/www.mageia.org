@@ -8,7 +8,7 @@ Pobierz Mageia 2
 
 # en/2/download_index.php +15
 ;Download Mageia 2 DVD, CD, LiveCD, network install ISO images.
-Pobierz obraz ISO Mageia 2 DVD, CD, LiveCD, instalator sieciowy.
+Pobierz obraz ISO Mageia 2 DVD, CD, LiveCD, instalatora sieciowego.
 
 
 # en/2/download_index.php +16
@@ -23,10 +23,8 @@ Pobierz <strong>Mageia 2</strong>
 
 # en/2/download_index.php +31
 ;Free Software Installation Flavours
-Wersje Instalatora - tylko Wolne Oprogramowanie
+Wersje Instalatora Wolnego Oprogramowania
 
-;Notes:
-Informacje
 
 # en/2/download_index.php +36
 ;size
@@ -36,12 +34,11 @@ rozmiar
 # en/2/download_index.php +37
 ;link
 odnośnik
-odnośnik
 
 
 # en/2/download_index.php +65
 ;Up to 167 locales are supported:
-Wspiera aż 167 lokalizacji:
+Wspierane aż 167 lokalizacji:
 
 
 # en/2/download_index.php +68
@@ -71,12 +68,12 @@ Jeśli potrzebujesz określonego sterownika karty graficznej lub Wi-Fi <em>podcz
 
 # en/2/download_index.php +74
 ;You may, if you will, add nonfree software repository <em>after</em> the installation.
-Jeśli będziesz potrzebował repozytorium oprogramowania nonfree możesz go dodać <em>po</em> instalacji.
+Możesz jeśli będziesz chciał dodać repozytorium oprogramowania nonfree <em>po</em> instalacji.
 
 
 # en/2/download_index.php +77
 ;Please note that there is a <span class="warn">problem with notebooks using Intel, AMD/ATI and nVidia graphic cards.</span>
-Uwaga! Należy spodziewać się <span class="warn">problemów z notebookami wykorzystującymi karty graficzne Intel, AMD/ATI i nVidia.</span>
+Proszę zauważyć, że należy spodziewać się <span class="warn">problemów z notebookami wykorzystującymi karty graficzne Intel, AMD/ATI i nVidia.</span>
 
 
 # en/2/download_index.php +79
@@ -86,7 +83,7 @@ Zobacz erratę na ten temat
 
 # en/2/download_index.php +86
 ;Use LiveCDs for fresh new installs ONLY.
-Wersji LiveCD użyj TYLKO do nowej instalacji systemu.
+Wersje LiveCD użyj TYLKO do nowej instalacji systemu.
 
 
 # en/2/download_index.php +87
@@ -96,7 +93,7 @@ NIE UŻYWAJ wersji LiveCD do aktualizacji Mageia w wersji 1!
 
 # en/2/download_index.php +88
 ;Use above DVD or CD and see the <a href="%s" hreflang="en">upgrade guide</a>.
-Użyj poniższych DVD lub CD i przeglądnij  <a href="%s" hreflang="pl">przewodnik aktualizacji</a>.
+Użyj powyższych DVD lub CD i przeglądnij  <a href="%s" hreflang="pl">przewodnik aktualizacji</a>.
 
 
 # en/2/download_index.php +105
@@ -116,7 +113,7 @@ Płyty instalacyjne CD dla przewodowych łącz internetowych
 
 # en/2/download_index.php +168
 ;Download quickly (about 40 MB) and immediately boot into install mode from <em>wired</em> network or a local disk.
-Pobierz szybko (około 40 MB) i natychmiast uruchom instalator z pobranej płyty oraz przejdź do instalacji w trybie <em>przewodowego</em> łącza internetowego lub dysku lokalnego.
+Pobierz szybko (około 40 MB) i natychmiast uruchom instalator z pobranej płyty i przejdź do instalacji w trybie <em>przewodowego</em> łącza internetowego lub z dysku lokalnego.
 
 
 # en/2/download_index.php +179
@@ -181,17 +178,17 @@ dla komputera PC
 
 # en/for-pc/index.php +26
 ;Plenty
-Mnogość
+Bogactwo wyboru
 
 
 # en/for-pc/index.php +27
 ;There are 19&nbsp;881&nbsp;packages in our repositories. And that's just for the 64-bit branch.
-W naszym repozytorium jest 19&nbsp;881&nbsp;pakietów i to tylko dla wersji 64-bitowej.
+W naszym repozytorium jest 19&nbsp;881&nbsp; pakietów i to tylko dla wersji 64-bitowej.
 
 
 # en/for-pc/index.php +28
 ;The total number is double that &ndash; and then if you consider the backports, and the packages in the Cauldron still testing... you'll see that Mageia users are spoiled for choice.
-Całkowita liczba jest dwukrotnie większa &ndash; i jeśli dodasz repozytorium backports i pakiety w Kotle będące w trakcie testów... zobaczysz jak użytkownicy Mageia są rozpieszczani mnogością wyboru.
+Całkowita liczba jest dwukrotnie większa &ndash; i jeśli rozważysz repozytorium backports i pakiety w repozytorium Cauldron będące w trakcie testów... zobaczysz jak użytkownicy Mageia są rozpieszczani mnogością wyboru.
 
 
 # en/for-pc/index.php +29
@@ -206,7 +203,7 @@ Tutaj znajduje się przegląd, po pierwsze - dostępnych środowisk graficznych 
 
 # en/for-pc/index.php +31
 ;Mageia 2 has all the major desktop environments:
-Mageia 2 ma wszystkie z ważniejszych środowisk graficznych:
+Mageia 2 ma wszystkie z pośród liczących się środowisk graficznych:
 
 
 # en/for-pc/index.php +44
@@ -261,7 +258,7 @@ Grafika
 
 # en/for-pc/index.php +72
 ;Use GIMP for powerful image manipulation, or Inkscape for vector drawing; Blender is there for serious animation. DigiKam or Showfoto will take care of your photos, talk to your camera and give you more basic image editing.
-Użyj GIMPa do skutecznej manipulacji obrazami lub Inkscape do rysunków wektorowych; Blender do poważnych animacji. DigiKam or Showfoto zadba o twoje fotografie, skomunikuje się z twoim aparatem i pozwoli na prostą edycję obrazów.
+Wykorzystaj GIMPa do skutecznej manipulacji obrazami lub Inkscape do rysunków wektorowych; Blendera do poważnych animacji. DigiKam lub Showfoto zadba o twoje fotografie, skomunikuje się z twoim aparatem i pozwoli na prostą edycję obrazów.
 
 
 # en/for-pc/index.php +77
@@ -271,7 +268,7 @@ Dźwięk
 
 # en/for-pc/index.php +78
 ;For playing audio files, choose from Amarok 2.5.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don't infringe local laws.
-Do odtwarzania plików audio wybierz z pośród Amaroka 2.5.0 i Rhythmboxa oraz innych; do plików video i audio użyj VLC, Totema lub MPlayera lub użyj XBMC Media Center jako domowego systemu rozrywki. Niektóre z pakietów możesz znaleźć zarówno w Głównym repozytorium (Core) i repozytorium Skażonym (Tainted): pakiety w głównym repozytorium nie zawierają kodeków opatentowanych, a repozytorium Tainted zawiera wszystkie kodeki bez wyjątku, i są one przeznaczone dla użytkowników mieszkających w krajach, gdzie nie naruszają one prawa.
+Do odtwarzania plików audio wybierz z pośród Amaroka 2.5.0, Rhythmboxa i innych; do plików video i audio wykorzystaj VLC, Totema lub MPlayera lub użyj XBMC Media Center jako domowego systemu rozrywki. Niektóre z pakietów możesz znaleźć zarówno w Głównym repozytorium (Core) i repozytorium Skażonym (Tainted): pakiety w głównym repozytorium nie zawierają kodeków opatentowanych, a repozytorium Skażone zawiera wszystkie kodeki bez wyjątku, i są przeznaczone dla użytkowników mieszkających w krajach, w których nie naruszają one prawa.
 
 
 # en/for-pc/index.php +83
@@ -286,7 +283,7 @@ Do edycji plików wideo spróbuj Avidemuxa, Kino lub OpenShota; dla subtekstu je
 
 # en/for-pc/index.php +89
 ;Plus
-Dodatki
+Plus
 
 
 # en/for-pc/index.php +90
@@ -296,12 +293,12 @@ Dostępny jest ZoneMinder, dla CCTV Security; VirtualBox lub WINE dla wirtualiza
 
 # en/for-pc/index.php +95
 ;For more information about these and other packages, check the <a href="%s">Mageia 2 Release notes</a>.
-Więcej informacji o tych i innych pakietach znajdziesz w <a href="%s">Informacji o wydaniu Mageia 2</a>.
+Więcej informacji o tych i innych pakietach znajdziesz <a href="%s">Informacji o wydaniu Mageia 2</a>.
 
 
 # en/for-pc/index.php +96
 ;You can take a look at the <a href="%s">Mageia Application Database</a> to get a more complete list of Mageia packages.
-Przeglądnij <a href="%s">Bazę Danych Aplikacji Mageia</a> aby uzyskać pełną listę pakietów Mageia.
+Można przyjrzeć się <a href="%s">Aplikacjom Bazodanowym Mageia</a> aby uzyskać pełną listę pakietów Mageia.
 
 
 # en/for-server/index.php +12
@@ -326,7 +323,7 @@ Administracja
 
 # en/for-server/index.php +34
 ;The entire High Availability stack has been updated, and now includes drbd 8.3.11, Corosync 2.0.0 and Pacemaker 1.1.7.
-Pełny stos Wysokiej Dostępności została uaktualniony i teraz zawiera drbd 8.3.11, Corosync 2.0.0 i Pacemaker 1.1.7.
+Cały stos Wysokiej Dostępności została uaktualniony i teraz zawiera drbd 8.3.11, Corosync 2.0.0 i Pacemaker 1.1.7.
 
 
 # en/for-server/index.php +36
@@ -341,7 +338,7 @@ Bazy danych zawierają PostgreSQL 8.4.11; MariaDB, który jest zamiennikiem MySQ
 
 # en/for-server/index.php +38
 ;And there are NoSQL servers too: CouchDB 1.1.1, Redis 2.4.8, Cassandra 1.4.0, MongoDB 2.0.3.
-Są także serwery NoSQl: CouchDB 1.1.1, Redis 2.4.8, Cassandra 1.4.0, MongoDB 2.0.3.
+Są także serwery NoSQL: CouchDB 1.1.1, Redis 2.4.8, Cassandra 1.4.0, MongoDB 2.0.3.
 
 
 # en/for-server/index.php +40
@@ -356,7 +353,7 @@ Serwery www zawierają Apache 2.2.22, Cherokee 1.2.101 i lighttpd 1.4.30.
 
 # en/for-server/index.php +42
 ;For file and directory sharing and network printing on heterogeneous networks, we have Samba 3.6.5, OpenLDAP 2.4.29 and Cups 1.5.2.
-Dla plików i katalogów dzielonych i drukarek sieciowych w sieciach heterogenicznych mamy serwer Samba 3.6.5, OpenLDAP 2.4.29 i Cups 1.5.2.
+Dla plików i katalogów dzielonych oraz drukarek sieciowych w sieciach heterogenicznych mamy serwer Samba 3.6.5, OpenLDAP 2.4.29 i Cups 1.5.2.
 
 
 # en/for-server/index.php +43
@@ -391,12 +388,12 @@ Co nowego?
 
 # en/2/index.php +35
 ;Too much to include here! See the <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">release notes</a> for an extensive exposé.
-Jest tego zbyt dużo, by opisać wszystko tutaj! Zobacz <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">informacje o wydaniu</a> dla uszczegółowienia.
+Jest zbyt wiele by opisać to tutaj! Zobacz <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">informacje o wydaniu</a> by dowiedzieć się więcej.
 
 
 # en/2/index.php +37
 ;<a href="../downloads/" style="background: #1272B1; color: white; padding: 0.9em; margin: 1em; display: inline-block; text-shadow: 0 1px 6px #000; border-radius: 3px;">Download it right away!</a>
-<a href="../downloads/" style="background: #1272B1; color: white; padding: 0.9em; margin: 1em; display: inline-block; text-shadow: 0 1px 6px #000; border-radius: 3px;">Pobierz go już teraz!</a>
+<a href="../downloads/" style="background: #1272B1; color: white; padding: 0.9em; margin: 1em; display: inline-block; text-shadow: 0 1px 6px #000; border-radius: 3px;">Pobierz Mageia już teraz!</a>
 
 
 # en/2/index.php +39
@@ -406,17 +403,17 @@ Kontekst Mageia
 
 # en/2/index.php +41
 ;Mageia is both a Community and a Linux Distribution, with Mageia 2 being our second release.
-Mageia jest zarówno Społecznością jak i Dystrybucją Linuxa, a Mageia 2 jest naszym drugim wydaniem.
+Mageia jest zarówno Społecznością jak i Dystrybucją Linuxa, a Mageia 2 jest drugim wydaniem naszej dystrybucji.
 
 
 # en/2/index.php +43
 ;Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch's most popular distributions</a>.
-Od wydania <a href="../1/">Mageia 1</a>, nasza oferta jest stale w pierwszej dziesiątce popularnych dystrybucji w rankingu Distrowatch</a>.
+Od wydania <a href="../1/">Mageia 1</a>, nasza propozycja jest stale w pierwszej dziesiątce popularnych dystrybucji w rankingu Distrowatch</a>.
 
 
 # en/2/index.php +46
 ;Mageia 2 is supported by the <a href="../about/">Mageia.org nonprofit organisation</a>, which is governed by a body of recognized and elected contributors.
-Mageia 2 jest wspierana przez <a href="../about/">organizację non-profit Mageia.org</a>, która jest zarządzana przez organ uznany i wybrany przez użytkowników.
+Mageia 2 jest wspierana przez <a href="../about/">organizację non-profit Mageia.org</a>, która jest zarządzana przez organ uznawany i wybierany przez użytkowników.
 
 
 # en/2/index.php +47
@@ -434,21 +431,5 @@ Nasza praca przyczynia się do doskonałej pracy ogólnie Linuxa i społecznośc
 Zapraszamy nowych użytkowników do jednego z wielu zespołów, które stanowią Społeczność Mageia i zachęcamy do przyłączenia się do nas.
 
 
-;Aside from the cross-section included here, you will find many others in the repositories: you can use rpmdrake to search for packages, or check the <a href="%s">Mageia App DB</a>.
-Oprócz zaprezentowanych tutaj programów możesz znaleźć więcej w repozytorium - wykorzystaj do tego rpmdrake lub sprawdź <a href="%s">Bazę Aplikacji Mageia</a>.
-
-
-;For centralised administration, we include puppet 2.7.11; we use it widely in <a href="%s">our own infrastructure</a>.
-W dystrybucji zawarto puppet 2.7.11 do centralnego zarządzania. Używamy go w naszej infrastrukturze.
-
-
-;Download
-Pobierz
-
-
-;For PC
-Dla komputera biurkowego
-
-
-;For server
-Dla serwera
+;Notes:
+Uwagi

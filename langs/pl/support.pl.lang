@@ -7,7 +7,7 @@ Wsparcie dla dystrybucji Mageia
 
 
 ;List of support resources for Mageia distribution.
-Wykaz środków wsparcia dla dystrybucji Mageia
+Wykaz dróg wsparcia dla dystrybucji Mageia
 
 
 
@@ -36,22 +36,13 @@ Wymagania sprzętowe
 
 
 
-;Documentation 
-Dokumentacja
-
-
-
 ;Updates
 Aktualizacje
 
 
 
-;You can look up existing <a href="//doc.mageia.org/">documentation here</a>. You may too look into our <a href="http://wiki.mageia.org/">Wiki</a>.
-Dokumentacje możesz zobaczyć <a href="//doc.mageia.org/">tutaj</a>. Możesz także zobaczyc na stronę <a href="http://wiki.mageia.org/">Wiki</a>.
-
-
 ;Updates are available for %s and %s (security and bug fixes) and published on an ongoing basis.
-Aktualizacje są dostępne dla %s i %s (bezpieczeństwo i poprawki błędów) i publikowane na bieżąco.
+Aktualizacje są dostępne zarówno dla %s i %s (bezpieczeństwo i poprawki błędów) i są publikowane na bieżąco.
 
 
 
@@ -66,12 +57,12 @@ Możesz zainstalować je z użyciem Mageia Control Center.
 
 
 ;If you need help, information or directions about the Mageia distribution you installed or about the project, you can try to reach us through:
-Jeśli potrzebujesz pomocy, informacji lub pouczenia o zainstalowanej dystrybucji Mageia lub o projekcie, możesz spróbować dotrzeć do nas:
+Jeśli potrzebujesz pomocy, informacji lub pouczenia o zainstalowanej dystrybucji Mageia lub o projekcie, możesz spróbować dotrzeć do nas przez:
 
 
 
 ;<a href="http://forums.mageia.org/en/">Community support forums</a> in English &ndash; see <a href="https://forums.mageia.org/en/viewforum.php?f=20">other Mageia community forums</a> for support in your language;
-<a href="http://forums.mageia.org/en/">Forum wsparcia społeczności</a> po angielsku &ndash; zobacz <a href="https://forums.mageia.org/en/viewforum.php?f=20">inne fora społeczności Mageia</a> dla wsparcia w twoim języku;
+<a href="http://forums.mageia.org/en/">Forum wsparcia społeczności</a> po angielsku &ndash; zobacz <a href="https://forums.mageia.org/en/viewforum.php?f=20">inne fora społeczności Mageia</a> dla uzyskania wsparcia w twoim języku;
 
 
 
@@ -158,3 +149,22 @@ Możesz sprawdzić i raportować błędy na <a href="%s">naszej Bugzilli (bugs.m
 
 ;Bugs Reports
 Raportowanie błędów
+
+
+;You can look up existing %sdocumentation here%s. You may too look into our %sWiki%s.
+Zapoznaj się z istniejącą %sdokumentacją%s. Zaglądnij także na stronę %sWiki%s.
+
+;Lifecycle
+Czas życia produktu
+
+;Mageia releases are supported at least for 18 months.
+Wydanie Magei będzie miało wsparcie techniczne przez co najmniej 18 miesięcy.
+
+;Mageia 1 will be supported until December 2012.
+Wydanie Mageia 1 będzie wspierane do grudnia 2012 roku.
+
+;Mageia 2 may have a longer lifecycle, this will be decided once released in May.
+Mageia 2 może mieć dłuższy okres wsparcia technicznego, ale zostanie to zadecydowane w maju.
+
+;You can look up existing <a href="//doc.mageia.org/">documentation here</a>. You may too look into our <a href="http://wiki.mageia.org/">Wiki</a>.
+Zapoznaj się z istniejącą <a href="//doc.mageia.org/">dokumentacją</a>. Zaglądnij także na stronę <a href="http://wiki.mageia.org/">Wiki</a>.
