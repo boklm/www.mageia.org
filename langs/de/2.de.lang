@@ -186,11 +186,6 @@ Der gesamte Hochverfügbarkeits-Stack wurde aktualisiert und enthält nun drbd-8
 Datenbanken
 
 
-# en/for-server/index.php +37
-;Databases included are PostgreSQL 8.4.11; MariaDB, which replaces MySQL 5.5.23; BDB .
-Unter den Datenbanken sind PostgreSQL-8.4.11, MariaDB, das MySQL ersetzt.
-
-
 # en/for-server/index.php +38
 ;And there are NoSQL servers too: CouchDB 1.1.1, Redis 2.4.8, Cassandra 1.4.0, MongoDB 2.0.3.
 Und wir bieten auch NoSQL-Server:. CouchDB-1.1.1, Redis-2.4.8, Cassandra-1.4.0, MongoDB-2.0.3.
@@ -370,7 +365,7 @@ Aside from the cross-section included here, you will find many others in the rep
 Für zentralisierte Administration bieten wir Ihnen Puppet-2.7.11. Wir benutzen es selbst an vielen Stellen <a href="%s">unserer Infrastruktur</a>.
 
 ;Databases included are PostgreSQL 8.4.11; MariaDB, which replaces MySQL 5.5.23; BDB.
-Die Datenbanken enthalten unter anderem PostgreSQL und MariaDB, das mySQL-5.5.23 enthält sowie BDB.
+Unter den enthaltenen Datenbanken sind unter anderem PostgreSQL (in drei stabilen Versionen) und MariaDB, das mySQL-5.5.23 enthält sowie BDB.
 
 ;Mageia 2 is a GNU/Linux distribution for your computer, released by the <a href="%s">Mageia community</a>.
 Mageia 2 ist eine GNU/Linux-Distribution für Ihren Computer, die von der <a href="%s">Mageia-Community</a> veröffentlicht wurde.
