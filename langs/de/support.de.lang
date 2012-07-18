@@ -124,3 +124,39 @@ Zum Betrieb bestimmter Hardware (WLAN-Chips, 3D-Grafik) kann spezielle Firmware 
 ;We may set up a hardware compatibility list/directory as well as a hardware certification process; but that's still at the planning stage. Feel free to join/contact our <a href="%s">Web</a> and <a href="%s">QA</a> teams if you would like to help in this regard.
 Wir werden voraussichtlich eine Hardware-Kompatibilitätsliste/Datenbank sowie einen Hardware-Zertifizierungsprozess aufbauen; diese befinden sich aber noch in der Planungsphase. Falls Sie daran mitarbeiten wollen so kontaktieren Sie bitte unser <a href="%s">Webteam</a> und <a href="%s">QA-Team</a>.
 
+# added manually from report.php
+;Documentation
+Dokumentation
+
+;You can look up existing %sdocumentation here%s. You may too look into our %sWiki%s.
+Sie können die vorhandene %sDokumentation hier%s ansehen. Sie können auch in unser %sWiki%s sehen.
+
+;Updates
+Aktualisierungen
+
+;Updates are available for %s and %s (security and bug fixes) and published on an ongoing basis.
+aktualisierungen sind für %s und %s verfügbar (Sicherheits- und Fehlerkorrekturen)  und werden fortlaufend veröffentlicht.
+
+;You can install these from the Mageia Control Center.
+Sie können diese aus dem Mageia-Kontrollzentrum heraus installieren.
+
+;You may subscribe to our %s announce list to be notified of these.
+Sie können sich auf unserer %s-Ankündigungsliste eintragen, um über diese informiert zu werden.
+
+;Lifecycle
+Lebenszyklus
+
+;Mageia releases are supported at least for 18 months.
+Mageia-Veröffentlichungen werden 18 Monate lang unterstützt.
+
+;Mageia 1 will be supported until December 2012.
+Mageia 1 wird bis Dezember 2012 unterstützt.
+
+;Mageia 2 may have a longer lifecycle, this will be decided once released in May.
+Mageia 2 hat eventuell einen längeren Lebenszyklus, dies wird im Mai entschieden werden.
+
+;You may check and report bugs on <a href="%s">our Bugzilla (bugs.mageia.org)</a>.
+Sie können Fehler (Bugs) in <a href="%s">unserem Bugzilla (bugs.mageia.org)</a> suchen und melden.
+
+;Bugs Reports
+Bug-Reports
