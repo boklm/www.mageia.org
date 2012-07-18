@@ -13,7 +13,7 @@ Mageia 2 DVDs, CDs, LiveCDs, Netzwerk-Installations-Abbilder herunterladen.
 
 # en/2/download_index.php +16
 ;mageia, mageia 2, linux, free, download, iso, torrent, vm, http, ftp, rsync, bittorrent
-mageia, mageia 2, linux, free, download, iso, torrent, vm, http, ftp, rsync, bittorrent
+mageia, mageia 2, linux, free, download, herunterladen, iso, torrent, vm, http, ftp, rsync, bittorrent
 
 
 # en/2/download_index.php +24
@@ -272,3 +272,117 @@ We heißen neue Mitstreiter in jedem der vielen verschiedenen Teams willkommen, 
 
 ;What's new?
 Was ist neu?
+
+# added from report page
+;Use above DVD or CD and see the <a href="%s" hreflang="en">upgrade guide</a>.
+Benutzen Sie die DVDs oder CDs oben und beachten Sie die <a href="%s" hreflang="de">Aktualisierungs-Anleitung</a>.
+
+;see the <a href="%s" hreflang="en">upgrade guide</a>
+beachten Sie die <a href="%s" hreflang="de">Aktualisierungs-Anleitung</a>
+
+;Mageia 2, for your PC
+mageia 2, für Ihren PC
+
+;for your PC
+für Ihren PC
+
+;Plenty
+Viel
+
+;There are 19&nbsp;881&nbsp;packages in our repositories. And that's just for the 64-bit branch.
+Wir haben 19.881&nbsp;Pakete in unseren Repositories. Und das ist nur die Zahl für den 64-Bit-Zweig.
+
+;The total number is double that &ndash; and then if you consider the backports, and the packages in the Cauldron still testing... you'll see that Mageia users are spoiled for choice.
+Die Gesamtanzahl ist das doppelte hiervon &ndash; und wenn Sie die Backports und die Pakete, die im Entwicklerzweig Cauldron noch getestet werden mit einbeziehen... Sie sehen, dass Mageia-Benutzer durch Vielfalt verwöhnt werden.
+
+;Here's a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:
+Here's a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:
+
+;Environments
+Umgebungen
+
+;Mageia 2 has all the major desktop environments:
+Mageia 2 bietet alle gro&szlig;en Desktop-Umgebungen
+
+;And then there are the window managers, including Openbox, WindowMaker, IceWM, Fluxbox, Fvwm2 and Awesome.
+Und dann gibt es noch die Windowmanager, unter ihnen Openbox WindowMaker, IceWM, Fluxbox, Fvwm2 und Awesome.
+
+;Applications &rarr;
+Anwendungen &rarr;
+
+;There are many, many to choose from &ndash; including all the most popular.
+Es gibt viele, viele aus denen man wählen kann &ndash; inklusive all der beliebtesten.
+
+;Web
+
+;Choose your web browser from Firefox ESR 10.0.4, Chromium-browser 180.1025.160, Epiphany 3.4.1 or Opera 11.64 &ndash; or one of the many others such as Lynx or Konqueror; then pick an email client from KMail 4.8.2, Thunderbird ESR 10.0.4, Evolution 3.4.1 or maybe Claws-Mail or Mutt.
+Wählen Sie ihren Web-Browser aus Firefox-ESR-10.0.4, Chromium-Browser-18.1025.160, Epiphany-3.4.1 oder Opera-11.64 &ndash; oder einem der vielen anderen wie Lynx und Konqueror. Dann wählen Sie ein Email-Programm aus KMail-4.8.2, Thunderbird-ESR-10.0.4, Evolution-3.4.1 oder vielleicht Claws-Mail oder Mutt.
+
+;Messaging
+Sofortnachrichtendienste
+
+;Choose from Kopete, Pidgin, Empathy or Kadu for instant messaging; use Quassel, Konversation, XChat-Gnome or KVIrc for IRC chat; try QuteCom or Ekiga (or even Skype) for VOIP.
+Wählen Sie aus Kopete, Pidgin, Empathy oder Kadu für Sofortnachrichtendienste, benutzen Sie Quassel, Konversation, XChat-Gnome oder KVIrc für Ihre IRC-Chats, testen Sie QuteCom oder Ekiga (oder sogar Skype) für VOIP.
+
+;Office
+Büro
+
+;The two full-featured office suites LibreOffice and Calligra are there, as well as AbiWord, and a host of text editors including Kate; for finance there's KMyMoney, Skrooge or the professional-level GnuCash.
+Die zwei vollständigen office-Suites LibreOffice und Calligra sind vorhanden, genau so wie AbiWord und ein ganzer Sack voll Texteditoren inklusive Kate. Für Ihre Finanzen bieten wir KMyMoney, Skrooge oder das profesionelle GnuCash.
+
+;Image
+Bilder
+
+;Use GIMP for powerful image manipulation, or Inkscape for vector drawing; Blender is there for serious animation. DigiKam or Showfoto will take care of your photos, talk to your camera and give you more basic image editing.
+Benutzen Sie GIMP für mächtige Bildmanipulationen oder Inkscape für Vektorgrafiken. Blender ist für Animationen vorhanden. DigiKam oder Showfoto werden sich um Ihre Bilder kümmern, mit Ihrer Kamera abgleichen und Ihnen grundlegende Editierungsmethoden anbieten.
+
+;Sound
+Ton
+
+;For playing audio files, choose from Amarok 2.5.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don't infringe local laws.
+Um Audio-Dateien abzuspielen, wählen sie unter Anderem aus Amarok-2.5.0 und Rhythmbox. Nutzen Sie VLC, Totem oder MPlayer für Video und Audio oder benutzen Sie das XBMC-Mediacenter als Ihr Home-Entertainmentsystem. Einige Pakete können sowohl in den Core- als auch in den Tainted-Repositoriesgefunden werden: Die Pakete in den Core-Repositories enthalten nur patentfreie Codecs und Pakete, die Pakete in den Tainted-Repositories unterstützen alle Codecs für Benutzer, die in Ländern leben, wo diese Codecs nicht die jeweiligen Gesetze verletzen.
+
+;Video
+Video
+
+;For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there's Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.
+Um Video-Dateien zu bearbeiten, nutzen Sie Avidemux, Kino oder OpenShot. Für Untertitel haben wir Gaupol oder Subtitles-Composer. Nutzen Sie MythTV, Miro, tvtime, freetuxTV oder MeTV um Ihre Fernseh-Programme anzuschauen.
+
+;Plus
+Plus
+
+;Then there's ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.
+Dazu gibt es ZoneMinder für ihre Videoüberwachungsanlagen, VirtualBox oder WINE für Virtualisierungen und eine Anzahl an Entwicklungsumgebungen wie Anjta, Eclipse, Netbeans oder KDevelop.
+
+;For more information about these and other packages, check the <a href="%s">Mageia 2 Release notes</a>.
+Für mehr Informationen über diese und andere pakete, beachten Sie die <a href="%s">Mageia2-Release-Notes</a>.
+
+;You can take a look at the <a href="%s">Mageia Application Database</a> to get a more complete list of Mageia packages.
+Sie können einen Blick auf die <a href="%s">Mageia-Anwendungsdatenbank</a> werfen um eine vollständigere Liste der Mageia-Pakete zu erhalten.
+
+;Mageia 2, for your server
+mageia2, für Ihren Server
+
+;Aside from the cross-section included here, you will find many others in the repositories: you can use rpmdrake to search for packages, or check the <a href="%s">Mageia App DB</a>.
+Aside from the cross-section included here, you will find many others in the repositories: you can use rpmdrake to search for packages, or check the <a href="%s">Mageia App DB</a>.
+
+;For centralised administration, we include puppet 2.7.11; we use it widely in <a href="%s">our own infrastructure</a>.
+Für zentralisierte Administration bieten wir Ihnen Puppet-2.7.11. Wir benutzen es selbst an vielen Stellen <a href="%s">unserer Infrastruktur</a>.
+
+;Databases included are PostgreSQL 8.4.11; MariaDB, which replaces MySQL 5.5.23; BDB.
+Die Datenbanken enthalten unter anderem PostgreSQL und MariaDB, das mySQL-5.5.23 enthält sowie BDB.
+
+;Mageia 2 is a GNU/Linux distribution for your computer, released by the <a href="%s">Mageia community</a>.
+Mageia 2 ist eine GNU/Linux-Distribution für Ihren Computer, die von der <a href="%s">Mageia-Community</a> veröffentlicht wurde.
+
+;Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch's most popular distributions</a>.
+Seit der Veröffentlichung von <a href="../1/">Mageia 1</a> befindet sich unser Angebot ständig in den <a href="%s">Top 10 der beliebtesten Distributionen von Distrowatch</a>.
+
+;Download
+herunterladen
+
+;For PC
+Für den PC
+
+;For server
+Für den Server
