@@ -36,6 +36,16 @@ Configuration requise
 
 
 
+;Documentation
+Documentation
+
+
+
+;You can look up existing %sdocumentation here%s. You may too look into our %sWiki%s.
+Vous pouvez consulter notre %ssite de documentation%s. Vous pouvez aussi parcourir notre %sWiki%s.
+
+
+
 ;Updates
 Mises à jour
 
@@ -46,13 +56,33 @@ Des mises à jour sont régulièrement publiées pour %s et %s (corrections de b
 
 
 
+;You can install these from the Mageia Control Center.
+Vous pouvez les installer à partir du Centre de Contrôle de Mageia.
+
+
+
 ;You may subscribe to our %s announce list to be notified of these.
 Vous pouvez vous inscrire à la liste %s pour en être informé.
 
 
 
-;You can install these from the Mageia Control Center.
-Vous pouvez les installer à partir du centre de contrôle Mageia.
+;Lifecycle
+Durée de vie
+
+
+
+;Mageia releases are supported at least for 18 months.
+Les versions de Mageia sont maintenues pendant au moins 18 mois.
+
+
+
+;Mageia 1 will be supported until December 2012.
+Mageia 1 sera maintenue jusqu&rsquo;à fin décembre 2012.
+
+
+
+;Mageia 2 may have a longer lifecycle, this will be decided once released in May.
+Mageia 2 aura peut-être une durée de vie plus importante, cela sera décidé après sa sortie en mai.
 
 
 
@@ -102,7 +132,7 @@ Mageia fonctionne avec la plupart des ordinateurs x86 (32 et 64 bits) disponible
 
 
 ;You can follow this hardware requirements list:
-You can follow this hardware requirements list:
+Voici une liste du matériel nécessaire pour utiliser Mageia :
 
 
 
@@ -146,16 +176,10 @@ Nous allons peut-être monter une base de compatibilité  et certification maté
 
 
 
-;Lifecycle
-Cycle de vie
+;You may check and report bugs on <a href="%s">our Bugzilla (bugs.mageia.org)</a>.
+Vous pouvez consulter et rapporter des bugs sur <a href="%s">notre Bugzilla (bugs.mageia.org)</a>.
 
 
 
-;Mageia releases are supported at least for 18 months.
-Les versions de Mageia sont maintenues pendant au moins 18 mois.
-
-
-
-;Mageia 1 will be supported until December 2012.
-Mageia 1 sera maintenue jusqu&rsquo;à fin décembre 2012.
-
+;Bugs Reports
+Rapports de bugs
