@@ -23,12 +23,12 @@ mageia, mageia 2, linux, free, download, herunterladen, iso, torrent, vm, http, 
 
 # en/2/download_index.php +31
 ;Free Software Installation Flavours
-Installations-Arten für Freie Software
+Installations-Arten f&uuml;r Freie Software
 
 
 # en/2/download_index.php +36
 ;size
-Größe
+Gr&ouml;&szlig;e
 
 
 # en/2/download_index.php +37
@@ -38,7 +38,7 @@ Link
 
 # en/2/download_index.php +65
 ;Up to 167 locales are supported:
-Bis zu 167 Sprachen werden unterstützt:
+Bis zu 167 Sprachen werden unterst&uuml;tzt:
 
 
 # en/2/download_index.php +68
@@ -48,7 +48,7 @@ und so viel mehr!
 
 # en/2/download_index.php +69
 ;See the comprehensive list
-Beachten Sie die vollständige Liste
+Beachten Sie die vollst&auml;ndige Liste
 
 
 # en/2/download_index.php +71
@@ -58,17 +58,17 @@ Diese DVD- und CD-ISO-Abbilder enthalte nur freie Software.
 
 # en/2/download_index.php +72
 ;As a consequence, <span class="warn">proprietary Wi-Fi and video drivers are not included.
-Deswegen sind <span class="warn">proprietäre WLAN- und Video-Treiber nicht enthalten.
+Deswegen sind <span class="warn">propriet&auml;re WLAN- und Video-Treiber nicht enthalten.
 
 
 # en/2/download_index.php +73
 ;If you need WiFi or specific video drivers <em>at install time</em>, you should go with below LiveCDs instead.</span>
-Wenn Sie <em>zur Installationszeit</em> spezielle WLAN- oder Video-Treiber benötigen, sollten Sie die unten aufgeführten Live-CDs nutzen.</span>
+Wenn Sie <em>zur Installationszeit</em> spezielle WLAN- oder Video-Treiber ben&ouml;tigen, sollten Sie die unten aufgef&uuml;hrten Live-CDs nutzen.</span>
 
 
 # en/2/download_index.php +74
 ;You may, if you will, add nonfree software repository <em>after</em> the installation.
-Sie können, wenn Sie das wünschen, <em>nach</em> der Installation die Non-Free-Softwarequellen hinzufügen.
+Sie k&ouml;nnen, wenn Sie das w&uuml;nschen, <em>nach</em> der Installation die Non-Free-Softwarequellen hinzuf&uuml;gen.
 
 
 # en/2/download_index.php +77
@@ -78,12 +78,12 @@ Bitte beachten Sie, dass es ein <span class="warn">Problem mit Notebooks gibt, d
 
 # en/2/download_index.php +79
 ;See the errata about this
-Beachten Sie diesbezüglich auch die Errata
+Beachten Sie diesbez&uuml;glich auch die Errata
 
 
 # en/2/download_index.php +86
 ;Use LiveCDs for fresh new installs ONLY.
-Nutzen Sie die Live-CDs NUR für Neuinstallationen.
+Nutzen Sie die Live-CDs NUR f&uuml;r Neuinstallationen.
 
 
 # en/2/download_index.php +87
@@ -98,12 +98,12 @@ Enthaltene Sprachen:
 
 # en/2/download_index.php +163
 ;Each download is approximately 700MB.
-Jeder dieser Downloads ist etwa 700MB groß.
+Jeder dieser Downloads ist etwa 700MB gro&szlig;.
 
 
 # en/2/download_index.php +167
 ;Wired Network-based Installation CD
-Installations-CD zur netzwerkbasierten Installation über kabelgebundenes Netzwerk
+Installations-CD zur netzwerkbasierten Installation &uuml;ber kabelgebundenes Netzwerk
 
 
 # en/2/download_index.php +168
@@ -123,7 +123,7 @@ Das selbe + nichtfreie Treiber
 
 # en/2/download_index.php +185
 ;needed for some disc controllers, some network cards, etc.
-wird für einige Festplatten-Controller, Netzwerkkarten etc. benötigt
+wird f&uuml;r einige Festplatten-Controller, Netzwerkkarten etc. ben&ouml;tigt
 
 
 # en/2/download_index.php +198
@@ -153,22 +153,17 @@ Sie suchen nach Mageia 1?
 
 # en/2/download_index.php +215
 ;It is <a href="%s">here now</a>.
-Es ist <a href="%s">jetzt verfügbar</a>.
-
-
-# en/for-pc/index.php +12
-;page_title
-page_title
+Es ist <a href="%s">jetzt verf&uuml;gbar</a>.
 
 
 # en/for-server/index.php +21
 ;for your server
-Für Ihren Server
+F&uuml;r Ihren Server
 
 
 # en/for-server/index.php +26
 ;Mageia 2 has all the main services and server packages you will need to run your server.
-Mageia 2 bietet Ihnen all die Dienste und Server-Pakete, die sie für ihren Server benötigen..
+Mageia 2 bietet Ihnen all die Dienste und Server-Pakete, die sie f&uuml;r ihren Server ben&ouml;tigen..
 
 
 # en/for-server/index.php +30
@@ -178,7 +173,7 @@ Administration
 
 # en/for-server/index.php +34
 ;The entire High Availability stack has been updated, and now includes drbd 8.3.11, Corosync 2.0.0 and Pacemaker 1.1.7.
-Der gesamte Hochverfügbarkeits-Stack wurde aktualisiert und enthält nun drbd-8.3.11, Corosync-2.0.0 und Pacemaker-1.1.7.
+Der gesamte Hochverf&uuml;gbarkeits-Stack wurde aktualisiert und enth&auml;lt nun drbd-8.3.11, Corosync-2.0.0 und Pacemaker-1.1.7.
 
 
 # en/for-server/index.php +36
@@ -198,12 +193,12 @@ Server
 
 # en/for-server/index.php +41
 ;Web servers include Apache 2.2.22, Cherokee 1.2.101 and lighttpd 1.4.30.
-Als Webserver stehen Apache-2.2.22, Cherokee-1.2.101 und lighttpd-1.4.30 zur Verfügung.
+Als Webserver stehen Apache-2.2.22, Cherokee-1.2.101 und lighttpd-1.4.30 zur Verf&uuml;gung.
 
 
 # en/for-server/index.php +42
 ;For file and directory sharing and network printing on heterogeneous networks, we have Samba 3.6.5, OpenLDAP 2.4.29 and Cups 1.5.2.
-Zum Teilen von Dateien und Verzeichnissen, sowie Drucker-Dienste in heterogenen Netzwerken steht Samba-3.6.5, openLDAP-2.4.29 und Cups-1.5.2 zur Verfügung.
+Zum Teilen von Dateien und Verzeichnissen, sowie Drucker-Dienste in heterogenen Netzwerken steht Samba-3.6.5, openLDAP-2.4.29 und Cups-1.5.2 zur Verf&uuml;gung.
 
 
 # en/for-server/index.php +43
@@ -213,7 +208,7 @@ Als Mailserver sind in Mageia 2 Postfix-2.8.8, Cyrus-imapd-2.4.13 sowie Dovecot-
 
 # en/for-server/index.php +49
 ;For more information about these and other packages, check the <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">Mageia 2 Release notes</a>.
-Für mehr Informationen zu diesen und anderen Paketen, beachten Sie die <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">Mageia 2 Release-Notes</a>.
+F&uuml;r mehr Informationen zu diesen und anderen Paketen, beachten Sie die <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">Mageia 2 Release-Notes</a>.
 
 
 # en/2/index.php +14
@@ -228,7 +223,7 @@ Mageia 2 ist die neue, stabile und sichere Linuxdistribution des Mageia-Projekte
 
 # en/2/index.php +35
 ;Too much to include here! See the <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">release notes</a> for an extensive exposé.
-Zu viel, um es hier aufzulisten, Schauen Sie in die <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">Release-Notes</a> für einen vollständigen Überblick.
+Zu viel, um es hier aufzulisten, Schauen Sie in die <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">Release-Notes</a> f&uuml;r einen vollst&auml;ndigen &Uuml;berblick.
 
 
 # en/2/index.php +37
@@ -248,7 +243,7 @@ Mageia ist beides, eine Community und eine Linux-Distribution, mit Mageia 2 biet
 
 # en/2/index.php +46
 ;Mageia 2 is supported by the <a href="../about/">Mageia.org nonprofit organisation</a>, which is governed by a body of recognized and elected contributors.
-Mageia 2 wird von der <a href="../about/">Non-Profit-Organisation Mageia.Org</a>, unterstützt, die von einer Gruppe anerkannter und gewählter Beteiligter geführt wird.
+Mageia 2 wird von der <a href="../about/">Non-Profit-Organisation Mageia.Org</a>, unterst&uuml;tzt, die von einer Gruppe anerkannter und gew&auml;hlter Beteiligter gef&uuml;hrt wird.
 
 
 # en/2/index.php +47
@@ -258,12 +253,12 @@ Mageia 2 wurde von mehr als 100 Leuten auf der ganzen Welt erstellt.
 
 # en/2/index.php +49
 ;Our work adds to the excellent work of the wider Linux and Free Software community. We aim to bring one of the best, most stable, reliable and enjoyable experience and platform we can make; for regular users, developers and businesses.
-Unsere Arbeit trägt zu der exzellenten Arbeit der großen Linux- und OpenSource-Community bei. Wir streben an, eine der besten und stabilsten und zuverlässigsten und für den Benutzer angenehmsten Erfahrung und Plattform, die wir bieten können, anzubieten: für den normalen Benutzer, den Entwickler und Unternehmen.
+Unsere Arbeit tr&auml;gt zu der exzellenten Arbeit der gro&szlig;en Linux- und OpenSource-Community bei. Wir streben an, eine der besten und stabilsten und zuverl&auml;ssigsten und f&uuml;r den Benutzer angenehmsten Erfahrung und Plattform, die wir bieten k&ouml;nnen, anzubieten: f&uuml;r den normalen Benutzer, den Entwickler und Unternehmen.
 
 
 # en/2/index.php +51
 ;We welcome new contributors to any of the many different teams that go to make up Mageia the Community, and we encourage you to join us.
-We heißen neue Mitstreiter in jedem der vielen verschiedenen Teams willkommen, die zusammen das Mageia-Projekt darstellen und wir ermutigen Sie, sich uns anzuschließen.
+We hei&szlig;en neue Mitstreiter in jedem der vielen verschiedenen Teams willkommen, die zusammen das Mageia-Projekt darstellen und wir ermutigen Sie, sich uns anzuschlie&szlig;en.
 
 ;What's new?
 Was ist neu?
@@ -276,19 +271,19 @@ Benutzen Sie die DVDs oder CDs oben und beachten Sie die <a href="%s" hreflang="
 beachten Sie die <a href="%s" hreflang="de">Aktualisierungs-Anleitung</a>
 
 ;Mageia 2, for your PC
-mageia 2, für Ihren PC
+mageia 2, f&uuml;r Ihren PC
 
 ;for your PC
-für Ihren PC
+f&uuml;r Ihren PC
 
 ;Plenty
 Viel
 
 ;There are 19&nbsp;881&nbsp;packages in our repositories. And that's just for the 64-bit branch.
-Wir haben 19.881&nbsp;Pakete in unseren Repositories. Und das ist nur die Zahl für den 64-Bit-Zweig.
+Wir haben 19.881&nbsp;Pakete in unseren Repositories. Und das ist nur die Zahl f&uuml;r den 64-Bit-Zweig.
 
 ;The total number is double that &ndash; and then if you consider the backports, and the packages in the Cauldron still testing... you'll see that Mageia users are spoiled for choice.
-Die Gesamtanzahl ist das doppelte hiervon &ndash; und wenn Sie die Backports und die Pakete, die im Entwicklerzweig Cauldron noch getestet werden mit einbeziehen... Sie sehen, dass Mageia-Benutzer durch Vielfalt verwöhnt werden.
+Die Gesamtanzahl ist das doppelte hiervon &ndash; und wenn Sie die Backports und die Pakete, die im Entwicklerzweig Cauldron noch getestet werden mit einbeziehen... Sie sehen, dass Mageia-Benutzer durch Vielfalt verw&ouml;hnt werden.
 
 ;Here's a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:
 Here's a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:
@@ -306,78 +301,79 @@ Und dann gibt es noch die Windowmanager, unter ihnen Openbox WindowMaker, IceWM,
 Anwendungen &rarr;
 
 ;There are many, many to choose from &ndash; including all the most popular.
-Es gibt viele, viele aus denen man wählen kann &ndash; inklusive all der beliebtesten.
+Es gibt viele, viele aus denen man w&auml;hlen kann &ndash; inklusive all der beliebtesten.
 
 ;Web
+Internet
 
 ;Choose your web browser from Firefox ESR 10.0.4, Chromium-browser 180.1025.160, Epiphany 3.4.1 or Opera 11.64 &ndash; or one of the many others such as Lynx or Konqueror; then pick an email client from KMail 4.8.2, Thunderbird ESR 10.0.4, Evolution 3.4.1 or maybe Claws-Mail or Mutt.
-Wählen Sie ihren Web-Browser aus Firefox-ESR-10.0.4, Chromium-Browser-18.1025.160, Epiphany-3.4.1 oder Opera-11.64 &ndash; oder einem der vielen anderen wie Lynx und Konqueror. Dann wählen Sie ein Email-Programm aus KMail-4.8.2, Thunderbird-ESR-10.0.4, Evolution-3.4.1 oder vielleicht Claws-Mail oder Mutt.
+W&auml;hlen Sie ihren Web-Browser aus Firefox-ESR-10.0.4, Chromium-Browser-18.1025.160, Epiphany-3.4.1 oder Opera-11.64 &ndash; oder einem der vielen anderen wie Lynx und Konqueror. Dann w&auml;hlen Sie ein Email-Programm aus KMail-4.8.2, Thunderbird-ESR-10.0.4, Evolution-3.4.1 oder vielleicht Claws-Mail oder Mutt.
 
 ;Messaging
 Sofortnachrichtendienste
 
 ;Choose from Kopete, Pidgin, Empathy or Kadu for instant messaging; use Quassel, Konversation, XChat-Gnome or KVIrc for IRC chat; try QuteCom or Ekiga (or even Skype) for VOIP.
-Wählen Sie aus Kopete, Pidgin, Empathy oder Kadu für Sofortnachrichtendienste, benutzen Sie Quassel, Konversation, XChat-Gnome oder KVIrc für Ihre IRC-Chats, testen Sie QuteCom oder Ekiga (oder sogar Skype) für VOIP.
+W&auml;hlen Sie aus Kopete, Pidgin, Empathy oder Kadu f&uuml;r Sofortnachrichtendienste, benutzen Sie Quassel, Konversation, XChat-Gnome oder KVIrc f&uuml;r Ihre IRC-Chats, testen Sie QuteCom oder Ekiga (oder sogar Skype) f&uuml;r VOIP.
 
 ;Office
-Büro
+B&uuml;ro
 
 ;The two full-featured office suites LibreOffice and Calligra are there, as well as AbiWord, and a host of text editors including Kate; for finance there's KMyMoney, Skrooge or the professional-level GnuCash.
-Die zwei vollständigen office-Suites LibreOffice und Calligra sind vorhanden, genau so wie AbiWord und ein ganzer Sack voll Texteditoren inklusive Kate. Für Ihre Finanzen bieten wir KMyMoney, Skrooge oder das profesionelle GnuCash.
+Die zwei vollst&auml;ndigen office-Suites LibreOffice und Calligra sind vorhanden, genau so wie AbiWord und ein ganzer Sack voll Texteditoren inklusive Kate. F&uuml;r Ihre Finanzen bieten wir KMyMoney, Skrooge oder das profesionelle GnuCash.
 
 ;Image
 Bilder
 
 ;Use GIMP for powerful image manipulation, or Inkscape for vector drawing; Blender is there for serious animation. DigiKam or Showfoto will take care of your photos, talk to your camera and give you more basic image editing.
-Benutzen Sie GIMP für mächtige Bildmanipulationen oder Inkscape für Vektorgrafiken. Blender ist für Animationen vorhanden. DigiKam oder Showfoto werden sich um Ihre Bilder kümmern, mit Ihrer Kamera abgleichen und Ihnen grundlegende Editierungsmethoden anbieten.
+Benutzen Sie GIMP f&uuml;r m&auml;chtige Bildmanipulationen oder Inkscape f&uuml;r Vektorgrafiken. Blender ist f&uuml;r Animationen vorhanden. DigiKam oder Showfoto werden sich um Ihre Bilder k&uuml;mmern, mit Ihrer Kamera abgleichen und Ihnen grundlegende Editierungsmethoden anbieten.
 
 ;Sound
 Ton
 
 ;For playing audio files, choose from Amarok 2.5.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don't infringe local laws.
-Um Audio-Dateien abzuspielen, wählen sie unter Anderem aus Amarok-2.5.0 und Rhythmbox. Nutzen Sie VLC, Totem oder MPlayer für Video und Audio oder benutzen Sie das XBMC-Mediacenter als Ihr Home-Entertainmentsystem. Einige Pakete können sowohl in den Core- als auch in den Tainted-Repositoriesgefunden werden: Die Pakete in den Core-Repositories enthalten nur patentfreie Codecs und Pakete, die Pakete in den Tainted-Repositories unterstützen alle Codecs für Benutzer, die in Ländern leben, wo diese Codecs nicht die jeweiligen Gesetze verletzen.
+Um Audio-Dateien abzuspielen, w&auml;hlen sie unter Anderem aus Amarok-2.5.0 und Rhythmbox. Nutzen Sie VLC, Totem oder MPlayer f&uuml;r Video und Audio oder benutzen Sie das XBMC-Mediacenter als Ihr Home-Entertainmentsystem. Einige Pakete k&ouml;nnen sowohl in den Core- als auch in den Tainted-Repositoriesgefunden werden: Die Pakete in den Core-Repositories enthalten nur patentfreie Codecs und Pakete, die Pakete in den Tainted-Repositories unterst&uuml;tzen alle Codecs f&uuml;r Benutzer, die in L&auml;ndern leben, wo diese Codecs nicht die jeweiligen Gesetze verletzen.
 
 ;Video
 Video
 
 ;For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there's Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.
-Um Video-Dateien zu bearbeiten, nutzen Sie Avidemux, Kino oder OpenShot. Für Untertitel haben wir Gaupol oder Subtitles-Composer. Nutzen Sie MythTV, Miro, tvtime, freetuxTV oder MeTV um Ihre Fernseh-Programme anzuschauen.
+Um Video-Dateien zu bearbeiten, nutzen Sie Avidemux, Kino oder OpenShot. F&uuml;r Untertitel haben wir Gaupol oder Subtitles-Composer. Nutzen Sie MythTV, Miro, tvtime, freetuxTV oder MeTV um Ihre Fernseh-Programme anzuschauen.
 
 ;Plus
-Plus
+Zus&auml;tzlich
 
 ;Then there's ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.
-Dazu gibt es ZoneMinder für ihre Videoüberwachungsanlagen, VirtualBox oder WINE für Virtualisierungen und eine Anzahl an Entwicklungsumgebungen wie Anjta, Eclipse, Netbeans oder KDevelop.
+Dazu gibt es ZoneMinder f&uuml;r ihre Video&uuml;berwachungsanlagen, VirtualBox oder WINE f&uuml;r Virtualisierungen und eine Anzahl an Entwicklungsumgebungen wie Anjta, Eclipse, Netbeans oder KDevelop.
 
 ;For more information about these and other packages, check the <a href="%s">Mageia 2 Release notes</a>.
-Für mehr Informationen über diese und andere pakete, beachten Sie die <a href="%s">Mageia2-Release-Notes</a>.
+F&uuml;r mehr Informationen &uuml;ber diese und andere Pakete, beachten Sie die <a href="%s">Mageia2-Release-Notes</a>.
 
 ;You can take a look at the <a href="%s">Mageia Application Database</a> to get a more complete list of Mageia packages.
-Sie können einen Blick auf die <a href="%s">Mageia-Anwendungsdatenbank</a> werfen um eine vollständigere Liste der Mageia-Pakete zu erhalten.
+Sie k&ouml;nnen einen Blick auf die <a href="%s">Mageia-Anwendungsdatenbank</a> werfen um eine vollst&auml;ndigere Liste der Mageia-Pakete zu erhalten.
 
 ;Mageia 2, for your server
-mageia2, für Ihren Server
+mageia2, f&uuml;r Ihren Server
 
 ;Aside from the cross-section included here, you will find many others in the repositories: you can use rpmdrake to search for packages, or check the <a href="%s">Mageia App DB</a>.
 Aside from the cross-section included here, you will find many others in the repositories: you can use rpmdrake to search for packages, or check the <a href="%s">Mageia App DB</a>.
 
 ;For centralised administration, we include puppet 2.7.11; we use it widely in <a href="%s">our own infrastructure</a>.
-Für zentralisierte Administration bieten wir Ihnen Puppet-2.7.11. Wir benutzen es selbst an vielen Stellen <a href="%s">unserer Infrastruktur</a>.
+F&uuml;r zentralisierte Administration bieten wir Ihnen Puppet-2.7.11. Wir benutzen es selbst an vielen Stellen <a href="%s">unserer Infrastruktur</a>.
 
 ;Databases included are PostgreSQL 8.4.11; MariaDB, which replaces MySQL 5.5.23; BDB.
-Unter den enthaltenen Datenbanken sind unter anderem PostgreSQL (in drei stabilen Versionen) und MariaDB, das mySQL-5.5.23 enthält sowie BDB.
+Unter den enthaltenen Datenbanken sind unter anderem PostgreSQL (in drei stabilen Versionen) und MariaDB, das mySQL-5.5.23 enth&auml;lt sowie BDB.
 
 ;Mageia 2 is a GNU/Linux distribution for your computer, released by the <a href="%s">Mageia community</a>.
-Mageia 2 ist eine GNU/Linux-Distribution für Ihren Computer, die von der <a href="%s">Mageia-Community</a> veröffentlicht wurde.
+Mageia 2 ist eine GNU/Linux-Distribution f&uuml;r Ihren Computer, die von der <a href="%s">Mageia-Community</a> ver&ouml;ffentlicht wurde.
 
 ;Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch's most popular distributions</a>.
-Seit der Veröffentlichung von <a href="../1/">Mageia 1</a> befindet sich unser Angebot ständig in den <a href="%s">Top 10 der beliebtesten Distributionen von Distrowatch</a>.
+Seit der Ver&ouml;ffentlichung von <a href="../1/">Mageia 1</a> befindet sich unser Angebot st&auml;ndig in den <a href="%s">Top 10 der beliebtesten Distributionen von Distrowatch</a>.
 
 ;Download
 herunterladen
 
 ;For PC
-Für den PC
+F&uuml;r den PC
 
 ;For server
-Für den Server
+F&uuml;r den Server
