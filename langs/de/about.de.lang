@@ -84,3 +84,7 @@ Media &amp; artwork
 # /en/about/index.php +81
 ;<a href="%s">Current graphics charter</a>.
 <a href="%s">Momentane Grafik-Regeln</a>.
+
+# added manually from report.php
+;<a href=%s>Mageia.Org's legal constitution</a> and <a href=%s>governance</a> rules;
+Die <a href=%s>rechtlichen Grundlagen zu Mageia.Org</a> und die <a href=%s>Leitungs</a>-Regeln
