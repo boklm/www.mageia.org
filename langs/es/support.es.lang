@@ -34,7 +34,11 @@ Soporte Profesional
 ;Hardware Requirements
 Requerimientos de Hardware
 
+;Documentation
+Documentación
 
+;You can look up existing %sdocumentation here%s. You may too look into our %sWiki%s.
+Puede ver la %sdocumentación existente aquí%s. Puede ver nuestro %sWiki%s.
 
 ;Updates
 Actualizaciones
@@ -49,7 +53,17 @@ Las actualizaciones están disponibles para %s y %s (seguridad y correcciones de
 ;You may subscribe to our %s announce list to be notified of these.
 Puede suscribirse a nuestra lista de correo %s para ser notificado de éstas actualizaciones.
 
+;Lifecycle
+Ciclo de vida
 
+;Mageia releases are supported at least for 18 months.
+Las versiones de Mageia están soportadas por lo menos 18 meses.
+
+;Mageia 1 will be supported until December 2012.
+Mageia 1 estará soportada hasta Diciembre de 2012.
+
+;Mageia 2 may have a longer lifecycle, this will be decided once released in May.
+Mageia 2 posiblemente tenga un ciclo de vida más extenso, esto se decidira en Mayo tras su publicación.
 
 ;You can install these from the Mageia Control Center.
 Puedes instalarlas desde el Centro de Control de Mageia.
