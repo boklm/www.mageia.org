@@ -3,11 +3,11 @@ Skupnost Mageia
 
 
 ;Mageia Community Central is the place where all contributors and users can find the latest news about Mageia and learn more about what to do in the project.
-Mageia Community Central is the place where all contributors and users can find the latest news about Mageia and learn more about what to do in the project.
+Središče skupnosti Mageia je kraj, kjer lahko vsi soustvarjalci in uporabniki najdejo najnovejše novice o Mageji in izvedejo več o tem, kako lahko pomagajo v projektu.
 
 
 ;mageia, community, news, tools, tasks
-mageia, community, news, tools, tasks
+mageia, skupnost, novice, orodja, naloge
 
 
 ;Mageia Community Central
@@ -15,7 +15,7 @@ Središče skupnosti Mageia
 
 
 ;http://blog.mageia.org/en/
-http://blog.mageia.org/en/ {ok}
+http://blog.mageia.org/en {ok}
 
 
 ;Blog
@@ -23,15 +23,15 @@ Blog {ok}
 
 
 ;http://planet.mageia.org/en/
-http://planet.mageia.org/en/ {ok}
+http://planet.mageia.org/en {ok}
 
 
 ;Planet
-Planet
+Planet novic
 
 
 ;Calendar
-Calendar
+Koledar
 
 
 ;https://forum.mageia.org/en/
@@ -39,7 +39,7 @@ https://forum.mageia.org/en/ {ok}
 
 
 ;Forums
-Forums
+Forumi
 
 
 ;http://wiki.mageia.org/
@@ -55,15 +55,15 @@ Kako sodelovati?
 
 
 ;Start here
-Start here
+Pričnite tule
 
 
 ;and meet us on <a href="http://wiki.mageia.org/en/IRC">IRC</a>.
-and meet us on <a href="http://wiki.mageia.org/en/IRC">IRC</a>.
+in se pogovorite z nami na <a href="http://wiki.mageia.org/en/IRC">IRC</a>-u.
 
 
 ;You can also <a href="../donate/">support financially</a> the project!
-You can also <a href="../donate/">support financially</a> the project!
+Projekt lahko <a href="../donate/">podprete tudi finančno</a>!
 
 
 ;Toolbox
@@ -71,43 +71,43 @@ Orodja skupnosti
 
 
 ;Wiki</a> &larr; collaborative documentation
-Wiki</a> &larr; collaborative documentation
+Wiki</a> &larr; soustvarjena dokumentacija 
 
 
 ;Bugzilla</a> &larr; to report bugs
-Bugzilla</a> &larr; to report bugs
+Bugzilla</a> &larr; za poročanje hroščev
 
 
 ;Forum
-Forum
+Forum {ok}
 
 
 ;Mageia Applications Database
-Mageia Applications Database
+Podatkovna zbirka programov Mageia
 
 
 ;For developers &amp; packagers
-For developers &amp; packagers
+Za razvijalce in pripravljavce paketov
 
 
 ;Subversion
-Subversion
+Subversion {ok}
 
 
 ;Git</a> code repositories
-Git</a> code repositories
+Git</a> kot skladišči izvorne kode
 
 
 ;Packages submission queue
-Packages submission queue
+Seznam poslanih paketov za prevajanje
 
 
 ;unmaintained packages
-unmaintained packages
+paketi brez vzdrževanja
 
 
 ;Global QA report
-Global QA report
+globalno poročilo nadzora kakovosti
 
 
 ;Conversations
