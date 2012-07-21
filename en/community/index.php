@@ -2,70 +2,6 @@
 
 define('HLANG', true);
 require '../../langs.php';
-
-$_t = array(
-    'de' => array(
-        'http://blog.mageia.org/en/' => 'http://blog.mageia.org/de/',
-        'http://planet.mageia.org/en/' => 'http://planet.mageia.org/de/',
-        'https://forum.mageia.org/en/' => 'http://forums.mageia.org/de/',
-    ),
-    'el' => array(
-        'http://blog.mageia.org/en/' => 'http://blog.mageia.org/el/',
-    ),
-    'en' => array(
-        'Mageia Community' => 'Mageia Community',
-        'Mageia Community Central' => 'Mageia Community Central',
-        'http://blog.mageia.org/en/' => 'http://blog.mageia.org/en/',
-        'http://planet.mageia.org/en/' => 'http://planet.mageia.org/en/',
-        'https://forum.mageia.org/en/' => 'https://forum.mageia.org/en/',
-    ),
-    'es' => array(
-        'http://blog.mageia.org/en/' => 'http://blog.mageia.org/en/',
-        'http://planet.mageia.org/en/' => 'http://planet.mageia.org/es/'
-    ),
-    'fr' => array(
-        'Mageia Community' => 'Communauté Mageia',
-        'Mageia Community Central' => 'Portail de la communauté Mageia',
-        'News'       => 'Actualités',
-        'How to contribute?' => 'Comment contribuer&nbsp;?',
-        'Toolbox'    => 'Boîte à outils',
-        'http://blog.mageia.org/en/' => 'http://blog.mageia.org/fr/',
-        'http://planet.mageia.org/en/' => 'http://planet.mageia.org/fr/',
-        'https://forum.mageia.org/en/' => 'http://forum.mageia.org/fr/'
-    ),
-    'it' => array(
-        'http://blog.mageia.org/en/' => 'http://blog.mageia.org/it/',
-        'http://planet.mageia.org/en/' => 'http://planet.mageia.org/it/'
-    ),
-    'nl' => array(
-        'http://blog.mageia.org/en/' => 'http://blog.mageia.org/nl/',
-    ),
-    'pl' => array(
-        'http://blog.mageia.org/en/' => 'http://blog.mageia.org/pl/',
-    ),
-    'pt' => array(
-        'http://blog.mageia.org/en/' => 'http://blog.mageia.org/pt/',
-    ),
-    'pt-br' => array(
-        'http://blog.mageia.org/en/' => 'http://blog.mageia.org/pt/',
-        'https://forum.mageia.org/en/' => 'http://forum.mageiabr.org/',
-        'http://wiki.mageia.org/'  => 'http://wiki.mageiabr.org/'
-    ),
-    'ro' => array(
-        'http://blog.mageia.org/en/' => 'http://blog.mageia.org/ro/',
-    ),
-    'ru' => array(
-        'http://blog.mageia.org/en/' => 'http://blog.mageia.org/ru/'
-    ),
-    'tr' => array(
-        'http://blog.mageia.org/en/' => 'http://blog.mageia.org/tr/'
-    ),
-    'uk' => array(
-        'http://blog.mageia.org/en/' => 'http://blog.mageia.org/uk/'
-    )
-);
-
-$_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules); // remove when function show_feed will shows correct output in all languages
 _lang_load($locale, 'community');
 include '../../lib/news.php';
 
@@ -110,7 +46,7 @@ include '../../lib/news.php';
             <?php
             if (_d('http://planet.mageia.org/en/') != 'http://planet.mageia.org/en/') {
                 show_feed($locale, null, _d('http://planet.mageia.org/en/'), _d('http://planet.mageia.org/en/') . '?type=rss10', 9, null, true);
-            } elseif (_d('http://blog.mageia.org/en/') != 'http://blog.mageia.org/en/') {
+            } else {
                 show_feed($locale, null, _d('http://blog.mageia.org/en/'), _d('http://blog.mageia.org/en/') . '?feed=rss', 9, null, true);
             }
             // don't work:
