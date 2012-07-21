@@ -10,7 +10,7 @@ include '../../lib/news.php';
 <html lang="<?php echo $locale; ?>">
 <head>
     <meta charset="utf-8">
-    <title><?php _e('page_title')?></title>
+    <title><?php _e('Mageia Community')?></title>
     <meta name="description" content="<?php _e('Mageia Community Central is the place where all contributors and users can find the latest news about Mageia and learn more about what to do in the project.')?>">
     <meta name="keywords" content="<?php _e('mageia, community, news, tools, tasks')?>">
     <meta name="author" content="Mageia">
@@ -28,13 +28,13 @@ include '../../lib/news.php';
 <body class="community">
     <?php echo $hsnav; ?>
     <header id="mgnavt">
-        <h1><?php _e('page_h1')?></h1>
+        <h1><?php _e('Mageia Community Central')?></h1>
         <ul>
-            <li><a href="<?php _e('blog_url')?>"><?php _e('Blog');?></a></li>
-            <li><a href="<?php _e('planet_url')?>"><?php _e('Planet');?></a></li>
+            <li><a href="<?php _e('http://blog.mageia.org/en/')?>"><?php _e('Blog');?></a></li>
+            <li><a href="<?php _e('http://planet.mageia.org/en/')?>"><?php _e('Planet');?></a></li>
             <li><a href="/en/calendar/"><?php _e('Calendar');?></a></li>
             <li><a href="https://wiki.mageia.org/en/IRC">IRC</a></li>
-            <li><a href="<?php _e('forum_url')?>"><?php _e('Forums');?></a></li>
+            <li><a href="<?php _e('https://forum.mageia.org/en/')?>"><?php _e('Forums');?></a></li>
             <li><a href="http://ml.mageia.org/">Mailing-lists</a></li>
             <li><a href="<?php _e('http://wiki.mageia.org/')?>">Wiki</a></li>
             <li><a href="https://bugs.mageia.org/">Bugzilla</a></li>
@@ -42,12 +42,12 @@ include '../../lib/news.php';
     </header>
     <div class="para" style="width: 400px;">
         <section>
-            <h2><a href="<?php _e('blog_url')?>"><?php _e('News');?></a></h2>
+            <h2><a href="<?php _e('http://blog.mageia.org/en/')?>"><?php _e('News');?></a></h2>
             <?php
-            if (_d('planet_url') != 'planet_url') {
-                show_feed($locale, null, _d('planet_url'), _d('planet_url') . '?type=rss10', 9, null, true);
-            } elseif (_d('blog_url') != 'blog_url') {
-                show_feed($locale, null, _d('blog_url'), _d('blog_url') . '?feed=rss', 9, null, true);
+            if (_d('http://planet.mageia.org/en/') != 'http://planet.mageia.org/en/') {
+                show_feed($locale, null, _d('http://planet.mageia.org/en/'), _d('http://planet.mageia.org/en/') . '?type=rss10', 9, null, true);
+            } elseif (_d('http://blog.mageia.org/en/') != 'http://blog.mageia.org/en/') {
+                show_feed($locale, null, _d('http://blog.mageia.org/en/'), _d('http://blog.mageia.org/en/') . '?feed=rss', 9, null, true);
             }
             // don't work:
             //show_feed('Mageia MLs', '', 'https://ml.mageia.org/l/rss/active_lists?count=20&for=10');
@@ -57,9 +57,9 @@ include '../../lib/news.php';
             <p><?php
                 $s = array();
                 $feeds = array(
-                    'Planet' => 'planet_url',
-                    'Blog'   => 'blog_url',
-                    'Forum'  => 'forum_url'
+                    'Planet' => 'http://planet.mageia.org/en/',
+                    'Blog'   => 'http://blog.mageia.org/en/',
+                    'Forum'  => 'https://forum.mageia.org/en/'
                 );
                 foreach ($feeds as $k => $v)
                     if (_t($v) != $v)
@@ -81,7 +81,7 @@ include '../../lib/news.php';
         <ul class="hl">
             <li><a href="<?php _e('http://wiki.mageia.org/')?>"><?php _e('Wiki</a> &larr; collaborative documentation')?></li>
             <li><a href="http://bugs.mageia.org/"><?php _e('Bugzilla</a> &larr; to report bugs')?></li>
-            <li><a href="<?php _e('forum_url')?>"><?php _e('Forum')?></a></li>
+            <li><a href="<?php _e('https://forum.mageia.org/en/')?>"><?php _e('Forum')?></a></li>
             <li><a href="/en/calendar/"><?php _e('Calendar')?></a></li>
             <li><a href="http://mageia.madb.org"><?php _e('Mageia Applications Database')?></a></li>
         </ul>
@@ -99,10 +99,10 @@ include '../../lib/news.php';
         <h2><?php _e('Conversations')?></h2>
         <p><?php _e('... or, how to get in touch with us? Easy:')?></p>
         <ul class="hl">
-            <li><a href="https://wiki.mageia.org/en/IRC" title="Internet Relay Chat"><?php _e('IRC</a> on Freenode')?></a>,</li>
+            <li><a href="https://wiki.mageia.org/en/IRC" title="Internet Relay Chat"><?php _e('IRC</a> on Freenode')?>,</li>
             <li><a href="/mailman/"><?php _e('mailing-lists 1</a> &amp; <a href="http://ml.mageia.org/">2')?></a>,</li>
-            <li><a href="<?php _e('forum_url')?>"><?php _e('Forum')?></a>,</li>
-            <li><a href="<?php _e('blog_url')?>"><?php _e('Blog')?></a>,</li>
+            <li><a href="<?php _e('https://forum.mageia.org/en/')?>"><?php _e('Forum')?></a>,</li>
+            <li><a href="<?php _e('http://blog.mageia.org/en/')?>"><?php _e('Blog')?></a>,</li>
             <li><?php _e('in real life!')?></li>
             <li><?php _e('during events!')?></li>
         </ul>
