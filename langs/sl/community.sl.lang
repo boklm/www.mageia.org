@@ -7,23 +7,23 @@ Središče skupnosti Mageia
 
 
 ;blog_url
-http://blog.mageia.org/en/
+http://blog.mageia.org/en/ {ok}
 
 
 ;Blog
-Blog
+Blog {ok}
 
 
 ;planet_url
-http://planet.mageia.org/en/
+http://planet.mageia.org/en/ {ok}
 
 
 ;forum_url
-https://forum.mageia.org/en/
+https://forum.mageia.org/en/ {ok}
 
 
 ;http://wiki.mageia.org/
-http://wiki.mageia.org/
+http://wiki.mageia.org/ {ok}
 
 
 ;News
