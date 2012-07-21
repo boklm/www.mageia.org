@@ -15,7 +15,7 @@ Središče skupnosti Mageia
 
 
 ;http://blog.mageia.org/en/
-http://blog.mageia.org/en {ok}
+http://blog.mageia.org/en/ {ok}
 
 
 ;Blog
@@ -23,7 +23,7 @@ Blog {ok}
 
 
 ;http://planet.mageia.org/en/
-http://planet.mageia.org/en {ok}
+http://planet.mageia.org/en/ {ok}
 
 
 ;Planet
@@ -87,7 +87,7 @@ Podatkovna zbirka programov Mageia
 
 
 ;For developers &amp; packagers
-Za razvijalce in pripravljavce paketov
+Za razvijalce in pripravljalce paketov
 
 
 ;Subversion
@@ -115,23 +115,23 @@ Komunikacije
 
 
 ;... or, how to get in touch with us? Easy:
-... or, how to get in touch with us? Easy:
+... ali kako z nami priti v stik? Preprosto:
 
 
 ;IRC</a> on Freenode
-IRC</a> on Freenode
+IRC</a> na strežniku Freenode
 
 
 ;mailing-lists 1</a> &amp; <a href="http://ml.mageia.org/">2
-mailing-lists 1</a> &amp; <a href="http://ml.mageia.org/">2
+dopisni seznam 1</a> in <a href="http://ml.mageia.org/">2
 
 
 ;in real life!
-in real life!
+v resnici!
 
 
 ;during events!
-during events!
+na prireditvah!
 
 
 ;Teams you can join!
@@ -139,60 +139,60 @@ Ekipe, ki se jim lahko pridružite!
 
 
 ;Atelier
-Atelier
+Atelje
 
 
 ;Documentation
-Documentation
+Dokumentacija
 
 
 ;Packaging
-Packaging
+Priprava paketov
 
 
 ;Testing &amp; <abbr title="Quality Assurance">QA</abbr>
-Testing &amp; <abbr title="Quality Assurance">QA</abbr>
+Testiranje in nadzor kakovosti (<abbr title="Quality Assurance">QA</abbr>)
 
 
 ;Translation
-Translation
+Prevajanje
 
 
 ;Systems &amp; infrastructure administration
-Systems &amp; infrastructure administration
+Administracija sistemov in informacijske infrastrukture 
 
 
 ;Mageia
-Mageia
+Mageia {ok}
 
 
 ;More about Mageia
-More about Mageia
+Več o Mageji
 
 
 ;Our <a href="../about/code-of-conduct/">code of conduct</a> and <a href="../about/values/">values</a>
-Our <a href="../about/code-of-conduct/">code of conduct</a> and <a href="../about/values/">values</a>
+Naš <a href="../about/code-of-conduct/">kodeks</a> in <a href="../about/values/">vrednote</a>
 
 
 ;Our governance model</a> and structure:
-Our governance model</a> and structure:
+Naš model upravljanja</a> in struktura:
 
 
 ;Teams
-Teams
+Ekipe
 
 
 ;the Council
-the Council
+Svet
 
 
 ;the Board
-the Board
+Odbor
 
 
 ;<a href="../donate/">Donations</a> &amp; <a href="/en/about/reports/">reports</a>.
-<a href="../donate/">Donations</a> &amp; <a href="/en/about/reports/">reports</a>.
+<a href="../donate/">Donacije</a> in <a href="/en/about/reports/">poročila</a>.
 
 
 ;This page needs you! <a href="https://wiki.mageia.org/en/Web_team">Join the Web team</a>!
-This page needs you! <a href="https://wiki.mageia.org/en/Web_team">Join the Web team</a>!
+Ta spletna stran vas potrebuje! <a href="https://wiki.mageia.org/en/Web_team">Pridružite se ekipi za splet (Atelje)</a>!
