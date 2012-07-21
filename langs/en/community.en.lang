@@ -14,7 +14,7 @@ mageia, community, news, tools, tasks
 Mageia Community Central
 
 
-;blog_url
+;http://blog.mageia.org/en/
 http://blog.mageia.org/en/
 
 
@@ -22,7 +22,7 @@ http://blog.mageia.org/en/
 Blog
 
 
-;planet_url
+;http://planet.mageia.org/en/
 http://planet.mageia.org/en/
 
 
@@ -34,7 +34,7 @@ Planet
 Calendar
 
 
-;forum_url
+;https://forum.mageia.org/en/
 https://forum.mageia.org/en/
 
 
