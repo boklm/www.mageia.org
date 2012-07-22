@@ -562,7 +562,7 @@ $_t = array(
                                     töö juures.',
                     'Kui kohtate sageli esinevat viga,
                                     <a href="http://bugs.mageia.org/">tehke selle kohta veateade</a>.',
-                    'Tehke <a href="/en/donate/">annetus</a>!'),
+                    'Tehke <a href="/et/donate/">annetus</a>!'),
         'h3_hours' => 'Mõni tund',
         'array_hours' => array('Astuge läbi mõnelt Mageia sündmuselt, näiteks testpäevalt, et aidata vigu leida ja neid parandada.',
                     'Tellige mõne meeskonna postiloend ja jälgige selle arutelusid, et leida
