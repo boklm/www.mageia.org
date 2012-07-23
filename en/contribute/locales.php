@@ -1405,8 +1405,8 @@ $_t = array(
         'contribute_intro' => 'Sodeluje lahko vsakdo, to je prosto programje!
                         Če ste radovedni in pripravljeni, da se pridružite,
                         so stvari, ki jih lahko naredite,
-                        odvisno od vašega časa in spretnosti;
-                        vedno boste našli nekoga, ki vas bo pozdravil in vam ​​pomagal/mentoriral,
+                        odvisno od vašega časa in spretnosti.
+                        Vedno boste našli nekoga, ki vas bo pozdravil in vam ​​pomagal/mentoriral,
                         če je potrebno, tako da bo lahko vaš prispevek k projektu tako dober, kot je lahko!',
         'check_can_do' => 'Preverite spodaj, kaj lahko naredite!',
         'h2_role' => 'Vloge',
@@ -1427,10 +1427,10 @@ $_t = array(
                                 prevodov programske opreme, navodil, vodičev, spletnih strani, oglasnega materiala,
                                 in tako naprej, se vse dogaja zahvaljujoč prizadevanjem veliko sodelavcev.
                                 Pridružite se <a href="https://wiki.mageia.org/en/Internationalisation_Team_(i18n)">jim</a>!',
-        'h3_triage' => 'Razvrščanje (trijaža)',
+        'h3_triage' => 'Razvrščanje hroščev (trijaža)',
         'text_triage' => 'Hrošči se dogajajo! Nekatere javijo. Seveda jih je zato treba razvrstiti,
                                 da je delo razvijalcev in sestavljalcev paketov lažje: potrditev (je napaka ponovljiva?),
-                                zbiranje potrebnih podatkov za razhroščevanje od avtorja poročila, dodeljevanje poročila ustreznemu razvijalcu. <a href="https://wiki.mageia.org/en/Bug_Squad">Povečajte ekipo za razvrščanje hroščev</a> in bodite povezava med uporabniki, ki poročajo napake v forumih in dopisnih seznamih ter <a href="http://bugs.mageia.org/">Mageia Bugzillo</a>, ki jo uporabljajo razvijalci.',
+                                zbiranje potrebnih podatkov za razhroščevanje od avtorja poročila ter dodeljevanje poročila ustreznemu razvijalcu. <a href="https://wiki.mageia.org/en/Bug_Squad">Povečajte ekipo za razvrščanje hroščev</a> in bodite povezava med uporabniki, ki poročajo napake v forumih in dopisnih seznamih ter <a href="http://bugs.mageia.org/">Mageia Bugzillo</a>, ki jo uporabljajo razvijalci.',
         'h3_qa' => 'Testiranje in nadzor kakovosti (<abbr title="Quality Assurance">QA</abbr>)',
         'text_qa' => 'Ne moremo izdati programske opreme, če nismo prepričani, da dobro deluje!
                                 <a href="https://wiki.mageia.org/en/QA_Team">Ekipa preizkuševalcev</a>
@@ -1439,10 +1439,10 @@ $_t = array(
         'h3_marketing' => 'Marketing, komunikacija in oglaševanje',
         'text_marketing' => 'Boljše razumevanje uporabnikov in sodelavcev pri projektu,
                                 da jim lahko pomagajo še bolj in pozornost, da je glas Mageia dosleden in slišen,
-                                je delo za <a href="https://wiki.mageia.org/en/Marcom_Team">ekipo marcomm</a> (marketing in komuniciranje), na svetovni in lokalni ravni.',
+                                je delo za <a href="https://wiki.mageia.org/en/Marcom_Team">ekipo marcomm</a> (marketing in komuniciranje) na svetovni in lokalni ravni.',
         'h3_graphic' => 'Oblikovanje grafike in uporabniškega vmesnika',
         'text_graphic' => 'Pri programski opremi ne gre le za kodo niti Mageia ni samo tehnologija.
-                                Približati jo človeku, jo narediti lepo in praktično!
+                                Želimo jo približati človeku, jo narediti lepo in praktično!
                                 Pridružite se <a href="https://wiki.mageia.org/en/Artwork_team">umetniški ekipi</a>, če imate talent in izkušnje s področja grafičnega oblikovanja ali ergonomije!',
         'h3_dev' => 'Programiranje in pakiranje',
         'text_dev' => 'Prispevajte k jedru distribucije s svojo tehnično spretnostjo!
@@ -1463,11 +1463,11 @@ $_t = array(
         'text_donation' => 'Finančne donacije nam pomagajo dodeliti določene naloge, zavarovati našo infrastrukturo,
                                 sponzorirati dogodke, dobrote in prevoz.
                                 <a href="/en/thank-you/">Več kot 200 oseb je že izrazilo zaupanje v nas</a>
-                                s svojim denarjem, strojno opremo ali drugimi sredstvi. To, <a href="/en/about/reports/">kar smo dobili in kako to uporabljamo vodimo javno evidenco</a>.',
+                                s svojim denarjem, strojno opremo ali drugimi sredstvi. O tem, kar smo <a href="/en/about/reports/">dobili in kako to uporabljamo vodimo javno evidenco</a>.',
         'h3_data' => 'Rudarjenje podatkov',
         'text_data' => 'Tam zunaj obstaja ogromno podatkov, ki jih večinoma ne uporabljamo,
                                 ali celo ne vemo zanje. Če radi zbirate in analizirate podatke, ki vsebujejo kaj zanimivega;
-                                ter to predstavite kot predlog za izboljšanje, stopite v stik!',
+                                ter to predstavite kot predlog za izboljšanje, stopite v stik z nami!',
         'h3_design' => 'Oblikovanje, eksperimentiranje, odkrivanje neznanega',
         'text_design' => 'Ideje so super, delujoči prototipi so še boljši.
                                 Projekt Mageia ni le v gradnji drugačne distribucije Linuxa, temveč tudi o gradnji novih izdelkov in izkušenj z njimi ter z njihovimi podatki.',
@@ -1482,12 +1482,12 @@ $_t = array(
                                      vnesite ali dopolnite <a href="http://bugs.mageia.org/">poročilo o hrošču</a>.',
                     'Prispevajte <a href="/en/donate/">donacijo</a>!'),
         'h3_hours' => 'Nekaj ​​ur',
-        'array_hours' => array('Oglasite se na dogodku, ki ga organizira Mageia (npr. dan za testiranje), da bi našli, ponovili in pomagali pri reševanju hroščev.',
-                    'Naročite se na dopisni seznam ekipe in sledite razpravi, poskusite kaj koristnega doprinesti.'),
+        'array_hours' => array('Oglasite se na dogodku, ki ga organizira Mageia (npr. dan za testiranje), da bi našli, ponovili ali pomagali pri reševanju hroščev.',
+                    'Naročite se na dopisni seznam ekipe, ki vas zanima in sledite razpravi. Nato poskusite doprinesti kaj koristnega.'),
         'h3_weeks' => 'Nekaj ​​tednov ali več',
         'array_weeks' => array('Spoznajte prosto programsko opremo, odprtokodno sodelovanje na splošno in še zlasti tule v skupnosti Mageia.',
-                    'Če ste študent, razmislite o pogovoru s svojim mentorjem o sodelovanju v projektu kot delu študija;
-                                    ni vam treba študirati računalništva, da to storite.')
+                    'Če ste študent, razmislite o pogovoru s svojim mentorjem o sodelovanju v projektu kot delu študija.
+                                    Ni vam treba študirati ravno računalništva, da to storite.')
     ),
     'uk' => array(
         'page_title' => 'Станьте учасником проекту Mageia',
