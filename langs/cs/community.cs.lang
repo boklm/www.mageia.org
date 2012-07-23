@@ -59,11 +59,11 @@ Začněte zde
 
 
 ;and meet us on <a href="http://wiki.mageia.org/en/IRC">IRC</a>.
-a setkejte se s námi na <a href="http://wiki.mageia.org/en/IRC">IRC</a>.
+Setkejte se s námi na <a href="http://wiki.mageia.org/en/IRC">IRC</a>.
 
 
 ;You can also <a href="../donate/">support financially</a> the project!
-Také můžete projekt <a href="../donate/">podpořit finančně</a>!
+Projekt můžete <a href="../donate/">podpořit i finančně</a>!
 
 
 ;Toolbox
@@ -91,11 +91,11 @@ Pro vývojáře a tvůrce balíčků
 
 
 ;Subversion
-Skladiště kódu Subversion
+Subversion
 
 
 ;Git</a> code repositories
-Git</a>
+Git</a> &larr; skladiště kódu
 
 
 ;Packages submission queue
@@ -115,7 +115,7 @@ Rozhovory
 
 
 ;... or, how to get in touch with us? Easy:
-Jak se s námi spojit? Snadno:
+Kde a jak se s námi spojit? Snadno:
 
 
 ;IRC</a> on Freenode
@@ -123,15 +123,15 @@ IRC</a> na Freenode
 
 
 ;mailing-lists 1</a> &amp; <a href="http://ml.mageia.org/">2
-poštovní seznamy 1</a> &amp; <a href="http://ml.mageia.org/">2
+Poštovní seznamy 1</a> a <a href="http://ml.mageia.org/">2
 
 
 ;in real life!
-ve skutečném životě!
+Ve skutečném životě!
 
 
 ;during events!
-během událostí!
+Během událostí!
 
 
 ;Teams you can join!
@@ -196,3 +196,24 @@ Vedení
 
 ;This page needs you! <a href="https://wiki.mageia.org/en/Web_team">Join the Web team</a>!
 Tato stránka vás potřebuje! <a href="https://wiki.mageia.org/en/Web_team">Připojte se k webovému týmu</a>!
+
+;Mailing-lists
+Poštovní seznamy
+
+;http://blog.mageia.org/en/
+http://blog.mageia.org/en/
+
+;Blog
+Blog
+
+;http://planet.mageia.org/en/
+http://planet.mageia.org/en/
+
+;https://forum.mageia.org/en/
+https://forum.mageia.org/en/
+
+;http://wiki.mageia.org/
+http://wiki.mageia.org/
+
+;Mageia
+Mageia
