@@ -35,7 +35,7 @@ http://planet.mageia.org/en/ {ok}
 
 
 ;https://forum.mageia.org/en/
-https://forum.mageia.org/en/
+https://forum.mageia.org/en/ {ok}
 
 
 ;Forums
@@ -43,7 +43,7 @@ https://forum.mageia.org/en/
 
 
 ;http://wiki.mageia.org/
-http://wiki.mageia.org/
+http://wiki.mageia.org/ {ok}
 
 
 ;News
@@ -195,3 +195,6 @@ Mageia {ok}
 
 ;This page needs you! <a href="https://wiki.mageia.org/en/Web_team">Join the Web team</a>!
 Ви потрібні нашій команді! <a href="https://wiki.mageia.org/en/Web_team">Долучайтеся до вебкоманди</a>!
+
+;Mailing-lists
+Списки листування
