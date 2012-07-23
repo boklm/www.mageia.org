@@ -213,7 +213,7 @@ Mageia 2 propose tous les environnements de bureau principaux&nbsp;:
 
 # en/for-pc/index.php +45
 ;Applications &rarr;
-Applications &rarr;
+Applications &rarr; {ok}
 
 
 # en/for-pc/index.php +46
@@ -223,7 +223,7 @@ Il y a une très grande variété de choix, avec en particulier les logiciels le
 
 # en/for-pc/index.php +53
 ;Web
-Web
+Web {ok}
 
 
 # en/for-pc/index.php +54
@@ -253,7 +253,7 @@ Les deux suites bureautiques complètes LibreOffice et Calligra sont disponibles
 
 # en/for-pc/index.php +71
 ;Image
-Image
+Image {ok}
 
 
 # en/for-pc/index.php +72
@@ -283,7 +283,7 @@ Pour l'édition de fichiers vidéo, essayez Avidemux, Kino ou OpenShot&nbsp; pou
 
 # en/for-pc/index.php +89
 ;Plus
-Plus
+Plus {ok}
 
 
 # en/for-pc/index.php +90
@@ -323,7 +323,7 @@ En plus des aperçus présentés ici, vous trouverez beaucoup d'autres paquets d
 
 # en/for-server/index.php +30
 ;Administration
-Administration
+Administration {ok}
 
 
 # en/for-server/index.php +31
@@ -383,7 +383,7 @@ Vous pouvez consulter la <a href="%s">base de donnée des applications de Mageia
 
 # en/2/index.php +14
 ;Mageia 2
-Mageia 2
+Mageia 2 {ok}
 
 
 # en/2/index.php +16

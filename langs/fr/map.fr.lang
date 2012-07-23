@@ -8,12 +8,12 @@
 
 # en/map/index.php +14
 ;Mission
-Mission
+Mission {ok}
 
 
 # en/map/index.php +15
 ;Projects
-Projets
+Projets {ok}
 
 
 # en/map/index.php +16
@@ -23,7 +23,7 @@ Actualités
 
 # en/map/index.php +17
 ;Contacts
-Contacts
+Contacts {ok}
 
 
 # en/map/index.php +18
@@ -138,7 +138,7 @@ Matériel compatible
 
 # en/map/index.php +56
 ;FAQ
-FAQ
+FAQ {ok}
 
 
 # en/map/index.php +60
@@ -148,7 +148,7 @@ Communauté
 
 # en/map/index.php +63
 ;Planet
-Planet
+Planet {ok}
 
 
 # en/map/index.php +63
@@ -158,7 +158,7 @@ http://planet.mageia.org/fr/
 
 # en/map/index.php +64
 ;Blog
-Blog
+Blog {ok}
 
 
 # en/map/index.php +64
