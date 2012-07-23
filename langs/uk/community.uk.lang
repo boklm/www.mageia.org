@@ -1,17 +1,17 @@
 ;Mageia Community
-Mageia Community
+Спільнота Mageia
 
 
 ;Mageia Community Central is the place where all contributors and users can find the latest news about Mageia and learn more about what to do in the project.
-Mageia Community Central is the place where all contributors and users can find the latest news about Mageia and learn more about what to do in the project.
+Головна сторінка спільноти Mageia — місце, за допомогою якого всі учасники розробки та користувачі можуть ознайомитися з останніми новинами щодо Mageia і дізнатися більше про можливості участі у проекті.
 
 
 ;mageia, community, news, tools, tasks
-mageia, community, news, tools, tasks
+mageia, community, news, tools, tasks, спільнота, новини, інструменти, засоби, завдання
 
 
 ;Mageia Community Central
-Mageia Community Central
+Головна сторінка спільноти Mageia
 
 
 ;http://blog.mageia.org/en/
@@ -19,19 +19,19 @@ http://blog.mageia.org/uk/
 
 
 ;Blog
-Blog
+Блог
 
 
 ;http://planet.mageia.org/en/
-http://planet.mageia.org/en/
+http://planet.mageia.org/en/ {ok}
 
 
 ;Planet
-Planet
+Збірка блогів
 
 
 ;Calendar
-Calendar
+Календар
 
 
 ;https://forum.mageia.org/en/
@@ -39,7 +39,7 @@ https://forum.mageia.org/en/
 
 
 ;Forums
-Forums
+Форум
 
 
 ;http://wiki.mageia.org/
@@ -47,152 +47,151 @@ http://wiki.mageia.org/
 
 
 ;News
-News
+Новини
 
 
 ;How to contribute?
-How to contribute?
+Як взяти участь?
 
 
 ;Start here
-Start here
+Почніть з цього
 
 
 ;and meet us on <a href="http://wiki.mageia.org/en/IRC">IRC</a>.
-and meet us on <a href="http://wiki.mageia.org/en/IRC">IRC</a>.
+зв’яжіться з нами за допомогою <a href="http://wiki.mageia.org/en/IRC">IRC</a>.
 
 
 ;You can also <a href="../donate/">support financially</a> the project!
-You can also <a href="../donate/">support financially</a> the project!
+Крім того, ви можете <a href="../donate/">підтримати проект грошима</a>!
 
 
 ;Toolbox
-Toolbox
+Інструменти
 
 
 ;Wiki</a> &larr; collaborative documentation
-Wiki</a> &larr; collaborative documentation
+Вікі</a> &larr; спільна робота над документацією
 
 
 ;Bugzilla</a> &larr; to report bugs
-Bugzilla</a> &larr; to report bugs
+Bugzilla</a> &larr; для сповіщення розробників про вади
 
 
 ;Forum
-Forum
+Форум
 
 
 ;Mageia Applications Database
-Mageia Applications Database
+База даних програм Mageia
 
 
 ;For developers &amp; packagers
-For developers &amp; packagers
+Розробникам і пакувальникам
 
 
 ;Subversion
-Subversion
+Subversion {ok}
 
 
 ;Git</a> code repositories
-Git</a> code repositories
+Git</a>, сховища коду
 
 
 ;Packages submission queue
-Packages submission queue
+Черга подання пакунків
 
 
 ;unmaintained packages
-unmaintained packages
+пакунки, які ніхто не супроводжує
 
 
 ;Global QA report
-Global QA report
+Загальний звіт з якості
 
 
 ;Conversations
-Conversations
-
+Спілкування
 
 ;... or, how to get in touch with us? Easy:
-... or, how to get in touch with us? Easy:
+...або як з нами зв’язатися? Дуже просто:
 
 
 ;IRC</a> on Freenode
-IRC</a> on Freenode
+IRC</a> у Freenode
 
 
 ;mailing-lists 1</a> &amp; <a href="http://ml.mageia.org/">2
-mailing-lists 1</a> &amp; <a href="http://ml.mageia.org/">2
+список листування 1</a> і <a href="http://ml.mageia.org/">2
 
 
 ;in real life!
-in real life!
+наживо!
 
 
 ;during events!
-during events!
+під час заходів!
 
 
 ;Teams you can join!
-Teams you can join!
+Команди, до яких ви можете долучитися!
 
 
 ;Atelier
-Atelier
+Майстерня
 
 
 ;Documentation
-Documentation
+Документування
 
 
 ;Packaging
-Packaging
+Пакування
 
 
 ;Testing &amp; <abbr title="Quality Assurance">QA</abbr>
-Testing &amp; <abbr title="Quality Assurance">QA</abbr>
+Тестування та забезпечення якості
 
 
 ;Translation
-Translation
+Переклад
 
 
 ;Systems &amp; infrastructure administration
-Systems &amp; infrastructure administration
+Адміністрування систем та інфраструктури
 
 
 ;Mageia
-Mageia
+Mageia {ok}
 
 
 ;More about Mageia
-More about Mageia
+Докладніше про Mageia
 
 
 ;Our <a href="../about/code-of-conduct/">code of conduct</a> and <a href="../about/values/">values</a>
-Our <a href="../about/code-of-conduct/">code of conduct</a> and <a href="../about/values/">values</a>
+Наші <a href="../about/code-of-conduct/">правила поведінки</a> та <a href="../about/values/">визнані цінності</a>
 
 
 ;Our governance model</a> and structure:
-Our governance model</a> and structure:
+Наша модель керування</a> та структура:
 
 
 ;Teams
-Teams
+Команди
 
 
 ;the Council
-the Council
+Рада
 
 
 ;the Board
-the Board
+Правління
 
 
 ;<a href="../donate/">Donations</a> &amp; <a href="/en/about/reports/">reports</a>.
-<a href="../donate/">Donations</a> &amp; <a href="/en/about/reports/">reports</a>.
+<a href="../donate/">Пожертви</a> та <a href="/en/about/reports/">звіти щодо використання</a>.
 
 
 ;This page needs you! <a href="https://wiki.mageia.org/en/Web_team">Join the Web team</a>!
-This page needs you! <a href="https://wiki.mageia.org/en/Web_team">Join the Web team</a>!
+Ви потрібні нашій команді! <a href="https://wiki.mageia.org/en/Web_team">Долучайтеся до вебкоманди</a>!
