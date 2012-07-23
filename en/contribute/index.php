@@ -72,10 +72,10 @@ _lang_load($locale, 'contribute');
             </li>
             <li id="i18n">
                 <h3><a href="https://wiki.mageia.org/en/Internationalisation_Team_(i18n)"><?php _e('Translating')?></a></h3>
-                <p><?php _e('Translating')?></p>
+                <p><?php _e('Mageia is localized in more than 180 languages! Clarifying, completing, improving translations of software, guides, tutorials, Web sites, marketing material, etc. happens thanks to the effort of so many contributors. Join <a href="https://wiki.mageia.org/en/Internationalisation_Team_(i18n)">them</a>!')?></p>
             </li>
             <li id="triage">
-                <h3><a href="https://wiki.mageia.org/en/Bug_Squad"><?php _e('Mageia is localized in more than 180 languages! Clarifying, completing, improving translations of software, guides, tutorials, Web sites, marketing material, etc. happens thanks to the effort of so many contributors. Join <a href="https://wiki.mageia.org/en/Internationalisation_Team_(i18n)">them</a>!')?></a></h3>
+                <h3><a href="https://wiki.mageia.org/en/Bug_Squad"><?php _e('Triaging')?></a></h3>
                 <p><?php _e('Bugs happen! And some get reported. So, logically they need to be triaged to make the task of the packagers/developers fixing them easier: validation (is the bug reproducible?), collecting the needed debugging info from the reporter, assigning the report properly. <a href="https://wiki.mageia.org/en/Bug_Squad">Grow the Triage team</a> and be the link between users who report bugs in the forums or mailing-lists, and the <a href="http://bugs.mageia.org/">Mageia Bugzilla</a> used by developers.')?></p>
             </li>
             <li id="qa">
