@@ -168,7 +168,7 @@ Mageia 2 bietet Ihnen all die Dienste und Server-Pakete, die sie f&uuml;r ihren 
 
 # en/for-server/index.php +30
 ;Administration
-Administration
+Administration {ok}
 
 
 # en/for-server/index.php +34
@@ -213,7 +213,7 @@ F&uuml;r mehr Informationen zu diesen und anderen Paketen, beachten Sie die <a h
 
 # en/2/index.php +14
 ;Mageia 2
-Mageia 2
+Mageia 2 {ok}
 
 
 # en/2/index.php +16
@@ -334,7 +334,7 @@ Ton
 Um Audio-Dateien abzuspielen, w&auml;hlen sie unter Anderem aus Amarok-2.5.0 und Rhythmbox. Nutzen Sie VLC, Totem oder MPlayer f&uuml;r Video und Audio oder benutzen Sie das XBMC-Mediacenter als Ihr Home-Entertainmentsystem. Einige Pakete k&ouml;nnen sowohl in den Core- als auch in den Tainted-Repositoriesgefunden werden: Die Pakete in den Core-Repositories enthalten nur patentfreie Codecs und Pakete, die Pakete in den Tainted-Repositories unterst&uuml;tzen alle Codecs f&uuml;r Benutzer, die in L&auml;ndern leben, wo diese Codecs nicht die jeweiligen Gesetze verletzen.
 
 ;Video
-Video
+Video {ok}
 
 ;For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there's Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.
 Um Video-Dateien zu bearbeiten, nutzen Sie Avidemux, Kino oder OpenShot. F&uuml;r Untertitel haben wir Gaupol oder Subtitles-Composer. Nutzen Sie MythTV, Miro, tvtime, freetuxTV oder MeTV um Ihre Fernseh-Programme anzuschauen.

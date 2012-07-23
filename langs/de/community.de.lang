@@ -6,7 +6,7 @@ Mageia-Community
 Die Mageia-Community-Zentrale ist der Ort, an dem alle Mitwirkenden und Benutzer die neuesten Informationen über Mageia erfahren können und mehr Informationen darüber erhalten können, wie man im Projekt mithelfen kann.
 
 ;mageia, community, news, tools, tasks
-mageia, community, news, tools, tasks
+mageia, community, neuigkeiten, werkzeuge, aufgaben
 
 
 ;Mageia Community Central
@@ -18,7 +18,7 @@ http://blog.mageia.org/de/
 
 
 ;Blog
-Blog
+Blog {ok}
 
 
 ;http://planet.mageia.org/en/
@@ -26,7 +26,7 @@ http://planet.mageia.org/de/
 
 
 ;Planet
-Planet
+Planet {ok}
 
 
 ;Calendar
@@ -78,7 +78,7 @@ Bugzilla</a> &larr; berichten Sie Fehler
 
 
 ;Forum
-Forum
+Forum {ok}
 
 
 ;Mageia Applications Database
@@ -90,7 +90,7 @@ Für Entwickler &amp; Paketbauer
 
 
 ;Subversion
-Subversion
+Subversion {ok}
 
 
 ;Git</a> code repositories
@@ -162,7 +162,7 @@ System- &amp; Infrastruktur-Verwaltung
 
 
 ;Mageia
-Mageia
+Mageia {ok}
 
 
 ;More about Mageia
@@ -178,7 +178,7 @@ Unser Führungsmodell</a> und unsere Struktur:
 
 
 ;Teams
-Teams
+Teams {ok}
 
 
 ;the Council

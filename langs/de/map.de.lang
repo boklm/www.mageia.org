@@ -8,7 +8,7 @@
 
 # en/map/index.php +14
 ;Mission
-Mission
+Ziel
 
 
 # en/map/index.php +15
@@ -38,17 +38,17 @@ Leitung
 
 # en/map/index.php +21
 ;Board
-Board
+Board {ok}
 
 
 # en/map/index.php +22
 ;Council
-Council
+Council {ok}
 
 
 # en/map/index.php +23
 ;Teams
-Teams
+Teams {ok}
 
 
 # en/map/index.php +26
@@ -83,7 +83,7 @@ Zeitleiste
 
 # en/map/index.php +39
 ;Downloads
-Downloads
+Downloads {ok}
 
 
 # en/map/index.php +42
@@ -133,27 +133,27 @@ Kompatible Hardware
 
 # en/map/index.php +56
 ;FAQ
-FAQ
+FAQ {ok}
 
 
 # en/map/index.php +60
 ;Community
-Community
+Community {ok}
 
 
 # en/map/index.php +63
 ;Planet
-Planet
+Planet {ok}
 
 
 # en/map/index.php +63
 ;http://planet.mageia.org/en/
-http://planet.mageia.org/en/
+http://planet.mageia.org/de/
 
 
 # en/map/index.php +64
 ;Blog
-Blog
+Blog {ok}
 
 
 # en/map/index.php +64
@@ -213,7 +213,7 @@ Privatsphären-Regeln
 
 # en/map/index.php +123
 ;Mageia.org site map
-Mageia.org Sitemap
+Mageia.org-Sitemap
 
 
 # en/map/index.php +124

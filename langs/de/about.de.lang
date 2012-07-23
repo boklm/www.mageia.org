@@ -13,7 +13,7 @@ Mageia ist ein Community-geführtes OpenSource-Projekt. Lernen Sie mehr darüber
 
 # /en/about/index.php +14
 ;mageia, mageia.org, about, mission, contacts, governance, values, timeline
-mageia, mageia.org, about, mission, contacts, governance, values, timeline
+mageia, mageia.org, über, ziel, kontakte, führung, werte, timeline
 
 
 # /en/about/index.php +34
@@ -73,7 +73,7 @@ ist die französische, in Paris ansässige Rechtsstruktur, die das Mageia-Projek
 
 # /en/about/index.php +78
 ;Media &amp; artwork
-Media &amp; artwork
+Media &amp; artwork {ok}
 
 
 # /en/about/index.php +80
