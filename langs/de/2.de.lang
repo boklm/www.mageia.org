@@ -53,7 +53,7 @@ Beachten Sie die vollst&auml;ndige Liste
 
 # en/2/download_index.php +71
 ;These DVD and CD ISOs are made of Free Software exclusively.
-Diese DVD- und CD-ISO-Abbilder enthalte nur freie Software.
+Diese DVD- und CD-ISO-Abbilder enthalten nur freie Software.
 
 
 # en/2/download_index.php +72
@@ -253,12 +253,12 @@ Mageia 2 wurde von mehr als 100 Leuten auf der ganzen Welt erstellt.
 
 # en/2/index.php +49
 ;Our work adds to the excellent work of the wider Linux and Free Software community. We aim to bring one of the best, most stable, reliable and enjoyable experience and platform we can make; for regular users, developers and businesses.
-Unsere Arbeit tr&auml;gt zu der exzellenten Arbeit der gro&szlig;en Linux- und OpenSource-Community bei. Wir streben an, eine der besten und stabilsten und zuverl&auml;ssigsten und f&uuml;r den Benutzer angenehmsten Erfahrung und Plattform, die wir bieten k&ouml;nnen, anzubieten: f&uuml;r den normalen Benutzer, den Entwickler und Unternehmen.
+,Unsere Arbeit tr&auml;gt zu der exzellenten Arbeit der gro&szlig;en Linux- und OpenSource-Community bei. Wir sind bestrebt, eine der besten. stabilsten und zuverl&auml;ssigsten Plattformen anzubieten, die f&uuml;r den Benutzer, den Entwickler und f&uuml;r Unternehmen die angenehmste Erfahrung mitbringt.
 
 
 # en/2/index.php +51
 ;We welcome new contributors to any of the many different teams that go to make up Mageia the Community, and we encourage you to join us.
-We hei&szlig;en neue Mitstreiter in jedem der vielen verschiedenen Teams willkommen, die zusammen das Mageia-Projekt darstellen und wir ermutigen Sie, sich uns anzuschlie&szlig;en.
+Wir hei&szlig;en neue Mitstreiter in jedem der vielen verschiedenen Teams, die zusammen das Mageia-Projekt darstellen, willkommen und wir ermutigen Sie, sich uns anzuschlie&szlig;en.
 
 ;What's new?
 Was ist neu?
@@ -283,10 +283,10 @@ Viel
 Wir haben 19.881&nbsp;Pakete in unseren Repositories. Und das ist nur die Zahl f&uuml;r den 64-Bit-Zweig.
 
 ;The total number is double that &ndash; and then if you consider the backports, and the packages in the Cauldron still testing... you'll see that Mageia users are spoiled for choice.
-Die Gesamtanzahl ist das doppelte hiervon &ndash; und wenn Sie die Backports und die Pakete, die im Entwicklerzweig Cauldron noch getestet werden mit einbeziehen... Sie sehen, dass Mageia-Benutzer durch Vielfalt verw&ouml;hnt werden.
+Die Gesamtanzahl ist das Doppelte hiervon &ndash; und wenn Sie die Backports und die Pakete, die im Entwicklerzweig Cauldron noch getestet werden mit einbeziehen... Sie sehen, dass Mageia-Benutzer durch Vielfalt verw&ouml;hnt werden.
 
 ;Here's a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:
-Here's a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:
+Hier ist ein Querschnitt, zuerst der grafischen Arbeitsumgebungen und dann von den Kern-Anwendungen, welche  Sie auf Ihrem Desktop anwenden könnten.
 
 ;Environments
 Umgebungen
@@ -355,7 +355,7 @@ Sie k&ouml;nnen einen Blick auf die <a href="%s">Mageia-Anwendungsdatenbank</a> 
 mageia2, f&uuml;r Ihren Server
 
 ;Aside from the cross-section included here, you will find many others in the repositories: you can use rpmdrake to search for packages, or check the <a href="%s">Mageia App DB</a>.
-Aside from the cross-section included here, you will find many others in the repositories: you can use rpmdrake to search for packages, or check the <a href="%s">Mageia App DB</a>.
+Neben den in diesem Querschnitt enthaltenen Anwendungen, werden Sie viele weitere in den Quellen finden: Sie können rpmdrake verwenden, um nach Paketen zu suchen, oder prüfen Sie die <a href="%s">Mageia-Anwendungs-Datenbank</ a>.
 
 ;For centralised administration, we include puppet 2.7.11; we use it widely in <a href="%s">our own infrastructure</a>.
 F&uuml;r zentralisierte Administration bieten wir Ihnen Puppet-2.7.11. Wir benutzen es selbst an vielen Stellen <a href="%s">unserer Infrastruktur</a>.
