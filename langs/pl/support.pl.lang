@@ -42,12 +42,12 @@ Aktualizacje
 
 
 ;Updates are available for %s and %s (security and bug fixes) and published on an ongoing basis.
-Aktualizacje są dostępne zarówno dla %s i %s (bezpieczeństwo i poprawki błędów) i są publikowane na bieżąco.
+Aktualizacje są dostępne zarówno dla %s i %s (bezpieczeństwo i poprawki błędów). Są publikowane na bieżąco.
 
 
 
 ;You may subscribe to our %s announce list to be notified of these.
-Możesz zapisać się na naszą listę ogłoszeniową %s by być poinformowanym.
+Możesz zapisać się na naszą listę ogłoszeniową %s by być na czasie.
 
 
 
@@ -57,7 +57,7 @@ Możesz zainstalować je z użyciem Mageia Control Center.
 
 
 ;If you need help, information or directions about the Mageia distribution you installed or about the project, you can try to reach us through:
-Jeśli potrzebujesz pomocy, informacji lub pouczenia o zainstalowanej dystrybucji Mageia lub o projekcie, możesz spróbować dotrzeć do nas przez:
+Jeśli potrzebujesz pomocy, informacji lub porady o zainstalowanej dystrybucji Mageia lub o projekcie, możesz spróbować dotrzeć do nas przez:
 
 
 
@@ -77,7 +77,7 @@ nasze <a href="https://wiki.mageia.org/en/">Wiki</a> (na ten czas wersja wstępn
 
 
 ;our <a href="http://www.mageia.org/mailman/" hreflang="en">mailing-lists</a>;
-nasza <a href="http://www.mageia.org/mailman/" hreflang="en">lista mailingowa</a>;
+naszą <a href="http://www.mageia.org/mailman/" hreflang="en">listę mailingową</a>;
 
 
 
@@ -87,12 +87,12 @@ lokalne wydarzenia: na naszym <a href="http://blog.mageia.org/en/">blogu</a> i <
 
 
 ;Mageia.Org does not provide or endorse commercial/professional support or other services around the distribution. But there are organizations providing such services and more.
-Mageia.Org nie dostarcza lub udziela komercyjnego/profesjonalnego wsparcia lub innych usług w całej dystrybucji. Są jednak organizacje dostarczające takich usług i wiele więcej.
+Mageia.Org nie dostarcza ani nie udziela komercyjnego/profesjonalnego wsparcia lub innych usług w całej dystrybucji. Są jednak organizacje dostarczające takich i innych usług.
 
 
 
 ;Please check the <a href="%s">commercial vendors</a> list
-Sprawdź <a href="%s">komercyjnych sprzedawców</a> list.
+Sprawdź listę <a href="%s">komercyjnych sprzedawców</a>.
 
 
 
@@ -102,7 +102,7 @@ Oprogramowanie Mageia współpracuje na większości komputerów klasy x86 dost�
 
 
 ;You can follow this hardware requirements list:
-Możesz śledzić tę listę wymagań sprzętowych:
+Listę wymagań sprzętowych jest następująca:
 
 
 
@@ -137,15 +137,16 @@ Karta dźwiękowa: dowolna karta dźwiękowa zgodna z AC97, HDA lub Sound Blaste
 
 
 ;For some kinds of hardware (Wi-Fi chipsets, 3D graphic cards) to work properly, specific firmware or software may be needed, this is available in a specific online repository called "nonfree" (learn more).
-Dla niektórych typów sprzętu (chipsety Wi-Fi, karty graficzne 3D) do prawidłowej pracy potrzebują specyficznego firmware'u lub oprogramowania, które jest dostępne w repozytorium zwanym "nonfree" (dowiedz się więcej).
+Niektóre typy sprzętu tj. chipsety Wi-Fi, karty graficzne 3D do prawidłowej pracy potrzebują specyficznego firmware'u lub oprogramowania, który jest dostępny w repozytorium zwanym "nonfree" (dowiedz się więcej).
 
 
 
 ;We may set up a hardware compatibility list/directory as well as a hardware certification process; but that's still at the planning stage. Feel free to join/contact our <a href="%s">Web</a> and <a href="%s">QA</a> teams if you would like to help in this regard.
-Możemy stworzyć listę/katalog zgodności sprzętu jak również proces certyfikacji sprzętu; ale to jest dalej w planach. Zapraszamy do przyłączenia się/kontaktu przez naszą <a href="%s">stronę www</a> i grupą <a href="%s">QA</a> jeśli potrzebujesz pomocy z tym związanej.
+Chcemy stworzyć listę/katalog zgodności sprzętu jak również proces certyfikacji sprzętu; ale to jest dalej w planach. Zapraszamy do przyłączenia się/kontaktu przez naszą <a href="%s">stronę www</a> i grupą <a href="%s">QA</a> jeśli potrzebujesz pomocy z tym związanej.
+
 
 ;You may check and report bugs on <a href="%s">our Bugzilla (bugs.mageia.org)</a>.
-Możesz sprawdzić i raportować błędy na <a href="%s">naszej Bugzilli (bugs.mageia.org)</a>.
+Możesz przeglądać i raportować błędy na <a href="%s">naszej Bugzilli (bugs.mageia.org)</a>.
 
 
 ;Bugs Reports
@@ -161,7 +162,7 @@ Czas życia produktu
 
 
 ;Mageia releases are supported at least for 18 months.
-Wydanie Magei będzie miało wsparcie techniczne przez co najmniej 18 miesięcy.
+Wydania Magei będą wspierane techniczne przez co najmniej 18 miesięcy.
 
 
 ;Mageia 1 will be supported until December 2012.

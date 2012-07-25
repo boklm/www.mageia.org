@@ -38,7 +38,7 @@ odnośnik
 
 # en/2/download_index.php +65
 ;Up to 167 locales are supported:
-Wspierane aż 167 lokalizacji:
+Wsparcie aż dla 167 lokalizacji:
 
 
 # en/2/download_index.php +68
@@ -63,7 +63,7 @@ Konsekwencją tego jest <span class="warn">brak na płycie własnościowych ster
 
 # en/2/download_index.php +73
 ;If you need WiFi or specific video drivers <em>at install time</em>, you should go with below LiveCDs instead.</span>
-Jeśli potrzebujesz określonego sterownika karty graficznej lub Wi-Fi <em>podczas instalacji</em>, powinieneś użyć do instalacji płyty LiveCD.</span>
+Jeśli potrzebujesz określonego sterownika karty graficznej lub Wi-Fi <em>podczas instalacji</em>, powinieneś skorzystać z płyty LiveCD.</span>
 
 
 # en/2/download_index.php +74
@@ -83,7 +83,7 @@ Zobacz erratę na ten temat
 
 # en/2/download_index.php +86
 ;Use LiveCDs for fresh new installs ONLY.
-Wersje LiveCD użyj TYLKO do nowej instalacji systemu.
+Wersji LiveCD użyj TYLKO do czystej instalacji systemu.
 
 
 # en/2/download_index.php +87
@@ -123,7 +123,7 @@ CD wyłącznie z Wolnym Oprogramowaniem
 
 # en/2/download_index.php +184
 ;Same + nonfree firmware
-Takie same + nonfree firmware
+Wolne Oprogramowanie + nonfree firmware
 
 
 # en/2/download_index.php +185
@@ -298,7 +298,7 @@ Więcej informacji o tych i innych pakietach znajdziesz <a href="%s">Informacji 
 
 # en/for-pc/index.php +96
 ;You can take a look at the <a href="%s">Mageia Application Database</a> to get a more complete list of Mageia packages.
-Można przyjrzeć się <a href="%s">Aplikacjom Bazodanowym Mageia</a> aby uzyskać pełną listę pakietów Mageia.
+Można przyjrzeć się <a href="%s">Bazie Danych Aplikacji Mageia</a> aby uzyskać pełną listę pakietów Mageia.
 
 
 # en/for-server/index.php +12
@@ -338,7 +338,7 @@ Bazy danych zawierają PostgreSQL 8.4.11; MariaDB, który jest zamiennikiem MySQ
 
 # en/for-server/index.php +38
 ;And there are NoSQL servers too: CouchDB 1.1.1, Redis 2.4.8, Cassandra 1.4.0, MongoDB 2.0.3.
-Są także serwery NoSQL: CouchDB 1.1.1, Redis 2.4.8, Cassandra 1.4.0, MongoDB 2.0.3.
+Są także serwery NoSQL: CouchDB 1.1.1, Redis 2.4.8, Cassandra 1.4.0 i MongoDB 2.0.3.
 
 
 # en/for-server/index.php +40
