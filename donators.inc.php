@@ -340,9 +340,26 @@ $donators = array(
     'Jose Luis Nunez Crespi',
     'Urs Menet',
     'Liu Pow San',
-    'Jurij Galickij'
+    'Jurij Galickij',
+    'Jean Christophe Lluch',
+    'Richard Crosby',
+    'Giuseppe Juri Facchinetti',
+    'Adrien Guichard',
+    'Luis Chee Espinoza',
+    'Ivar Øines',
+    'Dirk Mrosek',
+    'Stephen Adrian',
+    'OSWALD UND ADOLFINE KROP',
+    'KINDL, TOMAS, JUDR.',
+    'LYONESS EUROPE AG',
+    'MME NOOT & NEE HUYGHE'
 );
-#uptodate: paypal, check, cash - Mon May 14 12:07:50 CEST 2012
+/* Last updated:
+   Paypal: July, 26
+   Bank: July, 26
+   Check:
+   Cash:
+*/
 
 //$html .= '<img src="/g/images/mageia_0.svg" style="position: absolute; top: 180px; width: 300px; opacity: 0.2;" />';
 
