@@ -1,10 +1,7 @@
 <?php
 define('HLANG', true);
-
 require '../../langs.php';
-include 'locales.php';
-
-$_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
+_lang_load($locale, 'donate');
 
 ?><!DOCTYPE html>
 <html dir="ltr" lang="<?php echo $locale; ?>">
@@ -66,17 +63,22 @@ $_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
     </div>
     <div class="para whydonate">
         <h2 id="why"><?php _e('Why donate?'); ?></h2>
-        <p><?php _e('why_donate_txt')?></p>
-        <ul><?php foreach (_t('why_donate_items') as $e)
-            echo sprintf('<li>%s</li>', $e);
-            ?>
+        <p><?php _e('Mageia.Org is a not-for-profit association to manage the Mageia distribution. As a not-for-profit association, it can receive donations from the community to help in a lot of differents fields:')?></p>
+        <ul>
+            <li><?php _e('hardware and hosting for servers;')?></li>
+            <li><?php _e('domain names;')?></li>
+            <li><?php _e('registrations of Mageia trademark;')?></li>
+            <li><?php _e('goodies for spreading Mageia;')?></li>
+            <li><?php _e('administrative expenses;')?></li>
+            <li><?php _e('eventually, legal counsel and')?></li>
+            <li><?php _e('etc.')?></li>
         </ul>
     </div>
     <div class="para track">
     <h2 id="status"><?php _e('How to track donation?')?></h2>
-    <p><?php echo sprintf(_t('how_to_track_txt'),
+    <p><?php echo sprintf(_t('Currently, we received a lot of generous donations (%s, remains %s) thanks to all of our <a href="/en/thank-you/">donors</a>!'),
         $g_donate_amount, $g_amount_remain);?></p>
-    <p><?php echo sprintf(_t('how_to_track_txt2'), '/en/about/reports/' . date('Y') . '/')?></p>
+    <p><?php echo sprintf(_t('We believe public accountability is crucial. You can know more about how are used the funds received by reading our <a href="%s">financial reports</a>.'), '/en/about/reports/' . date('Y') . '/')?></p>
 
     <hr />
 <!--
