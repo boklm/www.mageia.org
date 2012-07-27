@@ -12,6 +12,7 @@ _lang_load($locale, 'donate');
     <meta name="keywords" content="<?php _e('mageia, donate, donation, donors, help'); ?>">
     <meta name="author" content="Mageia">
     <link rel="stylesheet" type="text/css" href="/g/style/all.css">
+    <link rel="canonical" href="/<?php echo $locale; ?>/donate/">
     <?php include '../../analytics.php'; ?>
     <style>
     .para { text-align: left; float: left; width: 400px; display: block; }
