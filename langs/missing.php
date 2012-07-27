@@ -34,7 +34,7 @@ include 'lib.php';
             <li>or attach it to a mail to Mageia i18n team (<code>mageia-i18n</code>, <a href="irc://irc.freenode.net/#mageia-i18n">#mageia-i18n</a> on Freenode).</li>
         </ul>
     </li>
-    <li>You can look to the translation guide on the Wiki too [TODO link].</li>
+    <li>You can look to the translation guide on the <a href="https://wiki.mageia.org/en/Internationalisation_Team_(i18n)#Website_translation">i18n Web Wiki</a> too.</li>
 </ol>
 
 <p>Thanks!</p>
