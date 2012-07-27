@@ -8,24 +8,8 @@ Mageia Spenden-Kampagne
 Warum spenden?
 
 
-;Donation Tracks
-Suivi des dons
-
-
-;Donate
-Faire un don
-
-
-;Thank you!
-Merci&nbsp;!
-
-
-;PayPal, bank, check
-PayPal, virement bancaire, chèque
-
-
 ;Mageia.Org is a not-for-profit association to manage the Mageia distribution. As a not-for-profit association, it can receive donations from the community to help in a lot of differents fields:
-Mageia.Org ist eine nicht am Gewinn orientierte Organisation,             welche die Distribution Mageia verwaltet. Als solche kann sie             Spenden aus der Community entgegennehmen, die Mageia in vielen             verschiedenen Bereichen unterstützen:
+Mageia.Org ist eine Non-Profit-Organisation, welche die Distribution Mageia verwaltet. Als solche kann sie Spenden aus der Community entgegennehmen, die Mageia in vielen verschiedenen Bereichen unterstützen:
 
 
 ;hardware and hosting for servers;
@@ -115,3 +99,6 @@ bitte benutzen Sie € als Währung, denn Umrechnungskosten gehen zu Lasten von 
 ;if you want to do an anonymous donation, please add a comment.
 falls Sie anonym spenden wollen, so fügen Sie bitte Ihrer Spende einen Hinweis bei.
 
+# manuell eingetragen von report.php
+;mageia, donate, donation, donors, help
+mageia, spenden, spende, spender, hilfe, unterstützung
