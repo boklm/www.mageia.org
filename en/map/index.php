@@ -12,8 +12,8 @@ $map = array(
             array('t' => _t('Mission'),    'l' => '/{L}/about/'),
             array('t' => _t('Projects'),   'l' => ''),
             array('t' => _t('News'),       'l' => 'http://blog.mageia.org/'),
-            array('t' => _t('Contacts'),   'l' => '/en/contact/'),
-            array('t' => _t('Supporters'), 'l' => '/en/thank-you/'),
+            array('t' => _t('Contacts'),   'l' => '/{L}/contact/'),
+            array('t' => _t('Supporters'), 'l' => '/{L}/thank-you/'),
             array('t' => _t('Governance'), 'l' => 'https://wiki.mageia.org/en/Org',
                 'i' => array(
                     array('t' => _t('Board'),   'l' => 'https://wiki.mageia.org/en/Org_Board'),
@@ -25,12 +25,12 @@ $map = array(
             array('t' => _t('Code of conduct'), 'l' => '/{L}/about/code-of-conduct/'),
             array('t' => 'Mageia.Org',          'l' => '/{L}/about/',
                 'i' => array(
-                    array('t' => _t('Constitution'), 'l' => '/en/about/constitution/'),
+                    array('t' => _t('Constitution'), 'l' => '/{L}/about/constitution/'),
                     array('t' => _t('Members'),      'l' => ''),
-                    array('t' => _t('Reports'),      'l' => '/en/about/reports/')
+                    array('t' => _t('Reports'),      'l' => '/{L}/about/reports/')
                 )
             ),
-            array('t' => _t('Timeline'), 'l' => '/en/timeline/')
+            array('t' => _t('Timeline'), 'l' => '/{L}/timeline/')
         )
     ),
     'downloads' => array(

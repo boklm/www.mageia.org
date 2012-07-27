@@ -77,8 +77,8 @@ _lang_load($locale, "about");
                 <hr>
                 <?php _h('Media &amp; artwork', null, 'h3')?>
                 <ul><?php
-                    _h('<a href="%s">Logo, CD covers files, media files</a>.', array('/en/about/media/'), 'li');
-                    _h('<a href="%s">Current graphics charter</a>.', array('/en/charter.html'), 'li');
+                    _h('<a href="%s">Logo, CD covers files, media files</a>.', array('../about/media/'), 'li');
+                    _h('<a href="%s">Current graphics charter</a>.', array('../charter.html'), 'li');
                 ?></ul>
 
             </div></div>
