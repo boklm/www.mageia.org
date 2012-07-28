@@ -60,8 +60,8 @@ Mageia.Org это некоммерческая организация, зани�
 Как отследить ваши взносы?
 
 
-;Currently, we received a lot of generous donations (%s, remains %s) thanks to all of our <a href="/en/thank-you/">donors</a>!
-В настоящее время мы получили %s, спасибо всем нашим <a href="/en/thank-you/">спонсорам</a>!
+;Currently, we received a lot of generous donations (%s, remains %s) thanks to all of our <a href="../thank-you/">donors</a>!
+В настоящее время мы получили %s, спасибо всем нашим <a href="../thank-you/">спонсорам</a>!
 
 
 ;We believe public accountability is crucial. You can know more about how are used the funds received by reading our <a href="%s">financial reports</a>.

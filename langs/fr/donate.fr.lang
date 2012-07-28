@@ -60,8 +60,8 @@ etc.
 Comment suivre les dons&nbsp;?
 
 
-;Currently, we received a lot of generous donations (%s, remains %s) thanks to all of our <a href="/en/thank-you/">donors</a>!
-Actuellement, nous avons reçu %s (dont restent %s à ce jour) grâce à tous nos <a href="/en/thank-you/" hreflang="en">donateurs</a>&nbsp;!
+;Currently, we received a lot of generous donations (%s, remains %s) thanks to all of our <a href="../thank-you/">donors</a>!
+Actuellement, nous avons reçu %s (dont restent %s à ce jour) grâce à tous nos <a href="../thank-you/" hreflang="en">donateurs</a>&nbsp;!
 
 
 ;We believe public accountability is crucial. You can know more about how are used the funds received by reading our <a href="%s">financial reports</a>.

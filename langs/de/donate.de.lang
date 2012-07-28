@@ -44,8 +44,8 @@ weiteres
 Wo gibt es eine Spendenübersicht?
 
 
-;Currently, we received a lot of generous donations (%s, remains %s) thanks to all of our <a href="/en/thank-you/">donors</a>!
-Dank all <a href="/en/thank-you/">unserer</a> Spender verfügen wir derzeit über eine Summe von %s!
+;Currently, we received a lot of generous donations (%s, remains %s) thanks to all of our <a href="../thank-you/">donors</a>!
+Dank all <a href="../thank-you/">unserer</a> Spender verfügen wir derzeit über eine Summe von %s!
 
 
 ;We believe public accountability is crucial. You can know more about how are used the funds received by reading our <a href="%s">financial reports</a>.

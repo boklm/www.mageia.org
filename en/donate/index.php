@@ -77,7 +77,7 @@ _lang_load($locale, 'donate');
     </div>
     <div class="para track">
     <h2 id="status"><?php _e('How to track donation?')?></h2>
-    <p><?php echo sprintf(_t('Currently, we received a lot of generous donations (%s, remains %s) thanks to all of our <a href="/en/thank-you/">donors</a>!'),
+    <p><?php echo sprintf(_t('Currently, we received a lot of generous donations (%s, remains %s) thanks to all of our <a href="../thank-you/">donors</a>!'),
         $g_donate_amount, $g_amount_remain);?></p>
     <p><?php echo sprintf(_t('We believe public accountability is crucial. You can know more about how are used the funds received by reading our <a href="%s">financial reports</a>.'), '../about/reports/' . date('Y') . '/')?></p>
 
