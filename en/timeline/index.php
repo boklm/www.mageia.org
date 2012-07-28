@@ -86,7 +86,7 @@ _lang_load($locale, 'timeline');
                         <li class="tlim">
                             <h3><?php _e('September')?></h3>
                             <ul class="hl">
-                                <li class="tlie"><?php _e('Mageia starts as a <a href="/en/about/2010-sept-announcement.html">fork of Mandriva Linux</a>.')?></li>
+                                <li class="tlie"><?php _e('Mageia starts as a <a href="../about/2010-sept-announcement.html">fork of Mandriva Linux</a>.')?></li>
                                 <li class="tlie"><?php _e('Mageia.Org is registered in Paris, France.')?></li>
                             </ul>
                         </li>
