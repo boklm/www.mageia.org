@@ -316,9 +316,19 @@ para su servidor
 Mageia 2 tiene todos los principales servicios y paquetes de servidor que necesitará para correr su servidor.
 
 
+# en/for-server/index.php +27
+;Aside from the cross-section included here, you will find many others in the repositories: you can use rpmdrake to search for packages, or check the <a href="%s">Mageia App DB</a>.
+Además de la variedad incluida aquí, puede encontrar muchas otras en los repositorios: puede usar rpmdrake para buscar paquetes, o revisar la <a href="%s">Base de datos de aplicaciones de Mageia</a>.
+
+
 # en/for-server/index.php +30
 ;Administration
 Administración
+
+
+# en/for-server/index.php +31
+;For centralised administration, we include puppet 2.7.11; we use it widely in <a href="%s">our own infrastructure</a>.
+Para administración centralizada, incluimos pupper 2.7.11; nosotros lo usamos ampliamente en <a href="%s">nuestra propia infraestructura</a>.
 
 
 # en/for-server/index.php +34
@@ -368,7 +378,7 @@ Para más información sobre estos y otros paquetes, revise las <a href="https:/
 
 # en/2/index.php +14
 ;Mageia 2
-Mageia 2
+Mageia 2 
 
 
 # en/2/index.php +16
