@@ -22,7 +22,7 @@ _lang_load($locale, 'contribute');
     <h1 id="mgnavtitle"><?php _e('Contribute to Mageia')?></h1>
     <div style="width: 1000px; text-align: left; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd;">
         <div class="para" style="padding-top: 2em;">
-            <p><?php _e('Many people from all over the world gather to build Mageia &ndash; a Linux-based operating system <em>and</em> a <a href="/en/about/code-of-conduct/">lively, fun community</a> for <a href="/en/about/values/">building Free Software projects</a>.')?></p>
+            <p><?php _e('Many people from all over the world gather to build Mageia &ndash; a Linux-based operating system <em>and</em> a <a href="../about/code-of-conduct/">lively, fun community</a> for <a href="../about/values/">building Free Software projects</a>.')?></p>
             <p><?php _e('Contributing is open to anyone, this is Free Software! If you are curious and willing to join, there are things you can do, depending on your time and skills; you will always find someone to welcome and help/mentor you if needed so that your contribution to the project can be as good as it can be!')?></p>
             <p><?php _e('Check what you could do below!')?></p>
         </div>
@@ -38,7 +38,7 @@ _lang_load($locale, 'contribute');
                         <li><?php _e('Stop by the <a href="http://forums.mageia.org/">forums</a> support section and check if you can answer a question.')?></li>
                         <li><?php _e('Talk about the project to people around you, on your blog, your Twitter account, at your work place.')?></li>
                         <li><?php _e('If you encounter a bug you can reproduce consistently, <a href="http://bugs.mageia.org/">submit a bug report</a>.')?></li>
-                        <li><?php _e('Make a <a href="/en/donate/">donation</a>!')?></li>
+                        <li><?php _e('Make a <a href="../donate/">donation</a>!')?></li>
                     </ul>
                 </li>
                 <li>
@@ -103,8 +103,8 @@ _lang_load($locale, 'contribute');
                 <p><?php _e('Making all the software provided by Mageia available requires <a href="http://mirrors.mageia.org/">several mirrors around the world</a>, to distribute ISO\'s and software packages. If you have some disk space and bandwidth to share, please <a href="https://wiki.mageia.org/en/Mirrors_policy#How_to_.28become_a.29_mirror.3F">see how you can provide an official Mageia mirror</a>.')?></p>
             </li>
             <li id="donation">
-                <h3><a href="/en/donate/"><?php _e('Donating')?></a></h3>
-                <p><?php _e('Financial donations help us allocate specific tasks, secure our infrastructure, fund events, goodies &amp; transportation. <a href="/en/thank-you/">200+ persons already expressed their trust in us</a> with their money, hardware or other resources. We keep a <a href="/en/about/reports/">public record of what we get and how we use it</a>.')?></p>
+                <h3><a href="../donate/"><?php _e('Donating')?></a></h3>
+                <p><?php _e('Financial donations help us allocate specific tasks, secure our infrastructure, fund events, goodies &amp; transportation. <a href="../thank-you/">200+ persons already expressed their trust in us</a> with their money, hardware or other resources. We keep a <a href="../about/reports/">public record of what we get and how we use it</a>.')?></p>
             </li>
             <hr>
             <li id="data">
