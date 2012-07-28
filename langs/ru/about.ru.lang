@@ -67,8 +67,8 @@ Mageia - основанная на GNU/Linux, свободная операци�
 
 
 # /en/about/index.php +74
-;<a href="/en/about/reports/">financial reports</a>, <a href="/en/thank-you/">donators</a>.
-<a href="/en/about/reports/">финансовые отчеты</a>, <a href="/en/thank-you/">пожертвования</a>.
+;<a href="../about/reports/">financial reports</a>, <a href="../thank-you/">donators</a>.
+<a href="../about/reports/">финансовые отчеты</a>, <a href="../thank-you/">пожертвования</a>.
 
 
 # /en/about/index.php +78

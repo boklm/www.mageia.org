@@ -67,8 +67,8 @@ Mageia 大事记：
 
 
 # /en/about/index.php +74
-;<a href="/en/about/reports/">financial reports</a>, <a href="/en/thank-you/">donators</a>.
-<a href="/en/about/reports/">财务报告</a>，<a href="/en/thank-you/">资助者</a>。
+;<a href="../about/reports/">financial reports</a>, <a href="../thank-you/">donators</a>.
+<a href="../about/reports/">财务报告</a>，<a href="../thank-you/">资助者</a>。
 
 
 # /en/about/index.php +78

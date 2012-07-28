@@ -72,8 +72,8 @@ Mageia є операційною системою з відкритим кодо
 
 
 # /en/about/index.php +74
-;<a href="/en/about/reports/">financial reports</a>, <a href="/en/thank-you/">donators</a>.
-<a href="/en/about/reports/">фінансові звіти</a>, <a href="/en/thank-you/">список спонсорів</a>.
+;<a href="../about/reports/">financial reports</a>, <a href="../thank-you/">donators</a>.
+<a href="../about/reports/">фінансові звіти</a>, <a href="../thank-you/">список спонсорів</a>.
 
 
 # /en/about/index.php +78

@@ -70,8 +70,8 @@ on Prantsusmaal Pariisis tegutsev juriidiline isik, mis toetab Mageia projekti.
 
 
 # /en/about/index.php +74
-;<a href="/en/about/reports/">financial reports</a>, <a href="/en/thank-you/">donators</a>.
-<a href="/en/about/reports/">finantsaruanded</a>, <a href="/en/thank-you/">annetajad</a>.
+;<a href="../about/reports/">financial reports</a>, <a href="../thank-you/">donators</a>.
+<a href="../about/reports/">finantsaruanded</a>, <a href="../thank-you/">annetajad</a>.
 
 
 # /en/about/index.php +78

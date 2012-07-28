@@ -71,7 +71,7 @@ _lang_load($locale, "about");
                 <ul><?php
                     _h("<a href=%s>Mageia.Org's legal constitution</a> and <a href=%s>governance</a> rules;",
                         array('"./constitution/"', '"https://wiki.mageia.org/en/Org"'), 'li');
-                    _h('<a href="/en/about/reports/">financial reports</a>, <a href="/en/thank-you/">donators</a>.', null, 'li');
+                    _h('<a href="../about/reports/">financial reports</a>, <a href="../thank-you/">donators</a>.', null, 'li');
                 ?></ul>
 
                 <hr>

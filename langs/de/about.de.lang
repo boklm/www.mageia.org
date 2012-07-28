@@ -67,8 +67,8 @@ ist die französische, in Paris ansässige Rechtsstruktur, die das Mageia-Projek
 
 
 # /en/about/index.php +74
-;<a href="/en/about/reports/">financial reports</a>, <a href="/en/thank-you/">donators</a>.
-<a href="/en/about/reports/">Finanz-Bericht</a>, <a href="/en/thank-you/">Spender</a>.
+;<a href="../about/reports/">financial reports</a>, <a href="../thank-you/">donators</a>.
+<a href="../about/reports/">Finanz-Bericht</a>, <a href="../thank-you/">Spender</a>.
 
 
 # /en/about/index.php +78

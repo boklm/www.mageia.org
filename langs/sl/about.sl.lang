@@ -77,8 +77,8 @@ je francoska pravna entiteta v Parizu, ki podpira projekt Mageia.
 
 
 # /en/about/index.php +74
-;<a href="/en/about/reports/">financial reports</a>, <a href="/en/thank-you/">donators</a>.
-<a href="/sl/about/reports/">finančna poročila</a>, <a href="/sl/thank-you/">donatorji</a>.
+;<a href="../about/reports/">financial reports</a>, <a href="../thank-you/">donators</a>.
+<a href="../about/reports/">finančna poročila</a>, <a href="../thank-you/">donatorji</a>.
 
 
 # /en/about/index.php +78

@@ -67,8 +67,8 @@ je francouzská, v Paříži založená, zákonná struktura podporující proje
 
 
 # /en/about/index.php +74
-;<a href="/en/about/reports/">financial reports</a>, <a href="/en/thank-you/">donators</a>.
-<a href="/en/about/reports/">finanční zprávy</a>, <a href="/en/thank-you/">dárci</a>.
+;<a href="../about/reports/">financial reports</a>, <a href="../thank-you/">donators</a>.
+<a href="../about/reports/">finanční zprávy</a>, <a href="../thank-you/">dárci</a>.
 
 
 # /en/about/index.php +78
