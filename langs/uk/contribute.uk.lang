@@ -12,8 +12,8 @@
 mageia, участь, настанови, операційна система
 
 
-;Many people from all over the world gather to build Mageia &ndash; a Linux-based operating system <em>and</em> a <a href="/en/about/code-of-conduct/">lively, fun community</a> for <a href="/en/about/values/">building Free Software projects</a>.
-Люди з усього світу є учасниками проекту Mageia &ndash; операційної системи, заснованої на Linux <em>та</em> <a href="/en/about/code-of-conduct/">жвавої, веселої спільноти</a> зі <a href="/en/about/values/">створення проектів вільного програмного забезпечення</a>.
+;Many people from all over the world gather to build Mageia &ndash; a Linux-based operating system <em>and</em> a <a href="../about/code-of-conduct/">lively, fun community</a> for <a href="../about/values/">building Free Software projects</a>.
+Люди з усього світу є учасниками проекту Mageia &ndash; операційної системи, заснованої на Linux <em>та</em> <a href="../about/code-of-conduct/">жвавої, веселої спільноти</a> зі <a href="../about/values/">створення проектів вільного програмного забезпечення</a>.
 
 
 ;Contributing is open to anyone, this is Free Software! If you are curious and willing to join, there are things you can do, depending on your time and skills; you will always find someone to welcome and help/mentor you if needed so that your contribution to the project can be as good as it can be!
@@ -112,8 +112,8 @@ mageia, участь, настанови, операційна система
 Фінансова підтримка
 
 
-;Financial donations help us allocate specific tasks, secure our infrastructure, fund events, goodies &amp; transportation. <a href="/en/thank-you/">200+ persons already expressed their trust in us</a> with their money, hardware or other resources. We keep a <a href="/en/about/reports/">public record of what we get and how we use it</a>.
-Фінансова підтримка допоможе нам у виконанні певних завдань, захисті нашої інфраструктури, фінансуванні зустрічей, придбанні корисних дрібничок та сплаті транспортних послуг. <a href="/en/thank-you/">Нам допомогли вже понад 200 людей</a>, зокрема надано підтримку грошима, обладнанням та іншими ресурсами. Ми ведемо <a href="/en/about/reports/">відкритий запис отриманих ресурсів та повідомляємо про способи їхнього використання</a>.
+;Financial donations help us allocate specific tasks, secure our infrastructure, fund events, goodies &amp; transportation. <a href="../thank-you/">200+ persons already expressed their trust in us</a> with their money, hardware or other resources. We keep a <a href="../about/reports/">public record of what we get and how we use it</a>.
+Фінансова підтримка допоможе нам у виконанні певних завдань, захисті нашої інфраструктури, фінансуванні зустрічей, придбанні корисних дрібничок та сплаті транспортних послуг. <a href="../thank-you/">Нам допомогли вже понад 200 людей</a>, зокрема надано підтримку грошима, обладнанням та іншими ресурсами. Ми ведемо <a href="../about/reports/">відкритий запис отриманих ресурсів та повідомляємо про способи їхнього використання</a>.
 
 
 ;Data mining
@@ -156,8 +156,8 @@ mageia, участь, настанови, операційна система
 Якщо ви зіткнулися з вадо, яку можна відтворити, <a href="http://bugs.mageia.org/">створіть звіт щодо вади</a>.
 
 
-;Make a <a href="/en/donate/">donation</a>!
-Підтримайте проект <a href="/en/donate/">фінансово</a>!
+;Make a <a href="../donate/">donation</a>!
+Підтримайте проект <a href="../donate/">фінансово</a>!
 
 
 ;A few hours

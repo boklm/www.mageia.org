@@ -12,7 +12,7 @@ Vous trouverez ici comment contribuer au projet Mageia
 mageia, contribuer, howto, système d'exploitation
 
 
-;Many people from all over the world gather to build Mageia &ndash; a Linux-based operating system <em>and</em> a <a href="/en/about/code-of-conduct/">lively, fun community</a> for <a href="/en/about/values/">building Free Software projects</a>.
+;Many people from all over the world gather to build Mageia &ndash; a Linux-based operating system <em>and</em> a <a href="../about/code-of-conduct/">lively, fun community</a> for <a href="../about/values/">building Free Software projects</a>.
 Beaucoup de personnes dans le monde entier se rassemblent pour construire Mageia &ndash; un système d'exploitation basé sur Linux <em>et</em> une <a href="/fr/about/code-of-conduct/">communauté vivante et agréable</a> dans le but <a href="/fr/about/values/">d'élaborer des projets de Logiciels Libres</a>.
 
 
@@ -120,8 +120,8 @@ Rendre disponibles tous les logiciels fournis par Mageia exige <a href="http://m
 Dons
 
 
-;Financial donations help us allocate specific tasks, secure our infrastructure, fund events, goodies &amp; transportation. <a href="/en/thank-you/">200+ persons already expressed their trust in us</a> with their money, hardware or other resources. We keep a <a href="/en/about/reports/">public record of what we get and how we use it</a>.
-Les donations financières nous aident pour des tâches spécifiques, telle que sécuriser notre infrastructure, financer des manifestations, des goodies et les déplacements. <a href="/en/thank-you/">Plus de 200 personnes ont déjà exprimé leur confiance en nous</a> par leur argent, leur matériel ou d'autres ressources. Nous conservons <a href="/en/about/reports/">une comptabilité publique de ce que nous recevons et de la manière dont nous l'utilisons</a>.
+;Financial donations help us allocate specific tasks, secure our infrastructure, fund events, goodies &amp; transportation. <a href="../thank-you/">200+ persons already expressed their trust in us</a> with their money, hardware or other resources. We keep a <a href="../about/reports/">public record of what we get and how we use it</a>.
+Les donations financières nous aident pour des tâches spécifiques, telle que sécuriser notre infrastructure, financer des manifestations, des goodies et les déplacements. <a href="../thank-you/">Plus de 200 personnes ont déjà exprimé leur confiance en nous</a> par leur argent, leur matériel ou d'autres ressources. Nous conservons <a href="../about/reports/">une comptabilité publique de ce que nous recevons et de la manière dont nous l'utilisons</a>.
 
 
 ;Data mining
@@ -164,7 +164,7 @@ Parlez du projet avec les personnes autour de vous, sur votre blog, sur votre co
 Si vous rencontrez un bogue que vous pouvez reproduire de façon systématique, <a href="http://bugs.mageia.org/">soumettez un rapport de bogue</a>.
 
 
-;Make a <a href="/en/donate/">donation</a>!
+;Make a <a href="../donate/">donation</a>!
 Faites un <a href="/fr/donate/">don</a> !
 
 

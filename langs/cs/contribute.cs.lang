@@ -12,8 +12,8 @@ Zde naleznete, jakým způsobem můžete přispět do projektu Mageia
 mageia, contribute, howto, operating system
 
 
-;Many people from all over the world gather to build Mageia &ndash; a Linux-based operating system <em>and</em> a <a href="/en/about/code-of-conduct/">lively, fun community</a> for <a href="/en/about/values/">building Free Software projects</a>.
-Mnoho lidí ze všech částí světa se shromáždilo, aby společně vytvářelo Mageiu &ndash; na Linuxu postavený operační systém <em>a</em> živé <a href="/en/about/code-of-conduct/">společenství</a> pro <a href="/en/about/values/">tvorbu svobodných softwarových projektů</a>.
+;Many people from all over the world gather to build Mageia &ndash; a Linux-based operating system <em>and</em> a <a href="../about/code-of-conduct/">lively, fun community</a> for <a href="../about/values/">building Free Software projects</a>.
+Mnoho lidí ze všech částí světa se shromáždilo, aby společně vytvářelo Mageiu &ndash; na Linuxu postavený operační systém <em>a</em> živé <a href="../about/code-of-conduct/">společenství</a> pro <a href="../about/values/">tvorbu svobodných softwarových projektů</a>.
 
 
 ;Contributing is open to anyone, this is Free Software! If you are curious and willing to join, there are things you can do, depending on your time and skills; you will always find someone to welcome and help/mentor you if needed so that your contribution to the project can be as good as it can be!
@@ -112,8 +112,8 @@ Aby byl veškerý software poskytovaný Mageiou dostupný, vyžaduje to <a href=
 Dary
 
 
-;Financial donations help us allocate specific tasks, secure our infrastructure, fund events, goodies &amp; transportation. <a href="/en/thank-you/">200+ persons already expressed their trust in us</a> with their money, hardware or other resources. We keep a <a href="/en/about/reports/">public record of what we get and how we use it</a>.
-Peněžní dary nám pomáhají vyřídit zvláštní úkoly, zabezpečit naši infrastrukturu, financovat události, pokrýt další výdaje a náklady na cesty. <a href="/en/thank-you/">Již více než 200 osob vyjádřilo svoji důvěru v nás</a> svými penězi, zařízením nebo jinými zdroji. Máme <a href="/en/about/reports/">veřejný seznam toho, co jsme dostali a na co to používáme</a>.
+;Financial donations help us allocate specific tasks, secure our infrastructure, fund events, goodies &amp; transportation. <a href="../thank-you/">200+ persons already expressed their trust in us</a> with their money, hardware or other resources. We keep a <a href="../about/reports/">public record of what we get and how we use it</a>.
+Peněžní dary nám pomáhají vyřídit zvláštní úkoly, zabezpečit naši infrastrukturu, financovat události, pokrýt další výdaje a náklady na cesty. <a href="../thank-you/">Již více než 200 osob vyjádřilo svoji důvěru v nás</a> svými penězi, zařízením nebo jinými zdroji. Máme <a href="../about/reports/">veřejný seznam toho, co jsme dostali a na co to používáme</a>.
 
 
 ;Data mining
@@ -156,7 +156,7 @@ Mluvte o projektu s lidmi okolo sebe, pište o něm na svém blogu, informujte o
 Pokud narazíte na chybu, kterou můžete zopakovat, <a href="http://bugs.mageia.org/">vytvořte hlášení o chybě</a>.
 
 
-;Make a <a href="/en/donate/">donation</a>!
+;Make a <a href="../donate/">donation</a>!
 Učiňte <a href="/cs/donate/">dar</a>!
 
 

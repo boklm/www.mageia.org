@@ -12,8 +12,8 @@ Hier kunt u lezen hoe u kunt bijdragen aan het Mageia project
 mageia, draag bij, help, bijdragen, howto, operating system, besturingssysteem
 
 
-;Many people from all over the world gather to build Mageia &ndash; a Linux-based operating system <em>and</em> a <a href="/en/about/code-of-conduct/">lively, fun community</a> for <a href="/en/about/values/">building Free Software projects</a>.
-Vele mensen van over de hele wereld hebben samengewerkt om Mageia &ndash; een op Linux gebaseerd besturingssysteem <em>te maken en</em> een <a href="/en/about/code-of-conduct/">levendige, plezierige gemeenschap </a> te maken voor het <a href="/en/about/values/">bouwen van Vrije Software projecten</a>.
+;Many people from all over the world gather to build Mageia &ndash; a Linux-based operating system <em>and</em> a <a href="../about/code-of-conduct/">lively, fun community</a> for <a href="../about/values/">building Free Software projects</a>.
+Vele mensen van over de hele wereld hebben samengewerkt om Mageia &ndash; een op Linux gebaseerd besturingssysteem <em>te maken en</em> een <a href="../about/code-of-conduct/">levendige, plezierige gemeenschap </a> te maken voor het <a href="../about/values/">bouwen van Vrije Software projecten</a>.
 
 
 ;Contributing is open to anyone, this is Free Software! If you are curious and willing to join, there are things you can do, depending on your time and skills; you will always find someone to welcome and help/mentor you if needed so that your contribution to the project can be as good as it can be!
@@ -120,8 +120,8 @@ Om alle software die door Mageia wordt aangeboden wereldwijd beschikbaar te make
 Donaties
 
 
-;Financial donations help us allocate specific tasks, secure our infrastructure, fund events, goodies &amp; transportation. <a href="/en/thank-you/">200+ persons already expressed their trust in us</a> with their money, hardware or other resources. We keep a <a href="/en/about/reports/">public record of what we get and how we use it</a>.
-Gelddonaties helpen ons bij het uitvoeren van onze werkzaamheden. Dit kunnen specifieke taken zijn, maar ook onze infrastructuur, het bekostigen van evenementen, promotiematerialen, transport- en reiskosten, enz. <a href="/en/thank-you/">Al meer dan 200 personen hebben hun vertrouwen in ons uitgesproken</a> door geld, hardware of andere middelen te doneren. Wij houden publiekelijk bij <a href="/en/about/reports/">wat wij ontvangen en hoe we dit gebruiken</a>.
+;Financial donations help us allocate specific tasks, secure our infrastructure, fund events, goodies &amp; transportation. <a href="../thank-you/">200+ persons already expressed their trust in us</a> with their money, hardware or other resources. We keep a <a href="../about/reports/">public record of what we get and how we use it</a>.
+Gelddonaties helpen ons bij het uitvoeren van onze werkzaamheden. Dit kunnen specifieke taken zijn, maar ook onze infrastructuur, het bekostigen van evenementen, promotiematerialen, transport- en reiskosten, enz. <a href="../thank-you/">Al meer dan 200 personen hebben hun vertrouwen in ons uitgesproken</a> door geld, hardware of andere middelen te doneren. Wij houden publiekelijk bij <a href="../about/reports/">wat wij ontvangen en hoe we dit gebruiken</a>.
 
 
 ;Data mining
@@ -164,7 +164,7 @@ Breng Mageia onder de aandacht van mensen in uw naaste omgeving, op uw blog, Twi
 Wanneer u tegen een fout bent aangelopen die u consistent kunt reproduceren, <a href="http://bugs.mageia.org/">dien dan een bugrapport in</a>.
 
 
-;Make a <a href="/en/donate/">donation</a>!
+;Make a <a href="../donate/">donation</a>!
 Doe een <a href="/nl/donate/">donatie</a>!
 
 

@@ -12,8 +12,8 @@ Her finner du informasjon om hvordan man bidrar til Mageia
 mageia, bidra, veiledning, operativsystem
 
 
-;Many people from all over the world gather to build Mageia &ndash; a Linux-based operating system <em>and</em> a <a href="/en/about/code-of-conduct/">lively, fun community</a> for <a href="/en/about/values/">building Free Software projects</a>.
-Folk fra hele verden samles for å utvikle Mageia &ndash; et Linux-basert operativsystem <em>og</em> et <a href="/en/about/code-of-conduct/">livlig og morsomt miljø</a> for <a href="/en/about/values/">bygging av Fri Programvare-prosjekter</a>.
+;Many people from all over the world gather to build Mageia &ndash; a Linux-based operating system <em>and</em> a <a href="../about/code-of-conduct/">lively, fun community</a> for <a href="../about/values/">building Free Software projects</a>.
+Folk fra hele verden samles for å utvikle Mageia &ndash; et Linux-basert operativsystem <em>og</em> et <a href="../about/code-of-conduct/">livlig og morsomt miljø</a> for <a href="../about/values/">bygging av Fri Programvare-prosjekter</a>.
 
 
 ;Contributing is open to anyone, this is Free Software! If you are curious and willing to join, there are things you can do, depending on your time and skills; you will always find someone to welcome and help/mentor you if needed so that your contribution to the project can be as good as it can be!
@@ -120,8 +120,8 @@ For å gjøre programvaren fra Mageia tilgjengelig kreves <a href="http://mirror
 Donasjoner
 
 
-;Financial donations help us allocate specific tasks, secure our infrastructure, fund events, goodies &amp; transportation. <a href="/en/thank-you/">200+ persons already expressed their trust in us</a> with their money, hardware or other resources. We keep a <a href="/en/about/reports/">public record of what we get and how we use it</a>.
-Finansielle donasjoner gjør det mulig å opprette spesielle oppgaver, sikre infrastruktur, finanisere begivenheter, godsaker &amp; transport. <a href="/en/thank-you/">Mer enn 200 personer har allerede gitt sin støtte</a> i form av pengergaver, maskinvare og andre ressurser. Vi fører en <a href="/en/about/reports/">offentlig oversikt</a>, slik at du kan se hvordan det brukes.
+;Financial donations help us allocate specific tasks, secure our infrastructure, fund events, goodies &amp; transportation. <a href="../thank-you/">200+ persons already expressed their trust in us</a> with their money, hardware or other resources. We keep a <a href="../about/reports/">public record of what we get and how we use it</a>.
+Finansielle donasjoner gjør det mulig å opprette spesielle oppgaver, sikre infrastruktur, finanisere begivenheter, godsaker &amp; transport. <a href="../thank-you/">Mer enn 200 personer har allerede gitt sin støtte</a> i form av pengergaver, maskinvare og andre ressurser. Vi fører en <a href="../about/reports/">offentlig oversikt</a>, slik at du kan se hvordan det brukes.
 
 
 ;Data mining
@@ -164,8 +164,8 @@ Snakk med folk rundt deg om prosjektet, på bloggen, Twitter-kontoen, og på arb
 <a href="http://bugs.mageia.org/">Skriv en feilrapport</a> hvis du oppdager en feil.
 
 
-;Make a <a href="/en/donate/">donation</a>!
-Gjør en <a href="/en/donate/">donasjon</a>!
+;Make a <a href="../donate/">donation</a>!
+Gjør en <a href="../donate/">donasjon</a>!
 
 
 ;A few hours

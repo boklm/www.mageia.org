@@ -12,8 +12,8 @@ Siin saab teada, kuidas aidata kaasa Mageia projektile
 mageia, abistamine, tugiteenused, operatsioonisüsteem
 
 
-;Many people from all over the world gather to build Mageia &ndash; a Linux-based operating system <em>and</em> a <a href="/en/about/code-of-conduct/">lively, fun community</a> for <a href="/en/about/values/">building Free Software projects</a>.
-Paljud inimesed kogu maailmast on otsustanud üheskoos luua Mageia &ndash; Linuxi-põhise operatsioonisüsteemi <em>ning</em> <a href="/en/about/code-of-conduct/">elava ja vaimustava kogukonna</a> <a href="/en/about/values/">vaba tarkvara projektide loomiseks</a>.
+;Many people from all over the world gather to build Mageia &ndash; a Linux-based operating system <em>and</em> a <a href="../about/code-of-conduct/">lively, fun community</a> for <a href="../about/values/">building Free Software projects</a>.
+Paljud inimesed kogu maailmast on otsustanud üheskoos luua Mageia &ndash; Linuxi-põhise operatsioonisüsteemi <em>ning</em> <a href="../about/code-of-conduct/">elava ja vaimustava kogukonna</a> <a href="../about/values/">vaba tarkvara projektide loomiseks</a>.
 
 
 ;Contributing is open to anyone, this is Free Software! If you are curious and willing to join, there are things you can do, depending on your time and skills; you will always find someone to welcome and help/mentor you if needed so that your contribution to the project can be as good as it can be!
@@ -120,8 +120,8 @@ Kogu Mageia pakutava tarkvara kättesaadavaks tegemine nõuab <a href="http://mi
 Annetamine
 
 
-;Financial donations help us allocate specific tasks, secure our infrastructure, fund events, goodies &amp; transportation. <a href="/en/thank-you/">200+ persons already expressed their trust in us</a> with their money, hardware or other resources. We keep a <a href="/en/about/reports/">public record of what we get and how we use it</a>.
-Rahalised annetused aitavad meil eraldada vahendeid konkreetseteks ülesanneteks, turvata oma infrastruktuuri, rahastada sündmuste korraldamist, meenete valmistamist ja transporti. <a href="/en/thank-you/">Juba üle 200 inimese on meid usaldanud</a> ning eraldanud raha, riistvara või muid ressursse. Me <a href="/en/about/reports/">anname avalikult aru, mida me oleme saanud ja kuidas me oleme seda kasutanud</a>.
+;Financial donations help us allocate specific tasks, secure our infrastructure, fund events, goodies &amp; transportation. <a href="../thank-you/">200+ persons already expressed their trust in us</a> with their money, hardware or other resources. We keep a <a href="../about/reports/">public record of what we get and how we use it</a>.
+Rahalised annetused aitavad meil eraldada vahendeid konkreetseteks ülesanneteks, turvata oma infrastruktuuri, rahastada sündmuste korraldamist, meenete valmistamist ja transporti. <a href="../thank-you/">Juba üle 200 inimese on meid usaldanud</a> ning eraldanud raha, riistvara või muid ressursse. Me <a href="../about/reports/">anname avalikult aru, mida me oleme saanud ja kuidas me oleme seda kasutanud</a>.
 
 
 ;Data mining
@@ -164,7 +164,7 @@ Kõnelge Mageiast end ümbritsevatele inimestele, oma ajaveebis, Twitteri kontos
 Kui kohtate sageli esinevat viga, <a href="http://bugs.mageia.org/">tehke selle kohta veateade</a>.
 
 
-;Make a <a href="/en/donate/">donation</a>!
+;Make a <a href="../donate/">donation</a>!
 Tehke <a href="/et/donate/">annetus</a>!
 
 

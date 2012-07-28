@@ -12,7 +12,7 @@
 mageia, contribute, howto, operating system
 
 
-;Many people from all over the world gather to build Mageia &ndash; a Linux-based operating system <em>and</em> a <a href="/en/about/code-of-conduct/">lively, fun community</a> for <a href="/en/about/values/">building Free Software projects</a>.
+;Many people from all over the world gather to build Mageia &ndash; a Linux-based operating system <em>and</em> a <a href="../about/code-of-conduct/">lively, fun community</a> for <a href="../about/values/">building Free Software projects</a>.
 來自世界各地的人們一起建立了 Mageia &ndash; 一個以 Linux 為核心的作業系統<em>以及</em> 一個<a href="/zh-tw/about/code-of-conduct/">活躍而且饒富趣味的社群</a> 來<a href="/zh-tw/about/values/">進行自由軟體計劃</a>。
 
 
@@ -120,8 +120,8 @@ Mageia 仰賴各種架構與工具讓每個人都能協同合作。這些都需�
 捐款
 
 
-;Financial donations help us allocate specific tasks, secure our infrastructure, fund events, goodies &amp; transportation. <a href="/en/thank-you/">200+ persons already expressed their trust in us</a> with their money, hardware or other resources. We keep a <a href="/en/about/reports/">public record of what we get and how we use it</a>.
-財務捐款可以幫助我們分配特殊任務，確保我們的基礎架構， 贊助活動，商品與交通。 <a href="/en/thank-you/">超過兩百人基於信任</a> 贊助了他們的金錢，硬體或者其他資源。 我們保留了<a href="/en/about/reports/">公開的收入紀錄與流向</a>。
+;Financial donations help us allocate specific tasks, secure our infrastructure, fund events, goodies &amp; transportation. <a href="../thank-you/">200+ persons already expressed their trust in us</a> with their money, hardware or other resources. We keep a <a href="../about/reports/">public record of what we get and how we use it</a>.
+財務捐款可以幫助我們分配特殊任務，確保我們的基礎架構， 贊助活動，商品與交通。 <a href="../thank-you/">超過兩百人基於信任</a> 贊助了他們的金錢，硬體或者其他資源。 我們保留了<a href="../about/reports/">公開的收入紀錄與流向</a>。
 
 
 ;Data mining
@@ -164,8 +164,8 @@ Mageia 仰賴各種架構與工具讓每個人都能協同合作。這些都需�
 若是您遇到一個可以重現的問題，<a href="http://bugs.mageia.org/">就提交個錯誤報告吧！</a>
 
 
-;Make a <a href="/en/donate/">donation</a>!
-<a href="/en/donate/">捐款給我們！</a>
+;Make a <a href="../donate/">donation</a>!
+<a href="../donate/">捐款給我們！</a>
 
 
 ;A few hours
