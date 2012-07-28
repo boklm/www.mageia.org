@@ -32,7 +32,7 @@ include '../../lib/news.php';
         <ul>
             <li><a href="<?php _e('http://blog.mageia.org/en/')?>"><?php _e('Blog');?></a></li>
             <li><a href="<?php _e('http://planet.mageia.org/en/')?>"><?php _e('Planet');?></a></li>
-            <li><a href="/en/calendar/"><?php _e('Calendar');?></a></li>
+            <li><a href="../calendar/"><?php _e('Calendar');?></a></li>
             <li><a href="https://wiki.mageia.org/en/IRC">IRC</a></li>
             <li><a href="<?php _e('https://forum.mageia.org/en/')?>"><?php _e('Forums');?></a></li>
             <li><a href="http://ml.mageia.org/"><?php _e('Mailing-lists');?></a></li>
@@ -82,7 +82,7 @@ include '../../lib/news.php';
             <li><a href="<?php _e('http://wiki.mageia.org/')?>"><?php _e('Wiki</a> &larr; collaborative documentation')?></li>
             <li><a href="http://bugs.mageia.org/"><?php _e('Bugzilla</a> &larr; to report bugs')?></li>
             <li><a href="<?php _e('https://forum.mageia.org/en/')?>"><?php _e('Forum')?></a></li>
-            <li><a href="/en/calendar/"><?php _e('Calendar')?></a></li>
+            <li><a href="../calendar/"><?php _e('Calendar')?></a></li>
             <li><a href="http://mageia.madb.org"><?php _e('Mageia Applications Database')?></a></li>
         </ul>
         <hr>
@@ -136,7 +136,7 @@ include '../../lib/news.php';
                     <li><a href="http://wiki.mageia.org/en/Org_Council"><?php _e('the Council')?></a></li>
                     <li><a href="http://wiki.mageia.org/en/Org_Board"><?php _e('the Board')?></a></li>
                 </ul></li>
-            <li><?php _e('<a href="../donate/">Donations</a> &amp; <a href="/en/about/reports/">reports</a>.')?></li>
+            <li><?php _e('<a href="../donate/">Donations</a> &amp; <a href="../about/reports/">reports</a>.')?></li>
         </ul>
     </div>
     
