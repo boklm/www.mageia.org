@@ -24,14 +24,6 @@ Abistada ja kaasa lüüa saavad kõik &ndash; see on vaba tarkvara! Kui tunnete 
 Allpool näete, kuidas on võimalik kaasa lüüa!
 
 
-;browse_role
-Vastavalt tegevusele
-
-
-;browse_time
-Vastavalt ajakulule
-
-
 ;Roles
 Tegevused
 
@@ -41,7 +33,7 @@ Kasutajate aitamine ja Mageia propageerimine
 
 
 ;Want to welcome and help new users or share tips with experienced ones? In <a href="https://wiki.mageia.org/en/IRC">IRC channels</a>, <a href="http://forums.mageia.org/">forums</a>, <a href="http://mageia.org/mailman/">mailing-lists</a>, local events? Just get in touch with us via one of these channels and share the fun!
-Soovite aidata uustulnukaid või jagada nõuandeid ka kogenud kasutajatele? Ja seda <a href="https://wiki.mageia.org/en/IRC">IRC kanalite</a>, <a href="http://forums.mageia.org/">foorumite</a>, <a href="http://mageia.org/mailman/">postiloendite</a> või kohalike sündmuste kaudu? Võtke lihtsalt meiega mõnel mainitud kanalil ühendust ja asume üheskoos lõbusalt tegutsema!
+Soovite aidata uustulnukaid või jagada nõuandeid ka kogenud kasutajatele? Ja seda <a href="https://wiki.mageia.org/en/IRC">IRC kanalite</a>, <a href="http://forums.mageia.org/">foorumite</a>, <a href="http://mageia.org/mailman/">postiloendite</a> või kohalike ürituste kaudu? Võtke lihtsalt meiega mõnel mainitud kanalil ühendust ja asume üheskoos lõbusalt tegutsema!
 
 
 ;Writing, copywriting and documenting
@@ -121,7 +113,7 @@ Annetamine
 
 
 ;Financial donations help us allocate specific tasks, secure our infrastructure, fund events, goodies &amp; transportation. <a href="../thank-you/">200+ persons already expressed their trust in us</a> with their money, hardware or other resources. We keep a <a href="../about/reports/">public record of what we get and how we use it</a>.
-Rahalised annetused aitavad meil eraldada vahendeid konkreetseteks ülesanneteks, turvata oma infrastruktuuri, rahastada sündmuste korraldamist, meenete valmistamist ja transporti. <a href="../thank-you/">Juba üle 200 inimese on meid usaldanud</a> ning eraldanud raha, riistvara või muid ressursse. Me <a href="../about/reports/">anname avalikult aru, mida me oleme saanud ja kuidas me oleme seda kasutanud</a>.
+Rahalised annetused aitavad meil eraldada vahendeid konkreetseteks ülesanneteks, turvata oma infrastruktuuri, rahastada ürituste korraldamist, meenete valmistamist ja transporti. <a href="../thank-you/">Juba üle 200 inimese on meid usaldanud</a> ning eraldanud raha, riistvara või muid ressursse. Me <a href="../about/reports/">anname avalikult aru, mida me oleme saanud ja kuidas me oleme seda kasutanud</a>.
 
 
 ;Data mining
@@ -153,7 +145,7 @@ Mõni minut
 
 
 ;Stop by the <a href="http://forums.mageia.org/">forums</a> support section and check if you can answer a question.
-Hüpake läbi <a href="http://forums.mageia.org/">foorumite</a> tugisektsioonist ja vaadake, ega te ei saa mõnele küsimusele vastust anda.
+Hüpake läbi <a href="http://forums.mageia.org/">foorumite</a> toetussektsioonist ja vaadake, ega te ei saa mõnele küsimusele vastust anda.
 
 
 ;Talk about the project to people around you, on your blog, your Twitter account, at your work place.
@@ -173,7 +165,7 @@ Mõni tund
 
 
 ;Stop by a Mageia event, like a test day to find, reproduce and help resolve bugs.
-Astuge läbi mõnelt Mageia sündmuselt, näiteks testpäevalt, et aidata vigu leida ja neid parandada.
+Astuge läbi mõnelt Mageia ürituselt, näiteks testpäevalt, et aidata vigu leida ja neid parandada.
 
 
 ;Subscribe to a team discussion list and follow what happens there, try to see how you can bring something useful to it.
