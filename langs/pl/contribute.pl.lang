@@ -12,12 +12,12 @@ Dowiesz się tutaj jak wesprzeć projekt Mageia
 mageia, wsparcie, jak, system operacyjny
 
 
-;Many people from all over the world gather to build Mageia &ndash; a Linux-based operating system <em>and</em> a <a href="../about/code-of-conduct/">lively, fun community</a> for <a href="../about/values/">building Free Software projects</a>.
-Wielu ludzi z całego świata wspólnie buduje Mageię &ndash; Linuxowy system operacyjny <em>oraz</em> <a href="../about/code-of-conduct/">energiczną i wspaniałą społeczność</a> <a href="../about/values/">budującą projekty Wolnego Oprogramowania</a>
+;Many people from all over the world gather to build Mageia &ndash; a Linux-based operating system <em>and</em> a <a href="/en/about/code-of-conduct/">lively, fun community</a> for <a href="/en/about/values/">building Free Software projects</a>.
+Wielu ludzi z całego świata wspólnie buduje Mageię &ndash; Linuxowy system operacyjny <em>oraz</em> <a href="/en/about/code-of-conduct/">energiczną i wspaniałą społeczność</a> <a href="/en/about/values/">tworzącą projekty Wolnego Oprogramowania</a>
 
 
 ;Contributing is open to anyone, this is Free Software! If you are curious and willing to join, there are things you can do, depending on your time and skills; you will always find someone to welcome and help/mentor you if needed so that your contribution to the project can be as good as it can be!
-Wspierać Mageię może każdy, gdyż jest Wolnym Oprogramowaniem! Jeśli jesteś zainteresowany/-a i chcesz się przyłączyć wszystko zależy od ilości poświęconego czasu i umiejętności - zawsze znajdzie się ktoś, kto przywita Cię z radością i pomoże Ci uczynić twoją pracę w projekcie tak dobrą jaką tylko ona może być!
+Mageię może wesprzeć każdy, gdyż jest Wolnym Oprogramowaniem! Jeśli jesteś tym zainteresowany/-a i chcesz się przyłączyć - wszystko zależy od ilości poświęconego czasu i umiejętności - zawsze znajdzie się ktoś, kto przywita Cię z radością i pomoże Ci uczynić twoją pracę w projekcie tak dobrą jaką tylko ona może być!
 
 ;Check what you could do below!
 Sprawdź poniżej jak możesz się zaangażować.
@@ -28,7 +28,7 @@ Role
 
 
 ;Helping users &amp; advocating the project
-Pomoc użytkownikom i popieranie projektu
+Pomoc użytkownikom i promowanie projektu
 
 
 ;Want to welcome and help new users or share tips with experienced ones? In <a href="https://wiki.mageia.org/en/IRC">IRC channels</a>, <a href="http://forums.mageia.org/">forums</a>, <a href="http://mageia.org/mailman/">mailing-lists</a>, local events? Just get in touch with us via one of these channels and share the fun!
@@ -40,7 +40,7 @@ Pisanie, układanie haseł reklamowych i dokumentacja
 
 
 ;You have a taste for practical, clear, concise, proofread, nice writing? You like to take the challenge of explaining clearly complex ideas or systems and teaching others? You know how to mix form &amp; content to push the right message? Get in touch with our <a href="https://wiki.mageia.org/en/Documentation_team">Documentation team</a>!
-Potrafisz praktycznie, jasno, zwięźle, poprawić lub napisać tekst? Lubisz podejmować wyzwanie tłumaczenia jasno i całościowo idei lub systemów i uczyć innych? Wiesz jak zmieniać formę przekazu i treść by zbudować prawidłowy przekaz? Nawiąż kontakt z <a href="https://wiki.mageia.org/en/Documentation_team">grupą dokumentacji</a>!
+Potrafisz praktycznie, jasno, zwięźle, napisać tekst lub go poprawić? Lubisz podejmować wyzwanie tłumaczenia jasno i całościowo idei lub metod i uczyć innych? Wiesz jak zmieniać formę przekazu i dobierać treści by zbudować prawidłowy przekaz? Nawiąż kontakt z <a href="https://wiki.mageia.org/en/Documentation_team">grupą dokumentacji</a>!
 
 
 ;Translating
@@ -48,7 +48,7 @@ Tłumaczenia
 
 
 ;Mageia is localized in more than 180 languages! Clarifying, completing, improving translations of software, guides, tutorials, Web sites, marketing material, etc. happens thanks to the effort of so many contributors. Join <a href="https://wiki.mageia.org/en/Internationalisation_Team_(i18n)">them</a>!
-Mageia została przetłumaczona na 180 języków! Wyjaśnianie, finalizowanie, poprawa tłumaczeń oprogramowania, informatory, przewodniki, strony internetowe, materiały marketingowe itd. pomogą zwiększyć siłę wielu wolontariuszy. Przyłącz się <a href="https://wiki.mageia.org/en/Internationalisation_Team_(i18n)">do nas</a>!
+Mageia została przetłumaczona na 180 języków! Wyjaśnianie, finalizowanie, poprawa tłumaczeń oprogramowania, informatory, przewodniki, strony internetowe, materiały marketingowe itd. pomogą powiększyć efekt pracy wielu wolontariuszy. Przyłącz się <a href="https://wiki.mageia.org/en/Internationalisation_Team_(i18n)">do nas</a>!
 
 
 ;Triaging
@@ -72,7 +72,7 @@ Marketing, Komunikacja &amp; Ewangelizacja
 
 
 ;Better understanding of who uses and contributes to the project to help them even more, making sure the Mageia voice is consistent and heard, that's a job for the <a href="https://wiki.mageia.org/en/Marcom_Team">marcomm team</a> (Marketing and Communication), on both global and local scales.
-Lepsze zrozumienie użytkowników, którzy używają i wspierają projekt pomoże jeszcze bardziej, że głos Magei jest spójny i słyszalny, co jest celem pracy <a href="https://wiki.mageia.org/en/Marcom_Team">zespołu marcomm</a> (Marketingu i Komunikacji), na skalę globalną i lokalną.
+Lepsze zrozumienie użytkowników, którzy używają i wspierają projekt pomoże jeszcze bardziej, by głos Magei był spójny i słyszalny, co jest celem pracy <a href="https://wiki.mageia.org/en/Marcom_Team">zespołu marcomm</a> (Marketingu i Komunikacji), na skalę lokalną i globalną.
 
 
 ;Graphic &amp; UI design
@@ -80,7 +80,7 @@ Grafika &amp; Projektowanie Interfejsu Użytkownika
 
 
 ;Software isn't only about code neither is Mageia only about technology. So make it human, practical and beautiful! If you have a talent and experience in graphic design, ergonomics <a href="https://wiki.mageia.org/en/Artwork_team">join the artwork team</a>!
-Oprogramowanie nie jest tylko kodem i nie tylko technologią. Czyni to ludzkim, praktycznym i pięknym! Jeśli jesteś utalentowany i doświadczony w projektowaniu graficznym, ergonomii <a href="https://wiki.mageia.org/en/Artwork_team">przyłącz się do zespołu grafików</a>!
+Oprogramowanie nie jest tylko kodem i nie tylko technologią. Uczyń go ludzkim, praktycznym i pięknym! Jeśli jesteś utalentowany i doświadczony w projektowaniu graficznym, ergonomii <a href="https://wiki.mageia.org/en/Artwork_team">przyłącz się do zespołu grafików</a>!
 
 
 ;Coding &amp; packaging
@@ -96,7 +96,7 @@ Sieć, narzędzia, projektowanie systemów &amp; administracja
 
 
 ;Mageia depends on infrastructure and tools that enable everyone to collaborate. These need experts to build, maintain, develop, provide and manage servers, connections, security, applications, data flow, etc. It takes from <a href="https://wiki.mageia.org/en/Sysadmin_Team">system administrators</a> to <a href="https://wiki.mageia.org/en/Web_team">Web designers/developers/integrators</a> to manage this huge task.
-Mageia zależy od infrastruktury i narzędzi, które pozwalają każdemu współpracować. Potrzebujemy ekspertów od budowania, utrzymania, rozwoju, dostarczania i  zarządzania serwerami, łącz internetowych, bezpieczeństwa, aplikacji, przepływu danych itd. Bierzemy to od <a href="https://wiki.mageia.org/en/Sysadmin_Team">administratorów systemów</a> dla <a href="https://wiki.mageia.org/en/Web_team">Projektantów/Developerów/Integratorów Sieciowych</a> do zarządzania dużymi zadaniami.
+Mageia zależy od infrastruktury i narzędzi, które pozwalają każdemu współpracować. Potrzebujemy ekspertów od budowania, utrzymania, rozwoju, dostarczania i  zarządzania serwerami, łączami internetowymi, bezpieczeństwem, aplikacjami, przepływem danych itd. Potrzebujemy <a href="https://wiki.mageia.org/en/Sysadmin_Team">administratorów systemów</a> oraz <a href="https://wiki.mageia.org/en/Web_team">Projektantów/Developerów/Integratorów Sieciowych</a> do zarządzania dużymi zadaniami.
 
 
 ;Mirroring
@@ -111,8 +111,8 @@ Zbudowane oprogramowanie dostarczane przez Mageia wymaga <a href="http://mirrors
 Datki
 
 
-;Financial donations help us allocate specific tasks, secure our infrastructure, fund events, goodies &amp; transportation. <a href="../thank-you/">200+ persons already expressed their trust in us</a> with their money, hardware or other resources. We keep a <a href="../about/reports/">public record of what we get and how we use it</a>.
-Finansowe wsparcie pomoże dotować konkretne zadania, bezpieczeństwo infrastruktury, fundowanie wydarzeń, gadżetów i transportu. <a href="../thank-you/">Przeszło 200 osób wyraziło zaufanie dla nas</a> wspierając nas pieniędzmi, sprzętem lub innymi środkami. Dysponujemy publicznie dostępną <a href="../about/reports/">listą zgromadzonych środków i sposobem ich wykorzystania</a>.
+;Financial donations help us allocate specific tasks, secure our infrastructure, fund events, goodies &amp; transportation. <a href="/en/thank-you/">200+ persons already expressed their trust in us</a> with their money, hardware or other resources. We keep a <a href="/en/about/reports/">public record of what we get and how we use it</a>.
+Finansowe wsparcie pomoże w dotowaniu konkretnych zadań, bezpieczeństwa infrastruktury, finansowaniu spotkań, gadżetów i transportu. <a href="/en/thank-you/">Przeszło 200 osób wyraziło zaufanie dla nas</a> wspierając nas pieniędzmi, sprzętem lub innymi środkami. Dysponujemy publicznie dostępną <a href="/en/about/reports/">listą zgromadzonych środków i sposobem ich wykorzystania</a>.
 
 
 ;Data mining
@@ -120,7 +120,7 @@ Przetwarzanie danych
 
 
 ;There are tons of data out there, most of which we don't use, or even know about. If you like to grab and analyze data to reveal &amp; visualize it to spot what we can do even better, get in touch!
-Zgromadziliśmy tony danych, a większości z nich nie używamy lub nawet o nich nie wiemy. Jeśli lubisz zajmować się zbieraniem i analizą danych celem obróbki i wizualizacji do zlokalizowania co możemy zrobić lepiej, skontaktuj się z nami!
+Zgromadziliśmy tony danych, a większości z nich nie używamy lub nawet nie wiemy jak je można przetworzyć. Jeśli lubisz zajmować się zbieraniem, analizą, obróbki i wizualizacją danych oraz możesz na ich podstawie wskazać co możemy zrobić lepiej, skontaktuj się z nami!
 
 
 ;Designing, experimenting, revealing the unknown
@@ -128,7 +128,7 @@ Projektowanie, eksperymentowanie, odkrywanie nieznanego
 
 
 ;Ideas are great, actionable prototypes are even better. The Mageia project is not only about making a different Linux distribution but also about building new products and experiences with it and with the data around it.
-Idee są wspaniałe, zdolność prototypów do działania jest jeszcze lepsza. Projekt Mageia nie służy budowaniu kolejnej dystrybucji Linuxa, ale budowaniu nowego produktu i eksperymentowanie z nim i z danymi niego dotyczącymi.
+Idee są wspaniałe, ale prototypy w działaniu są jeszcze lepsze. Projekt Mageia nie służy budowaniu kolejnej dystrybucji Linuxa, ale budowaniu nowego produktu i eksperymentowanie z nim oraz z danymi go dotyczącymi.
 
 
 ;Time
@@ -136,7 +136,7 @@ Czas
 
 
 ;How much free time do you have? and how much of it do you want to commit to Mageia? See what you can do:
-Ile masz wolnego czasu? i ile możesz przeznaczyć dla Magei? Zobacz co możesz zrobić:
+Ile masz wolnego czasu? I ile możesz przeznaczyć dla Magei? Zobacz co możesz zrobić:
 
 
 ;A few minutes
@@ -144,19 +144,19 @@ Kilka minut
 
 
 ;Stop by the <a href="http://forums.mageia.org/">forums</a> support section and check if you can answer a question.
-Poprzestań na <a href="http://forums.mageia.org/">forum</a> wspierając ten dział i sprawdzając czy możesz odpowiedzieć na pytanie.
+Dołącz do <a href="http://forums.mageia.org/">forum</a> wspierając ten dział i sprawdzając czy możesz odpowiedzieć na jakieś pytanie.
 
 
 ;Talk about the project to people around you, on your blog, your Twitter account, at your work place.
-Rozmawiaj o projekcie z ludźmi dookoła, na twoim blogu, koncie Twittera i w miejscu pracy.
+Rozmawiaj o projekcie z ludźmi dookoła, na twoim blogu, na Twitterze i w miejscu pracy.
 
 
 ;If you encounter a bug you can reproduce consistently, <a href="http://bugs.mageia.org/">submit a bug report</a>.
 Jeśli napotkasz błąd, który możesz powtórzyć, <a href="http://bugs.mageia.org/">nadeślij raport błędu</a>.
 
 
-;Make a <a href="../donate/">donation</a>!
-Przekaż <a href="../donate/">datek</a>!
+;Make a <a href="/en/donate/">donation</a>!
+Przekaż <a href="/en/donate/">datek</a>!
 
 
 ;A few hours
@@ -164,7 +164,7 @@ Kilka godzin
 
 
 ;Stop by a Mageia event, like a test day to find, reproduce and help resolve bugs.
-Poprzestań na wydarzeniach Mageia, takich jak dzień poszukiwania, odtwarzania i rozwiązywania błędów.
+Wesprzyj wydarzenia Mageia, takie jak dzień poszukiwania, odtwarzania i rozwiązywania błędów.
 
 
 ;Subscribe to a team discussion list and follow what happens there, try to see how you can bring something useful to it.
@@ -176,8 +176,8 @@ Kilka tygodni lub więcej
 
 
 ;Learn about free software, open source collaboration in general, and Mageia in particular.
-Dowiedz się więcej o Wolnym Oprogramowaniu, ogólnie współpracy Środowiska Open Source i szczególnie na Magei.
+Dowiedz się więcej o Wolnym Oprogramowaniu, ogólnie współpracy Środowiska Open Source a szczególnie na Magei.
 
 
 ;If you are a student, consider talking to your tutor about participating into the project as part of your studies; you don't specifically need to be studying Computer Science to do so.
-Jeśli jesteś studentem rozważ rozmowę ze swoim promotorem o partycypowaniu w projekcie jako części twoich studiów; nie musisz dokładnie studiować Informatyki by to zrobić.
+Jeśli jesteś studentem rozważ rozmowę ze swoim opiekunem o partycypowaniu w projekcie jako formie zaliczenia przedmiotu na studiach lub pracy dyplomowej; nie koniecznie musisz studiować Informatykę by móc to zrobić.

@@ -153,7 +153,7 @@ http://planet.mageia.org/pl/
 
 # en/map/index.php +64
 ;Blog
-Blog
+Blog {ok}
 
 
 # en/map/index.php +64
@@ -173,7 +173,7 @@ Listy mailingowe
 
 # en/map/index.php +69
 ;http://forums.mageia.org/
-http://forums.mageia.org/
+http://forums.mageia.org/ {ok}
 
 
 # en/map/index.php +76

@@ -19,11 +19,11 @@ http://blog.mageia.org/pl/
 
 
 ;Blog
-Blog
+Blog {ok}
 
 
 ;http://planet.mageia.org/en/
-http://planet.mageia.org/en/
+http://planet.mageia.org/en/ {ok}
 
 
 ;Planet
@@ -34,7 +34,7 @@ Planeta
 Kalendarz
 
 ;https://forum.mageia.org/en/
-https://forum.mageia.org/en/
+https://forum.mageia.org/en/ {ok}
 
 
 ;Forums
@@ -42,7 +42,7 @@ Forum
 
 
 ;http://wiki.mageia.org/
-http://wiki.mageia.org/
+http://wiki.mageia.org/ {ok}
 
 
 ;News
@@ -62,7 +62,7 @@ i spotkaj nas na <a href="http://wiki.mageia.org/en/IRC">IRCu</a>.
 
 
 ;You can also <a href="../donate/">support financially</a> the project!
-Możesz także <a href="../donate/">wesprzeć finansowo</a> projekt.
+Możesz także <a href="../donate/">wesprzeć projekt finansowo</a>.
 
 
 ;Toolbox
@@ -74,11 +74,11 @@ Wiki</a> &larr; dokumentacja
 
 
 ;Bugzilla</a> &larr; to report bugs
-Bugzilla</a> &larr; do zgłaszania błędów
+Bugzilla</a> &larr; zgłaszanie błędów
 
 
 ;Forum
-Forum
+Forum {ok}
 
 
 ;Mageia Applications Database
@@ -122,7 +122,7 @@ na IRCu</a> na Freenode
 
 
 ;mailing-lists 1</a> &amp; <a href="http://ml.mageia.org/">2
-liści mailingowej 1</a> &amp; <a href="http://ml.mageia.org/">2
+liście wysyłkowej 1</a> &amp; <a href="http://ml.mageia.org/">2
 
 
 ;in real life!
@@ -134,7 +134,7 @@ podczas wydarzeń,w których uczestniczy Mageia!
 
 
 ;Teams you can join!
-Zespoły do których możesz się przyłączyć!
+Zespoły, do których możesz się przyłączyć!
 
 
 ;Atelier
@@ -162,7 +162,7 @@ Systemy &amp; zarządzanie infrastrukturą
 
 
 ;Mageia
-Mageia
+Mageia {ok}
 
 
 ;More about Mageia
@@ -189,9 +189,13 @@ Rada
 Zarząd
 
 
-;<a href="../donate/">Donations</a> &amp; <a href="../about/reports/">reports</a>.
-<a href="../donate/">Datki</a> &amp; <a href="../about/reports/">reporty</a>.
+;<a href="../donate/">Donations</a> &amp; <a href="/en/about/reports/">reports</a>.
+<a href="../donate/">Datki</a> &amp; <a href="/en/about/reports/">reporty</a>.
 
 
 ;This page needs you! <a href="https://wiki.mageia.org/en/Web_team">Join the Web team</a>!
 Ta strona potrzebuje ciebie! <a href="https://wiki.mageia.org/en/Web_team">Przyłącz się do zespołu Web</a>!
+
+
+;Mailing-lists
+Lista wysyłkowa

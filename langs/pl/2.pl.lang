@@ -283,7 +283,7 @@ Do edycji plików wideo spróbuj Avidemuxa, Kino lub OpenShota; dla subtekstu je
 
 # en/for-pc/index.php +89
 ;Plus
-Plus
+Plus {ok}
 
 
 # en/for-pc/index.php +90
@@ -368,7 +368,7 @@ W celu poszerzenia informacji o tych i innych pakietach, sprawdź <a href="https
 
 # en/2/index.php +14
 ;Mageia 2
-Mageia 2
+Mageia 2 {ok}
 
 
 # en/2/index.php +16
@@ -431,10 +431,6 @@ Nasza praca przyczynia się do doskonałej pracy ogólnie Linuxa i społecznośc
 Zapraszamy nowych użytkowników do jednego z wielu zespołów, które stanowią Społeczność Mageia i zachęcamy do przyłączenia się do nas.
 
 
-;Notes:
-Uwagi
-
-
 ;Aside from the cross-section included here, you will find many others in the repositories: you can use rpmdrake to search for packages, or check the <a href="%s">Mageia App DB</a>.
 Więcej aplikacji możesz znaleźć w repozytoriach, które można przeglądnąć za pomocą rpmdrake. Listę możesz również zobaczyć przeglądając <a href="%s">Bazę Aplikacji Mageia</a>.
 
@@ -453,3 +449,7 @@ Dla PC
 
 ;For server
 Dla serwera
+
+
+;Notes:
+Uwagi
