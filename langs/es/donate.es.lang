@@ -5,19 +5,19 @@ Donar a Mageia
 
 
 ;mageia, donate, donation, donors, help
-mageia, donar, donaci�n, donadores, ayuda
+mageia, donar, donación, donadores, ayuda
 
 
 ;Donate via PayPal,
-Donar via PayPal,
+Donar vía PayPal,
 
 
 ;via bank transfer,
-via transferencia bancaria,
+vía transferencia bancaria,
 
 
 ;using the following Bank Identifier Code (IBAN-BIC):
-usando el siguiente c�digo de identificaci�n bancaria (IBAN-BIC):
+usando el siguiente código de identificación bancaria (IBAN-BIC):
 
 
 ;In favor of:
@@ -29,11 +29,11 @@ Cuenta bancaria:
 
 
 ;or via check (&euro; only).
-o via cheques (solamente en &euro;).
+o vía cheques (solamente en &euro;).
 
 
 ;You can send your donation by check to this address:
-Puede enviar su donativo por cheque a la direcci�n:
+Puede enviar su donativo por cheque a la dirección:
 
 
 ;Use "Mageia.Org" in the "Pay to the order of..." line.
@@ -45,23 +45,23 @@ Tenga en cuenta que:
 
 
 ;Paypal withdraws a small commission for each donation (around 2%) so we get a little bit less than you send;
-Paypal cobra una peque�a comission para cada donaci�n (cerca del 2%) as� que recibimos un poco menos dinero del que usted envia;
+Paypal cobra una pequeña comisión para cada donación (cerca del 2%) así que recibimos un poco menos dinero del que usted envía;
 
 
 ;conversion rates are charged to Mageia, so please use &euro; as currency;
-Tarifas de conversi�n son cobradas a Mageia, le pedimos usar &euro; como moneda;
+Tarifas de conversión son cobradas a Mageia, le pedimos usar &euro; como moneda;
 
 
 ;if you want to do an anonymous donation, please add a comment.
-Si desea hacer una donaci�n anonima, porfavor agregue un comentario.
+Si desea hacer una donación anónima, por favor agregue un comentario.
 
 
 ;Why donate?
-Porque donar?
+¿Por qué donar?
 
 
 ;Mageia.Org is a not-for-profit association to manage the Mageia distribution. As a not-for-profit association, it can receive donations from the community to help in a lot of differents fields:
-Mageia.Org es una organizaci�n sin animo de lucro que administra la distribuci�n Mageia, como organizaci�n sin animo de lucro, puede recibir donativos de la comunidad para ayudar en diversos campos:
+Mageia.Org es una organización sin ánimo de lucro que administra la distribución Mageia. Como organización sin ánimo de lucro, puede recibir donativos de la comunidad para ayudar en diversos campos:
 
 
 ;hardware and hosting for servers;
@@ -85,21 +85,21 @@ gastos administrativos;
 
 
 ;eventually, legal counsel and
-eventualmente asesoria legal,
+eventualmente, asesoria legal
 
 
 ;etc.
-etc.
+etc. {ok}
 
 
 ;How to track donation?
-�Como rastrear el donativo?
+¿Cómo rastrear el donativo?
 
 
 ;Currently, we received a lot of generous donations (%s, remains %s) thanks to all of our <a href="../thank-you/">donors</a>!
-Actualmente, hemos recibido muchas donaciones generosas (%s, restante de %s) gracias a todos nuestros<a href="../thank-you/">donadores</a>!
+Actualmente, hemos recibido muchas donaciones generosas (%s, restante de %s) ¡gracias a todos nuestros<a href="../thank-you/">donadores</a>!
 
 
 ;We believe public accountability is crucial. You can know more about how are used the funds received by reading our <a href="%s">financial reports</a>.
-Creemos que la contabilidad p�blica es crucial. Puedes conocer mas sobre como se utilizan los fondos recibidos leyendo nuestros <a href="%s">reportes financieros</a>.
+Creemos que la contabilidad pública es crucial. Puede conocer más sobre cómo se utilizan los fondos recibidos leyendo nuestros <a href="%s">reportes financieros</a>.
 
