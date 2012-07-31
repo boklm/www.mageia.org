@@ -135,7 +135,9 @@
         $s .= '</tr>';
         $languages[$progress . '-' . $l] = $s;
     }
+    $en_language = array_shift($languages); // shift English for proper sorting
     krsort($languages, SORT_NUMERIC);
+    array_unshift($languages, $en_language); // unshift English back
     $s = implode($languages);
 
     $thfiles = '<th>' . implode('</th><th>', $enFiles) . '</th>';
