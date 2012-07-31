@@ -33,12 +33,12 @@ Partidarios
 
 # en/map/index.php +19
 ;Governance
-Gobernación
+Gobierno
 
 
 # en/map/index.php +21
 ;Board
-Tablón
+Directiva
 
 
 # en/map/index.php +22
@@ -98,7 +98,7 @@ Descargas
 
 # en/map/index.php +44
 ;Download mirrors
-Espejos de descarga
+Sitios de descarga
 
 
 # en/map/index.php +48
@@ -156,7 +156,7 @@ http://planet.mageia.org/es/
 
 # en/map/index.php +64
 ;Blog
-Blog 
+Blog {ok}
 
 
 # en/map/index.php +64
@@ -236,4 +236,4 @@ Mapa del sitio
 
 # en/map/index.php +140
 ;You still can not find what you were looking for? Try searching mageia.org:
-¿Todavía no encuentras lo que estabas buscando? Intente buscar mageia.org:
+¿Todavía no encuentras lo que estabas buscando? Haga una búsqueda en mageia.org:

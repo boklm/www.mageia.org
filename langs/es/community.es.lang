@@ -1,25 +1,25 @@
 ;Mageia Community
-Mageia Community
+Comunidad Mageia
 
 
 ;Mageia Community Central is the place where all contributors and users can find the latest news about Mageia and learn more about what to do in the project.
-Mageia Community Central is the place where all contributors and users can find the latest news about Mageia and learn more about what to do in the project.
+La Central de la Comunidad Mageia es el sitio donde contribuidores y usuarios pueden encontrar las últimas noticias sobre Mageia y aprender más sobre lo que pueden hacer por el proyecto.
 
 
 ;mageia, community, news, tools, tasks
-mageia, community, news, tools, tasks
+mageia, comunidad, noticias, herramientas, tareas
 
 
 ;Mageia Community Central
-Mageia Community Central
+Central de la Comunidad Mageia Mageia
 
 
 ;http://blog.mageia.org/en/
-http://blog.mageia.org/en/
+http://blog.mageia.org/es/
 
 
 ;Blog
-Blog
+Blog {ok}
 
 
 ;http://planet.mageia.org/en/
@@ -27,19 +27,19 @@ http://planet.mageia.org/es/
 
 
 ;Planet
-Planet
+Planeta
 
 
 ;Calendar
-Calendar
+Calendario
 
 
 ;https://forum.mageia.org/en/
-https://forum.mageia.org/en/
+https://forum.mageia.org/es/
 
 
 ;Forums
-Forums
+Foros
 
 
 ;http://wiki.mageia.org/
@@ -47,47 +47,47 @@ http://wiki.mageia.org/
 
 
 ;News
-News
+Noticias
 
 
 ;How to contribute?
-How to contribute?
+¿Cómo contribuir?
 
 
 ;Start here
-Start here
+Comience aquí
 
 
 ;and meet us on <a href="http://wiki.mageia.org/en/IRC">IRC</a>.
-and meet us on <a href="http://wiki.mageia.org/en/IRC">IRC</a>.
+y visítenos en <a href="http://wiki.mageia.org/en/IRC">IRC</a>.
 
 
 ;You can also <a href="../donate/">support financially</a> the project!
-You can also <a href="../donate/">support financially</a> the project!
+¡Puede <a href="../donate/">apoyarnos financieramente</a>!
 
 
 ;Toolbox
-Toolbox
+Herramientas
 
 
 ;Wiki</a> &larr; collaborative documentation
-Wiki</a> &larr; collaborative documentation
+Wiki</a> &larr; documentación colaborativa
 
 
 ;Bugzilla</a> &larr; to report bugs
-Bugzilla</a> &larr; to report bugs
+Bugzilla</a> &larr; para reportar fallos
 
 
 ;Forum
-Forum
+Foros
 
 
 ;Mageia Applications Database
-Mageia Applications Database
+Base de datos de Aplicaciones Mageia
 
 
 ;For developers &amp; packagers
-For developers &amp; packagers
+Para desarrolladores y empaquetadores
 
 
 ;Subversion
@@ -95,104 +95,104 @@ Subversion
 
 
 ;Git</a> code repositories
-Git</a> code repositories
+repositorios de código Git</a>
 
 
 ;Packages submission queue
-Packages submission queue
+Cola de paquetes enviados
 
 
 ;unmaintained packages
-unmaintained packages
+paquetes no mantenidos
 
 
 ;Global QA report
-Global QA report
+Reportes de control de calidad (QA)
 
 
 ;Conversations
-Conversations
+Conversaciones
 
 
 ;... or, how to get in touch with us? Easy:
-... or, how to get in touch with us? Easy:
+... o, ¿Como contactarnos? Es fácil:
 
 
 ;IRC</a> on Freenode
-IRC</a> on Freenode
+IRC</a> en Freenode
 
 
 ;mailing-lists 1</a> &amp; <a href="http://ml.mageia.org/">2
-mailing-lists 1</a> &amp; <a href="http://ml.mageia.org/">2
+Listas de correo 1</a> &amp; <a href="http://ml.mageia.org/">2
 
 
 ;in real life!
-in real life!
+¡En persona!
 
 
 ;during events!
-during events!
+¡Durante los eventos!
 
 
 ;Teams you can join!
-Teams you can join!
+¡Equipos en los que puede ayudar!
 
 
 ;Atelier
-Atelier
+Atelier {ok}
 
 
 ;Documentation
-Documentation
+Documentación
 
 
 ;Packaging
-Packaging
+Empaquetado
 
 
 ;Testing &amp; <abbr title="Quality Assurance">QA</abbr>
-Testing &amp; <abbr title="Quality Assurance">QA</abbr>
+Pruebas y <abbr title="Control de Calidad">QA</abbr>
 
 
 ;Translation
-Translation
+Traducción
 
 
 ;Systems &amp; infrastructure administration
-Systems &amp; infrastructure administration
+Administración de sistemas e infraestructura
 
 
 ;Mageia
-Mageia
+Mageia {ok}
 
 
 ;More about Mageia
-More about Mageia
+Más sobre Mageia
 
 
 ;Our <a href="../about/code-of-conduct/">code of conduct</a> and <a href="../about/values/">values</a>
-Our <a href="../about/code-of-conduct/">code of conduct</a> and <a href="../about/values/">values</a>
+Nuestro <a href="../about/code-of-conduct/">codigo de conducta</a> y <a href="../about/values/">valores</a>
 
 
 ;Our governance model</a> and structure:
-Our governance model</a> and structure:
+Nuestro modelo de gobierno</a> y estructura:
 
 
 ;Teams
-Teams
+Equipos
 
 
 ;the Council
-the Council
+El consejo
 
 
 ;the Board
-the Board
+La directiva
 
 
 ;<a href="../donate/">Donations</a> &amp; <a href="../about/reports/">reports</a>.
-<a href="../donate/">Donations</a> &amp; <a href="../about/reports/">reports</a>.
+<a href="../donate/">Donaciones</a> y <a href="../about/reports/">reportes</a>.
 
 
 ;This page needs you! <a href="https://wiki.mageia.org/en/Web_team">Join the Web team</a>!
-This page needs you! <a href="https://wiki.mageia.org/en/Web_team">Join the Web team</a>!
+¡Esta pagina le necesita! ¡<a href="https://wiki.mageia.org/en/Web_team">Únase al equipo Web</a>!
