@@ -15,6 +15,7 @@ _lang_load($locale, 'values');
     <?php include '../../../analytics.php'; ?>
 </head>
 <body class="about">
+    <?php echo $hsnav; ?>
     <h1 id="mgnavt"><?php _e('Values')?></h1>
     <div id="doc" class="yui-t7">
         <div id="bd" role="main">
