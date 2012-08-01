@@ -11,7 +11,7 @@ mageia, comunidad, noticias, herramientas, tareas
 
 
 ;Mageia Community Central
-Central de la Comunidad Mageia Mageia
+Central de la Comunidad Mageia
 
 
 ;http://blog.mageia.org/en/
@@ -47,7 +47,7 @@ Foros
 
 
 ;http://wiki.mageia.org/
-http://wiki.mageia.org/
+http://wiki.mageia.org/ {ok}
 
 
 ;News
@@ -55,7 +55,7 @@ Noticias
 
 
 ;How to contribute?
-¿Cómo contribuir?
+¿Cómo participar?
 
 
 ;Start here
@@ -67,7 +67,7 @@ y visítenos en <a href="http://wiki.mageia.org/en/IRC">IRC</a>.
 
 
 ;You can also <a href="../donate/">support financially</a> the project!
-¡Puede <a href="../donate/">apoyarnos financieramente</a>!
+¡Puede <a href="../donate/">apoyar financieramente</a> al proyecto!
 
 
 ;Toolbox
@@ -95,7 +95,7 @@ Para desarrolladores y empaquetadores
 
 
 ;Subversion
-Subversion
+Subversion {ok}
 
 
 ;Git</a> code repositories
@@ -119,7 +119,7 @@ Conversaciones
 
 
 ;... or, how to get in touch with us? Easy:
-... o, ¿Como contactarnos? Es fácil:
+... o, ¿Cómo contactarnos? Es fácil:
 
 
 ;IRC</a> on Freenode
@@ -175,7 +175,7 @@ Más sobre Mageia
 
 
 ;Our <a href="../about/code-of-conduct/">code of conduct</a> and <a href="../about/values/">values</a>
-Nuestro <a href="../about/code-of-conduct/">codigo de conducta</a> y <a href="../about/values/">valores</a>
+Nuestro <a href="../about/code-of-conduct/">código de conducta</a> y <a href="../about/values/">valores</a>
 
 
 ;Our governance model</a> and structure:
@@ -199,4 +199,4 @@ La directiva
 
 
 ;This page needs you! <a href="https://wiki.mageia.org/en/Web_team">Join the Web team</a>!
-¡Esta pagina le necesita! ¡<a href="https://wiki.mageia.org/en/Web_team">Únase al equipo Web</a>!
+¡Esta página le necesita! ¡<a href="https://wiki.mageia.org/en/Web_team">Únase al equipo Web</a>!
