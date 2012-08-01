@@ -13,7 +13,7 @@ mageia, contribuir, como, sistema operativo
 
 
 ;Many people from all over the world gather to build Mageia &ndash; a Linux-based operating system <em>and</em> a <a href="../about/code-of-conduct/">lively, fun community</a> for <a href="../about/values/">building Free Software projects</a>.
-Mucha gente de todo el mundo se reune para construir Mageia &ndash; un sistema operativo de GNU/Linux <em>y</em> <a href="../about/code-of-conduct/">una comunidad activa</a> para <a href="../about/values/">crear proyectos de software</a>.
+Mucha gente de todo el mundo se reune para construir Mageia &ndash; un sistema operativo basado en Linux <em>y</em> <a href="../about/code-of-conduct/">una comunidad activa</a> para <a href="../about/values/">crear proyectos de software</a>.
 
 
 ;Contributing is open to anyone, this is Free Software! If you are curious and willing to join, there are things you can do, depending on your time and skills; you will always find someone to welcome and help/mentor you if needed so that your contribution to the project can be as good as it can be!
@@ -21,19 +21,19 @@ Contribuir es libre para todos, ¡esto es software libre! Si tienes curiosidad y
 
 
 ;Check what you could do below!
-¡Observa lo que puedes hacer acontinuación!
+¡Observa lo que puedes hacer a continuación!
 
 
 ;Roles
-Roles
+Roles {ok}
 
 
 ;Helping users &amp; advocating the project
-Ayudando usuarios &amp; Promoviendo el proyecto
+Ayudar a usuarios y promover el proyecto
 
 
 ;Want to welcome and help new users or share tips with experienced ones? In <a href="https://wiki.mageia.org/en/IRC">IRC channels</a>, <a href="http://forums.mageia.org/">forums</a>, <a href="http://mageia.org/mailman/">mailing-lists</a>, local events? Just get in touch with us via one of these channels and share the fun!
-¿Quieres darle la bienvenida a los usuarios y ayudar a los nuevos usuarios o compartir trucos con usuarios expertos? ¿En los <a href="https://wiki.mageia.org/en/IRC">canales IRC</a>, <a href="http://forums.mageia.org/">Foros</a>, <a href="http://mageia.org/mailman/">listas de correo</a>, eventos locales? ¡Ponte en contacto con nosotros vía estos medios de comunicación y comparte la diversión!
+¿Quieres dar la bienvenida y ayudar a los usuarios o compartir trucos con usuarios expertos? ¿En los <a href="https://wiki.mageia.org/en/IRC">canales IRC</a>, <a href="http://forums.mageia.org/">Foros</a>, <a href="http://mageia.org/mailman/">listas de correo</a>, eventos locales? ¡Ponte en contacto con nosotros vía estos medios de comunicación y comparte la diversión!
 
 
 ;Writing, copywriting and documenting
@@ -53,7 +53,7 @@ Traducción
 
 
 ;Triaging
-Triage
+Clasificación de fallos
 
 
 ;Bugs happen! And some get reported. So, logically they need to be triaged to make the task of the packagers/developers fixing them easier: validation (is the bug reproducible?), collecting the needed debugging info from the reporter, assigning the report properly. <a href="https://wiki.mageia.org/en/Bug_Squad">Grow the Triage team</a> and be the link between users who report bugs in the forums or mailing-lists, and the <a href="http://bugs.mageia.org/">Mageia Bugzilla</a> used by developers.
@@ -61,11 +61,11 @@ Los bugs son inevitables. Y algunos incluso se dan a conocer. Lógicamente, se d
 
 
 ;Testing &amp; <abbr title="Quality Assurance">QA</abbr>
-Pruebas &amp; <abbr title="Quality Assurance">QA</abbr>
+Pruebas y <abbr title="Control de Calidad">QA</abbr>
 
 
 ;We can't ship software if we are not confident it works well! <a href="https://wiki.mageia.org/en/QA_Team">Testers and QA</a> people make sure what we do (software, packages, ISO's, Web sites) match our expectations for quality before they reach users.
-¡No podemos enviar software si no estamos seguros de que funcionará bien! <a href="https://wiki.mageia.org/en/QA_Team">Testers y QA</a> hay que asegurarse de que los productos (software, paquetes, ISO's, sitios web) cumplan con nuestras expectativas de calidad antes de que lleguen a los usuarios.
+¡No podemos enviar software si no estamos seguros de que funcionará bien! <a href="https://wiki.mageia.org/en/QA_Team">Probadores y control de calidad</a> se aseguran de que los productos (software, paquetes, ISOs, sitios web) cumplan con nuestras expectativas de calidad antes de que lleguen a los usuarios.
 
 
 ;Marketing, Communication &amp; Evangelism
@@ -77,7 +77,7 @@ Mejor entendimiento de quien usa y contribuye con el proyecto para ayudarlos aú
 
 
 ;Graphic &amp; UI design
-Gráficos &amp; diseño de UI
+Gráficos y diseño de Interfaces de Usuario
 
 
 ;Software isn't only about code neither is Mageia only about technology. So make it human, practical and beautiful! If you have a talent and experience in graphic design, ergonomics <a href="https://wiki.mageia.org/en/Artwork_team">join the artwork team</a>!
@@ -105,7 +105,7 @@ Duplicar fuentes de descarga
 
 
 ;Making all the software provided by Mageia available requires <a href="http://mirrors.mageia.org/">several mirrors around the world</a>, to distribute ISO's and software packages. If you have some disk space and bandwidth to share, please <a href="https://wiki.mageia.org/en/Mirrors_policy#How_to_.28become_a.29_mirror.3F">see how you can provide an official Mageia mirror</a>.
-Hacer que el software de Mageia esté disponible requiere de <a href="http://mirrors.mageia.org/">varias fuentes de descarga (mirrors) alrededor del mundo</a>, para distribuir ISO's y paquetes de software. Si tienes algo de espacio en disco y banda ancha para compartir, por favor <a href="https://wiki.mageia.org/en/Mirrors_policy#How_to_.28become_a.29_mirror.3F">infórmate de cómo puedes proveer un mirror oficial de Mageia</a>.
+Hacer que el software de Mageia esté disponible requiere de <a href="http://mirrors.mageia.org/">varias fuentes de descarga (mirrors) alrededor del mundo</a>, para distribuir ISOs y paquetes de software. Si tienes algo de espacio en disco y banda ancha para compartir, por favor <a href="https://wiki.mageia.org/en/Mirrors_policy#How_to_.28become_a.29_mirror.3F">infórmate de cómo puedes proveer un mirror oficial de Mageia</a>.
 
 
 ;Donating
