@@ -259,7 +259,7 @@ $_t = array(
         'h3_context' => 'Mageia dans son contexte',
         'mageia_began' => 'La distribution Mageia est arrivée en septembre 2010 comme
                         <a href="/fr/about/2010-sept-announcement.html">un fork de Mandriva Linux</a>.
-                        Elle est appuyée par une <a href="/en/about/">association à but non lucratif</a>,
+                        Elle est appuyée par une <a href="/fr/about/">association à but non lucratif</a>,
                         <a href="https://wiki.mageia.org/en/Org">régie par</a>
                         un corps de contributeurs élus et reconnus</a>,
                         et développée par plus d\'une centaine de personnes de par le monde.',
@@ -273,9 +273,9 @@ $_t = array(
                         professionnelle.',
         '9_months' => '9&nbsp;mois après le <a href="/fr/about/2010-sept-announcement.html">lancement du projet</a>, nous avons atteint&nbsp;:',
         'people' => 'Plus d\'<a href="/fr/contribute/">une centaine de contributeurs</a> dans <a href="https://wiki.mageia.org/en/Contributing">une douzaine d\'équipes</a>.
-                        Plus de <a href="/en/thank-you/">180&nbsp;généreux donateurs</a> pour
+                        Plus de <a href="/fr/thank-you/">180&nbsp;généreux donateurs</a> pour
                         un total de <a href="/fr/donate/">11&nbsp;700&nbsp;&#8364</a>, dont seulement
-                        <a href="/en/about/reports/2011/">4&nbsp;700&nbsp;&#8364 ont été dépensés</a> jusqu\'à
+                        <a href="/fr/about/reports/2011/">4&nbsp;700&nbsp;&#8364 ont été dépensés</a> jusqu\'à
                         maintenant, avec 20&nbsp;000&nbsp;&#8364 prévus pour 2011.',
         'prereleases' => '5&nbsp;versions de développement intermédiaires.
                         7&nbsp;389&nbsp;paquets sources,

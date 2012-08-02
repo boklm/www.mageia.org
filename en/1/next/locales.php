@@ -228,7 +228,7 @@ $_t = array(
         'place_and_format' => 'Sur votre blog (ou <a href="http://blog.mageia.org/">sur le notre</a>),
                         sur <a href="http://twitter.com/">Twitter</a>,
                         sur <a href="http://facebook.com/">Facebook</a>,
-                        sur <a href="http://forum.mageia.org/">notre forum</a>,
+                        sur <a href="http://forum.mageia.org/fr/">notre forum</a>,
                         ou tout autre endroit ou format auquel vous pourriez penser&nbsp;!',
         'h2_where_go' => 'Vers quoi allons-<strong>nous</strong> nous diriger à partir d\'ici&nbsp;?',
         'where_go_1' => 'Vous pouvez <a href="/fr/contribute/">nous rejoindre</a>
@@ -246,7 +246,7 @@ $_t = array(
                 'pourquoi ne pas améliorer certaines parties de ce site Web pour faciliter le travail des contributeurs&nbsp;?',
                 'et quelles sont <strong>vos idées</strong>&nbsp;?'),
         'text_relax_2' => 'Nous en reparlerons plus tard durant le mois de juin,
-                        alors restez à l\'écoute de <a href="http://blog.mageia.org/">notre blog</a>
+                        alors restez à l\'écoute de <a href="http://blog.mageia.org/fr/">notre blog</a>
                         et de <a href="http://twitter.com/mageia_org">notre compte Twitter</a>&nbsp;!'
     ),
     'it' => array(
