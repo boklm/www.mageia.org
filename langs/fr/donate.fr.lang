@@ -4,24 +4,12 @@
 Donnez à Mageia
 
 
+;mageia, donate, donation, donors, help
+mageia, donner, don, donateurs, aide
+
+
 ;Why donate?
 Pourquoi donner&nbsp;?
-
-
-;Donation Tracks
-Suivi des dons
-
-
-;Donate
-Faire un don
-
-
-;Thank you!
-Merci&nbsp;!
-
-
-;PayPal, bank, check
-PayPal, virement bancaire, chèque
 
 
 ;Mageia.Org is a not-for-profit association to manage the Mageia distribution. As a not-for-profit association, it can receive donations from the community to help in a lot of differents fields:
@@ -53,7 +41,7 @@ dépenses administratives&nbsp;;
 
 
 ;etc.
-etc.
+etc. {ok}
 
 
 ;How to track donation?
