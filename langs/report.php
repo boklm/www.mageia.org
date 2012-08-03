@@ -24,7 +24,7 @@
     .lv { display: inline-block; -webkit-transform: rotate(-40deg); }
     .action { font-size: smaller; display: inline-block; text-align: center;
         text-decoration: none; padding: 0.3em; border-radius: 3px;
-        background: rgba(0, 0, 0, 0.5); }
+        background: rgba(0, 0, 0, 0.1); }
     .viewpage {}
     .addlang { color: #333; }
     </style>
