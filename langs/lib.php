@@ -64,9 +64,20 @@ if ( ! function_exists('glob_recursive'))
     {
         $files = glob($pattern, $flags);
 
+//      removing dirs from $files as they are not files ;)
+        $files_wo_dirs = array();
+        foreach ($files as $single_file) {
+            $single_file_as_string = str_split($single_file);
+            $last_sign = array_pop($single_file_as_string);
+            if($last_sign != '/') {
+                $files_wo_dirs[] = $single_file;
+            };
+        }
+        $files = $files_wo_dirs;
+
         foreach (glob(dirname($pattern).'/*', GLOB_ONLYDIR|GLOB_NOSORT) as $dir)
         {
-            $files = array_merge($files, glob_recursive($dir.'/'.basename($pattern), $flags));
+			$files = array_merge($files, glob_recursive($dir.'/'.basename($pattern), $flags));
         }
 
         return $files;
