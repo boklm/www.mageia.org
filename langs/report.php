@@ -17,10 +17,14 @@
     .strings { background: orange; }
     .missing {}
     .strings, .missing { font-size: 80%; }
-    .number, .strings, .missing { text-align: right; }
+    .number { text-align: right; }
     .small { font-size: 80%; }
     td, th { vertical-align: top; font-family: Arial; font-size: 80%; }
+    td { vertical-align: middle; }
     .lv { display: inline-block; -webkit-transform: rotate(-40deg); }
+    .action { font-size: smaller; display: block; padding: 0.3em; border-radius: 3px; }
+    .viewpage { background: green; }
+    .addlang { background: #eee; color: #333; }
     </style>
 </head>
 <body class="contribute">
@@ -53,7 +57,7 @@
 
         $stats['en']['files'] += 1;
 
-        $s = sprintf('<tr><th>%s<br><span style="font-weight: normal; font-size: smaller;">(%s)</span></th>',
+        $s = sprintf('<tr><th>%s<br><span style="font-weight: normal; font-size: smaller;">%s</span></th>',
             $langs[$l], $l);
 
         $cols = '';
@@ -68,7 +72,7 @@
                 $stats[$l]['files'] += 1;
 
                 $link = str_replace(array('en/', '.en.lang', 'index'), '', $f);
-                $link = sprintf('<a href="//www.mageia.org/%s/%s" style="font-size: smaller; display: block;">check page</a>', $l, $link);
+                $link = sprintf('<a href="//www.mageia.org/%s/%s" class="action viewpage">view page</a>', $l, $link);
 
                 $test = _lang_diff($f, $langF);
 
@@ -77,7 +81,7 @@
 
                     $extra = null;
                     if (count($test['extra']) > 0) {
-                        $extra = ' <span class="small">' . sprintf($diff_link, $f, $l) . '(+' . count($test['extra']) . ')</a></span>';
+                        $extra = ' <span class="small">' . sprintf($diff_link, $f, $l) . '+' . count($test['extra']) . '</a></span>';
                     }
 
                     $cols .= sprintf('<td class="ok"><a href="%s" title="get a copy of the file">OK</a>%s%s</td>',
@@ -117,7 +121,7 @@
             } else {
                 $stats[$l]['files'] += 0;
                 $stats[$l]['strings'] += 0;
-                $cols .= sprintf('<td class="missing"><a href="missing.php?s=%s&l=%s">add</a></td>',
+                $cols .= sprintf('<td class="missing"><a href="missing.php?s=%s&l=%s" class="action addlang">add</a></td>',
                     $f, $l
                 );
             }
@@ -140,6 +144,7 @@
     array_unshift($languages, $en_language); // unshift English back
     $s = implode($languages);
 
+    $enFiles = array_map(function ($e) { return str_replace('en/', '', $e); }, $enFiles);
     $thfiles = '<th>' . implode('</th><th>', $enFiles) . '</th>';
     $count   = count($otherLangs);
 
@@ -147,7 +152,7 @@
 <table border="1">
 <thead><tr>
     <th>{$count} languages</th>
-    <th>Completeness</th>
+    <th>Progress</th>
     {$thfiles}
 </tr></thead>
 <tbody>
