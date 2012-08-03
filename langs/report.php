@@ -13,17 +13,17 @@
         text-decoration: none;
         color: inherit;
     }
-    .ok { color: darkgreen; background: lightgreen; text-align: center; }
-    .strings { background: orange; }
-    .missing {}
-    .strings, .missing { font-size: 80%; }
+    .ok { color: darkgreen; background: lightgreen; }
+    .ok, .strings, .missing { text-align: center; }
     .number { text-align: right; }
+    .strings { background: orange; }
+    .strings, .missing { font-size: 80%; }
     .small { font-size: 80%; }
-    td, th { vertical-align: top; font-family: Arial; font-size: 80%; padding: 0.2em; }
+    td, th { vertical-align: top; font-family: Arial; font-size: 80%; padding: 0.3em; }
     td { vertical-align: middle; }
     .lv { display: inline-block; -webkit-transform: rotate(-40deg); }
-    .action { font-size: smaller; display: inline-block; text-align: center;
-        text-decoration: none; padding: 0.3em; border-radius: 3px;
+    .action { font-size: smaller; display: block; text-align: center;
+        text-decoration: none; padding: 0.3em 0.5em; border-radius: 3px;
         background: rgba(0, 0, 0, 0.1); }
     .viewpage {}
     .addlang { color: #333; }
