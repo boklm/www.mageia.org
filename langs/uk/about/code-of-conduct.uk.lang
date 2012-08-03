@@ -133,22 +133,22 @@ mageia, values, conduct, rules, правила, поведінка, ціннос
 
 # /web/en/about/code-of-conduct/index.php +70
 ;The Free Software Movement depends on collaboration: it helps limit duplication of effort while improving the quality of the produced software. In order to avoid misunderstanding, try to be clear and concise when requesting or giving help. Remember that it is easy to misunderstand emails (especially when they are not written in your mother tongue). Ask for clarifications if something seems unclear; remember the first rule - first, assume that people mean well.
-The Free Software Movement depends on collaboration: it helps limit duplication of effort while improving the quality of the produced software. In order to avoid misunderstanding, try to be clear and concise when requesting or giving help. Remember that it is easy to misunderstand emails (especially when they are not written in your mother tongue). Ask for clarifications if something seems unclear; remember the first rule - first, assume that people mean well.
+Успіх руху за вільне програмне забезпечення залежить від співпраці: співпраця надає змогу уникнути дублювання зусиль, покращуючи якість створеного програмного забезпечення. З метою уникнення непорозумінь намагайтеся чітко і коротко формулювати запити щодо допомоги. Пам’ятайте, що текст електронного повідомлення легко зрозуміти неправильно (особливо, якщо ви пишете його не рідною мовою). Попросіть про роз’язснення, якщо чогось не зрозуміли; пам’ятайте про перше правило: передусім, слід вважати, що вам хочуть добра.
 
 
 # /web/en/about/code-of-conduct/index.php +72
 ;As a contributor, you should aim to collaborate with other community members as well as with other communities (upstream projects for instance) that are interested in, or depend on the work you do. Your work should be transparent and be fed back into the community as quickly as possible (even when not fully completed). If you wish to work on something new in existing projects, keep those projects team informed of your ideas and progress.
-As a contributor, you should aim to collaborate with other community members as well as with other communities (upstream projects for instance) that are interested in, or depend on the work you do. Your work should be transparent and be fed back into the community as quickly as possible (even when not fully completed). If you wish to work on something new in existing projects, keep those projects team informed of your ideas and progress.
+Як учасник розробки, ви маєте ставити собі на меті співпрацю з іншими учасниками спільноти, а також з учасниками інших спільнот (наприклад, проектів, код яких включено до дистрибутива), які є зацікавленими у такій співпраці або робота яких залежить від результатів вашої роботи. Ваша робота має бути відкритою для тестування та обговорення спільнотою на якомога раніших етапах (навіть якщо цю роботу не завершено). Якщо ви хочете попрацювати над чимось зовсім новим у вже створених проектах, інформуйте команду цих проектів про ваші ідеї та поступ у досягненні мети.
 
 
 # /web/en/about/code-of-conduct/index.php +74
 ;It may not always be possible to reach consensus on the implementation of an idea, so don't feel obliged to achieve this before you begin. However, always ensure that you keep the outside world informed of your work and publish it in a way that allows outsiders to test, discuss, and contribute to your efforts.
-It may not always be possible to reach consensus on the implementation of an idea, so don't feel obliged to achieve this before you begin. However, always ensure that you keep the outside world informed of your work and publish it in a way that allows outsiders to test, discuss, and contribute to your efforts.
+Повної згоди щодо реалізації ідеї вдається досягти не завжди, тому не намагайтеся досягти консенсусу до того, як розпочнете роботу. Втім, завжди інформуйте всіх про вашу роботу та оприлюднюйте її у такий спосіб, щоб інші могли перевірити її, обговорити її та допомогти вам у ваших зусиллях.
 
 
 # /web/en/about/code-of-conduct/index.php +76
 ;Contributors to every project come and go. When you leave or disengage from the project, in whole or in part, you should do so with pride about what you have achieved and by acting responsibly towards others who come after you to continue working on the project.
-Contributors to every project come and go. When you leave or disengage from the project, in whole or in part, you should do so with pride about what you have achieved and by acting responsibly towards others who come after you to continue working on the project.
+Перелік учасників розробки будь-якого проекту може змінюватися. Якщо ви полишаєте проект, цілковито або частково, вам слід робити це з належною повагою до власної роботи та діяти відповідально щодо тих, хто прийде після вас і продовжить роботу над проектом.
 
 
 # /web/en/about/code-of-conduct/index.php +78
@@ -168,7 +168,7 @@ Mageia — це прагматична спільнота.
 
 # /web/en/about/code-of-conduct/index.php +84
 ;We value tangible results over having the last word in a discussion. We defend our core values like freedom and respectful collaboration, but we don't let arguments about minor issues get in the way of achieving more important results. We are open to suggestions and welcome solutions regardless of their origin. When in doubt, support a solution which helps getting things done over one which has theoretical merits, but isn't being implemented. Use the tools and methods which help get the job done. Let decisions be made by those who do the work. If some issues arise that seem irreconcilable, consult the relevant team leader. If necessary, the Mageia Council may be consulted.
-We value tangible results over having the last word in a discussion. We defend our core values like freedom and respectful collaboration, but we don't let arguments about minor issues get in the way of achieving more important results. We are open to suggestions and welcome solutions regardless of their origin. When in doubt, support a solution which helps getting things done over one which has theoretical merits, but isn't being implemented. Use the tools and methods which help get the job done. Let decisions be made by those who do the work. If some issues arise that seem irreconcilable, consult the relevant team leader. If necessary, the Mageia Council may be consulted.
+Ми надаємо перевагу реальним результатам, а не красномовності у обговореннях. Ми захищаємо наші основні цінності, зокрема свободу та відповідальну співпрацю, але ми не дозволимо повідомленням про незначні проблеми ставали на заваді досягненню важливіших результатів. Ми відкриті до пропозицій та вітаємо допомогу, незалежно від її походження. У спірних випадках ми надаватимемо перевагу реальним результатам, а не теоретичним розмірковуванням, які можуть хоч і можуть надати переваги, але є далекими від реалізації. Користуйтеся інструментами та способами, які роблять можливим виконання поставленого вами завдання. Нехай рішення прийматимуть ті, хто робить реальну роботу. Якщо виникають проблеми, які здаються нерозв’язними, порадьтеся з лідером відповідної команди. Якщо потрібно, ви можете проконсультуватися з радою Mageia.
 
 
 # /web/en/about/code-of-conduct/index.php +87
@@ -183,12 +183,12 @@ We value tangible results over having the last word in a discussion. We defend o
 
 # /web/en/about/code-of-conduct/index.php +91
 ;If you witness others being attacked, think first about how you can offer them personal support. If you feel that the situation is beyond your ability to help individually, go privately to the victim and ask if some form of official intervention is needed. Similarly you should support anyone who appears to be in danger of burning out, either through work-related stress or personal problems.
-If you witness others being attacked, think first about how you can offer them personal support. If you feel that the situation is beyond your ability to help individually, go privately to the victim and ask if some form of official intervention is needed. Similarly you should support anyone who appears to be in danger of burning out, either through work-related stress or personal problems.
+Якщо ви стаєте свідком нападу на інших користувачів, спочатку подумайте про те, як ви можете допомогти атакованим особисто. Якщо вам здається, що ви не зможете допомогти особисто, зв’яжіться з атакованою особою конфіденційно і спитайте, чи не потрібне їй офіційне втручання. Так само, вам слід підтримувати всіх, хто перебуває у небезпеці через клопоти, пов’язані з роботою, або через особисті проблеми.
 
 
 # /web/en/about/code-of-conduct/index.php +93
 ;When problems arise, consider respectfully reminding those involved of our shared Code of Conduct as a first action. Leaders are defined by their actions, and can help set a good example by working to resolve issues in the spirit of this Code of Conduct before those issues escalate.
-When problems arise, consider respectfully reminding those involved of our shared Code of Conduct as a first action. Leaders are defined by their actions, and can help set a good example by working to resolve issues in the spirit of this Code of Conduct before those issues escalate.
+Якщо виникають проблеми, спробуйте ввічливо нагадати всім втягнутим у конфлікт про те, що слід виконувати наші спільні Правила поведінки. Лідери визначаються за діями і можуть слугувати добрим прикладом, працюючи над розв’язанням проблем у дусі цих Правил поведінки до того, як проблеми набудуть загрозливих масштабів.
 
 
 # /web/en/about/code-of-conduct/index.php +96
@@ -198,12 +198,12 @@ When problems arise, consider respectfully reminding those involved of our share
 
 # /web/en/about/code-of-conduct/index.php +98
 ;Disagreements, both political and technical, happen all the time. Our community is not an exception. The goal is not to avoid disagreements or differing views but to resolve them constructively. You should turn to the community to seek advice and to resolve disagreements, and where possible, consult the team(s) most directly involved.
-Disagreements, both political and technical, happen all the time. Our community is not an exception. The goal is not to avoid disagreements or differing views but to resolve them constructively. You should turn to the community to seek advice and to resolve disagreements, and where possible, consult the team(s) most directly involved.
+Різноманітні конфлікти, політичні і технічні, трапляються весь час. Наша спільнота не є винятком. Ми не уникаємо суперечок або відмінностей у поглядах, а намагаємося розв’язати всі конфлікти конструктивно. Для отримання порад та розв’язування конфліктів звертайтеся до спільноти і, якщо можливо, порадьтеся з пов’язаними з проблемою командами.
 
 
 # /web/en/about/code-of-conduct/index.php +100
 ;Think deeply before turning a disagreement into a public dispute. If necessary request mediation and attempt to resolve differences in a less highly-emotional medium. If you do feel that you or your work is being attacked, take your time to breathe before writing heated replies. Consider a 24 hour moratorium if emotional language is being used - a cooling off period is sometimes all that is needed. If you really want to go a different way, then we encourage you to publish your ideas and your work, so that it can be tried and tested.
-Think deeply before turning a disagreement into a public dispute. If necessary request mediation and attempt to resolve differences in a less highly-emotional medium. If you do feel that you or your work is being attacked, take your time to breathe before writing heated replies. Consider a 24 hour moratorium if emotional language is being used - a cooling off period is sometimes all that is needed. If you really want to go a different way, then we encourage you to publish your ideas and your work, so that it can be tried and tested.
+Перед тим, як виносити проблему на загальне обговорення, добре подумайте. Якщо потрібно, попросіть про арбітраж і спробуйте усунути проблему без зайвих емоцій. Якщо ви вважаєте, що відбувається особистий напад на вас або вашу команду, спробуйте все добре обдумати і усунути зайву гарячковість з вашої відповіді. Намагайтеся утриматися від відповіді протягом 24 годин, якщо ви отримали занадто емоційне повідомлення: іноді для того, щоб градус дискусії знизився, достатньо просто почекати. Якщо ви все ж вважаєте, що слід вчинити інакше, вам варто оприлюднити ваші ідеї і роботу так, щоб інші користувачі могли випробувати їх.
 
 
 # /web/en/about/code-of-conduct/index.php +102
