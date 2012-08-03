@@ -1,7 +1,7 @@
 <?php
 define('HLANG', true);
 require '../../../langs.php';
-_lang_load($locale, 'code-of-conduct');
+_lang_load($locale, 'about/code-of-conduct');
 
 ?><!DOCTYPE html>
 <html dir="ltr" lang="<?php echo $locale; ?>">
