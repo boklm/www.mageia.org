@@ -68,7 +68,7 @@ publikigis du ĉefajn stabilajn versiojn <a href="../1/">junie 2011</a> kaj <a h
 
 # /en/about/index.php +69
 ;<a href=%s>Mageia.Org's legal constitution</a> and <a href=%s>governance</a> rules;
-<a href=%s>Statuto </a> kaj <a href=%s>governance</a> regad-reguloj de Mageia.Org;
+<a href=%s>Statuto </a> kaj <a href=%s>Regad-reguloj</a> de Mageia.Org;
 
 
 # /en/about/index.php +72
@@ -77,8 +77,8 @@ estas franca (pariza) leĝa persono subtenanta la Magejan projekton.
 
 
 # /en/about/index.php +74
-;<a href="../about/reports/">financial reports</a>, <a href="../thank-you/">donators</a>.
-<a href="../about/reports/">financo-raportoj</a>, <a href="../thank-you/">donantoj</a>.
+;<a href="./reports/">financial reports</a>, <a href="../thank-you/">donators</a>.
+<a href="./about/reports/">financo-raportoj</a>, <a href="../thank-you/">donantoj</a>.
 
 
 # /en/about/index.php +78

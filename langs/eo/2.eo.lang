@@ -108,7 +108,7 @@ Inkluditaj lokaĵaroj:
 
 # en/2/download_index.php +167
 ;Wired Network-based Installation CD
-Perkabla ret-bazita instal-KD
+Dratret-bazita instalo-KD
 
 
 # en/2/download_index.php +168
@@ -133,7 +133,7 @@ bezonata por kelkaj diskaj peliloj, kelkaj ret-kartoj, ktp.
 
 # en/2/download_index.php +198
 ;May 22<sup>nd</sup> 2012
-La 22an de majo<sup>nd</sup> 2012
+La 22<sup>an</sup> de majo 2012
 
 
 # en/2/download_index.php +200
@@ -158,7 +158,7 @@ vidu la <a href="%s" hreflang="en">ĝisdatigan gvidilon</a>
 
 # en/2/download_index.php +214
 ;Looking for Mageia 1?
-Ĉu vi serĉas Maejon 1?
+Ĉu vi serĉas Magejon 1?
 
 
 # en/2/download_index.php +215
@@ -167,8 +167,143 @@ vidu la <a href="%s" hreflang="en">ĝisdatigan gvidilon</a>
 
 
 # en/for-pc/index.php +12
-;page_title
-page_title
+;Mageia 2, for your PC
+Magejo 2, por via persona komputilo
+
+
+# en/for-pc/index.php +21
+;for your PC
+por via persona komputilo
+
+
+# en/for-pc/index.php +26
+;Plenty
+Multe
+
+
+# en/for-pc/index.php +27
+;There are 19&nbsp;881&nbsp;packages in our repositories. And that's just for the 64-bit branch.
+Estas 19&nbsp;881&nbsp;pakaĵoj en niaj deponejoj. Kaj tio estas nur en la 64-bita branĉo.
+
+
+# en/for-pc/index.php +28
+;The total number is double that &ndash; and then if you consider the backports, and the packages in the Cauldron still testing... you'll see that Mageia users are spoiled for choice.
+La totala nombro duoblas tiun ciferon &ndash; kaj se oni kalkulas la deponejon "backport" kaj la pakaĵojn testatajn en la Kaldrono... oni rimarkos ke la uzuloj de Magejo estas saturitaj per elektoj.
+
+
+# en/for-pc/index.php +29
+;Here's a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:
+Jen transversa tranĉo, unue de la grafikaj ĉirkaŭaĵoj kaj poste de la kernaj aplikaĵoj kiujn oni povas uzi en la labortablo:
+
+
+# en/for-pc/index.php +30
+;Environments
+Ĉirkaŭaĵoj
+
+
+# en/for-pc/index.php +31
+;Mageia 2 has all the major desktop environments:
+Magejo 2 havas la plej gravajn labortablajn ĉirkaŭaĵojn:
+
+
+# en/for-pc/index.php +44
+;And then there are the window managers, including Openbox, WindowMaker, IceWM, Fluxbox, Fvwm2 and Awesome.
+Kaj estas fenestraj administriloj, inkludante Openbox, WindowMaker, IceWM, Fluxbox, Fvwm2 kaj Awesome.
+
+
+# en/for-pc/index.php +45
+;Applications &rarr;
+Aplikaĵoj &rarr;
+
+
+# en/for-pc/index.php +46
+;There are many, many to choose from &ndash; including all the most popular.
+Estas multegaj elekteblaj aplikaĵoj &ndash; inkludante la plej popularajn.
+
+
+# en/for-pc/index.php +53
+;Web
+Paĝaro
+
+
+# en/for-pc/index.php +54
+;Choose your web browser from Firefox ESR 10.0.4, Chromium-browser 180.1025.160, Epiphany 3.4.1 or Opera 11.64 &ndash; or one of the many others such as Lynx or Konqueror; then pick an email client from KMail 4.8.2, Thunderbird ESR 10.0.4, Evolution 3.4.1 or maybe Claws-Mail or Mutt.
+Elektu vian retumilon inter Firefox ESR 10.0.4, Chromium-browser 180.1025.160, Epiphany 3.4.1 kaj Opera 11.64 &ndash; aŭ unu el multaj aliaj kiel Lynx aŭ Konqueror; tiam elektu retpoŝtan klienton inter Kmail 4.8.2, Thunderbird ESR 10.0.4, Evolution 3.4.1 aŭ eble Claws-Mail aŭ Mutt.
+
+
+# en/for-pc/index.php +59
+;Messaging
+Mesaĝado
+
+
+# en/for-pc/index.php +60
+;Choose from Kopete, Pidgin, Empathy or Kadu for instant messaging; use Quassel, Konversation, XChat-Gnome or KVIrc for IRC chat; try QuteCom or Ekiga (or even Skype) for VOIP.
+Elektu inter Kopete, Pidgin, Empathy kaj Kadu por tujmesaĝado; uzu Quassel, Konversation, XChat-Gnome aŭ KVirc por retbabilado; provu QuteCom aŭ Ekiga (aŭ eĉ Skype) por retotelefonado.
+
+
+# en/for-pc/index.php +65
+;Office
+Oficejo
+
+
+# en/for-pc/index.php +66
+;The two full-featured office suites LibreOffice and Calligra are there, as well as AbiWord, and a host of text editors including Kate; for finance there's KMyMoney, Skrooge or the professional-level GnuCash.
+La du plen-trajtaj oficejaj programoj LibreOffice kaj Calligra estas tie, kaj ankaŭ AbiWord, kaj aro da teksto-redaktiloj inkludante Kate; por financo estas KMyMoney, Skrooge aŭ la profesi-nivela GnuCash.
+
+
+# en/for-pc/index.php +71
+;Image
+Bildo
+
+
+# en/for-pc/index.php +72
+;Use GIMP for powerful image manipulation, or Inkscape for vector drawing; Blender is there for serious animation. DigiKam or Showfoto will take care of your photos, talk to your camera and give you more basic image editing.
+Uzu la potenca GIMP por bildo-traktado, aŭ Inkscape por vektor-desegnado; Blender estas tie por serioza animacio. Digikam aŭ Showfoto zorgos pri viaj fotoj, parolos kun via kamerao kaj havigos al vi bazan bildo-redaktadon.
+
+
+# en/for-pc/index.php +77
+;Sound
+Sono
+
+
+# en/for-pc/index.php +78
+;For playing audio files, choose from Amarok 2.5.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don't infringe local laws.
+Por ludi son-dosierojn elektu Amarok 2.5.0 aŭ Rhythmbox interalie; uzu VLC, Totem aŭ MPlayer por video kaj sono, aŭ uzu XBMC Media Center kiel vian hejman distran sistemon. Kelkaj pakaĵoj estas disponeblaj en la deponejoj Core kaj Tainted: la pakaĵoj en la deponejo Core eltenas nur senpatentajn kodekojn kaj la pakaĵoj en la deponejo Tainted eltenas ĉiujn kodekojn por uzuloj kiuj loĝas en landoj kie tiuj kodekoj ne malobservas lokan leĝaron.
+
+
+# en/for-pc/index.php +83
+;Video
+Video
+
+
+# en/for-pc/index.php +84
+;For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there's Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.
+Por redakti video-dosierojn, provu Avidemux, Kino aŭ OpenShot; por subtekstoj estas Gaupol aŭ Subtitles Composer; uzu MythTV, Miro, tvtime, FreetuxTV aŭ Me TV por spekti aŭ registri TV-programojn.
+
+
+# en/for-pc/index.php +89
+;Plus
+Pli
+
+
+# en/for-pc/index.php +90
+;Then there's ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.
+Estas disponebla ZoneMinder por fermita televid-cirkvita sekureco; VirtualBox aŭ WINE por virtualigo; kaj aro da programad-ĉirkaŭaĵoj kiel Anjuta, Eclipse, Netbeans aŭ KDevelop.
+
+
+# en/for-pc/index.php +95
+;For more information about these and other packages, check the <a href="%s">Mageia 2 Release notes</a>.
+Por plia informo pri ĉi tiuj kaj aliaj pakaĵoj, kontrolu la <a href="%s">Publikig-notojn de Magejo 2</a>.
+
+
+# en/for-pc/index.php +96
+;You can take a look at the <a href="%s">Mageia Application Database</a> to get a more complete list of Mageia packages.
+Vi povas rigardi la <a href="%s">Magejan Aplikaĵ-datumbazon</a> por aliri plikompletan liston de Magejaj pakaĵoj.
+
+
+# en/for-server/index.php +12
+;Mageia 2, for your server
+Magejo 2, por via servilo
 
 
 # en/for-server/index.php +21
@@ -229,6 +364,11 @@ Retpoŝtaj serviloj inkluditaj en Magejo 2 estas Postfix 2.8.8, Cyrus-imapd 2.4.
 # en/for-server/index.php +49
 ;For more information about these and other packages, check the <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">Mageia 2 Release notes</a>.
 Por plia informo pri ĉi tiuj kaj aliaj pakaĵoj, kontrolu la <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">Publikig-notojn de Magejo 2</a>.
+
+
+# en/for-server/index.php +50
+;You can take a look at the <a href="%s">Mageia Application Database</a> to get a more complete list of Mageia packages.
+Vi povas rigardi la <a href="%s">Magejan Aplikaĵ-datumbazon</a> por aliri plikompletan liston de Magejaj pakaĵoj.
 
 
 # en/2/index.php +14
@@ -295,5 +435,22 @@ Nia laboro aldoniĝas al la bonega laboro de la pligranda linuksa kaj liber-prog
 ;We welcome new contributors to any of the many different teams that go to make up Mageia the Community, and we encourage you to join us.
 Ni bonvenigas novajn kontribuantojn al iu el la pluraj malsamaj teamoj  kiuj konsistigas la Magejan Komunumon, do ni kuraĝigas vin aliĝi.
 
-;What's new?
-Kio estas nova?
+
+# en/2/nav.php +27
+;Mageia 2
+Magejo 2
+
+
+# en/2/nav.php +28
+;Download
+Elŝuti
+
+
+# en/2/nav.php +29
+;For PC
+Por persona komputilo
+
+
+# en/2/nav.php +30
+;For server
+Por servilo
