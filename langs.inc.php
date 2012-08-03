@@ -174,7 +174,7 @@ function _d($s = null, $opt = null) {
 
     $ret = array_key_exists($s, $_t) ? $_t[$s] : $s;
 
-    return trim(str_replace('{ok}', '', $ret));
+    return trim(str_replace(array('{ok}', '{OK}', '{Ok}', '{oK}'), '', $ret));
 }
 
 /**
