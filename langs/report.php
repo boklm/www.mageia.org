@@ -123,8 +123,21 @@
             } else {
                 $stats[$l]['files'] += 0;
                 $stats[$l]['strings'] += 0;
-                $cols .= sprintf('<td class="missing"><a href="missing.php?s=%s&l=%s" class="action addlang">add</a></td>',
-                    $f, $l
+
+                $old_link = str_replace(array('en/', '.en.lang', 'index'), '', $f);
+                $lang_filename = './../' . $l . '/';
+                $complete_filename = $lang_filename . $old_link . '/';
+                $lang_file_path = realpath($lang_filename);
+                // if symlink e.g. does directly translated page exist?
+                if(realpath($complete_filename) != realpath($lang_file_path) . '/' . $old_link) {
+                    $old_link = '';
+                } else {
+                    $old_link = sprintf(', you can use <a href="/%s/%s">old page</a> as a guide', $l, $old_link);
+                }
+
+
+                $cols .= sprintf('<td class="missing"><a href="missing.php?s=%s&l=%s" class="action addlang">add translation</a>%s</td>',
+                    $f, $l, $old_link
                 );
             }
         }
