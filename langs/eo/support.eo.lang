@@ -36,6 +36,16 @@ Aparatar-postuloj
 
 
 
+;Documentation
+Dokumentaro
+
+
+
+;You can look up existing %sdocumentation here%s. You may too look into our %sWiki%s.
+Vi povas kontroli ekzistantan %sdokumentaron ĉi tie%s. Eble vi ŝatus serĉi en nia %sVikio%s.
+
+
+
 ;Updates
 Ĝisdatigoj
 
@@ -46,13 +56,33 @@ Aparatar-postuloj
 
 
 
+;You can install these from the Mageia Control Center.
+Vi povas instali ilin per la Mageja Kontrolilo.
+
+
+
 ;You may subscribe to our %s announce list to be notified of these.
 Vi povas aliĝi al nia anonco-listo (%s) por ricevi informon.
 
 
 
-;You can install these from the Mageia Control Center.
-Vi povas instali ilin per la Mageja Kontrolilo.
+;Lifecycle
+Vivciklo
+
+
+
+;Mageia releases are supported at least for 18 months.
+Magejaj publikigoj estas subtenataj almenaŭ dum 18 monatoj.
+
+
+
+;Mageia 1 will be supported until December 2012.
+Magejo 1 estos subtenata ĝis decembro 2012.
+
+
+
+;Mageia 2 may have a longer lifecycle, this will be decided once released in May.
+Magejo 2 eble havos plilongan vivcicklon, tio estos decidita post ĝia publikigo en majo.
 
 
 
