@@ -1,17 +1,17 @@
 ;Mageia Community
-Mageia Community
+Η κοινότητα της Mageia
 
 
 ;Mageia Community Central is the place where all contributors and users can find the latest news about Mageia and learn more about what to do in the project.
-Mageia Community Central is the place where all contributors and users can find the latest news about Mageia and learn more about what to do in the project.
+Η Πύλη της κοινότητας Mageia είναι το μέρος όπου όλοι οι συμμετέχοντες και οι χρήστες μπορούν να ενημερωθούν σχετικά με τα νέα από τη Mageia και να μάθουν περισσότερα σχετικά με το τι μπορούν να προσφέρουν στο έργο.
 
 
 ;mageia, community, news, tools, tasks
-mageia, community, news, tools, tasks
+mageia, κοινότητα, νέα, εργαλεία, εργασίες
 
 
 ;Mageia Community Central
-Mageia Community Central
+Η Πύλη της κοινότητας Mageia
 
 
 ;http://blog.mageia.org/en/
@@ -19,7 +19,7 @@ http://blog.mageia.org/el/
 
 
 ;Blog
-Blog
+Ιστολόγιο
 
 
 ;http://planet.mageia.org/en/
@@ -27,19 +27,19 @@ http://planet.mageia.org/en/
 
 
 ;Planet
-Planet
+Πλανήτης
 
 
 ;Calendar
-Calendar
+Ημερολόγιο
 
 
 ;https://forum.mageia.org/en/
-https://forum.mageia.org/en/
+http://www.mageia-gr.org/forum/
 
 
 ;Forums
-Forums
+Φόρουμ
 
 
 ;http://wiki.mageia.org/
@@ -47,39 +47,39 @@ http://wiki.mageia.org/
 
 
 ;News
-News
+Νέα
 
 
 ;How to contribute?
-How to contribute?
+Θέλετε να λάβετε μέρος;
 
 
 ;Start here
-Start here
+Ξεκινήστε από εδώ
 
 
 ;and meet us on <a href="http://wiki.mageia.org/en/IRC">IRC</a>.
-and meet us on <a href="http://wiki.mageia.org/en/IRC">IRC</a>.
+συναντήστε μας στο <a href="http://wiki.mageia.org/en/IRC">IRC</a>.
 
 
 ;You can also <a href="../donate/">support financially</a> the project!
-You can also <a href="../donate/">support financially</a> the project!
+Μπορείτε επίσης να <a href="../donate/">υποστηρίξετε το έργο οικονομικά</a>!
 
 
 ;Toolbox
-Toolbox
+Εργαλειοθήκη
 
 
 ;Wiki</a> &larr; collaborative documentation
-Wiki</a> &larr; collaborative documentation
+Wiki</a> &larr; συνεργατική τεκμηρίωση
 
 
 ;Bugzilla</a> &larr; to report bugs
-Bugzilla</a> &larr; to report bugs
+Bugzilla</a> &larr; για αναφορά σφαλμάτων
 
 
 ;Forum
-Forum
+Φόρουμ
 
 
 ;Mageia Applications Database
@@ -87,7 +87,7 @@ Mageia Applications Database
 
 
 ;For developers &amp; packagers
-For developers &amp; packagers
+Για προγραμματιστές &amp; δημιουργούς πακέτων
 
 
 ;Subversion
@@ -95,71 +95,71 @@ Subversion
 
 
 ;Git</a> code repositories
-Git</a> code repositories
+Git</a> αποθετήρια κώδικα
 
 
 ;Packages submission queue
-Packages submission queue
+Λίστα πακέτων σε αναμονή
 
 
 ;unmaintained packages
-unmaintained packages
+πακέτα χωρίς συντήρηση
 
 
 ;Global QA report
-Global QA report
+Γενικές αναφορές QA
 
 
 ;Conversations
-Conversations
+Συζήτηση
 
 
 ;... or, how to get in touch with us? Easy:
-... or, how to get in touch with us? Easy:
+... ή, πώς να έρθετε σε επαφή μαζί μας; Είναι εύκολο:
 
 
 ;IRC</a> on Freenode
-IRC</a> on Freenode
+IRC</a> στο Freenode
 
 
 ;mailing-lists 1</a> &amp; <a href="http://ml.mageia.org/">2
-mailing-lists 1</a> &amp; <a href="http://ml.mageia.org/">2
+λίστες ταχυδρομείου 1</a> &amp; <a href="http://ml.mageia.org/">2
 
 
 ;in real life!
-in real life!
+στην πραγματική ζωή!
 
 
 ;during events!
-during events!
+κατά τη διάρκεια γεγονότων!
 
 
 ;Teams you can join!
-Teams you can join!
+Οι ομάδες μας
 
 
 ;Atelier
-Atelier
+Εργαστήρι
 
 
 ;Documentation
-Documentation
+Τεκμηρίωση
 
 
 ;Packaging
-Packaging
+Δημιουργία πακέτων
 
 
 ;Testing &amp; <abbr title="Quality Assurance">QA</abbr>
-Testing &amp; <abbr title="Quality Assurance">QA</abbr>
+Δοκιμές &amp; <abbr title="Διασφάλιση Ποιότητας">QA</abbr>
 
 
 ;Translation
-Translation
+Μετάφραση
 
 
 ;Systems &amp; infrastructure administration
-Systems &amp; infrastructure administration
+Διαχείριση της υποδομής &amp; συστημάτων
 
 
 ;Mageia
@@ -167,32 +167,32 @@ Mageia
 
 
 ;More about Mageia
-More about Mageia
+Περισσότερα σχετικά με τη Mageia
 
 
 ;Our <a href="../about/code-of-conduct/">code of conduct</a> and <a href="../about/values/">values</a>
-Our <a href="../about/code-of-conduct/">code of conduct</a> and <a href="../about/values/">values</a>
+Ο <a href="../about/code-of-conduct/">κώδικας συμπεριφοράς</a> μας και οι <a href="../about/values/">αξίες</a> μας
 
 
 ;Our governance model</a> and structure:
-Our governance model</a> and structure:
+Το μοντέλο μας διακυβέρνησης</a> και η υποδομή μας:
 
 
 ;Teams
-Teams
+Ομάδες
 
 
 ;the Council
-the Council
+το Συμβούλιο
 
 
 ;the Board
-the Board
+η Διοίκηση
 
 
 ;<a href="../donate/">Donations</a> &amp; <a href="../about/reports/">reports</a>.
-<a href="../donate/">Donations</a> &amp; <a href="../about/reports/">reports</a>.
+<a href="../donate/">Δωρεές</a> &amp; <a href="../about/reports/">οικονομικές αναφορές</a>.
 
 
 ;This page needs you! <a href="https://wiki.mageia.org/en/Web_team">Join the Web team</a>!
-This page needs you! <a href="https://wiki.mageia.org/en/Web_team">Join the Web team</a>!
+Αυτή η σελίδα σας χρειάζεται! <a href="https://wiki.mageia.org/en/Web_team">Συμμετέχετε στην ομάδα Web</a>!
