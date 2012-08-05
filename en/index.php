@@ -264,8 +264,8 @@ $nav = array(
         ?></ul>
         <hr>
         <p id="fnotes">
-            <a href="/map/"><?php _e('Sitemap')?></a>
-            | <a href="/en/about/policies/privacy/"><?php _e('Privacy policy')?></a>
+            <a href="../map/"><?php _e('Sitemap')?></a>
+            | <a href="../about/policies/privacy/"><?php _e('Privacy policy')?></a>
         </p>
     </div>
 </div>
