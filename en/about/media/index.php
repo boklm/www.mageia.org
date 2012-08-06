@@ -17,7 +17,7 @@ _lang_load($locale, "about/media");
     <?php include '../../../analytics.php'; ?>
 </head>
 <body class="about">
-    <?php include '../../../langs.php'; ?>
+    <?php echo $hsnav; ?>
     <h1 id="mgnavtitle"><?php _e('Media files')?></h1>
     <div id="doc" class="yui-t7">
         <div id="bd" role="main">
