@@ -12,8 +12,8 @@ Kontribui al Magejo
 magejo, kontribui, kiel, operacia sistemo
 
 
-;Many people from all over the world gather to build Mageia &ndash; a Linux-based operating system <em>and</em> a <a href="/en/about/code-of-conduct/">lively, fun community</a> for <a href="/en/about/values/">building Free Software projects</a>.
-Multaj homoj el la tuta mondo unuiĝis por krei Magejon &ndash; linukso-bazita operacia sistemo <em>kaj</em> <a href="/en/about/code-of-conduct/">viva, amuza komunumo</a> por <a href="/en/about/values/">krei liberprogramaraj projektoj</a>.
+;Many people from all over the world gather to build Mageia &ndash; a Linux-based operating system <em>and</em> a <a href="../about/code-of-conduct/">lively, fun community</a> for <a href="../about/values/">building Free Software projects</a>.
+Multaj homoj el la tuta mondo unuiĝis por krei Magejon &ndash; linukso-bazita operacia sistemo <em>kaj</em> <a href="../about/code-of-conduct/">viva, amuza komunumo</a> por <a href="../about/values/">krei liberprogramaraj projektoj</a>.
 
 
 ;Contributing is open to anyone, this is Free Software! If you are curious and willing to join, there are things you can do, depending on your time and skills; you will always find someone to welcome and help/mentor you if needed so that your contribution to the project can be as good as it can be!
@@ -112,8 +112,8 @@ Igi ke la tuta programaro havigita de Magejo estu disponebla bezonas <a href="ht
 Donaco
 
 
-;Financial donations help us allocate specific tasks, secure our infrastructure, fund events, goodies &amp; transportation. <a href="/en/thank-you/">200+ persons already expressed their trust in us</a> with their money, hardware or other resources. We keep a <a href="/en/about/reports/">public record of what we get and how we use it</a>.
-Financaj donacoj helpas nin realigi konkretajn taskojn, igi pli sekura nian substrukturon, okazigi eventojn, havi disdonaĵojn kaj transportado. <a href="/en/thank-you/">Pli ol 200 homoj jam montris sian fidon je ni</a> per ilia mono, aparataro aŭ per aliaj manieroj. Ni tenadas <a href="/en/about/reports/">publikan registron pri tio kion ni ricevas kaj kiel ni uzas ĝin</a>.
+;Financial donations help us allocate specific tasks, secure our infrastructure, fund events, goodies &amp; transportation. <a href="../thank-you/">200+ persons already expressed their trust in us</a> with their money, hardware or other resources. We keep a <a href="../about/reports/">public record of what we get and how we use it</a>.
+Financaj donacoj helpas nin realigi konkretajn taskojn, igi pli sekura nian substrukturon, okazigi eventojn, havi disdonaĵojn kaj transportado. <a href="../thank-you/">Pli ol 200 homoj jam montris sian fidon je ni</a> per ilia mono, aparataro aŭ per aliaj manieroj. Ni tenadas <a href="../about/reports/">publikan registron pri tio kion ni ricevas kaj kiel ni uzas ĝin</a>.
 
 
 ;Data mining
@@ -156,8 +156,8 @@ Parolu pri la projekto al la homoj ĉirkaŭ vi, per via blogo, per via konto en 
 Se vi trovas cimon, <a href="http://bugs.mageia.org/">sendu cimo-raporton</a>.
 
 
-;Make a <a href="/en/donate/">donation</a>!
-<a href="/en/donate/">Donacu</a>!
+;Make a <a href="../donate/">donation</a>!
+<a href="../donate/">Donacu</a>!
 
 
 ;A few hours
