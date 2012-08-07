@@ -33,7 +33,7 @@ include '../../donators.inc.php';
                     <p><?php
                     $pp = html_donators_list($donators, $anonymous);
                     echo sprintf(_t('%d amazing people %sdonated money%s to Mageia.Org:'),
-                        $pp['count'], '<a href="/donate/">', '</a>');
+                        $pp['count'], '<a href="../donate/">', '</a>');
                     ?></p>
                     <?php echo $pp['list']; ?>
                 </div></div>
