@@ -23,9 +23,10 @@
                         nadšení, rad a zapojení stovek lidí.</p>
 
                     <p>Také by se neobešla bez pomoci a darů od mnoha lidí a organizací.
-                        Tato stránka je tu proto, aby připomínala jejich příspěvek tomuto projektu.</p>
+                        Tato stránka je tu proto, aby připomínala jejich <a href="/donate/">příspěvek</a> tomuto projektu.</p>
 
-                    <?php echo html_donators_list($donators); ?>
+                    <?php $pp = html_donators_list($donators, $anonymous); ?>
+                    <?php echo $pp['list']; ?>
 
                     <p>Skvělá místa a lidé, kteří nás přivítali a nabídli nám čaj, kávu, židle a radu
                         (zatím většinou v Paříži):</p>
