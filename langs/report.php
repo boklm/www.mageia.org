@@ -125,15 +125,11 @@
                 $stats[$l]['strings'] += 0;
 
                 $old_link          = str_replace(array('en/', '.en.lang', 'index'), '', $f);
-                $lang_filename     = './../' . $l . '/';
-                $complete_filename = $lang_filename . $old_link . '/';
-                $lang_file_path    = realpath($lang_filename);
-
                 // if symlink e.g. does directly translated page exist?
-                if (realpath($complete_filename) != realpath($lang_file_path) . '/' . $old_link) {
+                if (is_link('./../' . $l . '/' . $old_link)) {
                     $old_link = '';
                 } else {
-                    $old_link = sprintf(', you can use <a href="/%s/%s">old page</a> as a guide', $l, $old_link);
+                    $old_link = sprintf('by recycling <a href="/%s/%s">old page</a>', $l, $old_link);
                 }
 
 
