@@ -4,7 +4,7 @@ require '../../../langs.php';
 _lang_load($locale, 'about/reports');
 
 ?><!DOCTYPE html>
-<html dir="ltr" lang="en">
+<html dir="ltr" lang="<?php echo $locale; ?>">
 <head>
     <meta charset="utf-8">
     <title><?php _e('Mageia activity &amp; financial reports')?></title>
