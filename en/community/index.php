@@ -72,7 +72,7 @@ include '../../lib/news.php';
     <div class="para" style="width: 300px">
         <h2><a href="../contribute/"><?php _e('How to contribute?')?></a></h2>
         <ul class="hl">
-            <li><a href="../contribute/"><?php _e('Start here')?></a>,</li>
+            <li><a href="../contribute/"><?php echo _d('Start here')?></a>,</li>
             <li><?php _e('and meet us on <a href="http://wiki.mageia.org/en/IRC">IRC</a>.')?></li>
             <li><?php _e('You can also <a href="../donate/">support financially</a> the project!')?></li>
         </ul>
@@ -88,9 +88,9 @@ include '../../lib/news.php';
         <hr>
         <h2><?php _e('For developers &amp; packagers')?></h2>
         <ul class="hl">
-            <li><a href="http://svn.mageia.org/"><?php _e('Subversion')?></a>,
+            <li><a href="http://svn.mageia.org/"><?php echo _d('Subversion')?></a>,
                 <a href="http://gitweb.mageia.org/"><?php _e('Git</a> code repositories')?></li>
-            <li><a href="http://pkgsubmit.mageia.org/"><?php _e('Packages submission queue')?></a>,
+            <li><a href="http://pkgsubmit.mageia.org/"><?php echo _d('Packages submission queue')?></a>,
                 <a href="http://pkgsubmit.mageia.org/data/unmaintained.txt"><?php _e('unmaintained packages')?></a></li>
             <li><a href="http://check.mageia.org/"><?php _e('Global QA report')?></a></li>
         </ul>
@@ -99,10 +99,10 @@ include '../../lib/news.php';
         <h2><?php _e('Conversations')?></h2>
         <p><?php _e('... or, how to get in touch with us? Easy:')?></p>
         <ul class="hl">
-            <li><a href="https://wiki.mageia.org/en/IRC" title="Internet Relay Chat"><?php _e('IRC</a> on Freenode')?>,</li>
-            <li><a href="/mailman/"><?php _e('mailing-lists 1</a> &amp; <a href="http://ml.mageia.org/">2')?></a>,</li>
-            <li><a href="<?php _e('https://forum.mageia.org/en/')?>"><?php _e('Forum')?></a>,</li>
-            <li><a href="<?php _e('http://blog.mageia.org/en/')?>"><?php _e('Blog')?></a>,</li>
+            <li><a href="https://wiki.mageia.org/en/IRC" title="Internet Relay Chat"><?php echo _d('IRC</a> on Freenode')?>,</li>
+            <li><a href="/mailman/"><?php echo _d('mailing-lists 1</a> &amp; <a href="http://ml.mageia.org/">2')?></a>,</li>
+            <li><a href="<?php _e('https://forum.mageia.org/en/')?>"><?php echo _d('Forum')?></a>,</li>
+            <li><a href="<?php _e('http://blog.mageia.org/en/')?>"><?php echo _d('Blog')?></a>,</li>
             <li><?php _e('in real life!')?></li>
             <li><?php _e('during events!')?></li>
         </ul>
