@@ -33,7 +33,7 @@
     <header id="mgnavt">
         <h1><a href="//www.mageia.org/">www.mageia.org</a> translation report</h1>
         <ul>
-            <li><a href="https://wiki.mageia.org/en/Internationalisation_Team_(i18n)#Website_translation">i18n Web Wiki</a></li>
+            <li><a href="https://wiki.mageia.org/en/Internationalisation_Team_(i18n)#Website_translation">i18n Web Wiki</a> (<a href="https://wiki.mageia.org/en/Internationalisation_Team_%28i18n%29#Special_cases_of_web_pages">Special cases for some web pages</a>)</li>
         </ul>
     </header>
     <div id="page">

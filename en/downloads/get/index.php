@@ -38,9 +38,8 @@ if (is_null($product)) {
 
 define('HLANG', true);
 require '../../../langs.php';
-require '../locales.php';
 
-$_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
+_lang_load($locale, "downloads/get");
 
 session_start();
 
@@ -92,22 +91,23 @@ try {
         $alternative_mirrors .= sprintf('<tr><td rowspan="%d">%s</td>%s</tr>', count($cities), $country, implode('</tr><tr>', $s));
     endforeach;
 
-    $dl2_mirror_alt = sprintf($_t['dl_mirror_loc'],
+    $dl2_mirror_alt = sprintf(_t('This <a href="%s">%s</a> download mirror is located in %s (%s).'),
             $one_mirror['mirror_url'],
             $one_mirror['mirror_host'],
             rewrite_city($one_mirror['city']) . ', ' . $countries[$one_mirror['country']],
             $one_mirror['country'])
-        . ' ' . $_t['dl_alt_mirrors'];
+        . ' ' . _t('If it does not work well for you, <a href="#om" id="other_mirrors_btn">check out these other mirrors</a>.');
 }
 catch (NoProductFoundError $e) {
     // sorry, no such product found/available. redirect?
     $reason = 'This file is not available for download.';
 }
 catch (NoMirrorFoundError $e) {
-    // sorry, not mirror found. next time?
+    // sorry, no mirror found. next time?
     $reason = 'No mirror found for this file to download.';
 }
 catch (Exception $e) {
+    // don't translate $reason as it's for debuging purposes
     $reason = 'I do not know either!';
 }
 
@@ -124,9 +124,6 @@ else {
 if ($debug)
     $js_redirect = null;
 
-$_t['page_h1']    = sprintf($_t['page_h1'], '<em class="tag">' . $title . '</em>');
-$_t['page_title'] = sprintf($_t['page_title'], '<em class="tag">' . $title . '</em>');
-
 ?><!DOCTYPE html>
 <html lang="<?php echo $locale; ?>">
 <head>
@@ -141,16 +138,16 @@ $_t['page_title'] = sprintf($_t['page_title'], '<em class="tag">' . $title . '</
 </head>
 <body class="downloads">
     <?php echo $hsnav; ?>
-    <h1 id="mgnavt"><?php _e('page_title')?></h1>
+    <h1 id="mgnavt"><?php echo sprintf(_t('Download %s'), '<em class="tag">' . $title . '</em>')?></h1>
     <div id="doc4" class="yui-t7">
         <div id="bd" role="main">
             <?php if (!is_null($download)): ?>
                 <div class="yui-g"><div class="para" style="padding-top: 2em;">
                 <p><?php
                     echo
-                        sprintf($_t['dl_shld_start'], '<em class="tag">' . $product['name'] . '</em>' . ($torrent ? ' (torrent)' : '')),
-                        ' ', sprintf($_t['dl_size'], $product['size']),
-                        ' ', sprintf($_t['alt_download'], $download, $download);
+                        sprintf(_t('Your download of %s should start within a few seconds'), '<em class="tag">' . $product['name'] . '</em>' . ($torrent ? ' (torrent)' : '')),
+                        ' ', sprintf(_t('(download size is about %s).'), $product['size']),
+                        ' ', sprintf(_t('If the download does not start, <a href="%s" rel="nofollow" title="%s">click here</a>.'), $download, $download);
                 ?></p>
 
                 <div class="dlinfo">
@@ -159,25 +156,25 @@ $_t['page_title'] = sprintf($_t['page_title'], '<em class="tag">' . $title . '</
                     if (((isset($product['md5']) && strlen($product['md5']) > 0)
                         || (isset($product['sha1'])) && strlen($product['sha1']) > 0)
                         && !$torrent): ?>
-                        <p><?php echo $_t['signs_check_1']; ?></p>
+                        <p><?php _e('As soon as your download is complete, you should check that the signatures match:') ?></p>
                         <div id="check-signs">
                             <pre class="term">
 <?php if (strlen($product['md5'])): ?>$ md5sum <?php echo basename($download), "\n<strong>", $product['md5'], "</strong>\n"; endif; ?>
 
 <?php if (strlen($product['sha1'])): ?>$ sha1sum <?php echo basename($download), "\n<strong>", $product['sha1'], "</strong>\n"; endif; ?>
 </pre>
-                            <p><?php echo $_t['signs_check_2']; ?></p>
+                            <p><?php _e('If signatures do not match, <strong>DO NOT use this ISO</strong>. Double-check and try to download again.'); ?></p>
                         </div>
                     <?php endif; ?>
-                    <p><?php echo sprintf($_t['your ip address is'],
+                    <p><?php echo sprintf(_t('Your IP address is %s and you seem to be in %s, %s.'),
                         $_SESSION['ip'], $_SESSION['country'], $_SESSION['continent']); ?>
                 </div>
 
                 <!-- alternative mirrors table -->
                 <table class="dlt2 dlinfo" id="other_mirrors" style="display: none;">
-                    <thead><tr><th><?php echo $_t['Country']; ?></th>
-                        <th><?php echo $_t['City']; ?></th>
-                        <th><?php echo $_t['Download mirrors']; ?></th></tr></thead>
+                    <thead><tr><th><?php _e('Country'); ?></th>
+                        <th><?php _e('City'); ?></th>
+                        <th><?php _e('Download mirrors'); ?></th></tr></thead>
                     <tbody><?php echo $alternative_mirrors; ?></tbody>
                 </table>
 
@@ -189,28 +186,28 @@ $_t['page_title'] = sprintf($_t['page_title'], '<em class="tag">' . $title . '</
                     <div class="yui-g first"><div class="para">
                     </div></div>
                     <div class="yui-g" style="border-left: 1px solid #ddd"><div class="para">
-                        <p><?php echo sprintf($_t['thank-you-note'], 'http://mirrors.mageia.org/', '/en/thank-you/'); ?></p>
-                        <p><?php echo sprintf($_t['wanttohelp?'], '<a href="../../contribute/">', '</a>'); ?></p>
+                        <p><?php echo sprintf(_t('The making and the distribution of Mageia worldwide is made possible by all the <a href="%s">people and organizations that mirror our software</a> and that <a href="%s">donate money, hardware, hosting and more</a>.'), 'http://mirrors.mageia.org/', '../thank-you/'); ?></p>
+                        <p><?php echo sprintf(_t('Want to help? %sJoin Us!%s'), '<a href="../../contribute/">', '</a>'); ?></p>
                     </div></div>
                 </div>
                 
             <?php else: ?>
                 <div class="yui-g"><div class="para" style="padding-top: 2em;">
-                    <h2>Sorry! :-(</h2>
-                    <p><?php echo sprintf($_t['dl-failed-try-again'], '/downloads/'); ?></p>
+                    <h2><?php _e('Sorry!'); ?> :-(</h2>
+                    <p><?php echo sprintf(_t('Your download could not complete, as we could not find this file. Please try again from the <a href="%s">main downloads page</a>.'), '../downloads/'); ?></p>
 
-                    <p><?php echo sprintf($_t['dl-failed-tell-us']); ?></p>
+                    <p><?php echo sprintf(_t('If you still encounter this error and think IT SHOULD NOT HAPPEN &ndash; please tell us:')); ?></p>
                     <ul>
-                        <li>directly on <a href="irc://irc.freenode.net/#mageia-web">#mageia-web on Freenode IRC</a>,</li>
-                        <li>or <a href="http://twitter.com/mageia_org">via our Tweeter account</a>,</li>
-                        <li>or with a <a href="https://www.mageia.org/mailman/listinfo/mageia-webteam">notice on the Web team mailing-list</a>,</li>
-                        <li>or a <a href="https://bugs.mageia.org/">bug report</a>.</li>
+                        <li><?php _e('directly on <a href="irc://irc.freenode.net/#mageia-web">#mageia-web on Freenode IRC</a>,'); ?></li>
+                        <li><?php _e('or <a href="http://twitter.com/mageia_org">via our Tweeter account</a>,'); ?></li>
+                        <li><?php _e('or with a <a href="https://www.mageia.org/mailman/listinfo/mageia-webteam">notice on the Web team mailing-list</a>,'); ?></li>
+                        <li><?php _e('or a <a href="https://bugs.mageia.org/">bug report</a>.'); ?></li>
                     </ul>
                     
-                    <p>You may embed this debug info if you like:</p>
+                    <p><?php _e('You may embed this debug info if you like:'); ?></p>
                     <pre class="term small"><?php echo $reason, "\n", (json_encode(strip_tags($_GET))); ?></pre>
-                    <p>Thanks!</p>
-                    <p><a href="/">&laquo; back to that awesome Mageia home page</a></p>
+                    <p><?php _e('Thanks!'); ?></p>
+                    <p><a href="/<?php echo $locale; ?>">&laquo; <?php _e('back to that awesome Mageia home page'); ?></a></p>
                 </div></div>
             <?php endif; ?>
     </div>
