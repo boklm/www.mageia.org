@@ -33,23 +33,23 @@
 
 
 ;Your IP address is %s and you seem to be in %s, %s.
-Your IP address is %s and you seem to be in %s, %s.
+Вашою IP-адресою є %s, ймовірно ви перебуваєте у %s, %s.
 
 
 ;Country
-Country
+Країна
 
 
 ;City
-City
+Місто
 
 
 ;Download mirrors
-Download mirrors
+Дзеркала звантаження
 
 
 ;The making and the distribution of Mageia worldwide is made possible by all the <a href="%s">people and organizations that mirror our software</a> and that <a href="%s">donate money, hardware, hosting and more</a>.
-The making and the distribution of Mageia worldwide is made possible by all the <a href="%s">people and organizations that mirror our software</a> and that <a href="%s">donate money, hardware, hosting and more</a>.
+Створення та розповсюдження Mageia у всьому світі уможливили всі ті <a href="%s">люди і організації, які надали ресурси для зберігання нашого програмного забезпечення</a> і <a href="%s">підтримали нас фінансово, наданням ресурсів тощо</a>.
 
 
 ;Want to help? %sJoin Us!%s
@@ -57,41 +57,41 @@ The making and the distribution of Mageia worldwide is made possible by all the 
 
 
 ;Sorry!
-Sorry!
+Вибачте!
 
 
 ;Your download could not complete, as we could not find this file. Please try again from the <a href="%s">main downloads page</a>.
-Your download could not complete, as we could not find this file. Please try again from the <a href="%s">main downloads page</a>.
+Не вдалося отримати потрібні вам дані, оскільки не вдалося знайти відповідний файл. Будь ласка, повторіть спробу з <a href="%s">основної сторінки звантаження</a>.
 
 
 ;If you still encounter this error and think IT SHOULD NOT HAPPEN &ndash; please tell us:
-If you still encounter this error and think IT SHOULD NOT HAPPEN &ndash; please tell us:
+Якщо ви знову бачите це повідомлення щодо помилки і впевнені, що ЦЬОГО НЕ ПОВИННО БУЛО ТРАПИТИСЯ, повідомте нам про помилку:
 
 
 ;directly on <a href="irc://irc.freenode.net/#mageia-web">#mageia-web on Freenode IRC</a>,
-directly on <a href="irc://irc.freenode.net/#mageia-web">#mageia-web on Freenode IRC</a>,
+безпосередньо на <a href="irc://irc.freenode.net/#mageia-web">каналі #mageia-web сервера IRC Freenode</a>,
 
 
 ;or <a href="http://twitter.com/mageia_org">via our Tweeter account</a>,
-or <a href="http://twitter.com/mageia_org">via our Tweeter account</a>,
+або <a href="http://twitter.com/mageia_org">за допомогою нашого облікового запису у Tweeter</a>,
 
 
 ;or with a <a href="https://www.mageia.org/mailman/listinfo/mageia-webteam">notice on the Web team mailing-list</a>,
-or with a <a href="https://www.mageia.org/mailman/listinfo/mageia-webteam">notice on the Web team mailing-list</a>,
+або за допомогою <a href="https://www.mageia.org/mailman/listinfo/mageia-webteam">повідомлення до списку листування інтернет-команди</a>,
 
 
 ;or a <a href="https://bugs.mageia.org/">bug report</a>.
-or a <a href="https://bugs.mageia.org/">bug report</a>.
+або за допомогою <a href="https://bugs.mageia.org/">звіту щодо вади</a>.
 
 
 ;You may embed this debug info if you like:
-You may embed this debug info if you like:
+Якщо хочете, можете вбудувати ці діагностичні дані:
 
 
 ;Thanks!
-Thanks!
+Дякуємо!
 
 
 ;back to that awesome Mageia home page
-back to that awesome Mageia home page
+повернутися на чудову домашню сторінку Mageia
 
