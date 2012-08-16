@@ -8,6 +8,11 @@ Selle <a href="%s">%s</a> allalaadimise peegelsaidi asukohaks on %s (%s).
 Kui see teie puhul ei toimi, <a href="#om" id="other_mirrors_btn">proovige kasutada teisi peegelsaite</a>.
 
 
+# ../../svn/web/en/downloads/get/index.php +131
+;Mageia Downloads
+Mageia Downloads
+
+
 ;Download %s
 %s allalaadimine
 

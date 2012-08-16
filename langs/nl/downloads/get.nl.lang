@@ -8,6 +8,11 @@ Deze <a href="%s">%s</a> spiegelserver bevindt zich in %s (%s).
 Mocht deze server voor u niet goed bereikbaar zijn, <a href="#om" id="other_mirrors_btn">kijkt u dan eens naar deze andere spiegelservers</a>.
 
 
+# ../../svn/web/en/downloads/get/index.php +131
+;Mageia Downloads
+Mageia Downloads
+
+
 ;Download %s
 Download %s
 

@@ -8,6 +8,11 @@ Le miroir de téléchargement <a href="%s">%s</a> est en %s (%s).
 S&rsquo;il ne fonctionne pas bien, vous pouvez aussi <a href="#om" id="other_mirrors_btn">essayer un autre miroir</a>.
 
 
+# ../../svn/web/en/downloads/get/index.php +131
+;Mageia Downloads
+Mageia Downloads
+
+
 ;Download %s
 Télécharger %s
 

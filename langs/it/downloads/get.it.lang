@@ -8,6 +8,11 @@ Questo <a href="%s">%s</a> mirror per il download si trova in %s (%s).
 Se non funziona bene, <a href="#om" id="other_mirrors_btn">prova questi altri mirror</a>.
 
 
+# ../../svn/web/en/downloads/get/index.php +131
+;Mageia Downloads
+Mageia Downloads
+
+
 ;Download %s
 Scarica %s
 

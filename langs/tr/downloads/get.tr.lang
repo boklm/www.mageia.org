@@ -8,6 +8,11 @@ Bu <a href="%s">%s</a> indirme yansısı %s (%s) üzerinde yer almaktadır.
 Bu yansı size hizmet veremiyorsa, <a href="#om" id="other_mirrors_btn">diğer yansıları kullanın</a>.
 
 
+# ../../svn/web/en/downloads/get/index.php +131
+;Mageia Downloads
+Mageia Downloads
+
+
 ;Download %s
 %s indirin
 

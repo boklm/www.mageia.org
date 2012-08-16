@@ -128,7 +128,7 @@ if ($debug)
 <html lang="<?php echo $locale; ?>">
 <head>
     <meta charset="utf-8">
-    <title><?php echo $title; ?> | Mageia Downloads</title>
+    <title><?php echo $title; ?> | <?php _e('Mageia Downloads') ?></title>
     <meta name="robots" content="noindex,nofollow,nosnippet">
     <link rel="stylesheet" type="text/css" href="/g/style/all.css">
     <?php if (!isset($_ENV['APP_MODE']) || $_ENV['APP_MODE'] == 'prod') {
@@ -194,7 +194,7 @@ if ($debug)
             <?php else: ?>
                 <div class="yui-g"><div class="para" style="padding-top: 2em;">
                     <h2><?php _e('Sorry!'); ?> :-(</h2>
-                    <p><?php echo sprintf(_t('Your download could not complete, as we could not find this file. Please try again from the <a href="%s">main downloads page</a>.'), '../downloads/'); ?></p>
+                    <p><?php echo sprintf(_t('Your download could not complete, as we could not find this file. Please try again from the <a href="%s">main downloads page</a>.'), '../../downloads/'); ?></p>
 
                     <p><?php echo sprintf(_t('If you still encounter this error and think IT SHOULD NOT HAPPEN &ndash; please tell us:')); ?></p>
                     <ul>

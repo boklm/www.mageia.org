@@ -8,6 +8,11 @@ Dette <a href="%s">%s</a> Speilet for nedlastinga er plassert i %s (%s).
 Dersom dette ikke virker for deg, <a href="#om" id="other_mirrors_btn">kan du velge et av disse speilene</a>.
 
 
+# ../../svn/web/en/downloads/get/index.php +131
+;Mageia Downloads
+Mageia Downloads
+
+
 ;Download %s
 Last ned %s
 

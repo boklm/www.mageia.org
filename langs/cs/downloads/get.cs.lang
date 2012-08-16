@@ -8,6 +8,11 @@ Tento <a href="%s">%s</a> stahovací server je umístěn na %s (%s).
 Pokud tento ve vašem případě nepracuje uspokojivě, <a href="#om" id="other_mirrors_btn">můžete použít jiný server</a>.
 
 
+# ../../svn/web/en/downloads/get/index.php +131
+;Mageia Downloads
+Mageia Downloads
+
+
 ;Download %s
 Stáhnout %s
 

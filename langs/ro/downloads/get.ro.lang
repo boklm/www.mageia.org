@@ -8,6 +8,11 @@ Acest server alternativ <a href="%s">%s</a> este localizat în %s (%s).
 Dacă nu funcționează bine, <a href="#om" id="other_mirrors_btn">încercați și aceste servere alternative</a>.
 
 
+# ../../svn/web/en/downloads/get/index.php +131
+;Mageia Downloads
+Mageia Downloads
+
+
 ;Download %s
 Descărcați %s
 
