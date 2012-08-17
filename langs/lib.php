@@ -47,14 +47,28 @@ function _lang_diff($a, $b)
     }
 
     return array(
-        'a' => count($fa),
-        'b' => count($fb),
+        'a_name'  => $a,
+        'b_name'  => $b,
+        'a'       => count($fa),
+        'b'       => count($fb),
         'missing' => $missing,
         'notrans' => $notrans,
         'extra'   => $extra
     );
 }
 
+function _lang_diff_stats($a, $b)
+{
+    $diff = _lang_diff($a, $b);
+
+    $diff['missing'] = count($diff['missing']);
+    $diff['notrans'] = count($diff['notrans']);
+    $diff['extra']   = count($diff['extra']);
+    $diff['ok']      = (($diff['b'] - $diff['a']) == 0) ? true : false;
+    $diff['correct'] = $diff['b'] - $diff['notrans'] - $diff['missing'];
+
+    return $diff;
+}
 
 if ( ! function_exists('glob_recursive'))
 {
