@@ -28,6 +28,7 @@ TODO
 * Permissions in var/tmp/cache/ (rw)
 * short_open_tags = false
 * error_log directives
+* rewrite language tags (and URLs) in "zh-CN" format (and not "zh-cn")
 
 
 Translators

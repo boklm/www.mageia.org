@@ -25,9 +25,11 @@ class ChooseLocale
     public    $mapLonglocales;
 
 
-    public function __construct($list=array('en-US'))
+    public function __construct($list=array('en-US'), $force_http_accept_language = null)
     {
-        $this -> HTTPAcceptLang   = $_SERVER['HTTP_ACCEPT_LANGUAGE'];
+        $this -> HTTPAcceptLang   = is_null($force_http_accept_language) ?
+                                    $_SERVER['HTTP_ACCEPT_LANGUAGE'] :
+                                    $force_http_accept_language;
         $this -> supportedLocales = array_unique($list);
         $this -> setDefaultLocale('en-US');
         $this -> setCompatibleLocale();
@@ -39,7 +41,7 @@ class ChooseLocale
     {
         if (empty($this->HTTPAcceptLang)) return null;
 
-        return explode(',', $this->HTTPAcceptLang);
+        return explode(',', strtolower($this->HTTPAcceptLang));
     }
 
     public function getCompatibleLocale()
