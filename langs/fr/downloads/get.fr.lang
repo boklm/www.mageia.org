@@ -10,7 +10,7 @@ S&rsquo;il ne fonctionne pas bien, vous pouvez aussi <a href="#om" id="other_mir
 
 # ../../svn/web/en/downloads/get/index.php +131
 ;Mageia Downloads
-Mageia Downloads
+Télécharger Mageia
 
 
 ;Download %s
@@ -54,7 +54,7 @@ Miroirs de téléchargement
 
 
 ;The making and the distribution of Mageia worldwide is made possible by all the <a href="%s">people and organizations that mirror our software</a> and that <a href="%s">donate money, hardware, hosting and more</a>.
-The making and the distribution of Mageia worldwide is made possible by all the <a href="%s">people and organizations that mirror our software</a> and that <a href="%s">donate money, hardware, hosting and more</a>.
+La réalisation et la distribution de Mageia sont rendues possible par <a href="%s">toutes ces personnes qui hébergent des serveurs miroirs</a> et <a href="%s">celles qui nous donnent de l'argent, du matériel, de l'hébergement et plus encore</a>.
 
 
 ;Want to help? %sJoin Us!%s
@@ -62,41 +62,40 @@ Vous voulez %sparticiper%s&nbsp;?
 
 
 ;Sorry!
-Sorry!
+Désolé&nbsp;!
 
 
 ;Your download could not complete, as we could not find this file. Please try again from the <a href="%s">main downloads page</a>.
-Your download could not complete, as we could not find this file. Please try again from the <a href="%s">main downloads page</a>.
+Nous n'avons pas pu trouver ce fichier sur ce serveur. Essayez à nouveau <a href="%s">depuis la page principale des téléchargements</a>.
 
 
 ;If you still encounter this error and think IT SHOULD NOT HAPPEN &ndash; please tell us:
-If you still encounter this error and think IT SHOULD NOT HAPPEN &ndash; please tell us:
+Si cette erreur se reproduit et que vous trouvez ça ANORMAL... dites-le nous&nbsp;:
 
 
 ;directly on <a href="irc://irc.freenode.net/#mageia-web">#mageia-web on Freenode IRC</a>,
-directly on <a href="irc://irc.freenode.net/#mageia-web">#mageia-web on Freenode IRC</a>,
+directement sur <a href="irc://irc.freenode.net/#mageia-web">#mageia-web (IRC Freenode)</a>,
 
 
 ;or <a href="http://twitter.com/mageia_org">via our Tweeter account</a>,
-or <a href="http://twitter.com/mageia_org">via our Tweeter account</a>,
+ou via notre <a href="http://twitter.com/mageia_org">compte Twitter</a>,
 
 
 ;or with a <a href="https://www.mageia.org/mailman/listinfo/mageia-webteam">notice on the Web team mailing-list</a>,
-or with a <a href="https://www.mageia.org/mailman/listinfo/mageia-webteam">notice on the Web team mailing-list</a>,
+ou via un alerte <a href="https://www.mageia.org/mailman/listinfo/mageia-webteam">sur la liste de l'équipe Web</a>,
 
 
 ;or a <a href="https://bugs.mageia.org/">bug report</a>.
-or a <a href="https://bugs.mageia.org/">bug report</a>.
+ou via un <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">rapport de bug</a>.
 
 
 ;You may embed this debug info if you like:
-You may embed this debug info if you like:
+Vous pouvez nous fournir les détails suivants pour nous aider&nbsp;:
 
 
 ;Thanks!
-Thanks!
+Merci&nbsp;!
 
 
 ;back to that awesome Mageia home page
-back to that awesome Mageia home page
-
+retour à cette merveilleuse page d'accueil
