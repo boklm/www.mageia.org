@@ -52,7 +52,7 @@ $_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
                 <p><?php echo $_t['inline_1']; ?></p>
                 <p><?php echo $_t['inline_2']; ?></p>
                 
-                <p style="text-align: center;"><a href="/en/downloads/dl.php?product=mgaonline" rel="nofollow" title="Download mgaonline"><img src="/g/images/oxygen/application-x-rpm.png" alt="mgaonline"><br>
+                <p style="text-align: center;"><a href="../../downloads/get/?q=mgaonline" rel="nofollow" title="Download mgaonline"><img src="/g/images/oxygen/application-x-rpm.png" alt="mgaonline"><br>
                     mgaonline<br>
                     <?php echo $_t['mgaonline_image_title']; ?></a></p>
 
