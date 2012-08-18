@@ -86,7 +86,7 @@
                 $stats[$l]['files'] += 1;
 
                 if ($link == 'downloads/get') {
-                    $link = sprintf('<a href="//www.mageia.org/%s/%s/?q=Mageia-2-dual-CD.iso&d=1" class="action viewpage">view download OK page</a> <a href="//www.mageia.org/%s/%s/?q=Non_existing_file&d=1" class="action viewpage">view non existing file page</a>', $l, $link, $l, $link);
+                    $link = sprintf('<a href="//www.mageia.org/%s/%s/?q=Mageia-2-dual-CD.iso&d=1" class="action viewpage">view download OK page</a><span style="font-size: 3px; display: block;">&nbsp;</span><a href="//www.mageia.org/%s/%s/?q=Non_existing_file&d=1" class="action viewpage">view non existing file page</a>', $l, $link, $l, $link);
                 } else {
                     $link = sprintf('<a href="//www.mageia.org/%s/%s" class="action viewpage">view page</a>%s', $l, $link, $page_not_linked);
                 }
