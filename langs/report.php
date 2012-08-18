@@ -33,7 +33,7 @@
     <header id="mgnavt">
         <h1><a href="//www.mageia.org/">www.mageia.org</a> translation report</h1>
         <ul>
-            <li><a href="https://wiki.mageia.org/en/Internationalisation_Team_(i18n)#Website_translation">i18n Web Wiki</a> (<a href="https://wiki.mageia.org/en/Internationalisation_Team_%28i18n%29#Special_cases_of_web_pages">Special cases for some web pages</a>)</li>
+            <li><a href="https://wiki.mageia.org/en/Internationalisation_Team_(i18n)#Website_translation">i18n Web Wiki</a> (<a href="https://wiki.mageia.org/en/Internationalisation_Team_%28i18n%29#Special_cases_of_web_pages">Special cases for some web pages like downloads/get, constitution</a>)</li>
         </ul>
     </header>
     <div id="page">
@@ -74,7 +74,11 @@
                 $stats[$l]['files'] += 1;
 
                 $link = str_replace(array('en/', '.en.lang', 'index'), '', $f);
-                $link = sprintf('<a href="//www.mageia.org/%s/%s" class="action viewpage">view page</a>', $l, $link);
+                if ($link == 'downloads/get') {
+                    $link = sprintf('<a href="//www.mageia.org/%s/%s/?q=Mageia-2-dual-CD.iso&d=1" class="action viewpage">view download OK page</a> <a href="//www.mageia.org/%s/%s/?q=Non_existing_file&d=1" class="action viewpage">view non existing file page</a>', $l, $link, $l, $link);
+                } else {
+                    $link = sprintf('<a href="//www.mageia.org/%s/%s" class="action viewpage">view page</a>', $l, $link);
+                }
 
                 $test = _lang_diff($f, $langF);
 
