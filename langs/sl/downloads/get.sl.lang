@@ -107,8 +107,8 @@ ali z <a href="https://www.mageia.org/mailman/listinfo/mageia-webteam">opazko na
 
 
 # ../../svn/web/en/downloads/get/index.php +204
-;or a <a href="https://bugs.mageia.org/">bug report</a>.
-ali s <a href="https://bugs.mageia.org/">poročilom hrošča</a>.
+;or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">bug report</a>.
+ali s <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">poročilom hrošča</a>.
 
 
 # ../../svn/web/en/downloads/get/index.php +207
