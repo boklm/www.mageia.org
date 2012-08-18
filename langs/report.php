@@ -41,6 +41,7 @@
     /**
     */
     include 'lib.php';
+    define('APP_ROOT', realpath(__DIR__ . '/..'));
 
     $enFiles    = get_lang_references();
     $otherLangs = get_other_langs();
@@ -68,16 +69,26 @@
 
             $langF = str_replace('.en.lang', '.' . $l . '.lang', $f);
             $langF = $l . substr($langF, 2);
+            $link = str_replace(array('en/', '.en.lang', 'index'), '', $f);
+            $dest_l = sprintf('%s/%s/%s/%s', APP_ROOT, $l, $link, 'index.php');
+            $dest_en = sprintf('%s/%s/%s/%s', APP_ROOT, 'en', $link, 'index.php');
+            // if symlink e.g. does directly translated page exist?
+            if ((realpath($dest_l) == realpath($dest_en))) {
+                $page_not_linked = '';
+                $old_page = '';
+            } else {
+                $page_not_linked = sprintf('<a href="/%s/%s">old page</a> still exists!', $l, $link);
+                $old_page = sprintf('by recycling <a href="/%s/%s">old page</a>', $l, $link);
+            }
 
             if (file_exists($langF)) {
 
                 $stats[$l]['files'] += 1;
 
-                $link = str_replace(array('en/', '.en.lang', 'index'), '', $f);
                 if ($link == 'downloads/get') {
                     $link = sprintf('<a href="//www.mageia.org/%s/%s/?q=Mageia-2-dual-CD.iso&d=1" class="action viewpage">view download OK page</a> <a href="//www.mageia.org/%s/%s/?q=Non_existing_file&d=1" class="action viewpage">view non existing file page</a>', $l, $link, $l, $link);
                 } else {
-                    $link = sprintf('<a href="//www.mageia.org/%s/%s" class="action viewpage">view page</a>', $l, $link);
+                    $link = sprintf('<a href="//www.mageia.org/%s/%s" class="action viewpage">view page</a>%s', $l, $link, $page_not_linked);
                 }
 
                 $test = _lang_diff($f, $langF);
@@ -128,17 +139,8 @@
                 $stats[$l]['files']   += 0;
                 $stats[$l]['strings'] += 0;
 
-                $old_link          = str_replace(array('en/', '.en.lang', 'index'), '', $f);
-                // if symlink e.g. does directly translated page exist?
-                if (is_link('./../' . $l . '/' . $old_link)) {
-                    $old_link = '';
-                } else {
-                    $old_link = sprintf('by recycling <a href="/%s/%s">old page</a>', $l, $old_link);
-                }
-
-
                 $cols .= sprintf('<td class="missing"><a href="missing.php?s=%s&l=%s" class="action addlang">add translation</a>%s</td>',
-                    $f, $l, $old_link
+                    $f, $l, $old_page
                 );
             }
         }
