@@ -45,3 +45,82 @@ Jak tylko zakończysz pobieranie, sprawdź czy sumy kontrolne plików się zgadz
 ;If signatures do not match, <strong>DO NOT use this ISO</strong>. Double-check and try to download again.
 Jeśli suma kontrolna się nie zgadza, <strong>NIE UŻYWAJ tego obrazu ISO</strong>, gdyż jest uszkodzony. Sprawdź dwa razy i spróbuj pobrać obraz ponownie.
 
+
+# ../../svn/web/en/downloads/get/index.php +169
+;Your IP address is %s and you seem to be in %s, %s.
+Twój adres IP to %s i wygląda, że pochodzi z Kraju %s, %s.
+
+
+# ../../svn/web/en/downloads/get/index.php +175
+;Country
+Kraj
+
+
+# ../../svn/web/en/downloads/get/index.php +176
+;City
+Miasto
+
+
+# ../../svn/web/en/downloads/get/index.php +177
+;Download mirrors
+Serwer lustrzany
+
+
+# ../../svn/web/en/downloads/get/index.php +189
+;The making and the distribution of Mageia worldwide is made possible by all the <a href="%s">people and organizations that mirror our software</a> and that <a href="%s">donate money, hardware, hosting and more</a>.
+Budowanie dystrybucji Mageia i jej rozpowszechnianie jest możliwe dzięki <a href="%s">ludziom i organizacjom, które udostępniają swoje serwery lustrzane</a>, a także <a href="%s">datkom pieniężnym, sprzętowi, usługom hostingowym i wielu innym czynnikom</a>.
+
+
+# ../../svn/web/en/downloads/get/index.php +190
+;Want to help? %sJoin Us!%s
+Chcesz pomóc? %sPrzyłącz się!%s
+
+
+# ../../svn/web/en/downloads/get/index.php +196
+;Sorry!
+Przepraszamy!
+
+
+# ../../svn/web/en/downloads/get/index.php +197
+;Your download could not complete, as we could not find this file. Please try again from the <a href="%s">main downloads page</a>.
+Wskazany przez Ciebie plik nie może być pobrany, gdyż nie istnieje. Proszę spróbować ponownie z poziomu <a href="%s">strony głównej pobierania</a>.
+
+
+# ../../svn/web/en/downloads/get/index.php +199
+;If you still encounter this error and think IT SHOULD NOT HAPPEN &ndash; please tell us:
+Jeśli problem się powtarza i jesteś przekonany, że NIE POWINIEN MIEĆ MIEJSCA &ndash; poinformuj nas o tym:
+
+
+# ../../svn/web/en/downloads/get/index.php +201
+;directly on <a href="irc://irc.freenode.net/#mageia-web">#mageia-web on Freenode IRC</a>,
+bezpośrednio na kanale <a href="irc://irc.freenode.net/#mageia-web">#mageia-web na Freenode IRC</a>,
+
+
+# ../../svn/web/en/downloads/get/index.php +202
+;or <a href="http://twitter.com/mageia_org">via our Tweeter account</a>,
+lub <a href="http://twitter.com/mageia_org">przez twoje konto Tweetera</a>,
+
+
+# ../../svn/web/en/downloads/get/index.php +203
+;or with a <a href="https://www.mageia.org/mailman/listinfo/mageia-webteam">notice on the Web team mailing-list</a>,
+lub informując nas przez <a href="https://www.mageia.org/mailman/listinfo/mageia-webteam">listę wysyłkową Web teamu</a>,
+
+
+# ../../svn/web/en/downloads/get/index.php +204
+;or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">bug report</a>.
+albo <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">zgłaszając błąd</a>.
+
+
+# ../../svn/web/en/downloads/get/index.php +207
+;You may embed this debug info if you like:
+Jeśli chcesz, to zamieść informację o błędzie:
+
+
+# ../../svn/web/en/downloads/get/index.php +209
+;Thanks!
+Dziękujemy!
+
+
+# ../../svn/web/en/downloads/get/index.php +210
+;back to that awesome Mageia home page
+powrót do strony głównej Mageia
