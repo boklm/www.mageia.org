@@ -85,16 +85,28 @@
 
                 $stats[$l]['files'] += 1;
 
+                $test = _lang_diff($f, $langF);
+                $num_of_untranslated_strings = count($test['notrans']);
+
+                if ($link == 'about/constitution') {
+                    $dest_constitution = sprintf('%s/%s/%s/%s_%s.md', APP_ROOT, $l, 'about/constitution', 'mageia.org_statutes', $l);
+                    if ($l == 'en') {
+                        $strings_en_constitution = count(array_unique(file($dest_constitution)));
+                    }
+                    $test['a'] += $strings_en_constitution; // add aproximate number of strings from constitution to translate
+                    if(!is_readable($dest_constitution) || $l == 'en') {
+                        $num_of_untranslated_strings += $strings_en_constitution; // add constitution strings as not translated
+                    }
+                }
+
                 if ($link == 'downloads/get') {
-                    $link = sprintf('<a href="//www.mageia.org/%s/%s/?q=Mageia-2-dual-CD.iso&d=1" class="action viewpage">view download OK page</a><span style="font-size: 3px; display: block;">&nbsp;</span><a href="//www.mageia.org/%s/%s/?q=Non_existing_file&d=1" class="action viewpage">view non existing file page</a>', $l, $link, $l, $link);
+                    $link = sprintf('<a href="//www.mageia.org/%s/%s/?q=Mageia-2-dual-CD.iso&amp;d=1" class="action viewpage">view download OK page</a><span style="font-size: 3px; display: block;">&nbsp;</span><a href="//www.mageia.org/%s/%s/?q=Non_existing_file&amp;d=1" class="action viewpage">view non existing file page</a>', $l, $link, $l, $link);
                 } else {
                     $link = sprintf('<a href="//www.mageia.org/%s/%s" class="action viewpage">view page</a>%s', $l, $link, $page_not_linked);
                 }
 
-                $test = _lang_diff($f, $langF);
-
                 if (count($test['missing']) === 0
-                    && count($test['notrans']) === 0) {
+                    && $num_of_untranslated_strings === 0) {
 
                     $extra = null;
                     if (count($test['extra']) > 0) {
@@ -105,11 +117,10 @@
                         $langF, $extra, $link);
 
                     $done = $test['a'];
-                }
-                else {
+                } else {
                     // special case, en
                     if ($l == 'en') {
-                        $cols .= '<td class="number">' . count($test['notrans']) . ' strings</td>';
+                        $cols .= '<td class="number">' . $num_of_untranslated_strings . ' strings</td>';
                         $enStringsCount[$f] += $test['a'];
                         $done = $test['a'];
 
@@ -122,15 +133,15 @@
                         if (count($test['missing']) > 0) {
                             $cols .= count($test['missing']) . '&nbsp;missing<br>';
                         }
-                        if (count($test['notrans']) > 0) {
-                            $cols .= count($test['notrans']) . '&nbsp;untranslated<br>';
+                        if ($num_of_untranslated_strings > 0) {
+                            $cols .= $num_of_untranslated_strings . '&nbsp;untranslated<br>';
                         }
                         if (count($test['extra']) > 0) {
                             $cols .= count($test['extra']) . '&nbsp;extra';
                         }
                         $cols .= '</a>';
                         $cols .= $link . '</td>';
-                        $done = $test['a'] - count($test['notrans']) - count($test['missing']);
+                        $done = $test['a'] - $num_of_untranslated_strings - count($test['missing']);
                     }
                 }
                 $stats[$l]['strings'] += $done;
@@ -139,19 +150,25 @@
                 $stats[$l]['files']   += 0;
                 $stats[$l]['strings'] += 0;
 
-                $cols .= sprintf('<td class="missing"><a href="missing.php?s=%s&l=%s" class="action addlang">add translation</a>%s</td>',
+                $cols .= sprintf('<td class="missing"><a href="missing.php?s=%s&amp;l=%s" class="action addlang">add translation</a>%s</td>',
                     $f, $l, $old_page
                 );
             }
         }
 
         $progress = floor($stats[$l]['strings'] / $stats['en']['strings'] * 100);
-        $s .= sprintf(
-            '<td class="number">%d%%<br><span style="font-size: smaller;">%d / %d</span></td>',
-            $progress,
-            $stats[$l]['strings'],
-            $stats['en']['strings']
-        );
+        // special case, en
+        if ($l == 'en') {
+            $s .= sprintf('<td class="number">%d strings</td>', $stats[$l]['strings']);
+        // regular case
+        } else {
+            $s .= sprintf(
+                '<td class="number">%d%%<br><span style="font-size: smaller;">%d / %d</span></td>',
+                $progress,
+                $stats[$l]['strings'],
+                $stats['en']['strings']
+            );
+        }
         $s .= $cols;
         
         $s .= '</tr>';
