@@ -1,17 +1,16 @@
 <?php
 define('HLANG', true);
 require '../../langs.php';
-include 'locales.php';
 
-$_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
+_lang_load($locale, "calendar");
 
 ?><!DOCTYPE html>
 <html dir="ltr" lang="<?php echo $locale; ?>">
 <head>
     <meta charset="utf-8">
     <title><?php _e('Mageia calendar') ?></title>
-    <meta name="description" content="Mageia calendar for organization, events, development schedule and more.">
-    <meta name="keywords" content="mageia, linux, calendar, events">
+    <meta name="description" content="<?php _e('Mageia calendar for organization, events, development schedule and more.') ?>">
+    <meta name="keywords" content="<?php _e('mageia, linux, calendar, events') ?>">
     <meta name="author" content="Mageia">
     <link rel="stylesheet" type="text/css" href="/g/style/all.css">
     <?php include '../../analytics.php'; ?>
@@ -73,17 +72,13 @@ $_t = i18n::get_strings($_t, $locale, $i18n_fallback_rules);
                     scrolling="no"></iframe>
 
                 <div class="para">
-                    <p>This calendar shows all Mageia events,
-                        <a href="https://wiki.mageia.org/en/Meetings">team meetings</a>,
-                        development planning milestones
-                        and possibly more.</p>
-                    <p>It is public and available to all.
-                        Only Mageia Board and Council members and team leaders have a write access to it.</p>
-                    <p>For any comment, addition, change to this calendar, feel free to contact us through:</p>
+                    <p><?php _e('This calendar shows all Mageia events, <a href="https://wiki.mageia.org/en/Meetings">team meetings</a>, development planning milestones and possibly more.') ?></p>
+                    <p><?php _e('It is public and available to all. Only Mageia Board and Council members and team leaders have a write access to it.') ?></p>
+                    <p><?php _e('For any comment, addition, change to this calendar, feel free to contact us through:') ?></p>
                     <ul>
-                        <li>your <a href="https://wiki.mageia.org/en/">team</a> leader or representative,</li>
-                        <li><a href="irc://irc.freenode.net/#mageia-dev">#mageia-dev</a> on Freenode,</li>
-                        <li><a href="mailto:mageia-contact@mageia.org">mageia-contact@mageia.org</a> in last resort.</li>
+                        <li><?php _e('your <a href="https://wiki.mageia.org/en/">team</a> leader or representative,') ?></li>
+                        <li><?php _e('<a href="irc://irc.freenode.net/#mageia-dev">#mageia-dev</a> on Freenode,') ?></li>
+                        <li><?php _e('<a href="mailto:mageia-contact@mageia.org">mageia-contact@mageia.org</a> in last resort.') ?></li>
                     </ul>
                 </div>
                 <div class="para">
