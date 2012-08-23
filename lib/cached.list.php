@@ -1,481 +1,395 @@
 <?php $mirrors = array (
-  'US' => 
+  'NL' => 
   array (
     0 => 
-    array (
-      'city' => 'Durham',
-      'continent' => 'NA',
-      'zone' => 'US',
-      'url' => 'http://distro.ibiblio.org/pub/linux/distributions/mageia',
-    ),
-    1 => 
-    array (
-      'city' => '?',
-      'continent' => 'NA',
-      'zone' => 'US',
-      'url' => 'http://mirrors.kernel.org/mageia',
-    ),
-    2 => 
-    array (
-      'city' => '?',
-      'continent' => 'NA',
-      'zone' => 'US',
-      'url' => 'ftp://mirrors.kernel.org/mageia',
-    ),
-    3 => 
-    array (
-      'city' => 'Durham',
-      'continent' => 'NA',
-      'zone' => 'US',
-      'url' => 'ftp://distro.ibiblio.org/pub/linux/distributions/mageia',
-    ),
-  ),
-  '_C:NA' => 
-  array (
-    0 => 
-    array (
-      'city' => 'Durham',
-      'continent' => 'NA',
-      'zone' => 'US',
-      'url' => 'http://distro.ibiblio.org/pub/linux/distributions/mageia',
-    ),
-    1 => 
-    array (
-      'city' => '?',
-      'continent' => 'NA',
-      'zone' => 'US',
-      'url' => 'http://mirrors.kernel.org/mageia',
-    ),
-    2 => 
-    array (
-      'city' => 'Toronto',
-      'continent' => 'NA',
-      'zone' => 'CA',
-      'url' => 'ftp://mageia.webconquest.com',
-    ),
-    3 => 
-    array (
-      'city' => '?',
-      'continent' => 'NA',
-      'zone' => 'US',
-      'url' => 'ftp://mirrors.kernel.org/mageia',
-    ),
-    4 => 
-    array (
-      'city' => 'Toronto',
-      'continent' => 'NA',
-      'zone' => 'CA',
-      'url' => 'http://mageia.webconquest.com',
-    ),
-    5 => 
-    array (
-      'city' => 'Durham',
-      'continent' => 'NA',
-      'zone' => 'US',
-      'url' => 'ftp://distro.ibiblio.org/pub/linux/distributions/mageia',
-    ),
-  ),
-  'BR' => 
-  array (
-    0 => 
-    array (
-      'city' => '?',
-      'continent' => 'SA',
-      'zone' => 'BR',
-      'url' => 'http://mageia.c3sl.ufpr.br',
-    ),
-    1 => 
-    array (
-      'city' => 'Brasilia',
-      'continent' => 'SA',
-      'zone' => 'BR',
-      'url' => 'http://mageia.fis.unb.br',
-    ),
-    2 => 
-    array (
-      'city' => '?',
-      'continent' => 'SA',
-      'zone' => 'BR',
-      'url' => 'ftp://mageia.c3sl.ufpr.br/mageia',
-    ),
-    3 => 
-    array (
-      'city' => 'Brasilia',
-      'continent' => 'SA',
-      'zone' => 'BR',
-      'url' => 'ftp://mageia.fis.unb.br/mageia',
-    ),
-  ),
-  '_C:SA' => 
-  array (
-    0 => 
-    array (
-      'city' => '?',
-      'continent' => 'SA',
-      'zone' => 'BR',
-      'url' => 'http://mageia.c3sl.ufpr.br',
-    ),
-    1 => 
-    array (
-      'city' => 'Brasilia',
-      'continent' => 'SA',
-      'zone' => 'BR',
-      'url' => 'http://mageia.fis.unb.br',
-    ),
-    2 => 
-    array (
-      'city' => '?',
-      'continent' => 'SA',
-      'zone' => 'BR',
-      'url' => 'ftp://mageia.c3sl.ufpr.br/mageia',
-    ),
-    3 => 
-    array (
-      'city' => 'Brasilia',
-      'continent' => 'SA',
-      'zone' => 'BR',
-      'url' => 'ftp://mageia.fis.unb.br/mageia',
-    ),
-  ),
-  'FR' => 
-  array (
-    0 => 
-    array (
-      'city' => 'Vitry-sur-Seine',
-      'continent' => 'EU',
-      'zone' => 'FR',
-      'url' => 'ftp://twiska.zarb.org/mageia',
-    ),
-    1 => 
-    array (
-      'city' => 'Vitry-sur-Seine',
-      'continent' => 'EU',
-      'zone' => 'FR',
-      'url' => 'http://twiska.zarb.org/mageia',
-    ),
-    2 => 
-    array (
-      'city' => 'Paris',
-      'continent' => 'EU',
-      'zone' => 'FR',
-      'url' => 'ftp://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia',
-    ),
-    3 => 
-    array (
-      'city' => 'Lyon',
-      'continent' => 'EU',
-      'zone' => 'FR',
-      'url' => 'http://fr2.rpmfind.net/linux/mageia',
-    ),
-    4 => 
-    array (
-      'city' => 'Lyon',
-      'continent' => 'EU',
-      'zone' => 'FR',
-      'url' => 'ftp://fr2.rpmfind.net/linux/mageia',
-    ),
-    5 => 
-    array (
-      'city' => 'Paris',
-      'continent' => 'EU',
-      'zone' => 'FR',
-      'url' => 'http://mageia.r0b0t.fr/linux/Mageia',
-    ),
-    6 => 
-    array (
-      'city' => 'Paris',
-      'continent' => 'EU',
-      'zone' => 'FR',
-      'url' => 'http://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia',
-    ),
-  ),
-  '_C:EU' => 
-  array (
-    0 => 
-    array (
-      'city' => 'Vitry-sur-Seine',
-      'continent' => 'EU',
-      'zone' => 'FR',
-      'url' => 'ftp://twiska.zarb.org/mageia',
-    ),
-    1 => 
-    array (
-      'city' => 'Vitry-sur-Seine',
-      'continent' => 'EU',
-      'zone' => 'FR',
-      'url' => 'http://twiska.zarb.org/mageia',
-    ),
-    2 => 
-    array (
-      'city' => 'Brno',
-      'continent' => 'EU',
-      'zone' => 'CZ',
-      'url' => 'http://ftp.fi.muni.cz/pub/linux/mageia',
-    ),
-    3 => 
-    array (
-      'city' => 'Erfurt',
-      'continent' => 'EU',
-      'zone' => 'DE',
-      'url' => 'http://ftp.mandrivauser.de/mirrors/Mageia',
-    ),
-    4 => 
-    array (
-      'city' => 'Esslingen',
-      'continent' => 'EU',
-      'zone' => 'DE',
-      'url' => 'http://ftp-stud.hs-esslingen.de/pub/Mirrors/Mageia',
-    ),
-    5 => 
-    array (
-      'city' => 'Paris',
-      'continent' => 'EU',
-      'zone' => 'FR',
-      'url' => 'ftp://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia',
-    ),
-    6 => 
-    array (
-      'city' => '?',
-      'continent' => 'EU',
-      'zone' => 'SE',
-      'url' => 'ftp://ftp.acc.umu.se/mirror/mageia',
-    ),
-    7 => 
-    array (
-      'city' => 'Minsk',
-      'continent' => 'EU',
-      'zone' => 'BY',
-      'url' => 'http://mirror.datacenter.by/pub/mirrors/mageia.org',
-    ),
-    8 => 
     array (
       'city' => 'Amsterdam',
       'continent' => 'EU',
       'zone' => 'NL',
       'url' => 'ftp://ftp.nluug.nl/pub/os/Linux/distr/mageia',
     ),
-    9 => 
-    array (
-      'city' => 'Esslingen',
-      'continent' => 'EU',
-      'zone' => 'DE',
-      'url' => 'ftp://ftp-stud.hs-esslingen.de/pub/Mirrors/Mageia',
-    ),
-    10 => 
+    1 => 
     array (
       'city' => 'Amsterdam',
       'continent' => 'EU',
       'zone' => 'NL',
       'url' => 'http://ftp.nluug.nl/pub/os/Linux/distr/mageia',
     ),
-    11 => 
+  ),
+  '_C:EU' => 
+  array (
+    0 => 
     array (
-      'city' => 'Lucern',
+      'city' => 'Amsterdam',
       'continent' => 'EU',
-      'zone' => 'CH',
-      'url' => 'ftp://ftp.LinuxCabal.org/pub/mirrors/Mageia',
+      'zone' => 'NL',
+      'url' => 'ftp://ftp.nluug.nl/pub/os/Linux/distr/mageia',
     ),
-    12 => 
-    array (
-      'city' => 'Erfurt',
-      'continent' => 'EU',
-      'zone' => 'DE',
-      'url' => 'ftp://ftp.mandrivauser.de/mirrors/Mageia',
-    ),
-    13 => 
-    array (
-      'city' => '?',
-      'continent' => 'EU',
-      'zone' => 'CZ',
-      'url' => 'http://mageia.supp.name',
-    ),
-    14 => 
+    1 => 
     array (
       'city' => 'Göttingen',
       'continent' => 'EU',
       'zone' => 'DE',
       'url' => 'ftp://ftp5.gwdg.de/pub/linux/mageia',
     ),
-    15 => 
-    array (
-      'city' => 'Prague',
-      'continent' => 'EU',
-      'zone' => 'CZ',
-      'url' => 'ftp://mageia.mirror.dkm.cz/pub/mageia',
-    ),
-    16 => 
-    array (
-      'city' => 'Prague',
-      'continent' => 'EU',
-      'zone' => 'CZ',
-      'url' => 'http://mageia.mirror.dkm.cz/pub/mageia',
-    ),
-    17 => 
-    array (
-      'city' => '?',
-      'continent' => 'EU',
-      'zone' => 'PL',
-      'url' => 'http://ftp.icm.edu.pl/pub/Linux/sunsite/distributions/mageia',
-    ),
-    18 => 
-    array (
-      'city' => 'Göttingen',
-      'continent' => 'EU',
-      'zone' => 'DE',
-      'url' => 'http://ftp5.gwdg.de/pub/linux/mageia',
-    ),
-    19 => 
-    array (
-      'city' => 'Brno',
-      'continent' => 'EU',
-      'zone' => 'CZ',
-      'url' => 'ftp://ftp.fi.muni.cz/pub/linux/mageia',
-    ),
-    20 => 
-    array (
-      'city' => 'Minsk',
-      'continent' => 'EU',
-      'zone' => 'BY',
-      'url' => 'ftp://mirror.datacenter.by/pub/mirrors/mageia.org',
-    ),
-    21 => 
-    array (
-      'city' => '?',
-      'continent' => 'EU',
-      'zone' => 'PL',
-      'url' => 'ftp://ftp.icm.edu.pl/pub/Linux/sunsite/distributions/mageia',
-    ),
-    22 => 
-    array (
-      'city' => 'Lyon',
-      'continent' => 'EU',
-      'zone' => 'FR',
-      'url' => 'http://fr2.rpmfind.net/linux/mageia',
-    ),
-    23 => 
-    array (
-      'city' => 'Moscow',
-      'continent' => 'EU',
-      'zone' => 'RU',
-      'url' => 'http://mirror.yandex.ru/mageia',
-    ),
-    24 => 
-    array (
-      'city' => '?',
-      'continent' => 'EU',
-      'zone' => 'SE',
-      'url' => 'http://ftp.acc.umu.se/mirror/mageia',
-    ),
-    25 => 
-    array (
-      'city' => 'Lyon',
-      'continent' => 'EU',
-      'zone' => 'FR',
-      'url' => 'ftp://fr2.rpmfind.net/linux/mageia',
-    ),
-    26 => 
-    array (
-      'city' => 'Paris',
-      'continent' => 'EU',
-      'zone' => 'FR',
-      'url' => 'http://mageia.r0b0t.fr/linux/Mageia',
-    ),
-    27 => 
-    array (
-      'city' => 'Paris',
-      'continent' => 'EU',
-      'zone' => 'FR',
-      'url' => 'http://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia',
-    ),
-    28 => 
-    array (
-      'city' => 'Moscow',
-      'continent' => 'EU',
-      'zone' => 'RU',
-      'url' => 'ftp://mirror.yandex.ru/mageia',
-    ),
-  ),
-  'CZ' => 
-  array (
-    0 => 
-    array (
-      'city' => 'Brno',
-      'continent' => 'EU',
-      'zone' => 'CZ',
-      'url' => 'http://ftp.fi.muni.cz/pub/linux/mageia',
-    ),
-    1 => 
-    array (
-      'city' => '?',
-      'continent' => 'EU',
-      'zone' => 'CZ',
-      'url' => 'http://mageia.supp.name',
-    ),
     2 => 
-    array (
-      'city' => 'Prague',
-      'continent' => 'EU',
-      'zone' => 'CZ',
-      'url' => 'ftp://mageia.mirror.dkm.cz/pub/mageia',
-    ),
-    3 => 
-    array (
-      'city' => 'Prague',
-      'continent' => 'EU',
-      'zone' => 'CZ',
-      'url' => 'http://mageia.mirror.dkm.cz/pub/mageia',
-    ),
-    4 => 
-    array (
-      'city' => 'Brno',
-      'continent' => 'EU',
-      'zone' => 'CZ',
-      'url' => 'ftp://ftp.fi.muni.cz/pub/linux/mageia',
-    ),
-  ),
-  'DE' => 
-  array (
-    0 => 
     array (
       'city' => 'Erfurt',
       'continent' => 'EU',
       'zone' => 'DE',
-      'url' => 'http://ftp.mandrivauser.de/mirrors/Mageia',
+      'url' => 'ftp://ftp.mandrivauser.de/mirrors/Mageia',
     ),
-    1 => 
+    3 => 
+    array (
+      'city' => 'Minsk',
+      'continent' => 'EU',
+      'zone' => 'BY',
+      'url' => 'http://mirror.datacenter.by/pub/mirrors/mageia.org',
+    ),
+    4 => 
     array (
       'city' => 'Esslingen',
       'continent' => 'EU',
       'zone' => 'DE',
       'url' => 'http://ftp-stud.hs-esslingen.de/pub/Mirrors/Mageia',
     ),
-    2 => 
+    5 => 
+    array (
+      'city' => 'Prague',
+      'continent' => 'EU',
+      'zone' => 'CZ',
+      'url' => 'http://mageia.mirror.dkm.cz/pub/mageia',
+    ),
+    6 => 
+    array (
+      'city' => '?',
+      'continent' => 'EU',
+      'zone' => 'CZ',
+      'url' => 'http://mageia.supp.name',
+    ),
+    7 => 
+    array (
+      'city' => 'Amsterdam',
+      'continent' => 'EU',
+      'zone' => 'NL',
+      'url' => 'http://ftp.nluug.nl/pub/os/Linux/distr/mageia',
+    ),
+    8 => 
+    array (
+      'city' => 'Prague',
+      'continent' => 'EU',
+      'zone' => 'CZ',
+      'url' => 'ftp://mageia.mirror.dkm.cz/pub/mageia',
+    ),
+    9 => 
+    array (
+      'city' => 'Paris',
+      'continent' => 'EU',
+      'zone' => 'FR',
+      'url' => 'ftp://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia',
+    ),
+    10 => 
+    array (
+      'city' => 'Vitry-sur-Seine',
+      'continent' => 'EU',
+      'zone' => 'FR',
+      'url' => 'ftp://twiska.zarb.org/mageia',
+    ),
+    11 => 
+    array (
+      'city' => 'Brno',
+      'continent' => 'EU',
+      'zone' => 'CZ',
+      'url' => 'http://ftp.fi.muni.cz/pub/linux/mageia',
+    ),
+    12 => 
+    array (
+      'city' => 'Brno',
+      'continent' => 'EU',
+      'zone' => 'CZ',
+      'url' => 'ftp://ftp.fi.muni.cz/pub/linux/mageia',
+    ),
+    13 => 
     array (
       'city' => 'Esslingen',
       'continent' => 'EU',
       'zone' => 'DE',
       'url' => 'ftp://ftp-stud.hs-esslingen.de/pub/Mirrors/Mageia',
     ),
-    3 => 
+    14 => 
+    array (
+      'city' => '?',
+      'continent' => 'EU',
+      'zone' => 'SE',
+      'url' => 'ftp://ftp.acc.umu.se/mirror/mageia',
+    ),
+    15 => 
+    array (
+      'city' => 'Vitry-sur-Seine',
+      'continent' => 'EU',
+      'zone' => 'FR',
+      'url' => 'http://twiska.zarb.org/mageia',
+    ),
+    16 => 
+    array (
+      'city' => 'Lucern',
+      'continent' => 'EU',
+      'zone' => 'CH',
+      'url' => 'ftp://ftp.LinuxCabal.org/pub/mirrors/Mageia',
+    ),
+    17 => 
+    array (
+      'city' => 'Göttingen',
+      'continent' => 'EU',
+      'zone' => 'DE',
+      'url' => 'http://ftp5.gwdg.de/pub/linux/mageia',
+    ),
+    18 => 
+    array (
+      'city' => 'Uppsala',
+      'continent' => 'EU',
+      'zone' => 'SE',
+      'url' => 'ftp://ftp.sunet.se/pub/Linux/distributions/mageia',
+    ),
+    19 => 
+    array (
+      'city' => 'Paris',
+      'continent' => 'EU',
+      'zone' => 'FR',
+      'url' => 'http://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia',
+    ),
+    20 => 
+    array (
+      'city' => 'Hermsdorf',
+      'continent' => 'EU',
+      'zone' => 'DE',
+      'url' => 'http://mirror.tuxinator.org/mageia',
+    ),
+    21 => 
+    array (
+      'city' => 'Erlangen',
+      'continent' => 'EU',
+      'zone' => 'DE',
+      'url' => 'ftp://ftp.uni-erlangen.de/mirrors/Mageia',
+    ),
+    22 => 
+    array (
+      'city' => 'Erlangen',
+      'continent' => 'EU',
+      'zone' => 'DE',
+      'url' => 'http://ftp.uni-erlangen.de/mirrors/Mageia',
+    ),
+    23 => 
+    array (
+      'city' => 'Perugia',
+      'continent' => 'EU',
+      'zone' => 'IT',
+      'url' => 'http://mageia.mirror.garr.it/mirrors/mageia',
+    ),
+    24 => 
+    array (
+      'city' => 'Lyon',
+      'continent' => 'EU',
+      'zone' => 'FR',
+      'url' => 'http://fr2.rpmfind.net/linux/mageia',
+    ),
+    25 => 
+    array (
+      'city' => 'Uppsala',
+      'continent' => 'EU',
+      'zone' => 'SE',
+      'url' => 'http://ftp.sunet.se/pub/Linux/distributions/mageia',
+    ),
+    26 => 
+    array (
+      'city' => 'Moscow',
+      'continent' => 'EU',
+      'zone' => 'RU',
+      'url' => 'ftp://mirror.yandex.ru/mageia',
+    ),
+    27 => 
+    array (
+      'city' => 'Moscow',
+      'continent' => 'EU',
+      'zone' => 'RU',
+      'url' => 'http://mirror.yandex.ru/mageia',
+    ),
+    28 => 
+    array (
+      'city' => 'Hermsdorf',
+      'continent' => 'EU',
+      'zone' => 'DE',
+      'url' => 'ftp://mirror.tuxinator.org/mageia',
+    ),
+    29 => 
+    array (
+      'city' => '?',
+      'continent' => 'EU',
+      'zone' => 'SE',
+      'url' => 'http://ftp.acc.umu.se/mirror/mageia',
+    ),
+    30 => 
+    array (
+      'city' => 'Lyon',
+      'continent' => 'EU',
+      'zone' => 'FR',
+      'url' => 'ftp://fr2.rpmfind.net/linux/mageia',
+    ),
+    31 => 
+    array (
+      'city' => 'Minsk',
+      'continent' => 'EU',
+      'zone' => 'BY',
+      'url' => 'ftp://mirror.datacenter.by/pub/mirrors/mageia.org',
+    ),
+    32 => 
     array (
       'city' => 'Erfurt',
       'continent' => 'EU',
       'zone' => 'DE',
-      'url' => 'ftp://ftp.mandrivauser.de/mirrors/Mageia',
+      'url' => 'http://ftp.mandrivauser.de/mirrors/Mageia',
     ),
-    4 => 
+    33 => 
+    array (
+      'city' => 'Perugia',
+      'continent' => 'EU',
+      'zone' => 'IT',
+      'url' => 'ftp://mageia.mirror.garr.it/mirrors/mageia',
+    ),
+    34 => 
+    array (
+      'city' => 'Paris',
+      'continent' => 'EU',
+      'zone' => 'FR',
+      'url' => 'http://mageia.r0b0t.fr/linux/Mageia',
+    ),
+  ),
+  'DE' => 
+  array (
+    0 => 
     array (
       'city' => 'Göttingen',
       'continent' => 'EU',
       'zone' => 'DE',
       'url' => 'ftp://ftp5.gwdg.de/pub/linux/mageia',
     ),
-    5 => 
+    1 => 
+    array (
+      'city' => 'Erfurt',
+      'continent' => 'EU',
+      'zone' => 'DE',
+      'url' => 'ftp://ftp.mandrivauser.de/mirrors/Mageia',
+    ),
+    2 => 
+    array (
+      'city' => 'Esslingen',
+      'continent' => 'EU',
+      'zone' => 'DE',
+      'url' => 'http://ftp-stud.hs-esslingen.de/pub/Mirrors/Mageia',
+    ),
+    3 => 
+    array (
+      'city' => 'Esslingen',
+      'continent' => 'EU',
+      'zone' => 'DE',
+      'url' => 'ftp://ftp-stud.hs-esslingen.de/pub/Mirrors/Mageia',
+    ),
+    4 => 
     array (
       'city' => 'Göttingen',
       'continent' => 'EU',
       'zone' => 'DE',
       'url' => 'http://ftp5.gwdg.de/pub/linux/mageia',
+    ),
+    5 => 
+    array (
+      'city' => 'Hermsdorf',
+      'continent' => 'EU',
+      'zone' => 'DE',
+      'url' => 'http://mirror.tuxinator.org/mageia',
+    ),
+    6 => 
+    array (
+      'city' => 'Erlangen',
+      'continent' => 'EU',
+      'zone' => 'DE',
+      'url' => 'ftp://ftp.uni-erlangen.de/mirrors/Mageia',
+    ),
+    7 => 
+    array (
+      'city' => 'Erlangen',
+      'continent' => 'EU',
+      'zone' => 'DE',
+      'url' => 'http://ftp.uni-erlangen.de/mirrors/Mageia',
+    ),
+    8 => 
+    array (
+      'city' => 'Hermsdorf',
+      'continent' => 'EU',
+      'zone' => 'DE',
+      'url' => 'ftp://mirror.tuxinator.org/mageia',
+    ),
+    9 => 
+    array (
+      'city' => 'Erfurt',
+      'continent' => 'EU',
+      'zone' => 'DE',
+      'url' => 'http://ftp.mandrivauser.de/mirrors/Mageia',
+    ),
+  ),
+  'BY' => 
+  array (
+    0 => 
+    array (
+      'city' => 'Minsk',
+      'continent' => 'EU',
+      'zone' => 'BY',
+      'url' => 'http://mirror.datacenter.by/pub/mirrors/mageia.org',
+    ),
+    1 => 
+    array (
+      'city' => 'Minsk',
+      'continent' => 'EU',
+      'zone' => 'BY',
+      'url' => 'ftp://mirror.datacenter.by/pub/mirrors/mageia.org',
+    ),
+  ),
+  'CZ' => 
+  array (
+    0 => 
+    array (
+      'city' => 'Prague',
+      'continent' => 'EU',
+      'zone' => 'CZ',
+      'url' => 'http://mageia.mirror.dkm.cz/pub/mageia',
+    ),
+    1 => 
+    array (
+      'city' => '?',
+      'continent' => 'EU',
+      'zone' => 'CZ',
+      'url' => 'http://mageia.supp.name',
+    ),
+    2 => 
+    array (
+      'city' => 'Prague',
+      'continent' => 'EU',
+      'zone' => 'CZ',
+      'url' => 'ftp://mageia.mirror.dkm.cz/pub/mageia',
+    ),
+    3 => 
+    array (
+      'city' => 'Brno',
+      'continent' => 'EU',
+      'zone' => 'CZ',
+      'url' => 'http://ftp.fi.muni.cz/pub/linux/mageia',
+    ),
+    4 => 
+    array (
+      'city' => 'Brno',
+      'continent' => 'EU',
+      'zone' => 'CZ',
+      'url' => 'ftp://ftp.fi.muni.cz/pub/linux/mageia',
     ),
   ),
   'AU' => 
@@ -540,128 +454,66 @@
       'url' => 'http://mirror.internode.on.net/pub/mageia',
     ),
   ),
-  'SE' => 
+  'US' => 
   array (
     0 => 
     array (
       'city' => '?',
-      'continent' => 'EU',
-      'zone' => 'SE',
-      'url' => 'ftp://ftp.acc.umu.se/mirror/mageia',
-    ),
-    1 => 
-    array (
-      'city' => '?',
-      'continent' => 'EU',
-      'zone' => 'SE',
-      'url' => 'http://ftp.acc.umu.se/mirror/mageia',
-    ),
-  ),
-  'JP' => 
-  array (
-    0 => 
-    array (
-      'city' => 'Yonezawa',
-      'continent' => 'AS',
-      'zone' => 'JP',
-      'url' => 'http://ftp.yz.yamagata-u.ac.jp/pub/linux/mageia',
-    ),
-    1 => 
-    array (
-      'city' => 'Yonezawa',
-      'continent' => 'AS',
-      'zone' => 'JP',
-      'url' => 'ftp://ftp.yz.yamagata-u.ac.jp/pub/linux/mageia',
-    ),
-  ),
-  '_C:AS' => 
-  array (
-    0 => 
-    array (
-      'city' => 'Yonezawa',
-      'continent' => 'AS',
-      'zone' => 'JP',
-      'url' => 'http://ftp.yz.yamagata-u.ac.jp/pub/linux/mageia',
-    ),
-    1 => 
-    array (
-      'city' => 'HsinChu',
-      'continent' => 'AS',
-      'zone' => 'TW',
-      'url' => 'http://ftp.twaren.net/Linux/Mageia',
+      'continent' => 'NA',
+      'zone' => 'US',
+      'url' => 'http://mirrors.kernel.org/mageia',
     ),
     2 => 
     array (
-      'city' => 'HsinChu',
-      'continent' => 'AS',
-      'zone' => 'TW',
-      'url' => 'ftp://ftp.twaren.net/Linux/Mageia',
+      'city' => '?',
+      'continent' => 'NA',
+      'zone' => 'US',
+      'url' => 'ftp://mirrors.kernel.org/mageia',
     ),
     3 => 
     array (
-      'city' => 'Yonezawa',
-      'continent' => 'AS',
-      'zone' => 'JP',
-      'url' => 'ftp://ftp.yz.yamagata-u.ac.jp/pub/linux/mageia',
-    ),
-    4 => 
-    array (
-      'city' => 'HsinChu',
-      'continent' => 'AS',
-      'zone' => 'TW',
-      'url' => 'http://free.nchc.org.tw/mageia',
-    ),
-    5 => 
-    array (
-      'city' => 'HsinChu',
-      'continent' => 'AS',
-      'zone' => 'TW',
-      'url' => 'ftp://free.nchc.org.tw/mageia',
-    ),
-    6 => 
-    array (
-      'city' => 'Bandung',
-      'continent' => 'AS',
-      'zone' => 'ID',
-      'url' => 'ftp://ftp.itb.ac.id/pub/mageia',
-    ),
-    7 => 
-    array (
-      'city' => 'Beijing',
-      'continent' => 'AS',
-      'zone' => 'CN',
-      'url' => 'http://fundawang.lcuc.org.cn/mageia',
-    ),
-    8 => 
-    array (
-      'city' => 'Beijing',
-      'continent' => 'AS',
-      'zone' => 'CN',
-      'url' => 'http://ftp.sjtu.edu.cn/mageia',
-    ),
-    9 => 
-    array (
-      'city' => 'Beijing',
-      'continent' => 'AS',
-      'zone' => 'CN',
-      'url' => 'ftp://ftp.sjtu.edu.cn/mageia',
+      'city' => 'Lenoir',
+      'continent' => 'NA',
+      'zone' => 'US',
+      'url' => 'http://mirror.dacentec.com/mageia',
     ),
   ),
-  'BY' => 
+  '_C:NA' => 
   array (
     0 => 
     array (
-      'city' => 'Minsk',
-      'continent' => 'EU',
-      'zone' => 'BY',
-      'url' => 'http://mirror.datacenter.by/pub/mirrors/mageia.org',
+      'city' => '?',
+      'continent' => 'NA',
+      'zone' => 'US',
+      'url' => 'http://mirrors.kernel.org/mageia',
     ),
     1 => 
     array (
-      'city' => 'Minsk',
-      'continent' => 'EU',
-      'zone' => 'BY',
-      'url' => 'ftp://mirror.datacenter.by/pub/mirrors/mageia.org',
+      'city' => 'Toronto',
+      'continent' => 'NA',
+      'zone' => 'CA',
+      'url' => 'http://mageia.webconquest.com',
+    ),
+    3 => 
+    array (
+      'city' => '?',
+      'continent' => 'NA',
+      'zone' => 'US',
+      'url' => 'ftp://mirrors.kernel.org/mageia',
+    ),
+    4 => 
+    array (
+      'city' => 'Toronto',
+      'continent' => 'NA',
+      'zone' => 'CA',
+      'url' => 'ftp://mageia.webconquest.com',
+    ),
+    5 => 
+    array (
+      'city' => 'Lenoir',
+      'continent' => 'NA',
+      'zone' => 'US',
+      'url' => 'http://mirror.dacentec.com/mageia',
     ),
   ),
   'CA' => 
@@ -671,31 +523,66 @@
       'city' => 'Toronto',
       'continent' => 'NA',
       'zone' => 'CA',
-      'url' => 'ftp://mageia.webconquest.com',
+      'url' => 'http://mageia.webconquest.com',
     ),
     1 => 
     array (
       'city' => 'Toronto',
       'continent' => 'NA',
       'zone' => 'CA',
-      'url' => 'http://mageia.webconquest.com',
+      'url' => 'ftp://mageia.webconquest.com',
     ),
   ),
-  'NL' => 
+  'FR' => 
   array (
     0 => 
     array (
-      'city' => 'Amsterdam',
+      'city' => 'Paris',
       'continent' => 'EU',
-      'zone' => 'NL',
-      'url' => 'ftp://ftp.nluug.nl/pub/os/Linux/distr/mageia',
+      'zone' => 'FR',
+      'url' => 'ftp://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia',
     ),
     1 => 
     array (
-      'city' => 'Amsterdam',
+      'city' => 'Vitry-sur-Seine',
       'continent' => 'EU',
-      'zone' => 'NL',
-      'url' => 'http://ftp.nluug.nl/pub/os/Linux/distr/mageia',
+      'zone' => 'FR',
+      'url' => 'ftp://twiska.zarb.org/mageia',
+    ),
+    2 => 
+    array (
+      'city' => 'Vitry-sur-Seine',
+      'continent' => 'EU',
+      'zone' => 'FR',
+      'url' => 'http://twiska.zarb.org/mageia',
+    ),
+    3 => 
+    array (
+      'city' => 'Paris',
+      'continent' => 'EU',
+      'zone' => 'FR',
+      'url' => 'http://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia',
+    ),
+    4 => 
+    array (
+      'city' => 'Lyon',
+      'continent' => 'EU',
+      'zone' => 'FR',
+      'url' => 'http://fr2.rpmfind.net/linux/mageia',
+    ),
+    5 => 
+    array (
+      'city' => 'Lyon',
+      'continent' => 'EU',
+      'zone' => 'FR',
+      'url' => 'ftp://fr2.rpmfind.net/linux/mageia',
+    ),
+    6 => 
+    array (
+      'city' => 'Paris',
+      'continent' => 'EU',
+      'zone' => 'FR',
+      'url' => 'http://mageia.r0b0t.fr/linux/Mageia',
     ),
   ),
   'TW' => 
@@ -712,14 +599,14 @@
       'city' => 'HsinChu',
       'continent' => 'AS',
       'zone' => 'TW',
-      'url' => 'ftp://ftp.twaren.net/Linux/Mageia',
+      'url' => 'http://free.nchc.org.tw/mageia',
     ),
     2 => 
     array (
       'city' => 'HsinChu',
       'continent' => 'AS',
       'zone' => 'TW',
-      'url' => 'http://free.nchc.org.tw/mageia',
+      'url' => 'ftp://ftp.twaren.net/Linux/Mageia',
     ),
     3 => 
     array (
@@ -729,14 +616,142 @@
       'url' => 'ftp://free.nchc.org.tw/mageia',
     ),
   ),
-  'CH' => 
+  '_C:AS' => 
   array (
     0 => 
     array (
-      'city' => 'Lucern',
-      'continent' => 'EU',
-      'zone' => 'CH',
-      'url' => 'ftp://ftp.LinuxCabal.org/pub/mirrors/Mageia',
+      'city' => 'HsinChu',
+      'continent' => 'AS',
+      'zone' => 'TW',
+      'url' => 'http://ftp.twaren.net/Linux/Mageia',
+    ),
+    1 => 
+    array (
+      'city' => 'Bandung',
+      'continent' => 'AS',
+      'zone' => 'ID',
+      'url' => 'ftp://ftp.itb.ac.id/pub/mageia',
+    ),
+    2 => 
+    array (
+      'city' => 'Bandung',
+      'continent' => 'AS',
+      'zone' => 'ID',
+      'url' => 'http://ftp.itb.ac.id/pub/mageia',
+    ),
+    3 => 
+    array (
+      'city' => 'HsinChu',
+      'continent' => 'AS',
+      'zone' => 'TW',
+      'url' => 'http://free.nchc.org.tw/mageia',
+    ),
+    4 => 
+    array (
+      'city' => 'HsinChu',
+      'continent' => 'AS',
+      'zone' => 'TW',
+      'url' => 'ftp://ftp.twaren.net/Linux/Mageia',
+    ),
+    5 => 
+    array (
+      'city' => 'HsinChu',
+      'continent' => 'AS',
+      'zone' => 'TW',
+      'url' => 'ftp://free.nchc.org.tw/mageia',
+    ),
+    6 => 
+    array (
+      'city' => 'Beijing',
+      'continent' => 'AS',
+      'zone' => 'CN',
+      'url' => 'http://ftp.sjtu.edu.cn/mageia',
+    ),
+    7 => 
+    array (
+      'city' => 'Beijing',
+      'continent' => 'AS',
+      'zone' => 'CN',
+      'url' => 'ftp://ftp.sjtu.edu.cn/mageia',
+    ),
+  ),
+  'ID' => 
+  array (
+    0 => 
+    array (
+      'city' => 'Bandung',
+      'continent' => 'AS',
+      'zone' => 'ID',
+      'url' => 'ftp://ftp.itb.ac.id/pub/mageia',
+    ),
+    1 => 
+    array (
+      'city' => 'Bandung',
+      'continent' => 'AS',
+      'zone' => 'ID',
+      'url' => 'http://ftp.itb.ac.id/pub/mageia',
+    ),
+  ),
+  'BR' => 
+  array (
+    0 => 
+    array (
+      'city' => '?',
+      'continent' => 'SA',
+      'zone' => 'BR',
+      'url' => 'http://mageia.c3sl.ufpr.br',
+    ),
+    1 => 
+    array (
+      'city' => 'Brasilia',
+      'continent' => 'SA',
+      'zone' => 'BR',
+      'url' => 'http://mageia.fis.unb.br',
+    ),
+    2 => 
+    array (
+      'city' => 'Brasilia',
+      'continent' => 'SA',
+      'zone' => 'BR',
+      'url' => 'ftp://mageia.fis.unb.br/mageia',
+    ),
+    3 => 
+    array (
+      'city' => '?',
+      'continent' => 'SA',
+      'zone' => 'BR',
+      'url' => 'ftp://mageia.c3sl.ufpr.br/mageia',
+    ),
+  ),
+  '_C:SA' => 
+  array (
+    0 => 
+    array (
+      'city' => '?',
+      'continent' => 'SA',
+      'zone' => 'BR',
+      'url' => 'http://mageia.c3sl.ufpr.br',
+    ),
+    1 => 
+    array (
+      'city' => 'Brasilia',
+      'continent' => 'SA',
+      'zone' => 'BR',
+      'url' => 'http://mageia.fis.unb.br',
+    ),
+    2 => 
+    array (
+      'city' => 'Brasilia',
+      'continent' => 'SA',
+      'zone' => 'BR',
+      'url' => 'ftp://mageia.fis.unb.br/mageia',
+    ),
+    3 => 
+    array (
+      'city' => '?',
+      'continent' => 'SA',
+      'zone' => 'BR',
+      'url' => 'ftp://mageia.c3sl.ufpr.br/mageia',
     ),
   ),
   'NC' => 
@@ -756,55 +771,96 @@
       'url' => 'http://mageia.nautile.nc/mageia',
     ),
   ),
-  'PL' => 
+  'SE' => 
   array (
     0 => 
     array (
       'city' => '?',
       'continent' => 'EU',
-      'zone' => 'PL',
-      'url' => 'http://ftp.icm.edu.pl/pub/Linux/sunsite/distributions/mageia',
+      'zone' => 'SE',
+      'url' => 'ftp://ftp.acc.umu.se/mirror/mageia',
     ),
     1 => 
     array (
-      'city' => '?',
+      'city' => 'Uppsala',
       'continent' => 'EU',
-      'zone' => 'PL',
-      'url' => 'ftp://ftp.icm.edu.pl/pub/Linux/sunsite/distributions/mageia',
-    ),
-  ),
-  'ID' => 
-  array (
-    0 => 
-    array (
-      'city' => 'Bandung',
-      'continent' => 'AS',
-      'zone' => 'ID',
-      'url' => 'ftp://ftp.itb.ac.id/pub/mageia',
-    ),
-  ),
-  'CN' => 
-  array (
-    0 => 
-    array (
-      'city' => 'Beijing',
-      'continent' => 'AS',
-      'zone' => 'CN',
-      'url' => 'http://fundawang.lcuc.org.cn/mageia',
-    ),
-    1 => 
-    array (
-      'city' => 'Beijing',
-      'continent' => 'AS',
-      'zone' => 'CN',
-      'url' => 'http://ftp.sjtu.edu.cn/mageia',
+      'zone' => 'SE',
+      'url' => 'ftp://ftp.sunet.se/pub/Linux/distributions/mageia',
     ),
     2 => 
     array (
-      'city' => 'Beijing',
-      'continent' => 'AS',
-      'zone' => 'CN',
-      'url' => 'ftp://ftp.sjtu.edu.cn/mageia',
+      'city' => 'Uppsala',
+      'continent' => 'EU',
+      'zone' => 'SE',
+      'url' => 'http://ftp.sunet.se/pub/Linux/distributions/mageia',
+    ),
+    3 => 
+    array (
+      'city' => '?',
+      'continent' => 'EU',
+      'zone' => 'SE',
+      'url' => 'http://ftp.acc.umu.se/mirror/mageia',
+    ),
+  ),
+  'CH' => 
+  array (
+    0 => 
+    array (
+      'city' => 'Lucern',
+      'continent' => 'EU',
+      'zone' => 'CH',
+      'url' => 'ftp://ftp.LinuxCabal.org/pub/mirrors/Mageia',
+    ),
+  ),
+  'ZA' => 
+  array (
+    0 => 
+    array (
+      'city' => 'Stellenbosch',
+      'continent' => 'AF',
+      'zone' => 'ZA',
+      'url' => 'ftp://ftp.sun.ac.za/pub/mirrors/mageia',
+    ),
+    1 => 
+    array (
+      'city' => 'Stellenbosch',
+      'continent' => 'AF',
+      'zone' => 'ZA',
+      'url' => 'http://ftp.sun.ac.za/ftp/pub/mirrors/mageia',
+    ),
+  ),
+  '_C:AF' => 
+  array (
+    0 => 
+    array (
+      'city' => 'Stellenbosch',
+      'continent' => 'AF',
+      'zone' => 'ZA',
+      'url' => 'ftp://ftp.sun.ac.za/pub/mirrors/mageia',
+    ),
+    1 => 
+    array (
+      'city' => 'Stellenbosch',
+      'continent' => 'AF',
+      'zone' => 'ZA',
+      'url' => 'http://ftp.sun.ac.za/ftp/pub/mirrors/mageia',
+    ),
+  ),
+  'IT' => 
+  array (
+    0 => 
+    array (
+      'city' => 'Perugia',
+      'continent' => 'EU',
+      'zone' => 'IT',
+      'url' => 'http://mageia.mirror.garr.it/mirrors/mageia',
+    ),
+    1 => 
+    array (
+      'city' => 'Perugia',
+      'continent' => 'EU',
+      'zone' => 'IT',
+      'url' => 'ftp://mageia.mirror.garr.it/mirrors/mageia',
     ),
   ),
   'RU' => 
@@ -814,14 +870,31 @@
       'city' => 'Moscow',
       'continent' => 'EU',
       'zone' => 'RU',
-      'url' => 'http://mirror.yandex.ru/mageia',
+      'url' => 'ftp://mirror.yandex.ru/mageia',
     ),
     1 => 
     array (
       'city' => 'Moscow',
       'continent' => 'EU',
       'zone' => 'RU',
-      'url' => 'ftp://mirror.yandex.ru/mageia',
+      'url' => 'http://mirror.yandex.ru/mageia',
+    ),
+  ),
+  'CN' => 
+  array (
+    0 => 
+    array (
+      'city' => 'Beijing',
+      'continent' => 'AS',
+      'zone' => 'CN',
+      'url' => 'http://ftp.sjtu.edu.cn/mageia',
+    ),
+    1 => 
+    array (
+      'city' => 'Beijing',
+      'continent' => 'AS',
+      'zone' => 'CN',
+      'url' => 'ftp://ftp.sjtu.edu.cn/mageia',
     ),
   ),
 ); ?>
