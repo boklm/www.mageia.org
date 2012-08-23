@@ -91,51 +91,51 @@ class Downloads
      * (keys are: "$country" and "_C:$continent"),
      * and return it.
      *
+     * Note that the mirrors list doesn't change with versions, for now;
+     * it's a full or nothing list.
+     *
      * @return array
     */
     public static function get_all_mirrors()
     {
-        $prod = true;
+        $prod       = true;
         $cache_file = realpath(__DIR__ . '/cached.list.php');
 
         if ($prod) {
             require $cache_file;
-            return $mirrors;
+
+        } else {
+            $data    = file('http://mirrors.mageia.org/api/mageia.1.i586.list');
+            $mirrors = array();
+            foreach ($data as $line) {
+                $line = explode(',', trim($line));
+                $m    = array();
+                foreach ($line as $val) {
+                    $val        = explode('=', trim($val));
+                    $m[$val[0]] = $val[1];
+                }
+                $pu = parse_url($m['url']);
+                if (in_array($pu['scheme'], array('http', 'ftp'))) {
+
+                    $item = array(
+                        'city'      => isset($m['city']) ? $m['city'] : '?',
+                        'continent' => isset($m['continent']) ? $m['continent'] : '?',
+                        'zone'      => $m['zone'],
+                        // BEWARE of the path substitution here. Must match.
+                        'url'       => str_replace('/distrib/1/i586', '', $m['url'])
+                    );
+
+                    $mirrors[$m['country']][]           = $item;
+                    $mirrors['_C:' . $m['continent']][] = $item;
+                }
+            }
+
+            file_put_contents($cache_file,
+                sprintf('<?php $mirrors = %s; ?>',
+                        var_export($mirrors, true)));
         }
 
-        // @todo cache this!
-        $data     = file('http://mirrors.mageia.org/api/mageia.1.i586.list');
-        $mirrors3 = array();
-        foreach ($data as $line) {
-            $line = explode(',', trim($line));
-            $m    = array();
-            foreach ($line as $val) {
-                $val        = explode('=', trim($val));
-                $m[$val[0]] = $val[1];
-            }
-            $pu = parse_url($m['url']);
-            if (in_array($pu['scheme'], array('http', 'ftp'))) {
-
-                $item = array(
-                    'city'      => isset($m['city']) ? $m['city'] : '?',
-                    'continent' => isset($m['continent']) ? $m['continent'] : '?',
-                    'zone'      => $m['zone'],
-                    // BEWARE of the path substitution here. Must match.
-                    'url'       => str_replace('/distrib/1/i586', '', $m['url'])
-                );
-
-                $mirrors3[$m['country']][]     = $item;
-                $mirrors3['_C:' . $m['continent']][] = $item;
-            }
-        }
-
-        /*
-        file_put_contents($cache_file,
-            sprintf('<?php $mirrors = %s; ?>',
-                    var_export($mirrors3, true)));
-        //*/
-
-        return $mirrors3;
+        return $mirrors;
     }
 
     /**
