@@ -75,7 +75,6 @@ $langsForm = <<<H
     </select>
     <noscript><div><input type="submit" id="lang_submit" value="Hop!" /></div></noscript>
 </form>
-</div><!--googleon: all--></div>
 H;
 
 include ('_nav/lib.php');
