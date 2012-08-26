@@ -46,7 +46,7 @@ include '../../donators.inc.php';
                         <li><?php _e('<a href="http://lacantine.org/">La Cantine</a>')?></li>
                         <li><?php _e('Le Père Tranquille')?></li>
                         <li><?php _e('Séverine\'s place')?></li>
-                        <li><?php _e('<a href="http://twitter.com/happylisou/">&Eacute;lise</a>\'s place</a>')?></li>
+                        <li><?php _e('<a href="http://twitter.com/happylisou/">&Eacute;lise</a>\'s place')?></li>
                         <li><?php _e('Starbucks Coffee')?></li>
                     </ul>
                     <p><?php _e('Thanks a lot to all the people we met, discussed with about this project and its potential implications: you know who you are!')?></p>
