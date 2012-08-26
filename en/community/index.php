@@ -109,12 +109,13 @@ include '../../lib/news.php';
         <hr>
         <h2><?php _e('Teams you can join!')?></h2>
         <ul class="hl">
-            <li><a href="https://wiki.mageia.org/en/Atelier_Team" hreflang="en"><?php _e('Atelier')?></a></li>
+            <li><a href="https://wiki.mageia.org/en/Atelier_team" hreflang="en"><?php _e('Atelier')?></a></li>
             <li><a href="https://wiki.mageia.org/en/Documentation_team" hreflang="en"><?php _e('Documentation')?></a></li>
             <li><a href="https://wiki.mageia.org/en/Packagers_Team" hreflang="en"><?php _e('Packaging')?></a></li>
             <li><a href="https://wiki.mageia.org/en/QA_Team" hreflang="en"><?php _e('Testing &amp; <abbr title="Quality Assurance">QA</abbr>')?></a></li>
             <li><a href="https://wiki.mageia.org/en/Internationalisation_Team_(i18n)" hreflang="en"><?php _e('Translation')?></a></li>
             <li><a href="https://wiki.mageia.org/en/Sysadmin_Team" hreflang="en"><?php _e('Systems &amp; infrastructure administration')?></a></li>
+            <li><a href="https://wiki.mageia.org/en/Bugsquad" hreflang="en"><?php _e('Bugs triaging')?></a></li>
         </ul>
         
         <hr>
