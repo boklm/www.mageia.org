@@ -50,8 +50,7 @@ array_shift($sel);
 if (!isset($locale))
     $locale = array_shift($sel);
 
-$page   = count($sel) > 0 ? implode('/', $sel) : null;
-
+$page       = count($sel) > 0 ? implode('/', $sel) : null;
 $list_langs = array();
 $options    = array();
 
@@ -67,176 +66,6 @@ foreach ($langs as $k => $v) {
         $v);
 }
 
-// prevent 404 error on /{$locale}/ with missing translation
-function locale_path($path)
-{
-    $pathtofile = "/home/projects/mageia/public_html";
-    $loc        = $_SERVER['REQUEST_URI'];
-    $filename   = "$pathtofile$loc$path";
-    $url        = "/en/$path";
-    if (file_exists($filename)) {
-        $url = "$loc$path";
-    }
-    return $url;
-}
-
-$blog_link = 'http://blog.mageia.org/';
-if (in_array($locale, array('de', 'el', 'en', 'es', 'fr', 'it', 'nl', 'pl', 'pt', 'ro', 'ru', 'tr')))
-    $blog_link .= $locale . '/';
-
-$forums_link = 'https://forums.mageia.org/';
-// TODO pt, zh-tw, el
-if (in_array($locale, array('fr', 'de', 'es', 'pt-br')))
-    $forums_link .= $locale . '/';
-
-if ($locale == 'el')
-    $forums_link = 'http://mageia-gr.org/forum/';
-
-// global nav
-$nav_list = array(
-    "/{$locale}/" => 'Mageia',
-    "/{$locale}/1/" => '1 (stable)',
-    "/{$locale}/2/" => '<strong>2 (rc)</strong>',
-    $blog_link => array(
-        'el' => 'Ιστολόγιο',
-        'en' => 'Blog',
-        'et' => 'Ajaveeb',
-        //'fr' => 'Actus',
-        'pt' => 'Blogue',
-        'pt-br' => 'Blog',
-        'tr' => 'Web Günlüğü',
-        'ru' => 'Блог',
-        'tr' => 'Web Günlüğü'
-    ),
-    "/{$locale}/downloads/" => array(
-        'de' => 'Herunterladen',
-        'el' => 'Λήψεις',
-        'en' => 'Downloads',
-        'es' => 'Descargas',
-        'et' => 'Allalaadimine',
-        'fr' => 'Téléchargements',
-        'it' => 'Scarica',
-        'pt' => 'Transferências',
-        'pt-br' => 'Downloads',
-        'ro' => 'Descărcați',
-        'ru' => 'Загрузить',
-        'zh-tw' => '下載',
-        'tr' => 'İndirmeler'
-    ),
-    "/{$locale}/support/" => array(
-        'de' => 'Unterstützung',
-        'el' => 'Υποστήριξη',
-        'en' => 'Support',
-        'es' => 'Soporte',
-        'fr' => 'Assistance',
-        'it' => 'Supporto',
-        'pt' => 'Suporte',
-        'pt-br' => 'Suporte',
-        'ro' => 'Suport',
-        'tr' => 'Destek'
-    ),
-    $forums_link => array(
-        'el' => 'Φόρουμ',
-        'en' => 'Forum',
-        'es' => 'Foro',
-        'pt' => 'Fórum',
-        'pt-br' => 'Forum',
-        'tr' => 'Forum'
-    ),
-    "/{$locale}/contribute/" => array(
-        'de' => 'Mitwirken',
-        'el' => 'Συνεισφέρετε',
-        'en' => 'Contribute',
-        'es' => 'Contribuir',
-        'fr' => 'Contribuer',
-        'it' => 'Contribuire',
-        'pt' => 'Contribuir',
-        'pt-br' => 'Contribuir',
-        'ro' => 'Contribuiți',
-        'tr' => 'Katkıda Bulunun'
-    ),
-    'https://wiki.mageia.org/en/' => 'Wiki',
-    'https://bugs.mageia.org/' => 'Bugzilla',
-    /*
-    '/en/calendar/' => array(
-        'de' => 'Kalender',
-        'el' => 'Ημερολόγιο',
-        'en' => 'Calendar',
-        'es' => 'Calendario',
-        'et' => 'Kalender',
-        'fr' => 'Calendrier',
-        'pl' => 'Kalendarz',
-        'pt' => 'Calendário',
-        'tr' => 'Takvim',
-        'ro' => 'Calendar',
-        'ru' => 'Календарь'
-    ),
-    */
-    /*
-    "http://mageia.org/wiki/doku.php?id=press" => array(
-        'de' => 'Presse',
-        'el' => 'Τύπος',
-        'en' => 'Press',
-        'es' => 'Prensa',
-        'et' => 'Ajakirjandus',
-        'fr' => 'Presse',
-        'pl' => 'Prasa o nas ',
-        'ro' => 'Presă',
-        'ru' => 'Пресса',
-        'tr' => 'Basın'
-    ),
-    */
-    "/{$locale}/donate/" => array(
-        'de' => 'Spenden',
-        'el' => 'Δωρεές',
-        'en' => 'Donations',
-        'es' => 'Donaciones',
-        'et' => 'Annetused',
-        'fr' => 'Dons',
-        'it' => 'Donazioni',
-        'pl' => 'Dotacje',
-        'pt' => 'Doações',
-        'pt-br' => 'Doações',
-        'tr' => 'Bağışlar',
-        'ro' => 'Donații',
-        'ru' => 'Пожертвования',
-        'tr' => 'Bağışlar'
-    ),
-    "/{$locale}/about/" => array(
-        'de' => 'Über',
-        'el' => 'Σχετικά',
-        'en' => 'About',
-        'es' => 'Acerca de',
-        'fr' => 'À propos',
-        'it' => 'A proposito di',
-        'pt' => 'Acerca',
-        'pt-br' => 'Acerca',
-        'ro' => 'Despre noi',
-        'tr' => 'Hakkında'
-    ),
-);
-
-$list_menu = array();
-foreach ($nav_list as $k => $v)
-{
-    if (is_array($v))
-        $title = array_key_exists($locale, $v) ? $v[$locale] : $v['en'];
-    else
-        $title = $v;
-
-    $accessKey = null;
-    if ($title == 'Mageia')
-        $accessKey = ' accesskey="1"';
-
-    $list_menu[] = sprintf('<a href="%s"%s%s>%s</a>',
-        $k,
-        $k == $sru ? ' class="sel"' : '',
-        $accessKey,
-        $title);
-}
-
-$hsnav = sprintf('<div class="nav"><!--googleoff: all--><div class="nav2"><p class="loc">%s</p>', implode(' | ', $list_menu));
-
 $options = implode($options);
 $langsForm = <<<H
 <form id="lang_form" dir="ltr" method="get" action="/">
@@ -248,10 +77,7 @@ $langsForm = <<<H
 </form>
 </div><!--googleon: all--></div>
 H;
-$hsnav .= $langsForm;
 
-// use new nav now.
-// TODO(rda) cleanup above code about old nav structure.
 include ('_nav/lib.php');
 $hsnav = _mgnav_style() . _mgnav_html(true, $locale, $langsForm);
 $hsfoot = '';
