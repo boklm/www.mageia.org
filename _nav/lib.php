@@ -90,7 +90,7 @@ function _mgnav_html($wrap = false, $lang = 'en', $inject = null, $vhost = '//ww
         $s[] = sprintf('<li>%s</li>', $inject);
 
     $s = implode($s);
-    $h = sprintf('<nav id="mgnav"><ul id="nav">%s</ul></nav>', $s);
+    $h = sprintf('<!--googleoff: all--><nav id="mgnav"><ul id="nav">%s</ul></nav><!--googleon: all-->', $s);
 
     if ($wrap)
         $h = sprintf('<header id="hmgn">%s</header>', $h);
