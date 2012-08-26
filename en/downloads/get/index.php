@@ -186,7 +186,7 @@ if ($debug)
                     <div class="yui-g first"><div class="para">
                     </div></div>
                     <div class="yui-g" style="border-left: 1px solid #ddd"><div class="para">
-                        <p><?php echo sprintf(_t('The making and the distribution of Mageia worldwide is made possible by all the <a href="%s">people and organizations that mirror our software</a> and that <a href="%s">donate money, hardware, hosting and more</a>.'), 'http://mirrors.mageia.org/', '../thank-you/'); ?></p>
+                        <p><?php echo sprintf(_t('The making and the distribution of Mageia worldwide is made possible by all the <a href="%s">people and organizations that mirror our software</a> and that <a href="%s">donate money, hardware, hosting and more</a>.'), 'http://mirrors.mageia.org/', '../../thank-you/'); ?></p>
                         <p><?php echo sprintf(_t('Want to help? %sJoin Us!%s'), '<a href="../../contribute/">', '</a>'); ?></p>
                     </div></div>
                 </div>
