@@ -141,9 +141,12 @@ catch (Exception $e) {
 if (!$download) {
     header('HTTP/1.0 404 Not Found');
     header('Status: 404 Not Found');
-    $title = '404 Not Found';
+    header('Cache-Control: public, max-age=600, s-max-age=900');
+    $title       = '404 Not Found';
     $js_redirect = null;
 } else {
+    header('Pragma: no-cache');
+    header('Cache-Control: s-maxage=0, max-age=0, must-revalidate, no-cache');
     $title = $product['name'];
 }
 
