@@ -7,21 +7,30 @@
  * - download mode (normal or GET[torrent] is set)
  * - products whitelist with a checksum for each one
  * - list of available up-to-date mirrors for this product
-
-product:
-    id
-    name
-    checksums
-    size
-
-mirror(product):
-    name
-    host
-    country
-    city
-    speed
-    link
-
+ *
+ * product:
+ * - id
+ * - name
+ * - checksums
+ * - size
+ *
+ * mirror(product):
+ * - name
+ * - host
+ * - country
+ * - city
+ * - speed
+ * - link
+ *
+ *
+ * PHP version 5.4
+ *
+ * @category Mageia
+ * @package  Mageia\Web\www
+ * @author   rda <rda@mageia.org>
+ * @license  http://www.gnu.org/licenses/gpl-2.0.html GPL-2+
+ * @link     http://www.mageia.org/
+ *
 */
 
 require 'lib.php';
@@ -50,19 +59,24 @@ $reason      = null;
 try {
     // TODO simplify and wrap all this in a single interface:
     // list(dl_template, mirrors) = get_download_options_for(product)
+    // Step 1.
     include '../../../lib/Downloads.php';
     $product     = get_info_for_product($product);
     $all_mirrors = get_mirrors_for($product['file'], 'en', get('country'));
     $one_mirror  = $all_mirrors[0];
     $alt_mirrors = $all_mirrors[1];
-
     $download_tmpl = get_download_link($product, $torrent);
-    $download      = str_replace('$MIRROR', $one_mirror['mirror_url'], $download_tmpl);
+
+    // Step 2. Make the actual download link against the preferred mirror returned.
+    $download = str_replace('$MIRROR', $one_mirror['mirror_url'], $download_tmpl);
 
     // TODO do not redirect if it's a bot!
-    $js_redirect = sprintf('<script>(function(){setTimeout("document.location=\'%s\';", 3000);})();</script>',
-        $download);
+    $js_redirect = sprintf(
+        '<script>(function(){setTimeout("document.location=\'%s\';", 3000);})();</script>',
+        $download
+    );
 
+    // Step 3. Build alternative mirrors list of links (URL manipulation, HTML)
     $g_mirs2 = array();
     foreach ($alt_mirrors as $country => $mirs):
         if (substr($country, 0, 3) == '_C:')
@@ -76,27 +90,40 @@ try {
     ksort($g_mirs2);
 
     $alternative_mirrors = '';
-    foreach ($g_mirs2 as $country => $cities):
+    foreach ($g_mirs2 as $country => $cities) {
         $s = array();
         foreach ($cities as $city => $mirrors2) {
             $mirs = array();
             foreach ($mirrors2 as $m) {
                 $pm = parse_url($m);
                 $alt_dl_link = str_replace('$MIRROR', $m, $download_tmpl);
-                $mirs[] = sprintf('%s://<a href="%s" rel="nofollow">%s</a>',
-                    $pm['scheme'], $alt_dl_link, $pm['host']);
+                $mirs[] = sprintf(
+                    '%s://<a href="%s" rel="nofollow">%s</a>',
+                    $pm['scheme'], $alt_dl_link, $pm['host']
+                );
             }
             $s[] = sprintf('<td>%s</td><td>%s</td>', rewrite_city($city), implode(', ', $mirs));
         }
         $alternative_mirrors .= sprintf('<tr><td rowspan="%d">%s</td>%s</tr>', count($cities), $country, implode('</tr><tr>', $s));
-    endforeach;
+    }
 
-    $dl2_mirror_alt = sprintf(_t('This <a href="%s">%s</a> download mirror is located in %s (%s).'),
-            $one_mirror['mirror_url'],
-            $one_mirror['mirror_host'],
-            rewrite_city($one_mirror['city']) . ', ' . $countries[$one_mirror['country']],
-            $one_mirror['country'])
-        . ' ' . _t('If it does not work well for you, <a href="#om" id="other_mirrors_btn">check out these other mirrors</a>.');
+    // Feedback about current mirror location + trigger for alt mirrors.
+    $dl2_mirror_alt = sprintf(
+        _t('This <a href="%s">%s</a> download mirror is located in %s (%s).'),
+        $one_mirror['mirror_url'],
+        $one_mirror['mirror_host'],
+        rewrite_city($one_mirror['city']) . ', ' . $countries[$one_mirror['country']],
+        $one_mirror['country']
+    )
+    . ' ' . _t('If it does not work well for you, <a href="#om" id="other_mirrors_btn">check out these other mirrors</a>.');
+
+
+    // at the end of this block we expect the following vars to be available from here:
+    // - $product (mixed)
+    // - $download (URL)
+    // - $js_redirect (JS snippet)
+    // - $alternative_mirrors (HTML snippet)
+    // - $dl2_mirror_alt (HTML snippet)
 }
 catch (NoProductFoundError $e) {
     // sorry, no such product found/available. redirect?
@@ -116,8 +143,7 @@ if (!$download) {
     header('Status: 404 Not Found');
     $title = '404 Not Found';
     $js_redirect = null;
-}
-else {
+} else {
     $title = $product['name'];
 }
 
@@ -131,10 +157,12 @@ if ($debug)
     <title><?php echo $title; ?> | <?php _e('Mageia Downloads') ?></title>
     <meta name="robots" content="noindex,nofollow,nosnippet">
     <link rel="stylesheet" type="text/css" href="/g/style/all.css">
-    <?php if (!isset($_ENV['APP_MODE']) || $_ENV['APP_MODE'] == 'prod') {
-        include '../../../analytics.php';
-        echo $js_redirect;
-    } ?>
+    <?php
+if (!isset($_ENV['APP_MODE']) || $_ENV['APP_MODE'] == 'prod') {
+    include '../../../analytics.php';
+    echo $js_redirect;
+}
+    ?>
 </head>
 <body class="downloads">
     <?php echo $hsnav; ?>
@@ -155,7 +183,8 @@ if ($debug)
                     <?php
                     if (((isset($product['md5']) && strlen($product['md5']) > 0)
                         || (isset($product['sha1'])) && strlen($product['sha1']) > 0)
-                        && !$torrent): ?>
+                        && !$torrent
+                    ): ?>
                         <p><?php _e('As soon as your download is complete, you should check that the signatures match:') ?></p>
                         <div id="check-signs">
                             <pre class="term">
@@ -164,10 +193,15 @@ if ($debug)
 <?php if (strlen($product['sha1'])): ?>$ sha1sum <?php echo basename($download), "\n<strong>", $product['sha1'], "</strong>\n"; endif; ?>
 </pre>
                             <p><?php _e('If signatures do not match, <strong>DO NOT use this ISO</strong>. Double-check and try to download again.'); ?></p>
+                            <!-- TODO (rda): add direct download links to checksum and signature files as a backup. -->
                         </div>
                     <?php endif; ?>
-                    <p><?php echo sprintf(_t('Your IP address is %s and you seem to be in %s, %s.'),
-                        $_SESSION['ip'], $_SESSION['country'], $_SESSION['continent']); ?>
+                    <p><?php
+                    echo sprintf(
+                        _t('Your IP address is %s and you seem to be in %s, %s.'),
+                        $_SESSION['ip'], $_SESSION['country'], $_SESSION['continent']
+                    );
+                    ?></p>
                 </div>
 
                 <!-- alternative mirrors table -->
@@ -190,7 +224,6 @@ if ($debug)
                         <p><?php echo sprintf(_t('Want to help? %sJoin Us!%s'), '<a href="../../contribute/">', '</a>'); ?></p>
                     </div></div>
                 </div>
-                
             <?php else: ?>
                 <div class="yui-g"><div class="para" style="padding-top: 2em;">
                     <h2><?php _e('Sorry!'); ?> :-(</h2>

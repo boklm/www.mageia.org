@@ -1,4 +1,6 @@
 <?php
+/**
+*/
 
 define('HLANG', true);
 require '../langs.php';
@@ -28,7 +30,7 @@ $nav = array(
             echo sprintf('<link rel="alternate" hreflang="%s" href="http://www.mageia.org/%s/">', $l, $l);
     ?>
     <link rel="alternate" type="application/rss+xml" title="<?php _e('Mageia Blog (English)'); ?>" href="<?php _e('http://blog.mageia.org/en/?feed=rss'); ?>">
-    <?php include '../analytics.php'; ?>
+    <?php require '../analytics.php'; ?>
     <style>
     html, body {
         margin: 0;
@@ -259,8 +261,10 @@ $nav = array(
 <div id="down">
     <div class="container">
         <ul id="navb"><?php foreach ($nav as $k => $v)
-            echo sprintf('<li><a class="%s" href="%s">%s</a></li>',
-                $k, $v[0], $v[1]);
+            echo sprintf(
+                '<li><a class="%s" href="%s">%s</a></li>',
+                $k, $v[0], $v[1]
+            );
         ?></ul>
         <hr>
         <p id="fnotes">

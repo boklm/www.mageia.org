@@ -1,5 +1,13 @@
 <?php
 /**
+ * PHP version 5.4
+ *
+ * @category Mageia
+ * @package  Mageia\Web\www
+ * @author   rda <rda@mageia.org>
+ * @license  http://www.gnu.org/licenses/gpl-2.0.html GPL-2+
+ * @link     http://www.mageia.org/
+ *
 */
 
 // note, we use geographical country names
@@ -32,7 +40,9 @@ $countries = array(
 
 /**
  * Rewrite city name in the local official language.
- * @param string
+ *
+ * @param string $name city name
+ *
  * @return string
 */
 function rewrite_city($name)
@@ -46,13 +56,22 @@ function rewrite_city($name)
         'Heraklion' => 'Ηράκλειο', // .gr
         'Prague'    => 'Praha', // .cz
     );
-    if (array_key_exists($name, $cities))
+    if (array_key_exists($name, $cities)) {
         return $cities[$name];
+    }
 
     return $name;
 }
 
-function get($s) {
+/**
+ * Return $_GET value for $s key if it exists.
+ *
+ * @param string $s key
+ *
+ * @return mixed
+*/
+function get($s)
+{
     return isset($_GET[$s]) ? trim($_GET[$s]) : null;
 }
 
@@ -60,7 +79,13 @@ class NoProductFoundError extends Exception {}
 class NoMirrorFoundError extends Exception {}
 
 /**
- * TODO use aliases, so that downloads asking for alpha3 get redirected to beta1 for instance? (on migration)
+ * TODO use aliases, so that downloads asking for alpha3
+ * get redirected to beta1 for instance? (on migration)
+ *
+ * @param array $product array definition
+ * @param string $def_file definition file
+ *
+ * @return array
 */
 function get_info_for_product($product, $def_file = null)
 {
@@ -79,8 +104,8 @@ function get_info_for_product($product, $def_file = null)
  * Return mirrors for $file.
  * First mirror returned is the preferred one for auto redirection.
  *
- * @param string $file id of the file to download/find a mirror for
- * @param string $locale hint for selecting a mirror
+ * @param string $file    id of the file to download/find a mirror for
+ * @param string $locale  hint for selecting a mirror
  * @param string $country hint for selecting a mirror
  *
  * @return array
@@ -92,8 +117,7 @@ function get_info_for_product($product, $def_file = null)
  *   speed
  *   link
 */
-function get_mirrors_for($file,
-    $locale = null, $country = null)
+function get_mirrors_for($file, $locale = null, $country = null)
 {
     //include '../../../lib/Downloads.php';
 
@@ -107,7 +131,7 @@ function get_mirrors_for($file,
 /**
  * Simplifies things.
  *
- * @param array $product, _one_ product definition array, as returned from the definitions.ini
+ * @param array   $product           _one_ product definition array
  * @param boolean $torrent_preferred do we prefer to get a torrent, if available?
  *
  * @return string
@@ -116,7 +140,8 @@ function get_download_link($product, $torrent_preferred = false)
 {
     if ($torrent_preferred === true
         && isset($product['torrent'])
-        && strlen($product['torrent']) > 0) {
+        && strlen($product['torrent']) > 0
+    ) {
 
         $path = $product['torrent'];
     } else {
