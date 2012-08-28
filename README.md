@@ -75,7 +75,8 @@ Most frequent translators for website:
 
  - ru (Russian):
 
- - sl (Slovakian?):
+ - sl (Slovenian):
+    Filip Komar (filip)
 
  - tr (Turkish):
     Numan Dermidögen, Attila Ontas (tarakbumba)
