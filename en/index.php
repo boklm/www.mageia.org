@@ -2,6 +2,8 @@
 /**
 */
 
+require '../redir.php';
+
 define('HLANG', true);
 require '../langs.php';
 
