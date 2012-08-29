@@ -3,7 +3,7 @@
 // temporary poor fix for bad queries
 // if (isset($_GET['id']) && isset($_GET['msg'])) {
 if (false !== strpos($_SERVER['QUERY_STRING'], 'Tenemos')
-    || false !== strpos($_SERVER['HTTP_REFERER'], 'blogdeklx1.blogspot.mx')
+    || false !== strpos($_SERVER['HTTP_REFERER'], 'blogdeklx1')
 ) {
     header('HTTP/1.1 503 Service Temporarily Unavailable');
     header('Status: 503 Service Temporarily Unavailable');
