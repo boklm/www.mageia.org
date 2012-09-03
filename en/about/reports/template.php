@@ -229,7 +229,7 @@ $expenses_total = array_sum($expenses_monthly_summary[0]);
         </section>
         <section class="para values" id="inc-state">
             <h2>Income statement</h2>
-            <mark>TODO: full income statement. For now, check details below.</mark>
+            <!-- <mark>full income statement. For now, check details below.</mark>-->
             <table summary="Income statement" class="fr-table">
                 <tbody>
                 <tr>
@@ -262,6 +262,7 @@ $expenses_total = array_sum($expenses_monthly_summary[0]);
             </table>
         </section>
         <hr>
+        <!--
         <section class="para values" id="balance">
             <h2>Balance sheet</h2>
             <table class="fr-table">
@@ -297,6 +298,7 @@ $expenses_total = array_sum($expenses_monthly_summary[0]);
             </table>
         </section>
         <hr>
+        -->
         <section class="para values" id="expenses">
             <h2>Expenses</h2>
             <?php $E = get_expenses($parsed['# Expenses details > ## More details']); echo $E['html']; ?>

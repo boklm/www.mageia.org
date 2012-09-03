@@ -9,14 +9,14 @@ year,2012,,,,,
 currency,EUR,,,,,
 url,http://www.mageia.org/en/about/reports/,,,,,
 licence,ODbL-1.0,This financial report data is made available under the Open Database License: http://opendatacommons.org/licenses/odbl/1.0/. Any rights in individual contents of the database are licensed under the Database Contents License: http://opendatacommons.org/licenses/dbcl/1.0/,,,,
-last updated,2012/08/03,,,,,
+last updated,2012/09/03,,,,,
 comment,This is a first attempt to provide open and direct access to Mageia financial data. We will try to improve on it, feel free to suggest improvements in format, detail, presentation.,,,,,
 ,,,,,,
 ,,,,,,
 # Account balance,,,,,,
-total,3670.21,,,,,
-main account,148.95,,,,,
-paypal,34.40,,,,,
+total,4077.97,,,,,
+main account,358.95,,,,,
+paypal,232.16,,,,,
 savings account,3486.86,,,,,
 ,,,,,,
 # Income Statement,,,,,,
@@ -53,7 +53,7 @@ month,count,total amount,check,transfer,paypal,cash
 5,25,1374.00,100.00,555.00,719.00,0
 6,14,881.00,135.00,125.00,461.00,160.00
 7,13,692.67,0,430.67,262.00,0
-8,0,0,0,0,0,0
+8,13,497.00,190.00,0,307.00,0
 9,0,0,0,0,0,0
 10,0,0,0,0,0,0
 11,0,0,0,0,0,0
@@ -80,7 +80,9 @@ date,category,description,amount,
 2012-07-26,infra:hardware,2 servers,7613.14,
 2012-07-31,bank,Paypal fees,7.72,
 2012-08-01,infra:hosting,Gandi: domain names renewal,30.64,
-2012-08-03,transport,Marseille DC: train+hotel for 3,370.96,
+2012-08-03,transport,Marseille DC: train+hotel for 3 people,370.96,
+2012-08-26,infra:hosting,Gandi: hosting provision,100.00,
+2012-08-31,bank,Paypal fees,9.24,
 ,,,,,,
 ,,,,,,
 # That's all folks!,,,,,,
