@@ -38,23 +38,23 @@ Mageia Downloads
 
 
 ;Your IP address is %s and you seem to be in %s, %s.
-Your IP address is %s and you seem to be in %s, %s.
+Η IP διεύθυνσή σας είναι %s και φαίνεται ότι η τοποθεσία σας είναι %s, %s.
 
 
 ;Country
-Country
+Χώρα
 
 
 ;City
-City
+Πόλη
 
 
 ;Download mirrors
-Download mirrors
+Καθρεπτισμοί λήψης
 
 
 ;The making and the distribution of Mageia worldwide is made possible by all the <a href="%s">people and organizations that mirror our software</a> and that <a href="%s">donate money, hardware, hosting and more</a>.
-The making and the distribution of Mageia worldwide is made possible by all the <a href="%s">people and organizations that mirror our software</a> and that <a href="%s">donate money, hardware, hosting and more</a>.
+Η παραγωγή και η διανομή της Mageia σε όλον τον κόσμο γίνεται δυνατή χάρη σε όλους τους <a href="%s">ανθρώπους και οργανισμούς που καθρεπτίζουν το λογισμικό μας</a> και που <a href="%s">δωρίζουν χρήματα, υλικό, φιλοξενία και άλλα πολλά</a>.
 
 
 ;Want to help? %sJoin Us!%s
@@ -62,41 +62,41 @@ The making and the distribution of Mageia worldwide is made possible by all the 
 
 
 ;Sorry!
-Sorry!
+Λυπούμαστε!
 
 
 ;Your download could not complete, as we could not find this file. Please try again from the <a href="%s">main downloads page</a>.
-Your download could not complete, as we could not find this file. Please try again from the <a href="%s">main downloads page</a>.
+Η λήψη σας δεν μπορεί να ολοκληρωθεί, διότι δεν μπορέσαμε να βρούμε το συγκεκριμένο αρχείο. Παρακαλώ προσπαθήστε πάλι από την <a href="%s">κεντρική σελίδα λήψης</a>.
 
 
 ;If you still encounter this error and think IT SHOULD NOT HAPPEN &ndash; please tell us:
-If you still encounter this error and think IT SHOULD NOT HAPPEN &ndash; please tell us:
+Αν αντιμετωπίζετε συνέχεια το ίδιο σφάλμα και πιστεύεται ότι ΔΕΝ ΘΑ ΕΠΡΕΠΕ ΝΑ ΣΥΜΒΑΙΝΕΙ &ndash; παρακαλώ ενημερώστε μας:
 
 
 ;directly on <a href="irc://irc.freenode.net/#mageia-web">#mageia-web on Freenode IRC</a>,
-directly on <a href="irc://irc.freenode.net/#mageia-web">#mageia-web on Freenode IRC</a>,
+άμεσα στο <a href="irc://irc.freenode.net/#mageia-web">#mageia-web στο Freenode IRC</a>,
 
 
 ;or <a href="http://twitter.com/mageia_org">via our Tweeter account</a>,
-or <a href="http://twitter.com/mageia_org">via our Tweeter account</a>,
+ή <a href="http://twitter.com/mageia_org">μέσω του λογαριασμού μας στο Tweeter</a>,
 
 
 ;or with a <a href="https://www.mageia.org/mailman/listinfo/mageia-webteam">notice on the Web team mailing-list</a>,
-or with a <a href="https://www.mageia.org/mailman/listinfo/mageia-webteam">notice on the Web team mailing-list</a>,
+ή με ένα <a href="https://www.mageia.org/mailman/listinfo/mageia-webteam">μήνυμα στη λίστα ταχυδρομείου της ομάδας Ιστού</a>,
 
 
 ;or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">bug report</a>.
-or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">bug report</a>.
+ή με μια <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">αναφορά σφάλματος</a>.
 
 
 ;You may embed this debug info if you like:
-You may embed this debug info if you like:
+Αν θέλετε μπορείτε να παραθέσετε αυτές τις πληροφορίες αποσφαλμάτωσης:
 
 
 ;Thanks!
-Thanks!
+Ευχαριστούμε!
 
 
 ;back to that awesome Mageia home page
-back to that awesome Mageia home page
+πίσω στην αρχική σελίδα της Mageia
 
