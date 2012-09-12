@@ -377,7 +377,7 @@ $donators = array(
     'Eric Barbero',
     'Denis Marcq',
     'Michel Renaud',
-    'Anh-Tuan Nguyen-Pham',
+    'Tuan Nguyen',
     'Christian Fischer',
     'Philippe Pieyre',
     'Jean Monnard'
