@@ -19,7 +19,7 @@ Scarica Mageia 2 DVD, CD, LiveCD, immagini ISO per installazione via rete.
 
 # en/2/download_index.php +16
 ;mageia, mageia 2, linux, free, download, iso, torrent, vm, http, ftp, rsync, bittorrent
-mageia, mageia 2, linux, free, download, iso, torrent, vm, http, ftp, rsync, bittorrent
+mageia, mageia 2, linux, free, download, iso, torrent, vm, http, ftp, rsync, bittorrent {ok}
 
 
 # en/2/download_index.php +24
@@ -39,7 +39,7 @@ dimensione
 
 # en/2/download_index.php +37
 ;link
-link
+link {ok}
 
 
 # en/2/download_index.php +65
@@ -229,7 +229,7 @@ Ce ne sono molte, molte da cui scegliere &ndash; incluse tutte le più famose.
 
 # en/for-pc/index.php +53
 ;Web
-Web
+Web {ok}
 
 
 # en/for-pc/index.php +54
@@ -273,13 +273,13 @@ Suono
 
 
 # en/for-pc/index.php +78
-;For playing audio files, choose from Amarok 2.5.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for and and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don't infringe local laws.
+;For playing audio files, choose from Amarok 2.5.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don't infringe local laws.
 Per ascoltare file audio, Scegli tra Amarok 2.5.0 e Rhythmbox, tra gli altri; usa VLC, Totem o MPlayer per video e per audio, o usa il Media Center XBMC come tuo sistema di intrattenimento personale. Alcuni pacchetti possono essere trovati in entrambi i repository Core e Tainted: i pacchetti nel repository Core supportano solo codec non brevettati e i pacchetti nel repository Tainted supportano tutti i codec, per gli utenti che vivono in paesi dove questi codec rispettano le leggi locali.
 
 
 # en/for-pc/index.php +83
 ;Video
-Video
+Video {ok}
 
 
 # en/for-pc/index.php +84
@@ -339,7 +339,7 @@ Per l'amministrazione centralizzata, includiamo puppet 2.7.11; lo usiamo ampiame
 
 # en/for-server/index.php +34
 ;The entire High Availability stack has been updated, and now includes drbd 8.3.11, Corosync 2.0.0 and Pacemaker 1.1.7.
-The entire High Availability stack has been updated, and now includes drbd 8.3.11, Corosync 2.0.0 and Pacemaker 1.1.7.
+L'intero gruppo Alta Disponibilità è stato aggiornato, e ora include drbd 8.3.11, Corosync 2.0.0 e Pacemaker 1.1.7.
 
 
 # en/for-server/index.php +36
@@ -389,7 +389,7 @@ Puoi andare a vedere il <a href="%s">Database delle Applicazioni Mageia</a> per 
 
 # en/2/index.php +14
 ;Mageia 2
-Mageia 2
+Mageia 2 {ok}
 
 
 # en/2/index.php +16
@@ -470,4 +470,3 @@ Per PC
 # en/2/nav.php +30
 ;For server
 Per server
-
