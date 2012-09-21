@@ -91,7 +91,7 @@ Pro vývojáře a tvůrce balíčků
 
 
 ;Subversion
-Subversion {ok}
+Subversion
 
 
 ;Git</a> code repositories
@@ -163,7 +163,7 @@ Správa systému a infrastruktury
 
 
 ;Mageia
-Mageia {ok}
+Mageia
 
 
 ;More about Mageia
@@ -190,8 +190,8 @@ Rada
 Vedení
 
 
-;<a href="../donate/">Donations</a> &amp; <a href="../about/reports/">reports</a>.
-<a href="../donate/">Dary</a> a <a href="../about/reports/">zprávy</a>.
+;<a href="../donate/">Donations</a> &amp; <a href="/en/about/reports/">reports</a>.
+<a href="../donate/">Dary</a> a <a href="/en/about/reports/">zprávy</a>.
 
 
 ;This page needs you! <a href="https://wiki.mageia.org/en/Web_team">Join the Web team</a>!
@@ -201,19 +201,22 @@ Tato stránka vás potřebuje! <a href="https://wiki.mageia.org/en/Web_team">Př
 Poštovní seznamy
 
 ;http://blog.mageia.org/en/
-http://blog.mageia.org/en/ {ok}
+http://blog.mageia.org/en/
 
 ;Blog
-Blog {ok}
+Blog
 
 ;http://planet.mageia.org/en/
-http://planet.mageia.org/en/ {ok}
+http://planet.mageia.org/en/
 
 ;https://forum.mageia.org/en/
-https://forum.mageia.org/en/ {ok}
+https://forum.mageia.org/en/
 
 ;http://wiki.mageia.org/
-http://wiki.mageia.org/ {ok}
+http://wiki.mageia.org/
 
 ;Mageia
-Mageia {ok}
+Mageia
+
+;Bugs triaging
+Stanovení přednosti chyb

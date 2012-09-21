@@ -38,23 +38,23 @@ Pokud se podpisy neshodují, tento ISO obraz nepoužívejte. Znovu je porovnejte
 
 
 ;Your IP address is %s and you seem to be in %s, %s.
-Your IP address is %s and you seem to be in %s, %s.
+Vaše adresa IP je %s, a zdá se, že vy jste v %s, %s.
 
 
 ;Country
-Country
+Země
 
 
 ;City
-City
+Město
 
 
 ;Download mirrors
-Download mirrors
+Stahovací zrcadla
 
 
 ;The making and the distribution of Mageia worldwide is made possible by all the <a href="%s">people and organizations that mirror our software</a> and that <a href="%s">donate money, hardware, hosting and more</a>.
-The making and the distribution of Mageia worldwide is made possible by all the <a href="%s">people and organizations that mirror our software</a> and that <a href="%s">donate money, hardware, hosting and more</a>.
+Tvorba a šíření Mageii po světě je umožněno <a href="%s">lidmi a organizacemi, jež zrcadlí náš software</a> a které <a href="%s">darují peníze, technické vybavení, hostování a další</a>.
 
 
 ;Want to help? %sJoin Us!%s
@@ -62,7 +62,7 @@ Chcete pomoci? %sPřidejte se k nám!%s
 
 
 ;Sorry!
-Sorry!
+Promiňte!
 
 
 ;Your download could not complete, as we could not find this file. Please try again from the <a href="%s">main downloads page</a>.
@@ -70,33 +70,33 @@ Your download could not complete, as we could not find this file. Please try aga
 
 
 ;If you still encounter this error and think IT SHOULD NOT HAPPEN &ndash; please tell us:
-If you still encounter this error and think IT SHOULD NOT HAPPEN &ndash; please tell us:
+Pokud se i nadále setkáte s touto chybou a budete si myslet, že SE TO NEMĚLO STÁT &ndash; řekněte nám, prosím:
 
 
 ;directly on <a href="irc://irc.freenode.net/#mageia-web">#mageia-web on Freenode IRC</a>,
-directly on <a href="irc://irc.freenode.net/#mageia-web">#mageia-web on Freenode IRC</a>,
+přímo na <a href="irc://irc.freenode.net/#mageia-web">#mageia-web na Freenode IRC</a>,
 
 
 ;or <a href="http://twitter.com/mageia_org">via our Tweeter account</a>,
-or <a href="http://twitter.com/mageia_org">via our Tweeter account</a>,
+nebo <a href="http://twitter.com/mageia_org">přes náš účet u služby Tweeter</a>,
 
 
 ;or with a <a href="https://www.mageia.org/mailman/listinfo/mageia-webteam">notice on the Web team mailing-list</a>,
-or with a <a href="https://www.mageia.org/mailman/listinfo/mageia-webteam">notice on the Web team mailing-list</a>,
+nebo pomocí <a href="https://www.mageia.org/mailman/listinfo/mageia-webteam">oznámení v poštovním seznamu webového týmu</a>,
 
 
 ;or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">bug report</a>.
-or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">bug report</a>.
+nebo pomocí <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">zprávy o chybě</a>.
 
 
 ;You may embed this debug info if you like:
-You may embed this debug info if you like:
+Tuto informaci o zachycení chyby můžete přidat:
 
 
 ;Thanks!
-Thanks!
+Díky!
 
 
 ;back to that awesome Mageia home page
-back to that awesome Mageia home page
+Zpět na úžasnou domovskou stránku Mageia
 
