@@ -15,15 +15,15 @@ mageia, společenství, zprávy, nástroje, úkoly
 
 
 ;http://blog.mageia.org/en/
-http://blog.mageia.org/en/
+http://blog.mageia.org/en/ {ok}
 
 
 ;Blog
-Blog
+Blog {ok}
 
 
 ;http://planet.mageia.org/en/
-http://planet.mageia.org/en/
+http://planet.mageia.org/en/ {ok}
 
 
 ;Planet
@@ -35,7 +35,7 @@ Kalendář
 
 
 ;https://forum.mageia.org/en/
-https://forum.mageia.org/en/
+https://forum.mageia.org/en/ {ok}
 
 
 ;Forums
@@ -43,7 +43,7 @@ Fóra
 
 
 ;http://wiki.mageia.org/
-http://wiki.mageia.org/
+http://wiki.mageia.org/ {ok}
 
 
 ;News
@@ -91,7 +91,7 @@ Pro vývojáře a tvůrce balíčků
 
 
 ;Subversion
-Subversion
+Subversion {ok}
 
 
 ;Git</a> code repositories
@@ -163,7 +163,7 @@ Správa systému a infrastruktury
 
 
 ;Mageia
-Mageia
+Mageia {ok}
 
 
 ;More about Mageia
@@ -220,3 +220,6 @@ Mageia
 
 ;Bugs triaging
 Stanovení přednosti chyb
+
+;<a href="../donate/">Donations</a> &amp; <a href="../about/reports/">reports</a>.
+<a href="../donate/">Dary</a> &amp; <a href="../about/reports/">zprávy</a>.

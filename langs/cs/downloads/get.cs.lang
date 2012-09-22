@@ -10,7 +10,7 @@ Pokud tento ve vašem případě nepracuje uspokojivě, <a href="#om" id="other_
 
 # ../../svn/web/en/downloads/get/index.php +131
 ;Mageia Downloads
-Mageia Downloads
+Stažení Mageii
 
 
 ;Download %s
@@ -66,7 +66,7 @@ Promiňte!
 
 
 ;Your download could not complete, as we could not find this file. Please try again from the <a href="%s">main downloads page</a>.
-Your download could not complete, as we could not find this file. Please try again from the <a href="%s">main downloads page</a>.
+Vaše stahování se nepodařilo dokončit, protože se nepodařilo najít tento soubor. Zkuste to, prosím, znovu z <a href="%s">hlavní stránky pro stahování</a>.
 
 
 ;If you still encounter this error and think IT SHOULD NOT HAPPEN &ndash; please tell us:
