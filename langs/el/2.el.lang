@@ -269,7 +269,7 @@ Mageia 2, για το PC σας
 
 # en/for-pc/index.php +77
 ;Sound
-Ήχος
+Πολυμέσα
 
 
 # en/for-pc/index.php +78
@@ -292,62 +292,181 @@ Mageia 2, για το PC σας
 Περισσότερα
 
 
-;Download
-Λήψη
+# en/for-pc/index.php +90
+;Then there's ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.
+Και τέλος υπάρχει το ZoneMinder για συστήματα ασφαλείας, το VirtualBox ή το WINE για την εικονικοποίηση, και ένα εύρος από περιβάλλοντα όπως Anjuta, Eclipse, Netbeans ή KDevelop. 
 
-;For PC
-Για PC
 
-;For server
-Για εξυπηρετητές
+# en/for-pc/index.php +95
+;For more information about these and other packages, check the <a href="%s">Mageia 2 Release notes</a>.
+Για περισσότερες πληροφορίες σχετικά για αυτά αλλά και για άλλα πακέτα, δείτε στις <a href="%s">Σημειώσεις έκδοσης της Mageia 2</a>.
 
+
+# en/for-pc/index.php +96
+;You can take a look at the <a href="%s">Mageia Application Database</a> to get a more complete list of Mageia packages.
+Μπορείτε να επισκεφτείτε τη <a href="%s">βάση εφαρμογών Mageia</a> (<em>Mageia Application Database</em>) για μια πλήρης λίστα των πακέτων της Mageia.
+
+
+# en/for-server/index.php +12
+;Mageia 2, for your server
+Mageia 2, για τον εξυπηρετητή σας
+
+
+# en/for-server/index.php +21
 ;for your server
 Για τον εξυπηρετητή σας
 
+
+# en/for-server/index.php +26
 ;Mageia 2 has all the main services and server packages you will need to run your server.
 Η Mageia 2 έχει όλες τις κύριες υπηρεσίες και τα πακέτα εξυπηρετητών που θα χρειαστείτε να τρέξετε στον εξυπηρετητή σας.
 
+
+# en/for-server/index.php +27
+;Aside from the cross-section included here, you will find many others in the repositories: you can use rpmdrake to search for packages, or check the <a href="%s">Mageia App DB</a>.
+Εκτός από αυτά που εμφανίζονται εδώ, θα βρείτε πολλά άλλα πακέτα στα αποθετήρια: μπορείτε να χρησιμοποιήσετε το rpmdrake για να αναζητήσετε πακέτα, ή να επισκεφτείτε την ιστοσελίδα <a href="%s">Mageia App DB</a>.
+
+
+# en/for-server/index.php +30
 ;Administration
 Διαχείριση
 
+
+# en/for-server/index.php +31
+;For centralised administration, we include puppet 2.7.11; we use it widely in <a href="%s">our own infrastructure</a>.
+Για την κεντρική διαχείριση, προτείνουμε puppet 2.7.11. Το χρησιμοποιούμε ευρέως στην <a href="%s">ίδια μας την υποδομή</a>.
+
+
+# en/for-server/index.php +34
 ;The entire High Availability stack has been updated, and now includes drbd 8.3.11, Corosync 2.0.0 and Pacemaker 1.1.7.
 Έχουν ενημερωθεί όλα τα στοιχεία Υψηλής Διαθεσιμότητας, και τώρα συμπεριλαμβάνονται τα drbd 8.3.11, Corosync 2.0.0 and Pacemaker 1.1.7.
 
+
+# en/for-server/index.php +36
 ;Databases
 Βάσεις δεδομένων
 
-;Databases included are PostgreSQL 8.4.11; MariaDB, which replaces MySQL 5.5.23; BDB .
+
+# en/for-server/index.php +37
+;Databases included are PostgreSQL 8.4.11; MariaDB, which replaces MySQL 5.5.23; BDB.
 Οι συμπεριλαμβανόμενες βάσεις δεδομένων είναι οι PostgreSQL 8.4.11, MariaDB,η οποία αντικαθιστά τη MySQL 5.5.23, BDB.
 
+
+# en/for-server/index.php +38
 ;And there are NoSQL servers too: CouchDB 1.1.1, Redis 2.4.8, Cassandra 1.4.0, MongoDB 2.0.3.
 Υπάρχουν επίσης και εξυπηρετητές NoSQL: CouchDB 1.1.1, Redis 2.4.8, Cassandra 1.4.0, MongoDB 2.0.3.
 
+
+# en/for-server/index.php +40
 ;Servers
 Εξυπηρετητές
 
+
+# en/for-server/index.php +41
 ;Web servers include Apache 2.2.22, Cherokee 1.2.101 and lighttpd 1.4.30.
 Μεταξύ των εξυπηρετητών ιστού συμπεριλαμβάνονται και οι Apache 2.2.22, Cherokee 1.2.101, lighttpd 1.4.30.
 
-;Mageia in context
-Σχετικά με τη Mageia
 
-;Mageia is both a Community and a Linux Distribution, with Mageia 2 being our second release.
-Η Mageia είναι ταυτόχρονα μια κοινότητα και μια διανομή Linux. Η Mageia 2 είναι η δεύτερη μείζουσα έκδοσή μας.
+# en/for-server/index.php +42
+;For file and directory sharing and network printing on heterogeneous networks, we have Samba 3.6.5, OpenLDAP 2.4.29 and Cups 1.5.2.
+Για την κοινή χρήση αρχείων και την δικτυακή εκτύπωση σε ετερογενή δίκτυα, έχουμε Samba 3.6.5, OpenLDAP 2.4.29 και Cups 1.5.2.
 
-;Mageia 2 is supported by the <a href="../about/">Mageia.org nonprofit organisation</a>, which is governed by a body of recognized and elected contributors.
-Η Mageia υποστηρίζεται από <a href="../about/">την οργάνωση Mageia.org</a>, διακυβερνώμενη από αναγνωρισμένους και εκλεγμένους συνεισφέροντες.
 
-;Mageia 2 has been made by more than 100 people from all around the world.
-Η Mageia 2 δημιουργήθηκε από περισσότερα από 100 άτομα σε ολόκληρο τον κόσμο.
+# en/for-server/index.php +43
+;Mail servers included with Mageia 2 are Postfix 2.8.8, Cyrus-imapd 2.4.13 and Dovecot 1.2.17.
+Οι εξυπηρετητές αλληλογραφίας που συμπεριλαμβάνονται στη Mageia 2 είναι οι Postfix 2.8.8, Cyrus-imapd 2.4.13 και Dovecot 1.2.17.
 
-;Our work adds to the excellent work of the wider Linux and Free Software community. We aim to bring one of the best, most stable, reliable and enjoyable experience and platform we can make; for regular users, developers and businesses.
-Το έργο μας συμπληρώνεται από την έξοχη δουλειά της ευρύτερης κοινότητας του Linux και του Ελεύθερου Λογισμικού. Στόχος μας είναι να προσφέρουμε μια από τις καλύτερες, σταθερότερες, αξιόπιστες και απολαυστικές εμπειρίες χρήσης και πλατφόρμας που μπορούμε να κάνουμε, για τυπικούς χρήστες, προγραμματιστές και επιχειρήσεις.
 
-;We welcome new contributors to any of the many different teams that go to make up Mageia the Community, and we encourage you to join us.
-Καλωσορίζουμε τους νέους συνεισφέροντες σε οποιαδήποτε από τις ομάδες που συντελούν την κοινότητα της Mageia, και σας ενθαρρύνουμε να συμμετάσχετε.
+# en/for-server/index.php +49
+;For more information about these and other packages, check the <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">Mageia 2 Release notes</a>.
+Για περισσότερες πληροφορίες σχετικά με αυτά αλλά και άλλα πακέτα, μπορείτε να βρείτε στις <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">σημειώσεις έκδοσης της Mageia 2</a>.
 
+
+# en/for-server/index.php +50
+;You can take a look at the <a href="%s">Mageia Application Database</a> to get a more complete list of Mageia packages.
+Μπορείτε να επισκεφτείτε τη <a href="%s">βάση εφαρμογών της Mageia</a> (<em>Mageia Application Database</em>) για μια πλήρης λίστα των πακέτων της Mageia.
+
+
+# en/2/index.php +14
+;Mageia 2
+Mageia 2
+
+
+# en/2/index.php +16
+;Mageia 2 is the new, solid, stable Linux distribution from the Mageia project.
+Η Mageia 2 είναι μια νέα σταθερή και ασφαλής διανομή Linux από το έργο Mageia.
+
+
+# en/2/index.php +30
+;Mageia 2 is a GNU/Linux distribution for your computer, released by the <a href="%s">Mageia community</a>.
+Η Mageia 2 είναι μια διανομή GNU/Linux για τον υπολογιστή σας, που δημιουργήθηκε από την <a href="%s">κοινότητα της Mageia</a>.
+
+
+# en/2/index.php +33
+;What's new?
+Τι νέο υπάρχει;
+
+
+# en/2/index.php +35
 ;Too much to include here! See the <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">release notes</a> for an extensive exposé.
 Είναι τόσα πολλά που δεν χωράνε εδώ! Δείτε τις <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">σημειώσεις έκδοσης</a> για μια εκτεταμένη αναφορά.
 
-;What's new?
-Τι νέο υπάρχει;
+
+# en/2/index.php +37
+;<a href="../downloads/" style="background: #1272B1; color: white; padding: 0.9em; margin: 1em; display: inline-block; text-shadow: 0 1px 6px #000; border-radius: 3px;">Download it right away!</a>
+<a href="../downloads/" style="background: #1272B1; color: white; padding: 0.9em; margin: 1em; display: inline-block; text-shadow: 0 1px 6px #000; border-radius: 3px;">Αποκτήστε την τώρα!</a>
+
+
+# en/2/index.php +39
+;Mageia in context
+Σχετικά με τη Mageia
+
+
+# en/2/index.php +41
+;Mageia is both a Community and a Linux Distribution, with Mageia 2 being our second release.
+Η Mageia είναι ταυτόχρονα μια κοινότητα και μια διανομή Linux. Η Mageia 2 είναι η δεύτερη μείζουσα έκδοσή μας.
+
+
+# en/2/index.php +43
+;Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch's most popular distributions</a>.
+Από την κυκλοφορία της <a href="../1/">Mageia 1</a>, η διανομή μας βρισκόταν πάντα στο <a href="%s">top 10 των πιο δημοφιλών διανομών στο Distrowatch</a>.
+
+
+# en/2/index.php +46
+;Mageia 2 is supported by the <a href="../about/">Mageia.org nonprofit organisation</a>, which is governed by a body of recognized and elected contributors.
+Η Mageia υποστηρίζεται από <a href="../about/">την οργάνωση Mageia.org</a>, διακυβερνώμενη από αναγνωρισμένους και εκλεγμένους συνεισφέροντες.
+
+
+# en/2/index.php +47
+;Mageia 2 has been made by more than 100 people from all around the world.
+Η Mageia 2 δημιουργήθηκε από περισσότερα από 100 άτομα σε ολόκληρο τον κόσμο.
+
+
+# en/2/index.php +49
+;Our work adds to the excellent work of the wider Linux and Free Software community. We aim to bring one of the best, most stable, reliable and enjoyable experience and platform we can make; for regular users, developers and businesses.
+Το έργο μας συμπληρώνεται από την έξοχη δουλειά της ευρύτερης κοινότητας του Linux και του Ελεύθερου Λογισμικού. Στόχος μας είναι να προσφέρουμε μια από τις καλύτερες, σταθερότερες, αξιόπιστες και απολαυστικές εμπειρίες χρήσης και πλατφόρμας που μπορούμε να κάνουμε, για τυπικούς χρήστες, προγραμματιστές και επιχειρήσεις.
+
+
+# en/2/index.php +51
+;We welcome new contributors to any of the many different teams that go to make up Mageia the Community, and we encourage you to join us.
+Καλωσορίζουμε όλους τους νέους συνεισφέροντες σε οποιαδήποτε από τις ομάδες που συντελούν την κοινότητα της Mageia, και σας ενθαρρύνουμε να συμμετάσχετε.
+
+
+# en/2/nav.php +27
+;Mageia 2
+Mageia 2
+
+
+# en/2/nav.php +28
+;Download
+Λήψη
+
+
+# en/2/nav.php +29
+;For PC
+Για PC
+
+
+# en/2/nav.php +30
+;For server
+Για εξυπηρετητές
