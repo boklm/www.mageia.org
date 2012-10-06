@@ -23,7 +23,7 @@ http://blog.mageia.org/el/
 
 
 ;http://planet.mageia.org/en/
-http://planet.mageia.org/en/
+http://planet.mageia.org/en/ {ok}
 
 
 ;Planet
@@ -47,7 +47,7 @@ http://www.mageia-gr.org/forum/
 
 
 ;http://wiki.mageia.org/
-http://wiki.mageia.org/
+http://wiki.mageia.org/ {ok}
 
 
 ;News
@@ -95,7 +95,7 @@ Bugzilla</a> &larr; για αναφορά σφαλμάτων
 
 
 ;Subversion
-Subversion
+Subversion {ok}
 
 
 ;Git</a> code repositories
@@ -171,7 +171,7 @@ IRC</a> στο Freenode
 
 
 ;Mageia
-Mageia
+Mageia {ok}
 
 
 ;More about Mageia
