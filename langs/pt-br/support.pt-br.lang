@@ -124,3 +124,38 @@ Para alguns tipos de hardware (chipsets Wi-Fi, placas de vídeo 3D) funcionarem 
 ;We may set up a hardware compatibility list/directory as well as a hardware certification process; but that's still at the planning stage. Feel free to join/contact our <a href="%s">Web</a> and <a href="%s">QA</a> teams if you would like to help in this regard.
 Podemos definir uma lista/diretório de compatibilidade de hardware bem como um processo de certificação de hardware; mas isto ainda está sendo planejado. Sinta-se a vontade para entrar/contactar nossa equipe  <a href="%s">Web</a> e <a href="%s">QA</a>  se você desejar ajudar nesse aspecto.
 
+;Documentation
+Documentação
+
+;You can look up existing %sdocumentation here%s. You may too look into our %sWiki%s.
+Você pode procurar existente % sdocumentation aqui % s. Você também pode olhar em nosso %sWiki%s.
+
+;Updates
+Atualizações
+
+;Updates are available for %s and %s (security and bug fixes) and published on an ongoing basis.
+Atualizações estão disponíveis para %s e %s (segurança e correções de bugs) e publicado em uma base contínua.
+
+;You can install these from the Mageia Control Center.
+Você pode instalar esses do centro de controle da Mageia.
+
+;You may subscribe to our %s announce list to be notified of these.
+Você pode assinar nosso s anunciar lista para ser notificado sobre estas.
+
+;Lifecycle
+Ciclo de vida
+
+;Mageia releases are supported at least for 18 months.
+Mageia lançamentos são suportados pelo menos 18 meses.
+
+;Mageia 1 will be supported until December 2012.
+A Mageia 1 será suportado até dezembro de 2012.
+
+;Mageia 2 may have a longer lifecycle, this will be decided once released in May.
+Mageia 2 pode ter um ciclo de vida mais longo, esta será decidida uma vez lançado em maio.
+
+;You may check and report bugs on <a href="%s">our Bugzilla (bugs.mageia.org)</a>.
+ Você pode verificar e reportar bugs em <a href="%s">nosso Bugzilla (bugs.mageia.org)</a>.
+
+;Bugs Reports
+Relatórios de bugs
