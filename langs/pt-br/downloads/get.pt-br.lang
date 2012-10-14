@@ -10,7 +10,7 @@ Se este não funcionou bem para você, <a href="#om" id="other_mirrors_btn">veri
 
 
 ;Download %s
-Download %s
+Download %s {ok}
 
 
 ;Your download of %s should start within a few seconds
@@ -34,7 +34,7 @@ Se as assinaturas não correponderem, não use esta imagem ISO. Faça dupla chec
 
 
 ;Download mirrors
-Download mirrors
+Download mirrors {ok}
 
 
 ;Want to help? %sJoin Us!%s
@@ -42,10 +42,7 @@ Precisa de ajuda? %sJunte-se a nós!%s
 
 
 ;Mageia Downloads
-Mageia Downloads
-
-;Download %s
-Download
+Baixar Mageia
 
 ;Your IP address is %s and you seem to be in %s, %s.
 Seu endereço IP é %s e você parece estar em %s, %s.
