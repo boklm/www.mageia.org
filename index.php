@@ -3,8 +3,6 @@
  *
 */
 
-require 'redir.php';
-
 require_once 'langs.inc.php';
 
 // NOTE, this should go to the main controller in the next platform
