@@ -4,6 +4,55 @@ require '../../langs.php';
 
 _lang_load($locale, "calendar");
 
+/**
+ *
+*/
+$calendars = array(
+    array(
+        'id' => 'ojiv9mbtj8nt248dcjsfn6n664@group.calendar.google.com',
+        'title' => _t('events'),
+        'color' => '#125A12'
+    ),
+    array(
+        'id' => 'gpm9kdohufidedmlpnuuq4pvmo@group.calendar.google.com',
+        'title' => _t('meetings &amp; organization'),
+        'color' => '#8C500B'
+    ),
+    array(
+        'id' => 'hm0j50l2vmv0dlstaigbm7nt30@group.calendar.google.com',
+        'title' => _t('development &amp; release plan'),
+        'color' => '#691426'
+    ),
+    array(
+        'id' => 'uo3onvtl8q6qk5m3emq83rekag@group.calendar.google.com',
+        'title' => _t('mentoring'),
+        'color' => '#42104A'
+    )
+);
+
+$params = array(
+    'height'  => 600,
+    'wkst'    => 2,
+    'hl'      => 'en_GB',
+    'bgcolor' => '#FFFFFF',
+    'ctz'     => 'UTC'
+);
+$params = http_build_query($params);
+foreach ($calendars as $c) {
+    $params .= sprintf('&src=%s&color=%s',
+        urlencode($c['id']), urlencode($c['color']));
+}
+$url = 'https://www.google.com/calendar/b/0/embed?' . $params;
+
+$ical_tmpl = 'http://www.google.com/calendar/ical/%s/public/basic.ics';
+$html_calendars = '';
+foreach ($calendars as $c) {
+    $html_calendars .= sprintf('<li><a href="%s">%s</a></li>',
+        sprintf($ical_tmpl, urlencode($c['id'])),
+        $c['title']);
+}
+
+
 ?><!DOCTYPE html>
 <html dir="ltr" lang="<?php echo $locale; ?>">
 <head>
@@ -23,47 +72,6 @@ _lang_load($locale, "calendar");
         <div id="bd" role="main">
             <div class="yui-g">
                 <br />
-                <?php
-                /**
-                 *
-                */
-                $calendars = array(
-                    array(
-                        'id' => 'ojiv9mbtj8nt248dcjsfn6n664@group.calendar.google.com',
-                        'title' => _t('events'),
-                        'color' => '#125A12'
-                    ),
-                    array(
-                        'id' => 'gpm9kdohufidedmlpnuuq4pvmo@group.calendar.google.com',
-                        'title' => _t('meetings &amp; organization'),
-                        'color' => '#8C500B'
-                    ),
-                    array(
-                        'id' => 'hm0j50l2vmv0dlstaigbm7nt30@group.calendar.google.com',
-                        'title' => _t('development &amp; release plan'),
-                        'color' => '#691426'
-                    ),
-                    array(
-                        'id' => 'uo3onvtl8q6qk5m3emq83rekag@group.calendar.google.com',
-                        'title' => _t('mentoring'),
-                        'color' => '#42104A'
-                    )
-                );
-                
-                $params = array(
-                    'height'  => 600,
-                    'wkst'    => 2,
-                    'hl'      => 'en_GB',
-                    'bgcolor' => '#FFFFFF',
-                    'ctz'     => 'UTC'
-                );
-                $params = http_build_query($params);
-                foreach ($calendars as $c)
-                    $params .= sprintf('&src=%s&color=%s',
-                        urlencode($c['id']), urlencode($c['color']));
-
-                $url = 'https://www.google.com/calendar/b/0/embed?' . $params;
-                ?>
                 <iframe src="<?php echo $url; ?>"
                     style="border-width:0"
                     width="749"
@@ -85,15 +93,7 @@ _lang_load($locale, "calendar");
                     <h3><?php _e('ICS files') ?></h3>
                     <p><?php _e('You may get read-only access directly to these .ics files:')?></p>
                     <ul>
-                    <?php
-                    $ical_tmpl = 'http://www.google.com/calendar/ical/%s/public/basic.ics';
-                    foreach ($calendars as $c)
-                    {
-                        echo sprintf('<li><a href="%s">%s</a></li>',
-                            sprintf($ical_tmpl, urlencode($c['id'])),
-                            $c['title']);
-                    }
-                    ?>
+                    <?php echo $html_calendars; ?>
                     </ul>
                 </div>
             </div>
