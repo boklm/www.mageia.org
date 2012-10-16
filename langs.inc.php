@@ -51,7 +51,7 @@ $domains_lang = array(
  * Only manages redirections to main home path.
  *
  * @param string  $tld
- * @param array   $domains_lang 
+ * @param array   $domains_lang
  * @param string  $vhost
  *
  * @return void
@@ -66,7 +66,7 @@ function tld_redirect($tld, $domains_lang, $vhost)
  * Only manages redirections to main home path.
  *
  * @param string  $host
- * @param array   $domains_lang 
+ * @param array   $domains_lang
  * @param string  $vhost
  *
  * @return void
@@ -214,19 +214,23 @@ function _h($s, $args = null, $tag = 'p') {
 function _lang_return($file)
 {
     $strings = array();
-    $f       = file($file);
 
-    foreach ($f as $k => $v) {
+    if (file_exists($file)) {
+        $f = file($file);
 
-        $C = substr($v, 0, 1);
-        if ($C === '#') continue;
+        foreach ($f as $k => $v) {
 
-        if ($C === ';' && !empty($f[$k+1])) {
-            $j = trim(substr($v, 1));
-            $j = str_replace(array("\'", "\""), array("'", '"'), $j);
-            $strings[$j] = trim($f[$k+1]);
+            $C = substr($v, 0, 1);
+            if ($C === '#') continue;
+
+            if ($C === ';' && !empty($f[$k+1])) {
+                $j = trim(substr($v, 1));
+                $j = str_replace(array("\'", "\""), array("'", '"'), $j);
+                $strings[$j] = trim($f[$k+1]);
+            }
         }
     }
+
     return $strings;
 }
 
