@@ -73,7 +73,7 @@ $nav = array(
         max-width: 980px;
     }
 
-    ul#dl li { margin-bottom: 20px; }
+    ul#dl li { margin-bottom: 14px; }
     #dl-btn {
         display: block;
         color: #000;
@@ -119,9 +119,10 @@ $nav = array(
         text-decoration: none;
     }
     
-    #dl-btn-other {
+    .dl-btn-other {
         display: block;
-        width: 222px;padding: 10px 20px 10px 20px;
+        width: 222px;
+        padding: 10px 20px 10px 20px;
         background: rgba(255,255,255, 0.1);
         border-radius: 4px;
         color: #ddeeff;
@@ -129,7 +130,7 @@ $nav = array(
         text-decoration: none;
         font-size: 75%;
     }
-    #dl-btn-other:hover {
+    .dl-btn-other:hover {
         background: rgba(255,255,255, 0.2);
         color: #fff;
     }
@@ -172,7 +173,7 @@ $nav = array(
             font-size: 75%;
         }
         #dl-btn { width: 222px; }
-        #dl-btn-other:hover {
+        .dl-btn-other:hover {
             background: rgba(255,255,255, 0.2);
             color: #fff;
         }
@@ -245,14 +246,9 @@ $nav = array(
                         <a hreflang="en" href="https://wiki.mageia.org/en/Mageia_2_Errata">errata</a>.
                     </p>
                 </li>
-                <li><a href="contribute/" id="dl-btn-other"><?php _e('<strong>Get involved</strong> in the next version'); ?></a>
+                <li><a href="contribute/" class="dl-btn-other"><?php _e('<strong>Get involved</strong> in the next version'); ?></a>
                 </li>
-                <!--
-                <li><a href="1/" id="dl-btn-other">
-                    <span><?php _e('Download older Mageia 1 (June 2011)'); ?></span>
-                    </a>
-                </li>
-                -->
+                <li><a href="3/" class="dl-btn-other"><?php _e('Test Mageia 3%s', array(' alpha 2')); ?></a></li>
             </ul>
         </div>
     </div>
