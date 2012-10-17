@@ -155,6 +155,17 @@ Hledáte Mageia 1?
 ;It is <a href="%s">here now</a>.
 Nyní je <a href="%s">zde</a>.
 
+
+# en/2/download_index.php +220 (added manually)
+;Need more challenge?
+Need more challenge?
+
+
+# en/2/download_index.php +221 (added manually)
+;You can help us <a href="%s">develop and quality-check Mageia 3</a>.
+You can help us <a href="%s">develop and quality-check Mageia 3</a>.
+
+
 # en/for-server/index.php +21
 ;for your server
 pro váš server
