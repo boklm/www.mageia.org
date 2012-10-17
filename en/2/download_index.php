@@ -214,6 +214,12 @@ require '../downloads/get/lib.php';
                             _h('Looking for Mageia 1?', null, 'h3');
                             _h('It is <a href="%s">here now</a>.', array('../downloads/1/'));
                         ?>
+                        <br>
+                        <br>
+                        <?php
+                            _h('Need more challenge?', null, 'h3');
+                            _h('You can help us <a href="%s">develop and quality-check Mageia 3</a>.', array('../3/'));
+                        ?>
                     </div>
                     <hr>
                 </div>
