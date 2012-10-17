@@ -166,6 +166,16 @@ mageia, mageia 2, linux, вільна, звантаження, завантаж�
 Її тепер можна знайти <a href="%s">тут</a>.
 
 
+# en/2/download_index.php +220 (added manually)
+;Need more challenge?
+Need more challenge?
+
+
+# en/2/download_index.php +221 (added manually)
+;You can help us <a href="%s">develop and quality-check Mageia 3</a>.
+You can help us <a href="%s">develop and quality-check Mageia 3</a>.
+
+
 # en/for-pc/index.php +12
 ;Mageia 2, for your PC
 Mageia 2, для вашого комп’ютера
