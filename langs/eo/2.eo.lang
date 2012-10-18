@@ -358,7 +358,7 @@ Datumbazoj
 
 
 # en/for-server/index.php +37
-;Databases included are PostgreSQL 8.4.11; MariaDB, which replaces MySQL 5.5.23; BDB .
+;Databases included are PostgreSQL 8.4.11; MariaDB, which replaces MySQL 5.5.23; BDB.
 Inkluditaj datumbazoj estas PostgreSQL 8.4.11; MariaDB, kiu anstataŭigas MySQL 5.5.23; BDB.
 
 
