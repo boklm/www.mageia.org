@@ -282,3 +282,141 @@ Congratulamo-nos com novos colaboradores para qualquer uma das muitas equipes di
 
 ;What's new?
 O que há de novo?
+
+;Use above DVD or CD and see the <a href="%s" hreflang="en">upgrade guide</a>.
+Uso acima de DVD ou CD e ver o <a href="%s" hreflang="en">guia de atualização</a>.
+
+;see the <a href="%s" hreflang="en">upgrade guide</a>
+consulte o <a href="%s" hreflang ="en">guia de atualização</a>
+
+;Mageia 2, for your PC
+ Mageia 2, para o seu PC
+
+;for your PC
+para o seu PC
+
+;Plenty
+Abundância
+
+;There are 19&nbsp;881&nbsp;packages in our repositories. And that's just for the 64-bit branch.
+Existem 19 &nbsp; 881&nbsp; pacotes em nossos repositórios. E isso é apenas para o ramo de 64 bits.
+
+;The total number is double that &ndash; and then if you consider the backports, and the packages in the Cauldron still testing... you'll see that Mageia users are spoiled for choice.
+O número total é o dobro que &ndash; e, em seguida, se você considerar o backports e os pacotes no caldeirão ainda testando... você vai ver que usuários Mageia estão modificando para a escolha.
+
+;Here's a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:
+Aqui está uma seção transversal, primeiro os ambientes de trabalho gráfico e depois dos principais aplicativos você poderia estar usando em seu desktop:
+
+;Environments
+Ambientes
+
+;Mageia 2 has all the major desktop environments:
+Mageia 2 tem todos os principais ambientes de desktop:
+
+;And then there are the window managers, including Openbox, WindowMaker, IceWM, Fluxbox, Fvwm2 and Awesome.
+E depois há os gerenciadores de janela, incluindo o Openbox, WindowMaker, IceWM, Fluxbox, Fvwm2 e impressionante.
+
+;Applications &rarr;
+Aplicações & rarr;
+
+;There are many, many to choose from &ndash; including all the most popular.
+ Há muitos, muitos para escolher & ndash; incluindo os mais populares.
+
+;Web
+Web {ok}
+
+;Choose your web browser from Firefox ESR 10.0.4, Chromium-browser 180.1025.160, Epiphany 3.4.1 or Opera 11.64 &ndash; or one of the many others such as Lynx or Konqueror; then pick an email client from KMail 4.8.2, Thunderbird ESR 10.0.4, Evolution 3.4.1 or maybe Claws-Mail or Mutt.
+Escolha seu navegador web Firefox ESR 10.0.4, cromo-navegador 180.1025.160, Epifania 3.4.1 ou Opera 11.64 &ndash; ou um dos muitos outros como o Lynx ou Konqueror; em seguida, escolha um cliente de e-mail KMail 4.8.2, Thunderbird ESR 10.0.4, evolução 3.4.1 ou talvez Claws-Mail ou Mutt.
+
+;Messaging
+Mensagens
+
+;Choose from Kopete, Pidgin, Empathy or Kadu for instant messaging; use Quassel, Konversation, XChat-Gnome or KVIrc for IRC chat; try QuteCom or Ekiga (or even Skype) for VOIP.
+Escolher Kopete, o Pidgin, empatia ou Kadu para mensagens instantâneas; Use Quassel, Konversation, XChat-Gnome ou KVIrc para bate-papo do IRC; Tente QuteCom ou Ekiga (ou até mesmo Skype) para VOIP.
+
+;Office
+Escritório
+
+;The two full-featured office suites LibreOffice and Calligra are there, as well as AbiWord, and a host of text editors including Kate; for finance there's KMyMoney, Skrooge or the professional-level GnuCash.
+Duas suites de escritório full-featured LibreOffice e Calligra estão lá, bem como o AbiWord e uma série de editores de texto, incluindo Kate; das Finanças é KMyMoney, Skrooge ou o GnuCash de nível profissional.
+
+;Image
+Imagem
+
+;Use GIMP for powerful image manipulation, or Inkscape for vector drawing; Blender is there for serious animation. DigiKam or Showfoto will take care of your photos, talk to your camera and give you more basic image editing.
+Uso o GIMP para manipulação de imagem poderoso, ou o Inkscape para vetor de desenho; Liquidificador existe para animação grave. DigiKam ou Showfoto vai cuidar de suas fotos, falar com sua câmera e dar-lhe mais de edição de imagem básica.
+
+;Sound
+Som
+
+
+;For playing audio files, choose from Amarok 2.5.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don't infringe local laws.
+Para reproduzir arquivos de áudio, escolha de Amarok 2.5.0 e Rhythmbox, entre outros; Use o VLC, Totem ou MPlayer para vídeo e áudio, ou usar o XBMC Media Center como seu sistema de entretenimento doméstico. Alguns pacotes podem ser encontrados nos repositórios do núcleo e Tainted: os pacotes no repositório do núcleo apoio só não-patente-onerou codecs e pacotes no repositório Tainted apoio todos os codecs, para usuários que vivem em países onde esses codecs não infringe a legislação local.
+
+;Video
+Video
+
+;For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there's Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.
+Para edição de arquivos de vídeo, tente o Avidemux, Kino ou OpenShot; para legendas, há Gaupol ou compositor de legendas; Use o MythTV, Miro, tvtime, FreetuxTV ou Me TV para assistir ou gravar programas de TV.
+
+;Plus
+Plus {ok}
+
+;Then there's ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.
+Depois, há o ZoneMinder, CCTV segurança; VirtualBox ou vinho para virtualização; e uma variedade de ambientes de desenvolvimento como Anjuta, Eclipse, Netbeans ou KDevelop.
+
+;For more information about these and other packages, check the <a href="%s">Mageia 2 Release notes</a>.
+Para obter mais informações sobre estes e outros pacotes, verificar o <a href="%s">Mageia 2 notas</a>.
+
+;You can take a look at the <a href="%s">Mageia Application Database</a> to get a more complete list of Mageia packages.
+Você pode dar uma olhada o <a href="%s">Mageia de aplicativo de banco de dados</a> para obter uma lista mais completa de pacotes Mageia.
+
+;Mageia 2, for your server
+Mageia 2, para o seu servidor
+
+;Aside from the cross-section included here, you will find many others in the repositories: you can use rpmdrake to search for packages, or check the <a href="%s">Mageia App DB</a>.
+Além da secção incluída aqui, você vai encontrar muitos outros nos repositórios: você pode usar o rpmdrake para procurar pacotes, ou verificar o <a href="%s">Mageia App DB</a>.
+
+;For centralised administration, we include puppet 2.7.11; we use it widely in <a href="%s">our own infrastructure</a>.
+Para a administração centralizada, incluímos fantoche 2.7.11; Utilizamos amplamente em <a href="%s">nossa própria infra-estrutura de</a>.
+
+;Databases included are PostgreSQL 8.4.11; MariaDB, which replaces MySQL 5.5.23; BDB.
+Bancos de dados incluídos são PostgreSQL 8.4.11; MariaDB, que substitui o MySQL 5.5.23; BDB.
+
+;Mageia 2 is a GNU/Linux distribution for your computer, released by the <a href="%s">Mageia community</a>.
+Mageia 2 é uma distribuição GNU/Linux para o seu computador, lançado pelo <a href="%s">comunidade Mageia</a>.
+
+;Too much to include here! See the <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">release notes</a> for an extensive exposé.
+Demais para incluir aqui! Consulte o <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">notas de versão</a> para uma exposição extensiva.
+
+;Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch's most popular distributions</a>.
+Desde o lançamento do <a href = "...1 /">Mageia 1</a>, a nossa oferta tem sido consistentemente no <a href="%s">top 10 das mais populares distribuições com na Distrowatch</a>.
+
+;Download
+Baixar
+
+;For PC
+Para PC
+
+;For server
+Para servidor
+
+6 notrans:
+
+;mageia, mageia 2, linux, free, download, iso, torrent, vm, http, ftp, rsync, bittorrent
+mageia, mageia 2, linux, free, download, iso, torrent, vm, http, ftp, rsync, bittorrent
+
+;link
+link {ok}
+
+;Need more challenge?
+Precisa de mais um desafio?
+
+;You can help us <a href="%s">develop and quality-check Mageia 3</a>.
+Você pode nos ajudar <a href="%s">desenvolver e verificação da qualidade Mageia 3</a>.
+
+;Mageia 2
+Mageia 2
+
+;<a href="../downloads/" style="background: #1272B1; color: white; padding: 0.9em; margin: 1em; display: inline-block; text-shadow: 0 1px 6px #000; border-radius: 3px;">Download it right away!</a>
+<a href="..downloads/"style="background: #1272B1; cor: branco; estofamento: 0.9em; margem: 1em; Exibir: inline-block; text-shadow: 0 1px 6px #000; border-radius: 3px;">baixar imediatamente!</a>
