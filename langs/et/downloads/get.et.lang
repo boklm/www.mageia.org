@@ -10,7 +10,7 @@ Kui see teie puhul ei toimi, <a href="#om" id="other_mirrors_btn">proovige kasut
 
 # ../../svn/web/en/downloads/get/index.php +131
 ;Mageia Downloads
-Mageia Downloads
+Mageia allalaadimine
 
 
 ;Download %s
@@ -38,23 +38,23 @@ Kui signatuurid ei klapi, ärge kasutage seda ISO-t. Kontrollige veel kord ja p�
 
 
 ;Your IP address is %s and you seem to be in %s, %s.
-Your IP address is %s and you seem to be in %s, %s.
+Teie IP-aadress on %s ja teie asukoht paistab olevat %s, %s.
 
 
 ;Country
-Country
+Riik
 
 
 ;City
-City
+Linn
 
 
 ;Download mirrors
-Download mirrors
+Allalaadimispeeglid
 
 
 ;The making and the distribution of Mageia worldwide is made possible by all the <a href="%s">people and organizations that mirror our software</a> and that <a href="%s">donate money, hardware, hosting and more</a>.
-The making and the distribution of Mageia worldwide is made possible by all the <a href="%s">people and organizations that mirror our software</a> and that <a href="%s">donate money, hardware, hosting and more</a>.
+Mageia valmistamine ja ülemaailmne levitamine on võimalik tänu kõigile <a href="%s">inimestele ja organisatsioonidele, kes meie tarkvara peegeldavad</a>, ning kes <a href="%s">annetavad raha, riistvara, arvutiruumi ja muud</a>.
 
 
 ;Want to help? %sJoin Us!%s
@@ -62,41 +62,41 @@ Kas soovite aidata? %sÜhinege meiega!%s
 
 
 ;Sorry!
-Sorry!
+Vabandust!
 
 
 ;Your download could not complete, as we could not find this file. Please try again from the <a href="%s">main downloads page</a>.
-Your download could not complete, as we could not find this file. Please try again from the <a href="%s">main downloads page</a>.
+Allalaadimist ei olnud võimalik lõpetada, sest faili ei leitud. Palun proovige uuesti <a href="%s">allalaadimise pealehel</a>.
 
 
 ;If you still encounter this error and think IT SHOULD NOT HAPPEN &ndash; please tell us:
-If you still encounter this error and think IT SHOULD NOT HAPPEN &ndash; please tell us:
+Kui viga peaks korduma ja teie meelest SEDA EI TOHIKS JUHTUDA, võtke palun meiega ühendust järgmistel kanalitel:
 
 
 ;directly on <a href="irc://irc.freenode.net/#mageia-web">#mageia-web on Freenode IRC</a>,
-directly on <a href="irc://irc.freenode.net/#mageia-web">#mageia-web on Freenode IRC</a>,
+otse <a href="irc://irc.freenode.net/#mageia-web">#mageia-web kanalil Freenode IRC-s</a>
 
 
 ;or <a href="http://twitter.com/mageia_org">via our Tweeter account</a>,
-or <a href="http://twitter.com/mageia_org">via our Tweeter account</a>,
+või <a href="http://twitter.com/mageia_org">meie Twitteri konto kaudu</a>
 
 
 ;or with a <a href="https://www.mageia.org/mailman/listinfo/mageia-webteam">notice on the Web team mailing-list</a>,
-or with a <a href="https://www.mageia.org/mailman/listinfo/mageia-webteam">notice on the Web team mailing-list</a>,
+või <a href="https://www.mageia.org/mailman/listinfo/mageia-webteam">kirjutades veebimeeskonna postiloendisse</a>
 
 
 ;or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">bug report</a>.
-or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">bug report</a>.
+või <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">tehes veateate</a>
 
 
 ;You may embed this debug info if you like:
-You may embed this debug info if you like:
+Soovi korral võite lisada alloleva silumisteabe:
 
 
 ;Thanks!
-Thanks!
+Täname!
 
 
 ;back to that awesome Mageia home page
-back to that awesome Mageia home page
+tagasi Mageia vaimustavale kodulehele
 

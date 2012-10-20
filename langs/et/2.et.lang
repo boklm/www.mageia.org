@@ -467,3 +467,10 @@ PC-le
 # en/2/nav.php +30
 ;For server
 Serverile
+
+
+;Need more challenge?
+Vajate veel suuremat väljakutset?
+
+;You can help us <a href="%s">develop and quality-check Mageia 3</a>.
+Siis võite aidata meil <a href="%s">arendada Mageia 3 ja selle kvaliteeti kontrollida</a>.
