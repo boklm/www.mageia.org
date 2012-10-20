@@ -13,7 +13,7 @@ Baixar Mageia 2 DVD, CD, LiveCD, network install ISO images.
 
 # en/2/download_index.php +16
 ;mageia, mageia 2, linux, free, download, iso, torrent, vm, http, ftp, rsync, bittorrent
-mageia, mageia 2, linux, free, download, iso, torrent, vm, http, ftp, rsync, bittorrent
+mageia, mageia 2, linux, livre, baixar, iso, torrent, vm, http, ftp, rsync, bittorrent
 
 
 # en/2/download_index.php +24
@@ -354,7 +354,7 @@ Som
 Para reproduzir arquivos de áudio, escolha de Amarok 2.5.0 e Rhythmbox, entre outros; Use o VLC, Totem ou MPlayer para vídeo e áudio, ou usar o XBMC Media Center como seu sistema de entretenimento doméstico. Alguns pacotes podem ser encontrados nos repositórios do núcleo e Tainted: os pacotes no repositório do núcleo apoio só não-patente-onerou codecs e pacotes no repositório Tainted apoio todos os codecs, para usuários que vivem em países onde esses codecs não infringe a legislação local.
 
 ;Video
-Video
+Video {ok}
 
 ;For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there's Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.
 Para edição de arquivos de vídeo, tente o Avidemux, Kino ou OpenShot; para legendas, há Gaupol ou compositor de legendas; Use o MythTV, Miro, tvtime, FreetuxTV ou Me TV para assistir ou gravar programas de TV.
@@ -416,7 +416,7 @@ Precisa de mais um desafio?
 Você pode nos ajudar <a href="%s">desenvolver e verificação da qualidade Mageia 3</a>.
 
 ;Mageia 2
-Mageia 2
+Mageia 2 {ok}
 
 ;<a href="../downloads/" style="background: #1272B1; color: white; padding: 0.9em; margin: 1em; display: inline-block; text-shadow: 0 1px 6px #000; border-radius: 3px;">Download it right away!</a>
 <a href="..downloads/"style="background: #1272B1; cor: branco; estofamento: 0.9em; margem: 1em; Exibir: inline-block; text-shadow: 0 1px 6px #000; border-radius: 3px;">baixar imediatamente!</a>

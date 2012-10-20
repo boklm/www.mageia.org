@@ -8,7 +8,6 @@ Mageia 3 {ok}
 
 # ../../svn/web/en/3/index.php +34
 ;Development roadmap
-
 Roteiro de desenvolvimento
 
 
@@ -143,7 +142,7 @@ não é adequado para atualização
 
 # ../../svn/web/en/3/index.php +104
 ;LiveDVD GNOME
-LiveDVD GNOME
+LiveDVD GNOME {ok}
 
 
 
