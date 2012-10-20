@@ -168,12 +168,12 @@ Selle leiab <a href="%s">nüüd siit</a>.
 
 # en/2/download_index.php +220 (added manually)
 ;Need more challenge?
-Need more challenge?
+Vajate veel suuremat väljakutset?
 
 
 # en/2/download_index.php +221 (added manually)
 ;You can help us <a href="%s">develop and quality-check Mageia 3</a>.
-You can help us <a href="%s">develop and quality-check Mageia 3</a>.
+Siis võite aidata meil <a href="%s">arendada Mageia 3 ja selle kvaliteeti kontrollida</a>
 
 
 # en/for-pc/index.php +12
@@ -468,9 +468,3 @@ PC-le
 ;For server
 Serverile
 
-
-;Need more challenge?
-Vajate veel suuremat väljakutset?
-
-;You can help us <a href="%s">develop and quality-check Mageia 3</a>.
-Siis võite aidata meil <a href="%s">arendada Mageia 3 ja selle kvaliteeti kontrollida</a>.
