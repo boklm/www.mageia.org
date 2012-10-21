@@ -166,11 +166,6 @@ Need more challenge?
 You can help us <a href="%s">develop and quality-check Mageia 3</a>.
 
 
-# en/for-pc/index.php +12
-;page_title
-page_title
-
-
 # en/for-server/index.php +21
 ;for your server
 para seu servidor
@@ -197,8 +192,8 @@ Bancos de Dados
 
 
 # en/for-server/index.php +37
-;Databases included are PostgreSQL 8.4.11; MariaDB, which replaces MySQL 5.5.23; BDB .
-Bancos de dados incluídos são PostgreSQL 8.4.11; MariaDB, que substitui MySQL 5.5.23; BDB .
+;Databases included are PostgreSQL 8.4.11; MariaDB, which replaces MySQL 5.5.23; BDB.
+Bancos de dados incluídos são PostgreSQL 8.4.11; MariaDB, que substitui MySQL 5.5.23; BDB.
 
 
 # en/for-server/index.php +38
@@ -242,8 +237,8 @@ Mageia 2 é a nova sólida e estável distribuição Linux do Projeto Mageia.
 
 
 # en/2/index.php +35
-;Too much to include here! See the <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">release notes</a> for an extensive exposÃ©.
-É muita coisa para colocar aqui! Veja as <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">notas de lançamento</a> para uma exposição completa.
+;Too much to include here! See the <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">release notes</a> for an extensive exposé.
+Demais para incluir aqui! Consulte o <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">notas de versão</a> para uma exposição extensiva.
 
 
 # en/2/index.php +37
@@ -380,14 +375,12 @@ Além da secção incluída aqui, você vai encontrar muitos outros nos reposit�
 ;For centralised administration, we include puppet 2.7.11; we use it widely in <a href="%s">our own infrastructure</a>.
 Para a administração centralizada, incluímos fantoche 2.7.11; Utilizamos amplamente em <a href="%s">nossa própria infra-estrutura de</a>.
 
-;Databases included are PostgreSQL 8.4.11; MariaDB, which replaces MySQL 5.5.23; BDB.
-Bancos de dados incluídos são PostgreSQL 8.4.11; MariaDB, que substitui o MySQL 5.5.23; BDB.
+#;Databases included are PostgreSQL 8.4.11; MariaDB, which replaces MySQL 5.5.23; BDB.
+#Bancos de dados incluídos são PostgreSQL 8.4.11; MariaDB, que substitui o MySQL 5.5.23; BDB.
 
 ;Mageia 2 is a GNU/Linux distribution for your computer, released by the <a href="%s">Mageia community</a>.
 Mageia 2 é uma distribuição GNU/Linux para o seu computador, lançado pelo <a href="%s">comunidade Mageia</a>.
 
-;Too much to include here! See the <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">release notes</a> for an extensive exposé.
-Demais para incluir aqui! Consulte o <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">notas de versão</a> para uma exposição extensiva.
 
 ;Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch's most popular distributions</a>.
 Desde o lançamento do <a href = "...1 /">Mageia 1</a>, a nossa oferta tem sido consistentemente no <a href="%s">top 10 das mais populares distribuições com na Distrowatch</a>.
