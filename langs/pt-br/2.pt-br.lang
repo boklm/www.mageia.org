@@ -394,11 +394,6 @@ Para PC
 ;For server
 Para servidor
 
-6 notrans:
-
-;mageia, mageia 2, linux, free, download, iso, torrent, vm, http, ftp, rsync, bittorrent
-mageia, mageia 2, linux, free, download, iso, torrent, vm, http, ftp, rsync, bittorrent
-
 ;link
 link {ok}
 
