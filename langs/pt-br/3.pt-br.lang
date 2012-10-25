@@ -40,7 +40,7 @@ Relatórios de bugs
 # ../../svn/web/en/3/index.php +43
 
 ;Be careful! This is an alpha, unstable release.
-enha cuidado! Esta é uma versão alfa, instável.
+Tenha cuidado! Esta é uma versão alfa, instável.
 
 
 # ../../svn/web/en/3/index.php +44
@@ -97,11 +97,8 @@ Uso LiveCDs ou vivido fresca nova instala apenas, não para atualizar.
 
 
 # ../../svn/web/en/3/index.php +60
-
 ;If you are looking for a stable version of Mageia, <a href="%s">go here</a>.
-Se você estiver procurando por uma versão estável do Mageia, <a href="%s">vá aqui</a>.
-
-
+Se você estiver procurando por uma versão estável do Mageia, <a href="%s">vai aqui</a>.
 
 # ../../svn/web/en/3/index.php +61
 ;Enjoy! And <a href="%s">please report bugs</a> if you find some.
@@ -117,7 +114,7 @@ link {ok}
 
 # ../../svn/web/en/3/index.php +76
 ;Installer DVD
-Instalador DVD
+DVD de instalação
 
 # ../../svn/web/en/3/index.php +77
 ;100% Free Software
@@ -126,13 +123,13 @@ Instalador DVD
 
 # ../../svn/web/en/3/index.php +85
 ;Installer CD
-CD do instalador
+CD de instalação
 
 
 # ../../svn/web/en/3/index.php +95
 
 ;LiveDVD KDE
-KDE LiveDVD
+LiveDVD KDE {ok}
 
 
 # ../../svn/web/en/3/index.php +96
@@ -148,7 +145,7 @@ LiveDVD GNOME {ok}
 
 # ../../svn/web/en/3/index.php +114
 ;LiveCD KDE, English-only
-KDE LiveCD, apenas em inglês
+LiveCD KDE, apenas em inglês
 
 
 # ../../svn/web/en/3/index.php +121
@@ -156,15 +153,14 @@ KDE LiveCD, apenas em inglês
 LiveCD GNOME, apenas em inglês
 
 
-
 # ../../svn/web/en/3/index.php +129
 ;Network installer, Free Software CD
-Instalador de rede, CD de Software livre
+Instalador via rede, CD de Software livre
 
 
 # ../../svn/web/en/3/index.php +135
 ;Network installer + nonfree firmware CD
-Instalador de rede + CD de firmware não-livres
+Instalador via rede + CD de firmware não-livres
 
 
 # ../../svn/web/en/3/index.php +136
