@@ -62,6 +62,11 @@ ha rilasciato due principali versioni stabili <a href="../1/">a Giungo 2011</a> 
 
 
 # /en/about/index.php +69
+;<a href=%s>Mageia.Org's legal constitution</a> and <a href=%s>governance</a> rules;
+<a href=%s>La costituzione legale di Mageia.Org</a> e le regole della <a href=%s>governance</a>;
+
+
+# /en/about/index.php +72
 ;is the French, Paris-based legal structure supporting the Mageia project.
 è la struttura legale Francese, che si trova a Parigi e supporta il progetto Mageia.
 
