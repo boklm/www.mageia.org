@@ -13,7 +13,7 @@ Roadmap di sviluppo {ok}
 
 # ../../svn/web/en/3/index.php +35
 ;Features review
-Features review
+Recensione delle caratteristiche
 
 
 # ../../svn/web/en/3/index.php +36
@@ -88,42 +88,42 @@ Potresti, se lo vuoi, aggiungere repository di software non libero <em>dopo</em>
 
 # ../../svn/web/en/3/index.php +59
 ;Use LiveCDs or LiveDVDs for fresh new installs ONLY, NOT FOR UPGRADE.
-Use LiveCDs or LiveDVDs for fresh new installs ONLY, NOT FOR UPGRADE.
+Utilizza LiveCD o LiveDVD SOLO per nuove installazioni, NON PER AVANZAMENTI DI VERSIONE.
 
 
 # ../../svn/web/en/3/index.php +60
 ;If you are looking for a stable version of Mageia, <a href="%s">go here</a>.
-If you are looking for a stable version of Mageia, <a href="%s">go here</a>.
+Se cerchi una versione stabile di Mageia, <a href="%s">vai qui</a>.
 
 
 # ../../svn/web/en/3/index.php +61
 ;Enjoy! And <a href="%s">please report bugs</a> if you find some.
-Enjoy! And <a href="%s">please report bugs</a> if you find some.
+Divertiti! E <a href="%s">segnala i bug</a> se ne trovi qualcuno, per favore.
 
 
 # ../../svn/web/en/3/index.php +69
 ;size
-size
+dimensione
 
 
 # ../../svn/web/en/3/index.php +70
 ;link
-link
+collegamento
 
 
 # ../../svn/web/en/3/index.php +76
 ;Installer DVD
-Installer DVD
+DVD di Installazione
 
 
 # ../../svn/web/en/3/index.php +77
 ;100% Free Software
-100% Free Software
+100% Software Libero
 
 
 # ../../svn/web/en/3/index.php +85
 ;Installer CD
-Installer CD
+CD di Installazione
 
 
 # ../../svn/web/en/3/index.php +95
@@ -133,7 +133,7 @@ LiveDVD KDE
 
 # ../../svn/web/en/3/index.php +96
 ;not suitable for upgrade
-not suitable for upgrade
+non utilizzabile per avanzamento di versione
 
 
 # ../../svn/web/en/3/index.php +104
@@ -143,25 +143,25 @@ LiveDVD GNOME
 
 # ../../svn/web/en/3/index.php +114
 ;LiveCD KDE, English-only
-LiveCD KDE, English-only
+LiveCD KDE, solo in Inglese
 
 
 # ../../svn/web/en/3/index.php +121
 ;LiveCD GNOME, English-only
-LiveCD GNOME, English-only
+LiveCD GNOME, solo in Inglese
 
 
 # ../../svn/web/en/3/index.php +129
 ;Network installer, Free Software CD
-Network installer, Free Software CD
+Installatore da Rete, CD con Software Libero
 
 
 # ../../svn/web/en/3/index.php +135
 ;Network installer + nonfree firmware CD
-Network installer + nonfree firmware CD
+Installatore da Rete + CD con firmware nonfree
 
 
 # ../../svn/web/en/3/index.php +136
 ;needed for some disc controllers, some network cards, etc.
-needed for some disc controllers, some network cards, etc.
+necessario per qualche controller di dischi, qualche scheda di rete, ecc.
 
