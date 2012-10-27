@@ -24,14 +24,6 @@ Tutti possono contribuire, questo è il Software Libero! Se sei curioso e deside
 Controlla cosa potresti fare qui di seguito!
 
 
-;browse_role
-Cerca per ruolo
-
-
-;browse_time
-Cerca per tempo
-
-
 ;Roles
 Ruoli
 
@@ -109,7 +101,7 @@ Mageia dipende da una infrastruttura e da strumenti che permettono a chiunque di
 
 
 ;Mirroring
-Mirroring
+Mirroring {ok}
 
 
 ;Making all the software provided by Mageia available requires <a href="http://mirrors.mageia.org/">several mirrors around the world</a>, to distribute ISO's and software packages. If you have some disk space and bandwidth to share, please <a href="https://wiki.mageia.org/en/Mirrors_policy#How_to_.28become_a.29_mirror.3F">see how you can provide an official Mageia mirror</a>.
@@ -125,7 +117,7 @@ Donazioni finanziarie ci aiutano ad allocare compiti specifici, a mettere in sic
 
 
 ;Data mining
-Data mining
+Data mining {ok}
 
 
 ;There are tons of data out there, most of which we don't use, or even know about. If you like to grab and analyze data to reveal &amp; visualize it to spot what we can do even better, get in touch!
