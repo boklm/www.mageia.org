@@ -19,7 +19,7 @@ http://blog.mageia.org/it/
 
 
 ;Blog
-Blog
+Blog {ok}
 
 
 ;http://planet.mageia.org/en/
@@ -27,23 +27,23 @@ http://planet.mageia.org/it/
 
 
 ;Planet
-Pianeta {ok}
+Pianeta
 
 
 ;Calendar
-Calendario {ok}
+Calendario
 
 
 ;https://forum.mageia.org/en/
-https://forum.mageia.org/en/
+https://forum.mageia.org/en/ {ok}
 
 
 ;Forums
-Forums
+Forums {ok}
 
 
 ;http://wiki.mageia.org/
-http://wiki.mageia.org/
+http://wiki.mageia.org/ {ok}
 
 
 ;News
