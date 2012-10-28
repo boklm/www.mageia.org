@@ -32,8 +32,54 @@ Supporto Professionale
 
 
 ;Hardware Requirements
-Requisiti di Sistema
+Requisiti Hardware
 
+
+;Documentation
+Documentazione
+
+
+;You can look up existing %sdocumentation here%s. You may too look into our %sWiki%s.
+Puoi vedere %squi la documentazione esistente%s. Potresti anche dare un'occhiata al nostro %sWiki%s.
+
+
+
+;Updates
+Aggiornamenti
+
+
+
+;Updates are available for %s and %s (security and bug fixes) and published on an ongoing basis.
+Gli Aggiornamenti sono disponibili per %s e %s (sicurezza e bug fixes) e pubblicati in continuazione.
+
+
+
+;You can install these from the Mageia Control Center.
+Puoi installarli dal Centro di Controllo di Mageia.
+
+
+
+;You may subscribe to our %s announce list to be notified of these.
+Postresti anche iscriverti alla nostra %s lista di annunci per ricevere notifiche relative a questi.
+
+
+;Lifecycle
+Ciclo di vita
+
+
+
+;Mageia releases are supported at least for 18 months.
+I rilasci di Mageia sono supportati per almeno 18 mesi.
+
+
+
+;Mageia 1 will be supported until December 2012.
+Mageia 1 sarà supportata fino a Dicembre 2012.
+
+
+
+;Mageia 2 may have a longer lifecycle, this will be decided once released in May.
+Mageia 2 potrebbe avere un ciclo di vita più lungo, questo verrà deciso una volta rilasciata in Maggio.
 
 
 ;If you need help, information or directions about the Mageia distribution you installed or about the project, you can try to reach us through:
@@ -124,3 +170,8 @@ Per far funzionare correttamente alcuni tipi di hardware (chipset Wi-Fi, schede 
 ;We may set up a hardware compatibility list/directory as well as a hardware certification process; but that's still at the planning stage. Feel free to join/contact our <a href="%s">Web</a> and <a href="%s">QA</a> teams if you would like to help in this regard.
 Vorremmo rendere disponibile una lista/cartella di compatibilità dell'hardware così come un processo di certificazione per l'hardware, ma per adesso siamo ancora a uno stadio di pianificazione. Contatta/raggiungi le nostre squadre <a href="%s">Web</a> e <a href="%s">QA</a>  se vuoi dare un'aiuto in questo aspetto.
 
+;You may check and report bugs on <a href="%s">our Bugzilla (bugs.mageia.org)</a>.
+Puoi verificare e segnalare bugs sul <a href="%s">nostro Bugzilla (bugs.mageia.org)</a>.
+
+;Bugs Reports
+Bugs Reports {ok}
