@@ -67,35 +67,35 @@ Puoi anche <a href="../donate/">supportare economicamente</a> il progetto! {ok}
 
 
 ;Toolbox
-Toolbox
+Toolbox {ok}
 
 
 ;Wiki</a> &larr; collaborative documentation
-Wiki</a> &larr; documentazione collaborativa {ok}
+Wiki</a> &larr; documentazione collaborativa
 
 
 ;Bugzilla</a> &larr; to report bugs
-Bugzilla</a> &larr; per segnalare problemi {ok}
+Bugzilla</a> &larr; per segnalare problemi
 
 
 ;Forum
-Forum
+Forum {ok}
 
 
 ;Mageia Applications Database
-Database Applicazioni Mageia {ok}
+Database Applicazioni Mageia
 
 
 ;For developers &amp; packagers
-For developers &amp; packagers
+Per sviluppatori &amp; packagers
 
 
 ;Subversion
-Subversion
+Subversion {ok}
 
 
 ;Git</a> code repositories
-Git</a> code repositories
+Repositories codice Git</a>
 
 
 ;Packages submission queue
@@ -107,7 +107,7 @@ pacchetti non mantenuti
 
 
 ;Global QA report
-Global QA report
+Global QA report {ok}
 
 
 ;Conversations
@@ -123,7 +123,7 @@ IRC</a> su Freenode
 
 
 ;mailing-lists 1</a> &amp; <a href="http://ml.mageia.org/">2
-mailing-lists 1</a> &amp; <a href="http://ml.mageia.org/">2
+mailing-lists 1</a> &amp; <a href="http://ml.mageia.org/">2 {ok}
 
 
 ;in real life!
@@ -163,7 +163,7 @@ Amministrazione di sistemi &amp; infrastrutture
 
 
 ;Bugs triaging
-Bugs triaging
+Bugs triaging {ok}
 
 
 ;Mageia
@@ -200,3 +200,8 @@ l'Amministrazione {ok}
 
 ;This page needs you! <a href="https://wiki.mageia.org/en/Web_team">Join the Web team</a>!
 Questa pagina necessita del tuo aiuto! <a href="https://wiki.mageia.org/en/Web_team">Unisciti al team Web</a>! {ok}
+
+
+;Mailing-lists
+Liste di distribuzione
+
