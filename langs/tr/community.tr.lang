@@ -1,17 +1,17 @@
 ;Mageia Community
-Mageia Community
+Mageia Topluluğu
 
 
 ;Mageia Community Central is the place where all contributors and users can find the latest news about Mageia and learn more about what to do in the project.
-Mageia Community Central is the place where all contributors and users can find the latest news about Mageia and learn more about what to do in the project.
+Mageia topluluk merkezi, projede ne yapılacağı hakkında daha çok bilgi alınan, Mageia hakkında en son haberlerin bulunabildiği, kullanıcıların ve tüm katkıcıların toplandığı yerdir.
 
 
 ;mageia, community, news, tools, tasks
-mageia, community, news, tools, tasks
+mageia, topluluk, haberler, araçlar, etiketler
 
 
 ;Mageia Community Central
-Mageia Community Central
+Mageia Topluluk Merkezi
 
 
 ;http://blog.mageia.org/en/
@@ -27,11 +27,11 @@ http://planet.mageia.org/en/
 
 
 ;Planet
-Planet
+Gezegen
 
 
 ;Calendar
-Calendar
+Takvim
 
 
 ;https://forum.mageia.org/en/
@@ -39,7 +39,7 @@ https://forum.mageia.org/en/
 
 
 ;Forums
-Forums
+Forumlar
 
 
 ;http://wiki.mageia.org/
@@ -47,35 +47,35 @@ http://wiki.mageia.org/
 
 
 ;News
-News
+Haberler
 
 
 ;How to contribute?
-How to contribute?
+Nasıl katkıda bulunulur?
 
 
 ;Start here
-Start here
+Buradan başlayın
 
 
 ;and meet us on <a href="http://wiki.mageia.org/en/IRC">IRC</a>.
-and meet us on <a href="http://wiki.mageia.org/en/IRC">IRC</a>.
+<a href="http://wiki.mageia.org/en/IRC">IRC</a>'de bizimle görüşün.
 
 
 ;You can also <a href="../donate/">support financially</a> the project!
-You can also <a href="../donate/">support financially</a> the project!
+Ayrıca projeye <a href="../donate/">maddi destekte</a> bulunabilirsiniz!
 
 
 ;Toolbox
-Toolbox
+Takım çantası
 
 
 ;Wiki</a> &larr; collaborative documentation
-Wiki</a> &larr; collaborative documentation
+Wiki</a> &larr; imece belgeleme
 
 
 ;Bugzilla</a> &larr; to report bugs
-Bugzilla</a> &larr; to report bugs
+Bugzilla</a> &larr; hata raporlama
 
 
 ;Forum
@@ -83,11 +83,11 @@ Forum
 
 
 ;Mageia Applications Database
-Mageia Applications Database
+Mageia Uygulamalar Veritabanı
 
 
 ;For developers &amp; packagers
-For developers &amp; packagers
+Geliştiriciler &amp; paketleyiciler için
 
 
 ;Subversion
@@ -95,75 +95,75 @@ Subversion
 
 
 ;Git</a> code repositories
-Git</a> code repositories
+Git</a> kod depoları
 
 
 ;Packages submission queue
-Packages submission queue
+Paketlerin teslim sırası
 
 
 ;unmaintained packages
-unmaintained packages
+Bakılmamış paketler
 
 
 ;Global QA report
-Global QA report
+Genel QA raporu
 
 
 ;Conversations
-Conversations
+Görüşmeler
 
 
 ;... or, how to get in touch with us? Easy:
-... or, how to get in touch with us? Easy:
+... veya, bizimle nasıl temasa geçilir? Kolay:
 
 
 ;IRC</a> on Freenode
-IRC</a> on Freenode
+IRC</a> (Freenode üzerinde)
 
 
 ;mailing-lists 1</a> &amp; <a href="http://ml.mageia.org/">2
-mailing-lists 1</a> &amp; <a href="http://ml.mageia.org/">2
+Posta listeleri 1</a> &amp; <a href="http://ml.mageia.org/">2
 
 
 ;in real life!
-in real life!
+Gerçek hayatta!
 
 
 ;during events!
-during events!
+Organizasyonlarda!
 
 
 ;Teams you can join!
-Teams you can join!
+Takımlara katılabilirsiniz!
 
 
 ;Atelier
-Atelier
+Atölye
 
 
 ;Documentation
-Documentation
+Belgeleme
 
 
 ;Packaging
-Packaging
+Paketleme
 
 
 ;Testing &amp; <abbr title="Quality Assurance">QA</abbr>
-Testing &amp; <abbr title="Quality Assurance">QA</abbr>
+Test etme &amp; <abbr title="Quality Assurance">QA</abbr>
 
 
 ;Translation
-Translation
+Çeviri
 
 
 ;Systems &amp; infrastructure administration
-Systems &amp; infrastructure administration
+Sistemler &amp; altyapı yönetimi
 
 
 ;Bugs triaging
-Bugs triaging
+Hataların sınıflandırılması
 
 
 ;Mageia
@@ -171,32 +171,32 @@ Mageia
 
 
 ;More about Mageia
-More about Mageia
+Mageia hakkında daha fazlası
 
 
 ;Our <a href="../about/code-of-conduct/">code of conduct</a> and <a href="../about/values/">values</a>
-Our <a href="../about/code-of-conduct/">code of conduct</a> and <a href="../about/values/">values</a>
+<a href="../about/code-of-conduct/">Kurallarımız</a> ve <a href="../about/values/">değerlerimiz</a>
 
 
 ;Our governance model</a> and structure:
-Our governance model</a> and structure:
+Yönetim modelimiz</a> ve yapımız:
 
 
 ;Teams
-Teams
+Takımlar
 
 
 ;the Council
-the Council
+Kurul
 
 
 ;the Board
-the Board
+Yönetim kurulu
 
 
 ;<a href="../donate/">Donations</a> &amp; <a href="../about/reports/">reports</a>.
-<a href="../donate/">Donations</a> &amp; <a href="../about/reports/">reports</a>.
+<a href="../donate/">Bağışlar</a> &amp; <a href="../about/reports/">raporlar</a>.
 
 
 ;This page needs you! <a href="https://wiki.mageia.org/en/Web_team">Join the Web team</a>!
-This page needs you! <a href="https://wiki.mageia.org/en/Web_team">Join the Web team</a>!
+Bu sayfanın size ihtiyacı var! <a href="https://wiki.mageia.org/en/Web_team">Web takımına katılın</a>!
