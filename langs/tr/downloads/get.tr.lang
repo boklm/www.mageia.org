@@ -10,7 +10,7 @@ Bu yansı size hizmet veremiyorsa, <a href="#om" id="other_mirrors_btn">diğer y
 
 # ../../svn/web/en/downloads/get/index.php +131
 ;Mageia Downloads
-Mageia Downloads
+Mageia İndirmeler
 
 
 ;Download %s
@@ -38,23 +38,23 @@ Mageia Downloads
 
 
 ;Your IP address is %s and you seem to be in %s, %s.
-Your IP address is %s and you seem to be in %s, %s.
+IP adresiniz: %s. Bölgeniz: %s, %s.
 
 
 ;Country
-Country
+Ülke
 
 
 ;City
-City
+Şehir
 
 
 ;Download mirrors
-Download mirrors
+İndirme yansıları
 
 
 ;The making and the distribution of Mageia worldwide is made possible by all the <a href="%s">people and organizations that mirror our software</a> and that <a href="%s">donate money, hardware, hosting and more</a>.
-The making and the distribution of Mageia worldwide is made possible by all the <a href="%s">people and organizations that mirror our software</a> and that <a href="%s">donate money, hardware, hosting and more</a>.
+Mageia'nın bütün dünyada dağıtım ve üretimi tüm <a href="%s">kişi, kuruluşlar, bizim yansılarımız</a> ayrıca <a href="%s">barındırma, donanım, para bağışlayanlar ve daha fazlası</a> sayesinde mümkün kılınmaktadır.
 
 
 ;Want to help? %sJoin Us!%s
@@ -62,41 +62,41 @@ Yardımcı olmak istiyor musunuz? %sBize katılın!%s
 
 
 ;Sorry!
-Sorry!
+Üzgünüz!
 
 
 ;Your download could not complete, as we could not find this file. Please try again from the <a href="%s">main downloads page</a>.
-Your download could not complete, as we could not find this file. Please try again from the <a href="%s">main downloads page</a>.
+Dosyayı bulamadığımız için indirmeniz tamamlanamadı. Lütfen <a href="%s">ana indirme sayfasından</a> tekrar deneyin.
 
 
 ;If you still encounter this error and think IT SHOULD NOT HAPPEN &ndash; please tell us:
-If you still encounter this error and think IT SHOULD NOT HAPPEN &ndash; please tell us:
+Eğer hala bu hata ile karşılaşıyorsanız ve olmaması gerektiğini düşünüyorsanız &ndash; lütfen bizi arayın:
 
 
 ;directly on <a href="irc://irc.freenode.net/#mageia-web">#mageia-web on Freenode IRC</a>,
-directly on <a href="irc://irc.freenode.net/#mageia-web">#mageia-web on Freenode IRC</a>,
+doğrudan <a href="irc://irc.freenode.net/#mageia-web">IRC'de (Freenode) #mageia-web kanalı ile</a>,
 
 
 ;or <a href="http://twitter.com/mageia_org">via our Tweeter account</a>,
-or <a href="http://twitter.com/mageia_org">via our Tweeter account</a>,
+veya <a href="http://twitter.com/mageia_org">Tweeter hesabımız üzerinden</a>,
 
 
 ;or with a <a href="https://www.mageia.org/mailman/listinfo/mageia-webteam">notice on the Web team mailing-list</a>,
-or with a <a href="https://www.mageia.org/mailman/listinfo/mageia-webteam">notice on the Web team mailing-list</a>,
+veya <a href="https://www.mageia.org/mailman/listinfo/mageia-webteam">Web takımı posta-listesinden</a> duyuru yoluyla,
 
 
 ;or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">bug report</a>.
-or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">bug report</a>.
+veya <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">hata raporlama</a> ile.
 
 
 ;You may embed this debug info if you like:
-You may embed this debug info if you like:
+İsterseniz bu hata ayıklama bilgisini yerleştirebilirsiniz:
 
 
 ;Thanks!
-Thanks!
+Teşekkürler!
 
 
 ;back to that awesome Mageia home page
-back to that awesome Mageia home page
+müthiş Mageia ana sayfasına dönün
 
