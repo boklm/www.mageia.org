@@ -36,6 +36,56 @@ Donanım gereksinimleri
 
 
 
+;Documentation
+Belgeleme
+
+
+
+;You can look up existing %sdocumentation here%s. You may too look into our %sWiki%s.
+%sBuradaki%s mevcut belgelendirmeye bakabilirsiniz. Ayrıca %sWiki%s sayfamıza da bakabilirsiniz.
+
+
+
+;Updates
+Güncellemeler
+
+
+
+;Updates are available for %s and %s (security and bug fixes) and published on an ongoing basis.
+Güncellemeler %s ve %s için kullanılabilir (güvenlik ve hata düzeltmeleri) ve sürekli olarak yayınlanır.
+
+
+
+;You can install these from the Mageia Control Center.
+Güncellemeleri Mageia Kontrol Merkezinden yükleyebilirsiniz.
+
+
+
+;You may subscribe to our %s announce list to be notified of these.
+Güncellemelerin bildirildiği %s duyuru listemize abone olabilirsiniz.
+
+
+
+;Lifecycle
+Yaşam döngüsü
+
+
+
+;Mageia releases are supported at least for 18 months.
+Mageia sürümleri en az 18 ay süreyle deteklenir.
+
+
+
+;Mageia 1 will be supported until December 2012.
+Mageia 1 Aralık 2012'ye kadar desteklenecek.
+
+
+
+;Mageia 2 may have a longer lifecycle, this will be decided once released in May.
+Mageia 2'nin uzun bir ömrü olabilir, buna Mayıs ayında yayınlandığı zaman karar verilecek.
+
+
+
 ;If you need help, information or directions about the Mageia distribution you installed or about the project, you can try to reach us through:
 Kurmuş olduğunuz Mageia dağıtımı ile veya projenin kendisi ile ilgili bilgi, yardım veya yönergelere ihtiyacınız varsa bize şu yollardan ulaşmayı deneyebilirsiniz:
 
@@ -124,3 +174,8 @@ Bazı donanım türlerinin (Wi-Fi yonga setleri, 3B ekran kartları) doğru çal
 ;We may set up a hardware compatibility list/directory as well as a hardware certification process; but that's still at the planning stage. Feel free to join/contact our <a href="%s">Web</a> and <a href="%s">QA</a> teams if you would like to help in this regard.
 Belki bir donanım uyumluluk listesi/dizini ve ayrıca donanım sertifika süreci başlatabiliriz. Ancak bu henüz planlama aşamasındadır. Bu açıdan bize yardım etmek isterseniz <a href="%s">Web</a> ve <a href="%s">Kalite Denetimi</a> takımlarımızla iletişime geçmekten çekinmeyin.
 
+;You may check and report bugs on <a href="%s">our Bugzilla (bugs.mageia.org)</a>.
+Hataları <a href="%s">Bugzilla (bugs.mageia.org)</a> üzerinden raporlayabilir ve kontrol edebilirsiniz.
+
+;Bugs Reports
+Hata Raporları
