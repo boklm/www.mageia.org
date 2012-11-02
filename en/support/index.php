@@ -49,8 +49,8 @@ _lang_load($locale, 'support');
                         _h('Lifecycle', null, 'h3');
                         _h('Mageia releases are supported at least for 18 months.');
                         echo '<ul class="hl">';
-                        _h('Mageia 1 will be supported until December 2012.', null, 'li');
-                        _h('Mageia 2 may have a longer lifecycle, this will be decided once released in May.', null, 'li');
+                        _h('Mageia 1 will be supported until December 1st, 2012.', null, 'li');
+                        _h('Mageia 2 will be supported until November 22nd, 2013.', null, 'li');
                         echo '</ul>';
                         echo '<hr>';
 
