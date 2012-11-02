@@ -19,11 +19,11 @@ http://blog.mageia.org/tr/
 
 
 ;Blog
-Blog
+Blog {ok}
 
 
 ;http://planet.mageia.org/en/
-http://planet.mageia.org/en/
+http://planet.mageia.org/
 
 
 ;Planet
@@ -35,7 +35,11 @@ Takvim
 
 
 ;https://forum.mageia.org/en/
-https://forum.mageia.org/en/
+http://www.mageia-tr.com/
+
+
+;Mailing-lists
+Posta listeleri
 
 
 ;Forums
@@ -79,7 +83,7 @@ Bugzilla</a> &larr; hata raporlama
 
 
 ;Forum
-Forum
+Forum {ok}
 
 
 ;Mageia Applications Database
@@ -91,7 +95,7 @@ Geliştiriciler &amp; paketleyiciler için
 
 
 ;Subversion
-Subversion
+Subversion (SVN)
 
 
 ;Git</a> code repositories
@@ -167,7 +171,7 @@ Hataların sınıflandırılması
 
 
 ;Mageia
-Mageia
+Mageia 
 
 
 ;More about Mageia
