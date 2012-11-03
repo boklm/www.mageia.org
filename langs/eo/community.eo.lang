@@ -15,7 +15,7 @@ Mageja Komunuma Centralo
 
 
 ;http://blog.mageia.org/en/
-http://blog.mageia.org/en/
+http://blog.mageia.org/en/ {ok}
 
 
 ;Blog
@@ -23,11 +23,11 @@ Blogo
 
 
 ;http://planet.mageia.org/en/
-http://planet.mageia.org/en/
+http://planet.mageia.org/en/ {ok}
 
 
 ;Planet
-Planet
+Planet {ok}
 
 
 ;Calendar
@@ -35,7 +35,7 @@ Kalendaro
 
 
 ;https://forum.mageia.org/en/
-https://forum.mageia.org/en/
+https://forum.mageia.org/en/ {ok}
 
 
 ;Mailing-lists
@@ -47,7 +47,7 @@ Forumoj
 
 
 ;http://wiki.mageia.org/
-http://wiki.mageia.org/
+http://wiki.mageia.org/ {ok}
 
 
 ;News
@@ -198,8 +198,8 @@ La konsilantaro
 La personaro
 
 
-;<a href="../donate/">Donations</a> &amp; <a href="../about/reports/">reports</a>.
-<a href="../donate/">Donacioj</a> kaj <a href="../about/reports/">raportoj</a>.
+;<a href="../donate/">Donations</a> &amp; <a href="/en/about/reports/">reports</a>.
+<a href="../donate/">Donacioj</a> kaj <a href="/en/about/reports/">raportoj</a>.
 
 
 ;This page needs you! <a href="https://wiki.mageia.org/en/Web_team">Join the Web team</a>!

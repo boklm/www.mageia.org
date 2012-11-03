@@ -289,7 +289,7 @@ Por ludi son-dosierojn elektu Amarok 2.5.0 aŭ Rhythmbox interalie; uzu VLC, Tot
 
 # en/for-pc/index.php +83
 ;Video
-Video
+Video {ok}
 
 
 # en/for-pc/index.php +84
@@ -358,7 +358,7 @@ Datumbazoj
 
 
 # en/for-server/index.php +37
-;Databases included are PostgreSQL 8.4.11; MariaDB, which replaces MySQL 5.5.23; BDB.
+;Databases included are PostgreSQL 8.4.11; MariaDB, which replaces MySQL 5.5.23; BDB .
 Inkluditaj datumbazoj estas PostgreSQL 8.4.11; MariaDB, kiu anstataŭigas MySQL 5.5.23; BDB.
 
 
