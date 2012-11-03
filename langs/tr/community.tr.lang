@@ -19,7 +19,7 @@ http://blog.mageia.org/tr/
 
 
 ;Blog
-Blog {ok}
+Blog (Tr)
 
 
 ;http://planet.mageia.org/en/
@@ -47,7 +47,7 @@ Forumlar
 
 
 ;http://wiki.mageia.org/
-http://wiki.mageia.org/
+http://wiki.mageia.org/{ok}
 
 
 ;News
@@ -83,7 +83,7 @@ Bugzilla</a> &larr; hata raporlama
 
 
 ;Forum
-Forum {ok}
+Forum (Tr)
 
 
 ;Mageia Applications Database
@@ -171,7 +171,7 @@ Hataların sınıflandırılması
 
 
 ;Mageia
-Mageia 
+Mageia{ok}
 
 
 ;More about Mageia

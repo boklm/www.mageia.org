@@ -3,7 +3,7 @@
 
 # ../../svn/web/en/3/index.php +12
 ;Mageia 3
-Mageia 3
+Mageia 3{0k}
 
 
 # ../../svn/web/en/3/index.php +34
@@ -108,7 +108,7 @@ boyut
 
 # ../../svn/web/en/3/index.php +70
 ;link
-link
+link{ok}
 
 
 # ../../svn/web/en/3/index.php +76
@@ -128,7 +128,7 @@ Kurulum CD'si
 
 # ../../svn/web/en/3/index.php +95
 ;LiveDVD KDE
-LiveDVD KDE
+LiveDVD KDE{ok}
 
 
 # ../../svn/web/en/3/index.php +96
@@ -138,7 +138,7 @@ yükseltme için uygun değildir
 
 # ../../svn/web/en/3/index.php +104
 ;LiveDVD GNOME
-LiveDVD GNOME
+LiveDVD GNOME{ok}
 
 
 # ../../svn/web/en/3/index.php +114
