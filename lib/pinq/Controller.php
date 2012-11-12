@@ -6,9 +6,14 @@
  * @category Mageia
  * @package  Mageia\Web\www\Pinq
  * @author   rda <rda@mageia.org>
- * @license  http://www.gnu.org/licenses/gpl-2.0.html GPL-2+
  * @link     http://www.mageia.org/
  *
+ * @license http://www.gnu.org/licenses/gpl-2.0.html GNU GPL v2+
+ *
+ * This program is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU General Public License aspublished by the
+ * Free Software Foundation; either version 2 of the License, or (at your
+ * option) any later version.
 */
 
 /**
@@ -28,9 +33,34 @@ class Pinq_Controller
 
     /**
     */
+    public static function run($app_root, $routes, $_server, $cache)
+    {
+        $pc = new self($app_root, $_server);
+        $pc->init();
+
+        if (isset($cache)
+            && $res = $cache->get($pc->get_cache_key())) {
+
+            //
+        } else {
+
+            $res = $pc->_run($routes);
+
+            if (isset($cache)) {
+                $cache->set($res, $pc->cache_key());
+            }
+        }
+
+        $pc->publish($res);
+        unset($pc);
+    }
+
+    /**
+    */
     public function init()
     {
-        $this->uri = $this->_server['REQUEST_URI'];
+        $this->method = $this->_server['REQUEST_METHOD'];
+        $this->uri    = $this->_server['REQUEST_URI'];
 
         if (strpos('?', $this->uri) !== false) {
             $uri = explode('?', $this->uri);
@@ -40,18 +70,39 @@ class Pinq_Controller
     }
 
     /**
+    */
+    public function get_cache_key()
+    {
+        return sha1(implode('#', array($this->method, $this->uri)));
+    }
+
+    /**
+    */
+    public function publish($res)
+    {
+
+        foreach ($res['Headers'] as $h) {
+            header($h);
+        }
+        echo $res['Body'];
+
+    }
+
+    /**
      * @param array $routes
      *
      * @return boolean
     */
-    public function run($routes = null)
+    private function _run($routes = null)
     {
         // static, image files are expected to be served directly by the server.
 
         // detect path language; if not set, redirect to best fallback language (English for now), end
         $this->lang = $this->get_request_language($this->uri);
+
         if (!$this->lang_is_managed($this->lang)) {
-            // TODO
+            // TODO - ignore, with a special code or redirect?
+            $this->lang = 'en';
         }
 
         // delegate to declared routes/apps
@@ -144,7 +195,7 @@ class Pinq_Controller
     function fallback_to_previous_mode($uri, $lang)
     {
         $alt_uri = sprintf(
-            '/%s/%s', 
+            '/%s/%s',
             'en',
             substr($uri, strlen($lang) + 2)
         );

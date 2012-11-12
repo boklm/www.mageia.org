@@ -22,16 +22,19 @@
  * option) any later version.
 */
 
-require 'lib/Pinq/Controller.php';
-require 'lib/Pinq/App.php';
-
-$pc = new Pinq_Controller(__DIR__, $_SERVER);
-$pc->init();
-
 $routes = array(
-//    'downloads' => 'MGA_Downloads'
+    //'downloads' => 'MGA_Downloads'
 );
 
-$pc->run($routes);
+require 'lib/Pinq/Controller.php';
+require 'lib/Pinq/App.php';
+require 'lib/Pinq/Cache.php';
 
+$cache = new Pinq_Memcache_Cache(20);
 
+Pinq_Controller::run(
+    __DIR__,
+    $routes,
+    $_SERVER,
+    new Pinq_Memcache_Cache(20)
+);
