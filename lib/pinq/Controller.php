@@ -150,11 +150,9 @@ class Pinq_Controller
         );
 
         $test_uris = array(
-/*
             $uri,
             $uri . 'index.php',
             $uri . 'index.html',
-/**/
             $alt_uri,
             $alt_uri . 'index.php',
             $alt_uri . 'index.html'
