@@ -86,7 +86,14 @@ function get_revenues($v)
 
     $html .= '<tbody>';
 
-    $sums = array();
+    $sums = array(
+        'count' => 0,
+        'total' => 0,
+        'check' => 0,
+        'xfer'  => 0,
+        'paypal' => 0,
+        'cash'  => 0
+    );
 
     foreach ($v as $line) {
         $html .= sprintf('<tr><td>%s</td><td>%s</td>
