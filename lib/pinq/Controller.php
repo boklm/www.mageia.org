@@ -43,10 +43,9 @@ class Pinq_Controller
 
             //
         } else {
-
             $res = $pc->_run($routes);
 
-            if (isset($cache)) {
+            if (isset($cache) && $res['cache'] > 0) {
                 $cache->set($res, $pc->cache_key());
             }
         }
@@ -81,10 +80,13 @@ class Pinq_Controller
     public function publish($res)
     {
 
-        foreach ($res['Headers'] as $h) {
+        //$res['statuts']
+        // Content-Length must match buffer + body
+        foreach ($res['headers'] as $h => $v) {
             header($h);
         }
-        echo $res['Body'];
+        echo $res['buffer'];
+        echo $res['body'];
 
     }
 
@@ -105,14 +107,43 @@ class Pinq_Controller
             $this->lang = 'en';
         }
 
-        // delegate to declared routes/apps
+        // TODO ob_start, etc.?
+
+        // 1.
+        if ($app = $this->matches_route($this->uri, $routes)) {
+            return $this->delegate_to($app);
+        }
+
+        // 2.
+        // delegate to local script
+        // TODO look at local code at $uri, and decide if we can load it and decorate it.
+
+        // 3.
+        // finally, act as we used to before
+        if ($this->fallback_to_previous_mode($this->uri, $this->lang)) {
+            return true;
+        }
+
+        // 4.
+        // if nothing matched, well...
+        return $this->delegate_to('error', array('code' => '404'));
+    }
+
+    /**
+     * @param string $uri
+     * @param array  $routes
+     *
+     * @return string
+    */
+    private function matches_route($uri, $routes)
+    {
         $re = '
         /
             \/(([a-zA-Z\-\_]{2,5})\/)?
             (.*)
         /x';
 
-        if (preg_match_all($re, $this->uri, $matches)) {
+        if (preg_match_all($re, $uri, $matches)) {
             $this->_lang = $matches[2][0];
             $this->_path = $matches[3][0];
         }
@@ -120,22 +151,13 @@ class Pinq_Controller
         if (is_array($routes) && count($routes) > 0) {
             foreach ($routes as $r => $app) {
                 $re = '/' . $r . '/';
-                if (preg_match_all($re, $this->uri, $m)) {
-                    return $this->delegate_to($app);
+                if (preg_match_all($re, $uri, $m)) {
+                    return $app;
                 }
             }
         }
 
-        // delegate to local script
-        // TODO look at local code at $uri, and decide if we can load it and decorate it.
-
-        // finally, act as we used to before
-        if ($this->fallback_to_previous_mode($this->uri, $this->lang)) {
-            return true;
-        }
-
-        // if nothing matched, well...
-        return $this->delegate_to('error', array('code' => '404'));
+        return null;
     }
 
     /**

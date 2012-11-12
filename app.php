@@ -23,7 +23,7 @@
 */
 
 $routes = array(
-    //'downloads' => 'MGA_Downloads'
+    'downloads' => 'MGA_Downloads'
 );
 
 require 'lib/Pinq/Controller.php';
