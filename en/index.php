@@ -248,7 +248,7 @@ $nav = array(
                 </li>
                 <li><a href="contribute/" class="dl-btn-other"><?php _e('<strong>Get involved</strong> in the next version'); ?></a>
                 </li>
-                <li><a href="3/" class="dl-btn-other"><?php _e('Test Mageia 3%s', array(' alpha 2')); ?></a></li>
+                <li><a href="3/" class="dl-btn-other"><?php _e('Test Mageia 3%s', array(' alpha 3')); ?></a></li>
             </ul>
         </div>
     </div>
