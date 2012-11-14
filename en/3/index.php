@@ -24,6 +24,7 @@ _lang_load($locale, '3');
     }
     </style>
     <?php include '../../analytics.php'; ?>
+    <base href="../downloads/get/">
 </head>
 <body class="downloads">
     <?php echo $hsnav; ?>
@@ -56,8 +57,8 @@ _lang_load($locale, '3');
                         _e('You may, if you will, add nonfree software repository <em>after</em> the installation.');
                     ?></li>
                     <li><?php _e('Use LiveCDs or LiveDVDs for fresh new installs ONLY, NOT FOR UPGRADE.')?></li>
-                    <li><?php _e('If you are looking for a stable version of Mageia, <a href="%s">go here</a>.', array('../downloads/'))?></li>
-                    <li><?php _e('Enjoy! And <a href="%s">please report bugs</a> if you find some.', array('http://bugs.mageia.org/'))?></li>
+                    <li><?php _e('If you are looking for a stable version of Mageia, <a href="%s" rel="nofollow">go here</a>.', array('/downloads/'))?></li>
+                    <li><?php _e('Enjoy! And <a href="%s">please report bugs</a> if you find some.', array('https://bugs.mageia.org/'))?></li>
                 </ul>
                 <br>
                 <br>
@@ -75,17 +76,17 @@ _lang_load($locale, '3');
                         <th class="name"><?php _e('Installer DVD')?><br>
                             <span class="dlinfo"><?php _e('100% Free Software')?></span></th>
                         <td class="size">3.6GB</td>
-                        <td><a rel="nofollow" href="../downloads/get/?q=Mageia-3-alpha3-i586-DVD.iso">32bit</a><br>
-                            <a rel="nofollow" href="../downloads/get/?q=Mageia-3-alpha3-x86_64-DVD.iso">64bit</a></td>
-                        <td><a rel="nofollow" href="../downloads/get/?q=Mageia-3-alpha3-i586-DVD.iso&amp;torrent=1">32bit</a><br>
-                            <a rel="nofollow" href="../downloads/get/?q=Mageia-3-alpha3-x86_64-DVD.iso&amp;torrent=1">64bit</a></td>
+                        <td><a rel="nofollow" href="?q=Mageia-3-alpha3-i586-DVD.iso">32bit</a><br>
+                            <a rel="nofollow" href="?q=Mageia-3-alpha3-x86_64-DVD.iso">64bit</a></td>
+                        <td><a rel="nofollow" href="?q=Mageia-3-alpha3-i586-DVD.iso&amp;torrent=1">32bit</a><br>
+                            <a rel="nofollow" href="?q=Mageia-3-alpha3-x86_64-DVD.iso&amp;torrent=1">64bit</a></td>
                     </tr>
                     <tr>
                         <th class="name"><?php _e('Installer CD')?><br>
                             <span class="dlinfo"><?php _e('100% Free Software')?></span></th>
                         <td class="size">700MB</td>
-                        <td><a rel="nofollow" href="../downloads/get/?q=Mageia-3-alpha3-dual-CD.iso">dualarch</a></td>
-                        <td><a rel="nofollow" href="../downloads/get/?q=Mageia-3-alpha3-dual-CD.iso&amp;torrent=1">dualarch</a></td>
+                        <td><a rel="nofollow" href="?q=Mageia-3-alpha3-dual-CD.iso">dualarch</a></td>
+                        <td><a rel="nofollow" href="?q=Mageia-3-alpha3-dual-CD.iso&amp;torrent=1">dualarch</a></td>
                     </tr>
                     <tr><td colspan="4">
                     </td></tr>
@@ -94,48 +95,48 @@ _lang_load($locale, '3');
                         <th class="name"><?php _e('LiveDVD KDE')?><br>
                             <span class="dlinfo"><?php _e('not suitable for upgrade')?></span></th>
                         <td class="size">1GB</td>
-                        <td><a rel="nofollow" href="../downloads/get/?q=Mageia-3-alpha3-LiveDVD-KDE4-i586-DVD.iso">32bit</a><br>
-                            <a rel="nofollow" href="../downloads/get/?q=Mageia-3-alpha3-LiveDVD-KDE4-x86_64-DVD.iso&amp;torrent=1">64bit</a></td>
-                        <td><a rel="nofollow" href="../downloads/get/?q=Mageia-3-alpha3-LiveDVD-KDE4-i586-DVD.iso">32bit</a><br>
-                            <a rel="nofollow" href="../downloads/get/?q=Mageia-3-alpha3-LiveDVD-KDE4-x86_64-DVD.iso&amp;torrent=1">64bit</a></td>
+                        <td><a rel="nofollow" href="?q=Mageia-3-alpha3-LiveDVD-KDE4-i586-DVD.iso">32bit</a><br>
+                            <a rel="nofollow" href="?q=Mageia-3-alpha3-LiveDVD-KDE4-x86_64-DVD.iso&amp;torrent=1">64bit</a></td>
+                        <td><a rel="nofollow" href="?q=Mageia-3-alpha3-LiveDVD-KDE4-i586-DVD.iso">32bit</a><br>
+                            <a rel="nofollow" href="?q=Mageia-3-alpha3-LiveDVD-KDE4-x86_64-DVD.iso&amp;torrent=1">64bit</a></td>
                     </tr>
                     <tr>
                         <th class="name"><?php _e('LiveDVD GNOME')?><br>
                             <span class="dlinfo"><?php _e('not suitable for upgrade')?></th>
                         <td class="size">1GB</td>
-                        <td><a rel="nofollow" href="../downloads/get/?q=Mageia-3-alpha3-LiveDVD-GNOME-i586-DVD.iso">32bit</a><br>
-                            <a rel="nofollow" href="../downloads/get/?q=Mageia-3-alpha3-LiveDVD-GNOME-x86_64-DVD.iso&amp;torrent=1">64bit</a></td>
-                        <td><a rel="nofollow" href="../downloads/get/?q=Mageia-3-alpha3-LiveDVD-GNOME-i586-DVD.iso">32bit</a><br>
-                            <a rel="nofollow" href="../downloads/get/?q=Mageia-3-alpha3-LiveDVD-GNOME-x86_64-DVD.iso&amp;torrent=1">64bit</a></td>
+                        <td><a rel="nofollow" href="?q=Mageia-3-alpha3-LiveDVD-GNOME-i586-DVD.iso">32bit</a><br>
+                            <a rel="nofollow" href="?q=Mageia-3-alpha3-LiveDVD-GNOME-x86_64-DVD.iso&amp;torrent=1">64bit</a></td>
+                        <td><a rel="nofollow" href="?q=Mageia-3-alpha3-LiveDVD-GNOME-i586-DVD.iso">32bit</a><br>
+                            <a rel="nofollow" href="?q=Mageia-3-alpha3-LiveDVD-GNOME-x86_64-DVD.iso&amp;torrent=1">64bit</a></td>
                     </tr>
                     <tr><td colspan="4">&nbsp;</td></tr>
                     <tr>
                         <th class="name"><?php _e('LiveCD KDE, English-only')?><br>
                             <span class="dlinfo"><?php _e('not suitable for upgrade')?></th>
                         <td class="size">640MB</td>
-                        <td><a rel="nofollow" href="../downloads/get/?q=Mageia-3-alpha3-LiveCD-KDE4-en-i586-CD.iso">32bit</a></td>
-                        <td><a rel="nofollow" href="../downloads/get/?q=Mageia-3-alpha3-LiveCD-KDE4-en-i586-CD.iso&amp;torrent=1">32bit</a><br>
+                        <td><a rel="nofollow" href="?q=Mageia-3-alpha3-LiveCD-KDE4-en-i586-CD.iso">32bit</a></td>
+                        <td><a rel="nofollow" href="?q=Mageia-3-alpha3-LiveCD-KDE4-en-i586-CD.iso&amp;torrent=1">32bit</a><br>
                     </tr>
                     <tr>
                         <th class="name"><?php _e('LiveCD GNOME, English-only')?><br>
                             <span class="dlinfo"><?php _e('not suitable for upgrade')?></th>
                         <td class="size">640MB</td>
-                        <td><a rel="nofollow" href="../downloads/get/?q=Mageia-3-alpha3-LiveCD-GNOME-en-i586-CD.iso">32bit</a></td>
-                        <td><a rel="nofollow" href="../downloads/get/?q=Mageia-3-alpha3-LiveCD-GNOME-en-i586-CD.iso&amp;torrent=1">32bit</a></td>
+                        <td><a rel="nofollow" href="?q=Mageia-3-alpha3-LiveCD-GNOME-en-i586-CD.iso">32bit</a></td>
+                        <td><a rel="nofollow" href="?q=Mageia-3-alpha3-LiveCD-GNOME-en-i586-CD.iso&amp;torrent=1">32bit</a></td>
                     </tr>
                     <tr><td colspan="3">&nbsp;</td></tr>
                     <tr>
                         <th><?php _e('Network installer, Free Software CD')?></th>
                         <td class="size">~20MB</td>
-                        <td><a rel="nofollow" href="../downloads/get/?q=Mageia-3-alpha3-Boot-i586-CD.iso">32bit</a><br>
-                            <a rel="nofollow" href="../downloads/get/?q=Mageia-3-alpha3-Boot-x86_64-CD.iso">64bit</a></td>
+                        <td><a rel="nofollow" href="?q=Mageia-3-alpha3-Boot-i586-CD.iso">32bit</a><br>
+                            <a rel="nofollow" href="?q=Mageia-3-alpha3-Boot-x86_64-CD.iso">64bit</a></td>
                     </tr>
                     <tr>
                         <th><?php _e('Network installer + nonfree firmware CD')?><br>
                             <span class="dlinfo"><?php _e('needed for some disc controllers, some network cards, etc.')?></span></th>
                         <td class="size">~25MB</td>
-                        <td><a rel="nofollow" href="../downloads/get/?q=Mageia-3-alpha3-Boot-nonfree-i586-CD.iso">32bit</a><br>
-                            <a rel="nofollow" href="../downloads/get/?q=Mageia-3-alpha3-Boot-nonfree-x86_64-CD.iso">64bit</a></td>
+                        <td><a rel="nofollow" href="?q=Mageia-3-alpha3-Boot-nonfree-i586-CD.iso">32bit</a><br>
+                            <a rel="nofollow" href="?q=Mageia-3-alpha3-Boot-nonfree-x86_64-CD.iso">64bit</a></td>
                     </tr>
                 </tbody>
                 </table>
