@@ -33,7 +33,6 @@ _lang_load($locale, '3');
             <ul>
                 <li><a href="https://wiki.mageia.org/en/Mageia_3_development#Development_Planning"><?php _e('Development roadmap')?></a></li>
                 <li><a href="https://wiki.mageia.org/en/FeatureMageia3_Review"><?php _e('Features review')?></a></li>
-                <li><a href="https://wiki.mageia.org/en/Mageia_3_alpha3"><?php _e('Download alpha3')?></a></li>
                 <li><a href="https://wiki.mageia.org/en/Mageia_3_alpha3"><?php _e('Release notes')?></a></li>
                 <li><a href="https://wiki.mageia.org/en/Mageia_3_Errata"><?php _e('Errata')?></a></li>
                 <li><a href="//bugs.mageia.org/"><?php _e('Bugs Reports')?></a></li>
