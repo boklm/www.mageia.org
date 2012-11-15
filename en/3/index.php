@@ -96,8 +96,8 @@ _lang_load($locale, '3');
                             <span class="dlinfo"><?php _e('not suitable for upgrade')?></span></th>
                         <td class="size">1GB</td>
                         <td><a rel="nofollow" href="?q=Mageia-3-alpha3-LiveDVD-KDE4-i586-DVD.iso">32bit</a><br>
-                            <a rel="nofollow" href="?q=Mageia-3-alpha3-LiveDVD-KDE4-x86_64-DVD.iso&amp;torrent=1">64bit</a></td>
-                        <td><a rel="nofollow" href="?q=Mageia-3-alpha3-LiveDVD-KDE4-i586-DVD.iso">32bit</a><br>
+                            <a rel="nofollow" href="?q=Mageia-3-alpha3-LiveDVD-KDE4-x86_64-DVD.iso">64bit</a></td>
+                        <td><a rel="nofollow" href="?q=Mageia-3-alpha3-LiveDVD-KDE4-i586-DVD.iso&amp;torrent=1">32bit</a><br>
                             <a rel="nofollow" href="?q=Mageia-3-alpha3-LiveDVD-KDE4-x86_64-DVD.iso&amp;torrent=1">64bit</a></td>
                     </tr>
                     <tr>
@@ -105,8 +105,8 @@ _lang_load($locale, '3');
                             <span class="dlinfo"><?php _e('not suitable for upgrade')?></th>
                         <td class="size">1GB</td>
                         <td><a rel="nofollow" href="?q=Mageia-3-alpha3-LiveDVD-GNOME-i586-DVD.iso">32bit</a><br>
-                            <a rel="nofollow" href="?q=Mageia-3-alpha3-LiveDVD-GNOME-x86_64-DVD.iso&amp;torrent=1">64bit</a></td>
-                        <td><a rel="nofollow" href="?q=Mageia-3-alpha3-LiveDVD-GNOME-i586-DVD.iso">32bit</a><br>
+                            <a rel="nofollow" href="?q=Mageia-3-alpha3-LiveDVD-GNOME-x86_64-DVD.iso">64bit</a></td>
+                        <td><a rel="nofollow" href="?q=Mageia-3-alpha3-LiveDVD-GNOME-i586-DVD.iso&amp;torrent=1">32bit</a><br>
                             <a rel="nofollow" href="?q=Mageia-3-alpha3-LiveDVD-GNOME-x86_64-DVD.iso&amp;torrent=1">64bit</a></td>
                     </tr>
                     <tr><td colspan="4">&nbsp;</td></tr>
