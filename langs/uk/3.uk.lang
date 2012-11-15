@@ -15,12 +15,6 @@ Mageia 3 {ok}
 ;Features review
 Огляд можливостей
 
-
-# ../../svn/web/en/3/index.php +36
-;Download alpha2
-Отримання alpha2
-
-
 # ../../svn/web/en/3/index.php +37
 ;Release notes
 Нотатки щодо випуску
@@ -190,3 +184,18 @@ dualarch
 # ../../svn/web/en/3/index.php +136
 ;needed for some disc controllers, some network cards, etc.
 потрібен для деяких контролерів дисків, мережевих карток тощо
+
+;Format
+Формат
+
+;BitTorrent
+Торент
+
+;32bit
+32-бітова
+
+;64bit
+64-бітова
+
+;dualarch
+подвійної архітектури
