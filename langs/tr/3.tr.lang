@@ -92,8 +92,8 @@ LiveCD'leri veya LiveDVD'leri YALNIZCA yeni kurulum için kullnınız, YÜKSELTM
 
 
 # ../../svn/web/en/3/index.php +60
-;If you are looking for a stable version of Mageia, <a href="%s">go here</a>.
-Mageia'nın kararlı sürümü için <a href="%s">buraya gidiniz</a>.
+;If you are looking for a stable version of Mageia, <a href="%s" rel="nofollow">go here</a>.
+Mageia'nın kararlı sürümü için <a href="%s" rel="nofollow">buraya gidiniz</a>.
 
 
 # ../../svn/web/en/3/index.php +61

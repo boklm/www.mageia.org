@@ -92,8 +92,8 @@ LiveCD 或 LiveDVD 仅适用于全新安装，而非升级。
 
 
 # ../../svn/web/en/3/index.php +60
-;If you are looking for a stable version of Mageia, <a href="%s">go here</a>.
-如果您需要稳定版本的 Mageia，<a href="%s">请至此处</a>。
+;If you are looking for a stable version of Mageia, <a href="%s" rel="nofollow">go here</a>.
+如果您需要稳定版本的 Mageia，<a href="%s" rel="nofollow">请至此处</a>。
 
 
 # ../../svn/web/en/3/index.php +61

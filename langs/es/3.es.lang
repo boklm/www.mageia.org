@@ -89,8 +89,8 @@ Si así lo desea, puede instalar repositorios de software no libre <em>después<
 Utilice los LiveCDs y LiveDVDs SÓLO para instalaciones desde cero, NUNCA PARA ACTUALIZAR.
 
 # ../../svn/web/en/3/index.php +60
-;If you are looking for a stable version of Mageia, <a href="%s">go here</a>.
-Si está buscando una versión estable de Mageia, <a href="%s">vea aquí</a>.
+;If you are looking for a stable version of Mageia, <a href="%s" rel="nofollow">go here</a>.
+Si está buscando una versión estable de Mageia, <a href="%s" rel="nofollow">vea aquí</a>.
 
 
 # ../../svn/web/en/3/index.php +61

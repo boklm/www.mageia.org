@@ -92,8 +92,8 @@ Utilizza LiveCD o LiveDVD SOLO per nuove installazioni, NON PER AVANZAMENTI DI V
 
 
 # ../../svn/web/en/3/index.php +60
-;If you are looking for a stable version of Mageia, <a href="%s">go here</a>.
-Se cerchi una versione stabile di Mageia, <a href="%s">vai qui</a>.
+;If you are looking for a stable version of Mageia, <a href="%s" rel="nofollow">go here</a>.
+Se cerchi una versione stabile di Mageia, <a href="%s" rel="nofollow">vai qui</a>.
 
 
 # ../../svn/web/en/3/index.php +61

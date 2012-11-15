@@ -92,8 +92,8 @@ Kasutage LiveCD-sid ja LiveDVD-sid AINULT paigaldamiseks, mitte uuendamiseks.
 
 
 # ../../svn/web/en/3/index.php +60
-;If you are looking for a stable version of Mageia, <a href="%s">go here</a>.
-Kui otsite Mageia stabiilset versiooni, leiab selle <a href="%s">siit</a>.
+;If you are looking for a stable version of Mageia, <a href="%s" rel="nofollow">go here</a>.
+Kui otsite Mageia stabiilset versiooni, leiab selle <a href="%s" rel="nofollow">siit</a>.
 
 
 # ../../svn/web/en/3/index.php +61

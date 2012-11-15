@@ -92,8 +92,8 @@ Mageia 3 {ok}
 
 
 # ../../svn/web/en/3/index.php +60
-;If you are looking for a stable version of Mageia, <a href="%s">go here</a>.
-Якщо вам потрібна стабільна версія Mageia, скористайтеся <a href="%s">цим посиланням</a>.
+;If you are looking for a stable version of Mageia, <a href="%s" rel="nofollow">go here</a>.
+Якщо вам потрібна стабільна версія Mageia, скористайтеся <a href="%s" rel="nofollow">цим посиланням</a>.
 
 
 # ../../svn/web/en/3/index.php +61

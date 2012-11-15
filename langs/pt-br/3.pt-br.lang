@@ -97,8 +97,8 @@ Uso LiveCDs ou vivido fresca nova instala apenas, não para atualizar.
 
 
 # ../../svn/web/en/3/index.php +60
-;If you are looking for a stable version of Mageia, <a href="%s">go here</a>.
-Se você estiver procurando por uma versão estável do Mageia, <a href="%s">vai aqui</a>.
+;If you are looking for a stable version of Mageia, <a href="%s" rel="nofollow">go here</a>.
+Se você estiver procurando por uma versão estável do Mageia, <a href="%s" rel="nofollow">vai aqui</a>.
 
 # ../../svn/web/en/3/index.php +61
 ;Enjoy! And <a href="%s">please report bugs</a> if you find some.

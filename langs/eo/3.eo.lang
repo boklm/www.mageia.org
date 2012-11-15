@@ -92,8 +92,8 @@ Uzu vivajn KD NUR por freŝaj instaloj, NE POR ĜISDATIGOJ.
 
 
 # ../../svn/web/en/3/index.php +60
-;If you are looking for a stable version of Mageia, <a href="%s">go here</a>.
-Se vi serĉas stabilan version de Mageia, <a href="%s">vizitu tiun adreson</a>.
+;If you are looking for a stable version of Mageia, <a href="%s" rel="nofollow">go here</a>.
+Se vi serĉas stabilan version de Mageia, <a href="%s" rel="nofollow">vizitu tiun adreson</a>.
 
 
 # ../../svn/web/en/3/index.php +61

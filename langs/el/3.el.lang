@@ -92,8 +92,8 @@ Errata {ok}
 
 
 # ../../svn/web/en/3/index.php +60
-;If you are looking for a stable version of Mageia, <a href="%s">go here</a>.
-Αν ψάχνετε μια σταθερή έκδοση της Mageia, <a href="%s">μεταβείτε εδώ</a>.
+;If you are looking for a stable version of Mageia, <a href="%s" rel="nofollow">go here</a>.
+Αν ψάχνετε μια σταθερή έκδοση της Mageia, <a href="%s" rel="nofollow">μεταβείτε εδώ</a>.
 
 
 # ../../svn/web/en/3/index.php +61

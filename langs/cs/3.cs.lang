@@ -92,8 +92,8 @@ Můžete, chcete-li, <em>po</em> instalaci přidat nesvobodná skladiště se so
 
 
 # ../../svn/web/en/3/index.php +60
-;If you are looking for a stable version of Mageia, <a href="%s">go here</a>.
-Pokud hledáte stabilní verzi distribuce Mageia, <a href="%s">přejděte sem</a>.
+;If you are looking for a stable version of Mageia, <a href="%s" rel="nofollow">go here</a>.
+Pokud hledáte stabilní verzi distribuce Mageia, <a href="%s" rel="nofollow">přejděte sem</a>.
 
 
 # ../../svn/web/en/3/index.php +61
