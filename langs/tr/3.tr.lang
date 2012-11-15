@@ -3,7 +3,7 @@
 
 # ../../svn/web/en/3/index.php +12
 ;Mageia 3
-Mageia 3{0k}
+Mageia 3 {0k}
 
 
 # ../../svn/web/en/3/index.php +34
@@ -14,11 +14,6 @@ Geliştirme yol haritası
 # ../../svn/web/en/3/index.php +35
 ;Features review
 Özelliklerin incelenmesi
-
-
-# ../../svn/web/en/3/index.php +36
-;Download alpha2
-Alpha2 indir
 
 
 # ../../svn/web/en/3/index.php +37
@@ -103,7 +98,7 @@ Mageia'nın kararlı sürümü için <a href="%s" rel="nofollow">buraya gidiniz<
 
 # ../../svn/web/en/3/index.php +68
 ;Format
-Format
+Biçim
 
 
 # ../../svn/web/en/3/index.php +69
@@ -113,12 +108,12 @@ boyut
 
 # ../../svn/web/en/3/index.php +70
 ;link
-link{ok}
+link {ok}
 
 
 # ../../svn/web/en/3/index.php +71
 ;BitTorrent
-BitTorrent
+Torrent
 
 
 # ../../svn/web/en/3/index.php +76
@@ -133,12 +128,12 @@ Kurulum DVD'si
 
 # ../../svn/web/en/3/index.php +79
 ;32bit
-32bit
+32bit {ok}
 
 
 # ../../svn/web/en/3/index.php +80
 ;64bit
-64bit
+64bit {ok}
 
 
 # ../../svn/web/en/3/index.php +85
@@ -148,13 +143,13 @@ Kurulum CD'si
 
 # ../../svn/web/en/3/index.php +88
 ;dualarch
-dualarch
+dualarch {ok}
 
 
 # ../../svn/web/en/3/index.php +95
 
 ;LiveDVD KDE
-LiveDVD KDE{ok}
+LiveDVD KDE {ok}
 
 
 # ../../svn/web/en/3/index.php +96
@@ -164,7 +159,7 @@ yükseltme için uygun değildir
 
 # ../../svn/web/en/3/index.php +104
 ;LiveDVD GNOME
-LiveDVD GNOME{ok}
+LiveDVD GNOME {ok}
 
 
 # ../../svn/web/en/3/index.php +114
