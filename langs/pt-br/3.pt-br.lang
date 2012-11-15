@@ -104,6 +104,11 @@ Se você estiver procurando por uma versão estável do Mageia, <a href="%s">vai
 ;Enjoy! And <a href="%s">please report bugs</a> if you find some.
 Divirta-se! E <a href="%s">por favor reportar bugs</a>, se você encontrar alguns.
 
+# ../../svn/web/en/3/index.php +68
+;Format
+Format
+
+
 # ../../svn/web/en/3/index.php +69
 ;size
 tamanho
@@ -111,6 +116,11 @@ tamanho
 # ../../svn/web/en/3/index.php +70
 ;link
 link {ok}
+
+# ../../svn/web/en/3/index.php +71
+;BitTorrent
+BitTorrent
+
 
 # ../../svn/web/en/3/index.php +76
 ;Installer DVD
@@ -121,13 +131,27 @@ DVD de instalação
 100% Software livre
 
 
+# ../../svn/web/en/3/index.php +79
+;32bit
+32bit
+
+
+# ../../svn/web/en/3/index.php +80
+;64bit
+64bit
+
+
 # ../../svn/web/en/3/index.php +85
 ;Installer CD
 CD de instalação
 
 
-# ../../svn/web/en/3/index.php +95
+# ../../svn/web/en/3/index.php +88
+;dualarch
+dualarch
 
+
+# ../../svn/web/en/3/index.php +95
 ;LiveDVD KDE
 LiveDVD KDE {ok}
 

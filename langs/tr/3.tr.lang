@@ -101,6 +101,11 @@ Mageia'nın kararlı sürümü için <a href="%s">buraya gidiniz</a>.
 Şimdi keyfini çıkartın ve hata bulursanız <a href="%s">lütfen raporlayın</a>.
 
 
+# ../../svn/web/en/3/index.php +68
+;Format
+Format
+
+
 # ../../svn/web/en/3/index.php +69
 ;size
 boyut
@@ -109,6 +114,11 @@ boyut
 # ../../svn/web/en/3/index.php +70
 ;link
 link{ok}
+
+
+# ../../svn/web/en/3/index.php +71
+;BitTorrent
+BitTorrent
 
 
 # ../../svn/web/en/3/index.php +76
@@ -121,12 +131,28 @@ Kurulum DVD'si
 100% Özgür yazılım
 
 
+# ../../svn/web/en/3/index.php +79
+;32bit
+32bit
+
+
+# ../../svn/web/en/3/index.php +80
+;64bit
+64bit
+
+
 # ../../svn/web/en/3/index.php +85
 ;Installer CD
 Kurulum CD'si
 
 
+# ../../svn/web/en/3/index.php +88
+;dualarch
+dualarch
+
+
 # ../../svn/web/en/3/index.php +95
+
 ;LiveDVD KDE
 LiveDVD KDE{ok}
 

@@ -101,6 +101,11 @@ Mageia 3 {ok}
 Приємного користування! І, <a href="%s">будь ласка, повідомляйте про вади</a>, якщо ви їх помітите.
 
 
+# ../../svn/web/en/3/index.php +68
+;Format
+Format
+
+
 # ../../svn/web/en/3/index.php +69
 ;size
 розмір
@@ -109,6 +114,11 @@ Mageia 3 {ok}
 # ../../svn/web/en/3/index.php +70
 ;link
 посилання
+
+
+# ../../svn/web/en/3/index.php +71
+;BitTorrent
+BitTorrent
 
 
 # ../../svn/web/en/3/index.php +76
@@ -121,12 +131,28 @@ DVD для встановлення
 Лише вільне програмне забезпечення
 
 
+# ../../svn/web/en/3/index.php +79
+;32bit
+32bit
+
+
+# ../../svn/web/en/3/index.php +80
+;64bit
+64bit
+
+
 # ../../svn/web/en/3/index.php +85
 ;Installer CD
 CD для встановлення
 
 
+# ../../svn/web/en/3/index.php +88
+;dualarch
+dualarch
+
+
 # ../../svn/web/en/3/index.php +95
+
 ;LiveDVD KDE
 Портативний DVD з KDE
 

@@ -101,6 +101,11 @@ Pokud hledáte stabilní verzi distribuce Mageia, <a href="%s">přejděte sem</a
 Bavte se! A <a href="%s">hlašte, prosím, chyby</a>, když nějaké najdete.
 
 
+# ../../svn/web/en/3/index.php +68
+;Format
+Format
+
+
 # ../../svn/web/en/3/index.php +69
 ;size
 Velikost
@@ -109,6 +114,11 @@ Velikost
 # ../../svn/web/en/3/index.php +70
 ;link
 Odkaz
+
+
+# ../../svn/web/en/3/index.php +71
+;BitTorrent
+BitTorrent
 
 
 # ../../svn/web/en/3/index.php +76
@@ -121,12 +131,28 @@ Instalační DVD
 100% svobodný software
 
 
+# ../../svn/web/en/3/index.php +79
+;32bit
+32bit
+
+
+# ../../svn/web/en/3/index.php +80
+;64bit
+64bit
+
+
 # ../../svn/web/en/3/index.php +85
 ;Installer CD
 Instalační CD
 
 
+# ../../svn/web/en/3/index.php +88
+;dualarch
+dualarch
+
+
 # ../../svn/web/en/3/index.php +95
+
 ;LiveDVD KDE
 Živé DVD s KDE
 

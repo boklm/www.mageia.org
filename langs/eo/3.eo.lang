@@ -101,6 +101,11 @@ Se vi serĉas stabilan version de Mageia, <a href="%s">vizitu tiun adreson</a>.
 Ĝuu! Kaj<a href="%s">bv. raporti cimojn</a> se vi trovas iun.
 
 
+# ../../svn/web/en/3/index.php +68
+;Format
+Format
+
+
 # ../../svn/web/en/3/index.php +69
 ;size
 grando
@@ -109,6 +114,11 @@ grando
 # ../../svn/web/en/3/index.php +70
 ;link
 ligilo
+
+
+# ../../svn/web/en/3/index.php +71
+;BitTorrent
+BitTorrent
 
 
 # ../../svn/web/en/3/index.php +76
@@ -121,12 +131,28 @@ DVD-instalilo
 100% Libera Programaro
 
 
+# ../../svn/web/en/3/index.php +79
+;32bit
+32bit
+
+
+# ../../svn/web/en/3/index.php +80
+;64bit
+64bit
+
+
 # ../../svn/web/en/3/index.php +85
 ;Installer CD
 KD-instalilo
 
 
+# ../../svn/web/en/3/index.php +88
+;dualarch
+dualarch
+
+
 # ../../svn/web/en/3/index.php +95
+
 ;LiveDVD KDE
 Viva KDE-DVD
 

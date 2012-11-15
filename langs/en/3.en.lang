@@ -16,11 +16,6 @@ Development roadmap
 Features review
 
 
-# ../../svn/web/en/3/index.php +36
-;Download alpha2
-Download alpha2
-
-
 # ../../svn/web/en/3/index.php +37
 ;Release notes
 Release notes
@@ -92,13 +87,18 @@ Use LiveCDs or LiveDVDs for fresh new installs ONLY, NOT FOR UPGRADE.
 
 
 # ../../svn/web/en/3/index.php +60
-;If you are looking for a stable version of Mageia, <a href="%s">go here</a>.
-If you are looking for a stable version of Mageia, <a href="%s">go here</a>.
+;If you are looking for a stable version of Mageia, <a href="%s" rel="nofollow">go here</a>.
+If you are looking for a stable version of Mageia, <a href="%s" rel="nofollow">go here</a>.
 
 
 # ../../svn/web/en/3/index.php +61
 ;Enjoy! And <a href="%s">please report bugs</a> if you find some.
 Enjoy! And <a href="%s">please report bugs</a> if you find some.
+
+
+# ../../svn/web/en/3/index.php +68
+;Format
+Format
 
 
 # ../../svn/web/en/3/index.php +69
@@ -111,6 +111,11 @@ size
 link
 
 
+# ../../svn/web/en/3/index.php +71
+;BitTorrent
+BitTorrent
+
+
 # ../../svn/web/en/3/index.php +76
 ;Installer DVD
 Installer DVD
@@ -121,9 +126,24 @@ Installer DVD
 100% Free Software
 
 
+# ../../svn/web/en/3/index.php +79
+;32bit
+32bit
+
+
+# ../../svn/web/en/3/index.php +80
+;64bit
+64bit
+
+
 # ../../svn/web/en/3/index.php +85
 ;Installer CD
 Installer CD
+
+
+# ../../svn/web/en/3/index.php +88
+;dualarch
+dualarch
 
 
 # ../../svn/web/en/3/index.php +95

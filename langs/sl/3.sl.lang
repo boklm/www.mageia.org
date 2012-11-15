@@ -16,11 +16,6 @@ Načrtovani razvojni mejniki
 Ogled zmožnosti
 
 
-# ../../svn/web/en/3/index.php +36
-;Download alpha2
-Prispevek v Wiki-ju o verziji alpha2
-
-
 # ../../svn/web/en/3/index.php +37
 ;Release notes
 Opombe ob izdaji
@@ -92,13 +87,18 @@ Uporabite LiveCD ali LiveDVD samo za testiranje in NOVE namestitve, NE ZA NADGRA
 
 
 # ../../svn/web/en/3/index.php +60
-;If you are looking for a stable version of Mageia, <a href="%s">go here</a>.
-Iščete stabilno izdajo Mageje? Najdete jo lahko <a href="%s">tukaj</a>.
+;If you are looking for a stable version of Mageia, <a href="%s" rel="nofollow">go here</a>.
+Iščete stabilno izdajo Mageje? Najdete jo lahko <a href="%s" rel="nofollow">tukaj</a>.
 
 
 # ../../svn/web/en/3/index.php +61
 ;Enjoy! And <a href="%s">please report bugs</a> if you find some.
 Uživajte! In <a href="%s">prosimo poročajte nam hrošče</a>, če jih najdete.
+
+
+# ../../svn/web/en/3/index.php +68
+;Format
+Oblika
 
 
 # ../../svn/web/en/3/index.php +69
@@ -111,6 +111,11 @@ velikost
 povezava
 
 
+# ../../svn/web/en/3/index.php +71
+;BitTorrent
+BitTorrent
+
+
 # ../../svn/web/en/3/index.php +76
 ;Installer DVD
 Namestitveni DVD
@@ -121,9 +126,24 @@ Namestitveni DVD
 izključno z odprtokodno programsko opremo
 
 
+# ../../svn/web/en/3/index.php +79
+;32bit
+32bitna arh.
+
+
+# ../../svn/web/en/3/index.php +80
+;64bit
+64bitna arh.
+
+
 # ../../svn/web/en/3/index.php +85
 ;Installer CD
 Namestitveni CD
+
+
+# ../../svn/web/en/3/index.php +88
+;dualarch
+dvojna arhitektura
 
 
 # ../../svn/web/en/3/index.php +95

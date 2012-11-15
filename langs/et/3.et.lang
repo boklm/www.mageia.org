@@ -101,6 +101,11 @@ Kui otsite Mageia stabiilset versiooni, leiab selle <a href="%s">siit</a>.
 Nautige ja tundke mõnu! Ning <a href="%s">palun teatage vigadest</a>, kui te neid leiate.
 
 
+# ../../svn/web/en/3/index.php +68
+;Format
+Format
+
+
 # ../../svn/web/en/3/index.php +69
 ;size
 Suurus
@@ -109,6 +114,11 @@ Suurus
 # ../../svn/web/en/3/index.php +70
 ;link
 Link {ok}
+
+
+# ../../svn/web/en/3/index.php +71
+;BitTorrent
+BitTorrent
 
 
 # ../../svn/web/en/3/index.php +76
@@ -121,12 +131,28 @@ Paigaldus-DVD
 100% vaba tarkvara
 
 
+# ../../svn/web/en/3/index.php +79
+;32bit
+32bit
+
+
+# ../../svn/web/en/3/index.php +80
+;64bit
+64bit
+
+
 # ../../svn/web/en/3/index.php +85
 ;Installer CD
 Paigaldus-CD
 
 
+# ../../svn/web/en/3/index.php +88
+;dualarch
+dualarch
+
+
 # ../../svn/web/en/3/index.php +95
+
 ;LiveDVD KDE
 LiveDVD KDE {ok}
 

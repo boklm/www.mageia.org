@@ -101,6 +101,11 @@ Errata {ok}
 Απολαύστε την! Και <a href="%s">παρακαλούμε αναφέρετε τυχόν σφάλματα</a>.
 
 
+# ../../svn/web/en/3/index.php +68
+;Format
+Format
+
+
 # ../../svn/web/en/3/index.php +69
 ;size
 μέγεθος
@@ -109,6 +114,11 @@ Errata {ok}
 # ../../svn/web/en/3/index.php +70
 ;link
 σύνδεσμος
+
+
+# ../../svn/web/en/3/index.php +71
+;BitTorrent
+BitTorrent
 
 
 # ../../svn/web/en/3/index.php +76
@@ -121,12 +131,28 @@ Errata {ok}
 100% Ελεύθερο λογισμικό
 
 
+# ../../svn/web/en/3/index.php +79
+;32bit
+32bit
+
+
+# ../../svn/web/en/3/index.php +80
+;64bit
+64bit
+
+
 # ../../svn/web/en/3/index.php +85
 ;Installer CD
 Εγκατάσταση CD
 
 
+# ../../svn/web/en/3/index.php +88
+;dualarch
+dualarch
+
+
 # ../../svn/web/en/3/index.php +95
+
 ;LiveDVD KDE
 LiveDVD KDE {ok}
 

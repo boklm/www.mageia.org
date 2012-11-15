@@ -101,6 +101,11 @@ LiveCD 或 LiveDVD 仅适用于全新安装，而非升级。
 如果您遇到问题的话，<a href="%s">别忘了提交错误报告</a>。
 
 
+# ../../svn/web/en/3/index.php +68
+;Format
+Format
+
+
 # ../../svn/web/en/3/index.php +69
 ;size
 大小
@@ -109,6 +114,11 @@ LiveCD 或 LiveDVD 仅适用于全新安装，而非升级。
 # ../../svn/web/en/3/index.php +70
 ;link
 链接
+
+
+# ../../svn/web/en/3/index.php +71
+;BitTorrent
+BitTorrent
 
 
 # ../../svn/web/en/3/index.php +76
@@ -121,12 +131,28 @@ LiveCD 或 LiveDVD 仅适用于全新安装，而非升级。
 100% 自由软件
 
 
+# ../../svn/web/en/3/index.php +79
+;32bit
+32bit
+
+
+# ../../svn/web/en/3/index.php +80
+;64bit
+64bit
+
+
 # ../../svn/web/en/3/index.php +85
 ;Installer CD
 安装 CD
 
 
+# ../../svn/web/en/3/index.php +88
+;dualarch
+dualarch
+
+
 # ../../svn/web/en/3/index.php +95
+
 ;LiveDVD KDE
 LiveDVD KDE
 
