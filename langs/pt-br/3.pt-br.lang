@@ -16,11 +16,6 @@ Roteiro de desenvolvimento
 Avaliação de características
 
 
-# ../../svn/web/en/3/index.php +36
-;Download alpha2
-Baixar alpha 2
-
-
 # ../../svn/web/en/3/index.php +37
 
 ;Release notes
@@ -106,7 +101,7 @@ Divirta-se! E <a href="%s">por favor reportar bugs</a>, se você encontrar algun
 
 # ../../svn/web/en/3/index.php +68
 ;Format
-Format
+Formato
 
 
 # ../../svn/web/en/3/index.php +69
@@ -119,7 +114,7 @@ link {ok}
 
 # ../../svn/web/en/3/index.php +71
 ;BitTorrent
-BitTorrent
+BitTorrent {ok}
 
 
 # ../../svn/web/en/3/index.php +76
@@ -133,12 +128,12 @@ DVD de instalação
 
 # ../../svn/web/en/3/index.php +79
 ;32bit
-32bit
+32bit {ok}
 
 
 # ../../svn/web/en/3/index.php +80
 ;64bit
-64bit
+64bit {ok}
 
 
 # ../../svn/web/en/3/index.php +85
@@ -148,7 +143,7 @@ CD de instalação
 
 # ../../svn/web/en/3/index.php +88
 ;dualarch
-dualarch
+dualarch {ok}
 
 
 # ../../svn/web/en/3/index.php +95
