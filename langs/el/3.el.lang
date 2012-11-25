@@ -16,11 +16,6 @@ Mageia 3 {ok}
 Ανασκόπηση χαρακτηριστικών
 
 
-# ../../svn/web/en/3/index.php +36
-;Download alpha2
-Λήψη της alpha2
-
-
 # ../../svn/web/en/3/index.php +37
 ;Release notes
 Σημειώσεις έκδοσης
@@ -103,7 +98,7 @@ Errata {ok}
 
 # ../../svn/web/en/3/index.php +68
 ;Format
-Format
+Μορφή
 
 
 # ../../svn/web/en/3/index.php +69
@@ -118,7 +113,7 @@ Format
 
 # ../../svn/web/en/3/index.php +71
 ;BitTorrent
-BitTorrent
+BitTorrent {ok}
 
 
 # ../../svn/web/en/3/index.php +76
@@ -133,12 +128,12 @@ BitTorrent
 
 # ../../svn/web/en/3/index.php +79
 ;32bit
-32bit
+32bit {ok}
 
 
 # ../../svn/web/en/3/index.php +80
 ;64bit
-64bit
+64bit {ok}
 
 
 # ../../svn/web/en/3/index.php +85
@@ -148,7 +143,7 @@ BitTorrent
 
 # ../../svn/web/en/3/index.php +88
 ;dualarch
-dualarch
+dualarch {ok}
 
 
 # ../../svn/web/en/3/index.php +95
