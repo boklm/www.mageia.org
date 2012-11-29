@@ -16,11 +16,6 @@ Arendamise ajakava
 Omaduste ülevaade
 
 
-# ../../svn/web/en/3/index.php +36
-;Download alpha2
-Alpha2 allalaadimine
-
-
 # ../../svn/web/en/3/index.php +37
 ;Release notes
 Väljalaskemärkmed
@@ -103,7 +98,7 @@ Nautige ja tundke mõnu! Ning <a href="%s">palun teatage vigadest</a>, kui te ne
 
 # ../../svn/web/en/3/index.php +68
 ;Format
-Format
+Andmekandja
 
 
 # ../../svn/web/en/3/index.php +69
@@ -118,7 +113,7 @@ Link {ok}
 
 # ../../svn/web/en/3/index.php +71
 ;BitTorrent
-BitTorrent
+BitTorrent {ok}
 
 
 # ../../svn/web/en/3/index.php +76
@@ -133,12 +128,12 @@ Paigaldus-DVD
 
 # ../../svn/web/en/3/index.php +79
 ;32bit
-32bit
+32-bitine
 
 
 # ../../svn/web/en/3/index.php +80
 ;64bit
-64bit
+64-bitine
 
 
 # ../../svn/web/en/3/index.php +85
@@ -148,7 +143,7 @@ Paigaldus-CD
 
 # ../../svn/web/en/3/index.php +88
 ;dualarch
-dualarch
+Nii 32- kui 64-bitine
 
 
 # ../../svn/web/en/3/index.php +95
