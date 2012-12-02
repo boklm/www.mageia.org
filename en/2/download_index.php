@@ -212,7 +212,7 @@ require '../downloads/get/lib.php';
                         <br>
                         <?php
                             _h('Looking for Mageia 1?', null, 'h3');
-                            _h('It is <a href="%s">here now</a>.', array('../downloads/1/'));
+                            _h('It is <a href="%s">here now</a> but please remember that it already <a href="http://blog.mageia.org/en/2012/12/02/mageia-1-eol"/>reached EOL</a>.', array('../downloads/1/'));
                         ?>
                         <br>
                         <br>
