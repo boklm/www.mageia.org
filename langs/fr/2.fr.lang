@@ -161,9 +161,14 @@ consultez le <a href="%s" hreflang="en">guide de migration</a>
 Vous cherchez<br>Mageia&nbsp;1&nbsp;?
 
 
-# en/2/download_index.php +215
+# en/2/download_index.php +216
 ;It is <a href="%s">here now</a>.
 <a href="%s">C&rsquo;est ici</a>.
+
+
+# en/2/download_index.php +217 (added manually)
+;But please remember that it already <a href="http://blog.mageia.org/en/2012/12/02/mageia-1-eol"/>reached EOL</a>.
+But please remember that it already <a href="http://blog.mageia.org/en/2012/12/02/mageia-1-eol"/>reached EOL</a>.
 
 
 # en/2/download_index.php +220 (added manually)

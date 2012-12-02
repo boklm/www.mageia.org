@@ -151,9 +151,14 @@ CD со свободным ПО
 Ищите Mageia 1?
 
 
-# en/2/download_index.php +215
+# en/2/download_index.php +216
 ;It is <a href="%s">here now</a>.
 Теперь это <a href="%s">здесь</a>.
+
+
+# en/2/download_index.php +217 (added manually)
+;But please remember that it already <a href="http://blog.mageia.org/en/2012/12/02/mageia-1-eol"/>reached EOL</a>.
+But please remember that it already <a href="http://blog.mageia.org/en/2012/12/02/mageia-1-eol"/>reached EOL</a>.
 
 
 # en/2/download_index.php +220 (added manually)

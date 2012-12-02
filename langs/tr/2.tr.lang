@@ -168,9 +168,14 @@ LiveCD'leri <strong>kullanmayın</strong>;
 Aradığınız Mageia 1 mi?
 
 
-# en/2/download_index.php +215
+# en/2/download_index.php +216
 ;It is <a href="%s">here now</a>.
 O şu anda <a href="%s">burada</a>.
+
+
+# en/2/download_index.php +217 (added manually)
+;But please remember that it already <a href="http://blog.mageia.org/en/2012/12/02/mageia-1-eol"/>reached EOL</a>.
+But please remember that it already <a href="http://blog.mageia.org/en/2012/12/02/mageia-1-eol"/>reached EOL</a>.
 
 
 # en/2/download_index.php +220 (added manually)
