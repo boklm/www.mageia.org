@@ -165,9 +165,14 @@ oglejte si <a href="%s" hreflang="en">vodič za nadgradnjo (v angleščini)</a>
 Iščete Magejo 1?
 
 
-# en/2/download_index.php +215
-;It is <a href="%s">here now</a> but please remember that it already <a href="http://blog.mageia.org/en/2012/12/02/mageia-1-eol"/>reached EOL</a>.
-Sedaj je <a href="%s">tukaj</a>, a ne pozabite, da je že <a href="http://blog.mageia.org/en/2012/12/02/mageia-1-eol"/>dosegla konec podpore</a>.
+# en/2/download_index.php +216
+;It is <a href="%s">here now</a>.
+Sedaj je <a href="%s">tukaj</a>.
+
+
+# en/2/download_index.php +217 (added manually)
+;But please remember that it already <a href="http://blog.mageia.org/en/2012/12/02/mageia-1-eol"/>reached EOL</a>.
+A ne pozabite, da je že <a href="http://blog.mageia.org/en/2012/12/02/mageia-1-eol"/>dosegla konec podpore</a>.
 
 
 # en/2/download_index.php +220 (added manually)
