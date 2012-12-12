@@ -37,6 +37,8 @@ _lang_load($locale, "about/constitution");
                         echo Markdown(file_get_contents('mageia.org_statutes_fr.md'));
                     else if ($l == 'sl')
                         echo Markdown(file_get_contents('mageia.org_statutes_sl.md'));
+                    else if ($l == 'tr')
+                        echo Markdown(file_get_contents('mageia.org_statutes_tr.md'));
                     else
                         echo Markdown(file_get_contents('mageia.org_statutes_en.md'));
                     ?>
