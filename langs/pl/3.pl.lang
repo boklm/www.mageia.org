@@ -92,18 +92,13 @@ Użyj wersji LiveCD lub LiveDVD tylko do wykonania nowej instalacji (czysty komp
 
 
 # ../../svn/web/en/3/index.php +60
-;If you are looking for a stable version of Mageia, <a href="%s" rel="nofollow">go here</a>.
-Jeśli szukasz stabilnej wersji Mageia, <a href="%s" rel="nofollow">wejdź tutaj</a>.
+;If you are looking for a stable version of Mageia, <a href="%s">go here</a>.
+Jeśli szukasz stabilnej wersji Mageia, <a href="%s">wejdź tutaj</a>.
 
 
 # ../../svn/web/en/3/index.php +61
 ;Enjoy! And <a href="%s">please report bugs</a> if you find some.
 Miłej zabawy! I <a href="%s">prosimy o zgłaszanie błędów</a> jeśli jakieś znajdziesz.
-
-
-# ../../svn/web/en/3/index.php +68
-;Format
-Format
 
 
 # ../../svn/web/en/3/index.php +69
@@ -116,11 +111,6 @@ rozmiar
 link{ok}
 
 
-# ../../svn/web/en/3/index.php +71
-;BitTorrent
-BitTorrent
-
-
 # ../../svn/web/en/3/index.php +76
 ;Installer DVD
 Instalator DVD
@@ -131,28 +121,12 @@ Instalator DVD
 100% Wolne Oprogramowanie
 
 
-# ../../svn/web/en/3/index.php +79
-;32bit
-32bit
-
-
-# ../../svn/web/en/3/index.php +80
-;64bit
-64bit
-
-
 # ../../svn/web/en/3/index.php +85
 ;Installer CD
 Instalator CD
 
 
-# ../../svn/web/en/3/index.php +88
-;dualarch
-dualarch
-
-
 # ../../svn/web/en/3/index.php +95
-
 ;LiveDVD KDE
 LiveDVD KDE{ok}
 
@@ -190,3 +164,23 @@ Instalator sieciowy - CD z pakietami nonfree i firmware
 # ../../svn/web/en/3/index.php +136
 ;needed for some disc controllers, some network cards, etc.
 konieczny do niektórych kontrolerów dysków, kart sieciowych itd.
+
+
+;Format
+Format{ok}
+
+
+;BitTorrent
+BitTorrent{ok}
+
+
+;32bit
+32bit{ok}
+
+
+;64bit
+64bit{ok}
+
+
+;dualarch
+dualarch{ok}

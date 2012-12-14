@@ -161,7 +161,7 @@ zobacz <a href="%s" hreflang="pl">przewodnik aktualizacji</a>
 Szukasz Mageia 1?
 
 
-# en/2/download_index.php +216
+# en/2/download_index.php +215
 ;It is <a href="%s">here now</a>.
 Jest <a href="%s">tutaj</a>.
 
@@ -462,4 +462,7 @@ Potrzebujesz wyzwań?
 ;You can help us <a href="%s">develop and quality-check Mageia 3</a>.
 Możesz nam pomóc <a href="%s">rozwijając i sprawdzając jakośc Mageia 3</a>.
 
+
+;But please remember that it already <a href="http://blog.mageia.org/en/2012/12/02/mageia-1-eol"/>reached EOL</a>.
+Pamiętaj, że właśnie zakończył się <a href="http://blog.mageia.org/pl/2012/12/02/mageia-1-eol"/>okres wsparcia - EOL</a>.
 
