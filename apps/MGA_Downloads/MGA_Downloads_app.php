@@ -17,11 +17,13 @@ class MGA_Downloads extends Pinq_App
     {
         $this->_control = $controller;
         $this->_options = $options;
-        echo "c";
     }
 
     function run()
     {
-        echo "run";
+        return array(
+            'headers' => array(),
+            'body'    => 'test app'
+        );
     }
 }
