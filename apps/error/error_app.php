@@ -32,9 +32,16 @@ class Error extends Pinq_App
         require 'langs.php'; // needs absolute path in some form to be link depth independent
         _lang_load($locale, '404');
 
-        header('Mageia-Test: 1');
-        header('HTTP/1.0 404 Not Found');
-        header('Status: 404 Not Found');
+        ob_start();
         include 'templates/404.tpl';
+
+        return array(
+            'headers' => array(
+                'Mageia-Test: 1',
+                'HTTP/1.0 404 Not Found',
+                'Status: 404 Not Found'
+            ),
+            'body'    => ob_get_clean()
+        );
     }
 }
