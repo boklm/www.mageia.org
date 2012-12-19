@@ -81,7 +81,7 @@ _lang_load($locale, '3');
                         <td><a rel="nofollow" href="?q=Mageia-3-beta1-i586-DVD.iso&amp;torrent=1"><?php _e('32bit');?></a><br>
                             <a rel="nofollow" href="?q=Mageia-3-beta1-x86_64-DVD.iso&amp;torrent=1"><?php _e('64bit');?></a></td>
                     </tr>
-<--
+<?php /*
                     <tr>
                         <th class="name"><?php _e('Installer CD')?><br>
                             <span class="dlinfo"><?php _e('100% Free Software')?></span></th>
@@ -89,7 +89,7 @@ _lang_load($locale, '3');
                         <td><a rel="nofollow" href="?q=Mageia-3-beta1-dual-CD.iso"><?php _e('dualarch')?></a></td>
                         <td><a rel="nofollow" href="?q=Mageia-3-beta1-dual-CD.iso&amp;torrent=1"><?php _e('dualarch')?></a></td>
                     </tr>
--->
+*/ ?>
                     <tr><td colspan="4">
                     </td></tr>
                     <tr><td colspan="4">&nbsp;</td></tr>
