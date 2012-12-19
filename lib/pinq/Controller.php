@@ -41,11 +41,13 @@ class Pinq_Controller
         if (isset($cache)
             && $res = $cache->get($pc->get_cache_key())) {
 
-            //
         } else {
             $res = $pc->_run($routes);
 
-            if (isset($cache) && $res['cache'] > 0) {
+            if (isset($cache)
+                && isset($res['cache'])
+                && $res['cache'] > 0) {
+
                 $cache->set($res, $pc->cache_key());
             }
         }
@@ -76,10 +78,15 @@ class Pinq_Controller
     }
 
     /**
+     * Prints document headers and contents.
+     * It _expects_ $res to be correctly formatted.
+     *
+     * @param array $res as returned by self::_run()
+     *
+     * @return void
     */
     public function publish($res)
     {
-
         //$res['statuts']
         // Content-Length must match buffer + body
         foreach ($res['headers'] as $h => $v) {
@@ -87,7 +94,6 @@ class Pinq_Controller
         }
         echo $res['buffer'];
         echo $res['body'];
-
     }
 
     /**
@@ -98,6 +104,12 @@ class Pinq_Controller
     private function _run($routes = null)
     {
         // static, image files are expected to be served directly by the server.
+        $ret = array(
+            'body'    => '',
+            'buffer'  => '',
+            'cache'   => 0,
+            'headers' => array()
+        );
 
         // detect path language; if not set, redirect to best fallback language (English for now), end
         $this->lang = $this->get_request_language($this->uri);
@@ -109,24 +121,23 @@ class Pinq_Controller
 
         // TODO ob_start, etc.?
 
-        // 1.
         if ($app = $this->matches_route($this->uri, $routes)) {
-            return $this->delegate_to($app);
+            // 1.
+            $ret = $this->delegate_to($app);
+        } elseif (false) { // TODO
+            // 2.
+            // delegate to local script
+            // TODO look at local code at $uri, and decide if we can/should load it and decorate it. How?
+        } elseif ($this->fallback_to_previous_mode($this->uri, $this->lang)) {
+            // 3.
+            // finally, act as we used to before
+        } else {
+            // 4.
+            // if nothing matched, well...
+            $ret = $this->delegate_to('error', array('code' => '404'));
         }
 
-        // 2.
-        // delegate to local script
-        // TODO look at local code at $uri, and decide if we can load it and decorate it.
-
-        // 3.
-        // finally, act as we used to before
-        if ($this->fallback_to_previous_mode($this->uri, $this->lang)) {
-            return true;
-        }
-
-        // 4.
-        // if nothing matched, well...
-        return $this->delegate_to('error', array('code' => '404'));
+        return $ret;
     }
 
     /**
