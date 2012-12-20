@@ -62,13 +62,13 @@ Mageia 大事记：
 
 
 # /en/about/index.php +69
-;is the French, Paris-based legal structure supporting the Mageia project.
+;<a href=%s>Mageia.Org's legal constitution</a> and <a href=%s>governance</a> rules;
 是支持 Mageia 项目法律机构，位于法国巴黎。
 
 
 # /en/about/index.php +72
 ;is the French, Paris-based legal structure supporting the Mageia project.
-is the French, Paris-based legal structure supporting the Mageia project.
+是支持 Mageia 项目法律机构，位于法国巴黎。
 
 
 # /en/about/index.php +74

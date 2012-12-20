@@ -62,13 +62,13 @@ a realizat două versiuni majore stabile <a href="../1/">în iunie 2011</a> și 
 
 
 # /en/about/index.php +69
-;is the French, Paris-based legal structure supporting the Mageia project.
-este entitatea legală ce susține proiectul Mageia, situată în Paris, Framța.
+;<a href=%s>Mageia.Org's legal constitution</a> and <a href=%s>governance</a> rules;
+<a href=%s>Mageia.Org's legal constitution</a> and <a href=%s>governance</a> rules;
 
 
 # /en/about/index.php +72
 ;is the French, Paris-based legal structure supporting the Mageia project.
-is the French, Paris-based legal structure supporting the Mageia project.
+este entitatea legală ce susține proiectul Mageia, situată în Paris, Framța.
 
 
 # /en/about/index.php +74

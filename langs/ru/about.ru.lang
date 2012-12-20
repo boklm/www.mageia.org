@@ -62,13 +62,13 @@ Mageia - основанная на GNU/Linux, свободная операци�
 
 
 # /en/about/index.php +69
-;is the French, Paris-based legal structure supporting the Mageia project.
-Французская, расположенная в Париже, юридическая структура, поддерживающая проект Mageia.
+;<a href=%s>Mageia.Org's legal constitution</a> and <a href=%s>governance</a> rules;
+<a href=%s>Mageia.Org's legal constitution</a> and <a href=%s>governance</a> rules;
 
 
 # /en/about/index.php +72
 ;is the French, Paris-based legal structure supporting the Mageia project.
-is the French, Paris-based legal structure supporting the Mageia project.
+Французская, расположенная в Париже, юридическая структура, поддерживающая проект Mageia.
 
 
 # /en/about/index.php +74
