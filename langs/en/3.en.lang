@@ -32,8 +32,8 @@ Bugs Reports
 
 
 # ../../svn/web/en/3/index.php +43
-;Be careful! This is an alpha, unstable release.
-Be careful! This is an alpha, unstable release.
+;Be careful! This is a beta, unstable release.
+Be careful! This is a beta, unstable release.
 
 
 # ../../svn/web/en/3/index.php +44
@@ -62,23 +62,13 @@ See the comprehensive list
 
 
 # ../../svn/web/en/3/index.php +54
-;Installer DVD and CD ISOs are made of Free Software exclusively.
-Installer DVD and CD ISOs are made of Free Software exclusively.
+;Installer DVD and CD ISOs now contains Free Software and some proprietary drivers.
+Installer DVD and CD ISOs now contains Free Software and some proprietary drivers.
 
 
 # ../../svn/web/en/3/index.php +55
-;As a consequence, <span class="warn">proprietary Wi-Fi and video drivers are not included.
-As a consequence, <span class="warn">proprietary Wi-Fi and video drivers are not included.
-
-
-# ../../svn/web/en/3/index.php +56
-;If you need WiFi or specific video drivers <em>at install time</em>, you should go with below LiveCDs or LiveDVDs instead.</span>
-If you need WiFi or specific video drivers <em>at install time</em>, you should go with below LiveCDs or LiveDVDs instead.</span>
-
-
-# ../../svn/web/en/3/index.php +57
-;You may, if you will, add nonfree software repository <em>after</em> the installation.
-You may, if you will, add nonfree software repository <em>after</em> the installation.
+;You will be asked of which kind of Software you want to install.
+You will be asked of which kind of Software you want to install.
 
 
 # ../../svn/web/en/3/index.php +59
@@ -122,8 +112,8 @@ Installer DVD
 
 
 # ../../svn/web/en/3/index.php +77
-;100% Free Software
-100% Free Software
+;100% Free Software and some proprietary drivers
+100% Free Software and some proprietary drivers
 
 
 # ../../svn/web/en/3/index.php +79

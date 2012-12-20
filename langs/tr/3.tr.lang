@@ -32,6 +32,11 @@ Hata raporları
 
 
 # ../../svn/web/en/3/index.php +43
+;Be careful! This is a beta, unstable release.
+Be careful! This is a beta, unstable release.
+
+
+# ../../svn/web/en/3/index.php +43
 ;Be careful! This is an alpha, unstable release.
 Dikkat! Bu kararsız bir alpha sürümüdür.
 
@@ -59,6 +64,16 @@ ve kat kat fazlası!
 # ../../svn/web/en/3/index.php +52
 ;See the comprehensive list
 Kapsamlı listeye bakınız
+
+
+# ../../svn/web/en/3/index.php +54
+;Installer DVD and CD ISOs now contains Free Software and some proprietary drivers.
+Installer DVD and CD ISOs now contains Free Software and some proprietary drivers.
+
+
+# ../../svn/web/en/3/index.php +55
+;You will be asked of which kind of Software you want to install.
+You will be asked of which kind of Software you want to install.
 
 
 # ../../svn/web/en/3/index.php +54
@@ -119,6 +134,11 @@ Torrent
 # ../../svn/web/en/3/index.php +76
 ;Installer DVD
 Kurulum DVD'si
+
+
+# ../../svn/web/en/3/index.php +77
+;100% Free Software and some proprietary drivers
+100% Free Software and some proprietary drivers
 
 
 # ../../svn/web/en/3/index.php +77

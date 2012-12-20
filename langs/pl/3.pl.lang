@@ -37,6 +37,11 @@ Raportowanie błędów
 
 
 # ../../svn/web/en/3/index.php +43
+;Be careful! This is a beta, unstable release.
+Be careful! This is a beta, unstable release.
+
+
+# ../../svn/web/en/3/index.php +43
 ;Be careful! This is an alpha, unstable release.
 Bądź ostrożny! To jest wersja alpha - wydanie niestabilne.
 
@@ -64,6 +69,16 @@ i wiele więcej!
 # ../../svn/web/en/3/index.php +52
 ;See the comprehensive list
 Pełna lista obsługiwanych języków
+
+
+# ../../svn/web/en/3/index.php +54
+;Installer DVD and CD ISOs now contains Free Software and some proprietary drivers.
+Installer DVD and CD ISOs now contains Free Software and some proprietary drivers.
+
+
+# ../../svn/web/en/3/index.php +55
+;You will be asked of which kind of Software you want to install.
+You will be asked of which kind of Software you want to install.
 
 
 # ../../svn/web/en/3/index.php +54
@@ -114,6 +129,11 @@ link{ok}
 # ../../svn/web/en/3/index.php +76
 ;Installer DVD
 Instalator DVD
+
+
+# ../../svn/web/en/3/index.php +77
+;100% Free Software and some proprietary drivers
+100% Free Software and some proprietary drivers
 
 
 # ../../svn/web/en/3/index.php +77

@@ -37,6 +37,11 @@ Cimo-raportoj
 
 
 # ../../svn/web/en/3/index.php +43
+;Be careful! This is a beta, unstable release.
+Be careful! This is a beta, unstable release.
+
+
+# ../../svn/web/en/3/index.php +43
 ;Be careful! This is an alpha, unstable release.
 Atentu! Ĉi tiu estas alfa kaj nestabila versio.
 
@@ -64,6 +69,16 @@ kaj multaj pli!
 # ../../svn/web/en/3/index.php +52
 ;See the comprehensive list
 Vidu detalan liston
+
+
+# ../../svn/web/en/3/index.php +54
+;Installer DVD and CD ISOs now contains Free Software and some proprietary drivers.
+Installer DVD and CD ISOs now contains Free Software and some proprietary drivers.
+
+
+# ../../svn/web/en/3/index.php +55
+;You will be asked of which kind of Software you want to install.
+You will be asked of which kind of Software you want to install.
 
 
 # ../../svn/web/en/3/index.php +54
@@ -124,6 +139,11 @@ BitTorrent
 # ../../svn/web/en/3/index.php +76
 ;Installer DVD
 DVD-instalilo
+
+
+# ../../svn/web/en/3/index.php +77
+;100% Free Software and some proprietary drivers
+100% Free Software and some proprietary drivers
 
 
 # ../../svn/web/en/3/index.php +77
