@@ -51,8 +51,8 @@ _lang_load($locale, '3');
                         <?php _e('and so much more!'); ?>
                         <a href="https://wiki.mageia.org/en/Mageia_2_supported_locales" hreflang="en"><?php _e('See the comprehensive list')?></a>.</li>
                     <li><?php
-                        _e('Installer DVD and CD ISOs contains now Free and Nonfree Software.');
-                        _e('You will be asked of which kind of Software you want to intsall.');
+                        _e('Installer DVD and CD ISOs now contains Free Software and some proprietary drivers.');
+                        _e('You will be asked of which kind of Software you want to install.');
                     ?></li>
                     <li><?php _e('Use LiveCDs or LiveDVDs for fresh new installs ONLY, NOT FOR UPGRADE.')?></li>
                     <li><?php _e('If you are looking for a stable version of Mageia, <a href="%s" rel="nofollow">go here</a>.', array('/downloads/'))?></li>
@@ -72,7 +72,7 @@ _lang_load($locale, '3');
                 <tbody>
                     <tr>
                         <th class="name"><?php _e('Installer DVD')?><br>
-                            <span class="dlinfo"><?php _e('100% Free Software and NonFree drivers')?></span></th>
+                            <span class="dlinfo"><?php _e('100% Free Software and some proprietary drivers')?></span></th>
                         <td class="size">3.6GB</td>
                         <td><a rel="nofollow" href="?q=Mageia-3-beta1-i586-DVD.iso"><?php _e('32bit');?></a><br>
                             <a rel="nofollow" href="?q=Mageia-3-beta1-x86_64-DVD.iso"><?php _e('64bit');?></a></td>
