@@ -32,12 +32,7 @@ Mageia 3 {ok}
 
 # ../../svn/web/en/3/index.php +43
 ;Be careful! This is a beta, unstable release.
-Be careful! This is a beta, unstable release.
-
-
-# ../../svn/web/en/3/index.php +43
-;Be careful! This is an alpha, unstable release.
-Обережніше! Це тестовий, отже нестабільний випуск.
+Обережно! Це тестовий, отже нестабільний випуск.
 
 
 # ../../svn/web/en/3/index.php +44
@@ -67,32 +62,12 @@ Be careful! This is a beta, unstable release.
 
 # ../../svn/web/en/3/index.php +54
 ;Installer DVD and CD ISOs now contains Free Software and some proprietary drivers.
-Installer DVD and CD ISOs now contains Free Software and some proprietary drivers.
+Образи ISO для DVD та компакт-дисків тепер містять вільне програмне забезпечення та деякі закриті драйвери.
 
 
 # ../../svn/web/en/3/index.php +55
 ;You will be asked of which kind of Software you want to install.
-You will be asked of which kind of Software you want to install.
-
-
-# ../../svn/web/en/3/index.php +54
-;Installer DVD and CD ISOs are made of Free Software exclusively.
-До образів ISO для встановлення з DVD та компакт-дисків включено лише вільне програмне забезпечення.
-
-
-# ../../svn/web/en/3/index.php +55
-;As a consequence, <span class="warn">proprietary Wi-Fi and video drivers are not included.
-Саме тому, там <span class="warn">немає закритих драйверів до Wi-Fi та відеокарток.
-
-
-# ../../svn/web/en/3/index.php +56
-;If you need WiFi or specific video drivers <em>at install time</em>, you should go with below LiveCDs or LiveDVDs instead.</span>
-Якщо вам потрібні драйвери до Wi-Fi або певних відеокарток <em>під час встановлення</em>, вам слід скористатися образами портативних систем, посилання на які наведено нижче.</span>
-
-
-# ../../svn/web/en/3/index.php +57
-;You may, if you will, add nonfree software repository <em>after</em> the installation.
-Крім того, ви можете, якщо захочете, додати сховище з невільним програмним забезпеченням <em>після</em> встановлення.
+Під час встановлення ви зможете визначитися з тим, яке програмне забезпечення ви хочете встановити.
 
 
 # ../../svn/web/en/3/index.php +59
@@ -112,7 +87,7 @@ You will be asked of which kind of Software you want to install.
 
 # ../../svn/web/en/3/index.php +68
 ;Format
-Format
+Формат
 
 
 # ../../svn/web/en/3/index.php +69
@@ -127,7 +102,7 @@ Format
 
 # ../../svn/web/en/3/index.php +71
 ;BitTorrent
-BitTorrent
+Торент
 
 
 # ../../svn/web/en/3/index.php +76
@@ -137,22 +112,17 @@ DVD для встановлення
 
 # ../../svn/web/en/3/index.php +77
 ;100% Free Software and some proprietary drivers
-100% Free Software and some proprietary drivers
-
-
-# ../../svn/web/en/3/index.php +77
-;100% Free Software
-Лише вільне програмне забезпечення
+Абсолютно вільне програмне забезпечення і деякі закриті драйвери
 
 
 # ../../svn/web/en/3/index.php +79
 ;32bit
-32bit
+32-бітова
 
 
 # ../../svn/web/en/3/index.php +80
 ;64bit
-64bit
+64-бітова
 
 
 # ../../svn/web/en/3/index.php +85
@@ -162,7 +132,7 @@ CD для встановлення
 
 # ../../svn/web/en/3/index.php +88
 ;dualarch
-dualarch
+подвійної архітектури
 
 
 # ../../svn/web/en/3/index.php +95
@@ -204,18 +174,3 @@ dualarch
 # ../../svn/web/en/3/index.php +136
 ;needed for some disc controllers, some network cards, etc.
 потрібен для деяких контролерів дисків, мережевих карток тощо
-
-;Format
-Формат
-
-;BitTorrent
-Торент
-
-;32bit
-32-бітова
-
-;64bit
-64-бітова
-
-;dualarch
-подвійної архітектури
