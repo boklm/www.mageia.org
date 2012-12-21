@@ -227,6 +227,10 @@ class Pinq_Controller
     */
     function fallback_to_previous_mode($uri, $lang)
     {
+        $uri = explode('?', $uri);
+        $qs  = $uri[1];
+        $uri = $uri[0];
+
         $alt_uri = sprintf(
             '/%s/%s',
             'en',
@@ -247,7 +251,6 @@ class Pinq_Controller
         foreach ($test_uris as $inc_uri) {
 
             $real_file = realpath($this->_app_root . $inc_uri);
-
             if (file_exists($real_file) && !is_dir($real_file)) {
 
                 $found = true;
