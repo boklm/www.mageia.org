@@ -95,10 +95,11 @@ function domain_redirect($host, $domains_lang, $vhost)
  * @param string $page optional path to which we want to redirect
  * @param string $default_locale
  * @param string $force_accept_language replace remote browser HTTP_ACCEPT_LANGUAGE request header
+ * @param boolean $do_redirect
  *
  * @return string
 */
-function relocate($langs, $page = '', $default_locale = 'en', $force_accept_language = null)
+function relocate($langs, $page = '', $default_locale = 'en', $force_accept_language = null, $do_redirect = true)
 {
     require_once 'localeDetection.class.php';
 
@@ -108,9 +109,10 @@ function relocate($langs, $page = '', $default_locale = 'en', $force_accept_lang
     $relocate = sprintf('/%s/%s', $locale->getCompatibleLocale(), $page);
     $relocate = str_replace('//', '/', $relocate);
 
-    if ('cli' != PHP_SAPI) {
+    if ('cli' != PHP_SAPI && do_redirect) {
         header('Location: ' . $relocate);
     }
+
     return $relocate;
 }
 
