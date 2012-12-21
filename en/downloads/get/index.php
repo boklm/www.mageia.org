@@ -72,7 +72,7 @@ try {
 
     // TODO do not redirect if it's a bot!
     $js_redirect = sprintf(
-        '<script>(function(){setTimeout("document.location=\'%s\';", 3000);})();</script>',
+        '<script>(function(){setTimeout("document.location=\'%s\';", 6000);})();</script>',
         $download
     );
 
