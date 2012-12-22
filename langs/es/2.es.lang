@@ -168,7 +168,7 @@ vea la <a href="%s" hreflang="es">guía de actualización</a>
 
 # en/2/download_index.php +217 (added manually)
 ;But please remember that it already <a href="http://blog.mageia.org/en/2012/12/02/mageia-1-eol"/>reached EOL</a>.
-But please remember that it already <a href="http://blog.mageia.org/en/2012/12/02/mageia-1-eol"/>reached EOL</a>.
+Por favor, recuerde que ya <a href="http://blog.mageia.org/es/2012/12/02/fin-de-soporte-para-mageia-1/"/>alcanzó su fin de soporte</a>.
 
 
 # en/2/download_index.php +220 (added manually)
@@ -198,7 +198,7 @@ Mucho
 
 # en/for-pc/index.php +27
 ;There are 19&nbsp;881&nbsp;packages in our repositories. And that's just for the 64-bit branch.
-Hay 19&nbsp;881&nbsp;paqueteds en nuestros repositorios. Y eso es sólo para la rama de 64-bits.
+Hay 19&nbsp;881&nbsp;paquetes en nuestros repositorios. Y eso es sólo para la rama de 64-bits.
 
 
 # en/for-pc/index.php +28
@@ -208,7 +208,7 @@ El número total es el doble que &ndash; y si considera los backports, los paque
 
 # en/for-pc/index.php +29
 ;Here's a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:
-Ésta es una multi-sección, primero de los ambientrs gráficos de trabajo, y luego de las aplicaciones base que puede utilizar en su escritorio:
+Ésta es una multi-sección, primero de los ambientes gráficos de trabajo, y luego de las aplicaciones base que puede utilizar en su escritorio:
 
 
 # en/for-pc/index.php +30

@@ -38,12 +38,11 @@ Reporte de errores
 
 # ../../svn/web/en/3/index.php +43
 ;Be careful! This is a beta, unstable release.
-Be careful! This is a beta, unstable release.
-
+¡Cuidado! Esta es una version inestable (beta).
 
 # ../../svn/web/en/3/index.php +43
 ;Be careful! This is an alpha, unstable release.
-¡Cuidado! Ésta es una versión inestable (alfa).
+¡Cuidado! Esta es una versión inestable (alfa).
 
 
 # ../../svn/web/en/3/index.php +44
@@ -71,12 +70,12 @@ Vea la lista completa
 
 # ../../svn/web/en/3/index.php +54
 ;Installer DVD and CD ISOs now contains Free Software and some proprietary drivers.
-Installer DVD and CD ISOs now contains Free Software and some proprietary drivers.
+Los instaladores de las imágenes iso de DVD y CD ahora contienen Software Libre y algunos controladores propietarios.
 
 
 # ../../svn/web/en/3/index.php +55
 ;You will be asked of which kind of Software you want to install.
-You will be asked of which kind of Software you want to install.
+Se le preguntará acerca del tipo de software que quiera instalar.
 
 
 # ../../svn/web/en/3/index.php +54
@@ -115,7 +114,7 @@ Si está buscando una versión estable de Mageia, <a href="%s" rel="nofollow">ve
 
 # ../../svn/web/en/3/index.php +68
 ;Format
-Format
+Formatos
 
 
 # ../../svn/web/en/3/index.php +69
@@ -140,7 +139,7 @@ Instalador en DVD
 
 # ../../svn/web/en/3/index.php +77
 ;100% Free Software and some proprietary drivers
-100% Free Software and some proprietary drivers
+100% Software Libre y algunos controladores propietarios
 
 
 # ../../svn/web/en/3/index.php +77
@@ -176,7 +175,7 @@ LiveDVD KDE {ok}
 
 # ../../svn/web/en/3/index.php +96
 ;not suitable for upgrade
-no es recomendado para actualizaciones
+no se recomienda para actualizaciones
 
 
 # ../../svn/web/en/3/index.php +104
