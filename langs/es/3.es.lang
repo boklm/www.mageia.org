@@ -16,11 +16,6 @@ Calendario de desarrollo
 Lista de características
 
 
-# ../../svn/web/en/3/index.php +36
-;Download alpha2
-Descargue alfa 2
-
-
 # ../../svn/web/en/3/index.php +37
 ;Release notes
 Notas de lanzamiento
@@ -39,10 +34,6 @@ Reporte de errores
 # ../../svn/web/en/3/index.php +43
 ;Be careful! This is a beta, unstable release.
 ¡Cuidado! Esta es una version inestable (beta).
-
-# ../../svn/web/en/3/index.php +43
-;Be careful! This is an alpha, unstable release.
-¡Cuidado! Esta es una versión inestable (alfa).
 
 
 # ../../svn/web/en/3/index.php +44
@@ -68,6 +59,7 @@ Hasta 167 idiomas soportados:
 ;See the comprehensive list
 Vea la lista completa
 
+
 # ../../svn/web/en/3/index.php +54
 ;Installer DVD and CD ISOs now contains Free Software and some proprietary drivers.
 Los instaladores de las imágenes iso de DVD y CD ahora contienen Software Libre y algunos controladores propietarios.
@@ -76,26 +68,6 @@ Los instaladores de las imágenes iso de DVD y CD ahora contienen Software Libre
 # ../../svn/web/en/3/index.php +55
 ;You will be asked of which kind of Software you want to install.
 Se le preguntará acerca del tipo de software que quiera instalar.
-
-
-# ../../svn/web/en/3/index.php +54
-;Installer DVD and CD ISOs are made of Free Software exclusively.
-Las imágenes ISO de los instaladores DVD y CD están hechos exclusivamente de software libre.
-
-
-# ../../svn/web/en/3/index.php +55
-;As a consequence, <span class="warn">proprietary Wi-Fi and video drivers are not included.
-Como consecuencia, <span class="warn">no se incluyen controladores proprietarios de Wi-Fi ni de video.
-
-
-# ../../svn/web/en/3/index.php +56
-;If you need WiFi or specific video drivers <em>at install time</em>, you should go with below LiveCDs or LiveDVDs instead.</span>
-Si necesita controladores específicos inalámbricos (WiFi) o de video <em>durante la instalación</em>, deberá optar por los LiveCDs o LiveDVDs de más abajo.</span>
-
-
-# ../../svn/web/en/3/index.php +57
-;You may, if you will, add nonfree software repository <em>after</em> the installation.
-Si así lo desea, puede instalar repositorios de software no libre <em>después</em> de la instalación.
 
 
 # ../../svn/web/en/3/index.php +59
@@ -129,7 +101,7 @@ enlace
 
 # ../../svn/web/en/3/index.php +71
 ;BitTorrent
-BitTorrent
+BitTorrent {ok}
 
 
 # ../../svn/web/en/3/index.php +76
@@ -142,19 +114,14 @@ Instalador en DVD
 100% Software Libre y algunos controladores propietarios
 
 
-# ../../svn/web/en/3/index.php +77
-;100% Free Software
-100% Software Libre
-
-
 # ../../svn/web/en/3/index.php +79
 ;32bit
-32bit
+32bit {ok}
 
 
 # ../../svn/web/en/3/index.php +80
 ;64bit
-64bit
+64bit {ok}
 
 
 # ../../svn/web/en/3/index.php +85
@@ -164,7 +131,7 @@ Instalador en CD
 
 # ../../svn/web/en/3/index.php +88
 ;dualarch
-dualarch
+dualarch {ok}
 
 
 # ../../svn/web/en/3/index.php +95
