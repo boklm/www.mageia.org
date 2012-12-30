@@ -33,12 +33,12 @@ Errata {ok}
 
 # ../../svn/web/en/3/index.php +43
 ;Be careful! This is a beta, unstable release.
-Be careful! This is a beta, unstable release.
+Να είστε προσεκτικοί! Πρόκειται για μια μη σταθερή έκδοση beta.
 
 
 # ../../svn/web/en/3/index.php +43
 ;Be careful! This is an alpha, unstable release.
-Προηδοποίηση: Πρόκειται για μια μη σταθερή έκδοση alpha.
+Προειδοποίηση: Πρόκειται για μια μη σταθερή έκδοση alpha.
 
 
 # ../../svn/web/en/3/index.php +44
@@ -68,12 +68,12 @@ Be careful! This is a beta, unstable release.
 
 # ../../svn/web/en/3/index.php +54
 ;Installer DVD and CD ISOs now contains Free Software and some proprietary drivers.
-Installer DVD and CD ISOs now contains Free Software and some proprietary drivers.
+Το πρόγραμμα εγκατάστασης των DVD και CD ISO περιέχει στο εξής Ελεύθερο Λογισμικό και μερικούς ιδιόκτητους οδηγούς.
 
 
 # ../../svn/web/en/3/index.php +55
 ;You will be asked of which kind of Software you want to install.
-You will be asked of which kind of Software you want to install.
+Θα ερωτηθείτε για τον τύπο του λογισμικού που επιθυμείτε να εγκαταστήσετε.
 
 
 # ../../svn/web/en/3/index.php +54
@@ -138,12 +138,12 @@ BitTorrent {ok}
 
 # ../../svn/web/en/3/index.php +77
 ;100% Free Software and some proprietary drivers
-100% Free Software and some proprietary drivers
+100% Ελεύθερο Λογισμικό και μερικοί ιδιόκτητοι οδηγοί
 
 
 # ../../svn/web/en/3/index.php +77
 ;100% Free Software
-100% Ελεύθερο λογισμικό
+100% Ελεύθερο Λογισμικό
 
 
 # ../../svn/web/en/3/index.php +79
