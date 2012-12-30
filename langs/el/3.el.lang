@@ -36,11 +36,6 @@ Errata {ok}
 Να είστε προσεκτικοί! Πρόκειται για μια μη σταθερή έκδοση beta.
 
 
-# ../../svn/web/en/3/index.php +43
-;Be careful! This is an alpha, unstable release.
-Προειδοποίηση: Πρόκειται για μια μη σταθερή έκδοση alpha.
-
-
 # ../../svn/web/en/3/index.php +44
 ;It is only intended for developer use. DO NOT USE THIS IN PRODUCTION OR FOR OFFICIAL REVIEW.
 Προορίζεται μόνο για την ανάπτυξη του έργου. ΜΗΝ ΤΗΝ ΧΡΗΣΙΜΟΠΟΙΗΣΕΤΕ ΣΕ ΣΤΑΘΜΟΥΣ ΕΡΓΑΣΙΑΣ Ή ΩΣ ΕΠΙΣΗΜΗ ΠΑΡΟΥΣΙΑΣΗ ΤΗΣ ΔΙΑΝΟΜΗΣ.
@@ -76,24 +71,9 @@ Errata {ok}
 Θα ερωτηθείτε για τον τύπο του λογισμικού που επιθυμείτε να εγκαταστήσετε.
 
 
-# ../../svn/web/en/3/index.php +54
-;Installer DVD and CD ISOs are made of Free Software exclusively.
-Η εγκατάσταση από τα DVD και CD ISO γίνεται αποκλειστικά από ελεύθερο λογισμικό.
-
-
-# ../../svn/web/en/3/index.php +55
-;As a consequence, <span class="warn">proprietary Wi-Fi and video drivers are not included.
-Ως εκ τούτου, <span class="warn">οι ιδιόκτητοι οδηγοί Wi-Fi και γραφικών δεν συμπεριλαμβάνονται.
-
-
 # ../../svn/web/en/3/index.php +56
 ;If you need WiFi or specific video drivers <em>at install time</em>, you should go with below LiveCDs or LiveDVDs instead.</span>
 Αν χρειάζεστε συγκεκριμένους οδηγούς WiFi ή γραφικών <em>κατά την εγκατάσταση</em>, θα πρέπει να προτιμήσετε τα LiveCD ή LiveDVD παρακάτω.</span>
-
-
-# ../../svn/web/en/3/index.php +57
-;You may, if you will, add nonfree software repository <em>after</em> the installation.
-Μπορείτε, αν το επιθυμείτε, να προσθέσετε το αποθετήριο nonfree <em>μετά</em> την εγκατάσταση.
 
 
 # ../../svn/web/en/3/index.php +59
@@ -139,11 +119,6 @@ BitTorrent {ok}
 # ../../svn/web/en/3/index.php +77
 ;100% Free Software and some proprietary drivers
 100% Ελεύθερο Λογισμικό και μερικοί ιδιόκτητοι οδηγοί
-
-
-# ../../svn/web/en/3/index.php +77
-;100% Free Software
-100% Ελεύθερο Λογισμικό
 
 
 # ../../svn/web/en/3/index.php +79
