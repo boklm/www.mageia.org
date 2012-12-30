@@ -71,11 +71,6 @@ Errata {ok}
 Θα ερωτηθείτε για τον τύπο του λογισμικού που επιθυμείτε να εγκαταστήσετε.
 
 
-# ../../svn/web/en/3/index.php +56
-;If you need WiFi or specific video drivers <em>at install time</em>, you should go with below LiveCDs or LiveDVDs instead.</span>
-Αν χρειάζεστε συγκεκριμένους οδηγούς WiFi ή γραφικών <em>κατά την εγκατάσταση</em>, θα πρέπει να προτιμήσετε τα LiveCD ή LiveDVD παρακάτω.</span>
-
-
 # ../../svn/web/en/3/index.php +59
 ;Use LiveCDs or LiveDVDs for fresh new installs ONLY, NOT FOR UPGRADE.
 Χρησιμοποιήστε τα LiveCD ή LiveDVD για καθαρή εγκατάσταση ΜΟΝΟ, ΟΧΙ ΓΙΑ ΑΝΑΒΑΘΜΙΣΗ.
