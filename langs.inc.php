@@ -16,6 +16,7 @@ $langs = array(
     'et' => 'Eesti',
     'fi' => 'Suomeksi',
     'fr' => 'Français',
+    'id' => 'Indonesian',
     'it' => 'Italiano',
     'lv' => 'Latviešu',
     'nb' => 'Bokmål',
