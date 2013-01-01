@@ -123,7 +123,7 @@ function _lang_check($s = null)
         'de',
         'el', 'en', 'eo', 'es', 'et',
         'fi', 'fr',
-        'it',
+        'id', 'it',
         'lv',
         'nb', 'nl',
         'pl', 'pt', 'pt-br',
