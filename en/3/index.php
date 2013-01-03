@@ -72,7 +72,7 @@ _lang_load($locale, '3');
                 <tbody>
                     <tr>
                         <th class="name"><?php _e('Installer DVD')?><br>
-                            <span class="dlinfo"><?php _e('100% Free Software and some proprietary drivers')?></span></th>
+                            <span class="dlinfo"><?php _e('Free Software and some proprietary drivers')?></span></th>
                         <td class="size">3.6GB</td>
                         <td><a rel="nofollow" href="?q=Mageia-3-beta1-i586-DVD.iso"><?php _e('32bit');?></a><br>
                             <a rel="nofollow" href="?q=Mageia-3-beta1-x86_64-DVD.iso"><?php _e('64bit');?></a></td>
