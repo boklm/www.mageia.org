@@ -33,12 +33,7 @@ Veateated
 
 # ../../svn/web/en/3/index.php +43
 ;Be careful! This is a beta, unstable release.
-Be careful! This is a beta, unstable release.
-
-
-# ../../svn/web/en/3/index.php +43
-;Be careful! This is an alpha, unstable release.
-Ettevaatust! See on alfa- ehk ebastabiilne väljalase.
+Ettevaatust! See on beeta- ehk ebastabiilne väljalase.
 
 
 # ../../svn/web/en/3/index.php +44
@@ -68,32 +63,12 @@ Siin näeb täielikku nimekirja
 
 # ../../svn/web/en/3/index.php +54
 ;Installer DVD and CD ISOs now contains Free Software and some proprietary drivers.
-Installer DVD and CD ISOs now contains Free Software and some proprietary drivers.
+Paigaldus-DVD ja -CD ISO-tõmmised sisaldavad nüüd lisaks vabale tarkvarale mõningaid omanduslikke draivereid.
 
 
 # ../../svn/web/en/3/index.php +55
 ;You will be asked of which kind of Software you want to install.
-You will be asked of which kind of Software you want to install.
-
-
-# ../../svn/web/en/3/index.php +54
-;Installer DVD and CD ISOs are made of Free Software exclusively.
-Paigaldus-DVD ja -CD ISO-tõmmised koosnevad ainult vabast tarkvarast.
-
-
-# ../../svn/web/en/3/index.php +55
-;As a consequence, <span class="warn">proprietary Wi-Fi and video drivers are not included.
-Seepärast <span class="warn">ei leidu neil omanduslikke Wi-Fi ja videodraivereid.
-
-
-# ../../svn/web/en/3/index.php +56
-;If you need WiFi or specific video drivers <em>at install time</em>, you should go with below LiveCDs or LiveDVDs instead.</span>
-Kui vajate Wi-Fi või spetsiifilisi videodraivereid <em>paigaldamise ajal</em>, tasuks proovida hoopis allpool saada olevaid LiveCD-sid või LiveDVD-sid.</span>
-
-
-# ../../svn/web/en/3/index.php +57
-;You may, if you will, add nonfree software repository <em>after</em> the installation.
-Soovi korral võite lisada mittevaba tarkvara hoidla <em>pärast</em> paigaldust.
+Teie käest päritakse, millist laadi tarkvara soovite paigaldada.
 
 
 # ../../svn/web/en/3/index.php +59
@@ -138,12 +113,7 @@ Paigaldus-DVD
 
 # ../../svn/web/en/3/index.php +77
 ;Free Software and some proprietary drivers
-Free Software and some proprietary drivers
-
-
-# ../../svn/web/en/3/index.php +77
-;100% Free Software
-100% vaba tarkvara
+Vaba tarkvara ja mõned omanduslikud draiverid
 
 
 # ../../svn/web/en/3/index.php +79
