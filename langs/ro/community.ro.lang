@@ -1,13 +1,13 @@
 ;Mageia Community
-Mageia Community
+Comunitatea Mageia
 
 
 ;Mageia Community Central is the place where all contributors and users can find the latest news about Mageia and learn more about what to do in the project.
-Mageia Community Central is the place where all contributors and users can find the latest news about Mageia and learn more about what to do in the project.
+Mageia Community Central este locul unde toți contribuitorii și utilizatorii pot găsi ultimele noutăți despre Mageia și pot afla mai multe despre ce să facă în proiect.
 
 
 ;mageia, community, news, tools, tasks
-mageia, community, news, tools, tasks
+mageia, comunitate, știri, instrumente, sarcini
 
 
 ;Mageia Community Central
@@ -27,7 +27,7 @@ http://planet.mageia.org/en/
 
 
 ;Planet
-Planet
+Planetă
 
 
 ;Calendar
@@ -39,11 +39,11 @@ https://forum.mageia.org/en/
 
 
 ;Mailing-lists
-Mailing-lists
+Liste de corespondență
 
 
 ;Forums
-Forums
+Forumuri
 
 
 ;http://wiki.mageia.org/
@@ -51,35 +51,35 @@ http://wiki.mageia.org/
 
 
 ;News
-News
+Știri
 
 
 ;How to contribute?
-How to contribute?
+Cum să contribuiți?
 
 
 ;Start here
-Start here
+Începeți aici
 
 
 ;and meet us on <a href="http://wiki.mageia.org/en/IRC">IRC</a>.
-and meet us on <a href="http://wiki.mageia.org/en/IRC">IRC</a>.
+și întîlniți-ne pe <a href="http://wiki.mageia.org/en/IRC">IRC</a>.
 
 
 ;You can also <a href="../donate/">support financially</a> the project!
-You can also <a href="../donate/">support financially</a> the project!
+Puteți deasemenea <a href="../donate/">susține financiar</a> proiectul!
 
 
 ;Toolbox
-Toolbox
+Cutie de unelte
 
 
 ;Wiki</a> &larr; collaborative documentation
-Wiki</a> &larr; collaborative documentation
+Wiki</a> &larr; documentație colaborativă
 
 
 ;Bugzilla</a> &larr; to report bugs
-Bugzilla</a> &larr; to report bugs
+Bugzilla</a> &larr; pentru raportarea de erori
 
 
 ;Forum
@@ -87,59 +87,59 @@ Forum
 
 
 ;Mageia Applications Database
-Mageia Applications Database
+Baza de date cu Aplicații Mageia
 
 
 ;For developers &amp; packagers
-For developers &amp; packagers
+Pentru dezvoltatori &amp; împachetatori
 
 
 ;Subversion
-Subversion
+Subminare
 
 
 ;Git</a> code repositories
-Git</a> code repositories
+arhice de cod Git</a>
 
 
 ;Packages submission queue
-Packages submission queue
+Lista de așteptare pentru pachete
 
 
 ;unmaintained packages
-unmaintained packages
+pachete neîntreținute
 
 
 ;Global QA report
-Global QA report
+Raport global QA
 
 
 ;Conversations
-Conversations
+Conversații
 
 
 ;... or, how to get in touch with us? Easy:
-... or, how to get in touch with us? Easy:
+... sau, cum să ne contactați? Ușor:
 
 
 ;IRC</a> on Freenode
-IRC</a> on Freenode
+IRC</a> la Freenode
 
 
 ;mailing-lists 1</a> &amp; <a href="http://ml.mageia.org/">2
-mailing-lists 1</a> &amp; <a href="http://ml.mageia.org/">2
+liste de corespondență 1</a> &amp; <a href="http://ml.mageia.org/">2
 
 
 ;in real life!
-in real life!
+în viața reală!
 
 
 ;during events!
-during events!
+în timpul evenimentelor!
 
 
 ;Teams you can join!
-Teams you can join!
+Echipe la care vă puteți alătura!
 
 
 ;Atelier
@@ -147,27 +147,27 @@ Atelier
 
 
 ;Documentation
-Documentation
+Documentare
 
 
 ;Packaging
-Packaging
+Împachetare
 
 
 ;Testing &amp; <abbr title="Quality Assurance">QA</abbr>
-Testing &amp; <abbr title="Quality Assurance">QA</abbr>
+Testare &amp; <abbr title="Quality Assurance">QA</abbr>
 
 
 ;Translation
-Translation
+Traducere
 
 
 ;Systems &amp; infrastructure administration
-Systems &amp; infrastructure administration
+Sisteme &amp; infrastructură administrație
 
 
 ;Bugs triaging
-Bugs triaging
+Verificarea și depanarea erorilor
 
 
 ;Mageia
@@ -175,27 +175,27 @@ Mageia
 
 
 ;More about Mageia
-More about Mageia
+Mai multe despre Mageia
 
 
 ;Our <a href="../about/code-of-conduct/">code of conduct</a> and <a href="../about/values/">values</a>
-Our <a href="../about/code-of-conduct/">code of conduct</a> and <a href="../about/values/">values</a>
+<a href="../about/code-of-conduct/">Codul nostru de conduită</a> și <a href="../about/values/">valorile noastre</a>
 
 
 ;Our governance model</a> and structure:
-Our governance model</a> and structure:
+Modelul nostru de guvernare</a> și structura:
 
 
 ;Teams
-Teams
+Echipele
 
 
 ;the Council
-the Council
+Consiliul
 
 
 ;the Board
-the Board
+Comitetul
 
 
 ;<a href="../donate/">Donations</a> &amp; <a href="../about/reports/">reports</a>.
@@ -203,4 +203,4 @@ the Board
 
 
 ;This page needs you! <a href="https://wiki.mageia.org/en/Web_team">Join the Web team</a>!
-This page needs you! <a href="https://wiki.mageia.org/en/Web_team">Join the Web team</a>!
+Această pagină are nevoie de dumneavoastră! <a href="https://wiki.mageia.org/en/Web_team">Alăturați-vă echipei Web</a>!

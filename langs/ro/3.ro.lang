@@ -62,23 +62,13 @@ Vezi lista completă
 
 
 # ../../svn/web/en/3/index.php +54
-;Installer DVD and CD ISOs are made of Free Software exclusively.
-Fișierele ISO pentru DVD și CD conțin exclusiv Software Gratuit.
+;Installer DVD and CD ISOs now contains Free Software and some proprietary drivers.
+Fișierele ISO pentru DVD și CD conțin Software Gratuit și unele drivere negratuite.
 
 
 # ../../svn/web/en/3/index.php +55
-;As a consequence, <span class="warn">proprietary Wi-Fi and video drivers are not included.
-Prin urmare, <span class="warn">driverele proprietare de Wi-Fi și plăci video nu sunt incluse.
-
-
-# ../../svn/web/en/3/index.php +56
-;If you need WiFi or specific video drivers <em>at install time</em>, you should go with below LiveCDs or LiveDVDs instead.</span>
-Dacă aveți nevoie de Wi-Fi sau de anumite drivere video <em>în timpul instalării</em>, ar trebui să alegeți următoarele CD-uri sau DVD-uri Live.</span>
-
-
-# ../../svn/web/en/3/index.php +57
-;You may, if you will, add nonfree software repository <em>after</em> the installation.
-Puteți, dacă doriți, să adăugați magazia de software negratuită <em>după</em> instalare.
+;You will be asked of which kind of Software you want to install.
+Veți fi întrebat ce fel de Software doriți să instalați.
 
 
 # ../../svn/web/en/3/index.php +59
@@ -108,7 +98,7 @@ mărime
 
 # ../../svn/web/en/3/index.php +70
 ;link
-legătură
+link
 
 
 # ../../svn/web/en/3/index.php +71
@@ -122,8 +112,8 @@ DVD de instalare
 
 
 # ../../svn/web/en/3/index.php +77
-;100% Free Software
-100% Software Gratuit
+;Free Software and some proprietary drivers
+Software Gratuit și unele drivere negratuite
 
 
 # ../../svn/web/en/3/index.php +79
