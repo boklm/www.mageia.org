@@ -38,12 +38,12 @@ Segnalazioni Bug {ok}
 
 # ../../svn/web/en/3/index.php +43
 ;Be careful! This is a beta, unstable release.
-Be careful! This is a beta, unstable release.
+Sii prudente! Questa è una beta, un rilascio instabile.
 
 
 # ../../svn/web/en/3/index.php +43
 ;Be careful! This is an alpha, unstable release.
-Fai attenzione! Questa è un rilascio alpha, instabile. {ok}
+Sii prudente! Questa è una alpha, un rilascio instabile.
 
 
 # ../../svn/web/en/3/index.php +44
@@ -73,12 +73,12 @@ Guarda la lista completa {ok}
 
 # ../../svn/web/en/3/index.php +54
 ;Installer DVD and CD ISOs now contains Free Software and some proprietary drivers.
-Installer DVD and CD ISOs now contains Free Software and some proprietary drivers.
+Le ISO di DVD e CD di installazione ora contengono Free Software e qualche driver proprietario.
 
 
 # ../../svn/web/en/3/index.php +55
 ;You will be asked of which kind of Software you want to install.
-You will be asked of which kind of Software you want to install.
+Ti verrà chiesto quale tipo di Software vuoi installare.
 
 
 # ../../svn/web/en/3/index.php +54
@@ -118,7 +118,7 @@ Divertiti! E <a href="%s">segnala i bug</a> se ne trovi qualcuno, per favore.
 
 # ../../svn/web/en/3/index.php +68
 ;Format
-Format
+Formato
 
 
 # ../../svn/web/en/3/index.php +69
@@ -133,7 +133,7 @@ collegamento
 
 # ../../svn/web/en/3/index.php +71
 ;BitTorrent
-BitTorrent
+BitTorrent {ok}
 
 
 # ../../svn/web/en/3/index.php +76
@@ -143,7 +143,7 @@ DVD di Installazione
 
 # ../../svn/web/en/3/index.php +77
 ;Free Software and some proprietary drivers
-Free Software and some proprietary drivers
+Software Libero e qualche driver proprietario
 
 
 # ../../svn/web/en/3/index.php +77
@@ -153,12 +153,12 @@ Free Software and some proprietary drivers
 
 # ../../svn/web/en/3/index.php +79
 ;32bit
-32bit
+32bit {ok}
 
 
 # ../../svn/web/en/3/index.php +80
 ;64bit
-64bit
+64bit {ok}
 
 
 # ../../svn/web/en/3/index.php +85
@@ -168,7 +168,7 @@ CD di Installazione
 
 # ../../svn/web/en/3/index.php +88
 ;dualarch
-dualarch
+dualarch {ok}
 
 
 # ../../svn/web/en/3/index.php +95
