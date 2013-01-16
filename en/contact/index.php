@@ -23,11 +23,11 @@ _lang_load($locale, 'contact');
             <?php
             _h('You are looking for support', null, 'h2');
             _h('Please check our <a href="https://forums.mageia.org/">forum</a> or our <a href="http://wiki.mageia.org/" hreflang="en">wiki</a>.');
-            echo '<br>';
+            echo '<hr>';
             _h('You would like to report an issue', null, 'h2');
             _h('Please see <a href="%s" hreflang="en">how to report an issue in our bugs database</a>.',
                 array('https://wiki.mageia.org/en/How_to_report_a_bug_properly'));
-            echo '<br>';
+            echo '<hr>';
 
             _h('You are not sure who to contact', null, 'h2');?>
             <ul id="contrib-time" class="contrib-list">
@@ -35,7 +35,17 @@ _lang_load($locale, 'contact');
                     <h3><a href="mailto:contact@mageia.org">contact@mageia.org</a></h3>
                     <?php _h('For generic contact information.')?>
                 </li>
+                <li>
+                    <h3><a href="mailto:press@mageia.org">press@mageia.org</a></h3>
+                    <?php _h('For press inquiries.')?>
+                </li>
+                <li>
+                    <h3>IRC</h3>
+                    <?php _h('You may as well try to reach us on <a href="%s">#mageia on Freenode IRC</a>.',
+                        array('irc://irc.freenode.net/#mageia'));?>
+                </li>
             </ul>
+            <hr>
         </div>
     </div>
     <div style="float: left; width: 600px; text-align: left; border: 1px solid #ddd; border-top: 0;">
@@ -67,7 +77,9 @@ _lang_load($locale, 'contact');
         );
         _h('This should only be used for the rare cases where private emails are needed.');
         _h('If you want to contact Council or Board for a public discussion, you can start a thread on a mailing-list and add the Board or Council alias in CC.');
-        _h('If you want to join and contribute to Mageia, please see <a href="%s">our Contributions page</a>', array('../contribute/'));
+        echo '<hr>';
+        _h('You want to join and contribute to Mageia', null, 'h2');
+        _h('Please see <a href="%s">our Contributions page</a>', array('../contribute/'));
         ?>
         <hr>
         </div>
