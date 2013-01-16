@@ -60,7 +60,8 @@
 .contribute #mgnav .contribute,
 .bugs-mageia-org #mgnav .contribute,
 .contrib #mgnav .contrib,
-.you #mgnav .you
+.you #mgnav .you,
+.contact #mgnav .contact
 {
     font-weight: bold;
     background: transparent;
