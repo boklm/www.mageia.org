@@ -182,6 +182,11 @@ Mailing-list
 
 
 # en/map/index.php +69
+;Forums
+Forums {ok}
+
+
+# en/map/index.php +69
 ;http://forums.mageia.org/
 http://forums.mageia.org/ {ok}
 
