@@ -56,14 +56,14 @@ _lang_load($locale, 'contact');
             array('https://www.mageia.org/mailman/listinfo/mageia-discuss'));
         _h('You may use the following email aliases too to contact all members of a group at once:');
         $groups = array(
-            'board'     => 'Mageia.Org Board members',
-            'council'   => 'Mageia Council',
-            'sysadmin'  => 'Systems administration team',
-            'packagers' => 'Packagers',
-            'atelier'   => 'Communication, Marketing &amp; Web teams',
-            'qa'        => 'QA team',
-            'doc'       => 'Documentation team',
-            'association-members' => 'Mageia.Org association members'
+            'board'     => _d('Mageia.Org Board members'),
+            'council'   => _d('Mageia Council'),
+            'sysadmin'  => _d('Systems administration team'),
+            'packagers' => _d('Packagers'),
+            'atelier'   => _d('Communication, Marketing &amp; Web teams'),
+            'qa'        => _d('QA team'),
+            'doc'       => _d('Documentation team'),
+            'association-members' => _d('Mageia.Org association members'),
         );
         echo '<ul class="hl">';
         foreach ($groups as $k => $v) {
