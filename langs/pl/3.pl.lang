@@ -37,11 +37,6 @@ Raportowanie błędów
 
 
 # ../../svn/web/en/3/index.php +43
-;Be careful! This is a beta, unstable release.
-Be careful! This is a beta, unstable release.
-
-
-# ../../svn/web/en/3/index.php +43
 ;Be careful! This is an alpha, unstable release.
 Bądź ostrożny! To jest wersja alpha - wydanie niestabilne.
 
@@ -72,16 +67,6 @@ Pełna lista obsługiwanych języków
 
 
 # ../../svn/web/en/3/index.php +54
-;Installer DVD and CD ISOs now contains Free Software and some proprietary drivers.
-Installer DVD and CD ISOs now contains Free Software and some proprietary drivers.
-
-
-# ../../svn/web/en/3/index.php +55
-;You will be asked of which kind of Software you want to install.
-You will be asked of which kind of Software you want to install.
-
-
-# ../../svn/web/en/3/index.php +54
 ;Installer DVD and CD ISOs are made of Free Software exclusively.
 Instalatory na obrazach płyt DVD i CD zostały zbudowane w oparciu o Wolne Oprogramowanie.
 
@@ -107,8 +92,8 @@ Użyj wersji LiveCD lub LiveDVD tylko do wykonania nowej instalacji (czysty komp
 
 
 # ../../svn/web/en/3/index.php +60
-;If you are looking for a stable version of Mageia, <a href="%s" rel="nofollow">go here</a>.
-Jeśli szukasz stabilnej wersji Mageia, <a href="%s" rel="nofollow">wejdź tutaj</a>.
+;If you are looking for a stable version of Mageia, <a href="%s">go here</a>.
+Jeśli szukasz stabilnej wersji Mageia, <a href="%s">wejdź tutaj</a>.
 
 
 # ../../svn/web/en/3/index.php +61
@@ -129,11 +114,6 @@ link{ok}
 # ../../svn/web/en/3/index.php +76
 ;Installer DVD
 Instalator DVD
-
-
-# ../../svn/web/en/3/index.php +77
-;Free Software and some proprietary drivers
-Free Software and some proprietary drivers
 
 
 # ../../svn/web/en/3/index.php +77
@@ -204,3 +184,19 @@ BitTorrent{ok}
 
 ;dualarch
 dualarch{ok}
+
+
+;Be careful! This is a beta, unstable release.
+Bądź ostrożny. To jest niestabilne wydanie wersji beta.
+
+
+;Installer DVD and CD ISOs now contains Free Software and some proprietary drivers.
+Instalatior na obrazach płyt DVD i CD zawiera Wolne Oprogramowanie i niektóre sterowniki własnościowe.
+
+
+;You will be asked of which kind of Software you want to install.
+Zostaniesz zapytany jakiego typu oprogramowanie chcesz zainstalować.
+
+
+;Free Software and some proprietary drivers
+Wolne Oprogramowanie i niektóre sterowniki własnościowe.
