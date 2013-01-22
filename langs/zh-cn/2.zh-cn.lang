@@ -8,9 +8,6 @@
 # en/2/nav.php
 
 
-;page_title
-页面标题
-
 ;For file and directory sharing and network printing on heterogeneous networks, we have Samba 3.6.5, OpenLDAP 2.4.29 and Cups 1.5.2.
 为了适合各种网络中的文件和目录共享，以及网络打印，我们提供了 Samba 3.6.5、OpenLDAP 2.4.29 和 Cups 1.5.2。
 

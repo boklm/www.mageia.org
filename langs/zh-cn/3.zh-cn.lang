@@ -38,7 +38,7 @@ Mageia 3
 
 # ../../svn/web/en/3/index.php +43
 ;Be careful! This is a beta, unstable release.
-Be careful! This is a beta, unstable release.
+小心! 这是测试用的非稳定版本。
 
 
 # ../../svn/web/en/3/index.php +43
@@ -73,12 +73,12 @@ Be careful! This is a beta, unstable release.
 
 # ../../svn/web/en/3/index.php +54
 ;Installer DVD and CD ISOs now contains Free Software and some proprietary drivers.
-Installer DVD and CD ISOs now contains Free Software and some proprietary drivers.
+安装 DVD 和 CD ISO 现在包含自由软件和某些私有驱动程序。
 
 
 # ../../svn/web/en/3/index.php +55
 ;You will be asked of which kind of Software you want to install.
-You will be asked of which kind of Software you want to install.
+安装时会询问您想要安装哪种软件。
 
 
 # ../../svn/web/en/3/index.php +54
@@ -118,7 +118,7 @@ LiveCD 或 LiveDVD 仅适用于全新安装，而非升级。
 
 # ../../svn/web/en/3/index.php +68
 ;Format
-Format
+格式
 
 
 # ../../svn/web/en/3/index.php +69
@@ -143,7 +143,7 @@ BitTorrent
 
 # ../../svn/web/en/3/index.php +77
 ;Free Software and some proprietary drivers
-Free Software and some proprietary drivers
+自由软件及某些私有驱动程序
 
 
 # ../../svn/web/en/3/index.php +77
