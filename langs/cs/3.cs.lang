@@ -3,7 +3,7 @@
 
 # ../../svn/web/en/3/index.php +12
 ;Mageia 3
-Mageia 3
+Mageia 3 {ok}
 
 
 # ../../svn/web/en/3/index.php +34
@@ -38,7 +38,7 @@ Zprávy o chybách
 
 # ../../svn/web/en/3/index.php +43
 ;Be careful! This is a beta, unstable release.
-Be careful! This is a beta, unstable release.
+Opatrně! Toto je beta, nestabilní vydání.
 
 
 # ../../svn/web/en/3/index.php +43
@@ -73,12 +73,12 @@ Vyčerpávající seznam
 
 # ../../svn/web/en/3/index.php +54
 ;Installer DVD and CD ISOs now contains Free Software and some proprietary drivers.
-Installer DVD and CD ISOs now contains Free Software and some proprietary drivers.
+Instalátor DVD a CD ISO nyní obsahuje svobodný software a některé soukromé ovladače.
 
 
 # ../../svn/web/en/3/index.php +55
 ;You will be asked of which kind of Software you want to install.
-You will be asked of which kind of Software you want to install.
+Bude vám položena otázka, kterou budete dotázán, jaký software chcete instalovat.
 
 
 # ../../svn/web/en/3/index.php +54
@@ -118,7 +118,7 @@ Bavte se! A <a href="%s">hlašte, prosím, chyby</a>, když nějaké najdete.
 
 # ../../svn/web/en/3/index.php +68
 ;Format
-Format
+Formát
 
 
 # ../../svn/web/en/3/index.php +69
@@ -133,7 +133,7 @@ Odkaz
 
 # ../../svn/web/en/3/index.php +71
 ;BitTorrent
-BitTorrent
+BitTorrent {ok}
 
 
 # ../../svn/web/en/3/index.php +76
@@ -143,7 +143,7 @@ Instalační DVD
 
 # ../../svn/web/en/3/index.php +77
 ;Free Software and some proprietary drivers
-Free Software and some proprietary drivers
+Svobodný software a některé soukromé ovladače.
 
 
 # ../../svn/web/en/3/index.php +77
@@ -153,12 +153,12 @@ Free Software and some proprietary drivers
 
 # ../../svn/web/en/3/index.php +79
 ;32bit
-32bit
+32bit {ok}
 
 
 # ../../svn/web/en/3/index.php +80
 ;64bit
-64bit
+64bit {ok}
 
 
 # ../../svn/web/en/3/index.php +85
@@ -168,7 +168,7 @@ Instalační CD
 
 # ../../svn/web/en/3/index.php +88
 ;dualarch
-dualarch
+dualarch {ok}
 
 
 # ../../svn/web/en/3/index.php +95
