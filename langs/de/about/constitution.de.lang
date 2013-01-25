@@ -3,20 +3,20 @@
 
 # Please translate first "mageia.org_statutes_fr.md" or "mageia.org_statutes_en.md" as a fallback. Check wiki for details.
 ;Please translate first "mageia.org_statutes_fr.md" or "mageia.org_statutes_en.md" as a fallback. Check wiki for details.
-Please translate first "mageia.org_statutes_fr.md" or "mageia.org_statutes_en.md" as a fallback. Check wiki for details.
+Bitte zuerst "mageia.org_statutes_fr.md" oder "mageia.org_statutes_en.md" als Fallback übersetzen, Das Wiki für Details konsultieren.
 
 
 # ../../svn/web/en/about/constitution/index.php +12
 ;Mageia.Org constitution
-Mageia.Org constitution
+Mageia.Org-Verfassung
 
 
 # ../../svn/web/en/about/constitution/index.php +14
 ;mageia.org, association, organization, legal, constitution, statuts
-mageia.org, association, organization, legal, constitution, statuts
+mageia.org, Verfassung, organisation, legal, Verein, Stiftung, Statuten
 
 
 # ../../svn/web/en/about/constitution/index.php +27
 ;Original and definitive version (in French) is available from %s. These <em>may</em> be improved. Do not hesitate to mail your patches; check how in the %s.
-Original and definitive version (in French) is available from %s. These <em>may</em> be improved. Do not hesitate to mail your patches; check how in the %s.
+Die ursprüngliche und rechtlich bindende Version (in Französisch) ist unter %s erhältlich. Diese <em>kann</em> verbessert werden. Senden Sie uns Ihre Änderungsvorschläge, Sie können unter %s sehen, wie.
 
