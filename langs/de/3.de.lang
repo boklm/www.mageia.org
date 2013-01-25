@@ -3,7 +3,7 @@
 
 # ../../svn/web/en/3/index.php +12
 ;Mageia 3
-Mageia 3
+Mageia 3 {ok}
 
 
 # ../../svn/web/en/3/index.php +34
@@ -13,7 +13,7 @@ Entwicklungsplanung
 
 # ../../svn/web/en/3/index.php +35
 ;Features review
-Features-Review
+Feature-Review
 
 
 # ../../svn/web/en/3/index.php +37
@@ -78,99 +78,99 @@ Benutzen Sie Live-CDs und Live-DVDs NUR für neue Installationen, nicht für AKT
 
 # ../../svn/web/en/3/index.php +60
 ;If you are looking for a stable version of Mageia, <a href="%s" rel="nofollow">go here</a>.
-If you are looking for a stable version of Mageia, <a href="%s" rel="nofollow">go here</a>.
+Wenn Sie nach einer stabilen Version von Mageia suchen, <a href="%s" rel="nofollow">schauen Sie hier</a>.
 
 
 # ../../svn/web/en/3/index.php +61
 ;Enjoy! And <a href="%s">please report bugs</a> if you find some.
-Enjoy! And <a href="%s">please report bugs</a> if you find some.
+Genießen Sie es! Und <a href="%s">berichten Sie uns Fehler</a>, wenn Sie welche finden.
 
 
 # ../../svn/web/en/3/index.php +68
 ;Format
-Format
+Format {ok}
 
 
 # ../../svn/web/en/3/index.php +69
 ;size
-size
+Größe
 
 
 # ../../svn/web/en/3/index.php +70
 ;link
-link
+Link
 
 
 # ../../svn/web/en/3/index.php +71
 ;BitTorrent
-BitTorrent
+BitTorrent {ok}
 
 
 # ../../svn/web/en/3/index.php +76
 ;Installer DVD
-Installer DVD
+Installer-DVD
 
 
 # ../../svn/web/en/3/index.php +77
 ;Free Software and some proprietary drivers
-Free Software and some proprietary drivers
+Freie Software und einige proprietäre Treiber
 
 
 # ../../svn/web/en/3/index.php +79
 ;32bit
-32bit
+32-Bit
 
 
 # ../../svn/web/en/3/index.php +80
 ;64bit
-64bit
+64-Bit
 
 
 # ../../svn/web/en/3/index.php +85
 ;Installer CD
-Installer CD
+Installer-CD
 
 
 # ../../svn/web/en/3/index.php +88
 ;dualarch
-dualarch
+Dualarch
 
 
 # ../../svn/web/en/3/index.php +95
 ;LiveDVD KDE
-LiveDVD KDE
+Live-DVD KDE
 
 
 # ../../svn/web/en/3/index.php +96
 ;not suitable for upgrade
-not suitable for upgrade
+nicht nutzbar für Aktualisierungen
 
 
 # ../../svn/web/en/3/index.php +104
 ;LiveDVD GNOME
-LiveDVD GNOME
+LiveDVD-GNOME
 
 
 # ../../svn/web/en/3/index.php +114
 ;LiveCD KDE, English-only
-LiveCD KDE, English-only
+Live-CD KDE, nur Englisch
 
 
 # ../../svn/web/en/3/index.php +121
 ;LiveCD GNOME, English-only
-LiveCD GNOME, English-only
+Live-CD GNOME, nur Englisch
 
 
 # ../../svn/web/en/3/index.php +129
 ;Network installer, Free Software CD
-Network installer, Free Software CD
+Netzwerk-Installer, CD mit freier Software
 
 
 # ../../svn/web/en/3/index.php +135
 ;Network installer + nonfree firmware CD
-Network installer + nonfree firmware CD
+Netzwerk-Installer, CD mit nicht freier Firmware
 
 
 # ../../svn/web/en/3/index.php +136
 ;needed for some disc controllers, some network cards, etc.
-needed for some disc controllers, some network cards, etc.
+benötigt für einige Platten-Controller, einige Netzwerkkarten usw.

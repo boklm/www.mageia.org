@@ -10,7 +10,7 @@ Falls dieser nicht zufriedenstellend funktioniert, <a href="#om" id="other_mirro
 
 # ../../svn/web/en/downloads/get/index.php +131
 ;Mageia Downloads
-Mageia Downloads
+Mageia-Downloads
 
 
 ;Download %s
@@ -38,23 +38,23 @@ Verwenden Sie dieses ISO-Abbild nicht, falls die Signaturen nicht übereinstimme
 
 
 ;Your IP address is %s and you seem to be in %s, %s.
-Your IP address is %s and you seem to be in %s, %s.
+Ihre IP-Adresse ist %s und Sie scheinen in %s, %s zu sein.
 
 
 ;Country
-Country
+Land
 
 
 ;City
-City
+Stadt
 
 
 ;Download mirrors
-Download mirrors
+Download-Mirrors
 
 
 ;The making and the distribution of Mageia worldwide is made possible by all the <a href="%s">people and organizations that mirror our software</a> and that <a href="%s">donate money, hardware, hosting and more</a>.
-The making and the distribution of Mageia worldwide is made possible by all the <a href="%s">people and organizations that mirror our software</a> and that <a href="%s">donate money, hardware, hosting and more</a>.
+Die Erstellung und Verteilung der Mageia-Distribution wird durch die <a href="%s">Personen und Organisationen ermöglicht, die unsere Software auf ihren Servern spiegeln</a> und die <a href="%s">Geld, Hardware, Webhosting und vieles mehr spenden</a>.
 
 
 ;Want to help? %sJoin Us!%s
@@ -62,41 +62,41 @@ Wollen Sie mithelfen? %sMachen Sie bei uns mit!%s
 
 
 ;Sorry!
-Sorry!
+Entschuldigung!
 
 
 ;Your download could not complete, as we could not find this file. Please try again from the <a href="%s">main downloads page</a>.
-Your download could not complete, as we could not find this file. Please try again from the <a href="%s">main downloads page</a>.
+Ihr Download konnte nicht beendet werden, da die Datei nicht existiert. Bitte versuchen Sie es erneut von der <a href="%s">Haupt-Downloadseite</a>.
 
 
 ;If you still encounter this error and think IT SHOULD NOT HAPPEN &ndash; please tell us:
-If you still encounter this error and think IT SHOULD NOT HAPPEN &ndash; please tell us:
+Wenn Sie diesen Fehler finden und denken, DASS ER NICHT VORKOMMEN SOLLTE &ndash; sagen Sie es uns bitte:
 
 
 ;directly on <a href="irc://irc.freenode.net/#mageia-web">#mageia-web on Freenode IRC</a>,
-directly on <a href="irc://irc.freenode.net/#mageia-web">#mageia-web on Freenode IRC</a>,
+direkt im <a href="irc://irc.freenode.net/#mageia-web">#mageia-web-IRC_Kanal auf Freenode</a>,
 
 
 ;or <a href="http://twitter.com/mageia_org">via our Tweeter account</a>,
-or <a href="http://twitter.com/mageia_org">via our Tweeter account</a>,
+oder <a href="http://twitter.com/mageia_org">über unseren Tweeter-Account</a>,
 
 
 ;or with a <a href="https://www.mageia.org/mailman/listinfo/mageia-webteam">notice on the Web team mailing-list</a>,
-or with a <a href="https://www.mageia.org/mailman/listinfo/mageia-webteam">notice on the Web team mailing-list</a>,
+oderr mi einem <a href="https://www.mageia.org/mailman/listinfo/mageia-webteam">Hinweis auf der Web-Team Mailing-Liste</a>,
 
 
 ;or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">bug report</a>.
-or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">bug report</a>.
+oder einer <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">Fehler-Meldung</a>.
 
 
 ;You may embed this debug info if you like:
-You may embed this debug info if you like:
+Sie können diese Fehler-Information einbinden, wenn Sie das wünschen:
 
 
 ;Thanks!
-Thanks!
+Danke!
 
 
 ;back to that awesome Mageia home page
-back to that awesome Mageia home page
+Zurück zur überwältigenden Mageia-Homepage
 
