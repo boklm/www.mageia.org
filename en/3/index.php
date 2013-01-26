@@ -73,7 +73,7 @@ _lang_load($locale, '3');
                     <tr>
                         <th class="name"><?php _e('Installer DVD')?><br>
                             <span class="dlinfo"><?php _e('Free Software and some proprietary drivers')?></span></th>
-                        <td class="size">3.6GB</td>
+                        <td class="size">4.0GB</td>
                         <td><a rel="nofollow" href="?q=Mageia-3-beta2-i586-DVD.iso"><?php _e('32bit');?></a><br>
                             <a rel="nofollow" href="?q=Mageia-3-beta2-x86_64-DVD.iso"><?php _e('64bit');?></a></td>
                         <td><a rel="nofollow" href="?q=Mageia-3-beta2-i586-DVD.iso&amp;torrent=1"><?php _e('32bit');?></a><br>
@@ -94,7 +94,7 @@ _lang_load($locale, '3');
                     <tr>
                         <th class="name"><?php _e('LiveDVD KDE')?><br>
                             <span class="dlinfo"><?php _e('not suitable for upgrade')?></span></th>
-                        <td class="size">1GB</td>
+                        <td class="size">1.4GB</td>
                         <td><a rel="nofollow" href="?q=Mageia-3-beta2-LiveDVD-KDE4-i586-DVD.iso"><?php _e('32bit');?></a><br>
                             <a rel="nofollow" href="?q=Mageia-3-beta2-LiveDVD-KDE4-x86_64-DVD.iso"><?php _e('64bit');?></a></td>
                         <td><a rel="nofollow" href="?q=Mageia-3-beta2-LiveDVD-KDE4-i586-DVD.iso&amp;torrent=1"><?php _e('32bit');?></a><br>
@@ -103,7 +103,7 @@ _lang_load($locale, '3');
                     <tr>
                         <th class="name"><?php _e('LiveDVD GNOME')?><br>
                             <span class="dlinfo"><?php _e('not suitable for upgrade')?></th>
-                        <td class="size">1GB</td>
+                        <td class="size">1.4GB</td>
                         <td><a rel="nofollow" href="?q=Mageia-3-beta2-LiveDVD-GNOME-i586-DVD.iso"><?php _e('32bit');?></a><br>
                             <a rel="nofollow" href="?q=Mageia-3-beta2-LiveDVD-GNOME-x86_64-DVD.iso"><?php _e('64bit');?></a></td>
                         <td><a rel="nofollow" href="?q=Mageia-3-beta2-LiveDVD-GNOME-i586-DVD.iso&amp;torrent=1"><?php _e('32bit');?></a><br>
@@ -113,28 +113,28 @@ _lang_load($locale, '3');
                     <tr>
                         <th class="name"><?php _e('LiveCD KDE, English-only')?><br>
                             <span class="dlinfo"><?php _e('not suitable for upgrade')?></th>
-                        <td class="size">640MB</td>
+                        <td class="size">680MB</td>
                         <td><a rel="nofollow" href="?q=Mageia-3-beta2-LiveCD-KDE4-en-i586-CD.iso"><?php _e('32bit');?></a></td>
                         <td><a rel="nofollow" href="?q=Mageia-3-beta2-LiveCD-KDE4-en-i586-CD.iso&amp;torrent=1"><?php _e('32bit');?></a><br>
                     </tr>
                     <tr>
                         <th class="name"><?php _e('LiveCD GNOME, English-only')?><br>
                             <span class="dlinfo"><?php _e('not suitable for upgrade')?></th>
-                        <td class="size">640MB</td>
+                        <td class="size">680MB</td>
                         <td><a rel="nofollow" href="?q=Mageia-3-beta2-LiveCD-GNOME-en-i586-CD.iso"><?php _e('32bit');?></a></td>
                         <td><a rel="nofollow" href="?q=Mageia-3-beta2-LiveCD-GNOME-en-i586-CD.iso&amp;torrent=1"><?php _e('32bit');?></a></td>
                     </tr>
                     <tr><td colspan="3">&nbsp;</td></tr>
                     <tr>
                         <th><?php _e('Network installer, Free Software CD')?></th>
-                        <td class="size">~20MB</td>
+                        <td class="size">~35MB</td>
                         <td><a rel="nofollow" href="?q=Mageia-3-beta2-Boot-i586-CD.iso"><?php _e('32bit');?></a><br>
                             <a rel="nofollow" href="?q=Mageia-3-beta2-Boot-x86_64-CD.iso"><?php _e('64bit');?></a></td>
                     </tr>
                     <tr>
                         <th><?php _e('Network installer + nonfree firmware CD')?><br>
                             <span class="dlinfo"><?php _e('needed for some disc controllers, some network cards, etc.')?></span></th>
-                        <td class="size">~25MB</td>
+                        <td class="size">~55MB</td>
                         <td><a rel="nofollow" href="?q=Mageia-3-beta2-Boot-nonfree-i586-CD.iso"><?php _e('32bit');?></a><br>
                             <a rel="nofollow" href="?q=Mageia-3-beta2-Boot-nonfree-x86_64-CD.iso"><?php _e('64bit');?></a></td>
                     </tr>
