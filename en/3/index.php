@@ -127,14 +127,14 @@ _lang_load($locale, '3');
                     <tr><td colspan="3">&nbsp;</td></tr>
                     <tr>
                         <th><?php _e('Network installer, Free Software CD')?></th>
-                        <td class="size">~35MB</td>
+                        <td class="size">~35MB<br>~20MB</td>
                         <td><a rel="nofollow" href="?q=Mageia-3-beta2-Boot-i586-CD.iso"><?php _e('32bit');?></a><br>
                             <a rel="nofollow" href="?q=Mageia-3-beta2-Boot-x86_64-CD.iso"><?php _e('64bit');?></a></td>
                     </tr>
                     <tr>
                         <th><?php _e('Network installer + nonfree firmware CD')?><br>
                             <span class="dlinfo"><?php _e('needed for some disc controllers, some network cards, etc.')?></span></th>
-                        <td class="size">~55MB</td>
+                        <td class="size">~55MB<br>~30MB</td>
                         <td><a rel="nofollow" href="?q=Mageia-3-beta2-Boot-nonfree-i586-CD.iso"><?php _e('32bit');?></a><br>
                             <a rel="nofollow" href="?q=Mageia-3-beta2-Boot-nonfree-x86_64-CD.iso"><?php _e('64bit');?></a></td>
                     </tr>
