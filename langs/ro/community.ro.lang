@@ -19,7 +19,7 @@ http://blog.mageia.org/ro/
 
 
 ;Blog
-Blog
+Blog {ok}
 
 
 ;http://planet.mageia.org/en/
@@ -31,7 +31,7 @@ Planetă
 
 
 ;Calendar
-Calendar
+Calendar {ok}
 
 
 ;https://forum.mageia.org/en/
@@ -83,7 +83,7 @@ Bugzilla</a> &larr; pentru raportarea de erori
 
 
 ;Forum
-Forum
+Forum {ok}
 
 
 ;Mageia Applications Database
@@ -143,7 +143,7 @@ Echipe la care vă puteți alătura!
 
 
 ;Atelier
-Atelier
+Atelier {ok}
 
 
 ;Documentation
@@ -171,7 +171,7 @@ Verificarea și depanarea erorilor
 
 
 ;Mageia
-Mageia
+Mageia {ok}
 
 
 ;More about Mageia
@@ -199,7 +199,7 @@ Comitetul
 
 
 ;<a href="../donate/">Donations</a> &amp; <a href="../about/reports/">reports</a>.
-<a href="../donate/">Donations</a> &amp; <a href="../about/reports/">reports</a>.
+<a href="../donate/">Donații</a> &amp; <a href="../about/reports/">rapoarte</a>.
 
 
 ;This page needs you! <a href="https://wiki.mageia.org/en/Web_team">Join the Web team</a>!

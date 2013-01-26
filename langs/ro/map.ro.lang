@@ -163,7 +163,7 @@ http://planet.mageia.org/en/
 
 # en/map/index.php +64
 ;Blog
-Blog
+Blog {ok}
 
 
 # en/map/index.php +64
@@ -173,17 +173,12 @@ http://blog.mageia.org/en/
 
 # en/map/index.php +65
 ;Calendar
-Calendar
+Calendar {ok}
 
 
 # en/map/index.php +66
 ;Mailing-lists
 Liste de corespondență
-
-
-# en/map/index.php +69
-;Forums
-Forumuri
 
 
 # en/map/index.php +69
