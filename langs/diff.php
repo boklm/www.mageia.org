@@ -25,6 +25,12 @@ if (!file_exists($target_file)) {
     die('no target');
 }
 
+if($source_file =='en/about/constitution.en.lang') {
+	$constitution = true;
+} else {
+	$constitution = false;
+}
+
 $source_file = realpath($source_file);
 $target_file = realpath($target_file);
 
@@ -40,6 +46,10 @@ $s = '<a href="report.php">&laquo; back to langs report</a>';
 $s .= sprintf('<h1>Differences between %s source and %s target</h1>',
     substr($source_file, strpos($source_file, '/langs/')+7), $target_lang);
 
+if($constitution) {
+	$s .= '<h2 style="color: red;">Please translate constitution first</h2>';
+	$s .= '<p>You can find it in <a href="http://svnweb.mageia.org/org/constitution/">svn</a>. Please read <a href="https://wiki.mageia.org/en/Internationalisation_Team_%28i18n%29#Special_cases_of_web_pages">page on wiki for more information</a> about that.</p>';
+}
 foreach (array('missing', 'notrans', 'extra') as $type) {
 
     if (count($diff[$type]) > 0) {
