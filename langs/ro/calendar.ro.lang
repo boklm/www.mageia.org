@@ -8,7 +8,7 @@ Calendarul Mageia
 
 # /en/calendar/index.php +12
 ;Mageia calendar for organization, events, development schedule and more.
-Calendarul Mageia pentru organizare, evenimente, plan de implementare și multe altele.
+Calendarul Mageia pentru organizare, evenimente, graficul de dezvoltare și multe altele.
 
 
 # /en/calendar/index.php +13
@@ -43,17 +43,17 @@ dezvoltare &amp; plan de lansare
 
 # /en/calendar/index.php +75
 ;This calendar shows all Mageia events, <a href="https://wiki.mageia.org/en/Meetings">team meetings</a>, development planning milestones and possibly more.
-Acest calendar prezintă toate evenimentele Mageia, <a href="https://wiki.mageia.org/en/Meetings">întîlnirile de echipe</a>, pașii din plănuirea de dezvoltare și mai multe.
+Acest calendar prezintă toate evenimentele Mageia, <a href="https://wiki.mageia.org/en/Meetings">întîlnirile de echipe</a>, jaloanele de dezvoltare și multe altele.
 
 
 # /en/calendar/index.php +76
 ;It is public and available to all. Only Mageia Board and Council members and team leaders have a write access to it.
-Este disponibil tuturor în mod public. Doar membrii comitetului sau ai consiliului Mageia și liderii de echipă au acces pentru a scrie aici.
+Este disponibil tuturor în mod public. Doar membrii comitetului sau ai consiliului Mageia și liderii de echipă îl pot edita.
 
 
 # /en/calendar/index.php +77
 ;For any comment, addition, change to this calendar, feel free to contact us through:
-Pentru orice comentariu, adiție, schimbare a acestui calendar, vă invităm să ne contactați prin:
+Pentru orice comentariu, adăugare, schimbare a acestui calendar, vă invităm să ne contactați prin:
 
 
 # /en/calendar/index.php +79
@@ -63,7 +63,7 @@ liderul dumneavoastră de <a href="https://wiki.mageia.org/en/">echipă</a> sau 
 
 # /en/calendar/index.php +80
 ;<a href="irc://irc.freenode.net/#mageia-dev">#mageia-dev</a> on Freenode,
-<a href="irc://irc.freenode.net/#mageia-dev">#mageia-dev</a> la Freenode,
+<a href="irc://irc.freenode.net/#mageia-dev">#mageia-dev</a> pe Freenode,
 
 
 # /en/calendar/index.php +81
@@ -78,4 +78,4 @@ fișiere ICS
 
 # /en/calendar/index.php +86
 ;You may get read-only access directly to these .ics files:
-Puteți obține acces direct de citire pentru aceste fișiere .ics:
+Puteți obține drept de citire direct pentru aceste fișiere .ics:

@@ -33,7 +33,7 @@ Suporteri
 
 # en/map/index.php +19
 ;Governance
-Guvernare
+Guvernanță
 
 
 # en/map/index.php +21
@@ -113,7 +113,7 @@ Suport
 
 # en/map/index.php +51
 ;Software updates
-Actualizări software
+Actualizări de aplicații
 
 
 # en/map/index.php +52
@@ -123,12 +123,12 @@ Ciclul de viață al produsului
 
 # en/map/index.php +52
 ;Official Documentation
-Documentație Oficială
+Documentația oficială
 
 
 # en/map/index.php +53
 ;Community support
-Suport din partea comunității
+Suportul comunității
 
 
 # en/map/index.php +54
@@ -138,7 +138,7 @@ Suport profesional
 
 # en/map/index.php +55
 ;Compatible hardware
-Componente hardware compatibile
+Componente materiale compatibile
 
 
 # en/map/index.php +56
@@ -148,12 +148,12 @@ Componente hardware compatibile
 
 # en/map/index.php +60
 ;Community
-Comunitate
+Comunitatea
 
 
 # en/map/index.php +63
 ;Planet
-Planetă
+Planeta
 
 
 # en/map/index.php +63
@@ -178,13 +178,12 @@ Calendar {ok}
 
 # en/map/index.php +66
 ;Mailing-lists
-Liste de corespondență
+Liste de difuziune
 
 
 # en/map/index.php +69
 ;Forums
-Forums
-
+Forumuri
 
 # en/map/index.php +69
 ;http://forums.mageia.org/
@@ -213,17 +212,17 @@ Donați
 
 # en/map/index.php +85
 ;About you
-Despre dumneavoastră
+Despre voi
 
 
 # en/map/index.php +88
 ;Your Mageia id
-ID-ul tău la Mageia
+ID-ul vostru Mageia
 
 
 # en/map/index.php +89
 ;Privacy policy
-Politică de confidențialitate
+Politica de confidențialitate
 
 
 # en/map/index.php +123
@@ -238,7 +237,7 @@ mageia, sit, hartă, harta sitului
 
 # en/map/index.php +132
 ;Site Map
-Harta Sitului
+Harta sitului
 
 
 # en/map/index.php +134

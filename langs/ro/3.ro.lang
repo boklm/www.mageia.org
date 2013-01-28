@@ -8,17 +8,17 @@ Mageia 3 {ok}
 
 # ../../svn/web/en/3/index.php +34
 ;Development roadmap
-Drumul pentru implementare
+Grqficul de dezvoltare
 
 
 # ../../svn/web/en/3/index.php +35
 ;Features review
-Funcți disponibile
+Prezentarea funcționalităților
 
 
 # ../../svn/web/en/3/index.php +37
 ;Release notes
-Note despre această versiune
+Notele ediției
 
 
 # ../../svn/web/en/3/index.php +38
@@ -33,12 +33,12 @@ Raportări de erori
 
 # ../../svn/web/en/3/index.php +43
 ;Be careful! This is a beta, unstable release.
-Atenție! Această versiune este beta, adică instabilă.
+Atenție! Aceasta este o versiune beta, adică instabilă.
 
 
 # ../../svn/web/en/3/index.php +44
 ;It is only intended for developer use. DO NOT USE THIS IN PRODUCTION OR FOR OFFICIAL REVIEW.
-Este dedicată doar implementatorilor. NU O FOLOSIȚI ÎN PRODUCȚIE SAU PENTRU EXAMINARE OFICIALĂ.
+Este destinată doar dezvoltatorilor. NU O FOLOSIȚI ÎN PRODUCȚIE SAU PENTRU RECENZIE OFICIALĂ.
 
 
 # ../../svn/web/en/3/index.php +46
@@ -48,7 +48,7 @@ Descarcă %s
 
 # ../../svn/web/en/3/index.php +48
 ;Up to 167 locales are supported:
-Sunt suportate pînă la 167 localizări:
+Sînt suportate pînă la 167 localizări:
 
 
 # ../../svn/web/en/3/index.php +51
@@ -63,27 +63,27 @@ Vezi lista completă
 
 # ../../svn/web/en/3/index.php +54
 ;Installer DVD and CD ISOs now contains Free Software and some proprietary drivers.
-Fișierele ISO pentru DVD și CD conțin Software Gratuit și unele drivere negratuite.
+Fișierele ISO pentru DVD și CD conțin aplicații libere și cîțiva piloți propirietari.
 
 
 # ../../svn/web/en/3/index.php +55
 ;You will be asked of which kind of Software you want to install.
-Veți fi întrebat ce fel de Software doriți să instalați.
+Veți fi întrebat ce fel de aplicații doriți să instalați.
 
 
 # ../../svn/web/en/3/index.php +59
 ;Use LiveCDs or LiveDVDs for fresh new installs ONLY, NOT FOR UPGRADE.
-Folosiți CD-urile sau DVD-urile Live DOAR pentru instalări noi, NU PENTRU UPGRADE.
+Folosiți CD-urile sau DVD-urile Live DOAR pentru instalări noi, NU PENTRU ACTUALIZARE MAJORĂ.
 
 
 # ../../svn/web/en/3/index.php +60
 ;If you are looking for a stable version of Mageia, <a href="%s" rel="nofollow">go here</a>.
-Dacă doriți o versiune stabilă Mageia, <a href="%s" rel="nofollow">mergeți aici</a>.
+Dacă doriți o versiune Mageia stabilă, <a href="%s" rel="nofollow">mergeți aici</a>.
 
 
 # ../../svn/web/en/3/index.php +61
 ;Enjoy! And <a href="%s">please report bugs</a> if you find some.
-Savurați! și <a href="%s">raportați erori</a> dacă le gasiți.
+Profitați! Și <a href="%s">raportați erori</a> dacă le gasiți.
 
 
 # ../../svn/web/en/3/index.php +68
@@ -98,7 +98,7 @@ mărime
 
 # ../../svn/web/en/3/index.php +70
 ;link
-link {ok}
+legătură {ok}
 
 
 # ../../svn/web/en/3/index.php +71
@@ -113,17 +113,17 @@ DVD de instalare
 
 # ../../svn/web/en/3/index.php +77
 ;Free Software and some proprietary drivers
-Software Gratuit și unele drivere negratuite
+Aplicații libere și cîțiva piloți proprietari
 
 
 # ../../svn/web/en/3/index.php +79
 ;32bit
-32 biți
+32 de biți
 
 
 # ../../svn/web/en/3/index.php +80
 ;64bit
-64 biți
+64 de biți
 
 
 # ../../svn/web/en/3/index.php +85
@@ -133,7 +133,7 @@ CD de instalare
 
 # ../../svn/web/en/3/index.php +88
 ;dualarch
-pentru ambele arhitecturi
+arhitectură duală
 
 
 # ../../svn/web/en/3/index.php +95
@@ -143,7 +143,7 @@ LiveDVD KDE {ok}
 
 # ../../svn/web/en/3/index.php +96
 ;not suitable for upgrade
-nerecomandat pentru upgrade
+nerecomandat pentru actualizare majoră
 
 
 # ../../svn/web/en/3/index.php +104
@@ -163,12 +163,12 @@ LiveCD GNOME, doar limba engleză
 
 # ../../svn/web/en/3/index.php +129
 ;Network installer, Free Software CD
-CD pentru instalare din rețea, Software Gratuit
+CD de instalare prin rețea, aplicații libere
 
 
 # ../../svn/web/en/3/index.php +135
 ;Network installer + nonfree firmware CD
-CD pentru instalare din rețea + drivere negratuite
+CD de instalare prin rețea + microcod proprietar
 
 
 # ../../svn/web/en/3/index.php +136

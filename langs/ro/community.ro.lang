@@ -7,7 +7,7 @@ Mageia Community Central este locul unde toți contribuitorii și utilizatorii p
 
 
 ;mageia, community, news, tools, tasks
-mageia, comunitate, știri, instrumente, sarcini
+mageia, comunitate, știri, unelte, sarcini
 
 
 ;Mageia Community Central
@@ -27,7 +27,7 @@ http://planet.mageia.org/en/
 
 
 ;Planet
-Planetă
+Planeta
 
 
 ;Calendar
@@ -39,7 +39,7 @@ https://forum.mageia.org/en/
 
 
 ;Mailing-lists
-Liste de corespondență
+Liste de difuziune
 
 
 ;Forums
@@ -71,7 +71,7 @@ Puteți deasemenea <a href="../donate/">susține financiar</a> proiectul!
 
 
 ;Toolbox
-Cutie de unelte
+Trusa de unelte
 
 
 ;Wiki</a> &larr; collaborative documentation
@@ -87,7 +87,7 @@ Forum {ok}
 
 
 ;Mageia Applications Database
-Baza de date cu Aplicații Mageia
+Baza de date cu aplicațiile Mageia
 
 
 ;For developers &amp; packagers
@@ -95,15 +95,15 @@ Pentru dezvoltatori &amp; împachetatori
 
 
 ;Subversion
-Subminare
+Subversion {ok}
 
 
 ;Git</a> code repositories
-arhice de cod Git</a>
+Depozitele Git</a>
 
 
 ;Packages submission queue
-Lista de așteptare pentru pachete
+Lista de pachete propuse
 
 
 ;unmaintained packages
@@ -111,7 +111,7 @@ pachete neîntreținute
 
 
 ;Global QA report
-Raport global QA
+Raportul QA global
 
 
 ;Conversations
@@ -119,15 +119,15 @@ Conversații
 
 
 ;... or, how to get in touch with us? Easy:
-... sau, cum să ne contactați? Ușor:
+... sau, cum să ne contactați? Facil:
 
 
 ;IRC</a> on Freenode
-IRC</a> la Freenode
+IRC</a> pe Freenode
 
 
 ;mailing-lists 1</a> &amp; <a href="http://ml.mageia.org/">2
-liste de corespondență 1</a> &amp; <a href="http://ml.mageia.org/">2
+listele de difuziune 1</a> &amp; <a href="http://ml.mageia.org/">2
 
 
 ;in real life!
@@ -147,7 +147,7 @@ Atelier {ok}
 
 
 ;Documentation
-Documentare
+Documentație
 
 
 ;Packaging
@@ -163,11 +163,11 @@ Traducere
 
 
 ;Systems &amp; infrastructure administration
-Sisteme &amp; infrastructură administrație
+Sisteme &amp; administrarea infrastructurii
 
 
 ;Bugs triaging
-Verificarea și depanarea erorilor
+Trierea erorilor
 
 
 ;Mageia
@@ -183,7 +183,7 @@ Mai multe despre Mageia
 
 
 ;Our governance model</a> and structure:
-Modelul nostru de guvernare</a> și structura:
+Structura și modelul nostru de guvernare</a>:
 
 
 ;Teams
@@ -203,4 +203,4 @@ Comitetul
 
 
 ;This page needs you! <a href="https://wiki.mageia.org/en/Web_team">Join the Web team</a>!
-Această pagină are nevoie de dumneavoastră! <a href="https://wiki.mageia.org/en/Web_team">Alăturați-vă echipei Web</a>!
+Această pagină are nevoie de voi! <a href="https://wiki.mageia.org/en/Web_team">Alăturați-vă echipei Web</a>!
