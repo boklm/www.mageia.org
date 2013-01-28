@@ -35,12 +35,7 @@ Relatórios de bugs
 # ../../svn/web/en/3/index.php +43
 
 ;Be careful! This is a beta, unstable release.
-Be careful! This is a beta, unstable release.
-
-
-# ../../svn/web/en/3/index.php +43
-;Be careful! This is an alpha, unstable release.
-Tenha cuidado! Esta é uma versão alfa, instável.
+Tenha cuidado! Esta é uma versão beta, instável.
 
 
 # ../../svn/web/en/3/index.php +44
@@ -70,33 +65,12 @@ Veja a lista completa
 
 # ../../svn/web/en/3/index.php +54
 ;Installer DVD and CD ISOs now contains Free Software and some proprietary drivers.
-Installer DVD and CD ISOs now contains Free Software and some proprietary drivers.
+Instalador DVD e CD ISOs agora contém Software livre e alguns drivers proprietários.
 
 
 # ../../svn/web/en/3/index.php +55
 ;You will be asked of which kind of Software you want to install.
-You will be asked of which kind of Software you want to install.
-
-
-# ../../svn/web/en/3/index.php +54
-;Installer DVD and CD ISOs are made of Free Software exclusively.
-Instalador de DVD e CD ISOs são feitos exclusivamente de Software livre.
-
-
-# ../../svn/web/en/3/index.php +55
-;As a consequence, <span class="warn">proprietary Wi-Fi and video drivers are not included.
-Como conseqüência, <span class="avisar">proprietário Wi-Fi e drivers de vídeo não estão incluído.
-
-
-
-# ../../svn/web/en/3/index.php +56
-;If you need WiFi or specific video drivers <em>at install time</em>, you should go with below LiveCDs or LiveDVDs instead.</span>
-Se você precisa de WiFi ou drivers de vídeo específicos <em>no momento da instalação</em>, você deve ir com abaixo LiveCDs ou vivido em vez disso.</span>
-
-
-# ../../svn/web/en/3/index.php +57
-;You may, if you will, add nonfree software repository <em>after</em> the installation.
-Você pode, se você, adicionar o repositório de software não-livre <em>após</em> a instalação.
+Você será solicitado qual tipo de Software que deseja instalar.
 
 
 
@@ -137,12 +111,7 @@ DVD de instalação
 
 # ../../svn/web/en/3/index.php +77
 ;Free Software and some proprietary drivers
-Free Software and some proprietary drivers
-
-
-# ../../svn/web/en/3/index.php +77
-;100% Free Software
-100% Software livre
+Software livre e alguns drivers proprietários
 
 
 # ../../svn/web/en/3/index.php +79
