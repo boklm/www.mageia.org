@@ -73,10 +73,13 @@ $flow = array(
 
 $list  = array();
 $count = array();
+
+// FIXME take ## Other revenues lines into account.
 foreach ($parsed['# Income details > ## Donations monthly summary'] as $line) {
     $list[]  = $line[2];
     $count[] = $line[1];
 }
+
 unset($list[0]);
 unset($list[13]);
 unset($count[0]);
@@ -87,7 +90,7 @@ $flow['revenue_op'] = $count;
 
 include 'template_lib.php';
 
-$R = get_revenues($parsed['# Income details > ## Donations monthly summary']);
+$R = get_revenues($parsed['# Income details > ## Donations monthly summary'], $_months);
 $expenses_total = array_sum($expenses_monthly_summary[0]);
 
 
@@ -194,6 +197,7 @@ $expenses_total = array_sum($expenses_monthly_summary[0]);
     #summary { width: 300px; float: left; text-align: left; background: #fff; border-bottom: 1px solid #ddd; }
     #report { text-align: left; width: 800px; float: left; border: 1px solid #ddd; border-top: 0; }
     #links { width: 150px; float: left; background: #fff; text-align: left; border-right: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 1em;}
+    .accounts tr.total { font-weight: 600; }
     </style>
     <aside id="summary">
         <div class="para">
@@ -204,10 +208,12 @@ $expenses_total = array_sum($expenses_monthly_summary[0]);
             $k = sprintf('# Account balance on %d/12/31', $year);
             $k = array_key_exists($k, $parsed) ? $k : '# Account balance';
             $v = $parsed[$k];
-            $s = '<table class="fr-table">';
+            $s = '<table class="fr-table accounts">';
             foreach ($v as $k => $w) {
-                $s .= sprintf('<tr><td>%s</td><td class="money">%s</td></tr>',
-                    $k, number_format(str_replace(',', '.', $w), 2, '.', ','));
+                $s .= sprintf('<tr class="%s"><td>%s</td><td class="money">%s</td></tr>',
+                    str_replace(' ', '-', $k),
+                    $k,
+                    number_format(str_replace(',', '.', $w), 2, '.', ','));
             }
             $s .= '</table>';
             echo $s;

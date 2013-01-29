@@ -24,10 +24,9 @@ _lang_load($locale, 'about/reports');
                     <p><?php _e('Here you will find our various activity and financial reports for every year.')?></p>
 
                     <ul>
-                        <li>2012: <?php _e('<a href="2012/">Financial report</a> (in progress).')?></li>
-
+                        <li>2013: <?php _e('<a href="2013/">Financial report</a> (in progress).')?></li>
+                        <li>2012: <?php _e('<a href="2012/">Financial report</a>.')?></li>
                         <li>2011: <?php _e('<a href="https://wiki.mageia.org/en/Rapport_moral_2011">Moral report</a> (in French &amp; English), <a href="2011/">financial report</a>.')?></li>
-
                         <li>2010: <?php _e('Moral report, <a href="2010/">financial report</a>.')?></li>
                     </ul>
                 </div>

@@ -68,10 +68,8 @@ H;
  *
  * @return array('html' => string, 'data' => mixed)
 */
-function get_revenues($v)
+function get_revenues($v, $_months)
 {
-    global $_months;
-
     $html = '<div id="income-pie"></div>';
     $html .= '<table class="fr-table">';
 
