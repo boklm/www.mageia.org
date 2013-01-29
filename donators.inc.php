@@ -4,7 +4,7 @@
 
 /**
  */
-$anonymous = '16';
+$anonymous = '20';
 $donators = array(
     'Anonymous (x '.$anonymous.')',
     'Pascal Vilarem (Maât)',
@@ -127,7 +127,6 @@ $donators = array(
     'Stefan John',
     'Paul Dupouy',
     'Cedric Drolet',
-    'Jacques Paret-gris',
     'Sreejiraj Eluvangal',
     'Rémy Clouard (shikamaru)',
     'Sandro Veronese',
@@ -318,7 +317,7 @@ $donators = array(
     'James Campbell',
     'Jean-Marc Sarat',
     'Mike Arnautov',
-    'Guy LAURENT',
+    'Guy Laurent',
     'Martin Turner',
     'Didier Chaigne',
     'Eduardo Castiello Armayor',
@@ -349,10 +348,10 @@ $donators = array(
     'Ivar Øines',
     'Dirk Mrosek',
     'Stephen Adrian',
-    'OSWALD UND ADOLFINE KROP',
-    'KINDL, TOMAS, JUDR.',
-    'LYONESS EUROPE AG',
-    'MME NOOT & NEE HUYGHE',
+    'Oswald und Adolfine Krop',
+    'Kindl, Tomas, Judr.',
+    'Lyoness Europe AG',
+    'Mme Noot & Nee Huyghe',
     'Jonathan Statler',
     'Bob McCreadie',
     'Peter Mains',
@@ -380,14 +379,105 @@ $donators = array(
     'Tuan Nguyen',
     'Christian Fischer',
     'Philippe Pieyre',
-    'Jean Monnard'
+    'Jean Monnard',
+    'Douglas Trent',
+    'Donald Boyd',
+    'Robert Riches',
+    'Marvin Jankes',
+    'Glen Ogilvie',
+    'Peter Mains',
+    'Brian McNeil',
+    'Tom Van Dyck',
+    'George Magill',
+    'Tristan Campbell',
+    'Johnny Christiansen',
+    'Martin Alduncin Garrido',
+    'Pawel Susicki',
+    'Ермолаев Василий',
+    'Bjarne Thomsen',
+    'Jacques Paret-Gris',
+    'Thierry Chamouton',
+    'Bernard Siaud',
+    'Carolyn Rowse',
+    'David Hallam',
+    'Steven Shupe',
+    'Marcel Sahaghian',
+    'Vallin Estes',
+    'Jeffrey Kuhn',
+    'François Lermusiau',
+    'Jean-François Ramez',
+    'Laurent Trougnou',
+    'Ilya Diallo',
+    'Renaud Le Gac',
+    'Michele Trotta',
+    'Kenneth Parkes',
+    'Valgo Urtone',
+    'Robert Shellard',
+    'Brian McNeil',
+    'Claude Gilson',
+    'Attila Tóth',
+    'Walter Müller',
+    'Ronan Viel',
+    'Olivier Le Roy',
+    'Jeffrey Bruton',
+    'Surik Sayadyan',
+    'Francesca Silvana Scoppio',
+    'Franz Senftl',
+    'Laurent Trougnou',
+    'Grigory Maksaev',
+    'Brian Alleyne',
+    'LibreStickers',
+    'Jean-Michel Varvou',
+    'Shlomi Fish',
+    'Sébastien Gustin',
+    'Gérard Calas',
+    'Hans Micheelsen',
+    'Piermario Rodella',
+    'Marco Rossi',
+    'Jose Paulo Batista Silva',
+    'Jean-François Ansart',
+    'Felipe Valladolid Gonzalo',
+    'Kenneth Marsol Llop',
+    'Nicolas Gandriau',
+    'Mikael Hilger',
+    'Julien Simon',
+    'Adrien Guichard',
+    'Bert Aerts',
+    'Serge Moreau',
+    'Jean Sié',
+    'Jan-Gunnar Pihlgren',
+    'Stéphane Couturier',
+    'Jose Luis Monzonis Cabrera',
+    'Andrew Toller',
+    'Peter Mains',
+    'Bob McCreadie',
+    'Andreas Michaelis',
+    'Jonathan Statler',
+    'René Fischer',
+    'Vilhjalmur Ingi Arnason',
+    'Fabio Riccio',
+    'Stephen Adrian',
+    'Dirk Mrosek',
+    'Ivar Øines',
+    'Luis Chee Espinoza',
+    'Adrien Guichard',
+    'Giuseppe Juri Facchinetti',
+    'Richard Crosby',
+    'Ludwig Lemke',
+    'Arnaud Vacquier',
+    'Jurgen Thurau',
+    'Nicos Stawrakakis',
+    'Jean-Guy Tesseraud',
+    'B D Granger',
+    'Jean-Jacques Barret'
 );
 /* Last updated:
-   Paypal: July, 26
-   Bank: July, 26
+   Paypal: January, 29
+   Bank: January, 29
    Check:
    Cash:
 */
+$donators = array_unique($donators);
 
 //$html .= '<img src="/g/images/mageia_0.svg" style="position: absolute; top: 180px; width: 300px; opacity: 0.2;" />';
 
@@ -430,6 +520,7 @@ function html_donators_list($donators,$anonymous)
     foreach ($donators as $p)
         $html .= sprintf('<li>%s</li>', $p);
     $html .= '</ul>';
+    $html = implode(', ', $donators);
     
     return array(
         'count' => $count_donators,
