@@ -11,7 +11,7 @@ $js_options_hAxis = '{title: "2012"}';
 $js_data2_values  = <<<S
     ['2010', 8801.66, 1277.77],
     ['2011', 11154.02, 8327.25],
-    ['2012', 8358.08, 10754.23]
+    ['2012', 10072.08, 10766.69]
 S;
 
 $intro = <<<S
@@ -23,7 +23,6 @@ $intro = <<<S
 S;
 
 $last_known_account_title = sprintf('Account status on December 31<sup>st</sup>, %s', $year);
-$last_known_account_title = sprintf('Account status');
 
 include '../template.php';
 

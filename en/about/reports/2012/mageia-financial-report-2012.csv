@@ -9,14 +9,14 @@ year,2012,,,,,
 currency,EUR,,,,,
 url,http://www.mageia.org/en/about/reports/,,,,,
 licence,ODbL-1.0,This financial report data is made available under the Open Database License: http://opendatacommons.org/licenses/odbl/1.0/. Any rights in individual contents of the database are licensed under the Database Contents License: http://opendatacommons.org/licenses/dbcl/1.0/,,,,
-last updated,2012/11/10,,,,,
+last updated,2013/01/29,,,,,
 comment,This is a first attempt to provide open and direct access to Mageia financial data. We will try to improve on it, feel free to suggest improvements in format, detail, presentation.,,,,,
 ,,,,,,
 ,,,,,,
 # Account balance,,,,,,
-total,6901.53,,,,,
-main account,1294.13,,,,,
-paypal,204.27,,,,,
+total,8423.07,,,,,
+main account,2191.13,,,,,
+paypal,828.81,,,,,
 savings account,5403.13,,,,,
 ,,,,,,
 # Income Statement,,,,,,
@@ -56,8 +56,8 @@ month,count,total amount,check,transfer,paypal,cash
 8,13,497.00,190.00,0,307.00,0
 9,28,1251.80,90.00,450.00,801.80,0
 10,24,1838.00,100.00,810.00,928.00,0
-11,5,185.00,0,0,185.00,0
-12,0,0,0,0,0,0
+11,9,257.00,0,0,257.00,0
+12,15,732.00,0,267.00,465.00,0
 ,,,,,,
 ,,,,,,
 # Expenses details,,,,,,
@@ -86,10 +86,11 @@ date,category,description,amount,
 2012-08-25,infra:hardware,wires,40.93,
 2012-08-26,infra:hosting,Gandi: hosting provision,100.00,
 2012-08-31,bank,Paypal fees,9.24,
-2012-09-27,?,?,279.82,
+2012-09-27,infra:hosting,Online,279.82,
 2012-09-30,bank,Paypal fees,18.09,
 2012-10-31,bank,Paypal fees,20.21,
-2012-11-10,bank,Paypal fees,4.39,
+2012-11-30,bank,Paypal fees,7.16,
+2012-12-31,bank,Paypal fees,9.69
 ,,,,,,
 ,,,,,,
 # That's all folks!,,,,,,
