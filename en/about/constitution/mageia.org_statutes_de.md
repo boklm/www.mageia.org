@@ -193,33 +193,32 @@ und als Kläger/in mit einer einfachen Mehrheit des Boards der Direktoren.
 
 Er/Sie kann unter den gleichen Bedingungen gerichtliche Entscheidungen anfechten.
 
-He can only compromise with the executive committee's authorization
-by the simple majority.
+Er/Sie kann außergerichtliche Vergleiche mit einer einfachen Mehrheit des
+Exekutiv-Kommitees anstreben.
 
-He presides all assemblies. In case of absence or illness, he is replaced
-by the vice-chairman or, if not available, by the senior member of the Board
-of Directors and in case of equality by the oldest.
+Er/Sie sitzt allen Versammlungen vor. Im Fall der Abwesenheit oder Krankheit wird er/sie
+durch den/die Stellvertreter/in vertreten oder, wenn diese/r nicht verfügbar ist, durch das
+höchstrangige Mitglied des Boards der Direktoren, bei gleichem Rang durch den/die Ältesten.
 
-### 10.2 - The secretary general is in charge of everything relating to the correspondence as well as the records of the association.
+### 10.2 - Der/die Generalsekretär/in ist verantwortlich für alle Korrespondenz und die Aufzeichnungen des Vereins.
 
-He writes the minutes of the assemblies and boards of director's meetings,
-and in general, anything in writing about the functioning of the association,
-with the exception of it's accounting. 
+Er/Sie schreibt die Protokolle aller Versammlungen und Board-Meetings und generell alle Schriftstücke über die
+Funktionen des Vereins, mit Ausnahme seiner Buchhaltung.
 
-He is in charge of the special register provided by article 5 of the Law of 1st July 1901,
-and the articles 6 and 31 of the Decree of 16th August 1901.
-He ensures the execution of the formalities stipulated in those articles.
+Er/Sie ist verantwortlich für das „special register“, wie es in Artikel 5 des Gesetzes vom 1. Juli 1901 und
+Artikel 6 der Verfügung vom 16. August 1901 beschrieben wird.
+Er stellt sicher, dass die dort festgesetzten Formalitäten eingehalten werden.
 
-### 10.3 - The treasurer is in charge of all that is related to the administration of the assets of the association.
+### 10.3 - Der/die Schatzmeister/in ist verantwortlich für die Verwaltung der Aktive des Vereins
 
-Under the supervision of the chairman, he effects any payments
-and receives any sums owed to the association.
+Unter der Überwachung der/des Vorsitzenden führt er/sie alle Zahlungen des Vereines aus und erhält
+alle Gelder, die dem Verein gehören.
 
-He is responsible for the accounting of all operations he carries out
-and which he reports to the annual general meeting,
-which in turn approves his administration as far as required.
+Er/sie ist verantwortlich für die Buchhaltung aller von ihm/ihr ausgeführten Arbeitsschritte,
+er berichtet hierüber auf der jährlichen Hauptversammlung, die so weit nötig seine Verwaltung
+genehmigt.
 
-## Article 11 - Meeting of the Board of Directors
+## Artikel 11 - Meetings des Boards der Direktoren
 
 The board of directors meets when convoked by it's chairman:
 at least once every 6 months or at the request of a quarter of it's members.
@@ -377,22 +376,21 @@ and any other resources authorised by the law
 * proceeds from sales of assets or of services delivered
 * industrial property ('trademark') revenues.
 
-## Article 16 - Internal regulations
+## Article 16 - Interne Regelungen
 
-The board of directors may set out internal regulations that will be approved
-by the general assembly.
+Das Board der Direktoren darf interne Regelungen erlassen, die von der Hauptversammlung
+genehmigt werden.
 
-Such regulations, if any, will specify the modalities of executing the present statutes.
+Solche Regelungen - wenn vorhanden - verändern die Ausführungen der aktuellen Statuten.
 
-They may equally fix any points not foreseen in these statutes.
+Sie dürfen auch Probleme beheben, die in diesen Statuten nicht vorhergesehen wurden.
 
-Subsequently, it will be possible to update the internal regulations
-through modifications that the board of directors will have to submit
-for approval to the general meeting.
+Genauso ist es möglich, diese internen Regelungen zu aktualisieren, wobei das Board der
+Direktoren diese der Hauptversammlung zur Genehmigung vorlegen muss.
 
-The internal regulations are applicable to all association members.
+Die internen Regelungen sind für alle Mitglieder des Vereines maßgeblich.
 
-## Article 17 - Legal competence
+## Article 17 - Gerichtsbarkeit
 
-The competent court for any actions concerning the association is the one
-in whose area the association has it's registered office.
+Das zuständige Gericht für alle Handlungen des Vereins ist dasjenige in dessen
+Zuständigkeitsgebiet sich die eingetragene Geschäftsstelle befindet.
