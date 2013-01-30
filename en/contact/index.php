@@ -32,11 +32,11 @@ _lang_load($locale, 'contact');
             _h('You are not sure who to contact', null, 'h2');?>
             <ul id="contrib-time" class="contrib-list">
                 <li>
-                    <h3><a href="mailto:contact@mageia.org">contact@mageia.org</a></h3>
+                    <h3><a href="mailto:contact&#x40;mageia.org">contact&#x40;mageia.org</a></h3>
                     <?php _h('For generic contact information.')?>
                 </li>
                 <li>
-                    <h3><a href="mailto:press@mageia.org">press@mageia.org</a></h3>
+                    <h3><a href="mailto:press&#x40;mageia.org">press&#x40;mageia.org</a></h3>
                     <?php _h('For press inquiries.')?>
                 </li>
                 <li>
@@ -53,8 +53,8 @@ _lang_load($locale, 'contact');
         <?php
         _h('You have an idea of who to contact', null, 'h2');
         _h('You may post in the <a href="%s">forum</a> or the <a href="%s">public discussion mailing-list</a>.',
-            array('https://www.mageia.org/mailman/listinfo/mageia-discuss'));
-        _h('You may use the following email aliases too to contact all members of a group at once:');
+            array('https://forums.mageia.org/', 'https://www.mageia.org/mailman/listinfo/mageia-discuss'));
+        _h('You also may use the following email aliases too to contact all members of a group at once:');
         $groups = array(
             'board'     => _d('Mageia.Org Board members'),
             'council'   => _d('Mageia Council'),
@@ -67,19 +67,18 @@ _lang_load($locale, 'contact');
         );
         echo '<ul class="hl">';
         foreach ($groups as $k => $v) {
-            _h('<a href="mailto:%s@group.mageia.org">%s</a>', array($k, $v), 'li');
+            _h('<a href="mailto:%s&#x40;group.mageia.org">%s</a>', array($k, $v), 'li');
         }
         echo '</ul>';
 
         _h(
-            'In most case you should avoid using those aliases, and instead use appropriate <a href="%s">public</a> <a href="%s">mailing lists</a>.',
+            'In most case you should avoid using those aliases as they should only be used for the rare cases where private emails are needed. Use appropriate public mailing list on <a href="%s">either</a> of <a href="%s">two</a> pages instead.',
             array('https://www.mageia.org/mailman/', 'http://ml.mageia.org/')
         );
-        _h('This should only be used for the rare cases where private emails are needed.');
         _h('If you want to contact Council or Board for a public discussion, you can start a thread on a mailing-list and add the Board or Council alias in CC.');
         echo '<hr>';
         _h('You want to join and contribute to Mageia', null, 'h2');
-        _h('Please see <a href="%s">our Contributions page</a>', array('../contribute/'));
+        _h('Please see <a href="%s">our Contributions page</a>.', array('../contribute/'));
         ?>
         <hr>
         </div>
