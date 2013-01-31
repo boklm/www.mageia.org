@@ -3,7 +3,7 @@
 
 # Please translate first "mageia.org_statutes_fr.md" or "mageia.org_statutes_en.md" as a fallback. Check wiki for details.
 ;Please translate first "mageia.org_statutes_fr.md" or "mageia.org_statutes_en.md" as a fallback. Check wiki for details.
-Please translate first "mageia.org_statutes_fr.md" or "mageia.org_statutes_en.md" as a fallback. Check wiki for details. {ok}
+Please translate first "mageia.org_statutes_fr.md" or "mageia.org_statutes_en.md" as a fallback. Check wiki for details.
 
 
 # ../../svn/web/en/about/constitution/index.php +12
@@ -13,9 +13,9 @@ Constituția Mageia.Org
 
 # ../../svn/web/en/about/constitution/index.php +14
 ;mageia.org, association, organization, legal, constitution, statuts
-mageia.org, asociație, organizație, legal, constituție, statute
+mageia.org, asociație, organizație, legal, constituție, stare
 
 
 # ../../svn/web/en/about/constitution/index.php +27
 ;Original and definitive version (in French) is available from %s. These <em>may</em> be improved. Do not hesitate to mail your patches; check how in the %s.
-Versiunea originală și definitivă (în franceză) este disponibilă din %s. Acestea <em>pot</em> fi îmbunătățite. Nu ezitați să trimiteți peticele dumneavoastră; verificați cum în %s.
+Versiunea originală și definitivă (în franceză) este disponibilă la %s. Acestea <em>pot</em> fi îmbunătățite. Nu ezitați să ne trimiteți adagiile dumneavoastră; vedeți cum în %s.

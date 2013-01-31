@@ -3,7 +3,7 @@ Comunitatea Mageia
 
 
 ;Mageia Community Central is the place where all contributors and users can find the latest news about Mageia and learn more about what to do in the project.
-Mageia Community Central este locul unde toți contribuitorii și utilizatorii pot găsi ultimele noutăți despre Mageia și pot afla mai multe despre ce să facă în proiect.
+Centrul comunității Mageia este locul unde toți contribuitorii și utilizatorii pot găsi ultimele noutăți despre Mageia și pot afla mai multe despre ce să facă în proiect.
 
 
 ;mageia, community, news, tools, tasks
@@ -11,7 +11,7 @@ mageia, comunitate, știri, unelte, sarcini
 
 
 ;Mageia Community Central
-Mageia Community Central
+Centrul comunității Mageia
 
 
 ;http://blog.mageia.org/en/
@@ -19,7 +19,7 @@ http://blog.mageia.org/ro/
 
 
 ;Blog
-Blog {ok}
+Blog
 
 
 ;http://planet.mageia.org/en/
@@ -31,7 +31,7 @@ Planeta
 
 
 ;Calendar
-Calendar {ok}
+Calendar
 
 
 ;https://forum.mageia.org/en/
@@ -83,11 +83,11 @@ Bugzilla</a> &larr; pentru raportarea de erori
 
 
 ;Forum
-Forum {ok}
+Forum
 
 
 ;Mageia Applications Database
-Baza de date cu aplicațiile Mageia
+Baza de date Mageia cu aplicații 
 
 
 ;For developers &amp; packagers
@@ -95,7 +95,7 @@ Pentru dezvoltatori &amp; împachetatori
 
 
 ;Subversion
-Subversion {ok}
+Subversion
 
 
 ;Git</a> code repositories
@@ -119,7 +119,7 @@ Conversații
 
 
 ;... or, how to get in touch with us? Easy:
-... sau, cum să ne contactați? Facil:
+... sau, cum să ne contactați? Foarte simplu:
 
 
 ;IRC</a> on Freenode
@@ -143,7 +143,7 @@ Echipe la care vă puteți alătura!
 
 
 ;Atelier
-Atelier {ok}
+Atelier
 
 
 ;Documentation
@@ -171,7 +171,7 @@ Trierea erorilor
 
 
 ;Mageia
-Mageia {ok}
+Mageia
 
 
 ;More about Mageia
