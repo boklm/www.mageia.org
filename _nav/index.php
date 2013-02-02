@@ -11,7 +11,7 @@
 <body class="community">
     <div id="navdoc">
     <?php
-    include '../lib/php-markdown/markdown.php';
+    include 'lib/php-markdown/markdown.php';
     echo Markdown(file_get_contents('README.md'));
     ?>
     </div>

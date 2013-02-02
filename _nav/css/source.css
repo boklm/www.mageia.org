@@ -4,6 +4,29 @@
  * TODO top nav must stay on top when scrolling (reduced or full)
  *
 */
+/** Global rules for *.mageia.org */
+/*
+body {
+    background: #fff;
+    font-family: Verdana, "Trebuchet MS", "Lucida Grande", "Lucida Sans", Verdana, Tahoma, Arial, sans-serif;
+}
+a, a:link { color: #2383c2; text-decoration: none; }
+*/
+h1,
+h2,
+h3 {
+  font-family: "Century Gothic", "Trebuchet MS", Arial, sans-serif;
+  font-weight: normal;
+  color: #3494d3;
+}
+
+h2 a,
+h3 a {
+  color: #3494d3;
+  text-decoration: none;
+}
+
+/** Specific to navigation elements */
 
 #hmgn { margin: 0; padding: 0; }
 #mgnav {

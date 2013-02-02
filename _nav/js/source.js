@@ -9,7 +9,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
     $("body").prepend('<header id="hmgn" style="display: none;"></header>');
     // TODO append footer?
 
-    $("head").append('<link rel="stylesheet" href="//www.mageia.org/_nav/css/">');
+    $("head").append('<link rel="stylesheet" href="//nav.mageia.org/css/">');
 
     // TODO test is h1#mgnavt exists;
     // TODO if not, inject existing first h1 value into a new h1#mgnavt element;
@@ -23,7 +23,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
     }
 
     $("#hmgn")
-        .load("//www.mageia.org/_nav/html/?" + $.param(params))
-        .delay(100)
+        .load("//nav.mageia.org/html/?" + $.param(params))
+        .delay(10)
         .slideDown();
 })();

@@ -2,6 +2,8 @@
 /**
 */
 
+$t0 = microtime();
+
 /** Below variables are defined after the document variables. */
 
 /** URL of the document calling the service. */
@@ -30,4 +32,7 @@ header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: GET');
 header('Content-Type: text/html;charset=utf-8');
 header(sprintf('Expires: %s', gmdate('r', strtotime('+1 day'))));
-echo _mgnav_html($wrap, $lang);
+
+echo _mgnav_html($wrap, $lang, null, 'www.mageia.org', NCache::build('../var/tmp/cache'));
+
+apache_note('navMakeTime', number_format(microtime() - $t0, 6));
