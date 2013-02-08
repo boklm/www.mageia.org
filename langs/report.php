@@ -49,6 +49,7 @@
     $enStringsCount = array();
     $report         = array();
     $stats          = array();
+    $stats['en']['files'] = 0;
 
     $diff_link      = '<a href="diff.php?s=%s&l=%s" title="see detailed diff">';
 
@@ -56,9 +57,9 @@
 
     foreach ($otherLangs as $l) {
 
-        if (is_dir($f)) continue;
-
         $stats['en']['files'] += 1;
+        $stats[$l]['files'] = 0;
+        $stats[$l]['strings'] = 0;
 
         $s = sprintf('<tr><th>%s<br><span style="font-weight: normal; font-size: smaller;">%s</span></th>',
             $langs[$l], $l);
@@ -67,6 +68,7 @@
 
         foreach ($enFiles as $f) {
 
+            $enStringsCount[$f] = 0;
             $langF = str_replace('.en.lang', '.' . $l . '.lang', $f);
             $langF = $l . substr($langF, 2);
             $link = str_replace(array('en/', '.en.lang', 'index'), '', $f);
@@ -147,9 +149,6 @@
                 $stats[$l]['strings'] += $done;
 
             } else {
-                $stats[$l]['files']   += 0;
-                $stats[$l]['strings'] += 0;
-
                 $cols .= sprintf('<td class="missing"><a href="missing.php?s=%s&amp;l=%s" class="action addlang">add translation</a>%s</td>',
                     $f, $l, $old_page
                 );
@@ -170,7 +169,6 @@
             );
         }
         $s .= $cols;
-        
         $s .= '</tr>';
         $languages[$progress . '-' . $l] = $s;
     }
