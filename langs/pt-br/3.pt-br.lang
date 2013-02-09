@@ -50,7 +50,7 @@ Baixar %s
 
 # ../../svn/web/en/3/index.php +48
 ;Up to 167 locales are supported:
-Até 167 localidades são suportados:
+Até 167 idiomas são suportados:
 
 
 # ../../svn/web/en/3/index.php +51
@@ -65,27 +65,28 @@ Veja a lista completa
 
 # ../../svn/web/en/3/index.php +54
 ;Installer DVD and CD ISOs now contains Free Software and some proprietary drivers.
-Instalador DVD e CD ISOs agora contém Software livre e alguns drivers proprietários.
+As imagens ISO do Instalador em DVD e CD agora contém Software livre e alguns drivers proprietários.
 
 
 # ../../svn/web/en/3/index.php +55
 ;You will be asked of which kind of Software you want to install.
-Você será solicitado qual tipo de Software que deseja instalar.
-
+Você será solicitado a escolher qual tipo de Software que deseja instalar.
 
 
 # ../../svn/web/en/3/index.php +59
 ;Use LiveCDs or LiveDVDs for fresh new installs ONLY, NOT FOR UPGRADE.
-Uso LiveCDs ou vivido fresca nova instala apenas, não para atualizar.
+O uso dos LiveCDs ou LiveDVDs são apenas para novas instalações limpas, NÃO SÃO PARA ATUALIZAÇÕES.
 
 
 # ../../svn/web/en/3/index.php +60
 ;If you are looking for a stable version of Mageia, <a href="%s" rel="nofollow">go here</a>.
-Se você estiver procurando por uma versão estável do Mageia, <a href="%s" rel="nofollow">vai aqui</a>.
+Se você estiver procurando por uma versão estável do Mageia, <a href="%s" rel="nofollow">acesse aqui</a>.
+
 
 # ../../svn/web/en/3/index.php +61
 ;Enjoy! And <a href="%s">please report bugs</a> if you find some.
-Divirta-se! E <a href="%s">por favor reportar bugs</a>, se você encontrar alguns.
+Divirta-se! E <a href="%s">por favor reporte bugs</a>, se você encontrar alguns.
+
 
 # ../../svn/web/en/3/index.php +68
 ;Format
@@ -96,9 +97,11 @@ Formato
 ;size
 tamanho
 
+
 # ../../svn/web/en/3/index.php +70
 ;link
 link {ok}
+
 
 # ../../svn/web/en/3/index.php +71
 ;BitTorrent
@@ -108,6 +111,7 @@ BitTorrent {ok}
 # ../../svn/web/en/3/index.php +76
 ;Installer DVD
 DVD de instalação
+
 
 # ../../svn/web/en/3/index.php +77
 ;Free Software and some proprietary drivers
