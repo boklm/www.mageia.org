@@ -179,6 +179,7 @@ P;
 
         global $_t;
 
+        $_t[$s] = trim(str_replace(array('{ok}', '{OK}', '{Ok}', '{oK}'), '', $_t[$s]));
         return array_key_exists($s, $_t) ? $_t[$s] : $s;
     }
 }

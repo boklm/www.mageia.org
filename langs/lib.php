@@ -100,7 +100,8 @@ if ( ! function_exists('glob_recursive'))
 
 function _lang_file_switch($s, $l)
 {
-    return $l . substr(str_replace('.en.lang', '.' . $l . '.lang', $s), 2);
+    $s = str_replace('en.lang', $l . '.lang', $s);
+    return str_replace('en/', $l . '/', $s);
 }
 
 function get_lang_references()

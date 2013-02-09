@@ -33,7 +33,7 @@
     <header id="mgnavt">
         <h1><a href="//www.mageia.org/">www.mageia.org</a> translation report</h1>
         <ul>
-            <li><a href="https://wiki.mageia.org/en/Internationalisation_Team_(i18n)#Website_translation">i18n Web Wiki</a> (<a href="https://wiki.mageia.org/en/Internationalisation_Team_%28i18n%29#Special_cases_of_web_pages">Special cases for some web pages like downloads/get, constitution</a>)</li>
+            <li><a href="https://wiki.mageia.org/en/Internationalisation_Team_(i18n)#Website_translation">i18n Web Wiki</a> Special cases for navigation and some web pages like (<a href="https://wiki.mageia.org/en/Internationalisation_Team_%28i18n%29#Special_cases_of_web_pages">downloads/get, constitution</a>)</li>
         </ul>
     </header>
     <div id="page">
@@ -44,6 +44,8 @@
     define('APP_ROOT', realpath(__DIR__ . '/..'));
 
     $enFiles    = get_lang_references();
+    // added navigation file
+    array_unshift($enFiles, '../_nav/langs/en.lang');
     $otherLangs = get_other_langs();
 
     $enStringsCount = array();
@@ -58,8 +60,8 @@
     foreach ($otherLangs as $l) {
 
         $stats['en']['files'] += 1;
-        $stats[$l]['files'] = 0;
-        $stats[$l]['strings'] = 0;
+        $stats[$l]['files']    = 0;
+        $stats[$l]['strings']  = 0;
 
         $s = sprintf('<tr><th>%s<br><span style="font-weight: normal; font-size: smaller;">%s</span></th>',
             $langs[$l], $l);
@@ -69,13 +71,29 @@
         foreach ($enFiles as $f) {
 
             $enStringsCount[$f] = 0;
+            if ($f == '../_nav/langs/en.lang') {
+                $nav = true;
+            } else {
+                $nav = false;
+            }
+
             $langF = str_replace('.en.lang', '.' . $l . '.lang', $f);
-            $langF = $l . substr($langF, 2);
+            if ($nav) {
+                $langF = '../_nav/langs/' . $l . '.lang';
+            } else {
+                $langF = $l . substr($langF, 2);
+            }
             $link = str_replace(array('en/', '.en.lang', 'index'), '', $f);
-            $dest_l = sprintf('%s/%s/%s/%s', APP_ROOT, $l, $link, 'index.php');
-            $dest_en = sprintf('%s/%s/%s/%s', APP_ROOT, 'en', $link, 'index.php');
+            if ($nav) {
+                $dest_en = sprintf('%s/%s/%s', APP_ROOT, '_nav/langs', 'en.lang');
+                $dest_l = sprintf('%s/%s/%s', APP_ROOT, '_nav/langs', $l . '.lang');
+            } else {
+                $dest_en = sprintf('%s/%s/%s/%s', APP_ROOT, 'en', $link, 'index.php');
+                $dest_l = sprintf('%s/%s/%s/%s', APP_ROOT, $l, $link, 'index.php');
+            }
+
             // if symlink e.g. does directly translated page exist?
-            if ((realpath($dest_l) == realpath($dest_en))) {
+            if ((realpath($dest_l) == realpath($dest_en)) || $nav) {
                 $page_not_linked = '';
                 $old_page = '';
             } else {
@@ -103,6 +121,14 @@
 
                 if ($link == 'downloads/get') {
                     $link = sprintf('<a href="//www.mageia.org/%s/%s/?q=Mageia-2-dual-CD.iso&amp;d=1" class="action viewpage">view download OK page</a><span style="font-size: 3px; display: block;">&nbsp;</span><a href="//www.mageia.org/%s/%s/?q=Non_existing_file&amp;d=1" class="action viewpage">view non existing file page</a>', $l, $link, $l, $link);
+                } else if ($nav) {
+                    $local_f  = @file_get_contents('../_nav/langs/' . $l . '.lang');
+                    $mognas_f = @file_get_contents('http://nav.mageia.org/langs/' . $l . '.lang');
+                    if ($local_f != $mognas_f) {
+                        $link = '<br> difference in svn <a href="http://svnweb.mageia.org/web/www/trunk/_nav/langs/">1</a> and <a href="http://svnweb.mageia.org/web/nav/langs/">2</a>';
+                    } else {
+                        $link = '';
+                    }
                 } else {
                     $link = sprintf('<a href="//www.mageia.org/%s/%s" class="action viewpage">view page</a>%s', $l, $link, $page_not_linked);
                 }
