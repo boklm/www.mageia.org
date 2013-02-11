@@ -1,43 +1,72 @@
-;About&nbsp;us
-Tentang&nbsp;kami
+# Generated manually on 2013-02-07T19:20:00+01:00
+# Domain _nav
 
-;Downloads
-Download
 
-;Support
-Dukungan
-
-;Community
-Komunitas
-
-;Contribute
-Kontribusi
-
-;You
-Kamu
-
-;Contact
-Kontak
-
+# /_nav/lib.php +65
 ;Go to mageia.org site map.
 Pergi ke peta situs mageia.org.
 
+
+# /_nav/lib.php +66
+;About&nbsp;us
+Tentang&nbsp;kami
+
+
+# /_nav/lib.php +66
 ;Learn more about Mageia.
 Pelajari lebih lanjut tentang Mageia.
 
+
+# /_nav/lib.php +67
+;Downloads
+Download
+
+
+# /_nav/lib.php +67
 ;Download Mageia ISO and updates.
 Download ISO dan update Mageia.
 
+
+# /_nav/lib.php +68
+;Support
+Dukungan
+
+
+# /_nav/lib.php +68
 ;Get support from Mageia community.
 Dapatkan dukungan dari komunitas Mageia.
 
-;
 
+# /_nav/lib.php +69
+;Community
+Komunitas
+
+
+# /_nav/lib.php +70
+;Contribute
+Kontribusi
+
+
+# /_nav/lib.php +70
 ;You too can build Mageia with us!
-Kamu juga bisa membangun Mageia bersama kami!.
+Kamu juga bisa membangun Mageia bersama kami!
 
+
+# /_nav/lib.php +71
+;You
+Kamu
+
+
+# /_nav/lib.php +71
 ;Your Mageia online account.
 Akun online Mageia-mu.
 
+
+# /_nav/lib.php +72
+;Contact
+Kontak
+
+
+# /_nav/lib.php +72
 ;Contact Us
 Hubungi Kami
