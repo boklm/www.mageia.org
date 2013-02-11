@@ -71,26 +71,6 @@ Kurulum yapan DVD ve CD ISO'ları şimdi özgür yazılım ve bazı tescilli sü
 Hangi yazılım türünü kurmak istediğiniz size sorulacaktır.
 
 
-# ../../svn/web/en/3/index.php +54
-;Installer DVD and CD ISOs are made of Free Software exclusively.
-DVD ve ISO'ların yükleyicisi yalnızca özgür yazılım yapımıdır.
-
-
-# ../../svn/web/en/3/index.php +55
-;As a consequence, <span class="warn">proprietary Wi-Fi and video drivers are not included.
-Bunun sonucu olarak, <span class="warn">tescilli kablosuz ağ (Wi-Fi) ve ekran kartı sürücülerini içermez.
-
-
-# ../../svn/web/en/3/index.php +56
-;If you need WiFi or specific video drivers <em>at install time</em>, you should go with below LiveCDs or LiveDVDs instead.</span>
-Eğer, <em>Kurulum sırasında</em> WiFi veya özel video sürücülerininde kurulmasını isterseniz, LiveDVD'ler yerine aşağıdaki LiveCD'leri kullanmalısınız.</span>
-
-
-# ../../svn/web/en/3/index.php +57
-;You may, if you will, add nonfree software repository <em>after</em> the installation.
-İsterseniz kurulum <em>sonrası</em> nonfree yazılım deposunu ekleyebilirsiniz.
-
-
 # ../../svn/web/en/3/index.php +59
 ;Use LiveCDs or LiveDVDs for fresh new installs ONLY, NOT FOR UPGRADE.
 LiveCD'leri veya LiveDVD'leri YALNIZCA yeni kurulum için kullnınız, YÜKSELTME İÇİN KULLANMAYINIZ.
@@ -134,11 +114,6 @@ Kurulum DVD'si
 # ../../svn/web/en/3/index.php +77
 ;Free Software and some proprietary drivers
 özgür yazılım ve bazı tescilli sürücüler
-
-
-# ../../svn/web/en/3/index.php +77
-;100% Free Software
-100% Özgür yazılım
 
 
 # ../../svn/web/en/3/index.php +79
