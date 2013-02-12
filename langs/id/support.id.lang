@@ -63,11 +63,7 @@ Kamu bisa melihat %sdokumentasi yang ada di sini%s. Atau mungkin juga melihat %s
 
 # ../../svn/web/en/support/index.php +44
 ;Updates are available for %s (security and bug fixes) and published on an ongoing basis.
-Updates are available for %s (security and bug fixes) and published on an ongoing basis.
-
-
-;Updates are available for %s and %s (security and bug fixes) and published on an ongoing basis.
-Update tersedia untuk %s dan %s (keamanan dan perbaikan bug) dan diterbitkan secara berkelanjutan.
+Update tersedia untuk %s (keamanan dan perbaikan bug) dan diterbitkan secara berkelanjutan.
 
 
 # ../../svn/web/en/support/index.php +45
@@ -87,10 +83,7 @@ Rilis Mageia didukung setidaknya selama 18 bulan.
 
 # ../../svn/web/en/support/index.php +52
 ;Mageia 1 was supported until December 1st, 2012.
-Mageia 1 was supported until December 1st, 2012.
-
-;Mageia 1 will be supported until December 1st, 2012.
-Mageia 1 akan didukung sampai 1 Desember 2012.
+Mageia 1 didukung sampai 1 Desember 2012.
 
 
 # ../../svn/web/en/support/index.php +53
