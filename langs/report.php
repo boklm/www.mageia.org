@@ -53,7 +53,7 @@
     $stats          = array();
     $stats['en']['files'] = 0;
 
-    $diff_link      = '<a href="diff.php?s=%s&l=%s" title="see detailed diff">';
+    $diff_link      = '<a href="diff.php?s=%s&amp;l=%s" title="see detailed diff">';
 
     $languages      = array();
 
@@ -195,17 +195,22 @@
             );
         }
         $s .= $cols;
-        $s .= '</tr>';
+        $s .= '</tr>' . PHP_EOL;
         $languages[$progress . '-' . $l] = $s;
     }
     $en_language = array_shift($languages); // shift English for proper sorting
     krsort($languages, SORT_NUMERIC);
     array_unshift($languages, $en_language); // unshift English back
-    $s = implode($languages);
 
     $enFiles = array_map(function ($e) { return str_replace('en/', '', $e); }, $enFiles);
-    $thfiles = '<th>' . implode('</th><th>', $enFiles) . '</th>';
+    $thfiles = '<th>' . implode('</th><th>', $enFiles) . '</th>' . PHP_EOL;
     $count   = count($otherLangs);
+    $chunks  = array_chunk($languages, 8);
+    $table_body = array();
+    foreach ($chunks as $chunk) {
+        $table_body = array_merge($table_body, $chunk, array(count($chunk) >= 4 ? '<tr><th>&nbsp;</th><th>File</th>' . $thfiles : ''));
+    }
+    $s = implode($table_body);
 
     echo <<<S
 <table border="1">
