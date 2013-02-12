@@ -33,7 +33,7 @@ _lang_load($locale, "about/constitution");
                     <?php
                     include G_APP_ROOT . '/lib/php-markdown/markdown.php';
                     $l = isset($_GET['l']) ? $_GET['l'] : $locale;
-                    if(in_array($l, array('en', 'fr', 'sl', 'tr', 'ro', 'de', 'pt-br'))) {
+                    if(in_array($l, array('en', 'fr', 'sl', 'tr', 'ro', 'de', 'pt-br', 'el'))) {
                         echo Markdown(file_get_contents('mageia.org_statutes_' . $l . '.md'));
                     } else {
                         echo Markdown(file_get_contents('mageia.org_statutes_en.md'));
