@@ -3,6 +3,7 @@
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-18603191-1']);
   _gaq.push(['_setDomainName', '.mageia.org']);
+  _gaq.push(['_gat._anonymizeIp']);
   _gaq.push(['_trackPageview']);
 
   (function() {
