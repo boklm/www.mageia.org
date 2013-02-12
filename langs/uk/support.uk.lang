@@ -41,6 +41,11 @@
 
 
 
+# ../../svn/web/en/support/index.php +44
+;Updates are available for %s (security and bug fixes) and published on an ongoing basis.
+Updates are available for %s (security and bug fixes) and published on an ongoing basis.
+
+
 ;Updates are available for %s and %s (security and bug fixes) and published on an ongoing basis.
 Ви можете скористатися оновленнями для %s і %s (виправлення вад безпеки та вад програмного забезпечення), які оприлюднюються, щойно такі вади буде усунуто.
 
@@ -162,8 +167,10 @@ Mageia.Org не надає і не сертифікує жодних послу�
 ;Mageia releases are supported at least for 18 months.
 Супровід випусків Mageia здійснюється протягом принаймні 18 місяців.
 
-;Mageia 1 will be supported until December 1st, 2012.
-Mageia 1 will be supported until December 1st, 2012.
+# ../../svn/web/en/support/index.php +52
+;Mageia 1 was supported until December 1st, 2012.
+Mageia 1 was supported until December 1st, 2012.
+
 
 ;Mageia 1 will be supported until December 1st, 2012.
 Підтримка Mageia 1 буде здійснюватися до 1 грудня 2012 року.

@@ -51,6 +51,11 @@ Uuendused
 
 
 
+# ../../svn/web/en/support/index.php +44
+;Updates are available for %s (security and bug fixes) and published on an ongoing basis.
+Updates are available for %s (security and bug fixes) and published on an ongoing basis.
+
+
 ;Updates are available for %s and %s (security and bug fixes) and published on an ongoing basis.
 Uuendusi tuleb nii %s kui ka %s tarbeks (turvauuendused ja veaparandused) vastavalt tarkvara arendamisele pidevalt.
 
@@ -75,6 +80,10 @@ Eluiga
 Mageia väljalaskeid toetatakse vähemalt poolteist aastat ehk 18 kuud.
 
 
+
+# ../../svn/web/en/support/index.php +52
+;Mageia 1 was supported until December 1st, 2012.
+Mageia 1 was supported until December 1st, 2012.
 
 ;Mageia 1 will be supported until December 1st, 2012.
 Mageia 1 on toetatud 1. detsembrini 2012.

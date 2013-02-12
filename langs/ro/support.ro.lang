@@ -62,6 +62,10 @@ Raportare de erori
 
 
 # ../../svn/web/en/support/index.php +44
+;Updates are available for %s (security and bug fixes) and published on an ongoing basis.
+Updates are available for %s (security and bug fixes) and published on an ongoing basis.
+
+
 ;Updates are available for %s and %s (security and bug fixes) and published on an ongoing basis.
 Actualizările sînt diponibile pentru %s și %s (corectări de erori și securitate) și sînt publicate în continuu.
 
@@ -82,6 +86,9 @@ Versiunile Mageia dispun de suport pentru cel puțin 18 luni.
 
 
 # ../../svn/web/en/support/index.php +52
+;Mageia 1 was supported until December 1st, 2012.
+Mageia 1 was supported until December 1st, 2012.
+
 ;Mageia 1 will be supported until December 1st, 2012.
 Mageia 1 a fost suportat pînă la 1 decembrie 2012.
 

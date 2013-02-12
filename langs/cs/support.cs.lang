@@ -41,6 +41,11 @@ Aktualizace
 
 
 
+# ../../svn/web/en/support/index.php +44
+;Updates are available for %s (security and bug fixes) and published on an ongoing basis.
+Updates are available for %s (security and bug fixes) and published on an ongoing basis.
+
+
 ;Updates are available for %s and %s (security and bug fixes) and published on an ongoing basis.
 Aktualizace jsou dostupné pro %s a %s (bezpečnostní opravy a opravy chyb) a zveřejňovány neustále.
 
@@ -151,6 +156,10 @@ Můžeme přichystat zvláštní seznam vhodného vybavení pro počítač, stej
 
 ;Mageia releases are supported at least for 18 months.
 Vydání Mageii jsou podporována alespoň po dobu 18 měsíců.
+
+# ../../svn/web/en/support/index.php +52
+;Mageia 1 was supported until December 1st, 2012.
+Mageia 1 was supported until December 1st, 2012.
 
 ;Mageia 1 will be supported until December 1st, 2012.
 Mageia 1 bude podporována do 1. prosince 2012.

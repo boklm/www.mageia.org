@@ -51,6 +51,11 @@ Vi povas kontroli ekzistantan %sdokumentaron ĉi tie%s. Eble vi ŝatus serĉi en
 
 
 
+# ../../svn/web/en/support/index.php +44
+;Updates are available for %s (security and bug fixes) and published on an ongoing basis.
+Updates are available for %s (security and bug fixes) and published on an ongoing basis.
+
+
 ;Updates are available for %s and %s (security and bug fixes) and published on an ongoing basis.
 Ĝisdatigoj estas disponeblaj por %s kaj %s (sekurecaj kaj cimaj riparoj) kaj publikigitaj permanente.
 
@@ -75,6 +80,10 @@ Vivciklo
 Magejaj publikigoj estas subtenataj almenaŭ dum 18 monatoj.
 
 
+
+# ../../svn/web/en/support/index.php +52
+;Mageia 1 was supported until December 1st, 2012.
+Mageia 1 was supported until December 1st, 2012.
 
 ;Mageia 1 will be supported until December 1st, 2012.
 Magejo 1 estos subtenata ĝis la 1a de decembro, 2012.

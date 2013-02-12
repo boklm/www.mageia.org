@@ -51,6 +51,11 @@ Mises à jour
 
 
 
+# ../../svn/web/en/support/index.php +44
+;Updates are available for %s (security and bug fixes) and published on an ongoing basis.
+Updates are available for %s (security and bug fixes) and published on an ongoing basis.
+
+
 ;Updates are available for %s and %s (security and bug fixes) and published on an ongoing basis.
 Des mises à jour sont régulièrement publiées pour %s et %s (corrections de bugs ou de sécurité).
 
@@ -75,6 +80,10 @@ Durée de vie
 Les versions de Mageia sont maintenues pendant au moins 18 mois.
 
 
+
+# ../../svn/web/en/support/index.php +52
+;Mageia 1 was supported until December 1st, 2012.
+Mageia 1 was supported until December 1st, 2012.
 
 ;Mageia 1 will be supported until December 1st, 2012.
 Mageia 1 sera maintenue jusqu'au 1<sup>er</sup> décembre 2012.

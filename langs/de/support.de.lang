@@ -134,6 +134,11 @@ Sie können die vorhandene %sDokumentation hier%s ansehen. Sie können auch in u
 ;Updates
 Aktualisierungen
 
+# ../../svn/web/en/support/index.php +44
+;Updates are available for %s (security and bug fixes) and published on an ongoing basis.
+Updates are available for %s (security and bug fixes) and published on an ongoing basis.
+
+
 ;Updates are available for %s and %s (security and bug fixes) and published on an ongoing basis.
 aktualisierungen sind für %s und %s verfügbar (Sicherheits- und Fehlerkorrekturen)  und werden fortlaufend veröffentlicht.
 
@@ -148,6 +153,10 @@ Lebenszyklus
 
 ;Mageia releases are supported at least for 18 months.
 Mageia-Veröffentlichungen werden 18 Monate lang unterstützt.
+
+# ../../svn/web/en/support/index.php +52
+;Mageia 1 was supported until December 1st, 2012.
+Mageia 1 was supported until December 1st, 2012.
 
 ;Mageia 1 will be supported until December 1st, 2012.
 Mageia 1 wird bis zum 1. Dezember 2012 unterstützt.
