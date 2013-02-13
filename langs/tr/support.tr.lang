@@ -56,10 +56,6 @@ Güncellemeler
 Güncellemeler (güvenlik ve hata onarımı) %s için mevcuttur ve hâlihazırdaki kaynaktan yayınlanır.
 
 
-;Updates are available for %s and %s (security and bug fixes) and published on an ongoing basis.
-Güncellemeler %s ve %s için kullanılabilir (güvenlik ve hata düzeltmeleri) ve sürekli olarak yayınlanır.
-
-
 
 ;You can install these from the Mageia Control Center.
 Güncellemeleri Mageia Kontrol Merkezinden yükleyebilirsiniz.
@@ -84,9 +80,6 @@ Mageia sürümleri en az 18 ay süreyle deteklenir.
 # ../../svn/web/en/support/index.php +52
 ;Mageia 1 was supported until December 1st, 2012.
 Mageia 1, 1 Aralık 2012'ye kadar desteklendi.
-
-;Mageia 1 will be supported until December 1st, 2012.
-Mageia 1, 1-Aralık-2012'ye kadar desteklenecektir.
 
 
 
