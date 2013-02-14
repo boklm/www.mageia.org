@@ -47,11 +47,7 @@ Actualizaciones
 
 # ../../svn/web/en/support/index.php +44
 ;Updates are available for %s (security and bug fixes) and published on an ongoing basis.
-Updates are available for %s (security and bug fixes) and published on an ongoing basis.
-
-
-;Updates are available for %s and %s (security and bug fixes) and published on an ongoing basis.
-Las actualizaciones de seguridad y de corrección de errores para %s y %s están disponibles y son publicadas continuamente.
+Actualizaciones disponibles para %s (correcciones de seguridad y errores) y publicadas periódicamente.
 
 
 
@@ -66,10 +62,8 @@ Las versiones de Mageia tendrán soporte durante al menos 18 meses.
 
 # ../../svn/web/en/support/index.php +52
 ;Mageia 1 was supported until December 1st, 2012.
-Mageia 1 was supported until December 1st, 2012.
+Mageia 1 tuvo soporte hasta el 1 de Diciembre, 2012.
 
-;Mageia 1 will be supported until December 1st, 2012.
-Mageia 1 tendrá soporte hasta el 1 de Diciembre de 2012.
 
 ;Mageia 2 will be supported until November 22nd, 2013.
 Mageia 2 tendrá soporte hasta el 22 de Noviembre de 2013.
@@ -109,7 +103,7 @@ eventos locales: siga nuestro <a href="http://blog.mageia.org/es/">blog</a> y <a
 
 
 ;Mageia.Org does not provide or endorse commercial/professional support or other services around the distribution. But there are organizations providing such services and more.
-Mageia.Org no ofrece soporte comercial/profesional. Pero hay otras organizaciones que ofrecen éstos servicios y más.
+Mageia.Org no ofrece soporte comercial/profesional. Pero hay otras organizaciones que ofrecen estos servicios y más.
 
 
 
