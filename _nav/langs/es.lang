@@ -1,17 +1,71 @@
+# Generated manually on 2013-02-07T19:20:00+01:00
+# Domain _nav
+
+
+# /_nav/lib.php +65
+;Go to mageia.org site map.
+Ir al mapa del sitio de mageia.org.
+
+
+# /_nav/lib.php +66
 ;About&nbsp;us
 Acerca&nbsp;de
 
+# /_nav/lib.php +66
+;Learn more about Mageia.
+Aprenda más sobre Mageia.
+
+
+# /_nav/lib.php +67
 ;Downloads
 Descargas
 
+
+# /_nav/lib.php +67
+;Download Mageia ISO and updates.
+Descargue ISOs y actualizaciones de Mageia.
+
+
+# /_nav/lib.php +68
 ;Support
 Soporte
 
+
+# /_nav/lib.php +68
+;Get support from Mageia community.
+Obtener soporte de la comunidad de Mageia.
+
+
+# /_nav/lib.php +69
 ;Community
 Comunidad
 
+
+# /_nav/lib.php +70
 ;Contribute
 Contribuir
 
+
+# /_nav/lib.php +70
+;You too can build Mageia with us!
+¡Usted también puede construir Mageia con nosotros!
+
+
+# /_nav/lib.php +71
 ;You
-Yo
+Usted
+
+
+# /_nav/lib.php +71
+;Your Mageia online account.
+Su cuenta de Mageia online.
+
+
+# /_nav/lib.php +72
+;Contact
+Contacto
+
+
+# /_nav/lib.php +72
+;Contact Us
+Contáctenos
