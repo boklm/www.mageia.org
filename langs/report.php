@@ -200,7 +200,6 @@
     }
     $en_language = array_shift($languages); // shift English for proper sorting
     krsort($languages, SORT_NUMERIC);
-    array_unshift($languages, $en_language); // unshift English back
 
     $enFiles = array_map(function ($e) { return str_replace('en/', '', $e); }, $enFiles);
     $thfiles = '<th>' . implode('</th><th>', $enFiles) . '</th>' . PHP_EOL;
@@ -210,6 +209,7 @@
     foreach ($chunks as $chunk) {
         $table_body = array_merge($table_body, $chunk, array(count($chunk) > 4 ? '<tr><th>&nbsp;</th><th>File</th>' . $thfiles : ''));
     }
+    array_unshift($table_body, $en_language); // unshift English back
     $s = implode($table_body);
 
     echo <<<S
