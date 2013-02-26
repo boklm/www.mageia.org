@@ -53,80 +53,80 @@ Per richieste stampa.
 
 # ../../svn/web/en/contact/index.php +44
 ;You may as well try to reach us on <a href="%s">#mageia on Freenode IRC</a>.
-You may as well try to reach us on <a href="%s">#mageia on Freenode IRC</a>.
+Puoi raggiungerci anche sul canale <a href="%s">IRC #mageia su Freenode</a>.
 
 
 # ../../svn/web/en/contact/index.php +54
 ;You have an idea of who to contact
-You have an idea of who to contact
+Hai un'idea di chi contattare
 
 
 # ../../svn/web/en/contact/index.php +55
 ;You may post in the <a href="%s">forum</a> or the <a href="%s">public discussion mailing-list</a>.
-You may post in the <a href="%s">forum</a> or the <a href="%s">public discussion mailing-list</a>.
+Puoi inviare un email alla <a href="%s">forum</a> or the <a href="%s">mailing list pubblica per le discussioni</a>.
 
 
 # ../../svn/web/en/contact/index.php +57
 ;You also may use the following email aliases too to contact all members of a group at once:
-You also may use the following email aliases too to contact all members of a group at once:
+Puoi anche usare i seguenti alias email per contattare tutti i membri di un gruppo in una sola volta:
 
 
 # ../../svn/web/en/contact/index.php +59
 ;Mageia.Org Board members
-Mageia.Org Board members
+Membri dell'Amministrazione di Mageia.Org
 
 
 # ../../svn/web/en/contact/index.php +60
 ;Mageia Council
-Mageia Council
+Consiglio di Mageia
 
 
 # ../../svn/web/en/contact/index.php +61
 ;Systems administration team
-Systems administration team
+Systems administration team {ok}
 
 
 # ../../svn/web/en/contact/index.php +62
 ;Packagers
-Packagers
+Packagers {ok}
 
 
 # ../../svn/web/en/contact/index.php +63
 ;Communication, Marketing &amp; Web teams
-Communication, Marketing &amp; Web teams
+Communication, Marketing &amp; Web teams {ok}
 
 
 # ../../svn/web/en/contact/index.php +64
 ;QA team
-QA team
+QA team {ok}
 
 
 # ../../svn/web/en/contact/index.php +65
 ;Documentation team
-Documentation team
+Documentation team {ok}
 
 
 # ../../svn/web/en/contact/index.php +66
 ;Mageia.Org association members
-Mageia.Org association members
+Membri dell'associazione Mageia.Org
 
 
 # ../../svn/web/en/contact/index.php +75
 ;In most case you should avoid using those aliases as they should only be used for the rare cases where private emails are needed. Use appropriate public mailing list on <a href="%s">either</a> of <a href="%s">two</a> pages instead.
-In most case you should avoid using those aliases as they should only be used for the rare cases where private emails are needed. Use appropriate public mailing list on <a href="%s">either</a> of <a href="%s">two</a> pages instead.
+Nella maggior parte dei casi dovresti evitare di usare questi alias in quanto dovrebbero essere utilizzati per i rari casi in cui sono necessarie email private. Usa invece le mailing list pubbliche appropriate riportate in <a href="%s">una</a> di queste <a href="%s">due</a> pagine.
 
 
 # ../../svn/web/en/contact/index.php +78
 ;If you want to contact Council or Board for a public discussion, you can start a thread on a mailing-list and add the Board or Council alias in CC.
-If you want to contact Council or Board for a public discussion, you can start a thread on a mailing-list and add the Board or Council alias in CC.
+Se desideri contattare il Consiglio o l'Amministrazione per una discussione pubblica, puoi avviare un thread su una mailing list e aggiungere gli alias dell'Amministrazione o del Consiglio in CC.
 
 
 # ../../svn/web/en/contact/index.php +80
 ;You want to join and contribute to Mageia
-You want to join and contribute to Mageia
+Vuoi unirti a Mageia e collaborare
 
 
 # ../../svn/web/en/contact/index.php +81
 ;Please see <a href="%s">our Contributions page</a>.
-Please see <a href="%s">our Contributions page</a>.
+Guarda per favore <a href="%s">la nostra pagina sulle Collaborazioni</a>.
 
