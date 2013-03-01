@@ -1,17 +1,72 @@
+# Generated manually on 2013-02-07T19:20:00+01:00
+# Domain _nav
+
+
+# /_nav/lib.php +65
+;Go to mageia.org site map.
+Mageia.org-i veebikaart
+
+
+# /_nav/lib.php +66
 ;About&nbsp;us
 Üldine&nbsp;teave
 
+
+# /_nav/lib.php +66
+;Learn more about Mageia.
+Mageiast lähemalt
+
+
+# /_nav/lib.php +67
 ;Downloads
 Allalaadimine
 
+
+# /_nav/lib.php +67
+;Download Mageia ISO and updates.
+Mageia ISO-tõmmiste ja uuenduste allalaadimine
+
+
+# /_nav/lib.php +68
 ;Support
 Toetus
 
+
+# /_nav/lib.php +68
+;Get support from Mageia community.
+Toetus Mageia kogukonnalt
+
+
+# /_nav/lib.php +69
 ;Community
 Kogukond
 
+
+# /_nav/lib.php +70
 ;Contribute
 Abistamine
 
+
+# /_nav/lib.php +70
+;You too can build Mageia with us!
+Kaasaaitamine Mageia loomisele ja parandamisele
+
+
+# /_nav/lib.php +71
 ;You
 Mina
+
+
+# /_nav/lib.php +71
+;Your Mageia online account.
+Minu Mageia veebikonto
+
+
+# /_nav/lib.php +72
+;Contact
+Kontakt
+
+
+# /_nav/lib.php +72
+;Contact Us
+Meie kontaktid
