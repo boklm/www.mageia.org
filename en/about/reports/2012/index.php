@@ -22,6 +22,7 @@ $intro = <<<S
         <li>Get the <a href="mageia-financial-report-2012.csv">raw report data</a>
             (CSV document, licensed under <a href="http://opendatacommons.org/licenses/odbl/1.0/">ODbL 1.0</a>).
             The rest of this page is built from this data.</li>
+        <li>You may also want to check out our <a href="https://wiki.mageia.org/en/General_report_2012">general report for 2012</a>.</li>
     </ul>
 S;
 
