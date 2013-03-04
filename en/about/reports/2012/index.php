@@ -16,6 +16,9 @@ S;
 
 $intro = <<<S
     <ul>
+        <li>Read the <a href="mageia_rapport_financier_2012_fr.pdf" hreflang="fr">French, original report</a>
+            or the <a href="mageia_financial_report_2012_en.pdf" hreflang="en">English translation</a>
+            (both are PDF documents).</li>
         <li>Get the <a href="mageia-financial-report-2012.csv">raw report data</a>
             (CSV document, licensed under <a href="http://opendatacommons.org/licenses/odbl/1.0/">ODbL 1.0</a>).
             The rest of this page is built from this data.</li>
