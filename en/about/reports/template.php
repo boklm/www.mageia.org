@@ -12,6 +12,21 @@ $_months = array(
     10 => 'October', 11 => 'November', 12 => 'December'
 );
 
+/**
+ * Format numbers after ISO_31 recommandation,
+ * using the comma as decimal sep.
+ * See http://en.wikipedia.org/wiki/ISO_31-0#Numbers
+ *
+ * @param float  $n decimal number
+ * @param char   $dec_sep
+ *
+ * @return string
+*/
+function _report_number_format($n, $dec_sep = ',')
+{
+    return str_replace('#', '&nbsp;', number_format($n, 2, $dec_sep, '#'));
+}
+
 $data   = file($source_csv);
 $parsed = array();
 
@@ -213,7 +228,7 @@ $expenses_total = array_sum($expenses_monthly_summary[0]);
                 $s .= sprintf('<tr class="%s"><td>%s</td><td class="money">%s</td></tr>',
                     str_replace(' ', '-', $k),
                     $k,
-                    number_format(str_replace(',', '.', $w), 2, '.', ','));
+                    _report_number_format($w));
             }
             $s .= '</table>';
             echo $s;
@@ -241,11 +256,11 @@ $expenses_total = array_sum($expenses_monthly_summary[0]);
                 <tr>
                     <th>Revenues</th>
                     <td></td>
-                    <td class="money"><?php echo number_format(str_replace(',', '.', $R['data']['total']), 2, '.', ',');?></td>
+                    <td class="money"><?php echo _report_number_format($R['data']['total']);?></td>
                 </tr>
                 <tr>
                     <th>Expenses</th>
-                    <td class="money"><?php echo number_format(str_replace(',', '.', $expenses_total), 2, '.', ',');?></td>
+                    <td class="money"><?php echo _report_number_format($expenses_total);?></td>
                     <td></td>
                 </tr>
                 </tbody>
@@ -257,10 +272,10 @@ $expenses_total = array_sum($expenses_monthly_summary[0]);
                 ?>
                     <td>Net Income</td>
                     <td></td>
-                    <td class="money"><?php echo number_format(str_replace(',', '.', $result), 2, '.', ','); ?></td>
+                    <td class="money"><?php echo _report_number_format($result); ?></td>
                 <?php else: ?>
                     <td>Net Loss</td>
-                    <td class="money"><?php echo number_format(str_replace(',', '.', -$result), 2, '.', ','); ?></td>
+                    <td class="money"><?php echo _report_number_format(-$result); ?></td>
                     <td></td>
                 <?php endif; ?>
                 </tr>
@@ -280,7 +295,7 @@ $expenses_total = array_sum($expenses_monthly_summary[0]);
                     $s = '';
                     foreach ($parsed['# Balance Sheet (incomplete) > ## Assets'] as $k => $v) {
                         $v = str_replace(',', '.', $v);
-                        $v = is_numeric($v) ? number_format($v, 2, '.', ',') : $v;
+                        $v = is_numeric($v) ? _report_number_format($v) : $v;
                         $s .= sprintf('<tr><td>%s</td><td class="money">%s</td></tr>', $k, $v);
                     }
                     echo $s;
@@ -292,7 +307,7 @@ $expenses_total = array_sum($expenses_monthly_summary[0]);
                     $s = '';
                     foreach ($parsed['# Balance Sheet (incomplete) > ## Liabilities'] as $k => $v) {
                         $v = str_replace(',', '.', $v);
-                        $v = is_numeric($v) ? number_format($v, 2, '.', ',') : $v;
+                        $v = is_numeric($v) ? _report_number_format($v) : $v;
                         $s .= sprintf('<tr><td>%s</td><td class="money">%s</td></tr>', $k, $v);
                     }
                     echo $s;

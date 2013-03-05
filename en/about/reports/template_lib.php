@@ -22,7 +22,7 @@ function get_expenses($v)
         $html .= sprintf('<tr><td>%s</td><td>%s</td><td>%s</td><td class="money">%s</td></tr>',
             date('Y-M-d', strtotime($line[0])), $line[1],
             $line[2], 
-            number_format(str_replace(',', '.', $line[3]), 2, '.', ','));
+            _report_number_format($line[3]));
 
         $cat = explode(':', $line[1]);
         $sums[$cat[0]] += $line[3];
@@ -32,7 +32,7 @@ function get_expenses($v)
     $html .= '</tbody>
     <tfoot><tr>
         <td colspan="3">Total:</td>
-        <td class="money">' . number_format(str_replace(',', '.', $sums['total']), 2, '.', ',') . '</td>
+        <td class="money">' . _report_number_format($sums['total']) . '</td>
     </tr></tfoot>
 </table>';
 
@@ -103,12 +103,12 @@ function get_revenues($v, $_months)
             <td class="money">%s</td></tr>',
             $_months[$line[0]],
             $line[1],
-            number_format(str_replace(',', '.', $line[2]), 2, '.', ','),
-            number_format(str_replace(',', '.', $line[3]), 2, '.', ','),
-            number_format(str_replace(',', '.', $line[4]), 2, '.', ','),
-            number_format(str_replace(',', '.', $line[5]), 2, '.', ','),
-            number_format(str_replace(',', '.', $line[6]), 2, '.', ','),
-            $line[1] > 0 ? number_format(str_replace(',', '.', $line[2] / $line[1]), 2, '.', ',') : ''
+            _report_number_format($line[2]),
+            _report_number_format($line[3]),
+            _report_number_format($line[4]),
+            _report_number_format($line[5]),
+            _report_number_format($line[6]),
+            $line[1] > 0 ? _report_number_format($line[2] / $line[1]) : ''
         );
 
         $sums['count'] += $line[1];
@@ -128,12 +128,12 @@ function get_revenues($v, $_months)
         <td class="money">%s</td>
         <td class="money">%s</td></tr>',
         $sums['count'],
-        number_format(str_replace(',', '.', $sums['total']), 2, '.', ','),
-        number_format(str_replace(',', '.', $sums['check']), 2, '.', ','),
-        number_format(str_replace(',', '.', $sums['xfer']), 2, '.', ','),
-        number_format(str_replace(',', '.', $sums['paypal']), 2, '.', ','),
-        number_format(str_replace(',', '.', $sums['cash']), 2, '.', ','),
-        $sums['count'] > 0 ? number_format(str_replace(',', '.', $sums['total'] / $sums['count']), 2, '.', ',') : ''
+        _report_number_format($sums['total']),
+        _report_number_format($sums['check']),
+        _report_number_format($sums['xfer']),
+        _report_number_format($sums['paypal']),
+        _report_number_format($sums['cash']),
+        $sums['count'] > 0 ? _report_number_format($sums['total'] / $sums['count']) : ''
     );
     $total_revenues = $sums['total'];
     $html .= '</tfoot></table>';
