@@ -48,7 +48,7 @@ Mageia Blog (Engels)
 
 # /en/index.php +31
 ;http://blog.mageia.org/en/?feed=rss
-http://blog.mageia.org/en/?feed=rss
+http://blog.mageia.org/en/?feed=rss {ok}
 
 
 # /en/index.php +217
@@ -108,7 +108,7 @@ Test Mageia 3%s {ok}
 
 # /en/index.php +265
 ;Sitemap
-Sitemap
+Sitemap {ok}
 
 
 # /en/index.php +266
