@@ -29,6 +29,7 @@ $langs = array(
     'sl' => 'Slovenščina',
     'tr' => 'Türkçe',
     'uk' => 'Українська',
+    'ur' => 'اردو',
     'zh-cn' => '简体中文',
     'zh-tw' => '正體中文'
 );

@@ -1,0 +1,57 @@
+html, body { margin: 0; padding: 0;}
+body {
+    background: url(/g/images/cauldron_alpha_ln_1.png) no-repeat -20px 200px;
+    font-family: Verdana;
+    font-size: 12px;
+}
+a, a:link { color: #2383c2; text-decoration: none; }
+
+ul#map { margin: 0; padding: 0; list-style: none; }
+li.map-b { max-width: 200px; min-width: 140px; padding-right: 2em; }
+
+#map h2,
+#map h2 a { color: #000; }
+
+ul#map ul.map-bl a { padding: 0.2em; display: inline-block;}
+ul#map a:hover { background: #fafafa; color: #6bf; border-radius: 4px; }
+
+ul.map-bl {
+    margin: 0;
+    padding: 0;
+    list-style: disc;
+    padding-left: 2em;
+}
+ul.map-bl > li { margin: 0; padding: 0 0 0.3em 0; }
+ul.map-bl ul { margin: 0; padding: 0; list-style: none; font-size: 85%; }
+ul.map-bl ul li { display: inline; }
+ul.map-bl ul li a { background: #f0f0f0; }
+
+#lang_form { position: absolute; top: 0; right: 0; }
+
+/* Landscape phones and down */
+@media (max-width: 480px) {}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {}
+
+/* Portrait tablet to landscape and desktop */
+@media (max-width: 1200px) {
+    div.doc { margin: 0 2em; }
+    ul#map {
+        
+    }
+    li.map-b {
+        width: 220px;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    #support { margin-top: 2em; }
+    
+    div.doc { margin: 0 auto 0 auto; width: 1200px }
+    ul#map { display: table; margin-bottom: 6em; }
+        li.map-b { display: table-cell; }
+
+}
+#search { clear: both; padding-top: 3em; margin-top: 3em; }
