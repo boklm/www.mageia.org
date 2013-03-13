@@ -23,7 +23,7 @@ Destek arıyorsanız
 
 # ../../svn/web/en/contact/index.php +25
 ;Please check our <a href="https://forums.mageia.org/">forum</a> or our <a href="http://wiki.mageia.org/" hreflang="en">wiki</a>.
-Lütfen <a href="https://forums.mageia.org/">forumumuza</a> veya <a href="http://wiki.mageia.org/" hreflang="en">wiki'mize</a> bakınız.
+Lütfen <a href="http://www.mandriva-tr.org/">forumumuza</a> veya <a href="https://wiki.mageia.org/en/Ana_sayfa" hreflang="tr">wiki'mize</a> bakınız.
 
 
 # ../../svn/web/en/contact/index.php +27
@@ -63,7 +63,7 @@ Bir fikriniz var ve kiminle irtibat kurmalısınız?
 
 # ../../svn/web/en/contact/index.php +55
 ;You may post in the <a href="%s">forum</a> or the <a href="%s">public discussion mailing-list</a>.
-<a href="%s">Herkese açık posta listesine</a> veya <a href="%s">Forum</a>'a posta gönderebilirsiniz.
+<a href="%s">Forum</a>'a veya <a href="%s">Herkese açık posta listesine</a> posta gönderebilirsiniz.
 
 
 # ../../svn/web/en/contact/index.php +57
