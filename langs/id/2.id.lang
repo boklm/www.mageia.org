@@ -74,7 +74,7 @@ Jika kamu memerlukan driver WiFi atau video spesifik <em>saat menginstall</em>, 
 
 # en/2/download_index.php +74
 ;You may, if you will, add nonfree software repository <em>after</em> the installation.
-Kamu boleh, jika kamu mau, menambahkan repositori software nonfree <em>setelah</em> instalasi.
+Kamu bisa, jika kamu mau, menambahkan repositori software nonfree <em>setelah</em> instalasi.
 
 
 # en/2/download_index.php +77
@@ -84,7 +84,7 @@ Harap catat bahwa terdapat <span class="warn">masalah dengan notebook yang mengg
 
 # en/2/download_index.php +79
 ;See the errata about this
-Lihat errata untuk penjelasan tentang ini
+Lihat halaman masalah untuk penjelasan tentang ini
 
 
 # en/2/download_index.php +86
@@ -119,7 +119,7 @@ CD Instalasi berbasis Jaringan Kabel
 
 # en/2/download_index.php +168
 ;Download quickly (about 40 MB) and immediately boot into install mode from <em>wired</em> network or a local disk.
-Download cepat (sekitar 40 MB) dan langsung boot ke mode install dari jaringan <em>kabel</em> atau disk lokal.
+Download cepat (sekitar 40 MB) dan langsung boot ke mode instalasi dari jaringan <em>kabel</em> atau disk lokal.
 
 
 # en/2/download_index.php +179
@@ -409,7 +409,7 @@ Mageia 2 {ok}
 
 # en/2/index.php +16
 ;Mageia 2 is the new, solid, stable Linux distribution from the Mageia project.
-Mageia 2 adalah distribusi Linux yang baru, solid dan stabil dari Mageia project.
+Mageia 2 adalah distribusi Linux yang baru, solid dan stabil dari proyek Mageia.
 
 
 # en/2/index.php +30
