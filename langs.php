@@ -78,7 +78,7 @@ $langsForm = <<<H
 H;
 
 include ('_nav/lib.php');
-$hsnav = _mgnav_style() . _mgnav_html(true, $locale, $langsForm);
+$hsnav = _mgnav_style() . _mgnav_html(true, $locale, $langsForm, $_SERVER['HTTP_HOST']);
 $hsfoot = '';
 
 if (!defined('HLANG'))
