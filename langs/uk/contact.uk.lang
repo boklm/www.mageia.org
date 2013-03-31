@@ -3,129 +3,129 @@
 
 # ../../svn/web/en/contact/index.php +10
 ;Contact Us
-Зв’язок з нами
+Р—РІвЂ™СЏР·РѕРє Р· РЅР°РјРё
 
 
 # ../../svn/web/en/contact/index.php +11
 ;Here you can find out, how to contribute to the Mageia project
-Тут наведено адреси, за допомогою яких ви зможете взяти участь у розвитку проекту Mageia
+РўСѓС‚ РЅР°РІРµРґРµРЅРѕ Р°РґСЂРµСЃРё, Р·Р° РґРѕРїРѕРјРѕРіРѕСЋ СЏРєРёС… РІРё Р·РјРѕР¶РµС‚Рµ РІР·СЏС‚Рё СѓС‡Р°СЃС‚СЊ Сѓ СЂРѕР·РІРёС‚РєСѓ РїСЂРѕРµРєС‚Сѓ Mageia
 
 
 # ../../svn/web/en/contact/index.php +12
 ;mageia, contact, mail, press, people, board, council, mailing lists
-mageia, contact, mail, press, people, board, council, mailing lists, контакти, зв’язок, пошта, преса, люди, рада, керівництво, списки листування
+mageia, contact, mail, press, people, board, council, mailing lists, РєРѕРЅС‚Р°РєС‚Рё, Р·РІвЂ™СЏР·РѕРє, РїРѕС€С‚Р°, РїСЂРµСЃР°, Р»СЋРґРё, СЂР°РґР°, РєРµСЂС–РІРЅРёС†С‚РІРѕ, СЃРїРёСЃРєРё Р»РёСЃС‚СѓРІР°РЅРЅСЏ
 
 
 # ../../svn/web/en/contact/index.php +24
 ;You are looking for support
-Потрібна підтримка?
+РџРѕС‚СЂС–Р±РЅР° РїС–РґС‚СЂРёРјРєР°?
 
 
 # ../../svn/web/en/contact/index.php +25
 ;Please check our <a href="https://forums.mageia.org/">forum</a> or our <a href="http://wiki.mageia.org/" hreflang="en">wiki</a>.
-Будь ласка, зверніться до нашого <a href="https://forums.mageia.org/">форуму</a> або нашої <a href="http://wiki.mageia.org/" hreflang="en">вікі</a>.
+Р‘СѓРґСЊ Р»Р°СЃРєР°, Р·РІРµСЂРЅС–С‚СЊСЃСЏ РґРѕ РЅР°С€РѕРіРѕ <a href="https://forums.mageia.org/">С„РѕСЂСѓРјСѓ</a> Р°Р±Рѕ РЅР°С€РѕС— <a href="http://wiki.mageia.org/" hreflang="en">РІС–РєС–</a>.
 
 
 # ../../svn/web/en/contact/index.php +27
 ;You would like to report an issue
-Хочете повідомити про ваду?
+РҐРѕС‡РµС‚Рµ РїРѕРІС–РґРѕРјРёС‚Рё РїСЂРѕ РІР°РґСѓ?
 
 
 # ../../svn/web/en/contact/index.php +28
 ;Please see <a href="%s" hreflang="en">how to report an issue in our bugs database</a>.
-Будь ласка, ознайомтеся з тим, як <a href="%s" hreflang="en">створити звіт про ваду у нашій системі стеження за вадами</a>.
+Р‘СѓРґСЊ Р»Р°СЃРєР°, РѕР·РЅР°Р№РѕРјС‚РµСЃСЏ Р· С‚РёРј, СЏРє <a href="%s" hreflang="en">СЃС‚РІРѕСЂРёС‚Рё Р·РІС–С‚ РїСЂРѕ РІР°РґСѓ Сѓ РЅР°С€С–Р№ СЃРёСЃС‚РµРјС– СЃС‚РµР¶РµРЅРЅСЏ Р·Р° РІР°РґР°РјРё</a>.
 
 
 # ../../svn/web/en/contact/index.php +32
 ;You are not sure who to contact
-Непевні щодо того, з ким зв’язатися?
+РќРµРїРµРІРЅС– С‰РѕРґРѕ С‚РѕРіРѕ, Р· РєРёРј Р·РІвЂ™СЏР·Р°С‚РёСЃСЏ?
 
 
 # ../../svn/web/en/contact/index.php +36
 ;For generic contact information.
-Для отримання даних загального характеру.
+Р”Р»СЏ РѕС‚СЂРёРјР°РЅРЅСЏ РґР°РЅРёС… Р·Р°РіР°Р»СЊРЅРѕРіРѕ С…Р°СЂР°РєС‚РµСЂСѓ.
 
 
 # ../../svn/web/en/contact/index.php +40
 ;For press inquiries.
-Для запитів засобів масової інформації.
+Р”Р»СЏ Р·Р°РїРёС‚С–РІ Р·Р°СЃРѕР±С–РІ РјР°СЃРѕРІРѕС— С–РЅС„РѕСЂРјР°С†С–С—.
 
 
 # ../../svn/web/en/contact/index.php +44
 ;You may as well try to reach us on <a href="%s">#mageia on Freenode IRC</a>.
-Крім того, ви можете зв’язатися з нами за допомогою каналу <a href="%s">#mageia на Freenode (IRC)</a>.
+РљСЂС–Рј С‚РѕРіРѕ, РІРё РјРѕР¶РµС‚Рµ Р·РІвЂ™СЏР·Р°С‚РёСЃСЏ Р· РЅР°РјРё Р·Р° РґРѕРїРѕРјРѕРіРѕСЋ РєР°РЅР°Р»Сѓ <a href="%s">#mageia РЅР° Freenode (IRC)</a>.
 
 
 # ../../svn/web/en/contact/index.php +54
 ;You have an idea of who to contact
-Потрібна певна група людей?
+РџРѕС‚СЂС–Р±РЅР° РїРµРІРЅР° РіСЂСѓРїР° Р»СЋРґРµР№?
 
 
 # ../../svn/web/en/contact/index.php +55
 ;You may post in the <a href="%s">forum</a> or the <a href="%s">public discussion mailing-list</a>.
-Ви можете розмістити своє повідомлення на <a href="%s">форумі</a> або у <a href="%s">відкритому для обговорення списку листування</a>.
+Р’Рё РјРѕР¶РµС‚Рµ СЂРѕР·РјС–СЃС‚РёС‚Рё СЃРІРѕС” РїРѕРІС–РґРѕРјР»РµРЅРЅСЏ РЅР° <a href="%s">С„РѕСЂСѓРјС–</a> Р°Р±Рѕ Сѓ <a href="%s">РІС–РґРєСЂРёС‚РѕРјСѓ РґР»СЏ РѕР±РіРѕРІРѕСЂРµРЅРЅСЏ СЃРїРёСЃРєСѓ Р»РёСЃС‚СѓРІР°РЅРЅСЏ</a>.
 
 
 # ../../svn/web/en/contact/index.php +57
 ;You also may use the following email aliases too to contact all members of a group at once:
-Ви також можете скористатися наведеними нижче альтернативними адресами, щоб зв’язатися одночасно з усіма учасниками певної групи:
+Р’Рё С‚Р°РєРѕР¶ РјРѕР¶РµС‚Рµ СЃРєРѕСЂРёСЃС‚Р°С‚РёСЃСЏ РЅР°РІРµРґРµРЅРёРјРё РЅРёР¶С‡Рµ Р°Р»СЊС‚РµСЂРЅР°С‚РёРІРЅРёРјРё Р°РґСЂРµСЃР°РјРё, С‰РѕР± Р·РІвЂ™СЏР·Р°С‚РёСЃСЏ РѕРґРЅРѕС‡Р°СЃРЅРѕ Р· СѓСЃС–РјР° СѓС‡Р°СЃРЅРёРєР°РјРё РїРµРІРЅРѕС— РіСЂСѓРїРё:
 
 
 # ../../svn/web/en/contact/index.php +59
 ;Mageia.Org Board members
-Члени ради Mageia.Org
+Р§Р»РµРЅРё СЂР°РґРё Mageia.Org
 
 
 # ../../svn/web/en/contact/index.php +60
 ;Mageia Council
-Керівництво Mageia
+РљРµСЂС–РІРЅРёС†С‚РІРѕ Mageia
 
 
 # ../../svn/web/en/contact/index.php +61
 ;Systems administration team
-Команда адміністрування систем
+РљРѕРјР°РЅРґР° Р°РґРјС–РЅС–СЃС‚СЂСѓРІР°РЅРЅСЏ СЃРёСЃС‚РµРј
 
 
 # ../../svn/web/en/contact/index.php +62
 ;Packagers
-Пакувальники
+РџР°РєСѓРІР°Р»СЊРЅРёРєРё
 
 
 # ../../svn/web/en/contact/index.php +63
 ;Communication, Marketing &amp; Web teams
-Зв’язок з засобами масової інформації, команда з маркетингу
+Р—РІвЂ™СЏР·РѕРє Р· Р·Р°СЃРѕР±Р°РјРё РјР°СЃРѕРІРѕС— С–РЅС„РѕСЂРјР°С†С–С—, РєРѕРјР°РЅРґР° Р· РјР°СЂРєРµС‚РёРЅРіСѓ
 
 
 # ../../svn/web/en/contact/index.php +64
 ;QA team
-Команда із забезпечення якості
+РљРѕРјР°РЅРґР° С–Р· Р·Р°Р±РµР·РїРµС‡РµРЅРЅСЏ СЏРєРѕСЃС‚С–
 
 
 # ../../svn/web/en/contact/index.php +65
 ;Documentation team
-Команда з документування
+РљРѕРјР°РЅРґР° Р· РґРѕРєСѓРјРµРЅС‚СѓРІР°РЅРЅСЏ
 
 
 # ../../svn/web/en/contact/index.php +66
 ;Mageia.Org association members
-Учасники асоціації Mageia.Org
+РЈС‡Р°СЃРЅРёРєРё Р°СЃРѕС†С–Р°С†С–С— Mageia.Org
 
 
 # ../../svn/web/en/contact/index.php +75
 ;In most case you should avoid using those aliases as they should only be used for the rare cases where private emails are needed. Use appropriate public mailing list on <a href="%s">either</a> of <a href="%s">two</a> pages instead.
-Здебільшого, вам слід уникати використання цих альтернативних адрес, ними слід користуватися лише у рідкісних випадках, коли потрібно надіслати особисте повідомлення. Скористайтеся краще відповідним відкритим списком листування на <a href="%s">будь-якій</a> з цих <a href="%s">двох</a> сторінок.
+Р—РґРµР±С–Р»СЊС€РѕРіРѕ, РІР°Рј СЃР»С–Рґ СѓРЅРёРєР°С‚Рё РІРёРєРѕСЂРёСЃС‚Р°РЅРЅСЏ С†РёС… Р°Р»СЊС‚РµСЂРЅР°С‚РёРІРЅРёС… Р°РґСЂРµСЃ, РЅРёРјРё СЃР»С–Рґ РєРѕСЂРёСЃС‚СѓРІР°С‚РёСЃСЏ Р»РёС€Рµ Сѓ СЂС–РґРєС–СЃРЅРёС… РІРёРїР°РґРєР°С…, РєРѕР»Рё РїРѕС‚СЂС–Р±РЅРѕ РЅР°РґС–СЃР»Р°С‚Рё РѕСЃРѕР±РёСЃС‚Рµ РїРѕРІС–РґРѕРјР»РµРЅРЅСЏ. РЎРєРѕСЂРёСЃС‚Р°Р№С‚РµСЃСЏ РєСЂР°С‰Рµ РІС–РґРїРѕРІС–РґРЅРёРј РІС–РґРєСЂРёС‚РёРј СЃРїРёСЃРєРѕРј Р»РёСЃС‚СѓРІР°РЅРЅСЏ РЅР° <a href="%s">Р±СѓРґСЊ-СЏРєС–Р№</a> Р· С†РёС… <a href="%s">РґРІРѕС…</a> СЃС‚РѕСЂС–РЅРѕРє.
 
 
 # ../../svn/web/en/contact/index.php +78
 ;If you want to contact Council or Board for a public discussion, you can start a thread on a mailing-list and add the Board or Council alias in CC.
-Якщо вам потрібно зв’язатися з керівництвом або наглядовою радою проекту для відкритого обговорення, ви можете створити гілку обговорення і додати адреси наглядової ради або керівництва проекту у поле копій повідомлення.
+РЇРєС‰Рѕ РІР°Рј РїРѕС‚СЂС–Р±РЅРѕ Р·РІвЂ™СЏР·Р°С‚РёСЃСЏ Р· РєРµСЂС–РІРЅРёС†С‚РІРѕРј Р°Р±Рѕ РЅР°РіР»СЏРґРѕРІРѕСЋ СЂР°РґРѕСЋ РїСЂРѕРµРєС‚Сѓ РґР»СЏ РІС–РґРєСЂРёС‚РѕРіРѕ РѕР±РіРѕРІРѕСЂРµРЅРЅСЏ, РІРё РјРѕР¶РµС‚Рµ СЃС‚РІРѕСЂРёС‚Рё РіС–Р»РєСѓ РѕР±РіРѕРІРѕСЂРµРЅРЅСЏ С– РґРѕРґР°С‚Рё Р°РґСЂРµСЃРё РЅР°РіР»СЏРґРѕРІРѕС— СЂР°РґРё Р°Р±Рѕ РєРµСЂС–РІРЅРёС†С‚РІР° РїСЂРѕРµРєС‚Сѓ Сѓ РїРѕР»Рµ РєРѕРїС–Р№ РїРѕРІС–РґРѕРјР»РµРЅРЅСЏ.
 
 
 # ../../svn/web/en/contact/index.php +80
 ;You want to join and contribute to Mageia
-Хочете долучитися і зробити внесок у розвиток Mageia?
+РҐРѕС‡РµС‚Рµ РґРѕР»СѓС‡РёС‚РёСЃСЏ С– Р·СЂРѕР±РёС‚Рё РІРЅРµСЃРѕРє Сѓ СЂРѕР·РІРёС‚РѕРє Mageia?
 
 
 # ../../svn/web/en/contact/index.php +81
 ;Please see <a href="%s">our Contributions page</a>.
-Будь ласка, скористайтеся <a href="%s">нашою сторінкою щодо участі у проекті</a>.
+Р‘СѓРґСЊ Р»Р°СЃРєР°, СЃРєРѕСЂРёСЃС‚Р°Р№С‚РµСЃСЏ <a href="%s">РЅР°С€РѕСЋ СЃС‚РѕСЂС–РЅРєРѕСЋ С‰РѕРґРѕ СѓС‡Р°СЃС‚С– Сѓ РїСЂРѕРµРєС‚С–</a>.
