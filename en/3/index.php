@@ -66,7 +66,7 @@ _lang_load($locale, '3');
                         <th><?php _e('Format');?></th>
                         <th class="size"><?php _e('size');?></th>
                         <th><?php _e('link');?></th>
-<?php /*                        <th><?php _e('BitTorrent');?></th> */ ?>
+                        <th><?php _e('BitTorrent');?></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -76,15 +76,15 @@ _lang_load($locale, '3');
                         <td class="size">4.0GB</td>
                         <td><a rel="nofollow" href="?q=Mageia-3-beta4-i586-DVD.iso"><?php _e('32bit');?></a><br>
                             <a rel="nofollow" href="?q=Mageia-3-beta4-x86_64-DVD.iso"><?php _e('64bit');?></a></td>
-<?php /*                        <td><a rel="nofollow" href="?q=Mageia-3-beta4-i586-DVD.iso&amp;torrent=1"><?php _e('32bit');?></a><br>
-                            <a rel="nofollow" href="?q=Mageia-3-beta4-x86_64-DVD.iso&amp;torrent=1"><?php _e('64bit');?></a></td> */ ?>
+                        <td><a rel="nofollow" href="?q=Mageia-3-beta4-i586-DVD.iso&amp;torrent=1"><?php _e('32bit');?></a><br>
+                            <a rel="nofollow" href="?q=Mageia-3-beta4-x86_64-DVD.iso&amp;torrent=1"><?php _e('64bit');?></a></td>
                     </tr>
                     <tr>
                         <th class="name"><?php _e('Installer CD')?><br>
                             <span class="dlinfo"><?php _e('100% Free Software')?></span></th>
                         <td class="size">700MB</td>
                         <td><a rel="nofollow" href="?q=Mageia-3-beta4-dual-CD.iso"><?php _e('dualarch')?></a></td>
-<?php /*                        <td><a rel="nofollow" href="?q=Mageia-3-beta4-dual-CD.iso&amp;torrent=1"><?php _e('dualarch')?></a></td> */ ?>
+                        <td><a rel="nofollow" href="?q=Mageia-3-beta4-dual-CD.iso&amp;torrent=1"><?php _e('dualarch')?></a></td>
                     </tr>
                     <tr><td colspan="4">&nbsp;</td></tr>
                     <?php /*
