@@ -2,7 +2,7 @@
 # from /SVN/web/www/trunk/en/donate/locales.php $_t
 
 ;mageia, donate, donation, donors, help
-mageia, donate, donation, donors, help
+mageia, поддержка, финансы, деньги, помощь
 
 
 ;Donate to Mageia
@@ -11,22 +11,6 @@ mageia, donate, donation, donors, help
 
 ;Why donate?
 Зачем нужны пожертвования?
-
-
-;Donation Tracks
-Suivi des dons
-
-
-;Donate
-Faire un don
-
-
-;Thank you!
-Merci&nbsp;!
-
-
-;PayPal, bank, check
-PayPal, virement bancaire, chèque
 
 
 ;Mageia.Org is a not-for-profit association to manage the Mageia distribution. As a not-for-profit association, it can receive donations from the community to help in a lot of differents fields:

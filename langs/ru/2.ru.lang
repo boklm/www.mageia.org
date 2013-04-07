@@ -100,7 +100,7 @@ mageia, mageia 2, линукс, свободный, скачать, iso, тор�
 
 # en/2/download_index.php +88
 ;Use above DVD or CD and see the <a href="%s" hreflang="en">upgrade guide</a>.
-Use above DVD or CD and see the <a href="%s" hreflang="en">upgrade guide</a>.
+Воспользуйтесь приведенными выше ссылками на образы DVD или компакт-дисков и <a href="%s" hreflang="ru"> инструкциями об обновлении </a>.
 
 
 # en/2/download_index.php +105
@@ -160,7 +160,7 @@ CD со свободным ПО
 
 # en/2/download_index.php +208
 ;see the <a href="%s" hreflang="en">upgrade guide</a>
-see the <a href="%s" hreflang="en">upgrade guide</a>
+см.. <a href="%s" hreflang="ru"> установки по обновлению </a>
 
 
 # en/2/download_index.php +214
@@ -175,157 +175,157 @@ see the <a href="%s" hreflang="en">upgrade guide</a>
 
 # en/2/download_index.php +217 (added manually)
 ;But please remember that it already <a href="http://blog.mageia.org/en/2012/12/02/mageia-1-eol"/>reached EOL</a>.
-But please remember that it already <a href="http://blog.mageia.org/en/2012/12/02/mageia-1-eol"/>reached EOL</a>.
+Впрочем, следует помнить, что <a href="http://blog.mageia.org/en/2012/12/02/mageia-1-eol"/> срок поддержки этой версии истек </a>.
 
 
 # en/2/download_index.php +220 (added manually)
 ;Need more challenge?
-Need more challenge?
+Хотите попробовать что-то новенькое?
 
 
 # en/2/download_index.php +221 (added manually)
 ;You can help us <a href="%s">develop and quality-check Mageia 3</a>.
-You can help us <a href="%s">develop and quality-check Mageia 3</a>.
+Вы можете помочь нам в <a href="%s"> разработке и тестировании Mageia 3 </a>.
 
 
 # en/for-pc/index.php +12
 ;Mageia 2, for your PC
-Mageia 2, for your PC
+Mageia 2, для компьютера
 
 
 # en/for-pc/index.php +21
 ;for your PC
-for your PC
+для вашего личного компьютера
 
 
 # en/for-pc/index.php +26
 ;Plenty
-Plenty
+Обилие
 
 
 # en/for-pc/index.php +27
 ;There are 19&nbsp;881&nbsp;packages in our repositories. And that's just for the 64-bit branch.
-There are 19&nbsp;881&nbsp;packages in our repositories. And that's just for the 64-bit branch.
+В наших хранилищах 19 881 пакетов. И это только в ветке для 64-битных систем.
 
 
 # en/for-pc/index.php +28
 ;The total number is double that &ndash; and then if you consider the backports, and the packages in the Cauldron still testing... you'll see that Mageia users are spoiled for choice.
-The total number is double that &ndash; and then if you consider the backports, and the packages in the Cauldron still testing... you'll see that Mageia users are spoiled for choice.
+Общее количество пакетов вдвое больше, а если еще добавить пакеты обратного портирования и пакеты в Cauldron, которые еще тестируются... Вы увидите, что у пользователей Mageia есть все возможности выбора.
 
 
 # en/for-pc/index.php +29
 ;Here's a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:
-Here's a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:
+Вот основные пакеты, сначала рабочие среды, а затем ключевые программы, которыми вы можете воспользоваться на вашем компьютере:
 
 
 # en/for-pc/index.php +30
 ;Environments
-Environments
+Среды
 
 
 # en/for-pc/index.php +31
 ;Mageia 2 has all the major desktop environments:
-Mageia 2 has all the major desktop environments:
+В Mageia 2 вы сможете воспользоваться всеми основными рабочими средами:
 
 
 # en/for-pc/index.php +44
 ;And then there are the window managers, including Openbox, WindowMaker, IceWM, Fluxbox, Fvwm2 and Awesome.
-And then there are the window managers, including Openbox, WindowMaker, IceWM, Fluxbox, Fvwm2 and Awesome.
+Также можно воспользоваться программами для управления окнами, в частности Openbox, WindowMaker, IceWM, Fluxbox, Fvwm2 и Awesome.
 
 
 # en/for-pc/index.php +45
 ;Applications &rarr;
-Applications &rarr;
+Приложения →
 
 
 # en/for-pc/index.php +46
 ;There are many, many to choose from &ndash; including all the most popular.
-There are many, many to choose from &ndash; including all the most popular.
+Вы можете выбрать любое среди многих, в частности среди популярных.
 
 
 # en/for-pc/index.php +53
 ;Web
-Web
+Интернет
 
 
 # en/for-pc/index.php +54
 ;Choose your web browser from Firefox ESR 10.0.4, Chromium-browser 180.1025.160, Epiphany 3.4.1 or Opera 11.64 &ndash; or one of the many others such as Lynx or Konqueror; then pick an email client from KMail 4.8.2, Thunderbird ESR 10.0.4, Evolution 3.4.1 or maybe Claws-Mail or Mutt.
-Choose your web browser from Firefox ESR 10.0.4, Chromium-browser 180.1025.160, Epiphany 3.4.1 or Opera 11.64 &ndash; or one of the many others such as Lynx or Konqueror; then pick an email client from KMail 4.8.2, Thunderbird ESR 10.0.4, Evolution 3.4.1 or maybe Claws-Mail or Mutt.
+Вы можете выбрать одну из таких программ для просмотра интернета: Firefox ESR 10.0.4, Chromium 18.0.1025.160, Epiphany 3.4.1 или Opera 11.64 - или любую другую, в частности Lynx или Konqueror, затем выбрать программу для работы с электронной почтой, KMail 4.8.2, Thunderbird ESR 10.0.4, Evolution 3.4.1 или Claws-Mail или Mutt.
 
 
 # en/for-pc/index.php +59
 ;Messaging
-Messaging
+Сообщения
 
 
 # en/for-pc/index.php +60
 ;Choose from Kopete, Pidgin, Empathy or Kadu for instant messaging; use Quassel, Konversation, XChat-Gnome or KVIrc for IRC chat; try QuteCom or Ekiga (or even Skype) for VOIP.
-Choose from Kopete, Pidgin, Empathy or Kadu for instant messaging; use Quassel, Konversation, XChat-Gnome or KVIrc for IRC chat; try QuteCom or Ekiga (or even Skype) for VOIP.
+Для обмена мгновенными сообщениями вы можете воспользоваться Kopete, Pidgin, Empathy или Kadu; Quassel, Konversation, XChat-Gnome или KVIrc помогут вам в общении в IRC; услугами интернет-телефонии можно воспользоваться с помощью QuteCom или Ekiga (или даже Skype).
 
 
 # en/for-pc/index.php +65
 ;Office
-Office
+Офисные программы
 
 
 # en/for-pc/index.php +66
 ;The two full-featured office suites LibreOffice and Calligra are there, as well as AbiWord, and a host of text editors including Kate; for finance there's KMyMoney, Skrooge or the professional-level GnuCash.
-The two full-featured office suites LibreOffice and Calligra are there, as well as AbiWord, and a host of text editors including Kate; for finance there's KMyMoney, Skrooge or the professional-level GnuCash.
+В дистрибутиве вы сможете воспользоваться двумя полноценными комплектами офисных программ, LibreOffice и Calligra, а также AbiWord и множеством текстовых редакторов, в частности Kate. Денежный учет можно осуществлять с помощью KMyMoney, Skrooge или программы профессионального уровня - GnuCash.
 
 
 # en/for-pc/index.php +71
 ;Image
-Image
+Работа с изображениями
 
 
 # en/for-pc/index.php +72
 ;Use GIMP for powerful image manipulation, or Inkscape for vector drawing; Blender is there for serious animation. DigiKam or Showfoto will take care of your photos, talk to your camera and give you more basic image editing.
-Use GIMP for powerful image manipulation, or Inkscape for vector drawing; Blender is there for serious animation. DigiKam or Showfoto will take care of your photos, talk to your camera and give you more basic image editing.
+Для работы с растровыми изображениями вы можете воспользоваться GIMP, а для работы с векторной графикой - Inkscape. Создавать анимацию можно с помощью Blender. DigiKam или Showfoto - они помогут вам разобраться с вашим фотоархивом, поработать с вашим цифровым фотоаппаратом и осуществить основные действия по редактированию фотографий.
 
 
 # en/for-pc/index.php +77
 ;Sound
-Sound
+Работа со звуком
 
 
 # en/for-pc/index.php +78
 ;For playing audio files, choose from Amarok 2.5.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don't infringe local laws.
-For playing audio files, choose from Amarok 2.5.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don't infringe local laws.
+Если вам хочется послушать музыку, воспользуйтесь Amarok 2.5.0, Rhythmbox или другими проигрывателями. Посмотреть видео или воспроизвести звуковые файлы можно с помощью VLC, Totem или MPlayer. Также можно воспользоваться универсальным медиацентром XBMC. Некоторые из пакетов имеют отдельные версии в хранилищах Core и Tainted: в пакетах из хранилища Core предусмотрена поддержка только свободных от патентования кодеков, а в пакетах из хранилища Tainted - всех кодеков (эти пакеты предназначены для использования в странах, где использование таких кодеков не ограничивается законодательно).
 
 
 # en/for-pc/index.php +83
 ;Video
-Video
+Работа с видео
 
 
 # en/for-pc/index.php +84
 ;For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there's Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.
-For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there's Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.
+Для редактирования видеофайлов воспользуйтесь Kdenlive, Avidemux, Kino или OpenShot. Для работы с субтитрами предназначен Gaupol и Subtitles Composer, для просмотра и записи телепрограмм - MythTV, Miro, tvtime, FreetuxTV и Me TV.
 
 
 # en/for-pc/index.php +89
 ;Plus
-Plus
+Кроме того
 
 
 # en/for-pc/index.php +90
 ;Then there's ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.
-Then there's ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.
+Вы также можете воспользоваться ZoneMinder для обеспечения интернет-защиты, VirtualBox или WINE для выполнения задач виртуализации, а также широким спектром сред для разработки, в частности Anjuta, Eclipse, Netbeans и KDevelop.
 
 
 # en/for-pc/index.php +95
 ;For more information about these and other packages, check the <a href="%s">Mageia 2 Release notes</a>.
-For more information about these and other packages, check the <a href="%s">Mageia 2 Release notes</a>.
+Подробнее об этих и других пакетах, ознакомьтесь с <a href="%s"> заметками о выпуске Mageia 2 </a>.
 
 
 # en/for-pc/index.php +96
 ;You can take a look at the <a href="%s">Mageia Application Database</a> to get a more complete list of Mageia packages.
-You can take a look at the <a href="%s">Mageia Application Database</a> to get a more complete list of Mageia packages.
+Полный список пакетов Mageia можно найти на странице <a href="%s"> Базы данных программ Mageia </a>.
 
 
 # en/for-server/index.php +12
 ;Mageia 2, for your server
-Mageia 2, for your server
+Mageia 2, для вашего сервера
 
 
 # en/for-server/index.php +21
@@ -340,7 +340,7 @@ Mageia 2 включает в себя все основные сервисы и 
 
 # en/for-server/index.php +27
 ;Aside from the cross-section included here, you will find many others in the repositories: you can use rpmdrake to search for packages, or check the <a href="%s">Mageia App DB</a>.
-Aside from the cross-section included here, you will find many others in the repositories: you can use rpmdrake to search for packages, or check the <a href="%s">Mageia App DB</a>.
+Кроме описанных здесь пакетов в хранилищах вы сможете найти много других. Для поиска можно воспользоваться rpmdrake или <a href="%s"> базой данных программного обеспечения Mageia </a>.
 
 
 # en/for-server/index.php +30
@@ -350,7 +350,7 @@ Aside from the cross-section included here, you will find many others in the rep
 
 # en/for-server/index.php +31
 ;For centralised administration, we include puppet 2.7.11; we use it widely in <a href="%s">our own infrastructure</a>.
-For centralised administration, we include puppet 2.7.11; we use it widely in <a href="%s">our own infrastructure</a>.
+Для централизованного администрирования мы включили в дистрибутива puppet 2.7.11; мы широко используем эту систему в <a href="%s"> нашей собственной инфраструктуре </a>.
 
 
 # en/for-server/index.php +34
@@ -400,7 +400,7 @@ High Availability stack обновлен, и сейчас включает в с
 
 # en/for-server/index.php +50
 ;You can take a look at the <a href="%s">Mageia Application Database</a> to get a more complete list of Mageia packages.
-You can take a look at the <a href="%s">Mageia Application Database</a> to get a more complete list of Mageia packages.
+Полный список пакетов Mageia можно найти на странице <a href="%s"> Базы данных программ Mageia </a>.
 
 
 # en/2/index.php +14
@@ -415,7 +415,7 @@ Mageia 2 - новый, надежный, стабильный дистрибут
 
 # en/2/index.php +30
 ;Mageia 2 is a GNU/Linux distribution for your computer, released by the <a href="%s">Mageia community</a>.
-Mageia 2 is a GNU/Linux distribution for your computer, released by the <a href="%s">Mageia community</a>.
+Mageia 2 - дистрибутив GNU/Linux для вашего компьютера, выпущенный <a href="%s"> сообществом Mageia </a>.
 
 
 # en/2/index.php +33
@@ -445,7 +445,7 @@ Mageia - это одновременно и сообщество, и дистр�
 
 # en/2/index.php +43
 ;Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch's most popular distributions</a>.
-Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch's most popular distributions</a>.
+С выпуска <a href="../1/"> Mageia 1 </a> наш продукт постоянно находится в <a href="%s"> списке десяти самых популярных дистрибутивов Distrowatch </a>.
 
 
 # en/2/index.php +46
@@ -469,19 +469,19 @@ Mageia 2 была создана более чем 100 людьми со все�
 
 # en/2/nav.php +27
 ;Mageia 2
-Mageia 2
+Mageia 2 {ok}
 
 
 # en/2/nav.php +28
 ;Download
-Download
+Загрузить
 
 
 # en/2/nav.php +29
 ;For PC
-For PC
+Для ПК
 
 
 # en/2/nav.php +30
 ;For server
-For servers
+Для сервера

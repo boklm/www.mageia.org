@@ -10,7 +10,7 @@
 
 # ../../svn/web/en/downloads/get/index.php +131
 ;Mageia Downloads
-Mageia Downloads
+Загрузка Mageia
 
 
 ;Download %s
@@ -38,23 +38,23 @@ Mageia Downloads
 
 
 ;Your IP address is %s and you seem to be in %s, %s.
-Your IP address is %s and you seem to be in %s, %s.
+Вашим IP-адресом является %s, вероятно вы находитесь в %s,%s.
 
 
 ;Country
-Country
+Страна
 
 
 ;City
-City
+Город
 
 
 ;Download mirrors
-Download mirrors
+Зеркала загрузки
 
 
 ;The making and the distribution of Mageia worldwide is made possible by all the <a href="%s">people and organizations that mirror our software</a> and that <a href="%s">donate money, hardware, hosting and more</a>.
-The making and the distribution of Mageia worldwide is made possible by all the <a href="%s">people and organizations that mirror our software</a> and that <a href="%s">donate money, hardware, hosting and more</a>.
+Создание и распространение Mageia во всем мире сделали все те <a href="%s"> люди и организации, которые предоставили ресурсы для хранения нашего программного обеспечения </a> и <a href="%s"> поддержали нас материально, предоставлением ресурсов и т.п. </a>.
 
 
 ;Want to help? %sJoin Us!%s
@@ -62,41 +62,41 @@ The making and the distribution of Mageia worldwide is made possible by all the 
 
 
 ;Sorry!
-Sorry!
+Извините!
 
 
 ;Your download could not complete, as we could not find this file. Please try again from the <a href="%s">main downloads page</a>.
-Your download could not complete, as we could not find this file. Please try again from the <a href="%s">main downloads page</a>.
+Не удалось получить нужные вам данные, поскольку не удалось найти подходящий файл. Пожалуйста, повторите попытку с <a href="%s"> основной страницы загрузки </a>.
 
 
 ;If you still encounter this error and think IT SHOULD NOT HAPPEN &ndash; please tell us:
-If you still encounter this error and think IT SHOULD NOT HAPPEN &ndash; please tell us:
+Если вы снова видите это сообщение об ошибке и уверены, что этого не должно было случиться, сообщите нам об ошибке
 
 
 ;directly on <a href="irc://irc.freenode.net/#mageia-web">#mageia-web on Freenode IRC</a>,
-directly on <a href="irc://irc.freenode.net/#mageia-web">#mageia-web on Freenode IRC</a>,
+непосредственно на <a href="irc://irc.freenode.net/#mageia-web"> канале #mageia-web сервера IRC Freenode </a>,
 
 
 ;or <a href="http://twitter.com/mageia_org">via our Tweeter account</a>,
-or <a href="http://twitter.com/mageia_org">via our Tweeter account</a>,
+или <a href="http://twitter.com/mageia_org"> с нашей учетной записью Tweeter </a>,
 
 
 ;or with a <a href="https://www.mageia.org/mailman/listinfo/mageia-webteam">notice on the Web team mailing-list</a>,
-or with a <a href="https://www.mageia.org/mailman/listinfo/mageia-webteam">notice on the Web team mailing-list</a>,
+или с помощью <a href="https://www.mageia.org/mailman/listinfo/mageia-webteam"> сообщения в список рассылки интернет-команды </a>,
 
 
 ;or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">bug report</a>.
-or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">bug report</a>.
+или с помощью <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites</a>format=guidedcomponent=www.mageia.org"> отчета об ошибке .
 
 
 ;You may embed this debug info if you like:
-You may embed this debug info if you like:
+Если хотите, можете прикрепить эти диагностические данные:
 
 
 ;Thanks!
-Thanks!
+Спасибо!
 
 
 ;back to that awesome Mageia home page
-back to that awesome Mageia home page
+вернуться на прекрасную домашнюю страницу Mageia
 
