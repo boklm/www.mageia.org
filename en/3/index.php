@@ -111,14 +111,14 @@ _lang_load($locale, '3');
                     <tr>
                         <th class="name"><?php _e('LiveCD KDE, English-only')?><br>
                             <span class="dlinfo"><?php _e('not suitable for upgrade')?></th>
-                        <td class="size">697MB</td>
+                        <td class="size">700MB</td>
                         <td><a rel="nofollow" href="?q=Mageia-3-beta4-LiveCD-KDE4-en-i586-CD.iso"><?php _e('32bit');?></a></td>
                         <td><a rel="nofollow" href="?q=Mageia-3-beta4-LiveCD-KDE4-en-i586-CD.iso&amp;torrent=1"><?php _e('32bit');?></a></td>
                     </tr>
                     <tr>
                         <th class="name"><?php _e('LiveCD GNOME, English-only')?><br>
                             <span class="dlinfo"><?php _e('not suitable for upgrade')?></th>
-                        <td class="size">703MB</td>
+                        <td class="size">700MB</td>
                         <td><a rel="nofollow" href="?q=Mageia-3-beta4-LiveCD-GNOME-en-i586-CD.iso"><?php _e('32bit');?></a></td>
                         <td><a rel="nofollow" href="?q=Mageia-3-beta4-LiveCD-GNOME-en-i586-CD.iso&amp;torrent=1"><?php _e('32bit');?></a></td>
                     </tr>
