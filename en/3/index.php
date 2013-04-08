@@ -79,6 +79,7 @@ _lang_load($locale, '3');
                         <td><a rel="nofollow" href="?q=Mageia-3-beta4-i586-DVD.iso&amp;torrent=1"><?php _e('32bit');?></a><br>
                             <a rel="nofollow" href="?q=Mageia-3-beta4-x86_64-DVD.iso&amp;torrent=1"><?php _e('64bit');?></a></td>
                     </tr>
+<?php /*
                     <tr>
                         <th class="name"><?php _e('Installer CD')?><br>
                             <span class="dlinfo"><?php _e('100% Free Software')?></span></th>
@@ -86,8 +87,10 @@ _lang_load($locale, '3');
                         <td><a rel="nofollow" href="?q=Mageia-3-beta4-dual-CD.iso"><?php _e('dualarch')?></a></td>
                         <td><a rel="nofollow" href="?q=Mageia-3-beta4-dual-CD.iso&amp;torrent=1"><?php _e('dualarch')?></a></td>
                     </tr>
+                    <tr><td colspan="4">
+                    </td></tr>
                     <tr><td colspan="4">&nbsp;</td></tr>
-                    <?php /*
+*/ ?>
                     <tr>
                         <th class="name"><?php _e('LiveDVD KDE')?><br>
                             <span class="dlinfo"><?php _e('not suitable for upgrade')?></span></th>
@@ -110,20 +113,19 @@ _lang_load($locale, '3');
                     <tr>
                         <th class="name"><?php _e('LiveCD KDE, English-only')?><br>
                             <span class="dlinfo"><?php _e('not suitable for upgrade')?></th>
-                        <td class="size">680MB</td>
+                        <td class="size">697MB</td>
                         <td><a rel="nofollow" href="?q=Mageia-3-beta4-LiveCD-KDE4-en-i586-CD.iso"><?php _e('32bit');?></a></td>
                         <td><a rel="nofollow" href="?q=Mageia-3-beta4-LiveCD-KDE4-en-i586-CD.iso&amp;torrent=1"><?php _e('32bit');?></a></td>
                     </tr>
                     <tr>
                         <th class="name"><?php _e('LiveCD GNOME, English-only')?><br>
                             <span class="dlinfo"><?php _e('not suitable for upgrade')?></th>
-                        <td class="size">680MB</td>
+                        <td class="size">703MB</td>
                         <td><a rel="nofollow" href="?q=Mageia-3-beta4-LiveCD-GNOME-en-i586-CD.iso"><?php _e('32bit');?></a></td>
                         <td><a rel="nofollow" href="?q=Mageia-3-beta4-LiveCD-GNOME-en-i586-CD.iso&amp;torrent=1"><?php _e('32bit');?></a></td>
                     </tr>
-                    <tr><td colspan="4">&nbsp;</td></tr>
+                    <tr><td colspan="3">&nbsp;</td></tr>
                     <tr>
-                    */ ?>
                         <th><?php _e('Network installer, Free Software CD')?></th>
                         <td class="size">~35MB<br>~20MB</td>
                         <td><a rel="nofollow" href="?q=Mageia-3-beta4-Boot-i586-CD.iso"><?php _e('32bit');?></a><br>
