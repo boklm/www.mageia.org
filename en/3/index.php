@@ -86,8 +86,6 @@ _lang_load($locale, '3');
                         <td><a rel="nofollow" href="?q=Mageia-3-beta4-dual-CD.iso"><?php _e('dualarch')?></a></td>
                         <td><a rel="nofollow" href="?q=Mageia-3-beta4-dual-CD.iso&amp;torrent=1"><?php _e('dualarch')?></a></td>
                     </tr>
-                    <tr><td colspan="4">
-                    </td></tr>
                     <tr><td colspan="4">&nbsp;</td></tr>
                     <tr>
                         <th class="name"><?php _e('LiveDVD KDE')?><br>
@@ -122,7 +120,7 @@ _lang_load($locale, '3');
                         <td><a rel="nofollow" href="?q=Mageia-3-beta4-LiveCD-GNOME-en-i586-CD.iso"><?php _e('32bit');?></a></td>
                         <td><a rel="nofollow" href="?q=Mageia-3-beta4-LiveCD-GNOME-en-i586-CD.iso&amp;torrent=1"><?php _e('32bit');?></a></td>
                     </tr>
-                    <tr><td colspan="3">&nbsp;</td></tr>
+                    <tr><td colspan="4">&nbsp;</td></tr>
                     <tr>
                         <th><?php _e('Network installer, Free Software CD')?></th>
                         <td class="size">~35MB<br>~20MB</td>
