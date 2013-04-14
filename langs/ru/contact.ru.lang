@@ -112,8 +112,8 @@ mageia, контакты, почта, пресса, люди, совет, рук
 
 
 # ../../svn/web/en/contact/index.php +75
-;In most case you should avoid using those aliases as they should only be used for the rare cases where private emails are needed. Use appropriate public mailing list on <a href="%s">either</a> of <a href="%s">two</a> pages instead.
-В основном, вам следует избегать использования этих альтернативных адресов, ими следует пользоваться только в редких случаях, когда нужно отправить личное сообщение. Воспользуйтесь лучше соответствующим открытым списком рассылки на <a href="%s">любой</a> из этих <a href="%s">двух</a> страниц.
+;In most case you should avoid using those aliases as they should only be used for the rare cases where private emails are needed.Use appropriate <a href="%s">public mailing list</a> instead.
+В основном, вам следует избегать использования этих альтернативных адресов, ими следует пользоваться только в редких случаях, когда нужно отправить личное сообщение. Воспользуйтесь лучше соответствующим <a href="%s">открытым списком рассылки</a>.
 
 
 # ../../svn/web/en/contact/index.php +78
