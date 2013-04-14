@@ -112,8 +112,8 @@ Channel IRC di mana kamu bisa berdiskusi secara langsung dengan pengguna Mageia 
 
 
 # ../../svn/web/en/support/index.php +64
-;our <a href="http://www.mageia.org/mailman/" hreflang="en">mailing-lists</a>;
-<a href="http://www.mageia.org/mailman/" hreflang="en">mailing-list</a> kami;
+;our <a href="https://wiki.mageia.org/en/Mailing_lists" hreflang="en">mailing-lists</a>;
+<a href="https://wiki.mageia.org/en/Mailing_lists" hreflang="en">mailing-list</a> kami;
 
 
 # ../../svn/web/en/support/index.php +65

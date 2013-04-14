@@ -119,8 +119,8 @@ Canale IRC unde puteți discuta în direct cu alți utilizatori sau contribuitor
 
 
 # ../../svn/web/en/support/index.php +64
-;our <a href="http://www.mageia.org/mailman/" hreflang="en">mailing-lists</a>;
-<a href="http://www.mageia.org/mailman/" hreflang="en">listele noastre de difuziune</a>;
+;our <a href="https://wiki.mageia.org/en/Mailing_lists" hreflang="en">mailing-lists</a>;
+<a href="https://wiki.mageia.org/en/Mailing_lists" hreflang="en">listele noastre de difuziune</a>;
 
 
 # ../../svn/web/en/support/index.php +65

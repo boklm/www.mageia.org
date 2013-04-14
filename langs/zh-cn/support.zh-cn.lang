@@ -119,8 +119,8 @@ our <a href="https://wiki.mageia.org/en/">Wiki</a> (still rough at the time, we 
 
 
 # ../../svn/web/en/support/index.php +64
-;our <a href="http://www.mageia.org/mailman/" hreflang="en">mailing-lists</a>;
-our <a href="http://www.mageia.org/mailman/" hreflang="en">mailing-lists</a>;
+;our <a href="https://wiki.mageia.org/en/Mailing_lists" hreflang="en">mailing-lists</a>;
+our <a href="https://wiki.mageia.org/en/Mailing_lists" hreflang="en">mailing-lists</a>;
 
 
 # ../../svn/web/en/support/index.php +65
