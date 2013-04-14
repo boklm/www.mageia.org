@@ -112,8 +112,8 @@ Ekipa za dokumentacijo
 
 
 # ../../svn/web/en/contact/index.php +75
-;In most case you should avoid using those aliases as they should only be used for the rare cases where private emails are needed. Use appropriate public mailing list on <a href="%s">either</a> of <a href="%s">two</a> pages instead.
-V večini primerov se izogibajte uporabi teh vzdevkov, saj so namenjeni le za redke primere, ko je res potrebna zasebna elektronska pošta. Raje uporabite ustrezen javni poštni seznam na <a href="%s">enem</a> od <a href="%s">teh</a> seznamov.
+;In most case you should avoid using those aliases as they should only be used for the rare cases where private emails are needed. Use appropriate <a href="%s">public mailing list</a> instead.
+V večini primerov se izogibajte uporabi teh vzdevkov, saj so namenjeni le za redke primere, ko je res potrebna zasebna elektronska pošta. Raje uporabite ustrezen <a href="%s">javni poštni seznam</a>.
 
 
 # ../../svn/web/en/contact/index.php +78
