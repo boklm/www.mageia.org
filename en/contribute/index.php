@@ -64,7 +64,7 @@ _lang_load($locale, 'contribute');
         <ul id="contrib-roles" class="contrib-list">
             <li id="support">
                 <h3><?php _e('Helping users &amp; advocating the project')?></h3>
-                <p><?php _e('Want to welcome and help new users or share tips with experienced ones? In <a href="https://wiki.mageia.org/en/IRC">IRC channels</a>, <a href="http://forums.mageia.org/">forums</a>, <a href="http://mageia.org/mailman/">mailing-lists</a>, local events? Just get in touch with us via one of these channels and share the fun!')?></p>
+                <p><?php _e('Want to welcome and help new users or share tips with experienced ones? In <a href="https://wiki.mageia.org/en/IRC">IRC channels</a>, <a href="http://forums.mageia.org/">forums</a>, <a href="https://wiki.mageia.org/en/Mailing_lists">mailing-lists</a>, local events? Just get in touch with us via one of these channels and share the fun!')?></p>
             </li>
             <li id="docu">
                 <h3><a href="https://wiki.mageia.org/en/Documentation_team"><?php _e('Writing, copywriting and documenting')?></a></h3>

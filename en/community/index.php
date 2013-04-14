@@ -100,7 +100,7 @@ include '../../lib/news.php';
         <p><?php _e('... or, how to get in touch with us? Easy:')?></p>
         <ul class="hl">
             <li><a href="https://wiki.mageia.org/en/IRC" title="Internet Relay Chat"><?php echo _d('IRC</a> on Freenode')?>,</li>
-            <li><a href="/mailman/"><?php echo _d('mailing-lists 1</a> &amp; <a href="http://ml.mageia.org/">2')?></a>,</li>
+            <li><a href="https://wiki.mageia.org/en/Mailing_lists"><?php echo _d('mailing-lists')?></a>,</li>
             <li><a href="<?php _e('https://forum.mageia.org/en/')?>"><?php echo _d('Forum')?></a>,</li>
             <li><a href="<?php _e('http://blog.mageia.org/en/')?>"><?php echo _d('Blog')?></a>,</li>
             <li><?php _e('in real life!')?></li>

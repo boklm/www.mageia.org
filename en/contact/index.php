@@ -53,7 +53,7 @@ _lang_load($locale, 'contact');
         <?php
         _h('You have an idea of who to contact', null, 'h2');
         _h('You may post in the <a href="%s">forum</a> or the <a href="%s">public discussion mailing-list</a>.',
-            array('https://forums.mageia.org/', 'https://www.mageia.org/mailman/listinfo/mageia-discuss'));
+            array('https://forums.mageia.org/', 'https://ml.mageia.org/l/info/discuss'));
         _h('You also may use the following email aliases too to contact all members of a group at once:');
         $groups = array(
             'board'     => _d('Mageia.Org Board members'),
@@ -72,8 +72,8 @@ _lang_load($locale, 'contact');
         echo '</ul>';
 
         _h(
-            'In most case you should avoid using those aliases as they should only be used for the rare cases where private emails are needed. Use appropriate public mailing list on <a href="%s">either</a> of <a href="%s">two</a> pages instead.',
-            array('https://www.mageia.org/mailman/', 'http://ml.mageia.org/')
+            'In most case you should avoid using those aliases as they should only be used for the rare cases where private emails are needed. Use appropriate <a href="%s">public mailing list</a> instead.',
+            array('https://wiki.mageia.org/en/Mailing_lists')
         );
         _h('If you want to contact Council or Board for a public discussion, you can start a thread on a mailing-list and add the Board or Council alias in CC.');
         echo '<hr>';
