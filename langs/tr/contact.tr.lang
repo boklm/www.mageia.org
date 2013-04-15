@@ -112,8 +112,8 @@ Mageia.Org dernek üyeleri
 
 
 # ../../svn/web/en/contact/index.php +75
-;In most case you should avoid using those aliases as they should only be used for the rare cases where private emails are needed. Use appropriate public mailing list on <a href="%s">either</a> of <a href="%s">two</a> pages instead.
-Yukarıdaki adresler özel posta gerektiren yalnızca nadir durumlarda kullanılmalıdır. Çoğu durumda onları kullanmaktan sakınmalısınız. Size uygun olan herkese açık <a href="%s">her iki</a> sayfadan <a href="%s">birindeki</a> posta listesini kullanın.
+;In most case you should avoid using those aliases as they should only be used for the rare cases where private emails are needed. Use appropriate <a href="%s">public mailing list</a> instead.
+Çoğu zaman, özel eposta ihtiyacının olduğu nadir durumlarda kullanılan, yukarıdaki eposta adreslerini kullanmaktan kaçınmalısınız. Onun yerine <a href="%s">herkese açık posta listelerinden</a> sizin için uygun olanı kullanın.
 
 
 # ../../svn/web/en/contact/index.php +78
