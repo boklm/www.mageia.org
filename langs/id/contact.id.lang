@@ -112,8 +112,8 @@ Anggota asosiasi Mageia.Org
 
 
 # ../../svn/web/en/contact/index.php +75
-;In most case you should avoid using those aliases as they should only be used for the rare cases where private emails are needed. Use appropriate public mailing list on <a href="%s">either</a> of <a href="%s">two</a> pages instead.
-Pada kebanyakan kasus kamu harus menghindari email tersebut karena mereka hanya digunakan untuk kasus yang langka di mana email privat akan diperlukan. Gunakan mailing list publik yang sesuai pada <a href="%s">satu</a> dari <a href="%s">dua</a> halaman saja.
+;In most case you should avoid using those aliases as they should only be used for the rare cases where private emails are needed. Use appropriate <a href="%s">public mailing list</a> instead.
+Pada kebanyakan kasus kamu harus menghindari email tersebut karena mereka hanya digunakan untuk kasus yang langka di mana email privat diperlukan. Gunakan <a href="%s">mailing list publik</a> yang sesuai saja.
 
 
 # ../../svn/web/en/contact/index.php +78
