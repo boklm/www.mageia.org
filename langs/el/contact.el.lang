@@ -112,8 +112,8 @@ mageia, επικοινωνία, αλληλογραφία, τύπος, άνθρω
 
 
 # ../../svn/web/en/contact/index.php +75
-;In most case you should avoid using those aliases as they should only be used for the rare cases where private emails are needed. Use appropriate public mailing list on <a href="%s">either</a> of <a href="%s">two</a> pages instead.
-Στις περισσότερες των περιπτώσεων, είναι προτιμότερο να αποφεύγεται η χρήση αυτών των διευθύνσεων, διότι προορίζονται για τις σπάνιες πριπτώσεις όπου απαιτείται η χρήση της ιδιωτικής αλληλογραφίας. Χρησιμοποιήστε κατά προτίμηση την κατάλληλη δημόσια λίστα αλληλογραφίας από <a href="%s">μια</a> από τις <a href="%s">δυο</a> σελίδες.
+;In most case you should avoid using those aliases as they should only be used for the rare cases where private emails are needed. Use appropriate <a href="%s">public mailing list</a> instead.
+Στις περισσότερες των περιπτώσεων, είναι προτιμότερο να αποφεύγεται η χρήση αυτών των διευθύνσεων, διότι προορίζονται για τις σπάνιες περιπτώσεις όπου απαιτείται η χρήση της ιδιωτικής αλληλογραφίας. Αντί αυτών χρησιμοποιήστε την κατάλληλη <a href="%s">δημόσια λίστα αλληλογραφίας</a>.
 
 
 # ../../svn/web/en/contact/index.php +78
