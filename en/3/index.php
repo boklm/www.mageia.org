@@ -34,16 +34,16 @@ _lang_load($locale, '3');
             <ul>
                 <li><a href="https://wiki.mageia.org/en/Mageia_3_development#Development_Planning"><?php _e('Development roadmap')?></a></li>
                 <li><a href="https://wiki.mageia.org/en/FeatureMageia3_Review"><?php _e('Features review')?></a></li>
-                <li><a href="https://wiki.mageia.org/en/Mageia_3_beta4"><?php _e('Release notes')?></a></li>
+                <li><a href="https://wiki.mageia.org/en/Mageia_3_rc"><?php _e('Release notes')?></a></li>
                 <li><a href="https://wiki.mageia.org/en/Mageia_3_Errata"><?php _e('Errata')?></a></li>
                 <li><a href="//bugs.mageia.org/"><?php _e('Bugs Reports')?></a></li>
             </ul>
         </header>
         <section>
-            <p class="unstable-release-warning"><?php _e('Be careful! This is a beta, unstable release.');
-                _e('It is only intended for developer use. DO NOT USE THIS IN PRODUCTION OR FOR OFFICIAL REVIEW.'); ?></p>
+            <p class="unstable-release-warning"><?php _e('This is a Release Candidate. Release Candidate software is software that has graduated Beta testing, and should be a release-ready product suitable for advanced users and reviewers. However, beginning users and critical-applications users may wish to wait for the final release planned for May 2013.');
+                _e('It is inteded to identify any remaining bugs or missing packages.'); ?></p>
             <div class="para">
-                <h2><?php _e('Download %s', array('Mageia 3 beta4')); ?></h2>
+                <h2><?php _e('Download %s', array('Mageia 3 RC')); ?></h2>
                 <ul class="dlinfo hl">
                     <li><?php _e('Up to 167 locales are supported:'); ?>
                         Deutsch, English, español, français, italiano, português, svenska, nederlands,
@@ -74,65 +74,65 @@ _lang_load($locale, '3');
                         <th class="name"><?php _e('Installer DVD')?><br>
                             <span class="dlinfo"><?php _e('Free Software and some proprietary drivers')?></span></th>
                         <td class="size">4.0GB</td>
-                        <td><a rel="nofollow" href="?q=Mageia-3-beta4-i586-DVD.iso"><?php _e('32bit');?></a><br>
-                            <a rel="nofollow" href="?q=Mageia-3-beta4-x86_64-DVD.iso"><?php _e('64bit');?></a></td>
-                        <td><a rel="nofollow" href="?q=Mageia-3-beta4-i586-DVD.iso&amp;torrent=1"><?php _e('32bit');?></a><br>
-                            <a rel="nofollow" href="?q=Mageia-3-beta4-x86_64-DVD.iso&amp;torrent=1"><?php _e('64bit');?></a></td>
+                        <td><a rel="nofollow" href="?q=Mageia-3-RC-i586-DVD.iso"><?php _e('32bit');?></a><br>
+                            <a rel="nofollow" href="?q=Mageia-3-RC-x86_64-DVD.iso"><?php _e('64bit');?></a></td>
+                        <td><a rel="nofollow" href="?q=Mageia-3-RC-i586-DVD.iso&amp;torrent=1"><?php _e('32bit');?></a><br>
+                            <a rel="nofollow" href="?q=Mageia-3-RC-x86_64-DVD.iso&amp;torrent=1"><?php _e('64bit');?></a></td>
                     </tr>
                     <tr>
                         <th class="name"><?php _e('Installer CD')?><br>
                             <span class="dlinfo"><?php _e('100% Free Software')?></span></th>
                         <td class="size">700MB</td>
-                        <td><a rel="nofollow" href="?q=Mageia-3-beta4-dual-CD.iso"><?php _e('dualarch')?></a></td>
-                        <td><a rel="nofollow" href="?q=Mageia-3-beta4-dual-CD.iso&amp;torrent=1"><?php _e('dualarch')?></a></td>
+                        <td><a rel="nofollow" href="?q=Mageia-3-RC-dual-CD.iso"><?php _e('dualarch')?></a></td>
+                        <td><a rel="nofollow" href="?q=Mageia-3-RC-dual-CD.iso&amp;torrent=1"><?php _e('dualarch')?></a></td>
                     </tr>
-                    <tr><td colspan="4">&nbsp;</td></tr>
+ <?php /*           <tr><td colspan="4">&nbsp;</td></tr>
                     <tr>
                         <th class="name"><?php _e('LiveDVD KDE')?><br>
                             <span class="dlinfo"><?php _e('not suitable for upgrade')?></span></th>
                         <td class="size">1.4GB</td>
-                        <td><a rel="nofollow" href="?q=Mageia-3-beta4-LiveDVD-KDE4-i586-DVD.iso"><?php _e('32bit');?></a><br>
-                            <a rel="nofollow" href="?q=Mageia-3-beta4-LiveDVD-KDE4-x86_64-DVD.iso"><?php _e('64bit');?></a></td>
-                        <td><a rel="nofollow" href="?q=Mageia-3-beta4-LiveDVD-KDE4-i586-DVD.iso&amp;torrent=1"><?php _e('32bit');?></a><br>
-                            <a rel="nofollow" href="?q=Mageia-3-beta4-LiveDVD-KDE4-x86_64-DVD.iso&amp;torrent=1"><?php _e('64bit');?></a></td>
+                        <td><a rel="nofollow" href="?q=Mageia-3-RC-LiveDVD-KDE4-i586-DVD.iso"><?php _e('32bit');?></a><br>
+                            <a rel="nofollow" href="?q=Mageia-3-RC-LiveDVD-KDE4-x86_64-DVD.iso"><?php _e('64bit');?></a></td>
+                        <td><a rel="nofollow" href="?q=Mageia-3-RC-LiveDVD-KDE4-i586-DVD.iso&amp;torrent=1"><?php _e('32bit');?></a><br>
+                            <a rel="nofollow" href="?q=Mageia-3-RC-LiveDVD-KDE4-x86_64-DVD.iso&amp;torrent=1"><?php _e('64bit');?></a></td>
                     </tr>
                     <tr>
                         <th class="name"><?php _e('LiveDVD GNOME')?><br>
                             <span class="dlinfo"><?php _e('not suitable for upgrade')?></th>
                         <td class="size">1.4GB</td>
-                        <td><a rel="nofollow" href="?q=Mageia-3-beta4-LiveDVD-GNOME-i586-DVD.iso"><?php _e('32bit');?></a><br>
-                            <a rel="nofollow" href="?q=Mageia-3-beta4-LiveDVD-GNOME-x86_64-DVD.iso"><?php _e('64bit');?></a></td>
-                        <td><a rel="nofollow" href="?q=Mageia-3-beta4-LiveDVD-GNOME-i586-DVD.iso&amp;torrent=1"><?php _e('32bit');?></a><br>
-                            <a rel="nofollow" href="?q=Mageia-3-beta4-LiveDVD-GNOME-x86_64-DVD.iso&amp;torrent=1"><?php _e('64bit');?></a></td>
+                        <td><a rel="nofollow" href="?q=Mageia-3-RC-LiveDVD-GNOME-i586-DVD.iso"><?php _e('32bit');?></a><br>
+                            <a rel="nofollow" href="?q=Mageia-3-RC-LiveDVD-GNOME-x86_64-DVD.iso"><?php _e('64bit');?></a></td>
+                        <td><a rel="nofollow" href="?q=Mageia-3-RC-LiveDVD-GNOME-i586-DVD.iso&amp;torrent=1"><?php _e('32bit');?></a><br>
+                            <a rel="nofollow" href="?q=Mageia-3-RC-LiveDVD-GNOME-x86_64-DVD.iso&amp;torrent=1"><?php _e('64bit');?></a></td>
                     </tr>
                     <tr><td colspan="4">&nbsp;</td></tr>
                     <tr>
                         <th class="name"><?php _e('LiveCD KDE, English-only')?><br>
                             <span class="dlinfo"><?php _e('not suitable for upgrade')?></th>
                         <td class="size">700MB</td>
-                        <td><a rel="nofollow" href="?q=Mageia-3-beta4-LiveCD-KDE4-en-i586-CD.iso"><?php _e('32bit');?></a></td>
-                        <td><a rel="nofollow" href="?q=Mageia-3-beta4-LiveCD-KDE4-en-i586-CD.iso&amp;torrent=1"><?php _e('32bit');?></a></td>
+                        <td><a rel="nofollow" href="?q=Mageia-3-RC-LiveCD-KDE4-en-i586-CD.iso"><?php _e('32bit');?></a></td>
+                        <td><a rel="nofollow" href="?q=Mageia-3-RC-LiveCD-KDE4-en-i586-CD.iso&amp;torrent=1"><?php _e('32bit');?></a></td>
                     </tr>
                     <tr>
                         <th class="name"><?php _e('LiveCD GNOME, English-only')?><br>
                             <span class="dlinfo"><?php _e('not suitable for upgrade')?></th>
                         <td class="size">700MB</td>
-                        <td><a rel="nofollow" href="?q=Mageia-3-beta4-LiveCD-GNOME-en-i586-CD.iso"><?php _e('32bit');?></a></td>
-                        <td><a rel="nofollow" href="?q=Mageia-3-beta4-LiveCD-GNOME-en-i586-CD.iso&amp;torrent=1"><?php _e('32bit');?></a></td>
-                    </tr>
+                        <td><a rel="nofollow" href="?q=Mageia-3-RC-LiveCD-GNOME-en-i586-CD.iso"><?php _e('32bit');?></a></td>
+                        <td><a rel="nofollow" href="?q=Mageia-3-RC-LiveCD-GNOME-en-i586-CD.iso&amp;torrent=1"><?php _e('32bit');?></a></td>
+                    </tr> */ ?>
                     <tr><td colspan="4">&nbsp;</td></tr>
                     <tr>
                         <th><?php _e('Network installer, Free Software CD')?></th>
                         <td class="size">~35MB<br>~20MB</td>
-                        <td><a rel="nofollow" href="?q=Mageia-3-beta4-Boot-i586-CD.iso"><?php _e('32bit');?></a><br>
-                            <a rel="nofollow" href="?q=Mageia-3-beta4-Boot-x86_64-CD.iso"><?php _e('64bit');?></a></td>
+                        <td><a rel="nofollow" href="?q=Mageia-3-RC-Boot-i586-CD.iso"><?php _e('32bit');?></a><br>
+                            <a rel="nofollow" href="?q=Mageia-3-RC-Boot-x86_64-CD.iso"><?php _e('64bit');?></a></td>
                     </tr>
                     <tr>
                         <th><?php _e('Network installer + nonfree firmware CD')?><br>
                             <span class="dlinfo"><?php _e('needed for some disc controllers, some network cards, etc.')?></span></th>
                         <td class="size">~55MB<br>~30MB</td>
-                        <td><a rel="nofollow" href="?q=Mageia-3-beta4-Boot-nonfree-i586-CD.iso"><?php _e('32bit');?></a><br>
-                            <a rel="nofollow" href="?q=Mageia-3-beta4-Boot-nonfree-x86_64-CD.iso"><?php _e('64bit');?></a></td>
+                        <td><a rel="nofollow" href="?q=Mageia-3-RC-Boot-nonfree-i586-CD.iso"><?php _e('32bit');?></a><br>
+                            <a rel="nofollow" href="?q=Mageia-3-RC-Boot-nonfree-x86_64-CD.iso"><?php _e('64bit');?></a></td>
                     </tr>
                 </tbody>
                 </table>
