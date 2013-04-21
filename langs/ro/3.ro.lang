@@ -32,13 +32,13 @@ Raportări de erori
 
 
 # ../../svn/web/en/3/index.php +43
-;Be careful! This is a beta, unstable release.
-Atenție! Aceasta este o versiune beta, adică instabilă.
+;This is a Release Candidate. Release Candidate software is software that has graduated Beta testing, and should be a release-ready product suitable for advanced users and reviewers. However, beginning users and critical-applications users may wish to wait for the final release planned for May 2013.
+This is a Release Candidate. Release Candidate software is software that has graduated Beta testing, and should be a release-ready product suitable for advanced users and reviewers. However, beginning users and critical-applications users may wish to wait for the final release planned for May 2013.
 
 
 # ../../svn/web/en/3/index.php +44
-;It is only intended for developer use. DO NOT USE THIS IN PRODUCTION OR FOR OFFICIAL REVIEW.
-Este destinată doar dezvoltatorilor. NU O FOLOSIȚI ÎN PRODUCȚIE SAU PENTRU RECENZIE OFICIALĂ.
+;It is inteded to identify any remaining bugs or missing packages.
+It is inteded to identify any remaining bugs or missing packages.
 
 
 # ../../svn/web/en/3/index.php +46
