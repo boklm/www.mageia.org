@@ -30,11 +30,11 @@ Si le téléchargement ne démarre pas, <a href="%s" rel="nofollow" title="%s">c
 
 
 ;As soon as your download is complete, you should check that the signatures match:
-Dès que votre ISO est téléchargée, vous pouvez vérifier que les signatures correspondent bien&nbsp;:
+Dès que votre ISO est téléchargée, vous devriez vérifier que les signatures correspondent bien&nbsp;:
 
 
 ;If signatures do not match, <strong>DO NOT use this ISO</strong>. Double-check and try to download again.
-Si elles ne correspondent pas, l&rsquo;image n&rsquo;est pas bonne.
+Si elles ne correspondent pas, <strong>N&rsquo;UTILISEZ PAS cette ISO</strong>. Faites une nouvelle vérification et essayer de la retélécharger en cas de nouvel échec.
 
 
 ;Your IP address is %s and you seem to be in %s, %s.
@@ -70,7 +70,7 @@ Nous n'avons pas pu trouver ce fichier sur ce serveur. Essayez à nouveau <a hre
 
 
 ;If you still encounter this error and think IT SHOULD NOT HAPPEN &ndash; please tell us:
-Si cette erreur se reproduit et que vous trouvez ça ANORMAL... dites-le nous&nbsp;:
+Si cette erreur se reproduit et que vous trouvez ça ANORMAL... Dites-le nous&nbsp;:
 
 
 ;directly on <a href="irc://irc.freenode.net/#mageia-web">#mageia-web on Freenode IRC</a>,
@@ -82,7 +82,7 @@ ou via notre <a href="http://twitter.com/mageia_org">compte Twitter</a>,
 
 
 ;or with a <a href="https://ml.mageia.org/l/info/atelier-discuss">notice on the Atelier team mailing-list</a>,
-ou via une alerte <a href="https://ml.mageia.org/l/info/atelier-discuss">sur la liste de l'équipe Web</a>,
+ou via une alerte <a href="https://ml.mageia.org/l/info/atelier-discuss">sur la liste de diffusion de l'équipe Atelier</a>,
 
 
 ;or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">bug report</a>.
