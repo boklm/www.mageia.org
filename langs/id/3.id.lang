@@ -23,7 +23,7 @@ Catatan rilis
 
 # ../../svn/web/en/3/index.php +38
 ;Errata
-Masalah
+Errata
 
 
 # ../../svn/web/en/3/index.php +39
@@ -33,12 +33,12 @@ Laporan Bug
 
 # ../../svn/web/en/3/index.php +43
 ;This is a Release Candidate. Release Candidate software is software that has graduated Beta testing, and should be a release-ready product suitable for advanced users and reviewers. However, beginning users and critical-applications users may wish to wait for the final release planned for May 2013.
-This is a Release Candidate. Release Candidate software is software that has graduated Beta testing, and should be a release-ready product suitable for advanced users and reviewers. However, beginning users and critical-applications users may wish to wait for the final release planned for May 2013.
+Ini adalah Release Candidate. Software Release Candidate adalah software yang telah lulus pengujian Beta, dan sudah jadi produk yang siap rilis yang cocok untuk pengguna berpengalaman dan para pengulas produk. Tetapi, pengguna pemula dan pengguna aplikasi penting mungkin ingin menunggu hingga final rilis di bulan Mei 2013.
 
 
 # ../../svn/web/en/3/index.php +44
 ;It is inteded to identify any remaining bugs or missing packages.
-It is inteded to identify any remaining bugs or missing packages.
+Ini diperuntukkan untuk mengidentifikasi bug yang tersisa atau paket yang terlupakan.
 
 
 # ../../svn/web/en/3/index.php +46
@@ -108,7 +108,7 @@ BitTorrent {ok}
 
 # ../../svn/web/en/3/index.php +76
 ;Installer DVD
-Instalasi DVD
+DVD installer
 
 
 # ../../svn/web/en/3/index.php +77
@@ -128,7 +128,7 @@ Free Software dan beberapa driver proprietari
 
 # ../../svn/web/en/3/index.php +85
 ;Installer CD
-Instalasi CD
+CD installer
 
 
 # ../../svn/web/en/3/index.php +88
