@@ -38,12 +38,12 @@ Mageia 3
 
 # ../../svn/web/en/3/index.php +43
 ;This is a Release Candidate. Release Candidate software is software that has graduated Beta testing, and should be a release-ready product suitable for advanced users and reviewers. However, beginning users and critical-applications users may wish to wait for the final release planned for May 2013.
-This is a Release Candidate. Release Candidate software is software that has graduated Beta testing, and should be a release-ready product suitable for advanced users and reviewers. However, beginning users and critical-applications users may wish to wait for the final release planned for May 2013.
+这是版本释放候选。候选版本软件比 Beta 测试时更有保证，高级用户也可以认为已经达到了发布标准。但是，初级用户和关键应用的用户，可能还是应该等到 2013 年五月发布的正式版。
 
 
 # ../../svn/web/en/3/index.php +44
 ;It is inteded to identify any remaining bugs or missing packages.
-It is inteded to identify any remaining bugs or missing packages.
+其目的在于修复剩余的故障或缺少的软件。
 
 
 # ../../svn/web/en/3/index.php +46
@@ -148,12 +148,12 @@ BitTorrent
 
 # ../../svn/web/en/3/index.php +79
 ;32bit
-32bit
+32位
 
 
 # ../../svn/web/en/3/index.php +80
 ;64bit
-64bit
+64位
 
 
 # ../../svn/web/en/3/index.php +85
