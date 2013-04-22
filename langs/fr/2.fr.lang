@@ -343,7 +343,7 @@ Administration {ok}
 
 # en/for-server/index.php +31
 ;For centralised administration, we include puppet 2.7.11; we use it widely in <a href="%s">our own infrastructure</a>.
-Pour l'administration centralisée, nous proposons puppet 2.7.11&nsbp; nous l'utilisons largement dans <a href="%s">notre propre infrastructure</a>.
+Pour l'administration centralisée, nous proposons puppet 2.7.11&nbsp;; nous l'utilisons largement dans <a href="%s">notre propre infrastructure</a>.
 
 
 # en/for-server/index.php +34
