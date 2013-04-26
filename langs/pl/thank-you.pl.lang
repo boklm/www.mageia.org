@@ -3,7 +3,7 @@
 
 # /en/thank-you/index.php +14
 ;Thank you for making Mageia possible.
-Dziękujemy za możliwość tworzenia Magei.
+Dziękujemy za możliwość tworzenia dystrybucji Mageia.
 
 
 # /en/thank-you/index.php +15
@@ -21,17 +21,7 @@ mageia, ofiarodawcy, dotacja, podziękowania, partnerzy, pomoc, serwery lustrzan
 Dzięki nim Mageia idzie dalej.
 
 
-# /en/thank-you/index.php +26
-;You too can donate!
-You too can donate!
-
-
 # /en/thank-you/index.php +27
-;Check our activity and financial reports!
-Check our activity and financial reports!
-
-
-# /en/thank-you/index.php +40
 ;Since September 2010, Mageia would not have come to a reality without the enthusiasm, advice and involvement of hundreds of people.
 Od września 2010 roku Magei nie dotrwała by do dziś, gdyby nie entuzjazm, dobre słowa i zaangażowania setek ludzi.
 
@@ -39,6 +29,7 @@ Od września 2010 roku Magei nie dotrwała by do dziś, gdyby nie entuzjazm, dob
 # /en/thank-you/index.php +28
 ;It would not have either, without help and donation from many people and organizations, that provided Mageia.Org with advice, encouragements, trust, facilities, hosting, server and development hardware, mirroring facilities, network bandwidth, money and finally, care.
 Nie obeszłoby się bez pomocy i datków wielu osób i organizacji, które dostarczają Mageia.Org wsparcia, zachęt, zaufania, sprzętu, hostingu, serwerów i sprzętu do testów, urządzeń do serwerów lustrzanych, przepustowości łącz internetowych, pieniędzy i w końcu opieki nad wszystkim.
+
 
 # /en/thank-you/index.php +29
 ;This page is here to remind of their contribution to this project.
@@ -76,8 +67,8 @@ Séverine's place{ok}
 
 
 # /en/thank-you/index.php +49
-;<a href="http://twitter.com/happylisou/">&Eacute;lise</a>'s place
-<a href="http://twitter.com/happylisou/">&Eacute;lise</a>'s place {ok}
+;<a href="http://twitter.com/happylisou/">&Eacute;lise</a>'s place</a>
+<a href="http://twitter.com/happylisou/">&Eacute;lise</a>'s place</a>{ok}
 
 
 # /en/thank-you/index.php +50
@@ -88,3 +79,11 @@ Starbucks Coffee{ok}
 # /en/thank-you/index.php +52
 ;Thanks a lot to all the people we met, discussed with about this project and its potential implications: you know who you are!
 Dziękujemy wszystkim tym, których spotkaliśmy i z którymi dyskutowaliśmy nad naszym projektem i potencjalnymi jego implikacjami.
+
+
+;You too can donate!
+Ty też możesz nas wesprzeć.
+
+
+;Check our activity and financial reports!
+Sprawdź naszą działalność i raporty finansowe.

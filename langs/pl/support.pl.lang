@@ -41,14 +41,12 @@ Aktualizacje
 
 
 
-# ../../svn/web/en/support/index.php +44
-;Updates are available for %s (security and bug fixes) and published on an ongoing basis.
-Updates are available for %s (security and bug fixes) and published on an ongoing basis.
-
-
 ;Updates are available for %s and %s (security and bug fixes) and published on an ongoing basis.
 Aktualizacje są dostępne zarówno dla %s i %s (dotyczące bezpieczeństwa i poprawki błędów). Aktualizacje są publikowane na bieżąco.
 
+
+;Updates are available for %s (security and bug fixes) and published on an ongoing basis.
+Aktualizacje są dostępne dla %s (dotyczące bezpieczeństwa i poprawki błędów) i są publikowane na bieżąco.
 
 
 ;You may subscribe to our %s announce list to be notified of these.
@@ -81,8 +79,8 @@ nasze <a href="https://wiki.mageia.org/en/">Wiki</a> (na ten czas wersja wstępn
 
 
 
-;our <a href="https://wiki.mageia.org/en/Mailing_lists" hreflang="en">mailing-lists</a>;
-naszą <a href="https://wiki.mageia.org/en/Mailing_lists" hreflang="en">listę mailingową</a>;
+;our <a href="http://www.mageia.org/mailman/" hreflang="en">mailing-lists</a>;
+naszą <a href="http://www.mageia.org/mailman/" hreflang="en">listę mailingową</a>;
 
 
 
@@ -170,8 +168,8 @@ Czas życia produktu
 Wydania Magei będą wspierane techniczne przez co najmniej 18 miesięcy.
 
 
-;Mageia 1 will be supported until December 2012.
-Wydanie Mageia 1 będzie wspierane do grudnia 2012 roku.
+;Mageia 1 was supported until December 1st, 2012.
+Wydanie Mageia 1 było wspierane do grudnia 2012 roku.
 
 
 ;Mageia 2 may have a longer lifecycle, this will be decided once released in May.
@@ -185,10 +183,6 @@ Zapoznaj się z istniejącą <a href="//doc.mageia.org/">dokumentacją</a>. Zagl
 ;Documentation
 Dokumentacja
 
-
-# ../../svn/web/en/support/index.php +52
-;Mageia 1 was supported until December 1st, 2012.
-Mageia 1 was supported until December 1st, 2012.
 
 ;Mageia 1 will be supported until December 1st, 2012.
 Mageia 1 będzie wspierana do 1 grudnia 2012.
