@@ -74,6 +74,13 @@
       'zone' => 'CZ',
       'url' => 'ftp://mageia.mirror.dkm.cz/pub/mageia',
     ),
+    2 => 	 
+    array ( 	 
+      'city' => 'Amsterdam', 	 
+      'continent' => 'EU', 	 
+      'zone' => 'NL', 	 
+      'url' => 'ftp://ftp.nluug.nl/pub/os/Linux/distr/mageia', 	 
+    ),
     3 => 
     array (
       'city' => 'Umeå',
@@ -122,6 +129,13 @@
       'continent' => 'EU',
       'zone' => 'CZ',
       'url' => 'http://mageia.mirror.dkm.cz/pub/mageia',
+    ),
+    11 => 	 
+    array (
+      'city' => 'Amsterdam', 	 
+      'continent' => 'EU', 	 
+      'zone' => 'NL', 	 
+      'url' => 'http://ftp.nluug.nl/pub/os/Linux/distr/mageia', 	 
     ),
     12 => 
     array (
@@ -283,6 +297,13 @@
       'continent' => 'EU',
       'zone' => 'DE',
       'url' => 'ftp://ftp-stud.hs-esslingen.de/pub/Mirrors/Mageia',
+    ),
+    38 => 	 
+    array ( 	 
+      'city' => 'Perugia', 	 
+      'continent' => 'EU', 	 
+      'zone' => 'IT', 	 
+      'url' => 'ftp://mageia.mirror.garr.it/mirrors/mageia', 	 
     ),
   ),
   'CZ' => 
@@ -553,6 +574,23 @@
       'zone' => 'BR',
       'url' => 'http://mageia.fis.unb.br',
     ),
+  ),
+  'NL' => 	 
+  array ( 	 
+    0 => 	 
+    array ( 	 
+      'city' => 'Amsterdam', 	 
+      'continent' => 'EU', 	 
+      'zone' => 'NL', 	 
+      'url' => 'ftp://ftp.nluug.nl/pub/os/Linux/distr/mageia', 	 
+    ), 	 
+    1 => 	 
+    array ( 	 
+      'city' => 'Amsterdam', 	 
+      'continent' => 'EU', 	 
+      'zone' => 'NL', 	 
+      'url' => 'http://ftp.nluug.nl/pub/os/Linux/distr/mageia', 	 
+   ), 	 
   ),
   'SE' => 
   array (
@@ -855,4 +893,22 @@
       'url' => 'http://ftp.jaist.ac.jp/pub/Linux/Mageia',
     ),
   ),
-); ?>
+  'IT' => 	 
+  array ( 	 
+    0 => 	 
+    array ( 	 
+      'city' => 'Perugia', 	 
+      'continent' => 'EU', 	 
+      'zone' => 'IT', 	 
+      'url' => 'http://mageia.mirror.garr.it/mirrors/mageia', 	 
+     ), 	 
+    1 => 	 
+    array ( 	 
+      'city' => 'Perugia', 	 
+      'continent' => 'EU', 	 
+      'zone' => 'IT', 	 
+      'url' => 'ftp://mageia.mirror.garr.it/mirrors/mageia', 	 
+    ), 	 
+   ),
+); ?> 
+
