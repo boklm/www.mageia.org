@@ -96,9 +96,8 @@ class Downloads
      *
      * @return array
     */
-    public static function get_all_mirrors()
+    public static function get_all_mirrors($prod = true)
     {
-        $prod       = true;
         $cache_file = realpath(__DIR__ . '/cached.list.php');
 
         if ($prod) {
