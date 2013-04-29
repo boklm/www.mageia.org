@@ -495,6 +495,20 @@
       'zone' => 'TW',
       'url' => 'http://ftp.tku.edu.tw/Linux/Mageia',
     ),
+    13 => 	 
+    array ( 	 
+      'city' => 'Ankara', 	 
+      'continent' => 'AS', 	 
+      'zone' => 'TR', 	 
+      'url' => 'http://ftp.linux.org.tr/mageia/', 	 
+     ),
+    14 => 	 
+    array ( 	 
+      'city' => 'Ankara', 	 
+      'continent' => 'AS', 	 
+      'zone' => 'TR', 	 
+      'url' => 'ftp://ftp.linux.org.tr/mageia/', 	 
+    ), 
   ),
   'CA' => 
   array (
@@ -908,6 +922,23 @@
       'continent' => 'EU', 	 
       'zone' => 'IT', 	 
       'url' => 'ftp://mageia.mirror.garr.it/mirrors/mageia', 	 
+    ), 	 
+   ),
+  'TR' => 	 
+  array ( 	 
+    0 => 	 
+    array ( 	 
+      'city' => 'Ankara', 	 
+      'continent' => 'AS', 	 
+      'zone' => 'TR', 	 
+      'url' => 'http://ftp.linux.org.tr/mageia/', 	 
+     ),
+    1 => 	 
+    array ( 	 
+      'city' => 'Ankara', 	 
+      'continent' => 'AS', 	 
+      'zone' => 'TR', 	 
+      'url' => 'ftp://ftp.linux.org.tr/mageia/', 	 
     ), 	 
    ),
 ); ?> 
