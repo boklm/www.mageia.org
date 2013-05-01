@@ -33,12 +33,12 @@ Errata {ok}
 
 # ../../svn/web/en/3/index.php +43
 ;This is a Release Candidate. Release Candidate software is software that has graduated Beta testing, and should be a release-ready product suitable for advanced users and reviewers. However, beginning users and critical-applications users may wish to wait for the final release planned for May 2013.
-This is a Release Candidate. Release Candidate software is software that has graduated Beta testing, and should be a release-ready product suitable for advanced users and reviewers. However, beginning users and critical-applications users may wish to wait for the final release planned for May 2013.
+Πρόκειται για μια υποψήφια έκδοση (RC). Το λογισμικό που είναι σε υποψήφια έκδοση έχει περάσει με επιτυχία τις δοκιμές beta, και θα πρέπει να είναι έτοιμο για χρήση από τους προχωρημένους χρήστες και τους κριτικούς(δημοσιογράφους). Ωστόσο, οι αρχάριοι χρήστες και οι χρήστες κρίσιμων εφαρμογών θα προτιμούν ίσως να περιμένουν την κυκλοφορία της τελικής έκδοσης, η οποία αναμένεται το Μάϊο 2013.
 
 
 # ../../svn/web/en/3/index.php +44
 ;It is inteded to identify any remaining bugs or missing packages.
-It is inteded to identify any remaining bugs or missing packages.
+Αυτή η έκδοση προορίζεται για τον εντοπισμό όλων των υπολειπόμενων σφαλμάτων ή των ελλειπόντων πακέτων.
 
 
 # ../../svn/web/en/3/index.php +46
