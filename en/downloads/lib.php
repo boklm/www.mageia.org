@@ -5,6 +5,7 @@
 $prods = parse_ini_file('downloads.ini', true);
 
 $countries = array(
+    'AR' => 'Argentina',
     'AU' => 'Australia',
     'BE' => 'Belgique',
     'BR' => 'Brasil',
@@ -16,6 +17,7 @@ $countries = array(
     'DE' => 'Deutschland',
     'ES' => 'España',
     'FR' => 'France',
+    'GB' => 'Great Britain',
     'GR' => 'Greece',
     'GT' => 'Guatemala',
     'ID' => 'Indonesia',
@@ -26,9 +28,11 @@ $countries = array(
     'PL' => 'Polska',
     'RU' => 'Россия',
     'SE' => 'Sverige',
+    'TR' => 'Türkiye',
     'TW' => 'Taiwan',
     'UK' => 'the UK',
     'US' => 'the USA',
+    'ZA' => 'South Africa'
 );
 
 $tmpl = <<<T
