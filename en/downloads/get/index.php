@@ -94,12 +94,13 @@ try {
         $s = array();
         foreach ($cities as $city => $mirrors2) {
             $mirs = array();
+            rsort($mirrors2);
             foreach ($mirrors2 as $m) {
                 $pm = parse_url($m);
                 $alt_dl_link = str_replace('$MIRROR', $m, $download_tmpl);
                 $mirs[] = sprintf(
-                    '%s://<a href="%s" rel="nofollow">%s</a>',
-                    $pm['scheme'], $alt_dl_link, $pm['host']
+                    '<a href="%s" rel="nofollow" class="mirror-link"><span class="p">%s</span> %s</a>',
+                    $alt_dl_link, strtoupper($pm['scheme']), $pm['host']
                 );
             }
             $s[] = sprintf('<td>%s</td><td>%s</td>', rewrite_city($city), implode(', ', $mirs));
@@ -217,7 +218,6 @@ if (!isset($_ENV['APP_MODE']) || $_ENV['APP_MODE'] == 'prod') {
 
                 <hr />
 
-                
                 </div></div>
                 <div class="yui-g" style="border-top: 1px solid #ddd;">
                     <div class="yui-g first"><div class="para">

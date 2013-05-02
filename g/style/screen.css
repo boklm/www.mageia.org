@@ -274,6 +274,10 @@ ul.news li span.dt { font-weight: thin; font-size: 85%; color: #999;
 .warn { color: #a00; }
 .dlt2 tr.reco td { font-weight: bold; }
 
+.mirror-link { text-decoration: underline; padding: 0 2px; }
+    .mirror-link:hover { background: #eee; color: #000; }
+    .mirror-link .p { color: #888; }
+
 .noborder { border-collapse: collapse; border: 0; }
 .noborder td,
 .noborder th { border: 0; }
