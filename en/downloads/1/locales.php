@@ -991,7 +991,7 @@ De remarcat că traducerile sînt în curs.',
                 <a href="http://blog.mageia.org/">нашем блоге</a>, на <em>вашем</em> блоге,
                 в Twitter (<a href="http://twitter.com/mageia_org">@mageia_org</a>).
                 В любом случае, пожалуйста указывайте ссылку на <a href="http://mageia.org/">mageia.org</a>.',
-        'report_bug' => 'Если вы нашли ошибки, пожалуйста <a href="/en/support/report-a-bug/">посмотрите, как сообщить о них</a>
+        'report_bug' => 'Если вы нашли ошибки, пожалуйста <a href="/ru/support/report-a-bug/">посмотрите, как сообщить о них</a>
                     в нашу базу ошибок, чтобы мы могли скорее их устранить.',
         'notify_web' => 'Если у вас есть проблемы с процессом/страницами загрузки, пожалуйста, сообщите об этом Web команде в канале 
 <a href="irc://irc.freenode.net/#mageia-web">#mageia-web</a> на Freenode IRC, чтобы мы могли решить эти проблемы как можно скорее.
@@ -1006,16 +1006,49 @@ De remarcat că traducerile sînt în curs.',
             предоставление: поддержки сообществу,
             %sденежных средств%s,
             оборудования, хостинга, времени, разделения нашего удовольствия.',
-        'all_languages' => 'Up to 167 locales are supported: Deutsch, English, español, français, italiano, português, svenska, nederlands, polski, dansk, Русский and so much more!
-            See the <a href="https://wiki.mageia.org/en/Archive:Mageia_1_supported_locales">comprehensive list</a>.',
-        'euro_languages' => 'Europa set of languages is: Deutsch, English, español, français, italiano, polski, português, Русский.
-            More languages will be made available for the stable release.',
-        'All supported' => 'All supported',
-        'limited_languages' => 'Limited: Belarussian, Catalan, German, English, Spanish, French, Hungarian, Italian, Polish, Portuguese, Ukrainian',
+        'all_languages' => 'Поддерживается до 167 языков: Deutsch, English, español, français, italiano, português, svenska, nederlands, polski, dansk, Русский и так далее!
+            Смотрите <a href="https://wiki.mageia.org/en/Archive:Mageia_1_supported_locales">полный список</a>.',
+        'euro_languages' => 'Языки для Europa: Deutsch, English, español, français, italiano, polski, português, Русский.
+            Другие языки будут доступны в стабильном выпуске.',
+        'All supported' => 'Все поддерживаемые',
+        'limited_languages' => 'Ограниченные: Belarussian, Catalan, German, English, Spanish, French, Hungarian, Italian, Polish, Portuguese, Ukrainian',
         'English' => 'English',
-        'Limited' => 'Limited',
-        'European set' => 'European set'
-        
+        'Limited' => 'Ограниченно',
+        'European set' => 'Набор European'
+        'Europa set 1' => 'Europa 1',
+        'Europa set 2' => 'Europa 2',
+        'Asia set' => 'Asia',
+        'Africa/India set' => 'Africa/India',
+        'popularity' => 'Популярность',
+        'for_full_install' => 'Для полной, только Free Software, установки:',
+        'warn-free' => 'Примечание, что эти DVD ISO сделаны из Free Software <em>исключительно</em>. Как следствие, <em>проприетарные Wi-Fi и видео драйвера '
+            . 'не включены</em>. Если Вам нужен WiFi или специальные видео драйвера в момент установки, вы должны использовать LiveCD вместо DVD. <em>После</em> установки, Вы можете добавить и использовать несвободные nonfree репозитории.',
+        'for_test_live' => 'Для Live теста и установки: LiveCD 32bit',
+        'for_network' => 'Для проводной сети установка:',
+        'def-Europa set 1' => 'European набор 1 содержит языки: Deutsch, English (several variants), Greek, Español, Français, Italiano, Dutch, Português, Português do Brasil, Turkish.',
+        'def-Europa set 2' => 'European набор 2 содержит языки: Bulgarian, Czech, Danish, American English, Estonian,
+            Finnish, Croatian, Hungarian, Lithuanian, Latvian, Norwegian Bokmaal, Norwegian Nynorsk, Polish,
+            Romanian, Russian, Swedish, Ukrainian, Uzbek, Uzbek (cyrillic), Русский.',
+        'def-Asia set' => 'Asian набор 1 содержит языки: American English, Indonesian, Japanese, Korean,
+            Thai, Vietnamese, Chinese Simplified, Chinese Traditional.',
+        'def-Africa/India set' => 'African/Indian содержит языки: Afrikaans, Amharic, Arabic, Assamese, Berber, Bengali, American English,
+            Hausa, Hebrew, Hindi, Igbo, Kannada, Malayalam, Marathi,
+            Punjabi, Tamil, Tswana, Tsonga, Venda, Xhosa, Yoruba, Zulu.',
+        'dl_migrate_instead' => 'Если Вы используете Mandriva Linux 2010.1 или 2010.2,
+            Вы можете напрямую <a href="/ru/1/migrate/">обновить Вашу систему до Mageia 1</a> легко.</p>',
+        'not_sure_what_iso' => 'Вы не уверены какой ISO загрузить? Это всё ещё может быть немного подробнее, но Вы можете захотеть
+            <a href="https://wiki.mageia.org/en/Installation_Media">прочитать в этой статье детали наших 
+            различных установочных носителей</a>.',
+        'Country' => 'Страна',
+        'City' => 'Город',
+        'Download mirrors' => 'Зеркала загрузки',
+        'thank-you-note' => 'Сборка и распространение Mageia по миру
+        возможно через <a href="%s">людей и организаций, которые зеркалируют наши разработки</a>
+        и которые <a href="%s">вносят пожертвования, предоставляют оборудование, хостинг и т.д.</a>.',
+        'dl-failed-try-again' => 'Вашу загрузку не удалось завершить, поскольку мы не смогли найти этот файл.
+            Пожалуйста, повторите вновь с <a href="%s">главной страницы загрузок</a>.',
+        'dl-failed-tell-us' => 'Если вы всё ещё сталкиваетесь с этой ошибкой и думаеме, что этого не должно происходить - пожалуйста, сообщите нам:',
+        'your ip address is' => 'Ваш IP адрес %s и Вы, кажется, в %s, %s.'        
     ),
     'tr' => array(
         'download' => 'indir',
