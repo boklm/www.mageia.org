@@ -1014,7 +1014,7 @@ De remarcat că traducerile sînt în curs.',
         'limited_languages' => 'Ограниченные: Belarussian, Catalan, German, English, Spanish, French, Hungarian, Italian, Polish, Portuguese, Ukrainian',
         'English' => 'English',
         'Limited' => 'Ограниченно',
-        'European set' => 'Набор European'
+        'European set' => 'Набор European',
         'Europa set 1' => 'Europa 1',
         'Europa set 2' => 'Europa 2',
         'Asia set' => 'Asia',
