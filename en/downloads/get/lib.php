@@ -12,6 +12,7 @@
 
 // note, we use geographical country names
 $countries = array(
+    'AR' => 'Argentina',
     'AU' => 'Australia',
     'BE' => 'Belgique',
     'BR' => 'Brasil',
@@ -23,6 +24,7 @@ $countries = array(
     'DE' => 'Deutschland',
     'ES' => 'España',
     'FR' => 'France',
+    'GB' => 'Great Britain',
     'GR' => 'Ελλάδα', // Greece
     'GT' => 'Guatemala',
     'ID' => 'Indonesia',
@@ -33,9 +35,11 @@ $countries = array(
     'PL' => 'Polska',
     'RU' => 'Россия',
     'SE' => 'Sverige',
+    'TR' => 'Türkiye',
     'TW' => '臺灣', // Taiwan
     'UK' => 'the UK',
     'US' => 'the USA',
+    'ZA' => 'South Africa'
 );
 
 /**
