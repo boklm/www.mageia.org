@@ -38,9 +38,9 @@ _lang_load($locale, "about/media");
 			<td><a href="/g/media/logo/mageia-2013-alpha.png"><img src="/g/media/logo/t-mageia-2013-alpha.png" alt="Mageia 2013 logo in alpha"></a></td>
 		</tr>
 		<tr>
-			<td><?php _e('<a href="/g/media/logo/mageia-2013.png">PNG</a> or <a href="g/media/logo/mageia-2013.svg">SVG</a>')?></td>
-			<td><?php _e('<a href="/g/media/logo/mageia-2013-dark.png">PNG</a> or <a href="g/media/logo/mageia-2013-dark.svg">SVG</a>')?></td>
-			<td><?php _e('<a href="/g/media/logo/mageia-2013-alpha.png">PNG</a> or <a href="g/media/logo/mageia-2013-alpha.svg">SVG</a>')?></td>
+			<td><?php _e('<a href="/g/media/logo/mageia-2013.png">PNG</a> or <a href="/g/media/logo/mageia-2013.svg">SVG</a>')?></td>
+			<td><?php _e('<a href="/g/media/logo/mageia-2013-dark.png">PNG</a> or <a href="/g/media/logo/mageia-2013-dark.svg">SVG</a>')?></td>
+			<td><?php _e('<a href="/g/media/logo/mageia-2013-alpha.png">PNG</a> or <a href="/g/media/logo/mageia-2013-alpha.svg">SVG</a>')?></td>
 		</tr>
 		</table>
 
