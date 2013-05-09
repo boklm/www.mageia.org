@@ -71,6 +71,11 @@ Installer DVD and CD ISOs now contains Free Software and some proprietary driver
 You will be asked of which kind of Software you want to install.
 
 
+# ../../svn/web/en/3/index.php +57
+;The installation CD contains only a minimal list of packages.
+The installation CD contains only a minimal list of packages.
+
+
 # ../../svn/web/en/3/index.php +59
 ;Use LiveCDs or LiveDVDs for fresh new installs ONLY, NOT FOR UPGRADE.
 Use LiveCDs or LiveDVDs for fresh new installs ONLY, NOT FOR UPGRADE.
