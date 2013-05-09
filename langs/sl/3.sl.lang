@@ -71,6 +71,11 @@ Slike ISO namestitvenih DVD-jev in CD-jev sedaj vsebujejo odprtokodno programsko
 Pri namestitvi bo na voljo izbira tipa odprtosti programske opreme.
 
 
+# ../../svn/web/en/3/index.php +57
+;The installation CD contains only a minimal list of packages.
+Namestitveni CD vsebuje minimalen nabor paketov.
+
+
 ## ../../svn/web/en/3/index.php +54
 #;Installer DVD and CD ISOs are made of Free Software exclusively.
 #Slike ISO namestitvenih DVD-jev in CD-jev vsebujejo izključno odprtokodno programsko opremo.
