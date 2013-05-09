@@ -32,23 +32,8 @@ Mageia 2013 prosojen
 
 
 # ../../svn/web/en/about/media/index.php +41
-;<a href="/g/media/logo/mageia-2013.png">PNG</a> or <a href="/g/media/logo/mageia-2013.svg">SVG</a>
-<a href="/g/media/logo/mageia-2013.png">PNG</a> ali <a href="/g/media/logo/mageia-2013.svg">SVG</a>
-
-
-# ../../svn/web/en/about/media/index.php +41
-;<a href="/g/media/logo/mageia-2013-dark.png">PNG</a> or <a href="/g/media/logo/mageia-2013-dark.svg">SVG</a>
-<a href="/g/media/logo/mageia-2013-dark.png">PNG</a> ali <a href="/g/media/logo/mageia-2013-dark.svg">SVG</a>
-
-
-# ../../svn/web/en/about/media/index.php +41
-;<a href="/g/media/logo/mageia-2013-alpha.png">PNG</a> or <a href="/g/media/logo/mageia-2013-alpha.svg">SVG</a>
-<a href="/g/media/logo/mageia-2013-alpha.png">PNG</a> ali <a href="/g/media/logo/mageia-2013-alpha.svg">SVG</a>
-
-
-# ../../svn/web/en/about/media/index.php +48
-;<a href="/g/media/logo/mageia-2011.png"><img src="/g/media/logo/t-mageia-2011.png"><br>PNG</a> or <a href="/g/media/logo/mageia-2011.svg">SVG</a>.
-V formatu <a href="/g/media/logo/mageia-2011.png"><img src="/g/media/logo/t-mageia-2011.png"><br>PNG</a> ali <a href="/g/media/logo/mageia-2011.svg">SVG</a>.
+;%sPNG</a> or %sSVG</a>
+V formatu %sPNG</a> ali %sSVG</a>
 
 
 # ../../svn/web/en/about/media/index.php +49
