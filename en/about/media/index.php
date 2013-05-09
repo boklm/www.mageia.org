@@ -38,14 +38,14 @@ _lang_load($locale, "about/media");
 			<td><a href="/g/media/logo/mageia-2013-alpha.png"><img src="/g/media/logo/t-mageia-2013-alpha.png" alt="Mageia 2013 logo in alpha"></a></td>
 		</tr>
 		<tr>
-			<td><?php _e('<a href="/g/media/logo/mageia-2013.png">PNG</a> or <a href="/g/media/logo/mageia-2013.svg">SVG</a>')?></td>
-			<td><?php _e('<a href="/g/media/logo/mageia-2013-dark.png">PNG</a> or <a href="/g/media/logo/mageia-2013-dark.svg">SVG</a>')?></td>
-			<td><?php _e('<a href="/g/media/logo/mageia-2013-alpha.png">PNG</a> or <a href="/g/media/logo/mageia-2013-alpha.svg">SVG</a>')?></td>
+			<td><?php echo sprintf(_t('%sPNG</a> or %sSVG</a>'), '<a href="/g/media/logo/mageia-2013.png">', '<a href="/g/media/logo/mageia-2013.svg">') ?></td>
+			<td><?php echo sprintf(_t('%sPNG</a> or %sSVG</a>'), '<a href="/g/media/logo/mageia-2013-dark.png">', '<a href="/g/media/logo/mageia-2013-dark.svg">') ?></td>
+			<td><?php echo sprintf(_t('%sPNG</a> or %sSVG</a>'), '<a href="/g/media/logo/mageia-2013-alpha.png">', '<a href="/g/media/logo/mageia-2013-alpha.svg">') ?></td>
 		</tr>
 		</table>
 
 
-                <p><?php _e('<a href="/g/media/logo/mageia-2011.png"><img src="/g/media/logo/t-mageia-2011.png"><br>PNG</a> or <a href="/g/media/logo/mageia-2011.svg">SVG</a>.')?></p>
+                <p><?php echo sprintf(_t('%sPNG</a> or %sSVG</a>'), '<a href="/g/media/logo/mageia-2011.png"><img src="/g/media/logo/t-mageia-2011.png"><br>', '<a href="/g/media/logo/mageia-2011.svg">') ?></p>
                 <p><?php _e('TODO: usage guidelines.')?></p>
 
                 <hr>
