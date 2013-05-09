@@ -54,6 +54,7 @@ _lang_load($locale, '3');
                         _e('Installer DVD and CD ISOs now contains Free Software and some proprietary drivers.');
                         _e('You will be asked of which kind of Software you want to install.');
                     ?></li>
+                    <li><?php _e('The installation CD contains only a minimal list of packages.')?></li>
                     <li><?php _e('Use LiveCDs or LiveDVDs for fresh new installs ONLY, NOT FOR UPGRADE.')?></li>
                     <li><?php _e('If you are looking for a stable version of Mageia, <a href="%s" rel="nofollow">go here</a>.', array('/downloads/'))?></li>
                     <li><?php _e('Enjoy! And <a href="%s">please report bugs</a> if you find some.', array('https://bugs.mageia.org/'))?></li>
