@@ -76,11 +76,6 @@ Kamu akan ditanya Software mana yang ingin kamu install.
 CD instalasi hanya berisi list paket minimal.
 
 
-# ../../svn/web/en/3/index.php +57
-;The installation CD contains only a minimal list of packages.
-The installation CD contains only a minimal list of packages.
-
-
 # ../../svn/web/en/3/index.php +59
 ;Use LiveCDs or LiveDVDs for fresh new installs ONLY, NOT FOR UPGRADE.
 Gunakan LiveCD atau LiveDVD HANYA untuk instalasi baru, BUKAN UNTUK UPGRADE.
