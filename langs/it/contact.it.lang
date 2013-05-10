@@ -112,8 +112,8 @@ Membri dell'associazione Mageia.Org
 
 
 # ../../svn/web/en/contact/index.php +75
-;In most case you should avoid using those aliases as they should only be used for the rare cases where private emails are needed. Use appropriate public mailing list on <a href="%s">either</a> of <a href="%s">two</a> pages instead.
-Nella maggior parte dei casi dovresti evitare di usare questi alias in quanto dovrebbero essere utilizzati per i rari casi in cui sono necessarie email private. Usa invece le mailing list pubbliche appropriate riportate in <a href="%s">una</a> di queste <a href="%s">due</a> pagine.
+;In most case you should avoid using those aliases as they should only be used for the rare cases where private emails are needed. Use appropriate <a href="%s">public mailing list</a> instead.
+Nella maggior parte dei casi dovresti evitare di usare questi alias in quanto dovrebbero essere utilizzati per i rari casi in cui sono necessarie email private. Usa invece le più appropriate <a href="%s">mailing list pubbliche</a>.
 
 
 # ../../svn/web/en/contact/index.php +78
