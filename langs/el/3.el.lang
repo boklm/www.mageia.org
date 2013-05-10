@@ -71,6 +71,11 @@ Errata {ok}
 Θα ερωτηθείτε για τον τύπο του λογισμικού που επιθυμείτε να εγκαταστήσετε.
 
 
+# ../../svn/web/en/3/index.php +57
+;The installation CD contains only a minimal list of packages.
+The installation CD contains only a minimal list of packages.
+
+
 # ../../svn/web/en/3/index.php +59
 ;Use LiveCDs or LiveDVDs for fresh new installs ONLY, NOT FOR UPGRADE.
 Χρησιμοποιήστε τα LiveCD ή LiveDVD για καθαρή εγκατάσταση ΜΟΝΟ, ΟΧΙ ΓΙΑ ΑΝΑΒΑΘΜΙΣΗ.

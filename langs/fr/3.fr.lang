@@ -71,6 +71,11 @@ Le DVD d'installation et les images ISO de CD contiennent désormais, en plus de
 Il vous sera demandé quels types de logiciels vous souhaitez installer.
 
 
+# ../../svn/web/en/3/index.php +57
+;The installation CD contains only a minimal list of packages.
+The installation CD contains only a minimal list of packages.
+
+
 # ../../svn/web/en/3/index.php +59
 ;Use LiveCDs or LiveDVDs for fresh new installs ONLY, NOT FOR UPGRADE.
 N'utilisez les LiveCD ou LiveDVD QUE pour de nouvelles installations, PAS POUR UNE MISE À NIVEAU.

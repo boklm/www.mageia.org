@@ -96,6 +96,11 @@ Se ti serve il WiFi o driver video specifici <em>al momento dell'installazione</
 Potresti, se lo vuoi, aggiungere repository di software non libero <em>dopo</em> l'installazione.
 
 
+# ../../svn/web/en/3/index.php +57
+;The installation CD contains only a minimal list of packages.
+The installation CD contains only a minimal list of packages.
+
+
 # ../../svn/web/en/3/index.php +59
 ;Use LiveCDs or LiveDVDs for fresh new installs ONLY, NOT FOR UPGRADE.
 Utilizza LiveCD o LiveDVD SOLO per nuove installazioni, NON PER AVANZAMENTI DI VERSIONE.

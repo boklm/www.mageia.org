@@ -73,6 +73,11 @@ As imagens ISO do Instalador em DVD e CD agora contém Software livre e alguns d
 Você será solicitado a escolher qual tipo de Software que deseja instalar.
 
 
+# ../../svn/web/en/3/index.php +57
+;The installation CD contains only a minimal list of packages.
+The installation CD contains only a minimal list of packages.
+
+
 # ../../svn/web/en/3/index.php +59
 ;Use LiveCDs or LiveDVDs for fresh new installs ONLY, NOT FOR UPGRADE.
 O uso dos LiveCDs ou LiveDVDs são apenas para novas instalações limpas, NÃO SÃO PARA ATUALIZAÇÕES.

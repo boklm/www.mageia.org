@@ -71,6 +71,11 @@ Installer-DVD- und CD-ISOs enthalten nun freie Software und einige proprietäre 
 Sie werden gefragt, welche Art von Software Sie installieren wollen.
 
 
+# ../../svn/web/en/3/index.php +57
+;The installation CD contains only a minimal list of packages.
+The installation CD contains only a minimal list of packages.
+
+
 # ../../svn/web/en/3/index.php +59
 ;Use LiveCDs or LiveDVDs for fresh new installs ONLY, NOT FOR UPGRADE.
 Benutzen Sie Live-CDs und Live-DVDs NUR für neue Installationen, nicht für AKTUALISIERUNGEN.

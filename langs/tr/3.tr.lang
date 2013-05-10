@@ -71,6 +71,11 @@ Kurulum yapan DVD ve CD ISO'ları şimdi özgür yazılım ve bazı tescilli sü
 Hangi yazılım türünü kurmak istediğiniz size sorulacaktır.
 
 
+# ../../svn/web/en/3/index.php +57
+;The installation CD contains only a minimal list of packages.
+Kurulum CD'si sadece en gerekli paketleri içerir.
+
+
 # ../../svn/web/en/3/index.php +59
 ;Use LiveCDs or LiveDVDs for fresh new installs ONLY, NOT FOR UPGRADE.
 LiveCD'leri veya LiveDVD'leri YALNIZCA yeni kurulum için kullnınız, YÜKSELTME İÇİN KULLANMAYINIZ.

@@ -96,6 +96,11 @@ Namestitveni CD vsebuje minimalen nabor paketov.
 #Po želji lahko <em>po namestitvi</em> dodate skladišče z lastniško programsko opremo.
 
 
+# ../../svn/web/en/3/index.php +57
+;The installation CD contains only a minimal list of packages.
+The installation CD contains only a minimal list of packages.
+
+
 # ../../svn/web/en/3/index.php +59
 ;Use LiveCDs or LiveDVDs for fresh new installs ONLY, NOT FOR UPGRADE.
 Uporabite LiveCD ali LiveDVD samo za testiranje in NOVE namestitve, NE ZA NADGRADNJE.

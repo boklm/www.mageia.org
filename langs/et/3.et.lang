@@ -71,6 +71,11 @@ Paigaldus-DVD ja -CD ISO-t천mmised sisaldavad n체체d lisaks vabale tarkvarale m�
 Teie k채est p채ritakse, millist laadi tarkvara soovite paigaldada.
 
 
+# ../../svn/web/en/3/index.php +57
+;The installation CD contains only a minimal list of packages.
+The installation CD contains only a minimal list of packages.
+
+
 # ../../svn/web/en/3/index.php +59
 ;Use LiveCDs or LiveDVDs for fresh new installs ONLY, NOT FOR UPGRADE.
 Kasutage LiveCD-sid ja LiveDVD-sid AINULT paigaldamiseks, mitte uuendamiseks.

@@ -96,6 +96,11 @@ Mageia 3
 如果您需要的话，可以在安装<em>后</em>添加非自由软件仓库。
 
 
+# ../../svn/web/en/3/index.php +57
+;The installation CD contains only a minimal list of packages.
+The installation CD contains only a minimal list of packages.
+
+
 # ../../svn/web/en/3/index.php +59
 ;Use LiveCDs or LiveDVDs for fresh new installs ONLY, NOT FOR UPGRADE.
 LiveCD 或 LiveDVD 仅适用于全新安装，而非升级。
