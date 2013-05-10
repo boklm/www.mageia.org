@@ -17,8 +17,8 @@ Logotipo
 
 
 # ../../svn/web/en/about/media/index.php +27
-;<a href="/g/media/logo/mageia-2011.png"><img src="/g/media/logo/t-mageia-2011.png"><br>PNG</a> or <a href="/g/media/logo/mageia-2011.svg">SVG</a>.
-<a href="/g/media/logo/mageia-2011.png"><img src="/g/media/logo/t-mageia-2011.png"><br>PNG</a> aŭ <a href="/g/media/logo/mageia-2011.svg">SVG</a>.
+;%sPNG</a> or %sSVG</a>
+%sPNG</a> aŭ %sSVG</a>
 
 
 # ../../svn/web/en/about/media/index.php +28
