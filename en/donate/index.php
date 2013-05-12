@@ -57,7 +57,7 @@ _lang_load($locale, 'donate');
                 <ul>
                     <li><?php _e('Paypal withdraws a small commission for each donation (around 2%) so we get a little bit less than you send;')?></li>
                     <li><?php _e('conversion rates are charged to Mageia, so please use &euro; as currency;')?></li>
-                    <li><?php _e('if you want to do an anonymous donation, please add a comment.')?></li>
+                    <li><?php _e('if you want to do an anonymous donation, please add a comment or send an email to <a href="mailto:treasurer@mageia.org">treasurer@mageia.org</a>.')?></li>
                 </ul>
             </li>
         </ul>
