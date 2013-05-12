@@ -31,6 +31,9 @@ _lang_load($locale, 'donate');
             <li><h2 id="d-paypal"><?php _e('Donate via PayPal,'); ?></h2>
                 <?php include '../../paypal.inc.php'; echo html_paypal_form($locale); ?>
             </li>
+            <li><h3 id="d-bitcoin"><?php _e('via bitcoin,'); ?></h3>
+                <?php echo sprintf(_t('If you want to donate <a href="http://bitcoin.org/">bitcoins</a>, the Mageia.Org bitcoin address is <b>%s</b>.'), '1GYF2h69NrJ7Pp92bNPDEdLABbH1hR7rsA'); ?>
+            </li>
             <li><h3><?php _e('via bank transfer,'); ?></h3>
                 <p><?php _e('using the following Bank Identifier Code (IBAN-BIC):') ?></p>
                 <pre class="donate-coord">
