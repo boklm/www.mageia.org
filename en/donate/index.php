@@ -102,8 +102,8 @@ People can choose how to distribute their donation among those:
 * ?
 * other
     </mark></pre>
-    </div>
 -->
+    </div>
     
 </body>
 </html>
