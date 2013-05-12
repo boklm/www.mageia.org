@@ -84,7 +84,6 @@ _lang_load($locale, 'donate');
         $g_donate_amount, $g_amount_remain);?></p>
     <p><?php echo sprintf(_t('We believe public accountability is crucial. You can know more about how are used the funds received by reading our <a href="%s">financial reports</a>.'), '../about/reports/' . date('Y') . '/')?></p>
 
-    <hr />
 <!--
 
     <pRE><mark>
@@ -103,6 +102,11 @@ People can choose how to distribute their donation among those:
 * other
     </mark></pre>
 -->
+    </div>
+    <div class="para questions">
+    <h2 id="questions"><?php _e('Questions ?')?></h2>
+    <p><?php _e('If you have any question about donations, you can send an email to <a href="mailto:treasurer@mageia.org">treasurer@mageia.org</a>.'); ?></p>
+    <hr />
     </div>
     
 </body>
