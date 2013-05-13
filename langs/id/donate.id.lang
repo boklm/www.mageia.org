@@ -17,6 +17,16 @@ Donasi melalui PayPal,
 
 
 # ../../svn/web/en/donate/index.php +34
+# ../../svn/web/en/donate/index.php +34
+;via bitcoin,
+via bitcoin,
+
+# ../../svn/web/en/donate/index.php +35
+;If you want to donate <a href="http://bitcoin.org/">bitcoins</a>, the Mageia.Org bitcoin address is <b>%s</b>.
+If you want to donate <a href="http://bitcoin.org/">bitcoins</a>, the Mageia.Org bitcoin address is <b>%s</b>.
+
+
+# ../../svn/web/en/donate/index.php +37
 ;via bank transfer,
 melalui transfer bank,
 
@@ -129,3 +139,13 @@ Saat ini, kami banyak menerima donasi (%s, tersisa %s) terima kasih untuk semua 
 # ../../svn/web/en/donate/index.php +82
 ;We believe public accountability is crucial. You can know more about how are used the funds received by reading our <a href="%s">financial reports</a>.
 Kami percaya bahwa akuntabilitas publik sangat penting. Kamu bisa tahu bagaimana dana digunakan dengan membaca <a href="%s">laporan keuangan</a> kami.
+
+
+# ../../svn/web/en/donate/index.php +107
+;Questions ?
+Questions ?
+
+
+# ../../svn/web/en/donate/index.php +108
+;If you have any question about donations, you can send an email to <a href="mailto:treasurer@mageia.org">treasurer@mageia.org</a>.
+If you have any question about donations, you can send an email to <a href="mailto:treasurer@mageia.org">treasurer@mageia.org</a>.

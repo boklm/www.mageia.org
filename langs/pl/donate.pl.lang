@@ -12,6 +12,16 @@ mageia, wpłaty, datki, ofiarodawcy, pomoc
 Przekaż dotację przez PayPal,
 
 
+# ../../svn/web/en/donate/index.php +34
+;via bitcoin,
+via bitcoin,
+
+# ../../svn/web/en/donate/index.php +35
+;If you want to donate <a href="http://bitcoin.org/">bitcoins</a>, the Mageia.Org bitcoin address is <b>%s</b>.
+If you want to donate <a href="http://bitcoin.org/">bitcoins</a>, the Mageia.Org bitcoin address is <b>%s</b>.
+
+
+# ../../svn/web/en/donate/index.php +37
 ;via bank transfer,
 przelewem bankowym,
 
@@ -103,3 +113,12 @@ Otrzymaliśmy wiele hojnych datków (%s, pozostało %s) dzięki wszystkim naszym
 ;We believe public accountability is crucial. You can know more about how are used the funds received by reading our <a href="%s">financial reports</a>.
 Wierzymy, że wsparcie publiczne ma kluczowe znaczenie. Więcej o wykorzystaniu środków otrzymanych dowiesz się ze <a href="%s">sprawozdań finansowych</a>.
 
+
+# ../../svn/web/en/donate/index.php +107
+;Questions ?
+Questions ?
+
+
+# ../../svn/web/en/donate/index.php +108
+;If you have any question about donations, you can send an email to <a href="mailto:treasurer@mageia.org">treasurer@mageia.org</a>.
+If you have any question about donations, you can send an email to <a href="mailto:treasurer@mageia.org">treasurer@mageia.org</a>.

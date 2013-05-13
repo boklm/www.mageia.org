@@ -12,6 +12,16 @@ mageia, δωρίζω, δωρεά, δωρητές, βοήθεια
 Δωρεά μέσω PayPal,
 
 
+# ../../svn/web/en/donate/index.php +34
+;via bitcoin,
+via bitcoin,
+
+# ../../svn/web/en/donate/index.php +35
+;If you want to donate <a href="http://bitcoin.org/">bitcoins</a>, the Mageia.Org bitcoin address is <b>%s</b>.
+If you want to donate <a href="http://bitcoin.org/">bitcoins</a>, the Mageia.Org bitcoin address is <b>%s</b>.
+
+
+# ../../svn/web/en/donate/index.php +37
 ;via bank transfer,
 μέσω τραπεζικού εμβάσματος,
 
@@ -101,3 +111,13 @@ mageia, δωρίζω, δωρεά, δωρητές, βοήθεια
 
 ;We believe public accountability is crucial. You can know more about how are used the funds received by reading our <a href="%s">financial reports</a>.
 Πιστεύουμε ότι η διαφάνεια είναι θέμα ζωτικής σημασίας. Μπορείτε να μάθετε περισσότερα σχετικά με το πως χρησιμοποιούνται τα κεφάλαια που λαμβάνονται διαβάζοντας τις <a href="%s">οικονομικές μας αναφορές</a>.
+
+
+# ../../svn/web/en/donate/index.php +107
+;Questions ?
+Questions ?
+
+
+# ../../svn/web/en/donate/index.php +108
+;If you have any question about donations, you can send an email to <a href="mailto:treasurer@mageia.org">treasurer@mageia.org</a>.
+If you have any question about donations, you can send an email to <a href="mailto:treasurer@mageia.org">treasurer@mageia.org</a>.

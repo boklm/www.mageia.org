@@ -56,6 +56,16 @@ Es wird monatlich über die eingegangenen Gelder berichtet und wie sie verwendet
 Spenden via PayPal,
 
 
+# ../../svn/web/en/donate/index.php +34
+;via bitcoin,
+via bitcoin,
+
+# ../../svn/web/en/donate/index.php +35
+;If you want to donate <a href="http://bitcoin.org/">bitcoins</a>, the Mageia.Org bitcoin address is <b>%s</b>.
+If you want to donate <a href="http://bitcoin.org/">bitcoins</a>, the Mageia.Org bitcoin address is <b>%s</b>.
+
+
+# ../../svn/web/en/donate/index.php +37
 ;via bank transfer,
 per Banküberweisung,
 
@@ -102,3 +112,13 @@ falls Sie anonym spenden wollen, so fügen Sie bitte Ihrer Spende einen Hinweis 
 # manuell eingetragen von report.php
 ;mageia, donate, donation, donors, help
 mageia, spenden, spende, spender, hilfe, unterstützung
+
+
+# ../../svn/web/en/donate/index.php +107
+;Questions ?
+Questions ?
+
+
+# ../../svn/web/en/donate/index.php +108
+;If you have any question about donations, you can send an email to <a href="mailto:treasurer@mageia.org">treasurer@mageia.org</a>.
+If you have any question about donations, you can send an email to <a href="mailto:treasurer@mageia.org">treasurer@mageia.org</a>.

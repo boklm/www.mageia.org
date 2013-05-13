@@ -60,6 +60,16 @@ Un <a href="%s">rapport</a> sur les fonds reçus et la façon dont ils ont été
 Donner via PayPal,
 
 
+# ../../svn/web/en/donate/index.php +34
+;via bitcoin,
+via bitcoin,
+
+# ../../svn/web/en/donate/index.php +35
+;If you want to donate <a href="http://bitcoin.org/">bitcoins</a>, the Mageia.Org bitcoin address is <b>%s</b>.
+If you want to donate <a href="http://bitcoin.org/">bitcoins</a>, the Mageia.Org bitcoin address is <b>%s</b>.
+
+
+# ../../svn/web/en/donate/index.php +37
 ;via bank transfer,
 via un virement bancaire,
 
@@ -103,3 +113,12 @@ Les frais de change sont à la charge de Mageia donc, s&rsquo;il vous plaît, ut
 ;if you want to do an anonymous donation, please add a comment.
 Si vous souhaitez faire un don anonyme, ajoutez-le en commentaire.
 
+
+# ../../svn/web/en/donate/index.php +107
+;Questions ?
+Questions ?
+
+
+# ../../svn/web/en/donate/index.php +108
+;If you have any question about donations, you can send an email to <a href="mailto:treasurer@mageia.org">treasurer@mageia.org</a>.
+If you have any question about donations, you can send an email to <a href="mailto:treasurer@mageia.org">treasurer@mageia.org</a>.

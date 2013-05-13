@@ -12,6 +12,16 @@ mageia, annetamine, annetus, annetused, annetajad, abi
 Annetamine PayPali kaudu
 
 
+# ../../svn/web/en/donate/index.php +34
+;via bitcoin,
+via bitcoin,
+
+# ../../svn/web/en/donate/index.php +35
+;If you want to donate <a href="http://bitcoin.org/">bitcoins</a>, the Mageia.Org bitcoin address is <b>%s</b>.
+If you want to donate <a href="http://bitcoin.org/">bitcoins</a>, the Mageia.Org bitcoin address is <b>%s</b>.
+
+
+# ../../svn/web/en/donate/index.php +37
 ;via bank transfer,
 Annetamine pangaülekandega
 
@@ -103,3 +113,12 @@ Praeguseks oleme saanud rohkelt annetusi (%s, jääk %s), mille eest tuleb täna
 ;We believe public accountability is crucial. You can know more about how are used the funds received by reading our <a href="%s">financial reports</a>.
 Me pooldame täielikult rahaasjade läbipaistvuse põhimõtet. Sellest, kuidas me oleme saadud vahendeid kasutanud, kõnelevad meie <a href="%s">finantsaruanded</a>.
 
+
+# ../../svn/web/en/donate/index.php +107
+;Questions ?
+Questions ?
+
+
+# ../../svn/web/en/donate/index.php +108
+;If you have any question about donations, you can send an email to <a href="mailto:treasurer@mageia.org">treasurer@mageia.org</a>.
+If you have any question about donations, you can send an email to <a href="mailto:treasurer@mageia.org">treasurer@mageia.org</a>.
