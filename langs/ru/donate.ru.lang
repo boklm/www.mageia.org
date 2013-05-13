@@ -63,11 +63,11 @@ Mageia.Org это некоммерческая организация, зани�
 
 # ../../svn/web/en/donate/index.php +34
 ;via bitcoin,
-via bitcoin,
+с помощью bitcoin,
 
 # ../../svn/web/en/donate/index.php +35
 ;If you want to donate <a href="http://bitcoin.org/">bitcoins</a>, the Mageia.Org bitcoin address is <b>%s</b>.
-If you want to donate <a href="http://bitcoin.org/">bitcoins</a>, the Mageia.Org bitcoin address is <b>%s</b>.
+Если вы хотите пожертвовать <a href="http://bitcoin.org/">bitcoin'ы</a>, то адрес Mageia.Org для bitcoin <b>%s</b>.
 
 
 # ../../svn/web/en/donate/index.php +37
@@ -88,11 +88,11 @@ If you want to donate <a href="http://bitcoin.org/">bitcoins</a>, the Mageia.Org
 
 
 ;In favor of:
-En faveur de&nbsp;:
+Назначение:
 
 
 ;Bank Account:
-Compte bancaire&nbsp;:
+Банковский счёт:
 
 
 ;Use "Mageia.Org" in the "Pay to the order of..." line.
@@ -117,9 +117,9 @@ Paypal снимет небольшую комиссию за каждое пож
 
 # ../../svn/web/en/donate/index.php +107
 ;Questions ?
-Questions ?
+Есть вопросы?
 
 
 # ../../svn/web/en/donate/index.php +108
 ;If you have any question about donations, you can send an email to <a href="mailto:treasurer@mageia.org">treasurer@mageia.org</a>.
-If you have any question about donations, you can send an email to <a href="mailto:treasurer@mageia.org">treasurer@mageia.org</a>.
+Если у вас возникли какие-либо вопросы о пожертвованиях, вы можете отправить их по электронной почте на адрес <a href="mailto:treasurer@mageia.org">treasurer@mageia.org</a>.
