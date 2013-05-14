@@ -33,12 +33,12 @@ Veateated
 
 # ../../svn/web/en/3/index.php +43
 ;This is a Release Candidate. Release Candidate software is software that has graduated Beta testing, and should be a release-ready product suitable for advanced users and reviewers. However, beginning users and critical-applications users may wish to wait for the final release planned for May 2013.
-This is a Release Candidate. Release Candidate software is software that has graduated Beta testing, and should be a release-ready product suitable for advanced users and reviewers. However, beginning users and critical-applications users may wish to wait for the final release planned for May 2013.
+See on väljalaskekandidaat. Selle pakutavat tarkvara on täiustatud beetaväljalasete testimise põhjal täiustatud tarkvara ja see peaks kõlbama tarvitada nii kogenud kasutajatele kui ka ülevaadete koostajatele. Vähemate kogemustega või kriitilise tähtsusega rakenduste kasutajatel oleks siiski mõistlik oodata lõplikku väljalaset, mis on kavandatud 2013. aasta maisse.
 
 
 # ../../svn/web/en/3/index.php +44
 ;It is inteded to identify any remaining bugs or missing packages.
-It is inteded to identify any remaining bugs or missing packages.
+Praegune väljalaskekandidaat on mõeldud viimaste teadaolevate vigade või puuduva tarkvara väljaselgitamiseks.
 
 
 # ../../svn/web/en/3/index.php +46
@@ -73,7 +73,7 @@ Teie käest päritakse, millist laadi tarkvara soovite paigaldada.
 
 # ../../svn/web/en/3/index.php +57
 ;The installation CD contains only a minimal list of packages.
-The installation CD contains only a minimal list of packages.
+Paigaldus-CD sisaldab ainult minimaalsel hulgal tarkvara.
 
 
 # ../../svn/web/en/3/index.php +59
@@ -88,7 +88,7 @@ Kui otsite Mageia stabiilset versiooni, leiab selle <a href="%s" rel="nofollow">
 
 # ../../svn/web/en/3/index.php +61
 ;Enjoy! And <a href="%s">please report bugs</a> if you find some.
-Nautige ja tundke mõnu! Ning <a href="%s">palun teatage vigadest</a>, kui te neid leiate.
+Nautige ja tundke mõnu! Ühtlasi <a href="%s">palun teatage vigadest</a>, kui te neid leiate.
 
 
 # ../../svn/web/en/3/index.php +68

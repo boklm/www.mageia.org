@@ -17,7 +17,7 @@ Paljud inimesed kogu maailmast on otsustanud üheskoos luua Mageia &ndash; Linux
 
 
 ;Contributing is open to anyone, this is Free Software! If you are curious and willing to join, there are things you can do, depending on your time and skills; you will always find someone to welcome and help/mentor you if needed so that your contribution to the project can be as good as it can be!
-Abistada ja kaasa lüüa saavad kõik &ndash; see on vaba tarkvara! Kui tunnete huvi ja tahate kaasa lüüa, siis teha saab õige mitmeid asju sõltuvalt teie ajavarudest ja oskustest. Igal juhul leiate alati kellegi, kes teid tervitab ja vajaduse korral aitab, et teie panus Mageiasse võiks olla nii hea ja võimas, kui see vähegi olla saab!
+Abistada ja kaasa lüüa saavad kõik &ndash; see on vaba tarkvara! Kui tunnete huvi ja tahate kaasa lüüa, siis teha saab õige mitmeid asju sõltuvalt teie ajavarust ja oskustest. Igal juhul leiate alati kellegi, kes teid tervitab ja vajaduse korral aitab, et teie panus Mageiasse võiks olla nii hea ja võimas, kui see vähegi olla saab!
 
 
 ;Check what you could do below!
@@ -57,7 +57,7 @@ Vigade sõelumine
 
 
 ;Bugs happen! And some get reported. So, logically they need to be triaged to make the task of the packagers/developers fixing them easier: validation (is the bug reproducible?), collecting the needed debugging info from the reporter, assigning the report properly. <a href="https://wiki.mageia.org/en/Bug_Squad">Grow the Triage team</a> and be the link between users who report bugs in the forums or mailing-lists, and the <a href="http://bugs.mageia.org/">Mageia Bugzilla</a> used by developers.
-Vigu tuleb ikka ette. Ja mõnest antakse isegi teada! Niisiis on vaja neid ka sõeluda, et pakendajate või arendajate elu lihtsamaks teha: kontrollida veateate paikapidavust (kas seda saab korrata?), koguda teadaandjalt vajalik silumisteave, omistada veateate lahendamine õigele isikule. <a href="https://wiki.mageia.org/en/Bug_Squad">Täiendage sõelumismeeskonda</a> ning saage lüliks kasutajate vahel, kes annavad vigadest teada foorumites või postiloendites, ning <a href="http://bugs.mageia.org/">Mageia Bugzilla</a> vahel, mida kasutavad arendajad.
+Vigu tuleb ikka ette. Ja mõnest antakse isegi teada! Niisiis on vaja neid ka sõeluda, et pakendajate või arendajate elu lihtsamaks teha: kontrollida veateate paikapidavust (kas seda saab korrata?), koguda teadaandjalt vajalik silumisteave, anda veateade lahendada õigele isikule. <a href="https://wiki.mageia.org/en/Bug_Squad">Täiendage sõelumismeeskonda</a> ning saage lüliks kasutajate vahel, kes annavad vigadest teada foorumites või postiloendites, ning <a href="http://bugs.mageia.org/">Mageia Bugzilla</a> vahel, mida kasutavad arendajad.
 
 
 ;Testing &amp; <abbr title="Quality Assurance">QA</abbr>
@@ -65,7 +65,7 @@ Testimine ja kvaliteedikontroll
 
 
 ;We can't ship software if we are not confident it works well! <a href="https://wiki.mageia.org/en/QA_Team">Testers and QA</a> people make sure what we do (software, packages, ISO's, Web sites) match our expectations for quality before they reach users.
-Me ei saa pakkuda tarkvara, kui me pole kindlad, et see töötab korralikult! <a href="https://wiki.mageia.org/en/QA_Team">Testijad ja kvaliteedikontrolli eest hoolitsejad</a> tagavad, et kõik, mida me teeme (tarkvara, tarkvarapaketid, ISO-tõmmised, veebileheküljed), vastavad kvaliteedi mõttes meie ootustele, enne kui need jõuavad kasutajate kätte ja ette.
+Me ei saa pakkuda tarkvara, kui me pole kindlad, et see töötab korralikult! <a href="https://wiki.mageia.org/en/QA_Team">Testijad ja kvaliteedikontrolli eest hoolitsejad</a> tagavad, et kõik, mida me teeme (tarkvara, tarkvarapaketid, ISO-tõmmised, veebileheküljed), vastab kvaliteedi mõttes meie ootustele, enne kui jõuab kasutajate kätte ja ette.
 
 
 ;Marketing, Communication &amp; Evangelism
@@ -97,7 +97,7 @@ Veeb, tööriistad, süsteemikujundus ja -haldus
 
 
 ;Mageia depends on infrastructure and tools that enable everyone to collaborate. These need experts to build, maintain, develop, provide and manage servers, connections, security, applications, data flow, etc. It takes from <a href="https://wiki.mageia.org/en/Sysadmin_Team">system administrators</a> to <a href="https://wiki.mageia.org/en/Web_team">Web designers/developers/integrators</a> to manage this huge task.
-Mageia sõltub infrastruktuurist ja tööriistadest, mis võimaldavad kõigil koostööd teha. Selleks on vaja asjatundjaid, kes suudavad üles panna, hooldada, arendada ja hallata servereid, ühendusi, turvalisust, rakendusi, andmevooge jms. Kogu selleks hiigelülesandeks on vaja palju inimesi alates <a href="https://wiki.mageia.org/en/Sysadmin_Team">süsteemiadministraatoritest</a> kuni <a href="https://wiki.mageia.org/en/Web_team">veebidisainerite- ja -arendajateni</a>.
+Mageia sõltub infrastruktuurist ja tööriistadest, mis võimaldavad kõigil koostööd teha. Selleks on vaja asjatundjaid, kes suudavad üles panna, hooldada, arendada ja hallata servereid, ühendusi, turvalisust, rakendusi, andmevooge jms. Kogu selleks hiigelülesandeks on vaja palju inimesi alates <a href="https://wiki.mageia.org/en/Sysadmin_Team">süsteemiadministraatoritest</a> kuni <a href="https://wiki.mageia.org/en/Web_team">veebidisainerite ja -arendajateni</a>.
 
 
 ;Mirroring
@@ -113,7 +113,7 @@ Annetamine
 
 
 ;Financial donations help us allocate specific tasks, secure our infrastructure, fund events, goodies &amp; transportation. <a href="../thank-you/">200+ persons already expressed their trust in us</a> with their money, hardware or other resources. We keep a <a href="../about/reports/">public record of what we get and how we use it</a>.
-Rahalised annetused aitavad meil eraldada vahendeid konkreetseteks ülesanneteks, turvata oma infrastruktuuri, rahastada ürituste korraldamist, meenete valmistamist ja transporti. <a href="../thank-you/">Juba üle 200 inimese on meid usaldanud</a> ning eraldanud raha, riistvara või muid ressursse. Me <a href="../about/reports/">anname avalikult aru, mida me oleme saanud ja kuidas me oleme seda kasutanud</a>.
+Rahalised annetused aitavad meil eraldada vahendeid konkreetseteks ülesanneteks, turvata oma infrastruktuuri, rahastada ürituste korraldamist, meenete valmistamist ja transporti. <a href="../thank-you/">Juba üle 200 inimese on meid usaldanud</a> ning eraldanud raha, riistvara või muid ressursse. Me <a href="../about/reports/">anname avalikult aru, mida oleme saanud ja kuidas oleme seda kasutanud</a>.
 
 
 ;Data mining
@@ -149,7 +149,7 @@ Hüpake läbi <a href="http://forums.mageia.org/">foorumite</a> toetussektsiooni
 
 
 ;Talk about the project to people around you, on your blog, your Twitter account, at your work place.
-Kõnelge Mageiast end ümbritsevatele inimestele, oma ajaveebis, Twitteri kontos, töö juures.
+Kõnelge Mageiast end ümbritsevatele inimestele, oma ajaveebis, Twitteris, töö juures.
 
 
 ;If you encounter a bug you can reproduce consistently, <a href="http://bugs.mageia.org/">submit a bug report</a>.
@@ -165,7 +165,7 @@ Mõni tund
 
 
 ;Stop by a Mageia event, like a test day to find, reproduce and help resolve bugs.
-Astuge läbi mõnelt Mageia ürituselt, näiteks testpäevalt, et aidata vigu leida ja neid parandada.
+Astuge läbi mõnelt Mageia ürituselt, näiteks testimispäevalt, et aidata vigu leida ja neid parandada.
 
 
 ;Subscribe to a team discussion list and follow what happens there, try to see how you can bring something useful to it.
