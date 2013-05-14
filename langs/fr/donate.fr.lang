@@ -53,7 +53,7 @@ Actuellement, nous avons reçu %s (dont restent %s à ce jour) grâce à tous no
 
 
 ;We believe public accountability is crucial. You can know more about how are used the funds received by reading our <a href="%s">financial reports</a>.
-Un <a href="%s">rapport</a> sur les fonds reçus et la façon dont ils ont été utilisés va être mis en place. Nous pensons que des comptes publics sont d&rsquo;une importance cruciale.
+Nous pensons que des comptes publics sont d&rsquo;une importance cruciale. Vous pouvez savoir comment sont utilisés les fonds reçus en lisant nos <a href="%s">rapports financiers</a>.
 
 
 ;Donate via PayPal,
@@ -62,11 +62,11 @@ Donner via PayPal,
 
 # ../../svn/web/en/donate/index.php +34
 ;via bitcoin,
-via bitcoin,
+via Bitcoin,
 
 # ../../svn/web/en/donate/index.php +35
 ;If you want to donate <a href="http://bitcoin.org/">bitcoins</a>, the Mageia.Org bitcoin address is <b>%s</b>.
-If you want to donate <a href="http://bitcoin.org/">bitcoins</a>, the Mageia.Org bitcoin address is <b>%s</b>.
+Si vous voulez donner des <a href="http://bitcoin.org/">bitcoins</a>, l&rsquo;adresse bitcoin de Mageia.Org est <b>%s</b>.
 
 
 # ../../svn/web/en/donate/index.php +37
@@ -99,7 +99,7 @@ Faites le chèque à l&rsquo;ordre de &laquo;&nbsp;Mageia.Org&nbsp;&raquo;.
 
 
 ;Please note that:
-Merci de noter que :
+Merci de noter que&nbsp;:
 
 
 ;Paypal withdraws a small commission for each donation (around 2%) so we get a little bit less than you send;
@@ -116,9 +116,9 @@ Si vous souhaitez faire un don anonyme, ajoutez-le en commentaire.
 
 # ../../svn/web/en/donate/index.php +107
 ;Questions ?
-Questions ?
+Des questions&nbsp;?
 
 
 # ../../svn/web/en/donate/index.php +108
 ;If you have any question about donations, you can send an email to <a href="mailto:treasurer@mageia.org">treasurer@mageia.org</a>.
-If you have any question about donations, you can send an email to <a href="mailto:treasurer@mageia.org">treasurer@mageia.org</a>.
+Si vous avez des questions concernant les dons, vous pouvez envoyer un courriel à <a href="mailto:treasurer@mageia.org">treasurer@mageia.org</a>.
