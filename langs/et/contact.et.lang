@@ -112,8 +112,8 @@ Mageia.Org-i seltsi liikmed
 
 
 # ../../svn/web/en/contact/index.php +75
-;In most case you should avoid using those aliases as they should only be used for the rare cases where private emails are needed. Use appropriate public mailing list on <a href="%s">either</a> of <a href="%s">two</a> pages instead.
-Enamasti ei tuleks üldaadresse kasutada, sest need on mõeldud harvadeks juhtudeks, kui läheb vaja privaatset kirjavahetust. Nende asemel tuleks kasutada sobivat avalikku postiloendit, mille leiab kas <a href="%s">siit</a> või <a href="%s">siit</a>.
+;In most case you should avoid using those aliases as they should only be used for the rare cases where private emails are needed. Use appropriate <a href="%s">public mailing list</a> instead.
+Enamasti ei tuleks üldaadresse kasutada, sest need on mõeldud harvadeks juhtudeks, kui läheb vaja privaatset kirjavahetust. Nende asemel tuleks kasutada sobivat <a href="%s">avalikku postiloendit</a>.
 
 
 # ../../svn/web/en/contact/index.php +78
