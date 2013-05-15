@@ -14,11 +14,11 @@ PayPal aracılığı ile Bağış,
 
 # ../../svn/web/en/donate/index.php +34
 ;via bitcoin,
-via bitcoin,
+bitcoin yolu ile,
 
 # ../../svn/web/en/donate/index.php +35
 ;If you want to donate <a href="http://bitcoin.org/">bitcoins</a>, the Mageia.Org bitcoin address is <b>%s</b>.
-If you want to donate <a href="http://bitcoin.org/">bitcoins</a>, the Mageia.Org bitcoin address is <b>%s</b>.
+Eğer <a href="http://bitcoin.org/">bitcoin</a> ile bağış yapmak isterseniz, Mageia.Org bitcoin adresi şöyledir: <b>%s</b>.
 
 
 # ../../svn/web/en/donate/index.php +37
@@ -116,9 +116,9 @@ Biz şeffaf olmanın çok önemli olduğuna inanıyoruz. Bu yüzden sizler paran
 
 # ../../svn/web/en/donate/index.php +107
 ;Questions ?
-Questions ?
+Sorular ?
 
 
 # ../../svn/web/en/donate/index.php +108
 ;If you have any question about donations, you can send an email to <a href="mailto:treasurer@mageia.org">treasurer@mageia.org</a>.
-If you have any question about donations, you can send an email to <a href="mailto:treasurer@mageia.org">treasurer@mageia.org</a>.
+Eğer bağışlar ile ilgili bir sorunuz varsa, <a href="mailto:treasurer@mageia.org">treasurer@mageia.org</a> adresine bir eposta gönderebilirsiniz.
