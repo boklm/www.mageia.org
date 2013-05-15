@@ -114,11 +114,19 @@ Až do teď jsme díky všem našim <a href="../thank-you/">dárcům</a> dostali
 Věříme, že veřejná zodpovědnost je klíčová. Více se o užití přijatých peněz dozvíte čtením našich <a href="%s">finančních zpráv</a>.
 
 
+;via bitcoin,
+přes bitcoin,
+
+
+;If you want to donate <a href="http://bitcoin.org/">bitcoins</a>, the Mageia.Org bitcoin address is <b>%s</b>.
+Pokud chcete dát dar v podobě měny <a href="http://bitcoin.org/">bitcoin</a>, adresa Mageia.Org pro měnu bitcoin je <b>%s</b>.
+
+
 # ../../svn/web/en/donate/index.php +107
 ;Questions ?
-Questions ?
+Otázky?
 
 
 # ../../svn/web/en/donate/index.php +108
 ;If you have any question about donations, you can send an email to <a href="mailto:treasurer@mageia.org">treasurer@mageia.org</a>.
-If you have any question about donations, you can send an email to <a href="mailto:treasurer@mageia.org">treasurer@mageia.org</a>.
+Pokud se chcete na něco ohledně darů zeptat, pošlete vzkaz <a href="mailto:treasurer@mageia.org">treasurer@mageia.org</a>.

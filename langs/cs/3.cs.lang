@@ -205,3 +205,12 @@ Síťový instalátor + CD s nesvobodným firmware
 # ../../svn/web/en/3/index.php +136
 ;needed for some disc controllers, some network cards, etc.
 potřeba pro některé diskové řadiče, některé síťové karty atd.
+
+;This is a Release Candidate. Release Candidate software is software that has graduated Beta testing, and should be a release-ready product suitable for advanced users and reviewers. However, beginning users and critical-applications users may wish to wait for the final release planned for May 2013.
+Toto je kandidát na vydání. Jde o software, který prošel zkouškami na úrovni beta a měl by být připraven na vydání ve stavu, kdy je vhodný pro použití pokročilými uživateli a posuzovateli jakosti. Začátečníci a uživatelé, kteří používají programy, kde je spolehlivost důležitá, by měli počkat až na vydání plánované na květen 2013.
+
+;It is inteded to identify any remaining bugs or missing packages.
+Je to určeno k zjištění zbývajících chyb a chybějících balíčků.
+
+;The installation CD contains only a minimal list of packages.
+Instalační CD obsahuje pouze velmi malý seznam balíčků.
