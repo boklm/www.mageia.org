@@ -18,27 +18,27 @@ Logo {ok}
 
 # ../../svn/web/en/about/media/index.php +30
 ;Mageia 2013
-Mageia 2013
+Mageia 2013 {ok}
 
 
 # ../../svn/web/en/about/media/index.php +31
 ;Mageia 2013 dark
-Mageia 2013 dark
+Mageia 2013, tmavé téma
 
 
 # ../../svn/web/en/about/media/index.php +32
 ;Mageia 2013 alpha
-Mageia 2013 alpha
+Mageia 2013, alfa
 
 
 # ../../svn/web/en/about/media/index.php +41
 ;%sPNG</a> or %sSVG</a>
-%sPNG</a> or %sSVG</a> {ok}
+%sPNG</a> nebo %sSVG</a>
 
 
 # ../../svn/web/en/about/media/index.php +28
 ;TODO: usage guidelines.
-UDĚLAT: usage guidelines.
+UDĚLAT: pokyny pro použití.
 
 
 # ../../svn/web/en/about/media/index.php +32
@@ -53,4 +53,4 @@ Licencováno pod CC-By-SA, Julie Guennegues.
 
 # ../../svn/web/en/about/media/index.php +40
 ;Please consult <a href="https://wiki.mageia.org/en/Artwork_team">artwork team</a> or <a href="https://wiki.mageia.org/en/Marcom_Team">marcom' team</a> if you have questions/concerns about using these files.
-Zeptejte se, prosím, <a href="https://wiki.mageia.org/en/Artwork_team">uměleckého týmu</a> or <a href="https://wiki.mageia.org/en/Marcom_Team">marcom' team</a>, pokud máte nějaké dotazy nebo starosti ohledně užití těchto souborů.
+Zeptejte se, prosím, <a href="https://wiki.mageia.org/en/Artwork_team">uměleckého týmu</a> nebo <a href="https://wiki.mageia.org/en/Marcom_Team">marcom' teamu</a>, pokud máte nějaké dotazy nebo starosti ohledně užití těchto souborů.
