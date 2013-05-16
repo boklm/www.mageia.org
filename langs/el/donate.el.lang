@@ -61,6 +61,10 @@ If you want to donate <a href="http://bitcoin.org/">bitcoins</a>, the Mageia.Org
 Τα έξοδα μετατροπής συναλλάγματος βαρύνουν τη Mageia, γι' αυτό σας παρακαλούμε να χρησιμοποιείτε ως νόμισμα το &euro.
 
 
+;if you want to do an anonymous donation, please add a comment or send an email to %s.
+if you want to do an anonymous donation, please add a comment or send an email to %s.
+
+
 ;if you want to do an anonymous donation, please add a comment.
 Αν επιθυμείτε να κάνετε μια ανώνυμη δωρεά, παρακαλούμε προσθέστε ένα σχόλιο.
 
@@ -114,8 +118,8 @@ If you want to donate <a href="http://bitcoin.org/">bitcoins</a>, the Mageia.Org
 
 
 # ../../svn/web/en/donate/index.php +107
-;Questions ?
-Questions ?
+;Questions?
+Questions?
 
 
 # ../../svn/web/en/donate/index.php +108

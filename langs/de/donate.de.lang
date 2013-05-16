@@ -106,6 +106,10 @@ Paypal behält für jede Spende eine geringe Gebühr ein (etwa 2%), sodass uns e
 bitte benutzen Sie € als Währung, denn Umrechnungskosten gehen zu Lasten von Mageia;
 
 
+;if you want to do an anonymous donation, please add a comment or send an email to %s.
+if you want to do an anonymous donation, please add a comment or send an email to %s.
+
+
 ;if you want to do an anonymous donation, please add a comment.
 falls Sie anonym spenden wollen, so fügen Sie bitte Ihrer Spende einen Hinweis bei.
 
@@ -115,8 +119,8 @@ mageia, spenden, spende, spender, hilfe, unterstützung
 
 
 # ../../svn/web/en/donate/index.php +107
-;Questions ?
-Questions ?
+;Questions?
+Questions?
 
 
 # ../../svn/web/en/donate/index.php +108

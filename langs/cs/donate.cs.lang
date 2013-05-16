@@ -62,6 +62,10 @@ Paypal si bere za každý dar malý poplatek (asi 2%), takže se k nám dostane 
 jako měnu používejte, prosím, &euro, neboť náklady za převod jdou k tíži Mageii;
 
 
+;if you want to do an anonymous donation, please add a comment or send an email to %s.
+if you want to do an anonymous donation, please add a comment or send an email to %s.
+
+
 ;if you want to do an anonymous donation, please add a comment.
 v případě, že byste chtěli darovat anonymně, připojte poznámku.
 
@@ -123,7 +127,7 @@ Pokud chcete dát dar v podobě měny <a href="http://bitcoin.org/">bitcoin</a>,
 
 
 # ../../svn/web/en/donate/index.php +107
-;Questions ?
+;Questions?
 Otázky?
 
 

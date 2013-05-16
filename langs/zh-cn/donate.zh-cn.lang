@@ -76,6 +76,11 @@ Paypal 会对每笔捐赠抽取一定佣金(每笔大约 2%) 所以我们收到�
 
 
 # ../../svn/web/en/donate/index.php +63
+;if you want to do an anonymous donation, please add a comment or send an email to %s.
+if you want to do an anonymous donation, please add a comment or send an email to %s.
+
+
+# ../../svn/web/en/donate/index.php +63
 ;if you want to do an anonymous donation, please add a comment.
 如果您想要匿名捐赠，请添加备注。
 
@@ -140,7 +145,7 @@ Mageia 商标注册；
 我们相信公共问责是很重要的。您可以阅读我们的<a href="%s">财政报告</a>来了解我们收到的基金。
 
 # ../../svn/web/en/donate/index.php +107
-;Questions ?
+;Questions?
 还有问题？
 
 

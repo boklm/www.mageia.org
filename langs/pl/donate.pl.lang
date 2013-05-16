@@ -62,6 +62,10 @@ Paypal pobiera prowizję od każdej dotacji (około 2%), dlatego otrzymana kwota
 Mageia jest obciążana kosztami przewalutowania, dlatego prosimy o dotację w &euro;
 
 
+;if you want to do an anonymous donation, please add a comment or send an email to %s.
+if you want to do an anonymous donation, please add a comment or send an email to %s.
+
+
 ;if you want to do an anonymous donation, please add a comment.
 jeśli chcesz, aby Twoja dotacja pozostała anonimowa, prosimy o zaznaczenie tego w komentarzu.
 
@@ -115,8 +119,8 @@ Wierzymy, że wsparcie publiczne ma kluczowe znaczenie. Więcej o wykorzystaniu 
 
 
 # ../../svn/web/en/donate/index.php +107
-;Questions ?
-Questions ?
+;Questions?
+Questions?
 
 
 # ../../svn/web/en/donate/index.php +108

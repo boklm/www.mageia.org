@@ -62,6 +62,10 @@ Paypal își însușește un mic comision pentru fiecare donație (cam 2%) așa 
 ratele de schimb valutar sînt plătite de Mageia, deci folosiți &euro; ca monedă;
 
 
+;if you want to do an anonymous donation, please add a comment or send an email to %s.
+if you want to do an anonymous donation, please add a comment or send an email to %s.
+
+
 ;if you want to do an anonymous donation, please add a comment.
 dacă doriți să fiți donator anonim, adăugați asta în comentariu.
 
@@ -115,8 +119,8 @@ Credem că este crucială contabilitatea publică. Puteți afla mai multe despre
 
 
 # ../../svn/web/en/donate/index.php +107
-;Questions ?
-Questions ?
+;Questions?
+Questions?
 
 
 # ../../svn/web/en/donate/index.php +108

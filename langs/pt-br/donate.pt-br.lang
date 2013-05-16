@@ -62,6 +62,10 @@ Paypal retira uma pequena Comissão por cada doação (cerca de 2%) então ficam
 taxas de conversão são cobradas a Mageia, por favor, usar &euro; como moeda;
 
 
+;if you want to do an anonymous donation, please add a comment or send an email to %s.
+if you want to do an anonymous donation, please add a comment or send an email to %s.
+
+
 ;if you want to do an anonymous donation, please add a comment.
  Se você quiser fazer uma doação anônima, por favor, adicione um comentário.
 
@@ -115,8 +119,8 @@ Acreditamos que a responsabilidade pública é crucial. Você pode saber mais so
 
 
 # ../../svn/web/en/donate/index.php +107
-;Questions ?
-Questions ?
+;Questions?
+Questions?
 
 
 # ../../svn/web/en/donate/index.php +108

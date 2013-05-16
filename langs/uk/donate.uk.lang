@@ -62,6 +62,10 @@ Paypal стягує невеличкі комісійні з кожної пож
 всі витрати, пов’язані з обміном валют, лягають на Mageia, отже, будь ласка, надсилайте пожертви у &euro;;
 
 
+;if you want to do an anonymous donation, please add a comment or send an email to %s.
+if you want to do an anonymous donation, please add a comment or send an email to %s.
+
+
 ;if you want to do an anonymous donation, please add a comment.
 якщо ви хочете зробити анонімну пожертву, будь ласка, додайте відповідний коментар.
 
@@ -115,7 +119,7 @@ Mageia.Org є неприбутковою організацією, яка кер
 
 
 # ../../svn/web/en/donate/index.php +107
-;Questions ?
+;Questions?
 Маєте питання?
 
 

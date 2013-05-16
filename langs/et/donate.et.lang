@@ -62,6 +62,10 @@ Paypal võtab iga annetuse eest väikest vahendustasu (umbes 2%), mistõttu me s
 valuutavahetuse tasu peab maksma Mageia, mistõttu oleks kasulikum arveldada eurodes
 
 
+;if you want to do an anonymous donation, please add a comment or send an email to %s.
+if you want to do an anonymous donation, please add a comment or send an email to %s.
+
+
 ;if you want to do an anonymous donation, please add a comment.
 kui soovite annetada anonüümselt, märkige see kindlasti ära
 
@@ -115,7 +119,7 @@ Me pooldame täielikult rahaasjade läbipaistvuse põhimõtet. Sellest, kuidas m
 
 
 # ../../svn/web/en/donate/index.php +107
-;Questions ?
+;Questions?
 Küsimused?
 
 

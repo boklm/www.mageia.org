@@ -111,12 +111,16 @@ Paypal снимет небольшую комиссию за каждое пож
 Пожалуйста, используйте &euro; как валюту взносов, так как любая другая валюта будет обменяна по текущему курсу.
 
 
+;if you want to do an anonymous donation, please add a comment or send an email to %s.
+if you want to do an anonymous donation, please add a comment or send an email to %s.
+
+
 ;if you want to do an anonymous donation, please add a comment.
 Если вы хотите сделать пожертвование анонимно, пожалуйста, оставьте комментарий.
 
 
 # ../../svn/web/en/donate/index.php +107
-;Questions ?
+;Questions?
 Есть вопросы?
 
 

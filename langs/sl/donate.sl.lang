@@ -76,8 +76,8 @@ menjalni tečaji bremenijo Magejo, zato vas prosimo, da uporabite &euro; kot val
 
 
 # ../../svn/web/en/donate/index.php +63
-;if you want to do an anonymous donation, please add a comment.
-dodate ustrezen komentar, če želite narediti anonimno donacijo.
+;if you want to do an anonymous donation, please add a comment or send an email to %s.
+dodate ustrezen komentar ali pošljete e-pošto na e-naslov: %s, če želite narediti anonimno donacijo.
 
 
 # ../../svn/web/en/donate/index.php +69
@@ -141,8 +141,8 @@ Prepričani smo, da je javna sledljivost ključnega pomena. Več o tem, kako se 
 
 
 # ../../svn/web/en/donate/index.php +107
-;Questions ?
-Vprašanja ?
+;Questions?
+Vprašanja?
 
 
 # ../../svn/web/en/donate/index.php +108

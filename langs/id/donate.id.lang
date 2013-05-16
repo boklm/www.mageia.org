@@ -77,6 +77,10 @@ konversi kurs dibebankan ke Mageia, jadi harap gunakan mata uang &euro;;
 
 
 # ../../svn/web/en/donate/index.php +60
+;if you want to do an anonymous donation, please add a comment or send an email to %s.
+if you want to do an anonymous donation, please add a comment or send an email to %s.
+
+
 ;if you want to do an anonymous donation, please add a comment.
 jika kamu ingin donasi anonim, silakan tambahkan komentar.
 
@@ -142,8 +146,8 @@ Kami percaya bahwa akuntabilitas publik sangat penting. Kamu bisa tahu bagaimana
 
 
 # ../../svn/web/en/donate/index.php +107
-;Questions ?
-Questions ?
+;Questions?
+Questions?
 
 
 # ../../svn/web/en/donate/index.php +108

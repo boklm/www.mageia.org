@@ -62,6 +62,10 @@ Paypal her bir bağış için küçük bir komisyon (yaklaşık %2) almaktadır,
 Dönüşüm oranları Mageia'ya yansıtılmaktadır, bu yüzden para birimi olarak lütfen &euro; kullanın;
 
 
+;if you want to do an anonymous donation, please add a comment or send an email to %s.
+if you want to do an anonymous donation, please add a comment or send an email to %s.
+
+
 ;if you want to do an anonymous donation, please add a comment.
 Eğer isimsiz bir bağış yapmak isterseniz, lütfen bir yorum ekleyin.
 
@@ -115,7 +119,7 @@ Biz şeffaf olmanın çok önemli olduğuna inanıyoruz. Bu yüzden sizler paran
 
 
 # ../../svn/web/en/donate/index.php +107
-;Questions ?
+;Questions?
 Sorular ?
 
 

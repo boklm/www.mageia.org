@@ -62,6 +62,10 @@ Paypal prenas malgrandan procenton por ĉiu donaco (ĉirkaŭ 2%), do ni ricevos 
 kurzo-kostojn pagas Magejo, do bv. uzi &euro; kiel mono;
 
 
+;if you want to do an anonymous donation, please add a comment or send an email to %s.
+if you want to do an anonymous donation, please add a comment or send an email to %s.
+
+
 ;if you want to do an anonymous donation, please add a comment.
 se vi volas fari anoniman mondonacon, bv. aldoni komenton.
 
@@ -115,8 +119,8 @@ Ni kredas ke publika konto-registrado estas gravega. Vi povas scii pli pri la uz
 
 
 # ../../svn/web/en/donate/index.php +107
-;Questions ?
-Questions ?
+;Questions?
+Questions?
 
 
 # ../../svn/web/en/donate/index.php +108

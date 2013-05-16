@@ -76,8 +76,8 @@ conversion rates are charged to Mageia, so please use &euro; as currency;
 
 
 # ../../svn/web/en/donate/index.php +63
-;if you want to do an anonymous donation, please add a comment.
-if you want to do an anonymous donation, please add a comment.
+;if you want to do an anonymous donation, please add a comment or send an email to %s.
+if you want to do an anonymous donation, please add a comment or send an email to %s.
 
 
 # ../../svn/web/en/donate/index.php +69
@@ -140,8 +140,8 @@ Currently, we received a lot of generous donations (%s, remains %s) thanks to al
 We believe public accountability is crucial. You can know more about how are used the funds received by reading our <a href="%s">financial reports</a>.
 
 # ../../svn/web/en/donate/index.php +107
-;Questions ?
-Questions ?
+;Questions?
+Questions?
 
 
 # ../../svn/web/en/donate/index.php +108
