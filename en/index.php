@@ -1,7 +1,6 @@
 <?php
 /**
 */
-
 define('HLANG', true);
 require '../langs.php';
 
@@ -61,7 +60,6 @@ $nav = array(
         color: #fff;
         text-shadow: 0 0 1px #333;
         background: #3494D3;
-
         background: -webkit-radial-gradient(20% 350px, circle cover, #3494D3 0%, #2383C2 50%);
         background: -moz-radial-gradient(26% 370px, circle cover, #3494D3 0%, #2383C2 50%);
         background: -o-radial-gradient(20% 350px, circle cover, #3494D3 0%, #2383C2 50%);
@@ -80,7 +78,6 @@ $nav = array(
         text-decoration: none;
         width: 280px;
         background: rgba(255,255,255,0.9);
-
         padding: 20px 20px 15px 20px;
         border-radius: 4px;
         text-shadow: none;
@@ -118,7 +115,6 @@ $nav = array(
         text-shadow: none;
         text-decoration: none;
     }
-    
     .dl-btn-other {
         display: block;
         width: 222px;
@@ -144,7 +140,7 @@ $nav = array(
     }
     #fnotes a { color: #ccc; text-decoration: none; }
     .free-dl { color: green; font-weight: bold; }
-    
+
     /* Landscape phones and down */
     @media (max-width: 480px) {}
 
@@ -159,7 +155,6 @@ $nav = array(
         #up { padding-bottom: 0; }
         #up > .container { padding: 1em; }
         #b1 { margin: 0; padding: 0 0 1em 0; }
-
         #navb li { margin: 1em 0 0 1em; float: left; }
         #navb li a {
             display: block;
@@ -242,8 +237,8 @@ $nav = array(
                         <span class="dl-btn"><?php _e('version 2 (May 2012)'); ?></span>
                     </a>
                     <p class="dl-info">
-                        <a hreflang="en" href="https://wiki.mageia.org/en/Mageia_2_Release_Notes"><?php _e('Release notes'); ?></a>,
-                        <a hreflang="en" href="https://wiki.mageia.org/en/Mageia_2_Errata">errata</a>.
+                        <a hreflang="en" href="<?php _e('https://wiki.mageia.org/en/Mageia_2_Release_Notes'); ?>"><?php _e('Release notes'); ?></a>,
+                        <a hreflang="en" href="<?php _e('https://wiki.mageia.org/en/Mageia_2_Errata'); ?>"><?php _e('errata'); ?></a>.
                     </p>
                 </li>
                 <li><a href="contribute/" class="dl-btn-other"><?php _e('<strong>Get involved</strong> in the next version'); ?></a>
