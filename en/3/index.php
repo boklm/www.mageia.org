@@ -41,7 +41,7 @@ _lang_load($locale, '3');
         </header>
         <section>
             <p class="unstable-release-warning"><?php _e('This is a Release Candidate. Release Candidate software is software that has graduated Beta testing, and should be a release-ready product suitable for advanced users and reviewers. However, beginning users and critical-applications users may wish to wait for the final release planned for May 2013.');
-                _e('It is inteded to identify any remaining bugs or missing packages.'); ?></p>
+                _e('Release Candidate is intended to identify any remaining bugs or missing packages.'); ?></p>
             <div class="para">
                 <h2><?php _e('Download %s', array('Mageia 3 RC')); ?></h2>
                 <ul class="dlinfo hl">
