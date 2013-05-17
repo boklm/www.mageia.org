@@ -63,12 +63,7 @@ Paypal стягує невеличкі комісійні з кожної пож
 
 
 ;if you want to do an anonymous donation, please add a comment or send an email to %s.
-if you want to do an anonymous donation, please add a comment or send an email to %s.
-
-
-;if you want to do an anonymous donation, please add a comment.
-якщо ви хочете зробити анонімну пожертву, будь ласка, додайте відповідний коментар.
-
+якщо ви хочете зробити анонімну пожертву, будь ласка, додайте відповідний коментар або надішліть відповідне повідомлення електронною поштою за адресою %s.
 
 ;Why donate?
 Навіщо жертвувати гроші?
