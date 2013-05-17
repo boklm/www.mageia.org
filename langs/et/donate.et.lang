@@ -63,11 +63,7 @@ valuutavahetuse tasu peab maksma Mageia, mistõttu oleks kasulikum arveldada eur
 
 
 ;if you want to do an anonymous donation, please add a comment or send an email to %s.
-if you want to do an anonymous donation, please add a comment or send an email to %s.
-
-
-;if you want to do an anonymous donation, please add a comment.
-kui soovite annetada anonüümselt, märkige see kindlasti ära
+kui soovite annetada anonüümselt, märkige see ära või saatke kiri aadressile %s
 
 
 ;Why donate?
