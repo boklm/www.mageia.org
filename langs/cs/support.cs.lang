@@ -141,8 +141,8 @@ Zvuková karta: jakákoli zvuková karta AC97, HDA nebo Sound Blaster.
 
 
 
-;For some kinds of hardware (Wi-Fi chipsets, 3D graphic cards) to work properly, specific firmware or software may be needed, this is available in a specific online repository called "nonfree" (learn more).
-U některých kousků vybavení (Wi-Fi karty, grafické karty) je pro správný chod potřeba  zvláštní firmware nebo software, který je na internetu dostupný v určitých repozitářích nazvaných "nonfree" (viz další informace například na wiki).
+;For some kinds of hardware (Wi-Fi chipsets, 3D graphic cards) to work properly, specific firmware or software may be needed, this is available in a specific online repository called "nonfree" (<a href="https://wiki.mageia.org/en/Install_media_in_Mageia_2_for_beginner#Types_of_Mageia_media">learn more</a>).
+U některých kousků vybavení (Wi-Fi karty, grafické karty) je pro správný chod potřeba  zvláštní firmware nebo software, který je na internetu dostupný v určitých repozitářích nazvaných "nonfree" (viz další informace například na <a href="https://wiki.mageia.org/en/Install_media_in_Mageia_2_for_beginner#Types_of_Mageia_media">wiki</a>).
 
 
 

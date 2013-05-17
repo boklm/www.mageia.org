@@ -175,8 +175,8 @@ Placa de Som: qualquer AC97, HDA ou Sound Blaster.
 
 
 
-;For some kinds of hardware (Wi-Fi chipsets, 3D graphic cards) to work properly, specific firmware or software may be needed, this is available in a specific online repository called "nonfree" (learn more).
-Para alguns tipos de material (placas Sem-fio, placas gráficas 3D) funcionarem bem, pode ser preciso algum programa ou 'firmware' específico, isto está disponível num repositório em-linha específico chamado "nonfree" (saber mais).
+;For some kinds of hardware (Wi-Fi chipsets, 3D graphic cards) to work properly, specific firmware or software may be needed, this is available in a specific online repository called "nonfree" (<a href="https://wiki.mageia.org/en/Install_media_in_Mageia_2_for_beginner#Types_of_Mageia_media">learn more</a>).
+Para alguns tipos de material (placas Sem-fio, placas gráficas 3D) funcionarem bem, pode ser preciso algum programa ou 'firmware' específico, isto está disponível num repositório em-linha específico chamado "nonfree" (<a href="https://wiki.mageia.org/en/Midias_mageia-1_pt_BR#Tipos_de_M.C3.ADdias_Mageia">saber mais</a>).
 
 
 

@@ -85,7 +85,7 @@ _lang_load($locale, 'support');
                         _h('Sound card: any AC97, HDA or Sound Blaster sound card.', null, 'li');
                         echo '</ul>';
 
-                        _h('For some kinds of hardware (Wi-Fi chipsets, 3D graphic cards) to work properly, specific firmware or software may be needed, this is available in a specific online repository called "nonfree" (learn more).');
+                        _h('For some kinds of hardware (Wi-Fi chipsets, 3D graphic cards) to work properly, specific firmware or software may be needed, this is available in a specific online repository called "nonfree" (<a href="https://wiki.mageia.org/en/Install_media_in_Mageia_2_for_beginner#Types_of_Mageia_media">learn more</a>).');
                         _h('We may set up a hardware compatibility list/directory as well as a hardware certification process; but that\'s still at the planning stage. Feel free to join/contact our <a href="%s">Web</a> and <a href="%s">QA</a> teams if you would like to help in this regard.', array('https://wiki.mageia.org/en/Web_team', 'https://wiki.mageia.org/en/QA_Team'), 'p class="dlinfo"');
                         echo '<hr>';
 

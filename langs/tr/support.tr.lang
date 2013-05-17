@@ -168,8 +168,8 @@ Ses Kartı: herhangi bir AC97, HDA veya Sound Blaster ses kartı.
 
 
 
-;For some kinds of hardware (Wi-Fi chipsets, 3D graphic cards) to work properly, specific firmware or software may be needed, this is available in a specific online repository called "nonfree" (learn more).
-Bazı donanım türlerinin (Wi-Fi yonga setleri, 3B ekran kartları) doğru çalışabilmesi için, belirli donanım yazılımı veya uygulama yazılımı gerekebilir. Bunlar da "nonfree" adındaki çevrimiçi depodan edinilebilir(daha fazlasını öğrenin).
+;For some kinds of hardware (Wi-Fi chipsets, 3D graphic cards) to work properly, specific firmware or software may be needed, this is available in a specific online repository called "nonfree" (<a href="https://wiki.mageia.org/en/Install_media_in_Mageia_2_for_beginner#Types_of_Mageia_media">learn more</a>).
+Bazı donanım türlerinin (Wi-Fi yonga setleri, 3B ekran kartları) doğru çalışabilmesi için, belirli donanım yazılımı veya uygulama yazılımı gerekebilir. Bunlar da "nonfree" adındaki çevrimiçi depodan edinilebilir(<a href="https://wiki.mageia.org/en/Install_media_in_Mageia_2_for_beginner#Types_of_Mageia_media">daha fazlasını öğrenin</a>).
 
 
 

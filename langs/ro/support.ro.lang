@@ -178,8 +178,8 @@ Placă de sunet: orice placă de sunet AC97, HDA sau Sound Blaster.
 
 
 # ../../svn/web/en/support/index.php +88
-;For some kinds of hardware (Wi-Fi chipsets, 3D graphic cards) to work properly, specific firmware or software may be needed, this is available in a specific online repository called "nonfree" (learn more).
-Pentru ca unele tipuri de componente (cipuri Wi-Fi, plăci video 3D) să funcționeze corect, este posibil să fie nevoie de microcod sau aplicații specifice, acestea sînt disponibile într-un depozit numit „nonfree” (aflați mai multe).
+;For some kinds of hardware (Wi-Fi chipsets, 3D graphic cards) to work properly, specific firmware or software may be needed, this is available in a specific online repository called "nonfree" (<a href="https://wiki.mageia.org/en/Install_media_in_Mageia_2_for_beginner#Types_of_Mageia_media">learn more</a>).
+Pentru ca unele tipuri de componente (cipuri Wi-Fi, plăci video 3D) să funcționeze corect, este posibil să fie nevoie de microcod sau aplicații specifice, acestea sînt disponibile într-un depozit numit „nonfree” (<a href="https://wiki.mageia.org/en/Install_media_in_Mageia_2_for_beginner#Types_of_Mageia_media">aflați mai multe</a>).
 
 
 # ../../svn/web/en/support/index.php +89

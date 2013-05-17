@@ -137,8 +137,8 @@ Mageia.Org не предоставляет и не сертифицирует н
 
 
 
-;For some kinds of hardware (Wi-Fi chipsets, 3D graphic cards) to work properly, specific firmware or software may be needed, this is available in a specific online repository called "nonfree" (learn more).
-Чтобы обеспечить надлежащую работу некоторых типов оборудования (микросхемы Wi-Fi, дискретные графические карты), могут потребоваться определенные микрокоды или драйверы, которые можно установить из особого хранилища с названием «nonfree» (узнайте больше).
+;For some kinds of hardware (Wi-Fi chipsets, 3D graphic cards) to work properly, specific firmware or software may be needed, this is available in a specific online repository called "nonfree" (<a href="https://wiki.mageia.org/en/Install_media_in_Mageia_2_for_beginner#Types_of_Mageia_media">learn more</a>).
+Чтобы обеспечить надлежащую работу некоторых типов оборудования (микросхемы Wi-Fi, дискретные графические карты), могут потребоваться определенные микрокоды или драйверы, которые можно установить из особого хранилища с названием «nonfree» (<a href="https://wiki.mageia.org/en/Install_media_in_Mageia_2_for_beginner#Types_of_Mageia_media">узнайте больше</a>).
 
 
 

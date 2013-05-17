@@ -152,8 +152,8 @@ Tarjeta de sonido: Cualquier tarjeta de sonido AC97, HDA o Sound Blaster.
 
 
 
-;For some kinds of hardware (Wi-Fi chipsets, 3D graphic cards) to work properly, specific firmware or software may be needed, this is available in a specific online repository called "nonfree" (learn more).
-Para que algunos dispositivos (Wi-Fi chipsets, tarjetas gráficas 3D) funcionen adecuadamente, puede hacer falta firmware o software específico, ésto está disponible en el repositorio en linea llamado "nonfree" (aprenda más).
+;For some kinds of hardware (Wi-Fi chipsets, 3D graphic cards) to work properly, specific firmware or software may be needed, this is available in a specific online repository called "nonfree" (<a href="https://wiki.mageia.org/en/Install_media_in_Mageia_2_for_beginner#Types_of_Mageia_media">learn more</a>).
+Para que algunos dispositivos (Wi-Fi chipsets, tarjetas gráficas 3D) funcionen adecuadamente, puede hacer falta firmware o software específico, ésto está disponible en el repositorio en linea llamado "nonfree" (<a href="https://wiki.mageia.org/en/Install_media_in_Mageia_2_for_beginner#Types_of_Mageia_media">aprenda más</a>).
 
 
 

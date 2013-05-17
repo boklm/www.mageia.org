@@ -172,8 +172,8 @@ Zvočna kartica: katerikoli AC97, HDA ali Sound Blaster.
 
 
 # ../../svn/web/en/support/index.php +88
-;For some kinds of hardware (Wi-Fi chipsets, 3D graphic cards) to work properly, specific firmware or software may be needed, this is available in a specific online repository called "nonfree" (learn more).
-Za pravilno delovanje nekaterih vrst strojne opreme (Wi-Fi čipovje, 3D grafične kartice), je lahko potrebna določena strojna programska oprema  ali posebna programska oprema. Le-te so na voljo v skladišču paketov imenovanem "nonfree" (več o tem).
+;For some kinds of hardware (Wi-Fi chipsets, 3D graphic cards) to work properly, specific firmware or software may be needed, this is available in a specific online repository called "nonfree" (<a href="https://wiki.mageia.org/en/Install_media_in_Mageia_2_for_beginner#Types_of_Mageia_media">learn more</a>).
+Za pravilno delovanje nekaterih vrst strojne opreme (Wi-Fi čipovje, 3D grafične kartice), je lahko potrebna določena strojna programska oprema  ali posebna programska oprema. Le-te so na voljo v skladišču paketov imenovanem "nonfree" (<a href="https://wiki.mageia.org/en/Install_media_in_Mageia_2_for_beginner#Types_of_Mageia_media">več o tem</a>).
 
 
 # ../../svn/web/en/support/index.php +89

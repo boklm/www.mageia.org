@@ -162,8 +162,8 @@ Scheda audio: qualsiasi scheda audio AC97, HDA o Sound Blaster.
 
 
 
-;For some kinds of hardware (Wi-Fi chipsets, 3D graphic cards) to work properly, specific firmware or software may be needed, this is available in a specific online repository called "nonfree" (learn more).
-Per far funzionare correttamente alcuni tipi di hardware (chipset Wi-Fi, schede video 3D), potrebbe essere necessario firmware o software aggiuntivo, questi sono disponibili in una fonte online specifica chiamata "nonfree" (scoprine di più).
+;For some kinds of hardware (Wi-Fi chipsets, 3D graphic cards) to work properly, specific firmware or software may be needed, this is available in a specific online repository called "nonfree" (<a href="https://wiki.mageia.org/en/Install_media_in_Mageia_2_for_beginner#Types_of_Mageia_media">learn more</a>).
+Per far funzionare correttamente alcuni tipi di hardware (chipset Wi-Fi, schede video 3D), potrebbe essere necessario firmware o software aggiuntivo, questi sono disponibili in una fonte online specifica chiamata "nonfree" (<a href="https://wiki.mageia.org/en/Install_media_in_Mageia_2_for_beginner#Types_of_Mageia_media">scoprine di più</a>).
 
 
 
