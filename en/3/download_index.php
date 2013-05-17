@@ -77,10 +77,10 @@ require '../downloads/get/lib.php';
                     </div>
 
                     <                    <div class="para">
-                        <h2><?php _e('LiveCDs &ndash; LiveDVDs');?></h2>
-                        <p class="dlinfo"><?php _e('Use LiveCDs &ndash; LiveDVDs for fresh new installs ONLY.');?>
-                            <span class="warn"><?php _e('DO NOT use those LiveCDs &ndash; LiveDVDs to upgrade from Mageia 2!'); ?></span>
-                            <?php _e('Use above DVD or CD and see the <a href="%s" hreflang="en">upgrade guide</a>.',
+                        <h2><?php _e('LiveCDs and LiveDVDs');?></h2>
+                        <p class="dlinfo"><?php _e('Use LiveCDs and LiveDVDs for fresh new installs ONLY.');?>
+                            <span class="warn"><?php _e('DO NOT use these LiveCDs or LiveDVDs to upgrade from Mageia 2!'); ?></span>
+                            <?php _e('Use above DVD or CD and see the upgrade guide. <a href="%s" hreflang="en">upgrade guide</a>.',
                                 array('https://wiki.mageia.org/en/Mageia_3_Release_Notes#Upgrading_from_Mageia_2'));?></p>
                         <table class="fr-table dlt2">
                         <thead>
@@ -190,7 +190,7 @@ require '../downloads/get/lib.php';
                         <?php
                             _h('Looking for Mageia 1?', null, 'h3');
                             echo '<p>';
-                            _e('It is <a href="%s">here now</a>.', array('../downloads/1/'));
+                            _e('It is <a href="%s">here now</a>.', array('../1/'));
                             _e('But please remember that it already <a href="http://blog.mageia.org/en/2012/12/02/mageia-1-eol"/>reached EOL</a>.', null, '');
                             echo '</p>';
                         ?>
@@ -198,7 +198,7 @@ require '../downloads/get/lib.php';
                         <br>
                         <?php
                             _h('Need more challenge?', null, 'h3');
-                            _h('You can help us <a href="%s">on Mageia 4</a>.', array('../contribute/'));
+                            _h('You can help us <a href="%s">on Mageia 4</a>.', array('/contribute/'));
                         ?>
                     </div>
                     <hr>
