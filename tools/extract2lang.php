@@ -39,10 +39,10 @@ U;
 
 echo "ohai!\n";
 
-$path = 'en/2/download_index.php en/for-pc/index.php en/for-server/index.php en/2/index.php';
+$path = 'en/3/download_index.php en/3/index.php';
 //$path = realpath(APP_ROOT . '/' . $path);
 
-$domain = '2';
+$domain = '3';
 
 $cmd = sprintf('grep -HrnEi "_(e|t|h)\((.*)\)" %s', $path);
 echo $cmd, "\n";
