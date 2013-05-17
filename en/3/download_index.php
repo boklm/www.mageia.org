@@ -50,13 +50,13 @@ require '../downloads/get/lib.php';
                                 <th class="name">DVD 64bit</th>
                                 <td class="size">3.9GB</td>
                                 <td><a rel="nofollow" href="?q=Mageia-3-x86_64-DVD.iso" title="Mageia 3 64bit DVD"><?php _e('64bit');?></a></td>
-                                <td><a rel="nofollow" href="?q=Mageia-3-x86_64-DVD.iso&amp;torrent=1" title="Mageia 2 64bit DVD"><?php _e('64bit');?></a></td>
+                                <td><a rel="nofollow" href="?q=Mageia-3-x86_64-DVD.iso&amp;torrent=1" title="Mageia 3 64bit DVD"><?php _e('64bit');?></a></td>
                             </tr>
                             <tr>
                                 <th class="name">CD</th>
                                 <td class="size">700MB</td>
-                                <td><a rel="nofollow" href="?q=Mageia-3-dual-CD.iso" title="Mageia 2 dual CD">d<?php _e('dualarch')?></a></td>
-                                <td><a rel="nofollow" href="?q=Mageia-3-dual-CD.iso&amp;torrent=1" title="Mageia 2 dual CD"><?php _e('dualarch')?></a></td>
+                                <td><a rel="nofollow" href="?q=Mageia-3-dual-CD.iso" title="Mageia 3 dual CD"><?php _e('dualarch')?></a></td>
+                                <td><a rel="nofollow" href="?q=Mageia-3-dual-CD.iso&amp;torrent=1" title="Mageia 3 dual CD"><?php _e('dualarch')?></a></td>
                             </tr>
                         </tbody>
                         </table>
@@ -80,7 +80,7 @@ require '../downloads/get/lib.php';
                         <h2><?php _e('LiveCDs and LiveDVDs');?></h2>
                         <p class="dlinfo"><?php _e('Use LiveCDs and LiveDVDs for fresh new installs ONLY.');?>
                             <span class="warn"><?php _e('DO NOT use these LiveCDs or LiveDVDs to upgrade from Mageia 2!'); ?></span>
-                            <?php _e('Use above DVD or CD and see the upgrade guide. <a href="%s" hreflang="en">upgrade guide</a>.',
+                            <?php _e('Use above DVD or CD and see <a href="%s" hreflang="en">upgrade guide</a>.',
                                 array('https://wiki.mageia.org/en/Mageia_3_Release_Notes#Upgrading_from_Mageia_2'));?></p>
                         <table class="fr-table dlt2">
                         <thead>
