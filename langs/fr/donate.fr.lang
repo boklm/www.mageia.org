@@ -111,11 +111,7 @@ Les frais de change sont à la charge de Mageia donc, s&rsquo;il vous plaît, ut
 
 
 ;if you want to do an anonymous donation, please add a comment or send an email to %s.
-if you want to do an anonymous donation, please add a comment or send an email to %s.
-
-
-;if you want to do an anonymous donation, please add a comment.
-Si vous souhaitez faire un don anonyme, ajoutez-le en commentaire.
+Si vous souhaitez faire un don anonyme, ajoutez-le en commentaire ou envoyez un courriel à %s.
 
 
 # ../../svn/web/en/donate/index.php +107
