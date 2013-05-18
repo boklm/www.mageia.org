@@ -36,7 +36,7 @@ _lang_load($locale, '3');
                 <li><a href="https://wiki.mageia.org/en/Mageia_3_Errata"><?php _e('Errata')?></a></li>
             </ul>
         </header>
-                <h2>Mageia 3 is comming soon, thanks for you patience</h2>
+                <h2>Mageia 3 is coming very soon, thanks for you patience!</h2>
     </article>
 </body>
 </html>
