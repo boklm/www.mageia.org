@@ -41,7 +41,7 @@ _lang_load($locale, 'support');
                         echo '<hr>';
 
                         _h('Updates', null, 'h2 id="updates"');
-                        _h('Updates are available for %s (security and bug fixes) and published on an ongoing basis.', array('<a href="../2/">Mageia 2</a>'));
+                        _h('Updates are available for %s and %s (security and bug fixes) and published on an ongoing basis.', array('<a href="../2/">Mageia 2</a>', '<a href="../3/">Mageia 3</a>'));
                         _h('You can install these from the Mageia Control Center.');
                         _h('You may subscribe to our %s announce list to be notified of these.', array('<a href="https://ml.mageia.org/l/info/updates-announce">updates-announce</a>'));
                         echo '<hr>';
