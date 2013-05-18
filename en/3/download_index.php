@@ -23,7 +23,7 @@ require '../downloads/get/lib.php';
 <body class="release downloads">
     <?php echo $hsnav; ?>
     <h1 id="mgnavt"><?php _e('Download <strong>Mageia 3</strong>')?></h1>
-    <!--<?php include '../3/nav.php'; ?>-->
+    <?php include '../3/nav.php'; ?>
     <div id="doc4" class="yui-t7">
         <div id="bd" role="main">
             <div class="yui-ge bb1">
@@ -182,7 +182,7 @@ require '../downloads/get/lib.php';
                         <?php
                             _h('Looking for Mageia 2?', null, 'h3');
                             echo '<p>';
-                            _e('It is <a href="%s">here now</a>.', array('../2/download_index.php'));
+                            _e('It is <a href="%s">here now</a>.', array('/2/'));
                             echo '</p>';
                         ?>
                         <br>

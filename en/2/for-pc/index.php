@@ -1,26 +1,26 @@
 <?php
 
 define('HLANG', true);
-require '../../langs.php';
-_lang_load($locale, '3');
+require '../../../langs.php';
+_lang_load($locale, '2');
 
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $locale; ?>">
 <head>
     <meta charset="utf-8">
-    <title><?php _e('Mageia 3, for your PC')?></title>
+    <title><?php _e('Mageia 2, for your PC')?></title>
     <link rel="stylesheet" href="/g/style/all.css">
     <style>
     .para { text-align: left; float: left; width: 250px; display: block; border-right: 1px solid #eef; border-bottom: 1px solid #eef; }
     hr { margin-top: 2em; }
     </style>
-    <?php include '../../analytics.php'; ?>
+    <?php include '../../../analytics.php'; ?>
 </head>
 <body class="downloads">
     <?php echo $hsnav; ?>
-    <h1 id="mgnavtitle"><a href="../3/">Mageia 3</a> &raquo; <?php _e('for your PC')?></h1>
-    <?php include '../3/nav.php'; ?>
+    <h1 id="mgnavtitle"><a href="../2/">Mageia 2</a> &raquo; <?php _e('for your PC')?></h1>
+    <?php include '../nav.php'; ?>
     <div class="para" style="width: 600px;">
         <section>
             <?php
@@ -29,12 +29,12 @@ _lang_load($locale, '3');
                 _h('The total number is double that &ndash; and then if you consider the backports, and the packages in the Cauldron still testing... you\'ll see that Mageia users are spoiled for choice.');
                 _h('Here\'s a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:');
                 _h('Environments', null, 'h2');
-                _h('Mageia 3 has all the major desktop environments:');
+                _h('Mageia 2 has all the major desktop environments:');
             ?>
             <ul>
-                <li>KDE4 SC 4.10.2,</li>
-                <li>GNOME 3.6,</li>
-                <li>XFCE 4.10,</li>
+                <li>KDE4 SC 4.8.2,</li>
+                <li>GNOME 3.4,</li>
+                <li>XFCE 4.9,</li>
                 <li>LXDE,</li>
                 <li>Razor-Qt,</li>
                 <li>E17.</li>
@@ -49,7 +49,7 @@ _lang_load($locale, '3');
     <div class="para" style="width: 300px">
         <?php
             _h('Web', null, 'h3');
-            _h('Choose your web browser from Firefox ESR 17.0.6, Chromium-browser 26.0.1410.65, Epiphany 3.6.1 or Opera 12.15 &ndash; or one of the many others such as Lynx or Konqueror; then pick an email client from KMail 4.8.2, Thunderbird ESR 17.0.6, Evolution 3.4.1 or maybe Claws-Mail or Mutt.');
+            _h('Choose your web browser from Firefox ESR 10.0.4, Chromium-browser 180.1025.160, Epiphany 3.4.1 or Opera 11.64 &ndash; or one of the many others such as Lynx or Konqueror; then pick an email client from KMail 4.8.2, Thunderbird ESR 10.0.4, Evolution 3.4.1 or maybe Claws-Mail or Mutt.');
         ?>
     </div>
     <div class="para" style="width: 300px">
@@ -73,7 +73,7 @@ _lang_load($locale, '3');
     <div class="para" style="width: 300px">
         <?php
             _h('Sound', null, 'h3');
-            _h('For playing audio files, choose from Amarok 2.7.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don\'t infringe local laws.');
+            _h('For playing audio files, choose from Amarok 2.5.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don\'t infringe local laws.');
         ?>
     </div>
     <div class="para" style="width: 300px">
@@ -90,7 +90,7 @@ _lang_load($locale, '3');
     </div>
     <div class="para">
         <?php
-            _h('For more information about these and other packages, check the <a href="%s">Mageia 3 Release notes</a>.', array('https://wiki.mageia.org/en/Mageia_3_Release_Notes'));
+            _h('For more information about these and other packages, check the <a href="%s">Mageia 2 Release notes</a>.', array('https://wiki.mageia.org/en/Mageia_2_Release_Notes'));
             _h('You can take a look at the <a href="%s">Mageia Application Database</a> to get a more complete list of Mageia packages.', array('http://mageia.madb.org/'));
         ?>
     </div>

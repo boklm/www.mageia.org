@@ -24,10 +24,10 @@ else
     $_nt = $_nt['en'];
 
 $nav = array(
-    "/{$locale}/2/"          => _t('Mageia 2'),
-    "/{$locale}/2/download_index/"  => _t('Download'),
-    "/{$locale}/2/for-pc/"     => _t('For PC'),
-    "/{$locale}/2/for-server/" => _t('For server'),
+    "/{$locale}/3/"          => _t('Mageia 3'),
+    "/{$locale}/downloads/"  => _t('Download'),
+    "/{$locale}/for-pc/"     => _t('For PC'),
+    "/{$locale}/for-server/" => _t('For server'),
 );
 
 $sru = trim($_SERVER['REQUEST_URI']);

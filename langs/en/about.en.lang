@@ -60,11 +60,9 @@ gathered <a href="../community/">hundreds of careful individuals and several com
 ;who coproduce the infrastructure, the distribution itself, <a href="http://wiki.mageia.org/">documentation</a>, <a href="../downloads/">delivery</a> and <a href="../support/">support</a>, using Free Software tools;
 who coproduce the infrastructure, the distribution itself, <a href="http://wiki.mageia.org/">documentation</a>, <a href="../downloads/">delivery</a> and <a href="../support/">support</a>, using Free Software tools;
 
-
-# /en/about/index.php +48
-;released two major stable releases <a href="../1/">in June 2011</a> and <a href="../2/">in May 2012</a>.
-released two major stable releases <a href="../1/">in June 2011</a> and <a href="../2/">in May 2012</a>.
-
+# /en/about/index.php +48 (modified manually)
+;released three major stable releases <a href="../1/">in June 2011</a>, <a href="../2/">in May 2012</a> and in <a href="../3/">in May 2013</a>.
+released three major stable releases <a href="../1/">in June 2011</a>, <a href="../2/">in May 2012</a> and in <a href="../3/">in May 2013</a>.
 
 # /en/about/index.php +69
 ;<a href=%s>Mageia.Org's legal constitution</a> and <a href=%s>governance</a> rules;

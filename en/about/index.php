@@ -29,7 +29,7 @@ _lang_load($locale, "about");
     <div id="doc" class="yui-t7">
         <div id="bd" role="main">
             <div class="yui-g"><div class="para" style="padding-top: 2em;">
-                <img src="/g/media/logo/mageia-2011.svg" id="abtlg" alt="Mageia">
+                <img src="/g/media/logo/mageia-2013.svg" id="abtlg" alt="Mageia">
                 <p><?php
                     _e('Mageia is a GNU/Linux-based, Free Software operating system.');
                     _e('It is a <a href="../community/">community project</a>, supported by <a href="#mageia.org">a nonprofit organisation</a> of elected contributors.');
@@ -45,7 +45,7 @@ _lang_load($locale, "about");
                         _t('gathered <a href="../community/">hundreds of careful individuals and several companies worldwide</a>,'),
                         _t('who coproduce the infrastructure, the distribution itself, <a href="http://wiki.mageia.org/">documentation</a>, <a href="../downloads/">delivery</a> and <a href="../support/">support</a>, using Free Software tools;'),
                         '</li>';
-                    _h('released two major stable releases <a href="../1/">in June 2011</a> and <a href="../2/">in May 2012</a>.', null, 'li');
+		    _h('released three major stable releases <a href="../1/">in June 2011</a>, <a href="../2/">in May 2012</a> and in <a href="../3/">in May 2013</a>.', null, 'li');
                 ?></ul>
                 <!--
                 <ul>

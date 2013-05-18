@@ -43,7 +43,7 @@ _lang_load($locale, 'support');
                         _h('Updates', null, 'h2 id="updates"');
                         _h('Updates are available for %s (security and bug fixes) and published on an ongoing basis.', array('<a href="../2/">Mageia 2</a>'));
                         _h('You can install these from the Mageia Control Center.');
-                        _h('You may subscribe to our %s announce list to be notified of these.', array('<a href="https://ml.mageia.org/wwsympa-wrapper.fcgi/info/updates-announce">updates-announce</a>'));
+                        _h('You may subscribe to our %s announce list to be notified of these.', array('<a href="https://ml.mageia.org/l/info/updates-announce">updates-announce</a>'));
                         echo '<hr>';
 
                         _h('Lifecycle', null, 'h3');
@@ -51,6 +51,7 @@ _lang_load($locale, 'support');
                         echo '<ul class="hl">';
                         _h('Mageia 1 was supported until December 1st, 2012.', null, 'li');
                         _h('Mageia 2 will be supported until November 22nd, 2013.', null, 'li');
+			_h('Mageia 3 will be supported until November 188888888nd, 2014.', null, 'li');
                         echo '</ul>';
                         echo '<hr>';
 
