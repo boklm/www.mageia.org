@@ -52,8 +52,8 @@ Uuendused
 
 
 # ../../svn/web/en/support/index.php +44
-;Updates are available for %s (security and bug fixes) and published on an ongoing basis.
-Uuendusi tuleb %s tarbeks (turvauuendused ja veaparandused) vastavalt tarkvara arendamisele pidevalt.
+;Updates are available for %s and %s (security and bug fixes) and published on an ongoing basis.
+Uuendusi tuleb %s ja %s tarbeks (turvauuendused ja veaparandused) vastavalt tarkvara arendamisele pidevalt.
 
 
 ;You may subscribe to our %s announce list to be notified of these.
