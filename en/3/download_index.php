@@ -76,7 +76,7 @@ require '../downloads/get/lib.php';
                         </ul>
                     </div>
 
-                    <                    <div class="para">
+                    <div class="para">
                         <h2><?php _e('LiveCDs and LiveDVDs');?></h2>
                         <p class="dlinfo"><?php _e('Use LiveCDs and LiveDVDs for fresh new installs ONLY.');?>
                             <span class="warn"><?php _e('DO NOT use these LiveCDs or LiveDVDs to upgrade from Mageia 2!'); ?></span>
