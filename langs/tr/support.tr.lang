@@ -50,16 +50,13 @@ Belgeleme
 Güncellemeler
 
 
-
 # ../../svn/web/en/support/index.php +44
-;Updates are available for %s (security and bug fixes) and published on an ongoing basis.
-Güncellemeler (güvenlik ve hata onarımı) %s için mevcuttur ve hâlihazırdaki kaynaktan yayınlanır.
-
+;Updates are available for %s and %s (security and bug fixes) and published on an ongoing basis.
+Güncellemeler (güvenlik ve hata onarımı) %s ve %s için mevcuttur ve hâlihazırdaki kaynaktan yayınlanır.
 
 
 ;You can install these from the Mageia Control Center.
 Güncellemeleri Mageia Kontrol Merkezinden yükleyebilirsiniz.
-
 
 
 ;You may subscribe to our %s announce list to be notified of these.
@@ -79,13 +76,17 @@ Mageia sürümleri en az 18 ay süreyle deteklenir.
 
 # ../../svn/web/en/support/index.php +52
 ;Mageia 1 was supported until December 1st, 2012.
-Mageia 1, 1 Aralık 2012'ye kadar desteklendi.
+Mageia 1, 1-Aralık-2012'ye kadar desteklendi.
 
 
 
 ;Mageia 2 will be supported until November 22nd, 2013.
 Mageia 2, 22-Kasım-2013'e kadar desteklenecektir.
 
+
+# added manually
+;Mageia 3 will be supported until November 18nd, 2014.
+Mageia 3, 18-Kasım-2014'e kadar desteklenecektir.
 
 
 ;If you need help, information or directions about the Mageia distribution you installed or about the project, you can try to reach us through:
