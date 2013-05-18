@@ -361,6 +361,11 @@ dualarch {ok}
 LiveDVD KDE {ok}
 
 
+# en/3/index.php +85
+;100% Free Software
+100% logiciels libres
+
+
 # ../../svn/web/en/3/index.php +96
 ;not suitable for upgrade
 non approprié pour une mise à niveau
