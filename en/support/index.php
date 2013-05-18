@@ -51,7 +51,7 @@ _lang_load($locale, 'support');
                         echo '<ul class="hl">';
                         _h('Mageia 1 was supported until December 1st, 2012.', null, 'li');
                         _h('Mageia 2 will be supported until November 22nd, 2013.', null, 'li');
-			_h('Mageia 3 will be supported until November 188888888nd, 2014.', null, 'li');
+			_h('Mageia 3 will be supported until November 18nd, 2014.', null, 'li');
                         echo '</ul>';
                         echo '<hr>';
 
