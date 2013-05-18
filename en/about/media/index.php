@@ -22,9 +22,7 @@ _lang_load($locale, "about/media");
     <div id="doc" class="yui-t7">
         <div id="bd" role="main">
             <div class="yui-g"><div class="para">
-                <h2><?php _e('Logo')?></h2>
-
-
+                <h2><?php _e('Official Logo')?></h2>
 		<table>
 			<tr>
 				<th><?php _e('Mageia 2013')?></th>
@@ -43,10 +41,11 @@ _lang_load($locale, "about/media");
 			<td><?php echo sprintf(_t('%sPNG</a> or %sSVG</a>'), '<a href="/g/media/logo/mageia-2013-alpha.png">', '<a href="/g/media/logo/mageia-2013-alpha.svg">') ?></td>
 		</tr>
 		</table>
+		<br><br>
 
+                <h2><?php _e('Previous Logo')?></h2>
 
                 <p><?php echo sprintf(_t('%sPNG</a> or %sSVG</a>'), '<a href="/g/media/logo/mageia-2011.png"><img src="/g/media/logo/t-mageia-2011.png"><br>', '<a href="/g/media/logo/mageia-2011.svg">') ?></p>
-                <p><?php _e('TODO: usage guidelines.')?></p>
 
                 <hr>
 
