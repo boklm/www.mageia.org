@@ -11,9 +11,13 @@ File media Mageia
 File media
 
 
-# ../../svn/web/en/about/media/index.php +25
-;Logo
-Logo {ok}
+# ../../svn/web/en/about/media/index.php +25 modified manually
+;Official Logo
+Logo Resmi
+
+#added manually
+;Previous Logo
+Logo Sebelumnya
 
 
 # ../../svn/web/en/about/media/index.php +30

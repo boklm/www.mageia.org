@@ -60,11 +60,9 @@ mengumpulkan <a href="../community/">ratusan individu yang peduli dan sejumlah p
 ;who coproduce the infrastructure, the distribution itself, <a href="http://wiki.mageia.org/">documentation</a>, <a href="../downloads/">delivery</a> and <a href="../support/">support</a>, using Free Software tools;
 yang menciptakan infrastruktur, distribusi itu sendiri, <a href="http://wiki.mageia.org/">dokumentasi</a>, <a href="../downloads/">penyampaian</a> dan <a href="../support/">dukungan</a>, menggunakan peralatan Free Software;
 
-
-# /en/about/index.php +48
-;released two major stable releases <a href="../1/">in June 2011</a> and <a href="../2/">in May 2012</a>.
-melepas dua rilis stabil utama <a href="../1/">pada Juni 2011</a> dan <a href="../2/">Mei 2012</a>.
-
+# /en/about/index.php +48 (modified manually)
+;released three major stable releases <a href="../1/">in June 2011</a>, <a href="../2/">in May 2012</a> and in <a href="../3/">in May 2013</a>.
+melepas tiga rilis stabil utama <a href="../1/">di bulan Juni 2011</a>, <a href="../2/">Mei 2012</a> dan <a href="../3/">Mei 2013</a>.
 
 # /en/about/index.php +69
 ;<a href=%s>Mageia.Org's legal constitution</a> and <a href=%s>governance</a> rules;

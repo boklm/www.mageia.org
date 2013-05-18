@@ -62,8 +62,8 @@ Kamu bisa melihat %sdokumentasi yang ada di sini%s. Atau mungkin juga melihat %s
 
 
 # ../../svn/web/en/support/index.php +44
-;Updates are available for %s (security and bug fixes) and published on an ongoing basis.
-Update tersedia untuk %s (keamanan dan perbaikan bug) dan diterbitkan secara berkelanjutan.
+;Updates are available for %s and %s (security and bug fixes) and published on an ongoing basis.
+Update tersedia untuk %s dan %s (keamanan dan perbaikan bug) dan diterbitkan secara berkelanjutan.
 
 
 # ../../svn/web/en/support/index.php +45
@@ -90,6 +90,9 @@ Mageia 1 didukung sampai 1 Desember 2012.
 ;Mageia 2 will be supported until November 22nd, 2013.
 Mageia 2 akan didukung sampai 22 November 2013.
 
+# added manually
+;Mageia 3 will be supported until November 18nd, 2014.
+Mageia 3 akan didukung sampai 19 November 2014.
 
 # ../../svn/web/en/support/index.php +58
 ;If you need help, information or directions about the Mageia distribution you installed or about the project, you can try to reach us through:
@@ -183,4 +186,4 @@ Kami mungkin mengatur daftar/direktori kompatibilitas hardware serta proses sert
 
 # ../../svn/web/en/support/index.php +93
 ;You may check and report bugs on <a href="%s">our Bugzilla (bugs.mageia.org)</a>.
-Kamu boleh memeriksa dan melaporkan bug ke <a href="%s">Bugzilla kami (bugs.mageia.org)</a>.
+Kamu bisa mencari dan melaporkan bug ke <a href="%s">Bugzilla kami (bugs.mageia.org)</a>.

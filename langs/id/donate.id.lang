@@ -19,11 +19,11 @@ Donasi melalui PayPal,
 # ../../svn/web/en/donate/index.php +34
 # ../../svn/web/en/donate/index.php +34
 ;via bitcoin,
-via bitcoin,
+melalui bitcoin,
 
 # ../../svn/web/en/donate/index.php +35
 ;If you want to donate <a href="http://bitcoin.org/">bitcoins</a>, the Mageia.Org bitcoin address is <b>%s</b>.
-If you want to donate <a href="http://bitcoin.org/">bitcoins</a>, the Mageia.Org bitcoin address is <b>%s</b>.
+Jika kamu ingin mendonasikan <a href="http://bitcoin.org/">bitcoins</a>, alamat bitcoin Mageia.Org adalah <b>%s</b>.
 
 
 # ../../svn/web/en/donate/index.php +37
@@ -78,11 +78,7 @@ konversi kurs dibebankan ke Mageia, jadi harap gunakan mata uang &euro;;
 
 # ../../svn/web/en/donate/index.php +60
 ;if you want to do an anonymous donation, please add a comment or send an email to %s.
-if you want to do an anonymous donation, please add a comment or send an email to %s.
-
-
-;if you want to do an anonymous donation, please add a comment.
-jika kamu ingin donasi anonim, silakan tambahkan komentar.
+jika kamu ingin mendonasi tanpa nama, silakan tambahkan komentar atau kirim email ke %s.
 
 
 # ../../svn/web/en/donate/index.php +66
@@ -147,9 +143,9 @@ Kami percaya bahwa akuntabilitas publik sangat penting. Kamu bisa tahu bagaimana
 
 # ../../svn/web/en/donate/index.php +107
 ;Questions?
-Questions?
+Pertanyaan?
 
 
 # ../../svn/web/en/donate/index.php +108
 ;If you have any question about donations, you can send an email to <a href="mailto:treasurer@mageia.org">treasurer@mageia.org</a>.
-If you have any question about donations, you can send an email to <a href="mailto:treasurer@mageia.org">treasurer@mageia.org</a>.
+Jika kamu punya pertanyaan tentang donasi, kamu bisa mengirim email ke <a href="mailto:treasurer@mageia.org">treasurer@mageia.org</a>.

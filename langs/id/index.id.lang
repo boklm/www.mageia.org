@@ -92,7 +92,7 @@ versi 2 (Mei 2012)
 
 
 ;version 3 (May 2013)
-version 3 (May 2013)
+versi 3 (Mei 2013)
 
 
 # /en/index.php +240
@@ -105,17 +105,17 @@ Catatan rilis
 
 # /en/index.php +240
 ;https://wiki.mageia.org/en/Mageia_2_Release_Notes
-https://wiki.mageia.org/en/Mageia_2_Release_Notes
+https://wiki.mageia.org/en/Mageia_2_Release_Notes {ok}
 
 
 # /en/index.php +241
 ;https://wiki.mageia.org/en/Mageia_2_Errata
-https://wiki.mageia.org/en/Mageia_2_Errata
+https://wiki.mageia.org/en/Mageia_2_Errata {ok}
 
 
 # /en/index.php +241
 ;errata
-errata
+errata {ok}
 
 
 # /en/index.php +244
