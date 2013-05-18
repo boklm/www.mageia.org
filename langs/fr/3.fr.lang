@@ -88,7 +88,7 @@ Le CD ne contient qu'un nombre restreint de paquets.
 
 # en/3/download_index.php +80
 ;LiveCDs and LiveDVDs
-LiveCD and LiveDVD
+LiveCD et LiveDVD
 
 
 # en/3/download_index.php +81
@@ -99,6 +99,11 @@ N'utilisez les LiveCD ou LiveDVD QUE pour de nouvelles installations.
 # en/3/download_index.php +82
 ;DO NOT use these LiveCDs or LiveDVDs to upgrade from Mageia 2!
 N'utilisez PAS ces LiveCD ou LiveDVD pour une mise à niveau depuis Mageia 2 !
+
+
+# added manually
+;Use above DVD or CD and see <a href="%s" hreflang="en">upgrade guide</a>.
+Utilisez l'un des DVD ou CD ci-dessus et consultez le <a href="%s" hreflang="en">guide de migration</a>.
 
 
 # en/3/download_index.php +88
@@ -185,6 +190,9 @@ Mise à niveau<br>depuis Mageia 2&nbsp;?
 ;<strong>do not</strong> use LiveCDs;
 <strong>ne pas</strong> utiliser de LiveCD ou LiveDVD&nbsp;;
 
+# added manually
+;see the <a href="%s" hreflang="en">upgrade guide</a>
+consultez le <a href=%s" hreflang="en">guide de migration</a>
 
 # en/3/download_index.php +183
 ;Looking for Mageia 2?
