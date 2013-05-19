@@ -1,20 +1,6 @@
 <?php $mirrors = array (
   '_C:EU' => 
   array (
-    3 => 
-    array (
-      'city' => 'Göttingen',
-      'continent' => 'EU',
-      'zone' => 'DE',
-      'url' => 'ftp://ftp5.gwdg.de/pub/linux/mageia',
-    ),
-    5 => 
-    array (
-      'city' => 'Göttingen',
-      'continent' => 'EU',
-      'zone' => 'DE',
-      'url' => 'http://ftp5.gwdg.de/pub/linux/mageia',
-    ),
     16 => 
     array (
       'city' => 'Paris',
@@ -174,19 +160,6 @@
   ),
   'DE' => 
   array (
-    0 => 
-    array (
-      'city' => 'Göttingen',
-      'continent' => 'EU',
-      'zone' => 'DE',
-      'url' => 'ftp://ftp5.gwdg.de/pub/linux/mageia',
-    ),
-    array (
-      'city' => 'Göttingen',
-      'continent' => 'EU',
-      'zone' => 'DE',
-      'url' => 'http://ftp5.gwdg.de/pub/linux/mageia',
-    ),
     6 => 
     array (
       'city' => 'Hermsdorf',
