@@ -18,7 +18,7 @@ via bitcoin,
 
 # ../../svn/web/en/donate/index.php +35
 ;If you want to donate <a href="http://bitcoin.org/">bitcoins</a>, the Mageia.Org bitcoin address is <b>%s</b>.
-If you want to donate <a href="http://bitcoin.org/">bitcoins</a>, the Mageia.Org bitcoin address is <b>%s</b>.
+Si quiere donar <a href="http://bitcoin.org/">bitcoins</a>, la dirección bitcoin de Mageia.Org es <b>%s</b>.
 
 
 # ../../svn/web/en/donate/index.php +37
@@ -63,7 +63,7 @@ Tarifas de conversión son cobradas a Mageia, le pedimos usar &euro; como moneda
 
 
 ;if you want to do an anonymous donation, please add a comment or send an email to %s.
-if you want to do an anonymous donation, please add a comment or send an email to %s.
+Si quiere realizar una donación anónima, por favor agregue un comentario o envíe un correo electrónico a %s.
 
 
 ;if you want to do an anonymous donation, please add a comment.
@@ -120,9 +120,9 @@ Creemos que la contabilidad pública es crucial. Puede conocer más sobre cómo 
 
 # ../../svn/web/en/donate/index.php +107
 ;Questions?
-Questions?
+¿Preguntas?
 
 
 # ../../svn/web/en/donate/index.php +108
 ;If you have any question about donations, you can send an email to <a href="mailto:treasurer@mageia.org">treasurer@mageia.org</a>.
-If you have any question about donations, you can send an email to <a href="mailto:treasurer@mageia.org">treasurer@mageia.org</a>.
+Si tiene dudas sobre donaciones, puede enviar un correo electrónico a <a href="mailto:treasurer@mageia.org">treasurer@mageia.org</a>.
