@@ -2,9 +2,10 @@
 # Domain 3
 
 ;Notes:
+Märkused:
 
 ;<a href="%s">Release notes</a>
-<a href="%s">Väljalaskemärkmed notes</a>
+<a href="%s">Väljalaskemärkmed</a>
 
 ;<a href="%s">Errata</a>
 <a href="%s">Teadaolevad vead</a>
