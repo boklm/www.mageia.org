@@ -53,7 +53,7 @@ $map = array(
             array('t' => _t('Community support'),    'l' => '/{L}/support'),
             array('t' => _t('Professional support'), 'l' => 'https://wiki.mageia.org/en/Commercial_vendors'),
             array('t' => _t('Compatible hardware'),  'l' => '/{L}/support/'), // /hardware
-            array('t' => _t('FAQ'),                  'l' => ''), // /faq
+            array('t' => _t('FAQ'),                  'l' => 'https://wiki.mageia.org/en/FAQ'), // /faq
         )
     ),
     'community' => array(
