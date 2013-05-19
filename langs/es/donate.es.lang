@@ -14,7 +14,7 @@ Donar vía PayPal,
 
 # ../../svn/web/en/donate/index.php +34
 ;via bitcoin,
-via bitcoin,
+via bitcoin, {ok}
 
 # ../../svn/web/en/donate/index.php +35
 ;If you want to donate <a href="http://bitcoin.org/">bitcoins</a>, the Mageia.Org bitcoin address is <b>%s</b>.
