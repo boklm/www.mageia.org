@@ -30,7 +30,6 @@ _lang_load($locale, '3');
 
             _h('What&#39;s new?', null, 'h2');
             _h('Too much to include here! See the <a href="https://wiki.mageia.org/en/Mageia_3_Release_Notes">release notes</a> for an extensive exposé.');
-            #_h('<a href="../downloads/" style="background: #1272B1; color: white; padding: 0.9em; margin: 1em; display: inline-block; text-shadow: 0 1px 6px #000; border-radius: 3px;">Download it right away!</a>');
 	    ?>
 	    <a href="../downloads/" style="background: #1272B1; color: white; padding: 0.9em; margin: 1em; display: inline-block; text-shadow: 0 1px 6px #000; border-radius: 3px;"><?php _h('Download it right away!');?></a>
             <?php
