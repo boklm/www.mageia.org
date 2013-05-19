@@ -182,8 +182,13 @@ nécessaires pour certains contrôleurs de disques ou cartes réseaux, etc.
 
 
 # en/3/download_index.php +169
-;Release notes
-Notes de publication
+;<a href="%s">Release notes</a>
+<a href="https://wiki.mageia.org/en/Mageia_3_:_Notes_de_Version_-_FR">Notes de publication</a>
+
+
+# added manually
+;<a href="%s>"Errata</a>
+<a href="https://wiki.mageia.org/en/Mageia_3_Errata_Fr">Errata</a>
 
 
 # en/3/download_index.php +174
