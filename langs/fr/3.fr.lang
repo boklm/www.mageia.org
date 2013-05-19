@@ -678,13 +678,13 @@ Bases de données
 
 
 # en/for-server/index.php +37
-;Databases included are PostgreSQL 8.4.17; MariaDB, which replaces MySQL 5.5.23; BDB.
-Les systèmes de gestion de bases de données inclus sont PostgreSQL 8.4.17, MariaDB 5.5.23 qui remplace MySQL, BDB.
+;Databases included are PostgreSQL 8.4.17; MariaDB 5.5.28, which replaces MySQL; BDB.
+Les systèmes de gestion de bases de données inclus sont PostgreSQL 8.4.17, MariaDB 5.5.28 qui remplace MySQL, BDB.
 
 
 # en/for-server/index.php +38
-;And there are NoSQL servers too: CouchDB 1.1.1, Redis 2.4.8, Cassandra 1.4.0, MongoDB 2.0.3.
-Et il y a aussi des serveurs NoSQL : CouchDB 1.1.1, Redis 2.4.8, Cassandra 1.4.0, MongoDB 2.0.3.
+;And there are NoSQL servers too: CouchDB 1.2.1, Redis 2.6.5, MongoDB 2.2.2.
+Et il y a aussi des serveurs NoSQL : CouchDB 1.2.1, Redis 2.6.5, MongoDB 2.2.2.
 
 
 # en/for-server/index.php +40
