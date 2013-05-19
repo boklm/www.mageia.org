@@ -48,8 +48,22 @@ _lang_load($locale, "about/media");
                 <p><?php echo sprintf(_t('%sPNG</a> or %sSVG</a>'), '<a href="/g/media/logo/mageia-2011.png"><img src="/g/media/logo/t-mageia-2011.png"><br>', '<a href="/g/media/logo/mageia-2011.svg">') ?></p>
 
                 <hr>
+		<h2><?php _e('Mageia 3 CD/DVD covers')?></h2>
+		<p><a href="/g/media/covers/3/Mga3Plain.png"><img src="/g/media/covers/3/t-Mga3Plain.png" alt="Mageia 3 logo" title="Mga3Plain"></a>
+		<a href="/g/media/covers/3/Mga3CD.png"><img src="/g/media/covers/3/t-Mga3CD.png" alt="Mageia 3 logo" title="Mga3CD"></a>
+		<a href="/g/media/covers/3/Mga3DVD.png"><img src="/g/media/covers/3/t-Mga3DVD.png" alt="Mageia 3 logo" title="Mga3DVD"></a>
+		<a href="/g/media/covers/3/Mga3_Free_CD_dual.png"><img src="/g/media/covers/3/t-Mga3_Free_CD_dual.png" alt="Mageia 3 logo" title="Mga3_Free_CD_dual"></a>
+		<a href="/g/media/covers/3/Mga3_Free_DVD_32.png"><img src="/g/media/covers/3/t-Mga3_Free_DVD_32.png" alt="Mageia 3 logo" title="Mga3_Free_DVD_32"></a>
+		<a href="/g/media/covers/3/t-Mga3_Free_DVD_64.png"><img src="/g/media/covers/3/t-Mga3_Free_DVD_64.png" alt="Mageia 3 logo" title="Mga3_Free_DVD_64"></a>
+		<a href="/g/media/covers/3/Mga3_Live_CD_32_Gnome.png"><img src="/g/media/covers/3/t-Mga3_Live_CD_32_Gnome.png" alt="Mageia 3 logo" title="Mga3_Live_CD_32_Gnome"></a>
+		<a href="/g/media/covers/3/Mga3_Live_CD_32_KDE.png"><img src="/g/media/covers/3/t-Mga3_Live_CD_32_KDE.png" alt="Mageia 3 logo" title="Mga3_Live_CD_32_KDE"></a>
+		<a href="/g/media/covers/3/t-Mga3_Live_DVD_32_Gnome.png"><img src="/g/media/covers/3/t-Mga3_Live_DVD_32_Gnome.png" alt="Mageia 3 logo" title="Mga3_Live_DVD_32_Gnome"></a>
+		<a href="/g/media/covers/3/Mga3_Live_DVD_32_KDE.png"><img src="/g/media/covers/3/t-Mga3_Live_DVD_32_KDE.png" alt="Mageia 3 logo" title="Mga3_Live_DVD_32_KDE"></a>
+		<a href="/g/media/covers/3/Mga3_Live_DVD_64_Gnome.png"><img src="/g/media/covers/3/t-Mga3_Live_DVD_64_Gnome.png" alt="Mageia 3 logo" title="/Mga3_Live_DVD_64_Gnome"></a>
+		<a href="/g/media/covers/3/Mga3_Live_DVD_64_KDE.png"><img src="/g/media/covers/3/t-Mga3_Live_DVD_64_KDE.png" alt="Mageia 3 logo" title="Mga3_Live_DVD_64_KDE"></a></p>
+	<br>
 
-                <h2><?php _e('Mageia 1 CD/DVD cover')?></h2>
+                <h2><?php _e('Mageia 1 CD/DVD covers')?></h2>
                 <p><a href="/g/media/covers/print-1.png"><img src="/g/media/covers/t-print-1.png" alt=""></a>
                     <a href="/g/media/covers/print-2.png"><img src="/g/media/covers/t-print-2.png" alt=""></a>
                     <a href="/g/media/covers/print-3.png"><img src="/g/media/covers/t-print-3.png" alt=""></a></p>
