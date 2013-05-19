@@ -1,13 +1,6 @@
 <?php $mirrors = array (
   '_C:EU' => 
   array (
-    16 => 
-    array (
-      'city' => 'Paris',
-      'continent' => 'EU',
-      'zone' => 'FR',
-      'url' => 'http://mageia.r0b0t.fr/linux/Mageia',
-    ),
     17 => 
     array (
       'city' => 'Uppsala',
@@ -92,13 +85,6 @@
       'zone' => 'FR',
       'url' => 'ftp://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia',
     ),
-    41 => 
-    array (
-      'city' => 'Paris',
-      'continent' => 'EU',
-      'zone' => 'FR',
-      'url' => 'ftp://mageia.r0b0t.fr/linux/Mageia',
-    ),
     44 => 
     array (
       'city' => '?',
@@ -139,6 +125,13 @@
       'continent' => 'NA',
       'zone' => 'US',
       'url' => 'http://mirrors.kernel.org/mageia',
+    ),
+    6 => 
+    array (
+      'city' => 'Lenoir',
+      'continent' => 'NA',
+      'zone' => 'US',
+      'url' => 'http://mirror.dacentec.com/mageia',
     ),
   ),
   'TW' => 
@@ -190,6 +183,13 @@
       'continent' => 'NA',
       'zone' => 'US',
       'url' => 'http://mirrors.kernel.org/mageia',
+    ),
+    4 => 
+    array (
+      'city' => 'Lenoir',
+      'continent' => 'NA',
+      'zone' => 'US',
+      'url' => 'http://mirror.dacentec.com/mageia',
     ),
   ),
   'CH' => 
@@ -317,13 +317,6 @@
   ),
   'FR' => 
   array (
-    0 => 
-    array (
-      'city' => 'Paris',
-      'continent' => 'EU',
-      'zone' => 'FR',
-      'url' => 'http://mageia.r0b0t.fr/linux/Mageia',
-    ),
     1 => 
     array (
       'city' => 'Paris',
@@ -351,13 +344,6 @@
       'continent' => 'EU',
       'zone' => 'FR',
       'url' => 'ftp://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia',
-    ),
-    5 => 
-    array (
-      'city' => 'Paris',
-      'continent' => 'EU',
-      'zone' => 'FR',
-      'url' => 'ftp://mageia.r0b0t.fr/linux/Mageia',
     ),
   ),
   'IT' => 
