@@ -179,3 +179,93 @@ CD для встановлення
 # ../../svn/web/en/3/index.php +136
 ;needed for some disc controllers, some network cards, etc.
 потрібен для деяких контролерів дисків, мережевих карток тощо
+
+;Download Mageia 3
+Отримання MAgeia 3
+
+;Download Mageia 3 DVD, CD, LiveCD, network install ISO images.
+Отримайте образи Mageia 3 для DVD, компакт-дисків, портативних систем та встановлення з мережі у форматі ISO.
+
+;mageia, mageia 3, linux, free, download, iso, torrent, vm, http, ftp, rsync, bittorrent
+;mageia, mageia 3, linux, free, download, iso, torrent, vm, http, ftp, rsync, bittorrent, вільно, безкоштовно, звантажити, отримати, торент, вм
+
+;Download <strong>Mageia 3</strong>
+Отримання <strong>Mageia 3</strong>
+
+;Classical Installation Flavours
+Класичні варіанти встановлення
+
+;Notes:
+Нотатки:
+
+;These DVD and CD ISOs contains Free Software and some proprietary drivers.
+На цих образах ISO для DVD та компакт-дисків міститься вільне програмне забезпечення та закриті драйвери
+
+;The CD contains only a minimal list of packages.
+На цьому образі формату компакт-диска міститься лише мінімальний набір пакунків.
+
+;LiveCDs and LiveDVDs
+Портативні образи
+
+;Use LiveCDs and LiveDVDs for fresh new installs ONLY.
+Портативними образами варто користуватися ЛИШЕ для встановлення системи «з нуля».
+
+;DO NOT use these LiveCDs or LiveDVDs to upgrade from Mageia 2!
+НЕ КОРИСТУЙТЕСЯ цими образами для оновлення з версії Mageia 2!
+
+;Use above DVD or CD and see <a href="%s" hreflang="en">upgrade guide</a>.
+Скористайтеся цими образами та ознайомтеся з <a href="%s" hreflang="uk">настановами щодо оновлення</a>.
+
+;see the <a href="%s" hreflang="en">upgrade guide</a>
+ознайомтеся з <a href="%s" hreflang="uk">настановами щодо оновлення</a>
+
+;Desktop
+Робоча станція
+
+;All languages
+Всі мови
+
+;LiveCD KDE
+Портативний КД з KDE
+
+;English only
+Лише англійська
+
+;LiveCD GNOME
+Портативний КД з GNOME
+
+;Wired Network-based Installation CD
+Образ для встановлення за допомогою дротової мережі
+
+;Download quickly and immediately boot into install mode from <em>wired</em> network or a local disk.
+Швидко отримайте образ і будьте готові до миттєвого завантаження у режим встановлення з <em>дротової</em> мережі або локального диска.
+
+;May 19<sup>th</sup> 2013
+19 травня 2013 року
+
+;Upgrading<br>from Mageia 2?
+Оновлюєтеся<br>з Mageia 2?
+
+;<strong>do not</strong> use LiveCDs;
+<strong>не</strong> користуйтеся цими образами портативних систем;
+
+;Looking for Mageia 2?
+Шукаєте Mageia 2?
+
+;It is <a href="%s">here now</a>.
+Тепер її можна знайти <a href="%s">тут</a>.
+
+;Looking for Mageia 1?
+Шукаєте Mageia 1?
+
+;But please remember that it already <a href="http://blog.mageia.org/en/2012/12/02/mageia-1-eol"/>reached EOL</a>.
+Втім, зауважте, що <a href="http://blog.mageia.org/en/2012/12/02/mageia-1-eol"/>строк підтримки цієї версії системи вже завершено</a>.
+
+;Need more challenge?
+Хочеться новенького?
+
+;You can help us <a href="%s">on Mageia 4</a>.
+Ви можете допомогти нам з <a href="%s">on Mageia 4</a>.
+
+;100% Free Software
+Лише вільне ПЗ

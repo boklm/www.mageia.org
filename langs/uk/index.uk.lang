@@ -96,22 +96,12 @@ Mageia, вільний дистрибутив Linux, створений спіл
 
 
 # /en/index.php +240
-;Release notes
-Нотатки щодо випуску
-
-# /en/index.php +240
-;https://wiki.mageia.org/en/Mageia_2_Release_Notes
-https://wiki.mageia.org/en/Mageia_2_Release_Notes {ok}
-
+;<a href="%s" hreflang="en">Release notes</a>
+<a href="%s" hreflang="en">Нотатки щодо випуску</a>
 
 # /en/index.php +241
-;https://wiki.mageia.org/en/Mageia_2_Errata
-https://wiki.mageia.org/en/Mageia_2_Errata {ok}
-
-
-# /en/index.php +241
-;errata
-виявлені помилки
+;<a href="%s" hreflang="en">errata</a>
+<a href="%s" hreflang="en">виявлені помилки</a>
 
 
 # /en/index.php +244
