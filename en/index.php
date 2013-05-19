@@ -56,19 +56,22 @@ $nav = array(
     #up, #down { margin: 0; padding: 0; }
 
     #up {
-        padding-bottom: 40px;
+        padding-bottom: 0px;
         color: #fff;
         text-shadow: 0 0 1px #333;
-        background: #3494D3;
+	background: url(/g/3/background_tile.png)
+	/*
         background: -webkit-radial-gradient(20% 350px, circle cover, #3494D3 0%, #2383C2 50%);
         background: -moz-radial-gradient(26% 370px, circle cover, #3494D3 0%, #2383C2 50%);
         background: -o-radial-gradient(20% 350px, circle cover, #3494D3 0%, #2383C2 50%);
         background: radial-gradient(20% 350px, circle cover, #3494D3 0%, #2383C2 50%);
+	*/
     }
 
     .container {
         margin: 0 auto;
         max-width: 980px;
+        padding-bottom: 40px;
     }
 
     ul#dl li { margin-bottom: 14px; }
@@ -91,7 +94,7 @@ $nav = array(
         /**/
     }
     #dl-btn-mageia {
-        background: url(/g/images/logo_ln_1.png);
+        background: url(/g/3/logo_web.png) no-repeat;
         width: 186px;
         height: 61px;
         display: block;
@@ -178,7 +181,7 @@ $nav = array(
     @media (min-width: 1000px) {
         h2 { margin-bottom: 0.3em; }
         ul#p li:before { content: " > "; }
-        #up > .container { background: url(/g/images/cauldron_alpha_ln_1.png) no-repeat 100% 50px; }
+        #up > .container { background: url(/g/3/background.png) no-repeat 100% 0px; }
         #b1 { padding: 70px 0 70px; }
 
         #navb {
@@ -231,19 +234,18 @@ $nav = array(
         <div id="b2">
             <ul id="dl">
                 <li><a href="downloads/" id="dl-btn">
-                        <span id="dl-btn-mageia">Mageia 2</span>
+                        <span id="dl-btn-mageia">Mageia 3</span>
                         <span style="font-size: 32px; color: green; float: right;" class="icon-download-alt"></span>
                         <span class="dl-btn free-dl"><?php _e('Free Download'); ?></span>
-                        <span class="dl-btn"><?php _e('version 2 (May 2012)'); ?></span>
+                        <span class="dl-btn"><?php _e('version 3 (May 2013)'); ?></span>
                     </a>
                     <p class="dl-info">
-                        <a hreflang="en" href="<?php _e('https://wiki.mageia.org/en/Mageia_2_Release_Notes'); ?>"><?php _e('Release notes'); ?></a>,
-                        <a hreflang="en" href="<?php _e('https://wiki.mageia.org/en/Mageia_2_Errata'); ?>"><?php _e('errata'); ?></a>.
+                        <a hreflang="en" href="<?php _e('https://wiki.mageia.org/en/Mageia_3_Release_Notes'); ?>"><?php _e('Release notes'); ?></a>,
+                        <a hreflang="en" href="<?php _e('https://wiki.mageia.org/en/Mageia_3_Errata'); ?>"><?php _e('errata'); ?></a>.
                     </p>
                 </li>
                 <li><a href="contribute/" class="dl-btn-other"><?php _e('<strong>Get involved</strong> in the next version'); ?></a>
                 </li>
-                <li><a href="3/" class="dl-btn-other"><?php _e('Test Mageia 3%s', array(' RC')); ?></a></li>
             </ul>
         </div>
     </div>

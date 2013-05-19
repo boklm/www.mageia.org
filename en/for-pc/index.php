@@ -25,7 +25,7 @@ _lang_load($locale, '3');
         <section>
             <?php
                 _h('Plenty', null, 'h2');
-                _h('There are 19&nbsp;881&nbsp;packages in our repositories. And that\'s just for the 64-bit branch.');
+                _h('There are more than 21&nbsp;700&nbsp;packages in our repositories. And that\'s just for the 64-bit branch.');
                 _h('The total number is double that &ndash; and then if you consider the backports, and the packages in the Cauldron still testing... you\'ll see that Mageia users are spoiled for choice.');
                 _h('Here\'s a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:');
                 _h('Environments', null, 'h2');

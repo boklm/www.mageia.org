@@ -36,7 +36,7 @@ _lang_load($locale, '3');
 
             _h('Databases', null, 'h3');
             _h('Databases included are PostgreSQL 8.4; MariaDB, which replaces MySQL 5.5.28; BDB.');
-            _h('And there are NoSQL servers too: CouchDB 1.2.1, Redis 2.6.5, Cassandra 1.4.0, MongoDB 2.2.2.');
+            _h('And there are NoSQL servers too: CouchDB 1.2.1, Redis 2.6.5, MongoDB 2.2.2.');
 
             _h('Servers', null, 'h3');
             _h('Web servers include Apache 2.4.4, Cherokee 1.2.101 and lighttpd 1.4.32.');
