@@ -6,45 +6,6 @@
 Mageia 3 {ok}
 
 
-# ../../svn/web/en/3/index.php +34
-;Development roadmap
-Графік розробки
-
-
-# ../../svn/web/en/3/index.php +35
-;Features review
-Огляд можливостей
-
-# ../../svn/web/en/3/index.php +37
-;Release notes
-Нотатки щодо випуску
-
-
-# ../../svn/web/en/3/index.php +38
-;Errata
-Відомі помилки
-
-
-# ../../svn/web/en/3/index.php +39
-;Bugs Reports
-Звіти щодо вад
-
-
-# ../../svn/web/en/3/index.php +43
-;This is a Release Candidate. Release Candidate software is software that has graduated Beta testing, and should be a release-ready product suitable for advanced users and reviewers. However, beginning users and critical-applications users may wish to wait for the final release planned for May 2013.
-Це тестовий випуск (Release Candidate або RC). До цього випуску включено програмне забезпечення, яке пройшло попереднє тестування і має бути готовим до використання досвідченими користувачами та рецензентами. Користувачам же без певного досвіду та тим, для кого дуже важливою є стабільність роботи системи, варто дочекатися остаточного випуску, який ми запланували на травень 2013 року.
-
-
-# ../../svn/web/en/3/index.php +44
-;Release Candidate is intended to identify any remaining bugs or missing packages.
-Випуск призначено для виявлення будь-яких вад та пропущених під час складання пакунків.
-
-
-# ../../svn/web/en/3/index.php +46
-;Download %s
-Отримати %s
-
-
 # ../../svn/web/en/3/index.php +48
 ;Up to 167 locales are supported:
 Передбачено підтримку до 167 локалей:
@@ -60,34 +21,9 @@ Mageia 3 {ok}
 Ознайомтеся з повним списком
 
 
-# ../../svn/web/en/3/index.php +54
-;Installer DVD and CD ISOs now contains Free Software and some proprietary drivers.
-Образи ISO для DVD та компакт-дисків тепер містять вільне програмне забезпечення та деякі закриті драйвери.
-
-
 # ../../svn/web/en/3/index.php +55
 ;You will be asked of which kind of Software you want to install.
 Під час встановлення ви зможете визначитися з тим, яке програмне забезпечення ви хочете встановити.
-
-
-# ../../svn/web/en/3/index.php +57
-;The installation CD contains only a minimal list of packages.
-На компакт-диску для встановлення міститься лише мінімальний набір пакунків.
-
-
-# ../../svn/web/en/3/index.php +59
-;Use LiveCDs or LiveDVDs for fresh new installs ONLY, NOT FOR UPGRADE.
-Користуйтеся портативними образами системи лише для встановлення системи з нуля, НЕ ДЛЯ ОНОВЛЕННЯ.
-
-
-# ../../svn/web/en/3/index.php +60
-;If you are looking for a stable version of Mageia, <a href="%s" rel="nofollow">go here</a>.
-Якщо вам потрібна стабільна версія Mageia, скористайтеся <a href="%s" rel="nofollow">цим посиланням</a>.
-
-
-# ../../svn/web/en/3/index.php +61
-;Enjoy! And <a href="%s">please report bugs</a> if you find some.
-Приємного користування! І, <a href="%s">будь ласка, повідомляйте про вади</a>, якщо ви їх помітите.
 
 
 # ../../svn/web/en/3/index.php +68
@@ -110,16 +46,6 @@ Mageia 3 {ok}
 Торент
 
 
-# ../../svn/web/en/3/index.php +76
-;Installer DVD
-DVD для встановлення
-
-
-# ../../svn/web/en/3/index.php +77
-;Free Software and some proprietary drivers
-Вільне програмне забезпечення і деякі закриті драйвери
-
-
 # ../../svn/web/en/3/index.php +79
 ;32bit
 32-бітова
@@ -128,11 +54,6 @@ DVD для встановлення
 # ../../svn/web/en/3/index.php +80
 ;64bit
 64-бітова
-
-
-# ../../svn/web/en/3/index.php +85
-;Installer CD
-CD для встановлення
 
 
 # ../../svn/web/en/3/index.php +88
@@ -146,24 +67,9 @@ CD для встановлення
 Портативний DVD з KDE
 
 
-# ../../svn/web/en/3/index.php +96
-;not suitable for upgrade
-непридатний для оновлення
-
-
 # ../../svn/web/en/3/index.php +104
 ;LiveDVD GNOME
 Портативний DVD з GNOME
-
-
-# ../../svn/web/en/3/index.php +114
-;LiveCD KDE, English-only
-Портативний CD з KDE, лише англійська
-
-
-# ../../svn/web/en/3/index.php +121
-;LiveCD GNOME, English-only
-Портативний CD з GNOME, лише англійська
 
 
 # ../../svn/web/en/3/index.php +129
@@ -181,7 +87,7 @@ CD для встановлення
 потрібен для деяких контролерів дисків, мережевих карток тощо
 
 ;Download Mageia 3
-Отримання MAgeia 3
+Отримання Mageia 3
 
 ;Download Mageia 3 DVD, CD, LiveCD, network install ISO images.
 Отримайте образи Mageia 3 для DVD, компакт-дисків, портативних систем та встановлення з мережі у форматі ISO.
@@ -267,5 +173,151 @@ CD для встановлення
 ;You can help us <a href="%s">on Mageia 4</a>.
 Ви можете допомогти нам з <a href="%s">on Mageia 4</a>.
 
-;100% Free Software
-Лише вільне ПЗ
+;<a href="%s">Release notes</a>
+<a href="%s">Нотатки щодо випуску</a>
+
+;<a href="%s">Errata</a>
+<a href="%s">Відомі помилки</a>
+
+;Mageia 3, for your PC
+Mageia 3 для вашого ПК
+
+
+;for your PC
+для вашого ПК
+
+;Plenty
+Різноманіття
+
+;There are more than 21&nbsp;700&nbsp;packages in our repositories. And that&#39;s just for the 64-bit branch.
+У наших сховищах понад 21700 пакунків. І це лише для 64-бітової гілки
+
+;The total number is double that &ndash; and then if you consider the backports, and the packages in the Cauldron still testing... you&#39;ll see that Mageia users are spoiled for choice.
+Загальна кількість пакунків є вдвічі більшою, а якщо порахувати ще пакунки зворотного портування та пакунки у тестовому сховищі (Cauldron)… ви можете переконатися, що користувачі Mageia мають дуже широкий вибір.
+
+;Here&#39;s a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:
+Тут наведено лише основні варіанти: спочатку графічні робочі середовища, потім основні програми, якими ви можете скористатися на вашому персональному комп’ютері:
+
+;Environments
+Середовища
+
+;Mageia 3 has all the major desktop environments:
+У MAgeia 3 ви можете скористатися будь-яким з основних робочих середовищ:
+
+;And then there are the window managers, including Openbox, WindowMaker, IceWM, Fluxbox, Fvwm2 and Awesome.
+Крім того, ви можете вибрати одну з систем керування вікнами: Openbox, WindowMaker, IceWM, Fluxbox, Fvwm2 і Awesome.
+
+;Applications &rarr;
+Програми &rarr;
+
+;There are many, many to choose from &ndash; including all the most popular.
+У вас буде дуже, дуже широкий вибір. Ви можете будь-яку з достатньо популярних програм.
+
+;Web
+Інтернет
+
+;Choose your web browser from Firefox ESR 17.0.6, Chromium-browser 26.0.1410.65, Epiphany 3.6.1 or Opera 12.15 &ndash; or one of the many others such as Lynx or Konqueror; then pick an email client from KMail 4.10.2, Thunderbird ESR 17.0.6, Evolution 3.6.3 or maybe Claws-Mail or Mutt.
+
+;Messaging
+
+;Choose from Kopete, Pidgin, Empathy or Kadu for instant messaging; use Quassel, Konversation, XChat-Gnome or KVIrc for IRC chat; try QuteCom or Ekiga (or even Skype) for VOIP.
+
+;Office
+
+;The two full-featured office suites LibreOffice and Calligra are there, as well as AbiWord, and a host of text editors including Kate; for finance there&#39;s KMyMoney, Skrooge or the professional-level GnuCash.
+
+;Image
+
+;Use GIMP for powerful image manipulation, or Inkscape for vector drawing; Blender is there for serious animation. DigiKam or Showfoto will take care of your photos, talk to your camera and give you more basic image editing.
+
+;Sound
+
+;For playing audio files, choose from Amarok 2.7.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don&#39;t infringe local laws.
+
+;Video
+
+;For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there&#39;s Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.
+
+;Plus
+
+;Then there&#39;s ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.
+
+;For more information about these and other packages, check the <a href="%s">Mageia 3 Release notes</a>.
+
+;You can take a look at the <a href="%s">Mageia Application Database</a> to get a more complete list of Mageia packages.
+
+;Mageia 3, for your server
+Mageia 3 для вашого сервера
+
+;for your server
+для вашого сервера
+
+;Mageia 3 has all the main services and server packages you will need to run your server.
+
+;Aside from the cross-section included here, you will find many others in the repositories: you can use rpmdrake to search for packages, or check the <a href="%s">Mageia App DB</a>.
+
+;Administration
+Адміністрування
+
+;For centralised administration, we include puppet 2.7.21; we use it widely in <a href="%s">our own infrastructure</a>.
+
+;The entire High Availability stack has been updated, and now includes drbd 8.4.2, Corosync 2.3.0 and Pacemaker 1.1.8.
+
+;Databases
+Бази даних
+
+;Databases included are PostgreSQL 8.4.17; MariaDB 5.5.28, which replaces MySQL; BDB.
+До переліку баз даних можна включити PostgreSQL 8.4.17; MariaDB 5.5.28, якою замінено MySQL; BDB.
+
+;And there are NoSQL servers too: CouchDB 1.2.1, Redis 2.6.5, MongoDB 2.2.2.
+
+;Servers
+Сервери
+
+;Web servers include Apache 2.4.4, Cherokee 1.2.101 and lighttpd 1.4.32.
+
+;For file and directory sharing and network printing on heterogeneous networks, we have Samba 3.6.15, OpenLDAP 2.4.33 and Cups 1.5.4.
+
+;Mail servers included with Mageia 3 are Postfix 2.9.6, Cyrus-imapd 2.4.17 and Dovecot 2.1.15.
+
+;For more information about these and other packages, check the <a href="https://wiki.mageia.org/en/Mageia_3_Release_Notes">Mageia 3 Release notes</a>.
+
+;Mageia 3 is the new, solid, stable Linux distribution from the Mageia project.
+
+;Mageia 3 is a GNU/Linux distribution for your computer, released by the <a href="%s">Mageia community</a>.
+
+;What&#39;s new?
+Що новенького?
+
+;Too much to include here! See the <a href="https://wiki.mageia.org/en/Mageia_3_Release_Notes">release notes</a> for an extensive exposé.
+
+;<a href="../downloads/" style="background: #1272B1; color: white; padding: 0.9em; margin: 1em; display: inline-block; text-shadow: 0 1px 6px #000; border-radius: 3px;">Download it right away!</a>
+
+;Download it right away!
+
+;Mageia in context
+Mageia у контексті
+
+;Mageia is both a Community and a Linux Distribution, with Mageia 3 being our third release.
+
+;Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch&#39;s most popular distributions</a>.
+
+;Mageia 3 is supported by the <a href="../about/">Mageia.org nonprofit organisation</a>, which is governed by a body of recognized and elected contributors.
+
+;Mageia 3 has been made by more than 100 people from all around the world.
+
+;Our work adds to the excellent work of the wider Linux and Free Software community. We aim to bring one of the best, most stable, reliable and enjoyable experience and platform we can make; for regular users, developers and businesses.
+
+;We welcome new contributors to any of the many different teams that go to make up Mageia the Community, and we encourage you to join us.
+
+;Mageia&nbsp;3
+Mageia&nbsp;3 {ok}
+
+;Download
+Звантаження
+
+;For PC
+Для ПК
+
+;For server
+Для серверів
