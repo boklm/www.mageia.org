@@ -39,7 +39,7 @@ U;
 
 echo "ohai!\n";
 
-$path = 'en/3/download_index.php en/3/index.php';
+$path = 'en/3/download_index.php en/for-pc/index.php en/for-server/index.php en/3/index.php en/3/nav.php';
 //$path = realpath(APP_ROOT . '/' . $path);
 
 $domain = '3';

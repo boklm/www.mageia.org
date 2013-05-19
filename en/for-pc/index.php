@@ -25,9 +25,9 @@ _lang_load($locale, '3');
         <section>
             <?php
                 _h('Plenty', null, 'h2');
-                _h('There are more than 21&nbsp;700&nbsp;packages in our repositories. And that\'s just for the 64-bit branch.');
-                _h('The total number is double that &ndash; and then if you consider the backports, and the packages in the Cauldron still testing... you\'ll see that Mageia users are spoiled for choice.');
-                _h('Here\'s a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:');
+                _h('There are more than 21&nbsp;700&nbsp;packages in our repositories. And that&#39;s just for the 64-bit branch.');
+                _h('The total number is double that &ndash; and then if you consider the backports, and the packages in the Cauldron still testing... you&#39;ll see that Mageia users are spoiled for choice.');
+                _h('Here&#39;s a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:');
                 _h('Environments', null, 'h2');
                 _h('Mageia 3 has all the major desktop environments:');
             ?>
@@ -61,7 +61,7 @@ _lang_load($locale, '3');
     <div class="para" style="width: 300px">
         <?php
             _h('Office', null, 'h3');
-            _h('The two full-featured office suites LibreOffice and Calligra are there, as well as AbiWord, and a host of text editors including Kate; for finance there\'s KMyMoney, Skrooge or the professional-level GnuCash.');
+            _h('The two full-featured office suites LibreOffice and Calligra are there, as well as AbiWord, and a host of text editors including Kate; for finance there&#39;s KMyMoney, Skrooge or the professional-level GnuCash.');
         ?>
     </div>
     <div class="para" style="width: 300px">
@@ -73,19 +73,19 @@ _lang_load($locale, '3');
     <div class="para" style="width: 300px">
         <?php
             _h('Sound', null, 'h3');
-            _h('For playing audio files, choose from Amarok 2.7.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don\'t infringe local laws.');
+            _h('For playing audio files, choose from Amarok 2.7.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don&#39;t infringe local laws.');
         ?>
     </div>
     <div class="para" style="width: 300px">
         <?php
             _h('Video', null, 'h3');
-            _h('For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there\'s Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.');
+            _h('For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there&#39;s Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.');
         ?>
     </div>
     <div class="para" style="width: 300px">
         <?php
             _h('Plus', null, 'h3');
-            _h('Then there\'s ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.');
+            _h('Then there&#39;s ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.');
         ?>
     </div>
     <div class="para">

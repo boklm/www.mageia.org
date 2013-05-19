@@ -23,8 +23,8 @@ if (array_key_exists($locale, $_nt))
 else
     $_nt = $_nt['en'];
 
-$nav = array(
-    "/{$locale}/3/"          => _t('Mageia 3'),
+$nav = array( 
+    "/{$locale}/3/"          => _t('Mageia&nbsp;3'),
     "/{$locale}/downloads/"  => _t('Download'),
     "/{$locale}/for-pc/"     => _t('For PC'),
     "/{$locale}/for-server/" => _t('For server'),

@@ -56,7 +56,7 @@ Lien
 dualarch {ok}
 
 
-# manually added
+# en/3/download_index.php +64
 ;Notes:
 Remarques&nbsp;:
 
@@ -106,7 +106,7 @@ N'utilisez les LiveCD ou LiveDVD QUE pour de nouvelles installations.
 N'utilisez PAS ces LiveCD ou LiveDVD pour une mise à niveau depuis Mageia 2 !
 
 
-# added manually
+# en/3/download_index.php +83
 ;Use above DVD or CD and see <a href="%s" hreflang="en">upgrade guide</a>.
 Utilisez l'un des DVD ou CD ci-dessus et consultez le <a href="https://wiki.mageia.org/en/Mageia_3_:_Notes_de_Version_-_FR#Mise_.C3.A0_niveau_de_Mageia_2">guide de migration</a>.
 
@@ -186,7 +186,7 @@ nécessaires pour certains contrôleurs de disques ou cartes réseaux, etc.
 <a href="https://wiki.mageia.org/en/Mageia_3_:_Notes_de_Version_-_FR">Notes de publication</a>
 
 
-# added manually
+# en/3/download_index.php +169
 ;<a href="%s">Errata</a>
 <a href="https://wiki.mageia.org/en/Mageia_3_Errata_Fr">Errata</a>
 
@@ -200,9 +200,11 @@ Mise à niveau<br>depuis Mageia 2&nbsp;?
 ;<strong>do not</strong> use LiveCDs;
 <strong>ne pas</strong> utiliser de LiveCD ou LiveDVD&nbsp;;
 
-# added manually
+
+# en/3/download_index.php +176
 ;see the <a href="%s" hreflang="en">upgrade guide</a>
 consultez le <a href="https://wiki.mageia.org/en/Mageia_3_:_Notes_de_Version_-_FR#Mise_.C3.A0_niveau_de_Mageia_2">guide de migration</a>
+
 
 # en/3/download_index.php +183
 ;Looking for Mageia 2?
@@ -234,279 +236,6 @@ Il vous faut plus de challenge&nbsp;?
 Vous pouvez nous aider <a href="%s">à développer et tester Mageia 4</a>.
 
 
-# ../../svn/web/en/3/index.php +12
-;Mageia 3
-Mageia 3 {ok}
-
-
-# ../../svn/web/en/3/index.php +34
-;Development roadmap
-Feuille de route de développement
-
-
-# ../../svn/web/en/3/index.php +35
-;Features review
-Caractéristiques
-
-
-# ../../svn/web/en/3/index.php +37
-;Release notes
-Notes de publication
-
-
-# ../../svn/web/en/3/index.php +38
-;Errata
-Errata {ok}
-
-
-# ../../svn/web/en/3/index.php +39
-;Bugs Reports
-Rapports de bugs
-
-
-# ../../svn/web/en/3/index.php +43
-;This is a Release Candidate. Release Candidate software is software that has graduated Beta testing, and should be a release-ready product suitable for advanced users and reviewers. However, beginning users and critical-applications users may wish to wait for the final release planned for May 2013.
-Il s'agit d'une version admissible (RC). Un logiciel admissible est un logiciel qui a passé avec succès les tests beta et qui devrait être prêt à être utilisé par les utilisateurs avancés et les critiques (journalistes). Toutefois, les utilisateurs débutants et les utilisateurs d'applications critiques voudront peut-être attendre la sortie de la version finale, prévue pour mai 2013.
-
-
-# ../../svn/web/en/3/index.php +44
-;Release Candidate is intended to identify any remaining bugs or missing packages.
-Cette version est destinée à identifier tous les bogues restants ou les paquetages manquants.
-
-
-# ../../svn/web/en/3/index.php +46
-;Download %s
-Télécharger %s
-
-
-# ../../svn/web/en/3/index.php +48
-;Up to 167 locales are supported:
-Jusqu'à 167 langues sont incluses :
-
-
-# ../../svn/web/en/3/index.php +51
-;and so much more!
-et bien plus encore !
-
-
-# ../../svn/web/en/3/index.php +52
-;See the comprehensive list
-Voir la liste exhaustive
-
-
-# ../../svn/web/en/3/index.php +54
-;Installer DVD and CD ISOs now contains Free Software and some proprietary drivers.
-Le DVD d'installation et les images ISO de CD contiennent désormais, en plus des logiciels libres, quelques pilotes propriétaires.
-
-
-# ../../svn/web/en/3/index.php +55
-;You will be asked of which kind of Software you want to install.
-Il vous sera demandé quels types de logiciels vous souhaitez installer.
-
-
-# ../../svn/web/en/3/index.php +57
-;The installation CD contains only a minimal list of packages.
-Le CD d'installation ne contient qu'un nombre restreint de paquets.
-
-
-# ../../svn/web/en/3/index.php +59
-;Use LiveCDs or LiveDVDs for fresh new installs ONLY, NOT FOR UPGRADE.
-N'utilisez les LiveCD ou LiveDVD QUE pour de nouvelles installations, PAS POUR UNE MISE À NIVEAU.
-
-
-# ../../svn/web/en/3/index.php +60
-;If you are looking for a stable version of Mageia, <a href="%s" rel="nofollow">go here</a>.
-Si vous cherchez une version stable de Mageia, <a href="%s" rel="nofollow">c'est ici</a>.
-
-
-# ../../svn/web/en/3/index.php +61
-;Enjoy! And <a href="%s">please report bugs</a> if you find some.
-Faites-vous plaisir ! Et veuillez <a href="%s">signaler des bugs</a> si vous en rencontrez.
-
-
-# ../../svn/web/en/3/index.php +68
-;Format
-Format {ok}
-
-
-# ../../svn/web/en/3/index.php +69
-;size
-Taille
-
-
-# ../../svn/web/en/3/index.php +70
-;link
-Lien
-
-
-# ../../svn/web/en/3/index.php +71
-;BitTorrent
-BitTorrent {ok}
-
-
-# ../../svn/web/en/3/index.php +76
-;Installer DVD
-DVD d'installation
-
-
-# ../../svn/web/en/3/index.php +77
-;Free Software and some proprietary drivers
-de logiciels libres et quelques pilotes propriétaires
-
-
-# ../../svn/web/en/3/index.php +79
-;32bit
-32bit {ok}
-
-
-# ../../svn/web/en/3/index.php +80
-;64bit
-64bit {ok}
-
-
-# ../../svn/web/en/3/index.php +85
-;Installer CD
-CD d'installation
-
-
-# ../../svn/web/en/3/index.php +88
-;dualarch
-dualarch {ok}
-
-
-# ../../svn/web/en/3/index.php +95
-;LiveDVD KDE
-LiveDVD KDE {ok}
-
-
-# en/3/index.php +85
-;100% Free Software
-100% logiciels libres
-
-
-# ../../svn/web/en/3/index.php +96
-;not suitable for upgrade
-non approprié pour une mise à niveau
-
-
-# ../../svn/web/en/3/index.php +104
-;LiveDVD GNOME
-LiveDVD GNOME {ok}
-
-
-# ../../svn/web/en/3/index.php +114
-;LiveCD KDE, English-only
-LiveCD KDE, anglais uniquement
-
-
-# ../../svn/web/en/3/index.php +121
-;LiveCD GNOME, English-only
-LiveCD GNOME, anglais uniquement
-
-
-# ../../svn/web/en/3/index.php +129
-;Network installer, Free Software CD
-CD d'installation réseau, logiciels libres uniquement
-
-
-# ../../svn/web/en/3/index.php +135
-;Network installer + nonfree firmware CD
-CD d'installation réseau contenant des firmwares non libres.
-
-
-# ../../svn/web/en/3/index.php +136
-;needed for some disc controllers, some network cards, etc.
-nécessaires pour certaines cartes réseaux ou contrôleurs de disques, etc.
-
-
-# en/3/index.php +14
-;Mageia 3
-Mageia 3 {ok}
-
-
-# en/3/index.php +16
-;Mageia 3 is the new, solid, stable Linux distribution from the Mageia project.
-Mageia 3 est la nouvelle distribution Linux stable et sécurisée du projet Mageia.
-
-
-# en/3/index.php +30
-;Mageia 3 is a GNU/Linux distribution for your computer, released by the <a href="%s">Mageia community</a>.
-Mageia 3 est une distribution GNU/Linux pour votre ordinateur, réalisée par la <a href="%s">communauté Mageia</a>.
-
-
-# en/3/index.php +33
-;What's new?
-Quoi de neuf&nbsp;?
-
-
-# en/3/index.php +35
-;Too much to include here! See the <a href="https://wiki.mageia.org/en/Mageia_3_Release_Notes">release notes</a> for an extensive exposé.
-Bien trop de choses pour les énumérer ici ! Consultez les <a href="https://wiki.mageia.org/en/Mageia_3_:_Notes_de_Version_-_FR">notes de publication</a> pour une liste exhaustive.
-
-
-# en/3/index.php +37
-;<a href="../downloads/" style="background: #1272B1; color: white; padding: 0.9em; margin: 1em; display: inline-block; text-shadow: 0 1px 6px #000; border-radius: 3px;">Download it right away!</a>
-<a href="../downloads/" style="background: #1272B1; color: white; padding: 0.9em; margin: 1em; display: inline-block; text-shadow: 0 1px 6px #000; border-radius: 3px;">Téléchargez-la !</a>
-
-
-# en/3/index.php +39
-;Mageia in context
-Mageia en contexte
-
-
-# en/3/index.php +41
-;Mageia is both a Community and a Linux Distribution, with Mageia 3 being our third release.
-Mageia est à la fois une communauté et une distribution Linux. Mageia 3 est notre troisième version majeure.
-
-
-# en/3/index.php +43
-;Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch's most popular distributions</a>.
-Depuis la sortie de <a href="../1/">Mageia 1</a>, notre distribution a toujours été dans le <a href="%s">top 10 des distributions les plus populaires de Distrowatch</a>.
-
-
-# en/3/index.php +46
-;Mageia 3 is supported by the <a href="../about/">Mageia.org nonprofit organisation</a>, which is governed by a body of recognized and elected contributors.
-Mageia 3 est soutenue par <a href="../about/">l&rsquo;association Mageia.Org</a>, gouvernée par des contributeurs reconnus et élus.
-
-
-# en/3/index.php +47
-;Mageia 3 has been made by more than 100 people from all around the world.
-Mageia 3 a été réalisée par plus de 100&nbsp;personnes du monde entier.
-
-
-# en/3/index.php +49
-;Our work adds to the excellent work of the wider Linux and Free Software community. We aim to bring one of the best, most stable, reliable and enjoyable experience and platform we can make; for regular users, developers and businesses.
-Notre contribution s'ajoute à l'excellent travail de la communauté Linux et du logiciel libre dans son ensemble. Notre but est de fournir la plateforme la plus stable, fiable et agréable que nous puissions réaliser, tant pour les utilisateurs classiques que pour les développeurs et les entreprises.
-
-
-# en/3/index.php +51
-;We welcome new contributors to any of the many different teams that go to make up Mageia the Community, and we encourage you to join us.
-Nous accueillons de nouveaux contributeurs dans chacune des nombreuses équipes qui constituent la communauté Mageia, et nous vous invitons à nous rejoindre.
-
-
-
-# en/3/nav.php +27
-;Mageia 3
-Mageia 3 {ok}
-
-
-# en/3/nav.php +28
-;Download
-Télécharger
-
-
-# en/3/nav.php +29
-;For PC
-Pour PC
-
-
-# en/3/nav.php +30
-;For server
-Pour serveur
-
-
-
-
 # en/for-pc/index.php +12
 ;Mageia 3, for your PC
 Mageia 3, pour votre PC
@@ -523,17 +252,17 @@ De nombreux logiciels
 
 
 # en/for-pc/index.php +27
-;There are more than 21&nbsp;700&nbsp;packages in our repositories. And that's just for the 64-bit branch.
+;There are more than 21&nbsp;700&nbsp;packages in our repositories. And that&#39;s just for the 64-bit branch.
 Il y a plus de 21&nbsp;700&nbsp;paquets dans nos dépôts, et cela uniquement pour la branche 64-bit.
 
 
 # en/for-pc/index.php +28
-;The total number is double that &ndash; and then if you consider the backports, and the packages in the Cauldron still testing... you'll see that Mageia users are spoiled for choice.
+;The total number is double that &ndash; and then if you consider the backports, and the packages in the Cauldron still testing... you&#39;ll see that Mageia users are spoiled for choice.
 Leur nombre total est donc le double de celui-ci, et si vous prenez en compte les backports et les paquets testés dans Cauldron, vous verrez que les utilisateurs de Mageia ont l'embarras du choix !
 
 
 # en/for-pc/index.php +29
-;Here's a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:
+;Here&#39;s a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:
 Voici un échantillon des environnements graphiques que nous proposons, puis des applications principales que vous utiliserez sur votre ordinateur&nbsp;:
 
 
@@ -588,7 +317,7 @@ Bureautique
 
 
 # en/for-pc/index.php +66
-;The two full-featured office suites LibreOffice and Calligra are there, as well as AbiWord, and a host of text editors including Kate; for finance there's KMyMoney, Skrooge or the professional-level GnuCash.
+;The two full-featured office suites LibreOffice and Calligra are there, as well as AbiWord, and a host of text editors including Kate; for finance there&#39;s KMyMoney, Skrooge or the professional-level GnuCash.
 Les deux suites bureautiques complètes LibreOffice et Calligra sont disponibles, de même qu'AbiWord et de nombreux éditeurs de texte tels que Kate ; pour vos finances vous trouverez KMyMoney, Skrooge ou le logiciel de niveau professionnel GnuCash.
 
 
@@ -608,7 +337,7 @@ Multimedia
 
 
 # en/for-pc/index.php +78
-;For playing audio files, choose from Amarok 2.7.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don't infringe local laws.
+;For playing audio files, choose from Amarok 2.7.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don&#39;t infringe local laws.
 Pour écouter des fichiers audio, vous avez le choix entre Amarok 2.7.0, Rhythmbox et Clementine, parmi d'autres ; utilisez VLC, Totem ou Mplayer pour la vidéo et pour l'audio, ou utilisez le centre de média XBMC pour gérer vos films, photos et musiques. Notez que certains paquets se trouvent à la fois dans les dépôts Core et Tainted&nbsp;: les paquets du dépôt Core ne contiennent pas de codecs présentant des problèmes de brevet, tandis que les paquets du dépôt Tainted comprennent tous les codecs, pour les utilisateurs qui vivent dans des pays où ces codecs n'enfreignent pas les lois locales.
 
 
@@ -618,7 +347,7 @@ Vidéo
 
 
 # en/for-pc/index.php +84
-;For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there's Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.
+;For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there&#39;s Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.
 Pour l'édition de fichiers vidéo, essayez Avidemux, Kino ou OpenShot&nbsp; pour le sous-titrage, vous trouverez Gaupol ou Subtitles Composer&nbsp; utilisez MythTV, Miro, tvtime, FreetuxTV ou Me TV pour regarder ou enregistrer des émissions TV.
 
 
@@ -628,7 +357,7 @@ Plus {ok}
 
 
 # en/for-pc/index.php +90
-;Then there's ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.
+;Then there&#39;s ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.
 Pour finir il y a ZoneMinder pour la vidéosurveillance, VirtualBox ou WINE pour la virtualisation, et une série d'environnements de développement tels qu'Anjuta, Eclipse, Netbeans ou KDevelop.
 
 
@@ -721,3 +450,87 @@ Pour plus d'information sur ces paquets et d'autres non cités, consultez les <a
 ;You can take a look at the <a href="%s">Mageia Application Database</a> to get a more complete list of Mageia packages.
 Vous pouvez consulter la <a href="%s">base de donnée des applications de Mageia</a> (<em>Mageia Application Database</em>) pour une liste exhaustive des paquets de Mageia.
 
+
+# en/3/index.php +14
+;Mageia 3
+Mageia 3 {ok}
+
+
+# en/3/index.php +16
+;Mageia 3 is the new, solid, stable Linux distribution from the Mageia project.
+Mageia 3 est la nouvelle distribution Linux stable et sécurisée du projet Mageia.
+
+
+# en/3/index.php +30
+;Mageia 3 is a GNU/Linux distribution for your computer, released by the <a href="%s">Mageia community</a>.
+Mageia 3 est une distribution GNU/Linux pour votre ordinateur, réalisée par la <a href="%s">communauté Mageia</a>.
+
+
+# en/3/index.php +33
+;What&#39;s new?
+Quoi de neuf&nbsp;?
+
+
+# en/3/index.php +35
+;Too much to include here! See the <a href="https://wiki.mageia.org/en/Mageia_3_Release_Notes">release notes</a> for an extensive exposé.
+Bien trop de choses pour les énumérer ici ! Consultez les <a href="https://wiki.mageia.org/en/Mageia_3_:_Notes_de_Version_-_FR">notes de publication</a> pour une liste exhaustive.
+
+
+# en/3/index.php +37
+;Download it right away!
+Téléchargez-la !
+
+
+# en/3/index.php +39
+;Mageia in context
+Mageia en contexte
+
+
+# en/3/index.php +41
+;Mageia is both a Community and a Linux Distribution, with Mageia 3 being our third release.
+Mageia est à la fois une communauté et une distribution Linux. Mageia 3 est notre troisième version majeure.
+
+
+# en/3/index.php +43
+;Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch&#39;s most popular distributions</a>.
+Depuis la sortie de <a href="../1/">Mageia 1</a>, notre distribution a toujours été dans le <a href="%s">top 10 des distributions les plus populaires de Distrowatch</a>.
+
+
+# en/3/index.php +46
+;Mageia 3 is supported by the <a href="../about/">Mageia.org nonprofit organisation</a>, which is governed by a body of recognized and elected contributors.
+Mageia 3 est soutenue par <a href="../about/">l&rsquo;association Mageia.Org</a>, gouvernée par des contributeurs reconnus et élus.
+
+
+# en/3/index.php +47
+;Mageia 3 has been made by more than 100 people from all around the world.
+Mageia 3 a été réalisée par plus de 100&nbsp;personnes du monde entier.
+
+
+# en/3/index.php +49
+;Our work adds to the excellent work of the wider Linux and Free Software community. We aim to bring one of the best, most stable, reliable and enjoyable experience and platform we can make; for regular users, developers and businesses.
+Notre contribution s'ajoute à l'excellent travail de la communauté Linux et du logiciel libre dans son ensemble. Notre but est de fournir la plateforme la plus stable, fiable et agréable que nous puissions réaliser, tant pour les utilisateurs classiques que pour les développeurs et les entreprises.
+
+
+# en/3/index.php +51
+;We welcome new contributors to any of the many different teams that go to make up Mageia the Community, and we encourage you to join us.
+Nous accueillons de nouveaux contributeurs dans chacune des nombreuses équipes qui constituent la communauté Mageia, et nous vous invitons à nous rejoindre.
+
+
+# en/3/nav.php +27
+;Mageia&nbsp;3
+Mageia&nbsp;3
+
+
+# en/3/nav.php +28
+;Download
+Télécharger
+
+
+# en/3/nav.php +29
+;For PC
+Pour PC
+
+
+# en/3/nav.php +30
+;For server
+Pour serveur

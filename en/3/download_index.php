@@ -80,8 +80,7 @@ require '../downloads/get/lib.php';
                         <h2><?php _e('LiveCDs and LiveDVDs');?></h2>
                         <p class="dlinfo"><?php _e('Use LiveCDs and LiveDVDs for fresh new installs ONLY.');?>
                             <span class="warn"><?php _e('DO NOT use these LiveCDs or LiveDVDs to upgrade from Mageia 2!'); ?></span>
-                            <?php _e('Use above DVD or CD and see <a href="%s" hreflang="en">upgrade guide</a>.',
-                                array('https://wiki.mageia.org/en/Mageia_3_Release_Notes#Upgrading_from_Mageia_2'));?></p>
+                            <?php _e('Use above DVD or CD and see <a href="%s" hreflang="en">upgrade guide</a>.', array('https://wiki.mageia.org/en/Mageia_3_Release_Notes#Upgrading_from_Mageia_2'));?></p>
                         <table class="fr-table dlt2">
                         <thead>
                             <tr>
@@ -174,8 +173,7 @@ require '../downloads/get/lib.php';
                         <?php _h('Upgrading<br>from Mageia 2?', null, 'h3')?>
                         <ul class="hl"><?php
                             _h('<strong>do not</strong> use LiveCDs;', null, 'li');
-                            _h('see the <a href="%s" hreflang="en">upgrade guide</a>',
-                                array('https://wiki.mageia.org/en/Mageia_3_Release_Notes#Upgrading_from_Mageia_2'), 'li');
+                            _h('see the <a href="%s" hreflang="en">upgrade guide</a>', array('https://wiki.mageia.org/en/Mageia_3_Release_Notes#Upgrading_from_Mageia_2'), 'li');
                         ?></ul>
                         <br>
                         <br>

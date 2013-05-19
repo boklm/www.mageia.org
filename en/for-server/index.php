@@ -25,12 +25,10 @@ _lang_load($locale, '3');
         <section>
             <?php
             _h('Mageia 3 has all the main services and server packages you will need to run your server.');
-            _h('Aside from the cross-section included here, you will find many others in the repositories: you can use rpmdrake to search for packages, or check the <a href="%s">Mageia App DB</a>.',
-                array('http://mageia.madb.org'));
+            _h('Aside from the cross-section included here, you will find many others in the repositories: you can use rpmdrake to search for packages, or check the <a href="%s">Mageia App DB</a>.', array('http://mageia.madb.org'));
 
             _h('Administration', null, 'h3');
-            _h('For centralised administration, we include puppet 2.7.21; we use it widely in <a href="%s">our own infrastructure</a>.',
-                array('http://svnweb.mageia.org/adm/puppet/'));
+            _h('For centralised administration, we include puppet 2.7.21; we use it widely in <a href="%s">our own infrastructure</a>.', array('http://svnweb.mageia.org/adm/puppet/'));
 
             _h('The entire High Availability stack has been updated, and now includes drbd 8.4.2, Corosync 2.3.0 and Pacemaker 1.1.8.');
 
@@ -48,8 +46,7 @@ _lang_load($locale, '3');
     <div class="para">
         <?php
         _h('For more information about these and other packages, check the <a href="https://wiki.mageia.org/en/Mageia_3_Release_Notes">Mageia 3 Release notes</a>.');
-        _h('You can take a look at the <a href="%s">Mageia Application Database</a> to get a more complete list of Mageia packages.',
-            array('http://mageia.madb.org/'));
+        _h('You can take a look at the <a href="%s">Mageia Application Database</a> to get a more complete list of Mageia packages.', array('http://mageia.madb.org/'));
         ?>
     </div>
 </body>
