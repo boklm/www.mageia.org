@@ -240,8 +240,8 @@ $nav = array(
                         <span class="dl-btn"><?php _e('version 3 (May 2013)'); ?></span>
                     </a>
                     <p class="dl-info">
-                        <a hreflang="en" href="<?php _e('https://wiki.mageia.org/en/Mageia_3_Release_Notes'); ?>"><?php _e('Release notes'); ?></a>,
-                        <a hreflang="en" href="<?php _e('https://wiki.mageia.org/en/Mageia_3_Errata'); ?>"><?php _e('errata'); ?></a>.
+                        <?php _e('<a href="%s" hreflang="en">Release notes</a>', array('https://wiki.mageia.org/en/Mageia_3_Release_Notes')); ?>,
+                        <?php _e('<a href="%s" hreflang="en">errata</a>, array('https://wiki.mageia.org/en/Mageia_3_Errata')); ?>.
                     </p>
                 </li>
                 <li><a href="contribute/" class="dl-btn-other"><?php _e('<strong>Get involved</strong> in the next version'); ?></a>

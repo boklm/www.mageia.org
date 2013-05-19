@@ -108,7 +108,7 @@ N'utilisez PAS ces LiveCD ou LiveDVD pour une mise à niveau depuis Mageia 2 !
 
 # added manually
 ;Use above DVD or CD and see <a href="%s" hreflang="en">upgrade guide</a>.
-Utilisez l'un des DVD ou CD ci-dessus et consultez le <a href="%s" hreflang="en">guide de migration</a>.
+Utilisez l'un des DVD ou CD ci-dessus et consultez le <a href="https://wiki.mageia.org/en/Mageia_3_:_Notes_de_Version_-_FR#Mise_.C3.A0_niveau_de_Mageia_2">guide de migration</a>.
 
 
 # en/3/download_index.php +88
@@ -197,7 +197,7 @@ Mise à niveau<br>depuis Mageia 2&nbsp;?
 
 # added manually
 ;see the <a href="%s" hreflang="en">upgrade guide</a>
-consultez le <a href=%s" hreflang="en">guide de migration</a>
+consultez le <a href="https://wiki.mageia.org/en/Mageia_3_:_Notes_de_Version_-_FR#Mise_.C3.A0_niveau_de_Mageia_2">guide de migration</a>
 
 # en/3/download_index.php +183
 ;Looking for Mageia 2?
