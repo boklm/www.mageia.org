@@ -138,45 +138,21 @@
       'url' => 'ftp://ftp.tku.edu.tw/Linux/Mageia',
     ),
   ),
-  'CA' => 
-  array (
-    0 => 
-    array (
-      'city' => 'Toronto',
-      'continent' => 'NA',
-      'zone' => 'CA',
-      'url' => 'ftp://mageia.webconquest.com',
-    ),
-    1 => 
-    array (
-      'city' => 'Toronto',
-      'continent' => 'NA',
-      'zone' => 'CA',
-      'url' => 'http://mageia.webconquest.com',
-    ),
-  ),
   '_C:NA' => 
   array (
-    0 => 
+    1 =>
     array (
-      'city' => 'Toronto',
-      'continent' => 'NA',
-      'zone' => 'CA',
-      'url' => 'ftp://mageia.webconquest.com',
-    ),
-    4 => 
-    array (
-      'city' => 'Toronto',
-      'continent' => 'NA',
-      'zone' => 'CA',
-      'url' => 'http://mageia.webconquest.com',
-    ),
-    6 => 
-    array (
-      'city' => 'Lenoir',
+      'city' => '?',
       'continent' => 'NA',
       'zone' => 'US',
-      'url' => 'http://mirror.dacentec.com/mageia',
+      'url' => 'ftp://mirrors.kernel.org/mageia',
+    ),
+    3 =>
+    array (
+      'city' => '?',
+      'continent' => 'NA',
+      'zone' => 'US',
+      'url' => 'http://mirrors.kernel.org/mageia',
     ),
   ),
   'TW' => 
@@ -224,6 +200,23 @@
       'continent' => 'EU',
       'zone' => 'DE',
       'url' => 'http://mirror.tuxinator.org/mageia',
+    ),
+  ),
+  'US' =>
+  array (
+    0 =>
+    array (
+      'city' => '?',
+      'continent' => 'NA',
+      'zone' => 'US',
+      'url' => 'ftp://mirrors.kernel.org/mageia',
+    ),
+    2 =>
+    array (
+      'city' => '?',
+      'continent' => 'NA',
+      'zone' => 'US',
+      'url' => 'http://mirrors.kernel.org/mageia',
     ),
   ),
   'CH' => 
