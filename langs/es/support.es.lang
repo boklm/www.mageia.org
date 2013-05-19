@@ -63,8 +63,8 @@ Puede ver la %sdocumentación existente aquí%s. Puede ver nuestro %sWiki%s.
 
 
 # ../../svn/web/en/support/index.php +44
-;Updates are available for %s (security and bug fixes) and published on an ongoing basis.
-Actualizaciones disponibles para %s (correcciones de seguridad y errores) y publicadas periódicamente.
+;Updates are available for %s and %s (security and bug fixes) and published on an ongoing basis.
+Las actualizaciones están disponibles para %s y %s (seguridad y arreglo de fallos) y son publicadas regularmente.
 
 
 # ../../svn/web/en/support/index.php +45
