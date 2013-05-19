@@ -1,6 +1,44 @@
 <?php $mirrors = array (
+  'NL' => 
+  array (
+    0 => 
+    array (
+      'city' => 'Enschede',
+      'continent' => 'EU',
+      'zone' => 'NL',
+      'url' => 'ftp://ftp.snt.utwente.nl/pub/os/linux/mageia',
+    ),
+    2 => 
+    array (
+      'city' => 'Enschede',
+      'continent' => 'EU',
+      'zone' => 'NL',
+      'url' => 'http://ftp.snt.utwente.nl/pub/os/linux/mageia',
+    ),
+  ),
   '_C:EU' => 
   array (
+    0 => 
+    array (
+      'city' => 'Enschede',
+      'continent' => 'EU',
+      'zone' => 'NL',
+      'url' => 'ftp://ftp.snt.utwente.nl/pub/os/linux/mageia',
+    ),
+    11 => 
+    array (
+      'city' => 'Enschede',
+      'continent' => 'EU',
+      'zone' => 'NL',
+      'url' => 'http://ftp.snt.utwente.nl/pub/os/linux/mageia',
+    ),
+    4 => 
+    array (
+      'city' => 'Cologne',
+      'continent' => 'EU',
+      'zone' => 'DE',
+      'url' => 'http://mirror.netcologne.de/mageia',
+    ),
     17 => 
     array (
       'city' => 'Uppsala',
@@ -21,6 +59,13 @@
       'continent' => 'EU',
       'zone' => 'IT',
       'url' => 'http://mageia.mirror.garr.it/mirrors/mageia',
+    ),
+    20 => 
+    array (
+      'city' => 'Cologne',
+      'continent' => 'EU',
+      'zone' => 'DE',
+      'url' => 'ftp://mirror.netcologne.de/mageia',
     ),
     23 => 
     array (
@@ -71,6 +116,13 @@
       'zone' => 'IT',
       'url' => 'ftp://mageia.mirror.garr.it/mirrors/mageia',
     ),
+    36 => 
+    array (
+      'city' => '?',
+      'continent' => 'EU',
+      'zone' => 'CZ',
+      'url' => 'http://mageia.supp.name',
+    ),
     37 => 
     array (
       'city' => '?',
@@ -93,8 +145,53 @@
       'url' => 'http://ftp.sh.cvut.cz/MIRRORS/mageia',
     ),
   ),
+  'TR' => 
+  array (
+    0 => 
+    array (
+      'city' => 'Ankara',
+      'continent' => 'AS',
+      'zone' => 'TR',
+      'url' => 'http://ftp.linux.org.tr/mageia',
+    ),
+    1 => 
+    array (
+      'city' => 'Ankara',
+      'continent' => 'AS',
+      'zone' => 'TR',
+      'url' => 'ftp://ftp.linux.org.tr/mageia',
+    ),
+  ),
   '_C:AS' => 
   array (
+    0 => 
+    array (
+      'city' => 'Ankara',
+      'continent' => 'AS',
+      'zone' => 'TR',
+      'url' => 'http://ftp.linux.org.tr/mageia',
+    ),
+    1 => 
+    array (
+      'city' => 'Ankara',
+      'continent' => 'AS',
+      'zone' => 'TR',
+      'url' => 'ftp://ftp.linux.org.tr/mageia',
+    ),
+    3 => 
+    array (
+      'city' => 'Tsukuba',
+      'continent' => 'AS',
+      'zone' => 'JP',
+      'url' => 'http://ftp.tsukuba.wide.ad.jp/Linux/mageia',
+    ),
+    5 => 
+    array (
+      'city' => '石川',
+      'continent' => 'AS',
+      'zone' => 'JP',
+      'url' => 'http://ftp.jaist.ac.jp/pub/Linux/Mageia',
+    ),
     7 => 
     array (
       'city' => 'Taipei',
@@ -160,6 +257,20 @@
       'zone' => 'DE',
       'url' => 'ftp://mirror.tuxinator.org/mageia',
     ),
+    1 => 
+    array (
+      'city' => 'Cologne',
+      'continent' => 'EU',
+      'zone' => 'DE',
+      'url' => 'http://mirror.netcologne.de/mageia',
+    ),
+    5 => 
+    array (
+      'city' => 'Cologne',
+      'continent' => 'EU',
+      'zone' => 'DE',
+      'url' => 'ftp://mirror.netcologne.de/mageia',
+    ),
     7 => 
     array (
       'city' => 'Hermsdorf',
@@ -204,6 +315,13 @@
   ),
   'CZ' => 
   array (
+    3 => 
+    array (
+      'city' => '?',
+      'continent' => 'EU',
+      'zone' => 'CZ',
+      'url' => 'http://mageia.supp.name',
+    ),
     4 => 
     array (
       'city' => '?',
@@ -344,6 +462,23 @@
       'continent' => 'EU',
       'zone' => 'FR',
       'url' => 'ftp://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia',
+    ),
+  ),
+  'JP' => 
+  array (
+    0 => 
+    array (
+      'city' => 'Tsukuba',
+      'continent' => 'AS',
+      'zone' => 'JP',
+      'url' => 'http://ftp.tsukuba.wide.ad.jp/Linux/mageia',
+    ),
+    1 => 
+    array (
+      'city' => '石川',
+      'continent' => 'AS',
+      'zone' => 'JP',
+      'url' => 'http://ftp.jaist.ac.jp/pub/Linux/Mageia',
     ),
   ),
   'IT' => 
