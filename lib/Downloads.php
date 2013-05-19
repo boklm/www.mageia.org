@@ -113,8 +113,8 @@ class Downloads
                     $val        = explode('=', trim($val));
                     $m[$val[0]] = $val[1];
                 }
-                $pu = parse_url($m['url']);
-                if (in_array($pu['scheme'], array('http', 'ftp'))) {
+		$pu = parse_url($m['url']);
+		if (in_array($pu['scheme'], array('http', 'ftp'))) {
 
                     $item = array(
                         'city'      => isset($m['city']) ? $m['city'] : '?',
@@ -123,9 +123,13 @@ class Downloads
                         // BEWARE of the path substitution here. Must match.
                         'url'       => str_replace('/distrib/1/i586', '', $m['url'])
                     );
+		   
+		    $torrent =$item['url'].'/iso/3/torrents/Mageia-3-LiveDVD-KDE4-x86_64-DVD.torrent' ;
+		    if (file_exists($torrent)){
 
-                    $mirrors[$m['country']][]           = $item;
+	            $mirrors[$m['country']][]           = $item;
                     $mirrors['_C:' . $m['continent']][] = $item;
+		    }
                 }
             }
 
