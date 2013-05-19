@@ -1,30 +1,6 @@
 <?php $mirrors = array (
-  'NL' => 
-  array (
-    0 => 
-    array (
-      'city' => 'Enschede',
-      'continent' => 'EU',
-      'zone' => 'NL',
-      'url' => 'ftp://ftp.snt.utwente.nl/pub/os/linux/mageia',
-    ),
-    2 => 
-    array (
-      'city' => 'Enschede',
-      'continent' => 'EU',
-      'zone' => 'NL',
-      'url' => 'http://ftp.snt.utwente.nl/pub/os/linux/mageia',
-    ),
-  ),
   '_C:EU' => 
   array (
-    0 => 
-    array (
-      'city' => 'Enschede',
-      'continent' => 'EU',
-      'zone' => 'NL',
-      'url' => 'ftp://ftp.snt.utwente.nl/pub/os/linux/mageia',
-    ),
     3 => 
     array (
       'city' => 'Göttingen',
@@ -38,13 +14,6 @@
       'continent' => 'EU',
       'zone' => 'DE',
       'url' => 'http://ftp5.gwdg.de/pub/linux/mageia',
-    ),
-    11 => 
-    array (
-      'city' => 'Enschede',
-      'continent' => 'EU',
-      'zone' => 'NL',
-      'url' => 'http://ftp.snt.utwente.nl/pub/os/linux/mageia',
     ),
     16 => 
     array (
@@ -150,20 +119,6 @@
       'continent' => 'EU',
       'zone' => 'CZ',
       'url' => 'http://ftp.sh.cvut.cz/MIRRORS/mageia',
-    ),
-    45 => 
-    array (
-      'city' => 'Minsk',
-      'continent' => 'EU',
-      'zone' => 'BY',
-      'url' => 'ftp://mirror.datacenter.by/pub/mirrors/mageia.org',
-    ),
-    46 => 
-    array (
-      'city' => 'Minsk',
-      'continent' => 'EU',
-      'zone' => 'BY',
-      'url' => 'http://mirror.datacenter.by/pub/mirrors/mageia.org',
     ),
   ),
   '_C:AS' => 
