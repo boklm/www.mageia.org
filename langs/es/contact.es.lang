@@ -108,12 +108,12 @@ Equipo de documentación
 
 # ../../svn/web/en/contact/index.php +66
 ;Mageia.Org association members
-Mibmros de la asociación Mageia.Org
+Miembros de la asociación Mageia.Org
 
 
 # ../../svn/web/en/contact/index.php +75
-;In most case you should avoid using those aliases as they should only be used for the rare cases where private emails are needed. Use appropriate public mailing list on <a href="%s">either</a> of <a href="%s">two</a> pages instead.
-En la mayoría de los casos debería evitar utilizar esos aliases puesto que sólo deberían ser utilizados en las contadas ocaciones en que se necesitan correos privados. Utilice las listas de correo públicas apropiadas en <a href="%s">cualquiera</a> de las <a href="%s">dos</a> páginas.
+;In most case you should avoid using those aliases as they should only be used for the rare cases where private emails are needed. Use appropriate <a href="%s">public mailing list</a> instead.
+En la mayoría de los casos debería evitar utilizar esos aliases puesto que sólo deberían ser utilizados en las contadas ocaciones en que se necesitan correos privados. Utilice las <a href="%s">listas de correo públicas</a> apropiadas.
 
 
 # ../../svn/web/en/contact/index.php +78
