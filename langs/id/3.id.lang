@@ -170,11 +170,11 @@ CD installer jaringan + firmware nonfree
 
 # en/3/download_index.php +153
 ;needed for some disc controllers, some network cards, etc.
-diperlukan untuk beberapa disk kontroler, beberapa perangkat jaringan, dll.
+diperlukan oleh beberapa disk kontroler, beberapa perangkat jaringan, dll.
 
 
 # en/3/download_index.php +167
-;May 19<sup>nd</sup> 2013
+;May 19<sup>th</sup> 2013
 19 Mei 2013
 
 
@@ -220,7 +220,7 @@ Butuh tantangan?
 
 # en/3/download_index.php +201
 ;You can help us <a href="%s">on Mageia 4</a>.
-Kamu bisa membantu kami <a href="%s">pada Mageia 4</a>.
+Kamu bisa membantu kami <a href="%s">di Mageia 4</a>.
 
 
 # en/3/index.php +12
