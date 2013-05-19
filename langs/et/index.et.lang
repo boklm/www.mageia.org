@@ -96,22 +96,13 @@ versioon 3 (mai 2013)
 
 
 # /en/index.php +240
-;Release notes
-Väljalaskemärkmed
-
-# /en/index.php +240
-;https://wiki.mageia.org/en/Mageia_2_Release_Notes
-https://wiki.mageia.org/en/Mageia_3_v%C3%A4ljalaskem%C3%A4rkmed_-_ET
+;<a href="%s" hreflang="en">Release notes</a>
+<a href="%s" hreflang="et">Väljalaskemärkmed</a>
 
 
 # /en/index.php +241
-;https://wiki.mageia.org/en/Mageia_2_Errata
-https://wiki.mageia.org/en/Mageia_2_Errata {ok}
-
-
-# /en/index.php +241
-;errata
-teadaolevad vead
+;<a href="%s" hreflang="en">errata</a>
+<a href="%s" hreflang="en">teadaolevad vead</a>
 
 
 # /en/index.php +244
