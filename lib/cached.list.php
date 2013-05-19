@@ -151,8 +151,38 @@
       'url' => 'http://ftp.jaist.ac.jp/pub/Linux/Mageia',
     ),
   ),
+  'CA' => 
+  array (
+    0 => 
+    array (
+      'city' => 'Toronto',
+      'continent' => 'NA',
+      'zone' => 'CA',
+      'url' => 'ftp://mageia.webconquest.com',
+    ),
+    1 => 
+    array (
+      'city' => 'Toronto',
+      'continent' => 'NA',
+      'zone' => 'CA',
+      'url' => 'http://mageia.webconquest.com',
+    ),
+  ),
   '_C:NA' => 
   array (
+    0 => 
+    array (
+      'city' => 'Toronto',
+      'continent' => 'NA',
+      'zone' => 'CA',
+      'url' => 'ftp://mageia.webconquest.com',
+    ),    4 => 
+    array (
+      'city' => 'Toronto',
+      'continent' => 'NA',
+      'zone' => 'CA',
+      'url' => 'http://mageia.webconquest.com',
+    ),
     1 =>
     array (
       'city' => '?',
@@ -175,18 +205,45 @@
       'url' => 'http://mirror.dacentec.com/mageia',
     ),
   ),
+  'ZA' => 
+  array (
+    0 => 
+    array (
+      'city' => 'Stellenbosch',
+      'continent' => 'AF',
+      'zone' => 'ZA',
+      'url' => 'ftp://ftp.sun.ac.za/pub/mirrors/mageia',
+    ),
+    1 => 
+    array (
+      'city' => 'Stellenbosch',
+      'continent' => 'AF',
+      'zone' => 'ZA',
+      'url' => 'http://ftp.sun.ac.za/ftp/pub/mirrors/mageia',
+    ),
+  ),
+  '_C:AF' => 
+  array (
+    0 => 
+    array (
+      'city' => 'Stellenbosch',
+      'continent' => 'AF',
+      'zone' => 'ZA',
+      'url' => 'ftp://ftp.sun.ac.za/pub/mirrors/mageia',
+    ),
+    1 => 
+    array (
+      'city' => 'Stellenbosch',
+      'continent' => 'AF',
+      'zone' => 'ZA',
+      'url' => 'http://ftp.sun.ac.za/ftp/pub/mirrors/mageia',
+    ),
+  ),
   'TW' => 
   array (
   ),
   'DE' => 
   array (
-    6 => 
-    array (
-      'city' => 'Hermsdorf',
-      'continent' => 'EU',
-      'zone' => 'DE',
-      'url' => 'ftp://mirror.tuxinator.org/mageia',
-    ),
     1 => 
     array (
       'city' => 'Cologne',
@@ -201,6 +258,27 @@
       'zone' => 'DE',
       'url' => 'ftp://mirror.netcologne.de/mageia',
     ),
+    3 => 
+    array (
+      'city' => 'Esslingen',
+      'continent' => 'EU',
+      'zone' => 'DE',
+      'url' => 'http://ftp-stud.hs-esslingen.de/pub/Mirrors/Mageia',
+    ),
+    9 => 
+    array (
+      'city' => 'Esslingen',
+      'continent' => 'EU',
+      'zone' => 'DE',
+      'url' => 'ftp://ftp-stud.hs-esslingen.de/pub/Mirrors/Mageia',
+    ),
+    6 => 
+    array (
+      'city' => 'Hermsdorf',
+      'continent' => 'EU',
+      'zone' => 'DE',
+      'url' => 'ftp://mirror.tuxinator.org/mageia',
+    ),
     7 => 
     array (
       'city' => 'Hermsdorf',
@@ -208,6 +286,7 @@
       'zone' => 'DE',
       'url' => 'http://mirror.tuxinator.org/mageia',
     ),
+
   ),
   'US' =>
   array (
