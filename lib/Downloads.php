@@ -125,7 +125,10 @@ class Downloads
                     );
 		   
 		    $torrent =$item['url'].'/iso/3/torrents/Mageia-3-LiveDVD-KDE4-x86_64-DVD.torrent' ;
-		    if (file_exists($torrent)){
+		    if (false === file_get_contents($torrent)){
+			echo "down $torrent \n";
+			} else { 
+			echo "Up $torrent \n";
 
 	            $mirrors[$m['country']][]           = $item;
                     $mirrors['_C:' . $m['continent']][] = $item;
