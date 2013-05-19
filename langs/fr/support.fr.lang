@@ -42,8 +42,8 @@ Mises à jour
 
 
 # ../../svn/web/en/support/index.php +44
-;Updates are available for %s (security and bug fixes) and published on an ongoing basis.
-Des mises à jour sont régulièrement publiées pour %s (corrections de bugs ou de sécurité).
+;Updates are available for %s and %s (security and bug fixes) and published on an ongoing basis.
+Des mises à jour sont régulièrement publiées pour %s et %s (corrections de bugs ou de sécurité).
 
 
 ;You can install these from the Mageia Control Center.
@@ -71,7 +71,7 @@ Mageia 1 a été maintenue jusqu'au 1<sup>er</sup> décembre 2012.
 Mageia 2 sera maintenue jusqu'au 22 novembre 2013.
 
 # add manually
-;Mageia 3 will be supported until November 19nd, 2014.
+;Mageia 3 will be supported until November 19th, 2014.
 Mageia 3 sera maintenue jusqu'au 19 novembre 2014.
 
 ;If you need help, information or directions about the Mageia distribution you installed or about the project, you can try to reach us through:
