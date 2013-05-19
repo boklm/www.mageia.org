@@ -62,8 +62,8 @@ Obstoječo dokumentacijo lahko pogledate %stukaj%s ali v našem %sWikiju%s.
 
 
 # ../../svn/web/en/support/index.php +44
-;Updates are available for %s (security and bug fixes) and published on an ongoing basis.
-Posodobitve so na voljo za izdajo %s (varnostne izboljšave in popravki hroščev).
+;Updates are available for %s and %s (security and bug fixes) and published on an ongoing basis.
+Posodobitve so na voljo za izdajo %s in %s (varnostne izboljšave in popravki hroščev).
 
 
 # ../../svn/web/en/support/index.php +45
@@ -89,6 +89,11 @@ Mageia 1 je bila podprta do 1. decembra 2012.
 # ../../svn/web/en/support/index.php +53
 ;Mageia 2 will be supported until November 22nd, 2013.
 Mageia 2 bo podprta do 22. novembra 2013.
+
+
+# ../../svn/web/en/support/index.php +54
+;Mageia 3 will be supported until November 19th, 2014.
+Mageia 3 bo podprta do 19. novembra 2014.
 
 
 # ../../svn/web/en/support/index.php +58
