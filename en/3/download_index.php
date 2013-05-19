@@ -164,7 +164,7 @@ require '../downloads/get/lib.php';
                 <div class="yui-u">
                     <div class="para" style="padding-left: 1em;">
                         <h2>Mageia 3</h2>
-                        <?php _h('May 19<sup>nd</sup> 2013')?>
+                        <?php _h('May 19<sup>th</sup> 2013')?>
                         <ul class="hl">
                             <li><a href="https://wiki.mageia.org/en/Mageia_3_Release_Notes"><?php _e('Release notes')?></a></li>
                             <li><a href="https://wiki.mageia.org/en/Mageia_3_Errata">Errata</a>.</li>
