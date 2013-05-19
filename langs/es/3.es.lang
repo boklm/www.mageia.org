@@ -192,339 +192,339 @@ Mayo 19<sup>th</sup> de 2013
 
 # en/3/download_index.php +173
 ;Upgrading<br>from Mageia 2?
-Upgrading<br>from Mageia 2?
+¿Actualizando<br>desde Mageia 2?
 
 
 # en/3/download_index.php +175
 ;<strong>do not</strong> use LiveCDs;
-<strong>do not</strong> use LiveCDs;
+<strong>no</strong> utilice LiveCDs;
 
 
 # en/3/download_index.php +176
 ;see the <a href="%s" hreflang="en">upgrade guide</a>
-see the <a href="%s" hreflang="en">upgrade guide</a>
+vea la <a href="%s" hreflang="en">guía de actualización</a>
 
 
 # en/3/download_index.php +181
 ;Looking for Mageia 2?
-Looking for Mageia 2?
+¿Busca Mageia 2?
 
 
 # en/3/download_index.php +183
 ;It is <a href="%s">here now</a>.
-It is <a href="%s">here now</a>.
+Ahora está <a href="%s">aquí</a>.
 
 
 # en/3/download_index.php +189
 ;Looking for Mageia 1?
-Looking for Mageia 1?
+¿Busca Mageia 1?
 
 
 # en/3/download_index.php +192
 ;But please remember that it already <a href="http://blog.mageia.org/en/2012/12/02/mageia-1-eol"/>reached EOL</a>.
-But please remember that it already <a href="http://blog.mageia.org/en/2012/12/02/mageia-1-eol"/>reached EOL</a>.
+Pero por favor recuerde que ya <a href="http://blog.mageia.org/en/2012/12/02/mageia-1-eol"/>alcanzó EOL</a>.
 
 
 # en/3/download_index.php +198
 ;Need more challenge?
-Need more challenge?
+¿Necesita mas desafíos?
 
 
 # en/3/download_index.php +199
 ;You can help us <a href="%s">on Mageia 4</a>.
-You can help us <a href="%s">on Mageia 4</a>.
+Puede ayudarno en <a href="%s">Mageia 4</a>.
 
 
 # en/for-pc/index.php +12
 ;Mageia 3, for your PC
-Mageia 3, for your PC
+Mageia 3, para su PC
 
 
 # en/for-pc/index.php +22
 ;for your PC
-for your PC
+para su PC
 
 
 # en/for-pc/index.php +27
 ;Plenty
-Plenty
+Suficiente
 
 
 # en/for-pc/index.php +28
 ;There are more than 21&nbsp;700&nbsp;packages in our repositories. And that&#39;s just for the 64-bit branch.
-There are more than 21&nbsp;700&nbsp;packages in our repositories. And that&#39;s just for the 64-bit branch.
+Hay mas de 21&nbsp;700&nbsp;paquetes en nuestros repoitorios. Y eso es sólo para la rama 64-bit.
 
 
 # en/for-pc/index.php +29
 ;The total number is double that &ndash; and then if you consider the backports, and the packages in the Cauldron still testing... you&#39;ll see that Mageia users are spoiled for choice.
-The total number is double that &ndash; and then if you consider the backports, and the packages in the Cauldron still testing... you&#39;ll see that Mageia users are spoiled for choice.
+El número total es el doble de &ndash; y luego si considera los backports y los paquetes de Cauldron aún en pruebas, verá que los usuarios de Mageia están malcriados intencionalmente.
 
 
 # en/for-pc/index.php +30
 ;Here&#39;s a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:
-Here&#39;s a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:
+Aquí hay una revisión de varias cosas, primero de los ambientes gráficos de trabajo, y luego de las aplicaciones base que puede utilizar en su escritorio:
 
 
 # en/for-pc/index.php +31
 ;Environments
-Environments
+Ambientes
 
 
 # en/for-pc/index.php +32
 ;Mageia 3 has all the major desktop environments:
-Mageia 3 has all the major desktop environments:
+Mageia 3 tiene todos los escritorios mas importantes:
 
 
 # en/for-pc/index.php +43
 ;And then there are the window managers, including Openbox, WindowMaker, IceWM, Fluxbox, Fvwm2 and Awesome.
-And then there are the window managers, including Openbox, WindowMaker, IceWM, Fluxbox, Fvwm2 and Awesome.
+Y luego están los administradores de ventanas, incluyendo Openbox, WindowMaker, IceWM, Fluxbox, Fvwm2 y Awesome.
 
 
 # en/for-pc/index.php +44
 ;Applications &rarr;
-Applications &rarr;
+Aplicaciones &rarr;
 
 
 # en/for-pc/index.php +45
 ;There are many, many to choose from &ndash; including all the most popular.
-There are many, many to choose from &ndash; including all the most popular.
+Hay muchos, muchos para elegir, incluyendo los más populares.
 
 
 # en/for-pc/index.php +51
 ;Web
-Web
+Web {ok}
 
 
 # en/for-pc/index.php +52
 ;Choose your web browser from Firefox ESR 17.0.6, Chromium-browser 26.0.1410.65, Epiphany 3.6.1 or Opera 12.15 &ndash; or one of the many others such as Lynx or Konqueror; then pick an email client from KMail 4.10.2, Thunderbird ESR 17.0.6, Evolution 3.6.3 or maybe Claws-Mail or Mutt.
-Choose your web browser from Firefox ESR 17.0.6, Chromium-browser 26.0.1410.65, Epiphany 3.6.1 or Opera 12.15 &ndash; or one of the many others such as Lynx or Konqueror; then pick an email client from KMail 4.10.2, Thunderbird ESR 17.0.6, Evolution 3.6.3 or maybe Claws-Mail or Mutt.
+Elija su navegador web entre Firefox ESR 17.0.6, Chromium-browser 26.0.1410.65, Epiphany 3.6.1 u Opera 12.15, o muchos otro tales como Lynx o Konqueror; luego elija un cliente de correo electrónico entre KMail 4.10.2, Thunderbird ESR 17.0.6, Evolution 3.6.3 o tal vez Claws-Mail o Mutt.
 
 
 # en/for-pc/index.php +57
 ;Messaging
-Messaging
+Mensajería
 
 
 # en/for-pc/index.php +58
 ;Choose from Kopete, Pidgin, Empathy or Kadu for instant messaging; use Quassel, Konversation, XChat-Gnome or KVIrc for IRC chat; try QuteCom or Ekiga (or even Skype) for VOIP.
-Choose from Kopete, Pidgin, Empathy or Kadu for instant messaging; use Quassel, Konversation, XChat-Gnome or KVIrc for IRC chat; try QuteCom or Ekiga (or even Skype) for VOIP.
+Elija entre Kopete, Pidgin, Empathy o Kadu para mensajería instantánea; use Quassel, Konversation, XChat-Gnome o KVIrc para IRC chat; pruebe QuteCom o Ekiga, o incluso Skype para VOIP.
 
 
 # en/for-pc/index.php +63
 ;Office
-Office
+Oficina
 
 
 # en/for-pc/index.php +64
 ;The two full-featured office suites LibreOffice and Calligra are there, as well as AbiWord, and a host of text editors including Kate; for finance there&#39;s KMyMoney, Skrooge or the professional-level GnuCash.
-The two full-featured office suites LibreOffice and Calligra are there, as well as AbiWord, and a host of text editors including Kate; for finance there&#39;s KMyMoney, Skrooge or the professional-level GnuCash.
+Las fos suites de oficina LibreOffice y Calligra están ahí, también como AbiWord, y muchos editores de texto incluyendo Kate; para finanzas está KMyMoney, Skrooge o uno a nivel profesional como GnuCash.
 
 
 # en/for-pc/index.php +69
 ;Image
-Image
+Imágenes
 
 
 # en/for-pc/index.php +70
 ;Use GIMP for powerful image manipulation, or Inkscape for vector drawing; Blender is there for serious animation. DigiKam or Showfoto will take care of your photos, talk to your camera and give you more basic image editing.
-Use GIMP for powerful image manipulation, or Inkscape for vector drawing; Blender is there for serious animation. DigiKam or Showfoto will take care of your photos, talk to your camera and give you more basic image editing.
+Use GIMP para una poderosa manipulación de imágenes , o Inkscape para dibujo vectorial; Blender está ahí para animación seria. Digikam o Showfoto se encargará de sus fotografías, conversará con su cámara y le dará edición básica de imágenes.
 
 
 # en/for-pc/index.php +75
 ;Sound
-Sound
+Sonido
 
 
 # en/for-pc/index.php +76
 ;For playing audio files, choose from Amarok 2.7.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don&#39;t infringe local laws.
-For playing audio files, choose from Amarok 2.7.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don&#39;t infringe local laws.
+Para reproducir archivos de sonido, elija entre Amarok 2.7.0 y Rhythmbox, entre otros; utilice VLC, Totem o MPlayer para video y audio, o use XBMC Media Center com osu sistema de entretención hogareño. Algunos paquetes se pueden encontrar en los repositorios Core y Tainted: los paquetes en el repositorio Core soportan sólo codificadores no sujetos a patentes, y los paquetes del repositorio Tainted soportan todos los codificadores, para usuarios que viven en países en donde esos codificadores no infringen leyes locales.
 
 
 # en/for-pc/index.php +81
 ;Video
-Video
+Video {ok}
 
 
 # en/for-pc/index.php +82
 ;For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there&#39;s Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.
-For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there&#39;s Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.
+Para editar archivos de video, pruebe Avidemux, Kino u OpenShot; para subtítulos, están Gaupol o Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV o Me TV para ver y grabar programas de TV.
 
 
 # en/for-pc/index.php +87
 ;Plus
-Plus
+Además
 
 
 # en/for-pc/index.php +88
 ;Then there&#39;s ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.
-Then there&#39;s ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.
+Luego estan ZoneMinder, para seguridad CCTV; VirtualBox o WINE para virtualización; y un rango de ambientes de desarrollo tales como Anjuta, Eclipse, Netbeans o KDevelop.
 
 
 # en/for-pc/index.php +93
 ;For more information about these and other packages, check the <a href="%s">Mageia 3 Release notes</a>.
-For more information about these and other packages, check the <a href="%s">Mageia 3 Release notes</a>.
+Para mas información acerca de éstos y otro paquetes, vea las <a href="%s">Notas de la versión de Mageia 3</a>.
 
 
 # en/for-pc/index.php +94
 ;You can take a look at the <a href="%s">Mageia Application Database</a> to get a more complete list of Mageia packages.
-You can take a look at the <a href="%s">Mageia Application Database</a> to get a more complete list of Mageia packages.
+Puede dar un vistazo a la <a href="%s">Base de datos de aplicaciones de Mageia</a> para obtener una lista completa de paquetes de Mageia.
 
 
 # en/for-server/index.php +12
 ;Mageia 3, for your server
-Mageia 3, for your server
+Mageia 3, para su servidor
 
 
 # en/for-server/index.php +22
 ;for your server
-for your server
+para su servidor
 
 
 # en/for-server/index.php +27
 ;Mageia 3 has all the main services and server packages you will need to run your server.
-Mageia 3 has all the main services and server packages you will need to run your server.
+Mageia 3 tiene todos los paquetes de servidor y servicios que necesitará en su servidor.
 
 
 # en/for-server/index.php +28
 ;Aside from the cross-section included here, you will find many others in the repositories: you can use rpmdrake to search for packages, or check the <a href="%s">Mageia App DB</a>.
-Aside from the cross-section included here, you will find many others in the repositories: you can use rpmdrake to search for packages, or check the <a href="%s">Mageia App DB</a>.
+Además de los diversos paquetes descritos aquí, usted encontrará muchos otro en los repositorios: puede usar rpmdrake para buscar paquetes, o revisar la <a href="%s">Mageia App DB</a>.
 
 
 # en/for-server/index.php +30
 ;Administration
-Administration
+Administración
 
 
 # en/for-server/index.php +31
 ;For centralised administration, we include puppet 2.7.21; we use it widely in <a href="%s">our own infrastructure</a>.
-For centralised administration, we include puppet 2.7.21; we use it widely in <a href="%s">our own infrastructure</a>.
+Para administración centralizada, incluimos puppet 2.7.21; lo utilizamos ampliamente en  <a href="%s">nuestra propia infraestructura</a>.
 
 
 # en/for-server/index.php +33
 ;The entire High Availability stack has been updated, and now includes drbd 8.4.2, Corosync 2.3.0 and Pacemaker 1.1.8.
-The entire High Availability stack has been updated, and now includes drbd 8.4.2, Corosync 2.3.0 and Pacemaker 1.1.8.
+Se ha actualizado la pila completa de Alta Disponibilidad, y ahora incluy]e drbd 8.4.2, Corosync 2.3.0 y Pacemaker 1.1.8.
 
 
 # en/for-server/index.php +35
 ;Databases
-Databases
+Bases de datos
 
 
 # en/for-server/index.php +36
 ;Databases included are PostgreSQL 8.4.17; MariaDB 5.5.28, which replaces MySQL; BDB.
-Databases included are PostgreSQL 8.4.17; MariaDB 5.5.28, which replaces MySQL; BDB.
+Las bases de datos incluidas son PostgreSQL 8.4.17; MariaDB 5.5.28, que reemplaza MySQL; BDB.
 
 
 # en/for-server/index.php +37
 ;And there are NoSQL servers too: CouchDB 1.2.1, Redis 2.6.5, MongoDB 2.2.2.
-And there are NoSQL servers too: CouchDB 1.2.1, Redis 2.6.5, MongoDB 2.2.2.
+Y también hay servidores NoSQL: CouchDB 1.2.1, Redis 2.6.5, MongoDB 2.2.2.
 
 
 # en/for-server/index.php +39
 ;Servers
-Servers
+Servidores
 
 
 # en/for-server/index.php +40
 ;Web servers include Apache 2.4.4, Cherokee 1.2.101 and lighttpd 1.4.32.
-Web servers include Apache 2.4.4, Cherokee 1.2.101 and lighttpd 1.4.32.
+Los servidores web incluyen Apache 2.4.4, Cherokee 1.2.101 y lighttpd 1.4.32.
 
 
 # en/for-server/index.php +41
 ;For file and directory sharing and network printing on heterogeneous networks, we have Samba 3.6.15, OpenLDAP 2.4.33 and Cups 1.5.4.
-For file and directory sharing and network printing on heterogeneous networks, we have Samba 3.6.15, OpenLDAP 2.4.33 and Cups 1.5.4.
+Para compartición de archivos y directorios e impresión en redes heterogéneas, tenemos Samba 3.6.15, OpenLDAP 2.4.33 y Cups 1.5.4.
 
 
 # en/for-server/index.php +42
 ;Mail servers included with Mageia 3 are Postfix 2.9.6, Cyrus-imapd 2.4.17 and Dovecot 2.1.15.
-Mail servers included with Mageia 3 are Postfix 2.9.6, Cyrus-imapd 2.4.17 and Dovecot 2.1.15.
+Los servidores re correo incluidos con Mageia 3 son Postfix 2.9.6, Cyrus-imapd 2.4.17 y Dovecot 2.1.15.
 
 
 # en/for-server/index.php +48
 ;For more information about these and other packages, check the <a href="https://wiki.mageia.org/en/Mageia_3_Release_Notes">Mageia 3 Release notes</a>.
-For more information about these and other packages, check the <a href="https://wiki.mageia.org/en/Mageia_3_Release_Notes">Mageia 3 Release notes</a>.
+Para mas información acerca de éstos y otros paquetes, vea las <a href="https://wiki.mageia.org/en/Mageia_3_Release_Notes">Notas de versión de Mageia 3</a>.
 
 
 # en/3/index.php +12
 ;Mageia 3
-Mageia 3
+Mageia 3 {ok}
 
 
 # en/3/index.php +14
 ;Mageia 3 is the new, solid, stable Linux distribution from the Mageia project.
-Mageia 3 is the new, solid, stable Linux distribution from the Mageia project.
+Mageia 3 is la nueva, sólida, estable distribución de Linux del proyecto Mageia.
 
 
 # en/3/index.php +29
 ;Mageia 3 is a GNU/Linux distribution for your computer, released by the <a href="%s">Mageia community</a>.
-Mageia 3 is a GNU/Linux distribution for your computer, released by the <a href="%s">Mageia community</a>.
+Mageia 3 es una distribución GNU/Linux para su computador, lanzada por la <a href="%s">comunidad de Mageia</a>.
 
 
 # en/3/index.php +31
 ;What&#39;s new?
-What&#39;s new?
+¿Qué hay de nuevo?
 
 
 # en/3/index.php +32
 ;Too much to include here! See the <a href="https://wiki.mageia.org/en/Mageia_3_Release_Notes">release notes</a> for an extensive exposé.
-Too much to include here! See the <a href="https://wiki.mageia.org/en/Mageia_3_Release_Notes">release notes</a> for an extensive exposé.
+¡Demasiado para incluir aquí! Vea las <a href="https://wiki.mageia.org/en/Mageia_3_Release_Notes">notas de la versión</a> para una exposición extendida.
 
 
 # en/3/index.php +34
 ;Download it right away!
-Download it right away!
+¡Descárguela de inmediato!
 
 
 # en/3/index.php +36
 ;Mageia in context
-Mageia in context
+Mageia en contexto
 
 
 # en/3/index.php +37
 ;Mageia is both a Community and a Linux Distribution, with Mageia 3 being our third release.
-Mageia is both a Community and a Linux Distribution, with Mageia 3 being our third release.
+Mageia es tanto una comunidad como una distribución de Linux, siendo Mageia 3 nuestro tercer lanzamiento.
 
 
 # en/3/index.php +38
 ;Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch&#39;s most popular distributions</a>.
-Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch&#39;s most popular distributions</a>.
+Desde el lanzamiento de <a href="../1/">Mageia 1</a>, nuestra oferta ha estado consistentemente en los <a href="%s">top 10 de las distribuciones más populares de Distrowatch</a>.
 
 
 # en/3/index.php +40
 ;Mageia 3 is supported by the <a href="../about/">Mageia.org nonprofit organisation</a>, which is governed by a body of recognized and elected contributors.
-Mageia 3 is supported by the <a href="../about/">Mageia.org nonprofit organisation</a>, which is governed by a body of recognized and elected contributors.
+Mageia 3 es soportada por la <a href="../about/">organización sin fines de lucro Mageia.org</a>, la que es gobernada por un cuerpo de contribuidores reconocidos y elegidos.
 
 
 # en/3/index.php +41
 ;Mageia 3 has been made by more than 100 people from all around the world.
-Mageia 3 has been made by more than 100 people from all around the world.
+Mageia 3 es hecha por mas de 100 personas alrededor del mundo.
 
 
 # en/3/index.php +43
 ;Our work adds to the excellent work of the wider Linux and Free Software community. We aim to bring one of the best, most stable, reliable and enjoyable experience and platform we can make; for regular users, developers and businesses.
-Our work adds to the excellent work of the wider Linux and Free Software community. We aim to bring one of the best, most stable, reliable and enjoyable experience and platform we can make; for regular users, developers and businesses.
+Nuestro trabajo se agrega al excelente trabajo de la mas amplia comunidad Linux y software Libre. Aspiramos a traer una de las mejores, mas estable, confiable y disfrutable experiencia y plataforma que podamos hacer; para usuarios regulares, desarrolladores y negocios.
 
 
 # en/3/index.php +44
 ;We welcome new contributors to any of the many different teams that go to make up Mageia the Community, and we encourage you to join us.
-We welcome new contributors to any of the many different teams that go to make up Mageia the Community, and we encourage you to join us.
+Recibimos con agrado a nuevos contribuidores a cualquiera de los diferentes equipos que conforman la comunidad de Mageia, y le animamos a unírsenos.
 
 
 # en/3/nav.php +27
 ;Mageia&nbsp;3
-Mageia&nbsp;3
+Mageia&nbsp;3 {ok}
 
 
 # en/3/nav.php +28
 ;Download
-Download
+Descarga
 
 
 # en/3/nav.php +29
 ;For PC
-For PC
+Para PC
 
 
 # en/3/nav.php +30
 ;For server
-For server
+Para servidor
