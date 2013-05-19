@@ -35,7 +35,7 @@ _lang_load($locale, '3');
             _h('The entire High Availability stack has been updated, and now includes drbd 8.4.2, Corosync 2.3.0 and Pacemaker 1.1.8.');
 
             _h('Databases', null, 'h3');
-            _h('Databases included are PostgreSQL 8.4; MariaDB, which replaces MySQL 5.5.28; BDB.');
+            _h('Databases included are PostgreSQL 8.4.17; MariaDB 5.5.28, which replaces MySQL; BDB.');
             _h('And there are NoSQL servers too: CouchDB 1.2.1, Redis 2.6.5, MongoDB 2.2.2.');
 
             _h('Servers', null, 'h3');

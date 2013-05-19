@@ -49,7 +49,7 @@ _lang_load($locale, '3');
     <div class="para" style="width: 300px">
         <?php
             _h('Web', null, 'h3');
-            _h('Choose your web browser from Firefox ESR 17.0.6, Chromium-browser 26.0.1410.65, Epiphany 3.6.1 or Opera 12.15 &ndash; or one of the many others such as Lynx or Konqueror; then pick an email client from KMail 4.8.2, Thunderbird ESR 17.0.6, Evolution 3.4.1 or maybe Claws-Mail or Mutt.');
+            _h('Choose your web browser from Firefox ESR 17.0.6, Chromium-browser 26.0.1410.65, Epiphany 3.6.1 or Opera 12.15 &ndash; or one of the many others such as Lynx or Konqueror; then pick an email client from KMail 4.10.2, Thunderbird ESR 17.0.6, Evolution 3.6.3 or maybe Claws-Mail or Mutt.');
         ?>
     </div>
     <div class="para" style="width: 300px">

@@ -61,7 +61,7 @@ require '../downloads/get/lib.php';
                         </tbody>
                         </table>
                         
-                        <p class="dlinfo">Notes:</p>
+                        <p class="dlinfo"><?php _e('Notes:'); ?></p>
                         <ul class="dlinfo hl">
                             <li><?php _e('Up to 167 locales are supported:'); ?>
                                 Deutsch, English, español, français, italiano, português, svenska, nederlands,
