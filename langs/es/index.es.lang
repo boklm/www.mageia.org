@@ -92,30 +92,17 @@ versión 2 (May 2012)
 
 
 ;version 3 (May 2013)
-version 3 (May 2013)
+versión 3 (May 2013)
 
 
 # /en/index.php +240
-;Release notes
-Notas de la versión
-
-
-
-
-
-# /en/index.php +240
-;https://wiki.mageia.org/en/Mageia_2_Release_Notes
-https://wiki.mageia.org/en/Mageia_2_Release_Notes {ok}
+;<a href="%s" hreflang="en">Release notes</a>
+<a href="%s" hreflang="en">Notas de la versión</a>
 
 
 # /en/index.php +241
-;https://wiki.mageia.org/en/Mageia_2_Errata
-https://wiki.mageia.org/en/Mageia_2_Errata {ok}
-
-
-# /en/index.php +241
-;errata
-errata {ok}
+;<a href="%s" hreflang="en">errata</a>
+<a href="%s" hreflang="en">errata</a> {ok}
 
 
 # /en/index.php +244
