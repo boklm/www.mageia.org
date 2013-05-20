@@ -22,29 +22,32 @@ if (version_compare(PHP_VERSION, '5.3.0') < 0) {
 define('APP_ROOT', realpath(__DIR__ . '/..'));
 
 $php_source = isset($argv[1]) ? $argv[1] : null;
-$var        = isset($argv[2]) ? $argv[2] : null;
-$domain     = isset($argv[3]) ? $argv[3] : null;
+$domain     = isset($argv[2]) ? $argv[2] : null;
 
-/*
-if (is_null($php_source) || is_null($var) || is_null($domain)) {
+if (is_null($php_source) || is_null($domain)) {
     echo <<<U
 Usage:
-    pa2lang.php path/to/source.php var_name domain_name
+    php tools/extract2lang.php path/to/source.php domain_name
 
+    Example:
+        php tools/extract2lang.php en/index.php index_f
+
+    You can join multiple sources with apostrophe - single quote (') like this:
+        'en/3/download_index.php en/for-pc/index.php en/for-server/index.php en/3/index.php en/3/nav.php'
 
 U;
     exit(1);
 }
-*/
 
 echo "ohai!\n";
 
-$path = 'en/3/download_index.php en/for-pc/index.php en/for-server/index.php en/3/index.php en/3/nav.php';
+//$path = 'en/3/download_index.php en/for-pc/index.php en/for-server/index.php en/3/index.php en/3/nav.php';
 //$path = realpath(APP_ROOT . '/' . $path);
+$path = $php_source;
 
-$domain = '3';
+//$domain = '3';
 
-$cmd = sprintf('grep -HrnEi "_(e|t|h)\((.*)\)" %s', $path);
+$cmd = sprintf('grep -HrnEi "_(e|t|h|d)\((.*)\)" %s', $path);
 echo $cmd, "\n";
 exec($cmd, $out);
 
@@ -62,7 +65,7 @@ foreach ($out as $str) {
     $line   = array_shift($arr);
     $arr    = implode(':', $arr);
 
-    if (preg_match_all('/\_(e|t|h)\(\'(.+)\'/imU', $arr, $reg)) {
+    if (preg_match_all('/\_(e|t|h|d)\(\'(.+)\'/imU', $arr, $reg)) {
         foreach ($reg[2] as $found) {
             $strings[$domain][$found][] = $file . ' +' . $line;
         }
@@ -87,7 +90,7 @@ foreach ($strings as $domain => $strs) {
     $f = implode("\n", $f);
     $dest = sprintf('%s/langs/%s/%s.%s.lang', APP_ROOT, 'en', $domain, 'en');
     $dir = dirname($dest);
-    
+
     if (!is_dir($dir)) {
         echo "making $dir\n";
         mkdir($dir, 0755, true);
