@@ -115,8 +115,8 @@ Paypal снимет небольшую комиссию за каждое пож
 if you want to do an anonymous donation, please add a comment or send an email to %s.
 
 
-;if you want to do an anonymous donation, please add a comment.
-Если вы хотите сделать пожертвование анонимно, пожалуйста, оставьте комментарий.
+;if you want to do an anonymous donation, please add a comment or send an email to %s.
+Если вы хотите сделать пожертвование анонимно, пожалуйста, оставьте комментарий или отправьте email на %s.
 
 
 # ../../svn/web/en/donate/index.php +107

@@ -42,8 +42,8 @@
 
 
 # ../../svn/web/en/support/index.php +44
-;Updates are available for %s (security and bug fixes) and published on an ongoing basis.
-Вы можете воспользоваться обновлениями для %s (исправление недостатков безопасности и недостатков программного обеспечения), публикуемые, только такие недостатки будут устранены.
+;Updates are available for %s and %s (security and bug fixes) and published on an ongoing basis.
+Вы можете воспользоваться обновлениями для %s и для %s (исправление недостатков безопасности и недостатков программного обеспечения), публикуемые, только такие недостатки будут устранены.
 
 
 
@@ -169,3 +169,6 @@ Mageia.Org не предоставляет и не сертифицирует н
 
 ;Mageia 2 will be supported until November 22nd, 2013.
 Поддержка Mageia 2 будет осуществляться до 22 ноября 2013 года.
+
+;Mageia 3 will be supported until November 19th, 2014.
+Поддержка Mageia 3 будет осуществляться до 19 ноября 2014 года.

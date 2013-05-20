@@ -96,26 +96,13 @@ Mageia - свободный дистрибутив Linux для персонал
 
 
 # /en/index.php +240
-;Release notes
-Примечания к выпуску
-
-
-
-
-
-# /en/index.php +240
-;https://wiki.mageia.org/en/Mageia_2_Release_Notes
-https://wiki.mageia.org/en/Mageia_2_Release_Notes
+;<a href="%s" hreflang="en">Release notes</a>
+<a href="%s" hreflang="en">Заметки о выпуске (en)</a>
 
 
 # /en/index.php +241
-;https://wiki.mageia.org/en/Mageia_2_Errata
-https://wiki.mageia.org/en/Mageia_2_Errata
-
-
-# /en/index.php +241
-;errata
-errata
+;<a href="%s" hreflang="en">errata</a>
+<a href="%s" hreflang="en">известные ошибки (en)</a>
 
 
 # /en/index.php +244

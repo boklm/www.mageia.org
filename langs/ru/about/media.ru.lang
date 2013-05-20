@@ -10,11 +10,11 @@
 ;Media files
 Мультимедийные файлы
 
+;Official Logo
+Официальный логотип
 
-# ../../svn/web/en/about/media/index.php +26
-;Logo
-Логотип
-
+;Previous Logo
+Предыдущая версия логотипа
 
 # ../../svn/web/en/about/media/index.php +30
 ;Mageia 2013
@@ -42,8 +42,11 @@ TODO: установки по использованию.
 
 
 # ../../svn/web/en/about/media/index.php +32
-;Mageia 1 CD/DVD cover
-Обложка диска Mageia 1
+;Mageia 1 CD/DVD covers
+Обложки дисков CD/DVD Mageia 1
+
+;Mageia 3 CD/DVD covers
+Обложки дисков CD/DVD Mageia 3
 
 
 # ../../svn/web/en/about/media/index.php +36
