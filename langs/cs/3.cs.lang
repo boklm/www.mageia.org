@@ -205,3 +205,272 @@ Síťový instalátor + CD s nesvobodným firmware
 # ../../svn/web/en/3/index.php +136
 ;needed for some disc controllers, some network cards, etc.
 potřeba pro některé diskové řadiče, některé síťové karty atd.
+
+
+;Download Mageia 3
+Stáhnout Mageia 3
+
+;Download Mageia 3 DVD, CD, LiveCD, network install ISO images.
+Stáhnout Mageia 3 DVD, CD, LiveCD, obrazy ISO pro síťovou instalaci.
+
+;mageia, mageia 3, linux, free, download, iso, torrent, vm, http, ftp, rsync, bittorrent
+mageia, mageia 3, linux, free, stažení, iso, torrent, vm, http, ftp, rsync, bittorrent
+
+;Download <strong>Mageia 3</strong>
+Stáhnout <strong>Mageia 3</strong>
+
+;Classical Installation Flavours
+Druhy instalace
+
+;Notes:
+Poznámky:
+
+;These DVD and CD ISOs contains Free Software and some proprietary drivers.
+Tyto obrazy DVD a CD obsahují programy s otevřeným zdrojovým kódem a některé ovladače vlastněné soukromníky.
+
+;The CD contains only a minimal list of packages.
+CD obsahují jen malý seznam balíčků.
+
+;LiveCDs and LiveDVDs
+Živá CD a DVD
+
+;Use LiveCDs and LiveDVDs for fresh new installs ONLY.
+Živá CD a DVD používejte POUZE pro čisté nové instalace.
+
+;DO NOT use these LiveCDs or LiveDVDs to upgrade from Mageia 2!
+Tato živá CD nebo DVD NEPOUŽÍVEJTE pro aktualizaci z Mageia 2!
+
+;Use above DVD or CD and see <a href="%s" hreflang="en">upgrade guide</a>.
+Použijte DVD nebo CD výše a podívejte se na <a href="%s" hreflang="en">průvodce aktualizací</a>.
+
+;Desktop
+Pracovní prostředí
+
+;All languages
+Všechny jazyky
+
+;LiveCD KDE
+Živé CD s KDE
+
+;English only
+Pouze anglicky
+
+;LiveCD GNOME
+Živé CD s GNOME
+
+;Wired Network-based Installation CD
+Instalační CD založené na síťovém přístupu k internetu
+
+;Download quickly and immediately boot into install mode from <em>wired</em> network or a local disk.
+Stáhnout rychle a okamžitě zavést systém do instalačního režimu ze sítě <em>připojené k internetu</em> nebo z místního disku.
+
+;May 19<sup>th</sup> 2013
+19. květen 2013
+
+;<a href="%s">Release notes</a>
+<a href="%s">Poznámky k vydání</a>
+
+;<a href="%s">Errata</a>
+<a href="%s">Seznam chyb</a>
+
+;Upgrading<br>from Mageia 2?
+Povyšujete<br>z Mageia 2?
+
+;<strong>do not</strong> use LiveCDs;
+<strong>nepoužívejte</strong> LiveCD;
+
+;see the <a href="%s" hreflang="en">upgrade guide</a>
+podívejte se na <a href="%s" hreflang="en">průvodce aktualizací</a>
+
+;Looking for Mageia 2?
+Hledáte Mageia 2?
+
+;It is <a href="%s">here now</a>.
+Nyní je <a href="%s">zde</a>.
+
+;Looking for Mageia 1?
+Hledáte Mageia 1?
+
+;But please remember that it already <a href="http://blog.mageia.org/en/2012/12/02/mageia-1-eol"/>reached EOL</a>.
+Uvědomte si ale prosím, že již <a href="http://blog.mageia.org/en/2012/12/02/mageia-1-eol"/>dosáhla konce své životnosti</a>.
+
+;Need more challenge?
+Potřebujete další výzvu?
+
+;You can help us <a href="%s">on Mageia 4</a>.
+Můžete nám pomoci s prací na <a href="%s">Mageia 4</a>.
+
+;Mageia 3, for your PC
+Mageia 3, pro váš počítač
+
+;for your PC
+pro váš počítač
+
+;Plenty
+Dostatek
+
+;There are more than 21&nbsp;700&nbsp;packages in our repositories. And that&#39;s just for the 64-bit branch.
+V našich úložištích je 21&nbsp;700&nbsp;balíčků. A to je jen pro 64 bitovou architekturu.
+
+;The total number is double that &ndash; and then if you consider the backports, and the packages in the Cauldron still testing... you&#39;ll see that Mageia users are spoiled for choice.
+Celkový počet je dvojnásobný. A když k tomu přidáte "backports" a balíčky, které se ještě zkoušejí v kotli (Cauldron), shledáte, že uživatelé Mageii touží po tom, moci si vybrat.
+
+;Here&#39;s a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:
+Zde je průřez. Nejprve pracovní prostředí, a potom hlavní aplikace, jež můžete používat ve svém počítači.
+
+;Environments
+Prostředí
+
+;Mageia 3 has all the major desktop environments:
+Mageia 3 obsahuje všechna hlavní pracovní prostředí:
+
+;And then there are the window managers, including Openbox, WindowMaker, IceWM, Fluxbox, Fvwm2 and Awesome.
+A potom tu jsou také správci oken, například Openbox, WindowMaker, IceWM, Fluxbox, Fvwm2 a Awesome.
+
+;Applications &rarr;
+Aplikace &rarr;
+
+;There are many, many to choose from &ndash; including all the most popular.
+Na výběr je z velmi mnoha programů &ndash; včetně těch nejoblíbenějších.
+
+;Web
+Internet
+
+;Choose your web browser from Firefox ESR 17.0.6, Chromium-browser 26.0.1410.65, Epiphany 3.6.1 or Opera 12.15 &ndash; or one of the many others such as Lynx or Konqueror; then pick an email client from KMail 4.10.2, Thunderbird ESR 17.0.6, Evolution 3.6.3 or maybe Claws-Mail or Mutt.
+Vyberte si z prohlížečů Firefox ESR 17.0.6, Chromium 26.0.1410.65, Epiphany 3.6.1 nebo Opera 12.15 &ndash; nebo některý z mnoha dalších, jako je Lynx nebo Konqueror; potom si zvolte poštovního klienta mezi KMail 4.10.2, Thunderbird ESR 10.0.4, Evolution 3.6.3 nebo třeba Claws-Mail nebo Mutt.
+
+;Messaging
+Posílání zpráv
+
+;Choose from Kopete, Pidgin, Empathy or Kadu for instant messaging; use Quassel, Konversation, XChat-Gnome or KVIrc for IRC chat; try QuteCom or Ekiga (or even Skype) for VOIP.
+Vyberte si z Kopete, Pidgin, Empathy nebo Kadu pro okamžitou výměnu zpráv; použijte Quassel, Konversation, XChat-Gnome nebo KVIrc na IRC rozhovor; vyzkoušejte QuteCom nebo Ekiga (nebo dokonce Skype) na VOIP.
+
+;Office
+Kancelář
+
+;The two full-featured office suites LibreOffice and Calligra are there, as well as AbiWord, and a host of text editors including Kate; for finance there's KMyMoney, Skrooge or the professional-level GnuCash.
+Jsou tu dva plně vybavené kancelářské balíky LibreOffice a Calligra, stejně tak AbiWord, a spousta textových editorů včetně Kate; na finance tu jsou KMyMoney, Skrooge nebo profesionální GnuCash.
+
+;Image
+Obrázky
+
+;Use GIMP for powerful image manipulation, or Inkscape for vector drawing; Blender is there for serious animation. DigiKam or Showfoto will take care of your photos, talk to your camera and give you more basic image editing.
+Na práci s obrázky použijte GIMP, nebo Inkscape na vektorové kreslení; Blender je tu na animace. DigiKam nebo Showfoto se postarají o vaše fotky, používání kamery a další základní úpravy obrázků.
+
+;Sound
+Zvuk
+
+;For playing audio files, choose from Amarok 2.7.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don&#39;t infringe local laws.
+Na přehrávání zvukových souborů si vyberte mezi ostatními například z přehrávačů Amarok 2.7.0 a Rhythmbox; VLC, Totem nebo MPlayer použijte na video a audio, nebo využijte XBMC Media Center jako systém pro svou domácí zábavu. Některé balíčky lze najít jak v repozitáři Core tak v repozitáři Tainted: balíčky v Core podporují jen nepatentované kodeky a balíčky v Tainted podporují všechny kodeky; jsou určeny uživatelům žijícím v zemích, v nichž tyto kodeky neporušují místní zákony.
+
+
+;Video
+Obraz
+
+;For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there's Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.
+Na úpravy videosouborů vyzkoušejte Avidemux, Kino nebo OpenShot; na titulky tu je Gaupol nebo Subtitles Composer; pro sledování nebo nahrávání televizních programů použijte MythTV, Miro, tvtime, FreetuxTV nebo Me TV.
+
+;Plus
+Navíc
+
+;Then there&#39;s ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.
+Pak je tu ZoneMinder pro bezpečnost CCTV; VirtualBox nebo WINE pro virtualizaci; a řada vývojářských prostředí, jako jsou Anjuta, Eclipse, Netbeans nebo KDevelop.
+
+;For more information about these and other packages, check the <a href="%s">Mageia 3 Release notes</a>.
+Další informace o těchto a jiných balíčcích najdete v <a href="%s">poznámkách o vydání Mageii 3</a>.
+
+;You can take a look at the <a href="%s">Mageia Application Database</a> to get a more complete list of Mageia packages.
+Můžete se kouknout do <a href="%s">databáze programů Mageia</a>, abyste se dostali k úplnějšímu seznamu balíčků.
+
+;Mageia 3, for your server
+Mageia 3, pro váš server
+
+;for your server
+pro váš server
+
+;Mageia 3 has all the main services and server packages you will need to run your server.
+Mageia 3 má všechny hlavní služby a serverové balíčky, jež budete potřebovat pro běh vašeho serveru.
+
+;Aside from the cross-section included here, you will find many others in the repositories: you can use rpmdrake to search for packages, or check the <a href="%s">Mageia App DB</a>.
+Kromě zde zahrnutého průřezu naleznete mnoho dalšího v repozitářích: na hledání balíčků použijte rpmdrake, nebo se podívejte na <a href="%s">databázi programů Mageii</a>.
+
+;Administration
+Správa
+
+;For centralised administration, we include puppet 2.7.21; we use it widely in <a href="%s">our own infrastructure</a>.
+Pro soustředěné řízení zahrnujeme puppet 2.7.21; hodně jej používáme v <a href="%s">naší vlastní infrastruktuře</a>.
+
+;The entire High Availability stack has been updated, and now includes drbd 8.4.2, Corosync 2.3.0 and Pacemaker 1.1.8.
+yl aktualizován celý High Availability stack, který nyní obsahuje drbd 8.4.2, Corosync 2.3.0 a Pacemaker 1.1.8.
+
+;Databases
+Databáze
+
+;Databases included are PostgreSQL 8.4.17; MariaDB 5.5.28, which replaces MySQL; BDB.
+Obsažené databáze jsou PostgreSQL 8.4.17; MariaDB 5.5.28, která nahrazuje MySQL; BDB.
+
+;And there are NoSQL servers too: CouchDB 1.2.1, Redis 2.6.5, MongoDB 2.2.2.
+A jsou tu i NoSQL servery: CouchDB 1.2.1, Redis 2.6.5, MongoDB 2.2.2.
+
+;Servers
+Servery
+
+;Web servers include Apache 2.4.4, Cherokee 1.2.101 and lighttpd 1.4.32.
+Internetové servery zahrnují Apache 2.4.4, Cherokee 1.2.101 a lighttpd 1.4.32.
+
+;For file and directory sharing and network printing on heterogeneous networks, we have Samba 3.6.15, OpenLDAP 2.4.33 and Cups 1.5.4.
+Na sdílení souborů a adresářů a pro síťový tisk na nestejnorodých sítích máme Samba 3.6.15, OpenLDAP 2.4.33 a Cups 1.5.4.
+
+;Mail servers included with Mageia 3 are Postfix 2.9.6, Cyrus-imapd 2.4.17 and Dovecot 2.1.15.
+Poštovní servery zahrnuté v Mageia 3 jsou Postfix 2.9.6, Cyrus-imapd 2.4.17 a Dovecot 2.1.15.
+
+;For more information about these and other packages, check the <a href="https://wiki.mageia.org/en/Mageia_3_Release_Notes">Mageia 3 Release notes</a>.
+Další informace o těchto a jiných balíčcích najdete v <a href="https://wiki.mageia.org/en/Mageia_3_Release_Notes">poznámkách o vydání Mageii 3</a>.
+
+;Mageia 3 is the new, solid, stable Linux distribution from the Mageia project.
+Mageia 3 je nová, spolehlivá, stabilní linuxová distribuce projektu Mageia.
+
+;Mageia 3 is a GNU/Linux distribution for your computer, released by the <a href="%s">Mageia community</a>.
+Mageia 3 je distribuce GNU/Linux určená pro váš počítač, vydána <a href="%s">společenstvím Mageia</a>.
+
+;What&#39;s new?
+Co je nového?
+
+;Too much to include here! See the <a href="https://wiki.mageia.org/en/Mageia_3_Release_Notes">release notes</a> for an extensive exposé.
+Je toho tolik,co by se zde mělo napsat! Podívejte se na rozsáhlé prohlášení v <a href="https://wiki.mageia.org/en/Mageia_3_Release_Notes">poznámkách k vydání</a>.
+
+;Download it right away!
+Stahujte ihned!
+
+;Mageia in context
+Mageia v souvislostech
+
+;Mageia is both a Community and a Linux Distribution, with Mageia 3 being our third release.
+Mageia je jak komunitní tak linuxová distribuce, a Mageia 3 je naším třetím vydáním.
+
+;Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch&#39;s most popular distributions</a>.
+Od vydání <a href="../1/">Mageia 1</a> je naše nabídka trvale v <a href="%s">desítce nejoblíbenějších distribucí na Distrowatch</a>.
+
+;Mageia 3 is supported by the <a href="../about/">Mageia.org nonprofit organisation</a>, which is governed by a body of recognized and elected contributors.
+Mageia 3 je podporována <a href="../about/">neziskovou organizací Mageia.org</a>, která je řízena skupinou uznávaných a volených přispěvatelů.
+
+;Mageia 3 has been made by more than 100 people from all around the world.
+Na Mageie 3 dělalo více než 100 lidí z celého světa.
+
+;Our work adds to the excellent work of the wider Linux and Free Software community. We aim to bring one of the best, most stable, reliable and enjoyable experience and platform we can make; for regular users, developers and businesses.
+Naše práce se přidává k výborné práci širšího společenství spojeného s Linuxem a svobodným software. Snažíme se přinést ten nejlepší, nejstabilnější, nejspolehlivější a nejpříjemnější zážitek a systém, jaký dokážeme udělat; pro běžné uživatele, vývojáře a podniky.
+
+;We welcome new contributors to any of the many different teams that go to make up Mageia the Community, and we encourage you to join us.
+Vítáme nové přispěvatele do kterékoli z mnoha skupin, kteří jdou a dělají z Mageii společenství, a povzbuzujeme vás v tom, abyste se k nám přidali.
+
+;Mageia&nbsp;3
+Mageia 3
+
+;Download
+Stažení
+
+;For PC
+Osobní počítač
+
+;For server
+Server

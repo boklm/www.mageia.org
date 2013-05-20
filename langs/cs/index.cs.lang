@@ -95,27 +95,11 @@ verze 2 (květen 2012)
 version 3 (May 2013)
 
 
-# /en/index.php +240
-;Release notes
-Poznámky k vydání
+;<a href="%s" hreflang="en">Release notes</a>
+<a href="%s" hreflang="en">Poznámky k vydání</a>
 
-
-
-
-
-# /en/index.php +240
-;https://wiki.mageia.org/en/Mageia_2_Release_Notes
-https://wiki.mageia.org/en/Mageia_2_Release_Notes {ok}
-
-
-# /en/index.php +241
-;https://wiki.mageia.org/en/Mageia_2_Errata
-https://wiki.mageia.org/en/Mageia_2_Errata {ok}
-
-
-# /en/index.php +241
-;errata
-seznam chyb
+;<a href="%s" hreflang="en">errata</a>
+<a href="%s" hreflang="en">seznam chyb</a>
 
 
 # /en/index.php +244
