@@ -348,7 +348,7 @@ Vyberte si z Kopete, Pidgin, Empathy nebo Kadu pro okamžitou výměnu zpráv; p
 ;Office
 Kancelář
 
-;The two full-featured office suites LibreOffice and Calligra are there, as well as AbiWord, and a host of text editors including Kate; for finance there's KMyMoney, Skrooge or the professional-level GnuCash.
+;The two full-featured office suites LibreOffice and Calligra are there, as well as AbiWord, and a host of text editors including Kate; for finance there&#39;s KMyMoney, Skrooge or the professional-level GnuCash.
 Jsou tu dva plně vybavené kancelářské balíky LibreOffice a Calligra, stejně tak AbiWord, a spousta textových editorů včetně Kate; na finance tu jsou KMyMoney, Skrooge nebo profesionální GnuCash.
 
 ;Image
@@ -367,7 +367,8 @@ Na přehrávání zvukových souborů si vyberte mezi ostatními například z p
 ;Video
 Obraz
 
-;For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there's Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.
+;
+;For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there&#39;s Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.
 Na úpravy videosouborů vyzkoušejte Avidemux, Kino nebo OpenShot; na titulky tu je Gaupol nebo Subtitles Composer; pro sledování nebo nahrávání televizních programů použijte MythTV, Miro, tvtime, FreetuxTV nebo Me TV.
 
 ;Plus
@@ -401,7 +402,7 @@ Správa
 Pro soustředěné řízení zahrnujeme puppet 2.7.21; hodně jej používáme v <a href="%s">naší vlastní infrastruktuře</a>.
 
 ;The entire High Availability stack has been updated, and now includes drbd 8.4.2, Corosync 2.3.0 and Pacemaker 1.1.8.
-yl aktualizován celý High Availability stack, který nyní obsahuje drbd 8.4.2, Corosync 2.3.0 a Pacemaker 1.1.8.
+Byl aktualizován celý High Availability stack, který nyní obsahuje drbd 8.4.2, Corosync 2.3.0 a Pacemaker 1.1.8.
 
 ;Databases
 Databáze
