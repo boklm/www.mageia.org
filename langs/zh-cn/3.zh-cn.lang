@@ -384,7 +384,7 @@ The total number is double that &ndash; and then if you consider the backports, 
 
 # en/for-pc/index.php +29
 ;Here's a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:
-Here's a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:
+此处列出了按功能划分的软件包，首先是工作桌面环境，其次是您可在桌面中使用的核心应用程序：
 
 
 # en/for-pc/index.php +30
@@ -489,7 +489,7 @@ For more information about these and other packages, check the <a href="%s">Mage
 
 # en/for-pc/index.php +96
 ;You can take a look at the <a href="%s">Mageia Application Database</a> to get a more complete list of Mageia packages.
-要获得 Mageia 软件包的完整列表，可以参见<a href="%s">Mageia 应用程序数据库</a>。
+要获得 Mageia 软件包的完整列表，可以参见 <a href="%s">Mageia 应用程序数据库</a>。
 
 
 # en/for-server/index.php +12
@@ -515,7 +515,7 @@ Mageia 2 现在包含运行服务器所需的所有主流服务和服务器软�
 
 # en/for-server/index.php +27
 ;Aside from the cross-section included here, you will find many others in the repositories: you can use rpmdrake to search for packages, or check the <a href="%s">Mageia App DB</a>.
-Aside from the cross-section included here, you will find many others in the repositories: you can use rpmdrake to search for packages, or check the <a href="%s">Mageia App DB</a>.
+除了此处包含的按照功能划分的软件包，您还能在仓库中找到更多软件包：您可以使用 rpmdrake 搜索软件包，或者查阅 <a href="%s">Mageia 应用数据库</a>。
 
 
 ;Administration
