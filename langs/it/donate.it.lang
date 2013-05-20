@@ -14,11 +14,11 @@ Donare via PayPal,
 
 # ../../svn/web/en/donate/index.php +34
 ;via bitcoin,
-via bitcoin,
+via bitcoin, {ok}
 
 # ../../svn/web/en/donate/index.php +35
 ;If you want to donate <a href="http://bitcoin.org/">bitcoins</a>, the Mageia.Org bitcoin address is <b>%s</b>.
-If you want to donate <a href="http://bitcoin.org/">bitcoins</a>, the Mageia.Org bitcoin address is <b>%s</b>.
+Se vuoi donare <a href="http://bitcoin.org/">bitcoins</a>, l'indirizzo bitcoin di Mageia.Org è <b>%s</b>.
 
 
 # ../../svn/web/en/donate/index.php +37
@@ -63,7 +63,7 @@ il tasso di cambio è a carico di Mageia, per favore usate &euro; come valuta;
 
 
 ;if you want to do an anonymous donation, please add a comment or send an email to %s.
-if you want to do an anonymous donation, please add a comment or send an email to %s.
+se vuoi fare donazioni anonime, aggiungi perfavore un commento o manda una mail a %s.
 
 
 ;if you want to do an anonymous donation, please add a comment.
@@ -120,9 +120,9 @@ Noi crediamo che una contabilità pubblica sia cruciale. Puoi saperne di più su
 
 # ../../svn/web/en/donate/index.php +107
 ;Questions?
-Questions?
+Domande?
 
 
 # ../../svn/web/en/donate/index.php +108
 ;If you have any question about donations, you can send an email to <a href="mailto:treasurer@mageia.org">treasurer@mageia.org</a>.
-If you have any question about donations, you can send an email to <a href="mailto:treasurer@mageia.org">treasurer@mageia.org</a>.
+Se hai domande riguardo le donazioni, puoi inviare una mail a <a href="mailto:treasurer@mageia.org">treasurer@mageia.org</a>.
