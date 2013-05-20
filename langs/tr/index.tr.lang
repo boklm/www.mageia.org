@@ -96,23 +96,13 @@ sürüm 3 (Mayıs 2013)
 
 
 # /en/index.php +240
-;Release notes
-Sürüm notları
-
-
-# /en/index.php +240
-;https://wiki.mageia.org/en/Mageia_2_Release_Notes
-https://wiki.mageia.org/en/Mageia_2_Release_Notes {ok}
+;<a href="%s" hreflang="en">Release notes</a>
+<a href="%s" hreflang="en">Sürüm notları</a>
 
 
 # /en/index.php +241
-;https://wiki.mageia.org/en/Mageia_2_Errata
-https://wiki.mageia.org/en/Mageia_2_Errata {ok}
-
-
-# /en/index.php +241
-;errata
-bilinen hatalar
+;<a href="%s" hreflang="en">errata</a>
+<a href="%s" hreflang="en">Bilinen hatalar</a>
 
 
 # /en/index.php +244
