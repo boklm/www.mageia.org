@@ -95,6 +95,18 @@ version 2 (May 2012)
 version 3 (May 2013)
 
 
+# en/index.php +243
+# if release notes are translated in your language use it's link instead of %s and replace en in hreflang with your language code
+;<a href="%s" hreflang="en">Release notes</a>
+<a href="%s" hreflang="en">Release notes</a>
+
+
+# en/index.php +244
+# if errata is translated in your language use it's link instead of %s and replace en in hreflang with your language code
+;<a href="%s" hreflang="en">errata</a>
+<a href="%s" hreflang="en">errata</a>
+
+
 # /en/index.php +240
 ;Release notes
 Release notes
