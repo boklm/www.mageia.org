@@ -50,8 +50,8 @@ Aggiornamenti
 
 
 # ../../svn/web/en/support/index.php +44
-;Updates are available for %s (security and bug fixes) and published on an ongoing basis.
-Gli aggiornamenti per %s (sicurezza e correzioni) sono disponibili e vengono pubblicati continuamente.
+;Updates are available for %s and %s (security and bug fixes) and published on an ongoing basis.
+Gli aggiornamenti per %s e %s (sicurezza e correzioni) sono disponibili e vengono pubblicati continuamente.
 
 
 ;You can install these from the Mageia Control Center.
@@ -81,6 +81,9 @@ Mageia 1 è stata supportata fino al 1 Dicembre 2012.
 ;Mageia 2 will be supported until November 22nd, 2013.
 Mageia 2 sarà supportata fino al 22 Novembre 2013.
 
+# added manually
+;Mageia 3 will be supported until November 19th, 2014.
+Mageia 3 sarà supportata fino al 19 Novembre 2014.
 
 ;If you need help, information or directions about the Mageia distribution you installed or about the project, you can try to reach us through:
 Se hai bisogno di aiuto, informazioni o guide riguardo alla distribuzione Mageia che hai installato o riguardo al progetto, puoi provare a contattarci tramite:
