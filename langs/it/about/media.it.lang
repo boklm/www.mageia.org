@@ -10,10 +10,13 @@ File del media di Mageia
 ;Media files
 Media files {ok}
 
+# ../../svn/web/en/about/media/index.php +25 modified manually
+;Official Logo
+Logo Ufficiale
 
-# ../../svn/web/en/about/media/index.php +26
-;Logo
-Logo {ok}
+#added manually
+;Previous Logo
+Logo Precedente
 
 
 # ../../svn/web/en/about/media/index.php +30
@@ -41,9 +44,13 @@ Mageia 2013 alpha {ok}
 TODO: linee guida per l'utilizzo.
 
 
-# ../../svn/web/en/about/media/index.php +32
-;Mageia 1 CD/DVD cover
-Cover CD/DVD Mageia 1
+# added mnually
+;Mageia 3 CD/DVD covers
+Copertine Mageia 3 CD/DVD
+
+# ../../svn/web/en/about/media/index.php +53
+;Mageia 1 CD/DVD covers
+Copertine Mageia 1 CD/DVD
 
 
 # ../../svn/web/en/about/media/index.php +36
