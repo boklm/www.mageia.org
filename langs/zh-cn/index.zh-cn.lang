@@ -136,3 +136,12 @@ errata
 # /en/index.php +266
 ;Privacy policy
 隐私策略
+
+;<a href="%s" hreflang="en">Release notes</a>
+<a href="%s" hreflang="en">版本通告</a>
+
+;<a href="%s" hreflang="en">errata</a>
+<a href="%s" hreflang="en">勘误表</a>
+
+;Mageia, a free, community-based Linux distribution for desktop & server.
+Mageia 是一款桌面和服务器均适用的基于社区的 Linux 发行版。
