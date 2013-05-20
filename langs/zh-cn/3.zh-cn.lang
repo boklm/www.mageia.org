@@ -369,7 +369,7 @@ Mageia 2, 用于个人电脑
 
 # en/for-pc/index.php +26
 ;Plenty
-Plenty
+丰富
 
 
 # en/for-pc/index.php +27
@@ -399,7 +399,7 @@ Mageia 2 包含所有主流的桌面环境：
 
 # en/for-pc/index.php +44
 ;And then there are the window managers, including Openbox, WindowMaker, IceWM, Fluxbox, Fvwm2 and Awesome.
-And then there are the window managers, including Openbox, WindowMaker, IceWM, Fluxbox, Fvwm2 and Awesome.
+以及窗口管理器，包括 Openbox、WindowMaker、IceWM、Fluxbox、Fvwm2 和 Awesome。
 
 
 # en/for-pc/index.php +45
@@ -409,7 +409,7 @@ And then there are the window managers, including Openbox, WindowMaker, IceWM, F
 
 # en/for-pc/index.php +46
 ;There are many, many to choose from &ndash; including all the most popular.
-There are many, many to choose from &ndash; including all the most popular.
+您可从最流行的软件包中进行选择。
 
 
 # en/for-pc/index.php +53
@@ -424,17 +424,17 @@ Choose your web browser from Firefox ESR 10.0.4, Chromium-browser 180.1025.160, 
 
 # en/for-pc/index.php +59
 ;Messaging
-Messaging
+通讯
 
 
 # en/for-pc/index.php +60
 ;Choose from Kopete, Pidgin, Empathy or Kadu for instant messaging; use Quassel, Konversation, XChat-Gnome or KVIrc for IRC chat; try QuteCom or Ekiga (or even Skype) for VOIP.
-Choose from Kopete, Pidgin, Empathy or Kadu for instant messaging; use Quassel, Konversation, XChat-Gnome or KVIrc for IRC chat; try QuteCom or Ekiga (or even Skype) for VOIP.
+使用 Kopete、Pidgin、Empathy 或 Kadu 进行即时通讯；使用 Quassel、Konversation、XChat-Gnome 或 KVIrc 进行 IRC 聊天；使用  QuteCom 或 Ekiga (甚至 Skype) 进行语音对话。
 
 
 # en/for-pc/index.php +65
 ;Office
-Office
+办公
 
 
 # en/for-pc/index.php +66
@@ -444,7 +444,7 @@ The two full-featured office suites LibreOffice and Calligra are there, as well 
 
 # en/for-pc/index.php +71
 ;Image
-Image
+图像
 
 
 # en/for-pc/index.php +72
@@ -454,7 +454,7 @@ Use GIMP for powerful image manipulation, or Inkscape for vector drawing; Blende
 
 # en/for-pc/index.php +77
 ;Sound
-Sound
+声音
 
 
 # en/for-pc/index.php +78
@@ -464,7 +464,7 @@ For playing audio files, choose from Amarok 2.5.0 and Rhythmbox, among others; u
 
 # en/for-pc/index.php +83
 ;Video
-Video
+视频
 
 
 # en/for-pc/index.php +84
@@ -474,7 +474,7 @@ For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there's 
 
 # en/for-pc/index.php +89
 ;Plus
-Plus
+此外
 
 
 # en/for-pc/index.php +90
@@ -489,7 +489,7 @@ For more information about these and other packages, check the <a href="%s">Mage
 
 # en/for-pc/index.php +96
 ;You can take a look at the <a href="%s">Mageia Application Database</a> to get a more complete list of Mageia packages.
-You can take a look at the <a href="%s">Mageia Application Database</a> to get a more complete list of Mageia packages.
+要获得 Mageia 软件包的完整列表，可以参见<a href="%s">Mageia 应用程序数据库</a>。
 
 
 # en/for-server/index.php +12
@@ -650,43 +650,53 @@ LiveCD 和 LiveDVD 只能用于新装。
 ;There are more than 21&nbsp;700&nbsp;packages in our repositories. And that&#39;s just for the 64-bit branch.
 我们的软件仓库中包含超过 21700 个软件包，而这仅仅是 64 位分支。
 
-;The total number is double that &ndash; and then if you consider the backports, and the packages in the Cauldron still testing... you&#39;ll see that Mageia users are spoiled for choice.
-
-;Here&#39;s a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:
-
 ;Mageia 3 has all the major desktop environments:
 Mageia 3 包含所有主流桌面环境：
 
 ;Choose your web browser from Firefox ESR 17.0.6, Chromium-browser 26.0.1410.65, Epiphany 3.6.1 or Opera 12.15 &ndash; or one of the many others such as Lynx or Konqueror; then pick an email client from KMail 4.10.2, Thunderbird ESR 17.0.6, Evolution 3.6.3 or maybe Claws-Mail or Mutt.
+使用 Firefox ESR 17.0.6、Chromium 浏览器 26.0.1410.65、Epiphany 3.6.1 或 Opera 12.15 及其它如 Lynx、Konqueror 进行 Web 浏览；使用 KMail 4.10.2、Thunderbird ESR 17.0.6、Evolution 3.6.3 甚至 Claws-Mail 或 Mutt 收发邮件。
 
 ;The two full-featured office suites LibreOffice and Calligra are there, as well as AbiWord, and a host of text editors including Kate; for finance there&#39;s KMyMoney, Skrooge or the professional-level GnuCash.
+除了有全功能的办公套件如 LibreOffice 和 Calligra，还有 AbiWord，以及各种各样的文本编辑器如 Kate；至于金融管理，则有 KMyMoney、Skrooge 和专业级的 GnuCash。
 
 ;For playing audio files, choose from Amarok 2.7.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don&#39;t infringe local laws.
+要播放音频文件，您可以选择 Amarok 2.7.0 和 Rhythmbox；使用 VLC、Totem 或 MPlayer 可进行影音播放，使用 XBMC 媒体中心可打造您的家庭娱乐系统。Core 和 Tainted 软件仓库的区别在于，Core 仓库只支持无专利隐患的编解码器，而 Tainted 软件仓库支持所有编解码器，以供不违反本地法律的用户使用。
 
 ;For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there&#39;s Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.
+要编辑视频文件，请使用 Avidemux、Kino 或 OpenShot；要编辑字幕，请使用 Gaupol 或字幕编辑器；使用 MythTV、Miro、tvtime、FreetuxTV 或 Me TV 观察或录制电视节目。
 
 ;Then there&#39;s ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.
+还有 ZoneMinder 可用于视频监控；VirtualBox 或 WINE 进行虚拟化；此外，还有大量开发环境，如 Anjuta、Eclipse、Netbeans 或 KDevelop。
 
 ;For more information about these and other packages, check the <a href="%s">Mageia 3 Release notes</a>.
+要获得有关软件包的更多信息，请参见 <a href="%s">Mageia 3 版本通告</a>。
 
 ;Mageia 3, for your server
 适合您服务器的 Mageia 3
 
 ;Mageia 3 has all the main services and server packages you will need to run your server.
+Mageia 3 包含您运营服务器所需的所有主流服务和服务器软件包。
 
 ;For centralised administration, we include puppet 2.7.21; we use it widely in <a href="%s">our own infrastructure</a>.
+对于集中化管理，我们有 puppet 2.7.21；我们在<a href="%s">自身架构</a>中广泛使用这一软件。
 
 ;The entire High Availability stack has been updated, and now includes drbd 8.4.2, Corosync 2.3.0 and Pacemaker 1.1.8.
+整个高可用性栈已经更新，现在包含 drbd 8.4.2、Corosync 2.3.0 和 Pacemaker 1.1.8。
 
 ;Databases included are PostgreSQL 8.4.17; MariaDB 5.5.28, which replaces MySQL; BDB.
+包含的数据库有 PostgreSQL 8.4.17、取代 MySQL 的 MariaDB 5.5.28、BDB。
 
 ;And there are NoSQL servers too: CouchDB 1.2.1, Redis 2.6.5, MongoDB 2.2.2.
+以及 NoSQL 数据库：CouchDB 1.2.1、Redis 2.6.5、MongoDB 2.2.2。
 
 ;Web servers include Apache 2.4.4, Cherokee 1.2.101 and lighttpd 1.4.32.
+Web 服务器包含 Apache 2.4.4、Cherokee 1.2.101 和 lighttpd 1.4.32。
 
 ;For file and directory sharing and network printing on heterogeneous networks, we have Samba 3.6.15, OpenLDAP 2.4.33 and Cups 1.5.4.
+如果需要在异构网络中共享文件和目录，或者进行网络打印，可以使用 Samba 3.6.15、OpenLDAP 2.4.33 和 Cups 1.5.4。
 
 ;Mail servers included with Mageia 3 are Postfix 2.9.6, Cyrus-imapd 2.4.17 and Dovecot 2.1.15.
+Mageia 3 包含的邮件服务器有 Postfix 2.9.6、Cyrus-imapd 2.4.17 和 Dovecot 2.1.15。
 
 ;For more information about these and other packages, check the <a href="https://wiki.mageia.org/en/Mageia_3_Release_Notes">Mageia 3 Release notes</a>.
 要获得有关软件包的更多信息，请参见 <a href="https://wiki.mageia.org/en/Mageia_3_Release_Notes">Mageia 3 版本通告</a>。
