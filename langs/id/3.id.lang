@@ -56,6 +56,11 @@ tautan
 dualarch {ok}
 
 
+# en/3/download_index.php +64
+;Notes:
+Catatan:
+
+
 # en/3/download_index.php +66
 ;Up to 167 locales are supported:
 Hingga 167 lokalisasi yang didukung:
@@ -100,127 +105,345 @@ Gunakan LiveCD dan LiveDVD HANYA untuk instalasi baru.
 ;DO NOT use these LiveCDs or LiveDVDs to upgrade from Mageia 2!
 JANGAN gunakan LiveCD atau LiveDVD ini untuk upgrade dari Mageia 2!
 
-# added manually
+
+# en/3/download_index.php +83
 ;Use above DVD or CD and see <a href="%s" hreflang="en">upgrade guide</a>.
 Gunakan DVD atau CD di atas dan lihat <a href="%s" hreflang="en">panduan update</a>.
 
-# added manually
-;see the <a href="%s" hreflang="en">upgrade guide</a>
-lihat <a href="%s" hreflang="en">panduan upgrade</a>
 
-# en/3/download_index.php +88
+# en/3/download_index.php +87
 ;Desktop
 Desktop {ok}
 
 
-# en/3/download_index.php +91
+# en/3/download_index.php +90
 ;BitTorrent
 BitTorrent {ok}
 
 
-# en/3/download_index.php +96
+# en/3/download_index.php +95
 ;LiveDVD KDE
 LiveDVD KDE {ok}
 
 
-# en/3/download_index.php +97
+# en/3/download_index.php +96
 ;All languages
 Semua bahasa
 
 
-# en/3/download_index.php +105
+# en/3/download_index.php +104
 ;LiveDVD GNOME
 LiveDVD GNOME {ok}
 
 
-# en/3/download_index.php +113
+# en/3/download_index.php +112
 ;LiveCD KDE
 LiveCD KDE {ok}
 
 
-# en/3/download_index.php +114
+# en/3/download_index.php +113
 ;English only
 Hanya bahasa Inggris
 
 
-# en/3/download_index.php +120
+# en/3/download_index.php +119
 ;LiveCD GNOME
 LiveCD GNOME {ok}
 
 
-# en/3/download_index.php +133
+# en/3/download_index.php +132
 ;Wired Network-based Installation CD
 CD instalasi berbasis Jaringan Kabel
 
 
-# en/3/download_index.php +134
+# en/3/download_index.php +133
 ;Download quickly and immediately boot into install mode from <em>wired</em> network or a local disk.
 Download cepat dan langsung boot ke mode install dari jaringan <em>kabel</em> atau disk lokal.
 
 
-# en/3/download_index.php +146
+# en/3/download_index.php +145
 ;Network installer, Free Software CD
 CD installer jaringan, Free Software
 
 
-# en/3/download_index.php +152
+# en/3/download_index.php +151
 ;Network installer + nonfree firmware CD
 CD installer jaringan + firmware nonfree
 
 
-# en/3/download_index.php +153
+# en/3/download_index.php +152
 ;needed for some disc controllers, some network cards, etc.
-diperlukan oleh beberapa disk kontroler, beberapa perangkat jaringan, dll.
+diperlukan oleh beberapa kontroler disk, beberapa perangkat jaringan, dll.
 
 
-# en/3/download_index.php +167
+# en/3/download_index.php +166
 ;May 19<sup>th</sup> 2013
 19 Mei 2013
 
 
+# en/3/download_index.php +168
+;<a href="%s">Release notes</a>
+<a href="%s">Catatan rilis</a>
+
+
 # en/3/download_index.php +169
-;Release notes
-Catatan rilis
+;<a href="%s">Errata</a>
+<a href="%s">Errata</a> {ok}
 
 
-# en/3/download_index.php +174
+# en/3/download_index.php +173
 ;Upgrading<br>from Mageia 2?
 Upgrade<br>dari Mageia 2?
 
 
-# en/3/download_index.php +176
+# en/3/download_index.php +175
 ;<strong>do not</strong> use LiveCDs;
 <strong>jangan</strong> gunakan LiveCD;
 
 
-# en/3/download_index.php +183
+# en/3/download_index.php +176
+;see the <a href="%s" hreflang="en">upgrade guide</a>
+lihat <a href="%s" hreflang="en">panduan upgrade</a>
+
+
+# en/3/download_index.php +181
 ;Looking for Mageia 2?
 Mencari Mageia 2?
 
 
-# en/3/download_index.php +185
+# en/3/download_index.php +183
 ;It is <a href="%s">here now</a>.
 Sekarang ada <a href="%s">di sini</a>.
 
 
-# en/3/download_index.php +191
+# en/3/download_index.php +189
 ;Looking for Mageia 1?
 Mencari Mageia 1?
 
 
-# en/3/download_index.php +194
+# en/3/download_index.php +192
 ;But please remember that it already <a href="http://blog.mageia.org/en/2012/12/02/mageia-1-eol"/>reached EOL</a>.
-Tapi ingat, ini sudah <a href="http://blog.mageia.org/en/2012/12/02/mageia-1-eol"/>mencapai batas dukungan</a>.
+Tapi ingat, ini sudah <a href="http://blog.mageia.org/en/2012/12/02/mageia-1-eol"/>mencapai batas akhir dukungan</a>.
 
 
-# en/3/download_index.php +200
+# en/3/download_index.php +198
 ;Need more challenge?
 Butuh tantangan?
 
 
-# en/3/download_index.php +201
+# en/3/download_index.php +199
 ;You can help us <a href="%s">on Mageia 4</a>.
 Kamu bisa membantu kami <a href="%s">di Mageia 4</a>.
+
+
+# en/for-pc/index.php +12
+;Mageia 3, for your PC
+Mageia 3, untuk PC-mu
+
+
+# en/for-pc/index.php +22
+;for your PC
+untuk PC-mu
+
+
+# en/for-pc/index.php +27
+;Plenty
+Berlimpah
+
+
+# en/for-pc/index.php +28
+;There are more than 21&nbsp;700&nbsp;packages in our repositories. And that&#39;s just for the 64-bit branch.
+Ada lebih dari 21&nbsp;700&nbsp;paket di dalam repositori kami. Dan itu cuma untuk arsitektur 64-bit.
+
+
+# en/for-pc/index.php +29
+;The total number is double that &ndash; and then if you consider the backports, and the packages in the Cauldron still testing... you&#39;ll see that Mageia users are spoiled for choice.
+Jumlah total adalah dua kali lipat &ndash; dan jika kamu menghitung backports, dan paket dalam Cauldron yang masih diuji... kamu bisa lihat bahwa pengguna Mageia begitu dimanjakan oleh banyak pilihan.
+
+
+# en/for-pc/index.php +30
+;Here&#39;s a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:
+Ini adalah gambarannya, pertama adalah lingkungan grafis, lalu aplikasi inti yang bisa kamu gunakan di desktop-mu:
+
+
+# en/for-pc/index.php +31
+;Environments
+Lingkungan desktop
+
+
+# en/for-pc/index.php +32
+;Mageia 3 has all the major desktop environments:
+Mageia 3 punya semua lingkungan desktop utama:
+
+
+# en/for-pc/index.php +43
+;And then there are the window managers, including Openbox, WindowMaker, IceWM, Fluxbox, Fvwm2 and Awesome.
+Dan kemudian ada manajer window, termasuk Openbox, WindowMaker, IceWM, Fluxbox, Fvwm2 dan Awesome.
+
+
+# en/for-pc/index.php +44
+;Applications &rarr;
+Aplikasi &rarr;
+
+
+# en/for-pc/index.php +45
+;There are many, many to choose from &ndash; including all the most popular.
+Ada banyak yang bisa dipilih &ndash; termasuk yang paling populer.
+
+
+# en/for-pc/index.php +51
+;Web
+Web {ok}
+
+
+# en/for-pc/index.php +52
+;Choose your web browser from Firefox ESR 17.0.6, Chromium-browser 26.0.1410.65, Epiphany 3.6.1 or Opera 12.15 &ndash; or one of the many others such as Lynx or Konqueror; then pick an email client from KMail 4.10.2, Thunderbird ESR 17.0.6, Evolution 3.6.3 or maybe Claws-Mail or Mutt.
+Pilih browser web-mu mulai dari Firefox ESR 17.0.6, Chromium-browser 26.0.1410.65, Epiphany 3.6.1 atau Opera 12.15 &ndash; atau satu dari banyak yang lainnya seperti Lynx atau Konqueror; lalu pilih klien email mulai dari KMail 4.10.2, Thunderbird ESR 17.0.6, Evolution 3.6.3 atau mungkin Claws-Mail atau Mutt.
+
+
+# en/for-pc/index.php +57
+;Messaging
+Perpesanan
+
+
+# en/for-pc/index.php +58
+;Choose from Kopete, Pidgin, Empathy or Kadu for instant messaging; use Quassel, Konversation, XChat-Gnome or KVIrc for IRC chat; try QuteCom or Ekiga (or even Skype) for VOIP.
+Pilih mulai dari Kopete, Pidgin, Empathy atau Kadu untuk pesan instan; gunakan Quassel, Konversation, XChat-Gnome atau KVIrc untuk obrolan IRC; coba juga QuteCom atau Ekiga (atau bahkan Skype) untuk VOIP.
+
+
+# en/for-pc/index.php +63
+;Office
+Perkantoran
+
+
+# en/for-pc/index.php +64
+;The two full-featured office suites LibreOffice and Calligra are there, as well as AbiWord, and a host of text editors including Kate; for finance there&#39;s KMyMoney, Skrooge or the professional-level GnuCash.
+Dua aplikasi perkantoran lengkap LibreOffice dan Calligra ada di sini, sama halnya dengan AbiWord, dan sejumlah teks editor termasuk Kate; untuk keuangan ada KMyMoney, Skrooge atau yang berlevel profesional, GnuCash.
+
+
+# en/for-pc/index.php +69
+;Image
+Gambar
+
+
+# en/for-pc/index.php +70
+;Use GIMP for powerful image manipulation, or Inkscape for vector drawing; Blender is there for serious animation. DigiKam or Showfoto will take care of your photos, talk to your camera and give you more basic image editing.
+Gunakan GIMP untuk manipulasi gambar yang powerful, atau Inkscape untuk menggambar vektor; Blender ada untuk animasi serius. DigiKam atau Showfoto akan mengelola fotomu, berinteraksi dengan kameramu dan berikan lebih banyak penyuntingan gambar.
+
+
+# en/for-pc/index.php +75
+;Sound
+Suara
+
+
+# en/for-pc/index.php +76
+;For playing audio files, choose from Amarok 2.7.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don&#39;t infringe local laws.
+Untuk memainkan file audio, pilih mulai dari Amarok 2.7.0 dan Rhythmbox, di antara yang lainnya; gunakan VLC, Totem atau MPlayer untuk video dan untuk audio, atau gunakan XBMC Media Center sebagai sistem home entertainment. Beberapa paket bisa ditemukan di dalam repositori Core dan Tainted: paket di dalam repositori Core hanya mendukung codec yang tidak melanggar paten dan paket di dalam repositori Tainted mendukung semua codec, untuk pengguna yang tinggal di negara di mana codec-codec tersebut tidak dianggap melanggar hukum.
+
+
+# en/for-pc/index.php +81
+;Video
+Video {ok}
+
+
+# en/for-pc/index.php +82
+;For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there&#39;s Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.
+Untuk mengedit file video, coba Avidemux, Kino atau OpenShot; untuk teks film, ada Gaupol atau Subtitles Composer; gunakan MythTV, Miro, tvtime, FreetuxTV atau Me TV untuk menyaksikan atau merekam program TV.
+
+
+# en/for-pc/index.php +87
+;Plus
+Plus {ok}
+
+
+# en/for-pc/index.php +88
+;Then there&#39;s ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.
+Lalu ada ZoneMinder, untuk keamanan CCTV; VirtualBox atau WINE untuk virtualisasi; dan berbagai aplikasi pengembangan seperti Anjuta, Eclipse, Netbeans atau KDevelop.
+
+
+# en/for-pc/index.php +93
+;For more information about these and other packages, check the <a href="%s">Mageia 3 Release notes</a>.
+Untuk informasi lebih banyak tentang ini dan paket lainnya, lihat <a href="%s">Catatan Rilis Mageia 3</a>.
+
+
+# en/for-pc/index.php +94
+;You can take a look at the <a href="%s">Mageia Application Database</a> to get a more complete list of Mageia packages.
+Kamu bisa melihat <a href="%s">Basis Data Aplikasi Mageia</a> untuk mendapatkan daftar lengkap paket Mageia.
+
+
+# en/for-server/index.php +12
+;Mageia 3, for your server
+Mageia 3, untuk server-mu
+
+
+# en/for-server/index.php +22
+;for your server
+untuk server-mu
+
+
+# en/for-server/index.php +27
+;Mageia 3 has all the main services and server packages you will need to run your server.
+Mageia 3 punya semua layanan utama dan paket server yang kamu perlukan untuk menjalankan server.
+
+
+# en/for-server/index.php +28
+;Aside from the cross-section included here, you will find many others in the repositories: you can use rpmdrake to search for packages, or check the <a href="%s">Mageia App DB</a>.
+Selain dari yang tercakup di sini, kamu akan menemukan banyak lagi di dalam repositori: kamu bisa menggunakan rpmdrake untuk mencari paket, atau lihat <a href="%s">Mageia App DB</a>.
+
+
+# en/for-server/index.php +30
+;Administration
+Administrasi
+
+
+# en/for-server/index.php +31
+;For centralised administration, we include puppet 2.7.21; we use it widely in <a href="%s">our own infrastructure</a>.
+Untuk pemusatan administrasi, kami menyertakan 2.7.21; kami menggunakannya secara luas di <a href="%s">infrastruktur kami</a>.
+
+
+# en/for-server/index.php +33
+;The entire High Availability stack has been updated, and now includes drbd 8.4.2, Corosync 2.3.0 and Pacemaker 1.1.8.
+Keseluruhan ketersediaan telah kami perbarui, dan sekarang termasuk drbd 8.4.2, Corosync 2.3.0 dan Pacemaker 1.1.8.
+
+
+# en/for-server/index.php +35
+;Databases
+Basis data
+
+
+# en/for-server/index.php +36
+;Databases included are PostgreSQL 8.4.17; MariaDB 5.5.28, which replaces MySQL; BDB.
+Basis data yang disertakan adalah PostgreSQL 8.4.17; MariaDB 5.5.28, yang menggantikan MySQL; BDB.
+
+
+# en/for-server/index.php +37
+;And there are NoSQL servers too: CouchDB 1.2.1, Redis 2.6.5, MongoDB 2.2.2.
+Dan ada juga server NoSQL: CouchDB 1.2.1, Redis 2.6.5, MongoDB 2.2.2.
+
+
+# en/for-server/index.php +39
+;Servers
+Server
+
+
+# en/for-server/index.php +40
+;Web servers include Apache 2.4.4, Cherokee 1.2.101 and lighttpd 1.4.32.
+Server web menyertakan Apache 2.4.4, Cherokee 1.2.101 dan lighttpd 1.4.32.
+
+
+# en/for-server/index.php +41
+;For file and directory sharing and network printing on heterogeneous networks, we have Samba 3.6.15, OpenLDAP 2.4.33 and Cups 1.5.4.
+Untuk sharing file dan direktori dan percetakan jaringan pada jaringan yang beragam, kami punya Samba 3.6.15, OpenLDAP 2.4.33 dan Cups 1.5.4.
+
+
+# en/for-server/index.php +42
+;Mail servers included with Mageia 3 are Postfix 2.9.6, Cyrus-imapd 2.4.17 and Dovecot 2.1.15.
+Server surat yang disertakan dengan Mageia 3 adalah Postfix 2.9.6, Cyrus-imapd 2.4.17 dan Dovecot 2.1.15.
+
+
+# en/for-server/index.php +48
+;For more information about these and other packages, check the <a href="https://wiki.mageia.org/en/Mageia_3_Release_Notes">Mageia 3 Release notes</a>.
+Untuk informasi lebih lengkap tentang ini dan paket lainnya, lihat <a href="https://wiki.mageia.org/en/Mageia_3_Release_Notes">Catatan Rilis Mageia 3</a>.
 
 
 # en/3/index.php +12
@@ -228,96 +451,81 @@ Kamu bisa membantu kami <a href="%s">di Mageia 4</a>.
 Mageia 3 {ok}
 
 
-# en/3/index.php +35
-;Development roadmap
-Peta jalan pengembangan
+# en/3/index.php +14
+;Mageia 3 is the new, solid, stable Linux distribution from the Mageia project.
+Mageia 3 adalah distribusi Linux baru, solid, stabil dari proyek Mageia.
+
+
+# en/3/index.php +29
+;Mageia 3 is a GNU/Linux distribution for your computer, released by the <a href="%s">Mageia community</a>.
+Mageia 3 adalah distribusi GNU/Linux untuk komputer-mu, dikeluarkan oleh <a href="%s">komunitas Mageia</a>.
+
+
+# en/3/index.php +31
+;What&#39;s new?
+Apa yang baru?
+
+
+# en/3/index.php +32
+;Too much to include here! See the <a href="https://wiki.mageia.org/en/Mageia_3_Release_Notes">release notes</a> for an extensive exposé.
+Terlalu banyak untuk ditulis di sini! Lihat <a href="https://wiki.mageia.org/en/Mageia_3_Release_Notes">catatan rilis</a> untuk paparan lebih lengkap.
+
+
+# en/3/index.php +34
+;Download it right away!
+Download sekarang juga!
 
 
 # en/3/index.php +36
-;Features review
-Ulasan fitur
+;Mageia in context
+Mageia dalam konteks
+
+
+# en/3/index.php +37
+;Mageia is both a Community and a Linux Distribution, with Mageia 3 being our third release.
+Mageia adalah Komunitas dan Distribusi Linux, dengan Mageia 3 sebagai rilis ketiga.
 
 
 # en/3/index.php +38
-;Errata
-Errata {ok}
+;Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch&#39;s most popular distributions</a>.
+Sejak merilis <a href="../1/">Mageia 1</a>, kami secara konsisten berada dalam <a href="%s">top 10 dari distribusi paling populer di Distrowatch</a>.
 
 
-# en/3/index.php +39
-;Bugs Reports
-Laporan Bug
+# en/3/index.php +40
+;Mageia 3 is supported by the <a href="../about/">Mageia.org nonprofit organisation</a>, which is governed by a body of recognized and elected contributors.
+Mageia 3 didukung oleh <a href="../about/">organisasi nonprofit Mageia.org</a>, yang dikelola oleh sebuah tim kontributor yang diakui dan terpilih.
+
+
+# en/3/index.php +41
+;Mageia 3 has been made by more than 100 people from all around the world.
+Mageia 3 dibuat oleh lebih dari 100 orang dari seluruh penjuru dunia.
 
 
 # en/3/index.php +43
-;This is a Release Candidate. Release Candidate software is software that has graduated Beta testing, and should be a release-ready product suitable for advanced users and reviewers. However, beginning users and critical-applications users may wish to wait for the final release planned for May 2013.
-Ini adalah Release Candidate. Software Release Candidate adalah software yang telah lulus pengujian Beta, dan sudah jadi produk yang siap rilis yang cocok untuk pengguna berpengalaman dan para pengulas produk. Tetapi, pengguna pemula dan pengguna aplikasi penting mungkin ingin menunggu hingga final rilis di bulan Mei 2013.
+;Our work adds to the excellent work of the wider Linux and Free Software community. We aim to bring one of the best, most stable, reliable and enjoyable experience and platform we can make; for regular users, developers and businesses.
+Pekerjaan kami memberikan kontribusi yang luar biasa kepada komunitas Linux dan Free Software secara luas. Kami bertujuan membawa salah satu pengalaman terbaik, paling stabil, dapat diandalkan dan menyenangkan pada platform yang kami buat; untuk pengguna biasa, pengembang dan kalangan bisnis.
 
 
 # en/3/index.php +44
-;Release Candidate is intended to identify any remaining bugs or missing packages.
-Release Candidate diperuntukkan untuk mengidentifikasi bug yang tersisa atau paket yang terlupakan.
+;We welcome new contributors to any of the many different teams that go to make up Mageia the Community, and we encourage you to join us.
+Kami menyambut kontributor-kontributor baru untuk bergabung ke berbagai tim berbeda untuk membangun Komunitas Mageia, dan kami mendorong kamu untuk bergabung dengan kami.
 
 
-# en/3/index.php +46
-;Download %s
-Download %s {ok}
+# en/3/nav.php +27
+;Mageia&nbsp;3
+Mageia&nbsp;3 {ok}
 
 
-# en/3/index.php +54
-;Installer DVD and CD ISOs now contains Free Software and some proprietary drivers.
-CD installer DVD dan CD sekarang berisi Free Software dan beberapa driver proprietari.
+# en/3/nav.php +28
+;Download
+Download {ok}
 
 
-# en/3/index.php +57
-;The installation CD contains only a minimal list of packages.
-CD instalasi hanya berisi daftar paket minimal.
+# en/3/nav.php +29
+;For PC
+Untuk PC
 
 
-# en/3/index.php +58
-;Use LiveCDs or LiveDVDs for fresh new installs ONLY, NOT FOR UPGRADE.
-Gunakan LiveCD atau LiveDVD HANYA untuk install baru, BUKAN UNTUK UPGRADE.
-
-
-# en/3/index.php +59
-;If you are looking for a stable version of Mageia, <a href="%s" rel="nofollow">go here</a>.
-Jika kamu mencari versi Mageia stabil, <a href="%s" rel="nofollow">pergilah ke sini</a>.
-
-
-# en/3/index.php +60
-;Enjoy! And <a href="%s">please report bugs</a> if you find some.
-Nikmatilah! Dan <a href="%s">silakan laporkan bug</a> jika kamu menemukannya.
-
-
-# en/3/index.php +75
-;Installer DVD
-DVD installer
-
-
-# en/3/index.php +76
-;Free Software and some proprietary drivers
-Free Software dan beberapa driver proprietari
-
-
-# en/3/index.php +84
-;Installer CD
-CD installer
-
-
-# en/3/index.php +85
-;100% Free Software
-100% Free Software {ok}
-
-
-# en/3/index.php +93
-;not suitable for upgrade
-tidak cocok untuk upgrade
-
-
-# en/3/index.php +111
-;LiveCD KDE, English-only
-LiveCD KDE, hanya bahasa Inggris
-
-
-# en/3/index.php +118
-;LiveCD GNOME, English-only
-LiveCD GNOME, hanya bahasa Inggris
+# en/3/nav.php +30
+;For server
+Untuk server
