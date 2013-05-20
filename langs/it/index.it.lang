@@ -92,15 +92,21 @@ versione 2 (Maggio 2012)
 
 
 ;version 3 (May 2013)
-version 3 (May 2013)
+versione 3 (Maggio 2013)
 
 
 # /en/index.php +240
 ;Release notes
 Note di rilascio
 
+# en/index.php +243
+;<a href="%s" hreflang="en">Release notes</a>
+<a href="%s" hreflang="en">Note di rilascio</a>
 
 
+# en/index.php +244
+;<a href="%s" hreflang="en">errata</a>
+<a href="%s" hreflang="en">errata</a> {ok}
 
 
 # /en/index.php +240
