@@ -30,7 +30,7 @@ Usage:
     php tools/extract2lang.php path/to/source.php domain_name
 
     Example:
-        php tools/extract2lang.php en/index.php index_f
+        php tools/extract2lang.php en/index.php index
 
     You can join multiple sources with apostrophe - single quote (') like this:
         'en/3/download_index.php en/for-pc/index.php en/for-server/index.php en/3/index.php en/3/nav.php'
@@ -64,9 +64,11 @@ foreach ($out as $str) {
     $file   = str_replace(APP_ROOT, '', $file);
     $line   = array_shift($arr);
     $arr    = implode(':', $arr);
+    $arr    = str_replace('\\\'', '_apostrophe_', $arr);
 
     if (preg_match_all('/\_(e|t|h|d)\(\'(.+)\'/imU', $arr, $reg)) {
         foreach ($reg[2] as $found) {
+            $found = str_replace('_apostrophe_', '\'', $found);
             $strings[$domain][$found][] = $file . ' +' . $line;
         }
     }
