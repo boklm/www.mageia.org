@@ -47,7 +47,7 @@ $path = $php_source;
 
 //$domain = '3';
 
-$cmd = sprintf('grep -HrnEi "_(e|t|h|d)\((.*)\)" %s', $path);
+$cmd = sprintf('grep -HrnEi "_(e|t|h|d)\((.*)" %s', $path);
 echo $cmd, "\n";
 exec($cmd, $out);
 
