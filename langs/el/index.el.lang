@@ -59,13 +59,13 @@ Mageia, μια κοινοτική διανομή Linux για PC και εξυπ
 # en/index.php +243
 # if release notes are translated in your language use it's link instead of %s and replace en in hreflang with your language code
 ;<a href="%s" hreflang="en">Release notes</a>
-<a href="%s" hreflang="en">Release notes</a>
+<a href="%s" hreflang="en">Σημειώσεις έκδοσης</a>
 
 
 # en/index.php +244
 # if errata is translated in your language use it's link instead of %s and replace en in hreflang with your language code
 ;<a href="%s" hreflang="en">errata</a>
-<a href="%s" hreflang="en">errata</a>
+<a href="%s" hreflang="en">Γνωστά σφάλματα</a>
 
 
 ;Release notes
