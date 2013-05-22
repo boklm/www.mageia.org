@@ -60,7 +60,13 @@ _lang_load($locale, "about/media");
 		<a href="/g/media/covers/3/t-Mga3_Live_DVD_32_Gnome.png"><img src="/g/media/covers/3/t-Mga3_Live_DVD_32_Gnome.png" alt="Mageia 3 logo" title="Mga3_Live_DVD_32_Gnome"></a>
 		<a href="/g/media/covers/3/Mga3_Live_DVD_32_KDE.png"><img src="/g/media/covers/3/t-Mga3_Live_DVD_32_KDE.png" alt="Mageia 3 logo" title="Mga3_Live_DVD_32_KDE"></a>
 		<a href="/g/media/covers/3/Mga3_Live_DVD_64_Gnome.png"><img src="/g/media/covers/3/t-Mga3_Live_DVD_64_Gnome.png" alt="Mageia 3 logo" title="/Mga3_Live_DVD_64_Gnome"></a>
-		<a href="/g/media/covers/3/Mga3_Live_DVD_64_KDE.png"><img src="/g/media/covers/3/t-Mga3_Live_DVD_64_KDE.png" alt="Mageia 3 logo" title="Mga3_Live_DVD_64_KDE"></a></p>
+		<a href="/g/media/covers/3/Mga3_Live_DVD_64_KDE.png"><img src="/g/media/covers/3/t-Mga3_Live_DVD_64_KDE.png" alt="Mageia 3 logo" title="Mga3_Live_DVD_64_KDE"></a>
+		<br><br>
+
+		<a href="/g/media/covers/3/els-EugeniBlack.png"><img src="/g/media/covers/3/t-els-EugeniBlack.png" alt="Mageia 3 logo" title="Mageia Black dedicated to Eugeni"></a>
+		<a href="/g/media/covers/3/els-EugeniBumpmap.png"><img src="/g/media/covers/3/t-els-EugeniBumpmap.png" alt="Mageia 3 logo" title="Mageia with watermark dedicated to Eugeni"></a>
+		</p>
+
 	<br>
 
                 <h2><?php _e('Mageia 1 CD/DVD covers')?></h2>
