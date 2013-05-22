@@ -44,6 +44,11 @@ Aktualizace
 Můžete se přihlásit do našeho oznamovacího systému (%s), abyste na ně byli upozorňováni.
 
 
+# en/support/index.php +44
+;Updates are available for %s and %s (security and bug fixes) and published on an ongoing basis.
+Updates are available for %s and %s (security and bug fixes) and published on an ongoing basis.
+
+
 
 ;You can install these from the Mageia Control Center.
 Instalovat je můžete z ovládacího centra Mageia.
