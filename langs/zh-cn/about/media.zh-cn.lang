@@ -17,7 +17,12 @@ Media 文件
 标志
 
 
-# ../../svn/web/en/about/media/index.php +30
+# en/about/media/index.php +25
+;Official Logo
+Official Logo
+
+
+# en/about/media/index.php +28
 ;Mageia 2013
 Mageia 2013
 
@@ -47,7 +52,22 @@ Mageia 2013 alpha
 Mageia 1 CD/DVD 封面
 
 
-# ../../svn/web/en/about/media/index.php +36
+# en/about/media/index.php +46
+;Previous Logo
+Previous Logo
+
+
+# en/about/media/index.php +51
+;Mageia 3 CD/DVD covers
+Mageia 3 CD/DVD covers
+
+
+# en/about/media/index.php +66
+;Mageia 1 CD/DVD covers
+Mageia 1 CD/DVD covers
+
+
+# en/about/media/index.php +70
 ;Licensed under CC-By-SA by Julie Guennegues.
 作者：Julie Guennegues，协议遵循 CC-By-SA。
 

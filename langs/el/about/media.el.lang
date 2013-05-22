@@ -49,7 +49,17 @@ Mageia 2013 διαφανές
 Εξώφυλλο CD/DVD για τη Mageia 1
 
 
-# ../../svn/web/en/about/media/index.php +36
+# en/about/media/index.php +51
+;Mageia 3 CD/DVD covers
+Mageia 3 CD/DVD covers
+
+
+# en/about/media/index.php +66
+;Mageia 1 CD/DVD covers
+Mageia 1 CD/DVD covers
+
+
+# en/about/media/index.php +70
 ;Licensed under CC-By-SA by Julie Guennegues.
 Υπόκειται στην άδεια Αναφορά Δημιουργού - Παρόμοια Διανομή (CC-By-SA) από Julie Guennegues.
 
