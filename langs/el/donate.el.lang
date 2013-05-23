@@ -14,11 +14,11 @@ mageia, δωρίζω, δωρεά, δωρητές, βοήθεια
 
 # ../../svn/web/en/donate/index.php +34
 ;via bitcoin,
-via bitcoin,
+μέσω bitcoin,
 
 # ../../svn/web/en/donate/index.php +35
 ;If you want to donate <a href="http://bitcoin.org/">bitcoins</a>, the Mageia.Org bitcoin address is <b>%s</b>.
-If you want to donate <a href="http://bitcoin.org/">bitcoins</a>, the Mageia.Org bitcoin address is <b>%s</b>.
+Αν θέλετε να κάνετε δωρεά με <a href="http://bitcoin.org/">bitcoins</a>, η διεύθυνση για bitcoin της Mageia.Org είναι <b>%s</b>.
 
 
 # ../../svn/web/en/donate/index.php +37
@@ -115,9 +115,9 @@ If you want to donate <a href="http://bitcoin.org/">bitcoins</a>, the Mageia.Org
 
 # ../../svn/web/en/donate/index.php +107
 ;Questions?
-Questions?
+Ερωτήσεις;
 
 
 # ../../svn/web/en/donate/index.php +108
 ;If you have any question about donations, you can send an email to <a href="mailto:treasurer@mageia.org">treasurer@mageia.org</a>.
-If you have any question about donations, you can send an email to <a href="mailto:treasurer@mageia.org">treasurer@mageia.org</a>.
+Αν έχετε κάποια ερώτηση για τις δωρεές, μπορείτε να στείλετε ένα μήνυμα ηλεκτρονικού ταχυδρομείου στο <a href="mailto:treasurer@mageia.org">treasurer@mageia.org</a>.
