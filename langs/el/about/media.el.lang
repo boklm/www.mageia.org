@@ -39,24 +39,15 @@ Mageia 2013 διαφανές
 %sPNG</a> ή %sSVG</a>
 
 
-# ../../svn/web/en/about/media/index.php +28
-;TODO: usage guidelines.
-Προς υλοποίηση: οδηγίες χρήσης.
-
-
-# ../../svn/web/en/about/media/index.php +32
-;Mageia 1 CD/DVD cover
-Εξώφυλλο CD/DVD για τη Mageia 1
-
 
 # en/about/media/index.php +51
 ;Mageia 3 CD/DVD covers
-Mageia 3 CD/DVD covers
+Mageia 3 CD/DVD εξώφυλλα
 
 
 # en/about/media/index.php +66
 ;Mageia 1 CD/DVD covers
-Mageia 1 CD/DVD covers
+Mageia 1 CD/DVD εξώφυλλα
 
 
 # en/about/media/index.php +70
