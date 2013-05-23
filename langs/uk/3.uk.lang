@@ -202,15 +202,15 @@ Mageia 3, для вашого ПК
 Достаток
 
 # en/for-pc/index.php +28
-;There are more than 21&nbsp;700&nbsp;packages in our repositories. And that&#39;s just for the 64-bit branch.
+;There are more than 21&nbsp;700&nbsp;packages in our repositories. And that's just for the 64-bit branch.
 У наших сховищах понад 21700 пакунків. І це лише для 64-бітової гілки.
 
 # en/for-pc/index.php +29
-;The total number is double that &ndash; and then if you consider the backports, and the packages in the Cauldron still testing... you&#39;ll see that Mageia users are spoiled for choice.
+;The total number is double that &ndash; and then if you consider the backports, and the packages in the Cauldron still testing... you'll see that Mageia users are spoiled for choice.
 Загальна кількість пакунків вдвічі більша, а якщо ще додати пакунки зворотного портування і пакунки у Cauldron, які ще тестуються... Ви побачите, що у користувачів Mageia всі можливості вибору.
 
 # en/for-pc/index.php +30
-;Here&#39;s a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:
+;Here's a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:
 Тут наведено лише основні варіанти: спочатку графічні робочі середовища, потім основні програми, якими ви можете скористатися на вашому персональному комп’ютері:
 
 # en/for-pc/index.php +31
@@ -254,7 +254,7 @@ Mageia 3, для вашого ПК
 Офіс
 
 # en/for-pc/index.php +64
-;The two full-featured office suites LibreOffice and Calligra are there, as well as AbiWord, and a host of text editors including Kate; for finance there&#39;s KMyMoney, Skrooge or the professional-level GnuCash.
+;The two full-featured office suites LibreOffice and Calligra are there, as well as AbiWord, and a host of text editors including Kate; for finance there's KMyMoney, Skrooge or the professional-level GnuCash.
 У дистрибутиві ви зможете скористатися двома повноцінними комплектами офісних програм, LibreOffice та Calligra, а також AbiWord та безліччю текстових редакторів, зокрема Kate. Грошовий облік можна здійснювати за допомогою KMyMoney, Skrooge або програми професійного рівня — GnuCash.
 
 # en/for-pc/index.php +69
@@ -270,7 +270,7 @@ Mageia 3, для вашого ПК
 Звук
 
 # en/for-pc/index.php +76
-;For playing audio files, choose from Amarok 2.7.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don&#39;t infringe local laws.
+;For playing audio files, choose from Amarok 2.7.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don't infringe local laws.
 Якщо вам хочеться послухати музику, скористайтеся Amarok 2.7.0, Rhythmbox або іншими програвачами. Подивитися відео або відтворити звукові файли можна за допомогою VLC, Totem або MPlayer. Також можна скористатися універсальним медіацентром XBMC. Деякі з пакунків мають окремі версії у сховищах Core і Tainted: у пакунках зі сховища Core передбачено підтримку лише вільних від патентування кодеків, а у пакунках зі сховища Tainted — всіх кодеків (ці пакунки призначено для використання у країнах, де використання таких кодеків не обмежується законодавчо).
 
 # en/for-pc/index.php +81
@@ -278,7 +278,7 @@ Mageia 3, для вашого ПК
 Відео
 
 # en/for-pc/index.php +82
-;For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there&#39;s Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.
+;For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there's Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.
 Для редагування відеофайлів скористайтеся Kdenlive, Avidemux, Kino або OpenShot. Для роботи з субтитрами призначено Gaupol та Subtitles Composer; для перегляду і запису телепрограм — MythTV, Miro, tvtime, FreetuxTV та Me TV.
 
 # en/for-pc/index.php +87
@@ -286,7 +286,7 @@ Mageia 3, для вашого ПК
 Плюс
 
 # en/for-pc/index.php +88
-;Then there&#39;s ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.
+;Then there's ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.
 Ви також можете скористатися ZoneMinder для забезпечення інтернет-захисту, VirtualBox або WINE для виконання завдань з віртуалізації, а також широким спектром середовищ для розробки програмного забезпечення, зокрема Anjuta, Eclipse, Netbeans та KDevelop.
 
 # en/for-pc/index.php +93
@@ -370,7 +370,7 @@ Mageia 3 — новий, цілісний і стабільний дистриб
 Mageia 3 — дистрибутив GNU/Linux для вашого комп’ютера, випущений <a href="%s">спільнотою Mageia</a>.
 
 # en/3/index.php +31
-;What&#39;s new?
+;What's new?
 Що нового?
 
 # en/3/index.php +32
@@ -390,7 +390,7 @@ Mageia у контексті
 Mageia — дистрибутив Linux, створений спільнотою. Mageia 3 є нашим третім випуском.
 
 # en/3/index.php +38
-;Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch&#39;s most popular distributions</a>.
+;Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch's most popular distributions</a>.
 З випуску <a href="../1/">Mageia 1</a> наш продукт постійно перебуває у <a href="%s">списку десяти найпопулярніших дистрибутивів Distrowatch</a>.
 
 # en/3/index.php +40

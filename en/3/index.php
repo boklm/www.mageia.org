@@ -28,14 +28,14 @@ _lang_load($locale, '3');
             <?php
             _h('Mageia 3 is a GNU/Linux distribution for your computer, released by the <a href="%s">Mageia community</a>.', array('../community'));
 
-            _h('What&#39;s new?', null, 'h2');
+            _h('What\'s new?', null, 'h2');
             _h('Too much to include here! See the <a href="https://wiki.mageia.org/en/Mageia_3_Release_Notes">release notes</a> for an extensive exposé.');
 	    ?>
 	    <a href="../downloads/" style="background: #1272B1; color: white; padding: 0.9em; margin: 1em; display: inline-block; text-shadow: 0 1px 6px #000; border-radius: 3px;"><?php _h('Download it right away!');?></a>
             <?php
             _h('Mageia in context', null, 'h2');
             _h('Mageia is both a Community and a Linux Distribution, with Mageia 3 being our third release.');
-            _h('Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch&#39;s most popular distributions</a>.', array('http://distrowatch.com/popularity'));
+            _h('Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch\'s most popular distributions</a>.', array('http://distrowatch.com/popularity'));
 
             _h('Mageia 3 is supported by the <a href="../about/">Mageia.org nonprofit organisation</a>, which is governed by a body of recognized and elected contributors.');
             _h('Mageia 3 has been made by more than 100 people from all around the world.');

@@ -252,17 +252,17 @@ Obilje
 
 
 # en/for-pc/index.php +28
-;There are more than 21&nbsp;700&nbsp;packages in our repositories. And that&#39;s just for the 64-bit branch.
+;There are more than 21&nbsp;700&nbsp;packages in our repositories. And that's just for the 64-bit branch.
 Obstaja več kot 21&nbsp;700&nbsp;paketov v naših skladiščih s programsko opremo. In to je samo za 64-bitno arhitekturo.
 
 
 # en/for-pc/index.php +29
-;The total number is double that &ndash; and then if you consider the backports, and the packages in the Cauldron still testing... you&#39;ll see that Mageia users are spoiled for choice.
+;The total number is double that &ndash; and then if you consider the backports, and the packages in the Cauldron still testing... you'll see that Mageia users are spoiled for choice.
 Skupno število je seveda zaradi 32-bitne arhitekture dvakrat večje, če pa upoštevamo še skladišče navzdol prikrojene programske opreme »backports«, in pakete, ki se testirajo v razvojni različici »Cauldron« ... boste videli, da so uporabniki Mageia razvajeni z izbiro.
 
 
 # en/for-pc/index.php +30
-;Here&#39;s a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:
+;Here's a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:
 Tu je pregled, najprej delovnih grafičnih namiznih okolij, nato pa nekaj ključnih programov, ki jih lahko uporabljate na namizju:
 
 
@@ -317,7 +317,7 @@ Pisarniški programi
 
 
 # en/for-pc/index.php +66
-;The two full-featured office suites LibreOffice and Calligra are there, as well as AbiWord, and a host of text editors including Kate; for finance there&#39;s KMyMoney, Skrooge or the professional-level GnuCash.
+;The two full-featured office suites LibreOffice and Calligra are there, as well as AbiWord, and a host of text editors including Kate; for finance there's KMyMoney, Skrooge or the professional-level GnuCash.
 Na izbiro sta dva zmogljiva pisarniška paketa LibreOffice in Calligra, kot tudi AbiWord, in več urejevalnikov besedil, vključno s Kate, za urejanje financ je na voljo KMyMoney, Skrooge ali GnuCash na profesionalnem nivoju.
 
 
@@ -337,7 +337,7 @@ Zvok
 
 
 # en/for-pc/index.php +76
-;For playing audio files, choose from Amarok 2.7.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don&#39;t infringe local laws.
+;For playing audio files, choose from Amarok 2.7.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don't infringe local laws.
 Za predvajanje zvočnih datotek lahko med drugimi izbirete Amarokom 2.7.0 ali Rhythmbox. Za multimedijo uporabite program VLC, Totem ali Mplayer. Za hišni kino je na voljo XBMC Media Center. Nekateri paketi so na voljo v skladiščih s programsko opremo »Core« in »Tainted«. Skladišče »Core« vsebuje odprtokodne pakete (in seveda tudi kodeke), ki niso patentirani. Paketi v skladišču »Tainted« podpirajo vse kodeke, saj vsebujejo patentirano in neprosto programsko opremo. Namenjeni so uporabnikom v državah, kjer ti kodeki ne kršijo lokalnih zakonov.
 
 
@@ -347,7 +347,7 @@ Video in filmi
 
 
 # en/for-pc/index.php +82
-;For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there&#39;s Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.
+;For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there's Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.
 Za urejanje video datotek poskusite Avidemux, Kino ali OpenShot. Urejanje podnapisov je namenjen program Gaupol ali Subtitles Composer. Za ogled in snemanje TV programov lahko uporabite MythTV, Miro, tvtime, FreetuxTV ali Me TV.
 
 
@@ -357,7 +357,7 @@ Dodatno
 
 
 # en/for-pc/index.php +88
-;Then there&#39;s ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.
+;Then there's ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.
 Poleg naštetega je tu še ZoneMinder za varnost CCTV. Za navidezno rabo je tu VirtualBox ter WINE za uporabo exe programov. Na voljo je vrsta razvojnih okolij kot so Anjuta, Eclipse, NetBeans ali KDevelop.
 
 
@@ -462,7 +462,7 @@ Mageia 3 je GNU/Linux distribucija za vaš računalnik, ki jo je izdala skupnost
 
 
 # en/3/index.php +31
-;What&#39;s new?
+;What's new?
 Kaj je novega?
 
 
@@ -487,7 +487,7 @@ Mageia je tako skupnost kot tudi Linux distribucija, Mageia 3 je naša tretja iz
 
 
 # en/3/index.php +38
-;Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch&#39;s most popular distributions</a>.
+;Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch's most popular distributions</a>.
 Od izdaje naprej <a href="../1/">Mageje 1</a>, se naša distribucija nahaja v vrhu <a href="%s">10 najbolj priljubljenih distribucij spletne strani Distrowatch</a>.
 
 

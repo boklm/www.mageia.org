@@ -252,17 +252,17 @@ Berlimpah
 
 
 # en/for-pc/index.php +28
-;There are more than 21&nbsp;700&nbsp;packages in our repositories. And that&#39;s just for the 64-bit branch.
+;There are more than 21&nbsp;700&nbsp;packages in our repositories. And that's just for the 64-bit branch.
 Ada lebih dari 21&nbsp;700&nbsp;paket di dalam repositori kami. Dan itu cuma untuk arsitektur 64-bit.
 
 
 # en/for-pc/index.php +29
-;The total number is double that &ndash; and then if you consider the backports, and the packages in the Cauldron still testing... you&#39;ll see that Mageia users are spoiled for choice.
+;The total number is double that &ndash; and then if you consider the backports, and the packages in the Cauldron still testing... you'll see that Mageia users are spoiled for choice.
 Jumlah total adalah dua kali lipat &ndash; dan jika kamu menghitung backports, dan paket dalam Cauldron yang masih diuji... kamu bisa lihat bahwa pengguna Mageia begitu dimanjakan oleh banyak pilihan.
 
 
 # en/for-pc/index.php +30
-;Here&#39;s a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:
+;Here's a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:
 Ini adalah gambarannya, pertama adalah lingkungan grafis, lalu aplikasi inti yang bisa kamu gunakan di desktop-mu:
 
 
@@ -317,7 +317,7 @@ Perkantoran
 
 
 # en/for-pc/index.php +64
-;The two full-featured office suites LibreOffice and Calligra are there, as well as AbiWord, and a host of text editors including Kate; for finance there&#39;s KMyMoney, Skrooge or the professional-level GnuCash.
+;The two full-featured office suites LibreOffice and Calligra are there, as well as AbiWord, and a host of text editors including Kate; for finance there's KMyMoney, Skrooge or the professional-level GnuCash.
 Dua aplikasi perkantoran lengkap LibreOffice dan Calligra ada di sini, sama halnya dengan AbiWord, dan sejumlah teks editor termasuk Kate; untuk keuangan ada KMyMoney, Skrooge atau yang berlevel profesional, GnuCash.
 
 
@@ -337,7 +337,7 @@ Suara
 
 
 # en/for-pc/index.php +76
-;For playing audio files, choose from Amarok 2.7.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don&#39;t infringe local laws.
+;For playing audio files, choose from Amarok 2.7.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don't infringe local laws.
 Untuk memainkan file audio, pilih mulai dari Amarok 2.7.0 dan Rhythmbox, di antara yang lainnya; gunakan VLC, Totem atau MPlayer untuk video dan untuk audio, atau gunakan XBMC Media Center sebagai sistem home entertainment. Beberapa paket bisa ditemukan di dalam repositori Core dan Tainted: paket di dalam repositori Core hanya mendukung codec yang tidak melanggar paten dan paket di dalam repositori Tainted mendukung semua codec, untuk pengguna yang tinggal di negara di mana codec-codec tersebut tidak dianggap melanggar hukum.
 
 
@@ -347,7 +347,7 @@ Video {ok}
 
 
 # en/for-pc/index.php +82
-;For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there&#39;s Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.
+;For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there's Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.
 Untuk mengedit file video, coba Avidemux, Kino atau OpenShot; untuk teks film, ada Gaupol atau Subtitles Composer; gunakan MythTV, Miro, tvtime, FreetuxTV atau Me TV untuk menyaksikan atau merekam program TV.
 
 
@@ -357,7 +357,7 @@ Plus {ok}
 
 
 # en/for-pc/index.php +88
-;Then there&#39;s ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.
+;Then there's ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.
 Lalu ada ZoneMinder, untuk keamanan CCTV; VirtualBox atau WINE untuk virtualisasi; dan berbagai aplikasi pengembangan seperti Anjuta, Eclipse, Netbeans atau KDevelop.
 
 
@@ -462,7 +462,7 @@ Mageia 3 adalah distribusi GNU/Linux untuk komputer-mu, dikeluarkan oleh <a href
 
 
 # en/3/index.php +31
-;What&#39;s new?
+;What's new?
 Apa yang baru?
 
 
@@ -487,7 +487,7 @@ Mageia adalah Komunitas dan Distribusi Linux, dengan Mageia 3 sebagai rilis keti
 
 
 # en/3/index.php +38
-;Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch&#39;s most popular distributions</a>.
+;Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch's most popular distributions</a>.
 Sejak merilis <a href="../1/">Mageia 1</a>, kami secara konsisten berada dalam <a href="%s">top 10 dari distribusi paling populer di Distrowatch</a>.
 
 

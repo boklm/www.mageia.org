@@ -647,7 +647,7 @@ LiveCD 和 LiveDVD 只能用于新装。
 ;Mageia 3, for your PC
 适合您 PC 的 Mageia 3
 
-;There are more than 21&nbsp;700&nbsp;packages in our repositories. And that&#39;s just for the 64-bit branch.
+;There are more than 21&nbsp;700&nbsp;packages in our repositories. And that's just for the 64-bit branch.
 我们的软件仓库中包含超过 21700 个软件包，而这仅仅是 64 位分支。
 
 ;Mageia 3 has all the major desktop environments:
@@ -656,16 +656,16 @@ Mageia 3 包含所有主流桌面环境：
 ;Choose your web browser from Firefox ESR 17.0.6, Chromium-browser 26.0.1410.65, Epiphany 3.6.1 or Opera 12.15 &ndash; or one of the many others such as Lynx or Konqueror; then pick an email client from KMail 4.10.2, Thunderbird ESR 17.0.6, Evolution 3.6.3 or maybe Claws-Mail or Mutt.
 使用 Firefox ESR 17.0.6、Chromium 浏览器 26.0.1410.65、Epiphany 3.6.1 或 Opera 12.15 及其它如 Lynx、Konqueror 进行 Web 浏览；使用 KMail 4.10.2、Thunderbird ESR 17.0.6、Evolution 3.6.3 甚至 Claws-Mail 或 Mutt 收发邮件。
 
-;The two full-featured office suites LibreOffice and Calligra are there, as well as AbiWord, and a host of text editors including Kate; for finance there&#39;s KMyMoney, Skrooge or the professional-level GnuCash.
+;The two full-featured office suites LibreOffice and Calligra are there, as well as AbiWord, and a host of text editors including Kate; for finance there's KMyMoney, Skrooge or the professional-level GnuCash.
 除了有全功能的办公套件如 LibreOffice 和 Calligra，还有 AbiWord，以及各种各样的文本编辑器如 Kate；至于金融管理，则有 KMyMoney、Skrooge 和专业级的 GnuCash。
 
-;For playing audio files, choose from Amarok 2.7.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don&#39;t infringe local laws.
+;For playing audio files, choose from Amarok 2.7.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don't infringe local laws.
 要播放音频文件，您可以选择 Amarok 2.7.0 和 Rhythmbox；使用 VLC、Totem 或 MPlayer 可进行影音播放，使用 XBMC 媒体中心可打造您的家庭娱乐系统。Core 和 Tainted 软件仓库的区别在于，Core 仓库只支持无专利隐患的编解码器，而 Tainted 软件仓库支持所有编解码器，以供不违反本地法律的用户使用。
 
-;For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there&#39;s Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.
+;For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there's Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.
 要编辑视频文件，请使用 Avidemux、Kino 或 OpenShot；要编辑字幕，请使用 Gaupol 或字幕编辑器；使用 MythTV、Miro、tvtime、FreetuxTV 或 Me TV 观察或录制电视节目。
 
-;Then there&#39;s ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.
+;Then there's ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.
 还有 ZoneMinder 可用于视频监控；VirtualBox 或 WINE 进行虚拟化；此外，还有大量开发环境，如 Anjuta、Eclipse、Netbeans 或 KDevelop。
 
 ;For more information about these and other packages, check the <a href="%s">Mageia 3 Release notes</a>.
@@ -707,7 +707,7 @@ Mageia 3 是 Mageia 项目的全新的稳定 Linux 发行版。
 ;Mageia 3 is a GNU/Linux distribution for your computer, released by the <a href="%s">Mageia community</a>.
 Mageia 3 是一款由 <a href="%s">Mageia 社区</a>发布的 GNU/Linux 发行版。
 
-;What&#39;s new?
+;What's new?
 新鲜内容
 
 ;Too much to include here! See the <a href="https://wiki.mageia.org/en/Mageia_3_Release_Notes">release notes</a> for an extensive exposé.
@@ -719,7 +719,7 @@ Mageia 3 是一款由 <a href="%s">Mageia 社区</a>发布的 GNU/Linux 发行�
 ;Mageia is both a Community and a Linux Distribution, with Mageia 3 being our third release.
 Mageia 代表一个社区，也代表一个 Linux 发行版，而 Mageia 3 是我们的第三个版本。
 
-;Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch&#39;s most popular distributions</a>.
+;Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch's most popular distributions</a>.
 自 <a href="../1/">Mageia 1</a> 发布起，我们一直位于 <a href="%s">Distrowatch 十大最受关注的发行版榜单之中</a>。
 
 ;Mageia 3 is supported by the <a href="../about/">Mageia.org nonprofit organisation</a>, which is governed by a body of recognized and elected contributors.

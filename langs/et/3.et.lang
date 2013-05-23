@@ -19,13 +19,13 @@ Teie PC-le
 ;Plenty
 Külluslik
 
-;There are more than 21&nbsp;700&nbsp;packages in our repositories. And that&#39;s just for the 64-bit branch.
+;There are more than 21&nbsp;700&nbsp;packages in our repositories. And that's just for the 64-bit branch.
 Meie hoidlates on 21&nbsp;700&nbsp;tarkvarapaketti. Ja seda ainult 64-bitistele masinatele.
 
-;The total number is double that &ndash; and then if you consider the backports, and the packages in the Cauldron still testing... you&#39;ll see that Mageia users are spoiled for choice.
+;The total number is double that &ndash; and then if you consider the backports, and the packages in the Cauldron still testing... you'll see that Mageia users are spoiled for choice.
 Koguarv on niisiis kahekordne &ndash; ja kui veel arvestada tagasi porditud tarkvara ja pakette, mida Cauldronis ikka veel testitakse ... Nagu isegi aru saate, lööb Mageia valik silme eest kirjuks.
 
-;Here&#39;s a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:
+;Here's a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:
 Me anname siin põgusa ülevaate kõigepealt graafilistest töökeskkondadest ja siis põhirakendustest, mida saate oma arvutis kasutada:
 
 ;Environments
@@ -58,7 +58,7 @@ Teiste seas saab valida kiirsuhtluseks Kopete, Pidgini, Empathy või Kadu; IRC-v
 ;Office
 Kontoritöö
 
-;The two full-featured office suites LibreOffice and Calligra are there, as well as AbiWord, and a host of text editors including Kate; for finance there&#39;s KMyMoney, Skrooge or the professional-level GnuCash.
+;The two full-featured office suites LibreOffice and Calligra are there, as well as AbiWord, and a host of text editors including Kate; for finance there's KMyMoney, Skrooge or the professional-level GnuCash.
 Saadaval on nii kaks täismahulist kontoritöökomplekti LibreOffice ja Calligra kui ka AbiWord ja terve hulk tekstiredaktoreid, sealhulgas Kate; rahaasju aitavad hallata KMyMoney, Skrooge või professionaalidele mõeldud GnuCash.
 
 ;Image
@@ -70,19 +70,19 @@ GIMP võimaldab pilte igatmoodi töödelda, Inkscape aga hakkama saada vektorgra
 ;Sound
 Heli
 
-;For playing audio files, choose from Amarok 2.7.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don&#39;t infringe local laws.
+;For playing audio files, choose from Amarok 2.7.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don't infringe local laws.
 Helifailide mängimiseks sobivad teiste seas Amarok 2.7.0 ja Rhythmbox; nii heli kui video esitamiseks VLC, Totem või MPlayer; koduse meelelahutussüsteemi aitab aga üles seada XBMC Media Center. Mõningaid tarkvarapakette võib leida nii hoidlast Core kui ka Tainted: Core paketid toetavad ainult patentidega koormamata koodekeid, Taintedi paketid aga kõiki koodekeid, olles mõeldud kasutajatele, kes elavad riikides, kus nende koodekite kasutamine ei ole seadusega vastuolus.
 
 ;Video
 Video {ok}
 
-;For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there&#39;s Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.
+;For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there's Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.
 Videofailide töötlemiseks sobib Avidemux, Kino või OpenShot; subtiitritega aitab majandada Gaupol või Subtitles Composer; telesaateid võimaldab vaadata või salvestada MythTV, Miro, tvtime, FreetuxTV või Me TV.
 
 ;Plus
 Ja veel
 
-;Then there&#39;s ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.
+;Then there's ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.
 Siis on veel olemas valvekaamerate tarkvara ZoneMinder; virtualiseerimiseks mõeldud VirtualBox või WINE; terve hulk arenduskeskkondi, näiteks Anjuta, Eclipse, Netbeans või KDevelop.
 
 ;For more information about these and other packages, check the <a href="%s">Mageia 3 Release notes</a>.
@@ -142,7 +142,7 @@ Mageia 3 on Mageia projekti uus töökindel stabiilne Linuxi distributsioon.
 ;Mageia 3 is a GNU/Linux distribution for your computer, released by the <a href="%s">Mageia community</a>.
 Mageia 3 on just Teie arvutile mõeldud GNU/Linuxi distributsioon, mille on valmistanud <a href="%s">Mageia kogukond</a>.
 
-;What&#39;s new?
+;What's new?
 Mida on uut?
 
 ;Too much to include here! See the <a href="https://wiki.mageia.org/en/Mageia_3_Release_Notes">release notes</a> for an extensive exposé.
@@ -157,7 +157,7 @@ Mageia kontekstis
 ;Mageia is both a Community and a Linux Distribution, with Mageia 3 being our third release.
 Mageia on ühtaegu kogukonna ja Linuxi distributsioon, mis praegu on jõudnud oma kolmanda väljalaskeni: Mageia 3.
 
-;Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch&#39;s most popular distributions</a>.
+;Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch's most popular distributions</a>.
 Alates <a href="../1/">Mageia 1</a> ilmumisest on meie väljalase olnud pidevalt <a href="%s">Distrowatchi 10 populaarsema distributsiooni seas</a>.
 
 ;Mageia 3 is supported by the <a href="../about/">Mageia.org nonprofit organisation</a>, which is governed by a body of recognized and elected contributors.

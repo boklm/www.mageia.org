@@ -251,17 +251,17 @@ Suficiente
 
 
 # en/for-pc/index.php +28
-;There are more than 21&nbsp;700&nbsp;packages in our repositories. And that&#39;s just for the 64-bit branch.
+;There are more than 21&nbsp;700&nbsp;packages in our repositories. And that's just for the 64-bit branch.
 Hay mas de 21&nbsp;700&nbsp;paquetes en nuestros repoitorios. Y eso es sólo para la rama 64-bit.
 
 
 # en/for-pc/index.php +29
-;The total number is double that &ndash; and then if you consider the backports, and the packages in the Cauldron still testing... you&#39;ll see that Mageia users are spoiled for choice.
+;The total number is double that &ndash; and then if you consider the backports, and the packages in the Cauldron still testing... you'll see that Mageia users are spoiled for choice.
 El número total es el doble de &ndash; y luego si considera los backports y los paquetes de Cauldron aún en pruebas, verá que los usuarios de Mageia están malcriados intencionalmente.
 
 
 # en/for-pc/index.php +30
-;Here&#39;s a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:
+;Here's a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:
 Aquí hay una revisión de varias cosas, primero de los ambientes gráficos de trabajo, y luego de las aplicaciones base que puede utilizar en su escritorio:
 
 
@@ -316,7 +316,7 @@ Oficina
 
 
 # en/for-pc/index.php +64
-;The two full-featured office suites LibreOffice and Calligra are there, as well as AbiWord, and a host of text editors including Kate; for finance there&#39;s KMyMoney, Skrooge or the professional-level GnuCash.
+;The two full-featured office suites LibreOffice and Calligra are there, as well as AbiWord, and a host of text editors including Kate; for finance there's KMyMoney, Skrooge or the professional-level GnuCash.
 Las fos suites de oficina LibreOffice y Calligra están ahí, también como AbiWord, y muchos editores de texto incluyendo Kate; para finanzas está KMyMoney, Skrooge o uno a nivel profesional como GnuCash.
 
 
@@ -336,7 +336,7 @@ Sonido
 
 
 # en/for-pc/index.php +76
-;For playing audio files, choose from Amarok 2.7.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don&#39;t infringe local laws.
+;For playing audio files, choose from Amarok 2.7.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don't infringe local laws.
 Para reproducir archivos de sonido, elija entre Amarok 2.7.0 y Rhythmbox, entre otros; utilice VLC, Totem o MPlayer para video y audio, o use XBMC Media Center com osu sistema de entretención hogareño. Algunos paquetes se pueden encontrar en los repositorios Core y Tainted: los paquetes en el repositorio Core soportan sólo codificadores no sujetos a patentes, y los paquetes del repositorio Tainted soportan todos los codificadores, para usuarios que viven en países en donde esos codificadores no infringen leyes locales.
 
 
@@ -346,7 +346,7 @@ Video {ok}
 
 
 # en/for-pc/index.php +82
-;For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there&#39;s Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.
+;For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there's Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.
 Para editar archivos de video, pruebe Avidemux, Kino u OpenShot; para subtítulos, están Gaupol o Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV o Me TV para ver y grabar programas de TV.
 
 
@@ -356,7 +356,7 @@ Además
 
 
 # en/for-pc/index.php +88
-;Then there&#39;s ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.
+;Then there's ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.
 Luego estan ZoneMinder, para seguridad CCTV; VirtualBox o WINE para virtualización; y un rango de ambientes de desarrollo tales como Anjuta, Eclipse, Netbeans o KDevelop.
 
 
@@ -461,7 +461,7 @@ Mageia 3 es una distribución GNU/Linux para su computador, lanzada por la <a hr
 
 
 # en/3/index.php +31
-;What&#39;s new?
+;What's new?
 ¿Qué hay de nuevo?
 
 
@@ -486,7 +486,7 @@ Mageia es tanto una comunidad como una distribución de Linux, siendo Mageia 3 n
 
 
 # en/3/index.php +38
-;Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch&#39;s most popular distributions</a>.
+;Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch's most popular distributions</a>.
 Desde el lanzamiento de <a href="../1/">Mageia 1</a>, nuestra oferta ha estado consistentemente en los <a href="%s">top 10 de las distribuciones más populares de Distrowatch</a>.
 
 

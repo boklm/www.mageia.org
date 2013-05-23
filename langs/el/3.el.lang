@@ -252,17 +252,17 @@ CD εγκατάστασης δικτύου
 
 
 # en/for-pc/index.php +28
-;There are more than 21&nbsp;700&nbsp;packages in our repositories. And that&#39;s just for the 64-bit branch.
-Υπάρχουν περισσότερα από 21&nbsp;700&nbsp;πακέτα στα αποθετήριά μας. Και αυτό &#39;s είναι μόνο για την 64-bit έκδοση.
+;There are more than 21&nbsp;700&nbsp;packages in our repositories. And that's just for the 64-bit branch.
+Υπάρχουν περισσότερα από 21&nbsp;700&nbsp;πακέτα στα αποθετήριά μας. Και αυτό 's είναι μόνο για την 64-bit έκδοση.
 
 
 # en/for-pc/index.php +29
-;The total number is double that &ndash; and then if you consider the backports, and the packages in the Cauldron still testing... you&#39;ll see that Mageia users are spoiled for choice.
+;The total number is double that &ndash; and then if you consider the backports, and the packages in the Cauldron still testing... you'll see that Mageia users are spoiled for choice.
 Ο συνολικός αριθμός είναι διπλάσιος και αν υπολογίσετε και τα backports και τα πακέτα υπό δοκιμή στην Cauldron...  θα δείτε ότι οι χρήστες της Mageia δεν στερούνται επιλογών.
 
 
 # en/for-pc/index.php +30
-;Here&#39;s a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:
+;Here's a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:
 Ορίστε ένα δείγμα από τα γραφικά περιβάλλοντα που προτείνουμε, καθώς και τις κυριότερες εφαρμογές που θα μπορούσατε να χρησιμοποιήσετε στον υπολογιστή σας: 
 
 
@@ -316,7 +316,7 @@ CD εγκατάστασης δικτύου
 
 
 # en/for-pc/index.php +64
-;The two full-featured office suites LibreOffice and Calligra are there, as well as AbiWord, and a host of text editors including Kate; for finance there&#39;s KMyMoney, Skrooge or the professional-level GnuCash.
+;The two full-featured office suites LibreOffice and Calligra are there, as well as AbiWord, and a host of text editors including Kate; for finance there's KMyMoney, Skrooge or the professional-level GnuCash.
 Και οι δύο πλήρης σουίτες γραφείου LibreOffice και Calligra είναι διαθέσιμες, όπως και το AbiWord και ένας μεγάλος αριθμός επεξεργαστών κειμένου όπως το Kate. Για τα οικονομικά σας θα βρείτε το KMyMoney, το Skrooge ή το πρόγραμμα επαγγελματικού επιπέδου GnuCash. 
 
 
@@ -336,7 +336,7 @@ CD εγκατάστασης δικτύου
 
 
 # en/for-pc/index.php +76
-;For playing audio files, choose from Amarok 2.7.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don&#39;t infringe local laws.
+;For playing audio files, choose from Amarok 2.7.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don't infringe local laws.
 Για να ακούσετε τη μουσική σας, μπορείτε να επιλέξετε μεταξύ άλλων τα Amarok 2.7.0, Rhythmbox και Clementine· χρησιμοποιήστε το VLC, το Totem, ή MPlayer για βίντεο και για ήχο, χρησιμοποιήστε το κέντρο πολυμέσων XBMC για να διαχειριστείτε τις ταινίες σας, τις φωτογραφίες σας και τη μουσική σας. Σημειώστε ότι μερικά πακέτα βρίσκονται την ίδια στιγμή και στο αποθετήριο Core αλλά και στο Tainted: Τα πακέτα του αποθετηρίου Tainted περιέχουν όλους τους κωδικοποιητές, για τους χρήστες που διαμένουν σε χώρες όπου αυτοί οι κωδικοποιητές περιορίζονται από την τοπική νομοθεσία. 
 
 
@@ -346,7 +346,7 @@ CD εγκατάστασης δικτύου
 
 
 # en/for-pc/index.php +82
-;For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there&#39;s Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.
+;For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there's Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.
 Για την επεξεργασία των αρχείων βίντεο, δοκιμάστε τα Avidemux, Kino, ή OpenShot· για τους υπότιτλους, θα βρείτε τα Gaupol και Subtitles Composer. Χρησιμοποιήστε τα MythTV, Miro, tvtime, FreetuxTV ή Me TV για να παρακολουθήσετε ή να γράψετε τηλεοπτικές εκπομπές.
 
 
@@ -356,7 +356,7 @@ CD εγκατάστασης δικτύου
 
 
 # en/for-pc/index.php +88
-;Then there&#39;s ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.
+;Then there's ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.
 Και τέλος υπάρχει το ZoneMinder για συστήματα ασφαλείας, το VirtualBox ή το WINE για την εικονικοποίηση, και ένα πλήθος από περιβάλλοντα ανάπτυξης εφαρμογών όπως Anjuta, Eclipse, Netbeans ή KDevelop. 
 
 
@@ -461,7 +461,7 @@ H Mageia 3 είναι μια GNU/Linux διανομή για τον υπολογ
 
 
 # en/3/index.php +31
-;What&#39;s new?
+;What's new?
 Τι νέο υπάρχει;
 
 
@@ -486,7 +486,7 @@ H Mageia 3 είναι μια GNU/Linux διανομή για τον υπολογ
 
 
 # en/3/index.php +38
-;Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch&#39;s most popular distributions</a>.
+;Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch's most popular distributions</a>.
 Από την κυκλοφορία της <a href="../1/">Mageia 1</a>, το εκπόνημά μας είναι σταθερά στις <a href="%s">10 πιο δημοφιλείς διανομές του Distrowatch</a>.
 
 
