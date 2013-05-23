@@ -69,7 +69,7 @@ _lang_load($locale, "about");
                     _h('is the French, Paris-based legal structure supporting the Mageia project.');
                 ?>
                 <ul><?php
-                    _h("<a href=%s>Mageia.Org's legal constitution</a> and <a href=%s>governance</a> rules;",
+                    _h('<a href=%s>Mageia.Org\'s legal constitution</a> and <a href=%s>governance</a> rules;',
                         array('"./constitution/"', '"https://wiki.mageia.org/en/Org"'), 'li');
                     _h('<a href="../about/reports/">financial reports</a>, <a href="../thank-you/">donators</a>.', null, 'li');
                 ?></ul>
