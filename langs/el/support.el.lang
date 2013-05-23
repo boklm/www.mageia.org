@@ -58,7 +58,7 @@ mageia, linux, υποστήριξη, βοήθεια, υλικό, qa, δοκιμ�
 
 # en/support/index.php +44
 ;Updates are available for %s and %s (security and bug fixes) and published on an ongoing basis.
-Updates are available for %s and %s (security and bug fixes) and published on an ongoing basis.
+Κυκλοφορούν συστηματικά ενημερώσεις για τη %s και τη %s (ασφαλείας και διόρθωσης σφαλμάτων).
 
 
 
@@ -183,7 +183,7 @@ Updates are available for %s and %s (security and bug fixes) and published on an
 
 # en/support/index.php +54
 ;Mageia 3 will be supported until November 19th, 2014.
-Mageia 3 will be supported until November 19th, 2014.
+Η Mageia 3 θα υποστηρίζεται μέχρι τη 19η Νοεμβρίου 2014.
 
 
 ;You may check and report bugs on <a href="%s">our Bugzilla (bugs.mageia.org)</a>.
