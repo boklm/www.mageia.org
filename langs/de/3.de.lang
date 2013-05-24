@@ -214,7 +214,7 @@ Benutzen Sie die LiveCDs und LiveDVDs NUR für Neuinstallationen.
 Benutzen Sie die LiveCDs und LiveDVDs NICHT für eine Aktualisierung von Mageia 2!
 
 ;Use above DVD or CD and see <a href="%s" hreflang="en">upgrade guide</a>.
-Benutzen Sie die CDs und DVDs oben und beachten Sie die <a href="%s" hreflang="de">Upgrade-Anleitung</a>.
+Benutzen Sie die CDs und DVDs oben und beachten Sie die <a href="%s" hreflang="en">Upgrade-Anleitung</a>.
 
 ;Desktop
 Desktop{ok}
