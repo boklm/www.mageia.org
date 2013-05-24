@@ -179,3 +179,235 @@ Netzwerk-Installer, CD mit nicht freier Firmware
 # ../../svn/web/en/3/index.php +136
 ;needed for some disc controllers, some network cards, etc.
 benötigt für einige Platten-Controller, einige Netzwerkkarten usw.
+
+;Download Mageia 3
+Mageia 3 herunterladen
+
+;Download Mageia 3 DVD, CD, LiveCD, network install ISO images.
+Mageia 3 CDs, DVDs, LiveCDs und Netzwerk-Installations-Abbilder herunterladen
+
+;mageia, mageia 3, linux, free, download, iso, torrent, vm, http, ftp, rsync, bittorrent
+mageia, mageia 3, linux, free, download, iso, torrent, vm, http, ftp, rsync, bittorrent, herunterladen {ok}
+
+;Download <strong>Mageia 3</strong>
+<strong>Mageia 3</strong> herunterladen
+
+;Classical Installation Flavours
+Klassische Installations-Varianten
+
+;Notes:
+Hinweise:
+
+;These DVD and CD ISOs contains Free Software and some proprietary drivers.
+Diese DVD- und CD-ISOs enthalten freie Software und einige proprietäre Treiber.
+
+;The CD contains only a minimal list of packages.
+Die CD enthält nur eine minimale Paketauswahl
+
+;LiveCDs and LiveDVDs
+LiveCDs und LiveDVDs
+
+;Use LiveCDs and LiveDVDs for fresh new installs ONLY.
+Benutzen Sie die LiveCDs und LiveDVDs NUR für Neuinstallationen.
+
+;DO NOT use these LiveCDs or LiveDVDs to upgrade from Mageia 2!
+Benutzen Sie die LiveCDs und LiveDVDs NICHT für eine Aktualisierung von Mageia 2!
+
+;Use above DVD or CD and see <a href="%s" hreflang="en">upgrade guide</a>.
+Benutzen Sie die CDs und DVDs oben und beachten Sie die <a href="%s" hreflang="de">Upgrade-Anleitung</a>.
+
+;Desktop
+Desktop{ok}
+
+;All languages
+Alle Sprachen
+
+;LiveCD KDE
+LiveCD KDE{ok}
+
+;English only
+Nur englisch
+
+;LiveCD GNOME
+LiveCD GNOME{ok}
+
+;Wired Network-based Installation CD
+CD für kabelbasierte Netzwerkinstallationen
+
+;Download quickly and immediately boot into install mode from <em>wired</em> network or a local disk.
+Schnell herunterladen und direkt in den Installations-Modus über <em>kabelgebundene</em> Netzwerke oder von lokalen Festplatten starten.
+
+;May 19<sup>th</sup> 2013
+19. Mai 2013
+
+;<a href="%s">Release notes</a>
+<a href="%s">Release-Notes</a>
+
+;<a href="%s">Errata</a>
+<a href="%s">Errata</a>{ok}
+
+;Upgrading<br>from Mageia 2?
+Von Mageia 2<br>upgraden
+
+;<strong>do not</strong> use LiveCDs;
+Nutzen Sie <strong>nicht</string> die LiveCDs;
+
+;see the <a href="%s" hreflang="en">upgrade guide</a>
+beachten Sie die <a href="%s" hreflang="en">Upgrade-Anleitung</a>
+
+
+;Looking for Mageia 2?
+Sie suchen nach Mageia 2?
+
+;It is <a href="%s">here now</a>.
+Sie finden es nun <a href="%s">hier</a>.
+
+;Looking for Mageia 1?
+Sie suchen nach Mageia 1?
+
+;But please remember that it already <a href="http://blog.mageia.org/en/2012/12/02/mageia-1-eol"/>reached EOL</a>.
+Aber bitte beachten Sie, dass es bereits <a href="http://blog.mageia.org/en/2012/12/02/mageia-1-eol"/>das Ende seiner Lebenszeit</a> erreicht hat.
+
+;Need more challenge?
+Sie brauchen mehr Anreiz?
+
+;You can help us <a href="%s">on Mageia 4</a>.
+Sie können uns mit <a href="%s">Mageia 4</a> helfen.
+
+;Mageia 3, for your PC
+Mageia 3, für Ihren PC
+
+;for your PC
+für Ihren PC
+
+;Plenty
+Viel
+
+;There are more than 21&nbsp;700&nbsp;packages in our repositories. And that's just for the 64-bit branch.
+Es gibt nun mehr als 21.700 Pakete in unseren Repositories. Und das betrifft nur den 64bit-Zweig.
+
+;The total number is double that &ndash; and then if you consider the backports, and the packages in the Cauldron still testing... you'll see that Mageia users are spoiled for choice.
+Die Gesamtanzahl ist doppelt so hoch &ndash; und wenn Sie die Backports und die Pakete, die im Cauldron getestet werden miteinbeziehen... Sie sehen, dass Mageia-Nutzer mit Auswahl verwöhnt werden.
+
+;Here's a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:
+Hier ist ein Überblick, zuerst über die verfügbaren graphischen Umgebungen und dann über die Kern-Anwendungen, die Sie auf Ihrem Desktop benutzen können:
+
+;Environments
+Umgebungen
+
+;Mageia 3 has all the major desktop environments:
+Mageia 3 bietet alle großen Desktop-Umgebungen:
+
+;And then there are the window managers, including Openbox, WindowMaker, IceWM, Fluxbox, Fvwm2 and Awesome.
+Und dann gibt es noch die Window-Manager, zum Beispiel Openbox, WindowMaker, IceWM, Fluxbox, Fvwm2 und Awesome.
+
+;Applications &rarr;
+Anwednungen &rarr;
+
+;There are many, many to choose from &ndash; including all the most popular.
+Es gibt viele, viele zur Auswahl &ndash; inklusive der Beliebtesten.
+
+;Web
+Web{ok}
+
+;Choose your web browser from Firefox ESR 17.0.6, Chromium-browser 26.0.1410.65, Epiphany 3.6.1 or Opera 12.15 &ndash; or one of the many others such as Lynx or Konqueror; then pick an email client from KMail 4.10.2, Thunderbird ESR 17.0.6, Evolution 3.6.3 or maybe Claws-Mail or Mutt.
+Wählen Sie Ihren Web-Browser aus Firefox ESR 17.0.6, Chromium-Browser 26.0.1410.65, Epiphany 3.6.1 oder Opera 12.15 &ndash; oder einem der vielen anderen wie Lynx oder Konqueror; Dann wählen Sie einen Mail-Client wie KMail 4.10.2, Thunderbird 17.0.6, Evolution 3.6.3 oder vielleicht Claws-Mail oder Mutt.
+
+;Messaging
+Messaging{ok}
+
+;Choose from Kopete, Pidgin, Empathy or Kadu for instant messaging; use Quassel, Konversation, XChat-Gnome or KVIrc for IRC chat; try QuteCom or Ekiga (or even Skype) for VOIP.
+Wählen Sie aus Kopete, Pidgin, Empathy oder Kadu für Instant Messaging, benutzen Sie Quassel, Konversation, XChat-Gnome oder KVirc für IRC-Chats, versuchen Sie QuteCom oder Ekiga (oder sogar Skype) für VOIP.
+
+;Office
+Office{ok}
+
+;The two full-featured office suites LibreOffice and Calligra are there, as well as AbiWord, and a host of text editors including Kate; for finance there's KMyMoney, Skrooge or the professional-level GnuCash.
+Die beiden vollausgestatteten Office-Suites LibreOffice und Calligra sind verfügbar, ebenso AbiWord und eine Menge Texteditoren inklusive Kate; Für die Finanzverwaltung stehen MyMoney, Skrooge oder das sehr professionelle GnuCash bereit. 
+
+;Image
+Abbild
+
+;Use GIMP for powerful image manipulation, or Inkscape for vector drawing; Blender is there for serious animation. DigiKam or Showfoto will take care of your photos, talk to your camera and give you more basic image editing.
+Benutzen Sie GIMP für vielfältige Bildbearbeitung oder Inkscape für Vektorzeichnungen; Blender steht für ernsthafte Animationen bereit. DigiKam oder Showfoto kümmern sich um Ihre Fotos, kommunizieren mit Ihrer Kamera oder geben Ihnen grundlegende Bearbeitungsmöglichkeiten.
+
+;Sound
+Audio
+
+;For playing audio files, choose from Amarok 2.7.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don't infringe local laws.
+Um Audio-Dateien abzuspielen, wählen Sie aus Amarok 2.7.0 und Rhythmbox oder anderen; Nutzen Sie VLC, Totem oder MPlayer für Audio und Video oder nutzen Sie das XBMC-Mediacenter für Ihr Home-Entertainment-System. Einige Pakete können in den Core- und Tainted-Quellen gefunden werden: Die Pakete in den Core-Quellen unterstützen nur patentfreie Codecs, die in den Tainted-Quellen unterstützen alle Codecs für Benutzer, die in Ländern leben, in denen diese Codecs nicht gegen geltendes Recht verstoßen.
+
+;Video
+Video{ok}
+
+;For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there's Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.
+
+;Plus
+
+;Then there's ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.
+
+;For more information about these and other packages, check the <a href="%s">Mageia 3 Release notes</a>.
+
+;You can take a look at the <a href="%s">Mageia Application Database</a> to get a more complete list of Mageia packages.
+
+;Mageia 3, for your server
+
+;for your server
+
+;Mageia 3 has all the main services and server packages you will need to run your server.
+
+;Aside from the cross-section included here, you will find many others in the repositories: you can use rpmdrake to search for packages, or check the <a href="%s">Mageia App DB</a>.
+
+;Administration
+
+;For centralised administration, we include puppet 2.7.21; we use it widely in <a href="%s">our own infrastructure</a>.
+
+;The entire High Availability stack has been updated, and now includes drbd 8.4.2, Corosync 2.3.0 and Pacemaker 1.1.8.
+
+;Databases
+
+;Databases included are PostgreSQL 8.4.17; MariaDB 5.5.28, which replaces MySQL; BDB.
+
+;And there are NoSQL servers too: CouchDB 1.2.1, Redis 2.6.5, MongoDB 2.2.2.
+
+;Servers
+
+;Web servers include Apache 2.4.4, Cherokee 1.2.101 and lighttpd 1.4.32.
+
+;For file and directory sharing and network printing on heterogeneous networks, we have Samba 3.6.15, OpenLDAP 2.4.33 and Cups 1.5.4.
+
+;Mail servers included with Mageia 3 are Postfix 2.9.6, Cyrus-imapd 2.4.17 and Dovecot 2.1.15.
+
+;For more information about these and other packages, check the <a href="https://wiki.mageia.org/en/Mageia_3_Release_Notes">Mageia 3 Release notes</a>.
+
+;Mageia 3 is the new, solid, stable Linux distribution from the Mageia project.
+
+;Mageia 3 is a GNU/Linux distribution for your computer, released by the <a href="%s">Mageia community</a>.
+
+;What's new?
+
+;Too much to include here! See the <a href="https://wiki.mageia.org/en/Mageia_3_Release_Notes">release notes</a> for an extensive exposé.
+
+;Download it right away!
+
+;Mageia in context
+
+;Mageia is both a Community and a Linux Distribution, with Mageia 3 being our third release.
+
+;Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch's most popular distributions</a>.
+
+;Mageia 3 is supported by the <a href="../about/">Mageia.org nonprofit organisation</a>, which is governed by a body of recognized and elected contributors.
+
+;Mageia 3 has been made by more than 100 people from all around the world.
+
+;Our work adds to the excellent work of the wider Linux and Free Software community. We aim to bring one of the best, most stable, reliable and enjoyable experience and platform we can make; for regular users, developers and businesses.
+
+;We welcome new contributors to any of the many different teams that go to make up Mageia the Community, and we encourage you to join us.
+
+;Mageia&nbsp;3
+
+;Download
+
+;For PC
+
+;For server
