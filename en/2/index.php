@@ -29,7 +29,7 @@ _lang_load($locale, '2');
             _h('Mageia 2 is a GNU/Linux distribution for your computer, released by the <a href="%s">Mageia community</a>.',
                 array('../community'));
 
-            _h("What's new?", null, 'h2');
+            _h('What\'s new?', null, 'h2');
             _h('Too much to include here! See the <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">release notes</a> for an extensive exposé.');
             _h('<a href="../downloads/" style="background: #1272B1; color: white; padding: 0.9em; margin: 1em; display: inline-block; text-shadow: 0 1px 6px #000; border-radius: 3px;">Download it right away!</a>');
 
