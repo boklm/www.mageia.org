@@ -337,6 +337,9 @@ Audio
 ;For playing audio files, choose from Amarok 2.7.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don't infringe local laws.
 Um Audio-Dateien abzuspielen, wählen Sie aus Amarok 2.7.0 und Rhythmbox oder anderen; Nutzen Sie VLC, Totem oder MPlayer für Audio und Video oder nutzen Sie das XBMC-Mediacenter für Ihr Home-Entertainment-System. Einige Pakete können in den Core- und Tainted-Quellen gefunden werden: Die Pakete in den Core-Quellen unterstützen nur patentfreie Codecs, die in den Tainted-Quellen unterstützen alle Codecs für Benutzer, die in Ländern leben, in denen diese Codecs nicht gegen geltendes Recht verstoßen.
 
+;For server
+Für Server
+
 ;Video
 Video{ok}
 

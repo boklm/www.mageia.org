@@ -18,22 +18,22 @@ Logo {ok}
 
 # en/about/media/index.php +25
 ;Official Logo
-Official Logo
+Offizielles Logo
 
 
 # en/about/media/index.php +28
 ;Mageia 2013
-Mageia 2013
+Mageia 2013{ok}
 
 
 # ../../svn/web/en/about/media/index.php +31
 ;Mageia 2013 dark
-Mageia 2013 dark
+Mageia 2013 dunkel
 
 
 # ../../svn/web/en/about/media/index.php +32
 ;Mageia 2013 alpha
-Mageia 2013 alpha
+Mageia 2013 alpha{ok}
 
 
 # ../../svn/web/en/about/media/index.php +41
@@ -53,17 +53,17 @@ Mageia-1-CD/DVD-Cover
 
 # en/about/media/index.php +46
 ;Previous Logo
-Previous Logo
+Vorheriges Logo
 
 
 # en/about/media/index.php +51
 ;Mageia 3 CD/DVD covers
-Mageia 3 CD/DVD covers
+Mageia 3 CD/DVD-Cover
 
 
 # en/about/media/index.php +66
 ;Mageia 1 CD/DVD covers
-Mageia 1 CD/DVD covers
+Mageia 1 CD/DVD-Cover
 
 
 # en/about/media/index.php +70
