@@ -344,73 +344,109 @@ Für Server
 Video{ok}
 
 ;For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there's Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.
+Um Video-Dateien zu editieren, können Sie Avidemux, Kino oder OpenShot ausprobieren, für Untertitel gibt es Gaupol oder Subtitles Composer. Benutzen Sie MythTV, Miro, tvtime, FreetuxTV oder Me TV, um TV-Programme anzusehen oder aufzuzeichnen.
 
 ;Plus
+Desweiteren
 
 ;Then there's ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.
+Wir haben ZoneMinder für CCTV-Sicherheit, VirtualBox oder WINE für Virtualisierung und eine große Menge an Entwicklungsumgebungen wie Anjuta, Eclipse, Netbeans oder KDevelop.
 
 ;For more information about these and other packages, check the <a href="%s">Mageia 3 Release notes</a>.
+Für mehr Informationen über diese und andere Pakete, werfen Sie einen Blick auf die <a href="%s">Mageia 3 Release-Notes</a>.
 
 ;You can take a look at the <a href="%s">Mageia Application Database</a> to get a more complete list of Mageia packages.
+Sie können in die <a href="%s">Mageia-Anwendungs-Datenbank</a> schauen, um eine vollständige Liste der Mageia-Pakete zu sehen.
 
 ;Mageia 3, for your server
+Mageia 3, für Ihren Server
 
 ;for your server
+für Ihren Server
 
 ;Mageia 3 has all the main services and server packages you will need to run your server.
+Mageia 3 bietet alle wichtigen Dienste und Server-Pakete, die Sie benötigen, um Ihren Server zu betreiben.
 
 ;Aside from the cross-section included here, you will find many others in the repositories: you can use rpmdrake to search for packages, or check the <a href="%s">Mageia App DB</a>.
+Neben der hier enthaltenen Übersicht, finden Sie auch vieles Anderes in den Paketquellen: Sie können rpmdrake benutzen, um nach Paketen zu suchen oder Sie schauen in die <a href="%s">Mageia App DB</a>.
 
 ;Administration
+Administration{ok}
 
 ;For centralised administration, we include puppet 2.7.21; we use it widely in <a href="%s">our own infrastructure</a>.
+Zur zentralen Administration ist puppet 2.7.21 vorhanden, wir benutzen es selbst in vielen Bereichen <a href="%s">unserer Infrastruktur</a>.
 
 ;The entire High Availability stack has been updated, and now includes drbd 8.4.2, Corosync 2.3.0 and Pacemaker 1.1.8.
+Der gesamte Hochverfügbarkeits-Stack wurde aktualisiert, er enthält nun drbd 8.4.2, Corosync 2.3.0 und Pacemaker 1.1.8.
 
 ;Databases
+Datenbanken
 
 ;Databases included are PostgreSQL 8.4.17; MariaDB 5.5.28, which replaces MySQL; BDB.
+Als Datenbanken stehen PostgreSQL 8.4.17, 9.0.13, 9.1.9 und 9.2.4, MariaDB 5.5.28 als Ersatz für mySQL und BDB zur Verfügung.
 
 ;And there are NoSQL servers too: CouchDB 1.2.1, Redis 2.6.5, MongoDB 2.2.2.
+Außerdem gibt es NoSQL-Server: CouchDB 1.2.1, Redis 2.6.5 und MongoDB 2.2.2.
 
 ;Servers
+Server
 
 ;Web servers include Apache 2.4.4, Cherokee 1.2.101 and lighttpd 1.4.32.
+Als Web-Server können Sie Apache 2.4.4, Cherokee 1.2.101 und lighttpd 1.4.32 benutzen.
 
 ;For file and directory sharing and network printing on heterogeneous networks, we have Samba 3.6.15, OpenLDAP 2.4.33 and Cups 1.5.4.
+Für Datei- und Verzeichnis-Freigaben und Netzwerk-Drucker in heterogenen Netzwerken bieten wir Samba 3.6.15, OpenLDAP 2.4.33 und Cups 1.5.4 an.
 
 ;Mail servers included with Mageia 3 are Postfix 2.9.6, Cyrus-imapd 2.4.17 and Dovecot 2.1.15.
+Die enthaltenen Mailserver in Mageia 3 sind Postfix 2.9.6, Cyrus-imapd 2.4.17 und Dovecot 2.1.15.
 
 ;For more information about these and other packages, check the <a href="https://wiki.mageia.org/en/Mageia_3_Release_Notes">Mageia 3 Release notes</a>.
+Für mehr Informationen über diese und andere Pakete schauen Sie in die <a href="https://wiki.mageia.org/en/Mageia_3_Release_Notes">Mageia 3 Release-Notes</a>.
 
 ;Mageia 3 is the new, solid, stable Linux distribution from the Mageia project.
+Mageia 3 ist die neue stabile Linux-Distribution des Mageia-Projektes.
 
 ;Mageia 3 is a GNU/Linux distribution for your computer, released by the <a href="%s">Mageia community</a>.
+Mageia 3 ist eine GNU/Linux-Distribution für Ihren Computer, herausgegeben von der <a href="%s">Mageia-Community</a>.
 
 ;What's new?
+Was ist neu?
 
 ;Too much to include here! See the <a href="https://wiki.mageia.org/en/Mageia_3_Release_Notes">release notes</a> for an extensive exposé.
+Zu viel, um es hier zu erwähnen! Beachten Sie die <a href="https://wiki.mageia.org/en/Mageia_3_Release_Notes">Release-Notes</a> für eine ausführliche Auflistung.
 
 ;Download it right away!
+Laden Sie es jetzt herunter!
 
 ;Mageia in context
+Mageia im Zusammenhang
 
 ;Mageia is both a Community and a Linux Distribution, with Mageia 3 being our third release.
+Mageia ist beides, eine Community und eine Linux-Distribution, Mageia 3 ist unsere dritte Version.
 
 ;Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch's most popular distributions</a>.
+Seit der Veröffentlichung von <a href="../1/">Mageia 1</a> ist unser Angebot durchgehend in den <a href="%s">Top 10 der beliebtesten Distributionen auf Distrowatch</a>.
 
 ;Mageia 3 is supported by the <a href="../about/">Mageia.org nonprofit organisation</a>, which is governed by a body of recognized and elected contributors.
+mageia 3 wird von der <a href="../about/">Mageia.org-Nonprofit-Organisation</a> unterstützt, die durch eine Gruppe gewählter und anerkannter Kontributoren geleitet wird.
 
 ;Mageia 3 has been made by more than 100 people from all around the world.
+Mageia 3 wurde durch mehr als 100 Menschen weltweit erstellt.
 
 ;Our work adds to the excellent work of the wider Linux and Free Software community. We aim to bring one of the best, most stable, reliable and enjoyable experience and platform we can make; for regular users, developers and businesses.
+Unsere Arbeit trägt zur exzellenten Arbeit der großen Linux- und OpenSource-Community bei. Unser Ziel ist es, eine der besten, zuverlässigsten, stabilsten und am meisten Spaß machenden Plattformen und Computer-Erfahrungen zu bieten, für normale Benutzer, Entwickler und den Firmeneinsatz.
 
 ;We welcome new contributors to any of the many different teams that go to make up Mageia the Community, and we encourage you to join us.
+Wir heißen neue Kontributoren in unseren vielen Teams willkommen, die die Mageia-Community bilden und wir ermutigen Sie, bei uns mitzumachen.
 
 ;Mageia&nbsp;3
+Mageia&nbsp;3{ok}
 
 ;Download
+Herunterladen
 
 ;For PC
+Für PCs
 
 ;For server
+Für Server

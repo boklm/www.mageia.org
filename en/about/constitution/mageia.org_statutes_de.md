@@ -220,41 +220,44 @@ genehmigt.
 
 ## Artikel 11 - Meetings des Boards der Direktoren
 
-The board of directors meets when convoked by it's chairman:
-at least once every 6 months or at the request of a quarter of it's members.
+Das Board der Direktoren trifft sich, wenn der/die Vorsitzende dazu einlädt,
+jedoch mindestens einmal in sechs Monaten oder auf Bitte eines Viertels seiner
+Mitglieder.
 
-The board of directors can hold valid meetings by teleconference
-or by authenticated IRC (Internet Relay Chat).
+Das Board der Direktoren kann Meetings über Telefonkonferenzen oder über
+authentifizierte IRC-Chats (Internet Realy Chat) abhalten.
 
-The presence of half of the members of the board of directors is required
-in order that the deliberations be valid.
+Die Anwesenheit der Hälfte der Mirglieder des Boards der Direktoren ist notwendig,
+damit seine Entscheidungen gültig sind.
 
-Decisions are taken with the majority of the recorded votes.
+Entscheidungen werden mit der Mehrheit der abgegebenen Stimmen getroffen.
 
-In case of equality of the votes, the chairman has a decisive vote.
+Im Falle der Parität hat der/die Vorsitzende die entscheidende Stimme.
 
-Minutes of the meetings are recorded.
+Die Meetings werden protokolliert.
 
-The minutes are signed by the chairman and the treasurer. They are written
-without gaps or alterations on numbered sheets and kept at the registered
-office of the association.
+Die Protokolle werden vom/von der Vorsitzenden und dem/der Schatzmeister/in
+unterschrieben. Sie werden ohne Lücken und Änderungen auf nummerierten Seiten
+geschrieben und werden in der eingetragenen Geschäftsstelle des Vereines
+aufbewahrt.
 
-The board of directors is invested with the largest powers to execute
-or to entitle all deeds or operations which meet the association's purposes
-and that are not reserved to the general assembly.
+Das Board der Direktoren ist mit allen Vollmächten versehen, die notwendig
+sind, um die Zwecke des Vereines zu erfüllen und die nicht der Hauptversammlung
+vorbehalten sind.
 
-It convokes the general assembly.
+Es beruft die Hauptversammlung ein.
 
-It oversees the executive committee members' administration and may ask them
-for an accounting of their deeds.
+Es überwacht die Verwaltung des Exekutiv-Kommitees und kann von diesem
+einen Bericht über seine Handlungen verlangen.
 
-It decides on the admission or expulsion of the association's members.
+Es entscheidet über die Zulassung und den Ausschluss von Vereinsmitgliedern.
 
-It entitles the chairman and the treasurer to make any purchase, transfers
-or rentals necessary for the functioning of the association.
+Es ermächtigt den/die Vorsitzende/n und den/die Schatzmeister/in, jegliche
+Käufe, Abtretungen oder Mieten vorzunehmen, die für das Funktionen des Vereins
+notwendig sind.
 
-In addition, the members of the board of directors may get a refund
-on their expenses.
+Zusätzlich können die Mitglieder des Boards eine Vergütung für ihre Ausgaben
+erhalten.
 
 The deliberations of the Board of Directors about property acquisitions,
 exchanges and transferrals necessary for the purposes of the association,
