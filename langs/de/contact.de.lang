@@ -3,77 +3,77 @@
 
 # ../../svn/web/en/contact/index.php +10
 ;Contact Us
-Contact Us
+Treten Sie mit uns in Verbindung
 
 
 # ../../svn/web/en/contact/index.php +11
 ;Here you can find out, how to contribute to the Mageia project
-Here you can find out, how to contribute to the Mageia project
+Hier können Sie herausfinden, wie Sie zum Mageia-Projekt beitragen können
 
 
 # ../../svn/web/en/contact/index.php +12
 ;mageia, contact, mail, press, people, board, council, mailing lists
-mageia, contact, mail, press, people, board, council, mailing lists
+mageia, contact, mail, press, people, board, council, mailing lists, kontakt, menschen, presse mailinglisten
 
 
 # ../../svn/web/en/contact/index.php +24
 ;You are looking for support
-You are looking for support
+Suchen Sie nach Support?
 
 
 # ../../svn/web/en/contact/index.php +25
 ;Please check our <a href="https://forums.mageia.org/">forum</a> or our <a href="http://wiki.mageia.org/" hreflang="en">wiki</a>.
-Please check our <a href="https://forums.mageia.org/">forum</a> or our <a href="http://wiki.mageia.org/" hreflang="en">wiki</a>.
+Schauen Sie in unser <a href="https://forums.mageia.org/de/">Forum</a> oder unser <a href="http://wiki.mageia.org/" hreflang="en">Wiki</a>.
 
 
 # ../../svn/web/en/contact/index.php +27
 ;You would like to report an issue
-You would like to report an issue
+Wollen Sie ein Problem melden?
 
 
 # ../../svn/web/en/contact/index.php +28
 ;Please see <a href="%s" hreflang="en">how to report an issue in our bugs database</a>.
-Please see <a href="%s" hreflang="en">how to report an issue in our bugs database</a>.
+Bitte beachten Sie <a href="%s" hreflang="en">wie man ein Problem in unser Bug-Meldesystem</a> einträgt.
 
 
 # ../../svn/web/en/contact/index.php +32
 ;You are not sure who to contact
-You are not sure who to contact
+Wissen Sie nicht, wen Sie kontaktieren sollen?
 
 
 # ../../svn/web/en/contact/index.php +36
 ;For generic contact information.
-For generic contact information.
+Für allgemeine Informationen.
 
 
 # ../../svn/web/en/contact/index.php +40
 ;For press inquiries.
-For press inquiries.
+Für Presse-Anfragen.
 
 
 # ../../svn/web/en/contact/index.php +44
 ;You may as well try to reach us on <a href="%s">#mageia on Freenode IRC</a>.
-You may as well try to reach us on <a href="%s">#mageia on Freenode IRC</a>.
+Sie können uns im <a href="%s">#mageia-Kanal im Freenode-IRC</a> ansprechen.
 
 
 # ../../svn/web/en/contact/index.php +54
 ;You have an idea of who to contact
-You have an idea of who to contact
+Wissen Sie schon, wen Sie kontaktieren wollen?
 
 
 # ../../svn/web/en/contact/index.php +55
 ;You may post in the <a href="%s">forum</a> or the <a href="%s">public discussion mailing-list</a>.
-You may post in the <a href="%s">forum</a> or the <a href="%s">public discussion mailing-list</a>.
+Sie können im <a href="%s">Forum</a> oder der <a href="%s">öffentlichen Mailingliste</a> schreiben.
 
 
 # ../../svn/web/en/contact/index.php +57
 ;You also may use the following email aliases too to contact all members of a group at once:
-You also may use the following email aliases too to contact all members of a group at once:
+Sie können auch eine der folgenden Email-Adressen nutzen, um alle Mitglieder einer bestimmten Gruppe anzuschreiben:
 
 
 # ../../svn/web/en/contact/index.php +59
 ;Mageia.Org Board members
-Mageia.Org Board members
+Mageia.Org Board-Mitglieder
 
 
 # ../../svn/web/en/contact/index.php +60
@@ -83,54 +83,49 @@ Mageia Council
 
 # ../../svn/web/en/contact/index.php +61
 ;Systems administration team
-Systems administration team
+System-Administrations-Team
 
 
 # ../../svn/web/en/contact/index.php +62
 ;Packagers
-Packagers
+Paketbauer
 
 
 # ../../svn/web/en/contact/index.php +63
 ;Communication, Marketing &amp; Web teams
-Communication, Marketing &amp; Web teams
+Kommunikations-, Marketing- &amp; Web-Teams
 
 
 # ../../svn/web/en/contact/index.php +64
 ;QA team
-QA team
+QA-Team
 
 
 # ../../svn/web/en/contact/index.php +65
 ;Documentation team
-Documentation team
+Dokumentations-Team
 
 
 # ../../svn/web/en/contact/index.php +66
 ;Mageia.Org association members
-Mageia.Org association members
+Mageia.Org Association-Mitglieder
 
 
 # ../../svn/web/en/contact/index.php +75
 ;In most case you should avoid using those aliases as they should only be used for the rare cases where private emails are needed. Use appropriate <a href="%s">public mailing list</a> instead.
-In most case you should avoid using those aliases as they should only be used for the rare cases where private emails are needed. Use appropriate <a href="%s">public mailing list</a> instead.
-
-
-# ../../svn/web/en/contact/index.php +75
-;In most case you should avoid using those aliases as they should only be used for the rare cases where private emails are needed. Use appropriate public mailing list on <a href="%s">either</a> of <a href="%s">two</a> pages instead.
-In most case you should avoid using those aliases as they should only be used for the rare cases where private emails are needed. Use appropriate public mailing list on <a href="%s">either</a> of <a href="%s">two</a> pages instead.
+In den meisten Fällen sollten Sie die Benutzung dieser E-Mail-Adressen vermeiden. Sie sollten nur dann verwendet werden, wenn Sie in seltenen Fällen private E-Mails schreiben wollen. Nutzen Sie stattdessen die <a href="%s">öffentlichen Mailinglisten</a>
 
 
 # ../../svn/web/en/contact/index.php +78
 ;If you want to contact Council or Board for a public discussion, you can start a thread on a mailing-list and add the Board or Council alias in CC.
-If you want to contact Council or Board for a public discussion, you can start a thread on a mailing-list and add the Board or Council alias in CC.
+Wenn Sie eine öffentliche Diskussion mit dem Council oder dem Board führen wollen, starten Sie einen Thread auf der thematisch passenden Mailingliste und fügen Sie den Alias für das Board oder den Council im CC hinzu.
 
 
 # ../../svn/web/en/contact/index.php +80
 ;You want to join and contribute to Mageia
-You want to join and contribute to Mageia
+Wollen Sie dem Mageia-Projekt beitreten und sich beteiligen?
 
 
 # ../../svn/web/en/contact/index.php +81
 ;Please see <a href="%s">our Contributions page</a>.
-Please see <a href="%s">our Contributions page</a>.
+Bitte beachten Sie unsere <a href="%s">Kontributoren-Seite</a>.
