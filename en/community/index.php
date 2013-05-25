@@ -55,17 +55,9 @@ include '../../lib/news.php';
             ?>
             <hr>
             <p><?php
-                $s = array();
-                $feeds = array(
-                    'Planet' => 'http://planet.mageia.org/en/',
-                    'Blog'   => 'http://blog.mageia.org/en/',
-                    'Forum'  => 'https://forum.mageia.org/en/'
-                );
-                foreach ($feeds as $k => $v)
-                    if (_t($v) != $v)
-                        $s[] = sprintf('<a href="%s">%s</a>', _t($v), _t($k));
-
-                echo implode(' | ', $s);
+                echo sprintf('<a href="%s">%s</a>', _t('http://planet.mageia.org/en/', null, ''), _t('Planet', null, '')) . ' | ';
+                echo sprintf('<a href="%s">%s</a>', _t('http://blog.mageia.org/en/', null, ''), _t('Blog', null, '')) . ' | ';
+                echo sprintf('<a href="%s">%s</a>', _t('https://forum.mageia.org/en/', null, ''), _t('Forums', null, ''));
             ?></p>
         </section>
     </div>
@@ -81,7 +73,7 @@ include '../../lib/news.php';
         <ul class="hl">
             <li><a href="<?php _e('http://wiki.mageia.org/')?>"><?php _e('Wiki</a> &larr; collaborative documentation')?></li>
             <li><a href="http://bugs.mageia.org/"><?php _e('Bugzilla</a> &larr; to report bugs')?></li>
-            <li><a href="<?php _e('https://forum.mageia.org/en/')?>"><?php _e('Forum')?></a></li>
+            <li><a href="<?php _e('https://forum.mageia.org/en/')?>"><?php _e('Forums')?></a></li>
             <li><a href="../calendar/"><?php _e('Calendar')?></a></li>
             <li><a href="http://mageia.madb.org"><?php _e('Mageia Applications Database')?></a></li>
         </ul>
@@ -101,7 +93,7 @@ include '../../lib/news.php';
         <ul class="hl">
             <li><a href="https://wiki.mageia.org/en/IRC" title="Internet Relay Chat"><?php echo _d('IRC</a> on Freenode')?>,</li>
             <li><a href="https://wiki.mageia.org/en/Mailing_lists"><?php echo _d('Mailing-lists')?></a>,</li>
-            <li><a href="<?php _e('https://forum.mageia.org/en/')?>"><?php echo _d('Forum')?></a>,</li>
+            <li><a href="<?php _e('https://forum.mageia.org/en/')?>"><?php echo _d('Forums')?></a>,</li>
             <li><a href="<?php _e('http://blog.mageia.org/en/')?>"><?php echo _d('Blog')?></a>,</li>
             <li><?php _e('in real life!')?></li>
             <li><?php _e('during events!')?></li>
