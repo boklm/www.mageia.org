@@ -67,12 +67,11 @@ _lang_load($locale, 'contact');
         );
         echo '<ul class="hl">';
         foreach ($groups as $k => $v) {
-            _h('<a href="mailto:%s&#x40;group.mageia.org">%s</a>', array($k, $v), 'li');
+            echo sprintf('<li><a href="mailto:%s&#x40;group.mageia.org">%s</a></li>', $k, $v);
         }
         echo '</ul>';
 
-        _h(
-            'In most case you should avoid using those aliases as they should only be used for the rare cases where private emails are needed. Use appropriate <a href="%s">public mailing list</a> instead.',
+        _h('In most case you should avoid using those aliases as they should only be used for the rare cases where private emails are needed. Use appropriate <a href="%s">public mailing list</a> instead.',
             array('https://wiki.mageia.org/en/Mailing_lists')
         );
         _h('If you want to contact Council or Board for a public discussion, you can start a thread on a mailing-list and add the Board or Council alias in CC.');
