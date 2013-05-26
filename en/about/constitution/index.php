@@ -5,6 +5,8 @@ require '../../../langs.php';
 
 _lang_load($locale, "about/constitution");
 
+// Note to translators: _t('Note to translators! PLEASE READ THIS LINE! YOU DON\'T NEED TO TRANSLATE IT! Please translate constitution in file "mageia.org_statutes_fr.md" or "mageia.org_statutes_en.md" as a fallback first. Check wiki for details.')
+
 ?><!DOCTYPE html>
 <html dir="ltr" lang="<?php echo $locale ?>">
 <head>
