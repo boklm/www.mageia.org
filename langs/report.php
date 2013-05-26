@@ -130,7 +130,7 @@
                         $link = '';
                     }
                 } else {
-                    $link = sprintf('<a href="//www.mageia.org/%s/%s" class="action viewpage">view page</a>%s', $l, $link, $page_not_linked);
+                    $link = sprintf('<a href="/%s/%s" class="action viewpage">view page</a>%s', $l, $link, $page_not_linked);
                 }
 
                 if (count($test['missing']) === 0
