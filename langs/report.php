@@ -7,7 +7,6 @@
     <style>
     html, body { margin: 0; padding: 0; font-family: Verdana, "Trebuchet MS", "Lucida Grande", "Lucida Sans", Verdana, Tahoma, Arial, sans-serif; }
     #page { padding: 1em; position: absolute; top: 128px; }
-    th, td { padding: 0.3em; }
     th { text-align: left; }
     .ok a {
         text-decoration: none;
@@ -17,16 +16,13 @@
     .ok, .strings, .missing { text-align: center; }
     .number { text-align: right; }
     .strings { background: orange; }
-    .strings, .missing { font-size: 80%; }
-    .small { font-size: 80%; }
+    .strings, .missing, .small { font-size: 80%; }
     td, th { vertical-align: top; font-family: Arial; font-size: 80%; padding: 0.3em; }
     td { vertical-align: middle; }
-    .lv { display: inline-block; -webkit-transform: rotate(-40deg); }
     .action { font-size: smaller; display: block; text-align: center;
         text-decoration: none; padding: 0.3em 0.5em; border-radius: 3px;
-        background: rgba(0, 0, 0, 0.1); }
-    .viewpage {}
-    .partial { display: inline; margin-left: 0.3em; }
+        background: rgba(0, 0, 0, 0.1); margin: 0.5em 0; }
+    .partial { display: inline; margin-left: 0.3em; margin-top: 0.3em; }
     .addlang { color: #333; }
     </style>
 </head>
@@ -120,40 +116,42 @@
                     }
                 }
 
-                if ($link == 'downloads/get') {
-                    $link = sprintf('<a href="//www.mageia.org/%s/%s/?q=Mageia-2-dual-CD.iso&amp;d=1" class="action viewpage">view download OK page</a><span style="font-size: 3px; display: block;">&nbsp;</span><a href="//www.mageia.org/%s/%s/?q=Non_existing_file&amp;d=1" class="action viewpage">view non existing file page</a>', $l, $link, $l, $link);
-                } else if ($nav) {
+                if ($nav) {
+                    $mga = array();
                     $local_f  = @file_get_contents('../_nav/langs/' . $l . '.lang');
                     $mognas_f = @file_get_contents('http://nav.mageia.org/langs/' . $l . '.lang');
                     if ($local_f != $mognas_f) {
-                        $link = '<br> difference in svn <a href="http://svnweb.mageia.org/web/www/trunk/_nav/langs/">1</a> and <a href="http://svnweb.mageia.org/web/nav/langs/">2</a>';
-                    } else {
-                        $link = '';
+                        $page_not_linked = 'difference in svn <a class="action partial" href="http://svnweb.mageia.org/web/www/trunk/_nav/langs/">1</a> &amp; <a class="action partial" href="http://svnweb.mageia.org/web/nav/langs/">2</a>';
                     }
-                } else if ($link == '2' || $link == '3') {
-                    if ($link == '2') {
-                        $mga = array(
-                            'A' => '2/download_index.php',
-                            'B' => '2/for-pc/index.php',
-                            'C' => '2/for-server/index.php',
-                            'D' => '2/index.php',
-                        );
-                    } else if ($link == '3') {
-                        $mga = array(
-                            'A' => '3/download_index.php',
-                            'B' => 'for-pc/index.php',
-                            'C' => 'for-server/index.php',
-                            'D' => '3/index.php',
-                        );
-                    }
-                    $link = '' . PHP_EOL;
-                    foreach ($mga as $k => $v) {
-                        $link .= sprintf('<a href="/%s/%s" class="action viewpage partial">%s</a>', $l, $v, $k);
-                    }
-                    $link .= $page_not_linked;
+                } else if ($link == 'downloads/get') {
+                    $mga = array(
+                        'view download OK page' => 'downloads/get/index.php?q=Mageia-2-dual-CD.iso&amp;d=1" class="action"',
+                        'view non existing file page' => 'downloads/get/index.php?q=Non_existing_file&amp;d=1" class="action"',
+                    );
+                } else if ($link == '2') {
+                    $mga = array(
+                        'A' => '2/download_index.php',
+                        'B' => '2/for-pc/index.php',
+                        'C' => '2/for-server/index.php',
+                        'D' => '2/index.php',
+                    );
+                } else if ($link == '3') {
+                    $mga = array(
+                        'A' => '3/download_index.php',
+                        'B' => 'for-pc/index.php',
+                        'C' => 'for-server/index.php',
+                        'D' => '3/index.php',
+                    );
                 } else {
-                    $link = sprintf('<a href="/%s/%s" class="action viewpage">view page</a>%s', $l, $link, $page_not_linked);
+                    $mga = array(
+                        'view page' => $link,
+                    );
                 }
+                $link = '<div>';
+                foreach ($mga as $k => $v) {
+                    $link .= sprintf('<a href="/%s/%s" class="action partial">%s</a>', $l, $v, $k);
+                }
+                $link .= $page_not_linked . '</div>';
 
                 if (count($test['missing']) === 0
                     && $num_of_untranslated_strings === 0) {
