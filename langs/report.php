@@ -26,6 +26,7 @@
         text-decoration: none; padding: 0.3em 0.5em; border-radius: 3px;
         background: rgba(0, 0, 0, 0.1); }
     .viewpage {}
+    .partial { display: inline; margin-left: 0.3em; }
     .addlang { color: #333; }
     </style>
 </head>
@@ -129,6 +130,27 @@
                     } else {
                         $link = '';
                     }
+                } else if ($link == '2' || $link == '3') {
+                    if ($link == '2') {
+                        $mga = array(
+                            'A' => '2/download_index.php',
+                            'B' => '2/for-pc/index.php',
+                            'C' => '2/for-server/index.php',
+                            'D' => '2/index.php',
+                        );
+                    } else if ($link == '3') {
+                        $mga = array(
+                            'A' => '3/download_index.php',
+                            'B' => 'for-pc/index.php',
+                            'C' => 'for-server/index.php',
+                            'D' => '3/index.php',
+                        );
+                    }
+                    $link = '' . PHP_EOL;
+                    foreach ($mga as $k => $v) {
+                        $link .= sprintf('<a href="/%s/%s" class="action viewpage partial">%s</a>', $l, $v, $k);
+                    }
+                    $link .= $page_not_linked;
                 } else {
                     $link = sprintf('<a href="/%s/%s" class="action viewpage">view page</a>%s', $l, $link, $page_not_linked);
                 }
