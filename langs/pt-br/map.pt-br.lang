@@ -246,23 +246,22 @@ Mageia, web site, mapa, mapa do site
 Mapa do site
 
 
-# en/map/index.php +134
-;welcome!
-bem-vindos!
-
-
 # en/map/index.php +140
 ;You still can not find what you were looking for? Try searching mageia.org:
 Você ainda não pode encontrar o que você estava procurando? Tente pesquisar em www.mageia.org:
 
+
 ;Downloads
 Baixar
+
 
 ;http://planet.mageia.org/en/
 http://planet.mageia.org/pt
 
+
 ;Blog
 Blogue
+
 
 ;http://blog.mageia.org/en/
 http://blog.mageia.org/pt
@@ -270,6 +269,3 @@ http://blog.mageia.org/pt
 
 ;http://forums.mageia.org/
 http://forum.mageiabr.org
-
-;3 (in development)
-3 (em desenvolvimento)

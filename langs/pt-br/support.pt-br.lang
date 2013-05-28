@@ -61,14 +61,9 @@ Relatórios de bugs
 Você pode procurar existente %sdocumentation aqui%s. Você também pode olhar em nosso %sWiki%s.
 
 
-# ../../svn/web/en/support/index.php +44
-;Updates are available for %s and %s (security and bug fixes) and published on an ongoing basis.
-Atualizações estão disponíveis para %s e %s (segurança e correções de bugs) e publicado em uma base contínua.
-
-
 # en/support/index.php +44
 ;Updates are available for %s and %s (security and bug fixes) and published on an ongoing basis.
-Updates are available for %s and %s (security and bug fixes) and published on an ongoing basis.
+Atualizações estão disponíveis para %s e %s (segurança e correções de bugs) e publicado em uma base contínua.
 
 
 # ../../svn/web/en/support/index.php +45
