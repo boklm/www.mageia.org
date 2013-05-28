@@ -11,11 +11,6 @@ Arquivos de mídia a Mageia
 Arquivos de mídia
 
 
-# ../../svn/web/en/about/media/index.php +26
-;Logo
-Logotipo
-
-
 # en/about/media/index.php +25
 ;Official Logo
 Logo Oficial
@@ -39,16 +34,6 @@ Mageia 2013 alpha {ok}
 # ../../svn/web/en/about/media/index.php +41
 ;%sPNG</a> or %sSVG</a>
 %sPNG</a> ou %sSVG</a>
-
-
-# ../../svn/web/en/about/media/index.php +28
-;TODO: usage guidelines.
-TODO: diretrizes de uso.
-
-
-# ../../svn/web/en/about/media/index.php +32
-;Mageia 1 CD/DVD cover
-A Mageia 1 CD/DVD capa
 
 
 # en/about/media/index.php +46
