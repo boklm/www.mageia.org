@@ -87,57 +87,25 @@ Download Grátis
 
 
 # /en/index.php +237
-;version 2 (May 2012)
-versão 2 (Maio de 2012)
-
-
 ;version 3 (May 2013)
-version 3 (May 2013)
+versão 3 (maio de 2013)
 
 
 # en/index.php +243
 # if release notes are translated in your language use it's link instead of %s and replace en in hreflang with your language code
 ;<a href="%s" hreflang="en">Release notes</a>
-<a href="%s" hreflang="en">Release notes</a>
+<a href="%s" hreflang="en">Notas de Lançamento</a>
 
 
 # en/index.php +244
 # if errata is translated in your language use it's link instead of %s and replace en in hreflang with your language code
 ;<a href="%s" hreflang="en">errata</a>
-<a href="%s" hreflang="en">errata</a>
-
-
-# /en/index.php +240
-;Release notes
-Notas de lançamento
-
-
-
-
-
-# /en/index.php +240
-;https://wiki.mageia.org/en/Mageia_2_Release_Notes
-https://wiki.mageia.org/en/Mageia_2_Notas_de_lan%C3%A7amento_vers%C3%A3o_-_pt-BR
-
-
-# /en/index.php +241
-;https://wiki.mageia.org/en/Mageia_2_Errata
-https://wiki.mageia.org/en/Mageia_2_Errata
-
-
-# /en/index.php +241
-;errata
-errata
+<a href="%s" hreflang="en">errata</a> {ok}
 
 
 # /en/index.php +244
 ;<strong>Get involved</strong> in the next version
 <strong>Participe</strong> da próxima versão
-
-
-# /en/index.php +248
-;Test Mageia 3%s
-Test Mageia 3%s
 
 
 # /en/index.php +265
@@ -148,6 +116,7 @@ Mapa do Site
 # /en/index.php +266
 ;Privacy policy
 Política de privacidade
+
 
 ;Test Mageia 3%s
 Testar a Mageia 3%s

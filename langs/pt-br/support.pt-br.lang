@@ -62,8 +62,8 @@ Você pode procurar existente %sdocumentation aqui%s. Você também pode olhar e
 
 
 # ../../svn/web/en/support/index.php +44
-;Updates are available for %s (security and bug fixes) and published on an ongoing basis.
-Atualizações estão disponíveis para %s (segurança e correções de bugs) e publicado em uma base contínua.
+;Updates are available for %s and %s (security and bug fixes) and published on an ongoing basis.
+Atualizações estão disponíveis para %s e %s (segurança e correções de bugs) e publicado em uma base contínua.
 
 
 # en/support/index.php +44
@@ -98,7 +98,8 @@ Mageia 2 terá atualizações até o dia 22 de Novembro de 2013.
 
 # en/support/index.php +54
 ;Mageia 3 will be supported until November 19th, 2014.
-Mageia 3 will be supported until November 19th, 2014.
+Mageia 3 será suportado até 19 de novembro de 2014.
+
 
 
 # ../../svn/web/en/support/index.php +58
