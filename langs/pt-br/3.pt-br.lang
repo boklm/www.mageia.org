@@ -44,13 +44,13 @@ Uso acima DVD ou CD e ver <a href="%s" hreflang="en">guia de atualização</a>.
 Todos os idiomas
 
 ;LiveCD KDE
-LiveCD KDE
+LiveCD KDE {ok}
 
 ;English only
 Somente em Inglês
 
 ;LiveCD GNOME
-LiveCD GNOME
+LiveCD GNOME {ok}
 
 ;Wired Network-based Installation CD
 CD de instalação baseada em rede com fios
@@ -62,10 +62,10 @@ Baixar rapidamente e iniciar imediatamente em modo de instalação a partir de <
 19 de maio <sup>ª</sup> 2013
 
 ;<a href="%s">Release notes</a>
-<a href="%s">Notas de Lançamento </a>
+<a href="%s">Notas de Lançamento</a>
 
 ;<a href="%s">Errata</a>
-<a href="%s">Errata</a>
+<a href="%s">Errata</a> {ok}
 
 ;Upgrading<br>from Mageia 2?
 Atualizar <br> Mageia 2?
