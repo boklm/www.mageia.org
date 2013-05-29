@@ -228,7 +228,7 @@ class Pinq_Controller
     function fallback_to_previous_mode($uri, $lang)
     {
         $uri = explode('?', $uri);
-        $qs  = $uri[1];
+        $qs  = count($uri) > 1 ? $uri[1] : null;
         $uri = $uri[0];
 
         $alt_uri = sprintf(
