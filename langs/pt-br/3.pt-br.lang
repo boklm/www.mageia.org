@@ -101,7 +101,7 @@ Mageia 3, para o seu PC
 para o seu PC
 
 ;Plenty
-Plenty
+Abundância
 
 ;There are more than 21&nbsp;700&nbsp;packages in our repositories. And that's just for the 64-bit branch.
 Há mais de 21 700 pacotes em nossos repositórios. E isso é apenas para o ramo de 64 bits.
@@ -128,7 +128,7 @@ Aplicações →
 Há muitos, muitos para escolher - incluindo todos os mais populares.
 
 ;Web
-Web
+Web {ok}
 
 
 ;Choose your web browser from Firefox ESR 17.0.6, Chromium-browser 26.0.1410.65, Epiphany 3.6.1 or Opera 12.15 &ndash; or one of the many others such as Lynx or Konqueror; then pick an email client from KMail 4.10.2, Thunderbird ESR 17.0.6, Evolution 3.6.3 or maybe Claws-Mail or Mutt.
@@ -165,7 +165,7 @@ Vídeo
 Para a edição de arquivos de vídeo, tente Avidemux, Kino ou OpenShot, por legendas, há Gaupol ou Legendas Composer, uso MythTV, Miro, tvtime, FreetuxTV ou Me TV para assistir ou gravar programas de TV.
 
 ;Plus
-Plus
+Plus {ok}
 
 ;Then there's ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.
 Então há Zoneminder, para a Segurança CCTV; VirtualBox ou vinho para virtualização, e uma variedade de ambientes de desenvolvimento, como Anjuta, Eclipse, NetBeans ou o KDevelop.
