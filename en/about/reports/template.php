@@ -73,6 +73,9 @@ $count = array_fill(1, 12, 0);
 $tmp = $parsed['# Expenses details > ## More details'];
 array_shift($tmp);
 foreach ($tmp as $line) {
+    if (count($line) < 4)
+        continue;
+
     $month          = date('n', strtotime($line[0]));
     $list[$month]  += $line[3]; // amount
     $count[$month] += 1;
@@ -91,6 +94,9 @@ $count = array();
 
 // FIXME take ## Other revenues lines into account.
 foreach ($parsed['# Income details > ## Donations monthly summary'] as $line) {
+    if (count($line) < 3)
+        continue;
+
     $list[]  = $line[2];
     $count[] = $line[1];
 }

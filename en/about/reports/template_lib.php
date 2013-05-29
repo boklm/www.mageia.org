@@ -94,6 +94,9 @@ function get_revenues($v, $_months)
     );
 
     foreach ($v as $line) {
+        if (count($line) < 2)
+            continue;
+
         $html .= sprintf('<tr><td>%s</td><td>%s</td>
             <td class="money">%s</td>
             <td class="money">%s</td>
