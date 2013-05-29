@@ -199,6 +199,9 @@ require '../downloads/get/lib.php';
                         <ul class="hl">
                             <li><a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes"><?php _e('Release notes')?></a></li>
                             <li><a href="https://wiki.mageia.org/en/Mageia_2_Errata">Errata</a>.</li>
+                            <li><?php _e('<a href="%s">Which to choose</a>', array('https://wiki.mageia.org/en/Installation_Media'))?></li>
+                            <li><?php _e('<a href="%s">Get ISO on USB flash stick</a>', array('https://wiki.mageia.org/en/Installation_Media#Dump_Mageia_ISO_on_a_USB_flash_stick.3F'))?></li>
+
                         </ul>
                         <br>
                         <br>
