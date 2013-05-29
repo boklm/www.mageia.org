@@ -49,6 +49,7 @@
     $report         = array();
     $stats          = array();
     $stats['en']['files'] = 0;
+    $num_of_col     = 0;
 
     $diff_link      = '<a href="diff.php?s=%s&amp;l=%s" title="see detailed diff">';
 
@@ -199,7 +200,18 @@
                     $f, $l, $old_page
                 );
             }
+            $num_clmns_to_repeat = 9;
+            $num_of_col++;
+            if ($num_of_col % $num_clmns_to_repeat == 0 && $num_of_col <= count($enFiles) - ($num_clmns_to_repeat / 3)) {
+                if ($l == 'en') {
+                    $cols .= $lang_coloumn = '<td style="font-weight: bold;">Language</td>';
+                } else {
+                    $cols .= $lang_coloumn = sprintf('<td style="font-weight: bold; vertical-align: top;">%s<br><span style="font-weight: normal; font-size: smaller;">%s</span></td>', $langs[$l], $l);
+                }
+            }
         }
+        $cols .= $lang_coloumn; // last coloumn
+        $num_of_col = 0; // reset counter of coloumns
 
         $progress = floor($stats[$l]['strings'] / $stats['en']['strings'] * 100);
         // special case, en
@@ -222,12 +234,24 @@
     krsort($languages, SORT_NUMERIC);
 
     $enFiles = array_map(function ($e) { return str_replace('en/', '', $e); }, $enFiles);
-    $thfiles = '<th>' . implode('</th><th>', $enFiles) . '</th>' . PHP_EOL;
+    // add language coloumn repeating
+    $lang_line = array();
+    $num_of_h_col = 0;
+    foreach ($enFiles as $lang_chunk) {
+        $num_of_h_col++;
+        $lang_line[] = $lang_chunk;
+        if ($num_of_h_col % $num_clmns_to_repeat == 0 && $num_of_h_col <= count($enFiles) - ($num_clmns_to_repeat / 3)) {
+            $lang_line[] = '&nbsp;';
+        }
+    }
+    $lang_line[] = '&nbsp;';// last h coloumn
+    
+    $thfiles = '<th>' . implode('</th><th>', $lang_line) . '</th>' . PHP_EOL;
     $count   = count($otherLangs);
-    $chunks  = array_chunk($languages, 8);
+    $chunks  = array_chunk($languages, $num_lines_to_repeat = 8); // add header repeating
     $table_body = array();
     foreach ($chunks as $chunk) {
-        $table_body = array_merge($table_body, $chunk, array(count($chunk) > 4 ? '<tr><th>&nbsp;</th><th>File</th>' . $thfiles : ''));
+        $table_body = array_merge($table_body, $chunk, array(count($chunk) > ($num_lines_to_repeat / 2) ? '<tr><th>&nbsp;</th><th>File</th>' . $thfiles : ''));
     }
     array_unshift($table_body, $en_language); // unshift English back
     $s = implode($table_body);
