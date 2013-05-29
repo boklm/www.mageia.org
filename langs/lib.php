@@ -20,8 +20,8 @@ include '../langs.inc.php';
 */
 function _lang_diff($a, $b)
 {
-    $fa = _lang_return($a);
-    $fb = _lang_return($b);
+    $fa = i18n::_lang_return($a);
+    $fb = i18n::_lang_return($b);
 
     $ret = array(
         'aCount' => count($fa),

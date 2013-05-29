@@ -149,123 +149,6 @@ S;
         '<hr /></body></html>';
 }
 
-/**
- * Shorthand functions to echo localized strings.
- *
- * @param string $s string to localize
- * @param boolean $ret return value?
- *
- * @return null|string
-*/
-function _t($s = null, $opt = null, $post = ' ') {
-    return _d($s, $opt) . $post;
-}
-
-/**
- * @param string $s
- * @param array $opt
- *
- * @return string
- *
- * FIXME Yes, it's terribly wrong/evil to rely on an unknown global $_t.
- * Solution? rethink the whole i18n thing in an integrated one.
-*/
-function _d($s = null, $opt = null) {
-    if ($s == '')
-        return null;
-
-    if (!is_null($opt))
-        $_t = $opt;
-    else {
-        global $_t;
-    }
-
-    $ret = array_key_exists($s, $_t) ? $_t[$s] : $s;
-
-    return trim(str_replace(array('{ok}', '{OK}', '{Ok}', '{oK}'), '', $ret));
-}
-
-/**
- * Shorthand to echo localized strings.
- *
-*/
-function _e($s = null, $args = null) {
-    if (is_array($args))
-        echo vsprintf(_t($s), $args);
-    else
-        echo _t($s);
-}
-
-/**
- * @param string $s string to echo
- * @param array $args optional params to $s
- * @param string $tag optional tag to wrap $s into
- *
- * @return string
-*/
-function _h($s, $args = null, $tag = 'p') {
-    if (is_array($args))
-        $s = vsprintf(_t($s), $args);
-
-    $close_tag = explode(' ', $tag);
-    $close_tag = array_shift($close_tag);
-
-    echo sprintf('<%s>%s</%s>', $tag, _t($s), $close_tag);
-}
-
-/**
-*/
-function _lang_return($file)
-{
-    $strings = array();
-
-    if (file_exists($file)) {
-        $f = file($file);
-
-        foreach ($f as $k => $v) {
-
-            $C = substr($v, 0, 1);
-            if ($C === '#') continue;
-
-            if ($C === ';' && !empty($f[$k+1])) {
-                $j = trim(substr($v, 1));
-                $j = str_replace(array("\'", "\""), array("'", '"'), $j);
-                $strings[$j] = trim($f[$k+1]);
-            }
-        }
-    }
-
-    return $strings;
-}
-
-/**
- * @param string $locale
- * @param string $domain
- *
- * @return boolean
- *
- * @todo use i18n::get_fallback_language() or eq.
-*/
-function _lang_load($locale, $domain)
-{
-    if ($locale == 'en')
-        return true;
-
-    $lang_file = sprintf('%s/langs/%s/%s.%s.lang', G_APP_ROOT, $locale, $domain, $locale);
-
-    if (file_exists($lang_file)) {
-
-        global $_t;
-        if (!isset($_t) || !is_array($_t))
-            $_t = array();
-
-        $_t = array_merge($_t, _lang_return($lang_file));
-
-        return true;
-    }
-
-    return false;
-}
 
 /**
  * Class regrouping basic methods for i18n strings in their current forms.
@@ -340,4 +223,186 @@ class i18n
 
         return $ret;
     }
+
+    /**
+     * Get a translated string to output.
+     *
+     * Use it when you need to capture the string to output.
+     *
+     * Examples:
+     *
+     * echo _t("Hello."), _t("How are you?");
+     *
+     *
+     * @param string $s     string to localize
+     * @param array  $opt   translated strings list
+     * @param string $post  string suffix. Useful to prevent non-breaking lines.
+     *
+     * @return null|string
+    */
+    public static function _t($s = null, $opt = null, $post = ' ')
+    {
+        return self::_d($s, $opt) . $post;
+    }
+
+    /**
+     * Lookup for translated string for $s
+     * in global array $_t (yes, ugly)
+     * OR in $opt param.
+     *
+     * $_t or $opt is the list of string for the current locale.
+     *
+     * Use it when you need to get the exact, char-specific translation text.
+     *
+     * Examples:
+     *
+     * _d('http://mageia.org/en/');
+     * _d('http://blog.mageia.org/en/feed');
+     *
+     * @param string $s
+     * @param array $opt
+     *
+     * @return string
+     *
+     * FIXME Yes, it's terribly wrong/evil to rely on an unknown global $_t.
+     * Solution? rethink the whole i18n thing in an integrated one.
+    */
+    public static function _d($s = null, $opt = null)
+    {
+        if ($s == '')
+            return null;
+
+        if (!is_null($opt)) {
+            $_t = $opt;
+        } else {
+            global $_t;
+        }
+
+        $ret = array_key_exists($s, $_t) ? $_t[$s] : $s;
+
+        return trim(str_replace(array('{ok}', '{OK}', '{Ok}', '{oK}'), '', $ret));
+    }
+
+    /**
+     * Output a localized string $s, with optional $args.
+     *
+     * Use it when you need to just output a string.
+     *
+     * Examples:
+     *
+     * _e("Hello");
+     * _e("Hello %d %d", array(1, 2));
+     *
+     * @param string $s
+     * @param array  $args
+     *
+     * @return null
+    */
+    public static function _e($s = null, $args = null)
+    {
+        if (is_array($args))
+            echo vsprintf(_t($s), $args);
+        else
+            echo self::_t($s);
+    }
+
+    /**
+     * Output a localized string $s, sprintf'ed with $args, HTML-wrapped in $tag.
+     *
+     * Use it when you need to wrap your text is HTML, and this is faster.
+     *
+     * Examples:
+     *
+     * _h("Hello");
+     * _h("Hello %s", array("Alice"));
+     * _h("Title", null, "h1");
+     *
+     * @param string $s string to echo
+     * @param array  $args optional params to $s
+     * @param string $tag optional tag to wrap $s into
+     *
+     * @return null
+    */
+    public static function _h($s, $args = null, $tag = 'p')
+    {
+        $s = self::_t($s);
+        $s = is_array($args) ? vsprintf($s, $args) : $s;
+
+        $close_tag = explode(' ', $tag);
+        $close_tag = array_shift($close_tag);
+
+        echo sprintf('<%s>%s</%s>', $tag, $s, $close_tag);
+    }
+
+    /**
+     * Get all locales from given file.
+     *
+     * @param string $file
+     *
+     * @return array
+    */
+    public static function _lang_return($file)
+    {
+        $strings = array();
+
+        if (file_exists($file)) {
+            $f = file($file);
+
+            foreach ($f as $k => $v) {
+
+                $C = substr($v, 0, 1);
+                if ($C === '#') continue;
+
+                if ($C === ';' && !empty($f[$k+1])) {
+                    $j = trim(substr($v, 1));
+                    $j = str_replace(array("\'", "\""), array("'", '"'), $j);
+                    $strings[$j] = trim($f[$k+1]);
+                }
+            }
+        }
+
+        return $strings;
+    }
+
+    /**
+     * Load requested $locale, from $domain lang file, into global $_t array.
+     *
+     * @param string $locale
+     * @param string $domain
+     *
+     * @return boolean
+     *
+     * @todo use i18n::get_fallback_language() or eq.
+    */
+    public static function _lang_load($locale, $domain)
+    {
+        if ($locale == 'en')
+            return true;
+
+        $lang_file = sprintf('%s/langs/%s/%s.%s.lang', G_APP_ROOT, $locale, $domain, $locale);
+
+        if (file_exists($lang_file)) {
+
+            global $_t;
+            if (!isset($_t) || !is_array($_t))
+                $_t = array();
+
+            $_t = array_merge($_t, self::_lang_return($lang_file));
+
+            return true;
+        }
+
+        return false;
+    }
+
 }
+
+// shorthand helpers, to make legacy calls work.
+function _t($s = null, $opt = null, $post = ' ') { return i18n::_t($s, $opt, $post); }
+function _d($s = null, $opt = null)              { return i18n::_d($s, $opt); }
+function _e($s = null, $args = null)             { return i18n::_e($s, $args); }
+function _h($s = null, $args = null, $tag = 'p') { return i18n::_h($s, $args, $tag); }
+
+function _lang_load($locale, $domain) { return i18n::_lang_load($locale, $domain); }
+
+
