@@ -35,6 +35,7 @@ include '../../donators.inc.php';
                 $pp['count'], '<a href="../donate/">', '</a>');
             ?></p>
             <?php echo $pp['list']; ?>
+            <p><?php _e('Note: this page has not been updated recently and is in the process of being replaced. You can check latest donations on <a href="http://treasurer.mageia.org/donations.html">this page</a>.'); ?></p>
         </section>
         <section class="para" style="width: 20%; text-align: left; float: left;">
             <p><?php _e('Since September 2010, Mageia would not have come to a reality without the enthusiasm, advice and involvement of hundreds of people.')?></p>
