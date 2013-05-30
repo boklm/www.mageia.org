@@ -431,3 +431,11 @@ Mageia&nbsp;3 {ok}
 ;For server
 Для серверів
 
+# en/3/download_index.php +170
+;<a href="%s">Which to choose</a>
+<a href="%s">Що вибрати</a>
+
+# en/3/download_index.php +171
+;<a href="%s">Get ISO on USB flash stick</a>
+<a href="%s">Отримати ISO на флеш-носії USB</a>
+

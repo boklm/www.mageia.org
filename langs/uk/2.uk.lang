@@ -383,3 +383,15 @@ Mageia — дистрибутив Linux, створений спільнотою
 ;What's new?
 Що нового?
 
+# en/2/download_index.php +201
+;Errata
+Відомі помилки
+
+# en/2/download_index.php +202
+;<a href="%s">Which to choose</a>
+<a href="%s">Що вибрати</a>
+
+# en/2/download_index.php +203
+;<a href="%s">Get ISO on USB flash stick</a>
+<a href="%s">Отримати ISO на флеш-носії USB</a>
+
