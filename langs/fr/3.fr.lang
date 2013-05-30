@@ -191,6 +191,16 @@ nécessaires pour certains contrôleurs de disques ou cartes réseaux, etc.
 <a href="https://wiki.mageia.org/en/Mageia_3_Errata_Fr">Errata</a>
 
 
+# en/3/download_index.php +170
+;<a href="%s">Which to choose</a>
+<a href="%s" hreflang="en">Quel téléchargement choisir&nbsp;?</a>
+
+
+# en/3/download_index.php +171
+;<a href="%s">Get ISO on USB flash stick</a>
+<a href="%s" hreflang="en">Mettre l'ISO sur une clé USB</a>
+
+
 # en/3/download_index.php +174
 ;Upgrading<br>from Mageia 2?
 Mise à niveau<br>depuis Mageia 2&nbsp;?
