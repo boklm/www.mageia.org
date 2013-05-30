@@ -148,6 +148,21 @@ Bazı disk denetleyicileri, ağ kartları vs. için gereklidir.
 Sürüm notları
 
 
+# en/2/download_index.php +201
+;Errata
+Bilinen Hatalar
+
+
+# en/2/download_index.php +202
+;<a href="%s">Which to choose</a>
+<a href="%s">Hangisini seçmeliyim</a>
+
+
+# en/2/download_index.php +203
+;<a href="%s">Get ISO on USB flash stick</a>
+<a href="%s">USB belleğe ISO yazdırma</a>
+
+
 # en/2/download_index.php +205
 ;Upgrading<br>from Mageia 1?
 Mageia 1'den<br>Yükseltme

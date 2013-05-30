@@ -191,6 +191,16 @@ Bazı disk denetleyicileri, ağ kartları vs. için gereklidir.
 <a href="%s">Bilinen hatalar</a>
 
 
+# en/2/download_index.php +202
+;<a href="%s">Which to choose</a>
+<a href="%s">Hangisini seçmeliyim</a>
+
+
+# en/2/download_index.php +203
+;<a href="%s">Get ISO on USB flash stick</a>
+<a href="%s">USB belleğe ISO yazdırma</a>
+
+
 # en/3/download_index.php +173
 ;Upgrading<br>from Mageia 2?
 Mageia 2'den<br>Yükseltme
@@ -252,17 +262,17 @@ Dahası
 
 
 # en/for-pc/index.php +28
-;There are more than 21&nbsp;700&nbsp;packages in our repositories. And that's just for the 64-bit branch.
+;There are more than 21&nbsp;700&nbsp;packages in our repositories. And that&#39;s just for the 64-bit branch.
 Depolarımızda 21&nbsp;700&nbsp;paket vardır ve bu sadece 64-bit içindir.
 
 
 # en/for-pc/index.php +29
-;The total number is double that &ndash; and then if you consider the backports, and the packages in the Cauldron still testing... you'll see that Mageia users are spoiled for choice.
+;The total number is double that &ndash; and then if you consider the backports, and the packages in the Cauldron still testing... you&#39;ll see that Mageia users are spoiled for choice.
 Eğer backport'ları ve hala test yapılan Cauldron'daki paketleri hesaba katarsanız &ndash; toplam sayısı iki katıdır... Mageia kullanıcılarının seçim için şımartıldığını göreceksiniz.
 
 
 # en/for-pc/index.php +30
-;Here's a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:
+;Here&#39;s a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:
 İşte, masaüstünüzde kullanabildiğiniz çalışan grafik ortamların ve ana uygulamaların bir kesiti:
 
 
@@ -317,7 +327,7 @@ Ofis
 
 
 # en/for-pc/index.php +64
-;The two full-featured office suites LibreOffice and Calligra are there, as well as AbiWord, and a host of text editors including Kate; for finance there's KMyMoney, Skrooge or the professional-level GnuCash.
+;The two full-featured office suites LibreOffice and Calligra are there, as well as AbiWord, and a host of text editors including Kate; for finance there&#39;s KMyMoney, Skrooge or the professional-level GnuCash.
 Abiword ve Kate dahil bir sürü metin düzenleyicinin yanısıra, tam özellikli iki LibreOffice ve Calligra ofis paketleri de bulunur. Finans için KMyMoney, Skrooge veya profesyonel düzeyde GnuCash kullanabilirsiniz.
 
 
@@ -337,7 +347,7 @@ Ses
 
 
 # en/for-pc/index.php +76
-;For playing audio files, choose from Amarok 2.7.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don't infringe local laws.
+;For playing audio files, choose from Amarok 2.7.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don&#39;t infringe local laws.
 Ses dosyalarını oynatmak için, Amarok 2.7.0, Rhythmbox veya diğer bir çok seçenek arasından başka birini seçebilirsiniz. Video ve ses oynatmak için de VLC, Totem, MPlayer veya ev eğlence sisteminiz olarak ortam merkezi olan XBMC kullanabilirsiniz. Bazı paketler Tainted ve Core depolarının ikisinde de bulunabilir: Core deposundaki paketler yalnız patent engellemesi olmayan kodekleri destekler. Tainted deposundaki paketler yerel hukukun ihlal edilmediği ülkelerde yaşayan kullanıcılar için tüm kodekleri destekler.
 
 
@@ -347,7 +357,7 @@ Video {ok}
 
 
 # en/for-pc/index.php +82
-;For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there's Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.
+;For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there&#39;s Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.
 Video dosyalarınızı düzenlemek için, Avidemux, Kino veya OpenShot, alt yazılarınız için de Gaupol veya Subtitles Composer'i deneyin. TV programlarını seyretmek veya kaydetmek içinse MythTV, Miro, tvtime, FreetuxTV veya Me TV kullanabilirsiniz.
 
 
@@ -357,7 +367,7 @@ Video dosyalarınızı düzenlemek için, Avidemux, Kino veya OpenShot, alt yaz�
 
 
 # en/for-pc/index.php +88
-;Then there's ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.
+;Then there&#39;s ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.
 Ayrıca güvenlik kamera sistemi için ZoneMinder, sanallaştırma için WINE veya VirtualBox, geliştirme ortamları için de Anjuta, Eclipse, Netbeans or KDevelop bulunmaktadır.
 
 
@@ -462,7 +472,7 @@ Mageia 3 bilgisayarınız için bir GNU/Linux dağıtımıdır ve <a href="%s">M
 
 
 # en/3/index.php +31
-;What's new?
+;What&#39;s new?
 Yeni neler var?
 
 
@@ -487,7 +497,7 @@ Mageia, üçüncü sürümümüz olan Mageia 3 ile beraber hem bir linux dağıt
 
 
 # en/3/index.php +38
-;Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch's most popular distributions</a>.
+;Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch&#39;s most popular distributions</a>.
 <a href="../1/">Mageia 1</a> sürümünden bu yana, bizim ortaya koyduğumuz ürün tutarlı bir şekilde <a href="%s">Distrowatch'ın en beğenilen dağıtımlarının ilk onu</a> içerisindedir.
 
 
