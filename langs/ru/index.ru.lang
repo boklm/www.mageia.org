@@ -86,33 +86,23 @@ Mageia - свободный дистрибутив Linux для персонал
 Скачать
 
 
-# /en/index.php +237
-;version 2 (May 2012)
-версия 2 (Май 2012)
-
-
 ;version 3 (May 2013)
 версия 3 (Май 2013)
 
 
 # /en/index.php +240
 ;<a href="%s" hreflang="en">Release notes</a>
-<a href="%s" hreflang="en">Заметки о выпуске (en)</a>
+<a href="%s" hreflang="en">Заметки о выпуске</a>
 
 
 # /en/index.php +241
 ;<a href="%s" hreflang="en">errata</a>
-<a href="%s" hreflang="en">известные ошибки (en)</a>
+<a href="%s" hreflang="en">известные ошибки</a>
 
 
 # /en/index.php +244
 ;<strong>Get involved</strong> in the next version
 <strong>Прими участие</strong> в развитии следующей версии
-
-
-# /en/index.php +248
-;Test Mageia 3%s
-Тестировать Mageia 3%s
 
 
 # /en/index.php +265

@@ -425,3 +425,10 @@ Mageia 3 {ok}
 ;For server
 Для серверов
 
+# en/2/download_index.php +202
+;<a href="%s">Which to choose</a>
+<a href="%s">Что выбрать</a>
+
+# en/2/download_index.php +203
+;<a href="%s">Get ISO on USB flash stick</a>
+<a href="%s">Получить ISO на USB флеш-носителе</a>
