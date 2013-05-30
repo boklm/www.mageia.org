@@ -29,13 +29,13 @@ include '../../donators.inc.php';
     </header>
     <article>
         <section class="para" style="width: 70%; text-align: left; float: left;">
+            <p><?php _e('Note: this page has not been updated recently and is in the process of being replaced. You can check latest donations on <a href="http://treasurer.mageia.org/donations.html">this page</a>.'); ?></p>
             <p><?php
                 $pp = html_donators_list($donators, $anonymous);
                 echo sprintf(_t('%d amazing people %sdonated money%s to Mageia.Org:'),
                 $pp['count'], '<a href="../donate/">', '</a>');
             ?></p>
             <?php echo $pp['list']; ?>
-            <p><?php _e('Note: this page has not been updated recently and is in the process of being replaced. You can check latest donations on <a href="http://treasurer.mageia.org/donations.html">this page</a>.'); ?></p>
         </section>
         <section class="para" style="width: 20%; text-align: left; float: left;">
             <p><?php _e('Since September 2010, Mageia would not have come to a reality without the enthusiasm, advice and involvement of hundreds of people.')?></p>
