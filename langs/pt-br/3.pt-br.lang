@@ -356,3 +356,9 @@ Instalador via rede + CD de firmware não-livres
 # ../../svn/web/en/3/index.php +136
 ;needed for some disc controllers, some network cards, etc.
 necessários para alguns controladores de disco, rede de algumas cartas, etc.
+
+;<a href="%s">Which to choose</a>
+<a href="%s">que para escolher</a>
+
+;<a href="%s">Get ISO on USB flash stick</a>
+<a href="%s">Obter ISO no flash USB stick</a>
