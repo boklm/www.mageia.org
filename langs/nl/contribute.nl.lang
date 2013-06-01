@@ -24,12 +24,12 @@ Iedereen kan bijdragen, dit is Vrije Software! Wanneer u nieuwsgierig bent (gewo
 Zie hieronder wat u zou kunnen doen!
 
 
-;browse_role
-Bijdragen per taak
+#;browse_role
+#Bijdragen per taak
 
 
-;browse_time
-Bijdragen per beschikbare tijd
+#;browse_time
+#Bijdragen per beschikbare tijd
 
 
 ;Roles
@@ -125,7 +125,7 @@ Gelddonaties helpen ons bij het uitvoeren van onze werkzaamheden. Dit kunnen spe
 
 
 ;Data mining
-Data mining
+Datamining
 
 
 ;There are tons of data out there, most of which we don't use, or even know about. If you like to grab and analyze data to reveal &amp; visualize it to spot what we can do even better, get in touch!
