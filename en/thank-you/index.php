@@ -32,9 +32,8 @@ include '../../donators.inc.php';
     <article>
         <section class="para" style="width: 70%; text-align: left; float: left;">
             <p><?php
-                $pp = html_donators_list($donators, $anonymous);
-                echo sprintf(_t('%d amazing people %sdonated money%s to Mageia.Org:'),
-                $pp['count'], '<a href="../donate/">', '</a>');
+                echo sprintf(_t('The following amazing people %sdonated money%s to Mageia.Org:'),
+                '<a href="../donate/">', '</a>');
             ?></p>
             <ul id="donlist" class="ty-ppl-list"></ul>
             <p>
