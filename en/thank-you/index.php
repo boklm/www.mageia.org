@@ -37,7 +37,7 @@ include '../../donators.inc.php';
             ?></p>
             <ul id="donlist" class="ty-ppl-list"></ul>
             <p>
-                <?php sprintf(_t('%s Euros has been donated to Mageia.Org in the last 30 days. <a href="%s">More details</a>.'),
+                <?php echo sprintf(_t('%s Euros has been donated to Mageia.Org in the last 30 days. <a href="%s">More details</a>.'),
                     '<span id="donations_30days"></span>', 'http://treasurer.mageia.org/donations.html');
                 ?>
             </p>
