@@ -274,97 +274,97 @@ Hier is een overzicht, eerst van de beschikbare grafische omgevingen en dan van 
 
 # en/for-pc/index.php +31
 ;Environments
-Environments
+Omgevingen
 
 
 # en/for-pc/index.php +32
 ;Mageia 3 has all the major desktop environments:
-Mageia 3 has all the major desktop environments:
+Mageia 3 heeft alle belangrijke werkomgevingen:
 
 
 # en/for-pc/index.php +43
 ;And then there are the window managers, including Openbox, WindowMaker, IceWM, Fluxbox, Fvwm2 and Awesome.
-And then there are the window managers, including Openbox, WindowMaker, IceWM, Fluxbox, Fvwm2 and Awesome.
+En dan zijn er ook nog windowmanagers, waaronder Openbox, WindowMaker, IceWM, Fluxbox, Fvwm2 en Awesome.
 
 
 # en/for-pc/index.php +44
 ;Applications &rarr;
-Applications &rarr;
+Applicaties &rarr;
 
 
 # en/for-pc/index.php +45
 ;There are many, many to choose from &ndash; including all the most popular.
-There are many, many to choose from &ndash; including all the most popular.
+Er zijn er veel, heel veel, waaruit u kunt kiezen – inclusief de meeste populaire.
 
 
 # en/for-pc/index.php +51
 ;Web
-Web
+Web{ok}
 
 
 # en/for-pc/index.php +52
 ;Choose your web browser from Firefox ESR 17.0.6, Chromium-browser 26.0.1410.65, Epiphany 3.6.1 or Opera 12.15 &ndash; or one of the many others such as Lynx or Konqueror; then pick an email client from KMail 4.10.2, Thunderbird ESR 17.0.6, Evolution 3.6.3 or maybe Claws-Mail or Mutt.
-Choose your web browser from Firefox ESR 17.0.6, Chromium-browser 26.0.1410.65, Epiphany 3.6.1 or Opera 12.15 &ndash; or one of the many others such as Lynx or Konqueror; then pick an email client from KMail 4.10.2, Thunderbird ESR 17.0.6, Evolution 3.6.3 or maybe Claws-Mail or Mutt.
+Maak voor uw web-browser een keuze uit ESR 17.0.6, Chromium-browser 26.0.1410.65, Epiphany 3.6.1 of Opera 12.15 &ndash; of een van de vele anderen zoals Lynx of Konqueror; kies dan voor uw email uit KMail 4.10.2, Thunderbird ESR 17.0.6, Evolution 3.6.3 of wellicht Claws-Mail of Mutt.
 
 
 # en/for-pc/index.php +57
 ;Messaging
-Messaging
+Messaging{ok}
 
 
 # en/for-pc/index.php +58
 ;Choose from Kopete, Pidgin, Empathy or Kadu for instant messaging; use Quassel, Konversation, XChat-Gnome or KVIrc for IRC chat; try QuteCom or Ekiga (or even Skype) for VOIP.
-Choose from Kopete, Pidgin, Empathy or Kadu for instant messaging; use Quassel, Konversation, XChat-Gnome or KVIrc for IRC chat; try QuteCom or Ekiga (or even Skype) for VOIP.
+Kies uit Kopete, Pidgin, Empathy of Kadu voor messaging; gebruik Quassel, Konversation, XChat-Gnome of KVIrc om te chatten op IRC; probeer QuteCom of Ekiga (of zelfs Skype) voor VOIP.
 
 
 # en/for-pc/index.php +63
 ;Office
-Office
+Kantoor
 
 
 # en/for-pc/index.php +64
 ;The two full-featured office suites LibreOffice and Calligra are there, as well as AbiWord, and a host of text editors including Kate; for finance there's KMyMoney, Skrooge or the professional-level GnuCash.
-The two full-featured office suites LibreOffice and Calligra are there, as well as AbiWord, and a host of text editors including Kate; for finance there's KMyMoney, Skrooge or the professional-level GnuCash.
+De twee volledig uitgeruste kantoorsuites LibreOffice en Calligra zijn beschikbaar, alsook AbiWord en een reeks tekstbewerkers, waaronder Kate; voor uw financiën is er KMyMoney, Skrooge of het professionele GnuCash.
 
 
 # en/for-pc/index.php +69
 ;Image
-Image
+Afbeeldingen
 
 
 # en/for-pc/index.php +70
 ;Use GIMP for powerful image manipulation, or Inkscape for vector drawing; Blender is there for serious animation. DigiKam or Showfoto will take care of your photos, talk to your camera and give you more basic image editing.
-Use GIMP for powerful image manipulation, or Inkscape for vector drawing; Blender is there for serious animation. DigiKam or Showfoto will take care of your photos, talk to your camera and give you more basic image editing.
+Gebruik GIMP om op een krachtige manier uw afbeeldingen te bewerken, of Inkscape voor vector-tekeningen; Blender is aanwezig voor het betere animatiewerk. DigiKam of Showfoto zullen zich om uw foto's bekommeren, communiceren met uw camera en u meer basisopties bieden voor fotobewerking. 
 
 
 # en/for-pc/index.php +75
 ;Sound
-Sound
+Geluid
 
 
 # en/for-pc/index.php +76
 ;For playing audio files, choose from Amarok 2.7.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don't infringe local laws.
-For playing audio files, choose from Amarok 2.7.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don't infringe local laws.
+Kies tussen o.a. Amarok 2.7.0 en Rhythmbox om geluidsbestanden af te spelen; gebruik VLC, Totem of MPlayer voor video en voor geluid, of gebruik het XBMC Mediacentrum als uw home entertainment systeem. Sommige pakketten vindt u zowel in de Core- als in de Tainted-pakketbronnen: de pakketten in de Core-pakketbronnen ondersteunen alleen patentvrije codecs en de pakketten in de Tainted-bronnen ondersteunen alle codecs voor gebruikers die in landen leven, waar deze codecs niet strijdig zijn met de geldende wetten.
 
 
 # en/for-pc/index.php +81
 ;Video
-Video
+Video{ok}
 
 
 # en/for-pc/index.php +82
 ;For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there's Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.
-For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there's Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.
+Probeer Avidemux, Kino of OpenShot om videobestanden te bewerken; voor ondertiteling is er Gaupol of Subtitles Composer; gebruik MythTV, Miro, tvtime, FreetuxTV of Me TV voor het zien of opnemen van tv-programma's.
 
 
 # en/for-pc/index.php +87
 ;Plus
-Plus
+Plus{ok}
 
 
 # en/for-pc/index.php +88
 ;Then there's ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.
-Then there's ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.
+Dan is er nog ZoneMinder, for Beveiliging via Cameratoezicht; VirtualBox of WINE for virtualisatie; en een reeks ontwikkelingsomgevingen, zoals Anjuta, Eclipse, Netbeans of KDevelop.
 
 
 # en/for-pc/index.php +93
@@ -541,3 +541,6 @@ Voor servers
 
 ;<a href="%s">Get ISO on USB flash stick</a>
 <a href="%s">Zet ISO op een USB-stick</a>
+
+;Newcomer? <a href="%s">Here's a wiki page for you.</a>
+Nieuweling? <a href="%s">Hier is een wiki pagina voor u.</a>
