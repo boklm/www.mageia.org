@@ -420,5 +420,6 @@ $.getJSON(donations_who_url, function(data) {
 });
 
 $.getJSON(treasurer_infos_url, function(data) {
+    document.getElementById("donations_30days").innerHTML=data.donations_30days;
     document.getElementById("last_update").innerHTML=data.last_update;
 });
