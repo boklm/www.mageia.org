@@ -17,6 +17,8 @@ include '../../donators.inc.php';
     <meta name="author" content="Mageia">
     <link rel="stylesheet" type="text/css" href="/g/style/all.css">
     <?php include '../../analytics.php'; ?>
+    <script src="http://static.mageia.org/g/js/jquery-1.10.1.min.js"></script>
+    <script src="http://static.mageia.org/g/js/donators-list.js"></script>
 </head>
 <body class="about">
     <?php echo $hsnav; ?>
@@ -35,7 +37,10 @@ include '../../donators.inc.php';
                 echo sprintf(_t('%d amazing people %sdonated money%s to Mageia.Org:'),
                 $pp['count'], '<a href="../donate/">', '</a>');
             ?></p>
-            <?php echo $pp['list']; ?>
+            <ul id="donlist" class="ty-ppl-list"></ul>
+            <p>
+                <?php _e('Last update:') ?> <span id="last_update"></span>
+            </p>
         </section>
         <section class="para" style="width: 20%; text-align: left; float: left;">
             <p><?php _e('Since September 2010, Mageia would not have come to a reality without the enthusiasm, advice and involvement of hundreds of people.')?></p>
