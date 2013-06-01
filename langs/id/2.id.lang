@@ -147,42 +147,62 @@ diperlukan oleh beberapa kontroler disk, beberapa perangkat jaringan, dll.
 Catatan rilis
 
 
-# en/2/download_index.php +205
+# en/2/download_index.php +201
+;Errata
+Errata {ok}
+
+
+# en/2/download_index.php +202
+;<a href="%s">Which to choose</a>
+<a href="%s">Mana yang dipilih</a>
+
+
+# en/2/download_index.php +203
+;<a href="%s">Get ISO on USB flash stick</a>
+<a href="%s">Dapatkan ISO dalam flashdisk</a>
+
+
+# en/2/download_index.php +204
+;Newcomer? <a href="%s">Here's a wiki page for you.</a>
+Pendatang baru? <a href="%s">Ini adalah halaman wiki untukmu.</a>
+
+
+# en/2/download_index.php +209
 ;Upgrading<br>from Mageia 1?
 Upgrade<br>dari Mageia 1?
 
 
-# en/2/download_index.php +207
+# en/2/download_index.php +211
 ;<strong>do not</strong> use LiveCDs;
 <strong>jangan</strong> gunakan LiveCD;
 
 
-# en/2/download_index.php +208
+# en/2/download_index.php +212
 ;see the <a href="%s" hreflang="en">upgrade guide</a>
 lihat <a href="%s" hreflang="en">panduan upgrade</a>
 
 
-# en/2/download_index.php +214
+# en/2/download_index.php +218
 ;Looking for Mageia 1?
 Mencari Mageia 1?
 
 
-# en/2/download_index.php +216
+# en/2/download_index.php +220
 ;It is <a href="%s">here now</a>.
 Sekarang ada <a href="%s">di sini</a>.
 
 
-# en/2/download_index.php +217 (added manually)
+# en/2/download_index.php +221
 ;But please remember that it already <a href="http://blog.mageia.org/en/2012/12/02/mageia-1-eol"/>reached EOL</a>.
 Tapi ingat bahwa ini sudah <a href="http://blog.mageia.org/en/2012/12/02/mageia-1-eol"/>mencapai akhir dukungan</a>.
 
 
-# en/2/download_index.php +220 (added manually)
+# en/2/download_index.php +227
 ;Need more challenge?
 Butuh tantangan?
 
 
-# en/2/download_index.php +221 (added manually)
+# en/2/download_index.php +228
 ;You can help us <a href="%s">develop and quality-check Mageia 3</a>.
 Kamu bisa membantu kami <a href="%s">mengembangkan dan cek kualitas Mageia 3</a>.
 
@@ -192,132 +212,132 @@ Kamu bisa membantu kami <a href="%s">mengembangkan dan cek kualitas Mageia 3</a>
 Mageia 2, untuk PC-mu
 
 
-# en/for-pc/index.php +21
+# en/for-pc/index.php +22
 ;for your PC
 untuk PC-mu
 
 
-# en/for-pc/index.php +26
+# en/for-pc/index.php +27
 ;Plenty
 Banyak
 
 
-# en/for-pc/index.php +27
-;There are 19&nbsp;881&nbsp;packages in our repositories. And that's just for the 64-bit branch.
-Ada 19&nbsp;881&nbsp;paket di repositori kami. Dan itu cuma untuk arsitektur 64-bit.
-
-
 # en/for-pc/index.php +28
+;There are 19&nbsp;881&nbsp;packages in our repositories. And that's just for the 64-bit branch.
+Ada 19&nbsp;881&nbsp;paket di repositori kami. Dan itu hanya untuk arsitektur 64-bit.
+
+
+# en/for-pc/index.php +29
 ;The total number is double that &ndash; and then if you consider the backports, and the packages in the Cauldron still testing... you'll see that Mageia users are spoiled for choice.
 Jumlah total dua kali lipat dari itu &ndash; dan jika kamu juga menghitung backports, dan paket Cauldron yang masih diuji... kamu bisa lihat bahwa pengguna Mageia begitu dimanjakan oleh banyak pilihan.
 
 
-# en/for-pc/index.php +29
+# en/for-pc/index.php +30
 ;Here's a cross-section, first of the working graphical environments, and then of the core applications you could be using on your desktop:
 Ini adalah gambarannya, pertama adalah lingkungan grafis, lalu aplikasi inti yang bisa kamu gunakan di desktop kamu:
 
 
-# en/for-pc/index.php +30
+# en/for-pc/index.php +31
 ;Environments
 Lingkungan desktop
 
 
-# en/for-pc/index.php +31
+# en/for-pc/index.php +32
 ;Mageia 2 has all the major desktop environments:
 Mageia 2 memiliki semua lingkungan desktop utama:
 
 
-# en/for-pc/index.php +44
+# en/for-pc/index.php +43
 ;And then there are the window managers, including Openbox, WindowMaker, IceWM, Fluxbox, Fvwm2 and Awesome.
 Kemudian juga manajer window, termasuk Openbox, WindowMaker, IceWM, Fluxbox, Fvwm2 dan Awesome.
 
 
-# en/for-pc/index.php +45
+# en/for-pc/index.php +44
 ;Applications &rarr;
 Aplikasi &rarr;
 
 
-# en/for-pc/index.php +46
+# en/for-pc/index.php +45
 ;There are many, many to choose from &ndash; including all the most popular.
 Ada banyak yang bisa dipilih &ndash; termasuk semua yang paling populer.
 
 
-# en/for-pc/index.php +53
+# en/for-pc/index.php +51
 ;Web
 Web {ok}
 
 
-# en/for-pc/index.php +54
+# en/for-pc/index.php +52
 ;Choose your web browser from Firefox ESR 10.0.4, Chromium-browser 180.1025.160, Epiphany 3.4.1 or Opera 11.64 &ndash; or one of the many others such as Lynx or Konqueror; then pick an email client from KMail 4.8.2, Thunderbird ESR 10.0.4, Evolution 3.4.1 or maybe Claws-Mail or Mutt.
 Pilih browser web-mu mulai dari Firefox ESR 10.0.4, Chromium-browser 180.1025.160, Epiphany 3.4.1 atau Opera 11.64 &ndash; atau yang lainnya seperti Lynx atau Konqueror; lalu gunakan juga klien email KMail 4.8.2, Thunderbird ESR 10.0.4, Evolution 3.4.1 atau mungkin Claws-Mail atau Mutt.
 
 
-# en/for-pc/index.php +59
+# en/for-pc/index.php +57
 ;Messaging
 Perpesanan
 
 
-# en/for-pc/index.php +60
+# en/for-pc/index.php +58
 ;Choose from Kopete, Pidgin, Empathy or Kadu for instant messaging; use Quassel, Konversation, XChat-Gnome or KVIrc for IRC chat; try QuteCom or Ekiga (or even Skype) for VOIP.
 Pilih mulai dari Kopete, Pidgin, Empathy atau Kadu untuk pesan instan; gunakan Quassel, Konversation, XChat-Gnome atau KVIrc untuk obrolan IRC; coba QuteCom atau Ekiga (atau bahkan Skype) untuk VOIP.
 
 
-# en/for-pc/index.php +65
+# en/for-pc/index.php +63
 ;Office
-Kantor
+Perkantoran
 
 
-# en/for-pc/index.php +66
+# en/for-pc/index.php +64
 ;The two full-featured office suites LibreOffice and Calligra are there, as well as AbiWord, and a host of text editors including Kate; for finance there's KMyMoney, Skrooge or the professional-level GnuCash.
 Dua aplikasi perkantoran lengkap LibreOffice dan Calligra juga ada, selain itu AbiWord, dan sejumlah editor teks termasuk Kate; untuk finansial ada KMyMoney, Skrooge atau yang berlevel profesional GnuCash.
 
 
-# en/for-pc/index.php +71
+# en/for-pc/index.php +69
 ;Image
 Gambar
 
 
-# en/for-pc/index.php +72
+# en/for-pc/index.php +70
 ;Use GIMP for powerful image manipulation, or Inkscape for vector drawing; Blender is there for serious animation. DigiKam or Showfoto will take care of your photos, talk to your camera and give you more basic image editing.
 Gunakan GIMP untuk manipulasi gambar yang powerful, atau Inkscape untuk menggambar vektor; Blender untuk animasi. DigiKam atau Showfoto akan menangani fotomu, berinteraksilah dengan kamera dan berikan lebih banyak penyuntingan gambar.
 
 
-# en/for-pc/index.php +77
+# en/for-pc/index.php +75
 ;Sound
 Suara
 
 
-# en/for-pc/index.php +78
+# en/for-pc/index.php +76
 ;For playing audio files, choose from Amarok 2.5.0 and Rhythmbox, among others; use VLC, Totem or MPlayer for video and for audio, or use the XBMC Media Center as your home entertainment system. Some packages can be found in both the Core and Tainted repositories: the packages in the Core repository support only non-patent-encumbered codecs and the packages in the Tainted repository support all codecs, for users who live in countries where those codecs don't infringe local laws.
 Untuk memainkan file suara, pilih mulai dari Amarok 2.5.0 dan Rhythmbox, atau yang lain; gunakan VLC, Totem atau MPlayer untuk video dan untuk audio, atau gunakan XBMC Media Center sebagai sistem home entertainment-mu. Beberapa paket bisa ditemukan di repositori Core dan Tainted: paket-paket dalam repositori Core hanya mendukung codec yang tidak melanggar paten dan paket-paket dalam repositori Tainted mendukung semua codec, untuk pengguna yang tinggal di negara yang mana codec tidak melanggar hukum.
 
 
-# en/for-pc/index.php +83
+# en/for-pc/index.php +81
 ;Video
 Video {ok}
 
 
-# en/for-pc/index.php +84
+# en/for-pc/index.php +82
 ;For editing video files, try Avidemux, Kino or OpenShot; for subtitles, there's Gaupol or Subtitles Composer; use MythTV, Miro, tvtime, FreetuxTV or Me TV for watching or recording TV programmes.
 Untuk mengedit file video, coba Avidemux, Kino atau OpenShot; untuk teks film, ada Gaupol atau Subtitles Composer; gunakan MythTV, Miro, tvtime, FreetuxTV atau Me TV untuk menonton atau merekam program TV.
 
 
-# en/for-pc/index.php +89
+# en/for-pc/index.php +87
 ;Plus
 Plus {ok}
 
 
-# en/for-pc/index.php +90
+# en/for-pc/index.php +88
 ;Then there's ZoneMinder, for CCTV Security; VirtualBox or WINE for virtualisation; and a range of development environments such as Anjuta, Eclipse, Netbeans or KDevelop.
 Lalu ada ZoneMinder, untuk Keamanan CCTV; VirtualBox atau WINE untuk virtualisasi; dan berbagai aplikasi pengembangan seperti Anjuta, Eclipse, Netbeans atau KDevelop.
 
 
-# en/for-pc/index.php +95
+# en/for-pc/index.php +93
 ;For more information about these and other packages, check the <a href="%s">Mageia 2 Release notes</a>.
 Untuk informasi lebih lanjut tentang ini dan paket-paket lainnya, lihat <a href="%s">Catatan rilis Mageia 2</a>.
 
 
-# en/for-pc/index.php +96
+# en/for-pc/index.php +94
 ;You can take a look at the <a href="%s">Mageia Application Database</a> to get a more complete list of Mageia packages.
 Kamu bisa melihat <a href="%s">Basis Data Aplikasi Mageia</a> untuk mendapatkan daftar yang lebih lengkap dari paket Mageia.
 
@@ -327,161 +347,151 @@ Kamu bisa melihat <a href="%s">Basis Data Aplikasi Mageia</a> untuk mendapatkan 
 Mageia 2, untuk server-mu
 
 
-# en/for-server/index.php +21
+# en/for-server/index.php +22
 ;for your server
 untuk server-mu
 
 
-# en/for-server/index.php +26
+# en/for-server/index.php +27
 ;Mageia 2 has all the main services and server packages you will need to run your server.
 Mageia 2 memiliki semua layanan utama dan paket server yang kamu perlukan untuk menjalankan server.
 
 
-# en/for-server/index.php +27
+# en/for-server/index.php +28
 ;Aside from the cross-section included here, you will find many others in the repositories: you can use rpmdrake to search for packages, or check the <a href="%s">Mageia App DB</a>.
 Selain dari apa yang tercakup di sini, kamu bisa menemukan lebih banyak yang lainnya di dalam repositori: kamu bisa gunakan rpmdrake untuk mencari paket, atau lihat <a href="%s">Mageia App DB</a>.
 
 
-# en/for-server/index.php +30
+# en/for-server/index.php +31
 ;Administration
 Administrasi
 
 
-# en/for-server/index.php +31
+# en/for-server/index.php +32
 ;For centralised administration, we include puppet 2.7.11; we use it widely in <a href="%s">our own infrastructure</a>.
 Untuk pemusatan administrasi, kami menyertakan puppet 2.7.11; kami menggunakannya secara luas pada <a href="%s">infrastruktur kami</a>.
 
 
-# en/for-server/index.php +34
+# en/for-server/index.php +35
 ;The entire High Availability stack has been updated, and now includes drbd 8.3.11, Corosync 2.0.0 and Pacemaker 1.1.7.
 Keseluruhan ketersediaan telah kami perbarui, dan sekarang termasuk drbd 8.3.11, Corosync 2.0.0 dan Pacemaker 1.1.7.
 
 
-# en/for-server/index.php +36
+# en/for-server/index.php +37
 ;Databases
 Basis Data
 
 
-# en/for-server/index.php +37
+# en/for-server/index.php +38
 ;Databases included are PostgreSQL 8.4.11; MariaDB, which replaces MySQL 5.5.23; BDB.
 Basis data yang disertakan adalah PostgreSQL 8.4.11; MariaDB, yang menggantikan MySQL 5.5.23; BDB.
 
 
-# en/for-server/index.php +38
+# en/for-server/index.php +39
 ;And there are NoSQL servers too: CouchDB 1.1.1, Redis 2.4.8, Cassandra 1.4.0, MongoDB 2.0.3.
 Dan ada juga server NoSQL: CouchDB 1.1.1, Redis 2.4.8, Cassandra 1.4.0, MongoDB 2.0.3.
 
 
-# en/for-server/index.php +40
+# en/for-server/index.php +41
 ;Servers
 Server
 
 
-# en/for-server/index.php +41
+# en/for-server/index.php +42
 ;Web servers include Apache 2.2.22, Cherokee 1.2.101 and lighttpd 1.4.30.
 Server Web menyertakan Apache 2.2.22, Cherokee 1.2.101 dan lighttpd 1.4.30.
 
 
-# en/for-server/index.php +42
+# en/for-server/index.php +43
 ;For file and directory sharing and network printing on heterogeneous networks, we have Samba 3.6.5, OpenLDAP 2.4.29 and Cups 1.5.2.
 Untuk sharing file dan direktori dan percetakan jaringan pada jaringan yang beragam, kami punya Samba 3.6.5, OpenLDAP 2.4.29 dan Cups 1.5.2.
 
 
-# en/for-server/index.php +43
+# en/for-server/index.php +44
 ;Mail servers included with Mageia 2 are Postfix 2.8.8, Cyrus-imapd 2.4.13 and Dovecot 1.2.17.
 Server Mail yang disertakan dengan Mageia 2 adalah Postfix 2.8.8, Cyrus-imapd 2.4.13 dan Dovecot 1.2.17.
 
 
-# en/for-server/index.php +49
+# en/for-server/index.php +50
 ;For more information about these and other packages, check the <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">Mageia 2 Release notes</a>.
 Untuk informasi lebih lanjut tentang ini dan paket-paket lainnya, lihat <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">Catatan rilis Mageia 2</a>.
 
 
-# en/for-server/index.php +50
-;You can take a look at the <a href="%s">Mageia Application Database</a> to get a more complete list of Mageia packages.
-Kamu bisa melihat <a href="%s">Basis Data Aplikasi Mageia</a> untuk mendapatkan daftar lebih lengkap dari paket Mageia.
-
-
-# en/2/index.php +14
+# en/2/index.php +12
 ;Mageia 2
 Mageia 2 {ok}
 
 
-# en/2/index.php +16
+# en/2/index.php +14
 ;Mageia 2 is the new, solid, stable Linux distribution from the Mageia project.
 Mageia 2 adalah distribusi Linux yang baru, solid dan stabil dari proyek Mageia.
 
 
-# en/2/index.php +30
+# en/2/index.php +29
 ;Mageia 2 is a GNU/Linux distribution for your computer, released by the <a href="%s">Mageia community</a>.
 Mageia 2 adalah distribusi GNU/Linux untuk komputer-mu, dirilis oleh <a href="%s">komunitas Mageia</a>.
 
 
-# en/2/index.php +33
+# en/2/index.php +32
 ;What's new?
 Apa yang baru?
 
 
-# en/2/index.php +35
+# en/2/index.php +33
 ;Too much to include here! See the <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">release notes</a> for an extensive exposé.
 Terlalu banyak untuk dimasukkan di sini! Lihat <a href="https://wiki.mageia.org/en/Mageia_2_Release_Notes">catatan rilis</a> untuk paparan yang lebih lengkap.
 
 
-# en/2/index.php +37
+# en/2/index.php +34
 ;<a href="../downloads/" style="background: #1272B1; color: white; padding: 0.9em; margin: 1em; display: inline-block; text-shadow: 0 1px 6px #000; border-radius: 3px;">Download it right away!</a>
-<a href="../downloads/" style="background: #1272B1; color: white; padding: 0.9em; margin: 1em; display: inline-block; text-shadow: 0 1px 6px #000; border-radius: 3px;">Segera download!</a>
+<a href="../downloads/" style="background: #1272B1; color: white; padding: 0.9em; margin: 1em; display: inline-block; text-shadow: 0 1px 6px #000; border-radius: 3px;">Download segera!</a>
 
 
-# en/2/index.php +39
+# en/2/index.php +36
 ;Mageia in context
 Mageia dalam konteks
 
 
-# en/2/index.php +41
+# en/2/index.php +37
 ;Mageia is both a Community and a Linux Distribution, with Mageia 2 being our second release.
 Mageia adalah Komunitas dan Distribusi Linux, dan Mageia 2 menjadi rilis kedua kami.
 
 
-# en/2/index.php +43
+# en/2/index.php +38
 ;Since the release of <a href="../1/">Mageia 1</a>, our offering has been consistently in the <a href="%s">top 10 of Distrowatch's most popular distributions</a>.
 Sejak rilis <a href="../1/">Mageia 1</a>, kami telah secara konsisten berada dalam <a href="%s">10 besar distribusi paling populer di Distrowatch</a>.
 
 
-# en/2/index.php +46
+# en/2/index.php +41
 ;Mageia 2 is supported by the <a href="../about/">Mageia.org nonprofit organisation</a>, which is governed by a body of recognized and elected contributors.
 Mageia 2 didukung oleh <a href="../about/">organisasi nonprofit Mageia.org</a>, yang dikelola oleh sebuah tim kontributor yang diakui dan terpilih.
 
 
-# en/2/index.php +47
+# en/2/index.php +42
 ;Mageia 2 has been made by more than 100 people from all around the world.
 Mageia 2 dibuat oleh lebih dari 100 orang dari seluruh penjuru dunia.
 
 
-# en/2/index.php +49
+# en/2/index.php +44
 ;Our work adds to the excellent work of the wider Linux and Free Software community. We aim to bring one of the best, most stable, reliable and enjoyable experience and platform we can make; for regular users, developers and businesses.
 Pekerjaan kami memberikan kontribusi luar biasa kepada komunitas Linux dan Free Software secara luas. Kami bertujuan membawa salah satu pengalaman terbaik, paling stabil, dapat diandalkan dan menyenangkan pada platform yang kami buat; untuk pengguna biasa, pengembang dan kalangan bisnis.
 
 
-# en/2/index.php +51
+# en/2/index.php +45
 ;We welcome new contributors to any of the many different teams that go to make up Mageia the Community, and we encourage you to join us.
 Kami menyambut kontributor-kontributor baru untuk bergabung ke berbagai tim berbeda untuk membangun Komunitas Mageia, dan kami mendorong kamu untuk bergabung dengan kami.
 
 
-# en/2/nav.php +27
-;Mageia 2
-Mageia 2 {ok}
-
-
-# en/2/nav.php +28
+# en/2/nav.php +5
 ;Download
 Download {ok}
 
 
-# en/2/nav.php +29
+# en/2/nav.php +6
 ;For PC
 Untuk PC
 
 
-# en/2/nav.php +30
+# en/2/nav.php +7
 ;For server
 Untuk server
