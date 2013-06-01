@@ -1,17 +1,17 @@
 ;Mageia Community
-Mageia Community
+Mageia-Gemeenschap
 
 
 ;Mageia Community Central is the place where all contributors and users can find the latest news about Mageia and learn more about what to do in the project.
-Mageia Community Central is the place where all contributors and users can find the latest news about Mageia and learn more about what to do in the project.
+Mageia-Gemeenschapscentrale is de plaats waar alle medewerkers en gebruikers het laatste nieuws over Mageia kunnen vinden en meer kunnen leren over wat te doen in het project.
 
 
 ;mageia, community, news, tools, tasks
-mageia, community, news, tools, tasks
+mageia, community, news, tools, tasks, gemeenschap, nieuws, gereedschappen, taken
 
 
 ;Mageia Community Central
-Mageia Community Central
+Mageia-Gemeenschapscentrale
 
 
 ;http://blog.mageia.org/en/
@@ -19,188 +19,195 @@ http://blog.mageia.org/nl/
 
 
 ;Blog
-Blog
+Blog{ok}
 
 
 ;http://planet.mageia.org/en/
-http://planet.mageia.org/en/
+http://planet.mageia.org/en/{ok}
 
 
 ;Planet
-Planet
+Planet{ok}
 
 
 ;Calendar
-Calendar
+Kalender
 
 
 ;https://forum.mageia.org/en/
-https://forum.mageia.org/en/
+https://forum.mageia.org/en/{ok}
 
 
 ;Mailing-lists
-Mailing-lists
+Mailinglijsten
 
 
 ;Forums
-Forums
+Forums{ok}
 
 
 ;http://wiki.mageia.org/
-http://wiki.mageia.org/
+http://wiki.mageia.org/{ok}
 
 
 ;News
-News
+Nieuws
 
 
 ;How to contribute?
-How to contribute?
+Hoe kan u meewerken?
 
 
 ;Start here
-Start here
+Begint u hier
 
 
 ;and meet us on <a href="http://wiki.mageia.org/en/IRC">IRC</a>.
-and meet us on <a href="http://wiki.mageia.org/en/IRC">IRC</a>.
+en ontmoet ons op <a href="http://wiki.mageia.org/en/IRC">IRC</a>.
 
 
 ;You can also <a href="../donate/">support financially</a> the project!
-You can also <a href="../donate/">support financially</a> the project!
+U kunt het project ook <a href="../donate/">financieel ondersteunen</a> the project!
 
 
 ;Toolbox
-Toolbox
+Gereedschapskist
 
 
 ;Wiki</a> &larr; collaborative documentation
-Wiki</a> &larr; collaborative documentation
+Wiki</a> &larr; gemeenschappelijke documentatie
 
 
 ;Bugzilla</a> &larr; to report bugs
-Bugzilla</a> &larr; to report bugs
+Bugzilla</a> &larr; om bugs te rapporteren
 
 
 ;Forum
-Forum
+Forum{ok}
 
 
 ;Mageia Applications Database
-Mageia Applications Database
+Mageia Applicaties Database
 
 
 ;For developers &amp; packagers
-For developers &amp; packagers
+Voor ontwikkelaars &amp; pakketbouwers
 
 
 ;Subversion
-Subversion
+Subversion{ok}
 
 
 ;Git</a> code repositories
-Git</a> code repositories
+Git</a>-code-repositories
 
 
 ;Packages submission queue
-Packages submission queue
+Pakketbouw-wachtrij
 
 
 ;unmaintained packages
-unmaintained packages
+niet onderhouden pakketten
 
 
 ;Global QA report
-Global QA report
+Globaal QA rapport
 
 
 ;Conversations
-Conversations
+Communicatie
 
 
 ;... or, how to get in touch with us? Easy:
-... or, how to get in touch with us? Easy:
+... of hoe u met ons in contact komt? Eenvoudig:
 
 
 ;IRC</a> on Freenode
-IRC</a> on Freenode
+IRC</a> op Freenode
 
 
 ;mailing-lists 1</a> &amp; <a href="http://ml.mageia.org/">2
-mailing-lists 1</a> &amp; <a href="http://ml.mageia.org/">2
+mailinglijsten 1</a> &amp; <a href="http://ml.mageia.org/">2
 
 
 ;in real life!
-in real life!
+in het echte leven!
 
 
 ;during events!
-during events!
+tijdens evenementen!
 
 
 ;Teams you can join!
-Teams you can join!
+Teams die u versterken kunt!
 
 
 ;Atelier
-Atelier
+Atelier{ok}
 
 
 ;Documentation
-Documentation
+Documentatie
 
 
 ;Packaging
-Packaging
+Pakketbouw
 
 
 ;Testing &amp; <abbr title="Quality Assurance">QA</abbr>
-Testing &amp; <abbr title="Quality Assurance">QA</abbr>
+Testen &amp; <abbr title="Quality Assurance">QA</abbr>
 
 
 ;Translation
-Translation
+Vertaling
 
 
 ;Systems &amp; infrastructure administration
-Systems &amp; infrastructure administration
+Systeem- &amp; infrastructuur-beheer
 
 
 ;Bugs triaging
-Bugs triaging
+Bugs-triage
 
 
 ;Mageia
-Mageia
+Mageia{ok}
 
 
 ;More about Mageia
-More about Mageia
+Meer over Mageia
 
 
 ;Our <a href="../about/code-of-conduct/">code of conduct</a> and <a href="../about/values/">values</a>
-Our <a href="../about/code-of-conduct/">code of conduct</a> and <a href="../about/values/">values</a>
+Onze <a href="../about/code-of-conduct/">omgangsregels</a> en <a href="../about/values/">waardes</a>
 
 
 ;Our governance model</a> and structure:
-Our governance model</a> and structure:
+Ons bestuurmodel</a> en structuur:
 
 
 ;Teams
-Teams
+Teams{ok}
 
 
 ;the Council
-the Council
+de Council
 
 
 ;the Board
-the Board
+de Board
 
 
 ;<a href="../donate/">Donations</a> &amp; <a href="../about/reports/">reports</a>.
-<a href="../donate/">Donations</a> &amp; <a href="../about/reports/">reports</a>.
+<a href="../donate/">Donaties</a> &amp; <a href="../about/reports/">reports</a>.
 
 
 ;This page needs you! <a href="https://wiki.mageia.org/en/Web_team">Join the Web team</a>!
-This page needs you! <a href="https://wiki.mageia.org/en/Web_team">Join the Web team</a>!
+Deze pagina heeft u nodig! <a href="https://wiki.mageia.org/en/Web_team">Toetreden tot het Webteam</a>!
+
+;Forum
+Forum{ok}
+
+;mailing-lists 1</a> &amp; <a href="http://ml.mageia.org/">2
+mailinglijsten 1</a> &amp; <a href="http://ml.mageia.org/">2
+
