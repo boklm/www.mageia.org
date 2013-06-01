@@ -31,7 +31,6 @@ include '../../donators.inc.php';
     </header>
     <article>
         <section class="para" style="width: 70%; text-align: left; float: left;">
-            <p><?php _e('Note: this page has not been updated recently and is in the process of being replaced. You can check latest donations on <a href="http://treasurer.mageia.org/donations.html">this page</a>.'); ?></p>
             <p><?php
                 $pp = html_donators_list($donators, $anonymous);
                 echo sprintf(_t('%d amazing people %sdonated money%s to Mageia.Org:'),
