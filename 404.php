@@ -5,7 +5,7 @@ _lang_load($locale, '404');
 
 header('HTTP/1.0 404 Not Found');
 header('Status: 404 Not Found');
-
+$locale = ($locale == '404' ? 'en' : $locale);
 ?><!DOCTYPE html>
 <html dir="ltr" lang="<?php echo $locale; ?>">
 <head>
@@ -25,7 +25,7 @@ header('Status: 404 Not Found');
             <div class="yui-g">
                 <div class="para values">
                     <ul class="hl"><?php
-                        _h('Try searching it on <a href="%s">mageia.org site map</a>,', array('/map/'), 'li');
+                        _h('Try searching it on <a href="%s">mageia.org site map</a>,', array("/$locale/map/"), 'li');
                         _h('or try to <a href="%s">search with Google</a>.', array('https://www.google.com/?q=site:mageia.org'), 'li');
                     ?></ul>
                 </div>
