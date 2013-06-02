@@ -51,6 +51,7 @@ _lang_load($locale, 'contact');
     <div style="float: left; width: 600px; text-align: left; border: 1px solid #ddd; border-top: 0;">
         <div class="para" id="by-role">
         <?php
+        _h('You have an idea of who to contact', null, 'h2');
         echo '<ul class="hl">';
         _h('Use <a href="%s">the discuss mailing list</a> or <a href="%s">the forums</a> for general Mageia discussions', array('https://ml.mageia.org/l/info/discuss', 'https://forums.mageia.org/en/'), 'li');
         _h('Use <a href="%s">the dev mailing list</a> for Mageia developement discussions', array('https://ml.mageia.org/l/info/dev'), 'li');
