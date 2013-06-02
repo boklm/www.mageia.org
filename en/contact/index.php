@@ -51,30 +51,18 @@ _lang_load($locale, 'contact');
     <div style="float: left; width: 600px; text-align: left; border: 1px solid #ddd; border-top: 0;">
         <div class="para" id="by-role">
         <?php
-        _h('You have an idea of who to contact', null, 'h2');
-        _h('You may post in the <a href="%s">forum</a> or the <a href="%s">public discussion mailing-list</a>.',
-            array('https://forums.mageia.org/', 'https://ml.mageia.org/l/info/discuss'));
-        _h('You also may use the following email aliases too to contact all members of a group at once:');
-        $groups = array(
-            'board'     => _d('Mageia.Org Board members'),
-            'council'   => _d('Mageia Council'),
-            'sysadmin'  => _d('Systems administration team'),
-            'packagers' => _d('Packagers'),
-            'atelier'   => _d('Communication, Marketing &amp; Web teams'),
-            'qa'        => _d('QA team'),
-            'doc'       => _d('Documentation team'),
-            'association-members' => _d('Mageia.Org association members'),
-        );
         echo '<ul class="hl">';
-        foreach ($groups as $k => $v) {
-            echo sprintf('<li><a href="mailto:%s&#x40;group.mageia.org">%s</a></li>', $k, $v);
-        }
+        _h('Use <a href="%s">the discuss mailing list</a> or <a href="%s">the forums</a> for general Mageia discussions', array('https://ml.mageia.org/l/info/discuss', 'https://forums.mageia.org/en/'), 'li');
+        _h('Use <a href="%s">the dev mailing list</a> for Mageia developement discussions', array('https://ml.mageia.org/l/info/dev'), 'li');
+        _h('Use one of <a href="https://wiki.mageia.org/en/Mailing_lists">the other mailing lists</a> for discussions on other topics', null, 'li');
+        _h('Contact <a href="%s">the treasurer</a> for donation questions', 'mailto:treasurer&#x40;mageia.org', 'li');
+        _h('Contact <a herf="%s">the sysadmin team</a> for questions about mirrors, problems with your <a href="%s">Mageia identity account</a>, or other problems with Mageia infrastructure (there is also a public <a href="%s">sysadmin-discuss mailing list</a> if your question does not need to be private)', array('mailto:sysadmin&#x40;group.mageia.org', 'https://identity.mageia.org/', 'https://ml.mageia.org/l/info/sysadmin-discuss'), 'li');
+        _h('If you want to contact Council or Board for a public discussion, you can start a thread on a mailing-list and add the <a href="%s">Board</a> or <a href="%s">Council</a> alias in CC.', array('mailto:board&#x40;group.mageia.org', 'mailto:council&#x40;group.mageia.org'), 'li');
         echo '</ul>';
 
-        _h('In most case you should avoid using those aliases as they should only be used for the rare cases where private emails are needed. Use appropriate <a href="%s">public mailing list</a> instead.',
+        _h('In most cases you should avoid sending private emails and use appropriate <a href="%s">public mailing list</a> when possible.',
             array('https://wiki.mageia.org/en/Mailing_lists')
         );
-        _h('If you want to contact Council or Board for a public discussion, you can start a thread on a mailing-list and add the Board or Council alias in CC.');
         echo '<hr>';
         _h('You want to join and contribute to Mageia', null, 'h2');
         _h('Please see <a href="%s">our Contributions page</a>.', array('../contribute/'));
