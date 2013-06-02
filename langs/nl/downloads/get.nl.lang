@@ -14,7 +14,7 @@ Mageia Downloads
 
 
 ;Download %s
-Download %s
+Download %s{ok}
 
 
 ;Your download of %s should start within a few seconds
@@ -38,23 +38,23 @@ Als de ondertekeningen niet overeenkomen dient u deze ISO niet te gebruiken. Con
 
 
 ;Your IP address is %s and you seem to be in %s, %s.
-Your IP address is %s and you seem to be in %s, %s.
+Uw IP-adres is %s en u lijkt zich in %s, %s te bevinden.
 
 
 ;Country
-Country
+Land
 
 
 ;City
-City
+Stad
 
 
 ;Download mirrors
-Download mirrors
+Download-spiegelservers
 
 
 ;The making and the distribution of Mageia worldwide is made possible by all the <a href="%s">people and organizations that mirror our software</a> and that <a href="%s">donate money, hardware, hosting and more</a>.
-The making and the distribution of Mageia worldwide is made possible by all the <a href="%s">people and organizations that mirror our software</a> and that <a href="%s">donate money, hardware, hosting and more</a>.
+Het wereldwijd maken en verspreiden van de Mageia-distributie wordt mogelijk gemaakt door alle <a href="%s">mensen en organisaties die onze software op hun servers spiegelen</a> en die <a href="%s">geld, hardware, webhosting en meer schenken</a>.
 
 
 ;Want to help? %sJoin Us!%s
@@ -62,41 +62,41 @@ Wilt u ons helpen? %sDoe met ons mee!%s
 
 
 ;Sorry!
-Sorry!
+Sorry!{ok}
 
 
 ;Your download could not complete, as we could not find this file. Please try again from the <a href="%s">main downloads page</a>.
-Your download could not complete, as we could not find this file. Please try again from the <a href="%s">main downloads page</a>.
+Uw download is incompleet, omdat we dit bestand niet konden vinden. Probeer het a.u.b. nogmaals vanuit de <a href="%s">algemene download-pagina</a>.
 
 
 ;If you still encounter this error and think IT SHOULD NOT HAPPEN &ndash; please tell us:
-If you still encounter this error and think IT SHOULD NOT HAPPEN &ndash; please tell us:
+Als u deze foutmelding bljft krijgen en denkt dat DAT NIET ZOU MOETEN GEBEUREN &ndash; vertel het ons a.u.b.:
 
 
 ;directly on <a href="irc://irc.freenode.net/#mageia-web">#mageia-web on Freenode IRC</a>,
-directly on <a href="irc://irc.freenode.net/#mageia-web">#mageia-web on Freenode IRC</a>,
+direct in <a href="irc://irc.freenode.net/#mageia-web">#mageia-web op Freenode IRC</a>,
 
 
 ;or <a href="http://twitter.com/mageia_org">via our Tweeter account</a>,
-or <a href="http://twitter.com/mageia_org">via our Tweeter account</a>,
+of <a href="http://twitter.com/mageia_org">via ons Tweeter account</a>,
 
 
 ;or with a <a href="https://ml.mageia.org/l/info/atelier-discuss">notice on the Atelier team mailing-list</a>,
-or with a <a href="https://ml.mageia.org/l/info/atelier-discuss">notice on the Atelier team mailing-list</a>,
+of via een <a href="https://ml.mageia.org/l/info/atelier-discuss">berichtje op de Atelier-team-mailinglijst</a>,
 
 
 ;or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">bug report</a>.
-or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">bug report</a>.
+of een <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">bugrapport</a>.
 
 
 ;You may embed this debug info if you like:
-You may embed this debug info if you like:
+Als u wilt kunt u deze debug info toevoegen:
 
 
 ;Thanks!
-Thanks!
+Bedankt!
 
 
 ;back to that awesome Mageia home page
-back to that awesome Mageia home page
+terug naar die geweldige Mageia-homepage
 
