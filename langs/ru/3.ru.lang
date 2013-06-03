@@ -432,3 +432,7 @@ Mageia 3 {ok}
 # en/2/download_index.php +203
 ;<a href="%s">Get ISO on USB flash stick</a>
 <a href="%s">Получить ISO на USB флеш-носителе</a>
+
+# en/3/download_index.php +172
+;Newcomer? <a href="%s">Here's a wiki page for you.</a>
+Не имеете опыта? <a href="%s">Мы приготовили для вас специальную wiki страницу.</a>

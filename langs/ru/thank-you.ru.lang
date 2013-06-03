@@ -46,11 +46,6 @@ Mageia бы не стала тем, чем она есть сейчас, с се
 На этой странице мы отмечаем за взносы нашему проекту.
 
 
-# /en/thank-you/index.php +35
-;%d amazing people %sdonated money%s to Mageia.Org:
-%d уважаемых человек %sоказали финансовую помощь%s Mageia.Org:
-
-
 # /en/thank-you/index.php +41
 ;Those organizations and people provided Mageia.Org with mirroring facilities, hosting, hosting advice, server hardware, network bandwidth or some facilities:
 Эти учреждения и люди предоставили Mageia.Org возможности по хранению данных, сайтов, советы по размещению данных, серверное оборудование, канал доступа к сети и другие возможности:
@@ -89,3 +84,17 @@ Starbucks Coffee {ok}
 # /en/thank-you/index.php +52
 ;Thanks a lot to all the people we met, discussed with about this project and its potential implications: you know who you are!
 Спасибо всем людям, которые встретились на нашем пути, обсуждали с нами этот проект и пути его развития: вы знаете, о ком мы говорим!
+
+
+# en/thank-you/index.php +35
+;The following amazing people %sdonated money%s to Mageia.Org:
+Следующие уважаемые люди %sоказали финансовую помощь%s Mageia.Org:
+
+
+# en/thank-you/index.php +40
+;%s Euros has been donated to Mageia.Org in the last 30 days. <a href="%s">More details</a>.
+В течение последних 30 дней Mageia.Org было получено %s евро. <a href="%s">Подробный отчет</a>.
+
+# en/thank-you/index.php +45
+;Last update:
+Последнее обновление:
