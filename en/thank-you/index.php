@@ -20,7 +20,7 @@ include '../../donators.inc.php';
     <script src="http://static.mageia.org/g/js/jquery-1.10.1.min.js"></script>
     <script src="http://static.mageia.org/g/js/donators-list.js"></script>
 </head>
-<body class="about">
+<body class="donate">
     <?php echo $hsnav; ?>
     <header id="mgnavt">
         <h1><?php _e('Thanks to them too, Mageia goes forward.')?></h1>
