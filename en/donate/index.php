@@ -22,7 +22,7 @@ _lang_load($locale, 'donate');
     .dlinfo li { margin-bottom: 0.6em; }
     </style>
 </head>
-<body class="contribute donate">
+<body class="donate">
     <?php echo $hsnav; ?>
     <h1 id="mgnavt"><?php _e('Donate to Mageia')?></h1>
     
