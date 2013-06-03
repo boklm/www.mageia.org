@@ -219,6 +219,7 @@ function _mgnav_html($wrap = false, $lang = 'en', $inject = null, $vhost = 'www.
         array('support',    '//$S/$L/support/',       l10n::_t('Support'),       l10n::_t('Get support from Mageia community.')),
         array('community',  '//$S/$L/community/',     l10n::_t('Community'),     l10n::_t('')),
         array('contribute', '//$S/$L/contribute/',    l10n::_t('Contribute'),    l10n::_t('You too can build Mageia with us!')),
+        array('donate',     '//$S/$L/donate/',        l10n::_t('Donate'),        l10n::_t('')),
         array('you',        '//identity.mageia.org/', l10n::_t('You'),           l10n::_t('Your Mageia online account.')),
         array('contact',    '//$S/$L/contact/',       l10n::_t('Contact'),       l10n::_t('Contact Us'))
     //    <search>
