@@ -85,3 +85,11 @@ Mageia, вільний дистрибутив Linux, створений спіл
 ;version 3 (May 2013)
 версії 3 (травень 2013)
 
+# en/index.php +243 Comment: if release notes are translated in your language use it's link instead of %s and replace en in hreflang with your language code
+;<a href="%s" hreflang="en">Release notes</a>
+<a href="%s" hreflang="en">Нотатки щодо випуску</a>
+
+# en/index.php +244 Comment: if errata is translated in your language use it's link instead of %s and replace en in hreflang with your language code
+;<a href="%s" hreflang="en">errata</a>
+<a href="%s" hreflang="en">виявлені помилки</a>
+
