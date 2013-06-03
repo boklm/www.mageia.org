@@ -54,7 +54,7 @@ _lang_load($locale, 'contact');
         _h('You have an idea of who to contact', null, 'h2');
         echo '<ul class="hl">';
         _h('Use <a href="%s">the discuss mailing list</a> or <a href="%s">the forums</a> for general Mageia discussions', array('https://ml.mageia.org/l/info/discuss', 'https://forums.mageia.org/en/'), 'li');
-        _h('Use <a href="%s">the dev mailing list</a> for Mageia developement discussions', array('https://ml.mageia.org/l/info/dev'), 'li');
+        _h('Use <a href="%s">the dev mailing list</a> for Mageia development discussions', array('https://ml.mageia.org/l/info/dev'), 'li');
         _h('Use one of <a href="https://wiki.mageia.org/en/Mailing_lists">the other mailing lists</a> for discussions on other topics', null, 'li');
         _h('Contact <a href="%s">the treasurer</a> for donation questions', array('mailto:treasurer&#x40;mageia.org'), 'li');
         _h('Contact <a href="%s">the sysadmin team</a> for questions about mirrors, problems with your <a href="%s">Mageia identity account</a>, or other problems with Mageia infrastructure (there is also a public <a href="%s">sysadmin-discuss mailing list</a> if your question does not need to be private)', array('mailto:sysadmin&#x40;group.mageia.org', 'https://identity.mageia.org/', 'https://ml.mageia.org/l/info/sysadmin-discuss'), 'li');
