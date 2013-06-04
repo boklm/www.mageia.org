@@ -156,6 +156,11 @@ Errata {ok}
 <a href="%s" hreflang="en">Mettre l'ISO sur une clé USB</a>
 
 
+# en/2/download_index.php +204
+;Newcomer? <a href="%s">Here's a wiki page for you.</a>
+Nouveau venu&nbsp;? <a href="%s">Cette page du wiki est faite pour vous.</a>
+
+
 # en/2/download_index.php +205
 ;Upgrading<br>from Mageia 1?
 Mettre&nbsp;à&nbsp;niveau<br>depuis Mageia&nbsp;1&nbsp;?

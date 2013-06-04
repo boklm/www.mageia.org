@@ -201,6 +201,11 @@ nécessaires pour certains contrôleurs de disques ou cartes réseaux, etc.
 <a href="%s" hreflang="en">Mettre l'ISO sur une clé USB</a>
 
 
+# en/2/download_index.php +172
+;Newcomer? <a href="%s">Here's a wiki page for you.</a>
+Nouveau venu&nbsp;? <a href="%s">Cette page du wiki est faite pour vous.</a>
+
+
 # en/3/download_index.php +174
 ;Upgrading<br>from Mageia 2?
 Mise à niveau<br>depuis Mageia 2&nbsp;?

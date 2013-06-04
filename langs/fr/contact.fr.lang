@@ -57,68 +57,43 @@ Vous pouvez également chercher à nous contacter sur <a href="%s">#mageia sur l
 
 
 # ../../svn/web/en/contact/index.php +54
-;You have an idea of who to contact
+;You have an idea of whom to contact
 Vous savez qui vous voulez contacter
 
 
-# ../../svn/web/en/contact/index.php +55
-;You may post in the <a href="%s">forum</a> or the <a href="%s">public discussion mailing-list</a>.
-Vous pouvez écrire sur le <a href="%s">forum</a> ou sur notre <a href="%s">liste de discussion généraliste</a>.
+# en/contact/index.php +56
+;Use <a href="%s">the discuss mailing list</a> or <a href="%s">the forums</a> for general Mageia discussions
+Utilisez les listes de diffusion <a href="%s" hreflang="en">discuss</a> et <a href="https://ml.mageia.org/l/info/discuss-fr">discuss-fr</a> ou <a href="%s">le forum</a> pour des discussions générales à propos de Mageia
 
 
-# ../../svn/web/en/contact/index.php +57
-;You also may use the following email aliases too to contact all members of a group at once:
-Vous pouvez également utiliser l'un des alias de messagerie suivants pour contacter tous les membres d'un groupe donné&nbsp;:
+# en/contact/index.php +57
+;Use <a href="%s">the dev mailing list</a> for Mageia development discussions
+Utilisez la liste de diffusion <a href="%s">dev</a> pour des discussions liées au développement de Mageia
 
 
-# ../../svn/web/en/contact/index.php +59
-;Mageia.Org Board members
-Membres du bureau de Mageia.Org
+# en/contact/index.php +58
+;Use one of <a href="https://wiki.mageia.org/en/Mailing_lists">the other mailing lists</a> for discussions on other topics
+Utilisez l'une des <a href="https://wiki.mageia.org/en/Mailing_lists" hreflang="en">autres listes de diffusion</a> pour des discussions sur d'autres sujets
 
 
-# ../../svn/web/en/contact/index.php +60
-;Mageia Council
-Conseil de Mageia
+# en/contact/index.php +59
+;Contact <a href="%s">the treasurer</a> for donation questions
+Contactez le <a href="%s">trésorier</a> pour vos questions à propos des dons
 
 
-# ../../svn/web/en/contact/index.php +61
-;Systems administration team
-Équipe des administrateurs système
+# en/contact/index.php +60
+;Contact <a href="%s">the sysadmin team</a> for questions about mirrors, problems with your <a href="%s">Mageia identity account</a>, or other problems with Mageia infrastructure (there is also a public <a href="%s">sysadmin-discuss mailing list</a> if your question does not need to be private)
+Contactez l'<a href="%s">équipe des administrateurs système</a> pour des questions à propos des miroirs, des problèmes avec votre <a href="%s">compte Mageia identity</a>, ou d'autres problèmes avec l'infrastructure de Mageia (il existe aussi une liste de diffusion publique <a href="%s">sysadmin-discuss</a> si votre question n'a pas lieu de rester privée)
 
 
-# ../../svn/web/en/contact/index.php +62
-;Packagers
-Packagers et développeurs
+# en/contact/index.php +61
+;If you want to contact Council or Board for a public discussion, you can start a thread on a mailing-list and add the <a href="%s">Board</a> or <a href="%s">Council</a> alias in CC.
+Si vous souhaitez contacter le Conseil ou le Bureau pour une discussion publique, vous pouvez commencer une discussion sur l'une des listes de diffusion et ajouter l'alias du <a href="%s">Bureau</a> ou du <a href="%s">Conseil</a> en copie.
 
 
-# ../../svn/web/en/contact/index.php +63
-;Communication, Marketing &amp; Web teams
-Équipes de communication, marketing et web
-
-
-# ../../svn/web/en/contact/index.php +64
-;QA team
-Équipe d'assurance qualité (QA)
-
-
-# ../../svn/web/en/contact/index.php +65
-;Documentation team
-Équipe de documentation
-
-
-# ../../svn/web/en/contact/index.php +66
-;Mageia.Org association members
-Membres de l'association Mageia.Org
-
-
-# ../../svn/web/en/contact/index.php +75
-;In most case you should avoid using those aliases as they should only be used for the rare cases where private emails are needed. Use appropriate <a href="%s">public mailing list</a> instead.
-Dans la plupart des cas, il est préférable d'éviter l'usage de ces alias, ces derniers étant destinés aux rares cas nécessitant l'emploi d'emails privés. Utilisez plutôt <a href="%s">les listes de discussion publiques</a> appropriées.
-
-
-# ../../svn/web/en/contact/index.php +78
-;If you want to contact Council or Board for a public discussion, you can start a thread on a mailing-list and add the Board or Council alias in CC.
-Si vous voulez contacter le conseil ou le bureau pour une discussion publique, vous pouvez écrire sur une liste de discussion publique et ajouter l'alias du conseil ou du bureau en copie.
+# en/contact/index.php +64
+;In most cases you should avoid sending private emails and use appropriate <a href="%s">public mailing list</a> when possible.
+Dans la plupart des cas, il est préférable d'éviter d'envoyer des courriels privés si vous pouvez utiliser les <a href="%s">listes de diffusion publiques</a> appropriées à la place.
 
 
 # ../../svn/web/en/contact/index.php +80
