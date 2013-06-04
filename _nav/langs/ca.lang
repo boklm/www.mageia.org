@@ -27,11 +27,13 @@ Descarrega Mageia, ISO i actualitzacions.
        
 ;Get support from Mageia community.
 Ajuda de la comunitat Mageia.
-       
-;
-       
+
 ;You too can build Mageia with us!
 Vós també podeu construir Mageia amb nosaltres!
+
+# _nav/lib.php +222
+;Donate
+Donate
        
 ;Your Mageia online account.
 El vostre compte Mageia.

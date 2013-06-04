@@ -28,10 +28,12 @@ Elŝuti ISO-dosierojn kaj ĝisdatigojn de Magejo.
 ;Get support from Mageia community.
 Trovi helpon en la Mageja komunumo.
 
-;
-
 ;You too can build Mageia with us!
 Vi povas helpi nin fari Magejon!
+
+# _nav/lib.php +222
+;Donate
+Donate
 
 ;Your Mageia online account.
 Via enreta Mageja konto.

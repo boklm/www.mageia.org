@@ -28,10 +28,12 @@ Mageia 與你
 ;Get support from Mageia community.
 從 Mageia 社群得到支援
 
-;
-
 ;You too can build Mageia with us!
 與我們一起茁壯 Mageia!
+
+# _nav/lib.php +222
+;Donate
+Donate
 
 ;Your Mageia online account.
 您的 Mageia 線上帳戶

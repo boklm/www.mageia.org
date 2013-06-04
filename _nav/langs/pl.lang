@@ -28,9 +28,12 @@ Pobierz obrazy ISO Mageia i aktualizacje.
 ;Get support from Mageia community.
 Skorzystaj ze wsparcia technicznego społeczności Mageia.
        
-       
 ;You too can build Mageia with us!
 Możesz budować Mageię razem z nami!
+
+# _nav/lib.php +222
+;Donate
+Donate
        
 ;Your Mageia online account.
 Twoje konto Mageia.

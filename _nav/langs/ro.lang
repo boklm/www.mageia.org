@@ -28,10 +28,12 @@ Descărcați Mageia ISO și actualizările.
 ;Get support from Mageia community.
 Obțineți ajutor de la comunitatea Mageia.
 
-;
-
 ;You too can build Mageia with us!
 Și voi puteți contribui la Mageia împreună cu noi!
+
+# _nav/lib.php +222
+;Donate
+Donate
 
 ;Your Mageia online account.
 Contul vostru Mageia.

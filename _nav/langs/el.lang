@@ -31,9 +31,12 @@
 ;Get support from Mageia community.
 Ζητήστε βοήθεια από την κοινότητα.
 
-
 ;You too can build Mageia with us!
 Συμμετέχετε στην ανάπτυξη της Mageia!
+
+# _nav/lib.php +222
+;Donate
+Donate
 
 ;Your Mageia online account.
 Ο λογαριασμός σας Mageia.
