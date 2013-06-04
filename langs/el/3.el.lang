@@ -191,6 +191,21 @@ CD εγκατάστασης δικτύου
 <a href="%s">Παροράματα</a>
 
 
+# en/3/download_index.php +170
+;<a href="%s">Which to choose</a>
+<a href="%s">Ποια να επιλέξω</a>
+
+
+# en/3/download_index.php +171
+;<a href="%s">Get ISO on USB flash stick</a>
+<a href="%s">Βάλτε το ISO σε ένα USB stick</a>
+
+
+# en/3/download_index.php +172
+;Newcomer? <a href="%s">Here's a wiki page for you.</a>
+Νέος-α; <a href="%s">Ορίστε μια σελίδα στο wiki για σας.</a>
+
+
 # en/3/download_index.php +173
 ;Upgrading<br>from Mageia 2?
 Αναβάθμιση<br>από τη Mageia 2;
