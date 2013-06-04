@@ -207,6 +207,11 @@ Bazı disk denetleyicileri, ağ kartları vs. için gereklidir.
 <a href="%s">USB belleğe ISO yazdırma</a>
 
 
+# en/2/download_index.php +172
+;Newcomer? <a href="%s">Here's a wiki page for you.</a>
+Yeni kullanıcı mısız? <a href="%s">O halde buradaki wiki sayfasına bakınız.</a>
+
+
 # en/3/download_index.php +173
 ;Upgrading<br>from Mageia 2?
 Mageia 2'den<br>Yükseltme

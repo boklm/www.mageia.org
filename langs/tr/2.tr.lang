@@ -163,6 +163,11 @@ Bilinen Hatalar
 <a href="%s">USB belleğe ISO yazdırma</a>
 
 
+# en/2/download_index.php +204
+;Newcomer? <a href="%s">Here's a wiki page for you.</a>
+Yeni kullanıcı mısız? <a href="%s">O halde buradaki wiki sayfasına bakınız.</a>
+
+
 # en/2/download_index.php +205
 ;Upgrading<br>from Mageia 1?
 Mageia 1'den<br>Yükseltme

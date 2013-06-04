@@ -31,10 +31,21 @@ Siz de bağışta bulunabilirsiniz!
 Etkinliklerimizi ve mali raporlarımızı kontrol edin!
 
 
-# en/thank-you/index.php +32
-;Note: this page has not been updated recently and is in the process of being replaced. You can check latest donations on <a href="http://treasurer.mageia.org/donations.html">this page</a>.
-Not: Bu sayfa yakın zamanda güncellenmedi ve değiştirilme sürecindedir. Son bağış durumuna <a href="http://treasurer.mageia.org/donations.html">bu sayfadan</a> bakabilirisiniz.
+# en/thank-you/index.php +35
+;The following amazing people %sdonated money%s to Mageia.Org:
+The following amazing people %sdonated money%s to Mageia.Org:
 
+Aşağıdaki muhteşem insanlar Megeia.Org için %spara bağışı%s yapmışlardır:
+
+
+# en/thank-you/index.php +40
+;%s Euros has been donated to Mageia.Org in the last 30 days. <a href="%s">More details</a>.
+Son 30 günde Mageia.Org'a %s Euro bağışlandı. <a href="%s">Daha fazla bilgi için buraya bakınız.</a>.
+
+
+# en/thank-you/index.php +45
+;Last update:
+Son güncelleme:
 
 
 # /en/thank-you/index.php +40
@@ -50,11 +61,6 @@ Kuruluşların ve birçok kişinin bağışları ve yardımları olmadan Mageia 
 # /en/thank-you/index.php +29
 ;This page is here to remind of their contribution to this project.
 Bu sayfa, projeye katkı yapanları hatırlatmak için vardır.
-
-
-# /en/thank-you/index.php +35
-;%d amazing people %sdonated money%s to Mageia.Org:
-%d muhteşem kişi Mageia'ya %sbağışta%s bulundu:
 
 
 # /en/thank-you/index.php +41
