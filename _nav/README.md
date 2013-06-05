@@ -78,7 +78,7 @@ The detected and used features are:
 ## Code & license
 
 * code is in [svn://svn.mageia.org/svn/web/nav/](http://svn.mageia.org/web/nav/)
-* licensed under GNU GPL-3+, 2012, rda
+* licensed under GNU GPL-2+, 2012, rda
 * issues on [bugs.mageia.org](https://bugs.mageia.org/buglist.cgi?query_format=advanced&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&component=nav.mageia.org&product=Websites)
 * patches and discussions welcome in [Mageia Web team](https://wiki.mageia.org/en/Web_team)
 

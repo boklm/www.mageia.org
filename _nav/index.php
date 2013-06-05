@@ -1,4 +1,22 @@
-<html lang="en">
+<?php
+/**
+ * mageia.org global nav bar.
+ *
+ * PHP version 5.4
+ *
+ * @category Mageia
+ * @package  Mageia\Web\nav
+ * @author   rda <rda@mageia.org>
+ * @link     http://nav.mageia.org/
+ *
+ * @license http://www.gnu.org/licenses/gpl-2.0.html GNU GPL v2+
+ *
+ * This program is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU General Public License aspublished by the
+ * Free Software Foundation; either version 2 of the License, or (at your
+ * option) any later version.
+*/
+?><html lang="en">
 <head>
     <meta name="robots" content="noindex,nosnippet,nofollow">
     <title>mognase doc</title>
@@ -15,6 +33,6 @@
     echo Markdown(file_get_contents('README.md'));
     ?>
     </div>
-    <script src="/_nav/js/"></script>
+    <script src="/js/"></script>
 </body>
 </html>

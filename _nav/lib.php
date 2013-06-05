@@ -1,4 +1,21 @@
 <?php
+/**
+ * mageia.org global nav bar utilities.
+ *
+ * PHP version 5.4
+ *
+ * @category Mageia
+ * @package  Mageia\Web\nav
+ * @author   rda <rda@mageia.org>
+ * @link     http://nav.mageia.org/
+ *
+ * @license http://www.gnu.org/licenses/gpl-2.0.html GNU GPL v2+
+ *
+ * This program is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU General Public License aspublished by the
+ * Free Software Foundation; either version 2 of the License, or (at your
+ * option) any later version.
+*/
 // definition
 
 class NCache
@@ -13,7 +30,7 @@ class NCache
      *
      * @return NCache
     */
-    function build($path, $timeout = 3600)
+    public static function build($path, $timeout = 3600)
     {
         $path = __DIR__ . '/' . $path;
 
@@ -118,7 +135,7 @@ class l10n
      *
      * @return void
     */
-    function load($lang)
+    public static function load($lang)
     {
         global $_t;
         $_t = array();
@@ -173,7 +190,7 @@ P;
      *
      * @return string
     */
-    function _t($s) {
+    public static function _t($s) {
         if (trim($s) == '')
             return '';
 
