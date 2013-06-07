@@ -25,4 +25,5 @@ switch ($mode) {
 case 'dev':
 case 'dev-rda': $www_host = 'mageia:8888'; break;
 // add your own case if needed.
+case 'razvoj': $www_host = 'mag'; break;
 }
