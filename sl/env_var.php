@@ -7,7 +7,7 @@
 <body>
 <?php
 define('HLANG', true);
-require '../../langs.php';
+require '../langs.php';
 
 echo '<br />My $_ENV APP_MODE is ' . $_ENV["APP_MODE"] . '!';
 echo '<br />My $_SERVER APP_MODE is ' . $_SERVER["APP_MODE"] . '!';
