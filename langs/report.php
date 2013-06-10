@@ -126,8 +126,8 @@
                     }
                 } else if ($link == 'downloads/get') {
                     $mga = array(
-                        'view download OK page' => 'downloads/get/index.php?q=Mageia-2-dual-CD.iso&amp;d=1" class="action"',
-                        'view non existing file page' => 'downloads/get/index.php?q=Non_existing_file&amp;d=1" class="action"',
+                        'view download OK page' => 'downloads/get/index.php?q=Mageia-2-dual-CD.iso&amp;d=1" style="display: block;',
+                        'and non existing file too' => 'downloads/get/index.php?q=Non_existing_file&amp;d=1" style="display: block;',
                     );
                 } else if ($link == '2') {
                     $mga = array(
