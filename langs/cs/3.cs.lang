@@ -31,19 +31,6 @@ Známé chyby
 Zprávy o chybách
 
 
-# ../../svn/web/en/3/index.php +43
-;This is a Release Candidate. Release Candidate software is software that has graduated Beta testing, and should be a release-ready product suitable for advanced users and reviewers. However, beginning users and critical-applications users may wish to wait for the final release planned for May 2013.
-Toto je kandidát na vydání. Jde o software, který prošel zkouškami na úrovni beta a měl by být připraven na vydání ve stavu, kdy je vhodný pro použití pokročilými uživateli a posuzovateli jakosti. Začátečníci a uživatelé, kteří používají programy, kde je spolehlivost důležitá, by měli počkat až na vydání plánované na květen 2013.
-
-
-# ../../svn/web/en/3/index.php +44
-;Release Candidate is intended to identify any remaining bugs or missing packages.
-Je to určeno k zjištění zbývajících chyb a chybějících balíčků.
-
-
-# ../../svn/web/en/3/index.php +46
-;Download %s
-Stáhnout %s
 
 
 # ../../svn/web/en/3/index.php +48
@@ -60,10 +47,6 @@ a ještě mnohem víc!
 ;See the comprehensive list
 Vyčerpávající seznam
 
-
-# ../../svn/web/en/3/index.php +54
-;Installer DVD and CD ISOs now contains Free Software and some proprietary drivers.
-Instalátor DVD a CD ISO nyní obsahuje svobodný software a některé soukromé ovladače.
 
 
 # ../../svn/web/en/3/index.php +55
@@ -475,3 +458,12 @@ Osobní počítač
 
 ;For server
 Server
+
+;<a href="%s">Which to choose</a>
+<a href="%s">Který vybrat</a>
+
+;<a href="%s">Get ISO on USB flash stick</a>
+<a href="%s">Dostat ISO na USB klíčence</a>
+
+;Newcomer? <a href="%s">Here's a wiki page for you.</a>
+Nováček? <a href="%s">Zde jsou stránky wiki.</a>

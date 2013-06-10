@@ -396,3 +396,17 @@ Osobní počítač
 
 ;For server
 Server
+
+;Errata
+Seznam chyb
+
+;<a href="%s">Which to choose</a>
+<a href="%s">Který vybrat</a>
+
+;<a href="%s">Get ISO on USB flash stick</a>
+<a href="%s">Dostat ISO na USB klíčence</a>
+
+;Newcomer? <a href="%s">Here's a wiki page for you.</a>
+Nováček? <a href="%s">Zde jsou stránky wiki.</a>
+
+

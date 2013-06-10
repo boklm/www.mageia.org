@@ -129,3 +129,25 @@ Chcete se přidat a přispívat do Mageii
 # ../../svn/web/en/contact/index.php +81
 ;Please see <a href="%s">our Contributions page</a>.
 Podívejte se, prosím, na <a href="%s">naše stránky věnované možnostem, jak můžete přispět</a>.
+
+
+;Use <a href="%s">the discuss mailing list</a> or <a href="%s">the forums</a> for general Mageia discussions
+Použijte <a href="%s">diskuzní poštovní seznam</a> nebo <a href="%s">fóra</a> pro obecnou diskuzi o Mageie
+
+;Use <a href="%s">the dev mailing list</a> for Mageia development discussions
+Použijte <a href="%s">vývojářský poštovní seznam</a> pro diskuzi o vývoji Mageii
+
+;Use one of <a href="https://wiki.mageia.org/en/Mailing_lists">the other mailing lists</a> for discussions on other topics
+Použijte jeden z <a href="https://wiki.mageia.org/en/Mailing_lists">ostatních poštovních seznamů</a> pro diskuzi o dalších námětech
+
+;Contact <a href="%s">the treasurer</a> for donation questions
+Spojte se s <a href="%s">pokladníkem</a>, máte-li otázky týkající se darování
+
+;Contact <a href="%s">the sysadmin team</a> for questions about mirrors, problems with your <a href="%s">Mageia identity account</a>, or other problems with Mageia infrastructure (there is also a public <a href="%s">sysadmin-discuss mailing list</a> if your question does not need to be private)
+Spojte se s <a href="%s">týmem správců systému</a>, máte-li otázky týkající se zrcadel, potíže s vaším <a href="%s">účtem, kterým prokazujete u Mageia svou totožnost</a>, nebo jiné problémy s infrastrukturou Mageii (existuje i veřejný <a href="%s">diskuzní poštovní seznam správců systému</a>
+
+;If you want to contact Council or Board for a public discussion, you can start a thread on a mailing-list and add the <a href="%s">Board</a> or <a href="%s">Council</a> alias in CC.
+Pokud se chcete spojit s radou nebo správním výborem kvůli veřejnému rozhovoru, můžete začít vlákno v poštovním seznamu a přidat aliasy pro <a href="%s">správní výbor</a> nebo <a href="%s">radu</a> do seznamu adres, na něž má být zasílána kopie psaní.
+
+;In most cases you should avoid sending private emails and use appropriate <a href="%s">public mailing list</a> when possible.
+Ve většině případů byste se měli vyhnout posílání soukromých dopisů a měli byste používat příslušné <a href="%s">veřejné poštovní seznamy</a>, kdykoli je to možné.
