@@ -28,7 +28,7 @@ _lang_load($locale, "about/constitution");
                     <div id="preamble">
                     <p><?php echo sprintf(_t('Original and definitive version (in French) is available from %s. These <em>may</em> be improved. Do not hesitate to mail your patches; check how in the %s.'),
                         '<a href="http://svnweb.mageia.org/org/constitution/">svnweb.mageia.org/org/constitution</a>',
-                        '<a href="http://svnweb.mageia.org/org/constitution/README.md?revision=HEAD&view=markup">README</a>')?></p>
+                        '<a href="http://svnweb.mageia.org/org/constitution/README.md?revision=HEAD&amp;view=markup">README</a>')?></p>
                     </div>
                 </div>
                 <div class="para">
