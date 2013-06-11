@@ -2,7 +2,7 @@
 /**
 */
 
-if (isset($_ENV['APP_MODE']) && $_ENV['APP_MODE'] !== 'prod') {
+if (isset($_SERVER['APP_MODE']) && $_SERVER['APP_MODE'] !== 'prod') {
     ini_set('error_reporting', E_ALL);
     ini_set('show_errors', true);
     ini_set('display_errors', true);

@@ -162,7 +162,7 @@ if ($debug)
     <meta name="robots" content="noindex,nofollow,nosnippet">
     <link rel="stylesheet" type="text/css" href="/g/style/all.css">
     <?php
-if (!isset($_ENV['APP_MODE']) || $_ENV['APP_MODE'] == 'prod') {
+if (!isset($_SERVER['APP_MODE']) || $_SERVER['APP_MODE'] == 'prod') {
     include '../../../analytics.php';
     echo $js_redirect;
 }
