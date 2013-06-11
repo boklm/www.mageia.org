@@ -31,9 +31,9 @@ _lang_load($locale, "about/media");
 			</tr>
 
 		<tr>	
-			<td><a href="/g/media/logo/mageia-2013.png"><img src="/g/media/logo/t-mageia-2013.png" alt="Mageia 2013 logo"></a></td>
-			<td><a href="/g/media/logo/mageia-2013-dark.png"><img src="/g/media/logo/t-mageia-2013-dark.png" alt="Mageia 2013 logo in dark" ></a></td>
-			<td><a href="/g/media/logo/mageia-2013-alpha.png"><img src="/g/media/logo/t-mageia-2013-alpha.png" alt="Mageia 2013 logo in alpha"></a></td>
+			<td><a href="/g/media/logo/mageia-2013.png"><img src="/g/media/logo/t-mageia-2013.png" alt="<?php _e('Mageia 2013')?>" title="<?php _e('Mageia 2013')?>"></a></td>
+			<td><a href="/g/media/logo/mageia-2013-dark.png"><img src="/g/media/logo/t-mageia-2013-dark.png" alt="<?php _e('Mageia 2013 dark')?>" title="<?php _e('Mageia 2013 dark')?>"></a></td>
+			<td><a href="/g/media/logo/mageia-2013-alpha.png"><img src="/g/media/logo/t-mageia-2013-alpha.png" alt="<?php _e('Mageia 2013 alpha')?>" title="<?php _e('Mageia 2013 alpha')?>"></a></td>
 		</tr>
 		<tr>
 			<td><?php echo sprintf(_t('%sPNG</a> or %sSVG</a>'), '<a href="/g/media/logo/mageia-2013.png">', '<a href="/g/media/logo/mageia-2013.svg">') ?></td>
@@ -45,34 +45,34 @@ _lang_load($locale, "about/media");
 
                 <h2><?php _e('Previous Logo')?></h2>
 
-                <p><?php echo sprintf(_t('%sPNG</a> or %sSVG</a>'), '<a href="/g/media/logo/mageia-2011.png"><img src="/g/media/logo/t-mageia-2011.png"><br>', '<a href="/g/media/logo/mageia-2011.svg">') ?></p>
+                <p><?php echo sprintf(_t('%sPNG</a> or %sSVG</a>'), '<a href="/g/media/logo/mageia-2011.png"><img src="/g/media/logo/t-mageia-2011.png" alt="' . _t('Mageia 2011 logo') . '" title="' . _t('Mageia 2011 logo') . '"><br>', '<a href="/g/media/logo/mageia-2011.svg">') ?></p>
 
                 <hr>
 		<h2><?php _e('Mageia 3 CD/DVD covers')?></h2>
-		<p><a href="/g/media/covers/3/Mga3Plain.png"><img src="/g/media/covers/3/t-Mga3Plain.png" alt="Mageia 3 logo" title="Mga3Plain"></a>
-		<a href="/g/media/covers/3/Mga3CD.png"><img src="/g/media/covers/3/t-Mga3CD.png" alt="Mageia 3 logo" title="Mga3CD"></a>
-		<a href="/g/media/covers/3/Mga3DVD.png"><img src="/g/media/covers/3/t-Mga3DVD.png" alt="Mageia 3 logo" title="Mga3DVD"></a>
-		<a href="/g/media/covers/3/Mga3_Free_CD_dual.png"><img src="/g/media/covers/3/t-Mga3_Free_CD_dual.png" alt="Mageia 3 logo" title="Mga3_Free_CD_dual"></a>
-		<a href="/g/media/covers/3/Mga3_Free_DVD_32.png"><img src="/g/media/covers/3/t-Mga3_Free_DVD_32.png" alt="Mageia 3 logo" title="Mga3_Free_DVD_32"></a>
-		<a href="/g/media/covers/3/t-Mga3_Free_DVD_64.png"><img src="/g/media/covers/3/t-Mga3_Free_DVD_64.png" alt="Mageia 3 logo" title="Mga3_Free_DVD_64"></a>
-		<a href="/g/media/covers/3/Mga3_Live_CD_32_Gnome.png"><img src="/g/media/covers/3/t-Mga3_Live_CD_32_Gnome.png" alt="Mageia 3 logo" title="Mga3_Live_CD_32_Gnome"></a>
-		<a href="/g/media/covers/3/Mga3_Live_CD_32_KDE.png"><img src="/g/media/covers/3/t-Mga3_Live_CD_32_KDE.png" alt="Mageia 3 logo" title="Mga3_Live_CD_32_KDE"></a>
-		<a href="/g/media/covers/3/t-Mga3_Live_DVD_32_Gnome.png"><img src="/g/media/covers/3/t-Mga3_Live_DVD_32_Gnome.png" alt="Mageia 3 logo" title="Mga3_Live_DVD_32_Gnome"></a>
-		<a href="/g/media/covers/3/Mga3_Live_DVD_32_KDE.png"><img src="/g/media/covers/3/t-Mga3_Live_DVD_32_KDE.png" alt="Mageia 3 logo" title="Mga3_Live_DVD_32_KDE"></a>
-		<a href="/g/media/covers/3/Mga3_Live_DVD_64_Gnome.png"><img src="/g/media/covers/3/t-Mga3_Live_DVD_64_Gnome.png" alt="Mageia 3 logo" title="/Mga3_Live_DVD_64_Gnome"></a>
-		<a href="/g/media/covers/3/Mga3_Live_DVD_64_KDE.png"><img src="/g/media/covers/3/t-Mga3_Live_DVD_64_KDE.png" alt="Mageia 3 logo" title="Mga3_Live_DVD_64_KDE"></a>
+		<p><a href="/g/media/covers/3/Mga3Plain.png"><img src="/g/media/covers/3/t-Mga3Plain.png" alt="<?php _e('Mageia 3 plain CD/DVD')?>" title="<?php _e('Mageia 3 plain CD/DVD')?>"></a>
+		<a href="/g/media/covers/3/Mga3CD.png"><img src="/g/media/covers/3/t-Mga3CD.png" alt="<?php _e('Mageia 3 CD')?>" title="<?php _e('Mageia 3 CD')?>"></a>
+		<a href="/g/media/covers/3/Mga3DVD.png"><img src="/g/media/covers/3/t-Mga3DVD.png" alt="<?php _e('Mageia 3 DVD')?>" title="<?php _e('Mageia 3 DVD')?>"></a>
+		<a href="/g/media/covers/3/Mga3_Free_CD_dual.png"><img src="/g/media/covers/3/t-Mga3_Free_CD_dual.png" alt="<?php _e('Mageia 3 dualarch CD')?>" title="<?php _e('Mageia 3 dualarch CD')?>"></a>
+		<a href="/g/media/covers/3/Mga3_Free_DVD_32.png"><img src="/g/media/covers/3/t-Mga3_Free_DVD_32.png" alt="<?php _e('Mageia 3 32bit DVD')?>" title="<?php _e('Mageia 3 32bit DVD')?>"></a>
+		<a href="/g/media/covers/3/t-Mga3_Free_DVD_64.png"><img src="/g/media/covers/3/t-Mga3_Free_DVD_64.png" alt="<?php _e('Mageia 3 64bit DVD')?>" title="<?php _e('Mageia 3 64bit DVD')?>"></a>
+		<a href="/g/media/covers/3/Mga3_Live_CD_32_Gnome.png"><img src="/g/media/covers/3/t-Mga3_Live_CD_32_Gnome.png" alt="<?php _e('Mageia 3 32bit LiveCD Gnome')?>" title="<?php _e('Mageia 3 32bit LiveCD Gnome')?>"></a>
+		<a href="/g/media/covers/3/Mga3_Live_CD_32_KDE.png"><img src="/g/media/covers/3/t-Mga3_Live_CD_32_KDE.png" alt="<?php _e('Mageia 3 32bit LiveCD KDE')?>" title="<?php _e('Mageia 3 32bit LiveCD KDE')?>"></a>
+		<a href="/g/media/covers/3/t-Mga3_Live_DVD_32_Gnome.png"><img src="/g/media/covers/3/t-Mga3_Live_DVD_32_Gnome.png" alt="<?php _e('Mageia 3 32bit LiveDVD Gnome')?>" title="<?php _e('Mageia 3 32bit LiveDVD Gnome')?>"></a>
+		<a href="/g/media/covers/3/Mga3_Live_DVD_32_KDE.png"><img src="/g/media/covers/3/t-Mga3_Live_DVD_32_KDE.png" alt="<?php _e('Mageia 3 32bit LiveDVD KDE')?>" title="<?php _e('Mageia 3 32bit LiveDVD KDE')?>"></a>
+		<a href="/g/media/covers/3/Mga3_Live_DVD_64_Gnome.png"><img src="/g/media/covers/3/t-Mga3_Live_DVD_64_Gnome.png" alt="<?php _e('Mageia 3 64bit LiveDVD Gnome')?>" title="<?php _e('Mageia 3 64bit LiveDVD Gnome')?>"></a>
+		<a href="/g/media/covers/3/Mga3_Live_DVD_64_KDE.png"><img src="/g/media/covers/3/t-Mga3_Live_DVD_64_KDE.png" alt="<?php _e('Mageia 3 64bit LiveDVD KDE')?>" title="<?php _e('Mageia 3 64bit LiveDVD KDE')?>"></a>
 		<br><br>
 
-		<a href="/g/media/covers/3/els-EugeniBlack.png"><img src="/g/media/covers/3/t-els-EugeniBlack.png" alt="Mageia 3 logo" title="Mageia Black dedicated to Eugeni"></a>
-		<a href="/g/media/covers/3/els-EugeniBumpmap.png"><img src="/g/media/covers/3/t-els-EugeniBumpmap.png" alt="Mageia 3 logo" title="Mageia with watermark dedicated to Eugeni"></a>
+		<a href="/g/media/covers/3/els-EugeniBlack.png"><img src="/g/media/covers/3/t-els-EugeniBlack.png" alt="<?php _e('Mageia 3 CD/DVD cover dedicated to Eugeni with his black silhuete')?>" title="<?php _e('Mageia 3 CD/DVD cover dedicated to Eugeni with his black silhuete')?>"></a>
+		<a href="/g/media/covers/3/els-EugeniBumpmap.png"><img src="/g/media/covers/3/t-els-EugeniBumpmap.png" alt="<?php _e('Mageia 3 CD/DVD cover dedicated to Eugeni with his black silhuete')?>" title="<?php _e('Mageia 3 CD/DVD cover with watermark dedicated to Eugeni')?>"></a>
 		</p>
 
 	<br>
 
                 <h2><?php _e('Mageia 1 CD/DVD covers')?></h2>
-                <p><a href="/g/media/covers/print-1.png"><img src="/g/media/covers/t-print-1.png" alt=""></a>
-                    <a href="/g/media/covers/print-2.png"><img src="/g/media/covers/t-print-2.png" alt=""></a>
-                    <a href="/g/media/covers/print-3.png"><img src="/g/media/covers/t-print-3.png" alt=""></a></p>
+                <p><a href="/g/media/covers/print-1.png"><img src="/g/media/covers/t-print-1.png" alt="<?php _e('Mageia 1 CD/DVD')?>" title="<?php _e('Mageia 1 CD/DVD')?>"></a>
+                    <a href="/g/media/covers/print-2.png"><img src="/g/media/covers/t-print-2.png" alt="<?php _e('Mageia 1 CD/DVD')?>" title="<?php _e('Mageia 1 CD/DVD')?>"></a>
+                    <a href="/g/media/covers/print-3.png"><img src="/g/media/covers/t-print-3.png" alt="<?php _e('Mageia 1 CD/DVD')?>" title="<?php _e('Mageia 1 CD/DVD')?>"></a></p>
                 <p><?php _e('Licensed under CC-By-SA by Julie Guennegues.')?></p>
                     
                 <hr>
