@@ -54,10 +54,10 @@ _lang_load($locale, "about/media");
 		<a href="/g/media/covers/3/Mga3DVD.png"><img src="/g/media/covers/3/t-Mga3DVD.png" alt="<?php _e('Mageia 3 DVD')?>" title="<?php _e('Mageia 3 DVD')?>"></a>
 		<a href="/g/media/covers/3/Mga3_Free_CD_dual.png"><img src="/g/media/covers/3/t-Mga3_Free_CD_dual.png" alt="<?php _e('Mageia 3 dualarch CD')?>" title="<?php _e('Mageia 3 dualarch CD')?>"></a>
 		<a href="/g/media/covers/3/Mga3_Free_DVD_32.png"><img src="/g/media/covers/3/t-Mga3_Free_DVD_32.png" alt="<?php _e('Mageia 3 32bit DVD')?>" title="<?php _e('Mageia 3 32bit DVD')?>"></a>
-		<a href="/g/media/covers/3/t-Mga3_Free_DVD_64.png"><img src="/g/media/covers/3/t-Mga3_Free_DVD_64.png" alt="<?php _e('Mageia 3 64bit DVD')?>" title="<?php _e('Mageia 3 64bit DVD')?>"></a>
+		<a href="/g/media/covers/3/Mga3_Free_DVD_64.png"><img src="/g/media/covers/3/t-Mga3_Free_DVD_64.png" alt="<?php _e('Mageia 3 64bit DVD')?>" title="<?php _e('Mageia 3 64bit DVD')?>"></a>
 		<a href="/g/media/covers/3/Mga3_Live_CD_32_Gnome.png"><img src="/g/media/covers/3/t-Mga3_Live_CD_32_Gnome.png" alt="<?php _e('Mageia 3 32bit LiveCD Gnome')?>" title="<?php _e('Mageia 3 32bit LiveCD Gnome')?>"></a>
 		<a href="/g/media/covers/3/Mga3_Live_CD_32_KDE.png"><img src="/g/media/covers/3/t-Mga3_Live_CD_32_KDE.png" alt="<?php _e('Mageia 3 32bit LiveCD KDE')?>" title="<?php _e('Mageia 3 32bit LiveCD KDE')?>"></a>
-		<a href="/g/media/covers/3/t-Mga3_Live_DVD_32_Gnome.png"><img src="/g/media/covers/3/t-Mga3_Live_DVD_32_Gnome.png" alt="<?php _e('Mageia 3 32bit LiveDVD Gnome')?>" title="<?php _e('Mageia 3 32bit LiveDVD Gnome')?>"></a>
+		<a href="/g/media/covers/3/Mga3_Live_DVD_32_Gnome.png"><img src="/g/media/covers/3/t-Mga3_Live_DVD_32_Gnome.png" alt="<?php _e('Mageia 3 32bit LiveDVD Gnome')?>" title="<?php _e('Mageia 3 32bit LiveDVD Gnome')?>"></a>
 		<a href="/g/media/covers/3/Mga3_Live_DVD_32_KDE.png"><img src="/g/media/covers/3/t-Mga3_Live_DVD_32_KDE.png" alt="<?php _e('Mageia 3 32bit LiveDVD KDE')?>" title="<?php _e('Mageia 3 32bit LiveDVD KDE')?>"></a>
 		<a href="/g/media/covers/3/Mga3_Live_DVD_64_Gnome.png"><img src="/g/media/covers/3/t-Mga3_Live_DVD_64_Gnome.png" alt="<?php _e('Mageia 3 64bit LiveDVD Gnome')?>" title="<?php _e('Mageia 3 64bit LiveDVD Gnome')?>"></a>
 		<a href="/g/media/covers/3/Mga3_Live_DVD_64_KDE.png"><img src="/g/media/covers/3/t-Mga3_Live_DVD_64_KDE.png" alt="<?php _e('Mageia 3 64bit LiveDVD KDE')?>" title="<?php _e('Mageia 3 64bit LiveDVD KDE')?>"></a>
