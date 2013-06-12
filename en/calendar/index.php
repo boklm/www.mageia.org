@@ -37,9 +37,9 @@ $params = array(
     'bgcolor' => '#FFFFFF',
     'ctz'     => 'UTC'
 );
-$params = http_build_query($params);
+$params = http_build_query($params, '', '&amp;');
 foreach ($calendars as $c) {
-    $params .= sprintf('&src=%s&color=%s',
+    $params .= sprintf('&amp;src=%s&amp;color=%s',
         urlencode($c['id']), urlencode($c['color']));
 }
 $url = 'https://www.google.com/calendar/b/0/embed?' . $params;
