@@ -106,7 +106,6 @@ _lang_load($locale, 'contribute');
                 <h3><a href="../donate/"><?php _e('Donating')?></a></h3>
                 <p><?php _e('Financial donations help us allocate specific tasks, secure our infrastructure, fund events, goodies &amp; transportation. <a href="../thank-you/">200+ persons already expressed their trust in us</a> with their money, hardware or other resources. We keep a <a href="../about/reports/">public record of what we get and how we use it</a>.')?></p>
             </li>
-            <hr>
             <li id="data">
                 <h3><?php _e('Data mining')?></h3>
                 <p><?php _e('There are tons of data out there, most of which we don\'t use, or even know about. If you like to grab and analyze data to reveal &amp; visualize it to spot what we can do even better, get in touch!')?></p>
