@@ -17,9 +17,9 @@ require '../downloads/get/lib.php';
     <meta name="robots" content="index,nofollow,nosnippet">
     <link rel="canonical" href="/<?php echo $locale; ?>/3/">
     <link rel="stylesheet" href="/g/style/all.css">
+    <base href="../downloads/get/">
     <?php include '../../analytics.php'; ?>
 </head>
-    <base href="../downloads/get/">
 <body class="release downloads">
     <?php echo $hsnav; ?>
     <h1 id="mgnavt"><?php _e('Download <strong>Mageia 3</strong>')?></h1>
@@ -60,7 +60,7 @@ require '../downloads/get/lib.php';
                             </tr>
                         </tbody>
                         </table>
-                        
+
                         <p class="dlinfo"><?php _e('Notes:'); ?></p>
                         <ul class="dlinfo hl">
                             <li><?php _e('Up to 167 locales are supported:'); ?>
@@ -89,11 +89,11 @@ require '../downloads/get/lib.php';
                                 <th><?php _e('link');?></th>
                                 <th><?php _e('BitTorrent');?></th>
                             </tr>
-                        </thead>                        
-			<tbody>
+                        </thead>
+                        <tbody>
                                 <tr>
-                        <th class="name"><?php _e('LiveDVD KDE')?><br>           
-                            <span class="dlinfo"><?php _e('All languages')?></th>
+                        <th class="name"><?php _e('LiveDVD KDE')?><br>
+                            <span class="dlinfo"><?php _e('All languages')?></span></th>
                         <td class="size">1.4GB</td>
                         <td><a rel="nofollow" href="?q=Mageia-3-LiveDVD-KDE4-i586-DVD.iso"><?php _e('32bit');?></a><br>
                             <a rel="nofollow" href="?q=Mageia-3-LiveDVD-KDE4-x86_64-DVD.iso"><?php _e('64bit');?></a></td>
@@ -101,8 +101,8 @@ require '../downloads/get/lib.php';
                             <a rel="nofollow" href="?q=Mageia-3-LiveDVD-KDE4-x86_64-DVD.iso&amp;torrent=1"><?php _e('64bit');?></a></td>
                     </tr>
                     <tr>
-                        <th class="name"><?php _e('LiveDVD GNOME')?><br>           
-                            <span class="dlinfo"><?php _e('All languages')?></th></th>
+                        <th class="name"><?php _e('LiveDVD GNOME')?><br>
+                            <span class="dlinfo"><?php _e('All languages')?></span></th>
                         <td class="size">1.4GB</td>
                         <td><a rel="nofollow" href="?q=Mageia-3-LiveDVD-GNOME-i586-DVD.iso"><?php _e('32bit');?></a><br>
                             <a rel="nofollow" href="?q=Mageia-3-LiveDVD-GNOME-x86_64-DVD.iso"><?php _e('64bit');?></a></td>
@@ -110,14 +110,14 @@ require '../downloads/get/lib.php';
                             <a rel="nofollow" href="?q=Mageia-3-LiveDVD-GNOME-x86_64-DVD.iso&amp;torrent=1"><?php _e('64bit');?></a></td>
                     <tr>
                         <th class="name"><?php _e('LiveCD KDE')?><br>
-                            <span class="dlinfo"><?php _e('English only')?></th>
+                            <span class="dlinfo"><?php _e('English only')?></span></th>
                         <td class="size">700MB</td>
                         <td><a rel="nofollow" href="?q=Mageia-3-LiveCD-KDE4-en-i586-CD.iso"><?php _e('32bit');?></a></td>
                         <td><a rel="nofollow" href="?q=Mageia-3-LiveCD-KDE4-en-i586-CD.iso&amp;torrent=1"><?php _e('32bit');?></a></td>
                     </tr>
                     <tr>
                         <th class="name"><?php _e('LiveCD GNOME')?><br>
-                            <span class="dlinfo"><?php _e('English only')?></th>
+                            <span class="dlinfo"><?php _e('English only')?></span></th>
                         <td class="size">700MB</td>
                         <td><a rel="nofollow" href="?q=Mageia-3-LiveCD-GNOME-en-i586-CD.iso"><?php _e('32bit');?></a></td>
                         <td><a rel="nofollow" href="?q=Mageia-3-LiveCD-GNOME-en-i586-CD.iso&amp;torrent=1"><?php _e('32bit');?></a></td>
@@ -127,7 +127,7 @@ require '../downloads/get/lib.php';
                         </table>
 
                     </div>
-                    
+
                     <div class="para">
                         <h2><?php _e('Wired Network-based Installation CD')?></h2>
                         <p class="dlinfo"><?php _e('Download quickly and immediately boot into install mode from <em>wired</em> network or a local disk.')?></p>
@@ -137,7 +137,7 @@ require '../downloads/get/lib.php';
                           <tr>
                               <th><?php _e('Format');?></th>
                               <th class="size"><?php _e('size');?></th>
-                              <th colspan="2"><?php _e('link');?></th>
+                              <th><?php _e('link');?></th>
                           </tr>
                         </thead>
                         <tbody>
@@ -192,7 +192,7 @@ require '../downloads/get/lib.php';
                             _h('Looking for Mageia 1?', null, 'h3');
                             echo '<p>';
                             _e('It is <a href="%s">here now</a>.', array('../1/'));
-                            _e('But please remember that it already <a href="http://blog.mageia.org/en/2012/12/02/mageia-1-eol"/>reached EOL</a>.', null, '');
+                            _e('But please remember that it already <a href="http://blog.mageia.org/en/2012/12/02/mageia-1-eol/">reached EOL</a>.', null, '');
                             echo '</p>';
                         ?>
                         <br>

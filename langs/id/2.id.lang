@@ -193,8 +193,8 @@ Sekarang ada <a href="%s">di sini</a>.
 
 
 # en/2/download_index.php +221
-;But please remember that it already <a href="http://blog.mageia.org/en/2012/12/02/mageia-1-eol"/>reached EOL</a>.
-Tapi ingat bahwa ini sudah <a href="http://blog.mageia.org/en/2012/12/02/mageia-1-eol"/>mencapai akhir dukungan</a>.
+;But please remember that it already <a href="http://blog.mageia.org/en/2012/12/02/mageia-1-eol/">reached EOL</a>.
+Tapi ingat bahwa ini sudah <a href="http://blog.mageia.org/en/2012/12/02/mageia-1-eol/">mencapai akhir dukungan</a>.
 
 
 # en/2/download_index.php +227
