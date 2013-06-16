@@ -77,8 +77,8 @@ diretamente no <a href="irc://irc.freenode.net/#mageia-atelier">#mageia-atelier 
 ;or with a <a href="https://ml.mageia.org/l/info/atelier-discuss">notice on the Atelier team mailing-list</a>,
 ou com um <a href="https://ml.mageia.org/l/info/atelier-discuss">Observe na Web equipe mailing-list</a>,
 
-;or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">bug report</a>.
- ou um <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">relatório de bug.</a>
+;or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&amp;format=guided&amp;component=www.mageia.org">bug report</a>.
+ ou um <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&amp;format=guided&amp;component=www.mageia.org">relatório de bug.</a>
 
 ;You may embed this debug info if you like:
 Você pode incorporar esta informação de depuração se você gosta:

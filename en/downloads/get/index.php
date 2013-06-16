@@ -237,7 +237,7 @@ if (!isset($_SERVER['APP_MODE']) || $_SERVER['APP_MODE'] == 'prod') {
                         <li><?php _e('directly on <a href="irc://irc.freenode.net/#mageia-atelier">#mageia-atelier on Freenode IRC</a>,'); ?></li>
                         <li><?php _e('or <a href="http://twitter.com/mageia_org">via our Twitter account</a>,'); ?></li>
                         <li><?php _e('or with a <a href="https://ml.mageia.org/l/info/atelier-discuss">notice on the Atelier team mailing-list</a>,'); ?></li>
-                        <li><?php _e('or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">bug report</a>.'); ?></li>
+                        <li><?php _e('or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&amp;format=guided&amp;component=www.mageia.org">bug report</a>.'); ?></li>
                     </ul>
                     
                     <p><?php _e('You may embed this debug info if you like:'); ?></p>

@@ -85,8 +85,8 @@
 или с помощью <a href="https://ml.mageia.org/l/info/atelier-discuss"> сообщения в список рассылки интернет-команды </a>,
 
 
-;or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">bug report</a>.
-или с помощью <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites</a>format=guidedcomponent=www.mageia.org"> отчета об ошибке .
+;or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&amp;format=guided&amp;component=www.mageia.org">bug report</a>.
+или с помощью <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&amp;format=guided&amp;component=www.mageia.org">отчета об ошибке</a>.
 
 
 ;You may embed this debug info if you like:

@@ -85,8 +85,8 @@ of <a href="http://twitter.com/mageia_org">via ons Twitter account</a>,
 of via een <a href="https://ml.mageia.org/l/info/atelier-discuss">berichtje op de Atelier-team-mailinglijst</a>,
 
 
-;or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">bug report</a>.
-of een <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">bugrapport</a>.
+;or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&amp;format=guided&amp;component=www.mageia.org">bug report</a>.
+of een <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&amp;format=guided&amp;component=www.mageia.org">bugrapport</a>.
 
 
 ;You may embed this debug info if you like:

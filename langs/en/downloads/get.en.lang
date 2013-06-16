@@ -109,8 +109,8 @@ or with a <a href="https://ml.mageia.org/l/info/atelier-discuss">notice on the A
 
 
 # en/downloads/get/index.php +240
-;or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">bug report</a>.
-or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">bug report</a>.
+;or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&amp;format=guided&amp;component=www.mageia.org">bug report</a>.
+or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&amp;format=guided&amp;component=www.mageia.org">bug report</a>.
 
 
 # en/downloads/get/index.php +243

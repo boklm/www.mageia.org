@@ -85,8 +85,8 @@ sau <a href="http://twitter.com/mageia_org">pe contul nostru Twitter</a>,
 sau printr-o <a href="https://ml.mageia.org/l/info/atelier-discuss">sesizare pe lista de difuziune a echipei Web</a>,
 
 
-;or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">bug report</a>.
-sau un <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">raport de eroare</a>.
+;or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&amp;format=guided&amp;component=www.mageia.org">bug report</a>.
+sau un <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&amp;format=guided&amp;component=www.mageia.org">raport de eroare</a>.
 
 
 ;You may embed this debug info if you like:

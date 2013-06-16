@@ -107,8 +107,8 @@ o con un <a href="https://ml.mageia.org/l/info/atelier-discuss">aviso en la list
 
 
 # ../../svn/web/en/downloads/get/index.php +204
-;or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">bug report</a>.
-o un <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">reporte de fallos</a>.
+;or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&amp;format=guided&amp;component=www.mageia.org">bug report</a>.
+o un <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&amp;format=guided&amp;component=www.mageia.org">reporte de fallos</a>.
 
 
 # ../../svn/web/en/downloads/get/index.php +207

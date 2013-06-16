@@ -107,8 +107,8 @@ Mageia 的全球发行源自<a href="%s">热心帮助我们软件</a>以及<a hr
 
 
 # ../../svn/web/en/downloads/get/index.php +204
-;or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">bug report</a>.
-或者<a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">提交错误报告</a>。
+;or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&amp;format=guided&amp;component=www.mageia.org">bug report</a>.
+或者<a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&amp;format=guided&amp;component=www.mageia.org">提交错误报告</a>。
 
 
 # ../../svn/web/en/downloads/get/index.php +207

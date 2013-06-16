@@ -85,8 +85,8 @@ nebo <a href="http://twitter.com/mageia_org">přes náš účet u služby Twitte
 nebo pomocí <a href="https://ml.mageia.org/l/info/atelier-discuss">oznámení v poštovním seznamu webového týmu</a>,
 
 
-;or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">bug report</a>.
-nebo pomocí <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">zprávy o chybě</a>.
+;or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&amp;format=guided&amp;component=www.mageia.org">bug report</a>.
+nebo pomocí <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&amp;format=guided&amp;component=www.mageia.org">zprávy o chybě</a>.
 
 
 ;You may embed this debug info if you like:

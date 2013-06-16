@@ -85,8 +85,8 @@ või <a href="http://twitter.com/mageia_org">meie Twitteri konto kaudu</a>
 või <a href="https://ml.mageia.org/l/info/atelier-discuss">kirjutades veebimeeskonna postiloendisse</a>
 
 
-;or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">bug report</a>.
-või <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">tehes veateate</a>
+;or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&amp;format=guided&amp;component=www.mageia.org">bug report</a>.
+või <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&amp;format=guided&amp;component=www.mageia.org">tehes veateate</a>
 
 
 ;You may embed this debug info if you like:

@@ -85,8 +85,8 @@
 ή με ένα <a href="https://ml.mageia.org/l/info/atelier-discuss">μήνυμα στη λίστα ταχυδρομείου της ομάδας Ιστού</a>,
 
 
-;or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">bug report</a>.
-ή με μια <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">αναφορά σφάλματος</a>.
+;or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&amp;format=guided&amp;component=www.mageia.org">bug report</a>.
+ή με μια <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&amp;format=guided&amp;component=www.mageia.org">αναφορά σφάλματος</a>.
 
 
 ;You may embed this debug info if you like:

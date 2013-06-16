@@ -85,8 +85,8 @@ or <a href="http://twitter.com/mageia_org">via our Twitter account</a>,
 or with a <a href="https://ml.mageia.org/l/info/atelier-discuss">notice on the Atelier team mailing-list</a>,
 
 
-;or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">bug report</a>.
-or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">bug report</a>.
+;or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&amp;format=guided&amp;component=www.mageia.org">bug report</a>.
+or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&amp;format=guided&amp;component=www.mageia.org">bug report</a>.
 
 
 ;You may embed this debug info if you like:

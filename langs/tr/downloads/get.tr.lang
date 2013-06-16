@@ -85,8 +85,8 @@ veya <a href="http://twitter.com/mageia_org">Twitter hesabımız üzerinden</a>,
 veya <a href="https://ml.mageia.org/l/info/atelier-discuss">Web takımı posta-listesinden</a> duyuru yoluyla,
 
 
-;or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">bug report</a>.
-veya <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&format=guided&component=www.mageia.org">hata raporlama</a> ile.
+;or a <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&amp;format=guided&amp;component=www.mageia.org">bug report</a>.
+veya <a href="https://bugs.mageia.org/enter_bug.cgi?product=Websites&amp;format=guided&amp;component=www.mageia.org">hata raporlama</a> ile.
 
 
 ;You may embed this debug info if you like:
