@@ -30,6 +30,20 @@ mageia, δωρεά, δωρητές, ευχαριστούμε, συνεργάτε
 ;Check our activity and financial reports!
 Ελέγξτε τη δραστηριότητά μας και τις οικονομικές αναφορές!
 
+# en/thank-you/index.php +35
+;The following amazing people %sdonated money%s to Mageia.Org:
+Οι παρακάτω καταπληκτικοί άνθρωποι %sστήριξαν οικονομικά%s τη Mageia.Org:
+
+
+# en/thank-you/index.php +40
+;%s Euros has been donated to Mageia.Org in the last 30 days. <a href="%s">More details</a>.
+Η Mageia.Org έχει λάβει %s ευρώ κατά τη διάρκεια των τελευταίων 30 ημερών. <a href="%s" hreflang="en">Περισσότερες λεπτομέρειες</a>.
+
+
+# en/thank-you/index.php +45
+;Last update:
+Τελευταία ενημέρωση:
+
 
 # /en/thank-you/index.php +40
 ;Since September 2010, Mageia would not have come to a reality without the enthusiasm, advice and involvement of hundreds of people.
@@ -44,11 +58,6 @@ mageia, δωρεά, δωρητές, ευχαριστούμε, συνεργάτε
 # /en/thank-you/index.php +29
 ;This page is here to remind of their contribution to this project.
 Αυτή η σελίδα φροντίζει ταπεινά ατελώς να υπενθυμίζει τις συνεισφορές τους στο έργο αυτό.
-
-
-# /en/thank-you/index.php +35
-;%d amazing people %sdonated money%s to Mageia.Org:
-%d άνθρωποι %sέκαναν μια δωρεά%s στη Mageia.Org:
 
 
 # /en/thank-you/index.php +41
