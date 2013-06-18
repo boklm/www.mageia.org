@@ -61,66 +61,6 @@ mageia, επικοινωνία, αλληλογραφία, τύπος, άνθρω
 Αν ξέρετε με ποιον θέλετε να επικοινωνήσετε
 
 
-# ../../svn/web/en/contact/index.php +55
-;You may post in the <a href="%s">forum</a> or the <a href="%s">public discussion mailing-list</a>.
-Μπορείτε να γράψετε στο <a href="%s">φόρουμ</a> ή στη <a href="%s">δημόσιας συζήτησης λίστα αλληλογραφίας</a>.
-
-
-# ../../svn/web/en/contact/index.php +57
-;You also may use the following email aliases too to contact all members of a group at once:
-Μπορείτε επίσης να χρησιμοποιήσετε μια από τις παρακάτω διευθύνσεις ηλ. αλληλογραφίας για να έρθετε σε επικοινωνία με όλα τα μέλη μιας ομάδας:
-
-
-# ../../svn/web/en/contact/index.php +59
-;Mageia.Org Board members
-Μέλη της διοίκησης Mageia.Org
-
-
-# ../../svn/web/en/contact/index.php +60
-;Mageia Council
-Συμβούλιο Mageia
-
-
-# ../../svn/web/en/contact/index.php +61
-;Systems administration team
-Ομάδα των συστημάτων διαχείρισης
-
-
-# ../../svn/web/en/contact/index.php +62
-;Packagers
-Δημιουργοί πακέτων και προγραμματιστές
-
-
-# ../../svn/web/en/contact/index.php +63
-;Communication, Marketing &amp; Web teams
-Ομάδες επικοινωνίας, μάρκετινγκ και ιστού
-
-
-# ../../svn/web/en/contact/index.php +64
-;QA team
-Ομάδα διασφάλισης της ποιότητας (QA)
-
-
-# ../../svn/web/en/contact/index.php +65
-;Documentation team
-Ομάδα τεκμηρίωσης
-
-
-# ../../svn/web/en/contact/index.php +66
-;Mageia.Org association members
-Μέλη της οργάνωσης Mageia.Org
-
-
-# ../../svn/web/en/contact/index.php +75
-;In most case you should avoid using those aliases as they should only be used for the rare cases where private emails are needed. Use appropriate <a href="%s">public mailing list</a> instead.
-Στις περισσότερες των περιπτώσεων, είναι προτιμότερο να αποφεύγεται η χρήση αυτών των διευθύνσεων, διότι προορίζονται για τις σπάνιες περιπτώσεις όπου απαιτείται η χρήση της ιδιωτικής αλληλογραφίας. Αντί αυτών χρησιμοποιήστε την κατάλληλη <a href="%s">δημόσια λίστα αλληλογραφίας</a>.
-
-
-# ../../svn/web/en/contact/index.php +78
-;If you want to contact Council or Board for a public discussion, you can start a thread on a mailing-list and add the Board or Council alias in CC.
-Αν επιθυμείτε να επικοινωνήσετε με το Συμβούλιο ή τη Διοίκηση για μια δημόσια συζήτηση, μπορείτε να γράψετε σε μια λίστα αλληλογραφίας και να κοινοποιήσετε το μήνυμά σας στην ηλ. διεύθυνση της Διοίκησης ή του Συμβουλίου.
-
-
 # ../../svn/web/en/contact/index.php +80
 ;You want to join and contribute to Mageia
 Αν θέλετε να λάβετε μέρος και να συνεισφέρετε στη Mageia
