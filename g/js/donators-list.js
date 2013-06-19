@@ -395,31 +395,33 @@ var previous_donors = [
         '姜 奕轲',
 ];
 
-var donators = {};
-for (var i = 0; i < previous_donors.length; i++) {
-    donators[previous_donors[i]] = previous_donors_url;
+function thankyou_page() {
+    var donators = {};
+    for (var i = 0; i < previous_donors.length; i++) {
+        donators[previous_donors[i]] = previous_donors_url;
+    }
+
+    $.getJSON(donations_who_url, function(data) {
+        for (var i = 0; i < data.length; i++) {
+            donators[data[i].who] = data[i].url;
+        }
+        var sorted_donators = [];
+        for (var d in donators) {
+            if (donators.hasOwnProperty(d))
+                   sorted_donators.push(d);
+        }
+        sorted_donators.sort();
+
+        var dlist = '';
+        for (var i = 0; i < sorted_donators.length; i++) {
+            dlist += '<li><a href="' + donators[sorted_donators[i]] + '">'
+                     + sorted_donators[i] + '</a></li>';
+        };
+        document.getElementById("donlist").innerHTML=dlist;
+    });
+
+    $.getJSON(treasurer_infos_url, function(data) {
+        document.getElementById("donations_30days").innerHTML=data.donations_30days;
+        document.getElementById("last_update").innerHTML=data.last_update;
+    });
 }
-
-$.getJSON(donations_who_url, function(data) {
-    for (var i = 0; i < data.length; i++) {
-        donators[data[i].who] = data[i].url;
-    }
-    var sorted_donators = [];
-    for (var d in donators) {
-        if (donators.hasOwnProperty(d))
-                sorted_donators.push(d);
-    }
-    sorted_donators.sort();
-
-    var dlist = '';
-    for (var i = 0; i < sorted_donators.length; i++) {
-        dlist += '<li><a href="' + donators[sorted_donators[i]] + '">'
-                + sorted_donators[i] + '</a></li>';
-    };
-    document.getElementById("donlist").innerHTML=dlist;
-});
-
-$.getJSON(treasurer_infos_url, function(data) {
-    document.getElementById("donations_30days").innerHTML=data.donations_30days;
-    document.getElementById("last_update").innerHTML=data.last_update;
-});
