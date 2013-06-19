@@ -21,6 +21,9 @@ _lang_load($locale, 'donate');
     #options > li { list-style: none; padding: 0; margin: 0 0 4em 0; }
     .dlinfo li { margin-bottom: 0.6em; }
     </style>
+    <script src="http://static.mageia.org/g/js/jquery-1.10.1.min.js"></script>
+    <script src="http://static.mageia.org/g/js/treasurer.js"></script>
+    <script type="text/javascript">donate_page();</script>
 </head>
 <body class="donate">
     <?php echo $hsnav; ?>
@@ -81,7 +84,7 @@ _lang_load($locale, 'donate');
     <div class="para track">
     <h2 id="status"><?php _e('How to track donation?')?></h2>
     <p><?php echo sprintf(_t('Currently, we received a lot of generous donations (%s, remains %s) thanks to all of our <a href="../thank-you/">donors</a>!'),
-        $g_donate_amount, $g_amount_remain);?></p>
+        '<span id="donations_total">x</span> euros', '<span id="balance">x</span> euros');?></p>
     <p><?php echo sprintf(_t('We believe public accountability is crucial. You can know more about how are used the funds received by reading our <a href="%s">financial reports</a>.'), '../about/reports/' . date('Y') . '/')?></p>
 
 <!--

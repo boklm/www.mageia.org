@@ -425,3 +425,10 @@ function thankyou_page() {
         document.getElementById("last_update").innerHTML=data.last_update;
     });
 }
+
+function donate_page() {
+    $.getJSON(treasurer_infos_url, function(data) {
+        document.getElementById("donations_total").innerHTML=data.donations_total;
+        document.getElementById("balance").innerHTML=data.balance;
+    });
+}
