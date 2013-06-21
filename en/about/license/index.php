@@ -51,6 +51,7 @@ $license_strings = array(
     array('If any portion of this agreement is held void, illegal or inapplicable by a court judgment, this \nportion is excluded from this contract. You remain bound by the other applicable sections of the \nagreement.\nThe terms and conditions of this License are governed by the Laws of France.\nAll disputes on the terms of this license will preferably be settled out of court. As a last \nresort, the dispute will be referred to the appropriate Courts of Law of Paris - France.\nFor any question on this document, please contact Mageia.'),
     array('Warning: Free Software may not necessarily be patent free, and some Free\nSoftware included may be covered by patents in your country. For example, the\nMP3 decoders included may require a license for further usage (see\nhttp://www.mp3licensing.com for more details). If you are unsure if a patent\nmay be applicable to you, check your local laws.'),
 );
+if($locale == 'en') { array_shift($license_strings); }
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $locale; ?>">
