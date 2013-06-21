@@ -17,7 +17,7 @@ require '../downloads/get/lib.php';
     <meta name="robots" content="index,nofollow,nosnippet">
     <link rel="canonical" href="/<?php echo $locale; ?>/3/">
     <link rel="stylesheet" href="/g/style/all.css">
-    <base href="../downloads/get/">
+    <base href="http://<?php echo $_SERVER['HTTP_HOST'].'/'.$locale; ?>/downloads/get/">
     <?php include '../../analytics.php'; ?>
 </head>
 <body class="release downloads">
