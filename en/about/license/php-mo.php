@@ -56,7 +56,7 @@ function phpmo_clean_helper($x) {
 /* @link http://www.gnu.org/software/gettext/manual/gettext.html#PO-Files */
 function phpmo_parse_po_file($in) {
 	// read .po file
-	$fh = fopen($in, 'r');
+	$fh = @fopen($in, 'r');
 	if ($fh === false) {
 		// Could not open file resource
 		return false;
