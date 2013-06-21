@@ -79,6 +79,7 @@ $license_strings = array(
             $search  = array('\\"','\n\n', '\n', '  ');
             $replace = array('"','<br>', ' ', ' ');
             foreach($license_strings as $value) {
+                $license_string = '';
                 if(isset($po_file[$value[0]]["msgstr"][0])) {
                     $license_string = $po_file[$value[0]]["msgstr"][0];
                 }
