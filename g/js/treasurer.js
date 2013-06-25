@@ -1,5 +1,5 @@
-var treasurer_infos_url = 'http://treasurer.mageia.org/index.json';
-var donations_who_url = 'http://treasurer.mageia.org/donations_who.json';
+var treasurer_infos_url = '//treasurer.mageia.org/index.json';
+var donations_who_url = '//treasurer.mageia.org/donations_who.json';
 
 var previous_donors_url =  'http://treasurer.mageia.org/donations_p_4.html';
 var previous_donors = [
