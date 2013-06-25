@@ -17,8 +17,8 @@ include '../../donators.inc.php';
     <meta name="author" content="Mageia">
     <link rel="stylesheet" type="text/css" href="/g/style/all.css">
     <?php include '../../analytics.php'; ?>
-    <script src="http://static.mageia.org/g/js/jquery-1.10.1.min.js"></script>
-    <script src="http://static.mageia.org/g/js/treasurer.js"></script>
+    <script src="//static.mageia.org/g/js/jquery-1.10.1.min.js"></script>
+    <script src="//static.mageia.org/g/js/treasurer.js"></script>
     <script type="text/javascript">thankyou_page();</script>
 </head>
 <body class="donate">
