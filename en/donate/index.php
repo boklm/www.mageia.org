@@ -21,8 +21,8 @@ _lang_load($locale, 'donate');
     #options > li { list-style: none; padding: 0; margin: 0 0 4em 0; }
     .dlinfo li { margin-bottom: 0.6em; }
     </style>
-    <script src="http://static.mageia.org/g/js/jquery-1.10.1.min.js"></script>
-    <script src="http://static.mageia.org/g/js/treasurer.js"></script>
+    <script src="//static.mageia.org/g/js/jquery-1.10.1.min.js"></script>
+    <script src="//static.mageia.org/g/js/treasurer.js"></script>
     <script type="text/javascript">donate_page();</script>
 </head>
 <body class="donate">
