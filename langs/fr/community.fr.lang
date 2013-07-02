@@ -47,7 +47,7 @@ Forums {ok}
 
 
 ;http://wiki.mageia.org/
-http://wiki.mageia.org/ {ok}
+http://wiki.mageia.org/" hreflang="en
 
 
 ;News
@@ -75,7 +75,7 @@ Boîte à outils
 
 
 ;Wiki</a> &larr; collaborative documentation
-Wiki</a> &larr; documentation collaborative
+Wiki officiel</a> &larr; documentation collaborative</li> <li><a href="http://www.mageialinux-online.org/wiki/wiki.php">Wiki de MLO</a> &larr; communauté francophone
 
 
 ;Bugzilla</a> &larr; to report bugs
