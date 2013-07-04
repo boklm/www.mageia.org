@@ -128,7 +128,7 @@ try {
 }
 catch (NoProductFoundError $e) {
     // sorry, no such product found/available. redirect?
-    $reason = 'This file is not available for download.';
+    $reason = 'The file '. $product .' is not available for download.';
 }
 catch (NoMirrorFoundError $e) {
     // sorry, no mirror found. next time?
