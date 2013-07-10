@@ -69,20 +69,25 @@ function phpmo_parse_po_file($in) {
 	// state
 	$state = null;
 	$fuzzy = false;
-	$num = 0; // qq
 
 	// iterate over lines
 	while(($line = fgets($fh, 65536)) !== false) {
-		$num++; // qq
 		$line = trim($line);
-		if ($line === '')
+		if ($line === '') {
+			// save stored entry on empty line
+			// block moved to fix "fuzzy flag first line" bug which didn't saved previous proper string at all
+			if (sizeof($temp) && array_key_exists('msgid', $temp) && array_key_exists('msgstr', $temp)) {
+				if (!$fuzzy)
+					$hash[] = $temp;
+				$temp = array ();
+				$state = null;
+				$fuzzy = false;
+			}
 			continue;
-
+		}
 		$array_of_splited_string = preg_split('/\s/', $line, 2);
 		$key = $array_of_splited_string[0];
 		$data = (isset($array_of_splited_string[1]) ? $array_of_splited_string[1] : '');
-
-//		echo PHP_EOL . ' $key: ' . $key . ' ' . PHP_EOL . '$data: ' . $data . ' ' . PHP_EOL . '$line: ' . $line . PHP_EOL;
 
 		switch ($key) {
 			case '#,' : // flag...
@@ -91,14 +96,11 @@ function phpmo_parse_po_file($in) {
 			case '#.' : // extracted-comments
 			case '#:' : // reference...
 			case '#|' : // msgid previous-untranslated-string
-				// start a new entry
-				if (sizeof($temp) && array_key_exists('msgid', $temp) && array_key_exists('msgstr', $temp)) {
-					if (!$fuzzy)
-						$hash[] = $temp;
-					$temp = array ();
-					$state = null;
-					$fuzzy = false;
-				}
+				break;
+			case '#~' : // commented-unused-string
+				$temp = array ();
+				$state = null;
+				$fuzzy = false;
 				break;
 			case 'msgctxt' :
 				// context
@@ -133,7 +135,6 @@ function phpmo_parse_po_file($in) {
 						default :
 							// parse error
 							fclose($fh);
-							echo ' $line: ' . $line . ' $key: ' . $key . ' $num: ' . $num . ' $data: ' . $data . ' $state: ' . $state . ' '; // qq
 							return FALSE;
 					}
 				}

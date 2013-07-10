@@ -2,23 +2,20 @@
 
 define('HLANG', true);
 require '../../../langs.php';
-//$locale = 'sl'; // qq debug
+
 _lang_load($locale, 'about/license');
 
 require('php-mo.php');
 
-if($locale == 'en') { // this can be done better maybe with preg_replace strtoupper combo
+if($locale == 'en') {
     $po_locale = 'libDrakX.pot';
-} else if($locale == 'pa-in') {
-    $po_locale = 'pa_IN.po';
-} else if($locale == 'pt-br') {
-    $po_locale = 'pt_BR.po';
-} else if($locale == 'zh-cn') {
-    $po_locale = 'zh_CN.po';
-} else if($locale == 'zh-tw') {
-    $po_locale = 'zh_TW.po';
 } else {
-    $po_locale = "$locale.po";
+    preg_match("/(..)(-)(..)/", $locale, $parsed_locale);
+    if(isset($parsed_locale[3])) { // create pt_BR.po from pt-br and alike
+        $po_locale = $parsed_locale[1] . '_' . strtoupper($parsed_locale[3]) . '.po';
+    } else {
+        $po_locale = $locale . '.po';
+    }
 }
 
 //$po_files_path = "../../../../drakx_share/"; // qq debug
@@ -28,13 +25,8 @@ $po_files_end  = "?view=co";
 
 $po_file = phpmo_parse_po_file($po_files_path . $po_locale . $po_files_end);
 if($po_file === false) {
-//    echo "ERROR loading " . $po_files_path . $po_locale . $po_files_end; // qq debug
     $po_file = phpmo_parse_po_file($po_files_path . "libDrakX.pot" . $po_files_end);
 }
-if($po_file === false) {
-//    echo "ERROR loading " . $po_files_path . "libDrakX.pot" . $po_files_end; // qq debug
-}
-//var_dump($po_file); // qq debug
 
 $license_strings = array(
     array('_: You can warn about unofficial translation here'),
@@ -75,10 +67,10 @@ if($locale == 'en') { array_shift($license_strings); }
             echo '<div id="preamble">';
             _h('An introduction text ... (summarizing, explaining the core principles, and why this license was chosen).');
             echo '<p>' . sprintf(_t('See also %swiki page about licensing policy</a>.'),
-                        '<a href="https://wiki.mageia.org/en/Licensing_policy">') . '</p></div>';
+                        '<a href="https://wiki.mageia.org/en/Licensing_policy">') . '</p></div><br>';
             _h('Mageia license', null, 'h2');
-            $search  = array('\\"','\n\n', '\n', '  ');
-            $replace = array('"','<br>', ' ', ' ');
+            $search  = array('\\"', '\n', '  ');
+            $replace = array('"','<br>', ' ');
             foreach($license_strings as $value) {
                 $license_string = '';
                 if(isset($po_file[$value[0]]["msgstr"][0])) {
