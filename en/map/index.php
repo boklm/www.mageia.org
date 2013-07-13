@@ -30,7 +30,8 @@ $map = array(
                     array('t' => _t('Reports'),      'l' => '/{L}/about/reports/')
                 )
             ),
-            array('t' => _t('Timeline'), 'l' => '/{L}/timeline/')
+            array('t' => _t('Timeline'), 'l' => '/{L}/timeline/'),
+            array('t' => _t('Financial Infos'), 'l' => '//treasurer.mageia.org/'),
         )
     ),
     'downloads' => array(
