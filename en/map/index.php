@@ -47,7 +47,7 @@ $map = array(
         't' => _t('Support'),
         'l' => '/{L}/support/',
         'i' => array(
-            array('t' => _t('Software updates'),     'l' => '/{L}/support/'), // /updates
+            array('t' => _t('Software updates'),     'l' => '//advisories.mageia.org/'), // /updates
             array('t' => _t('Product lifecycle'),    'l' => '/{L}/support/'), // /lifecycle
             array('t' => _t('Official Documentation'),'l' => 'http://doc.mageia.org'), // documentation
             array('t' => _t('Community support'),    'l' => '/{L}/support'),
