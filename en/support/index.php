@@ -23,7 +23,7 @@ _lang_load($locale, 'support');
             <li><a href="#comm"><?php _e('Community Support')?></a></li>
             <li><a href="#pro"><?php _e('Professional Support')?></a></li>
             <li><a href="//doc.mageia.org/"><?php _e('Documentation')?></a></li>
-            <li><a href="#updates"><?php _e('Updates')?></a></li>
+            <li><a href="//advisories.mageia.org/"><?php _e('Updates')?></a></li>
             <li><a href="#lifecycle"><?php _e('Lifecycle')?></a></li>
             <li><a href="#hw"><?php _e('Hardware Requirements')?></a></li>
             <li><a href="//bugs.mageia.org/"><?php _e('Bugs Reports')?></a></li>
@@ -41,7 +41,7 @@ _lang_load($locale, 'support');
                         echo '<hr>';
 
                         _h('Updates', null, 'h2 id="updates"');
-                        _h('Updates are available for %s and %s (security and bug fixes) and published on an ongoing basis.', array('<a href="../2/">Mageia 2</a>', '<a href="../3/">Mageia 3</a>'));
+                        _h('Updates are available for %s and %s (security and bug fixes) and published on an ongoing basis.', array('<a href="//advisories.mageia.org/2.html">Mageia 2</a>', '<a href="//advisories.mageia.org/3.html">Mageia 3</a>'));
                         _h('You can install these from the Mageia Control Center.');
                         _h('You may subscribe to our %s announce list to be notified of these.', array('<a href="https://ml.mageia.org/l/info/updates-announce">updates-announce</a>'));
                         echo '<hr>';
