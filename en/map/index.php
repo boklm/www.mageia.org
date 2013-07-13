@@ -65,7 +65,6 @@ $map = array(
             array('t' => _t('Blog'),          'l' => _d('http://blog.mageia.org/en/')),
             array('t' => _t('Calendar'),      'l' => '/{L}/calendar/'),
             array('t' => _t('Mailing-lists'), 'l' => 'https://wiki.mageia.org/en/Mailing_lists'),
-            array('t' => _t('Mailing-lists'), 'l' => 'http://ml.mageia.org/'),
             array('t' => 'IRC',               'l' => 'http://wiki.mageia.org/en/IRC'),
             array('t' => _t('Forums'),            'l' => _d('http://forums.mageia.org/')),
             array('t' => 'Wiki',              'l' => 'http://wiki.mageia.org/'),
