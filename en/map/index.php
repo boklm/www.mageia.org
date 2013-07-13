@@ -65,10 +65,10 @@ $map = array(
             array('t' => _t('Blog'),          'l' => _d('http://blog.mageia.org/en/')),
             array('t' => _t('Calendar'),      'l' => '/{L}/calendar/'),
             array('t' => _t('Mailing-lists'), 'l' => 'https://wiki.mageia.org/en/Mailing_lists'),
-            array('t' => 'IRC',               'l' => 'http://wiki.mageia.org/en/IRC'),
-            array('t' => _t('Forums'),            'l' => _d('http://forums.mageia.org/')),
-            array('t' => 'Wiki',              'l' => 'http://wiki.mageia.org/'),
-            array('t' => 'Bugzilla',          'l' => 'http://bugs.mageia.org/'),
+            array('t' => 'IRC',               'l' => 'https://wiki.mageia.org/en/IRC'),
+            array('t' => _t('Forums'),            'l' => _d('https://forums.mageia.org/')),
+            array('t' => 'Wiki',              'l' => 'https://wiki.mageia.org/'),
+            array('t' => 'Bugzilla',          'l' => 'https://bugs.mageia.org/'),
             array('t' => 'People',            'l' => 'http://people.mageia.org/'),
             
         )
@@ -84,9 +84,9 @@ $map = array(
     ),
     'you' => array(
         't' => _t('About you'),
-        'l' => 'http://identity.mageia.org/',
+        'l' => 'https://identity.mageia.org/',
         'i' => array(
-            array('t' => _t('Your Mageia id'), 'l' => 'http://identity.mageia.org/'),
+            array('t' => _t('Your Mageia id'), 'l' => 'https://identity.mageia.org/'),
             array('t' => _t('Privacy policy'), 'l' => '/{L}/about/policies/privacy/')
         )
     )
