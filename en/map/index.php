@@ -69,6 +69,7 @@ $map = array(
             array('t' => _t('Forums'),            'l' => _d('http://forums.mageia.org/')),
             array('t' => 'Wiki',              'l' => 'http://wiki.mageia.org/'),
             array('t' => 'Bugzilla',          'l' => 'http://bugs.mageia.org/'),
+            array('t' => 'People',            'l' => 'http://people.mageia.org/'),
             
         )
     ),
