@@ -38,6 +38,7 @@ include '../../lib/news.php';
             <li><a href="http://ml.mageia.org/"><?php _e('Mailing-lists');?></a></li>
             <li><a href="<?php _e('http://wiki.mageia.org/')?>">Wiki</a></li>
             <li><a href="https://bugs.mageia.org/">Bugzilla</a></li>
+            <li><a href="http://people.mageia.org/">People</a></li>
         </ul>
     </header>
     <div class="para" style="width: 400px;">
