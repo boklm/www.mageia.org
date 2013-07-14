@@ -96,7 +96,7 @@ include '../../lib/news.php';
             <li><a href="<?php _e('https://forum.mageia.org/en/')?>"><?php echo _d('Forums')?></a>,</li>
             <li><a href="<?php _e('http://blog.mageia.org/en/')?>"><?php echo _d('Blog')?></a>,</li>
             <li><?php _e('in real life!')?></li>
-            <li><?php _e('during events!')?></li>
+            <li><a href="https://wiki.mageia.org/en/Events"><?php _e('during events!')?></a></li>
         </ul>
         <hr>
         <h2><?php _e('Teams you can join!')?></h2>
